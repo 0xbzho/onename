@@ -11,6 +11,12 @@
     "cover": {
       "url": "https://s3.amazonaws.com/dx3/madduck"
     },
+    "github": {
+      "proof": {
+        "url": "https://gist.github.com/madduck/107e32346c0c2728db61"
+      },
+      "username": "madduck"
+    },
     "location": {
       "formatted": "München, Freistaat Bayern"
     },
@@ -18,10 +24,26 @@
       "formatted": "martin f. krafft"
     },
     "twitter": {
+      "proof": {
+        "url": "https://twitter.com/martinkrafft/status/704266115329998849"
+      },
       "username": "martinkrafft"
     },
     "v": "0.2",
     "website": "http://martin-krafft.net"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "madduck",
+      "proof_url": "https://gist.github.com/madduck/107e32346c0c2728db61",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "martinkrafft",
+      "proof_url": "https://twitter.com/martinkrafft/status/704266115329998849",
+      "service": "twitter",
+      "valid": true
+    }
+  ]
 }
