@@ -11,8 +11,17 @@
     "cover": {
       "url": "https://s3.amazonaws.com/dx3/kierancassel"
     },
+    "facebook": {
+      "proof": {
+        "url": "https://facebook.com/kierancassel/posts/10153555348782914"
+      },
+      "username": "kierancassel"
+    },
     "github": {
-      "username": "https://github.com/kierancassel"
+      "proof": {
+        "url": "https://gist.github.com/kierancassel/ee1cd03c93dfbdcdd52542f13e5d9dd6"
+      },
+      "username": "kierancassel"
     },
     "location": {
       "formatted": "London, United Kingdom"
@@ -21,9 +30,31 @@
       "formatted": "Kieran Cassel"
     },
     "twitter": {
+      "proof": {
+        "url": "https://twitter.com/KieranCassel/status/717337575602655232"
+      },
       "username": "KieranCassel"
     },
     "v": "0.2"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "kierancassel",
+      "proof_url": "https://gist.github.com/kierancassel/ee1cd03c93dfbdcdd52542f13e5d9dd6",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "KieranCassel",
+      "proof_url": "https://twitter.com/KieranCassel/status/717337575602655232",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "kierancassel",
+      "proof_url": "https://facebook.com/kierancassel/posts/10153555348782914",
+      "service": "facebook",
+      "valid": false
+    }
+  ]
 }
