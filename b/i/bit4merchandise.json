@@ -4,8 +4,26 @@
     "avatar": {
       "url": "https://s3.amazonaws.com/kd4/bit4merchandise"
     },
+    "bitcoin": {
+      "address": "17H2QSnmReZqHY5ew7f579yzW53KpA4SBp"
+    },
     "cover": {
       "url": "https://s3.amazonaws.com/dx3/bit4merchandise"
+    },
+    "facebook": {
+      "proof": {
+        "url": "https://facebook.com/bit4merchandise/posts/124142007988025"
+      },
+      "username": "bit4merchandise"
+    },
+    "github": {
+      "proof": {
+        "url": "https://gist.github.com/bitmerchandise/35e35d1f72ed8e5abf706f41a14c52fc"
+      },
+      "username": "bitmerchandise"
+    },
+    "name": {
+      "formatted": "Bit4 Merchandise"
     },
     "twitter": {
       "proof": {
@@ -17,10 +35,22 @@
   },
   "verifications": [
     {
+      "identifier": "bitmerchandise",
+      "proof_url": "https://gist.github.com/bitmerchandise/35e35d1f72ed8e5abf706f41a14c52fc",
+      "service": "github",
+      "valid": true
+    },
+    {
       "identifier": "@bit4merchandise",
       "proof_url": "https://twitter.com/@bit4merchandise/status/717443035039199237",
       "service": "twitter",
       "valid": false
+    },
+    {
+      "identifier": "bit4merchandise",
+      "proof_url": "https://facebook.com/bit4merchandise/posts/124142007988025",
+      "service": "facebook",
+      "valid": true
     }
   ]
 }
