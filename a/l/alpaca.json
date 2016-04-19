@@ -8,16 +8,54 @@
     "cover": {
       "url": "https://s3.amazonaws.com/dx3/alpaca"
     },
+    "facebook": {
+      "proof": {
+        "url": "https://facebook.com/newliberty.dollar/posts/626509387501476"
+      },
+      "username": "newliberty.dollar"
+    },
+    "github": {
+      "proof": {
+        "url": "https://gist.github.com/josephNLD/916d64ff8553b89dca6b0fe16e338076"
+      },
+      "username": "josephNLD"
+    },
     "location": {
       "formatted": "Online"
     },
     "name": {
       "formatted": "JVP"
     },
+    "pgp": {
+      "fingerprint": "1CEEB0605E713F7ED13F99EDCC146F1E0BD6AF91",
+      "url": "https://pgp.mit.edu/pks/lookup?op=get&search=0xCC146F1E0BD6AF91"
+    },
     "twitter": {
+      "proof": {
+        "url": "https://twitter.com/haq4good/status/721507660504281088"
+      },
       "username": "haq4good"
     },
     "v": "0.2"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "josephNLD",
+      "proof_url": "https://gist.github.com/josephNLD/916d64ff8553b89dca6b0fe16e338076",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "haq4good",
+      "proof_url": "https://twitter.com/haq4good/status/721507660504281088",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "newliberty.dollar",
+      "proof_url": "https://facebook.com/newliberty.dollar/posts/626509387501476",
+      "service": "facebook",
+      "valid": false
+    }
+  ]
 }
