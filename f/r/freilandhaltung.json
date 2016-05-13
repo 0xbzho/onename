@@ -1,21 +1,40 @@
 {
   "owner_address": "19bY3jWu4BrGPnL9mRbFdwZ5iAF1CU2FEV",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/freilandhaltung"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1L272Hfgbw92LoXSbMmt5i8UM41igoHCL6",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Zürich"
     },
-    "bio": "Feldenkraislehrer i.A.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/IKM.jpeg"
-    },
-    "location": {
-      "formatted": "Zürich"
-    },
-    "name": {
-      "formatted": "Andreas Kleemann"
-    },
-    "v": "0.2",
-    "website": "http://freilandhaltung.net"
+    "description": "Feldenkraislehrer i.A.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/freilandhaltung",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Andreas Kleemann",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://freilandhaltung.net"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN freilandhaltung.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/freilandhaltung.id\"\n"
 }
