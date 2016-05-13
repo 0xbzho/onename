@@ -1,37 +1,47 @@
 {
   "owner_address": "1M1n2hJUsfHRDnsX76cKZWASjMwXP1wER9",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/andrewc"
-    },
-    "bio": "Chicago by way of NYC and Maine. I like traveling, tech, running, and beer. I do marketing at a travel website.",
-    "bitcoin": {
-      "address": "16Ru6fszh63yyat2ARjLcqQC9QFxtV5Gud"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/andrewc"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "andrew chase"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/andrewechase/status/542367903555674112"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "16Ru6fszh63yyat2ARjLcqQC9QFxtV5Gud",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "andrewechase"
+      {
+        "@type": "Account",
+        "identifier": "andrewechase",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/andrewechase/status/542367903555674112",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "v": "0.2",
-    "website": "http://instagram.com/andrewechase"
+    "description": "Chicago by way of NYC and Maine. I like traveling, tech, running, and beer. I do marketing at a travel website.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/andrewc",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/andrewc",
+        "name": "cover"
+      }
+    ],
+    "name": "andrew chase",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://instagram.com/andrewechase"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "andrewechase",
-      "proof_url": "https://twitter.com/andrewechase/status/542367903555674112",
-      "service": "twitter",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN andrewc.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/andrewc.id\"\n"
 }
