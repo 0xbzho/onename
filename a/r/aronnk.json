@@ -1,32 +1,33 @@
 {
   "owner_address": "1MT9ioXDsqQNBPZdP5TE6Pjn8xxHeBEVEz",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "@topblock",
-        "service": "openbazaar"
+        "identifier": "",
+        "role": "payment",
+        "service": "bitcoin"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/aronnk"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Germany"
     },
-    "bitcoin": {
-      "address": "16sc9Xmjney9o3d79BHjJcLHAaEW6KGeNV"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/483.jpeg"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/aronnk"
-    },
-    "location": {
-      "formatted": "Germany"
-    },
-    "name": {
-      "formatted": "Aron Nk"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/aronnk",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Aron Nk"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN aronnk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/aronnk.id\"\n"
 }
