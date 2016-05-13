@@ -1,53 +1,65 @@
 {
   "owner_address": "18HE3MFuU4oTzikruvkyPMqiBk2RgjdhuB",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/zlatko"
-    },
-    "bio": "Individuals contribute. Teams win.",
-    "bitcoin": {
-      "address": "14MEz9CUhKM3L8JgsV7FrXeswU1nd37UDt"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/zlatko"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/zlatkobijelic/b5d7ffa87d8c7ba84cbf"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "zlatkobijelic",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "zlatkobijelic"
-    },
-    "location": {
-      "formatted": "S. California"
-    },
-    "name": {
-      "formatted": "Zlatko Bijelic"
-    },
-    "pgp": {
-      "fingerprint": "2FF508161684DB24625F378C5C7B53BB7CFF2F57",
-      "url": "http://pgp.mit.edu/pks/lookup?op=get&search=0x771497BCF9033ECD"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/Zbijelic/status/498248309127933952"
+      {
+        "@type": "Account",
+        "identifier": "14MEz9CUhKM3L8JgsV7FrXeswU1nd37UDt",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "Zbijelic"
+      {
+        "@type": "Account",
+        "contentUrl": "http://pgp.mit.edu/pks/lookup?op=get&search=0x771497BCF9033ECD",
+        "identifier": "2FF508161684DB24625F378C5C7B53BB7CFF2F57",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "88954ddf79184faa8d59be9dc2d057113f5ecfad",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Zbijelic",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Zbijelic/status/730139246472794114",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "S. California"
     },
-    "v": "0.2",
-    "website": "https://www.soxinabox.club"
+    "description": "Individuals contribute. Teams win.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/zlatko",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/zlatko",
+        "name": "cover"
+      }
+    ],
+    "name": "Zlatko Bijelic",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.soxinabox.club"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "zlatkobijelic",
-      "proof_url": "https://gist.github.com/zlatkobijelic/b5d7ffa87d8c7ba84cbf",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "Zbijelic",
-      "proof_url": "https://twitter.com/Zbijelic/status/498248309127933952",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN zlatko.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/zlatko.id\"\n"
 }
