@@ -1,49 +1,53 @@
 {
   "owner_address": "1FGNtGyoQgzsMq8msiYoaaHUKn2GWGjuyy",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/alexanderclose"
-    },
-    "bio": "Teach me something",
-    "bitcoin": {
-      "address": "1PAZwCten1kRBQuCSUV3g4EsZbNLrmseLV"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/alexanderclose"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/sandulz/ca54f0fd79f580ad624f"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sandulz",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "sandulz"
-    },
-    "location": {
-      "formatted": "Vancouver"
-    },
-    "name": {
-      "formatted": "Alexander Close"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/sandulz/status/533044307465211904"
+      {
+        "@type": "Account",
+        "identifier": "1PAZwCten1kRBQuCSUV3g4EsZbNLrmseLV",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "sandulz"
+      {
+        "@type": "Account",
+        "identifier": "alexanderclose",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sandulz/status/533044307465211904",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Vancouver"
     },
-    "v": "0.2",
-    "website": "http://AlexanderClose.com"
+    "description": "Teach me something",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/alexanderclose",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/alexanderclose",
+        "name": "cover"
+      }
+    ],
+    "name": "Alexander Close",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://AlexanderClose.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "sandulz",
-      "proof_url": "https://gist.github.com/sandulz/ca54f0fd79f580ad624f",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "sandulz",
-      "proof_url": "https://twitter.com/sandulz/status/533044307465211904",
-      "service": "twitter",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN alexanderclose.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alexanderclose.id\"\n"
 }
