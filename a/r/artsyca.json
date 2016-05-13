@@ -1,58 +1,61 @@
 {
   "owner_address": "1C1X6xPzGbmym9w3scYf8JrcQF8s16HfRE",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/artsyca"
-    },
-    "bio": "#lovewins",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/artsyca"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/alex.kessaris/posts/1728912827321066"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "artsyca",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/artsyca/status/727585300806041600",
+        "service": "twitter"
       },
-      "username": "alex.kessaris"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/artsyca/233f65a7ffff598d1047"
+      {
+        "@type": "Account",
+        "identifier": "alex.kessaris",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/alex.kessaris/posts/1749431751935840?pnref=story",
+        "service": "facebook"
       },
-      "username": "artsyca"
-    },
-    "location": {
-      "formatted": "Toronto, Ontario"
-    },
-    "name": {
-      "formatted": "Alexandros K"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/artsyca/status/710729068845596672"
+      {
+        "@type": "Account",
+        "identifier": "artsyca",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/artsyca/295ab43ae1e2c7bbfe02cd420a9435b2",
+        "service": "github"
       },
-      "username": "artsyca"
+      {
+        "@type": "Account",
+        "identifier": "1G1szDuLazBWvnoij4BYMktcPZ5kUgoA6B",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Toronto, Ontario"
     },
-    "v": "0.2",
-    "website": "http://emplify.io"
+    "description": "#lovewins",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/artsyca",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/artsyca",
+        "name": "cover"
+      }
+    ],
+    "name": "Alexandros K",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://ca.linkedin.com/in/kessaris"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "artsyca",
-      "proof_url": "https://gist.github.com/artsyca/233f65a7ffff598d1047",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "artsyca",
-      "proof_url": "https://twitter.com/artsyca/status/710729068845596672",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "alex.kessaris",
-      "proof_url": "https://facebook.com/alex.kessaris/posts/1728912827321066",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN artsyca.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/artsyca.id\"\n"
 }
