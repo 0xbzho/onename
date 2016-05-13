@@ -1,45 +1,47 @@
 {
   "owner_address": "1AfJH81HPnbhwpDf2t61K9vEyT3HFMaH7d",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/amoran"
-    },
-    "bio": "",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/amoran"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/amoranzea/2bba7d9db53d767a24a6"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "amoranzea",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "amoranzea"
-    },
-    "location": {
-      "formatted": "Sydney, Australia"
-    },
-    "name": {
-      "formatted": "Alejandro Moran"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/amoranzea/status/709188863776788481"
+      {
+        "@type": "Account",
+        "identifier": "amoranzea",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "amoranzea"
+      {
+        "@type": "Account",
+        "identifier": "amoranzea",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/l.php?u=https%3A%2F%2Fonename.com%2Famoran&h=2AQFk9xNX&s=1",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sydney, Australia"
     },
-    "v": "0.2"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/amoran",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/amoran",
+        "name": "cover"
+      }
+    ],
+    "name": "Alejandro Moran"
   },
-  "verifications": [
-    {
-      "identifier": "amoranzea",
-      "proof_url": "https://gist.github.com/amoranzea/2bba7d9db53d767a24a6",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "amoranzea",
-      "proof_url": "https://twitter.com/amoranzea/status/709188863776788481",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN amoran.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/amoran.id\"\n"
 }
