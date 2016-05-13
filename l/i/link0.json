@@ -1,47 +1,56 @@
 {
   "owner_address": "1Jw9vw16P9sgGbB9FWKFDrYKxhEDWGkDpc",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/link0"
-    },
-    "bitcoin": {
-      "address": "19TBkfjUcrxMCDfaF1a3HJsV43MMVbYmQY"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/Ov8.jpg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/dennisdegreef/625998c469d0a2028318"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "19TBkfjUcrxMCDfaF1a3HJsV43MMVbYmQY",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "dennisdegreef"
-    },
-    "location": {
-      "formatted": "Haarlem"
-    },
-    "name": {
-      "formatted": "Dennis de Greef"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/dennisdegreef/status/521076410253729793"
+      {
+        "@type": "Account",
+        "identifier": "dennisdegreef",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dennisdegreef/status/726390371589181441",
+        "service": "twitter"
       },
-      "username": "dennisdegreef"
+      {
+        "@type": "Account",
+        "identifier": "dennisdegreef",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dennisdegreef/d9722a687e3e971f0a55e4421d12319a",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "http://pgp.mit.edu/pks/lookup?op=get&search=0x4E0D2AAD77993765",
+        "identifier": "0x4E0D2AAD77993765",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Haarlem"
     },
-    "v": "0.2"
+    "graph": {
+      "url": "https://s3.amazonaws.com/grph/link0"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/link0",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Dennis de Greef"
   },
-  "verifications": [
-    {
-      "identifier": "dennisdegreef",
-      "proof_url": "https://gist.github.com/dennisdegreef/625998c469d0a2028318",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "dennisdegreef",
-      "proof_url": "https://twitter.com/dennisdegreef/status/521076410253729793",
-      "service": "twitter",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN link0.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/link0.id\"\n"
 }
