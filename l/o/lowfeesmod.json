@@ -1,48 +1,41 @@
 {
   "owner_address": "1BFykGisf1kZkCojFnw2anawo5nWGcTAsc",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "service": "openbazaar"
+        "identifier": "teo_riccardi",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "liquorburn",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/lowfeesmod",
+        "identifier": "C2D6350C",
+        "role": "key",
+        "service": "pgp"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/lowfeesmod"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/lowfeesmod"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/liquorburn/933ebf7f44c56eb1f8bd4d8644f8f997"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/lowfeesmod",
+        "name": "avatar"
       },
-      "username": "liquorburn"
-    },
-    "pgp": {
-      "fingerprint": "C2D6350C",
-      "url": "https://s3.amazonaws.com/pk9/lowfeesmod"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/teo_riccardi/status/722504333791772672"
-      },
-      "username": "teo_riccardi"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/lowfeesmod",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "liquorburn",
-      "proof_url": "https://gist.github.com/liquorburn/933ebf7f44c56eb1f8bd4d8644f8f997",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "teo_riccardi",
-      "proof_url": "https://twitter.com/teo_riccardi/status/722504333791772672",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN lowfeesmod.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lowfeesmod.id\"\n"
 }
