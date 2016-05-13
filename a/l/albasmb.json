@@ -1,29 +1,30 @@
 {
   "owner_address": "1Eth7GgFuaT8rsXPHyZm9w9BB8qy37aXGj",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/483.jpeg"
-    },
-    "facebook": {
-      "username": "batu.albas"
-    },
-    "name": {
-      "formatted": "Batu"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/8thcolumn/status/720406525185896448"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "----------",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "8thcolumn"
-    },
-    "v": "0.2"
+      {
+        "@type": "Account",
+        "identifier": "-",
+        "proofType": "http",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Batu"
   },
-  "verifications": [
-    {
-      "identifier": "8thcolumn",
-      "proof_url": "https://twitter.com/8thcolumn/status/720406525185896448",
-      "service": "twitter",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN albasmb.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/albasmb.id\"\n"
 }
