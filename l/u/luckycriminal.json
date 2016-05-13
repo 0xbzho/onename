@@ -1,29 +1,40 @@
 {
   "owner_address": "1MKFjsZ8DGKm5NhjNmntmTx2TmbsiXBWLr",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/luckycriminal"
-    },
-    "bitcoin": {
-      "address": "1A6u8M38BdgvJQ8M9EvKj5tLSFfijr­BueM"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/luckycriminal"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/lucky_criminal/status/498538043192909824"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1A6u8M38BdgvJQ8M9EvKj5tLSFfijr­BueM",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "lucky_criminal"
-    },
-    "v": "0.2"
+      {
+        "@type": "Account",
+        "identifier": "218778f1d7c6e05ac2cedc407f6396f8a7d6f31a",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lucky_criminal",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Lucky_Criminal/status/498538043192909824",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/luckycriminal",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/luckycriminal",
+        "name": "avatar"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "lucky_criminal",
-      "proof_url": "https://twitter.com/lucky_criminal/status/498538043192909824",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN luckycriminal.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/luckycriminal.id\"\n"
 }
