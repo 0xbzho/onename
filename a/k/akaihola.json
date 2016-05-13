@@ -1,52 +1,59 @@
 {
   "owner_address": "1reDqTSUaAt4CRTCk8HRj5U4kNPcLNC19",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/akaihola"
-    },
-    "bio": "Python guy at Eniram Oy",
-    "bitcoin": {
-      "address": "37oDERTBUGAfraHia7vjLVuNwq6rf8n7no"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/northern-lights.jpg"
-    },
-    "facebook": {
-      "username": "akaihola"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/akaihola/1f72280d1c560ce29f7e"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "akaihola",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "akaihola"
-    },
-    "location": {
-      "formatted": "Espoo, Finland"
-    },
-    "name": {
-      "formatted": "Antti Kaihola"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/akaihola/status/505490501525446656"
+      {
+        "@type": "Account",
+        "identifier": "akaihola",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "akaihola"
+      {
+        "@type": "Account",
+        "identifier": "37oDERTBUGAfraHia7vjLVuNwq6rf8n7no",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "akaihola",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/akaihola/posts/10153500923468021?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Espoo, Finland"
     },
-    "v": "0.2",
-    "website": "http://about.me/akaihola"
+    "description": "Python guy at Eniram Oy",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/akaihola",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/northern-lights.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Antti Kaihola",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://about.me/akaihola"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "akaihola",
-      "proof_url": "https://gist.github.com/akaihola/1f72280d1c560ce29f7e",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "akaihola",
-      "proof_url": "https://twitter.com/akaihola/status/505490501525446656",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN akaihola.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/akaihola.id\"\n"
 }
