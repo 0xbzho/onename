@@ -1,37 +1,53 @@
 {
   "owner_address": "15ScZnNTZ5gARVfbE728CVohGg3moLKq6D",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/laurent_picard"
-    },
-    "bio": "",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/laurent_picard"
-    },
-    "facebook": {
-      "username": "laurent.picard"
-    },
-    "location": {
-      "formatted": "Poitiers"
-    },
-    "name": {
-      "formatted": "Laurent Picard"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/pluton86/status/699326889245208577"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "pluton86",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "pluton86"
+      {
+        "@type": "Account",
+        "identifier": "laurent.picard",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lpicard",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/lpicard/0dbe844a3cc603fb96945af7fc4d6de7",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Poitiers"
     },
-    "v": "0.2",
-    "website": "http://about.me/laurent.picard"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/laurent_picard",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/laurent_picard",
+        "name": "cover"
+      }
+    ],
+    "name": "Laurent Picard",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://about.me/laurent.picard"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "pluton86",
-      "proof_url": "https://twitter.com/pluton86/status/699326889245208577",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN laurent_picard.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/laurent_picard.id\"\n"
 }
