@@ -1,0 +1,42 @@
+{
+  "owner_address": "1FFycFoJhMwDm7kFCo9MRZtvtfHLUUfM9f",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "c60c767e7af8c074e921f7bbb8c35e82ba6c6de1",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/amustafa/82b8433c491f613aaeead011ce1a79a1",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1Btq7PJGVygeS1tWNG2fLxY96wrU3nAsuk",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "http://hkps.pool.sks-keyservers.net/pks/lookup?op=get&search=0x2CDE438F0D3CF37F",
+        "identifier": "0x53a8aa0320d16080",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bitbite",
+        "name": "avatar"
+      }
+    ],
+    "name": "Bitbite"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN bitbite.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bitbite.id\"\n"
+}
