@@ -1,23 +1,35 @@
 {
   "owner_address": "1EJxTNYjJf1NGPDCCoqgGzoJp5xMBusevH",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/wildturkeypress"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "WildTurkeyPress",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/WildTurkeyPress/status/717520270337122308",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New Hampshire, USA"
     },
-    "bio": "Tweets on samsara, tweets on nirvana, tweets neither here nor there. #Poesy #Anarchy #InconceivableLiberation",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/wildturkeypress"
-    },
-    "location": {
-      "formatted": "New Hampshire, USA"
-    },
-    "name": {
-      "formatted": "Illusory Bodies"
-    },
-    "twitter": {
-      "username": "WildTurkeyPress"
-    },
-    "v": "0.2"
+    "description": "Poesy. Anarchy. Inconceivable Liberation.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/wildturkeypress",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/wildturkeypress",
+        "name": "avatar"
+      }
+    ],
+    "name": "Wild Turkey Press"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN wildturkeypress.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wildturkeypress.id\"\n"
 }
