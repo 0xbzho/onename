@@ -1,52 +1,66 @@
 {
   "owner_address": "1BaxZSD81vknNPJzfwczXFeUFVzgfdcEUX",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/densmirnov"
-    },
-    "bio": "CEO & Co-founder @ #iPublishing",
-    "bitcoin": {
-      "address": "16hx9KCf1rjaJXVjTuDR4hTtyJRcvAXHoi"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/densmirnov"
-    },
-    "facebook": {
-      "username": "densmirnov"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/densmirnov/082700d2656beb683287"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "densmirnov",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "densmirnov"
-    },
-    "location": {
-      "formatted": "Москва, Россия"
-    },
-    "name": {
-      "formatted": "densmirnov"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/densmirnov/status/707057375845474304"
+      {
+        "@type": "Account",
+        "identifier": "16hx9KCf1rjaJXVjTuDR4hTtyJRcvAXHoi",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "densmirnov"
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/densmirnov",
+        "identifier": "densmirnov@me.com",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "densmirnov",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/densmirnov/status/707057573367844864",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "densmirnov",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/densmirnov/082700d2656beb683287",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Москва, Россия"
     },
-    "v": "0.2",
-    "website": "http://www.densmirnov.com"
+    "description": "CEO & Co-founder @ #iPublishing",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/densmirnov",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/densmirnov",
+        "name": "cover"
+      }
+    ],
+    "name": "densmirnov",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.densmirnov.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "densmirnov",
-      "proof_url": "https://gist.github.com/densmirnov/082700d2656beb683287",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "densmirnov",
-      "proof_url": "https://twitter.com/densmirnov/status/707057375845474304",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN densmirnov.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/densmirnov.id\"\n"
 }
