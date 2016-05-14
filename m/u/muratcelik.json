@@ -1,13 +1,37 @@
 {
   "owner_address": "1AQKcstnxTgEd69dNmZUMnESSG2AvWnsww",
   "profile": {
-    "bitcoin": {
-      "address": "1AzkRLvBHJfExzX8TCnoHEP6dwoXCxKX7m"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/lUU.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1AzkRLvBHJfExzX8TCnoHEP6dwoXCxKX7m",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "_muratcelik",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/_muratcelik/status/729583568649850880",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "muratcelik",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/muratcelik/8dbb3f9cadc737178e776d6143855823",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN muratcelik.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/muratcelik.id\"\n"
 }
