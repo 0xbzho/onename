@@ -1,33 +1,36 @@
 {
   "owner_address": "14LNvCRzAv6WA9qmQ9xk8qHkTNv26RqmHZ",
   "profile": {
-    "bio": "n/a",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/Ov8.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/chris.vogel.9674/posts/10103562502273849"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "chris.vogel.9674",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "chris.vogel.9674"
+      {
+        "@type": "Account",
+        "identifier": "chrismvogel",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ChrisMVogel/status/727312142735544320",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kansas City"
     },
-    "location": {
-      "formatted": "Kansas City"
-    },
-    "name": {
-      "formatted": "Chris Vogel"
-    },
-    "twitter": {
-      "username": "chrismvogel"
-    },
-    "v": "0.2"
+    "description": "n/a",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Chris Vogel"
   },
-  "verifications": [
-    {
-      "identifier": "chris.vogel.9674",
-      "proof_url": "https://facebook.com/chris.vogel.9674/posts/10103562502273849",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN chrismv.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/chrismv.id\"\n"
 }
