@@ -1,55 +1,59 @@
 {
   "owner_address": "1LT8uk541GV5BgNeyv2LJd9rtdGHycV84C",
   "profile": {
+    "@type": "Person",
     "account": [
+      {
+        "@type": "Account",
+        "identifier": "1HbqfM1PW3K7zqcNonmL6dUuLWTpqJe5Dc",
+        "role": "payment",
+        "service": "bitcoin"
+      },
       {
         "@type": "Account",
         "identifier": "0ce802be68310b63f1b68c2522671312df03b3dc",
         "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/delevrything",
+        "identifier": null,
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "delevrything",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/delevrything/3a99c570e72257d1abadb4922191c270",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "delevrything",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/delevrything/status/728354763679608832",
+        "service": "twitter"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/delevrything"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "AEDIOT@OPENALIASBOX.ORG"
     },
-    "bio": "Love is a virtue. Да здравствует атакующему. Moderator and seller on @openbazaar. Ваша любовь наполняет вас с определением. Probably in #ScoobaSquad.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/wkj.jpeg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/delevrything/e91482fc591e0ee7f610af492dd5c80f"
+    "description": "Love is a virtue. Да здравствует атакующему. Moderator and seller on @openbazaar. Ваша любовь наполняет вас с определением.         One who dwells with crypto.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/delevrything",
+        "name": "cover"
       },
-      "username": "delevrything"
-    },
-    "location": {
-      "formatted": "AEDIOT@OPENALIASBOX.ORG"
-    },
-    "name": {
-      "formatted": "aediot@localhost:~$"
-    },
-    "pgp": {
-      "url": "https://s3.amazonaws.com/pk9/delevrything"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/delevrything/status/723981943440838660"
-      },
-      "username": "delevrything"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/delevrything",
+        "name": "avatar"
+      }
+    ],
+    "name": "aediot@localhost:~$"
   },
-  "verifications": [
-    {
-      "identifier": "delevrything",
-      "proof_url": "https://gist.github.com/delevrything/e91482fc591e0ee7f610af492dd5c80f",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "delevrything",
-      "proof_url": "https://twitter.com/delevrything/status/723981943440838660",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN delevrything.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/delevrything.id\"\n"
 }
