@@ -1,0 +1,56 @@
+{
+  "owner_address": "1F9LmLPuj9VtUPK1ZpRZ2hzfzmXZopAvwF",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nerdblurt",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/nerdblurt/99b6b80bd5f2ff8a92df162e001f2d5a",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "NerdBlurt",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/NerdBlurt/status/724662140364308480",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ldanakos",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ldanakos/posts/10153485470126373?notif_t=like&notif_id=1461608574377063",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "3PvPqtFc3Y26VJyi3FGzRYhNZGe9J03efb",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nerdblurt",
+        "name": "avatar"
+      }
+    ],
+    "name": "Luigi Danakos",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://nerdblurt.com"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN nerdblurt.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nerdblurt.id\"\n"
+}
