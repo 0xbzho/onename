@@ -1,57 +1,49 @@
 {
   "owner_address": "1968yepiAdsdyMLwE8gZQd9ciJuJrnUawq",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/gregoiredore"
-    },
-    "bio": "Passionate about Innovation !",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/gregoiredore"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/gregoire.dore/posts/10153468181258727"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gregoiredore",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/gregoiredore/9f4d9baa03cc94f5ba88e5cbc2332049",
+        "service": "github"
       },
-      "username": "gregoire.dore"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/gregoiredore/03a87eeb9c92c2604e49"
+      {
+        "@type": "Account",
+        "identifier": "gregoire.dore",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/gregoire.dore/posts/10153676626008727",
+        "service": "facebook"
       },
-      "username": "gregoiredore"
+      {
+        "@type": "Account",
+        "identifier": "gregoiredore",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gregoiredore/status/729784008901435392",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco, California"
     },
-    "location": {
-      "formatted": "San Francisco, California"
-    },
-    "name": {
-      "formatted": "Grégoire Doré"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/gregoiredore/status/715004954411274240"
+    "description": "Passionate about Innovation.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gregoiredore",
+        "name": "avatar"
       },
-      "username": "gregoiredore"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/gregoiredore",
+        "name": "cover"
+      }
+    ],
+    "name": "Grégoire Doré"
   },
-  "verifications": [
-    {
-      "identifier": "gregoiredore",
-      "proof_url": "https://gist.github.com/gregoiredore/03a87eeb9c92c2604e49",
-      "service": "github",
-      "valid": false
-    },
-    {
-      "identifier": "gregoiredore",
-      "proof_url": "https://twitter.com/gregoiredore/status/715004954411274240",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "gregoire.dore",
-      "proof_url": "https://facebook.com/gregoire.dore/posts/10153468181258727",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN gregoiredore.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gregoiredore.id\"\n"
 }
