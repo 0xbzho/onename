@@ -1,52 +1,45 @@
 {
   "owner_address": "18WNK7g3qKHoj8rPqkqEj7PE1catkVNQJC",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "599c6e4f0cdd930061e9aa34fac71ffca24e3dbf",
+        "identifier": "mattsantosdc",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mattsantosdc",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "317375e98375c8030687a6f8e75bbb513ca325f0",
         "service": "openbazaar"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/drmatt"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "bio": "",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/Ov8.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/mattsantosdc/posts/10206186628801023"
+    "description": "Dr. Matt",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/drmatt",
+        "name": "avatar"
       },
-      "username": "mattsantosdc"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Matt Santos"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/mattsantosdc/status/714995458477674496"
-      },
-      "username": "mattsantosdc"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Matt Santos"
   },
-  "verifications": [
-    {
-      "identifier": "mattsantosdc",
-      "proof_url": "https://twitter.com/mattsantosdc/status/714995458477674496",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "mattsantosdc",
-      "proof_url": "https://facebook.com/mattsantosdc/posts/10206186628801023",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN drmatt.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/drmatt.id\"\n"
 }
