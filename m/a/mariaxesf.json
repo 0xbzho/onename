@@ -1,37 +1,41 @@
 {
   "owner_address": "1KQ2E1UBu8r3JDi533kxPrHysDkHfaNHWK",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/mariaxesf"
-    },
-    "bio": "Interaction designer, info activism, data, new sound geographies, Founder of https://t.co/TaPBaVmdJZ. Designer at @resonatecoop. Ethical design, cooperatives.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/rv1.jpeg"
-    },
-    "facebook": {
-      "username": "xesfigim"
-    },
-    "location": {
-      "formatted": "Berlin, Germany"
-    },
-    "name": {
-      "formatted": "Maria Xesfyngi"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/mraxsfngi/status/700689311847489537"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mraxsfngi",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "mraxsfngi"
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "mexico"
     },
-    "v": "0.2",
-    "website": "http://www.mariaxesfyngi.com"
+    "description": ".",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mariaxesf",
+        "name": "avatar"
+      }
+    ],
+    "name": "ganga",
+    "website": []
   },
-  "verifications": [
-    {
-      "identifier": "mraxsfngi",
-      "proof_url": "https://twitter.com/mraxsfngi/status/700689311847489537",
-      "service": "twitter",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN mariaxesf.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mariaxesf.id\"\n"
 }
