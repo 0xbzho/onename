@@ -1,49 +1,54 @@
 {
   "owner_address": "1K9wLj3kYENY2HRhYFTEqtmyySUgoQ2ckX",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/martindesaulles"
-    },
-    "bio": "University Lecturer",
-    "bitcoin": {
-      "address": "1L2e4UNV9jycE1sg8uWynuVB7DFQRfhXjM"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/L2N.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/martin.desaulles/posts/759942447387782"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1L2e4UNV9jycE1sg8uWynuVB7DFQRfhXjM",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "martin.desaulles"
-    },
-    "location": {
-      "formatted": "UK"
-    },
-    "name": {
-      "formatted": "Martin De Saulles"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/mdesaulles/status/533254709797081089"
+      {
+        "@type": "Account",
+        "identifier": "mdesaulles",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mdesaulles/status/728158002314809344",
+        "service": "twitter"
       },
-      "username": "mdesaulles"
+      {
+        "@type": "Account",
+        "identifier": "martin.desaulles",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/martin.desaulles/posts/1014998055215552",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "UK"
     },
-    "v": "0.2",
-    "website": "http://www.mdesaulles.net"
+    "description": "University Lecturer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/martindesaulles",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Martin De Saulles",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://informationmatters.net"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "mdesaulles",
-      "proof_url": "https://twitter.com/mdesaulles/status/533254709797081089",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "martin.desaulles",
-      "proof_url": "https://facebook.com/martin.desaulles/posts/759942447387782",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN martindesaulles.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/martindesaulles.id\"\n"
 }
