@@ -1,68 +1,68 @@
 {
   "owner_address": "1NmbfpAh8X6LpGu2bPVbTeUF3vKkGHaWMP",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/tehleviter"
-    },
-    "bio": "Technology enthusiast, coffee drinker, bitcoin user, libertarian.",
-    "bitcoin": {
-      "address": "1EFbtWXb5MCVZfL1Nq67haUz4bKdJDsbsq"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/tehleviter"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/fhavrlent/posts/1034758733285305"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1EFbtWXb5MCVZfL1Nq67haUz4bKdJDsbsq",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "fhavrlent"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/TehLeviter/b50ea9dee69e810be106"
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/tehleviter",
+        "identifier": "BA1D5C831C63287A192E47AB51C12F7C36B96206",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "TehLeviter"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/tehleviter"
-    },
-    "location": {
-      "formatted": "Bratislava"
-    },
-    "name": {
-      "formatted": "Filip Havrlent"
-    },
-    "pgp": {
-      "fingerprint": "",
-      "url": "https://s3.amazonaws.com/pk9/tehleviter"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/TehLeviter/status/721666626085658624"
+      {
+        "@type": "Account",
+        "identifier": "TehLeviter",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/TehLeviter/b50ea9dee69e810be106",
+        "service": "github"
       },
-      "username": "TehLeviter"
+      {
+        "@type": "Account",
+        "identifier": "fhavrlent",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/fhavrlent/posts/1034758733285305",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "TehLeviter",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TehLeviter/status/721666626085658624",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bratislava"
     },
-    "v": "0.2",
-    "website": "http://maddrop.sk"
+    "description": "Technology enthusiast, coffee drinker, bitcoin user, libertarian.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tehleviter",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/tehleviter",
+        "name": "cover"
+      }
+    ],
+    "name": "Filip Havrlent",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://maddrop.sk"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "TehLeviter",
-      "proof_url": "https://gist.github.com/TehLeviter/b50ea9dee69e810be106",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "TehLeviter",
-      "proof_url": "https://twitter.com/TehLeviter/status/721666626085658624",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "fhavrlent",
-      "proof_url": "https://facebook.com/fhavrlent/posts/1034758733285305",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN tehleviter.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tehleviter.id\"\n"
 }
