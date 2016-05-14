@@ -1,26 +1,39 @@
 {
   "owner_address": "1FDR2UJZgmHw199ZrJq73XiQCYw1kQyXYX",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/L2N.jpeg"
-    },
-    "facebook": {
-      "username": "https://www.facebook.com/william.felix.chou"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/erreur404/f6a2fdf34d9f65e89eb3"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "william.felix.chou",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "erreur404"
+      {
+        "@type": "Account",
+        "identifier": "erreur404",
+        "proofType": "http",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "France"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/william_felix_benoit",
+        "name": "avatar"
+      }
+    ],
+    "name": "William Félix Benoît Attié"
   },
-  "verifications": [
-    {
-      "identifier": "erreur404",
-      "proof_url": "https://gist.github.com/erreur404/f6a2fdf34d9f65e89eb3",
-      "service": "github",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN william_felix_benoit.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/william_felix_benoit.id\"\n"
 }
