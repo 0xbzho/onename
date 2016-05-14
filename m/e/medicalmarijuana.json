@@ -1,17 +1,44 @@
 {
   "owner_address": "18ZpqAg56MUXFteJcgyxF2QKbGw5EN4yXG",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
+        "identifier": "0082b1db8b59414bffdc778c64b14e88f0e2d1",
+        "service": "open bazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "0082b1db8b59414bffdc778c64b14e88f0e2d1",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/tim.blankers/posts/10209081700220904",
+        "service": "openbazaa"
+      },
+      {
+        "@type": "Account",
+        "identifier": "iambloctopus",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/IamBloctopus/status/728712873518759939",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
         "identifier": "0082b1db8b59414bffdc778c64b14e88f0e2d107",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/titusblair/4eb00726ecfdb0bba9ef03f74a52152e",
         "service": "openbazaar"
       }
     ],
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/OSA.jpeg"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "MMJ"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN medicalmarijuana.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/medicalmarijuana.id\"\n"
 }
