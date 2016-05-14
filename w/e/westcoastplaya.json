@@ -1,46 +1,55 @@
 {
   "owner_address": "1Pbbq37PF5cu9LAyoPJ1idLpn735t2Tc9P",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
+        "identifier": "1EiWcwLYoqDAiUWVSi2TQaAcR3UzstV2bN",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Sean_Tatro1",
+        "proofType": "http",
+        "proofUrl": "https://mobile.twitter.com/Sean_Tatro1/status/728024153408700418",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "WestCoastPlaya",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/WestCoastPlaya/a13830d6cbb1cc0c49ecaac74e6db18a",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
         "identifier": "5483cc4599e8d951ef6a6477e9ca8993532606ac",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Empty2k12/f414fbd9ebae07340b5c4ced0f9eed09",
         "service": "openbazaar"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/westcoastplaya"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Reno, NV"
     },
-    "bio": "",
-    "bitcoin": {
-      "address": "1EiWcwLYoqDAiUWVSi2TQaAcR3UzstV2bN"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/QAd.jpeg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/anonymous/5962346332bbd9d0811b"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/westcoastplaya",
+        "name": "avatar"
       },
-      "username": "anonymous"
-    },
-    "location": {
-      "formatted": "Reno, NV"
-    },
-    "name": {
-      "formatted": "Sean Tatro"
-    },
-    "twitter": {
-      "username": "Sean_Tatro1"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Sean Tatro"
   },
-  "verifications": [
-    {
-      "identifier": "anonymous",
-      "proof_url": "https://gist.github.com/anonymous/5962346332bbd9d0811b",
-      "service": "github",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN westcoastplaya.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/westcoastplaya.id\"\n"
 }
