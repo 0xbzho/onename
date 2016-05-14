@@ -1,61 +1,60 @@
 {
   "owner_address": "1LW2dKzDgiJWuiQvpDt8jSWzFUt4cx9C7q",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/raisetheblack"
-    },
-    "bio": "Technology Enthusiast, Musician, Student of Philosophy.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/raisetheblack"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/robertalbanox/posts/1050388081689419"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "https:",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "robertalbanox"
-    },
-    "github": {
-      "proof": {
-        "url": "https://github.com/raisetheblack"
+      {
+        "@type": "Account",
+        "identifier": "1E6SfVq6BLQeuZu3tvr3h5dqWWyniUc12W",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "https:"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/raisetheblack"
-    },
-    "location": {
-      "formatted": "Chicago, IL"
-    },
-    "name": {
-      "formatted": "Czar"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/Sickvapes/status/715137386540183553"
+      {
+        "@type": "Account",
+        "identifier": "Sickvapes",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Sickvapes/status/726399755258089472",
+        "service": "twitter"
       },
-      "username": "Sickvapes"
+      {
+        "@type": "Account",
+        "identifier": "robertalbanox",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/RobertAlbanox/posts/1070061506388743",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chicago, IL"
     },
-    "v": "0.2",
-    "website": "http://www.sickvapes.net"
+    "description": "Technology Enthusiast, Musician, Student of Philosophy, Day Trader, Eliquid & CBD Supplier.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/raisetheblack",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/raisetheblack",
+        "name": "cover"
+      }
+    ],
+    "name": "CZAR",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.sickvapes.net"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "https:",
-      "proof_url": "https://github.com/raisetheblack",
-      "service": "github",
-      "valid": false
-    },
-    {
-      "identifier": "Sickvapes",
-      "proof_url": "https://twitter.com/Sickvapes/status/715137386540183553",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "robertalbanox",
-      "proof_url": "https://facebook.com/robertalbanox/posts/1050388081689419",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN raisetheblack.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/raisetheblack.id\"\n"
 }
