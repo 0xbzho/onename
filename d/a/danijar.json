@@ -1,58 +1,53 @@
 {
   "owner_address": "1HMV8xbG456paXi8JDbY923qSS8Z4UwDon",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/danijar"
-    },
-    "bio": "Python and C++ programmer interested in Machine Intelligence research",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/danijar"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/danijarhafner/posts/1024219170986521"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "danijarh",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "danijarhafner"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/danijar/74dc1d2cc148a72373ec"
+      {
+        "@type": "Account",
+        "identifier": "danijar",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "danijar"
+      {
+        "@type": "Account",
+        "identifier": "danijarh",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/danijarhafner/posts/1024219170986521",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Berlin"
     },
-    "location": {
-      "formatted": "Berlin"
-    },
-    "name": {
-      "formatted": "Danijar Hafner"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/danijarh/status/707876065017012224"
+    "description": "Python and C++ programmer interested in Machine Intelligence research",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/danijar",
+        "name": "avatar"
       },
-      "username": "danijarh"
-    },
-    "v": "0.2",
-    "website": "http://danijar.com"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/danijar",
+        "name": "cover"
+      }
+    ],
+    "name": "Danijar Hafner",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://danijar.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "danijar",
-      "proof_url": "https://gist.github.com/danijar/74dc1d2cc148a72373ec",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "danijarh",
-      "proof_url": "https://twitter.com/danijarh/status/707876065017012224",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "danijarhafner",
-      "proof_url": "https://facebook.com/danijarhafner/posts/1024219170986521",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN danijar.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/danijar.id\"\n"
 }
