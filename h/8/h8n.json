@@ -1,25 +1,39 @@
 {
   "owner_address": "12oSjzzYuXjdADjA1jVaxFtVugJq1dau4b",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/h8n"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "haydensm_th",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1QAAmHTCmaQcxdyyqyD4f31YWLEJuX5hty",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "bitcoin": {
-      "address": "1JwjQkWwzCJTYvLPYCLaw4Xq4DHj4pg5St"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/h8n"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Hayden S"
-    },
-    "twitter": {
-      "username": "haydensm_th"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/h8n",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/h8n",
+        "name": "cover"
+      }
+    ],
+    "name": "Hayden S"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN h8n.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/h8n.id\"\n"
 }
