@@ -1,16 +1,30 @@
 {
   "owner_address": "1KmzW9ZVrmw5gACvKFhkwZsZYprsYPbJEC",
   "profile": {
-    "bitcoin": {
-      "address": "1mt9X5isTM6BT26Xxiv3L98c4m9DVuZdA"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/lUU.jpeg"
-    },
-    "facebook": {
-      "username": "oohiashu"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1mt9X5isTM6BT26Xxiv3L98c4m9DVuZdA",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "oohiashu",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/oohiashu",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN oohiashu.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/oohiashu.id\"\n"
 }
