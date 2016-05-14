@@ -1,0 +1,53 @@
+{
+  "owner_address": "1AJ7WjDEprnfbNMscX9f7fQh7b1fAPtqVs",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/rrains",
+        "identifier": "894D8092493A4043219FE45237C7B484D70841",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "17ZmQoXLW2fSFzuDeCzqAxk6ve7njLBatw",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rrains",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rrains/5badc1d5109c1910748c6f4d2369dd89",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "b6aad13f367b095ad93337d9ad80198b78ad7e78",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Germany"
+    },
+    "description": "I am a hacktivist working to influence positive social change.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Richard Rainsford",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://rainsford.net"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN rrains.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rrains.id\"\n"
+}
