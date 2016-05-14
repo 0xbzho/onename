@@ -1,49 +1,52 @@
 {
   "owner_address": "16XAa2ZFnXoZN95W2hJcn8gWJf2B2kUv4y",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/ganczar"
-    },
-    "bio": "entrepreneur, software engineer, co-founder @sondasports, self-quantifier, fitness nut",
-    "bitcoin": {
-      "address": "1GAhygr4FcenqzYk7p52BnLh51nzuypD9h"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/ganczar"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/ganczar/a1caa4ee7b5323cae3d8"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ganczaro",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "ganczar"
-    },
-    "location": {
-      "formatted": "Wroclaw, Poland"
-    },
-    "name": {
-      "formatted": "Wojciech Ganczarski"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/ganczaro/status/493266834146484224"
+      {
+        "@type": "Account",
+        "identifier": "ganczar",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "ganczaro"
+      {
+        "@type": "Account",
+        "identifier": "185qBuFSc6CxUdKaB5kEKMf8W9VnM6uWRi",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Wroclaw, Poland"
     },
-    "v": "0.2",
-    "website": "http://ganczar.net"
+    "description": "entrepreneur, software engineer, co-founder @sondasports, self-quantifier, fitness nut",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ganczar",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ganczar",
+        "name": "cover"
+      }
+    ],
+    "name": "Wojciech Ganczarski",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://ganczar.net"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "ganczar",
-      "proof_url": "https://gist.github.com/ganczar/a1caa4ee7b5323cae3d8",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "ganczaro",
-      "proof_url": "https://twitter.com/ganczaro/status/493266834146484224",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN ganczar.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ganczar.id\"\n"
 }
