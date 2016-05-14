@@ -1,10 +1,22 @@
 {
   "owner_address": "1HDtZf8wqdt2SJDrD53CsNyJJWd3fpRy4k",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/wkj.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cd0a0f80dfb9e84375767366ff54ca5db4e26e88",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN pafesapitit.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pafesapitit.id\"\n"
 }
