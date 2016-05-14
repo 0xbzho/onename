@@ -1,65 +1,67 @@
 {
   "owner_address": "1G2SnG4iVwJSPKJb29FobhjrBmPRzKCL6D",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/ntilotta"
-    },
-    "bio": "Full-Stack Developer, Ethical Hacker, Linux Lover and TV Series Addicted.",
-    "bitcoin": {
-      "address": "1FjGa3kzmFYmRZSCCAqQhLQ61E4jLQfX2p"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/ntilotta"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/ntilotta/posts/1519528471692745"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1FjGa3kzmFYmRZSCCAqQhLQ61E4jLQfX2p",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "nltilotta"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/ntilotta/97e3a5f5cf35d6a8a4d9"
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/ntilotta",
+        "identifier": "EE86A9D85E79FD106989ADA9A0C54E71C6E3112B",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "ntilotta"
-    },
-    "location": {
-      "formatted": "/dev/null"
-    },
-    "name": {
-      "formatted": "Nicolò Tilotta"
-    },
-    "pgp": {
-      "fingerprint": "EE86A9D85E79FD106989ADA9A0C54E71C6E3112B",
-      "url": "https://s3.amazonaws.com/pk9/ntilotta"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/ntilotta/status/645253123104219137"
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "ntilotta"
+      {
+        "@type": "Account",
+        "identifier": "ntilotta",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ntilotta/status/645253123104219137",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ntilotta",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ntilotta/97e3a5f5cf35d6a8a4d9",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "/dev/null"
     },
-    "v": "0.2",
-    "website": "https://ntilotta.github.io"
+    "description": "Full-Stack Developer, Ethical Hacker, Linux Lover and TV Series Addicted.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ntilotta",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ntilotta",
+        "name": "cover"
+      }
+    ],
+    "name": "Nicolò Tilotta",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://ntilotta.github.io"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "ntilotta",
-      "proof_url": "https://gist.github.com/ntilotta/97e3a5f5cf35d6a8a4d9",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "ntilotta",
-      "proof_url": "https://twitter.com/ntilotta/status/645253123104219137",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "nltilotta",
-      "proof_url": "https://facebook.com/ntilotta/posts/1519528471692745",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN ntilotta.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ntilotta.id\"\n"
 }
