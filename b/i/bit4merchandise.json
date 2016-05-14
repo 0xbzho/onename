@@ -1,56 +1,55 @@
 {
   "owner_address": "1PoN6uWZoLjaY5zeTr6rt4iv9thSCcpF9J",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/bit4merchandise"
-    },
-    "bitcoin": {
-      "address": "17H2QSnmReZqHY5ew7f579yzW53KpA4SBp"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/bit4merchandise"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/bit4merchandise/posts/124142007988025"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "17H2QSnmReZqHY5ew7f579yzW53KpA4SBp",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "bit4merchandise"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/bitmerchandise/35e35d1f72ed8e5abf706f41a14c52fc"
+      {
+        "@type": "Account",
+        "identifier": "a978a10d33498c7e14518f601475e0b7701c80a5",
+        "service": "openbazaar"
       },
-      "username": "bitmerchandise"
-    },
-    "name": {
-      "formatted": "Bit4 Merchandise"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/@bit4merchandise/status/717443035039199237"
+      {
+        "@type": "Account",
+        "identifier": "bit4merchandise",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bit4merchandise/posts/155210338214525",
+        "service": "facebook"
       },
-      "username": "@bit4merchandise"
-    },
-    "v": "0.2"
+      {
+        "@type": "Account",
+        "identifier": "bitmerchandise",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bitmerchandise/e394efed529e56e472c0e8dcb550de83",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "@bit4merchandise",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bit4merchandise/status/727566776024752128",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bit4merchandise",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bit4merchandise",
+        "name": "cover"
+      }
+    ],
+    "name": "Bit4 Merchandise"
   },
-  "verifications": [
-    {
-      "identifier": "bitmerchandise",
-      "proof_url": "https://gist.github.com/bitmerchandise/35e35d1f72ed8e5abf706f41a14c52fc",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "@bit4merchandise",
-      "proof_url": "https://twitter.com/@bit4merchandise/status/717443035039199237",
-      "service": "twitter",
-      "valid": false
-    },
-    {
-      "identifier": "bit4merchandise",
-      "proof_url": "https://facebook.com/bit4merchandise/posts/124142007988025",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN bit4merchandise.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bit4merchandise.id\"\n"
 }
