@@ -1,71 +1,61 @@
 {
   "owner_address": "1LXyNp6eqoa9dEn4h6DcNsPFsASQpzamPn",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "a88b600e5275af2f7f0cdaefdff79f1e4089fca0",
-        "service": "openbazaar"
+        "identifier": "1142ZP9LK9HP6MHiMcsgaTBQW3E8wFwCSH",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/mab122",
+        "identifier": "DF3580DE",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "TweetingMab",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TweetingMab/status/730087764344119296",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mab122",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mab122/8cf8e2d952211d383ceb1c1a65ec06f2",
+        "service": "github"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/mab122"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Wrocław, Poland, Earth"
     },
-    "bio": "Matey, giddy, talkative, sleepy <3 guitar, mountains, skateboard, programming, girls, more girls",
-    "bitcoin": {
-      "address": "1142ZP9LK9HP6MHiMcsgaTBQW3E8wFwCSH"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/mab122"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/mab122/posts/862140143912992"
+    "description": "Matey, giddy, talkative, sleepy <3 guitar, mountains, skateboard, programming, girls, more girls",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mab122",
+        "name": "cover"
       },
-      "username": "mab122"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/mab122/46246b83f710d745552878965a148276"
-      },
-      "username": "mab122"
-    },
-    "location": {
-      "formatted": "Wrocław, Poland, Earth"
-    },
-    "name": {
-      "formatted": "Maciej Bator"
-    },
-    "pgp": {
-      "fingerprint": "DF3580DE",
-      "url": "https://s3.amazonaws.com/pk9/mab122"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/TweetingMab/status/716713192488116227"
-      },
-      "username": "TweetingMab"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mab122",
+        "name": "avatar"
+      }
+    ],
+    "name": "Maciej Bator"
   },
-  "verifications": [
-    {
-      "identifier": "mab122",
-      "proof_url": "https://gist.github.com/mab122/46246b83f710d745552878965a148276",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "TweetingMab",
-      "proof_url": "https://twitter.com/TweetingMab/status/716713192488116227",
-      "service": "twitter",
-      "valid": false
-    },
-    {
-      "identifier": "mab122",
-      "proof_url": "https://facebook.com/mab122/posts/862140143912992",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN mab122.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mab122.id\"\n"
 }
