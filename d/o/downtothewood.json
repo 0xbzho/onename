@@ -1,68 +1,63 @@
 {
   "owner_address": "1AQ7di3oUkm2WRXpsxWGCGtvAKoJZeVgzG",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "41653b55f6c0626bff9edd7467938e1406b68dfa",
+        "identifier": "downtothewood",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "thatwoodshop",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gist:f3f8533754e92ff12f3708896d18bdea",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1HGhoERNiydNcybW82GSMy4uvbA2qxeLks",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "b053546caec866a8eb1d7968e899e8a98ce724dc",
         "service": "openbazaar"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/downtothewood"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "England"
     },
-    "bio": "Iconic New Forest Wood shop. Toys, carvings, jewellery, cards - all from wood",
-    "bitcoin": {
-      "address": "1HGhoERNiydNcybW82GSMy4uvbA2qxeLks"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/downtothewood"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/thatwoodshop/posts/1011959512191158"
+    "description": "Iconic New Forest Wood shop. Toys, carvings, jewellery, cards - all from wood",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/downtothewood",
+        "name": "avatar"
       },
-      "username": "thatwoodshop"
-    },
-    "github": {
-      "proof": {
-        "url": "gist:f3f8533754e92ff12f3708896d18bdea"
-      },
-      "username": "gist:f3f8533754e92ff12f3708896d18bdea"
-    },
-    "location": {
-      "formatted": "England"
-    },
-    "name": {
-      "formatted": "Down To The Wood"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/downtothewood/status/717045962275991552"
-      },
-      "username": "downtothewood"
-    },
-    "v": "0.2",
-    "website": "http://www.wooden.co.uk"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/downtothewood",
+        "name": "cover"
+      }
+    ],
+    "name": "Down To The Wood",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.wooden.co.uk"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "gist:f3f8533754e92ff12f3708896d18bdea",
-      "proof_url": "gist:f3f8533754e92ff12f3708896d18bdea",
-      "service": "github",
-      "valid": false
-    },
-    {
-      "identifier": "downtothewood",
-      "proof_url": "https://twitter.com/downtothewood/status/717045962275991552",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "thatwoodshop",
-      "proof_url": "https://facebook.com/thatwoodshop/posts/1011959512191158",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN downtothewood.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/downtothewood.id\"\n"
 }
