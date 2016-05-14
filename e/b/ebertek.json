@@ -1,0 +1,67 @@
+{
+  "owner_address": "13f1ATsEzfJsBGK65heRpfijA8NWxCwBwn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1Kia8TuRCRnpeJuHjXBYdVm6YykRYxhBF1",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/ebertek",
+        "identifier": "3E82225EDFF924A419517D1D33D25F5FC0F1D77A",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ebertek",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ebertek/status/724392981885804545",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "david.ebert",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/david.ebert/posts/10209020321882523",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ebertek",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ebertek/e482b48dd436a4db8231051c861ae6ae",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Budapest, Hungary"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ebertek",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "David Ebert",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.facebook.com/david.ebert"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN ebertek.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ebertek.id\"\n"
+}
