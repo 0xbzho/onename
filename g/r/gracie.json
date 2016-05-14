@@ -1,23 +1,55 @@
 {
   "owner_address": "1E63GaNXznZVyPiDuqD82qTxegCX37ngaY",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/gracie"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "GraceTorrellas",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/GraceTorrellas/status/727427371423391746",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Gracie-humnchain",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Gracie-humnchain/d15b7eb78c54fafba690ba55fa55f166",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "grace.torrellas",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/grace.torrellas/posts/10153660999046229",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Switzerland"
     },
-    "bio": "Business interests and Cultural discoveries... NO LIMITS!",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/gracie"
-    },
-    "location": {
-      "formatted": "Switzerland"
-    },
-    "name": {
-      "formatted": "GTS"
-    },
-    "twitter": {
-      "username": "GraceTorrellas"
-    },
-    "v": "0.2"
+    "description": "Blockchain for greater good; trust and transparency advocate",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/gracie",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gracie",
+        "name": "avatar"
+      }
+    ],
+    "name": "GTS",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.humnchain.org"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN gracie.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gracie.id\"\n"
 }
