@@ -1,50 +1,41 @@
 {
   "owner_address": "13gMAyeiiF3Zrx99YeFTHZWNTDQ1xHmpdi",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/bheesink"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/483.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/bheesink/posts/118826291829805"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bheesink",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "bheesink"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/bheesink/936a1dabb4db2539d484"
+      {
+        "@type": "Account",
+        "identifier": "bheesink",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "bheesink"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/bheesink/status/686815054931574784"
+      {
+        "@type": "Account",
+        "identifier": "bheesink",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/bheesink/posts/118826291829805",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bheesink",
+        "name": "avatar"
       },
-      "username": "bheesink"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "bheesink",
-      "proof_url": "https://gist.github.com/bheesink/936a1dabb4db2539d484",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "bheesink",
-      "proof_url": "https://twitter.com/bheesink/status/686815054931574784",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "bheesink",
-      "proof_url": "https://facebook.com/bheesink/posts/118826291829805",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN bheesink.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bheesink.id\"\n"
 }
