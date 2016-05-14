@@ -1,64 +1,59 @@
 {
   "owner_address": "16xyn9AXvgyunSoptFD64Y62SNQxVpL7j8",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/mrmx"
-    },
-    "bio": "2 fix or not 2 fix,that's the expression. Founder & CTO @pagobit Bitcoin evangelist.\r\nLovin' software dev circa 80's,muze 4 ever & life ad inf. My own thoughts",
-    "bitcoin": {
-      "address": "1KGbuQV1stczYd8AXjF3E5gqt97Qh2nCYB"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/mrmx"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/manuel.polo/posts/10153504211433536"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mrmx",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "manuel.polo"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/mrmx/429a96da12024feaef6f"
+      {
+        "@type": "Account",
+        "identifier": "manuel.polo",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "mrmx"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/mrmx"
-    },
-    "location": {
-      "formatted": "Zaragoza,Spain"
-    },
-    "name": {
-      "formatted": "Manuel Polo"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/mrmx/status/497326781599207425"
+      {
+        "@type": "Account",
+        "identifier": "1KGbuQV1stczYd8AXjF3E5gqt97Qh2nCYB",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "mrmx"
+      {
+        "@type": "Account",
+        "identifier": "mrmx",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mrmx/429a96da12024feaef6f",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Zaragoza,Spain"
     },
-    "v": "0.2",
-    "website": "http://about.me/mrmx"
+    "description": "2 fix or not 2 fix,that's the expression. Founder & CTO @pagobit Bitcoin evangelist.\r\nLovin' software dev circa 80's,muze 4 ever & life ad inf. My own thoughts",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mrmx",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mrmx",
+        "name": "cover"
+      }
+    ],
+    "name": "Manuel Polo",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://about.me/mrmx"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "mrmx",
-      "proof_url": "https://gist.github.com/mrmx/429a96da12024feaef6f",
-      "service": "github",
-      "valid": false
-    },
-    {
-      "identifier": "mrmx",
-      "proof_url": "https://twitter.com/mrmx/status/497326781599207425",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "manuel.polo",
-      "proof_url": "https://facebook.com/manuel.polo/posts/10153504211433536",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN mrmx.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mrmx.id\"\n"
 }
