@@ -1,61 +1,59 @@
 {
   "owner_address": "1A1MLJxaSk5ccPX9KWgupcgLPvpQ7sbd8j",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/r0derik"
-    },
-    "bio": "Technology Director at @Kunstmaan, passionate about innovation and the technology to do so.",
-    "bitcoin": {
-      "address": "36QScvDeAniQFkAjRYeSu9z7RkQqKKHrgf"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/r0derik"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/roderik.van.der.veer/posts/10154472556897589"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "roderik.van.der.veer",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "roderik.van.der.veer"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/roderik/cf1ae739c96cb7f4c520"
+      {
+        "@type": "Account",
+        "identifier": "roderik",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "roderik"
-    },
-    "location": {
-      "formatted": "Herent, Belgium"
-    },
-    "name": {
-      "formatted": "Roderik van der Veer"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/r0derik/status/685390045323354112"
+      {
+        "@type": "Account",
+        "identifier": "r0derik",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/r0derik/status/728019499480436736",
+        "service": "twitter"
       },
-      "username": "r0derik"
+      {
+        "@type": "Account",
+        "identifier": "1F3Fz9xh2sQQv97kr7NoNEmNvpePBciCdW",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Herent, Belgium"
     },
-    "v": "0.2",
-    "website": "http://www.vanderveer.be/"
+    "description": "Technology Director at @Kunstmaan, passionate about innovation and the technology to do so.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/r0derik",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/r0derik",
+        "name": "avatar"
+      }
+    ],
+    "name": "Roderik van der Veer",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.vanderveer.be/"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "roderik",
-      "proof_url": "https://gist.github.com/roderik/cf1ae739c96cb7f4c520",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "r0derik",
-      "proof_url": "https://twitter.com/r0derik/status/685390045323354112",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "roderik.van.der.veer",
-      "proof_url": "https://facebook.com/roderik.van.der.veer/posts/10154472556897589",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN r0derik.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/r0derik.id\"\n"
 }
