@@ -1,50 +1,52 @@
 {
   "owner_address": "19RBJLgWjJvJqXDJmWccLMPAgxVuRwMxgm",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/markbennett"
-    },
-    "bitcoin": {
-      "address": "17CfwzpiwUpwQ1s5yMr63wyHHXL2KzofmU"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/gQZ.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/markwagenerbennett/posts/10152432174426932"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bennettwmark",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "markwagenerbennett"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/markbennett"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Mark Bennett"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/bennettwmark/status/533270860820254720"
+      {
+        "@type": "Account",
+        "identifier": "markwagenerbennett",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "bennettwmark"
+      {
+        "@type": "Account",
+        "identifier": "17CfwzpiwUpwQ1s5yMr63wyHHXL2KzofmU",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mwbennett",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mwbennett/935d77554b793a8546cbda22a24f552b",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/markbennett",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Mark Bennett"
   },
-  "verifications": [
-    {
-      "identifier": "bennettwmark",
-      "proof_url": "https://twitter.com/bennettwmark/status/533270860820254720",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "markwagenerbennett",
-      "proof_url": "https://facebook.com/markwagenerbennett/posts/10152432174426932",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN markbennett.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/markbennett.id\"\n"
 }
