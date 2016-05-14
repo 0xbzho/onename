@@ -1,27 +1,46 @@
 {
   "owner_address": "15QnrwurZ6ShYU8y5Qm7aXUfc9rVyxjpXt",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/hillmer"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "reyeshillmer",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1JCnKN4q24sbg3UWey93jqm3nPKrqmt2ty",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lima, Peru"
     },
-    "bio": "Nací en Lima. Crecí en Ancash. Viví fuera del Perú durante 17 años. Soy, si quieren, un provinciano globalizado.",
-    "bitcoin": {
-      "address": "1JCnKN4q24sbg3UWey93jqm3nPKrqmt2ty"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/yId.jpg"
-    },
-    "location": {
-      "formatted": "Lima, Peru"
-    },
-    "name": {
-      "formatted": "Hillmer Reyes"
-    },
-    "twitter": {
-      "username": "reyeshillmer"
-    },
-    "v": "0.2",
-    "website": "http://about.me/hillmer"
+    "description": "Nací en Lima. Crecí en Ancash. Viví fuera del Perú durante 17 años. Soy, si quieren, un provinciano globalizado.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hillmer",
+        "name": "avatar"
+      }
+    ],
+    "name": "Hillmer Reyes",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://about.me/hillmer"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN hillmer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hillmer.id\"\n"
 }
