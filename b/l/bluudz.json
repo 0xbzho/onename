@@ -1,37 +1,53 @@
 {
   "owner_address": "16V9VbQRhMu4uZdedNteW3wQZCHzEN3K4u",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/bluudz"
-    },
-    "bio": "Why so serious?",
-    "bitcoin": {
-      "address": "15Lba6zyk3SUcUi4Mwy2YBh9SMUfes9jjP"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/L2N.jpeg"
-    },
-    "location": {
-      "formatted": "World"
-    },
-    "name": {
-      "formatted": "Bloodislav"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/bluudz/status/717388559649529856"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "15Lba6zyk3SUcUi4Mwy2YBh9SMUfes9jjP",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "bluudz"
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/bluudz",
+        "identifier": "BBE3FD609F63F5CC0AFA098D2CA33355913894CC",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bluudz",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Bluudz/status/730534803724963840",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "World"
     },
-    "v": "0.2",
-    "website": "https://tawk.to/bluudz"
+    "description": "Why so serious?",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bluudz",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bluudz",
+        "name": "avatar"
+      }
+    ],
+    "name": "BloodOfTheWorld",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://tawk.to/bluudz"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "bluudz",
-      "proof_url": "https://twitter.com/bluudz/status/717388559649529856",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN bluudz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bluudz.id\"\n"
 }
