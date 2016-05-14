@@ -1,61 +1,59 @@
 {
   "owner_address": "1PtaFZF63HYvUfg3WPkgPueScFs33YznH2",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/garrygolden"
-    },
-    "bio": "Father, 2 boys. Academically trained Futurist; Different tweets on Learning, WebDev, Blockchain, Graphs, Energy, Transportation, Demographics, STEAM, Art",
-    "bitcoin": {
-      "address": "1KRRGHVhMR9JjfmRkwgUTXvgoSyWMoXaZZ"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/garrygolden"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/garrygolden/posts/10153149508625127"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "garrygolden",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "garrygolden"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/garrygolden/c3c085b1a90412fd991d"
+      {
+        "@type": "Account",
+        "identifier": "garrygolden",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "garrygolden"
-    },
-    "location": {
-      "formatted": "Brooklyn, NY"
-    },
-    "name": {
-      "formatted": "Garry Golden"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/garrygolden/status/567708488785461249"
+      {
+        "@type": "Account",
+        "identifier": "1KRRGHVhMR9JjfmRkwgUTXvgoSyWMoXaZZ",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "garrygolden"
+      {
+        "@type": "Account",
+        "identifier": "garrygolden",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/garrygolden/posts/10153149508625127",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brooklyn, NY"
     },
-    "v": "0.2",
-    "website": "http://www.garrygolden.com"
+    "description": "Father, 2 boys. Academically trained Futurist; Different tweets on Learning, WebDev, Blockchain, Graphs, Energy, Transportation, Demographics, STEAM, Art",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/garrygolden",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/garrygolden",
+        "name": "cover"
+      }
+    ],
+    "name": "Garry Golden",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.garrygolden.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "garrygolden",
-      "proof_url": "https://gist.github.com/garrygolden/c3c085b1a90412fd991d",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "garrygolden",
-      "proof_url": "https://twitter.com/garrygolden/status/567708488785461249",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "garrygolden",
-      "proof_url": "https://facebook.com/garrygolden/posts/10153149508625127",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN garrygolden.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/garrygolden.id\"\n"
 }
