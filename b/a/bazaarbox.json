@@ -1,0 +1,41 @@
+{
+  "owner_address": "19j8HX9uHFEpDQ26rbJm2eP9qc5SygaA6z",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "18eeff800be799a279a6d267ab6d22eaaa59e00b",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/yngrdyn/e57f7cd6943986e012991f5b86372ebe",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "13XtaXEQN1CFo9f12GphckyaB8Xanzmz22",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "The Internet"
+    },
+    "description": "Opening the OpenBazaar Door",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bazaarbox",
+        "name": "avatar"
+      }
+    ],
+    "name": "Bazaar in a Box Hosting"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN bazaarbox.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bazaarbox.id\"\n"
+}
