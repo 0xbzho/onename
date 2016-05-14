@@ -1,0 +1,47 @@
+{
+  "owner_address": "1DZMhNbJkeKdCTg92kjoFo5qRWUiiY9t8F",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mariow",
+        "proofUrl": "https://gist.github.com/mariow/e4b8559550fe60112bc2e47da79c43df",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "14AYKcfTrfkiyPG2RixkgBQitKZ7a1CmeY",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://sks-keyservers.net/pks/lookup?op=get&search=0x1EA56B20BD30AEA3",
+        "identifier": "1C46FF8F661F69B6410E9B1B1EA56B20BD30AE",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "chengfu",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/chengfu/status/724500591700000768",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Munich, Germany"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Mario Witte"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN mariow.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mariow.id\"\n"
+}
