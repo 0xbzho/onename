@@ -1,44 +1,54 @@
 {
   "owner_address": "12chzrCmJs1YeLCpnMs1KPpH2NfAcB2Rmz",
   "profile": {
-    "bitcoin": {
-      "address": "191mbudF1Bd2RGyYjwJ8AvXRTKRZcTNMbi"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/yId.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/https://www.facebook.com/michael.breu.52/posts/10203933645276047"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "191mbudF1Bd2RGyYjwJ8AvXRTKRZcTNMbi",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "https://www.facebook.com/michael.breu.52"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/8f981a0424010a5c692d.git"
+      {
+        "@type": "Account",
+        "identifier": "MichaelBreu",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/MichaelBreu/1f5c559a0d19daaac2fc77224742c418",
+        "service": "github"
       },
-      "username": "8f981a0424010a5c692d.git"
+      {
+        "@type": "Account",
+        "identifier": "michaelbreu",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/michaelbreu/status/727503373726011392",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https://www.facebook.com/michael.breu.52",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/michael.breu.52/posts/10207901327585625",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "NYC"
     },
-    "location": {
-      "formatted": "NYC"
-    },
-    "name": {
-      "formatted": "Michael Breu"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/breu",
+        "name": "avatar"
+      }
+    ],
+    "name": "Michael Breu"
   },
-  "verifications": [
-    {
-      "identifier": "8f981a0424010a5c692d.git",
-      "proof_url": "https://gist.github.com/8f981a0424010a5c692d.git",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "https://www.facebook.com/michael.breu.52",
-      "proof_url": "https://facebook.com/https://www.facebook.com/michael.breu.52/posts/10203933645276047",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN breu.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/breu.id\"\n"
 }
