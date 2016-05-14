@@ -1,27 +1,45 @@
 {
   "owner_address": "1L6zDjyu4QsapHX5eTQ7oQTUAkYufzYAf1",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/miketwenty1"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "miketwenty1",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "miketwenty1",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "df46674ff95cc0a4d8c1594ae225586fc430eb26",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "bio": "",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/ikZ.jpeg"
-    },
-    "facebook": {
-      "username": "miketwenty1"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Michael Tidwell"
-    },
-    "twitter": {
-      "username": "miketwenty1"
-    },
-    "v": "0.2"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/miketwenty1",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Michael Tidwell"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN miketwenty1.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/miketwenty1.id\"\n"
 }
