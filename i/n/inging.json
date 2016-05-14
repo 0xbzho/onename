@@ -1,29 +1,35 @@
 {
   "owner_address": "1NFbAvYH9AYeooUspqaoUf4ny8pbttuTdK",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/inging"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "MahouShousho",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MahouShousho/status/728370712491245568",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/rv1.jpeg"
-    },
-    "name": {
-      "formatted": "ing ing"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/MahouShousho/status/717290507152457728"
+    "description": "This twitter account is mostly used for customer support and feedback for companies in hope they would listen and make my dreams come true",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/inging",
+        "name": "avatar"
       },
-      "username": "MahouShousho"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/inging",
+        "name": "cover"
+      }
+    ],
+    "name": "ing ing"
   },
-  "verifications": [
-    {
-      "identifier": "MahouShousho",
-      "proof_url": "https://twitter.com/MahouShousho/status/717290507152457728",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN inging.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/inging.id\"\n"
 }
