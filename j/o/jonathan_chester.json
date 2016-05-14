@@ -1,33 +1,52 @@
 {
   "owner_address": "1ByyxUoegGVf5EzwScpGUjTZertZxjgL4R",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/jonathan_chester"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "JonChest",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jonathan.chester.92",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1MVUY8m1RwXqgxZcSxXBji9Maw9WLgxTL2",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco"
     },
-    "bio": "Founder & COO at Bitwage",
-    "bitcoin": {
-      "address": "1MVUY8m1RwXqgxZcSxXBji9Maw9WLgxTL2"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/jonathan_chester"
-    },
-    "facebook": {
-      "username": "jonathan.chester.92"
-    },
-    "linkedin": {
-      "url": "http://www.linkedin.com/in/jonathanericchester/"
-    },
-    "location": {
-      "formatted": "San Francisco"
-    },
-    "name": {
-      "formatted": "Jonathan Chester"
-    },
-    "twitter": {
-      "username": "JonChest"
-    },
-    "v": "0.2",
-    "website": "http://www.bitwage.co"
+    "description": "Founder & President at Bitwage",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jonathan_chester",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jonathan_chester",
+        "name": "cover"
+      }
+    ],
+    "name": "Jonathan Chester",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.bitwage.co"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN jonathan_chester.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jonathan_chester.id\"\n"
 }
