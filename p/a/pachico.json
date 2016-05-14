@@ -1,0 +1,47 @@
+{
+  "owner_address": "1Jg82nqHSemMWDM4fhhGzSCcVnXMDxLFbA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "pachico",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/pachico/status/725945899944304641",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "pachico",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/pachico/3c4acc054d6dfad958d3753f987cf1cf",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Barcelona"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/pachico",
+        "name": "avatar"
+      }
+    ],
+    "name": "Mariano F.co Benítez Mulet",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://github.com/pachico"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN pachico.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pachico.id\"\n"
+}
