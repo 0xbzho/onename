@@ -1,25 +1,41 @@
 {
   "owner_address": "17KDhGnseE41jT2FzsxjjggDK7tF37h5aX",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/matthardy"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "MtotheizHphenom",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mtotheizhphenom/status/727886758868738048",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "bio": "Happiest when facing a challenge",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/matthardy"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Matt Hardy"
-    },
-    "twitter": {
-      "username": "MtotheizHphenom"
-    },
-    "v": "0.2",
-    "website": "http://lmgtfy.com"
+    "description": "Happiest when facing a challenge",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/matthardy",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/matthardy",
+        "name": "cover"
+      }
+    ],
+    "name": "Matt Hardy",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://lmgtfy.com"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN matthardy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/matthardy.id\"\n"
 }
