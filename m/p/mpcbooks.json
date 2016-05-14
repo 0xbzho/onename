@@ -1,0 +1,46 @@
+{
+  "owner_address": "1FLKBYYL6A8a26DF12K92sU5Hj8F48X3is",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "97526e58e38aa66c6081659a2038879be4e50c0b",
+        "service": "mpc books"
+      },
+      {
+        "@type": "Account",
+        "identifier": "97526e58e38aa66c6081659a2038879be4e50c0b",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sbmeunier/status/729180700180664321",
+        "service": "mpcbooks"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Perth, Australia"
+    },
+    "description": "Online bookstore selling publications produced by Perth Academy of Science",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mpcbooks",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mpcbooks",
+        "name": "cover"
+      }
+    ],
+    "name": "MPC Books",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.mpcbooks.com.au"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN mpcbooks.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mpcbooks.id\"\n"
+}
