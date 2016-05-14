@@ -1,41 +1,60 @@
 {
   "owner_address": "1N5CHNEAajVFqNMRnKUzqEz5qtJNMQzUke",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/QAd.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/samuel.portman/posts/10205236044075466"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "samuel.portman",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "samuel.portman"
-    },
-    "location": {
-      "formatted": "Walsall"
-    },
-    "name": {
-      "formatted": "Samuel Isaiah Massey"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/iro_dem/status/597796385229021184"
+      {
+        "@type": "Account",
+        "identifier": "formcore",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/formcore/79d8b14e9c2ee1e3f3215a468658260a",
+        "service": "github"
       },
-      "username": "iro_dem"
+      {
+        "@type": "Account",
+        "identifier": "iro_dem",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/iro_dem/status/727948842331713536",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1Juhpz8LhPtgv8CvKiEEAymbuMykh7muqE",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "30fac619569d0db2c61f798bd56760d7fc3f43ae",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/vchachra&redirect_uri=https://onename.com/vchachra%23facebook",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Walsall"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ironcode",
+        "name": "avatar"
+      }
+    ],
+    "name": "Samuel Isaiah Massey"
   },
-  "verifications": [
-    {
-      "identifier": "iro_dem",
-      "proof_url": "https://twitter.com/iro_dem/status/597796385229021184",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "samuel.portman",
-      "proof_url": "https://facebook.com/samuel.portman/posts/10205236044075466",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN ironcode.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ironcode.id\"\n"
 }
