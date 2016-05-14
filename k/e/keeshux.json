@@ -1,65 +1,68 @@
 {
   "owner_address": "16cAXGmfZrZAgjZQDeYYqovRSgiEPKs33s",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/keeshux"
-    },
-    "bio": "I make high-quality software, occasionally.",
-    "bitcoin": {
-      "address": "16w2AWamiH2SS68NYSMDcrbh5MnZ1c5eju"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/gQZ.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/keeshux/posts/538116239653310"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "16w2AWamiH2SS68NYSMDcrbh5MnZ1c5eju",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "keeshux"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/keeshux/f31e2a9ce5dde709f826"
+      {
+        "@type": "Account",
+        "identifier": "keeshux",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/keeshux/status/730820486532345857",
+        "service": "twitter"
       },
-      "username": "keeshux"
-    },
-    "location": {
-      "formatted": "Italy"
-    },
-    "name": {
-      "formatted": "Davide De Rosa"
-    },
-    "pgp": {
-      "fingerprint": "F389A7B2",
-      "url": "http://davidederosa.com/files/keeshux-gpg.txt"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/keeshux/status/502424972388597761"
+      {
+        "@type": "Account",
+        "identifier": "keeshux",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/keeshux/f31e2a9ce5dde709f826",
+        "service": "github"
       },
-      "username": "keeshux"
+      {
+        "@type": "Account",
+        "identifier": "keeshux",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/keeshux/posts/830626160402315",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "http://davidederosa.com/files/keeshux-gpg.txt",
+        "identifier": "F389A7B2",
+        "role": "key",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Italy"
     },
-    "v": "0.2",
-    "website": "http://davidederosa.com"
+    "description": "I make high-quality software, occasionally.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/keeshux",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Davide De Rosa",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://davidederosa.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "keeshux",
-      "proof_url": "https://gist.github.com/keeshux/f31e2a9ce5dde709f826",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "keeshux",
-      "proof_url": "https://twitter.com/keeshux/status/502424972388597761",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "keeshux",
-      "proof_url": "https://facebook.com/keeshux/posts/538116239653310",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN keeshux.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/keeshux.id\"\n"
 }
