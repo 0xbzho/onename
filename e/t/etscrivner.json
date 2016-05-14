@@ -1,0 +1,47 @@
+{
+  "owner_address": "1Fk3YMoqSDHN9VWFoStb3GPrYwzKRu8XYS",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "etscrivner",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/etscrivner/status/728342687636697092",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "etscrivner",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/etscrivner/6ccee2e7daf07f7f109940bf29f9849c",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Los Angeles, CA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/etscrivner",
+        "name": "avatar"
+      }
+    ],
+    "name": "Eric Scrivner",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://ericscrivner.me"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN etscrivner.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/etscrivner.id\"\n"
+}
