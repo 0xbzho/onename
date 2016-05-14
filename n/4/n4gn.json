@@ -1,67 +1,63 @@
 {
   "owner_address": "139eEijD6G5QvmvxFvydKqqtAYMiikSWXA",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/n4gn"
-    },
-    "bio": "Amateur Radio @N4GN/OH4GN/@4F1GN; Pres. @SouthGain; Wireless Architect @UPS; Member @FernCreekUMC, @NCDXF, @ARRL; #Bitcoin 1TimTn1TSkWJw6TPuNHic6VYhV3AkgHsR",
-    "bitcoin": {
-      "address": "1TimTn1TSkWJw6TPuNHic6VYhV3AkgHsR"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/n4gn"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/timtotten/posts/10205128005905012"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "N4GN",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "timtotten"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/n4gn/add85b3875280033b4d8"
+      {
+        "@type": "Account",
+        "identifier": "timtotten",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "n4gn"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/n4gn"
-    },
-    "location": {
-      "formatted": "U.S., Philippines, or somewhere in between"
-    },
-    "name": {
-      "formatted": "Tim Totten"
-    },
-    "pgp": {
-      "url": "keybase.io/timtotten/key.asc"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/N4GN/status/529799944979247104"
+      {
+        "@type": "Account",
+        "identifier": "n4gn",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "N4GN"
+      {
+        "@type": "Account",
+        "identifier": "1TimTn1TSkWJw6TPuNHic6VYhV3AkgHsR",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ec857a4572885d18acd63039501585d8e18940d0",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "U.S., Philippines, or somewhere in between"
     },
-    "v": "0.2",
-    "website": "http://www.N4GN.com/"
+    "description": "Amateur Radio @N4GN/OH4GN/@4F1GN; Pres. @SouthGain; Wireless Architect @UPS; Member @FernCreekUMC, @NCDXF, @ARRL; #Bitcoin 1TimTn1TSkWJw6TPuNHic6VYhV3AkgHsR",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/n4gn",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/n4gn",
+        "name": "cover"
+      }
+    ],
+    "name": "Tim Totten",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.N4GN.com/"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "n4gn",
-      "proof_url": "https://gist.github.com/n4gn/add85b3875280033b4d8",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "N4GN",
-      "proof_url": "https://twitter.com/N4GN/status/529799944979247104",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "timtotten",
-      "proof_url": "https://facebook.com/timtotten/posts/10205128005905012",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN n4gn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/n4gn.id\"\n"
 }
