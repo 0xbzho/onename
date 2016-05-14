@@ -1,19 +1,53 @@
 {
   "owner_address": "1GHtdZyV1PBBykpgiaRNHBURhnNNYCwpTb",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/drippyrainbow"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1BKtX71HuNPUYYz4p2dErFAnLoZmimJK6s",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "drippyrainbow",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/drippyrainbow/60e371914cce1e01ef3f6af5c9d6a035",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "drippyrainbow",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/DrippyRainbow/status/730591625307656196",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/drippyrainbow",
+        "identifier": null,
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/drippyrainbow"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Drippy"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/drippyrainbow",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/drippyrainbow",
+        "name": "cover"
+      }
+    ],
+    "name": "Drippy"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN drippyrainbow.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/drippyrainbow.id\"\n"
 }
