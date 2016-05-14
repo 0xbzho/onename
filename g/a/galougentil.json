@@ -1,41 +1,53 @@
 {
   "owner_address": "14jn2ZupbQMbwhniZ4Dnc2QMNiZipiZX2H",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/galougentil"
-    },
-    "bio": "Software Developer & Security Idealist.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/galougentil"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/galougentil"
-    },
-    "location": {
-      "formatted": "Paris, France"
-    },
-    "name": {
-      "formatted": "Galou Gentil"
-    },
-    "pgp": {
-      "fingerprint": "3112B9A00C40BC48487952BB816C64554D03B7FA",
-      "url": "https://keybase.io/galougentil/key.asc"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/GalouGentil/status/694537085332627456"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "GalouGentil",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "GalouGentil"
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/galougentil/key.asc",
+        "identifier": "3112B9A00C40BC48487952BB816C64554D03B7FA",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "17qoC6rXR8fyNqfEMcBsqaKc1ghRG6myYT",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris, France"
     },
-    "v": "0.2",
-    "website": "https://www.dronewarfare.org/"
+    "description": "Software Developer & Security Idealist.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/galougentil",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/galougentil",
+        "name": "avatar"
+      }
+    ],
+    "name": "Galou Gentil",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.dronewarfare.org/"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "GalouGentil",
-      "proof_url": "https://twitter.com/GalouGentil/status/694537085332627456",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN galougentil.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/galougentil.id\"\n"
 }
