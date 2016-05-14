@@ -1,64 +1,61 @@
 {
   "owner_address": "1NqoRStww591q8SHSxVzhBWU7asAXHZMCh",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/guylepage3"
-    },
-    "bio": "Senior UX/UI Designer at Onename, entrepreneurship, tech, blockchain, creative, marketing, triathlon, surfing",
-    "bitcoin": {
-      "address": "1Mp5vKwCbekeWetMHLKDD2fDLJzw4vKxiQ"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/guylepage3"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/g3lepage/posts/10152901304243760"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1Mp5vKwCbekeWetMHLKDD2fDLJzw4vKxiQ",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "g3lepage"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/guylepage3/e7c1ce255193f2c98cc1"
+      {
+        "@type": "Account",
+        "identifier": "guylepage3",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/guylepage3/status/731252874886385665",
+        "service": "twitter"
       },
-      "username": "guylepage3"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/guylepage3"
-    },
-    "location": {
-      "formatted": "New York, NY"
-    },
-    "name": {
-      "formatted": "Guy Lepage"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/guylepage3/status/533351805648764928"
+      {
+        "@type": "Account",
+        "identifier": "g3lepage",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/g3lepage/posts/10154223148908760",
+        "service": "facebook"
       },
-      "username": "guylepage3"
+      {
+        "@type": "Account",
+        "identifier": "guylepage3",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/guylepage3/06f522444fb71f1daf01a534396d1f9e",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York, NY"
     },
-    "v": "0.2",
-    "website": "http://onename.com"
+    "description": "@blockstackorg developer. 1st hire @blockstacklabs (YC/@USV backed) w/@ryaneshea, @muneeb, @judecnelson entrepreneur, blockchain, creative, marketing, surf, tri",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/guylepage3",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/guylepage3",
+        "name": "cover"
+      }
+    ],
+    "name": "Guy Lepage",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://blockstack.org"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "guylepage3",
-      "proof_url": "https://gist.github.com/guylepage3/e7c1ce255193f2c98cc1",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "guylepage3",
-      "proof_url": "https://twitter.com/guylepage3/status/533351805648764928",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "g3lepage",
-      "proof_url": "https://facebook.com/g3lepage/posts/10152901304243760",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN guylepage3.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/guylepage3.id\"\n"
 }
