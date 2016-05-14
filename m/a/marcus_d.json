@@ -1,48 +1,48 @@
 {
   "owner_address": "1KZ9gk886nDoTKr5txdn1gWTszTQCaPqv1",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/marcus_d"
-    },
-    "bio": "The anti-swag",
-    "bitcoin": {
-      "address": "1B4aeeRRrLMD6uWszT9xgGGZzx4ubLurWY"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/marcus_d"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/mdentsjp/posts/10204357195878216"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1B4aeeRRrLMD6uWszT9xgGGZzx4ubLurWY",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "mdentsjp"
-    },
-    "location": {
-      "formatted": "East Coast "
-    },
-    "name": {
-      "formatted": "Marcus Dent"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/MartyBent/status/644310632267948032"
+      {
+        "@type": "Account",
+        "identifier": "MartyBent",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MartyBent/status/727908710413156352",
+        "service": "twitter"
       },
-      "username": "MartyBent"
+      {
+        "@type": "Account",
+        "identifier": "mdentsjp",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mdentsjp/posts/10205572674144413?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "East Coast "
     },
-    "v": "0.2"
+    "description": "Living in NYC",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/marcus_d",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/marcus_d",
+        "name": "cover"
+      }
+    ],
+    "name": "Marcus Dent"
   },
-  "verifications": [
-    {
-      "identifier": "MartyBent",
-      "proof_url": "https://twitter.com/MartyBent/status/644310632267948032",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "mdentsjp",
-      "proof_url": "https://facebook.com/mdentsjp/posts/10204357195878216",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN marcus_d.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/marcus_d.id\"\n"
 }
