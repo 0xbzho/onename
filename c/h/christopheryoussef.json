@@ -1,62 +1,54 @@
 {
   "owner_address": "1LUgwCxQtULa48W6oiJy97pLy6dyVUGXaQ",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/christopheryoussef"
-    },
-    "bitcoin": {
-      "address": "14SbAXt3ahERBq1ma4HaQjcKYXk8mo7D3o"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/christopheryoussef"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/Chris.Youssef.11/posts/10154123915173415"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cyoussef8",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cyoussef8/status/705490108930084864",
+        "service": "twitter"
       },
-      "username": "Chris.Youssef.11"
-    },
-    "github": {
-      "proof": {
-        "url": "https://github.com/chaotic101"
+      {
+        "@type": "Account",
+        "identifier": "Chris.Youssef.11",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/Chris.Youssef.11/posts/10154187007333415",
+        "service": "facebook"
       },
-      "username": "https:"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/christopheryoussef"
-    },
-    "location": {
-      "formatted": "Melbourne, Australia"
-    },
-    "name": {
-      "formatted": "Christopher Youssef"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/cyoussef8/status/705490108930084864"
+      {
+        "@type": "Account",
+        "identifier": "chaotic101",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/chaotic101/249f5091ebb32c6a7fbf61f32f6bb01f",
+        "service": "github"
       },
-      "username": "cyoussef8"
+      {
+        "@type": "Account",
+        "identifier": "137RybUetcU8nTYSgYxChYyTLCGUycyYDT",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Melbourne, Australia"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/christopheryoussef",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/christopheryoussef",
+        "name": "cover"
+      }
+    ],
+    "name": "Christopher Youssef"
   },
-  "verifications": [
-    {
-      "identifier": "https:",
-      "proof_url": "https://github.com/chaotic101",
-      "service": "github",
-      "valid": false
-    },
-    {
-      "identifier": "cyoussef8",
-      "proof_url": "https://twitter.com/cyoussef8/status/705490108930084864",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "Chris.Youssef.11",
-      "proof_url": "https://facebook.com/Chris.Youssef.11/posts/10154123915173415",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN christopheryoussef.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/christopheryoussef.id\"\n"
 }
