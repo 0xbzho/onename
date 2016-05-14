@@ -1,52 +1,60 @@
 {
   "owner_address": "1FkQbDMn8K96ZZBZ1g2J3aNW6bejPhwVjn",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/szycha"
-    },
-    "bio": "Let's build something better!",
-    "bitcoin": {
-      "address": "1mRGWdZp4f1iqrURnCvrxqe3tshaUJW5k"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/Ov8.jpg"
-    },
-    "facebook": {
-      "username": "adastor.marcin.szychowski"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/szycha76"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "szycha76",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "szycha76"
-    },
-    "location": {
-      "formatted": "Łódź, Poland"
-    },
-    "name": {
-      "formatted": "Marcin Szychowski"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/szycha/status/714838618850922496"
+      {
+        "@type": "Account",
+        "identifier": "1mRGWdZp4f1iqrURnCvrxqe3tshaUJW5k",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "szycha"
+      {
+        "@type": "Account",
+        "identifier": "adastor.marcin.szychowski",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/adastor.marcin.szychowski/posts/1013586915383808",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "szycha",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/szycha/status/714838618850922496",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Łódź, Poland"
     },
-    "v": "0.2",
-    "website": "http://adastor.pl"
+    "description": "Let's build something better!",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/szycha",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Marcin Szychowski",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://adastor.pl"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "szycha76",
-      "proof_url": "https://gist.github.com/szycha76",
-      "service": "github",
-      "valid": false
-    },
-    {
-      "identifier": "szycha",
-      "proof_url": "https://twitter.com/szycha/status/714838618850922496",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN szycha.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/szycha.id\"\n"
 }
