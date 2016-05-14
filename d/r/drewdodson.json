@@ -1,39 +1,46 @@
 {
   "owner_address": "1Gc1Esu1pcHeHUvSrbUSDn3iLYgrH5N1Pq",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/drewdodson"
-    },
-    "bio": "",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/vsS.jpeg"
-    },
-    "facebook": {
-      "username": "drewdodson"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/drewdodson/fcb8ce4ad648da098074"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "drew_atx",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "drewdodson"
+      {
+        "@type": "Account",
+        "identifier": "drewdodson",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "drewdodson",
+        "proofType": "http",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Austin, TX"
     },
-    "location": {
-      "formatted": "Austin, TX"
-    },
-    "name": {
-      "formatted": "__"
-    },
-    "twitter": {
-      "username": "drew_atx"
-    },
-    "v": "0.2"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/drewdodson",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Drew Dodson"
   },
-  "verifications": [
-    {
-      "identifier": "drewdodson",
-      "proof_url": "https://gist.github.com/drewdodson/fcb8ce4ad648da098074",
-      "service": "github",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN drewdodson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/drewdodson.id\"\n"
 }
