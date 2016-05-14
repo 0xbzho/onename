@@ -1,48 +1,46 @@
 {
   "owner_address": "1EEZsnstk3BS5cf5mPoa9grFF8UBhdYd6D",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/wikijm"
-    },
-    "bio": "Jeune passionné par l'informatique, l'infographie, la photographie et tout ce qui est nouvelles technologies. Admin Sys. Veille techno sur ce compte.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/yId.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/jeanmarcalbert/posts/10208970960294292"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "WikiJM",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "jeanmarcalbert"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/wikijm/8c5ba057af34473e684f"
+      {
+        "@type": "Account",
+        "identifier": "jeanmarcalbert",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "wikijm"
+      {
+        "@type": "Account",
+        "identifier": "wikijm",
+        "proofType": "http",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "45.767416,4.833418"
     },
-    "location": {
-      "formatted": "45.767416,4.833418"
-    },
-    "name": {
-      "formatted": "Jean-Marc Albert"
-    },
-    "twitter": {
-      "username": "WikiJM"
-    },
-    "v": "0.2"
+    "description": "Jeune passionné par l'informatique, l'infographie, la photographie et tout ce qui est nouvelles technologies. Ingé Sys. Veille techno sur ce compte.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/wikijm",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jean-Marc Albert"
   },
-  "verifications": [
-    {
-      "identifier": "wikijm",
-      "proof_url": "https://gist.github.com/wikijm/8c5ba057af34473e684f",
-      "service": "github",
-      "valid": false
-    },
-    {
-      "identifier": "jeanmarcalbert",
-      "proof_url": "https://facebook.com/jeanmarcalbert/posts/10208970960294292",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN wikijm.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wikijm.id\"\n"
 }
