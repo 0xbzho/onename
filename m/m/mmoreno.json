@@ -1,0 +1,66 @@
+{
+  "owner_address": "17BDAf5Ui8VCqNpHFfBrcc9ZC9R3nr4M7D",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/mmoreno",
+        "identifier": "1C8C0AF8F17426D4E9C379AFD4E8DCDA49E6194F",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1MorenoRV8wK5B1EScYasyDfKtCjDWuraE",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "miguelmorenonet",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/miguelmorenonet/status/727820360381566977",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "miguelmoreno",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/miguelmoreno/837b8f254bc964646aa636863eebdf7a",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "miguelmorenonet",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/miguelmoreno.net/posts/10207569561329837",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Valencia, Spain"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mmoreno",
+        "name": "avatar"
+      }
+    ],
+    "name": "Miguel Moreno",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://miguelmoreno.net"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN mmoreno.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mmoreno.id\"\n"
+}
