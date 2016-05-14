@@ -1,61 +1,59 @@
 {
   "owner_address": "1GqXXeMYJYCa5fLQQ4m5pBLb9ynvuB4kAt",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/blackjin999"
-    },
-    "bio": "Founder of the open education community, trade and mining bitcoin altcoin with blackjincryptoproject https://lenteracoin.com  http://lenteracoin.com/forum/  #btc",
-    "bitcoin": {
-      "address": "1NEnfuHbku9xUPwST238etCgCjLeyK2bqV"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/blackjin999"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/nopie.authoryaband/posts/1075349459145369"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nopie.authoryaband",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "nopie.authoryaband"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/piebeyb/80048a8518735cab03d6"
+      {
+        "@type": "Account",
+        "identifier": "piebeyb",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "piebeyb"
-    },
-    "location": {
-      "formatted": "jakarta"
-    },
-    "name": {
-      "formatted": "Nopie BlackjinCrypto"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/blackjin999/status/605819513469169664"
+      {
+        "@type": "Account",
+        "identifier": "1NEnfuHbku9xUPwST238etCgCjLeyK2bqV",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "blackjin999"
+      {
+        "@type": "Account",
+        "identifier": "Blackjincrypto",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/blackjincrypto/status/605819513469169664",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "jakarta"
     },
-    "v": "0.2",
-    "website": "http://store-online999.blogspot.com"
+    "description": "Founder of the open education community, trade and mining bitcoin altcoin with blackjincryptoproject https://lenteracoin.com  http://lenteracoin.com/forum/  #btc",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/blackjin999",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/blackjin999",
+        "name": "cover"
+      }
+    ],
+    "name": "Nopie BlackjinCrypto",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://forum.lenteracoin.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "piebeyb",
-      "proof_url": "https://gist.github.com/piebeyb/80048a8518735cab03d6",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "blackjin999",
-      "proof_url": "https://twitter.com/blackjin999/status/605819513469169664",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "nopie.authoryaband",
-      "proof_url": "https://facebook.com/nopie.authoryaband/posts/1075349459145369",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN blackjin999.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/blackjin999.id\"\n"
 }
