@@ -1,65 +1,60 @@
 {
   "owner_address": "1PhuDPiXtWDUZ64vg4WAHUiF6qgz3raeXV",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/tonzijlstra"
-    },
-    "bio": "Change, complexity, #opendata, #opengov, FabLab, Making, #IoT, learning, communities of practice, philosophy of technology",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/HHE.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/tonzijlstra/posts/10153336016532957"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ton_zylstra",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "tonzijlstra"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/tonzyl/9a06586ab94210481ce8"
+      {
+        "@type": "Account",
+        "identifier": "tonzyl",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "tonzyl"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/tonzijlstra"
-    },
-    "location": {
-      "formatted": "Netherlands"
-    },
-    "name": {
-      "formatted": "Ton Zijlstra"
-    },
-    "pgp": {
-      "fingerprint": "2AC12B7444AC6FB7DACC6FCFE865E278B3A0124E",
-      "url": "https://s3.amazonaws.com/pk9/tonzijlstra"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/ton_zylstra/status/684838531739578368"
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/tonzijlstra",
+        "identifier": "2AC12B7444AC6FB7DACC6FCFE865E278B3A0124E",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "ton_zylstra"
+      {
+        "@type": "Account",
+        "identifier": "tonzijlstra",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/tonzijlstra/posts/10153336016532957",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Netherlands"
     },
-    "v": "0.2",
-    "website": "http://www.zylstra.org/blog"
+    "description": "Change, complexity, #opendata, #opengov, FabLab, Making, #IoT, learning, communities of practice, philosophy of technology",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tonzijlstra",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ton Zijlstra",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.zylstra.org/blog"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "tonzyl",
-      "proof_url": "https://gist.github.com/tonzyl/9a06586ab94210481ce8",
-      "service": "github",
-      "valid": false
-    },
-    {
-      "identifier": "ton_zylstra",
-      "proof_url": "https://twitter.com/ton_zylstra/status/684838531739578368",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "tonzijlstra",
-      "proof_url": "https://facebook.com/tonzijlstra/posts/10153336016532957",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN tonzijlstra.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tonzijlstra.id\"\n"
 }
