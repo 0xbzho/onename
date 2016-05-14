@@ -1,27 +1,27 @@
 {
   "owner_address": "15KiKoZsSobX9qHCFsFzUWcWoMJHTESqNQ",
   "profile": {
-    "account": [
+    "@type": "Person",
+    "account": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Executor Super Star Destroyer"
+    },
+    "description": "I find your lack of moderation, disturbing. (ob://ob://e85ac56a60d01fa5ad20b3194bfc1c593db17cba/about)",
+    "image": [
       {
-        "@type": "Account",
-        "identifier": "e85ac56a60d01fa5ad20b3194bfc1c593db17cba",
-        "service": "openbazaar"
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/vadermoderation",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/vadermoderation",
+        "name": "cover"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/vadermoderation"
-    },
-    "bio": "I find your lack of moderation, disturbing. (ob://ob://e85ac56a60d01fa5ad20b3194bfc1c593db17cba/about)",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/vadermoderation"
-    },
-    "location": {
-      "formatted": "Executor"
-    },
-    "name": {
-      "formatted": "Vader Modeartion"
-    },
-    "v": "0.2"
+    "name": "Vader Modeartion"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN vadermoderation.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vadermoderation.id\"\n"
 }
