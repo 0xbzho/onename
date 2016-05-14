@@ -1,24 +1,51 @@
 {
   "owner_address": "1JGkPAAWat34D2hX8i9mnwaWW2kAgH28q2",
   "profile": {
-    "avatar": {
-      "url": "https://flic.kr/p/cXsLLJ"
-    },
-    "bio": "keeping an eye on urban transformation via social analytics...",
-    "bitcoin": {
-      "address": "1Ft2nvEnTEhsfZH3LfjGEbsVSZfiebhkYd"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/dunes.jpg"
-    },
-    "location": "NYC ",
-    "name": {
-      "formatted": "Tino wells"
-    },
-    "twitter": {
-      "username": "cityshots1"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1Ft2nvEnTEhsfZH3LfjGEbsVSZfiebhkYd",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "martinwells",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/martinwells/status/727846063546208256",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "TattorTalk",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/TattorTalk/fe89163dfe86a9b70bf9419f7ec3945c",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tinybirdflies",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/martin.wells.7549",
+        "service": "facebook"
+      }
+    ],
+    "description": "keeping an eye on urban transformation via social analytics...",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://flic.kr/p/cXsLLJ",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/dunes.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Tino wells"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN tinybird.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tinybird.id\"\n"
 }
