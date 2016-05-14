@@ -1,17 +1,31 @@
 {
   "owner_address": "12h1kqCrV62parvEUUkpH3kEpaT3VDh9ZC",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/internetofmoney"
-    },
-    "bio": "I promote BitCoin.  Please follow me for my latest tour dates.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/internetofmoney"
-    },
-    "name": {
-      "formatted": ""
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "9f9ba5cc1cff9e24540d6ca11014e92c01b7d1ab",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/wilsonand1/status/730028173908451328",
+        "service": "openbazaar"
+      }
+    ],
+    "description": "I promote BitCoin.  Please follow me for my latest tour dates.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/internetofmoney",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/internetofmoney",
+        "name": "cover"
+      }
+    ],
+    "name": ""
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN internetofmoney.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/internetofmoney.id\"\n"
 }
