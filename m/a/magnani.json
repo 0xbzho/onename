@@ -1,0 +1,36 @@
+{
+  "owner_address": "1MNy8eckCMKSSuG4H68ARNBJnjdVTGzRdG",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mauro.magnani",
+        "proofType": "http",
+        "proofUrl": "https://m.facebook.com/dialog/feed?app_id=548488045273230&link=https%3A%2F%2Fonename.com%2Fmagnani&redirect_uri=https%3A%2F%2Fonename.com%2Fmagnani%23facebook",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mauromagnani",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Bmagnani%20is%20my%20blockchain%20ID.%20https://onename.com/magnani",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/magnani",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/magnani",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN magnani.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/magnani.id\"\n"
+}
