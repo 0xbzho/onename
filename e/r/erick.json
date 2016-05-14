@@ -1,48 +1,53 @@
 {
   "owner_address": "17eSjrs8tEKPda45hUKmAVLqGYvPAZTCKg",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/erick"
-    },
-    "bio": "Founder of blockbox.io",
-    "bitcoin": {
-      "address": "1MxK453qKNKYe6tBkTMkFqQCfDE7AqEYLn"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/QAd.jpeg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/erickemedy/35c8dcb41a917103747f"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1MxK453qKNKYe6tBkTMkFqQCfDE7AqEYLn",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "erickemedy"
-    },
-    "location": {
-      "formatted": "Reston, VA"
-    },
-    "name": {
-      "formatted": "Eric"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/EricKemedy/status/502313180115120128"
+      {
+        "@type": "Account",
+        "identifier": "2018c7c4e74c226e8a168fc8ecf0f1cea85f34f5",
+        "service": "warez"
       },
-      "username": "EricKemedy"
+      {
+        "@type": "Account",
+        "identifier": "EricKemedy",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/EricKemedy/status/728089515131199490?lang=en",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "erickemedy",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/erickemedy/2643e64bbcfbd46f6cbf3884ab5ffb0c",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Reston, VA"
     },
-    "v": "0.2"
+    "description": "Founder of blockbox.io",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/erick",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Eric"
   },
-  "verifications": [
-    {
-      "identifier": "erickemedy",
-      "proof_url": "https://gist.github.com/erickemedy/35c8dcb41a917103747f",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "EricKemedy",
-      "proof_url": "https://twitter.com/EricKemedy/status/502313180115120128",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN erick.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/erick.id\"\n"
 }
