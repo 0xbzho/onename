@@ -1,33 +1,40 @@
 {
   "owner_address": "1LspqyY4BS9MoU8zpCyQQnRHdyPcVSkQbm",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/bill_auger"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bill-auger",
+        "proofType": "http",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "massachusettes"
     },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/bill_auger"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/bill-auger/02d1c963c4240a34dc60"
+    "description": "see my contact page on github.io",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bill_auger",
+        "name": "avatar"
       },
-      "username": "bill-auger"
-    },
-    "location": {
-      "formatted": "massachusettes"
-    },
-    "name": {
-      "formatted": "bill-auger"
-    },
-    "v": "0.2",
-    "website": "https://bill-auger.github.io/"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bill_auger",
+        "name": "cover"
+      }
+    ],
+    "name": "bill-auger",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://bill-auger.github.io/"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "bill-auger",
-      "proof_url": "https://gist.github.com/bill-auger/02d1c963c4240a34dc60",
-      "service": "github",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN bill_auger.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bill_auger.id\"\n"
 }
