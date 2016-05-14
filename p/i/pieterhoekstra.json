@@ -1,47 +1,54 @@
 {
   "owner_address": "1DaU3VGMbBo1N5LgD2E7ZZZux7jhvfE6va",
   "profile": {
-    "bio": "Frontend and UX passionate app builder and graphical artist",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/pieterhoekstra"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/pieter.hoekstra.3/posts/1170035839673228"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "pieterhoekstra",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "pieter.hoekstra.3"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/pieterhoekstra/0f4065949d16d1ddf43a"
+      {
+        "@type": "Account",
+        "identifier": "pieterhoekstra",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "pieterhoekstra"
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/pieterhoekstra",
+        "identifier": "BC3318CD7A9FD6F4C67D571331A6BF5354462622",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Amsterdam"
     },
-    "location": {
-      "formatted": "Amsterdam"
-    },
-    "name": {
-      "formatted": "Pieter Hoekstra"
-    },
-    "pgp": {
-      "fingerprint": "BC3318CD7A9FD6F4C67D571331A6BF5354462622",
-      "url": "https://s3.amazonaws.com/pk9/pieterhoekstra"
-    },
-    "v": "0.2",
-    "website": "http://cookingwiththedutchie.nl"
+    "description": "Frontend and UX passionate app builder and graphical artist",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/pieterhoekstra",
+        "name": "cover"
+      }
+    ],
+    "name": "Pieter Hoekstra",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://cookingwiththedutchie.nl"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "pieterhoekstra",
-      "proof_url": "https://gist.github.com/pieterhoekstra/0f4065949d16d1ddf43a",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "pieter.hoekstra.3",
-      "proof_url": "https://facebook.com/pieter.hoekstra.3/posts/1170035839673228",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN pieterhoekstra.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pieterhoekstra.id\"\n"
 }
