@@ -1,0 +1,45 @@
+{
+  "owner_address": "1GSQvVTfZGd9DtJmFo4WuUREfMXzHJj7oo",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "3CDKJHsnNDSrpNy8zaUrSr5GDKtb5s4tqV",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "konrad.dylewski",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fkonrad.dylewski%2Fposts%2F1157040324314986",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "2c84917a8ac2ad8ef4b3b520d49cff1a5a5cba59",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Wrocław"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/maxmarket",
+        "name": "avatar"
+      }
+    ],
+    "name": "Konrad"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN maxmarket.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/maxmarket.id\"\n"
+}
