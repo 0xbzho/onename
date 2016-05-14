@@ -1,44 +1,53 @@
 {
   "owner_address": "17SQKZMaqtgUEoN7htHT3rjKyNZsaJpbDb",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "6cd6b4ec7f9ab3e7c09e82157baa87d4c01b7f57",
+        "identifier": "bazariashops",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1N88CxfvEqkVFMzr9hkvSDkmWzjxX9LEkM",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "8ec62c04058f5ceceedb04f56ef8cab31e5de782",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/salopst/status/730666838519087104",
         "service": "openbazaar"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/bazaria"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "USA"
     },
-    "bio": "OpenBazaar Shopping Guide: Storefronts, Listing and Promotion",
-    "bitcoin": {
-      "address": "1N88CxfvEqkVFMzr9hkvSDkmWzjxX9LEkM"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/bazaria"
-    },
-    "location": {
-      "formatted": "USA"
-    },
-    "name": {
-      "formatted": "Bazaria"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/bazariashops/status/697397344703217664"
+    "description": "OpenBazaar Shopping Guide: Storefronts, Listing and Promotion",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bazaria",
+        "name": "avatar"
       },
-      "username": "bazariashops"
-    },
-    "v": "0.2",
-    "website": "http://www.bazaria.xyz"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bazaria",
+        "name": "cover"
+      }
+    ],
+    "name": "Bazaria",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.bazaria.xyz"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "bazariashops",
-      "proof_url": "https://twitter.com/bazariashops/status/697397344703217664",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN bazaria.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bazaria.id\"\n"
 }
