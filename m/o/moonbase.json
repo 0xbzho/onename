@@ -1,24 +1,34 @@
 {
   "owner_address": "1HCEXpAEuK1xoYxRRFVPG324adDM57UvPf",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/moonbase"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "JordanFrankfurt",
+        "proofType": "http",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York, NY"
     },
-    "bio": "I am Sumner's forgotten man.",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/moonbase"
-    },
-    "location": {
-      "formatted": "New York, NY"
-    },
-    "name": {
-      "formatted": "Jordan Frankfurt"
-    },
-    "twitter": {
-      "username": "JordanFrankfurt"
-    },
-    "v": "0.2"
+    "description": "I am Sumner's forgotten man.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/moonbase",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/moonbase",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jordan Frankfurt"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN moonbase.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/moonbase.id\"\n"
 }
