@@ -1,13 +1,36 @@
 {
   "owner_address": "1FQTpQCA8HMukx5gkLC46P4PUXodzMfo12",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/rVv.jpeg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "@pullnews",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/PullNews/status/726292696831287296",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Zurich, London, New York"
     },
-    "twitter": {
-      "username": "@pullnews"
-    },
-    "v": "0.2"
+    "description": "Web entrepreneur, author, speaker",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "David Siegel",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://kryptodesign.com"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN davidsiegel.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/davidsiegel.id\"\n"
 }
