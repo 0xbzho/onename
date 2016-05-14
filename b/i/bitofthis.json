@@ -1,37 +1,51 @@
 {
   "owner_address": "16uCPMjiaon2CmwLy33DCC8uvBWMqz5rMx",
   "profile": {
-    "avatar": {
-      "url": "http://www.bitofthis.com/uploads/1/5/5/7/15575086/1700517_orig.jpg"
-    },
-    "bio": "Writer on all things #Bitcoin, #eBay, #Amazon @ @LetsTalkBitcoin @ecommercebytes @BitcoinMagazine",
-    "bitcoin": {
-      "address": "1G2TzTkFfLizrYqmcZt34wp9N7nFNgEw9G"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/bitofthis"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Brian Cohen"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/inthepixels/status/516400437449064448"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "inthepixels",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "inthepixels"
+      {
+        "@type": "Account",
+        "identifier": "1G2TzTkFfLizrYqmcZt34wp9N7nFNgEw9G",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Bitofthis",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "v": "0.2",
-    "website": "http://www.bitofthis.com"
+    "description": "Writer on all things #Bitcoin, #eBay, #Amazon @ @LetsTalkBitcoin @ecommercebytes @BitcoinMagazine",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bitofthis",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bitofthis",
+        "name": "avatar"
+      }
+    ],
+    "name": "Brian Cohen",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.bitofthis.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "inthepixels",
-      "proof_url": "https://twitter.com/inthepixels/status/516400437449064448",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN bitofthis.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bitofthis.id\"\n"
 }
