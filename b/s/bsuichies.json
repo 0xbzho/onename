@@ -1,49 +1,52 @@
 {
   "owner_address": "1QEtfetvP4BKyhD4gEzV5UPNwEPmo1RhqY",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/bsuichies"
-    },
-    "bio": "Digital Strategy & Innovation | Concepts, Products & Ecosystems | Connecting the dots between the digital and the real world | Currently @ Philips IT Innovation",
-    "bitcoin": {
-      "address": "13wHCsgK8gRSbXC37zEszHg7wCwPx6b67Y"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/bsuichies"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/amazingminds/945234ae5cf007c1918f"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bsuichies",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "amazingminds"
-    },
-    "location": {
-      "formatted": "Haarlem, the Netherlands"
-    },
-    "name": {
-      "formatted": "Bart Suichies"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/bsuichies/status/618364950852071424"
+      {
+        "@type": "Account",
+        "identifier": "amazingminds",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "bsuichies"
+      {
+        "@type": "Account",
+        "identifier": "13wHCsgK8gRSbXC37zEszHg7wCwPx6b67Y",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Haarlem, the Netherlands"
     },
-    "v": "0.2",
-    "website": "http://www.amazingminds.nl"
+    "description": "Edit headlineTechnology Lead at Philips Blockchain Lab | Digital Strategy & Innovation | Blockchain / Healthcare / Enterprise",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bsuichies",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bsuichies",
+        "name": "cover"
+      }
+    ],
+    "name": "Bart Suichies",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.amazingminds.nl"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "amazingminds",
-      "proof_url": "https://gist.github.com/amazingminds/945234ae5cf007c1918f",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "bsuichies",
-      "proof_url": "https://twitter.com/bsuichies/status/618364950852071424",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN bsuichies.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bsuichies.id\"\n"
 }
