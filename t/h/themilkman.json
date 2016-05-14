@@ -1,0 +1,32 @@
+{
+  "owner_address": "194UoaBJEn1vHvfcswHahK3Vbazfqx9ioQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "eb68832340b1ce541a58118e83602577b117f850",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "A milk bar near you"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/themilkman",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "The Milk Man"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN themilkman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/themilkman.id\"\n"
+}
