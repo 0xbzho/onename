@@ -1,0 +1,53 @@
+{
+  "owner_address": "1E48JRaJzx4vjicnxztZUyVgq1sy5TQPPw",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sebastianfpena",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sebastianfpena",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "33oqKz99bCbN5ywApYhJQ35gv8BZE38AWh",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sebastianfpena",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/sebastianfpena/efda10f22920b0e0531827d35900ed99",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
+    },
+    "description": "Not fit for purpose.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sebastianfpena",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/sebastianfpena",
+        "name": "cover"
+      }
+    ],
+    "name": "Sebastián F. Peña"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN sebastianfpena.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sebastianfpena.id\"\n"
+}
