@@ -1,70 +1,72 @@
 {
   "owner_address": "14mXXuVwyR5iENfkcfppSSKNm3wmqtJqGb",
   "profile": {
-    "auth": [
+    "@type": "Person",
+    "account": [
       {
-        "publicKeychain": ""
+        "@type": "Account",
+        "identifier": "1ARFWtJS1DWaKUdia3HaSXZquDg9Zpypby",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/paulw#show-public",
+        "identifier": "D9FC1E5D2F62B06D379CF997AE85ED0DB28A4EEA",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "PaulPWilliams",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/PaulPWilliams/status/651905464205221890",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "paulpw",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/paulpw/377f032ad8e4e16cba90",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "paulpw",
+        "service": "keybase"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "service": "facebook"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/paul"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Dublin Ireland"
     },
-    "bio": "Technologist, Developer, Blockchain Professional  and Founder @BitPuch",
-    "bitcoin": {
-      "address": "1ARFWtJS1DWaKUdia3HaSXZquDg9Zpypby"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/paul"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/paul williams/posts/10153677389581738"
+    "description": "Technologist, Developer, Blockchain Professional , Partner @Chainsmiths and Principal @BitPuch",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/paul",
+        "name": "avatar"
       },
-      "username": "paul williams"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/paulpw/377f032ad8e4e16cba90"
-      },
-      "username": "paulpw"
-    },
-    "location": {
-      "formatted": "Dublin Ireland"
-    },
-    "name": {
-      "formatted": "Paul Williams"
-    },
-    "pgp": {
-      "fingerprint": "D9FC1E5D2F62B06D379CF997AE85ED0DB28A4EEA",
-      "url": "https://keybase.io/paulw#show-public"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/PaulPWilliams/status/651905464205221890"
-      },
-      "username": "PaulPWilliams"
-    },
-    "v": "0.2",
-    "website": "http://bitpuch.com"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/paul",
+        "name": "cover"
+      }
+    ],
+    "name": "Paul Williams",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://bitpuch.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "paulpw",
-      "proof_url": "https://gist.github.com/paulpw/377f032ad8e4e16cba90",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "PaulPWilliams",
-      "proof_url": "https://twitter.com/PaulPWilliams/status/651905464205221890",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "paul williams",
-      "proof_url": "https://facebook.com/paul williams/posts/10153677389581738",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN paul.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/paul.id\"\n"
 }
