@@ -1,61 +1,66 @@
 {
   "owner_address": "1TTo4Yz41QVmFsJqUeXsiQN5SmRwZBcMX",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/tonefreqhz"
-    },
-    "bio": "Dad to my two beautiful Children Rhiannon and Rasmus. &  Director Tychastic Investment group",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/tonefreqhz"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/rogergl/posts/10154110138607138"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1AKSntxfEWwAKYVrUjf81AHBskM6KC4Ypg",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "rogergl"
-    },
-    "github": {
-      "proof": {
-        "url": "https://github.com/tonefreqhz"
+      {
+        "@type": "Account",
+        "identifier": "RogerGLewis",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RogerGLewis/status/725066492614705152",
+        "service": "twitter"
       },
-      "username": "https:"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/tonefreqhz"
-    },
-    "location": {
-      "formatted": "Laholm, SE"
-    },
-    "name": {
-      "formatted": "Roger Glyndwr Lewis"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/RogerGLewis/status/718831471285428224"
+      {
+        "@type": "Account",
+        "identifier": "tonefreqhz",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tonefreqhz/ba1375ffdf65f5660de9864c98260fa4",
+        "service": "github"
       },
-      "username": "RogerGLewis"
+      {
+        "@type": "Account",
+        "identifier": "c8a2fdb4f489616a29d9add8b13f05ff1202892c",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rogergl",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/20531316728/posts/10154009990506729/",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Laholm, SE"
     },
-    "v": "0.2",
-    "website": "https://se.linkedin.com/in/roger-lewis-48175211"
+    "description": "Dad to my two beautiful Children Rhiannon and Rasmus. &  Director Tychastic Investment group",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tonefreqhz",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/tonefreqhz",
+        "name": "cover"
+      }
+    ],
+    "name": "Roger Glyndwr Lewis",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://se.linkedin.com/in/roger-lewis-48175211"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "https:",
-      "proof_url": "https://github.com/tonefreqhz",
-      "service": "github",
-      "valid": false
-    },
-    {
-      "identifier": "RogerGLewis",
-      "proof_url": "https://twitter.com/RogerGLewis/status/718831471285428224",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "rogergl",
-      "proof_url": "https://facebook.com/rogergl/posts/10154110138607138",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN tonefreqhz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tonefreqhz.id\"\n"
 }
