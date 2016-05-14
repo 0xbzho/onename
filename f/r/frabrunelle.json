@@ -1,68 +1,66 @@
 {
   "owner_address": "1N3S2ZwFHv1xgQnnsUvva6Sw9fFwavR9zi",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/francisb"
-    },
-    "bio": "SAFE Network enthusiast",
-    "bitcoin": {
-      "address": "1EB83mjTdb6A4nNenHXzKm851UpFjjHG1F"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/frabrunelle"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/frabrunelle/posts/10153363836344513"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "frabrunelle",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "frabrunelle"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/frabrunelle/6780bfc6e35e5b2b4448"
+      {
+        "@type": "Account",
+        "identifier": "frabrunelle",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "frabrunelle"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/francisb"
-    },
-    "location": {
-      "formatted": "Montreal"
-    },
-    "name": {
-      "formatted": "Francis Brunelle"
-    },
-    "pgp": {
-      "fingerprint": "7E7B6437B84895016276D3AFA991583B47156D30",
-      "url": "https://keybase.io/frabrunelle/key.asc"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/frabrunelle/status/608442466900045824"
+      {
+        "@type": "Account",
+        "identifier": "1EB83mjTdb6A4nNenHXzKm851UpFjjHG1F",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "frabrunelle"
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/frabrunelle/key.asc",
+        "identifier": "7E7B6437B84895016276D3AFA991583B47156D30",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "frabrunelle",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/frabrunelle/6780bfc6e35e5b2b4448",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Montreal"
     },
-    "v": "0.2",
-    "website": "https://frabrunelle.com"
+    "description": "SAFE Network enthusiast",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/frabrunelle",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/frabrunelle",
+        "name": "avatar"
+      }
+    ],
+    "name": "Francis Brunelle",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://frabrunelle.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "frabrunelle",
-      "proof_url": "https://gist.github.com/frabrunelle/6780bfc6e35e5b2b4448",
-      "service": "github",
-      "valid": false
-    },
-    {
-      "identifier": "frabrunelle",
-      "proof_url": "https://twitter.com/frabrunelle/status/608442466900045824",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "frabrunelle",
-      "proof_url": "https://facebook.com/frabrunelle/posts/10153363836344513",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN frabrunelle.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/frabrunelle.id\"\n"
 }
