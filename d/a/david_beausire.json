@@ -9,6 +9,13 @@
         "proofType": "http",
         "proofUrl": "https://www.facebook.com/david.beausire.9/posts/562882340548308",
         "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Dr_beausire",
+        "proofType": "http",
+        "proofUrl": "https://t.co/zcp0e04QsW",
+        "service": "twitter"
       }
     ],
     "address": {
@@ -29,6 +36,19 @@
     ],
     "name": "David Beausire"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "david.beausire.9",
+      "proof_url": "https://www.facebook.com/david.beausire.9/posts/562882340548308",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "Dr_beausire",
+      "proof_url": "https://t.co/zcp0e04QsW",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN david_beausire.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/david_beausire.id\"\n"
 }
