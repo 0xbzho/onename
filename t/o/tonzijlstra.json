@@ -55,6 +55,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "tonzijlstra",
+      "proof_url": "https://www.facebook.com/tonzijlstra/posts/10153336016532957",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN tonzijlstra.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tonzijlstra.id\"\n"
 }
