@@ -5,12 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "tqbfjotld",
-        "role": "payment",
-        "service": "bitcoin"
-      },
-      {
-        "@type": "Account",
         "identifier": "woods_nh",
         "proofType": "http",
         "proofUrl": "https://twitter.com/woods_nh/status/728831150613991424",
@@ -25,7 +19,13 @@
       },
       {
         "@type": "Account",
-        "identifier": "56561c17e966f8e45fdb91e8a1dc7f04004d7a19",
+        "identifier": "1AW7SmMorRQde4vBNbFs7NhdcJXF8aQmte",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "edceb5bdf15fb2f445aef82d26e21f01ff6a47d9",
         "proofType": "http",
         "proofUrl": "https://gist.github.com/tomwoodsnh/8f6c2ffba4b2b1b2cd58db3e5ef6a4f1#file-twoods-txt",
         "service": "openbazaar"
@@ -35,12 +35,17 @@
       "@type": "PostalAddress",
       "addressLocality": "New Hampshire USA"
     },
-    "description": "jewelry maker",
+    "description": "artist, jewelry maker, rockhound, macroeconomics, nature, hiking, bicycling",
     "image": [
       {
         "@type": "ImageObject",
         "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
         "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tomwoods_nh_jewelrymaker",
+        "name": "avatar"
       }
     ],
     "name": "Tom Woods",
@@ -51,6 +56,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "woods_nh",
+      "proof_url": "https://twitter.com/woods_nh/status/728831150613991424",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "tomwoodsnh",
+      "proof_url": "https://gist.github.com/tomwoodsnh/8f6c2ffba4b2b1b2cd58db3e5ef6a4f1#file-twoods-txt",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN tomwoods_nh_jewelrymaker.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tomwoods_nh_jewelrymaker.id\"\n"
 }
