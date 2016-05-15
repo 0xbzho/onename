@@ -1,6 +1,49 @@
 {
-  "owner_address": "17bWfXcFNNhG8Nu6KZopT17KZGPXxjiA9n",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1HXHcBU7GDcYd29oBMJTQjqXX942evGLsP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Empty2k12",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Empty2k12/f414fbd9ebae07340b5c4ced0f9eed09",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Empty2k12",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Empty2k12/status/730837380849111044",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Berlin"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Gero G."
+  },
+  "verifications": [
+    {
+      "identifier": "Empty2k12",
+      "proof_url": "https://gist.github.com/Empty2k12/f414fbd9ebae07340b5c4ced0f9eed09",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "Empty2k12",
+      "proof_url": "https://twitter.com/Empty2k12/status/730837380849111044",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN empty2k12.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/empty2k12.id\"\n"
 }
