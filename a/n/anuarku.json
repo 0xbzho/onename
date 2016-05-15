@@ -61,6 +61,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "Swissgold",
+      "proof_url": "https://twitter.com/Swissgold/status/729137492700487680",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "anuarku",
+      "proof_url": "https://gist.github.com/anuarku/6270da71aa8b0f433391073fb9238b46",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "maybank2u.com.my",
+      "proof_url": "https://www.facebook.com/maybank2u.com.my/posts/10153656762985975",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN anuarku.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/anuarku.id\"\n"
 }
