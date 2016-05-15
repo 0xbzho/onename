@@ -31,6 +31,13 @@
     ],
     "name": "Koles"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "piramida",
+      "proof_url": "https://twitter.com/piramida/status/717414132409044992",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN piramida.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/piramida.id\"\n"
 }
