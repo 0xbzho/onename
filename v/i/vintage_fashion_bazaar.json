@@ -54,6 +54,19 @@
     ],
     "name": "Felix gale"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "BazaarVintage",
+      "proof_url": "https://twitter.com/BazaarVintage/status/730301019662471168",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/2b673790cdbb912eb2e294b635742839",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN vintage_fashion_bazaar.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vintage_fashion_bazaar.id\"\n"
 }
