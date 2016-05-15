@@ -1,60 +1,51 @@
 {
   "owner_address": "12bEh73qxiAWFzHbxM4dFKU7kLAjA9cbgt",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "d36aceb9085943eac3e4e1b1d455e044c0c3e971",
+        "identifier": "honusurf",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "webtactechs",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "horsecoin",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "15ivySURk4y1BJWer7U9uHYXZtwjvqJav7",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "82c0c6602a904d2309883043025de9e68398e8e7",
         "service": "openbazaar"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/coininstant"
-    },
-    "bitcoin": {
-      "address": "15ivySURk4y1BJWer7U9uHYXZtwjvqJav7"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/coininstant"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/webtactechs/posts/10209752514154841"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/coininstant",
+        "name": "avatar"
       },
-      "username": "webtactechs"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/horsecoin/c07467b270ea299817e861b157c8b791.js"
-      },
-      "username": "horsecoin"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/honusurf/status/721872450166730754"
-      },
-      "username": "honusurf"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/coininstant",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "horsecoin",
-      "proof_url": "https://gist.github.com/horsecoin/c07467b270ea299817e861b157c8b791.js",
-      "service": "github",
-      "valid": false
-    },
-    {
-      "identifier": "honusurf",
-      "proof_url": "https://twitter.com/honusurf/status/721872450166730754",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "webtactechs",
-      "proof_url": "https://facebook.com/webtactechs/posts/10209752514154841",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN coininstant.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/coininstant.id\"\n"
 }
