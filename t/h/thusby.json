@@ -1,58 +1,54 @@
 {
   "owner_address": "1FvLjLabHzpXS6vGtAL5BmEBw8paqiEtTH",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/thusby"
-    },
-    "bio": "Digital adventurer and experimenter!",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/thusby"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/terje.husby/posts/10153559298814818"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "thusby",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "terje.husby"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/thusby/bbda27e9455daa6a501e"
+      {
+        "@type": "Account",
+        "identifier": "terje.husby",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/terje.husby/posts/10153559298814818",
+        "service": "facebook"
       },
-      "username": "thusby"
+      {
+        "@type": "Account",
+        "identifier": "thusby",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/search?f=tweets&q=%40thusby%20onename&src=typd",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Røldal and Oslo, Norway"
     },
-    "location": {
-      "formatted": "Røldal and Oslo, Norway"
-    },
-    "name": {
-      "formatted": "Terje Husby"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/thusby/status/686152818965786624"
+    "description": "Digital adventurer and experimenter!",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/thusby",
+        "name": "avatar"
       },
-      "username": "thusby"
-    },
-    "v": "0.2",
-    "website": "http://tekloftet.no"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/thusby",
+        "name": "cover"
+      }
+    ],
+    "name": "Terje Husby",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://tekloftet.no"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "thusby",
-      "proof_url": "https://gist.github.com/thusby/bbda27e9455daa6a501e",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "thusby",
-      "proof_url": "https://twitter.com/thusby/status/686152818965786624",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "terje.husby",
-      "proof_url": "https://facebook.com/terje.husby/posts/10153559298814818",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN thusby.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/thusby.id\"\n"
 }
