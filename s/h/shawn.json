@@ -5,12 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "ShawnLeary",
-        "proofType": "http",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
         "identifier": "1nTxCh1ZwFgadg9MEUvyKY3sdQW6NLPYN",
         "role": "payment",
         "service": "bitcoin"
@@ -26,15 +20,22 @@
         "@type": "Account",
         "identifier": "shawnleary",
         "proofType": "http",
-        "proofUrl": "https://facebook.com/shawnleary/posts/10154050056016515",
-        "service": "facebook"
+        "proofUrl": "https://twitter.com/shawnleary/status/728762683479232512",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ShawnLeary",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ShawnLeary/91c45d83a3220237d42d96b9d6c58553",
+        "service": "github"
       },
       {
         "@type": "Account",
         "identifier": "shawnleary",
         "proofType": "http",
-        "proofUrl": "https://twitter.com/shawnleary/status/728762683479232512",
-        "service": "twitter"
+        "proofUrl": "https://facebook.com/shawnleary/posts/10154050056016515",
+        "service": "facebook"
       }
     ],
     "address": {
@@ -62,6 +63,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "shawnleary",
+      "proof_url": "https://twitter.com/shawnleary/status/728762683479232512",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ShawnLeary",
+      "proof_url": "https://gist.github.com/ShawnLeary/91c45d83a3220237d42d96b9d6c58553",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "shawnleary",
+      "proof_url": "https://facebook.com/shawnleary/posts/10154050056016515",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN shawn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/shawn.id\"\n"
 }
