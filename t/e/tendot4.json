@@ -42,6 +42,19 @@
     ],
     "name": "Abdias Vidal"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "TenDot4",
+      "proof_url": "https://gist.github.com/TenDot4/685986a2f2abe17a85c325c9257f8ca3",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "tendot4",
+      "proof_url": "https://twitter.com/tendot4/status/728729678681362432",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN tendot4.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tendot4.id\"\n"
 }
