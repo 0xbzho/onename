@@ -5,24 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "N4GN",
-        "proofType": "http",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "timtotten",
-        "proofType": "http",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
-        "identifier": "n4gn",
-        "proofType": "http",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
         "identifier": "1TimTn1TSkWJw6TPuNHic6VYhV3AkgHsR",
         "role": "payment",
         "service": "bitcoin"
@@ -31,6 +13,33 @@
         "@type": "Account",
         "identifier": "ec857a4572885d18acd63039501585d8e18940d0",
         "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "N4GN",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/N4GN/status/729461843052384256",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "timtotten",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/timtotten/posts/10209245034708159",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "n4gn",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/n4gn/932c703ef4d13f816a64e615fdfb1831",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/n4gn",
+        "identifier": "D97D8738AA09F24D8D84A478BA0FC87D31AE0AB1",
+        "service": "pgp"
       }
     ],
     "address": {
@@ -58,6 +67,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "N4GN",
+      "proof_url": "https://twitter.com/N4GN/status/729461843052384256",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "timtotten",
+      "proof_url": "https://www.facebook.com/timtotten/posts/10209245034708159",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "n4gn",
+      "proof_url": "https://gist.github.com/n4gn/932c703ef4d13f816a64e615fdfb1831",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN n4gn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/n4gn.id\"\n"
 }
