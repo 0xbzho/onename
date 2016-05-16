@@ -62,6 +62,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "ben.kahan1",
+      "proof_url": "https://www.facebook.com/ben.kahan1/posts/1175261232524782?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "bkahan",
+      "proof_url": "https://gist.github.com/bkahan/f72983ee6dc69750b99df9a7cc0427c0",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN bkahan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bkahan.id\"\n"
 }
