@@ -5,12 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "raduab",
-        "proofType": "http",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
         "identifier": "1Fpu3hzJECGRkUuuRj7CMyTzJ5Q1TmXvaK",
         "role": "payment",
         "service": "bitcoin"
@@ -26,8 +20,15 @@
         "@type": "Account",
         "identifier": "raduab",
         "proofType": "http",
-        "proofUrl": "Check out @raduab's Tweet: https://twitter.com/raduab/status/729493909987004416",
+        "proofUrl": "https://twitter.com/raduab/status/729856511304998912",
         "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "raduab",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/raduab/5193dc0b9dde2b37256b8c4ff482eca8",
+        "service": "github"
       }
     ],
     "address": {
@@ -48,6 +49,19 @@
     ],
     "name": "Radu"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "raduab",
+      "proof_url": "https://twitter.com/raduab/status/729856511304998912",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "raduab",
+      "proof_url": "https://gist.github.com/raduab/5193dc0b9dde2b37256b8c4ff482eca8",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN radu.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/radu.id\"\n"
 }
