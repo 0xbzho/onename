@@ -9,6 +9,13 @@
         "proofType": "http",
         "proofUrl": "https://gist.github.com/coyotte508/e1cbf65160c613bf8ba60fb43a288ab4",
         "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "68cc4d64cfbfea6a0e28e38077552c19a5bb157d",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jujugoboom/c99c7835c967be1cccc399e220461198",
+        "service": "openbazaar"
       }
     ],
     "image": [
@@ -19,6 +26,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "coyotte508",
+      "proof_url": "https://gist.github.com/coyotte508/e1cbf65160c613bf8ba60fb43a288ab4",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN coyotte508.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/coyotte508.id\"\n"
 }
