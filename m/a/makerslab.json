@@ -7,18 +7,19 @@
         "@type": "Account",
         "identifier": "makerslabcz",
         "proofType": "http",
-        "service": "twitter"
+        "proofUrl": "https://www.facebook.com/makerslabcz/posts/1278642408816973",
+        "service": "facebook"
       },
       {
         "@type": "Account",
         "identifier": "makerslabcz",
         "proofType": "http",
-        "proofUrl": "https://business.facebook.com/makerslabcz/posts/1278642408816973",
-        "service": "facebook"
+        "proofUrl": "https://twitter.com/makerslabcz/status/717817740472528896",
+        "service": "twitter"
       },
       {
         "@type": "Account",
-        "identifier": "cb8e08439788479d0e8f41239c75919609178698",
+        "identifier": "42b3944f733092e902268edfa6cdb2590f36295e",
         "proofType": "http",
         "proofUrl": "https://twitter.com/_muratcelik/status/729583568649850880",
         "service": "openbazaar"
@@ -49,6 +50,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "makerslabcz",
+      "proof_url": "https://www.facebook.com/makerslabcz/posts/1278642408816973",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "makerslabcz",
+      "proof_url": "https://twitter.com/makerslabcz/status/717817740472528896",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN makerslab.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/makerslab.id\"\n"
 }
