@@ -1,37 +1,46 @@
 {
   "owner_address": "1JDn2pGemm3oYD6LG56SqxL1EnMSrDf1N4",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/travs"
-    },
-    "bio": "",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/rVv.jpeg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/travs/c988ca6870996cd45f87"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "__travs__",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "travs"
+      {
+        "@type": "Account",
+        "identifier": "travs",
+        "proofType": "http",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Travis Jacobs"
-    },
-    "twitter": {
-      "username": "__travs__"
-    },
-    "v": "0.2",
-    "website": "http://travs.github.io"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/travs",
+        "name": "avatar"
+      }
+    ],
+    "name": "Travis Jacobs",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://travs.github.io"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "travs",
-      "proof_url": "https://gist.github.com/travs/c988ca6870996cd45f87",
-      "service": "github",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN travs.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/travs.id\"\n"
 }
