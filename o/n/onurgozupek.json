@@ -1,63 +1,79 @@
 {
   "owner_address": "1QL2vqAKLwUvnidMcmJi3dMPsN4D4nwt1k",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/onurgozupek"
-    },
-    "bitcoin": {
-      "address": "36KqzjEayhojchacKi23YrUV99eaGQAY3f"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/onurgozupek"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/Onurgozupek/posts/10153790763776880"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "3PLRfLMWYhK3WgKhLPXmwWe7duTbXsQKEo",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "Onurgozupek"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/onurgozupek/8fb1ee1358f0b7e36578"
+      {
+        "@type": "Account",
+        "identifier": "onur@gozupek.com",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/onurgozupek/status/732083579342163968",
+        "service": "twitter"
       },
-      "username": "onurgozupek"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/onurgozupek"
-    },
-    "location": {
-      "formatted": "Istanbul"
-    },
-    "name": {
-      "formatted": "Onur Gozupek"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/onurgozupek/status/652357361005408256"
+      {
+        "@type": "Account",
+        "identifier": "onur@gozupek.com",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/onurgozupek/posts/10154187443281880",
+        "service": "facebook"
       },
-      "username": "onurgozupek"
+      {
+        "@type": "Account",
+        "identifier": "onurgozupek",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/onurgozupek/8fb1ee1358f0b7e36578",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Istanbul"
     },
-    "v": "0.2",
-    "website": "https://onurgozupek.com"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/onurgozupek",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/onurgozupek",
+        "name": "cover"
+      }
+    ],
+    "name": "Onur Gozupek",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://onurgozupek.com"
+      }
+    ]
   },
   "verifications": [
+    {
+      "identifier": "onur@gozupek.com",
+      "proof_url": "https://twitter.com/onurgozupek/status/732083579342163968",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "onur@gozupek.com",
+      "proof_url": "https://www.facebook.com/onurgozupek/posts/10154187443281880",
+      "service": "facebook",
+      "valid": false
+    },
     {
       "identifier": "onurgozupek",
       "proof_url": "https://gist.github.com/onurgozupek/8fb1ee1358f0b7e36578",
       "service": "github",
       "valid": false
-    },
-    {
-      "identifier": "onurgozupek",
-      "proof_url": "https://twitter.com/onurgozupek/status/652357361005408256",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "Onurgozupek",
-      "proof_url": "https://facebook.com/Onurgozupek/posts/10153790763776880",
-      "service": "facebook",
-      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN onurgozupek.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/onurgozupek.id\"\n"
 }
