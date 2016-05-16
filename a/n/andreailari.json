@@ -19,6 +19,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "ila",
+      "proof_url": "https://twitter.com/ila/status/725717872350212097",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN andreailari.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/andreailari.id\"\n"
 }
