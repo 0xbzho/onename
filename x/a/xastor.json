@@ -25,6 +25,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "xastor",
+      "proof_url": "https://twitter.com/xastor/status/729229359245103105",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN xastor.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/xastor.id\"\n"
 }
