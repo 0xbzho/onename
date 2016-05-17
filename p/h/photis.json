@@ -1,34 +1,40 @@
 {
   "owner_address": "1835foznpmZbNLCnLSrHjwXjRShwq7W5Qr",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/photis"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "photisss",
+        "proofType": "http",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Iraklio GR - Έρμηςκαϊλ ΓΕ"
     },
-    "bio": "This is The Account Formerly Known As Oriste, aka TAFKAO, just in case you were doubting.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/wdX.jpeg"
-    },
-    "location": {
-      "formatted": "Iraklio GR - Έρμηςκαϊλ ΓΕ"
-    },
-    "name": {
-      "formatted": "photisss"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/photisss/status/698787656554188800"
+    "description": "The Account Formerly Known As Oriste, aka TAFKAO",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/photis",
+        "name": "avatar"
       },
-      "username": "photisss"
-    },
-    "v": "0.2",
-    "website": "http://www.oriste.com/"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "photisss",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.oriste.com/"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "photisss",
-      "proof_url": "https://twitter.com/photisss/status/698787656554188800",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN photis.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/photis.id\"\n"
 }
