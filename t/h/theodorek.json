@@ -36,6 +36,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "tedkinni",
+      "proof_url": "https://twitter.com/tedkinni/status/729737014153613313",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN theodorek.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/theodorek.id\"\n"
 }
