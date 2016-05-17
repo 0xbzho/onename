@@ -51,6 +51,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "nerdblurt",
+      "proof_url": "https://gist.github.com/nerdblurt/99b6b80bd5f2ff8a92df162e001f2d5a",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "NerdBlurt",
+      "proof_url": "https://twitter.com/NerdBlurt/status/724662140364308480",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ldanakos",
+      "proof_url": "https://www.facebook.com/ldanakos/posts/10153485470126373?notif_t=like&notif_id=1461608574377063",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN nerdblurt.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nerdblurt.id\"\n"
 }
