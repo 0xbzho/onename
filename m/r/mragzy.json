@@ -54,6 +54,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "MrAgzy",
+      "proof_url": "https://twitter.com/MrAgzy/status/725682487075201024",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "agzy.vfx",
+      "proof_url": "https://www.facebook.com/agzy.vfx/posts/116045998802774",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "MrAgzy",
+      "proof_url": "https://gist.github.com/MrAgzy/b80727612e4993cb7b5f0604b483094e",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN mragzy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mragzy.id\"\n"
 }
