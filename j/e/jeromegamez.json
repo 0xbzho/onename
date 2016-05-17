@@ -1,67 +1,73 @@
 {
   "owner_address": "1DMpt14UZV2BjFjcZbjqwGDubUykFwSo5n",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/jeromegamez"
-    },
-    "bio": "Doing things since 1980. Professional Bughunter and Troubleshooter. Working @kreait.",
-    "bitcoin": {
-      "address": "1P3s2TwpLqp9TyrJckfKGLbGDFqgdx5wQH"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/jeromegamez"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/lefoudufafa/posts/206242113053122"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1P3s2TwpLqp9TyrJckfKGLbGDFqgdx5wQH",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "lefoudufafa"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/jeromegamez/bfc5254f21b0c1570da1"
+      {
+        "@type": "Account",
+        "identifier": "jeromegamez",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jeromegamez/status/732175911769001984",
+        "service": "twitter"
       },
-      "username": "jeromegamez"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/jeromegamez"
-    },
-    "location": {
-      "formatted": "Sankt Augustin"
-    },
-    "name": {
-      "formatted": "Jérôme Gamez"
-    },
-    "pgp": {
-      "url": "https://keybase.io/jeromegamez/key.asc"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/jeromegamez/status/685248820083605505"
+      {
+        "@type": "Account",
+        "identifier": "jeromegamez",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jeromegamez/82a12bb4f4763d8a6864eba6c25b2ba9",
+        "service": "github"
       },
-      "username": "jeromegamez"
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cologne Area, Germany"
     },
-    "v": "0.2",
-    "website": "http://www.gamez.name"
+    "description": "Doing things since 1980.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jeromegamez",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jeromegamez",
+        "name": "cover"
+      }
+    ],
+    "name": "Jérôme Gamez",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.gamez.name"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "jeromegamez",
-      "proof_url": "https://gist.github.com/jeromegamez/bfc5254f21b0c1570da1",
-      "service": "github",
-      "valid": false
-    },
-    {
-      "identifier": "jeromegamez",
-      "proof_url": "https://twitter.com/jeromegamez/status/685248820083605505",
+      "proof_url": "https://twitter.com/jeromegamez/status/732175911769001984",
       "service": "twitter",
       "valid": true
     },
     {
-      "identifier": "lefoudufafa",
-      "proof_url": "https://facebook.com/lefoudufafa/posts/206242113053122",
-      "service": "facebook",
-      "valid": false
+      "identifier": "jeromegamez",
+      "proof_url": "https://gist.github.com/jeromegamez/82a12bb4f4763d8a6864eba6c25b2ba9",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN jeromegamez.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jeromegamez.id\"\n"
 }
