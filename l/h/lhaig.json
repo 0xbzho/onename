@@ -1,52 +1,60 @@
 {
   "owner_address": "116EHa2hd3Ady2ndq1ehNG4wkSFxFKLUuq",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/lhaig"
-    },
-    "bio": "",
-    "bitcoin": {
-      "address": "13TeYRkR7pKvZ7uoV2Wgm68oQ1pTFViXZT"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/IHL.jpg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/lhaig/c7c2f325bd862f540999"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "lhaig",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "lhaig"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/lhaig"
-    },
-    "location": {
-      "formatted": "South Africa"
-    },
-    "name": {
-      "formatted": "Lance Haig"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/lhaig/status/560178108968747008"
+      {
+        "@type": "Account",
+        "identifier": "13TeYRkR7pKvZ7uoV2Wgm68oQ1pTFViXZT",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "lhaig"
+      {
+        "@type": "Account",
+        "identifier": "lhaig",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/lhaig/status/732190279420248064",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Berlin Germany"
     },
-    "v": "0.2",
-    "website": "http://www.haigmail.com"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/lhaig",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Lance Haig",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.haigmail.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "lhaig",
-      "proof_url": "https://gist.github.com/lhaig/c7c2f325bd862f540999",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "lhaig",
-      "proof_url": "https://twitter.com/lhaig/status/560178108968747008",
+      "proof_url": "https://twitter.com/lhaig/status/732190279420248064",
       "service": "twitter",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN lhaig.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lhaig.id\"\n"
 }
