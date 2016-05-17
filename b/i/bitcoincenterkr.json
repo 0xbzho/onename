@@ -61,6 +61,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "BitcoinCenterKR",
+      "proof_url": "https://twitter.com/BitcoinCenterKR/status/724674592749412352",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bitcoincenterkorea",
+      "proof_url": "https://www.facebook.com/bitcoincenterkorea/posts/1072244609508592",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "bitcoincenterkr",
+      "proof_url": "https://gist.github.com/bitcoincenterkr/41620bfe3c1869f0bcf7368e21ad25c3",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN bitcoincenterkr.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bitcoincenterkr.id\"\n"
 }
