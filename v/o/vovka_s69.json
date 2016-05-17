@@ -46,6 +46,19 @@
     ],
     "name": "Volodymyr Salitrynskyi"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "VS69",
+      "proof_url": "https://gist.github.com/VS69/ee76441f0c8be0710c990b194545b931",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "VladSalitrinsky",
+      "proof_url": "https://twitter.com/VladSalitrinsky/status/724300942942810112",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN vovka_s69.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vovka_s69.id\"\n"
 }
