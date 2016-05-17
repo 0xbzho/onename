@@ -49,6 +49,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "aarroyoca",
+      "proof_url": "https://twitter.com/aarroyoca/status/724660591823060992",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "AdrianArroyoCalle",
+      "proof_url": "https://gist.github.com/AdrianArroyoCalle/be718456b80ae5629eb9374cdc8f580e",
+      "service": "github",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN aarroyoc.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/aarroyoc.id\"\n"
 }
