@@ -37,6 +37,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "queentatiana",
+      "proof_url": "https://twitter.com/queentatiana/status/725024544101130240",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "tatianamoroz",
+      "proof_url": "https://www.facebook.com/tatiana.moroz/posts/10153592901998595?comment_id=10153592952903595&notif_t=feed_comment&notif_id=1461696144406076",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN tatianamoroz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tatianamoroz.id\"\n"
 }
