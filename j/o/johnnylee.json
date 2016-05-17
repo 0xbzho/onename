@@ -33,6 +33,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "johnleevc",
+      "proof_url": "https://twitter.com/johnleeVC/status/725733366268448768",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "leejohn2010",
+      "proof_url": "https://gist.github.com/leejohn2010/e78ec4718ae6831946145eb822602c2a",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "https://www.facebook.com/john.lee.568847",
+      "proof_url": "www.facebook.com/plugins/post.php?href=https%3A%2F%2F",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN johnnylee.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/johnnylee.id\"\n"
 }
