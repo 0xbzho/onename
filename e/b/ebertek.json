@@ -62,6 +62,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "ebertek",
+      "proof_url": "https://twitter.com/ebertek/status/724392981885804545",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "david.ebert",
+      "proof_url": "https://www.facebook.com/david.ebert/posts/10209020321882523",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "ebertek",
+      "proof_url": "https://gist.github.com/ebertek/e482b48dd436a4db8231051c861ae6ae",
+      "service": "github",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN ebertek.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ebertek.id\"\n"
 }
