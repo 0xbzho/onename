@@ -61,6 +61,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "CustomMuzzleBrk",
+      "proof_url": "https://twitter.com/CustomMuzzleBrk/status/724622010249142273",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "custommuzzlebrakes",
+      "proof_url": "https://www.facebook.com/custommuzzlebrakes/posts/1007093016034390",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN custommuzzlebrakes.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/custommuzzlebrakes.id\"\n"
 }
