@@ -1,55 +1,54 @@
 {
   "owner_address": "1MvQzN5pdn7yVVbtpn2F7hTj3hRsepGKQN",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "8364d1a5d812b3d704472c10c33774eb90af87bd",
-        "service": "openbazaar"
+        "identifier": "rbenadon",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1Hwd8zkkkmWUubUQPLHwniRxBvRM2Rgtjh",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "benadon",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/benadon/posts/10154427384373352",
+        "service": "facebook"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/rodrigo"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "bio": "\"There is no end to the within of things. The dreamer dreams, and the dreamer within the dream dreams.\"",
-    "bitcoin": {
-      "address": "1Hwd8zkkkmWUubUQPLHwniRxBvRM2Rgtjh"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/rodrigo"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/benadon/posts/10154416041413352"
+    "description": "\"There is no end to the within of things. The dreamer dreams, and the dreamer within the dream dreams.\"",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rodrigo",
+        "name": "avatar"
       },
-      "username": "benadon"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "R Benadon"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/rbenadon/status/600324151279235072"
-      },
-      "username": "rbenadon"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rodrigo",
+        "name": "cover"
+      }
+    ],
+    "name": "R Benadon"
   },
   "verifications": [
     {
-      "identifier": "rbenadon",
-      "proof_url": "https://twitter.com/rbenadon/status/600324151279235072",
-      "service": "twitter",
-      "valid": true
-    },
-    {
       "identifier": "benadon",
-      "proof_url": "https://facebook.com/benadon/posts/10154416041413352",
+      "proof_url": "https://facebook.com/benadon/posts/10154427384373352",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN rodrigo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rodrigo.id\"\n"
 }
