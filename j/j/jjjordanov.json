@@ -24,6 +24,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "jjjordanov",
+      "proof_url": "https://twitter.com/jjjordanov/status/724987880494497792",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN jjjordanov.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jjjordanov.id\"\n"
 }
