@@ -67,6 +67,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "alvinjoelsantos",
+      "proof_url": "https://twitter.com/alvinjoelsantos/status/724517761104379905",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "merhabastudios",
+      "proof_url": "https://gist.github.com/merhabastudios/3ac7b277c7b241cea9a1f648e6232534",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN ajsantos.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ajsantos.id\"\n"
 }
