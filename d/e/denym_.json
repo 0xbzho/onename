@@ -51,6 +51,25 @@
     ],
     "name": "Denny Mueller"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "denym_",
+      "proof_url": "https://twitter.com/denym_/status/725604921559625729",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "dennym",
+      "proof_url": "https://gist.github.com/dennym/f9110a7f4e502cfc9bd54bd4df780dc6",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "zipzapzerap",
+      "proof_url": "https://www.facebook.com/zipzapzerap/posts/1138752492834147?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN denym_.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/denym_.id\"\n"
 }
