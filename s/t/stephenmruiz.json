@@ -31,6 +31,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "stephenmruiz",
+      "proof_url": "https://twitter.com/StephenMRuiz/status/729879181585190912",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "stephen.m.ruiz.3",
+      "proof_url": "https://onename.com/stephenmruiz",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN stephenmruiz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stephenmruiz.id\"\n"
 }
