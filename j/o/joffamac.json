@@ -1,64 +1,81 @@
 {
   "owner_address": "1ECjKcBcDi75hn5YX4HLv7yWPrxEQxQYJf",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/joffamac"
-    },
-    "bio": "Mad nutter with ardly a clue about anything.  Spectemur agendo",
-    "bitcoin": {
-      "address": "1PjChhifyptZy92SNz2gdQBC49PEYL94oU"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/joffamac"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/joffaMac/posts/10153210055735849"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1PjChhifyptZy92SNz2gdQBC49PEYL94oU",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "joffaM"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/joffaMac/31d1cad44d2ae1d50f61"
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/joffa#show-public",
+        "identifier": "F08CFE50A91596D0B35156E120EB9DE0A6D08BCC",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "joffaMac"
-    },
-    "location": {
-      "formatted": "Melbourne,  Australia"
-    },
-    "name": {
-      "formatted": "joffa Mac"
-    },
-    "pgp": {
-      "fingerprint": "F08CFE50A91596D0B35156E120EB9DE0A6D08BCC",
-      "url": "https://keybase.io/joffa#show-public"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/joffaMac/status/668967744990109696"
+      {
+        "@type": "Account",
+        "identifier": "joffaMac",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/joffaMac/status/732356161870012417",
+        "service": "twitter"
       },
-      "username": "joffaMac"
+      {
+        "@type": "Account",
+        "identifier": "joffaM",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/joffaM/posts/10153553328675849?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "joffaMac",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/joffaMac/90c16029d58c1d2c04a41053cc5b7702",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Melbourne,  Australia"
     },
-    "v": "0.2"
+    "description": "Mad nutter with ardly a clue about anything.  Spectemur agendo",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/joffamac",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/joffamac",
+        "name": "cover"
+      }
+    ],
+    "name": "Geoffrey William Maclean"
   },
   "verifications": [
     {
       "identifier": "joffaMac",
-      "proof_url": "https://gist.github.com/joffaMac/31d1cad44d2ae1d50f61",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "joffaMac",
-      "proof_url": "https://twitter.com/joffaMac/status/668967744990109696",
+      "proof_url": "https://twitter.com/joffaMac/status/732356161870012417",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "joffaM",
-      "proof_url": "https://facebook.com/joffaMac/posts/10153210055735849",
+      "proof_url": "https://www.facebook.com/joffaM/posts/10153553328675849?pnref=story",
       "service": "facebook",
-      "valid": false
+      "valid": true
+    },
+    {
+      "identifier": "joffaMac",
+      "proof_url": "https://gist.github.com/joffaMac/90c16029d58c1d2c04a41053cc5b7702",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN joffamac.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/joffamac.id\"\n"
 }
