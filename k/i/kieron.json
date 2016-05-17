@@ -31,6 +31,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "kieronbm",
+      "proof_url": "https://twitter.com/kieronbm/status/725779255204831232",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN kieron.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kieron.id\"\n"
 }
