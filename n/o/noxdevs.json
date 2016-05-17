@@ -30,6 +30,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "noxdevs",
+      "proof_url": "https://twitter.com/noxdevs/status/726102839093780480",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN noxdevs.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/noxdevs.id\"\n"
 }
