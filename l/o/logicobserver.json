@@ -42,6 +42,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "LogicObserver",
+      "proof_url": "https://twitter.com/LogicObserver/status/725906409687150592",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Lasticko2",
+      "proof_url": "https://www.facebook.com/Lasticko2/posts/233668203661316?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN logicobserver.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/logicobserver.id\"\n"
 }
