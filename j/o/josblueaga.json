@@ -74,6 +74,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "joannewheatley",
+      "proof_url": "https://twitter.com/JoanneWheatley/status/725657552365752320",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/7e5365c1643824ef93b4f1a4abcad874",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "joanne.wheatley.9",
+      "proof_url": "https://www.facebook.com/joanne.wheatley.9/posts/10208526938867156",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN josblueaga.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/josblueaga.id\"\n"
 }
