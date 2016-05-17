@@ -54,6 +54,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "mrmx",
+      "proof_url": "https://gist.github.com/mrmx/429a96da12024feaef6f",
+      "service": "github",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN mrmx.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mrmx.id\"\n"
 }
