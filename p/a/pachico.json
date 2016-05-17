@@ -42,6 +42,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "pachico",
+      "proof_url": "https://twitter.com/pachico/status/725945899944304641",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "pachico",
+      "proof_url": "https://gist.github.com/pachico/3c4acc054d6dfad958d3753f987cf1cf",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN pachico.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pachico.id\"\n"
 }
