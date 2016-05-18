@@ -44,6 +44,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "BradleyStudios",
+      "proof_url": "https://twitter.com/BradleyStudios/status/726568923353608192",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "BradleyTechnologyStudios",
+      "proof_url": "https://www.facebook.com/BradleyTechnologyStudios/",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN bradleyretailstudios.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bradleyretailstudios.id\"\n"
 }
