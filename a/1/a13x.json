@@ -49,6 +49,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "a13x",
+      "proof_url": "https://gist.github.com/a13x/fecfdfc397d5800d2fe1bcb5a7bcbe3d",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "a13xnet",
+      "proof_url": "https://twitter.com/a13xnet/status/727095913924141056",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN a13x.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/a13x.id\"\n"
 }
