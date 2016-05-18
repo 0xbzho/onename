@@ -49,6 +49,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "https://www.facebook.com/suchilero",
+      "proof_url": "https://facebook.com/https://www.facebook.com/Enciclopedia-Suchilero-730136183697128/?ref=hl/posts/155862298111811",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "Suchilero",
+      "proof_url": "www.twitter.com/suchilero",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN suchilero.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/suchilero.id\"\n"
 }
