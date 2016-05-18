@@ -1,22 +1,28 @@
 {
   "owner_address": "18t7AczBhoQ76dWHMtgXZGpobM5RNBbEaE",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/L2N.jpeg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ananchahal",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/ananchahal/posts/10154145194277059",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sydney"
     },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/ananchahal/posts/10154145194277059"
-      },
-      "username": "ananchahal"
-    },
-    "location": {
-      "formatted": "Sydney"
-    },
-    "name": {
-      "formatted": "Amit Kumar Nanchahal"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Amit Kumar Nanchahal"
   },
   "verifications": [
     {
@@ -25,5 +31,6 @@
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN amitkn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/amitkn.id\"\n"
 }
