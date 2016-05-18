@@ -51,6 +51,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "louy2",
+      "proof_url": "https://gist.github.com/louy2/3ca9f876c817a5e45288224aa69d65a7",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "louyufan",
+      "proof_url": "https://www.facebook.com/louyufan/posts/1085772721478893",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "FRIdSUN",
+      "proof_url": "https://twitter.com/FRIdSUN/status/725326179230601216",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN fridsun.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fridsun.id\"\n"
 }
