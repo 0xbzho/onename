@@ -47,6 +47,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "cryplectibles",
+      "proof_url": "https://twitter.com/cryplectibles/status/718432543763271680",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN crypto_collectibles.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/crypto_collectibles.id\"\n"
 }
