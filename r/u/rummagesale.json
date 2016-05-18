@@ -9,13 +9,24 @@
         "service": "openbazaar"
       }
     ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Oregon, USA"
+    },
+    "description": "We rummage - you rummage - all is well.",
     "image": [
       {
         "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rummagesale",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rummagesale",
         "name": "cover"
       }
-    ]
+    ],
+    "name": "Rummage Sale"
   },
   "verifications": [],
   "zone_file": "$ORIGIN rummagesale.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rummagesale.id\"\n"
