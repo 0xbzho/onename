@@ -24,6 +24,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/8d4af3f785436098562851beb05ae79b",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN bitgardener.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bitgardener.id\"\n"
 }
