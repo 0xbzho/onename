@@ -31,6 +31,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "bitcoinhubza",
+      "proof_url": "https://twitter.com/BitcoinHubZA/status/727133177060446208",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN bitcoinhub.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bitcoinhub.id\"\n"
 }
