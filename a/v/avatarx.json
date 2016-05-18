@@ -47,6 +47,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "AvatarX",
+      "proof_url": "https://twitter.com/AvatarX/status/730214093760528385",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN avatarx.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/avatarx.id\"\n"
 }
