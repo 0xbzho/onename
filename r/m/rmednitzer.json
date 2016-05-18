@@ -63,6 +63,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "rmednitzer",
+      "proof_url": "https://twitter.com/rmednitzer/status/727465646171238400",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "rmednitzer",
+      "proof_url": "https://www.facebook.com/rmednitzer/posts/10208126758160072",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "rmednitzer",
+      "proof_url": "https://gist.github.com/rmednitzer/6744bffda81fbf24bec3",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN rmednitzer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rmednitzer.id\"\n"
 }
