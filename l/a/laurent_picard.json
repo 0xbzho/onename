@@ -48,6 +48,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "lpicard",
+      "proof_url": "https://gist.github.com/lpicard/0dbe844a3cc603fb96945af7fc4d6de7",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN laurent_picard.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/laurent_picard.id\"\n"
 }
