@@ -49,6 +49,25 @@
     ],
     "name": "Michael Breu"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "MichaelBreu",
+      "proof_url": "https://gist.github.com/MichaelBreu/1f5c559a0d19daaac2fc77224742c418",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "michaelbreu",
+      "proof_url": "https://twitter.com/michaelbreu/status/727503373726011392",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "https://www.facebook.com/michael.breu.52",
+      "proof_url": "https://www.facebook.com/michael.breu.52/posts/10207901327585625",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN breu.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/breu.id\"\n"
 }
