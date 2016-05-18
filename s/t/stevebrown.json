@@ -30,6 +30,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "stevebrown87",
+      "proof_url": "https://twitter.com/stevebrown87/status/726937388518367232",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN stevebrown.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stevebrown.id\"\n"
 }
