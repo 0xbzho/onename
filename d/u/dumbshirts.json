@@ -43,6 +43,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "dumbshirts",
+      "proof_url": "https://twitter.com/dumbshirts/status/693010571797643265",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN dumbshirts.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dumbshirts.id\"\n"
 }
