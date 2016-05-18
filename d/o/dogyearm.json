@@ -42,6 +42,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "dogyearm",
+      "proof_url": "https://twitter.com/dogyearm/status/729559086061101056",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "dogyearm",
+      "proof_url": "https://gist.github.com/dogyearm/e408e8db5573bd451a8ccee86a0eb001",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN dogyearm.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dogyearm.id\"\n"
 }
