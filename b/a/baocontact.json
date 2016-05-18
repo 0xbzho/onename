@@ -60,6 +60,25 @@
     ],
     "name": "Tu NGoc Bao"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "baocontact",
+      "proof_url": "https://twitter.com/baocontact/status/726906208175722496",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bao.contact",
+      "proof_url": "https://www.facebook.com/bao.contact/posts/10154913383014466",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "baocontact",
+      "proof_url": "https://gist.github.com/baocontact/3423acb0e74dacb668f70ebf1468ccb8",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN baocontact.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/baocontact.id\"\n"
 }
