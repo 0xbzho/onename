@@ -1,45 +1,44 @@
 {
   "owner_address": "1JugYeXVBJH7vqT4Dsz2byUX5gY63fi2u9",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/danilom"
-    },
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/rv1.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/tucelularblackberry/posts/10203604475342361"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "danilo79",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "tucelularblackberry"
-    },
-    "location": {
-      "formatted": "Venezuela"
-    },
-    "name": {
-      "formatted": "Danilo Moretto"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/danilo79/status/584347934482890752"
+      {
+        "@type": "Account",
+        "identifier": "tucelularblackberry",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "danilo79"
+      {
+        "@type": "Account",
+        "identifier": "452f1ec0f770c27e1209d084208ce35865404285",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Venezuela"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/danilom",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Danilo Moretto"
   },
-  "verifications": [
-    {
-      "identifier": "danilo79",
-      "proof_url": "https://twitter.com/danilo79/status/584347934482890752",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "tucelularblackberry",
-      "proof_url": "https://facebook.com/tucelularblackberry/posts/10203604475342361",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN danilom.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/danilom.id\"\n"
 }
