@@ -58,6 +58,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "kernrot",
+      "proof_url": "https://gist.github.com/kernrot/2c9c5060c0c6fe6b7729b702dd6d8e7f",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "kernrot",
+      "proof_url": "https://twitter.com/kernrot/status/725732081033043968",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN kernrot.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kernrot.id\"\n"
 }
