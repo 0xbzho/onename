@@ -1,23 +1,68 @@
 {
   "owner_address": "15sjVCfvy1E8LWn5aMWmvCbCer1T9yy6c1",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/easter74"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "easter_74",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/easter_74/status/732950047655137280",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "apasqua",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/apasqua/posts/10154297662499653",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "easter74",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/easter74/422919da59cac2bd0e57dc766760e021",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Torino"
     },
-    "bio": "Da sempre appassionato di informatica e nuove tecnologie ho inziato con un Commodore 64 Executive e un Epson con sistema operativo Xenix.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/easter74"
-    },
-    "location": {
-      "formatted": "Torino"
-    },
-    "name": {
-      "formatted": "Andrea Pasqua"
-    },
-    "twitter": {
-      "username": "easter_74"
-    },
-    "v": "0.2"
+    "description": "Da sempre appassionato di informatica e nuove tecnologie ho inziato con un Commodore 64 Executive e un Epson con sistema operativo Xenix.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/easter74",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/easter74",
+        "name": "cover"
+      }
+    ],
+    "name": "Andrea Pasqua"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "easter_74",
+      "proof_url": "https://twitter.com/easter_74/status/732950047655137280",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "apasqua",
+      "proof_url": "https://www.facebook.com/apasqua/posts/10154297662499653",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "easter74",
+      "proof_url": "https://gist.github.com/easter74/422919da59cac2bd0e57dc766760e021",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN easter74.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/easter74.id\"\n"
 }
