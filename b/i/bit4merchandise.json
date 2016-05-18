@@ -50,6 +50,25 @@
     ],
     "name": "Bit4 Merchandise"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "bit4merchandise",
+      "proof_url": "https://www.facebook.com/bit4merchandise/posts/155210338214525",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "bitmerchandise",
+      "proof_url": "https://gist.github.com/bitmerchandise/e394efed529e56e472c0e8dcb550de83",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "@bit4merchandise",
+      "proof_url": "https://twitter.com/bit4merchandise/status/727566776024752128",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN bit4merchandise.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bit4merchandise.id\"\n"
 }
