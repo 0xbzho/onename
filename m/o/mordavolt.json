@@ -56,6 +56,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "Mordavolt",
+      "proof_url": "https://twitter.com/Mordavolt/status/726106062814859265",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Mordavolt",
+      "proof_url": "https://gist.github.com/Mordavolt/ff212accafc949b4aa76a01a2fe8f910",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "",
+      "proof_url": "https://www.facebook.com/Mordavolt/posts/981905271898519",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN mordavolt.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mordavolt.id\"\n"
 }
