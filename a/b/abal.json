@@ -56,6 +56,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "abal01",
+      "proof_url": "https://twitter.com/abal01/status/727481577006059520",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "abal01",
+      "proof_url": "https://www.facebook.com/abal01/posts/282727628725408?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "abal01",
+      "proof_url": "https://gist.github.com/abal01/8ed271f6b1a2b0e2d33f5c75cc98c6a3",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN abal.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/abal.id\"\n"
 }
