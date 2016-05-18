@@ -54,6 +54,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "akaihola",
+      "proof_url": "https://www.facebook.com/akaihola/posts/10153500923468021?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN akaihola.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/akaihola.id\"\n"
 }
