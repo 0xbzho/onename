@@ -57,6 +57,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "brukhman",
+      "proof_url": "https://www.facebook.com/brukhman/posts/10104092361641269",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "jbrukh",
+      "proof_url": "https://gist.github.com/jbrukh/36927e7cc62cea25133f44c41f986f85",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jbrukh",
+      "proof_url": "https://twitter.com/jbrukh/status/727606197000544256",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN jbrukh.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jbrukh.id\"\n"
 }
