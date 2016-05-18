@@ -31,6 +31,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "jarkas",
+      "proof_url": "https://twitter.com/jarkas/status/724853377553862659",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jarkas",
+      "proof_url": "https://www.facebook.com/jarkas/posts/10154168820957053",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN bassem.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bassem.id\"\n"
 }
