@@ -50,6 +50,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "srabbaspour",
+      "proof_url": "https://twitter.com/srabbaspour/status/727128565972488192",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "srabeat",
+      "proof_url": "https://gist.github.com/srabeat/df11d1ded9f087637e67b9a4749e9894",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "saeedreza",
+      "proof_url": "https://www.facebook.com/Saeedreza/posts/10154114442803523",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN saeedreza.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/saeedreza.id\"\n"
 }
