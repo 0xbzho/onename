@@ -50,6 +50,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "bryanb229",
+      "proof_url": "https://twitter.com/bryanb229/status/703653631191617537",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bryanb229",
+      "proof_url": "https://gist.github.com/bryanb229/d09911495f9b1f918510d15ae7a7e374",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN bryanb229.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bryanb229.id\"\n"
 }
