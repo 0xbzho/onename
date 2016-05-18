@@ -56,6 +56,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "john-mcdonnell",
+      "proof_url": "https://gist.github.com/john-mcdonnell/44933b109848f6df2ef28711c7f92ea5",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "john_mcdonnell",
+      "proof_url": "https://twitter.com/john_mcdonnell/status/727600127226056704",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "John.M.McDonnell",
+      "proof_url": "https://www.facebook.com/John.M.McDonnell/posts/10154790114137564?",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN johnmcdonnell.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/johnmcdonnell.id\"\n"
 }
