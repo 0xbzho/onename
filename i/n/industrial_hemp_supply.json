@@ -46,6 +46,13 @@
     ],
     "name": "Industrial Hemp Supply"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "https://twitter.com/IHSupply",
+      "proof_url": "https://twitter.com/IHSupply/status/727689895590813696",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN industrial_hemp_supply.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/industrial_hemp_supply.id\"\n"
 }
