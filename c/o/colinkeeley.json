@@ -36,6 +36,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "colinkeeley",
+      "proof_url": "https://twitter.com/ColinKeeley/status/727250490732384256",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN colinkeeley.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/colinkeeley.id\"\n"
 }
