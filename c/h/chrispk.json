@@ -48,6 +48,19 @@
     ],
     "name": "Chris Park-Kennaby"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "chrispk",
+      "proof_url": "https://gist.github.com/chrispk/03a45082e317eeb3480a2afb1850e4d5",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "ChrispyKay",
+      "proof_url": "https://twitter.com/ChrispyKay/status/715273776926220289",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN chrispk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/chrispk.id\"\n"
 }
