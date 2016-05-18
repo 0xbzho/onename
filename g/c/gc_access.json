@@ -60,6 +60,25 @@
     ],
     "name": "GC Access. Inc."
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "GCAccess",
+      "proof_url": "https://twitter.com/GCAccess/status/729896988532047872",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "GCAccess",
+      "proof_url": "https://www.facebook.com/GCAccess/posts/1332707070078131",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "GCAccess",
+      "proof_url": "https://gist.github.com/GCAccess/0f35500aff43d7957ae16469105218c2",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN gc_access.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gc_access.id\"\n"
 }
