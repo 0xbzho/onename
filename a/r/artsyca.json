@@ -56,6 +56,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "artsyca",
+      "proof_url": "https://twitter.com/artsyca/status/727585300806041600",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "alex.kessaris",
+      "proof_url": "https://www.facebook.com/alex.kessaris/posts/1749431751935840?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "artsyca",
+      "proof_url": "https://gist.github.com/artsyca/295ab43ae1e2c7bbfe02cd420a9435b2",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN artsyca.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/artsyca.id\"\n"
 }
