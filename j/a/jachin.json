@@ -60,6 +60,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "jachin",
+      "proof_url": "https://gist.github.com/jachin/7a675fbed4b6331c3655884aaf057c15",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jachin.rupe",
+      "proof_url": "https://www.facebook.com/jachin.rupe/posts/10154742602538082",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "jachin",
+      "proof_url": "https://twitter.com/jachin/status/717102708214390785",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN jachin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jachin.id\"\n"
 }
