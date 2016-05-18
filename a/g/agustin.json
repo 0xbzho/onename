@@ -55,6 +55,25 @@
     ],
     "name": "Agustín Labaronnie"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "agustin.labaronnie",
+      "proof_url": "href=https%3A%2F%2Fwww.facebook.com%2Fagustin.labaronnie%2Fposts%2F10154322190139610",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "agulab",
+      "proof_url": "https://gist.github.com/agulab/32c39d5cbf622c27b78f860f18c0d3b9",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "halconit",
+      "proof_url": "https://twitter.com/halconit/status/727551416387158016",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN agustin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/agustin.id\"\n"
 }
