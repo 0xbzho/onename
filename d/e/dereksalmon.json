@@ -43,6 +43,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "dereksalmon.wtod",
+      "proof_url": "https://www.facebook.com/dereksalmon.wtod/posts/486798938187469?pnref=story",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "drksalmon",
+      "proof_url": "https://twitter.com/drksalmon/status/692690441444159488",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN dereksalmon.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dereksalmon.id\"\n"
 }
