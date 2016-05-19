@@ -36,6 +36,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "brianpinnock",
+      "proof_url": "https://twitter.com/BrianPinnock/status/727853858341425152",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN brianpinnock.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/brianpinnock.id\"\n"
 }
