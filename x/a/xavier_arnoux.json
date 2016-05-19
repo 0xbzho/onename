@@ -1,58 +1,58 @@
 {
   "owner_address": "1Do4ataekkoWN8JvbQxiptjjFD5mYvctEE",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/xavier_arnoux"
-    },
-    "bio": "",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/QAd.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/xavier.arnoux@free. fr/posts/10206776114615596"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "arnouxx",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "xavier.arnoux@free. fr"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/xavier-arnoux/93d6704fde6d7c587739"
+      {
+        "@type": "Account",
+        "identifier": "xavier.arnoux@free. fr",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "xavier-arnoux"
-    },
-    "location": {
-      "formatted": "France"
-    },
-    "name": {
-      "formatted": "xavier arnoux"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/arnouxx/status/713052584903319552"
+      {
+        "@type": "Account",
+        "identifier": "xavier-arnoux",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "arnouxx"
+      {
+        "@type": "Account",
+        "identifier": "1552NJUGF1wxGpGiHekmR9oTPELwELLzQe",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "France"
     },
-    "v": "0.2",
-    "website": "http://xavier.arnoux.free.fr"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/xavier_arnoux",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "xavier arnoux",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://xavier.arnoux.free.fr"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "xavier-arnoux",
-      "proof_url": "https://gist.github.com/xavier-arnoux/93d6704fde6d7c587739",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "arnouxx",
-      "proof_url": "https://twitter.com/arnouxx/status/713052584903319552",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "xavier.arnoux@free. fr",
-      "proof_url": "https://facebook.com/xavier.arnoux@free. fr/posts/10206776114615596",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN xavier_arnoux.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/xavier_arnoux.id\"\n"
 }
