@@ -24,6 +24,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "the_bookcottage",
+      "proof_url": "https://twitter.com/The_BookCottage/status/727526585180385280",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN thebookcottage.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/thebookcottage.id\"\n"
 }
