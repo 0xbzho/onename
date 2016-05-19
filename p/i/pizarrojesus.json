@@ -39,6 +39,19 @@
     ],
     "name": "Jesús M. Pizarro Rodríguez"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "pizarrojesus",
+      "proof_url": "https://twitter.com/pizarrojesus",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "pizarrojesus",
+      "proof_url": "https://www.facebook.com/pizarrojesus",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN pizarrojesus.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pizarrojesus.id\"\n"
 }
