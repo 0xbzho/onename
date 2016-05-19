@@ -62,6 +62,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "ntilotta",
+      "proof_url": "https://twitter.com/ntilotta/status/645253123104219137",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ntilotta",
+      "proof_url": "https://gist.github.com/ntilotta/97e3a5f5cf35d6a8a4d9",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN ntilotta.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ntilotta.id\"\n"
 }
