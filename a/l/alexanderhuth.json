@@ -37,6 +37,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "alexanderhuth",
+      "proof_url": "https://gist.github.com/alexanderhuth/4a8ab204842789377c2405386418d04e",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "alexanderhuth",
+      "proof_url": "https://twitter.com/alexanderhuth/status/727902283640541184",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN alexanderhuth.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alexanderhuth.id\"\n"
 }
