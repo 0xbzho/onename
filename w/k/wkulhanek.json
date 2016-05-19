@@ -36,6 +36,19 @@
     ],
     "name": "Wolfgang Kulhanek"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "wkulhanek",
+      "proof_url": "https://gist.github.com/wkulhanek/fb9e5aaa8502cf8cca9bba482ee27c42",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "wkulhanek",
+      "proof_url": "https://twitter.com/wkulhanek/status/727954712335659010",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN wkulhanek.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wkulhanek.id\"\n"
 }
