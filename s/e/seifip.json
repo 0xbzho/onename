@@ -52,6 +52,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "seifip",
+      "proof_url": "https://twitter.com/seifip/status/727907984467218432",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "seifip",
+      "proof_url": "https://gist.github.com/seifip/e996159be16d05a2e6a3d26af7592977",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "seifip",
+      "proof_url": "https://www.facebook.com/seifip/posts/10209900699654552:0?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN seifip.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/seifip.id\"\n"
 }
