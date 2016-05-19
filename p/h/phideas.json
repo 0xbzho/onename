@@ -43,6 +43,19 @@
     ],
     "name": "Phideas"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "phideas",
+      "proof_url": "https://gist.github.com/phideas/5bbe917e5a53301a1fba9bf17c0c8b22",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "phideas_",
+      "proof_url": "https://twitter.com/phideas_/status/672369587514667008",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN phideas.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/phideas.id\"\n"
 }
