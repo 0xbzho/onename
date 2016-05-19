@@ -54,6 +54,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "garrygolden",
+      "proof_url": "https://facebook.com/garrygolden/posts/10153149508625127",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN garrygolden.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/garrygolden.id\"\n"
 }
