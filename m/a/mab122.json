@@ -56,6 +56,19 @@
     ],
     "name": "Maciej Bator"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "TweetingMab",
+      "proof_url": "https://twitter.com/TweetingMab/status/730087764344119296",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mab122",
+      "proof_url": "https://gist.github.com/mab122/8cf8e2d952211d383ceb1c1a65ec06f2",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN mab122.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mab122.id\"\n"
 }
