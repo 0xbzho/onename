@@ -30,6 +30,13 @@
     ],
     "name": "Rick Morse"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "rhm",
+      "proof_url": "https://twitter.com/rhm/status/727883072511807489",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN rhm.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rhm.id\"\n"
 }
