@@ -43,6 +43,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "mkwoodsmall",
+      "proof_url": "https://twitter.com/mkwoodsmall/status/727913914688782337",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mkwoodsmall",
+      "proof_url": "https://www.facebook.com/mchlkwdsmll/posts/3949616817506",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN mkwoodsmall.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mkwoodsmall.id\"\n"
 }
