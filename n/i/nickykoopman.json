@@ -1,26 +1,34 @@
 {
   "owner_address": "1J7sGkxd23u9Hnff6rHaDZk2Yk5SM7tRB4",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/nickykoopman"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "pcnerdje",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/pcnerdje/status/714760569283280897",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "bio": "Digital | Foodie | News junkie | Snow & Skiing | Travel the world | Startups | Society 3.0 | TV & Digital Media | VP Biz Dev @Rockstart |",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/nickykoopman"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Nicky Koopman"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/pcnerdje/status/714760569283280897"
+    "description": "Digital | Foodie | News junkie | Snow & Skiing | Travel the world | Startups | Society 3.0 | TV & Digital Media | VP Biz Dev @Rockstart |",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/nickykoopman",
+        "name": "cover"
       },
-      "username": "pcnerdje"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nickykoopman",
+        "name": "avatar"
+      }
+    ],
+    "name": "Nicky Koopman"
   },
   "verifications": [
     {
@@ -29,5 +37,6 @@
       "service": "twitter",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN nickykoopman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nickykoopman.id\"\n"
 }
