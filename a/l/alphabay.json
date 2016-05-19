@@ -1,10 +1,29 @@
 {
   "owner_address": "18ZmShLa7ct7G9zGX2AhcTti3MhV5Y22jQ",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/Ov8.jpg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1APxoXKheg2kiGidLs9KCK2zFV3rx1jmwT",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/alphabay",
+        "name": "avatar"
+      }
+    ],
+    "name": "Talk to me in Blockchain"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN alphabay.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alphabay.id\"\n"
 }
