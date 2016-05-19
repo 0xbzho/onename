@@ -19,6 +19,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "jonomac",
+      "proof_url": "https://twitter.com/jonomac/status/727855464990511106",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN jonomac.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jonomac.id\"\n"
 }
