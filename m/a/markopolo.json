@@ -41,6 +41,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "markopolo123",
+      "proof_url": "https://gist.github.com/markopolo123/b7b7f562aa6ef384f1b0e5cbbcb3d839",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN markopolo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/markopolo.id\"\n"
 }
