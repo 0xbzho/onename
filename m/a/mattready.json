@@ -11,6 +11,13 @@
       },
       {
         "@type": "Account",
+        "identifier": "MeditationMatt",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MeditationMatt/status/730458537134952450",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
         "identifier": "mattready",
         "proofType": "http",
         "proofUrl": "https://facebook.com/mattready/posts/10204109010103407",
@@ -20,14 +27,7 @@
         "@type": "Account",
         "identifier": "MeditationMatt",
         "proofType": "http",
-        "proofUrl": "https://twitter.com/MeditationMatt/status/730458537134952450",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "MeditationMatt",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/MeditationMatt/eccd2e311686e8db34c7f2f41083a390#file-amidoingthisright",
+        "proofUrl": "https://gist.github.com/MeditationMatt/4993eab16f798f1e1f94b94ec00109d3#file-id",
         "service": "github"
       }
     ],
@@ -45,6 +45,25 @@
     ],
     "name": "Matt Ready"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "MeditationMatt",
+      "proof_url": "https://twitter.com/MeditationMatt/status/730458537134952450",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mattready",
+      "proof_url": "https://facebook.com/mattready/posts/10204109010103407",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "MeditationMatt",
+      "proof_url": "https://gist.github.com/MeditationMatt/4993eab16f798f1e1f94b94ec00109d3#file-id",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN mattready.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mattready.id\"\n"
 }
