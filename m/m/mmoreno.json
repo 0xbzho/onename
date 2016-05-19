@@ -33,7 +33,7 @@
         "@type": "Account",
         "identifier": "miguelmorenonet",
         "proofType": "http",
-        "proofUrl": "https://www.facebook.com/miguelmoreno.net/posts/10207569561329837",
+        "proofUrl": "https://www.facebook.com/20531316728/posts/10154009990506729/",
         "service": "facebook"
       }
     ],
@@ -61,6 +61,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "miguelmorenonet",
+      "proof_url": "https://twitter.com/miguelmorenonet/status/727820360381566977",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "miguelmoreno",
+      "proof_url": "https://gist.github.com/miguelmoreno/837b8f254bc964646aa636863eebdf7a",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "miguelmorenonet",
+      "proof_url": "https://www.facebook.com/20531316728/posts/10154009990506729/",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN mmoreno.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mmoreno.id\"\n"
 }
