@@ -50,6 +50,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "mattgallagher.uk",
+      "proof_url": "https://www.facebook.com/mattgallagher.uk/posts/10153837025558591",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "mattbassg",
+      "proof_url": "https://twitter.com/mattbassg/status/727132037505781760",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mattbassg",
+      "proof_url": "https://gist.github.com/mattbassg/c065c583a56b46ac4476",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN mattbassg.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mattbassg.id\"\n"
 }
