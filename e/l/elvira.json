@@ -1,53 +1,59 @@
 {
   "owner_address": "1HoKNhFVYFgHVLBZYy6RMHBRnTShG22Chj",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/elvira"
-    },
-    "bio": "#streetphotography #jazz",
-    "bitcoin": {
-      "address": "1LcfNbazuk3EndV9DqAhPsRGqH9ASTTSXU"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/elvira"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/elvira.street/posts/1397541473909230"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "elvira_street",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "elvira.street"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "José Elvira"
-    },
-    "pgp": {
-      "fingerprint": "",
-      "url": "https://s3.amazonaws.com/pk9/elvira"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/elvira_street/status/605238771026657280"
+      {
+        "@type": "Account",
+        "identifier": "elvira.street",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "elvira_street"
+      {
+        "@type": "Account",
+        "identifier": "1LcfNbazuk3EndV9DqAhPsRGqH9ASTTSXU",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/elvira",
+        "identifier": null,
+        "role": "key",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "v": "0.2",
-    "website": "https://www.google.com/+JoséElviraGonzález"
+    "description": "#streetphotography #jazz",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/elvira",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/elvira",
+        "name": "cover"
+      }
+    ],
+    "name": "José Elvira",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.google.com/+JoséElviraGonzález"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "elvira_street",
-      "proof_url": "https://twitter.com/elvira_street/status/605238771026657280",
-      "service": "twitter",
-      "valid": false
-    },
-    {
-      "identifier": "elvira.street",
-      "proof_url": "https://facebook.com/elvira.street/posts/1397541473909230",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN elvira.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/elvira.id\"\n"
 }
