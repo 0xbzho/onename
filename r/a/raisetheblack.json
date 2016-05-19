@@ -11,12 +11,6 @@
       },
       {
         "@type": "Account",
-        "identifier": "1E6SfVq6BLQeuZu3tvr3h5dqWWyniUc12W",
-        "role": "payment",
-        "service": "bitcoin"
-      },
-      {
-        "@type": "Account",
         "identifier": "Sickvapes",
         "proofType": "http",
         "proofUrl": "https://twitter.com/Sickvapes/status/726399755258089472",
@@ -28,6 +22,12 @@
         "proofType": "http",
         "proofUrl": "https://www.facebook.com/RobertAlbanox/posts/1070061506388743",
         "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "role": "payment",
+        "service": "bitcoin"
       }
     ],
     "address": {
@@ -55,6 +55,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "Sickvapes",
+      "proof_url": "https://twitter.com/Sickvapes/status/726399755258089472",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "robertalbanox",
+      "proof_url": "https://www.facebook.com/RobertAlbanox/posts/1070061506388743",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN raisetheblack.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/raisetheblack.id\"\n"
 }
