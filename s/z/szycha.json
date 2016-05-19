@@ -55,6 +55,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "adastor.marcin.szychowski",
+      "proof_url": "https://www.facebook.com/adastor.marcin.szychowski/posts/1013586915383808",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "szycha",
+      "proof_url": "https://twitter.com/szycha/status/714838618850922496",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN szycha.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/szycha.id\"\n"
 }
