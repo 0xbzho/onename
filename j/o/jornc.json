@@ -30,6 +30,13 @@
     ],
     "name": "Jorn C"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "https:",
+      "proof_url": "https://gist.githubusercontent.com/JornC/f46d57ffc4291bc38076/raw/7c2aaaff3e02a2e5262b727745ecfa60527734cc/gistfile1.txt",
+      "service": "github",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN jornc.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jornc.id\"\n"
 }
