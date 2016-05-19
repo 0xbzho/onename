@@ -20,6 +20,13 @@
     ],
     "name": "RG Bock"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "Horthland",
+      "proof_url": "https://twitter.com/Horthland/status/717695463403687938",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN rg_lb_1.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rg_lb_1.id\"\n"
 }
