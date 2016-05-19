@@ -51,6 +51,19 @@
     ],
     "name": "Dennis de Greef"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "dennisdegreef",
+      "proof_url": "https://twitter.com/dennisdegreef/status/726390371589181441",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "dennisdegreef",
+      "proof_url": "https://gist.github.com/dennisdegreef/d9722a687e3e971f0a55e4421d12319a",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN link0.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/link0.id\"\n"
 }
