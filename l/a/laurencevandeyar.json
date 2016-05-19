@@ -44,6 +44,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "LVCTRLFREAK",
+      "proof_url": "https://twitter.com/LVCTRLFREAK/status/727846415418937344",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "laurencevandeyar",
+      "proof_url": "https://www.facebook.com/20531316728/posts/10154009990506729/",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "lvandeyar",
+      "proof_url": "https://gist.github.com/lvandeyar/e8ed225e5730d868d7f083bece88b4de",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN laurencevandeyar.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/laurencevandeyar.id\"\n"
 }
