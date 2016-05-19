@@ -49,6 +49,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "EspaceLoGal",
+      "proof_url": "https://twitter.com/EspaceLoGal/status/730359299877306369",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "profile.php?id=100008881147642",
+      "proof_url": "https://facebook.com/profile.php?id=100008881147642/posts/1496374937335197",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN ostaladon.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ostaladon.id\"\n"
 }
