@@ -53,6 +53,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "rashagen",
+      "proof_url": "https://gist.github.com/rashagen/ef0cbbf1c60b4eebcec49bdb306161a4#file-gistfile1-txt",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN erasmus.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/erasmus.id\"\n"
 }
