@@ -60,6 +60,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "marian001",
+      "proof_url": "https://twitter.com/marian001/status/667106568408813568",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "marian001",
+      "proof_url": "https://www.facebook.com/marian001/posts/10153244399878587",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN marian0011.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/marian0011.id\"\n"
 }
