@@ -43,6 +43,19 @@
     ],
     "name": "Marcus Dent"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "MartyBent",
+      "proof_url": "https://twitter.com/MartyBent/status/727908710413156352",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mdentsjp",
+      "proof_url": "https://www.facebook.com/mdentsjp/posts/10205572674144413?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN marcus_d.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/marcus_d.id\"\n"
 }
