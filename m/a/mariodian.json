@@ -1,60 +1,62 @@
 {
   "owner_address": "1NMgQ925JXoyQNp9HFTtnVsaauUn5LqAex",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "c8e7bb0c015fbd0613841e52397523600d72c5b5",
-        "service": "openbazaar"
+        "identifier": "1AnnP7dagASbagSLswQUpDRkXnVUuMbror",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mariodian",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mariodian/status/717333421740044288",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mariodian",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mariodian/b3f0e837862e25633630",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mariodian",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mariodian/posts/10154471344163102",
+        "service": "facebook"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/mariodian"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Taiwan"
     },
-    "bio": "Hi, I'm a Libertarian, Bitcoin Enthusiast, Travel Hacker",
-    "bitcoin": {
-      "address": "1AnnP7dagASbagSLswQUpDRkXnVUuMbror"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/mariodian"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/mariodian/posts/10154471344163102"
+    "description": "Hi, I'm a Libertarian, Bitcoin Enthusiast, Travel Hacker",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mariodian",
+        "name": "avatar"
       },
-      "username": "mariodian"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/mariodian/b3f0e837862e25633630"
-      },
-      "username": "mariodian"
-    },
-    "location": {
-      "formatted": "Taiwan"
-    },
-    "name": {
-      "formatted": "Mario Dian"
-    },
-    "pgp": {
-      "url": "https://keybase.io/mariodian/key.asc"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/mariodian/status/717333421740044288"
-      },
-      "username": "mariodian"
-    },
-    "v": "0.2",
-    "website": "http://mariodian.com"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mariodian",
+        "name": "cover"
+      }
+    ],
+    "name": "Mario Dian",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://mariodian.com"
+      }
+    ]
   },
   "verifications": [
-    {
-      "identifier": "mariodian",
-      "proof_url": "https://gist.github.com/mariodian/b3f0e837862e25633630",
-      "service": "github",
-      "valid": true
-    },
     {
       "identifier": "mariodian",
       "proof_url": "https://twitter.com/mariodian/status/717333421740044288",
@@ -63,9 +65,16 @@
     },
     {
       "identifier": "mariodian",
-      "proof_url": "https://facebook.com/mariodian/posts/10154471344163102",
+      "proof_url": "https://gist.github.com/mariodian/b3f0e837862e25633630",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "mariodian",
+      "proof_url": "https://www.facebook.com/mariodian/posts/10154471344163102",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN mariodian.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mariodian.id\"\n"
 }
