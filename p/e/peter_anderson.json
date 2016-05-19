@@ -1,0 +1,47 @@
+{
+  "owner_address": "18L37c7p4LeWiQej4ZHoNRUNCBfATcj1VY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "pete_anderson",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/pete_anderson/status/727730046610345984",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Washington, USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/peter_anderson",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/peter_anderson",
+        "name": "cover"
+      }
+    ],
+    "name": "Peter Anderson",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://linkedin.com/in/anderson"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "pete_anderson",
+      "proof_url": "https://twitter.com/pete_anderson/status/727730046610345984",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN peter_anderson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/peter_anderson.id\"\n"
+}
