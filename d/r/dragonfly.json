@@ -41,6 +41,13 @@
     ],
     "name": "dragonfly"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "mr_dragon_fly",
+      "proof_url": "https://twitter.com/mr_dragon_fly/status/717714293890875394",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN dragonfly.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dragonfly.id\"\n"
 }
