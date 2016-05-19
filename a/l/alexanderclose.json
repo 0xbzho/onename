@@ -48,6 +48,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "alexanderclose",
+      "proof_url": "https://twitter.com/sandulz/status/533044307465211904",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN alexanderclose.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alexanderclose.id\"\n"
 }
