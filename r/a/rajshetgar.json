@@ -19,6 +19,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "rajshetgar",
+      "proof_url": "https://twitter.com/rajshetgar/status/727855794184724480",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN rajshetgar.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rajshetgar.id\"\n"
 }
