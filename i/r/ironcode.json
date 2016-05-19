@@ -55,6 +55,19 @@
     ],
     "name": "Samuel Isaiah Massey"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "formcore",
+      "proof_url": "https://gist.github.com/formcore/79d8b14e9c2ee1e3f3215a468658260a",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "iro_dem",
+      "proof_url": "https://twitter.com/iro_dem/status/727948842331713536",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN ironcode.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ironcode.id\"\n"
 }
