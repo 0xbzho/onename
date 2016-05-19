@@ -46,6 +46,25 @@
     ],
     "name": "Tino wells"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "martinwells",
+      "proof_url": "https://twitter.com/martinwells/status/727846063546208256",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "TattorTalk",
+      "proof_url": "https://gist.github.com/TattorTalk/fe89163dfe86a9b70bf9419f7ec3945c",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "tinybirdflies",
+      "proof_url": "https://www.facebook.com/martin.wells.7549",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN tinybird.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tinybird.id\"\n"
 }
