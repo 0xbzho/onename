@@ -63,6 +63,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "itoffthewall",
+      "proof_url": "https://twitter.com/itoffthewall/status/669473192755482624",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/be474efd2c9c9a9d63f81f14c20a2120",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "bartvanderwal",
+      "proof_url": "https://www.facebook.com/Bartvanderwal77/posts/1095851590475877",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN bartvanderwal.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bartvanderwal.id\"\n"
 }
