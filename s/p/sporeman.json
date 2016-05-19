@@ -38,6 +38,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "thesporedepot",
+      "proof_url": "https://twitter.com/thesporedepot/status/726461904818954240",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/470326fbeb52a6f1c5d48c47019b474d",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "the spore depot",
+      "proof_url": "https://www.facebook.com/permalink.php?story_fbid=881551171954174&id=242744759168155",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN sporeman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sporeman.id\"\n"
 }
