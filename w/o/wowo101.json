@@ -38,6 +38,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "wowo101",
+      "proof_url": "https://twitter.com/wowo101/status/727843561048317953",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "wowo101",
+      "proof_url": "https://gist.github.com/wowo101/5ed0b642277606e4d0c243b349d9d6a2",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN wowo101.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wowo101.id\"\n"
 }
