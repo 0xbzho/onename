@@ -56,6 +56,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "andrewcurioso",
+      "proof_url": "https://twitter.com/AndrewCurioso/status/727834940750987264",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "andrew.curioso",
+      "proof_url": "https://www.facebook.com/andrew.curioso/posts/10100105162575570",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "andrewcurioso",
+      "proof_url": "https://gist.github.com/andrewcurioso/d72d16c95e06f8b5b12c03b3a375da99",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN andrewcurioso.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/andrewcurioso.id\"\n"
 }
