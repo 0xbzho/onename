@@ -44,6 +44,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "gabridome",
+      "proof_url": "https://twitter.com/Gabridome/status/727878476829691904",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN gabridome.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gabridome.id\"\n"
 }
