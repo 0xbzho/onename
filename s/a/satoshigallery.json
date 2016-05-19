@@ -49,6 +49,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "satoshigallery",
+      "proof_url": "https://twitter.com/satoshigallery/status/730392179361906688",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "satoshigallery",
+      "proof_url": "https://www.facebook.com/satoshigallery/posts/217266978655706?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN satoshigallery.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/satoshigallery.id\"\n"
 }
