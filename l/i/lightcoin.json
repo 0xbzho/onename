@@ -56,6 +56,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "lightcoin",
+      "proof_url": "https://twitter.com/lightcoin/status/726923024260157440",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "john-light",
+      "proof_url": "https://gist.github.com/john-light/2fc0561d3a3100856da5460bc4259fea",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN lightcoin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lightcoin.id\"\n"
 }
