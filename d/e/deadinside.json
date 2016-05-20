@@ -63,6 +63,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "nmso4",
+      "proof_url": "https://www.facebook.com/nmso4#",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/63fa4a9ddbab8b0948bde462ef6e9944",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "nmso4_",
+      "proof_url": "https://twitter.com/nmso4_/status/730441600191627264",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN deadinside.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/deadinside.id\"\n"
 }
