@@ -48,6 +48,19 @@
     ],
     "name": "Crowley Keene"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "crowley2k",
+      "proof_url": "https://twitter.com/crowley2k/status/728116305245540352",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Crowley2k",
+      "proof_url": "https://gist.github.com/Crowley2k/4b8efa0b6d0b1caf8fdc1ac19e6b1ab5",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN crowley.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/crowley.id\"\n"
 }
