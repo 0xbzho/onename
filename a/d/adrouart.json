@@ -56,6 +56,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "adrouart",
+      "proof_url": "https://twitter.com/adrouart/status/728245057631870976",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "albertdrouart",
+      "proof_url": "https://gist.github.com/albertdrouart/6acd39ce88f3856367dfc6ac81b101ea",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "adrouart",
+      "proof_url": "https://www.facebook.com/adrouart/posts/10153836827664219",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN adrouart.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/adrouart.id\"\n"
 }
