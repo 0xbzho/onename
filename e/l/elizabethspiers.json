@@ -36,6 +36,19 @@
     ],
     "name": "Elizabeth Spiers"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "espiers",
+      "proof_url": "https://twitter.com/espiers/status/727913485120704512",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "https://www.facebook.com/espiers",
+      "proof_url": "https://www.facebook.com/espiers/posts/10101416395723424?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN elizabethspiers.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/elizabethspiers.id\"\n"
 }
