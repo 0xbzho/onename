@@ -49,6 +49,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "ahkyee",
+      "proof_url": "https://www.facebook.com/ahkyee/posts/10154208364301318",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "ahkyee",
+      "proof_url": "https://twitter.com/ahkyee/status/728604504355037187",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN ahkyee.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ahkyee.id\"\n"
 }
