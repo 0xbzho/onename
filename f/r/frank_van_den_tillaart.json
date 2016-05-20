@@ -1,57 +1,54 @@
 {
   "owner_address": "16R8eTpxqt1KTRhrBg3kaBMmAz7W3jUJXR",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/frank_van_den_tillaart"
-    },
-    "bio": "Blockchain explorer.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/frank_van_den_tillaart"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/profile.php?id=100000052492983/posts/1179973378681067"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "FrankvdTillaart",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "profile.php?id=100000052492983"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/Frank420/bebe4e157c8855afa0f61f2514787184"
+      {
+        "@type": "Account",
+        "identifier": "Frank420",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "Frank420"
+      {
+        "@type": "Account",
+        "identifier": "profile.php?id=100000052492983",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/permalink.php?story_fbid=1200815513263520&id=100000052492983&pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Earth"
     },
-    "location": {
-      "formatted": "Earth"
-    },
-    "name": {
-      "formatted": "Frank van den Tillaart"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/FrankvdTillaart/status/722113482993364994"
+    "description": "Blockchain explorer.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/frank_van_den_tillaart",
+        "name": "avatar"
       },
-      "username": "FrankvdTillaart"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/frank_van_den_tillaart",
+        "name": "cover"
+      }
+    ],
+    "name": "Frank van den Tillaart"
   },
   "verifications": [
     {
-      "identifier": "Frank420",
-      "proof_url": "https://gist.github.com/Frank420/bebe4e157c8855afa0f61f2514787184",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "FrankvdTillaart",
-      "proof_url": "https://twitter.com/FrankvdTillaart/status/722113482993364994",
-      "service": "twitter",
-      "valid": true
-    },
-    {
       "identifier": "profile.php?id=100000052492983",
-      "proof_url": "https://facebook.com/profile.php?id=100000052492983/posts/1179973378681067",
+      "proof_url": "https://www.facebook.com/permalink.php?story_fbid=1200815513263520&id=100000052492983&pnref=story",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN frank_van_den_tillaart.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/frank_van_den_tillaart.id\"\n"
 }
