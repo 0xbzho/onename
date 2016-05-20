@@ -54,6 +54,19 @@
     ],
     "name": "aediot@localhost:~$"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "delevrything",
+      "proof_url": "https://gist.github.com/delevrything/3a99c570e72257d1abadb4922191c270",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "delevrything",
+      "proof_url": "https://twitter.com/delevrything/status/728354763679608832",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN delevrything.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/delevrything.id\"\n"
 }
