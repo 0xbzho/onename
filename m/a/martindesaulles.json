@@ -49,6 +49,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "mdesaulles",
+      "proof_url": "https://twitter.com/mdesaulles/status/728158002314809344",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "martin.desaulles",
+      "proof_url": "https://www.facebook.com/martin.desaulles/posts/1014998055215552",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN martindesaulles.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/martindesaulles.id\"\n"
 }
