@@ -56,6 +56,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "5t4n7oG",
+      "proof_url": "https://twitter.com/5t4n7oG/status/728291997660876801",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "stanlog",
+      "proof_url": "https://gist.github.com/stanlog/135206f818375bedcadfb2d8ba595c89",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN stanlog.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stanlog.id\"\n"
 }
