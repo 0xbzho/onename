@@ -51,6 +51,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "timblankers",
+      "proof_url": "https://gist.github.com/timblankers/f98beda53e8a6d40ed1d0f8f2324b1c1",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "tim.blankers",
+      "proof_url": "https://www.facebook.com/tim.blankers/posts/10209081700220904",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "tblankers",
+      "proof_url": "https://twitter.com/tblankers/status/728317753589940224",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN timblankers.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/timblankers.id\"\n"
 }
