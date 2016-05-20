@@ -42,6 +42,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "andrewechase",
+      "proof_url": "https://twitter.com/andrewechase/status/542367903555674112",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN andrewc.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/andrewc.id\"\n"
 }
