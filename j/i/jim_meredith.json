@@ -50,6 +50,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "archizoo",
+      "proof_url": "https://gist.github.com/archizoo/1c34c40bf178a48c53648fe6f38302f3",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "mshapedstrategy",
+      "proof_url": "https://twitter.com/mshapedstrategy/status/727995860928233472",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jim.meredith",
+      "proof_url": "https://www.facebook.com/jim.meredith/posts/1036952123018635?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN jim_meredith.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jim_meredith.id\"\n"
 }
