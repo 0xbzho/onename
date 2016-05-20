@@ -36,6 +36,13 @@
     ],
     "name": "Coyotes"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "KinCoyotes",
+      "proof_url": "https://t.co/ftVKlIY4YK",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN coyotes.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/coyotes.id\"\n"
 }
