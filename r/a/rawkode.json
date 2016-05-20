@@ -48,6 +48,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "rawkode",
+      "proof_url": "https://gist.github.com/rawkode/0b77da3cfc6ff7ad5209c0d787782df9",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN rawkode.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rawkode.id\"\n"
 }
