@@ -35,6 +35,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "flo_resch",
+      "proof_url": "https://twitter.com/flo_resch/status/727877677370216451",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN flo_resch.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/flo_resch.id\"\n"
 }
