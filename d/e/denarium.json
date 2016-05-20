@@ -37,6 +37,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "DenariumBitcoin",
+      "proof_url": "https://twitter.com/DenariumBitcoin/status/730802658861318144",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "denariumbitcoin",
+      "proof_url": "https://www.facebook.com/denariumbitcoin/posts/630716447081418",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN denarium.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/denarium.id\"\n"
 }
