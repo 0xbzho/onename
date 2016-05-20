@@ -1,50 +1,52 @@
 {
   "owner_address": "1J4cEH4eEiFEa5TfDqdo4jMZuZcdjSKfqs",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "0f226e6e1b3c9813e2c1a94230b14cbaf270f785",
-        "service": "openbazaar"
+        "identifier": "sgornick",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1DsZaXefjvAJ7mXgyH5jTkMpXdF1Qc62RM",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/sgornick",
+        "identifier": "1619E0F30A0AE945C3A5407EF64A32C07327B2F8",
+        "role": "key",
+        "service": "pgp"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/sgornick"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Los Angeles, CA"
     },
-    "bitcoin": {
-      "address": "1DsZaXefjvAJ7mXgyH5jTkMpXdF1Qc62RM"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/web-gray.jpg"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/sgornick"
-    },
-    "location": {
-      "formatted": "Los Angeles, CA"
-    },
-    "name": {
-      "formatted": "Stephen Gornick"
-    },
-    "pgp": {
-      "fingerprint": "1619E0F30A0AE945C3A5407EF64A32C07327B2F8",
-      "url": "https://s3.amazonaws.com/pk9/sgornick"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/sgornick/status/719417075928670208"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/web-gray.jpg",
+        "name": "cover"
       },
-      "username": "sgornick"
-    },
-    "v": "0.2",
-    "website": ""
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sgornick",
+        "name": "avatar"
+      }
+    ],
+    "name": "Stephen Gornick",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": ""
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "sgornick",
-      "proof_url": "https://twitter.com/sgornick/status/719417075928670208",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN sgornick.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sgornick.id\"\n"
 }
