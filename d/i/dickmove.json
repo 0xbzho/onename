@@ -9,6 +9,12 @@
         "proofType": "http",
         "proofUrl": "https://twitter.com/whigs/status/727835664687882240?s=09",
         "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "12SFvFA4sT238QXF4MNfoMBKag6Lhmo8Vk",
+        "role": "payment",
+        "service": "bitcoin"
       }
     ],
     "address": {
@@ -24,6 +30,13 @@
     ],
     "name": "Dan Meyer"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "whigs",
+      "proof_url": "https://twitter.com/whigs/status/727835664687882240?s=09",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN dickmove.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dickmove.id\"\n"
 }
