@@ -26,6 +26,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "naelmnasri",
+      "proof_url": "https://twitter.com/NaelMnasri/status/728161080137023488",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "nael.mnasri",
+      "proof_url": "https://www.facebook.com/nael.mnasri/posts/10154238034579701",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN naelmnasri.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/naelmnasri.id\"\n"
 }
