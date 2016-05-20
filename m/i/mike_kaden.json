@@ -42,6 +42,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "fcbitfit",
+      "proof_url": "https://www.facebook.com/profile.php?id=100011116085772&fref=nf",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "fcbitfit",
+      "proof_url": "https://twitter.com/FcBitfit",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN mike_kaden.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mike_kaden.id\"\n"
 }
