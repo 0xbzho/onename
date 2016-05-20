@@ -1,40 +1,57 @@
 {
   "owner_address": "19gRNR2DZ2mkh3fusEBkpchkwUasKwARk9",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/thorbjorn"
-    },
-    "bio": "Software Engineer specialized in Qt/C++, Flex and Lua",
-    "bitcoin": {
-      "address": "1JkyEKstCjk6giM3GagQdjAUvQcc3ZaYcu"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/QAd.jpeg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/bjorn/66118feea4e80555bdeb"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "thorbjorn81",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "bjorn"
+      {
+        "@type": "Account",
+        "identifier": "bjorn",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1JkyEKstCjk6giM3GagQdjAUvQcc3ZaYcu",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "11d6f676de4334a9f6155e869dd84c4abb8d9844",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Erkrath, Germany"
     },
-    "location": {
-      "formatted": "Erkrath, Germany"
-    },
-    "name": {
-      "formatted": "Thorbjørn Lindeijer"
-    },
-    "twitter": {
-      "username": "thorbjorn81"
-    },
-    "v": "0.2",
-    "website": "http://bjorn.lindeijer.nl/"
+    "description": "Software Engineer specialized in Qt/C++, Flex and Lua",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/thorbjorn",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Thorbjørn Lindeijer",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://bjorn.lindeijer.nl/"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "bjorn",
-      "proof_url": "https://gist.github.com/bjorn/66118feea4e80555bdeb",
-      "service": "github",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN thorbjorn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/thorbjorn.id\"\n"
 }
