@@ -63,6 +63,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "keeshux",
+      "proof_url": "https://twitter.com/keeshux/status/730820486532345857",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "keeshux",
+      "proof_url": "https://gist.github.com/keeshux/f31e2a9ce5dde709f826",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "keeshux",
+      "proof_url": "https://www.facebook.com/keeshux/posts/830626160402315",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN keeshux.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/keeshux.id\"\n"
 }
