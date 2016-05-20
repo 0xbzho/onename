@@ -1,13 +1,24 @@
 {
   "owner_address": "18n1pLySA3ytLWWk5g9dxmNEoQ2Cizb5YM",
   "profile": {
-    "bitcoin": {
-      "address": "1CoisGWG9WJ86nvXNQ1vcL6KDuMhUVV3wD"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/n6r.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1CoisGWG9WJ86nvXNQ1vcL6KDuMhUVV3wD",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Sara Seigler"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN sks.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sks.id\"\n"
 }
