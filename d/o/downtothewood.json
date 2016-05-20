@@ -5,32 +5,35 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "downtothewood",
-        "proofType": "http",
-        "service": "twitter"
+        "identifier": "b053546caec866a8eb1d7968e899e8a98ce724dc",
+        "service": "openbazaar"
       },
       {
         "@type": "Account",
         "identifier": "thatwoodshop",
         "proofType": "http",
+        "proofUrl": "https://www.facebook.com/perry.bond.3/posts/1031809720206137?pnref=story",
         "service": "facebook"
       },
       {
         "@type": "Account",
-        "identifier": "gist:f3f8533754e92ff12f3708896d18bdea",
+        "identifier": "DownToTheWood",
         "proofType": "http",
+        "proofUrl": "https://gist.github.com/DownToTheWood/47da9c421363ba5e685929a665c0f69d",
         "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "downtothewood",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/downtothewood/status/731020607115165696",
+        "service": "twitter"
       },
       {
         "@type": "Account",
         "identifier": "1HGhoERNiydNcybW82GSMy4uvbA2qxeLks",
         "role": "payment",
         "service": "bitcoin"
-      },
-      {
-        "@type": "Account",
-        "identifier": "b053546caec866a8eb1d7968e899e8a98ce724dc",
-        "service": "openbazaar"
       }
     ],
     "address": {
@@ -58,6 +61,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "thatwoodshop",
+      "proof_url": "https://www.facebook.com/perry.bond.3/posts/1031809720206137?pnref=story",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "DownToTheWood",
+      "proof_url": "https://gist.github.com/DownToTheWood/47da9c421363ba5e685929a665c0f69d",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "downtothewood",
+      "proof_url": "https://twitter.com/downtothewood/status/731020607115165696",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN downtothewood.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/downtothewood.id\"\n"
 }
