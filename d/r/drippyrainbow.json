@@ -48,6 +48,19 @@
     ],
     "name": "Drippy"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "drippyrainbow",
+      "proof_url": "https://gist.github.com/drippyrainbow/60e371914cce1e01ef3f6af5c9d6a035",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "drippyrainbow",
+      "proof_url": "https://twitter.com/DrippyRainbow/status/730591625307656196",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN drippyrainbow.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/drippyrainbow.id\"\n"
 }
