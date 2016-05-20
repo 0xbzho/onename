@@ -47,6 +47,19 @@
     ],
     "name": "Vincent Rafaeli"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "vrafaeli",
+      "proof_url": "https://twitter.com/vrafaeli/status/726253613786386432",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "vrafaeli",
+      "proof_url": "https://www.facebook.com/vrafaeli/posts/10207179564702412",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN vrafaeli.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vrafaeli.id\"\n"
 }
