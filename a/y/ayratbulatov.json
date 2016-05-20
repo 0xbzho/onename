@@ -55,6 +55,25 @@
     ],
     "name": "Ayrat Bulatov"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "airatru",
+      "proof_url": "https://gist.github.com/airatru/c2cc08b0136139cb19057dc05f1cf65e",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "AyratBulatov",
+      "proof_url": "https://twitter.com/AyratBulatov/status/722836606046973952",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ayrat.bulatov",
+      "proof_url": "https://www.facebook.com/ayrat.bulatov/posts/10153402867277470?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN ayratbulatov.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ayratbulatov.id\"\n"
 }
