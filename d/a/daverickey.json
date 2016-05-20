@@ -39,6 +39,25 @@
     ],
     "name": "Dave Rickey"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "MahrinSkel",
+      "proof_url": "https://gist.github.com/MahrinSkel/b33fd79f191cdf6f9a4d94f66c95ddd9#file-one-name",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "dave.rickey",
+      "proof_url": "https://www.facebook.com/dave.rickey/posts/10208801483089983",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "mahrinskel",
+      "proof_url": "https://twitter.com/mahrinskel/status/727948201811025920",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN daverickey.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/daverickey.id\"\n"
 }
