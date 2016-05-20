@@ -1,20 +1,47 @@
 {
   "owner_address": "14Q9rX1au8umw1Mds3AHaTqzj8LSGSyb4H",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/annaspreserves"
-    },
-    "bitcoin": {
-      "address": "1vMPHAYEEBQEEBu7987HxWeKxsDaYLRmf"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/F9g.jpg"
-    },
-    "twitter": {
-      "username": "annaspreserves"
-    },
-    "v": "0.2",
-    "website": "http://annaspreserves.co.uk"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "annaspreserves",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1vMPHAYEEBQEEBu7987HxWeKxsDaYLRmf",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "e9ed80b607f6b8aa728392722f295873b023f343",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ToferC/status/733322578895503360",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/annaspreserves",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ],
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://annaspreserves.co.uk"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN annaspreserves.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/annaspreserves.id\"\n"
 }
