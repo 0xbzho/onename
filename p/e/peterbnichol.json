@@ -37,6 +37,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "peterbnichol",
+      "proof_url": "https://gist.github.com/peterbnichol/d587620867174f06915edd2b19780cdd#file-gistfile1-txt",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "peterbnichol",
+      "proof_url": "https://twitter.com/PeterBNichol/status/731215377464627200",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN peterbnichol.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/peterbnichol.id\"\n"
 }
