@@ -56,6 +56,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "chucky_ath",
+      "proof_url": "https://twitter.com/chucky_ath/status/728777294806978560",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "felipematosmoreira",
+      "proof_url": "https://www.facebook.com/felipematosmoreira/posts/1170169909669478",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "felipemm",
+      "proof_url": "https://gist.github.com/felipemm/353495d927cf20cf95bb8fb707d0ac88",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN felipemm.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/felipemm.id\"\n"
 }
