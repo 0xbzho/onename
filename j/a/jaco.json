@@ -57,6 +57,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "pjgreyling",
+      "proof_url": "https://gist.github.com/pjgreyling/d7b535e24bd870ab5bd10c4c84b3daed",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "greylingj",
+      "proof_url": "https://twitter.com/greylingj/status/564624067530342400",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "greysouth",
+      "proof_url": "https://www.facebook.com/greysouthinc/posts/1070040183084297",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN jaco.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jaco.id\"\n"
 }
