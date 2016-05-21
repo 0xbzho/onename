@@ -36,6 +36,19 @@
     ],
     "name": "Tom Katsiroubas"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "katsiroubas",
+      "proof_url": "https://twitter.com/katsiroubas/status/728311140330016769",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "tom.katsiroubas",
+      "proof_url": "https://www.facebook.com/tom.katsiroubas/posts/10154673969716416?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN tomkats.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tomkats.id\"\n"
 }
