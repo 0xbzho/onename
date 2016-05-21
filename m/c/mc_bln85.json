@@ -36,6 +36,19 @@
     ],
     "name": "Markus B.  Vogg"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "MC_BLN85",
+      "proof_url": "https://twitter.com/MC_BLN85/status/728148926658809856",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mvogg",
+      "proof_url": "https://www.facebook.com/mvogg/posts/10153393860690793?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN mc_bln85.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mc_bln85.id\"\n"
 }
