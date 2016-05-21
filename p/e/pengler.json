@@ -27,6 +27,19 @@
     ],
     "name": "Paul Engler"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "pengler",
+      "proof_url": "https://twitter.com/pengler/status/728614832421797888",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "pengler",
+      "proof_url": "https://gist.github.com/pengler/0a53f108f5dcf9cbf6cbd053324dfe59",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN pengler.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pengler.id\"\n"
 }
