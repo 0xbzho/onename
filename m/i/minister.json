@@ -44,6 +44,25 @@
     ],
     "name": "Vytautas Kašėta"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "ministras",
+      "proof_url": "https://facebook.com/ministras/posts/10206571913923114",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "VytautasKaseta",
+      "proof_url": "https://twitter.com/VytautasKaseta/status/724197935081230337",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ministras",
+      "proof_url": "https://gist.github.com/ministras/f69980ad1a7391331e8b01640f9f6090",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN minister.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/minister.id\"\n"
 }
