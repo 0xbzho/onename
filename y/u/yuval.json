@@ -56,6 +56,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "yuvaldrori",
+      "proof_url": "https://gist.github.com/yuvaldrori/de89e35a3bd1d00f522920f2ca81b6b3",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "yuval",
+      "proof_url": "https://twitter.com/yuval/status/731059732077805568",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN yuval.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/yuval.id\"\n"
 }
