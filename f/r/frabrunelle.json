@@ -5,18 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "frabrunelle",
-        "proofType": "http",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "frabrunelle",
-        "proofType": "http",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
         "identifier": "1EB83mjTdb6A4nNenHXzKm851UpFjjHG1F",
         "role": "payment",
         "service": "bitcoin"
@@ -32,7 +20,20 @@
         "@type": "Account",
         "identifier": "frabrunelle",
         "proofType": "http",
-        "proofUrl": "https://gist.github.com/frabrunelle/6780bfc6e35e5b2b4448",
+        "proofUrl": "https://twitter.com/frabrunelle/status/608442466900045824",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "frabrunelle",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/frabrunelle/d4f10285fa48dd1ce06e87d05d9c6d02",
         "service": "github"
       }
     ],
@@ -61,6 +62,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "frabrunelle",
+      "proof_url": "https://twitter.com/frabrunelle/status/608442466900045824",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "frabrunelle",
+      "proof_url": "https://gist.github.com/frabrunelle/d4f10285fa48dd1ce06e87d05d9c6d02",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN frabrunelle.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/frabrunelle.id\"\n"
 }
