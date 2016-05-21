@@ -49,6 +49,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "terje.husby",
+      "proof_url": "https://facebook.com/terje.husby/posts/10153559298814818",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "thusby",
+      "proof_url": "https://twitter.com/search?f=tweets&q=%40thusby%20onename&src=typd",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN thusby.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/thusby.id\"\n"
 }
