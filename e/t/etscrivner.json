@@ -42,6 +42,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "etscrivner",
+      "proof_url": "https://twitter.com/etscrivner/status/728342687636697092",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "etscrivner",
+      "proof_url": "https://gist.github.com/etscrivner/6ccee2e7daf07f7f109940bf29f9849c",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN etscrivner.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/etscrivner.id\"\n"
 }
