@@ -1,27 +1,48 @@
 {
   "owner_address": "1MTcoeR5RKL4MFWETk3wV57bnCdJevz9H8",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/mmurphy"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Murphan",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Murphan/status/499618891736170500",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco"
     },
-    "bio": "Founder, CEO of Distribu.td",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/mmurphy"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/mmurphy"
-    },
-    "location": {
-      "formatted": "San Francisco"
-    },
-    "name": {
-      "formatted": "Murphy"
-    },
-    "twitter": {
-      "username": "Murphan"
-    },
-    "v": "0.2",
-    "website": "http://www.distribu.td/"
+    "description": "Founder, CEO of Distribute.com",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mmurphy",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mmurphy",
+        "name": "cover"
+      }
+    ],
+    "name": "Murphy",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.distribute.com"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "Murphan",
+      "proof_url": "https://twitter.com/Murphan/status/499618891736170500",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mmurphy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mmurphy.id\"\n"
 }
