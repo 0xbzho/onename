@@ -48,6 +48,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "TheBitcoinKing",
+      "proof_url": "https://twitter.com/TheBitcoinKing/status/731200026152734720",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN thebitcoinking.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/thebitcoinking.id\"\n"
 }
