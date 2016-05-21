@@ -31,6 +31,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "cubedroot",
+      "proof_url": "https://twitter.com/CubedRoot/status/728459090897166337",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN cubedroot.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cubedroot.id\"\n"
 }
