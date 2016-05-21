@@ -36,6 +36,19 @@
     ],
     "name": "Tyler Warren"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "jamestylerwarren",
+      "proof_url": "https://gist.github.com/jamestylerwarren/d4bd965737657066648b7043eff4e86f",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jtylerwarren",
+      "proof_url": "https://mobile.twitter.com/jtylerwarren/status/728246845223243776",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN tylerwarren.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tylerwarren.id\"\n"
 }
