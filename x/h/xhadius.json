@@ -63,6 +63,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "LetsXhadius",
+      "proof_url": "https://twitter.com/LetsXhadius/status/717342924711796736",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Xhadius",
+      "proof_url": "https://gist.github.com/Xhadius/029b6671c998f9023832",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "Xhadius",
+      "proof_url": "https://www.facebook.com/xhadius/posts/737934209682520",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN xhadius.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/xhadius.id\"\n"
 }
