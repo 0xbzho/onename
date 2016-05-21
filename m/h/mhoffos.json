@@ -38,6 +38,19 @@
     ],
     "name": "Mike Hoffos"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "pickle67",
+      "proof_url": "https://twitter.com/pickle67/status/728606206382592000",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mhoffos",
+      "proof_url": "https://gist.github.com/mhoffos/ca5d55ebb61b85bff0be4861c576ed26",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN mhoffos.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mhoffos.id\"\n"
 }
