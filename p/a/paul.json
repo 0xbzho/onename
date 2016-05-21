@@ -11,13 +11,6 @@
       },
       {
         "@type": "Account",
-        "contentUrl": "https://keybase.io/paulw#show-public",
-        "identifier": "D9FC1E5D2F62B06D379CF997AE85ED0DB28A4EEA",
-        "role": "key",
-        "service": "pgp"
-      },
-      {
-        "@type": "Account",
         "identifier": "PaulPWilliams",
         "proofType": "http",
         "proofUrl": "https://twitter.com/PaulPWilliams/status/651905464205221890",
@@ -40,6 +33,13 @@
         "identifier": "",
         "proofType": "http",
         "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/paulw#show-public",
+        "identifier": "D9FC1E5D2F62B06D379CF997AE85ED0DB28A4EEA",
+        "role": "key",
+        "service": "pgp"
       }
     ],
     "address": {
@@ -67,6 +67,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "PaulPWilliams",
+      "proof_url": "https://twitter.com/PaulPWilliams/status/651905464205221890",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "paulpw",
+      "proof_url": "https://gist.github.com/paulpw/377f032ad8e4e16cba90",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN paul.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/paul.id\"\n"
 }
