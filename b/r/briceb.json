@@ -49,6 +49,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "briceb",
+      "proof_url": "https://twitter.com/briceb/status/728110471182585856",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "brice.beauvillain",
+      "proof_url": "https://www.facebook.com/brice.beauvillain/posts/10154309928623714",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "bricebv",
+      "proof_url": "https://gist.github.com/bricebv/c71485fb16aec209a91569730be0c4be",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN briceb.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/briceb.id\"\n"
 }
