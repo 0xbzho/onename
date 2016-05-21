@@ -63,6 +63,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "",
+      "proof_url": "https://facebook.com/josh.cincinnati/posts/10101783171711406",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "acityinohio",
+      "proof_url": "https://gist.github.com/acityinohio/b891e343e3c64b36e6b4f06805769550",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "acityinohio",
+      "proof_url": "https://twitter.com/acityinohio/status/728665548863627266",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN cin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cin.id\"\n"
 }
