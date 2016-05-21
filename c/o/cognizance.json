@@ -55,6 +55,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "cogniz4nce",
+      "proof_url": "https://twitter.com/COGNIZ4NCE/status/731234395634450434",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "CognizanceNutrition",
+      "proof_url": "https://www.facebook.com/CognizanceNutrition/posts/616256601857311",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN cognizance.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cognizance.id\"\n"
 }
