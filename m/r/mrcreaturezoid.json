@@ -1,40 +1,52 @@
 {
   "owner_address": "1WvKsjikEw96uSTfQ8htfRR4WGLUyzPkQ",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "4094aaac0b2eb5fa838d99e3606c7f6632623c1b",
+        "identifier": "41102efed3dc4862f9f746c14c125f422520f141",
         "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "MrCreatureZoid",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MrCreatureZoid/status/717726155634290688",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mrcreaturezoid",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmrcreaturezoid%2Fposts%2F10153366870461073",
+        "service": "facebook"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/mrcreaturezoid"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Texas"
     },
-    "bio": "“How odd to watch a mortal kindle / Then to dwindle day by day / Knowing their bright souls are tinder / And the wind will have its way” -Patrick Rothfuss",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/mrcreaturezoid"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/johndavidreeder/posts/10153366870461073"
+    "description": "“How odd to watch a mortal kindle / Then to dwindle day by day / Knowing their bright souls are tinder / And the wind will have its way” -Patrick Rothfuss",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mrcreaturezoid",
+        "name": "avatar"
       },
-      "username": "johndavidreeder"
-    },
-    "location": {
-      "formatted": "Texas"
-    },
-    "name": {
-      "formatted": "jorn rardar"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/MrCreatureZoid/status/717726155634290688"
-      },
-      "username": "MrCreatureZoid"
-    },
-    "v": "0.2",
-    "website": "http://www.twitch.tv/mrcreaturezoid/profile"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mrcreaturezoid",
+        "name": "cover"
+      }
+    ],
+    "name": "jorn rardar",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.twitch.tv/mrcreaturezoid/profile"
+      }
+    ]
   },
   "verifications": [
     {
@@ -44,10 +56,11 @@
       "valid": true
     },
     {
-      "identifier": "johndavidreeder",
-      "proof_url": "https://facebook.com/johndavidreeder/posts/10153366870461073",
+      "identifier": "mrcreaturezoid",
+      "proof_url": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmrcreaturezoid%2Fposts%2F10153366870461073",
       "service": "facebook",
-      "valid": true
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN mrcreaturezoid.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mrcreaturezoid.id\"\n"
 }
