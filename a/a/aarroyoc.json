@@ -1,0 +1,67 @@
+{
+  "owner_address": "1JvLH6R3fXh3WJHAyQgMQGFfRW9xs72Bu2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1A2j8CwiFEhQ4Uycsjhr3gQPbJxFk1LRmM",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "aarroyoca",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/aarroyoca/status/724660591823060992",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "AdrianArroyoCalle",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/AdrianArroyoCalle/be718456b80ae5629eb9374cdc8f580e",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "aa855289e6e1cf5028708e1b146cfcd0d97bc319",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/aarroyoc",
+        "name": "avatar"
+      }
+    ],
+    "name": "Adrián Arroyo",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://adrianarroyocalle.github.io"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "aarroyoca",
+      "proof_url": "https://twitter.com/aarroyoca/status/724660591823060992",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "AdrianArroyoCalle",
+      "proof_url": "https://gist.github.com/AdrianArroyoCalle/be718456b80ae5629eb9374cdc8f580e",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN aarroyoc.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/aarroyoc.id\"\n"
+}
