@@ -38,6 +38,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "windozer",
+      "proof_url": "https://twitter.com/Windozer/status/728684292210036737",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "caleteeter",
+      "proof_url": "https://gist.github.com/caleteeter/153d164c6319b3f9b98977b0dcc85956",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "cale.teeter",
+      "proof_url": "https://www.facebook.com/cale.teeter/posts/10204699366163511",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN windozer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/windozer.id\"\n"
 }
