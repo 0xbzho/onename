@@ -33,6 +33,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "nicolamarangoni",
+      "proof_url": "https://gist.github.com/nicolamarangoni/4bab8c17ac235283351a9a3ece6bab35",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "nicolamarangoni",
+      "proof_url": "https://twitter.com/nicolamarangoni/status/728506667764203520",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "nic.marango",
+      "proof_url": "https://www.facebook.com/nic.marango/posts/10209797777402120",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN nicolamarangoni.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nicolamarangoni.id\"\n"
 }
