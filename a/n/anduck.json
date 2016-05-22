@@ -1,39 +1,45 @@
 {
   "owner_address": "1JNWHpaqTQgyUpQUNyEcb6c18kPM487NDG",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/anduck"
-    },
-    "bio": "",
-    "bitcoin": {
-      "address": "1Anduck6bsXBXH7fPHzePJSXdC9AEsRmt4"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/rv1.jpeg"
-    },
-    "location": {
-      "formatted": "Finland"
-    },
-    "name": {
-      "formatted": "Antti Majakivi"
-    },
-    "pgp": {
-      "url": "http://pool.sks-keyservers.net:11371/pks/lookup?op=get&search=0x5F81CCEC5886D61E"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/AnttiMay/status/498231567320248324"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "AnttiMay",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "AnttiMay"
+      {
+        "@type": "Account",
+        "identifier": "1Anduck6bsXBXH7fPHzePJSXdC9AEsRmt4",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "2929537a4e8e3d6411522f4fa1caa4e5334363ca",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Finland"
     },
-    "v": "0.2"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/anduck",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Antti Majakivi"
   },
-  "verifications": [
-    {
-      "identifier": "AnttiMay",
-      "proof_url": "https://twitter.com/AnttiMay/status/498231567320248324",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN anduck.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/anduck.id\"\n"
 }
