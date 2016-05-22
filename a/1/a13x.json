@@ -1,0 +1,67 @@
+{
+  "owner_address": "18TmiUntcSauLNVc3FsDbTSqvQc9wsZ17T",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1BaLczYa4UfePkkjD5b4BqKyXmyVsTpwKp",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "a13x",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/a13x/fecfdfc397d5800d2fe1bcb5a7bcbe3d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "a13xnet",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/a13xnet/status/727095913924141056",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Stockholm, Sweden"
+    },
+    "description": "Pythonista, Erlanger",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/a13x",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/a13x",
+        "name": "cover"
+      }
+    ],
+    "name": "Aleksandar Radulovic",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://a13x.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "a13x",
+      "proof_url": "https://gist.github.com/a13x/fecfdfc397d5800d2fe1bcb5a7bcbe3d",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "a13xnet",
+      "proof_url": "https://twitter.com/a13xnet/status/727095913924141056",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN a13x.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/a13x.id\"\n"
+}
