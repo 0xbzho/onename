@@ -62,6 +62,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "m8urnett",
+      "proof_url": "https://twitter.com/m8urnett/status/725073678355025921",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "m8urnett",
+      "proof_url": "https://gist.github.com/m8urnett/882bba1c33b3eed83ecffb481f46bb67",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN m8urnett.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/m8urnett.id\"\n"
 }
