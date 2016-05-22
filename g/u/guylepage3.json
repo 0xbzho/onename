@@ -56,6 +56,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "guylepage3",
+      "proof_url": "https://twitter.com/guylepage3/status/731252874886385665",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "g3lepage",
+      "proof_url": "https://www.facebook.com/g3lepage/posts/10154223148908760",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "guylepage3",
+      "proof_url": "https://gist.github.com/guylepage3/06f522444fb71f1daf01a534396d1f9e",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN guylepage3.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/guylepage3.id\"\n"
 }
