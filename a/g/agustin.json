@@ -1,0 +1,79 @@
+{
+  "owner_address": "13SMvv1KvwBBosedX4FC3BQ9nTEXC8W3dd",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "15Y8pnnsmCRHYt3CTRgu4U65J6j5Rn9WWY",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "agustin.labaronnie",
+        "proofType": "http",
+        "proofUrl": "href=https%3A%2F%2Fwww.facebook.com%2Fagustin.labaronnie%2Fposts%2F10154322190139610",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "agulab",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/agulab/32c39d5cbf622c27b78f860f18c0d3b9",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "halconit",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/halconit/status/727551416387158016",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "62975732538159195cfc569bffd984f3c8894b40",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "La Plata, Buenos Aires, Argentina"
+    },
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/agustin",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/agustin",
+        "name": "cover"
+      }
+    ],
+    "name": "Agustín Labaronnie"
+  },
+  "verifications": [
+    {
+      "identifier": "agustin.labaronnie",
+      "proof_url": "href=https%3A%2F%2Fwww.facebook.com%2Fagustin.labaronnie%2Fposts%2F10154322190139610",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "agulab",
+      "proof_url": "https://gist.github.com/agulab/32c39d5cbf622c27b78f860f18c0d3b9",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "halconit",
+      "proof_url": "https://twitter.com/halconit/status/727551416387158016",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN agustin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/agustin.id\"\n"
+}
