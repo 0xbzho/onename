@@ -61,6 +61,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "densmirnov",
+      "proof_url": "https://twitter.com/densmirnov/status/707057573367844864",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "densmirnov",
+      "proof_url": "https://gist.github.com/densmirnov/082700d2656beb683287",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN densmirnov.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/densmirnov.id\"\n"
 }
