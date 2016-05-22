@@ -1,32 +1,38 @@
 {
   "owner_address": "1Prk2oNmATGo6ZxQUtenJHeTgYv5tXhV53",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/bazaarbooks"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/bazaarbooks"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "SlimeDragon"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/Sl1meDragon/status/721228970620878848"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Sl1meDragon",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "Sl1meDragon"
+      {
+        "@type": "Account",
+        "identifier": "76ee6be7dfef4ece0f3ed18170f506348d4927e2",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bazaarbooks",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bazaarbooks",
+        "name": "cover"
+      }
+    ],
+    "name": "SlimeDragon"
   },
-  "verifications": [
-    {
-      "identifier": "Sl1meDragon",
-      "proof_url": "https://twitter.com/Sl1meDragon/status/721228970620878848",
-      "service": "twitter",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN bazaarbooks.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bazaarbooks.id\"\n"
 }
