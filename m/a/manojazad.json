@@ -1,38 +1,46 @@
 {
   "owner_address": "1NNFUqpM7zvx89L9nX5EW3rTHfKcazhJxe",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/manojazad"
-    },
-    "bio": "",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/F9g.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/manojazad/posts/10208947666275596"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "manojazad",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "manojazad"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/manojkazad/2e7b9e565377fcc52c90dd2095acd88c"
+      {
+        "@type": "Account",
+        "identifier": "manojazad",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "manojkazad"
+      {
+        "@type": "Account",
+        "identifier": "manojkazad",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/manojkazad/2e7b9e565377fcc52c90dd2095acd88c",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Manoj Azad"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/manojazad/status/719187087610646528"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/manojazad",
+        "name": "avatar"
       },
-      "username": "manojazad"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Manoj Azad"
   },
   "verifications": [
     {
@@ -40,18 +48,7 @@
       "proof_url": "https://gist.github.com/manojkazad/2e7b9e565377fcc52c90dd2095acd88c",
       "service": "github",
       "valid": false
-    },
-    {
-      "identifier": "manojazad",
-      "proof_url": "https://twitter.com/manojazad/status/719187087610646528",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "manojazad",
-      "proof_url": "https://facebook.com/manojazad/posts/10208947666275596",
-      "service": "facebook",
-      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN manojazad.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/manojazad.id\"\n"
 }
