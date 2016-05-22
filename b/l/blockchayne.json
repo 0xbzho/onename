@@ -62,6 +62,25 @@
     ],
     "name": "Blockchayne Bullion & Coyn"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "Blockchayne",
+      "proof_url": "https://twitter.com/Blockchayne/status/724147181209432065",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Blockchayne",
+      "proof_url": "https://gist.github.com/Blockchayne/6bfc9ea6b1fbbe56e4d603115a930994",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "LOCKKCHAYNE",
+      "proof_url": "https://www.facebook.com/saved/?collection_token=100012046417920%3A586254444758776%3A92&cref=35",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN blockchayne.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/blockchayne.id\"\n"
 }
