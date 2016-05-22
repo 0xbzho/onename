@@ -56,6 +56,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "trevin",
+      "proof_url": "https://www.facebook.com/trevin/posts/10156867743895433",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "tmchow",
+      "proof_url": "https://gist.github.com/tmchow/068adf954b870b96e8e2e9f03eb95554",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "trevin",
+      "proof_url": "https://twitter.com/trevin/status/731522773407784961",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN trevin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/trevin.id\"\n"
 }
