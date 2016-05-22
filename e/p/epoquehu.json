@@ -46,6 +46,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "epoquehu",
+      "proof_url": "https://twitter.com/epoquehu/status/728494842444169216",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "epoquehu",
+      "proof_url": "https://gist.github.com/epoquehu/fba6886390ee1040e6d60443b17e04b6",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "epoquehu",
+      "proof_url": "https://www.facebook.com/epoquehu/posts/10102401535210982",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN epoquehu.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/epoquehu.id\"\n"
 }
