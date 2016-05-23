@@ -11,24 +11,35 @@
       },
       {
         "@type": "Account",
-        "identifier": "onur@gozupek.com",
+        "identifier": "onurgozupek",
         "proofType": "http",
         "proofUrl": "https://twitter.com/onurgozupek/status/732083579342163968",
         "service": "twitter"
       },
       {
         "@type": "Account",
-        "identifier": "onur@gozupek.com",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/onurgozupek/posts/10154187443281880",
-        "service": "facebook"
+        "contentUrl": "https://pk9.s3.amazonaws.com/onurgozupek",
+        "identifier": "onur",
+        "service": "pgp"
       },
       {
         "@type": "Account",
         "identifier": "onurgozupek",
         "proofType": "http",
-        "proofUrl": "https://gist.github.com/onurgozupek/8fb1ee1358f0b7e36578",
+        "proofUrl": "https://gist.github.com/onurgozupek/d92302f29d83e8fd1acf03f8440bd40b",
         "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "onurgozupek",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/onurgozupek/posts/10154206634171880",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "37dd5ed522bf2f00613fe488b5c0f8385b5d1d41",
+        "service": "openbazaar"
       }
     ],
     "address": {
@@ -57,22 +68,22 @@
   },
   "verifications": [
     {
-      "identifier": "onur@gozupek.com",
+      "identifier": "onurgozupek",
       "proof_url": "https://twitter.com/onurgozupek/status/732083579342163968",
       "service": "twitter",
-      "valid": false
-    },
-    {
-      "identifier": "onur@gozupek.com",
-      "proof_url": "https://www.facebook.com/onurgozupek/posts/10154187443281880",
-      "service": "facebook",
-      "valid": false
+      "valid": true
     },
     {
       "identifier": "onurgozupek",
-      "proof_url": "https://gist.github.com/onurgozupek/8fb1ee1358f0b7e36578",
+      "proof_url": "https://gist.github.com/onurgozupek/d92302f29d83e8fd1acf03f8440bd40b",
       "service": "github",
-      "valid": false
+      "valid": true
+    },
+    {
+      "identifier": "onurgozupek",
+      "proof_url": "https://www.facebook.com/onurgozupek/posts/10154206634171880",
+      "service": "facebook",
+      "valid": true
     }
   ],
   "zone_file": "$ORIGIN onurgozupek.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/onurgozupek.id\"\n"
