@@ -1,41 +1,61 @@
 {
   "owner_address": "17TmjzuzyadFy6sMT47Sp2Garp4dkLkedv",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/kiska_zilla"
-    },
-    "bio": "rawr",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/kiska_zilla"
-    },
-    "facebook": {
-      "username": "kiskazillamonster"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/kiska_zilla"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "kiskazilla"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/KiskaZilla/status/536271195268608000"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kiskazillamonster",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/kiskazillamonster/posts/10205922792741045?pnref=story",
+        "service": "facebook"
       },
-      "username": "KiskaZilla"
+      {
+        "@type": "Account",
+        "identifier": "KiskaZilla",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/KiskaZilla/status/734267048746881025",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "v": "0.2",
-    "website": "https://www.facebook.com/PixelMonsta"
+    "description": "rawr",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kiska_zilla",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/kiska_zilla",
+        "name": "cover"
+      }
+    ],
+    "name": "kiskazilla",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.facebook.com/PixelMonsta"
+      }
+    ]
   },
   "verifications": [
     {
+      "identifier": "kiskazillamonster",
+      "proof_url": "https://www.facebook.com/kiskazillamonster/posts/10205922792741045?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
       "identifier": "KiskaZilla",
-      "proof_url": "https://twitter.com/KiskaZilla/status/536271195268608000",
+      "proof_url": "https://twitter.com/KiskaZilla/status/734267048746881025",
       "service": "twitter",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN kiska_zilla.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kiska_zilla.id\"\n"
 }
