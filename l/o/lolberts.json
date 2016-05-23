@@ -1,44 +1,68 @@
 {
   "owner_address": "1AUeA5BxnCQo1pEeiqiBraYuXBM8wHZ1bw",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/lolberts"
-    },
-    "bio": "Podcast and part-time agorist",
-    "bitcoin": {
-      "address": "1Hi44CryQxpjFqLWioMiiEw6w1Vz9AYqCe"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/lolberts"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/revjimjesus/posts/10206045854857422"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1Hi44CryQxpjFqLWioMiiEw6w1Vz9AYqCe",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "revjimjesus"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/jimjesus/59f3e393c57d0ae3ff036e7f384f6f2e"
+      {
+        "@type": "Account",
+        "identifier": "revjimjesus",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/revjimjesus/posts/10206054106343704",
+        "service": "facebook"
       },
-      "username": "jimjesus"
-    },
-    "location": {
-      "formatted": "Las Vegas, NV"
-    },
-    "name": {
-      "formatted": "The Lolberts"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/lolberts/status/719009526863630337"
+      {
+        "@type": "Account",
+        "identifier": "jimjesus",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jimjesus/59f3e393c57d0ae3ff036e7f384f6f2e",
+        "service": "github"
       },
-      "username": "lolberts"
+      {
+        "@type": "Account",
+        "identifier": "lolberts",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/lolberts/status/719009526863630337",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Las Vegas, NV"
     },
-    "v": "0.2",
-    "website": "http://www.lolberts.com"
+    "description": "Podcast and part-time agorist.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/lolberts",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/lolberts",
+        "name": "cover"
+      }
+    ],
+    "name": "The Lolberts",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.lolberts.com"
+      }
+    ]
   },
   "verifications": [
+    {
+      "identifier": "revjimjesus",
+      "proof_url": "https://www.facebook.com/revjimjesus/posts/10206054106343704",
+      "service": "facebook",
+      "valid": true
+    },
     {
       "identifier": "jimjesus",
       "proof_url": "https://gist.github.com/jimjesus/59f3e393c57d0ae3ff036e7f384f6f2e",
@@ -50,12 +74,7 @@
       "proof_url": "https://twitter.com/lolberts/status/719009526863630337",
       "service": "twitter",
       "valid": true
-    },
-    {
-      "identifier": "revjimjesus",
-      "proof_url": "https://facebook.com/revjimjesus/posts/10206045854857422",
-      "service": "facebook",
-      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN lolberts.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lolberts.id\"\n"
 }
