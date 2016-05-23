@@ -1,37 +1,53 @@
 {
   "owner_address": "1KayGxTb5HEnEv1p33iB2PH6WGxwNFDHAC",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "147bee81e5255d20599aacc0f73b2c9914d48efc",
-        "service": "openbazaar"
+        "identifier": "1LuwWYnioeh3pexuZDMnDrBrLPqJ9moQxe",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "AgoristHosting",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/AgoristHosting/status/717123483210096640",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "DAndrewPhillips",
+        "proofType": "http",
+        "proofUrl": "www.facebook.com/DAndrewPhillips/posts/10153702407178741",
+        "service": "facebook"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/agoristhosting"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "World Wide"
     },
-    "bio": "We provide a secure hosting environment with bi-continental redundancy to ensure a censorship and cyber-violence free work space. #bitcoin accepted here.",
-    "bitcoin": {
-      "address": "1Fv4HAeHVgPx6ASx2fn4EjdS5tKk1Ecid3"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/agoristhosting"
-    },
-    "location": {
-      "formatted": "World Wide"
-    },
-    "name": {
-      "formatted": "Agorist Hosting"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/AgoristHosting/status/717123483210096640"
+    "description": "We provide a secure hosting environment with bi-continental redundancy to ensure a censorship and cyber-violence free work space. #bitcoin accepted here.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/agoristhosting",
+        "name": "avatar"
       },
-      "username": "AgoristHosting"
-    },
-    "v": "0.2",
-    "website": "http://AgoristHosting.com/"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/agoristhosting",
+        "name": "cover"
+      }
+    ],
+    "name": "Agorist Hosting",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://AgoristHosting.com/"
+      }
+    ]
   },
   "verifications": [
     {
@@ -39,6 +55,13 @@
       "proof_url": "https://twitter.com/AgoristHosting/status/717123483210096640",
       "service": "twitter",
       "valid": true
+    },
+    {
+      "identifier": "DAndrewPhillips",
+      "proof_url": "www.facebook.com/DAndrewPhillips/posts/10153702407178741",
+      "service": "facebook",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN agoristhosting.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/agoristhosting.id\"\n"
 }
