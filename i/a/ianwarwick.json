@@ -1,56 +1,59 @@
 {
   "owner_address": "1CPoXmpvSxQ7jbPdbgmcFcVo3T1aAx67Ap",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/ianwarwick"
-    },
-    "bitcoin": {
-      "address": "1JjEK9Zk5i53xjXTSratxrekFPb7v42P3b"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/Ov8.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/iwarwick@hotmail.com/posts/10152857680590499"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ian_warwick",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "iwarwick@hotmail.com"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/IanWarwick/27d27a46c24b192e2d36"
+      {
+        "@type": "Account",
+        "identifier": "IanWarwick",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "IanWarwick"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/ianwarwick"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/ian_warwick/status/533600004330381312"
+      {
+        "@type": "Account",
+        "identifier": "1JjEK9Zk5i53xjXTSratxrekFPb7v42P3b",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "ian_warwick"
+      {
+        "@type": "Account",
+        "identifier": "iwarwick@hotmail.com",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/iwarwick@hotmail.com/posts/10152857680590499",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "UK"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ianwarwick",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ian Warwick"
   },
   "verifications": [
-    {
-      "identifier": "IanWarwick",
-      "proof_url": "https://gist.github.com/IanWarwick/27d27a46c24b192e2d36",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "ian_warwick",
-      "proof_url": "https://twitter.com/ian_warwick/status/533600004330381312",
-      "service": "twitter",
-      "valid": true
-    },
     {
       "identifier": "iwarwick@hotmail.com",
       "proof_url": "https://facebook.com/iwarwick@hotmail.com/posts/10152857680590499",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN ianwarwick.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ianwarwick.id\"\n"
 }
