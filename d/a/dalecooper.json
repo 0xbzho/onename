@@ -1,47 +1,56 @@
 {
   "owner_address": "1FXNp4sd6jDJXrSKM5rXJh4a7CtUpmj5Xq",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/dalecooper"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/2wu.jpeg"
-    },
-    "facebook": {
-      "username": "dalecooperfr"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/dalecooper/675d48c40cb37f5cf73e"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "dalecooper"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/dalecooper"
-    },
-    "name": {
-      "formatted": "Dale Cooper"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/dalecooper/status/702836670333325312"
+      {
+        "@type": "Account",
+        "identifier": "dalecooper",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dalecooper/status/734351033518960640",
+        "service": "twitter"
       },
-      "username": "dalecooper"
-    },
-    "v": "0.2"
+      {
+        "@type": "Account",
+        "identifier": "dalecooper",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dalecooper/4d4c2e19eebe1017727c5116585d5bd2",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dalecooper",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Dale Cooper"
   },
   "verifications": [
     {
       "identifier": "dalecooper",
-      "proof_url": "https://gist.github.com/dalecooper/675d48c40cb37f5cf73e",
-      "service": "github",
+      "proof_url": "https://twitter.com/dalecooper/status/734351033518960640",
+      "service": "twitter",
       "valid": true
     },
     {
       "identifier": "dalecooper",
-      "proof_url": "https://twitter.com/dalecooper/status/702836670333325312",
-      "service": "twitter",
-      "valid": true
+      "proof_url": "https://gist.github.com/dalecooper/4d4c2e19eebe1017727c5116585d5bd2",
+      "service": "github",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN dalecooper.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dalecooper.id\"\n"
 }
