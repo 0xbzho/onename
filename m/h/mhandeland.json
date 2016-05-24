@@ -1,0 +1,80 @@
+{
+  "owner_address": "1DchFbHbjQhsXJEHtLCiGwqsP2JFZJW9CB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mhandeland",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mhandeland/posts/10154039052521014",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mhandeland",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mhandeland/cf2d62f6884ff39d8895ee59d02aa547#file-blockchain-id",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mhandeland",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mhandeland/status/734380312478818309",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/mhandeland",
+        "identifier": "11DBA7A61CD1E7426D7D43F4AA5BF581D53589A",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Oslo, Norway"
+    },
+    "description": "Tech enthusiast and product guy. Passionate about machine learning, blockchains and big data in finance and healthcare.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mhandeland",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mhandeland",
+        "name": "cover"
+      }
+    ],
+    "name": "Magnus Handeland",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.magnushandeland.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mhandeland",
+      "proof_url": "https://www.facebook.com/mhandeland/posts/10154039052521014",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "mhandeland",
+      "proof_url": "https://gist.github.com/mhandeland/cf2d62f6884ff39d8895ee59d02aa547#file-blockchain-id",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "mhandeland",
+      "proof_url": "https://twitter.com/mhandeland/status/734380312478818309",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mhandeland.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mhandeland.id\"\n"
+}
