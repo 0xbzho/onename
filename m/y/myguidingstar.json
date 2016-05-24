@@ -1,0 +1,60 @@
+{
+  "owner_address": "1EKNowsbwqCRtgUDa6n2F2fzFMaWPpYDKq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "myguidingstar",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/myguidingstar/a800788d106f53fa58ab50d69db36fde",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "myguidingstar",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/myguidingstar/status/727763091333758976",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hà Nội, Việt Nam"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/myguidingstar",
+        "name": "avatar"
+      }
+    ],
+    "name": "Hoàng Minh Thắng",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://programmable.banphim.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "myguidingstar",
+      "proof_url": "https://gist.github.com/myguidingstar/a800788d106f53fa58ab50d69db36fde",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "myguidingstar",
+      "proof_url": "https://twitter.com/myguidingstar/status/727763091333758976",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN myguidingstar.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/myguidingstar.id\"\n"
+}
