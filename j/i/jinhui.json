@@ -1,0 +1,49 @@
+{
+  "owner_address": "1DdfKq9sx2WHcVmHjsrTprwW49QqDbXDEg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jefferykim",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jefferykim/status/724822688779395073",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jinhui.sg",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/JinHui.SG/posts/10201513595278766",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Singapore"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "JinHui"
+  },
+  "verifications": [
+    {
+      "identifier": "jefferykim",
+      "proof_url": "https://twitter.com/jefferykim/status/724822688779395073",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jinhui.sg",
+      "proof_url": "https://www.facebook.com/JinHui.SG/posts/10201513595278766",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jinhui.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jinhui.id\"\n"
+}
