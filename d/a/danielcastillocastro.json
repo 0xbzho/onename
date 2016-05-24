@@ -1,0 +1,74 @@
+{
+  "owner_address": "15UaHg29AWWqpWNef87Yid1UGLDne8vf6U",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "SoyDacastillo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SoyDacastillo/status/734494245776691200",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "SoyDacastillo",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/SoyDacastillo/posts/520321391501440?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Dacastillo",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Dacastillo/e4888ca1a3e8b3ea49e6bc8b012dc04e",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1HeFfhcCoqotH7QZcnpJCVXF8F5JM4dEQc",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Santiago de Chile"
+    },
+    "description": "Estudiante del Doctorado en Física de la PUC. Me interesa prácticamente todo.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/danielcastillocastro",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/danielcastillocastro",
+        "name": "cover"
+      }
+    ],
+    "name": "Daniel Andrés Castillo Castro"
+  },
+  "verifications": [
+    {
+      "identifier": "SoyDacastillo",
+      "proof_url": "https://twitter.com/SoyDacastillo/status/734494245776691200",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "SoyDacastillo",
+      "proof_url": "https://www.facebook.com/SoyDacastillo/posts/520321391501440?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "Dacastillo",
+      "proof_url": "https://gist.github.com/Dacastillo/e4888ca1a3e8b3ea49e6bc8b012dc04e",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN danielcastillocastro.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/danielcastillocastro.id\"\n"
+}
