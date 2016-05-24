@@ -1,0 +1,41 @@
+{
+  "owner_address": "19bVi3pnCxdpwkv1vHdnKZmnAMagB88oCF",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jpchabry",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jpchabry/status/733648252982206464",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Thônex"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jpchabry",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jean-Paul Chabry"
+  },
+  "verifications": [
+    {
+      "identifier": "jpchabry",
+      "proof_url": "https://twitter.com/jpchabry/status/733648252982206464",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jpchabry.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jpchabry.id\"\n"
+}
