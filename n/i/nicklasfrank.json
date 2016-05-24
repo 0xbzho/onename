@@ -1,0 +1,73 @@
+{
+  "owner_address": "17i8KwzuYXbZWfcGsqDVWrjBT7aUCyquik",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "NicklasKFrank",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/NicklasKFrank/status/725763890945114112",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Frozire",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Frozire/4dcb3ff683e9e26c109f1357ba08c310",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Frozire",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/Frozire/posts/10209536606317737",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Copenhagen"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nicklasfrank",
+        "name": "avatar"
+      }
+    ],
+    "name": "Nicklas Kevin Frank",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://monori.dk"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "NicklasKFrank",
+      "proof_url": "https://twitter.com/NicklasKFrank/status/725763890945114112",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Frozire",
+      "proof_url": "https://gist.github.com/Frozire/4dcb3ff683e9e26c109f1357ba08c310",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "Frozire",
+      "proof_url": "https://www.facebook.com/Frozire/posts/10209536606317737",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN nicklasfrank.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nicklasfrank.id\"\n"
+}
