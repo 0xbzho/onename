@@ -1,0 +1,60 @@
+{
+  "owner_address": "1AFBaXh73y5vT7QujaBVV3GADXekxpB52B",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "thisisnthappiness",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "13E7g3RR82KyPEpnL9uPq6orwYWWfACpfU",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "itspeteski",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/nevverdaily/status/542770680387747842",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hell, CA"
+    },
+    "description": "running with Twizzlers",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/peteski",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/peteski",
+        "name": "cover"
+      }
+    ],
+    "name": "Peteski",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://thisisnthappiness.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "itspeteski",
+      "proof_url": "https://twitter.com/nevverdaily/status/542770680387747842",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN peteski.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/peteski.id\"\n"
+}
