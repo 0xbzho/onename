@@ -1,0 +1,74 @@
+{
+  "owner_address": "1ARvet6vVSTj24vmAxmrW2QXsR51jVRKrY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1RobErr68xvGr5JCCmZqioaVUh868v4nA",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "3f364e49a40b49f4c8e42c1b730392465ee29d5b",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/JFrankfurt/214aef2105673c99406567d682e5278c",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "RobEdb",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RobEdb/status/730074909649584129",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "M-e-s-s-i-a-h",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/M-e-s-s-i-a-h/60cd7e66469f5242c75d04b3d73caa6f",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Stockholm, Sweden"
+    },
+    "description": "Motto: - \"No one is worth less than me...\"",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/messiah",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/messiah",
+        "name": "cover"
+      }
+    ],
+    "name": "Roberth Edberg",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://plus.google.com/u/0/+RoberthEdberg"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "RobEdb",
+      "proof_url": "https://twitter.com/RobEdb/status/730074909649584129",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "M-e-s-s-i-a-h",
+      "proof_url": "https://gist.github.com/M-e-s-s-i-a-h/60cd7e66469f5242c75d04b3d73caa6f",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN messiah.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/messiah.id\"\n"
+}
