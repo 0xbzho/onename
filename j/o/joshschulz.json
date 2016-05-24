@@ -1,0 +1,32 @@
+{
+  "owner_address": "17TAqRg88GaNd38iv65YNk6VwxoPL9Pkoo",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "schulz",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/schulz/status/732304941545623552",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Josh Schulz"
+  },
+  "verifications": [
+    {
+      "identifier": "schulz",
+      "proof_url": "https://twitter.com/schulz/status/732304941545623552",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN joshschulz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/joshschulz.id\"\n"
+}
