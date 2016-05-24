@@ -1,0 +1,56 @@
+{
+  "owner_address": "1KZSSufgjbXXm8N65znuZA2buPLar3tzDK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "noxplode",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/noxplode/5d8150ea493a82c2b3f50e8cb350cc95",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "iamandyk",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/iamandyk/status/725377276775387139",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/noxplode",
+        "name": "avatar"
+      }
+    ],
+    "name": "Andy Kay",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://andy.fit"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "noxplode",
+      "proof_url": "https://gist.github.com/noxplode/5d8150ea493a82c2b3f50e8cb350cc95",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "iamandyk",
+      "proof_url": "https://twitter.com/iamandyk/status/725377276775387139",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN noxplode.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/noxplode.id\"\n"
+}
