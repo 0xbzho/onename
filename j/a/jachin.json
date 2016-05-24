@@ -1,0 +1,84 @@
+{
+  "owner_address": "1Fq65juuYbAXRRRWtHAdbp46vN5n4o1QgP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1JvF1om87WNqtxjE4khjxsKUVPH8PX1ryH",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "9cd1e89fa2d3075b8452f1b038988dcc052e3a94",
+        "service": "openbazaaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jachin",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jachin/7a675fbed4b6331c3655884aaf057c15",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jachin.rupe",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jachin.rupe/posts/10154742602538082",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jachin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jachin/status/717102708214390785",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Minneapolis, MN"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jachin",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jachin",
+        "name": "cover"
+      }
+    ],
+    "name": "Jachin Rupe",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://jachinrupe.name"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jachin",
+      "proof_url": "https://gist.github.com/jachin/7a675fbed4b6331c3655884aaf057c15",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jachin.rupe",
+      "proof_url": "https://www.facebook.com/jachin.rupe/posts/10154742602538082",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "jachin",
+      "proof_url": "https://twitter.com/jachin/status/717102708214390785",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jachin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jachin.id\"\n"
+}
