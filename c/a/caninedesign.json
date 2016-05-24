@@ -1,0 +1,41 @@
+{
+  "owner_address": "1BShdqu83FcUiHCcFFbj9K1ja2HSr3DCbU",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "caninedesigncol",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/caninedesigncol",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Maryland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/caninedesign",
+        "name": "avatar"
+      }
+    ],
+    "name": "Laura Herbertson"
+  },
+  "verifications": [
+    {
+      "identifier": "caninedesigncol",
+      "proof_url": "https://twitter.com/caninedesigncol",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN caninedesign.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/caninedesign.id\"\n"
+}
