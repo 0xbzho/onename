@@ -1,0 +1,46 @@
+{
+  "owner_address": "1LzCoqztM3kPt9PpVqSMuKyhcfcoj9sY2e",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Carlobrezigia@gmail.com",
+        "proofType": "http",
+        "proofUrl": "https://github.com/pengas",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Pianoman",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Italy"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/carlobrezigia",
+        "name": "avatar"
+      }
+    ],
+    "name": "Carlo Maria Brezigia"
+  },
+  "verifications": [
+    {
+      "identifier": "Carlobrezigia@gmail.com",
+      "proof_url": "https://github.com/pengas",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN carlobrezigia.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/carlobrezigia.id\"\n"
+}
