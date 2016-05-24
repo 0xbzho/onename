@@ -1,0 +1,54 @@
+{
+  "owner_address": "12AhaCxKEosWJA1coMx9JwyxnSn8YziPAL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ynohat",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hoggsome",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ynohat",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ynohat/cf8aabaf2fe4b1f82cb6fba00fcb64a4",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris area, France"
+    },
+    "description": "Developer, early adopter, dad",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/anthonyhogg",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Anthony Hogg"
+  },
+  "verifications": [
+    {
+      "identifier": "ynohat",
+      "proof_url": "https://gist.github.com/ynohat/cf8aabaf2fe4b1f82cb6fba00fcb64a4",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN anthonyhogg.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/anthonyhogg.id\"\n"
+}
