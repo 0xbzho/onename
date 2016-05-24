@@ -1,0 +1,79 @@
+{
+  "owner_address": "14jW11vYb3BNTvNyBXBQ2NJZLGgM9qx77T",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "benvhool",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/benvhool/status/732604811976298498",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "benvhool",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/benvhool/4958ffd45f667c858bc02377b7f2c0a4",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ben.vanhool",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ben.vanhool/posts/1060075510733843",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1J4k3fxJBYhtpXgPc1QyVTn8tRXqoUm3T4",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Belgium"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/benvanhool",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ben Van Hool",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.bitcointelex.be"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "benvhool",
+      "proof_url": "https://twitter.com/benvhool/status/732604811976298498",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "benvhool",
+      "proof_url": "https://gist.github.com/benvhool/4958ffd45f667c858bc02377b7f2c0a4",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "ben.vanhool",
+      "proof_url": "https://www.facebook.com/ben.vanhool/posts/1060075510733843",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN benvanhool.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/benvanhool.id\"\n"
+}
