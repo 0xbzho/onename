@@ -1,0 +1,52 @@
+{
+  "owner_address": "14GeLM22h1ZWpdM7H5mJVeWm4119b4FgjK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jhoenicke",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jhoenicke",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/hoenicke",
+        "identifier": "088F8EB2D57AF4D64C40A5EA90AC201D7BFE5D13",
+        "role": "key",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Freiburg, Germany"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hoenicke",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jochen Hoenicke",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.jochen-hoenicke.de/"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN hoenicke.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hoenicke.id\"\n"
+}
