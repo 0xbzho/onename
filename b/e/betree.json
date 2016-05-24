@@ -1,0 +1,56 @@
+{
+  "owner_address": "17buS4Bt1ogjfwoSE1gNTW2Tsm3hCkfv9U",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Betree83",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Betree83/status/732285972776419328",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Betree",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Betree/03b173b1d261dfdfd5ea74a00310648b",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/betree",
+        "name": "avatar"
+      }
+    ],
+    "name": "Benjamin Piouffle",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://benjaminpiouffle.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Betree83",
+      "proof_url": "https://twitter.com/Betree83/status/732285972776419328",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Betree",
+      "proof_url": "https://gist.github.com/Betree/03b173b1d261dfdfd5ea74a00310648b",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN betree.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/betree.id\"\n"
+}
