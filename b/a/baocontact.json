@@ -1,0 +1,84 @@
+{
+  "owner_address": "1MSw4Tya8BQC7a2Khg32raJkmfyqbfVsQx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "http://pgp.mit.edu/pks/lookup?op=get&search=0x30785D578DFECDEC",
+        "identifier": "0x30785d578dfecdec",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "baocontact",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/baocontact/status/726906208175722496",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bao.contact",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bao.contact/posts/10154913383014466",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "16kVPhg3LLTPZ2XZuLRtFk3hi5a81XJwep",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "baocontact",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/baocontact/3423acb0e74dacb668f70ebf1468ccb8",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris"
+    },
+    "description": "Head of Digital & Integrated Production @BETCParis. ex-CTO @FredFaridGroup. @Epitech alumni 2006. #gamification evangelist, #techninja and #HardcoreGamer.",
+    "graph": {
+      "url": "https://s3.amazonaws.com/grph/baocontact"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/baocontact",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/baocontact",
+        "name": "avatar"
+      }
+    ],
+    "name": "Tu NGoc Bao"
+  },
+  "verifications": [
+    {
+      "identifier": "baocontact",
+      "proof_url": "https://twitter.com/baocontact/status/726906208175722496",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bao.contact",
+      "proof_url": "https://www.facebook.com/bao.contact/posts/10154913383014466",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "baocontact",
+      "proof_url": "https://gist.github.com/baocontact/3423acb0e74dacb668f70ebf1468ccb8",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN baocontact.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/baocontact.id\"\n"
+}
