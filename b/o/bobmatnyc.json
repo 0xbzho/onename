@@ -1,0 +1,67 @@
+{
+  "owner_address": "17YqY2dhSx4sp5mRvagRwGKh2nrmMQKEBq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bobmatnyc",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bobmatnyc/status/733166534902878208",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bobmatnyc",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bobmatnyc/372ab0ff4992ca41f5115980fc5aaeb7",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bobmatnyc",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bobmatnyc/posts/1033337703424436",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York City"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bobmatnyc",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bobmatnyc",
+        "name": "cover"
+      }
+    ],
+    "name": "Masayuki Robert Matsuoka"
+  },
+  "verifications": [
+    {
+      "identifier": "bobmatnyc",
+      "proof_url": "https://twitter.com/bobmatnyc/status/733166534902878208",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bobmatnyc",
+      "proof_url": "https://gist.github.com/bobmatnyc/372ab0ff4992ca41f5115980fc5aaeb7",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "bobmatnyc",
+      "proof_url": "https://www.facebook.com/bobmatnyc/posts/1033337703424436",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bobmatnyc.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bobmatnyc.id\"\n"
+}
