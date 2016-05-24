@@ -1,0 +1,62 @@
+{
+  "owner_address": "1nVCoqrA3FqLfdmwFCS6QHGvpod7ug5Mg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "n8wachT",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/n8wachT/status/729197826316632064",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "n8wachT",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/n8wachT/dd50936dea5f3b69c4162dc1ea8d025d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/n9ghtly",
+        "identifier": "CE26959101AC9ABDCE45F17BEA3F18FECB5238ED",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/n9ghtly",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/n9ghtly",
+        "name": "avatar"
+      }
+    ],
+    "name": "n8wachT inzichT",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://n8cht.space/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "n8wachT",
+      "proof_url": "https://twitter.com/n8wachT/status/729197826316632064",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "n8wachT",
+      "proof_url": "https://gist.github.com/n8wachT/dd50936dea5f3b69c4162dc1ea8d025d",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN n9ghtly.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/n9ghtly.id\"\n"
+}
