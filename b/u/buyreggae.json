@@ -1,0 +1,47 @@
+{
+  "owner_address": "1DR6BcCYWgwFgubX54vNdDn6WBnsYSQfgV",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "davalb",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1faac23f969845b80c62ce8628a7240089ab0456",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SoulsStealerYT/status/731500958178512896",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Berlin"
+    },
+    "description": "Reggae Vinyl Distribution",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/buyreggae",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/buyreggae",
+        "name": "cover"
+      }
+    ],
+    "name": "Buyreggae",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.buyreggae.com"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN buyreggae.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/buyreggae.id\"\n"
+}
