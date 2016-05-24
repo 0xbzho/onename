@@ -1,0 +1,36 @@
+{
+  "owner_address": "197KG2YoEzyUBc1AgkoGJE1UUTuonhaBaC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "146ad3158f571b3701f0993369c00583bb9f2246",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Ratchet",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Ratchet/427350a83c714db685760bcd66bc2df4",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Ratchet",
+      "proof_url": "https://gist.github.com/Ratchet/427350a83c714db685760bcd66bc2df4",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ratchet.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ratchet.id\"\n"
+}
