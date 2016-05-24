@@ -1,0 +1,42 @@
+{
+  "owner_address": "1NvnTuShRQ7rEvpxJoYwjSNjA6quqEmAwK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "MaximHarper",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MaximHarper/status/729357642808856578",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "England"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Maxim Harper",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://maximharper.com/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "MaximHarper",
+      "proof_url": "https://twitter.com/MaximHarper/status/729357642808856578",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN maximharper.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/maximharper.id\"\n"
+}
