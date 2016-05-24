@@ -1,0 +1,62 @@
+{
+  "owner_address": "1CQZr25P1453N8fAhyCFtKNtNiXCmKcvMn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "qso3c273",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/QSO3C273/status/730993711706841088",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "senthil68",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/senthil68/c7e89c2d61a493af8a3a8f366e8866e4",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "senthil.rajamanickam.5",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/senthil.rajamanickam.5/posts/10208088904733588",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rajamanickam",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "qso3c273",
+      "proof_url": "https://twitter.com/QSO3C273/status/730993711706841088",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "senthil68",
+      "proof_url": "https://gist.github.com/senthil68/c7e89c2d61a493af8a3a8f366e8866e4",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "senthil.rajamanickam.5",
+      "proof_url": "https://www.facebook.com/senthil.rajamanickam.5/posts/10208088904733588",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rajamanickam.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rajamanickam.id\"\n"
+}
