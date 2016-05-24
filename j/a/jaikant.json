@@ -1,0 +1,49 @@
+{
+  "owner_address": "1L1X5giodjWbTDJnaTZE9EztM2aRX2EauP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jaikantkumaran",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Jaikantkumaran/status/728879443054235648",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jaikant.kumaran",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Jaikantkumaran/status/728879443054235648",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jaikant",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jaikantkumaran",
+      "proof_url": "https://twitter.com/Jaikantkumaran/status/728879443054235648",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jaikant.kumaran",
+      "proof_url": "https://twitter.com/Jaikantkumaran/status/728879443054235648",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jaikant.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jaikant.id\"\n"
+}
