@@ -1,0 +1,66 @@
+{
+  "owner_address": "1A1MLJxaSk5ccPX9KWgupcgLPvpQ7sbd8j",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "roderik.van.der.veer",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "roderik",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "r0derik",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/r0derik/status/728019499480436736",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1F3Fz9xh2sQQv97kr7NoNEmNvpePBciCdW",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Herent, Belgium"
+    },
+    "description": "Technology Director at @Kunstmaan, passionate about innovation and the technology to do so.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/r0derik",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/r0derik",
+        "name": "avatar"
+      }
+    ],
+    "name": "Roderik van der Veer",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.vanderveer.be/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "r0derik",
+      "proof_url": "https://twitter.com/r0derik/status/728019499480436736",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN r0derik.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/r0derik.id\"\n"
+}
