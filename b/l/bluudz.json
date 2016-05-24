@@ -1,0 +1,67 @@
+{
+  "owner_address": "16V9VbQRhMu4uZdedNteW3wQZCHzEN3K4u",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "15Lba6zyk3SUcUi4Mwy2YBh9SMUfes9jjP",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/bluudz",
+        "identifier": "BBE3FD609F63F5CC0AFA098D2CA33355913894CC",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bluudz",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Bluudz/status/730534803724963840",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bf92e7fdb581588a33f2fa2c365ca014b8e697d1",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/derEremit/680c0dba8da023bfbf298f2c19d3400e",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "World"
+    },
+    "description": "Why so serious?",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bluudz",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bluudz",
+        "name": "avatar"
+      }
+    ],
+    "name": "BloodOfTheWorld",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://tawk.to/bluudz"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bluudz",
+      "proof_url": "https://twitter.com/Bluudz/status/730534803724963840",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bluudz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bluudz.id\"\n"
+}
