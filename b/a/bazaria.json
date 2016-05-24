@@ -1,0 +1,53 @@
+{
+  "owner_address": "17SQKZMaqtgUEoN7htHT3rjKyNZsaJpbDb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bazariashops",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1N88CxfvEqkVFMzr9hkvSDkmWzjxX9LEkM",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "8ec62c04058f5ceceedb04f56ef8cab31e5de782",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/salopst/status/730666838519087104",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "USA"
+    },
+    "description": "OpenBazaar Shopping Guide: Storefronts, Listing and Promotion",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bazaria",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bazaria",
+        "name": "cover"
+      }
+    ],
+    "name": "Bazaria",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.bazaria.xyz"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN bazaria.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bazaria.id\"\n"
+}
