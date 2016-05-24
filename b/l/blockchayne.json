@@ -1,0 +1,86 @@
+{
+  "owner_address": "1J8Y2T273F1yKjtd21j7dNVjDR7iVSAvVb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "36zY8s3CNUUznvZdvg6h4qNEVFitg7gh9S",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Blockchayne",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Blockchayne/status/724147181209432065",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Blockchayne",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Blockchayne/6bfc9ea6b1fbbe56e4d603115a930994",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "LOCKKCHAYNE",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/saved/?collection_token=100012046417920%3A586254444758776%3A92&cref=35",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "997e884e571a0eb6b51d14229216a34740abaf4d",
+        "service": "openbizaare"
+      },
+      {
+        "@type": "Account",
+        "identifier": "997e884e571a0eb6b51d14229216a34740abaf4d",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/johnpeterson79/posts/938525676245037",
+        "service": "openbizaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York, USA"
+    },
+    "description": "Bitcoin Traders, Investors, and Entrepreneurs.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/blockchayne",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/blockchayne",
+        "name": "cover"
+      }
+    ],
+    "name": "Blockchayne Bullion & Coyn"
+  },
+  "verifications": [
+    {
+      "identifier": "Blockchayne",
+      "proof_url": "https://twitter.com/Blockchayne/status/724147181209432065",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Blockchayne",
+      "proof_url": "https://gist.github.com/Blockchayne/6bfc9ea6b1fbbe56e4d603115a930994",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "LOCKKCHAYNE",
+      "proof_url": "https://www.facebook.com/saved/?collection_token=100012046417920%3A586254444758776%3A92&cref=35",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN blockchayne.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/blockchayne.id\"\n"
+}
