@@ -1,0 +1,36 @@
+{
+  "owner_address": "192165mvrDVzadaCwmFtZS6djpxro48QoB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "planetbakugan",
+        "proofType": "http",
+        "proofUrl": "https://t.co/v4kvICSSwo",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ministryman",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "planetbakugan",
+      "proof_url": "https://t.co/v4kvICSSwo",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ministryman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ministryman.id\"\n"
+}
