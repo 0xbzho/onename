@@ -1,0 +1,73 @@
+{
+  "owner_address": "192T1YmdcXQYXGhovg6izHS8tRGhcL8sdi",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "franktraylor",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/FrankTraylor/status/727875206228779008",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ftraylor",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ftraylor/posts/10209149452596506",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "FrankTraylor",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/FrankTraylor/d5a0af67c6a4022630506916136cf05c",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Denver"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ftraylor",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ftraylor",
+        "name": "cover"
+      }
+    ],
+    "name": "Frank Traylor",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.franktraylor.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "franktraylor",
+      "proof_url": "https://twitter.com/FrankTraylor/status/727875206228779008",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ftraylor",
+      "proof_url": "https://www.facebook.com/ftraylor/posts/10209149452596506",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "FrankTraylor",
+      "proof_url": "https://gist.github.com/FrankTraylor/d5a0af67c6a4022630506916136cf05c",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ftraylor.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ftraylor.id\"\n"
+}
