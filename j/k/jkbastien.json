@@ -1,0 +1,47 @@
+{
+  "owner_address": "1JMysbKjWmwq9cMgkjoQy1r7LLsmo4ENvA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jkbastien",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jkbastien/status/727883158532820993?lang=en",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Philadelphia, PA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jkbastien",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jordan Bastien",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.jordanbastien.com/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jkbastien",
+      "proof_url": "https://twitter.com/jkbastien/status/727883158532820993?lang=en",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jkbastien.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jkbastien.id\"\n"
+}
