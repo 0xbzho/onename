@@ -1,0 +1,39 @@
+{
+  "owner_address": "1GWmAdcJ2BExwMiQQ83U4odDkeu3mZ7LAo",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "16tzUyavjNhczPxVRFki7MJNC5qAuND5Ts",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "09f143fdd15b8cd2aa2f935f03a6274b5670e44d",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Athens, Greece"
+    },
+    "description": "Ὦ ταὶ λιπαραὶ καὶ ἰοστέφανοι καὶ ἀοίδιμοι, Ἑλλάδος ἔρεισμα, κλειναὶ Ἀθᾶναι, δαιμόνιον πτολίεθρον. (Πίνδαρος)",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/athenian",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/athenian",
+        "name": "cover"
+      }
+    ],
+    "name": "Athenian Owl"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN athenian.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/athenian.id\"\n"
+}
