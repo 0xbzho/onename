@@ -1,0 +1,54 @@
+{
+  "owner_address": "1EtG2xMEbpCztGrp4JTxNuNwYt1LbhVVqT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "moritz.ortmann",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/moritz.ortmann/posts/10154088007555126",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1Ay3AEqQAJmBHUgtPRJNcdLUV5buJfpKrz",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Germany"
+    },
+    "description": "filmmaker, traveller, daywalker",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/moritz_ortmann",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Moritz Ortmann",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.youtube.com/channel/UCopgOTTCZHNb-PlBmaZGhcw"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "moritz.ortmann",
+      "proof_url": "https://www.facebook.com/moritz.ortmann/posts/10154088007555126",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN moritz_ortmann.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/moritz_ortmann.id\"\n"
+}
