@@ -1,0 +1,79 @@
+{
+  "owner_address": "16ZdQuT7pjBM9kqg8SDrxbN7q7Vh2WtWTH",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kursatoncul",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/KursatOncul/status/730653011383570433",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1ByzEbRDD3iBiDYZPxHpZjszqPPE1naBod",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kursatoncul",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/kursatoncul/posts/10153800542644440?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kursatoncul",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/kursatoncul/ea4ae5b70c0eccd2343ffe4077fc96b6",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Turkey"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kursat",
+        "name": "avatar"
+      }
+    ],
+    "name": "Kürşat ÖNCÜL",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.kursatoncul.com.tr"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "kursatoncul",
+      "proof_url": "https://twitter.com/KursatOncul/status/730653011383570433",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "kursatoncul",
+      "proof_url": "https://www.facebook.com/kursatoncul/posts/10153800542644440?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "kursatoncul",
+      "proof_url": "https://gist.github.com/kursatoncul/ea4ae5b70c0eccd2343ffe4077fc96b6",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kursat.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kursat.id\"\n"
+}
