@@ -1,0 +1,49 @@
+{
+  "owner_address": "1547VFPz51wqZCvUPwhZwoNX75Lkq4mTfP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "alistair tennant",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/altennant&redirect_uri=https://onename.com/altennant%23facebook",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "?signup=true",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/?signup=true",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mt Edgecombe, South Africa"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Alistair Tennant"
+  },
+  "verifications": [
+    {
+      "identifier": "alistair tennant",
+      "proof_url": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/altennant&redirect_uri=https://onename.com/altennant%23facebook",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "?signup=true",
+      "proof_url": "https://gist.github.com/?signup=true",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN altennant.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/altennant.id\"\n"
+}
