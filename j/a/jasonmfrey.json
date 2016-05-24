@@ -1,0 +1,55 @@
+{
+  "owner_address": "1BHTWXYArUtNSBB2Y9dNL1ck7Q5eXZGhuZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "macmess",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/macmess/status/733663274764488704",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "macmess",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/macmess/posts/10154127527379831?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Riverside, NJ"
+    },
+    "description": "Husband, Daddy, Jiu Jitsu Student, FileMaker Dev",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jasonmfrey",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jason Frey"
+  },
+  "verifications": [
+    {
+      "identifier": "macmess",
+      "proof_url": "https://twitter.com/macmess/status/733663274764488704",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "macmess",
+      "proof_url": "https://www.facebook.com/macmess/posts/10154127527379831?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jasonmfrey.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jasonmfrey.id\"\n"
+}
