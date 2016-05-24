@@ -1,0 +1,58 @@
+{
+  "owner_address": "15JxuX7JPetPNPV1F4UeEkbzzg4h9vhDcR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "coinbase.com/jasoncardillo",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jcardillo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jcardillo/status/728323947226222592",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jasoncardillo",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/20531316728/posts/10154009990506729/",
+        "service": "facebook"
+      }
+    ],
+    "description": "Traveling and riding bikes.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jason Cardillo",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.veloveneto.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jcardillo",
+      "proof_url": "https://twitter.com/jcardillo/status/728323947226222592",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jasoncardillo",
+      "proof_url": "https://www.facebook.com/20531316728/posts/10154009990506729/",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jasoncardillo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jasoncardillo.id\"\n"
+}
