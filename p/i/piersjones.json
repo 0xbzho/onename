@@ -1,0 +1,44 @@
+{
+  "owner_address": "1ENwq2qoZjSbzsSJNUkUBMPez4C5a8rpJt",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "pierswingfield",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/PiersWingfield/status/726058543636340736",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "piersjones",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/piersjones/posts/10157005314675438",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "pierswingfield",
+      "proof_url": "https://twitter.com/PiersWingfield/status/726058543636340736",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "piersjones",
+      "proof_url": "https://www.facebook.com/piersjones/posts/10157005314675438",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN piersjones.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/piersjones.id\"\n"
+}
