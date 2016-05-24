@@ -1,0 +1,79 @@
+{
+  "owner_address": "18BriRLk5ipvaaFkyy7yyzbzndV38Ni7Ga",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "patrick_ulrich",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/patrick_ulrich/status/732703566943690753",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "093d42f45772af6551cd3e2e98c5fc705167ae32",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ulrich.patrickr",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ulrich.patrickr/posts/935035726612993?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1Dukk57eT5yBEeKDgBvr3eYXtrUXnBicTV",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "asdr24",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/asdr24/a90813f128ca00002d3b240bd819397a",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kentucky, USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Patrick Ulrich",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.patrickulrich.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "patrick_ulrich",
+      "proof_url": "https://twitter.com/patrick_ulrich/status/732703566943690753",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ulrich.patrickr",
+      "proof_url": "https://www.facebook.com/ulrich.patrickr/posts/935035726612993?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "asdr24",
+      "proof_url": "https://gist.github.com/asdr24/a90813f128ca00002d3b240bd819397a",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN patrickulrich.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/patrickulrich.id\"\n"
+}
