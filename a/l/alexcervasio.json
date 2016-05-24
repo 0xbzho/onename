@@ -1,0 +1,49 @@
+{
+  "owner_address": "1PAwB8kHJ396v3BQWtXf6nZ4M7BCnkkLgU",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cvas",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cvas/status/728597847524954114",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "alex.cervasio",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/alex.cervasio/posts/10108527572772621",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/alexcervasio",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/alexcervasio",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "cvas",
+      "proof_url": "https://twitter.com/cvas/status/728597847524954114",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "alex.cervasio",
+      "proof_url": "https://www.facebook.com/alex.cervasio/posts/10108527572772621",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN alexcervasio.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alexcervasio.id\"\n"
+}
