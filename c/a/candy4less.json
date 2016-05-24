@@ -1,0 +1,49 @@
+{
+  "owner_address": "1QEVhM1UGWVW9uDA2wEAnXFZZeB4AAvGbp",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "BeccaBeeswax",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/beccabeeswax/status/724797860877885440",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "97692c527aae66a075eaa47072b3b1371727fd59",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Coffee_Fueled/status/729349361520549888",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Pennsylvania"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Candy4Less",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.drpecksbees.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "BeccaBeeswax",
+      "proof_url": "https://twitter.com/beccabeeswax/status/724797860877885440",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN candy4less.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/candy4less.id\"\n"
+}
