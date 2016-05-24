@@ -1,0 +1,68 @@
+{
+  "owner_address": "1BDhVtGDhGvRKJnqzu9hu6q1aTQtm6YkxU",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "justgotloud",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/justgotloud/status/725134771349762048",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "justgotloud",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/justgotloud/posts/103938543351709",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "16V9MkejZnyyo97z4UV1jhwiChMDoWJuwR",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "020d0a18a1035dcf1489e0e0ec57a2c29c3d048b",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/titusblair/posts/10153801724848124?pnref=story",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/justgotloud",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.justgotloud.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "justgotloud",
+      "proof_url": "https://twitter.com/justgotloud/status/725134771349762048",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "justgotloud",
+      "proof_url": "https://www.facebook.com/justgotloud/posts/103938543351709",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN justgotloud.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/justgotloud.id\"\n"
+}
