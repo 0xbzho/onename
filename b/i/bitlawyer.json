@@ -1,0 +1,67 @@
+{
+  "owner_address": "1MYf5uNMSLpU8wt6To71P37FdMyF8j8pVL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "chris.housser",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "19iS6LXZ7PR5SkmeiRd7rdGQsDX7M998vf",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "realbitlawyer",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/realbitlawyer/status/722223141142048768",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "housemobile",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/housemobile/4e2f6a7d9d91259d0436466a049d4841",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
+    },
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bitlawyer",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Chris Housser"
+  },
+  "verifications": [
+    {
+      "identifier": "realbitlawyer",
+      "proof_url": "https://twitter.com/realbitlawyer/status/722223141142048768",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "housemobile",
+      "proof_url": "https://gist.github.com/housemobile/4e2f6a7d9d91259d0436466a049d4841",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bitlawyer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bitlawyer.id\"\n"
+}
