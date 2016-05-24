@@ -1,0 +1,47 @@
+{
+  "owner_address": "1L1YguPw8CGNj6Y3H5Ew2zAz36iM3gKBZu",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Freitas100",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Freitas100/status/729317615773089793",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "6e010fb5917ce4a4c8d2c1304304dc7c2c2162f8",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "USA"
+    },
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/atletico",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/atletico",
+        "name": "cover"
+      }
+    ],
+    "name": "Fnj"
+  },
+  "verifications": [
+    {
+      "identifier": "Freitas100",
+      "proof_url": "https://twitter.com/Freitas100/status/729317615773089793",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN atletico.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/atletico.id\"\n"
+}
