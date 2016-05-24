@@ -1,0 +1,66 @@
+{
+  "owner_address": "1WvKsjikEw96uSTfQ8htfRR4WGLUyzPkQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "41102efed3dc4862f9f746c14c125f422520f141",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "MrCreatureZoid",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MrCreatureZoid/status/717726155634290688",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mrcreaturezoid",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmrcreaturezoid%2Fposts%2F10153366870461073",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Texas"
+    },
+    "description": "“How odd to watch a mortal kindle / Then to dwindle day by day / Knowing their bright souls are tinder / And the wind will have its way” -Patrick Rothfuss",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mrcreaturezoid",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mrcreaturezoid",
+        "name": "cover"
+      }
+    ],
+    "name": "jorn rardar",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.twitch.tv/mrcreaturezoid/profile"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "MrCreatureZoid",
+      "proof_url": "https://twitter.com/MrCreatureZoid/status/717726155634290688",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mrcreaturezoid",
+      "proof_url": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmrcreaturezoid%2Fposts%2F10153366870461073",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mrcreaturezoid.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mrcreaturezoid.id\"\n"
+}
