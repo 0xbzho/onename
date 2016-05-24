@@ -1,0 +1,54 @@
+{
+  "owner_address": "1DLosXDFVCdDnRdKccQzG1KuU2AUpejE1f",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1Kt3BdQAE3s7sMGDDx2HMk83Jdhs87Naph",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "baileys2611",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/baileys2611/status/728796362230226945",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Australia"
+    },
+    "description": "https://au.linkedin.com/in/baileys",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/baileys2611",
+        "name": "avatar"
+      }
+    ],
+    "name": "Simon Bailey",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://au.linkedin.com/in/baileys"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "baileys2611",
+      "proof_url": "https://twitter.com/baileys2611/status/728796362230226945",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN baileys2611.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/baileys2611.id\"\n"
+}
