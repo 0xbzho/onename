@@ -1,0 +1,48 @@
+{
+  "owner_address": "1KUm5h7BzzR3w6rrBr9CyGFz15ysWbQByt",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "antoine_mor",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/antoine_mor/status/728635968929050624",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "12sxXU1ce8MrdoA76JKDt5t8tbLL3u1zed",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris, France"
+    },
+    "description": "VC @AXAVentures",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/antoinemo",
+        "name": "avatar"
+      }
+    ],
+    "name": "Antoine Moreau"
+  },
+  "verifications": [
+    {
+      "identifier": "antoine_mor",
+      "proof_url": "https://twitter.com/antoine_mor/status/728635968929050624",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN antoinemo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/antoinemo.id\"\n"
+}
