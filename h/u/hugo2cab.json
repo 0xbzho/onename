@@ -1,0 +1,42 @@
+{
+  "owner_address": "1DPTdMVZKBjJygo8FrfxWt2eEdAyVNVmof",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "SoulsStealerYT",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SoulsStealerYT/status/731500958178512896",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nice, France"
+    },
+    "description": "Étudiant en Cinéma, passionné de Jazz",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hugo2cab",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/hugo2cab",
+        "name": "cover"
+      }
+    ],
+    "name": "Hugo De Cabarrus"
+  },
+  "verifications": [
+    {
+      "identifier": "SoulsStealerYT",
+      "proof_url": "https://twitter.com/SoulsStealerYT/status/731500958178512896",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN hugo2cab.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hugo2cab.id\"\n"
+}
