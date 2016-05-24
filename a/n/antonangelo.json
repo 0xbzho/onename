@@ -1,0 +1,67 @@
+{
+  "owner_address": "13514K8Hc5NFzZoMHfYgBe7pXHwD6H42vr",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "idontusetwitteranymore",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anton-dema",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/antonangelo",
+        "identifier": "A6766D7ECB4CC20A4838429A2E67B30BA9888C5B",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/antonangelo/posts/10153324333626175",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Serravalle Pistoiese, Toscana"
+    },
+    "description": "Your awesome friend",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/antonangelo",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/antonangelo",
+        "name": "cover"
+      }
+    ],
+    "name": "Anton De Martini",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://dema.tv"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "",
+      "proof_url": "https://facebook.com/antonangelo/posts/10153324333626175",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN antonangelo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/antonangelo.id\"\n"
+}
