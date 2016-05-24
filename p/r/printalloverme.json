@@ -1,0 +1,79 @@
+{
+  "owner_address": "135BVYejgGXUvvJW4hLzbPotrHpWAms3xE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "0c5670df1aaf37947f12c5ad6bd2167efedea402",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "msrobot0",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/msrobot0/status/730133784910237696",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "PAOM",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/PAOM/687cf7c316c508a87c5a6616a8e19f48",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "msrobot0",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/msrobot0/posts/10153644446452759",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "the internets"
+    },
+    "description": "make the internet real",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/printalloverme",
+        "name": "avatar"
+      }
+    ],
+    "name": "PAOM",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://paom.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "msrobot0",
+      "proof_url": "https://twitter.com/msrobot0/status/730133784910237696",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "PAOM",
+      "proof_url": "https://gist.github.com/PAOM/687cf7c316c508a87c5a6616a8e19f48",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "msrobot0",
+      "proof_url": "https://www.facebook.com/msrobot0/posts/10153644446452759",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN printalloverme.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/printalloverme.id\"\n"
+}
