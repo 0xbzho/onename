@@ -1,0 +1,42 @@
+{
+  "owner_address": "1Hzqcv7ZoLp5FkRmCD6yJmhnq27A4QcH5E",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "edmooney",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/edmooney/status/726872021200674816",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "US"
+    },
+    "description": "geek, humble student of life.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/edmooney",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ed Mooney ♘"
+  },
+  "verifications": [
+    {
+      "identifier": "edmooney",
+      "proof_url": "https://twitter.com/edmooney/status/726872021200674816",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN edmooney.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/edmooney.id\"\n"
+}
