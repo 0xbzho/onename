@@ -1,0 +1,36 @@
+{
+  "owner_address": "1BB3Er4VUa1QWgRNAiSaRhDBLHi4BKaU9k",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "https:",
+        "proofType": "http",
+        "proofUrl": "https://github.com/pengas",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/pengas",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "https:",
+      "proof_url": "https://github.com/pengas",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN pengas.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pengas.id\"\n"
+}
