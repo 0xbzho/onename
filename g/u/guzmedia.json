@@ -1,0 +1,86 @@
+{
+  "owner_address": "1FRgsjvh9CvzoW11SLHiHKuUV6P2Qyk9tf",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Guzmedia512",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/GUZmedia512/status/732245553266888704",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "GUZmedia",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/GUZmedia/61a653ab8d9ca1cccd2e70d720f73ffa",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "steveguzman.info",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/steveguzman.info/posts/10154281530759374",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/guzmedia",
+        "identifier": null,
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https://www.coinbase.com/guzmedia",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Austin, Texas"
+    },
+    "description": "Listening to the sound of the peeps  working on \"the chain\", gang.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/guzmedia",
+        "name": "avatar"
+      }
+    ],
+    "name": "Steve Guzman",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://guzmedia.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Guzmedia512",
+      "proof_url": "https://twitter.com/GUZmedia512/status/732245553266888704",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "GUZmedia",
+      "proof_url": "https://gist.github.com/GUZmedia/61a653ab8d9ca1cccd2e70d720f73ffa",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "steveguzman.info",
+      "proof_url": "https://www.facebook.com/steveguzman.info/posts/10154281530759374",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN guzmedia.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/guzmedia.id\"\n"
+}
