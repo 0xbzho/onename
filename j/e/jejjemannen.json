@@ -1,0 +1,54 @@
+{
+  "owner_address": "1GmaM8R9deqpyq6y1wfVqo2vsATm3GFZ1T",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Jejje",
+        "proofType": "http",
+        "proofUrl": "https://mobile.twitter.com/Jejje/status/730273890157613057",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Jejjeman",
+        "proofType": "http",
+        "proofUrl": "https://m.facebook.com/story.php?story_fbid=10153574923503365&id=501318364",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sweden"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jejjemannen",
+        "name": "avatar"
+      }
+    ],
+    "name": "Anders Johansson"
+  },
+  "verifications": [
+    {
+      "identifier": "Jejje",
+      "proof_url": "https://mobile.twitter.com/Jejje/status/730273890157613057",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "Jejjeman",
+      "proof_url": "https://m.facebook.com/story.php?story_fbid=10153574923503365&id=501318364",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jejjemannen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jejjemannen.id\"\n"
+}
