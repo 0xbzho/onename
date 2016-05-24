@@ -1,0 +1,59 @@
+{
+  "owner_address": "15jZ5SWybXxY5jqRaYT7TrtV5jHqoFU6f9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "carlosjhr64",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1FjjqdjvN6BbVhSwWSLkmSk5znfB47tZDZ",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "carlosjhr64",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/carlosjhr64/status/718116952703504384",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "carlosjhr64",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sun Valley, NV"
+    },
+    "description": "Bitcoin Charts",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/carlosjhr64",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Carlos Hernandez"
+  },
+  "verifications": [
+    {
+      "identifier": "carlosjhr64",
+      "proof_url": "https://twitter.com/carlosjhr64/status/718116952703504384",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN carlosjhr64.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/carlosjhr64.id\"\n"
+}
