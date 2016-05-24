@@ -1,0 +1,61 @@
+{
+  "owner_address": "1FeWH1nFaoUFbddYJB1R6M4VmVoghLENrN",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "phideas",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/phideas/5bbe917e5a53301a1fba9bf17c0c8b22",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "phideas_",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/phideas_/status/672369587514667008",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "31iCKdZPTjR97NiyArPf64RcrSA5nZuoE4",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Planet Earth"
+    },
+    "description": "freelance graphic designer and web developer | technology decentralization privacy | freedom life zen | bitcoin supernet nxt",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/phideas",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/phideas",
+        "name": "cover"
+      }
+    ],
+    "name": "Phideas"
+  },
+  "verifications": [
+    {
+      "identifier": "phideas",
+      "proof_url": "https://gist.github.com/phideas/5bbe917e5a53301a1fba9bf17c0c8b22",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "phideas_",
+      "proof_url": "https://twitter.com/phideas_/status/672369587514667008",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN phideas.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/phideas.id\"\n"
+}
