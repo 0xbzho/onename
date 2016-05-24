@@ -1,0 +1,60 @@
+{
+  "owner_address": "1B6vigD3AC5fPL6wWmRXoafPwTwxzjdcqW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rawkode",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "19cFA4AoZK9SCSwyy3KmHrcGXUgtYibMiQ",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rawkode",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rawkode/0b77da3cfc6ff7ad5209c0d787782df9",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Scotland"
+    },
+    "description": "Software & Technology Professional",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rawkode",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rawkode",
+        "name": "cover"
+      }
+    ],
+    "name": "David McKay",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://rawkode.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "rawkode",
+      "proof_url": "https://gist.github.com/rawkode/0b77da3cfc6ff7ad5209c0d787782df9",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rawkode.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rawkode.id\"\n"
+}
