@@ -1,0 +1,80 @@
+{
+  "owner_address": "1GGbQt2iSfevQ9PtZPtXthFxL1gF9bDaSB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1GX2TwEx6o7PyEDHTsyYEXYAVBz9u2pMBm",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "abal01",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/abal01/status/727481577006059520",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "abal01",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/abal01/posts/282727628725408?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "abal01",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/abal01/8ed271f6b1a2b0e2d33f5c75cc98c6a3",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "St. Petersburg"
+    },
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/abal",
+        "name": "avatar"
+      }
+    ],
+    "name": "Andrei Balakirev",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://abal.tel"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "abal01",
+      "proof_url": "https://twitter.com/abal01/status/727481577006059520",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "abal01",
+      "proof_url": "https://www.facebook.com/abal01/posts/282727628725408?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "abal01",
+      "proof_url": "https://gist.github.com/abal01/8ed271f6b1a2b0e2d33f5c75cc98c6a3",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN abal.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/abal.id\"\n"
+}
