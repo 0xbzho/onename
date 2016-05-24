@@ -1,0 +1,56 @@
+{
+  "owner_address": "18tgMWjf86Ma6kcopV3HemhD9ahu9aY13P",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "pludi",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/pludi/dffeacf1ba19026ad891fb7e7ab70089",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1KuxBQnuyA4Az1Jn7h74eZqWQ7YfXFUqvs",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "darthludi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/darthludi/status/726833848219254785",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/pludikovsky",
+        "identifier": "488ED0DD94A9C8C72681B69BCFBA360E696EDC99",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "pludi",
+      "proof_url": "https://gist.github.com/pludi/dffeacf1ba19026ad891fb7e7ab70089",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "darthludi",
+      "proof_url": "https://twitter.com/darthludi/status/726833848219254785",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN pludikovsky.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pludikovsky.id\"\n"
+}
