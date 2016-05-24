@@ -1,0 +1,66 @@
+{
+  "owner_address": "16xyn9AXvgyunSoptFD64Y62SNQxVpL7j8",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mrmx",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "manuel.polo",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1KGbuQV1stczYd8AXjF3E5gqt97Qh2nCYB",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mrmx",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mrmx/429a96da12024feaef6f",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Zaragoza,Spain"
+    },
+    "description": "2 fix or not 2 fix,that's the expression. Founder & CTO @pagobit Bitcoin evangelist.\r\nLovin' software dev circa 80's,muze 4 ever & life ad inf. My own thoughts",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mrmx",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mrmx",
+        "name": "cover"
+      }
+    ],
+    "name": "Manuel Polo",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://about.me/mrmx"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mrmx",
+      "proof_url": "https://gist.github.com/mrmx/429a96da12024feaef6f",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mrmx.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mrmx.id\"\n"
+}
