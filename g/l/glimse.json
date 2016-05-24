@@ -1,0 +1,29 @@
+{
+  "owner_address": "1918BHLwL7DqpSjNsqUr6pu3xF2KwdnNeV",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1KSEVduGV1oQjENqU9xR3g3fjuh8drpMuX",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "705b49b07fb4e5c02bf5d72c25c65f12903320c3",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "glimse"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN glimse.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/glimse.id\"\n"
+}
