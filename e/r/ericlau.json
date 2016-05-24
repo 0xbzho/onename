@@ -1,0 +1,48 @@
+{
+  "owner_address": "17j8dZvCMpMJiACWpu4K2GzMcHEmXcvad5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "eclau",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/eclau/a92896a9115a4060edab8460005d8c85",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sydney"
+    },
+    "description": "Finance technologist,  blockchain enthusiast",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ericlau",
+        "name": "avatar"
+      }
+    ],
+    "name": "Eric Lau",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://ericlau.me"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "eclau",
+      "proof_url": "https://gist.github.com/eclau/a92896a9115a4060edab8460005d8c85",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ericlau.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ericlau.id\"\n"
+}
