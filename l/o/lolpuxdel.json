@@ -1,0 +1,61 @@
+{
+  "owner_address": "1EPLpLBEWiAyjDM5QuFh6kLTGg2eEj3mi9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "LolPuxDei",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/LolPuxDei/fb4f62c746f8e09120ff195debec514b",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lolpuxdei",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Lolpuxdei/status/729271528848818180",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Oslo Norway"
+    },
+    "description": "Compser, Artist, Programmer, engineer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/lolpuxdel",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/lolpuxdel",
+        "name": "cover"
+      }
+    ],
+    "name": "Loyd Nicholas Pettersen",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.lolpuxdei.org"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "LolPuxDei",
+      "proof_url": "https://gist.github.com/LolPuxDei/fb4f62c746f8e09120ff195debec514b",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "lolpuxdei",
+      "proof_url": "https://twitter.com/Lolpuxdei/status/729271528848818180",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN lolpuxdel.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lolpuxdel.id\"\n"
+}
