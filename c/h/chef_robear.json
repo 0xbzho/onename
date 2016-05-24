@@ -1,0 +1,36 @@
+{
+  "owner_address": "19LQVC8MGGXNyBNpVJCQFXWzyvXWnRpM5W",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "robertlhulier",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/chef_robear",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/chef_robear",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "robertlhulier",
+      "proof_url": "https://onename.com/chef_robear",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN chef_robear.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/chef_robear.id\"\n"
+}
