@@ -1,0 +1,65 @@
+{
+  "owner_address": "14QSRbC9BUd6QUYPikVH7PoBSjtQoPguDY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1ProTipgHJs88mQYvbtevuzsfPLCV8dNXP",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "d3dcadf7a3f9b315e8875a5fa588a3ebd5ee5c68",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "calem_smith",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Calem_Smith/status/733199060274814976",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "CalemS",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/CalemS/5a38c526015a3a7345b4f1ecbe69e109#file-gistfile1-txt",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Australia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/calem",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/calem",
+        "name": "cover"
+      }
+    ],
+    "name": "Calem John Smith"
+  },
+  "verifications": [
+    {
+      "identifier": "calem_smith",
+      "proof_url": "https://twitter.com/Calem_Smith/status/733199060274814976",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "CalemS",
+      "proof_url": "https://gist.github.com/CalemS/5a38c526015a3a7345b4f1ecbe69e109#file-gistfile1-txt",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN calem.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/calem.id\"\n"
+}
