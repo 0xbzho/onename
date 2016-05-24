@@ -1,0 +1,45 @@
+{
+  "owner_address": "1NuSAYQ3ub7oVGtM71cAkVEfycgmAtzEJe",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "FJeremie",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "/jeremie.fortin.18",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/jfortin",
+        "identifier": null,
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Région Parisienne"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jfortin",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jfortin",
+        "name": "cover"
+      }
+    ],
+    "name": "FORTIN jeremie"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN jfortin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jfortin.id\"\n"
+}
