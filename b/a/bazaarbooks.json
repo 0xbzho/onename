@@ -1,0 +1,38 @@
+{
+  "owner_address": "1Prk2oNmATGo6ZxQUtenJHeTgYv5tXhV53",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Sl1meDragon",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "76ee6be7dfef4ece0f3ed18170f506348d4927e2",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bazaarbooks",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bazaarbooks",
+        "name": "cover"
+      }
+    ],
+    "name": "SlimeDragon"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN bazaarbooks.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bazaarbooks.id\"\n"
+}
