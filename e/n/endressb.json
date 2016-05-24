@@ -1,0 +1,55 @@
+{
+  "owner_address": "14vBxFZ5QgigBNvCVu8ZSrMiCciDCRqpgL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "billie.endress",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/endressb?post_id=1165999406757203_1165999850090492#/facebook",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "endressb",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/endressb/status/733820296218562560",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lakewood, CO"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Billie Endress",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.linkedin.com/in/billie-endress-88397978"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "billie.endress",
+      "proof_url": "https://onename.com/endressb?post_id=1165999406757203_1165999850090492#/facebook",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "endressb",
+      "proof_url": "https://twitter.com/endressb/status/733820296218562560",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN endressb.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/endressb.id\"\n"
+}
