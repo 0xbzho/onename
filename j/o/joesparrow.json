@@ -1,0 +1,36 @@
+{
+  "owner_address": "1H1YzDmUXumXBuSUAPjGAbUdJizRsrumnZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anewbandaday",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/anewbandaday/status/729971443254071300",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Berlin"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Joe Sparrow"
+  },
+  "verifications": [
+    {
+      "identifier": "anewbandaday",
+      "proof_url": "https://twitter.com/anewbandaday/status/729971443254071300",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN joesparrow.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/joesparrow.id\"\n"
+}
