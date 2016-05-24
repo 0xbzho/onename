@@ -1,0 +1,62 @@
+{
+  "owner_address": "14xT76DybuH3T3YcCRCA2E4u9QkFRrKTgo",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nikimench",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/NikiMench/status/732186777176395776",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nikimench",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/nikimench/posts/10154290742626414",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Nhimself",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Nhimself/d55d9fef8e17d2ef865a00ec979d7455",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nhimself",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/nhimself",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "nikimench",
+      "proof_url": "https://twitter.com/NikiMench/status/732186777176395776",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "nikimench",
+      "proof_url": "https://www.facebook.com/nikimench/posts/10154290742626414",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "Nhimself",
+      "proof_url": "https://gist.github.com/Nhimself/d55d9fef8e17d2ef865a00ec979d7455",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN nhimself.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nhimself.id\"\n"
+}
