@@ -1,0 +1,68 @@
+{
+  "owner_address": "14sLk5U2daSq5CuXF5nfHqzo7nusn6H7CV",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "markmwhelan",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MarkMWhelan/status/728048449694748672",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mwhelan",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mwhelan/posts/10154203865254637",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "RapidReasoning",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/RapidReasoning/68eff1aa6eb6ec844e7072eb0d0a7f3b#file-blockchain",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Palo Alo, California"
+    },
+    "description": "Founder of @Rapidreasoning: improving #innovation. Labs: Intuitive A.I., Author, CA rep for UK Conservatives Abroad.♥ tea & violins http://markmwhelan.com",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/markwhelan",
+        "name": "avatar"
+      }
+    ],
+    "name": "Mark M. Whelan"
+  },
+  "verifications": [
+    {
+      "identifier": "markmwhelan",
+      "proof_url": "https://twitter.com/MarkMWhelan/status/728048449694748672",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mwhelan",
+      "proof_url": "https://www.facebook.com/mwhelan/posts/10154203865254637",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "RapidReasoning",
+      "proof_url": "https://gist.github.com/RapidReasoning/68eff1aa6eb6ec844e7072eb0d0a7f3b#file-blockchain",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN markwhelan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/markwhelan.id\"\n"
+}
