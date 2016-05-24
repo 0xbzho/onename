@@ -1,0 +1,42 @@
+{
+  "owner_address": "1LF22WWignwqLvbszk9pAHwgpet8PEma9U",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "12rAmbZxFDFQYQaXcBVVv2cY2iLStqW7j9",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "byte_guru",
+        "proofType": "http",
+        "proofUrl": "https://t.co/86LuhLH16S",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/byte_guru",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/byte_guru",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "byte_guru",
+      "proof_url": "https://t.co/86LuhLH16S",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN byte_guru.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/byte_guru.id\"\n"
+}
