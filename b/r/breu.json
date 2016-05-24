@@ -1,0 +1,73 @@
+{
+  "owner_address": "12chzrCmJs1YeLCpnMs1KPpH2NfAcB2Rmz",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "191mbudF1Bd2RGyYjwJ8AvXRTKRZcTNMbi",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "MichaelBreu",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/MichaelBreu/1f5c559a0d19daaac2fc77224742c418",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "michaelbreu",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/michaelbreu/status/727503373726011392",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https://www.facebook.com/michael.breu.52",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/michael.breu.52/posts/10207901327585625",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "NYC"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/breu",
+        "name": "avatar"
+      }
+    ],
+    "name": "Michael Breu"
+  },
+  "verifications": [
+    {
+      "identifier": "MichaelBreu",
+      "proof_url": "https://gist.github.com/MichaelBreu/1f5c559a0d19daaac2fc77224742c418",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "michaelbreu",
+      "proof_url": "https://twitter.com/michaelbreu/status/727503373726011392",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "https://www.facebook.com/michael.breu.52",
+      "proof_url": "https://www.facebook.com/michael.breu.52/posts/10207901327585625",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN breu.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/breu.id\"\n"
+}
