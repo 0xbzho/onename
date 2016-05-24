@@ -1,0 +1,36 @@
+{
+  "owner_address": "1FxUAp6nNRfMakD9nqmBv9KMmTr1Z1CWnZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "MaxPolwin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MaxPolwin/status/728177350878236672",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/max_polwin",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "MaxPolwin",
+      "proof_url": "https://twitter.com/MaxPolwin/status/728177350878236672",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN max_polwin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/max_polwin.id\"\n"
+}
