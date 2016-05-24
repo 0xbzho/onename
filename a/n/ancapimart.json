@@ -1,0 +1,38 @@
+{
+  "owner_address": "1NSPqQH862d3A1Le6vBu9yrLBrcDPoaJfm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ancapimart",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/AncapiMart/status/729397121246441472",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "6608c1c2492a20606b580f1478f9c228e1adb3a9",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ledewde/status/729354687514853376",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ancapimart",
+      "proof_url": "https://twitter.com/AncapiMart/status/729397121246441472",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ancapimart.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ancapimart.id\"\n"
+}
