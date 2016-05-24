@@ -1,0 +1,49 @@
+{
+  "owner_address": "1K9c2mCiVFHaeHshhCQNuiHCkUd2upBJ6E",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "brunoraj",
+        "proofType": "http",
+        "proofUrl": "https://mobile.twitter.com/brunoraj/status/724938687864139776",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "brunoraj",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/brunoraj/69f3e4375a2b90efaceae569f83997b9",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sydney"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Bruno Arul"
+  },
+  "verifications": [
+    {
+      "identifier": "brunoraj",
+      "proof_url": "https://mobile.twitter.com/brunoraj/status/724938687864139776",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "brunoraj",
+      "proof_url": "https://gist.github.com/brunoraj/69f3e4375a2b90efaceae569f83997b9",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN brunoarul.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/brunoarul.id\"\n"
+}
