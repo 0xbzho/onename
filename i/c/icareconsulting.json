@@ -1,0 +1,61 @@
+{
+  "owner_address": "1NamqaQaZzf6XkLdSc8J7RGfoP3zCPr8dZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "15Vq7PrGspLYfdnAUSzTyGFTc4z1J36uWG",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ricare",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ricare/status/734500700693135360",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "richardicare",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/richardicare",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London"
+    },
+    "description": "IT Support,Web Designer,Mobile Application Designer and Consultant.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/icareconsulting",
+        "name": "avatar"
+      }
+    ],
+    "name": "Icare Consulting Services"
+  },
+  "verifications": [
+    {
+      "identifier": "ricare",
+      "proof_url": "https://twitter.com/ricare/status/734500700693135360",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "richardicare",
+      "proof_url": "https://www.facebook.com/richardicare",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN icareconsulting.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/icareconsulting.id\"\n"
+}
