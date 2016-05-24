@@ -1,0 +1,47 @@
+{
+  "owner_address": "1TL9ruaEokLcxoLpeGceGc9ms2MXPCL96",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "hambourine",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/hambourine/status/729697906769465344",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bristol, UK"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hambourine",
+        "name": "avatar"
+      }
+    ],
+    "name": "Hamish Miles Murdoch Duncan",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.pennyblackcreative.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "hambourine",
+      "proof_url": "https://twitter.com/hambourine/status/729697906769465344",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN hambourine.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hambourine.id\"\n"
+}
