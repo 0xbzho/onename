@@ -1,0 +1,31 @@
+{
+  "owner_address": "1ABEXuxJcC7s9HaRecdEGJfR2WH3BARVxz",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jonomac",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jonomac/status/727855464990511106",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jonomac",
+      "proof_url": "https://twitter.com/jonomac/status/727855464990511106",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jonomac.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jonomac.id\"\n"
+}
