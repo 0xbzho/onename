@@ -1,0 +1,69 @@
+{
+  "owner_address": "1BSLEfDm9MDkQBc46eL5VC59w6aNouoP1j",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "biazzotto",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/biazzotto/96b0463182bcf60ea6373dde2c38dba3",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "3BCrsRW5LV2wHtmBo8RPd1hTTVzd4NYGsR",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "biazzotto",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/biazzotto/status/731985804688543744",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "biazzotto",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/biazzotto/posts/10153695072748831",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/biazzotto",
+        "name": "avatar"
+      }
+    ],
+    "name": "Fabricio Biazzotto"
+  },
+  "verifications": [
+    {
+      "identifier": "biazzotto",
+      "proof_url": "https://gist.github.com/biazzotto/96b0463182bcf60ea6373dde2c38dba3",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "biazzotto",
+      "proof_url": "https://twitter.com/biazzotto/status/731985804688543744",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "biazzotto",
+      "proof_url": "https://www.facebook.com/biazzotto/posts/10153695072748831",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN biazzotto.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/biazzotto.id\"\n"
+}
