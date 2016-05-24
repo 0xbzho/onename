@@ -1,0 +1,55 @@
+{
+  "owner_address": "1FYnYk6rkUhy2qNEi9hc7Z9TuUm1XxJSjx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Limeth",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Limeth/553839a6db62f923753b8308a57d1c50",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "LimethCode",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/LimethCode/status/726494163714379776",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Prague"
+    },
+    "description": "I code stuff.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/limeth",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jakub Hlusička"
+  },
+  "verifications": [
+    {
+      "identifier": "Limeth",
+      "proof_url": "https://gist.github.com/Limeth/553839a6db62f923753b8308a57d1c50",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "LimethCode",
+      "proof_url": "https://twitter.com/LimethCode/status/726494163714379776",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN limeth.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/limeth.id\"\n"
+}
