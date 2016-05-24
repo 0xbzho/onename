@@ -1,0 +1,45 @@
+{
+  "owner_address": "13bturJZ9fahH6ZMPnZmRJsj3xWDr8kw1a",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "daniel.carchedi",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/daniel.carchedi?fref=nf&pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "danielcarchedi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/danielcarchedi/status/728561994853449728",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Daniel Carchedi"
+  },
+  "verifications": [
+    {
+      "identifier": "daniel.carchedi",
+      "proof_url": "https://www.facebook.com/daniel.carchedi?fref=nf&pnref=story",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "danielcarchedi",
+      "proof_url": "https://twitter.com/danielcarchedi/status/728561994853449728",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN danielcarchedi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/danielcarchedi.id\"\n"
+}
