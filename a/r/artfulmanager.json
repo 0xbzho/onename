@@ -1,0 +1,74 @@
+{
+  "owner_address": "1JTEhdmzbAMfdzToBXWynJMGEVnuB6oTvt",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "artfulmanager",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/artfulmanager/status/727919940083322880",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "artfulmanager",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/artfulmanager/b6f530cd5b510130d67d97e1e1377b1c#file-onename_verify",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "artfulmanager",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/artfulmanager/posts/10153514215520373",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Washington, DC"
+    },
+    "description": "Arts Management educator @AmericanU, consultant, author, and theory tinkerer.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/artfulmanager",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/artfulmanager",
+        "name": "cover"
+      }
+    ],
+    "name": "E. Andrew Taylor",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.artfulmanager.com/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "artfulmanager",
+      "proof_url": "https://twitter.com/artfulmanager/status/727919940083322880",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "artfulmanager",
+      "proof_url": "https://gist.github.com/artfulmanager/b6f530cd5b510130d67d97e1e1377b1c#file-onename_verify",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "artfulmanager",
+      "proof_url": "https://www.facebook.com/artfulmanager/posts/10153514215520373",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN artfulmanager.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/artfulmanager.id\"\n"
+}
