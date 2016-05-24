@@ -1,0 +1,74 @@
+{
+  "owner_address": "1K53HU7SaSBBLGBrFZfe4PxAdScRj8EwX5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "lovearthate",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/LoveArtHate/status/724639365952069633",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "85efb37626fe49e795da72363944556e9a01c60a",
+        "service": "openbazar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lovearthate",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/lovearthate/32e92f750dc45d429146a3f89789887a",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https://www.facebook.com/SocialLoveArtHate/",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/permalink.php?story_fbid=292873777710520&id=100009637000360",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Los Angeles, CA"
+    },
+    "description": "Artist",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/lovearthate",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/lovearthate",
+        "name": "cover"
+      }
+    ],
+    "name": "Love Art Hate",
+    "website": []
+  },
+  "verifications": [
+    {
+      "identifier": "lovearthate",
+      "proof_url": "https://twitter.com/LoveArtHate/status/724639365952069633",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "lovearthate",
+      "proof_url": "https://gist.github.com/lovearthate/32e92f750dc45d429146a3f89789887a",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "https://www.facebook.com/SocialLoveArtHate/",
+      "proof_url": "https://www.facebook.com/permalink.php?story_fbid=292873777710520&id=100009637000360",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN lovearthate.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lovearthate.id\"\n"
+}
