@@ -1,0 +1,47 @@
+{
+  "owner_address": "1gUMfB2AaBvAFJbD7fvZFZHtRdvrXvdut",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1E7D9vhHr6nRPcbF3yCR8DqqSfRNAEShep",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "badgerdogg",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/badgerdogg/status/734425811860770817",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paaji"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/caseyandfinnegan",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/caseyandfinnegan",
+        "name": "cover"
+      }
+    ],
+    "name": "Raaji"
+  },
+  "verifications": [
+    {
+      "identifier": "badgerdogg",
+      "proof_url": "https://twitter.com/badgerdogg/status/734425811860770817",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN caseyandfinnegan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/caseyandfinnegan.id\"\n"
+}
