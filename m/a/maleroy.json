@@ -1,0 +1,36 @@
+{
+  "owner_address": "12QZhBwYYU2Vyf6giA4Yjf3aJZBqPMThfC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Maleroy",
+        "proofType": "http",
+        "proofUrl": "https://mobile.twitter.com/Maleroy/status/730464734798057472",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/maleroy",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Maleroy",
+      "proof_url": "https://mobile.twitter.com/Maleroy/status/730464734798057472",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN maleroy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/maleroy.id\"\n"
+}
