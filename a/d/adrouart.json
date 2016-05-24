@@ -1,0 +1,80 @@
+{
+  "owner_address": "1KFJRgmYwoXQUXrFXQ3oRr1emwH8whtMxM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "adrouart",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/adrouart/status/728245057631870976",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "albertdrouart",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/albertdrouart/6acd39ce88f3856367dfc6ac81b101ea",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "adrouart",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/adrouart/posts/10153836827664219",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1LAcE5r7qGSyHYCHB8bR9VFJqv5gi12QWx",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boston MA"
+    },
+    "description": "Husband, Father, Citizen of the World, Global Payments Geek @Braintree",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/adrouart",
+        "name": "avatar"
+      }
+    ],
+    "name": "Albert Drouart",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://paymentsexperience.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "adrouart",
+      "proof_url": "https://twitter.com/adrouart/status/728245057631870976",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "albertdrouart",
+      "proof_url": "https://gist.github.com/albertdrouart/6acd39ce88f3856367dfc6ac81b101ea",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "adrouart",
+      "proof_url": "https://www.facebook.com/adrouart/posts/10153836827664219",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN adrouart.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/adrouart.id\"\n"
+}
