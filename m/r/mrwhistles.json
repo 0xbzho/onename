@@ -1,0 +1,58 @@
+{
+  "owner_address": "1Cx5mQ13vQ7qSw1Dyn1DuCnwdHLUKjV4bQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mrwhistles",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MrWhistles/status/732029664118472705",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mrwhistles",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/MrWhistles/posts/10156864523980587",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mrwhistles",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mrwhistles/cddf382b4ed4feda02c4a6451ea1525f",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "James E"
+  },
+  "verifications": [
+    {
+      "identifier": "mrwhistles",
+      "proof_url": "https://twitter.com/MrWhistles/status/732029664118472705",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mrwhistles",
+      "proof_url": "https://www.facebook.com/MrWhistles/posts/10156864523980587",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "mrwhistles",
+      "proof_url": "https://gist.github.com/mrwhistles/cddf382b4ed4feda02c4a6451ea1525f",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mrwhistles.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mrwhistles.id\"\n"
+}
