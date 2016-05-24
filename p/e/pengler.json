@@ -1,0 +1,45 @@
+{
+  "owner_address": "1FsBiHv7yjbQk1ySE3JRHQ27GXNu7MBk1i",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "pengler",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/pengler/status/728614832421797888",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "pengler",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/pengler/0a53f108f5dcf9cbf6cbd053324dfe59",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Paul Engler"
+  },
+  "verifications": [
+    {
+      "identifier": "pengler",
+      "proof_url": "https://twitter.com/pengler/status/728614832421797888",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "pengler",
+      "proof_url": "https://gist.github.com/pengler/0a53f108f5dcf9cbf6cbd053324dfe59",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN pengler.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pengler.id\"\n"
+}
