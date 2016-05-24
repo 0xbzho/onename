@@ -1,0 +1,80 @@
+{
+  "owner_address": "1LynL8Css9VWEwszxvjTJLBhRKZKgjbHWb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "james.g.morgan",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1Lryt6j95NzySFZsFQfnbXEZ6GBDjFHTGd",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pgp.mit.edu/pks/lookup?op=get&search=0x8F40506A45CBFEAD",
+        "identifier": "9EAA361717282EE3B29A13877E884D8280A9D2F9",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jamesgmorgan",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JamesGMorgan/status/727704722711429120",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jamesgmorgan",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jamesgmorgan/8006f4dd8b47258bc35db31a179d528c",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "1 AU"
+    },
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jamesgmorgan",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jamesgmorgan",
+        "name": "cover"
+      }
+    ],
+    "name": "James G. Morgan",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://keybase.io/jamesgmorgan"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jamesgmorgan",
+      "proof_url": "https://twitter.com/JamesGMorgan/status/727704722711429120",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jamesgmorgan",
+      "proof_url": "https://gist.github.com/jamesgmorgan/8006f4dd8b47258bc35db31a179d528c",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jamesgmorgan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jamesgmorgan.id\"\n"
+}
