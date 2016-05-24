@@ -1,0 +1,67 @@
+{
+  "owner_address": "1HtX7hCUB2zeria1C6hWRmHWNEhZHF8ve4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Comodore125",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Comodore125/8330d65deb9a83c85761610e39076791",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jan.machynka",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jan.machynka/posts/946396812148746?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1P5i8PXzoJsD4Fu1PnAkq7M8s4vfcnUL4T",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "21fbc7a3848e23b074592462dc479b43d3b88098",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/honzam",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jan  Machynka",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://bitsol.cz/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Comodore125",
+      "proof_url": "https://gist.github.com/Comodore125/8330d65deb9a83c85761610e39076791",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jan.machynka",
+      "proof_url": "https://www.facebook.com/jan.machynka/posts/946396812148746?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN honzam.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/honzam.id\"\n"
+}
