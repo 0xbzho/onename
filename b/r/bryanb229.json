@@ -1,0 +1,68 @@
+{
+  "owner_address": "1P9CpXY1ae6WgQoXW6Fwg1p81qQ9K88NsM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "471465cb89053bc9f3ec185957addf154678733c",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/noxplode/5d8150ea493a82c2b3f50e8cb350cc95",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bryanb229",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bryanb229/status/703653631191617537",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bryanb229",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bryanb229/d09911495f9b1f918510d15ae7a7e374",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Philadelphia"
+    },
+    "description": "robot debugger",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bryanb229",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bryanb229",
+        "name": "cover"
+      }
+    ],
+    "name": "bryan b",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://bryanb229.tumblr.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bryanb229",
+      "proof_url": "https://twitter.com/bryanb229/status/703653631191617537",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bryanb229",
+      "proof_url": "https://gist.github.com/bryanb229/d09911495f9b1f918510d15ae7a7e374",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bryanb229.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bryanb229.id\"\n"
+}
