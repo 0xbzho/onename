@@ -1,0 +1,44 @@
+{
+  "owner_address": "1DmXBfLwJkfbxMVB8kwbkjouKPwsDTDUCx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "stolper",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/stolper/status/727866230204444675",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jordan.stolper",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjordan.stolper%2Fposts%2F10102399025954552&width=500",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "stolper",
+      "proof_url": "https://twitter.com/stolper/status/727866230204444675",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jordan.stolper",
+      "proof_url": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjordan.stolper%2Fposts%2F10102399025954552&width=500",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN js2455.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/js2455.id\"\n"
+}
