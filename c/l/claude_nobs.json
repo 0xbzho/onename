@@ -1,0 +1,60 @@
+{
+  "owner_address": "1CMGkkzUakcjW3TA68VcQ4yMLfK1tVrYdv",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "claude.nobs.3",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/claude.nobs.3?fref=nf&pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fussler",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/fussler/status/733411023785447424",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "15eq7zgPPpQCE6BDPT29ZRCoGGAHZjQS29",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bern, Switzerland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/claude_nobs",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/claude_nobs",
+        "name": "cover"
+      }
+    ],
+    "name": "claude nobs"
+  },
+  "verifications": [
+    {
+      "identifier": "claude.nobs.3",
+      "proof_url": "https://www.facebook.com/claude.nobs.3?fref=nf&pnref=story",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "fussler",
+      "proof_url": "https://twitter.com/fussler/status/733411023785447424",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN claude_nobs.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/claude_nobs.id\"\n"
+}
