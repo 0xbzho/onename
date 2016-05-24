@@ -1,0 +1,60 @@
+{
+  "owner_address": "1FNRZTv61bN33FFaxu4QsU6zKLUTKVT6uo",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1F6rGegzKVXetuw5K26isgZY9EpCozzwt6",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Chiheb_NeXus",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Chiheb_NeXus/status/726618858002460673",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/chiheb_nexus",
+        "identifier": "B3BEAD8D0BB5F73E388E2BA5DF8238F6FCC0B7CB",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Somewhere on Venus"
+    },
+    "description": "#Anarchist, #Communist, #Cryptocurrencies_Trader, #Python_Developer, #Vala_Developer, #Java_Developer, #GnuLinux_user. #Stargate_fan #Trying_to_survive",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/chiheb_nexus",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/chiheb_nexus",
+        "name": "cover"
+      }
+    ],
+    "name": "Chiheb Nexus",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://nexus-coding.blogspot.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Chiheb_NeXus",
+      "proof_url": "https://twitter.com/Chiheb_NeXus/status/726618858002460673",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN chiheb_nexus.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/chiheb_nexus.id\"\n"
+}
