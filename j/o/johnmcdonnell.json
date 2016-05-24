@@ -1,0 +1,80 @@
+{
+  "owner_address": "16rz7CPaNPHRF4pQYwi2NCkNijS2YBsPzd",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1DmfgfFnYb8vMSR3NokiBauLPfHacKYYFr",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "john-mcdonnell",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/john-mcdonnell/44933b109848f6df2ef28711c7f92ea5",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "john_mcdonnell",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/john_mcdonnell/status/727600127226056704",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "John.M.McDonnell",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/John.M.McDonnell/posts/10154790114137564?",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Warwick, UK"
+    },
+    "description": "Senior Java Developer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/johnmcdonnell",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "John McDonnell",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.mcdonnell.org.uk"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "john-mcdonnell",
+      "proof_url": "https://gist.github.com/john-mcdonnell/44933b109848f6df2ef28711c7f92ea5",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "john_mcdonnell",
+      "proof_url": "https://twitter.com/john_mcdonnell/status/727600127226056704",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "John.M.McDonnell",
+      "proof_url": "https://www.facebook.com/John.M.McDonnell/posts/10154790114137564?",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN johnmcdonnell.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/johnmcdonnell.id\"\n"
+}
