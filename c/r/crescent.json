@@ -1,0 +1,38 @@
+{
+  "owner_address": "1PYuDJR3mxPLhC8251E2hhu4FGmxYxrSUd",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "google.com/+DavidLosak",
+        "service": "google plus"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1deywX8AgtH23bo8BqKH2ojpFYr5jfdT6",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Earth"
+    },
+    "description": "Crescent",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/crescent",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/crescent",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN crescent.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/crescent.id\"\n"
+}
