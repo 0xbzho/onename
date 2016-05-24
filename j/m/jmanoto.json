@@ -1,0 +1,42 @@
+{
+  "owner_address": "1NMFEGeq7f7itxqoDg1aPHrZVgUoX4nCGc",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jmanoto",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jmanoto/02a5acfa50cfd553466824c1add20789",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sydney, Australia"
+    },
+    "description": "Software Developer, Musician",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jmanoto",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jeremy Manoto"
+  },
+  "verifications": [
+    {
+      "identifier": "jmanoto",
+      "proof_url": "https://gist.github.com/jmanoto/02a5acfa50cfd553466824c1add20789",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jmanoto.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jmanoto.id\"\n"
+}
