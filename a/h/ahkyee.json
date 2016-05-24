@@ -1,0 +1,67 @@
+{
+  "owner_address": "17LY9KQw1mi4gBsKYYosNBRgJHVsLuZVrx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1DngmJ12mr43oadauckdUPnt6fe9joYoUh",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ahkyee",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ahkyee/posts/10154208364301318",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ahkyee",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ahkyee/status/728604504355037187",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hong Kong"
+    },
+    "description": "Public Policy Director @Visa. Author on Politics, Technology, and Asia.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ahkyee",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ahkyee",
+        "name": "avatar"
+      }
+    ],
+    "name": "Andy Yee",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://ahkyee.com/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ahkyee",
+      "proof_url": "https://www.facebook.com/ahkyee/posts/10154208364301318",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "ahkyee",
+      "proof_url": "https://twitter.com/ahkyee/status/728604504355037187",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ahkyee.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ahkyee.id\"\n"
+}
