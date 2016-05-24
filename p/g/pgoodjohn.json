@@ -1,0 +1,36 @@
+{
+  "owner_address": "1DNgXeJerzZNd7obCF8hnEdo6Mcdh9rPkC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "pgoodjohn",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/pgoodjohn/15891474100a24e81598677e2fc51629",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Shanghai - China"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Pietro Bongiovanni"
+  },
+  "verifications": [
+    {
+      "identifier": "pgoodjohn",
+      "proof_url": "https://gist.github.com/pgoodjohn/15891474100a24e81598677e2fc51629",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN pgoodjohn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pgoodjohn.id\"\n"
+}
