@@ -1,0 +1,46 @@
+{
+  "owner_address": "19ofdHqmVjQmq1itBqt3jv2eicZhDWMckt",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "llauradog",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/llauradog/status/727922175676657665",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https://www.facebook.com/llauradog",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Miami, FL"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/llauradog",
+        "name": "avatar"
+      }
+    ],
+    "name": "Gabriel LLaurado"
+  },
+  "verifications": [
+    {
+      "identifier": "llauradog",
+      "proof_url": "https://twitter.com/llauradog/status/727922175676657665",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN llauradog.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/llauradog.id\"\n"
+}
