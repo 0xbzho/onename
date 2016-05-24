@@ -1,0 +1,80 @@
+{
+  "owner_address": "1NTqhhrYnpZ3Viixp8UwWG8FqZm11pQ7Yw",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "13WUgWwMWFfh6d3XV3mvW1GMLmMM4qa9na",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ben.kahan1",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ben.kahan1/posts/1175261232524782?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bkahan",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bkahan/f72983ee6dc69750b99df9a7cc0427c0",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "af69b53aae4b58e82c1ee7ade4208694676fe323",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ben.kahan1/posts/1175261232524782?pnref=story",
+        "service": "openbazzar"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/bkahan",
+        "identifier": "3C596885BB989B2D57248C6CAB26338F205AC493",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boston, MA"
+    },
+    "description": "50% student, 25% maker, 15% artist, 10% crazy.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bkahan",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bkahan",
+        "name": "cover"
+      }
+    ],
+    "name": "Ben Kahan",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.benkahan.photography"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ben.kahan1",
+      "proof_url": "https://www.facebook.com/ben.kahan1/posts/1175261232524782?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "bkahan",
+      "proof_url": "https://gist.github.com/bkahan/f72983ee6dc69750b99df9a7cc0427c0",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bkahan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bkahan.id\"\n"
+}
