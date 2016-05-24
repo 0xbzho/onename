@@ -1,0 +1,41 @@
+{
+  "owner_address": "1CNDpee3TtSL8wkYWG2NAtiEpd8pjZWZUx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "JawnSanz",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JawnSanz/status/733747090657030145",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jonsands",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jonsands",
+        "name": "cover"
+      }
+    ],
+    "name": "Jon"
+  },
+  "verifications": [
+    {
+      "identifier": "JawnSanz",
+      "proof_url": "https://twitter.com/JawnSanz/status/733747090657030145",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jonsands.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jonsands.id\"\n"
+}
