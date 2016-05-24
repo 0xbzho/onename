@@ -1,0 +1,32 @@
+{
+  "owner_address": "1LqnLhmjggVSpSUPFwu5bBBnjXE87SYw1U",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "blindgaenger",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/blindgaenger/4437c6e48e6f079f574fbac7fd87c355",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "blindgaenger"
+  },
+  "verifications": [
+    {
+      "identifier": "blindgaenger",
+      "proof_url": "https://gist.github.com/blindgaenger/4437c6e48e6f079f574fbac7fd87c355",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN blindgaenger.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/blindgaenger.id\"\n"
+}
