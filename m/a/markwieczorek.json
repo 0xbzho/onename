@@ -1,0 +1,58 @@
+{
+  "owner_address": "13QHbGwefmgTJ676eSyTirRLEaiXhcZ8XH",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "wieczor@ipgp.jussieu.fr",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "MarkWieczorek",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1Cm7KgFWtJNsfLYNnDHK4ZpAyz6iohLMEN",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fd9acc5b93e8589f68ff065892e95490351c23e6",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dotify_web/status/730277246473220096",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/markwieczorek",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/markwieczorek",
+        "name": "cover"
+      }
+    ],
+    "name": "Mark Wieczorek",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.ipgp.fr/~wieczor/"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN markwieczorek.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/markwieczorek.id\"\n"
+}
