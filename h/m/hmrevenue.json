@@ -1,0 +1,47 @@
+{
+  "owner_address": "12cCMdk53pVf1LPx6SDy9oomiJZ9vM4gFY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/735a91b37680f25b81ba6ee9253156a6",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1Esb7VffL1Rqrwepv7tt26xwoA7hA5tgpY",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "United Kingdom"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hmrevenue",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/hmrevenue",
+        "name": "cover"
+      }
+    ],
+    "name": "HM Revenue & Customs"
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/735a91b37680f25b81ba6ee9253156a6",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN hmrevenue.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hmrevenue.id\"\n"
+}
