@@ -1,0 +1,55 @@
+{
+  "owner_address": "15FFDZyjiYi7DEhUT5NV2micEdnMkXWAZU",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bart.romgens",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1PB77D487L6Ta3F4UsjGhwowy8hBhkknCu",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pgp.mit.edu/pks/lookup?op=get&search=0x4EF463DE62B70954",
+        "identifier": "EC78265EAF23582C5AB5387E4EF463DE62B70954",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bartromgens",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bartromgens/6688850ea42c6307951d",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Utrecht, the Netherlands"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Bart Römgens"
+  },
+  "verifications": [
+    {
+      "identifier": "bartromgens",
+      "proof_url": "https://gist.github.com/bartromgens/6688850ea42c6307951d",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bartromgens.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bartromgens.id\"\n"
+}
