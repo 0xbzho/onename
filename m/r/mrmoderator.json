@@ -1,0 +1,36 @@
+{
+  "owner_address": "1PiZio5FsZEVfN4MHnChpeuswakwuaBYcn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ob://51e580f17fb1e6ff758306bec8ee9ad0217e9a2a/store",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mrmoderator",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tom_brimley/status/734729426148200448",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mrmoderator",
+      "proof_url": "https://twitter.com/tom_brimley/status/734729426148200448",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mrmoderator.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mrmoderator.id\"\n"
+}
