@@ -1,0 +1,80 @@
+{
+  "owner_address": "18QWUGbQ6J3TiMApfGPdSGbB88HirmK7hR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "3K8BVnoyq5wc4e8LwG9wByRmFtzRXgdTiK",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "flexewebs",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/flexewebs/status/729121314368270338",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "flexewebs",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/flexewebs/959203715f15f87b38292273259880b7",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "flexewebs",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/flexewebs/posts/10156927713275083",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London, UK"
+    },
+    "description": "I coach people Design Thinking to help them improve their businesses and lives in significant ways.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jasongrant",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jasongrant",
+        "name": "cover"
+      }
+    ],
+    "name": "Jason Grant",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://jasongrant.in"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "flexewebs",
+      "proof_url": "https://twitter.com/flexewebs/status/729121314368270338",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "flexewebs",
+      "proof_url": "https://gist.github.com/flexewebs/959203715f15f87b38292273259880b7",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "flexewebs",
+      "proof_url": "https://www.facebook.com/flexewebs/posts/10156927713275083",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jasongrant.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jasongrant.id\"\n"
+}
