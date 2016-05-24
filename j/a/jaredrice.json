@@ -1,0 +1,80 @@
+{
+  "owner_address": "1Mh7PSUsYu8BK845gQcbfUunmfwc72VJiT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "JaredRiceSr",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JaredRiceSr/status/729570639279882240",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jaredrice",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jaredricesr/posts/10208996728826096?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "JaredRice",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/JaredRice/0fa0b037bc4d0a4c97a442fb79390e48",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1By9VMZf3FkKWiVYkPMUJwYH9vAR8qJL8J",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Dallas, TX"
+    },
+    "description": "Founder of @CheetahAgencies and many other tech, cloud, crypto and AI projects.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jaredrice",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jaredrice",
+        "name": "cover"
+      }
+    ],
+    "name": "Jared Rice Sr.",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://jaredricetx.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "JaredRiceSr",
+      "proof_url": "https://twitter.com/JaredRiceSr/status/729570639279882240",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jaredrice",
+      "proof_url": "https://www.facebook.com/jaredricesr/posts/10208996728826096?pnref=story",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "JaredRice",
+      "proof_url": "https://gist.github.com/JaredRice/0fa0b037bc4d0a4c97a442fb79390e48",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jaredrice.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jaredrice.id\"\n"
+}
