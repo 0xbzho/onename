@@ -1,0 +1,85 @@
+{
+  "owner_address": "1Hq9JcT8QwTk8HbG46hJuXxR5tN4PShgb2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1JSTzorK6HKckHRa7mm4BLLCtzzLcmNNcf",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "BitcoinCenterKR",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BitcoinCenterKR/status/724674592749412352",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bitcoincenterkorea",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bitcoincenterkorea/posts/1072244609508592",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bitcoincenterkr",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bitcoincenterkr/41620bfe3c1869f0bcf7368e21ad25c3",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "d46a0565a73f057bd394fdf1efe8907b6f829996",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seoul, Korea"
+    },
+    "description": "Disruptive Innovation of Epic Proportions",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bitcoincenterkr",
+        "name": "avatar"
+      }
+    ],
+    "name": "Bitcoin Center Korea",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://bitcoincenterkorea.org"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "BitcoinCenterKR",
+      "proof_url": "https://twitter.com/BitcoinCenterKR/status/724674592749412352",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bitcoincenterkorea",
+      "proof_url": "https://www.facebook.com/bitcoincenterkorea/posts/1072244609508592",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "bitcoincenterkr",
+      "proof_url": "https://gist.github.com/bitcoincenterkr/41620bfe3c1869f0bcf7368e21ad25c3",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bitcoincenterkr.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bitcoincenterkr.id\"\n"
+}
