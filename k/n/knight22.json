@@ -1,0 +1,85 @@
+{
+  "owner_address": "1FwrdJCWbwLQmVz9w4MohS94ypgZqffjTb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "knightyyyy1",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Knightyyyy1/status/727857638600540160",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Knight1",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Knight1/6e596c7341fcd8a7385da69d137a5bb1",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1FtUVig2YfcaVcV8UmdnziEfd1t5qon1zR",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sachstobias",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/sachstobias/posts/1249625031733350",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://tobiassachs.de/pgp/833E2E24.gpg",
+        "identifier": "D9A5AFEEB4B85124194F4C1A4CF76925833E2E24",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Germany"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/knight22",
+        "name": "avatar"
+      }
+    ],
+    "name": "Tobias Sachs",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://tobiassachs.de"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "knightyyyy1",
+      "proof_url": "https://twitter.com/Knightyyyy1/status/727857638600540160",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Knight1",
+      "proof_url": "https://gist.github.com/Knight1/6e596c7341fcd8a7385da69d137a5bb1",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "sachstobias",
+      "proof_url": "https://www.facebook.com/sachstobias/posts/1249625031733350",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN knight22.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/knight22.id\"\n"
+}
