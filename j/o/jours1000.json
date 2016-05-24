@@ -1,0 +1,80 @@
+{
+  "owner_address": "15RbvE8jEzr9yMm9ztF5rBXe4tjrUP115v",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1EC1EUstg4MGNS9hMqZGapSaFQYGpEXNod",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jours1000",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jours1000/status/728566356875055104",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jours1000",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jours1000/34e41dbc51ee6ce35391915136033d05",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jours1000",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jours1000/posts/122929178113740",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "France, Poland, Lithuania"
+    },
+    "description": "Global business service provide strategic consulting, IT support, business transformation, technology analysis, integration of marketing, R&D",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jours1000",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jours1000",
+        "name": "cover"
+      }
+    ],
+    "name": "Mille Jours",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://millejours.github.io/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jours1000",
+      "proof_url": "https://twitter.com/jours1000/status/728566356875055104",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jours1000",
+      "proof_url": "https://gist.github.com/jours1000/34e41dbc51ee6ce35391915136033d05",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jours1000",
+      "proof_url": "https://www.facebook.com/jours1000/posts/122929178113740",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jours1000.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jours1000.id\"\n"
+}
