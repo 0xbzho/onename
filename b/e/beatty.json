@@ -1,0 +1,42 @@
+{
+  "owner_address": "1A9xNNAQCcRxERC8kQY8T49kyMdhGJCHJk",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "likebeatty",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/likebeatty",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Japan"
+    },
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/beatty",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Warren Moseley"
+  },
+  "verifications": [
+    {
+      "identifier": "likebeatty",
+      "proof_url": "https://twitter.com/likebeatty",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN beatty.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/beatty.id\"\n"
+}
