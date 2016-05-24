@@ -1,0 +1,57 @@
+{
+  "owner_address": "1HwVtwC6W2w8neo89GMcWmwZ3rw4Sboq9X",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "pizarrojesus",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/pizarrojesus",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "pizarrojesus",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/pizarrojesus",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1Lf2tUvgVJxrchbZtZS2h48HkLvSX9RprH",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "description": "http://pizarrojesus.com/about-us/",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/pizarrojesus",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jesús M. Pizarro Rodríguez"
+  },
+  "verifications": [
+    {
+      "identifier": "pizarrojesus",
+      "proof_url": "https://twitter.com/pizarrojesus",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "pizarrojesus",
+      "proof_url": "https://www.facebook.com/pizarrojesus",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN pizarrojesus.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pizarrojesus.id\"\n"
+}
