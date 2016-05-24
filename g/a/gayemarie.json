@@ -1,0 +1,45 @@
+{
+  "owner_address": "1BTKg1Fy5t9GkzQXqrVLDnTzJBG41zLKTY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "GayemarieBrown",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/runningcousins/status/733401023700574208",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Gayemarie Brown",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/gayemarie.brown/posts/10209336694875445",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Gayemarie Brown"
+  },
+  "verifications": [
+    {
+      "identifier": "GayemarieBrown",
+      "proof_url": "https://twitter.com/runningcousins/status/733401023700574208",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "Gayemarie Brown",
+      "proof_url": "https://www.facebook.com/gayemarie.brown/posts/10209336694875445",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN gayemarie.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gayemarie.id\"\n"
+}
