@@ -1,0 +1,58 @@
+{
+  "owner_address": "1AMQ5QRTLJ8GQwVY1Hej1Tzv9qoNTfZXLD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "digideskio",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/digideskio/081a78b7650887ddfdb6a5a40c87974d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "iodesk",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/iodesk/status/732796473755242496",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/digidesk",
+        "identifier": "ED2AD939BF7764DA",
+        "service": "pgp"
+      }
+    ],
+    "description": "open",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "airbender",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://digidesk.io"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "digideskio",
+      "proof_url": "https://gist.github.com/digideskio/081a78b7650887ddfdb6a5a40c87974d",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "iodesk",
+      "proof_url": "https://twitter.com/iodesk/status/732796473755242496",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN digidesk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/digidesk.id\"\n"
+}
