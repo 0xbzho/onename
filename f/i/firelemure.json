@@ -1,0 +1,42 @@
+{
+  "owner_address": "17Qwu2GysNhKw3fJFTJ68Faq9yFf8W8PyQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "firelemure",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/firelemure/status/725735085467688961",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris"
+    },
+    "description": "identity and privacy for everyone #diving #underwaterphotography",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/firelemure",
+        "name": "avatar"
+      }
+    ],
+    "name": "Fire Lemure"
+  },
+  "verifications": [
+    {
+      "identifier": "firelemure",
+      "proof_url": "https://twitter.com/firelemure/status/725735085467688961",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN firelemure.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/firelemure.id\"\n"
+}
