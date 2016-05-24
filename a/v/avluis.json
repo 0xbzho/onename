@@ -1,0 +1,79 @@
+{
+  "owner_address": "1DraeXVQnmxwc2xkRauF9koycYo3PtmYuT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "avluis",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/avluis/status/734238415697350657",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "avluis",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/avluis/posts/10154805552433362",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "avluis",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/avluis/eb7e01f82150a76854df1a63c0d8da7f",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1MkzRfC1ve8CaV3zSJJbohB9PrfCPh4EEs",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Clarksville, TN"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/avluis",
+        "name": "avatar"
+      }
+    ],
+    "name": "Luis E Alvarado",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://avnet.ws"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "avluis",
+      "proof_url": "https://twitter.com/avluis/status/734238415697350657",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "avluis",
+      "proof_url": "https://www.facebook.com/avluis/posts/10154805552433362",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "avluis",
+      "proof_url": "https://gist.github.com/avluis/eb7e01f82150a76854df1a63c0d8da7f",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN avluis.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/avluis.id\"\n"
+}
