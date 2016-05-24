@@ -1,0 +1,54 @@
+{
+  "owner_address": "1PnjJtPdZbZVdT57KXAipr4n8LpEGNwC26",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "carlo1em",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/carlo1em/status/734705932542705664",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1LkgdCDJYAMo3dRKebA57fW4W7EeK1DwMs",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "The Philippines"
+    },
+    "description": "You can't fake passion.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/carlo1em",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/carlo1em",
+        "name": "cover"
+      }
+    ],
+    "name": "Carlo Malonzo",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://plus.google.com/+CarloMalonzo"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "carlo1em",
+      "proof_url": "https://twitter.com/carlo1em/status/734705932542705664",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN carlo1em.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/carlo1em.id\"\n"
+}
