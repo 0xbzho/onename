@@ -1,0 +1,54 @@
+{
+  "owner_address": "15SMzCWJ5JkgX6wtbmBo2hUfG6jehCxrFJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Peppernrino",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Peppernrino/status/730822589069791232",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Peppernrino",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Peppernrino/ea638bd00b8a2df98b9d8d13205fe13c",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Canada"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/peppernrino",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/peppernrino",
+        "name": "cover"
+      }
+    ],
+    "name": "Peppernrino"
+  },
+  "verifications": [
+    {
+      "identifier": "Peppernrino",
+      "proof_url": "https://twitter.com/Peppernrino/status/730822589069791232",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Peppernrino",
+      "proof_url": "https://gist.github.com/Peppernrino/ea638bd00b8a2df98b9d8d13205fe13c",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN peppernrino.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/peppernrino.id\"\n"
+}
