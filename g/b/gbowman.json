@@ -1,0 +1,49 @@
+{
+  "owner_address": "1Hfn51sfngodqPDefgw11rYLJVvJnuwbFV",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gcbowman",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gcbowman/status/734536846903021572",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gcbowman",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/gcbowman/posts/10206444719985342?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "York"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Gary Bowman"
+  },
+  "verifications": [
+    {
+      "identifier": "gcbowman",
+      "proof_url": "https://twitter.com/gcbowman/status/734536846903021572",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "gcbowman",
+      "proof_url": "https://www.facebook.com/gcbowman/posts/10206444719985342?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN gbowman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gbowman.id\"\n"
+}
