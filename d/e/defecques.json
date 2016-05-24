@@ -1,0 +1,44 @@
+{
+  "owner_address": "1qkzMwHJnosHHs6PTQBpfM3VNUp4EvUR7",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tybo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tybo/status/731046445382545408",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "thibaud.defecques",
+        "proofType": "http",
+        "proofUrl": "https%3A%2F%2Fwww.facebook.com%2Fthibaud.defecques%2Fposts%2F10154147418614134",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tybo",
+      "proof_url": "https://twitter.com/tybo/status/731046445382545408",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "thibaud.defecques",
+      "proof_url": "https%3A%2F%2Fwww.facebook.com%2Fthibaud.defecques%2Fposts%2F10154147418614134",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN defecques.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/defecques.id\"\n"
+}
