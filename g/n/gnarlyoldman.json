@@ -1,0 +1,45 @@
+{
+  "owner_address": "12anBKZ4SeVTBDfHrGdYpxVGCZtFyge6ZQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "GnarlyOldman",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/GnarlyOldman/4a54830671c73af51f42de4fbb67a65c",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "@Gnarly0ldman",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Gnarly0ldman/status/730177175077277696",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Gnarly Oldman"
+  },
+  "verifications": [
+    {
+      "identifier": "GnarlyOldman",
+      "proof_url": "https://gist.github.com/GnarlyOldman/4a54830671c73af51f42de4fbb67a65c",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "@Gnarly0ldman",
+      "proof_url": "https://twitter.com/Gnarly0ldman/status/730177175077277696",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN gnarlyoldman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gnarlyoldman.id\"\n"
+}
