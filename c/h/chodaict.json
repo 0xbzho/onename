@@ -1,0 +1,73 @@
+{
+  "owner_address": "1Cwxtt8TTBa5vaTHGfh37KFs5c3PwvjwQH",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "chodaict",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/chodaict/21f6c2557262a6a6a698ebec145aa6c6",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "chodaict",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/chodaict/posts/10154919834763009?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "chodaict",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/chodaict/status/729893092556300288",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1P3oYNcJ777Df9Kbodg95ujcAWbio8gHzU",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "taiwan"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/chodaict",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/chodaict",
+        "name": "cover"
+      }
+    ],
+    "name": "chodaict xuan ke"
+  },
+  "verifications": [
+    {
+      "identifier": "chodaict",
+      "proof_url": "https://gist.github.com/chodaict/21f6c2557262a6a6a698ebec145aa6c6",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "chodaict",
+      "proof_url": "https://www.facebook.com/chodaict/posts/10154919834763009?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "chodaict",
+      "proof_url": "https://twitter.com/chodaict/status/729893092556300288",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN chodaict.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/chodaict.id\"\n"
+}
