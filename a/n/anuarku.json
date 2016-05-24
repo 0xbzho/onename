@@ -1,0 +1,85 @@
+{
+  "owner_address": "1NHDSK3C85MiDsms2yL3tULqjNw445sv4Z",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "14u6iqHg9U8s61YzcaoP6g1KcHCvsSmJ9C",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "322d3b1771c327dba15b01a511d78ebd95aa25db",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Swissgold",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Swissgold/status/729137492700487680",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anuarku",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anuarku/6270da71aa8b0f433391073fb9238b46",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "maybank2u.com.my",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/maybank2u.com.my/posts/10153656762985975",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kuala Lumpur, Malaysia"
+    },
+    "description": "Bitcoin, Litecoin & Ethereum Miner",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/anuarku",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Anuarku",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.11.com.my"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Swissgold",
+      "proof_url": "https://twitter.com/Swissgold/status/729137492700487680",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "anuarku",
+      "proof_url": "https://gist.github.com/anuarku/6270da71aa8b0f433391073fb9238b46",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "maybank2u.com.my",
+      "proof_url": "https://www.facebook.com/maybank2u.com.my/posts/10153656762985975",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN anuarku.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/anuarku.id\"\n"
+}
