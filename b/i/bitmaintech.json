@@ -1,0 +1,44 @@
+{
+  "owner_address": "1375sKcJodn58KAueqCyn9kwgDfrir9sJs",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1PKGWKBNJU6k8u5w67bns6vJxxg19G4yZ1",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "17144de3790b134b05a0fca102ff8b8887d08e27",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "China"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bitmaintech",
+        "name": "avatar"
+      }
+    ],
+    "name": "Bitmain",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.bitmaintech.com"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN bitmaintech.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bitmaintech.id\"\n"
+}
