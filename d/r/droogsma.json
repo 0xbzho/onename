@@ -1,0 +1,37 @@
+{
+  "owner_address": "15ftQtNDUZb1df12SwZpkmA7iXjQmFv5C5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "JorritDroogsma",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JorritDroogsma/status/725411250717478913",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/droogsma",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jorrit Droogsma"
+  },
+  "verifications": [
+    {
+      "identifier": "JorritDroogsma",
+      "proof_url": "https://twitter.com/JorritDroogsma/status/725411250717478913",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN droogsma.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/droogsma.id\"\n"
+}
