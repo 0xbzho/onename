@@ -1,0 +1,81 @@
+{
+  "owner_address": "1LLZsSmdXXWAie5uzkDcBj2KZkRZqgJkTx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "banishednerd",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/banishednerd/status/732215913391349761",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/24770743aac53168aa4dd508d1cb3410",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1N6kpvaDZGpUTsruXmndeptHCJAjNRu39x",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bdmorin",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bdmorin/posts/1608354156144608",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/bdmorin",
+        "identifier": "E2B088314CCBC8B10B00FF54003DC6292BDD5E0C",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bdmorin",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bdmorin",
+        "name": "cover"
+      }
+    ],
+    "name": "Brian Morin",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://keybase.io/bdmorin"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "banishednerd",
+      "proof_url": "https://twitter.com/banishednerd/status/732215913391349761",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/24770743aac53168aa4dd508d1cb3410",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "bdmorin",
+      "proof_url": "https://www.facebook.com/bdmorin/posts/1608354156144608",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN bdmorin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bdmorin.id\"\n"
+}
