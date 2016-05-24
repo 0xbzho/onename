@@ -1,0 +1,69 @@
+{
+  "owner_address": "1MeCyHXyJT2C5yeMUbhxvZuGRp44wZiMrZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "KSStormInfo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/KSStormInfo/status/729555564863217664",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cyclonebt",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/cyclonebt/e806125ef06050e76c3703d8b450b64b",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "KSStormInfo",
+        "proofType": "http",
+        "proofUrl": "https://m.facebook.com/story.php?story_fbid=1735494970007003&id=1476947989195037",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Haysville, KS"
+    },
+    "description": "Storm Chaser",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Scott Roberts",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.ksstorm.info"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "KSStormInfo",
+      "proof_url": "https://twitter.com/KSStormInfo/status/729555564863217664",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "cyclonebt",
+      "proof_url": "https://gist.github.com/cyclonebt/e806125ef06050e76c3703d8b450b64b",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "KSStormInfo",
+      "proof_url": "https://m.facebook.com/story.php?story_fbid=1735494970007003&id=1476947989195037",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ksstorm.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ksstorm.id\"\n"
+}
