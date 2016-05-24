@@ -1,0 +1,74 @@
+{
+  "owner_address": "15nnEuRrdE4DjxtopBYXMHFnGMu7JmuoMj",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1Nq8t9Q6WDEDNZscmJt1UpBM1vRuKTKwQt",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "artiya4u",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/artiya4u/status/729344870536511491",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "artiya4u",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/artiya4u/f33bf0d261e260618887013ae5b52251",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "artiya4u",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/artiya4u/posts/10206401909310412",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bangkok"
+    },
+    "description": "Coding, Linux, Startup, Photography, Investing",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/artiya4u",
+        "name": "avatar"
+      }
+    ],
+    "name": "Artiya Thinkumpang"
+  },
+  "verifications": [
+    {
+      "identifier": "artiya4u",
+      "proof_url": "https://twitter.com/artiya4u/status/729344870536511491",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "artiya4u",
+      "proof_url": "https://gist.github.com/artiya4u/f33bf0d261e260618887013ae5b52251",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "artiya4u",
+      "proof_url": "https://www.facebook.com/artiya4u/posts/10206401909310412",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN artiya4u.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/artiya4u.id\"\n"
+}
