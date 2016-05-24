@@ -1,0 +1,61 @@
+{
+  "owner_address": "19RzFKX66i2ySneVebd5FcCvE5VvCQcxD7",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kristian_polso",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kristian_polso/status/734767621636300801",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Krisseck",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Krisseck/7661482e4430ffd88103bf6d0f9da279",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Turku, Finland"
+    },
+    "description": "Web Entrepreneur from Finland focusing on Drupal & PHP. CTO of @vaisteprod",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/krisseck",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Kristian Polso",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://polso.info"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "kristian_polso",
+      "proof_url": "https://twitter.com/kristian_polso/status/734767621636300801",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Krisseck",
+      "proof_url": "https://gist.github.com/Krisseck/7661482e4430ffd88103bf6d0f9da279",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN krisseck.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/krisseck.id\"\n"
+}
