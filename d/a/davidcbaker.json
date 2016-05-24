@@ -1,0 +1,74 @@
+{
+  "owner_address": "1gY2EJHZxHA6DekCFxyorqY9CrLyuoahT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ReCourses",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ReCourses/status/733995539314974720",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "david.c.baker",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/david.c.baker/posts/10154201351284695",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "davidcbaker",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/davidcbaker/0735d32fef81ca35e1d01fcddb060b1e",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nashville, TN"
+    },
+    "description": "Author, speaker, advisor, helping expert marketing firms make better business decisions.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/davidcbaker",
+        "name": "avatar"
+      }
+    ],
+    "name": "David C. Baker",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.davidcbaker.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ReCourses",
+      "proof_url": "https://twitter.com/ReCourses/status/733995539314974720",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "david.c.baker",
+      "proof_url": "https://www.facebook.com/david.c.baker/posts/10154201351284695",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "davidcbaker",
+      "proof_url": "https://gist.github.com/davidcbaker/0735d32fef81ca35e1d01fcddb060b1e",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN davidcbaker.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/davidcbaker.id\"\n"
+}
