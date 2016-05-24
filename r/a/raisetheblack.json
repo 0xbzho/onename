@@ -1,0 +1,73 @@
+{
+  "owner_address": "1LW2dKzDgiJWuiQvpDt8jSWzFUt4cx9C7q",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "https:",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Sickvapes",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Sickvapes/status/726399755258089472",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "robertalbanox",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/RobertAlbanox/posts/1070061506388743",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chicago, IL"
+    },
+    "description": "Technology Enthusiast, Musician, Student of Philosophy, Day Trader, Eliquid & CBD Supplier.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/raisetheblack",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/raisetheblack",
+        "name": "cover"
+      }
+    ],
+    "name": "CZAR",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.sickvapes.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Sickvapes",
+      "proof_url": "https://twitter.com/Sickvapes/status/726399755258089472",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "robertalbanox",
+      "proof_url": "https://www.facebook.com/RobertAlbanox/posts/1070061506388743",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN raisetheblack.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/raisetheblack.id\"\n"
+}
