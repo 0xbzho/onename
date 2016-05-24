@@ -1,0 +1,81 @@
+{
+  "owner_address": "197xR5nmmN5oAbR7u9XKrqQAVhj5kaSJhK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "17daY6A1sPF8DcGyF26hEXY1hLoSGXw8dU",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/papaioannou",
+        "identifier": "78B2E5B76BCFACC46A133C52EFD7628EDE8B1487",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tweetious",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tweetious/status/720986266133733376",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tweetious",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tweetious/7a7269f787c1ee9c5f971937c662f165",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "papaioannou80",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/papaioannou80/posts/10154181198807236",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Thessaloniki GREECE"
+    },
+    "description": "-",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/papaioannou",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Vasilis Papaioannou"
+  },
+  "verifications": [
+    {
+      "identifier": "tweetious",
+      "proof_url": "https://twitter.com/tweetious/status/720986266133733376",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "tweetious",
+      "proof_url": "https://gist.github.com/tweetious/7a7269f787c1ee9c5f971937c662f165",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "papaioannou80",
+      "proof_url": "https://www.facebook.com/papaioannou80/posts/10154181198807236",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN papaioannou.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/papaioannou.id\"\n"
+}
