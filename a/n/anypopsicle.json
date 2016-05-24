@@ -1,0 +1,43 @@
+{
+  "owner_address": "192yvj82xbDJVtu9G9rFNcDkmCGUZeQiDe",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anypopsicle",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/anypopsicle/status/734296790569078784",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/anypopsicle",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/anypopsicle",
+        "name": "cover"
+      }
+    ],
+    "name": "Anything is Popsicle",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://anythingispopsicle.tk"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "anypopsicle",
+      "proof_url": "https://twitter.com/anypopsicle/status/734296790569078784",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN anypopsicle.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/anypopsicle.id\"\n"
+}
