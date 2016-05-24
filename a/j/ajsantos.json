@@ -1,0 +1,85 @@
+{
+  "owner_address": "164en9hZ7gSn5xhQsjpVWEiBsn8mrNi2rB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "alvinjoelsantos",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "3Ds62VMzzNGrfdsWTTakzAw5tQgPSVp7zN",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "8bc890118cd3608b70c38554dfb497a4cffa11ea",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "alvinjoelsantos",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/alvinjoelsantos/status/724517761104379905",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "merhabastudios",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/merhabastudios/3ac7b277c7b241cea9a1f648e6232534",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/ajsantos",
+        "identifier": "34C5C107CDEE57571ADC382D16B9C6EF4D1C4509",
+        "role": "key",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ankara, Turkey"
+    },
+    "description": "Moderator, Assistant Professor of Law",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ajsantos",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ajsantos",
+        "name": "avatar"
+      }
+    ],
+    "name": "Alvin Joel Santos",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.linkedin.com/in/alvinjoelsantos"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "alvinjoelsantos",
+      "proof_url": "https://twitter.com/alvinjoelsantos/status/724517761104379905",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "merhabastudios",
+      "proof_url": "https://gist.github.com/merhabastudios/3ac7b277c7b241cea9a1f648e6232534",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ajsantos.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ajsantos.id\"\n"
+}
