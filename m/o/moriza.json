@@ -1,0 +1,54 @@
+{
+  "owner_address": "1NBh61mypeFun348ee6nN59sDvkHXLGM7r",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "moriza",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/moriza/status/733105800084881408",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1EuGXMivpxemYo9uVuRQLM34XxEYjLpBub",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Leonia, New Jersey"
+    },
+    "description": "Creative Director, Designer, Maker, and Photographer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/moriza",
+        "name": "avatar"
+      }
+    ],
+    "name": "Mohammad Riza",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.moriza.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "moriza",
+      "proof_url": "https://twitter.com/moriza/status/733105800084881408",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN moriza.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/moriza.id\"\n"
+}
