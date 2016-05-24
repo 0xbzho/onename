@@ -1,0 +1,47 @@
+{
+  "owner_address": "13iAcuih2tGM6AAxWqN2QRgNwmPpn7n2wN",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1J56nZGC8Hbkz67VbFVNy4z5pHS5JWTqDW",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "johnsonrsf",
+        "proofType": "http",
+        "proofUrl": "Verifying that +johnsonrsf is my blockchain ID. https://onename.com/johnsonrsf",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seattle"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/johnsonrsf",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Eric Johnson"
+  },
+  "verifications": [
+    {
+      "identifier": "johnsonrsf",
+      "proof_url": "Verifying that +johnsonrsf is my blockchain ID. https://onename.com/johnsonrsf",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN johnsonrsf.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/johnsonrsf.id\"\n"
+}
