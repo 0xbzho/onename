@@ -1,0 +1,44 @@
+{
+  "owner_address": "1859YFaxxNq7CtkPiBkU5h3XpiMbbLsc1W",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "teranga1",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/teranga1/faaba0a3109ed33644e1795f59e63674",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dawsercom",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dawsercom",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "teranga1",
+      "proof_url": "https://gist.github.com/teranga1/faaba0a3109ed33644e1795f59e63674",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "dawsercom",
+      "proof_url": "https://twitter.com/dawsercom",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ablaye.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ablaye.id\"\n"
+}
