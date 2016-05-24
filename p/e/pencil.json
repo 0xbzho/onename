@@ -1,0 +1,61 @@
+{
+  "owner_address": "1F7VbCzvAvbMY5UHrREE2j5jRg1Bucuzk8",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "siyahkicimiop",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/siyahkicimiop/posts/10153675108099716",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kahve",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kahve/status/729590829132689408",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "ALTIN"
+    },
+    "description": "hanging around",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/pencil",
+        "name": "avatar"
+      }
+    ],
+    "name": "Soner",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://soner.in"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "siyahkicimiop",
+      "proof_url": "https://www.facebook.com/siyahkicimiop/posts/10153675108099716",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "kahve",
+      "proof_url": "https://twitter.com/kahve/status/729590829132689408",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN pencil.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pencil.id\"\n"
+}
