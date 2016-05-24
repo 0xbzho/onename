@@ -1,0 +1,67 @@
+{
+  "owner_address": "12XDHqJLBmx8M6ghiUGG5T7jvApBWmzLYJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nwsltrme",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/nwsltrMe/status/727853604762226688",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nwsltr",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/nwsltr/3f7dca0a10d5b6c810106209cc5bdf7f",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rdbuckley",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/rdbuckley/posts/1143335542383251?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "BOSTON, MA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nwsltr",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/nwsltr",
+        "name": "cover"
+      }
+    ],
+    "name": "nwsltr"
+  },
+  "verifications": [
+    {
+      "identifier": "nwsltrme",
+      "proof_url": "https://twitter.com/nwsltrMe/status/727853604762226688",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "nwsltr",
+      "proof_url": "https://gist.github.com/nwsltr/3f7dca0a10d5b6c810106209cc5bdf7f",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "rdbuckley",
+      "proof_url": "https://www.facebook.com/rdbuckley/posts/1143335542383251?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN nwsltr.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nwsltr.id\"\n"
+}
