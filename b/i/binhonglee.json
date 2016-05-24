@@ -1,0 +1,36 @@
+{
+  "owner_address": "157NMyMqtXh2SANGCjvgb2hPXCZe1p48b6",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "binhonglee",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/binhonglee/status/732438096386490368",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Tempe, Arizona"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "BinHong Lee"
+  },
+  "verifications": [
+    {
+      "identifier": "binhonglee",
+      "proof_url": "https://twitter.com/binhonglee/status/732438096386490368",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN binhonglee.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/binhonglee.id\"\n"
+}
