@@ -1,0 +1,47 @@
+{
+  "owner_address": "15dwJpKRkZKBvHVJPJN78HNUniHP5jMd1A",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bitcoinposse",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/EvilosArt/status/727549578849873924",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1ce585524ea3d5a890ab464b2d17f2fe1b1cf1d0",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "USA"
+    },
+    "description": "Buyer and Seller of Vintage & Current Video Games",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bitcoingamer",
+        "name": "avatar"
+      }
+    ],
+    "name": "Bitcoin Gamer"
+  },
+  "verifications": [
+    {
+      "identifier": "bitcoinposse",
+      "proof_url": "https://twitter.com/EvilosArt/status/727549578849873924",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN bitcoingamer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bitcoingamer.id\"\n"
+}
