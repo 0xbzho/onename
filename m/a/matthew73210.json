@@ -1,0 +1,50 @@
+{
+  "owner_address": "15Poso2cDLNzqFttUcDJQiPrJPbZViLPUv",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "matt.jesus.burton",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/matt.jesus.burton/posts/10208285930337285",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "matthew73210",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/matthew73210/a8a44e52ee49ee33c506015994bf5178/60d2fa1144885cba96842d8f5158d619a28f5b3f",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "France"
+    },
+    "description": "Student",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Matthew Grant Maxwell-Burton"
+  },
+  "verifications": [
+    {
+      "identifier": "matt.jesus.burton",
+      "proof_url": "https://www.facebook.com/matt.jesus.burton/posts/10208285930337285",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "matthew73210",
+      "proof_url": "https://gist.github.com/matthew73210/a8a44e52ee49ee33c506015994bf5178/60d2fa1144885cba96842d8f5158d619a28f5b3f",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN matthew73210.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/matthew73210.id\"\n"
+}
