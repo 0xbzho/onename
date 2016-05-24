@@ -1,0 +1,80 @@
+{
+  "owner_address": "15q5RfaPrSA3SW6n29z2ZjMYpHQhgFi3SM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sojournis",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SojournIS/status/727995720188465152",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "JamesPauleyJr",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/JamesPauleyJr/8c205aff8e2ae03cc2bca184a194c81d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Jim.Pauley",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/Jim.Pauley/posts/10208409151119077",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1JR1c27XuuN4DNyTxC1hnysRAYzw7nWNva",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seattle, Washington"
+    },
+    "description": "Enterprise Tech Specialist, Sword collector, drone enthusiast",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jamespauleyjr",
+        "name": "avatar"
+      }
+    ],
+    "name": "James Edward Pauley, Jr.",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.linkedin.com/in/jamespauleyjr"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "sojournis",
+      "proof_url": "https://twitter.com/SojournIS/status/727995720188465152",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "JamesPauleyJr",
+      "proof_url": "https://gist.github.com/JamesPauleyJr/8c205aff8e2ae03cc2bca184a194c81d",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "Jim.Pauley",
+      "proof_url": "https://www.facebook.com/Jim.Pauley/posts/10208409151119077",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jamespauleyjr.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jamespauleyjr.id\"\n"
+}
