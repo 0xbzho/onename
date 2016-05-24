@@ -1,0 +1,68 @@
+{
+  "owner_address": "1CeZJdrZrzy4NpuSMVLXoZh4H2MSrc8dUX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Molemole",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/molemole/status/732178193428283393",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Molemole.sg",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/molemole.sg/posts/969099839871799",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "molewawa",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/molewawa/e658132ab9f25089375d20d2e5ce371f",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Singapore"
+    },
+    "description": "Mummy of 3 Babies and a Vegetarian Diet",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/molemole",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/molemole",
+        "name": "cover"
+      }
+    ],
+    "name": "Diana Lim"
+  },
+  "verifications": [
+    {
+      "identifier": "Molemole",
+      "proof_url": "https://twitter.com/molemole/status/732178193428283393",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "Molemole.sg",
+      "proof_url": "https://www.facebook.com/molemole.sg/posts/969099839871799",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "molewawa",
+      "proof_url": "https://gist.github.com/molewawa/e658132ab9f25089375d20d2e5ce371f",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN molemole.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/molemole.id\"\n"
+}
