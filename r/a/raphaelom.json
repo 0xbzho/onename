@@ -1,0 +1,62 @@
+{
+  "owner_address": "17fFTwspyBMK55f8haRbC7cB14phm8U8pT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "xymor",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/xymor/392a4628ebb55523988b1b8ccd7c8082",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "raphaelom",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/raphaelom/status/729428931020005377",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "raphaelom",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/raphaelom/posts/10153649908246270?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Rio de Janeiro, Brazil"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Raphael Miranda"
+  },
+  "verifications": [
+    {
+      "identifier": "xymor",
+      "proof_url": "https://gist.github.com/xymor/392a4628ebb55523988b1b8ccd7c8082",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "raphaelom",
+      "proof_url": "https://twitter.com/raphaelom/status/729428931020005377",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "raphaelom",
+      "proof_url": "https://www.facebook.com/raphaelom/posts/10153649908246270?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN raphaelom.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/raphaelom.id\"\n"
+}
