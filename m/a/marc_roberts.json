@@ -1,0 +1,59 @@
+{
+  "owner_address": "1888mmssCcxhwBa9hTF7RZDJBTQLu3cAw4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "20027c80a9bdb5db5442b59e236324ef657473ba",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "marcsroberts",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MarcSRoberts/status/730089672685305856",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "LargePig",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/LargePig/cb4192719ae27dc473bff8384bb2f521",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "UK"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/marc_roberts",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/marc_roberts",
+        "name": "cover"
+      }
+    ],
+    "name": "Marc Roberts"
+  },
+  "verifications": [
+    {
+      "identifier": "marcsroberts",
+      "proof_url": "https://twitter.com/MarcSRoberts/status/730089672685305856",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "LargePig",
+      "proof_url": "https://gist.github.com/LargePig/cb4192719ae27dc473bff8384bb2f521",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN marc_roberts.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/marc_roberts.id\"\n"
+}
