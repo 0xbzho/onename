@@ -1,0 +1,36 @@
+{
+  "owner_address": "1Exi43r74gXzFoM8jqy5NBnRfH2tsh5TP2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gwalker",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gwalker/status/731192859307724800",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gwalker",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "gwalker",
+      "proof_url": "https://twitter.com/gwalker/status/731192859307724800",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN gwalker.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gwalker.id\"\n"
+}
