@@ -1,0 +1,41 @@
+{
+  "owner_address": "1LoYREL4kUPAfaGuPHbuUWtFM28DSvVaWA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "peter_lauten",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/peter_lauten/status/734475091363299328",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bay Area"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/lauten",
+        "name": "avatar"
+      }
+    ],
+    "name": "Peter Lauten"
+  },
+  "verifications": [
+    {
+      "identifier": "peter_lauten",
+      "proof_url": "https://twitter.com/peter_lauten/status/734475091363299328",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN lauten.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lauten.id\"\n"
+}
