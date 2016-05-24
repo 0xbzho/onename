@@ -1,0 +1,59 @@
+{
+  "owner_address": "1G5JPYk8oaBhe9xm4maFGJGT1sdDtyz28g",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "12z9949YC6h3VvC7KK8aAXfWUAvofr4ZY5",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/jarfil",
+        "identifier": "89A9B7BDAC6DE506F331CEB8492A67F91218A290",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jarfil",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jarfil/547bd0672f718d6b755aa928c7b97187",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Spain"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jarfil",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jaroslaw Filiochowski",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://jarfil.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jarfil",
+      "proof_url": "https://gist.github.com/jarfil/547bd0672f718d6b755aa928c7b97187",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jarfil.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jarfil.id\"\n"
+}
