@@ -1,0 +1,74 @@
+{
+  "owner_address": "1MKN9voS8TY3r3ULtUcBYmzfakQWYrwhcE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mattgallagher.uk",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mattgallagher.uk/posts/10153837025558591",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mattbassg",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mattbassg/status/727132037505781760",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mattbassg",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mattbassg/c065c583a56b46ac4476",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "UK"
+    },
+    "description": "Bass player & blogger",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mattbassg",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mattbassg",
+        "name": "cover"
+      }
+    ],
+    "name": "Matthew Gallagher",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.mattgallagher.uk"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mattgallagher.uk",
+      "proof_url": "https://www.facebook.com/mattgallagher.uk/posts/10153837025558591",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "mattbassg",
+      "proof_url": "https://twitter.com/mattbassg/status/727132037505781760",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mattbassg",
+      "proof_url": "https://gist.github.com/mattbassg/c065c583a56b46ac4476",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mattbassg.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mattbassg.id\"\n"
+}
