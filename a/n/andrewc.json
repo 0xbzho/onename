@@ -1,0 +1,54 @@
+{
+  "owner_address": "1M1n2hJUsfHRDnsX76cKZWASjMwXP1wER9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "16Ru6fszh63yyat2ARjLcqQC9QFxtV5Gud",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "andrewechase",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/andrewechase/status/542367903555674112",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
+    },
+    "description": "Chicago by way of NYC and Maine. I like traveling, tech, running, and beer. I do marketing at a travel website.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/andrewc",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/andrewc",
+        "name": "cover"
+      }
+    ],
+    "name": "andrew chase",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://instagram.com/andrewechase"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "andrewechase",
+      "proof_url": "https://twitter.com/andrewechase/status/542367903555674112",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN andrewc.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/andrewc.id\"\n"
+}
