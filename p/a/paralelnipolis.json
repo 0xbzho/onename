@@ -1,0 +1,36 @@
+{
+  "owner_address": "1ESL7RHUJU9YcEiGb2CiMCcyY1xkz1exMB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "b980bfa98cd013c7166bc85e4fcbd0c445c14068",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tomtomklima",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tomtomklima/07fa68558215aacd27d02049b197a986",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tomtomklima",
+      "proof_url": "https://gist.github.com/tomtomklima/07fa68558215aacd27d02049b197a986",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN paralelnipolis.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/paralelnipolis.id\"\n"
+}
