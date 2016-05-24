@@ -1,0 +1,38 @@
+{
+  "owner_address": "1AreoNt2Giz7Pz9FjwfR5EzVxc4JUjuqLU",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kybercap",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mcknote/93f12998ca5749a6b692c1f1c4f5ebdc",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Kyber Capital",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.kybercap.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "kybercap",
+      "proof_url": "https://gist.github.com/mcknote/93f12998ca5749a6b692c1f1c4f5ebdc",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN kybercap.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kybercap.id\"\n"
+}
