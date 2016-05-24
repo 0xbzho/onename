@@ -1,0 +1,44 @@
+{
+  "owner_address": "1Hqxbx31tRzqFHSyYjD36Z7AH9E2SWQjxe",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jontis",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jontis/c50b2aeb013306d6bf889671f9477b52",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jonathan.anderson.1975",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jonathan.anderson.1975/posts/10154869086686982:0?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jontis",
+      "proof_url": "https://gist.github.com/jontis/c50b2aeb013306d6bf889671f9477b52",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jonathan.anderson.1975",
+      "proof_url": "https://www.facebook.com/jonathan.anderson.1975/posts/10154869086686982:0?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jonathananderson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jonathananderson.id\"\n"
+}
