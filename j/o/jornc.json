@@ -1,0 +1,42 @@
+{
+  "owner_address": "14XoWBqes3bCa7AygXscY59QyCjRJa4Dk3",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "25a6975b2b6d6d7fecc4a8eb8590579e08012ea6",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https:",
+        "proofType": "http",
+        "proofUrl": "https://gist.githubusercontent.com/JornC/f46d57ffc4291bc38076/raw/7c2aaaff3e02a2e5262b727745ecfa60527734cc/gistfile1.txt",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jornc",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jornc",
+        "name": "cover"
+      }
+    ],
+    "name": "Jorn C"
+  },
+  "verifications": [
+    {
+      "identifier": "https:",
+      "proof_url": "https://gist.githubusercontent.com/JornC/f46d57ffc4291bc38076/raw/7c2aaaff3e02a2e5262b727745ecfa60527734cc/gistfile1.txt",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jornc.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jornc.id\"\n"
+}
