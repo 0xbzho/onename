@@ -1,0 +1,40 @@
+{
+  "owner_address": "1P3XC9GWn8K9hLGQdrJ74RJzqLkPxX5f8e",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1MnVsjp6xfAzt3T57vw8rUBFts2rdiH6uF",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ἀθῆναι, Ἑλλάς"
+    },
+    "description": "Ἱππέας κομητῶν καὶ ἀδελφὸς νεφελωμάτων",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/pheidias",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/pheidias",
+        "name": "cover"
+      }
+    ],
+    "name": "Φειδίας Μπουρλᾶς",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.pheidias.gr"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN pheidias.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pheidias.id\"\n"
+}
