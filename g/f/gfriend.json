@@ -1,0 +1,31 @@
+{
+  "owner_address": "1La32TrjYGi9rij8FLQGXA2HVkChErGzai",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gfriend",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gfriend/status/729732544011378688",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "gfriend",
+      "proof_url": "https://twitter.com/gfriend/status/729732544011378688",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN gfriend.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gfriend.id\"\n"
+}
