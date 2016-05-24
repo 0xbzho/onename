@@ -1,0 +1,31 @@
+{
+  "owner_address": "18Sej1qXyoKtWxBmi1V4SqPsJ53aqcKMGH",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "katlogic",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/katlogic/31255b585796d00929eb4d00722c0901",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "katlogic",
+      "proof_url": "https://gist.github.com/katlogic/31255b585796d00929eb4d00722c0901",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN katlogic.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/katlogic.id\"\n"
+}
