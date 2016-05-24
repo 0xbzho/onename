@@ -1,0 +1,74 @@
+{
+  "owner_address": "12p5UgM8YMeaL5GkXtrXi9c47mM4Wdp9x2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dotify_web",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dotify_web/status/730277246473220096",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fallon.jonathan",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/fallon.jonathan/posts/10153432768441640",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jonathanfallon",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jonathanfallon/0201f06577f5561a5a7918a832b66da6",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris, France"
+    },
+    "description": "Full-stack web developer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jonathan_dotify",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jonathan Fallon",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://dotify.fr"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dotify_web",
+      "proof_url": "https://twitter.com/dotify_web/status/730277246473220096",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "fallon.jonathan",
+      "proof_url": "https://www.facebook.com/fallon.jonathan/posts/10153432768441640",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "jonathanfallon",
+      "proof_url": "https://gist.github.com/jonathanfallon/0201f06577f5561a5a7918a832b66da6",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jonathan_dotify.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jonathan_dotify.id\"\n"
+}
