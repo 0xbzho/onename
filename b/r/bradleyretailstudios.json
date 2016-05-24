@@ -1,0 +1,62 @@
+{
+  "owner_address": "1BTEKwVWmJkF1tdNbVP5XPjEvHxwqoYfCg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "BradleyStudios",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BradleyStudios/status/726568923353608192",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "BradleyTechnologyStudios",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/BradleyTechnologyStudios/",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1GZBcnkC96EtTT1P65vME7tKasKgNmThxm",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "c0d72c7b2d29860301b444b1db0ae6ab63163870",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BradleyStudios/status/726568923353608192",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bradleyretailstudios",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bradleyretailstudios",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "BradleyStudios",
+      "proof_url": "https://twitter.com/BradleyStudios/status/726568923353608192",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "BradleyTechnologyStudios",
+      "proof_url": "https://www.facebook.com/BradleyTechnologyStudios/",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bradleyretailstudios.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bradleyretailstudios.id\"\n"
+}
