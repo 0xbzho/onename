@@ -1,0 +1,54 @@
+{
+  "owner_address": "18Q46aTV9Ca5TbNhtQLUwg4yCZMTE2zXss",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nocksapp",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/nocksapp/status/729629897107361792",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1DR6T9cj8K4zMy7PsrN5aPXR4RicBjZnk",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "The Netherlands"
+    },
+    "description": "We're a blockchain-based payments platform, combining new technologies with existing infrastructure for a better performance & experience in (mobile) payments.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nocksapp",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/nocksapp",
+        "name": "cover"
+      }
+    ],
+    "name": "Nocks",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://nocks.co"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "nocksapp",
+      "proof_url": "https://twitter.com/nocksapp/status/729629897107361792",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN nocksapp.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nocksapp.id\"\n"
+}
