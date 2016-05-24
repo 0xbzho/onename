@@ -1,0 +1,80 @@
+{
+  "owner_address": "1A2tD2nXbfWJQCkgZ6VcRfvHrwYp7WhZdQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1GT1BaY5XgTWnvK5Rg1jzSezZaJ4PUJ8wi",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "igor_gushchin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/igor_gushchin/status/733776272099270656",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Gushchin24",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Gushchin24/f9aa4df202e1dc7482bd6d868a4d4bac",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gushchin24",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/gushchin24/posts/10204675506566407",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "7cc5ff93214832b37924edd4cdb51a8ade9cfc64",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/igor_gushchin/status/733776272099270656",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Zhukovsky, Moscow Province"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gushchin",
+        "name": "avatar"
+      }
+    ],
+    "name": "Igor Vladimirovich Gushchin"
+  },
+  "verifications": [
+    {
+      "identifier": "igor_gushchin",
+      "proof_url": "https://twitter.com/igor_gushchin/status/733776272099270656",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Gushchin24",
+      "proof_url": "https://gist.github.com/Gushchin24/f9aa4df202e1dc7482bd6d868a4d4bac",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "gushchin24",
+      "proof_url": "https://www.facebook.com/gushchin24/posts/10204675506566407",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN gushchin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gushchin.id\"\n"
+}
