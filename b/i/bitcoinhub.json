@@ -1,0 +1,43 @@
+{
+  "owner_address": "1JzUQ2be29VUxUGu83KdBkioiSE2E2rwbf",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "BuyerProtection",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/srabeat/df11d1ded9f087637e67b9a4749e9894",
+        "service": "open bazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bitcoinhubza",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BitcoinHubZA/status/727133177060446208",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "BuyerProtection",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bitcoinhubza",
+      "proof_url": "https://twitter.com/BitcoinHubZA/status/727133177060446208",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bitcoinhub.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bitcoinhub.id\"\n"
+}
