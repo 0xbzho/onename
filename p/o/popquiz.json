@@ -1,0 +1,54 @@
+{
+  "owner_address": "1LcRT1YzQXhnJ8HUVGFpwuXY7E6q6pmeEH",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gumpa",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gumpa/status/722172937470484484",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "popquiz",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/popquiz",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Wenatchee, WA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/popquiz",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/popquiz",
+        "name": "cover"
+      }
+    ],
+    "name": "Glen M. Copeland, RCDD"
+  },
+  "verifications": [
+    {
+      "identifier": "gumpa",
+      "proof_url": "https://twitter.com/gumpa/status/722172937470484484",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "popquiz",
+      "proof_url": "https://onename.com/popquiz",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN popquiz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/popquiz.id\"\n"
+}
