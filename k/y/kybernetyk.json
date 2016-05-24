@@ -1,0 +1,41 @@
+{
+  "owner_address": "1CU3MgAb3SdziMJiP6k4shgsZtbZ6FbL6U",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kybernetyk",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/kybernetyk/67ae30bf6bd9a9c1e3e872c6293866fe",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "c311340ab2227c2c33f46befac71505f6e6c88bc",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kybernetyk",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "kybernetyk",
+      "proof_url": "https://gist.github.com/kybernetyk/67ae30bf6bd9a9c1e3e872c6293866fe",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kybernetyk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kybernetyk.id\"\n"
+}
