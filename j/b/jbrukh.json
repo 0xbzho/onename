@@ -1,0 +1,81 @@
+{
+  "owner_address": "1KPqCKSyUx22ECqTdMm4av1uZGfxPdKwY2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/jbrukh",
+        "identifier": "350F4FB4D4D55B537761DEC58F3159536E8ED407",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "brukhman",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/brukhman/posts/10104092361641269",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jbrukh",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jbrukh/36927e7cc62cea25133f44c41f986f85",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jbrukh",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jbrukh/status/727606197000544256",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brooklyn, NY"
+    },
+    "description": "CTO @ Triton Research. Founder @ coinfund.io. Go. Rails. Angular. Product. Building large-scale multi-disciplinary systems.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jbrukh",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jbrukh",
+        "name": "cover"
+      }
+    ],
+    "name": "Jake Brukhman",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://brukhman.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "brukhman",
+      "proof_url": "https://www.facebook.com/brukhman/posts/10104092361641269",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "jbrukh",
+      "proof_url": "https://gist.github.com/jbrukh/36927e7cc62cea25133f44c41f986f85",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jbrukh",
+      "proof_url": "https://twitter.com/jbrukh/status/727606197000544256",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jbrukh.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jbrukh.id\"\n"
+}
