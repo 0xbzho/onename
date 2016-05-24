@@ -1,0 +1,54 @@
+{
+  "owner_address": "1H8cS4MQmRYyYXCsiiyC63tLwL8DtAre7o",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "lazarustweets",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/lazarustweets/status/732624208379793408",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mikelazarus23",
+        "proofType": "http",
+        "proofUrl": "Verifying that +mikelazarus is my blockchain ID. https://onename.com/mikelazarus",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Diego"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mikelazarus",
+        "name": "avatar"
+      }
+    ],
+    "name": "Mike Lazarus"
+  },
+  "verifications": [
+    {
+      "identifier": "lazarustweets",
+      "proof_url": "https://twitter.com/lazarustweets/status/732624208379793408",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mikelazarus23",
+      "proof_url": "Verifying that +mikelazarus is my blockchain ID. https://onename.com/mikelazarus",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mikelazarus.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mikelazarus.id\"\n"
+}
