@@ -1,0 +1,87 @@
+{
+  "owner_address": "1PN5pY2zknG2KfHQEAVVZppv6PfD5oqhk4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "metalgeekstl",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "19nL8D3BBHZ28pLgAnBB1PahNLWqNm5iKH",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/brychan",
+        "identifier": "FBD851C298F74E7B98E167E34D3E8337CB99A3B0",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "brychan",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/brychan/status/728331531693887489",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bryanchandlerstl",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/20531316728/posts/10154009990506729/",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "e6c56a9cf039fb58990230247287ecf7390b16c9",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jcardillo/status/728323947226222592",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "St. Louis, MO."
+    },
+    "description": "38 y/o SysAdmin, \\m/etal geek, bad movie lover in St. Louis, MO.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/brychan",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/brychan",
+        "name": "cover"
+      }
+    ],
+    "name": "Bryan Chandler",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.facebook.com/bryanchandlerstl"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "brychan",
+      "proof_url": "https://twitter.com/brychan/status/728331531693887489",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bryanchandlerstl",
+      "proof_url": "https://www.facebook.com/20531316728/posts/10154009990506729/",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN brychan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/brychan.id\"\n"
+}
