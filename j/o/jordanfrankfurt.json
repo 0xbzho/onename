@@ -1,0 +1,73 @@
+{
+  "owner_address": "1GvUV5bqq5t1KipnD3ZZ21yor1nUaksSs",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "JordanFrankfurt",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JordanFrankfurt/status/730069658955620352",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "JFrankfurt",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/JFrankfurt/214aef2105673c99406567d682e5278c",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jfrankfurt",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jfrankfurt/posts/10154808983932678",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York, NY"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jordanfrankfurt",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jordan Frankfurt",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.jwfrankfurt.tumblr.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "JordanFrankfurt",
+      "proof_url": "https://twitter.com/JordanFrankfurt/status/730069658955620352",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "JFrankfurt",
+      "proof_url": "https://gist.github.com/JFrankfurt/214aef2105673c99406567d682e5278c",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jfrankfurt",
+      "proof_url": "https://www.facebook.com/jfrankfurt/posts/10154808983932678",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jordanfrankfurt.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jordanfrankfurt.id\"\n"
+}
