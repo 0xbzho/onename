@@ -1,0 +1,50 @@
+{
+  "owner_address": "1PyoHTyWHuyn84SRiup1EjYaaME4yKPWsv",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "hempology",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/hempology/posts/10208992804072664",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hempels",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/hempels/eae94c2267134d4238dd455a2e6d31a6",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hempels",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/hempels",
+        "name": "cover"
+      }
+    ],
+    "name": "Shawn Hempel"
+  },
+  "verifications": [
+    {
+      "identifier": "hempology",
+      "proof_url": "https://www.facebook.com/hempology/posts/10208992804072664",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "hempels",
+      "proof_url": "https://gist.github.com/hempels/eae94c2267134d4238dd455a2e6d31a6",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN hempels.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hempels.id\"\n"
+}
