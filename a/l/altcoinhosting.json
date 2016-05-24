@@ -1,0 +1,69 @@
+{
+  "owner_address": "16sDuZ6cG4BnHNbsymZs1fqn2zKVNQHM4m",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1d92FUSg7wUafUi77R6yjUpZVhTMKpzuQ",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "whipp3d",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/whipp3d/status/730689254117023744",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "altcoinhosting",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/altcoinhosting/0671b301500a062b32dec5c90e0259d6#file-onename-md",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "altcoinhosting",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/profile.php?id=100012120224514",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/altcoinhosting/key.asc",
+        "identifier": "19366CCCAA3D2867F15FC0354546C49ACD9724E1",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "whipp3d",
+      "proof_url": "https://twitter.com/whipp3d/status/730689254117023744",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "altcoinhosting",
+      "proof_url": "https://gist.github.com/altcoinhosting/0671b301500a062b32dec5c90e0259d6#file-onename-md",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "altcoinhosting",
+      "proof_url": "https://www.facebook.com/profile.php?id=100012120224514",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN altcoinhosting.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/altcoinhosting.id\"\n"
+}
