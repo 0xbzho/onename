@@ -1,0 +1,38 @@
+{
+  "owner_address": "1Ep5SuSLF58SMjw9khmA3Dk34vVVK82BVM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Lonnygrafman",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/LonnyGrafman/status/729922111364472837?s=09",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Lonny Grafman",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.appropedia.org/Lonny"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Lonnygrafman",
+      "proof_url": "https://twitter.com/LonnyGrafman/status/729922111364472837?s=09",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN lonnyg.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lonnyg.id\"\n"
+}
