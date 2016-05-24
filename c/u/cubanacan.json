@@ -1,0 +1,42 @@
+{
+  "owner_address": "1MUAp4AspxkvmcrX2ogkd9CHLwDaAf4KH2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ringuemaster",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/?sk=h_chr",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1JAinjHn8qhR1cNdjjktPgxM6RXCAYss43",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cubanacan",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ringuemaster",
+      "proof_url": "https://www.facebook.com/?sk=h_chr",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN cubanacan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cubanacan.id\"\n"
+}
