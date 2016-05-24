@@ -1,0 +1,87 @@
+{
+  "owner_address": "18B2oY7YHs3eftzSPgUzBAwkyEfmEKNmtQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1XYxbCmuJCZeUyoL5oyhBkdnW5zukcnKV",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/bartvanderwal",
+        "identifier": "3374DB71004FF65FEE4F86129AADEC383BE6E58B",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "itoffthewall",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/itoffthewall/status/669473192755482624",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/be474efd2c9c9a9d63f81f14c20a2120",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bartvanderwal",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/Bartvanderwal77/posts/1095851590475877",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Netherlands"
+    },
+    "description": "Freelance fullstack webdeveloper - MS Fanboy - Junior CEO - Triathlon geek",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bartvanderwal",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bartvanderwal",
+        "name": "cover"
+      }
+    ],
+    "name": "Bart van der Wal",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.itoffthewall.nl"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "itoffthewall",
+      "proof_url": "https://twitter.com/itoffthewall/status/669473192755482624",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/be474efd2c9c9a9d63f81f14c20a2120",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "bartvanderwal",
+      "proof_url": "https://www.facebook.com/Bartvanderwal77/posts/1095851590475877",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bartvanderwal.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bartvanderwal.id\"\n"
+}
