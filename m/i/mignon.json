@@ -1,0 +1,62 @@
+{
+  "owner_address": "1A7w9FnAxPFPxqGVy2hNDnojgH1CyLb5kP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "oliverhankel",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/oliverhankel/8fcd73ff5106efed8519ff46d4547ba7",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "needfulken",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/needfulken/status/733579183893291008",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "needfulken",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/needfulken/posts/1766235573663080",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Reinfeld"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Oliver Hankel"
+  },
+  "verifications": [
+    {
+      "identifier": "oliverhankel",
+      "proof_url": "https://gist.github.com/oliverhankel/8fcd73ff5106efed8519ff46d4547ba7",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "needfulken",
+      "proof_url": "https://twitter.com/needfulken/status/733579183893291008",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "needfulken",
+      "proof_url": "https://www.facebook.com/needfulken/posts/1766235573663080",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mignon.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mignon.id\"\n"
+}
