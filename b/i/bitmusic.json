@@ -1,0 +1,27 @@
+{
+  "owner_address": "1MQjPKkKwUnL9DkJcA1LDTHtFAYmMT2xVn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "BitMusic",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Corbin, KY"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "BitMusic"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN bitmusic.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bitmusic.id\"\n"
+}
