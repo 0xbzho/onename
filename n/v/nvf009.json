@@ -1,0 +1,67 @@
+{
+  "owner_address": "15M2UaYmBughYTc81m2HUqx8yTFGwbFbev",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nicofarr",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/nicofarr/97a3ab05274abe2454efaaa787acb043",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "milthampton",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/milthampton/status/729703368118128640",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nicolas.farrugia",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/nicolas.farrugia/posts/10209382190653992",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brest, France"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nvf009",
+        "name": "avatar"
+      }
+    ],
+    "name": "Nicolas Farrugia"
+  },
+  "verifications": [
+    {
+      "identifier": "nicofarr",
+      "proof_url": "https://gist.github.com/nicofarr/97a3ab05274abe2454efaaa787acb043",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "milthampton",
+      "proof_url": "https://twitter.com/milthampton/status/729703368118128640",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "nicolas.farrugia",
+      "proof_url": "https://www.facebook.com/nicolas.farrugia/posts/10209382190653992",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN nvf009.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nvf009.id\"\n"
+}
