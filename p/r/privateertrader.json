@@ -1,0 +1,37 @@
+{
+  "owner_address": "125y9bKPc5ctMWRXZETH5ZNPTMgTmk4eH9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "PrivateerTrader",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/PrivateerTrader/status/727948219318214658",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/privateertrader",
+        "name": "avatar"
+      }
+    ],
+    "name": "Privateer Trader"
+  },
+  "verifications": [
+    {
+      "identifier": "PrivateerTrader",
+      "proof_url": "https://twitter.com/PrivateerTrader/status/727948219318214658",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN privateertrader.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/privateertrader.id\"\n"
+}
