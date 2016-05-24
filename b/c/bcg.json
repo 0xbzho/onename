@@ -1,0 +1,116 @@
+{
+  "owner_address": "1GYiA8TvEGPU5qqFxDwyEnMwMN7TQeP1bq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/bcg",
+        "identifier": "0CA0 90F4 C769 59DD D968 90DA 8E0A C715 3109 B657",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "_drgo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/_drgo/status/730086404471046144",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1GCVTJRRb4j1Li6J4Am2wML3o8DDEA374E",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "BrianGoss",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/BrianGoss/posts/10100572185756988",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bg002h",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bg002h/333d928f388c0fe9e836cdc67182d258",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "2e89bf02866e1d8c76b56b5885cbf8ac2b124bc0",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sethyx/status/730108133973037057",
+        "service": "test"
+      },
+      {
+        "@type": "Account",
+        "identifier": "2e89bf02866e1d8c76b56b5885cbf8ac2b124bc1",
+        "service": "open bazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Hi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jscornelius/status/730078519997255680",
+        "service": "open"
+      },
+      {
+        "@type": "Account",
+        "identifier": "2e89bf02866e1d8c76b56b5885cbf8ac2b124bc0",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sethyx/status/730108133973037057",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Rochester, MN"
+    },
+    "description": "Radiologist. Laptop Bitcoin miner from an era when that actually worked. Bitcoin Foundation elections guy...",
+    "graph": {
+      "url": "https://s3.amazonaws.com/grph/bcg"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://pbs.twimg.com/profile_images/447567382576234497/cFyjxJSu.jpeg",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bcg",
+        "name": "cover"
+      }
+    ],
+    "name": "Brian Goss, MD",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://coinbase.com/bcg"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "_drgo",
+      "proof_url": "https://twitter.com/_drgo/status/730086404471046144",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "BrianGoss",
+      "proof_url": "https://www.facebook.com/BrianGoss/posts/10100572185756988",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "bg002h",
+      "proof_url": "https://gist.github.com/bg002h/333d928f388c0fe9e836cdc67182d258",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bcg.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bcg.id\"\n"
+}
