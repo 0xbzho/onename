@@ -1,0 +1,48 @@
+{
+  "owner_address": "1HrihpHecywGaQsUNGVUgZgEr4kFwa431m",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "smallderek",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/smallderek/status/730482499063709696",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "small.derek@gmail.com",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/romefort/3d36efc6d33a1d7c2bb3d41f5027e3fe",
+        "service": "personal gmail"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Calgary, Alberta, Canada"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dereksmall",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/dereksmall",
+        "name": "cover"
+      }
+    ],
+    "name": "Derek Small"
+  },
+  "verifications": [
+    {
+      "identifier": "smallderek",
+      "proof_url": "https://twitter.com/smallderek/status/730482499063709696",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dereksmall.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dereksmall.id\"\n"
+}
