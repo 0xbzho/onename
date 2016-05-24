@@ -1,0 +1,54 @@
+{
+  "owner_address": "1AfJH81HPnbhwpDf2t61K9vEyT3HFMaH7d",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "amoranzea",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "amoranzea",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "amoranzea",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/l.php?u=https%3A%2F%2Fonename.com%2Famoran&h=2AQFk9xNX&s=1",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sydney, Australia"
+    },
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/amoran",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/amoran",
+        "name": "cover"
+      }
+    ],
+    "name": "Alejandro Moran"
+  },
+  "verifications": [
+    {
+      "identifier": "amoranzea",
+      "proof_url": "https://www.facebook.com/l.php?u=https%3A%2F%2Fonename.com%2Famoran&h=2AQFk9xNX&s=1",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN amoran.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/amoran.id\"\n"
+}
