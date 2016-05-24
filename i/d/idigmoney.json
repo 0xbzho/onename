@@ -1,0 +1,43 @@
+{
+  "owner_address": "1PSDfwdnLhFQedui1PV8cNk6TvsrshsZNr",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1F3iPQ5CdiUPAYYoGQe6GGsy18BFQw9QEa",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "boyd.stone.96",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/boyd.stone.96/posts/1734803746776205?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/idigmoney",
+        "name": "avatar"
+      }
+    ],
+    "name": "Boyd Stone"
+  },
+  "verifications": [
+    {
+      "identifier": "boyd.stone.96",
+      "proof_url": "https://www.facebook.com/boyd.stone.96/posts/1734803746776205?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN idigmoney.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/idigmoney.id\"\n"
+}
