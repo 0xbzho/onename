@@ -1,0 +1,80 @@
+{
+  "owner_address": "15g9PuE3vm8hnEG1KtvBAedJHUhfJ82Sj1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "d98b4760d9e8946ea2c588d4ecd99ba368f4f4ef",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cordarostewart",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/CordaroStewart/status/733850019099377665",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cashkinguvee",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/CashKingUveE/posts/10208340259079779",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mrcashking",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mrcashking/084933290dfcf49d97c65b8a7b9ca1ef",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1Jct4NBYu3YHp9MngyWtid25m4b9qhuamT",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cashking",
+        "name": "avatar"
+      }
+    ],
+    "name": "Cordaro Stewart",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.cordarostewart.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "cordarostewart",
+      "proof_url": "https://twitter.com/CordaroStewart/status/733850019099377665",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "cashkinguvee",
+      "proof_url": "https://www.facebook.com/CashKingUveE/posts/10208340259079779",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "mrcashking",
+      "proof_url": "https://gist.github.com/mrcashking/084933290dfcf49d97c65b8a7b9ca1ef",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN cashking.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cashking.id\"\n"
+}
