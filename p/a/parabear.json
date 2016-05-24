@@ -1,0 +1,32 @@
+{
+  "owner_address": "1Gb3t6NLT3RQhFVw6VyTrtbTf1xw5UNtKX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "parabear",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Parabear/status/726930804769705984",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Xiafeng Liu"
+  },
+  "verifications": [
+    {
+      "identifier": "parabear",
+      "proof_url": "https://twitter.com/Parabear/status/726930804769705984",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN parabear.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/parabear.id\"\n"
+}
