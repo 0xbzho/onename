@@ -1,0 +1,57 @@
+{
+  "owner_address": "1BptwuzYB7jM6VqUNKfJDqUCzwDBMycq1m",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "derEremit",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/derEremit/680c0dba8da023bfbf298f2c19d3400e",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "derEremit",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/derEremit/status/731098101365231616",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "derEremit",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/derEremit/posts/10208858241231472",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "derEremit",
+      "proof_url": "https://gist.github.com/derEremit/680c0dba8da023bfbf298f2c19d3400e",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "derEremit",
+      "proof_url": "https://twitter.com/derEremit/status/731098101365231616",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "derEremit",
+      "proof_url": "https://www.facebook.com/derEremit/posts/10208858241231472",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dereremit.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dereremit.id\"\n"
+}
