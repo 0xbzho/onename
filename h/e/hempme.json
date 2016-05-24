@@ -1,0 +1,47 @@
+{
+  "owner_address": "1AdvhPcvTg4nuSycMDk9sTbfjRxDHUYAK6",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "78b2a3e7a975eafeacacb658647864a18a9bb803",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hempmeskin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/hempmeskin/status/726290592968237056",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Australia"
+    },
+    "description": "100% natural, certified organic, hemp based face cream.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hempme",
+        "name": "avatar"
+      }
+    ],
+    "name": "Hemp Me"
+  },
+  "verifications": [
+    {
+      "identifier": "hempmeskin",
+      "proof_url": "https://twitter.com/hempmeskin/status/726290592968237056",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN hempme.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hempme.id\"\n"
+}
