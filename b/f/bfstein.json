@@ -1,0 +1,50 @@
+{
+  "owner_address": "15d5EbvydmJr2SfFDMhhgmsaJ7w6JCKTk2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Bfstein",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Bfstein/a1beb118d720c21a38b0e27b9f0f797b",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ben_stein",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ben_stein/status/732660933714026496",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bfstein",
+        "name": "avatar"
+      }
+    ],
+    "name": "Ben Stein"
+  },
+  "verifications": [
+    {
+      "identifier": "Bfstein",
+      "proof_url": "https://gist.github.com/Bfstein/a1beb118d720c21a38b0e27b9f0f797b",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "ben_stein",
+      "proof_url": "https://twitter.com/ben_stein/status/732660933714026496",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bfstein.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bfstein.id\"\n"
+}
