@@ -1,0 +1,48 @@
+{
+  "owner_address": "1AQxEcntoRJwuM9RF5YBLsA6deLzdoNMQc",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Kirvx",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Kirvx/cd52cd116bdd66ea6cc659eb55cf6a7e",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "15bw6gsR7iJQco2ehYZgyYsi1YFuc3rmSX",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "France"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Kirvx",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://whichwallet.org/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Kirvx",
+      "proof_url": "https://gist.github.com/Kirvx/cd52cd116bdd66ea6cc659eb55cf6a7e",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kirvx_.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kirvx_.id\"\n"
+}
