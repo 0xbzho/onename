@@ -1,0 +1,67 @@
+{
+  "owner_address": "1GWdxggRg5eJXLqyjE8BfUPKazU8dVmcbu",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bundleseo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BundleSEO/status/724549623705178112",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bundleseo",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bundleseo/posts/1694843417432579",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bundleseo",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bundleseo/20ab4d0531ae7d4ecfb5ae1c6125f2aa",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "275b28cb6116f5f2d055ce875b9270ace6881ea7",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bundleseo",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bundleseo",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bundleseo",
+      "proof_url": "https://twitter.com/BundleSEO/status/724549623705178112",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bundleseo",
+      "proof_url": "https://www.facebook.com/bundleseo/posts/1694843417432579",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "bundleseo",
+      "proof_url": "https://gist.github.com/bundleseo/20ab4d0531ae7d4ecfb5ae1c6125f2aa",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bundleseo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bundleseo.id\"\n"
+}
