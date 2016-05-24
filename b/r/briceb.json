@@ -1,0 +1,73 @@
+{
+  "owner_address": "17SsYnnoGZp59tLWkSp2J9SfCdUwsju5Le",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "briceb",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/briceb/status/728110471182585856",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "brice.beauvillain",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/brice.beauvillain/posts/10154309928623714",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bricebv",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bricebv/c71485fb16aec209a91569730be0c4be",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Tours, France"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/briceb",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/briceb",
+        "name": "cover"
+      }
+    ],
+    "name": "Brice Beauvillain",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.besquare-media.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "briceb",
+      "proof_url": "https://twitter.com/briceb/status/728110471182585856",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "brice.beauvillain",
+      "proof_url": "https://www.facebook.com/brice.beauvillain/posts/10154309928623714",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "bricebv",
+      "proof_url": "https://gist.github.com/bricebv/c71485fb16aec209a91569730be0c4be",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN briceb.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/briceb.id\"\n"
+}
