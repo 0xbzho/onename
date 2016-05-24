@@ -1,0 +1,64 @@
+{
+  "owner_address": "1AA8mWmQPUvvGP7Q6oT6tJvFh19rTb8afe",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "llewdis",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/llewdis/status/732617045112541184",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "llewdis",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/llewdis/posts/10209415969340104",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "llewdis",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/llewdis/ce51d6cbb0dc3db40358322a1dc768d2#file-onename_verification-txt",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1j9mmpSrsmHiTJSbyoDhFMxSpszC3RcTr",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "llewdis"
+  },
+  "verifications": [
+    {
+      "identifier": "llewdis",
+      "proof_url": "https://twitter.com/llewdis/status/732617045112541184",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "llewdis",
+      "proof_url": "https://www.facebook.com/llewdis/posts/10209415969340104",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "llewdis",
+      "proof_url": "https://gist.github.com/llewdis/ce51d6cbb0dc3db40358322a1dc768d2#file-onename_verification-txt",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN llewdis.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/llewdis.id\"\n"
+}
