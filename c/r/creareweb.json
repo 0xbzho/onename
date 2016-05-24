@@ -1,0 +1,57 @@
+{
+  "owner_address": "1GENxAszXVCatpGRuq4hn19MhkmgGcYgyC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "creareweb",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/creareweb/status/731184882689310720",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "creareweb",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https%3A%2F%2Fonename.com%2Fcreareweb&redirect_uri=https%3A%2F%2Fonename.com%2Fcreareweb%23facebook",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "andreag100",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/andreag100/80e88699a4b588c3677b909544de66c9",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "creareweb",
+      "proof_url": "https://twitter.com/creareweb/status/731184882689310720",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "creareweb",
+      "proof_url": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https%3A%2F%2Fonename.com%2Fcreareweb&redirect_uri=https%3A%2F%2Fonename.com%2Fcreareweb%23facebook",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "andreag100",
+      "proof_url": "https://gist.github.com/andreag100/80e88699a4b588c3677b909544de66c9",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN creareweb.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/creareweb.id\"\n"
+}
