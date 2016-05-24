@@ -1,0 +1,55 @@
+{
+  "owner_address": "1M3HMPeSf1B15X5s4bR1TGPgPJS7CH4hfM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "13NoB5bUi8BDZYyqDn3gZP6t5SMewLocja",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Cheapsocialhits-1526212414364280/",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/permalink.php?story_fbid=1620843858234468&id=1526212414364280",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "CheapSociaIHits",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/CheapSociaIhits/status/729403122297229312",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cheapsocialhits",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Cheapsocialhits-1526212414364280/",
+      "proof_url": "https://www.facebook.com/permalink.php?story_fbid=1620843858234468&id=1526212414364280",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "CheapSociaIHits",
+      "proof_url": "https://twitter.com/CheapSociaIhits/status/729403122297229312",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN cheapsocialhits.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cheapsocialhits.id\"\n"
+}
