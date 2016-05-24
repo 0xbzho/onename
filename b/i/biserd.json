@@ -1,0 +1,42 @@
+{
+  "owner_address": "1Muo8JFWwVqG4Z85MSkQFVavKo3WPxYGWe",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "biserdimitrov",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/biserdimitrov/status/730252972316364800?s=09",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "NYC"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Biser Dimitrov",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://blockex.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "biserdimitrov",
+      "proof_url": "https://twitter.com/biserdimitrov/status/730252972316364800?s=09",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN biserd.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/biserd.id\"\n"
+}
