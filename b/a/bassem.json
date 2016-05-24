@@ -1,0 +1,49 @@
+{
+  "owner_address": "1KAFPANi7Hf3aMikcWBMRkBRyNUkcFLKPV",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "10d6141c6dbe3e0680d172605234478f67145048",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jarkas",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jarkas/status/724853377553862659",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jarkas",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jarkas/posts/10154168820957053",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jarkas",
+      "proof_url": "https://twitter.com/jarkas/status/724853377553862659",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jarkas",
+      "proof_url": "https://www.facebook.com/jarkas/posts/10154168820957053",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN bassem.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bassem.id\"\n"
+}
