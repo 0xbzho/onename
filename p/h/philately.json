@@ -1,0 +1,42 @@
+{
+  "owner_address": "1BP4jz9sesxDtE4f8TtxDcwo1fVGrWqNSY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1GRi9ZaUed2eJ9C4BSmAHqMgT4jX6QZ2Bh",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/philately",
+        "identifier": "9571589B5D1BBE7102498E0655C9333ACBFD61CE",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "7b826e7e2c81eb7a0fcbec2a84393b3ee6d30b89",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/gwchien/posts/10154147744094771?pnref=story",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/philately",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/philately",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN philately.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/philately.id\"\n"
+}
