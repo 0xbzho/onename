@@ -1,0 +1,80 @@
+{
+  "owner_address": "14z2FVDqo54TFdLxoC4Nxm5VnE6kELfJVj",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1HyEc1W1SGAzPWD6fQYXCLWCeTV2hLRoGm",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "joedowdell",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/joedowdell/status/533275102624768001",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "joedowdell",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/joedowdell/5fbe2882d3e5ff30c51b",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "joe.dowdell",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/joe.dowdell/posts/10152310757636417",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bristol"
+    },
+    "description": "Web Developer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/joedowdell",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/joedowdell",
+        "name": "avatar"
+      }
+    ],
+    "name": "Joe Dowdell",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://joedowdell.me/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "joedowdell",
+      "proof_url": "https://twitter.com/joedowdell/status/533275102624768001",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "joedowdell",
+      "proof_url": "https://gist.github.com/joedowdell/5fbe2882d3e5ff30c51b",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "joe.dowdell",
+      "proof_url": "https://www.facebook.com/joe.dowdell/posts/10152310757636417",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN joedowdell.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/joedowdell.id\"\n"
+}
