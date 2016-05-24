@@ -1,0 +1,74 @@
+{
+  "owner_address": "1PmfkkKfUm7q6iA9R9dotjKx69BrW6q1SD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "archizoo",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/archizoo/1c34c40bf178a48c53648fe6f38302f3",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mshapedstrategy",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mshapedstrategy/status/727995860928233472",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jim.meredith",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jim.meredith/posts/1036952123018635?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "The Motor City"
+    },
+    "description": "STRATEGY DESIGN | DESIGN STRATEGY",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jim_meredith",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jim Meredith",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://meredithstrategyanddesign.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "archizoo",
+      "proof_url": "https://gist.github.com/archizoo/1c34c40bf178a48c53648fe6f38302f3",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "mshapedstrategy",
+      "proof_url": "https://twitter.com/mshapedstrategy/status/727995860928233472",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jim.meredith",
+      "proof_url": "https://www.facebook.com/jim.meredith/posts/1036952123018635?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jim_meredith.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jim_meredith.id\"\n"
+}
