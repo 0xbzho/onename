@@ -1,0 +1,60 @@
+{
+  "owner_address": "14avU6yMGcBynZVYDKMRDGbZsZqwYG1KCh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "fcbitfit",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/profile.php?id=100011116085772&fref=nf",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fcbitfit",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/FcBitfit",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Berlin, Germany"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mike_kaden",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Mike Kaden",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://fc-bitfit.de"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "fcbitfit",
+      "proof_url": "https://www.facebook.com/profile.php?id=100011116085772&fref=nf",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "fcbitfit",
+      "proof_url": "https://twitter.com/FcBitfit",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mike_kaden.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mike_kaden.id\"\n"
+}
