@@ -1,0 +1,65 @@
+{
+  "owner_address": "19pJhRA6QUuvNEQcZmZcL25YdG8rdMT6ue",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "PetersonJohn1",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/PetersonJohn1/status/725234643486838784",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "johnpeterson79",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/johnpeterson79/posts/938525676245037",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "318e511e2dd9e9dafc0c4453c48246c46b3d9515",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1PbLd64bYGajqXhrXw3o3smf7PGF86krLx",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "United States"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bazaardigitalstore",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bazaardigitalstore",
+        "name": "avatar"
+      }
+    ],
+    "name": "Peterson John"
+  },
+  "verifications": [
+    {
+      "identifier": "PetersonJohn1",
+      "proof_url": "https://twitter.com/PetersonJohn1/status/725234643486838784",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "johnpeterson79",
+      "proof_url": "https://www.facebook.com/johnpeterson79/posts/938525676245037",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bazaardigitalstore.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bazaardigitalstore.id\"\n"
+}
