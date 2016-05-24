@@ -1,0 +1,60 @@
+{
+  "owner_address": "1DP4Wv1ZRUPCbQEBhoyxqZYEDRawWnswb4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "macbosse",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/macbosse/status/730672951616475136",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bosse.kuellenberg",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bosse.kuellenberg/posts/10209642715574930",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hamburg & New York"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/macbosse",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/macbosse",
+        "name": "cover"
+      }
+    ],
+    "name": "Bosse Küllenberg",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://app.youpooly.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "macbosse",
+      "proof_url": "https://twitter.com/macbosse/status/730672951616475136",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bosse.kuellenberg",
+      "proof_url": "https://www.facebook.com/bosse.kuellenberg/posts/10209642715574930",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN macbosse.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/macbosse.id\"\n"
+}
