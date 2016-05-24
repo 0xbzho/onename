@@ -1,0 +1,60 @@
+{
+  "owner_address": "1EnEjUYZKBtH6927HRQr9nK2z5Qb2vmwUy",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1LZitPio7dyFnSRc8QFPX5GHHDbCkPCUTy",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "JakeWittrock",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jakewittrock",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jakewittrockartist/",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "de8fc1e3d5b8276d0bc6f4f9087f074398a55054",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/GrimKriegor/376f9d741539a6ae9dd884d559cb7f21",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chicago, IL"
+    },
+    "description": "I am a contemporary artist, designer, and art curator",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jakewittrock",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jake Wittrock"
+  },
+  "verifications": [
+    {
+      "identifier": "JakeWittrock",
+      "proof_url": "https://twitter.com/jakewittrock",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jakewittrock.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jakewittrock.id\"\n"
+}
