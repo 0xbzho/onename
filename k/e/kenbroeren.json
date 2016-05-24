@@ -1,0 +1,32 @@
+{
+  "owner_address": "177VaWXNk3W4gVUWwC3PCNQ7xJGKY7QnQ4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kenbroeren",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kbroeren/status/727958845310394368",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ken Broeren"
+  },
+  "verifications": [
+    {
+      "identifier": "kenbroeren",
+      "proof_url": "https://twitter.com/kbroeren/status/727958845310394368",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN kenbroeren.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kenbroeren.id\"\n"
+}
