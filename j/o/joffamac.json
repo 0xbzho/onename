@@ -1,0 +1,81 @@
+{
+  "owner_address": "1ECjKcBcDi75hn5YX4HLv7yWPrxEQxQYJf",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1PjChhifyptZy92SNz2gdQBC49PEYL94oU",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/joffa#show-public",
+        "identifier": "F08CFE50A91596D0B35156E120EB9DE0A6D08BCC",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "joffaMac",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/joffaMac/status/732356161870012417",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "joffaM",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/joffaM/posts/10153553328675849?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "joffaMac",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/joffaMac/90c16029d58c1d2c04a41053cc5b7702",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Melbourne,  Australia"
+    },
+    "description": "Mad nutter with ardly a clue about anything.  Spectemur agendo",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/joffamac",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/joffamac",
+        "name": "cover"
+      }
+    ],
+    "name": "Geoffrey William Maclean"
+  },
+  "verifications": [
+    {
+      "identifier": "joffaMac",
+      "proof_url": "https://twitter.com/joffaMac/status/732356161870012417",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "joffaM",
+      "proof_url": "https://www.facebook.com/joffaM/posts/10153553328675849?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "joffaMac",
+      "proof_url": "https://gist.github.com/joffaMac/90c16029d58c1d2c04a41053cc5b7702",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN joffamac.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/joffamac.id\"\n"
+}
