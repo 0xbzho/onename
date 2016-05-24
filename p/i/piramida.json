@@ -1,0 +1,43 @@
+{
+  "owner_address": "13zQDhMYyicCTa3sVonpfJfXixVeTABKxp",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "piramida",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/piramida/status/717414132409044992",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "461747af46a9d754a803c39a6a3e84e9f6a9525b",
+        "service": "openbazaar"
+      }
+    ],
+    "description": "bitcoin mogul",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/piramida",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/half-moon.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Koles"
+  },
+  "verifications": [
+    {
+      "identifier": "piramida",
+      "proof_url": "https://twitter.com/piramida/status/717414132409044992",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN piramida.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/piramida.id\"\n"
+}
