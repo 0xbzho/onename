@@ -1,0 +1,67 @@
+{
+  "owner_address": "1CtRcEQth1XtU9RKMsUsR65ndKvAZ7g6bu",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "alesabox",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/alesabox?post_id=238059366572348_238059729905645#/facebook",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "128HJUQCF8gBUcyRkzXnnsocyo5NsMHTkq",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "alesabox",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/alesabox/status/734435281026306049",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Frankfurt, Germany"
+    },
+    "description": "Kleinaufbewahrung",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/alesabox",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/alesabox",
+        "name": "cover"
+      }
+    ],
+    "name": "Alesabox",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://alesabox.de"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "alesabox",
+      "proof_url": "https://onename.com/alesabox?post_id=238059366572348_238059729905645#/facebook",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "alesabox",
+      "proof_url": "https://twitter.com/alesabox/status/734435281026306049",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN alesabox.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alesabox.id\"\n"
+}
