@@ -1,0 +1,54 @@
+{
+  "owner_address": "1MKmuWRMj3FEAM2eMFB3xg94N5Cd1McMeG",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gr82observ",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/gr82observ/6d3465ff1c3c8830f21eaef6d5bcd153",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gr82Observ",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gr82Observ/status/729713941480235008",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Reno, NV"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gr82observ",
+        "name": "avatar"
+      }
+    ],
+    "name": "Bud L Raymor"
+  },
+  "verifications": [
+    {
+      "identifier": "gr82observ",
+      "proof_url": "https://gist.github.com/gr82observ/6d3465ff1c3c8830f21eaef6d5bcd153",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "gr82Observ",
+      "proof_url": "https://twitter.com/gr82Observ/status/729713941480235008",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN gr82observ.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gr82observ.id\"\n"
+}
