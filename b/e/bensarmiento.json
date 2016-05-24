@@ -1,0 +1,74 @@
+{
+  "owner_address": "12y1pwoq34FV46srUgDTBW3iMP9hSGGbYX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bensarmiento",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bensarmiento/status/727286826818371584",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bensarmiento",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bensarmiento/posts/1041262205965697",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "yowmamasita",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/yowmamasita/ab38a3274cae110c706f51bfcedd9d91",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Manila, PH"
+    },
+    "description": "Programmer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bensarmiento",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bensarmiento",
+        "name": "cover"
+      }
+    ],
+    "name": "Ben Sarmiento",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://bensarmiento.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bensarmiento",
+      "proof_url": "https://twitter.com/bensarmiento/status/727286826818371584",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bensarmiento",
+      "proof_url": "https://www.facebook.com/bensarmiento/posts/1041262205965697",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "yowmamasita",
+      "proof_url": "https://gist.github.com/yowmamasita/ab38a3274cae110c706f51bfcedd9d91",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bensarmiento.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bensarmiento.id\"\n"
+}
