@@ -1,0 +1,52 @@
+{
+  "owner_address": "19MXrmyVhX6PX4uWA5SsuFu2NpRnjd5TA4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "0082b1db8b59414bffdc778c64b14e88f0e2d107",
+        "proofType": "http",
+        "proofUrl": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjames.bore%2Fposts%2F10208616362219395&width=500\" width=\"500\" height=\"482\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\"></iframe>",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Satoshi Nakamoto",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/IamBloctopus/posts/1604524009858572",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "@augurmarket",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/AugurMarket/status/730523765751304194",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "BazaaRX"
+  },
+  "verifications": [
+    {
+      "identifier": "Satoshi Nakamoto",
+      "proof_url": "https://www.facebook.com/IamBloctopus/posts/1604524009858572",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "@augurmarket",
+      "proof_url": "https://twitter.com/AugurMarket/status/730523765751304194",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN bazaarx.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bazaarx.id\"\n"
+}
