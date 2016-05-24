@@ -1,0 +1,44 @@
+{
+  "owner_address": "1Nf3m3k53aVWD2oRMfrciXKY7fLwJLDtEM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1FDjkDJWAqMgZB5YV7wkm894zcc1dH5sXW",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "f6d16e58423aa07ff9ff19e345b1e23039240c97",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brazil"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/calena",
+        "name": "avatar"
+      }
+    ],
+    "name": "Guilherme Lopes Bezerra",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://calenita.deviantart.com/"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN calena.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/calena.id\"\n"
+}
