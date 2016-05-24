@@ -1,0 +1,44 @@
+{
+  "owner_address": "197iPjAc9HcT1LCXGLSBfeNGoYXUg1Em9K",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Julian.davis.94849",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/julian.davis.94849/posts/1743433485872937",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ithoughtonce",
+        "proofType": "http",
+        "proofUrl": "https://mobile.twitter.com/ithoughtonce/status/731962504205733888",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Julian.davis.94849",
+      "proof_url": "https://www.facebook.com/julian.davis.94849/posts/1743433485872937",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "ithoughtonce",
+      "proof_url": "https://mobile.twitter.com/ithoughtonce/status/731962504205733888",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN juliandavis.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/juliandavis.id\"\n"
+}
