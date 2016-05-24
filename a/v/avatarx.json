@@ -1,0 +1,59 @@
+{
+  "owner_address": "18tJyqZEZfmFG37HCfhVy3DJZHerhiM78K",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1NWubMhwz5dWQFHxhqAeh2Sz3gfxDkBXAp",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bb87537bdda973f8f7855fc73679ad2e5f1ed5a0",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "AvatarX",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/AvatarX/status/730214093760528385",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mexico City"
+    },
+    "description": "Blogger, Bitcoiner, Dealer, Techie, Geek & Slacker Extraordinaire",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://pbs.twimg.com/profile_images/1457449947/2011-07-23_1738.jpg",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://pbs.twimg.com/profile_banners/7441202/1398900238/web_retina",
+        "name": "cover"
+      }
+    ],
+    "name": "Avatar X",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.Appatic.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "AvatarX",
+      "proof_url": "https://twitter.com/AvatarX/status/730214093760528385",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN avatarx.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/avatarx.id\"\n"
+}
