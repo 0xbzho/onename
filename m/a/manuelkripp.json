@@ -1,0 +1,31 @@
+{
+  "owner_address": "18FPSc4H22UZAoZdqJwhn7YabgnTF85Reb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "manuelkripp",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/manuelkripp/status/729621910821216256",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "manuelkripp",
+      "proof_url": "https://twitter.com/manuelkripp/status/729621910821216256",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN manuelkripp.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/manuelkripp.id\"\n"
+}
