@@ -1,0 +1,67 @@
+{
+  "owner_address": "1QHbDxPCA8CZbANXZFcFXE9RMqiSnxmirM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Ferdinando1970",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Ferdinando1970/status/733889311112847360",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ferdinando.ametrano",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ferdinando.ametrano/posts/10209745299970548",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fametrano",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/fametrano/c27b3a4b5e1f5ccc98e8504e0bcd2b2c",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Italy"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nando1970",
+        "name": "avatar"
+      }
+    ],
+    "name": "Ferdinando Maria Ametrano"
+  },
+  "verifications": [
+    {
+      "identifier": "Ferdinando1970",
+      "proof_url": "https://twitter.com/Ferdinando1970/status/733889311112847360",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ferdinando.ametrano",
+      "proof_url": "https://www.facebook.com/ferdinando.ametrano/posts/10209745299970548",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "fametrano",
+      "proof_url": "https://gist.github.com/fametrano/c27b3a4b5e1f5ccc98e8504e0bcd2b2c",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN nando1970.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nando1970.id\"\n"
+}
