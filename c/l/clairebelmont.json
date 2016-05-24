@@ -1,0 +1,36 @@
+{
+  "owner_address": "1Mb3WBBhvDLhSWTCRyF2ZrUxH6zX4uwWXn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "clairebelmont",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ClaireBelmont/status/729733917092110336",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Palo Alto, CA, USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Claire Belmont"
+  },
+  "verifications": [
+    {
+      "identifier": "clairebelmont",
+      "proof_url": "https://twitter.com/ClaireBelmont/status/729733917092110336",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN clairebelmont.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/clairebelmont.id\"\n"
+}
