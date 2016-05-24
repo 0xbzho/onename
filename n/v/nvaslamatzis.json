@@ -1,0 +1,49 @@
+{
+  "owner_address": "1NVQHinp9qcapwSyHwRYDAEhgPsexHzHEs",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "NVaslamatzis",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/NVaslamatzis/status/731924851695464448",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nfv",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/nfv/2a155fb8dd503f42103d859bca6a2725",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nvaslamatzis",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "NVaslamatzis",
+      "proof_url": "https://twitter.com/NVaslamatzis/status/731924851695464448",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "nfv",
+      "proof_url": "https://gist.github.com/nfv/2a155fb8dd503f42103d859bca6a2725",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN nvaslamatzis.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nvaslamatzis.id\"\n"
+}
