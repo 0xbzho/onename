@@ -1,0 +1,31 @@
+{
+  "owner_address": "1DHBkJ1crC5LFY2jGogdQ7JFAEeBNAf5DB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "AndreaLearned",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/AndreaLearned/status/729753753759277056",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "AndreaLearned",
+      "proof_url": "https://twitter.com/AndreaLearned/status/729753753759277056",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN andrealearned.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/andrealearned.id\"\n"
+}
