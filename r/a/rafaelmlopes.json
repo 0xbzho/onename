@@ -1,0 +1,54 @@
+{
+  "owner_address": "1EEX3CfkvvdTCXkYWbod3NAR5ykNWVWpDw",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1MXE2m7Dqo6jStnxLhyXwsfPvByJs35YW6",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "RafaelMLopes",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RafaelMLopes/status/729657840034418688",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Los Angeles"
+    },
+    "description": "Product guy building FinTech & Digital Health products that delight and add value.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rafaelmlopes",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rafaelmlopes",
+        "name": "cover"
+      }
+    ],
+    "name": "Rafael M Lopes",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.about.me/rafaelmlopes"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "RafaelMLopes",
+      "proof_url": "https://twitter.com/RafaelMLopes/status/729657840034418688",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rafaelmlopes.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rafaelmlopes.id\"\n"
+}
