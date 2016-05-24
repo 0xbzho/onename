@@ -1,0 +1,42 @@
+{
+  "owner_address": "1LxarRZaTF4zmmxdMhYp2EirWzwoYBswSi",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "congxing",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/congxing/status/731191817996107776",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Palo Alto, CA"
+    },
+    "description": "Typing & Counting - Life of Software Engineer in the world of data",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/congxing",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/congxing",
+        "name": "cover"
+      }
+    ],
+    "name": "Congxing Cai"
+  },
+  "verifications": [
+    {
+      "identifier": "congxing",
+      "proof_url": "https://twitter.com/congxing/status/731191817996107776",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN congxing.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/congxing.id\"\n"
+}
