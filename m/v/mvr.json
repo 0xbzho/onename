@@ -1,0 +1,45 @@
+{
+  "owner_address": "1KNWQqWmW7F8hmUdEdYnSMPUEPE5j6k68o",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mikevanrossum",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "95123d3c30b7af50fece4b59610682a2e29d96ed",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Amsterdam"
+    },
+    "description": "webdude / bitcoin / interning at digitalnatives.nl",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mvr",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mvr",
+        "name": "cover"
+      }
+    ],
+    "name": "Mike van Rossum",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://mikevanrossum.nl/"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN mvr.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mvr.id\"\n"
+}
