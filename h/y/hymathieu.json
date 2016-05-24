@@ -1,0 +1,50 @@
+{
+  "owner_address": "1B4SU5UXBq7rEQb5SdaDag5hjzZNbMN1aQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "hardymathieu",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/hardymathieu/status/730529629572759553",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hardy.mathieu",
+        "proofType": "http",
+        "proofUrl": "https%3A%2F%2Fwww.facebook.com%2Fhardy.mathieu%2Fposts%2F522397361612",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Princeton, NJ"
+    },
+    "description": "li.mhardy.me",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Mathieu Hardy"
+  },
+  "verifications": [
+    {
+      "identifier": "hardymathieu",
+      "proof_url": "https://twitter.com/hardymathieu/status/730529629572759553",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "hardy.mathieu",
+      "proof_url": "https%3A%2F%2Fwww.facebook.com%2Fhardy.mathieu%2Fposts%2F522397361612",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN hymathieu.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hymathieu.id\"\n"
+}
