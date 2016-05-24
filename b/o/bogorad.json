@@ -1,0 +1,55 @@
+{
+  "owner_address": "1FFb9qz8fdmgvut7Qiyb1ZVfAVuRLo8QrS",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bogorad",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bogorad/d71dc370f1f1cf80bfe5eab817a2c48f",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bogorad",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Bogorad/status/732215895389569024",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Moscow, Russia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Eugene Bogorad",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://profiles.google.com/bogorad"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bogorad",
+      "proof_url": "https://gist.github.com/bogorad/d71dc370f1f1cf80bfe5eab817a2c48f",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "bogorad",
+      "proof_url": "https://twitter.com/Bogorad/status/732215895389569024",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN bogorad.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bogorad.id\"\n"
+}
