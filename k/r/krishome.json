@@ -1,0 +1,41 @@
+{
+  "owner_address": "1Li4TkscWNgc6DpRjurwfTUfg3Ft6FWFB4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "greenblut_kris",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/greenblut_kris/status/728505323112288256",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Freiburg Germany"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/krishome",
+        "name": "avatar"
+      }
+    ],
+    "name": "Christoph Dahn"
+  },
+  "verifications": [
+    {
+      "identifier": "greenblut_kris",
+      "proof_url": "https://twitter.com/greenblut_kris/status/728505323112288256",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN krishome.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/krishome.id\"\n"
+}
