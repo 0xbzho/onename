@@ -1,0 +1,50 @@
+{
+  "owner_address": "1GnQScM8AF1JbAsxamupuJHryxqgp3X1YL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "BitcoinTunisie",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BitcoinTunisie/status/731119110231314432",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1L5CKvG9zVfrDFcvBrso1kJWYgPvwgDYit",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "description": "Bitcoin Tunisie est une communauté tunisienne a comme objectif de populariser la culture de Bitcoin et les cryptocurrencies en Tunisie.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bitcointunisie",
+        "name": "avatar"
+      }
+    ],
+    "name": "Bitcoin Tunisie",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://fb.com/Bitcoin.Tunisie"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "BitcoinTunisie",
+      "proof_url": "https://twitter.com/BitcoinTunisie/status/731119110231314432",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bitcointunisie.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bitcointunisie.id\"\n"
+}
