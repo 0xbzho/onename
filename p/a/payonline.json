@@ -1,0 +1,40 @@
+{
+  "owner_address": "1GDBhmVzuqRNNR3hy3Cxzq5GR1qjUaoPWM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "3MXYUBLWNETa5HTewZp1xMTt7AW9kbFNqs",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lyndell, Pa"
+    },
+    "description": "Mediated p2p Bitcoin / Dollar transaction",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/payonline",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/payonline",
+        "name": "cover"
+      }
+    ],
+    "name": "PayOnline",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.payonline.com"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN payonline.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/payonline.id\"\n"
+}
