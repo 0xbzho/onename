@@ -1,0 +1,55 @@
+{
+  "owner_address": "1PL9XWM6nq4vKiiJr7UfajAhKMHdSmcUJE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cobbyamoah",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/CobbyAmoah/status/727903260279857152",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cobbyamoah",
+        "proofType": "http",
+        "proofUrl": "cobbyamoah/gist:57f1bf48219dd8120634d3c6b75175e4",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Dallas"
+    },
+    "description": "I'm trying",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cobbyamoah",
+        "name": "avatar"
+      }
+    ],
+    "name": "Cobby Amoah"
+  },
+  "verifications": [
+    {
+      "identifier": "cobbyamoah",
+      "proof_url": "https://twitter.com/CobbyAmoah/status/727903260279857152",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "cobbyamoah",
+      "proof_url": "cobbyamoah/gist:57f1bf48219dd8120634d3c6b75175e4",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN cobbyamoah.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cobbyamoah.id\"\n"
+}
