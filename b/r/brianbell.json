@@ -1,0 +1,36 @@
+{
+  "owner_address": "1L2z7UxsxgVY8zYcHPJWbd9QrTMBZU7CBz",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "_brianbell",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/_brianbell/status/727867851911012352",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cary, NC"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Brian Bell"
+  },
+  "verifications": [
+    {
+      "identifier": "_brianbell",
+      "proof_url": "https://twitter.com/_brianbell/status/727867851911012352",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN brianbell.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/brianbell.id\"\n"
+}
