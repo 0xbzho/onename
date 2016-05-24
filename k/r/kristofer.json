@@ -1,0 +1,63 @@
+{
+  "owner_address": "1KvdM68TZeogn6QALBakAS4SDDnQBWLJ9u",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kyounger",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kyounger/status/727586084893433860",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kristofer",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/kristofer/c079bd0ea1f16f9317207b885c63198e",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kris.younger",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/kris.younger/posts/10207296989401643",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kristofer",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/kristofer",
+        "name": "cover"
+      }
+    ],
+    "name": "Kristofer"
+  },
+  "verifications": [
+    {
+      "identifier": "kyounger",
+      "proof_url": "https://twitter.com/kyounger/status/727586084893433860",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "kristofer",
+      "proof_url": "https://gist.github.com/kristofer/c079bd0ea1f16f9317207b885c63198e",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "kris.younger",
+      "proof_url": "https://www.facebook.com/kris.younger/posts/10207296989401643",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kristofer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kristofer.id\"\n"
+}
