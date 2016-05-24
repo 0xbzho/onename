@@ -1,0 +1,48 @@
+{
+  "owner_address": "13tZtRGH1h8fkCJvFsGRzVWuwp6Ps7JmsE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "escrowmybits",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/EscrowMyBits/status/726089511789301760",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "BM-NBPnrJ9jV64WUGpk8qzioE3fKkSQMgUz",
+        "service": "bitmessage"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/escrowmybits",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/escrowmybits",
+        "name": "cover"
+      }
+    ],
+    "name": "Escrow my Bits",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://escrowmybits.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "escrowmybits",
+      "proof_url": "https://twitter.com/EscrowMyBits/status/726089511789301760",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN escrowmybits.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/escrowmybits.id\"\n"
+}
