@@ -1,0 +1,73 @@
+{
+  "owner_address": "1DMpt14UZV2BjFjcZbjqwGDubUykFwSo5n",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1P3s2TwpLqp9TyrJckfKGLbGDFqgdx5wQH",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jeromegamez",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jeromegamez/status/732175911769001984",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jeromegamez",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jeromegamez/82a12bb4f4763d8a6864eba6c25b2ba9",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cologne Area, Germany"
+    },
+    "description": "Doing things since 1980.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jeromegamez",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jeromegamez",
+        "name": "cover"
+      }
+    ],
+    "name": "Jérôme Gamez",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.gamez.name"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jeromegamez",
+      "proof_url": "https://twitter.com/jeromegamez/status/732175911769001984",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jeromegamez",
+      "proof_url": "https://gist.github.com/jeromegamez/82a12bb4f4763d8a6864eba6c25b2ba9",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jeromegamez.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jeromegamez.id\"\n"
+}
