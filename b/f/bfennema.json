@@ -1,0 +1,59 @@
+{
+  "owner_address": "1NBkY1L7tJhWTAaZnMA8UCzgy3sn9g1VjR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "reclametrash",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bart.fennema",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bartfennema",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/bfennema",
+        "identifier": "E1C181834E797F92FE8F69C1A094788ECE0C9C",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1NFt2gbN3DUMKhM5ZPyCNvN41z276DN5RS",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "The Hague"
+    },
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bfennema",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Bart Fennema"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN bfennema.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bfennema.id\"\n"
+}
