@@ -1,0 +1,37 @@
+{
+  "owner_address": "1G9HU8vyhjhwGZh99tucajvES3JjVdRhF6",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "19JaqaTWaRdw9gbspnV42EyGujjqaaXvtu",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "/elbelgaxsp",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/msrobot0/status/730133784910237696",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "/elbelgaxsp",
+      "proof_url": "https://twitter.com/msrobot0/status/730133784910237696",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN el_belga.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/el_belga.id\"\n"
+}
