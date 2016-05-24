@@ -1,0 +1,41 @@
+{
+  "owner_address": "1PZ6VjZWuXzbE2H8V1Hk7AtjRb5GrBghFT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "DukeUsul",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/DukeUsul/status/733673941512814592",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mount Laurel, NJ"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/davidaahern",
+        "name": "avatar"
+      }
+    ],
+    "name": "David A Ahern"
+  },
+  "verifications": [
+    {
+      "identifier": "DukeUsul",
+      "proof_url": "https://twitter.com/DukeUsul/status/733673941512814592",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN davidaahern.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/davidaahern.id\"\n"
+}
