@@ -1,0 +1,62 @@
+{
+  "owner_address": "18hKg4J9RFkiRC92SSvhy4oqsTjWn8rPvs",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "BTCexchanger",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BTCexchanger/status/730320939867615232",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gavrilo.princip.31337",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/gavrilo.princip.31337/posts/234660280243729",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1LejiFEKUWsH5ozwFQCorc7QeSPtsRLvMM",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "obatm46efxbpuq2lagzo9au4n29",
+        "proofType": "http",
+        "proofUrl": "https://t.co/hd2ynLe367",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gavrilobtc",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "BTCexchanger",
+      "proof_url": "https://twitter.com/BTCexchanger/status/730320939867615232",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "gavrilo.princip.31337",
+      "proof_url": "https://www.facebook.com/gavrilo.princip.31337/posts/234660280243729",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN gavrilobtc.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gavrilobtc.id\"\n"
+}
