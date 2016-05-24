@@ -1,0 +1,54 @@
+{
+  "owner_address": "1LujHVVd4Nf6bmT9zcbiqzBfHaDumVoYTR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "johnm0100",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/johnm0100/status/731894275059769344",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "<script src=\"johnm0100",
+        "proofType": "http",
+        "proofUrl": "<script src=\"https://gist.github.com/johnm0100/99560e375b89c2e139724a398597d2d9.js\"></script>",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco and Boston"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/johnm0100",
+        "name": "avatar"
+      }
+    ],
+    "name": "John Morey"
+  },
+  "verifications": [
+    {
+      "identifier": "johnm0100",
+      "proof_url": "https://twitter.com/johnm0100/status/731894275059769344",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "<script src=\"johnm0100",
+      "proof_url": "<script src=\"https://gist.github.com/johnm0100/99560e375b89c2e139724a398597d2d9.js\"></script>",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN johnm0100.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/johnm0100.id\"\n"
+}
