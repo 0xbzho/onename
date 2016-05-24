@@ -1,0 +1,60 @@
+{
+  "owner_address": "1BsowVTnEAnPKK8pg4GuNgehYMW43vLcQ3",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1GSwfEAw5LMU1hwjfBuhq8rQ2QsNKCzzjy",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "julian.dos.santos",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/julian.dos.santos/posts/10209198877827330",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fumoffu",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/fumoffu/0b544f6f6a35051f7e55ca913b8babe6",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Villeurbanne"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jdossantos",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jdossantos",
+        "name": "cover"
+      }
+    ],
+    "name": "Julian Dos Santos"
+  },
+  "verifications": [
+    {
+      "identifier": "julian.dos.santos",
+      "proof_url": "https://www.facebook.com/julian.dos.santos/posts/10209198877827330",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "fumoffu",
+      "proof_url": "https://gist.github.com/fumoffu/0b544f6f6a35051f7e55ca913b8babe6",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jdossantos.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jdossantos.id\"\n"
+}
