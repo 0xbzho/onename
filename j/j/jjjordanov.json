@@ -1,0 +1,36 @@
+{
+  "owner_address": "17RdUpsEzmAANFuPjs7Z1fXWfNPtkqZ4wT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jjjordanov",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jjjordanov/status/724987880494497792",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "edfc0f0fc7f4558bb2c49e710ad9c019182aa7c0",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jjjordanov",
+      "proof_url": "https://twitter.com/jjjordanov/status/724987880494497792",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jjjordanov.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jjjordanov.id\"\n"
+}
