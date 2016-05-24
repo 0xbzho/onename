@@ -1,0 +1,49 @@
+{
+  "owner_address": "1AdumWkSuKfF7yoBsr1ZsEQnX7hKyk15J9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jackhodgson",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jackhodgson/status/730056864017305600",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jackhodgson",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jackhodgson/1f8f8e5e71b384a665f308c158f48554",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New Hampshire"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jack Hodgson"
+  },
+  "verifications": [
+    {
+      "identifier": "jackhodgson",
+      "proof_url": "https://twitter.com/jackhodgson/status/730056864017305600",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jackhodgson",
+      "proof_url": "https://gist.github.com/jackhodgson/1f8f8e5e71b384a665f308c158f48554",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jackhodgson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jackhodgson.id\"\n"
+}
