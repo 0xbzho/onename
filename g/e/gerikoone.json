@@ -1,0 +1,67 @@
+{
+  "owner_address": "14qsgpKpWx6askXeTxpXhib7QyRoTPDimZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "https://www.facebook.com/marco.rubichi",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/marco.rubichi/posts/10209646762787881",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gerikoone",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/GeRiKoOnE/status/734768935661408258",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "GeRiKoOnE",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/GeRiKoOnE/23fd67ba93470bff66f40febb293f41d",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Milan"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gerikoone",
+        "name": "avatar"
+      }
+    ],
+    "name": "Marco Rubichi"
+  },
+  "verifications": [
+    {
+      "identifier": "https://www.facebook.com/marco.rubichi",
+      "proof_url": "https://www.facebook.com/marco.rubichi/posts/10209646762787881",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "gerikoone",
+      "proof_url": "https://twitter.com/GeRiKoOnE/status/734768935661408258",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "GeRiKoOnE",
+      "proof_url": "https://gist.github.com/GeRiKoOnE/23fd67ba93470bff66f40febb293f41d",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN gerikoone.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gerikoone.id\"\n"
+}
