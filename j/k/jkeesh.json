@@ -1,0 +1,62 @@
+{
+  "owner_address": "17j251ezNSpAwsQnDBd6zxmEkUiGYxQcj4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "15mHT3kHbkDLTB4emxUUznExgGF4AGgBJB",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jkeesh",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jkeesh/status/734621745731272704",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jkeesh",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jkeesh/cc966fbf46fa0f7111c3650198802967",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco"
+    },
+    "description": "CEO & Co-founder of CodeHS",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jeremy Keeshin",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://thekeesh.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jkeesh",
+      "proof_url": "https://twitter.com/jkeesh/status/734621745731272704",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jkeesh",
+      "proof_url": "https://gist.github.com/jkeesh/cc966fbf46fa0f7111c3650198802967",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jkeesh.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jkeesh.id\"\n"
+}
