@@ -1,0 +1,48 @@
+{
+  "owner_address": "1FtSxGxkTzp9BmqB7YdaPzrjtufcqb7Cxp",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "brianpinnock",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BrianPinnock/status/727853858341425152",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cape Town"
+    },
+    "description": "Innovation",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/brianpinnock",
+        "name": "avatar"
+      }
+    ],
+    "name": "Brian Pinnock",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://za.linkedin.com/in/brianpinnockza"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "brianpinnock",
+      "proof_url": "https://twitter.com/BrianPinnock/status/727853858341425152",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN brianpinnock.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/brianpinnock.id\"\n"
+}
