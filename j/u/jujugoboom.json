@@ -1,0 +1,73 @@
+{
+  "owner_address": "1CDjcL4QREk1muDjdh9zLZF9SuEznMGzTg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jujugoboom",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jujugoboom/status/730451855159885824",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jujugoboom",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jujugoboom/posts/10205810684815987",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jujugoboom",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jujugoboom/c99c7835c967be1cccc399e220461198",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "185kxSpcqKhdgMFUqC3My5KQWoJpGa35zz",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dfcc4fd9d6788de4935daa7cd39bc11b445c421d",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Annapolis, MD"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Justin Covell"
+  },
+  "verifications": [
+    {
+      "identifier": "jujugoboom",
+      "proof_url": "https://twitter.com/jujugoboom/status/730451855159885824",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jujugoboom",
+      "proof_url": "https://www.facebook.com/jujugoboom/posts/10205810684815987",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "jujugoboom",
+      "proof_url": "https://gist.github.com/jujugoboom/c99c7835c967be1cccc399e220461198",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jujugoboom.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jujugoboom.id\"\n"
+}
