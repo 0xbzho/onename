@@ -1,0 +1,62 @@
+{
+  "owner_address": "1MqkZSWsgB819rnBvBjmC3MjeDf3zLh8zg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "amutiso",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/amutiso/status/728590724761980929",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anthony.mutiso",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/anthony.mutiso/posts/10153625690790893",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "amutiso",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/amutiso/27891b2606ff6e7a6c2afc9c003c7980",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/amutiso",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "amutiso",
+      "proof_url": "https://twitter.com/amutiso/status/728590724761980929",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "anthony.mutiso",
+      "proof_url": "https://www.facebook.com/anthony.mutiso/posts/10153625690790893",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "amutiso",
+      "proof_url": "https://gist.github.com/amutiso/27891b2606ff6e7a6c2afc9c003c7980",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN amutiso.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/amutiso.id\"\n"
+}
