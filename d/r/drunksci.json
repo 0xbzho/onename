@@ -1,0 +1,69 @@
+{
+  "owner_address": "16njw3Q241PLR3oW9krpmCqZ7MKBMKE57Q",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1KSQpfGxVwpYrekT8TEP6sSiCPETXYndoj",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "drunksci",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/drunksci/status/730346056907624448",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "drunksci",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/drunksci/932dac50040b967ac3fb499ea9fb9ce6",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "9435dea9a976a38c4e6111295fd9566910207a5f",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/fallon.jonathan/posts/10153432702786640",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/drunksci",
+        "name": "avatar"
+      }
+    ],
+    "name": "Benjamin Harrison-Sims",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://drunkscience.co.uk"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "drunksci",
+      "proof_url": "https://twitter.com/drunksci/status/730346056907624448",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "drunksci",
+      "proof_url": "https://gist.github.com/drunksci/932dac50040b967ac3fb499ea9fb9ce6",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN drunksci.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/drunksci.id\"\n"
+}
