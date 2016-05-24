@@ -1,0 +1,50 @@
+{
+  "owner_address": "1H4TWaQBqhFDB7mm8ES3NWVU9XGh6JZXSS",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "_mattjensen",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mitjasim/ce3e05c887357c4c4ff944e6d5eb455f",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Matt-Jensen",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Matt-Jensen/ebbd3afa24d8985354461d3264517a7b",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mattjensen",
+        "name": "avatar"
+      }
+    ],
+    "name": "Matt Jensen"
+  },
+  "verifications": [
+    {
+      "identifier": "_mattjensen",
+      "proof_url": "https://gist.github.com/mitjasim/ce3e05c887357c4c4ff944e6d5eb455f",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "Matt-Jensen",
+      "proof_url": "https://gist.github.com/Matt-Jensen/ebbd3afa24d8985354461d3264517a7b",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mattjensen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mattjensen.id\"\n"
+}
