@@ -1,0 +1,67 @@
+{
+  "owner_address": "1DJ2d7cWev5A5Yiyme6KgSLpmmoVVbog9W",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jerome.cohonner",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jerome.cohonner/posts/10154173642343399",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jcohonner",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jcohonner/45bbbd7cfa219779d7a04965fd0fd352",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jcohonner",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jcohonner/status/733229816988717056",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nantes, France"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jcohonner",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jcohonner",
+        "name": "cover"
+      }
+    ],
+    "name": "Jérôme Cohonner"
+  },
+  "verifications": [
+    {
+      "identifier": "jerome.cohonner",
+      "proof_url": "https://www.facebook.com/jerome.cohonner/posts/10154173642343399",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "jcohonner",
+      "proof_url": "https://gist.github.com/jcohonner/45bbbd7cfa219779d7a04965fd0fd352",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jcohonner",
+      "proof_url": "https://twitter.com/jcohonner/status/733229816988717056",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jcohonner.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jcohonner.id\"\n"
+}
