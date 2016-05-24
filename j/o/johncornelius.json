@@ -1,0 +1,41 @@
+{
+  "owner_address": "1DDVhXPTtjSCMdEwMDV1zynDNNipx84Ssm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jscornelius",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jscornelius/status/730078519997255680",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Los Angeles, CA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/johncornelius",
+        "name": "avatar"
+      }
+    ],
+    "name": "John Cornelius"
+  },
+  "verifications": [
+    {
+      "identifier": "jscornelius",
+      "proof_url": "https://twitter.com/jscornelius/status/730078519997255680",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN johncornelius.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/johncornelius.id\"\n"
+}
