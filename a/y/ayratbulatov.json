@@ -1,0 +1,79 @@
+{
+  "owner_address": "1ECdBwngosbvfbRpY3LxNsTz2knkwbyU8w",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "34BJQVdikvwpw8hpQjKEQvkgYbeaBa8xb8",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "10df61ada95a3094611b6417b98ee5a5ac947681",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "airatru",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/airatru/c2cc08b0136139cb19057dc05f1cf65e",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "AyratBulatov",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/AyratBulatov/status/722836606046973952",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ayrat.bulatov",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ayrat.bulatov/posts/10153402867277470?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Russian Federation"
+    },
+    "description": "Entrepreneur",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ayratbulatov",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ayrat Bulatov"
+  },
+  "verifications": [
+    {
+      "identifier": "airatru",
+      "proof_url": "https://gist.github.com/airatru/c2cc08b0136139cb19057dc05f1cf65e",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "AyratBulatov",
+      "proof_url": "https://twitter.com/AyratBulatov/status/722836606046973952",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ayrat.bulatov",
+      "proof_url": "https://www.facebook.com/ayrat.bulatov/posts/10153402867277470?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ayratbulatov.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ayratbulatov.id\"\n"
+}
