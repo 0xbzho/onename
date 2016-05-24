@@ -1,0 +1,54 @@
+{
+  "owner_address": "16RtaMfGbM889e1wfRnxKSQ6ym3QFHVThC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "david_sheahan1",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/David_Sheahan1/status/730465233676853248",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "davidsheahan",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/davidsheahan/34c562add94105257a29fbe38ad2e839",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Silicon Alley, NYC"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/davidsheahan",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/davidsheahan",
+        "name": "cover"
+      }
+    ],
+    "name": "David Sheahan"
+  },
+  "verifications": [
+    {
+      "identifier": "david_sheahan1",
+      "proof_url": "https://twitter.com/David_Sheahan1/status/730465233676853248",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "davidsheahan",
+      "proof_url": "https://gist.github.com/davidsheahan/34c562add94105257a29fbe38ad2e839",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN davidsheahan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/davidsheahan.id\"\n"
+}
