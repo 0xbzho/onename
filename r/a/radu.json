@@ -1,0 +1,67 @@
+{
+  "owner_address": "1G9tAuqzqStqFy1qKBteuhQYCWRcPU9WBK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1Fpu3hzJECGRkUuuRj7CMyTzJ5Q1TmXvaK",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/radu",
+        "identifier": "5695278EF0156B82B484C3726CF67BB61A8DDA83",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "raduab",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/raduab/status/729856511304998912",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "raduab",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/raduab/5193dc0b9dde2b37256b8c4ff482eca8",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bucharest"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/radu",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/radu",
+        "name": "cover"
+      }
+    ],
+    "name": "Radu"
+  },
+  "verifications": [
+    {
+      "identifier": "raduab",
+      "proof_url": "https://twitter.com/raduab/status/729856511304998912",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "raduab",
+      "proof_url": "https://gist.github.com/raduab/5193dc0b9dde2b37256b8c4ff482eca8",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN radu.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/radu.id\"\n"
+}
