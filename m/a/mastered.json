@@ -1,0 +1,57 @@
+{
+  "owner_address": "17LBJtFcbuZ5X4QPgNTWiesqn3mS58y47w",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "fabf415609781fae34b8f18764ab590282136ef8",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "3JptLdx76o4YkYch56vXcpgaJonBQcKvhx",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "none",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/eddydhermy/status/730327888877244416",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "France"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mastered",
+        "name": "avatar"
+      }
+    ],
+    "name": "MasterEd"
+  },
+  "verifications": [
+    {
+      "identifier": "none",
+      "proof_url": "https://twitter.com/eddydhermy/status/730327888877244416",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mastered.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mastered.id\"\n"
+}
