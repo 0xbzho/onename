@@ -1,0 +1,74 @@
+{
+  "owner_address": "1PoN6uWZoLjaY5zeTr6rt4iv9thSCcpF9J",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "17H2QSnmReZqHY5ew7f579yzW53KpA4SBp",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "a978a10d33498c7e14518f601475e0b7701c80a5",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bit4merchandise",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bit4merchandise/posts/155210338214525",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bitmerchandise",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bitmerchandise/e394efed529e56e472c0e8dcb550de83",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "@bit4merchandise",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bit4merchandise/status/727566776024752128",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bit4merchandise",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bit4merchandise",
+        "name": "cover"
+      }
+    ],
+    "name": "Bit4 Merchandise"
+  },
+  "verifications": [
+    {
+      "identifier": "bit4merchandise",
+      "proof_url": "https://www.facebook.com/bit4merchandise/posts/155210338214525",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "bitmerchandise",
+      "proof_url": "https://gist.github.com/bitmerchandise/e394efed529e56e472c0e8dcb550de83",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "@bit4merchandise",
+      "proof_url": "https://twitter.com/bit4merchandise/status/727566776024752128",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN bit4merchandise.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bit4merchandise.id\"\n"
+}
