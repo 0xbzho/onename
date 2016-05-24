@@ -1,0 +1,85 @@
+{
+  "owner_address": "18ZyEowQaYcK8XeQCf2979xXcfUdJ9tLph",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://mylesb.ca/uploads/0x5B423590.asc",
+        "identifier": "6720DB3C03FFDDF138387D4AA49A64DF5B423590",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mylesb",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mylesb/status/724615014213144577",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mylesbraithwaite",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mylesbraithwaite/posts/10154728543621509",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "myles",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/myles/bcc4d4a225494c870af603970c204a4b",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1778K9b9ta3N8ZVu6rp9LqUADcuR6EF82g",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Toronto"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mylesb",
+        "name": "avatar"
+      }
+    ],
+    "name": "Myles Braithwaite",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://mylesb.ca/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mylesb",
+      "proof_url": "https://twitter.com/mylesb/status/724615014213144577",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mylesbraithwaite",
+      "proof_url": "https://www.facebook.com/mylesbraithwaite/posts/10154728543621509",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "myles",
+      "proof_url": "https://gist.github.com/myles/bcc4d4a225494c870af603970c204a4b",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mylesb.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mylesb.id\"\n"
+}
