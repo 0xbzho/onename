@@ -1,0 +1,85 @@
+{
+  "owner_address": "14mXXuVwyR5iENfkcfppSSKNm3wmqtJqGb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1ARFWtJS1DWaKUdia3HaSXZquDg9Zpypby",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "PaulPWilliams",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/PaulPWilliams/status/651905464205221890",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "paulpw",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/paulpw/377f032ad8e4e16cba90",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "paulpw",
+        "service": "keybase"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/paulw#show-public",
+        "identifier": "D9FC1E5D2F62B06D379CF997AE85ED0DB28A4EEA",
+        "role": "key",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Dublin Ireland"
+    },
+    "description": "Technologist, Developer, Blockchain Professional , Partner @Chainsmiths and Principal @BitPuch",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/paul",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/paul",
+        "name": "cover"
+      }
+    ],
+    "name": "Paul Williams",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://bitpuch.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "PaulPWilliams",
+      "proof_url": "https://twitter.com/PaulPWilliams/status/651905464205221890",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "paulpw",
+      "proof_url": "https://gist.github.com/paulpw/377f032ad8e4e16cba90",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN paul.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/paul.id\"\n"
+}
