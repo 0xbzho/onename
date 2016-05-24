@@ -1,0 +1,81 @@
+{
+  "owner_address": "1GzcjWyheqHuATET7b42QRrUf2b2xXmS81",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "http://pool.sks-keyservers.net/pks/lookup?op=get&search=0x44914265865767FA",
+        "identifier": "3BD8DA6F9AF52B4AD997ADCB44914265865767FA",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "pjgreyling",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/pjgreyling/d7b535e24bd870ab5bd10c4c84b3daed",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "greylingj",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/greylingj/status/564624067530342400",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "greysouth",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/greysouthinc/posts/1070040183084297",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "NYC, USA"
+    },
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jaco",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jaco Greyling",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://greysouth.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "pjgreyling",
+      "proof_url": "https://gist.github.com/pjgreyling/d7b535e24bd870ab5bd10c4c84b3daed",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "greylingj",
+      "proof_url": "https://twitter.com/greylingj/status/564624067530342400",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "greysouth",
+      "proof_url": "https://www.facebook.com/greysouthinc/posts/1070040183084297",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jaco.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jaco.id\"\n"
+}
