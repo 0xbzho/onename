@@ -1,0 +1,67 @@
+{
+  "owner_address": "1Q4y2qpd4WqpZz8Xa4bieJZ5Ejkbm5go3A",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jllosas",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jLLOSAS/status/733720255684575232",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jLLOSAS",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jLLOSAS/810420d2dbadbaef0c96b32eeda3f88d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "juan.llosas",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/juan.llosas/posts/503312633208376",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Miami, FL"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/milkywaymasta",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/milkywaymasta",
+        "name": "cover"
+      }
+    ],
+    "name": "Juan Llosas"
+  },
+  "verifications": [
+    {
+      "identifier": "jllosas",
+      "proof_url": "https://twitter.com/jLLOSAS/status/733720255684575232",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jLLOSAS",
+      "proof_url": "https://gist.github.com/jLLOSAS/810420d2dbadbaef0c96b32eeda3f88d",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "juan.llosas",
+      "proof_url": "https://www.facebook.com/juan.llosas/posts/503312633208376",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN milkywaymasta.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/milkywaymasta.id\"\n"
+}
