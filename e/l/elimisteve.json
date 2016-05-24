@@ -1,0 +1,61 @@
+{
+  "owner_address": "1Bbabx6an29qXTH4ZhBdZQu7hgm19efo73",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "elimisteve",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/elimisteve/status/729191913224478720",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "elimisteve",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/elimisteve/dc4b6486d2584ad44522ec0a5415a705",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Santa Barbara, CA"
+    },
+    "description": "Techno-activist. Programmer. On a mission to protect every Internet user with @_cryptag_. I love democratizing forces and revolutionary projects.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/elimisteve",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/elimisteve",
+        "name": "cover"
+      }
+    ],
+    "name": "Steven Phillips",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://tryingtobeawesome.com/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "elimisteve",
+      "proof_url": "https://twitter.com/elimisteve/status/729191913224478720",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "elimisteve",
+      "proof_url": "https://gist.github.com/elimisteve/dc4b6486d2584ad44522ec0a5415a705",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN elimisteve.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/elimisteve.id\"\n"
+}
