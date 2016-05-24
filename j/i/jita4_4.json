@@ -1,0 +1,78 @@
+{
+  "owner_address": "1FpHvnNbx2cEYXJ7eg3ERnCNqbrTaMBy3B",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "2751ab3c1637b85e96f438172a50996fd18afd33",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "scytheswath",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/scytheswath/status/729864772770893826?lang=en-gb",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "scytheswath",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/scytheswath/posts/10208022035781345",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "scytheswath",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/scytheswath/c4a1d84eba91e799b450d3d8c295bfee",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1HDMAUfJdJ7f7rZz2QW27pShVxT1tnNm84",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jita4_4",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jita4_4",
+        "name": "cover"
+      }
+    ],
+    "name": "scytheswath"
+  },
+  "verifications": [
+    {
+      "identifier": "scytheswath",
+      "proof_url": "https://twitter.com/scytheswath/status/729864772770893826?lang=en-gb",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "scytheswath",
+      "proof_url": "https://www.facebook.com/scytheswath/posts/10208022035781345",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "scytheswath",
+      "proof_url": "https://gist.github.com/scytheswath/c4a1d84eba91e799b450d3d8c295bfee",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jita4_4.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jita4_4.id\"\n"
+}
