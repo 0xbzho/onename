@@ -1,0 +1,51 @@
+{
+  "owner_address": "1CoijLR8aGKD9V4dMLaEYSnYbiLhxvVcdb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/jacobberry",
+        "identifier": "0x7f02dda9db8ec861",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jacob.berry.7106",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jacob.berry.7106/posts/10154331161791549",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "berry582",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/berry582/status/730895175958958081",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jacob.berry.7106",
+      "proof_url": "https://www.facebook.com/jacob.berry.7106/posts/10154331161791549",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "berry582",
+      "proof_url": "https://twitter.com/berry582/status/730895175958958081",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jacobberry.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jacobberry.id\"\n"
+}
