@@ -1,0 +1,68 @@
+{
+  "owner_address": "1FHsHvnRcKRxvRUgfDyvn4nbnyqCy7eJWz",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "maximkott",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/maximkott/status/733744921564307456",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "maximkott",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/maximkott/9ac47ec60b560a5bb1b391d0a38dd147",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "maximkott",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/maximkott/posts/10201597092807141",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Zurich"
+    },
+    "description": "Software Engineer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/maximkott",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/maximkott",
+        "name": "cover"
+      }
+    ],
+    "name": "Maxim Kott"
+  },
+  "verifications": [
+    {
+      "identifier": "maximkott",
+      "proof_url": "https://twitter.com/maximkott/status/733744921564307456",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "maximkott",
+      "proof_url": "https://gist.github.com/maximkott/9ac47ec60b560a5bb1b391d0a38dd147",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "maximkott",
+      "proof_url": "https://www.facebook.com/maximkott/posts/10201597092807141",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN maximkott.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/maximkott.id\"\n"
+}
