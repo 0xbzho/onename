@@ -1,0 +1,69 @@
+{
+  "owner_address": "1JZ1Vhn1uYM23pbt7TS2dKzHkrrrbnsqei",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jcassee",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jcassee/status/728680012627513344",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/jcassee",
+        "identifier": "F8AEAD70673FBED1E1B6DABF8631BE41EF27ED5F",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1AntxEFFQipZq62dDpXGgrKCBFSZdn3bJH",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jcassee",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jcassee/42b6b42c9e677c6d5b2e3a3196489755",
+        "service": "github"
+      }
+    ],
+    "description": "joost@cassee.net",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jcassee",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jcassee",
+        "name": "cover"
+      }
+    ],
+    "name": "Joost Cassee",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://jcassee.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jcassee",
+      "proof_url": "https://twitter.com/jcassee/status/728680012627513344",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jcassee",
+      "proof_url": "https://gist.github.com/jcassee/42b6b42c9e677c6d5b2e3a3196489755",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jcassee.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jcassee.id\"\n"
+}
