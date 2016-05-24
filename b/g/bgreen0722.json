@@ -1,0 +1,36 @@
+{
+  "owner_address": "1FnfiYD8EX1PNGxAgrWhY6X71zqap6UDv7",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bgreen0722",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/bgreen0722",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "269c7d7b3539a9a5df1ee2bf388dc60f05464982",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bgreen0722",
+      "proof_url": "https://onename.com/bgreen0722",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN bgreen0722.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bgreen0722.id\"\n"
+}
