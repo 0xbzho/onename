@@ -1,0 +1,68 @@
+{
+  "owner_address": "15zeTo3pY7V7c38k8XncEjqdyFDHKeshGu",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "IhqTzup",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/IhqTzup/status/730387347087470592",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ihqtzup",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/IhqTzup/posts/10201687678831310",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ihqtzup",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ihqtzup/398d2f2462e2d4919a702d0fe9c0bcce",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "3DhSYKuwEv9FMKj8SEfrGkJ1Ch3KesEDAo",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ihqtzup",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ihqtzup",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "IhqTzup",
+      "proof_url": "https://twitter.com/IhqTzup/status/730387347087470592",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ihqtzup",
+      "proof_url": "https://www.facebook.com/IhqTzup/posts/10201687678831310",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "ihqtzup",
+      "proof_url": "https://gist.github.com/ihqtzup/398d2f2462e2d4919a702d0fe9c0bcce",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ihqtzup.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ihqtzup.id\"\n"
+}
