@@ -1,0 +1,54 @@
+{
+  "owner_address": "1GnG76aabrmDT1rrZkmxdVRyY3Hvvazfg2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ernestkoe",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ernestkoe/status/733253492832247809",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ernestkoe",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ernestkoe/posts/10154270938504073",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Jacksonville, FL"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ernestkoe",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ernestkoe",
+        "name": "cover"
+      }
+    ],
+    "name": "Ernest Koe"
+  },
+  "verifications": [
+    {
+      "identifier": "ernestkoe",
+      "proof_url": "https://twitter.com/ernestkoe/status/733253492832247809",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ernestkoe",
+      "proof_url": "https://www.facebook.com/ernestkoe/posts/10154270938504073",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ernestkoe.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ernestkoe.id\"\n"
+}
