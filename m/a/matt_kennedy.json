@@ -1,0 +1,42 @@
+{
+  "owner_address": "1Jbg6uPcmYdRiN5BxyKm9aFm9r1hfUCT4w",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "matt.kennedy.9484",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/matt.kennedy.9484/posts/1156839714347105?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York City"
+    },
+    "description": "Columbia Business School student. Blockchain, startups, venture capital, and... snowboarding.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/matt_kennedy",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/matt_kennedy",
+        "name": "cover"
+      }
+    ],
+    "name": "Matt Kennedy"
+  },
+  "verifications": [
+    {
+      "identifier": "matt.kennedy.9484",
+      "proof_url": "https://www.facebook.com/matt.kennedy.9484/posts/1156839714347105?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN matt_kennedy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/matt_kennedy.id\"\n"
+}
