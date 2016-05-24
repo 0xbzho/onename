@@ -1,0 +1,54 @@
+{
+  "owner_address": "1C5CrNTUrgcjdHYZfYy2vm4Yj5fZKeQ6FE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "davidlosak",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/davidlosak/f128642271be1cdec84f8f7f32644587",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1EJrKsumE2yUjLcxS5sqRwWjxGTsfYyZfD",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sankt Leon-Rot, Baden-Württemberg, Germany"
+    },
+    "description": "-",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/davidlosak",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/davidlosak",
+        "name": "cover"
+      }
+    ],
+    "name": "David Losak",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://deyw.de"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "davidlosak",
+      "proof_url": "https://gist.github.com/davidlosak/f128642271be1cdec84f8f7f32644587",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN davidlosak.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/davidlosak.id\"\n"
+}
