@@ -1,0 +1,64 @@
+{
+  "owner_address": "1GwB7nBspo3NV2u28LbX8H6sh3at4WCgnW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ml_images",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ml_images/status/731525462619492352",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "oufdu75",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/oufdu75/posts/10154151096584253",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mluczak",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mluczak/5fa9aa05525dda93186a875269e4ccae",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1H8LYZ9n7DAU4FK8vTG46eCJ4RkrHk2PqU",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Michel 'ic' Luczak"
+  },
+  "verifications": [
+    {
+      "identifier": "ml_images",
+      "proof_url": "https://twitter.com/ml_images/status/731525462619492352",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "oufdu75",
+      "proof_url": "https://www.facebook.com/oufdu75/posts/10154151096584253",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "mluczak",
+      "proof_url": "https://gist.github.com/mluczak/5fa9aa05525dda93186a875269e4ccae",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN oufdu75.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/oufdu75.id\"\n"
+}
