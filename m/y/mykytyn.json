@@ -1,0 +1,60 @@
+{
+  "owner_address": "19mpnfe8Qr3Po7GU5B32rzQmWxPiK4DBiR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mykytyn",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mykytyn/status/727877449959231489",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "15snh7Ahz3nRPz2gcN9NKgWAr437ATvXRC",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dennis.mykytyn",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dennis.mykytyn/posts/10102815484857571",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "NYC"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mykytyn",
+        "name": "avatar"
+      }
+    ],
+    "name": "Dennis Mykytyn"
+  },
+  "verifications": [
+    {
+      "identifier": "mykytyn",
+      "proof_url": "https://twitter.com/mykytyn/status/727877449959231489",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "dennis.mykytyn",
+      "proof_url": "https://www.facebook.com/dennis.mykytyn/posts/10102815484857571",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mykytyn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mykytyn.id\"\n"
+}
