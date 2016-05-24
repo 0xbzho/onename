@@ -1,0 +1,59 @@
+{
+  "owner_address": "1QK4V3Rw2rw5B1ENUWZ6trkMUvLQo6PRzT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "JerryLerman",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JerryLerman/status/729143351123927040",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jerry.lerman",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jerry.lerman/posts/10208364696051523",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "16be914e4ad7735312f1920d3e985df54c6f3ae4",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brookline MA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jerry_lerman",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jerry Lerman"
+  },
+  "verifications": [
+    {
+      "identifier": "JerryLerman",
+      "proof_url": "https://twitter.com/JerryLerman/status/729143351123927040",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jerry.lerman",
+      "proof_url": "https://www.facebook.com/jerry.lerman/posts/10208364696051523",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jerry_lerman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jerry_lerman.id\"\n"
+}
