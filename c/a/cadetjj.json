@@ -1,0 +1,85 @@
+{
+  "owner_address": "1NfYUCyuwBJCxVZe1MYnSdn4S3Ri86CZQJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cadetjj",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cadetjj/status/732845548865224704",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cadetjj",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/cadetjj/c922ae07c6589d743058b9713a591c33",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1FKgfR3f9TjMbSwhacreMvcRVyAUkhCdAY",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cadetjj",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/cadetjj/posts/1249414521743289",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/cadetjj",
+        "identifier": "9B82CB5A",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Parmain"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cadetjj",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jean-jacques Cadet",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://onename.com/cadetjj"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "cadetjj",
+      "proof_url": "https://twitter.com/cadetjj/status/732845548865224704",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "cadetjj",
+      "proof_url": "https://gist.github.com/cadetjj/c922ae07c6589d743058b9713a591c33",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "cadetjj",
+      "proof_url": "https://www.facebook.com/cadetjj/posts/1249414521743289",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN cadetjj.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cadetjj.id\"\n"
+}
