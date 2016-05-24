@@ -1,0 +1,36 @@
+{
+  "owner_address": "15hsYwBwukNWoozdVaoDqGv6RTCKM92ct5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "coruthers",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/coruthers/status/730093950434947072",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Aberystwyth"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jamie Harris"
+  },
+  "verifications": [
+    {
+      "identifier": "coruthers",
+      "proof_url": "https://twitter.com/coruthers/status/730093950434947072",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jamieharris.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jamieharris.id\"\n"
+}
