@@ -1,0 +1,44 @@
+{
+  "owner_address": "1BR8mF45JN3wC7E7q52RQnwy9yGx7XedGT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "82936d57cd457c844d9be6b00f1cac3efed5d01e",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "14WH3D7hcwbD5FEMd676Y1iUgyMBkxq6cq",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Fontana, California, United States."
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/redornafashion",
+        "name": "avatar"
+      }
+    ],
+    "name": "Red Orna Fashion",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.redorna.com"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN redornafashion.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/redornafashion.id\"\n"
+}
