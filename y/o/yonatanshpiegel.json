@@ -1,0 +1,54 @@
+{
+  "owner_address": "1JEqkspdpbLQksW4xjbHZtCCFjfHp59YgS",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "yonatan.shpiegel",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/yonatan.shpiegel/posts/10154839648729115?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "yonatansh",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/yonatansh/status/727888412393508864",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chicago"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/yonatanshpiegel",
+        "name": "avatar"
+      }
+    ],
+    "name": "Yonatan Shpiegel"
+  },
+  "verifications": [
+    {
+      "identifier": "yonatan.shpiegel",
+      "proof_url": "https://www.facebook.com/yonatan.shpiegel/posts/10154839648729115?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "yonatansh",
+      "proof_url": "https://twitter.com/yonatansh/status/727888412393508864",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN yonatanshpiegel.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/yonatanshpiegel.id\"\n"
+}
