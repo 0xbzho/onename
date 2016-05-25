@@ -1,0 +1,49 @@
+{
+  "owner_address": "131QAr96fjb8nz99MwDhMRdftpFJaEiAA3",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "selfieid",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/selfieid/status/732261591161393152",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https://www.facebook.com/Selfie-ID-1489804327932282/",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/20531316728/posts/10154009990506729/",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/selfie",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "selfieid",
+      "proof_url": "https://twitter.com/selfieid/status/732261591161393152",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "https://www.facebook.com/Selfie-ID-1489804327932282/",
+      "proof_url": "https://www.facebook.com/20531316728/posts/10154009990506729/",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN selfie.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/selfie.id\"\n"
+}
