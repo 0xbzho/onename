@@ -1,0 +1,39 @@
+{
+  "owner_address": "1F3FewZ8nJMPo3UDnC4Aw7JgQbcpCQaLMX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "64c4a794755a140327c124dc36d92929e457ff66",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Fukuoka, Japan"
+    },
+    "description": "Your on-demand travel agent team.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/travel_wins",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/travel_wins",
+        "name": "avatar"
+      }
+    ],
+    "name": "Travel Wins",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://travel-wins.com"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN travel_wins.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/travel_wins.id\"\n"
+}
