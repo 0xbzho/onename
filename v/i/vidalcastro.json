@@ -1,0 +1,48 @@
+{
+  "owner_address": "12wZQuQLocxV5keHA3CYkxVVJrDbaXtCPe",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "136t5rhv1ZiQnhFXJj1GEB1513Wi7kdrno",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/2866d87de97c3c57c96dd7bee9169d81",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ca52289880281b624dc3057fa7d0a24af8c49d2a",
+        "service": "open bazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/vidalcastro",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Mr Castro"
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/2866d87de97c3c57c96dd7bee9169d81",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN vidalcastro.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vidalcastro.id\"\n"
+}
