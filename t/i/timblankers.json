@@ -1,0 +1,75 @@
+{
+  "owner_address": "1LLdVHfWwh3E8cZq3XcNTA2WAsL4YEfJVq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1F3seZ9XCPnTBZoBtaknVgRxXZHxWknGSN",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "timblankers",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/timblankers/f98beda53e8a6d40ed1d0f8f2324b1c1",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tim.blankers",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/tim.blankers/posts/10209081700220904",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tblankers",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tblankers/status/728317753589940224",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Utrecht"
+    },
+    "description": "Blockchain Enthusiast",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Tim Blankers",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.timblankers.nl"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "timblankers",
+      "proof_url": "https://gist.github.com/timblankers/f98beda53e8a6d40ed1d0f8f2324b1c1",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "tim.blankers",
+      "proof_url": "https://www.facebook.com/tim.blankers/posts/10209081700220904",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "tblankers",
+      "proof_url": "https://twitter.com/tblankers/status/728317753589940224",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN timblankers.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/timblankers.id\"\n"
+}
