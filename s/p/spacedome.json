@@ -1,0 +1,44 @@
+{
+  "owner_address": "17GwrQ1DWpyYYCNYDyCiBuNzNx9rKXiAsK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "spacedome",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/spacedome/021083613b2dd02ec36b48b57eaafd29",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "spacedome_",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/spacedome_/status/733327458288697344",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "spacedome",
+      "proof_url": "https://gist.github.com/spacedome/021083613b2dd02ec36b48b57eaafd29",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "spacedome_",
+      "proof_url": "https://twitter.com/spacedome_/status/733327458288697344",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN spacedome.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/spacedome.id\"\n"
+}
