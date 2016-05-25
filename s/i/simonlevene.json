@@ -1,0 +1,68 @@
+{
+  "owner_address": "1JJ8pB9QpDkXYrgGiM8Ld7JyovNtyVJZVj",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "slevene",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/slevene/status/728268020066484225",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "<script src=\"slevene",
+        "proofType": "http",
+        "proofUrl": "<script src=\"https://gist.github.com/slevene/49ad04ca954ea3cced725b38463ea907.js\"></script>",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "slevene",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/20531316728/posts/10154009990506729/",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "london uk"
+    },
+    "description": "http://www.mosaicventures.com/simon-levene",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/simonlevene",
+        "name": "avatar"
+      }
+    ],
+    "name": "simon levene"
+  },
+  "verifications": [
+    {
+      "identifier": "slevene",
+      "proof_url": "https://twitter.com/slevene/status/728268020066484225",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "<script src=\"slevene",
+      "proof_url": "<script src=\"https://gist.github.com/slevene/49ad04ca954ea3cced725b38463ea907.js\"></script>",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "slevene",
+      "proof_url": "https://www.facebook.com/20531316728/posts/10154009990506729/",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN simonlevene.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/simonlevene.id\"\n"
+}
