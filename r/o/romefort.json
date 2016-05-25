@@ -1,0 +1,62 @@
+{
+  "owner_address": "1MxSNVQU476JQo2qieqde4B8xPjBG1jxu7",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "romefort",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/romefort/status/730875642313617408",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "romefort",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/romefort/3d36efc6d33a1d7c2bb3d41f5027e3fe",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "romefort",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/romefort/posts/10154176216959439",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/romefort",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "romefort",
+      "proof_url": "https://twitter.com/romefort/status/730875642313617408",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "romefort",
+      "proof_url": "https://gist.github.com/romefort/3d36efc6d33a1d7c2bb3d41f5027e3fe",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "romefort",
+      "proof_url": "https://www.facebook.com/romefort/posts/10154176216959439",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN romefort.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/romefort.id\"\n"
+}
