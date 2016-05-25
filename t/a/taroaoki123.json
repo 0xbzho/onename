@@ -1,0 +1,44 @@
+{
+  "owner_address": "15zBFkGj6kDMqGLNSCHB5ncc4DYyArgba5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "taro.aoki.90",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/taro.aoki.90?fref=nf&pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "taroaoki123",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/taroaoki123/status/728636443644538884",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "taro.aoki.90",
+      "proof_url": "https://www.facebook.com/taro.aoki.90?fref=nf&pnref=story",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "taroaoki123",
+      "proof_url": "https://twitter.com/taroaoki123/status/728636443644538884",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN taroaoki123.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/taroaoki123.id\"\n"
+}
