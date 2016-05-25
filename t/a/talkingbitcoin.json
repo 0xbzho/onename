@@ -1,0 +1,38 @@
+{
+  "owner_address": "1E93PdcQiDnBJN8JTc3VZvakVHPX6dLcuP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "talkingbitcoin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/talkingbitcoin/status/730085334105522176",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Talking Bitcoin",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://talkingbitcoin.org"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "talkingbitcoin",
+      "proof_url": "https://twitter.com/talkingbitcoin/status/730085334105522176",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN talkingbitcoin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/talkingbitcoin.id\"\n"
+}
