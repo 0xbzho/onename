@@ -1,0 +1,48 @@
+{
+  "owner_address": "1MF1ewiySB4WwkQqgaqPinV6NLtM5Smn4Q",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "19xdgXdqbtkaZ7yRqqqL6HCy76Abck4yBa",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Solidesco-inc-613876505416438/",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/solidesco&redirect_uri=https://onename.com/solidesco%23facebook",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Canada"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Francois Ayotte",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.solidesco.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Solidesco-inc-613876505416438/",
+      "proof_url": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/solidesco&redirect_uri=https://onename.com/solidesco%23facebook",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN solidesco.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/solidesco.id\"\n"
+}
