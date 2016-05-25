@@ -1,0 +1,36 @@
+{
+  "owner_address": "16m8dQDHWfc5xqHKXQSxR5Z9dptoZ9REcs",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "thebadprince",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TheBadPrince/status/731611974811942916",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/thebadprince",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "thebadprince",
+      "proof_url": "https://twitter.com/TheBadPrince/status/731611974811942916",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN thebadprince.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/thebadprince.id\"\n"
+}
