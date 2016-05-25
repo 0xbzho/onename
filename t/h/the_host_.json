@@ -1,0 +1,72 @@
+{
+  "owner_address": "1QF1sHa6qoyWvV8Lo3RPg88zuLRRUFcVtm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "de909999013fb2ecde3253df1c9cf383775d297d",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "the.host.liveaboard",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/The.Host.Liveaboard/posts/10154073582983654?qsefr=1",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1EgWjGKofTM8Cwzdc7shbxntrCK9wPu9uk",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "The_Host_",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/The_Host_/status/734721452369313794",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Gulf of Honduras"
+    },
+    "description": "Liveaboard @ Belize, Guatemala and Honduras",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/the_host_",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/the_host_",
+        "name": "cover"
+      }
+    ],
+    "name": "The Host Liveaboard",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.serviciosnavalesdelrio.blogspot.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "the.host.liveaboard",
+      "proof_url": "https://www.facebook.com/The.Host.Liveaboard/posts/10154073582983654?qsefr=1",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "The_Host_",
+      "proof_url": "https://twitter.com/The_Host_/status/734721452369313794",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN the_host_.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/the_host_.id\"\n"
+}
