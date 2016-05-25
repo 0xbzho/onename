@@ -1,0 +1,58 @@
+{
+  "owner_address": "1K71x7ZRdft8ETAnaJTb4WNaZ9CDNnPd4s",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "shawn.mishler.3",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/shawn.mishler.3%2Fposts%2F10154877739404115",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "smishler",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/smishler/status/733267827113627648",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "smishler",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/smishler/b5a3b51b7badc0c2bc16c6297287dd29",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Shawn Mishler"
+  },
+  "verifications": [
+    {
+      "identifier": "shawn.mishler.3",
+      "proof_url": "https://www.facebook.com/shawn.mishler.3%2Fposts%2F10154877739404115",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "smishler",
+      "proof_url": "https://twitter.com/smishler/status/733267827113627648",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "smishler",
+      "proof_url": "https://gist.github.com/smishler/b5a3b51b7badc0c2bc16c6297287dd29",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN smishler.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/smishler.id\"\n"
+}
