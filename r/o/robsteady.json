@@ -1,0 +1,80 @@
+{
+  "owner_address": "15CNUpfnpCWdFGq2hj53KBXoYTL1Q2U1DZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "18uzRvSGvaPG6SdBYawkRF5DtPmRb9y1qJ",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Robsteady",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Robsteady/status/732640838224904192",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "robsteady",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/robsteady/13a3dceb931361a6c319b01295aff108",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "AnarchoMennonite",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/AnarchoMennonite/posts/10154208234733464",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Wayne, NJ"
+    },
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/robsteady",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "R. Samuel Tiedemann",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://robsteady.wordpress.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Robsteady",
+      "proof_url": "https://twitter.com/Robsteady/status/732640838224904192",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "robsteady",
+      "proof_url": "https://gist.github.com/robsteady/13a3dceb931361a6c319b01295aff108",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "AnarchoMennonite",
+      "proof_url": "https://www.facebook.com/AnarchoMennonite/posts/10154208234733464",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN robsteady.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/robsteady.id\"\n"
+}
