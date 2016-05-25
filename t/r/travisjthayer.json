@@ -1,0 +1,44 @@
+{
+  "owner_address": "1GFYTePadHW2c2geRfCocMzgHJQgnogw7c",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "travis.thayer",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/travis.thayer/posts/10156826377340487",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "travisjthayer",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/travisjthayer/status/728238246833065986",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "travis.thayer",
+      "proof_url": "https://www.facebook.com/travis.thayer/posts/10156826377340487",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "travisjthayer",
+      "proof_url": "https://twitter.com/travisjthayer/status/728238246833065986",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN travisjthayer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/travisjthayer.id\"\n"
+}
