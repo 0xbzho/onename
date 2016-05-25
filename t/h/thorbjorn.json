@@ -1,0 +1,57 @@
+{
+  "owner_address": "19gRNR2DZ2mkh3fusEBkpchkwUasKwARk9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "thorbjorn81",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bjorn",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1JkyEKstCjk6giM3GagQdjAUvQcc3ZaYcu",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "11d6f676de4334a9f6155e869dd84c4abb8d9844",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Erkrath, Germany"
+    },
+    "description": "Software Engineer specialized in Qt/C++, Flex and Lua",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/thorbjorn",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Thorbjørn Lindeijer",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://bjorn.lindeijer.nl/"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN thorbjorn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/thorbjorn.id\"\n"
+}
