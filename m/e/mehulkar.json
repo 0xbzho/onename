@@ -1,6 +1,44 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1K78rbFr3NJ8n6hnyaBcD4rKh5jbVh4za2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mehulkar",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mehulkar/status/734859836291059712",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mehulkar",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mehulkar/0c54b59d0437e0a3b09dae6048e67d4e",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mehulkar",
+      "proof_url": "https://twitter.com/mehulkar/status/734859836291059712",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mehulkar",
+      "proof_url": "https://gist.github.com/mehulkar/0c54b59d0437e0a3b09dae6048e67d4e",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mehulkar.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mehulkar.id\"\n"
 }
