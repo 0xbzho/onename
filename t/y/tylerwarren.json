@@ -1,0 +1,54 @@
+{
+  "owner_address": "1CbmcsXeQJTXcTDcqq7i4zq87vNYaqbFtT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jamestylerwarren",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jamestylerwarren/d4bd965737657066648b7043eff4e86f",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jtylerwarren",
+        "proofType": "http",
+        "proofUrl": "https://mobile.twitter.com/jtylerwarren/status/728246845223243776",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Antonio, TX"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tylerwarren",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/tylerwarren",
+        "name": "cover"
+      }
+    ],
+    "name": "Tyler Warren"
+  },
+  "verifications": [
+    {
+      "identifier": "jamestylerwarren",
+      "proof_url": "https://gist.github.com/jamestylerwarren/d4bd965737657066648b7043eff4e86f",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jtylerwarren",
+      "proof_url": "https://mobile.twitter.com/jtylerwarren/status/728246845223243776",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tylerwarren.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tylerwarren.id\"\n"
+}
