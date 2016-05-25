@@ -1,0 +1,72 @@
+{
+  "owner_address": "1DNMcXZbLniJakzAzt41GVsXCJwpkoYFE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "profile.php?id=100011789135217",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "BazaarVintage",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BazaarVintage/status/730301019662471168",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1Kv9bqfWzfWDx4JnQJYhV2SKKt1iDUvUiQ",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/2b673790cdbb912eb2e294b635742839",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "d5e3a40cdf21661eb7fbc25d8044f2a7bab9c6e2",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Slovakia"
+    },
+    "description": "Over 10 year's experience of selling online. Running several eBay stores with fantastic feedback. You can message me on ebay, user: \"thevintagedude\" and \"vintage_fashion_clothing\".  Rest assured when buying any items from my open bazaar store \"vintage_fashion_bazaar\" they will arrive and you will be one very happy customer.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/vintage_fashion_bazaar",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/vintage_fashion_bazaar",
+        "name": "avatar"
+      }
+    ],
+    "name": "Felix gale"
+  },
+  "verifications": [
+    {
+      "identifier": "BazaarVintage",
+      "proof_url": "https://twitter.com/BazaarVintage/status/730301019662471168",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/2b673790cdbb912eb2e294b635742839",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN vintage_fashion_bazaar.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vintage_fashion_bazaar.id\"\n"
+}
