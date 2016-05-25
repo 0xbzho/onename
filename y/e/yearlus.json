@@ -1,0 +1,57 @@
+{
+  "owner_address": "1kZ7WiuvZQghWePisgWycU9eSZ7bJ7HXo",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/yearlus",
+        "identifier": "4AE6FC1F1DA07335BAAA58F564CC3A24B1B9CA52",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "salopst",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/salopst/status/730666838519087104",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1LKau3T4r1x2kPFe6GhjR1SMKW7nGuDDtY",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "centzon400",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/centzon400/41d0efb8707c6db4120e363a9acfd35b",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Stephen Yearl"
+  },
+  "verifications": [
+    {
+      "identifier": "salopst",
+      "proof_url": "https://twitter.com/salopst/status/730666838519087104",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "centzon400",
+      "proof_url": "https://gist.github.com/centzon400/41d0efb8707c6db4120e363a9acfd35b",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN yearlus.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/yearlus.id\"\n"
+}
