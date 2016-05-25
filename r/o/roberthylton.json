@@ -1,0 +1,54 @@
+{
+  "owner_address": "1EmoHsCTvLr24tJFn5P8McgHXxnfSe7p1p",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rhylton",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rhylton/5e0ec5a120cd3d9ce06b1a1b2358f8ed",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rhylton",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rhylton/status/728099263498981376",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco, CA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/roberthylton",
+        "name": "avatar"
+      }
+    ],
+    "name": "Robert Hylton"
+  },
+  "verifications": [
+    {
+      "identifier": "rhylton",
+      "proof_url": "https://gist.github.com/rhylton/5e0ec5a120cd3d9ce06b1a1b2358f8ed",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "rhylton",
+      "proof_url": "https://twitter.com/rhylton/status/728099263498981376",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN roberthylton.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/roberthylton.id\"\n"
+}
