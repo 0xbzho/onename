@@ -1,0 +1,54 @@
+{
+  "owner_address": "1G5SGYgNWGNJwDd1guZKxyNpzpJKxnZboF",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rmvanderdrift",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rmvanderdrift/status/728874129131225088",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1F8koF2TEAaYRX5fAnVUjAa3Zti9UaJfLC",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Amsterdam, The Netherlands"
+    },
+    "description": "Tech Entrepreneur & Strong Authentication Expert",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/reiniervdd",
+        "name": "avatar"
+      }
+    ],
+    "name": "Reinier van der Drift",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.fergil.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "rmvanderdrift",
+      "proof_url": "https://twitter.com/rmvanderdrift/status/728874129131225088",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN reiniervdd.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/reiniervdd.id\"\n"
+}
