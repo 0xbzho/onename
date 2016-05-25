@@ -1,0 +1,55 @@
+{
+  "owner_address": "1Jo5TP7gr3vK36vDkqkzYon1qaW2ViqcBq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tera_jav",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tera_jav/status/732910542776500225",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "16nA8YkYjJr4odqEpRZaELqQiAKje8mW96",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tera3",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tera3/753c6eb7aeea83684e43eda96ce4f53e",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Tokyo, Japan"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Takehiro Terada"
+  },
+  "verifications": [
+    {
+      "identifier": "tera_jav",
+      "proof_url": "https://twitter.com/tera_jav/status/732910542776500225",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "tera3",
+      "proof_url": "https://gist.github.com/tera3/753c6eb7aeea83684e43eda96ce4f53e",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tera_jav.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tera_jav.id\"\n"
+}
