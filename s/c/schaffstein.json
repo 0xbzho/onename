@@ -1,0 +1,73 @@
+{
+  "owner_address": "1AxTXDhKVaZk3UmJYFjYXNAb9RG4x3jgt",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "schaffstein",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/schaffstein/status/734700674223636480",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "schaffstein",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/schaffstein/posts/1406893052670232",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "schaffstein",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/schaffstein/92c758b0449b6801eb964905fd6fe0af",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/schaffstein",
+        "identifier": "6CAE02AB0DBAC6E7CB16F796531BED4E23C82A55",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Germany"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/schaffstein",
+        "name": "avatar"
+      }
+    ],
+    "name": "Søren Schaffstein"
+  },
+  "verifications": [
+    {
+      "identifier": "schaffstein",
+      "proof_url": "https://twitter.com/schaffstein/status/734700674223636480",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "schaffstein",
+      "proof_url": "https://www.facebook.com/schaffstein/posts/1406893052670232",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "schaffstein",
+      "proof_url": "https://gist.github.com/schaffstein/92c758b0449b6801eb964905fd6fe0af",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN schaffstein.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/schaffstein.id\"\n"
+}
