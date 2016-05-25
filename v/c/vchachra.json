@@ -1,0 +1,61 @@
+{
+  "owner_address": "1GdmnEBfpe4keBzKwH35gNP6RPUGj9HQXF",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "lemonandice",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/lemonandice/status/729277945429233664",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "vik.chachra",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/vchachra&redirect_uri=https://onename.com/vchachra%23facebook",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mumbai, India"
+    },
+    "description": "Seed Investor: Carwale.com, EzeTap, Ressy, LetsVenture, Online Tyari, Pennar PEBs",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/vchachra",
+        "name": "avatar"
+      }
+    ],
+    "name": "Vikram Chachra",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://in.linkedin.com/in/vchachra"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "lemonandice",
+      "proof_url": "https://twitter.com/lemonandice/status/729277945429233664",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "vik.chachra",
+      "proof_url": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/vchachra&redirect_uri=https://onename.com/vchachra%23facebook",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN vchachra.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vchachra.id\"\n"
+}
