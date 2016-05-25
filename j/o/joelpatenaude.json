@@ -1,59 +1,60 @@
 {
   "owner_address": "1HJef4ZS6BVDu84UnfFZqwAETdZrLwmrpS",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/joelpatenaude"
-    },
-    "bio": "Mobile Financial Services, Identity & Trust in Emerging Markets",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/joelpatenaude"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/joel.patenaude.58/posts/754560117945163"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "J2Partners",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "joel.patenaude.58"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/joelpatenaude/bcdd12536cc033b0e0fb#file-onename"
+      {
+        "@type": "Account",
+        "identifier": "joelpatenaude",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "joelpatenaude"
+      {
+        "@type": "Account",
+        "identifier": "joel.patenaude.58",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/joel.patenaude.58/posts/1024803494254156?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New Jersey"
     },
-    "location": {
-      "formatted": "New Jersey"
-    },
-    "name": {
-      "formatted": "Joel@J2 Partners"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/J2Partners/status/537336189057916928"
+    "description": "Mobile Financial Services, Identity & Trust in Emerging Markets",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/joelpatenaude",
+        "name": "avatar"
       },
-      "username": "J2Partners"
-    },
-    "v": "0.2",
-    "website": "https://twitter.com/J2Partners"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/joelpatenaude",
+        "name": "cover"
+      }
+    ],
+    "name": "Joel@J2 Partners",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://twitter.com/J2Partners"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "joelpatenaude",
-      "proof_url": "https://gist.github.com/joelpatenaude/bcdd12536cc033b0e0fb#file-onename",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "J2Partners",
-      "proof_url": "https://twitter.com/J2Partners/status/537336189057916928",
-      "service": "twitter",
-      "valid": true
-    },
-    {
       "identifier": "joel.patenaude.58",
-      "proof_url": "https://facebook.com/joel.patenaude.58/posts/754560117945163",
+      "proof_url": "https://www.facebook.com/joel.patenaude.58/posts/1024803494254156?pnref=story",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN joelpatenaude.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/joelpatenaude.id\"\n"
 }
