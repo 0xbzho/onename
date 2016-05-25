@@ -1,0 +1,73 @@
+{
+  "owner_address": "19x9A3sTfcgjXqpNQQ6Mwm62hBCjKW19rD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "yingchauhuang",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/yingchauhuang/status/734655578891386880",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "yingchauhuang",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/yingchauhuang/a6aefa2d0dba387a6e303011560fe06d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "yingchauhuang",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/yingchauhuang/posts/10153735067318163",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Taipei, Taiwan, R.O.C."
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/yc_huang",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/yc_huang",
+        "name": "cover"
+      }
+    ],
+    "name": "Ying-Chau Huang",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.facebook.com/yingchauhuang"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "yingchauhuang",
+      "proof_url": "https://twitter.com/yingchauhuang/status/734655578891386880",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "yingchauhuang",
+      "proof_url": "https://gist.github.com/yingchauhuang/a6aefa2d0dba387a6e303011560fe06d",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "yingchauhuang",
+      "proof_url": "https://www.facebook.com/yingchauhuang/posts/10153735067318163",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN yc_huang.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/yc_huang.id\"\n"
+}
