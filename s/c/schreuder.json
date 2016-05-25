@@ -1,0 +1,47 @@
+{
+  "owner_address": "1DK74QnC43egz76wxDEXdj5FNgT8GEjxt",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "PaulSchreuder",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/PaulSchreuder/status/729596936999870464",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Johannesburg, South Africa"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/schreuder",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/schreuder",
+        "name": "cover"
+      }
+    ],
+    "name": "Paul Schreuder",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://phlo.co.za"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "PaulSchreuder",
+      "proof_url": "https://twitter.com/PaulSchreuder/status/729596936999870464",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN schreuder.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/schreuder.id\"\n"
+}
