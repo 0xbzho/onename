@@ -1,0 +1,54 @@
+{
+  "owner_address": "14XH8kzhTwFbs5TTfyj6CXBd9vQNVNkJBr",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "telerost",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/telerost/status/734308065844056064",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "telerost",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/telerost/posts/10154106520594976?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Stanford"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/telerost",
+        "name": "avatar"
+      }
+    ],
+    "name": "Rostislav Shorgin"
+  },
+  "verifications": [
+    {
+      "identifier": "telerost",
+      "proof_url": "https://twitter.com/telerost/status/734308065844056064",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "telerost",
+      "proof_url": "https://www.facebook.com/telerost/posts/10154106520594976?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN telerost.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/telerost.id\"\n"
+}
