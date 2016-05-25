@@ -1,0 +1,65 @@
+{
+  "owner_address": "1H89a1AughvEKcXqnHbjiJDN5H6ZHr7Us1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "a7ae8269ad1da95f18a17a307a1798f4586bc548",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "16eQztZTm5hD22pKGQLJ9vFmSuMYGwJZVH",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "vrafaeli",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/vrafaeli/status/726253613786386432",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "vrafaeli",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/vrafaeli/posts/10207179564702412",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Jakarta, ID"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/vrafaeli",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/vrafaeli",
+        "name": "cover"
+      }
+    ],
+    "name": "Vincent Rafaeli"
+  },
+  "verifications": [
+    {
+      "identifier": "vrafaeli",
+      "proof_url": "https://twitter.com/vrafaeli/status/726253613786386432",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "vrafaeli",
+      "proof_url": "https://www.facebook.com/vrafaeli/posts/10207179564702412",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN vrafaeli.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vrafaeli.id\"\n"
+}
