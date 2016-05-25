@@ -1,0 +1,67 @@
+{
+  "owner_address": "1PhuDPiXtWDUZ64vg4WAHUiF6qgz3raeXV",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ton_zylstra",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tonzyl",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/tonzijlstra",
+        "identifier": "2AC12B7444AC6FB7DACC6FCFE865E278B3A0124E",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tonzijlstra",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/tonzijlstra/posts/10153336016532957",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Netherlands"
+    },
+    "description": "Change, complexity, #opendata, #opengov, FabLab, Making, #IoT, learning, communities of practice, philosophy of technology",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tonzijlstra",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ton Zijlstra",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.zylstra.org/blog"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tonzijlstra",
+      "proof_url": "https://www.facebook.com/tonzijlstra/posts/10153336016532957",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tonzijlstra.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tonzijlstra.id\"\n"
+}
