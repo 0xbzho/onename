@@ -1,0 +1,42 @@
+{
+  "owner_address": "1BXMfyeRexg227jYpSFtptMX1XLrnWyuhk",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "zan-kusterle",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/zan-kusterle/0e1c3e07d765e69bbfdc942aff72178b",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "159c350243e3d13302245842a73489be29f96568",
+        "service": "democracy"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Logatec, Slovenia"
+    },
+    "description": "Software Developer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Zan Kusterle"
+  },
+  "verifications": [
+    {
+      "identifier": "zan-kusterle",
+      "proof_url": "https://gist.github.com/zan-kusterle/0e1c3e07d765e69bbfdc942aff72178b",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN zankusterle1.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/zankusterle1.id\"\n"
+}
