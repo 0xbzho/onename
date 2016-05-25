@@ -1,0 +1,87 @@
+{
+  "owner_address": "1MwXF6cbuDDZCT2W4vGGYLKxgGqU85QJcY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "15HwcURNiqEw45wvhgy3ZjCtAgEXYrdP8G",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/rmednitzer/key.asc",
+        "identifier": "148A67FA6808E9D57C55DB3287D9F518B5E8D272",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rmednitzer",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rmednitzer/status/727465646171238400",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rmednitzer",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/rmednitzer/posts/10208126758160072",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rmednitzer",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rmednitzer/6744bffda81fbf24bec3",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Salzburg, Austria"
+    },
+    "description": "Information Systems Administrator",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rmednitzer",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rmednitzer",
+        "name": "avatar"
+      }
+    ],
+    "name": "Roman Mednitzer",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://keybase.io/rmednitzer"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "rmednitzer",
+      "proof_url": "https://twitter.com/rmednitzer/status/727465646171238400",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "rmednitzer",
+      "proof_url": "https://www.facebook.com/rmednitzer/posts/10208126758160072",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "rmednitzer",
+      "proof_url": "https://gist.github.com/rmednitzer/6744bffda81fbf24bec3",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rmednitzer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rmednitzer.id\"\n"
+}
