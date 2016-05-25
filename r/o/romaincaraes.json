@@ -1,0 +1,75 @@
+{
+  "owner_address": "1HbCEUDMWQc5iRCefvu5MZVjf8aFk2ptZF",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "romaincaraes",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/romaincaraes/status/695232980357349380",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "romaincaraes",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/romaincaraes/2480d103ed619cdb33ef",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "romaincaraes",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/romaincaraes/posts/10208160640506500",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1NAhJPBBiboALTbq1fabxgHyV2LyoqcFW4",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "France"
+    },
+    "description": "Finance Student",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/romaincaraes",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/romaincaraes",
+        "name": "cover"
+      }
+    ],
+    "name": "Romain Caraës",
+    "website": []
+  },
+  "verifications": [
+    {
+      "identifier": "romaincaraes",
+      "proof_url": "https://twitter.com/romaincaraes/status/695232980357349380",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "romaincaraes",
+      "proof_url": "https://gist.github.com/romaincaraes/2480d103ed619cdb33ef",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "romaincaraes",
+      "proof_url": "https://www.facebook.com/romaincaraes/posts/10208160640506500",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN romaincaraes.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/romaincaraes.id\"\n"
+}
