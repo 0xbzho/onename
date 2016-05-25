@@ -1,0 +1,60 @@
+{
+  "owner_address": "14gFAjTvGwuQsZx5ABkyVCFen4zDXpeZwx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "12MNy62f9YzUkYFrJHdvCoN2KN5ExVo1U7",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "TenDot4",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/TenDot4/685986a2f2abe17a85c325c9257f8ca3",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tendot4",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tendot4/status/728729678681362432",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "United States"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tendot4",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/tendot4",
+        "name": "cover"
+      }
+    ],
+    "name": "Abdias Vidal"
+  },
+  "verifications": [
+    {
+      "identifier": "TenDot4",
+      "proof_url": "https://gist.github.com/TenDot4/685986a2f2abe17a85c325c9257f8ca3",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "tendot4",
+      "proof_url": "https://twitter.com/tendot4/status/728729678681362432",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tendot4.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tendot4.id\"\n"
+}
