@@ -1,0 +1,32 @@
+{
+  "owner_address": "12GUn2CYcJcTLoTD5tCQmmiaQWRQGyKufM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "11174e27ff042edc06d49709dddb43afb13dde89",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Australia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/techbazaar",
+        "name": "avatar"
+      }
+    ],
+    "name": "TechBazaar"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN techbazaar.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/techbazaar.id\"\n"
+}
