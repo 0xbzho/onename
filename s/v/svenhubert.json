@@ -1,0 +1,54 @@
+{
+  "owner_address": "131amG5N43aHXu8HYSWF5knsyZvXs9TS3p",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "svobi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Svobi/status/731133477362499585",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Svobi",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Svobi/83e442d7bf3c84b8379026be87a438fa",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "München"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/svenhubert",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/svenhubert",
+        "name": "cover"
+      }
+    ],
+    "name": "Sven Hubert"
+  },
+  "verifications": [
+    {
+      "identifier": "svobi",
+      "proof_url": "https://twitter.com/Svobi/status/731133477362499585",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Svobi",
+      "proof_url": "https://gist.github.com/Svobi/83e442d7bf3c84b8379026be87a438fa",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN svenhubert.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/svenhubert.id\"\n"
+}
