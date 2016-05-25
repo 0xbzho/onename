@@ -1,0 +1,55 @@
+{
+  "owner_address": "1HaerJKTLHvCTNW3ta1C2y6eG6RjWEV4P5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1N3Mw665mtnhen9XkBsbM2ams9jKjEE5bY",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "queentatiana",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/queentatiana/status/725024544101130240",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "0f143452601e09701378190c98d6e516c54f89d7",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tatianamoroz",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/tatiana.moroz/posts/10153592901998595?comment_id=10153592952903595&notif_t=feed_comment&notif_id=1461696144406076",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "queentatiana",
+      "proof_url": "https://twitter.com/queentatiana/status/725024544101130240",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "tatianamoroz",
+      "proof_url": "https://www.facebook.com/tatiana.moroz/posts/10153592901998595?comment_id=10153592952903595&notif_t=feed_comment&notif_id=1461696144406076",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tatianamoroz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tatianamoroz.id\"\n"
+}
