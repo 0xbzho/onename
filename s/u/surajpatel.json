@@ -1,0 +1,51 @@
+{
+  "owner_address": "1MBHna8kWSnKkFp2LwhAc7rJkRNAzGoD6o",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1LoveTxMAsZ2EaSa1Q29vnxu42tQ7XsaHD",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "realsurajpatel",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RealSurajPatel/status/731186822085124096",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Blockchain"
+    },
+    "description": "Collaborating with like-minded people to bring healing to the world",
+    "graph": {
+      "url": "https://s3.amazonaws.com/grph/surajpatel"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/surajpatel",
+        "name": "avatar"
+      }
+    ],
+    "name": "Suraj Patel"
+  },
+  "verifications": [
+    {
+      "identifier": "realsurajpatel",
+      "proof_url": "https://twitter.com/RealSurajPatel/status/731186822085124096",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN surajpatel.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/surajpatel.id\"\n"
+}
