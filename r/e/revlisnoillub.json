@@ -1,0 +1,62 @@
+{
+  "owner_address": "1AUGdeiESHe1bmpcaJKVzneJbptwvaxvbN",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1Lxo68e8WYgYTbyayXNjMRFZEKZe7qBefw",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "RevlisNoillub",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RevlisNoillub/status/726192549879111680",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "RevlisNoillub",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/RevlisNoillub/posts/836940759783734",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/revlisnoillub",
+        "name": "avatar"
+      }
+    ],
+    "name": "Revlis Noillub",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://RevlisNoillub.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "RevlisNoillub",
+      "proof_url": "https://twitter.com/RevlisNoillub/status/726192549879111680",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "RevlisNoillub",
+      "proof_url": "https://www.facebook.com/RevlisNoillub/posts/836940759783734",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN revlisnoillub.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/revlisnoillub.id\"\n"
+}
