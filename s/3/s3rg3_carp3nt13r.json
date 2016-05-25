@@ -1,0 +1,49 @@
+{
+  "owner_address": "19Bj2WRGXpT2SJtCrXavpebgba8LDAhHp7",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Dr_voice",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Dr_Voice/status/725714684373028864",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sergecarpentier",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/sergecarpentier/742576ef5dea29f5b8387390cdf3a43c",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "FRANCE"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Serge Carpentier"
+  },
+  "verifications": [
+    {
+      "identifier": "Dr_voice",
+      "proof_url": "https://twitter.com/Dr_Voice/status/725714684373028864",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "sergecarpentier",
+      "proof_url": "https://gist.github.com/sergecarpentier/742576ef5dea29f5b8387390cdf3a43c",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN s3rg3_carp3nt13r.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/s3rg3_carp3nt13r.id\"\n"
+}
