@@ -1,0 +1,37 @@
+{
+  "owner_address": "1JKNH3n2SuQXhEb7bSZtCpZzTHSwmjoHAT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "profile.php?id=100006123377094",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/permalink.php?story_fbid=1746641518883277&id=100006123377094",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1NXWP126BjfMtjRjokb2T4GLh5ky4Mj2vK",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "profile.php?id=100006123377094",
+      "proof_url": "https://www.facebook.com/permalink.php?story_fbid=1746641518883277&id=100006123377094",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN washedmind.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/washedmind.id\"\n"
+}
