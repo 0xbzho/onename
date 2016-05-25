@@ -1,0 +1,62 @@
+{
+  "owner_address": "14Kc62rFD9egRBGbAob7VeCrZ3hbXNPt8e",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "uzyn",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/uzyn/e17511cce7ce6df9b9ddeecf82da3cc9",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "uzyn",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/uzyn/status/732130605371023360",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "uzyn.chua",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/uzyn.chua/posts/10154018994675923",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/uzynchua",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "uzyn",
+      "proof_url": "https://gist.github.com/uzyn/e17511cce7ce6df9b9ddeecf82da3cc9",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "uzyn",
+      "proof_url": "https://twitter.com/uzyn/status/732130605371023360",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "uzyn.chua",
+      "proof_url": "https://www.facebook.com/uzyn.chua/posts/10154018994675923",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN uzynchua.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/uzynchua.id\"\n"
+}
