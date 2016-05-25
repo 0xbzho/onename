@@ -1,67 +1,81 @@
 {
   "owner_address": "1hQ4B45SswVryYym9tKebMzjhLVj9xBKj",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/robert_balejik"
-    },
-    "bio": "web developer, bitcoin enthusiast, hiker/climber, ancap,",
-    "bitcoin": {
-      "address": "14GUs7Eebq3FtdfobWyRCESGsapwXMKMvi"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/robert_balejik"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/r.balejik/posts/10207498114346293"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "14GUs7Eebq3FtdfobWyRCESGsapwXMKMvi",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "r.balejik"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/roberto68/c35ed0056b1b92ab8497"
+      {
+        "@type": "Account",
+        "identifier": "roberto68",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/roberto68/c0a6e3b3b2a62ebd7081cfac46dac1c8",
+        "service": "github"
       },
-      "username": "roberto68"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/robert_balejik"
-    },
-    "location": {
-      "formatted": "slovakia"
-    },
-    "name": {
-      "formatted": "robert balejik"
-    },
-    "pgp": {
-      "fingerprint": "489593C7B25083F058904087F66C38BBF540DECE",
-      "url": "https://s3.amazonaws.com/pk9/robert_balejik"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/balon68/status/690158453113888768"
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/robert_balejik",
+        "identifier": "69DE148F35F92B884E8C1B2794946160FA720B1B",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "balon68"
+      {
+        "@type": "Account",
+        "identifier": "balon68",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/balon68/status/735425847281262592",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "r.balejik",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/robert_balejik&redirect_uri=https://onename.com/robert_balejik%23facebook",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "slovakia"
     },
-    "v": "0.2"
+    "description": "full stack web developer (NodeJS, react), bitcoin enthusiast, hiker/climber, anacho-capitalist",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/robert_balejik",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/robert_balejik",
+        "name": "cover"
+      }
+    ],
+    "name": "robert balejik"
   },
   "verifications": [
     {
       "identifier": "roberto68",
-      "proof_url": "https://gist.github.com/roberto68/c35ed0056b1b92ab8497",
+      "proof_url": "https://gist.github.com/roberto68/c0a6e3b3b2a62ebd7081cfac46dac1c8",
       "service": "github",
       "valid": true
     },
     {
       "identifier": "balon68",
-      "proof_url": "https://twitter.com/balon68/status/690158453113888768",
+      "proof_url": "https://twitter.com/balon68/status/735425847281262592",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "r.balejik",
-      "proof_url": "https://facebook.com/r.balejik/posts/10207498114346293",
+      "proof_url": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/robert_balejik&redirect_uri=https://onename.com/robert_balejik%23facebook",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN robert_balejik.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/robert_balejik.id\"\n"
 }
