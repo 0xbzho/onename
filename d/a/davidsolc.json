@@ -1,59 +1,51 @@
 {
   "owner_address": "1LyYQYpy3AUu3jDTDgeR57ARbsXDYPt9tH",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/davidsolc"
-    },
-    "bitcoin": {
-      "address": "1Mwi9nRw39v2tBaRRgPCdJdSUMUog6SkL9"
-    },
-    "cover": {
-      "url": ""
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/fast.solcik/posts/10202489176331579"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "fastsolcik",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "fast.solcik"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/solcik/38a0675df0c3995a6130"
+      {
+        "@type": "Account",
+        "identifier": "fast.solcik",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "solcik"
-    },
-    "location": {
-      "formatted": "Prague, Czech republic"
-    },
-    "name": {
-      "formatted": "David Šolc"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/fastsolcik/status/502836421531418624"
+      {
+        "@type": "Account",
+        "identifier": "solcik",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "fastsolcik"
+      {
+        "@type": "Account",
+        "identifier": "17xrZnwmiiys1S3eePphQxBZoFymosoje6",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Prague, Czech republic"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/davidsolc",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "",
+        "name": "cover"
+      }
+    ],
+    "name": "David Šolc"
   },
-  "verifications": [
-    {
-      "identifier": "solcik",
-      "proof_url": "https://gist.github.com/solcik/38a0675df0c3995a6130",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "fastsolcik",
-      "proof_url": "https://twitter.com/fastsolcik/status/502836421531418624",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "fast.solcik",
-      "proof_url": "https://facebook.com/fast.solcik/posts/10202489176331579",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN davidsolc.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/davidsolc.id\"\n"
 }
