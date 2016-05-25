@@ -1,0 +1,87 @@
+{
+  "owner_address": "1NmbfpAh8X6LpGu2bPVbTeUF3vKkGHaWMP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1EFbtWXb5MCVZfL1Nq67haUz4bKdJDsbsq",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/tehleviter",
+        "identifier": "BA1D5C831C63287A192E47AB51C12F7C36B96206",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "TehLeviter",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/TehLeviter/b50ea9dee69e810be106",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fhavrlent",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/fhavrlent/posts/1034758733285305",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "TehLeviter",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TehLeviter/status/721666626085658624",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bratislava"
+    },
+    "description": "Technology enthusiast, coffee drinker, bitcoin user, libertarian.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tehleviter",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/tehleviter",
+        "name": "cover"
+      }
+    ],
+    "name": "Filip Havrlent",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://maddrop.sk"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "TehLeviter",
+      "proof_url": "https://gist.github.com/TehLeviter/b50ea9dee69e810be106",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "fhavrlent",
+      "proof_url": "https://www.facebook.com/fhavrlent/posts/1034758733285305",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "TehLeviter",
+      "proof_url": "https://twitter.com/TehLeviter/status/721666626085658624",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tehleviter.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tehleviter.id\"\n"
+}
