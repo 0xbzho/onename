@@ -1,6 +1,44 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1DGEMQLPbcbcYNg55XeEJoZMg5ugtDTdqd",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Claudiotrope",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Claudiotrope/status/734688873796665344",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "claudioc",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/claudioc/posts/10154340479999155",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Claudiotrope",
+      "proof_url": "https://twitter.com/Claudiotrope/status/734688873796665344",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "claudioc",
+      "proof_url": "https://www.facebook.com/claudioc/posts/10154340479999155",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN cfcaballero.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cfcaballero.id\"\n"
 }
