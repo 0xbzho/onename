@@ -1,0 +1,54 @@
+{
+  "owner_address": "14eAydXUKZp237RjExaErfiCqSJTkHNcCX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "steveritchie",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/steveritchie/status/733657745283518465",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "steve.ritchie",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/steve.ritchie/posts/10154127351903211",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Maine"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/steveritchie",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/steveritchie",
+        "name": "cover"
+      }
+    ],
+    "name": "Stephen Ritchie"
+  },
+  "verifications": [
+    {
+      "identifier": "steveritchie",
+      "proof_url": "https://twitter.com/steveritchie/status/733657745283518465",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "steve.ritchie",
+      "proof_url": "https://www.facebook.com/steve.ritchie/posts/10154127351903211",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN steveritchie.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/steveritchie.id\"\n"
+}
