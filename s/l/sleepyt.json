@@ -1,0 +1,40 @@
+{
+  "owner_address": "1ENhw1p3aSvaWqfruhREWLWxA4tLRwJB6p",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1vPPc1H7dZEToeAC8PDs8VKeAgznUMdE9",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "d5ad257201590fcd5ef54677fdf636b44f829eac",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/20531316728/posts/10154009990506729/",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Los Angeles"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sleepyt",
+        "name": "avatar"
+      }
+    ],
+    "name": "Sleepy T"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN sleepyt.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sleepyt.id\"\n"
+}
