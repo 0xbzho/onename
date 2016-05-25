@@ -1,0 +1,79 @@
+{
+  "owner_address": "12pzhM8iHEHrJUnDQBYqeooEGKRYBbAgys",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "yummitea",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/YUMMItea/status/732602263424913409",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "yummitea",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/yummitea/posts/780443075423530",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "benvhool",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/benvhool/e10ee624651ca5f0d7cc4ae7558c120b",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1J4k3fxJBYhtpXgPc1QyVTn8tRXqoUm3T4",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Belgium"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/yummitea",
+        "name": "avatar"
+      }
+    ],
+    "name": "Yummitea",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.yummitea.be"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "yummitea",
+      "proof_url": "https://twitter.com/YUMMItea/status/732602263424913409",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "yummitea",
+      "proof_url": "https://www.facebook.com/yummitea/posts/780443075423530",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "benvhool",
+      "proof_url": "https://gist.github.com/benvhool/e10ee624651ca5f0d7cc4ae7558c120b",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN yummitea.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/yummitea.id\"\n"
+}
