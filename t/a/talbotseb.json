@@ -1,0 +1,67 @@
+{
+  "owner_address": "17d6un8BBUTUhc9Uj5XbHnQoWSP6kwamEP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sebastalbot",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sebastalbot/status/732849144914673668",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "talbotseb",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/talbotseb/c1cfb2084cea4b67387c46bb245255a2",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "talbotseb",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/talbotseb/posts/10157046134585372?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nantes"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/talbotseb",
+        "name": "avatar"
+      }
+    ],
+    "name": "Sébastien Talbot"
+  },
+  "verifications": [
+    {
+      "identifier": "sebastalbot",
+      "proof_url": "https://twitter.com/sebastalbot/status/732849144914673668",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "talbotseb",
+      "proof_url": "https://gist.github.com/talbotseb/c1cfb2084cea4b67387c46bb245255a2",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "talbotseb",
+      "proof_url": "https://www.facebook.com/talbotseb/posts/10157046134585372?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN talbotseb.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/talbotseb.id\"\n"
+}
