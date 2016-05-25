@@ -1,0 +1,62 @@
+{
+  "owner_address": "13SXM2XYqR4NxBr69HfY6F1cWWpzTgVNVS",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "scottdriscoll",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ScottDriscoll/status/733789123224424448",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "19ThUBrcTTgBmxNRYsrGpZPu66cq1v6MHH",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "scott.c.driscoll",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/scott.c.driscoll/posts/10101733445812619",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Atlanta, GA, US"
+    },
+    "description": "video maker, software engineer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Scott Driscoll",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://scottdriscoll.me"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "scottdriscoll",
+      "proof_url": "https://twitter.com/ScottDriscoll/status/733789123224424448",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "scott.c.driscoll",
+      "proof_url": "https://www.facebook.com/scott.c.driscoll/posts/10101733445812619",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN scottdriscoll.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/scottdriscoll.id\"\n"
+}
