@@ -1,0 +1,80 @@
+{
+  "owner_address": "16rQBn2LRm4EpexJ9GFeDBPjovWQ2Sx7R1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "15hQRMqp6vQVKXU6sSuXHe4d9YNyooQDK3",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "trevin",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/trevin/posts/10156867743895433",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tmchow",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tmchow/068adf954b870b96e8e2e9f03eb95554",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "trevin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/trevin/status/731522773407784961",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seattle, WA"
+    },
+    "description": "Director of Product @AxonTechnology. Former @Microsoft.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/trevin",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/trevin",
+        "name": "cover"
+      }
+    ],
+    "name": "Trevin Chow",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://trevinchow.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "trevin",
+      "proof_url": "https://www.facebook.com/trevin/posts/10156867743895433",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "tmchow",
+      "proof_url": "https://gist.github.com/tmchow/068adf954b870b96e8e2e9f03eb95554",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "trevin",
+      "proof_url": "https://twitter.com/trevin/status/731522773407784961",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN trevin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/trevin.id\"\n"
+}
