@@ -1,0 +1,63 @@
+{
+  "owner_address": "1Dm6g9SQD6CrpiR4ZMphTdsTxbft5RENKm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "visarz",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/visarz/status/728351124059729921",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/vnz/key.asc",
+        "identifier": "1D3CB4C79CB9CC551B645A5878B879CA6FC15526",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "visar",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/visar/00755dfa3d807f33933341b298925635",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "visarz",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/visarz/posts/943246402465167",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "visarz",
+      "proof_url": "https://twitter.com/visarz/status/728351124059729921",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "visar",
+      "proof_url": "https://gist.github.com/visar/00755dfa3d807f33933341b298925635",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "visarz",
+      "proof_url": "https://www.facebook.com/visarz/posts/943246402465167",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN visarz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/visarz.id\"\n"
+}
