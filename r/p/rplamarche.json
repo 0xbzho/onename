@@ -1,0 +1,65 @@
+{
+  "owner_address": "13ntwqSTxnFN7HGansxKKSpxRjHCeRS3Xn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1dbcb17ba22391ca69bad1707d0ed24b559a524f",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1KMRwZRaurGD6QuyGEsTCHZzAq4By6RYS8",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rplamarche",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/rplamarche/posts/10153526486150796",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rplamarche",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RPLamarche/status/731610741606731777",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Dallas, TX"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rplamarche",
+        "name": "avatar"
+      }
+    ],
+    "name": "Ryan LaMarche"
+  },
+  "verifications": [
+    {
+      "identifier": "rplamarche",
+      "proof_url": "https://www.facebook.com/rplamarche/posts/10153526486150796",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "rplamarche",
+      "proof_url": "https://twitter.com/RPLamarche/status/731610741606731777",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rplamarche.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rplamarche.id\"\n"
+}
