@@ -1,10 +1,36 @@
 {
   "owner_address": "1Kmd6NTmNNYMQx5hkG6H3v2NsDhMkGKQim",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/lUU.jpeg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "5643fe78b6e50c8dd0647baa5d0729b6445c3f09",
+        "proofType": "http",
+        "proofUrl": "Verifying that +imtellingtim is my blockchain ID. https://onename.com/imtellingtim",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Missouri USA"
     },
-    "v": "0.2"
+    "description": "Rhythm And Sounds finds unique pieces of history and makes them available to the world. We deal mostly with music related items, but we also deal with many others things that we find interesting.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Rhythm And Sounds",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://rhythmandsounds.com"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN rhythmandsounds.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rhythmandsounds.id\"\n"
 }
