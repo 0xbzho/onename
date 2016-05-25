@@ -1,26 +1,29 @@
 {
   "owner_address": "1MGEbp4mHdxFMwvkGR6mrZCsxYuNT4PJ9D",
   "profile": {
-    "bitcoin": {
-      "address": "17KeZJKvTKt4FXkHdn8uM1DPj2KMMxmpyF"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/HHE.jpg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/ruany/1012eed14a8fd1e81766"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ruany",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "ruany"
-    },
-    "v": "0.2"
+      {
+        "@type": "Account",
+        "identifier": "19H5gBZVS5ygyjgNiruh1CfANR57cu34Yp",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "ruany",
-      "proof_url": "https://gist.github.com/ruany/1012eed14a8fd1e81766",
-      "service": "github",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN ruan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ruan.id\"\n"
 }
