@@ -1,0 +1,36 @@
+{
+  "owner_address": "149gVureHWXoHM4zvBoiN3DTWR745JDPiG",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "the_bookcottage",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/The_BookCottage/status/727526585180385280",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/thebookcottage",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "the_bookcottage",
+      "proof_url": "https://twitter.com/The_BookCottage/status/727526585180385280",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN thebookcottage.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/thebookcottage.id\"\n"
+}
