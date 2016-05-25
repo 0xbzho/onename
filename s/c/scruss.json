@@ -1,0 +1,48 @@
+{
+  "owner_address": "16pHXqJCmuiE4HUfhC4eJCXqXs8NHshkva",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "scruss",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/scruss/91c81d78d5138d2c79378485a7a53c2f",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pgp.mit.edu/pks/lookup?op=get&search=0x0EE407CDEB265B06",
+        "identifier": "7C8CCF3341E5C1661AA052590EE407CDEB265B06",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Toronto"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Stewart C. Russell",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://scruss.com/blog/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "scruss",
+      "proof_url": "https://gist.github.com/scruss/91c81d78d5138d2c79378485a7a53c2f",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN scruss.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/scruss.id\"\n"
+}
