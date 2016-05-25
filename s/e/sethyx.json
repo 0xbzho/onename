@@ -1,0 +1,62 @@
+{
+  "owner_address": "1LQE5ZJEDtQAx5CXbxBTvp1tQtyq7HGJwB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sethyx",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sethyx/status/730108133973037057",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sethyx",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/sethyx/ecefc181e5d2cda1411aa78fc9d6403c",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sethyx",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/sethyx/posts/10205545664795102",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hungary"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Gergely Széll"
+  },
+  "verifications": [
+    {
+      "identifier": "sethyx",
+      "proof_url": "https://twitter.com/sethyx/status/730108133973037057",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "sethyx",
+      "proof_url": "https://gist.github.com/sethyx/ecefc181e5d2cda1411aa78fc9d6403c",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "sethyx",
+      "proof_url": "https://www.facebook.com/sethyx/posts/10205545664795102",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN sethyx.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sethyx.id\"\n"
+}
