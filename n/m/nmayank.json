@@ -1,48 +1,54 @@
 {
   "owner_address": "1Jk9TKTV1H7yWP8PE5NRC24sTKK5ZZNwF9",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/nmayank"
-    },
-    "bio": "",
-    "bitcoin": {
-      "address": "1E3a48vayMGJaZWz5HvvZzcm9JmbcebyXD"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/483.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/mn789/posts/962285617201119"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mn789",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "mn789"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Mayank Nagle"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/nmayank15/status/722785698185515008"
+      {
+        "@type": "Account",
+        "identifier": "1E3a48vayMGJaZWz5HvvZzcm9JmbcebyXD",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "nmayank15"
+      {
+        "@type": "Account",
+        "identifier": "mayanktech",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/nmayank15/status/722785698185515008",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "v": "0.2"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nmayank",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Mayank Nagle"
   },
   "verifications": [
     {
-      "identifier": "nmayank15",
+      "identifier": "mayanktech",
       "proof_url": "https://twitter.com/nmayank15/status/722785698185515008",
       "service": "twitter",
       "valid": false
-    },
-    {
-      "identifier": "mn789",
-      "proof_url": "https://facebook.com/mn789/posts/962285617201119",
-      "service": "facebook",
-      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN nmayank.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nmayank.id\"\n"
 }
