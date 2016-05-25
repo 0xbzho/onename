@@ -1,0 +1,51 @@
+{
+  "owner_address": "185s3hh1d4RqYX6HwcZcW7rPbSG3qeXcnp",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Rohja",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Rohja/fbd97c04cd14fa11cce441b31400187a",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Rohja",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Rohja/status/732560854202363910",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Paul Rohja Lesellier",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.rohja.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Rohja",
+      "proof_url": "https://gist.github.com/Rohja/fbd97c04cd14fa11cce441b31400187a",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "Rohja",
+      "proof_url": "https://twitter.com/Rohja/status/732560854202363910",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN rohja_.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rohja_.id\"\n"
+}
