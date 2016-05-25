@@ -1,0 +1,31 @@
+{
+  "owner_address": "19Xhj9dtQu7n1K2fWuPND6zHgYQYxFkvQE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "usercard",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mcknote/93f12998ca5749a6b692c1f1c4f5ebdc",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "usercard",
+      "proof_url": "https://gist.github.com/mcknote/93f12998ca5749a6b692c1f1c4f5ebdc",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN usercard.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/usercard.id\"\n"
+}
