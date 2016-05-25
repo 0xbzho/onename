@@ -1,0 +1,67 @@
+{
+  "owner_address": "1ForrAdrRFRzhjpNw2unAXGVtqpkPiMwPe",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1CkQ4sX1rkSbQ84Trk9k71m3WXH6ANzg9w",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sreshik",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sreshik/status/731078185455104000",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "serilga",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/reshiks/posts/1215522388465417",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Russia"
+    },
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/reshik",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/reshik",
+        "name": "cover"
+      }
+    ],
+    "name": "Сергей",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://serilga.biz/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "sreshik",
+      "proof_url": "https://twitter.com/sreshik/status/731078185455104000",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "serilga",
+      "proof_url": "https://www.facebook.com/reshiks/posts/1215522388465417",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN reshik.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/reshik.id\"\n"
+}
