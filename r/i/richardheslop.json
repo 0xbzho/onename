@@ -1,0 +1,36 @@
+{
+  "owner_address": "15NBrqMTkQ5QM9iYKNuCHJrUD5F38Dpxwf",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rheslop",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rheslop/status/727886777277685762",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cape Town"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Richard Heslop"
+  },
+  "verifications": [
+    {
+      "identifier": "rheslop",
+      "proof_url": "https://twitter.com/rheslop/status/727886777277685762",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN richardheslop.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/richardheslop.id\"\n"
+}
