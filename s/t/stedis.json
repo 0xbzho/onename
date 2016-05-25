@@ -1,0 +1,31 @@
+{
+  "owner_address": "1Pc9tPo318AXVXG1TBCsof8X4Ry71URfmD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "stedis",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/stedis/status/734778055365955584",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "stedis",
+      "proof_url": "https://twitter.com/stedis/status/734778055365955584",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN stedis.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stedis.id\"\n"
+}
