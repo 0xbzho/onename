@@ -1,6 +1,36 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1APz9rS8Rg5asKJ1adYLWN97KZQxKmPRsN",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Chaaranpall",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Chaaranpall/status/734725142685745152",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mumbai India"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Chaaranpall Lambba"
+  },
+  "verifications": [
+    {
+      "identifier": "Chaaranpall",
+      "proof_url": "https://twitter.com/Chaaranpall/status/734725142685745152",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN chaaranpall.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/chaaranpall.id\"\n"
 }
