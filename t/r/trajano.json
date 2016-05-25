@@ -1,0 +1,38 @@
+{
+  "owner_address": "1A4Q3KpfNqP9qmvizCj2NHrBkeU2Hd2GLM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "6618b8826c6e7f4ecb79b0c410c60e14ea213be5",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "18m5j48g4Le8HoAzeJU4gNzZYSBvuja1cS",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Spain"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/trajano",
+        "name": "avatar"
+      }
+    ],
+    "name": "Trajano Coin"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN trajano.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/trajano.id\"\n"
+}
