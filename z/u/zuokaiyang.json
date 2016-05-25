@@ -1,0 +1,67 @@
+{
+  "owner_address": "19rP2tEoh7ipAtN22tTAhPyG76jGM5B6qz",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "zuoky",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/zuoky/status/730390689968578560",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "zuoky",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/zuoky/posts/10154277005638028",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "zuoky",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/zuoky/a701ac3555562470dbbd484d7d2e5d6d",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hong Kong"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/zuokaiyang",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/zuokaiyang",
+        "name": "cover"
+      }
+    ],
+    "name": "Eric Zuo"
+  },
+  "verifications": [
+    {
+      "identifier": "zuoky",
+      "proof_url": "https://twitter.com/zuoky/status/730390689968578560",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "zuoky",
+      "proof_url": "https://www.facebook.com/zuoky/posts/10154277005638028",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "zuoky",
+      "proof_url": "https://gist.github.com/zuoky/a701ac3555562470dbbd484d7d2e5d6d",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN zuokaiyang.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/zuokaiyang.id\"\n"
+}
