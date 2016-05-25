@@ -1,27 +1,41 @@
 {
   "owner_address": "17s5xScKiKZY4V542rrnR4ABWgdoRDGcQg",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/connie"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "YESConnie",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1MdpkNvL3HMAQrvRuS3GwmyehyKaezYwKC",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "bio": "Writer, Publisher, Recording Artist",
-    "bitcoin": {
-      "address": "1MdpkNvL3HMAQrvRuS3GwmyehyKaezYwKC"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/connie"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Connie"
-    },
-    "twitter": {
-      "username": "YESConnie"
-    },
-    "v": "0.2",
-    "website": "http://yesconnie.com/about"
+    "description": "Writer, Publisher, Recording Artist",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/connie",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/connie",
+        "name": "cover"
+      }
+    ],
+    "name": "Connie",
+    "website": []
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN connie.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/connie.id\"\n"
 }
