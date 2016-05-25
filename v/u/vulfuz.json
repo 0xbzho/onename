@@ -1,0 +1,41 @@
+{
+  "owner_address": "1FmjNh9CBoZtHfs1nYV5ypmJQoUSc72Jsv",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "vulfuz",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/vulfuz/09cd2da8443f35a0ae7725a01e5fed45#file-onename-txt",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Toronto, Canada"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/vulfuz",
+        "name": "avatar"
+      }
+    ],
+    "name": "V. Fužir"
+  },
+  "verifications": [
+    {
+      "identifier": "vulfuz",
+      "proof_url": "https://gist.github.com/vulfuz/09cd2da8443f35a0ae7725a01e5fed45#file-onename-txt",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN vulfuz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vulfuz.id\"\n"
+}
