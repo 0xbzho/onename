@@ -1,0 +1,54 @@
+{
+  "owner_address": "14VAFPGibQZbfp9eYTn9HHkAjFXn9fb3Ky",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sangaman",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/sangaman/posts/10102718685374526?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sangaman",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sangaman/status/562715321757618176",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "7e843f9dbb06c013092617f89a390472329d033e",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Virginia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Daniel McNally"
+  },
+  "verifications": [
+    {
+      "identifier": "sangaman",
+      "proof_url": "https://www.facebook.com/sangaman/posts/10102718685374526?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "sangaman",
+      "proof_url": "https://twitter.com/sangaman/status/562715321757618176",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN sangaman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sangaman.id\"\n"
+}
