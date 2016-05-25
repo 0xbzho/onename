@@ -1,0 +1,42 @@
+{
+  "owner_address": "1A7Rf9Jf1ZipocFX2YTwFgzNBGEFTcNi69",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tellesio",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tellesio/status/727923171672760321",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Orange County, CA"
+    },
+    "description": "Capitalist Provocateur. I do stuff in the CRE space. Enjoying life, and not seriously being serious.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tellesio",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/tellesio",
+        "name": "cover"
+      }
+    ],
+    "name": "Christopher Telles"
+  },
+  "verifications": [
+    {
+      "identifier": "tellesio",
+      "proof_url": "https://twitter.com/tellesio/status/727923171672760321",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tellesio.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tellesio.id\"\n"
+}
