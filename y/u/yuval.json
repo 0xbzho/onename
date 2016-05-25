@@ -1,0 +1,74 @@
+{
+  "owner_address": "1HKEt8WCF34LBjuV75YMWaYuw9Cutfy1Ey",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1FJTKif3p7nMeGgE1WLoq9g4KWW9aHZ6Yr",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/yuval/key.asc",
+        "identifier": "8AB63C75E17A4D11DB8915CD5A0F212C3D050F15",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "yuvaldrori",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/yuvaldrori/de89e35a3bd1d00f522920f2ca81b6b3",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "yuval",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/yuval/status/731059732077805568",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Israel"
+    },
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/yuval",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/yuval",
+        "name": "cover"
+      }
+    ],
+    "name": "Yuval Drori",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.google.com/profiles/yuval.drori"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "yuvaldrori",
+      "proof_url": "https://gist.github.com/yuvaldrori/de89e35a3bd1d00f522920f2ca81b6b3",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "yuval",
+      "proof_url": "https://twitter.com/yuval/status/731059732077805568",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN yuval.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/yuval.id\"\n"
+}
