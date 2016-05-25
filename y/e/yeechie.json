@@ -1,0 +1,91 @@
+{
+  "owner_address": "19nQHKuRMnTLpAKTASEZWS9pv7LNV6C8vm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "yinchie",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/yinchie/status/726350563764539393",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1KjKtGDjgLyYchbkRHjMoLQ1v5WTFfQfoX",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Yinchie",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Yinchie/3613fae2181f04c5271d81b6dbef1dea",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "yeechie",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/yeechie/posts/10153487214841776",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "01737de6d9c538378c07c8fb31c58f6e02d77dd2",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://itchy.nl/pgp.txt",
+        "identifier": "49C30DF36393CD95E93FA45716CFE26767608DB6",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bladel, The Netherlands"
+    },
+    "description": "Your friendly Asian geek.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/yeechie",
+        "name": "avatar"
+      }
+    ],
+    "name": "Yee Chie Tu",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.itchy.nl"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "yinchie",
+      "proof_url": "https://twitter.com/yinchie/status/726350563764539393",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Yinchie",
+      "proof_url": "https://gist.github.com/Yinchie/3613fae2181f04c5271d81b6dbef1dea",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "yeechie",
+      "proof_url": "https://www.facebook.com/yeechie/posts/10153487214841776",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN yeechie.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/yeechie.id\"\n"
+}
