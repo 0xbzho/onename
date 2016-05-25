@@ -1,0 +1,73 @@
+{
+  "owner_address": "17h19BHtjCfrd1eF45Vd2wzu2wznfTVrr4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sterne",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/sterne/posts/10101697999777000",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "philip-sterne",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/philip-sterne/12bd5e02f44d3fe33867688474e7a3cd",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "philip_sterne",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Philip_Sterne/status/734245297287761920",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "12SXvPc3xBC4gV5RzbLhzvDNFpCjcfT7DE",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cape Town"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sterne",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/sterne",
+        "name": "cover"
+      }
+    ],
+    "name": "Philip Sterne"
+  },
+  "verifications": [
+    {
+      "identifier": "sterne",
+      "proof_url": "https://www.facebook.com/sterne/posts/10101697999777000",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "philip-sterne",
+      "proof_url": "https://gist.github.com/philip-sterne/12bd5e02f44d3fe33867688474e7a3cd",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "philip_sterne",
+      "proof_url": "https://twitter.com/Philip_Sterne/status/734245297287761920",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN sterne.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sterne.id\"\n"
+}
