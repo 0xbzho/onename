@@ -1,0 +1,73 @@
+{
+  "owner_address": "1J1bsBtSZCYyNGDtWfk8ZWj2m6966b9izC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rombiard",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rombiard/status/730775281846341633",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "romain.biard",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/romain.biard/posts/10153753705436461",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Romain",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Romain/bdac068df5806797ac65bb56acfff0bd",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Saint-Etienne"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rbiard",
+        "name": "avatar"
+      }
+    ],
+    "name": "Romain Biard",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.romainbiard.me"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "rombiard",
+      "proof_url": "https://twitter.com/rombiard/status/730775281846341633",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "romain.biard",
+      "proof_url": "https://www.facebook.com/romain.biard/posts/10153753705436461",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "Romain",
+      "proof_url": "https://gist.github.com/Romain/bdac068df5806797ac65bb56acfff0bd",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rbiard.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rbiard.id\"\n"
+}
