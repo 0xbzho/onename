@@ -1,57 +1,73 @@
 {
   "owner_address": "1EFLvzMXLkwf3tPB5TfhMj4SybB9cQif9Z",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/michbsd"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/F9g.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/fouxdufafa/posts/10153935945039516"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "michbsd",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/michbsd/status/735026254164983808",
+        "service": "twitter"
       },
-      "username": "fouxdufafa"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/michbsd/50d6520ced0b017c676c"
+      {
+        "@type": "Account",
+        "identifier": "michbsd",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/michbsd/5dca09ccbb1f34c0870eb6ed8089b64a",
+        "service": "github"
       },
-      "username": "michbsd"
+      {
+        "@type": "Account",
+        "identifier": "fouxdufafa",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/fouxdufafa/posts/10154242767489516",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris, France"
     },
-    "location": {
-      "formatted": "Paris, France"
-    },
-    "name": {
-      "formatted": "Michael Landin Hostbaek"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/michbsd/status/693855018907209728"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/michbsd",
+        "name": "avatar"
       },
-      "username": "michbsd"
-    },
-    "v": "0.2",
-    "website": "http://prodnet.eu"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Michael Landin",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://prodnet.eu"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "michbsd",
-      "proof_url": "https://gist.github.com/michbsd/50d6520ced0b017c676c",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "michbsd",
-      "proof_url": "https://twitter.com/michbsd/status/693855018907209728",
+      "proof_url": "https://twitter.com/michbsd/status/735026254164983808",
       "service": "twitter",
       "valid": true
     },
     {
+      "identifier": "michbsd",
+      "proof_url": "https://gist.github.com/michbsd/5dca09ccbb1f34c0870eb6ed8089b64a",
+      "service": "github",
+      "valid": true
+    },
+    {
       "identifier": "fouxdufafa",
-      "proof_url": "https://facebook.com/fouxdufafa/posts/10153935945039516",
+      "proof_url": "https://www.facebook.com/fouxdufafa/posts/10154242767489516",
       "service": "facebook",
-      "valid": false
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN michbsd.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/michbsd.id\"\n"
 }
