@@ -1,0 +1,44 @@
+{
+  "owner_address": "13FGUAUNZ2VAJ5pp1hkkAPxW8bdKgwW5ey",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1MyeRWPs4aJAFdAKKVLrhRFbwk7t62oJbV",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "amwkim",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/amwkim/status/731585090745208832",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Alexander Mee-Woong Kim",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://sarkoboros.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "amwkim",
+      "proof_url": "https://twitter.com/amwkim/status/731585090745208832",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN sarkoboros.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sarkoboros.id\"\n"
+}
