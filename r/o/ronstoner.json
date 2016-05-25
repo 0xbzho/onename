@@ -1,0 +1,63 @@
+{
+  "owner_address": "1AXLXHwVgRhs8Pk4JQZgWmyHomBNU7uyZn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "forwardsecrecy",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/forwardsecrecy/status/727538888089149440",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ronaldstoner",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ronaldstoner/68981dee7e172d701437ba09672c0c87",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pgp.mit.edu/pks/lookup?op=get&search=0xF6004D042E2FF69E",
+        "identifier": "AE2D1E2557404A36171ADDB2F6004D042E2FF69E",
+        "service": "pgp"
+      }
+    ],
+    "description": "Infrastructure and security guy - all around crypto nerd - musician - keybase.io/ronstoner",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ronstoner",
+        "name": "avatar"
+      }
+    ],
+    "name": "Ron Stoner",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://keybase.io/ronstoner"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "forwardsecrecy",
+      "proof_url": "https://twitter.com/forwardsecrecy/status/727538888089149440",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ronaldstoner",
+      "proof_url": "https://gist.github.com/ronaldstoner/68981dee7e172d701437ba09672c0c87",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ronstoner.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ronstoner.id\"\n"
+}
