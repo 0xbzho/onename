@@ -1,0 +1,67 @@
+{
+  "owner_address": "1JkH9V84tDCuFg5y8ZbTQJ8LLS2o7MraCh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "phatpenguin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/phatpenguin/status/730966672484392960",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "scottwleonard",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/scottwleonard/posts/10154146344761798",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "scottwleonard",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/scottwleonard/f23f72526b25cbd8212e9c9616c00b19",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Salt Lake City, UT, 84116"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/scottwleonard",
+        "name": "avatar"
+      }
+    ],
+    "name": "Scott Leonard"
+  },
+  "verifications": [
+    {
+      "identifier": "phatpenguin",
+      "proof_url": "https://twitter.com/phatpenguin/status/730966672484392960",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "scottwleonard",
+      "proof_url": "https://www.facebook.com/scottwleonard/posts/10154146344761798",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "scottwleonard",
+      "proof_url": "https://gist.github.com/scottwleonard/f23f72526b25cbd8212e9c9616c00b19",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN scottwleonard.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/scottwleonard.id\"\n"
+}
