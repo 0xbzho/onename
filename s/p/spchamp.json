@@ -1,61 +1,80 @@
 {
   "owner_address": "1441ZP7PXL6fiLQC3KDpdziMfMbQzqtwis",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/spchamp"
-    },
-    "bio": "Nonpartisan, Fan of a sense of rational candor, Duckling of a different color. Prends garde à toi. Politics, Computing & Grain of Salt. RT not necc endorsement",
-    "bitcoin": {
-      "address": "1K8sHzn3uzP97b9Z3bikAi2Mvn1SG25hyj"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/spchamp"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/dadadododadadada/posts/10209166052052311"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1MA86SH2KWTh7Czn7qVrGn1qm3mcNReUhs",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "dadadododadadada"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/spchamp/ddc251466ff4bc26215c79fac5b05581"
+      {
+        "@type": "Account",
+        "identifier": "spchamp",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/spchamp/status/735241645159899136",
+        "service": "twitter"
       },
-      "username": "spchamp"
-    },
-    "location": {
-      "formatted": "New Albion"
-    },
-    "name": {
-      "formatted": "Sean Champ"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/spchamp/status/715283897009836032"
+      {
+        "@type": "Account",
+        "identifier": "spchamp",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/spchamp/bf8ca6e9fb0bc84c0de663b023e66106",
+        "service": "github"
       },
-      "username": "spchamp"
+      {
+        "@type": "Account",
+        "identifier": "dadadododadadada",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dadadododadadada/posts/10209610835211612",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New Albion"
     },
-    "v": "0.2",
-    "website": "https://hardpanmedia.wordpress.com/2015/11/20/welcome/"
+    "description": "Nonpartisan, Fan of a sense of rational candor, Duckling of a different color. Prends garde à toi. Politics, Computing & Grain of Salt. RT not necc endorsement. [Re-verifying with OneName WebID Aggregation]",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/spchamp",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/spchamp",
+        "name": "cover"
+      }
+    ],
+    "name": "Sean Champ",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://hardpanmedia.wordpress.com/2015/11/20/welcome/"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "spchamp",
-      "proof_url": "https://gist.github.com/spchamp/ddc251466ff4bc26215c79fac5b05581",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "spchamp",
-      "proof_url": "https://twitter.com/spchamp/status/715283897009836032",
+      "proof_url": "https://twitter.com/spchamp/status/735241645159899136",
       "service": "twitter",
       "valid": true
     },
     {
+      "identifier": "spchamp",
+      "proof_url": "https://gist.github.com/spchamp/bf8ca6e9fb0bc84c0de663b023e66106",
+      "service": "github",
+      "valid": true
+    },
+    {
       "identifier": "dadadododadadada",
-      "proof_url": "https://facebook.com/dadadododadadada/posts/10209166052052311",
+      "proof_url": "https://www.facebook.com/dadadododadadada/posts/10209610835211612",
       "service": "facebook",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN spchamp.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/spchamp.id\"\n"
 }
