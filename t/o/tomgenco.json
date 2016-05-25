@@ -1,0 +1,61 @@
+{
+  "owner_address": "1GtqnP2Dtrahy2bxr1bdoL8feVa5gSQ74M",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "TomGenco",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/TomGenco/b0ba950ac86bc4d1556f817914a24bc1",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tomgenco",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tomgenco/status/730844727231160320",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fbaf7ff0d0b71205c7a8dc35ac1ca67fe0f140b5",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Arizona, US"
+    },
+    "description": "Nah",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Tom Genco",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://tomgenco.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "TomGenco",
+      "proof_url": "https://gist.github.com/TomGenco/b0ba950ac86bc4d1556f817914a24bc1",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "tomgenco",
+      "proof_url": "https://twitter.com/tomgenco/status/730844727231160320",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tomgenco.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tomgenco.id\"\n"
+}
