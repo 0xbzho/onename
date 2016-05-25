@@ -1,0 +1,54 @@
+{
+  "owner_address": "156ctkLSZFEGTfUEnBrUsJQAWkpPaDy8eW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "katsiroubas",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/katsiroubas/status/728311140330016769",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tom.katsiroubas",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/tom.katsiroubas/posts/10154673969716416?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Toronto, Canada"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tomkats",
+        "name": "avatar"
+      }
+    ],
+    "name": "Tom Katsiroubas"
+  },
+  "verifications": [
+    {
+      "identifier": "katsiroubas",
+      "proof_url": "https://twitter.com/katsiroubas/status/728311140330016769",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "tom.katsiroubas",
+      "proof_url": "https://www.facebook.com/tom.katsiroubas/posts/10154673969716416?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tomkats.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tomkats.id\"\n"
+}
