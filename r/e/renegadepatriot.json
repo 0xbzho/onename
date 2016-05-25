@@ -1,0 +1,55 @@
+{
+  "owner_address": "19VngewJ8vSC13azcVzasNAu5ezUMXVrgW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "thehumanfaucet",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/THEHUMANFAUCET/status/732986189465026561",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1Cjj8Nq2t5uXPoU2Wq1hHe8igDE1rAJdyq",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "endthefednow",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/endthefednow/posts/1568002836833853",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/renegadepatriot",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/renegadepatriot",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "thehumanfaucet",
+      "proof_url": "https://twitter.com/THEHUMANFAUCET/status/732986189465026561",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "endthefednow",
+      "proof_url": "https://www.facebook.com/endthefednow/posts/1568002836833853",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN renegadepatriot.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/renegadepatriot.id\"\n"
+}
