@@ -1,0 +1,73 @@
+{
+  "owner_address": "1DeDiUuwqwkHnNi5ru4VC6DnPB2gDZ6fnR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "vojdan_",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/vojdan_/status/731368132934172674",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "vojdan",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/vojdan/posts/10153857506362663?ref=notif&notif_t=like&notif_id=1463206755696063",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "vojdan",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/vojdan/fbd1da69f596ecd9b61474f502f1ac3f",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sydney"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/vojdan",
+        "name": "avatar"
+      }
+    ],
+    "name": "Vojdan Kardalev",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://bron.tech/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "vojdan_",
+      "proof_url": "https://twitter.com/vojdan_/status/731368132934172674",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "vojdan",
+      "proof_url": "https://www.facebook.com/vojdan/posts/10153857506362663?ref=notif&notif_t=like&notif_id=1463206755696063",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "vojdan",
+      "proof_url": "https://gist.github.com/vojdan/fbd1da69f596ecd9b61474f502f1ac3f",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN vojdan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vojdan.id\"\n"
+}
