@@ -1,0 +1,36 @@
+{
+  "owner_address": "1Exif4Ex7HTvHB3UBfyMk3RnkqRuyJUjeK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sparkliatti",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sparkliatti/status/724667571937517572",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sashasouza",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "sparkliatti",
+      "proof_url": "https://twitter.com/sparkliatti/status/724667571937517572",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN sashasouza.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sashasouza.id\"\n"
+}
