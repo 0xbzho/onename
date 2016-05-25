@@ -1,0 +1,70 @@
+{
+  "owner_address": "1JGkPAAWat34D2hX8i9mnwaWW2kAgH28q2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1Ft2nvEnTEhsfZH3LfjGEbsVSZfiebhkYd",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "martinwells",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/martinwells/status/727846063546208256",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "TattorTalk",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/TattorTalk/fe89163dfe86a9b70bf9419f7ec3945c",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tinybirdflies",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/martin.wells.7549",
+        "service": "facebook"
+      }
+    ],
+    "description": "keeping an eye on urban transformation via social analytics...",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://flic.kr/p/cXsLLJ",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/dunes.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Tino wells"
+  },
+  "verifications": [
+    {
+      "identifier": "martinwells",
+      "proof_url": "https://twitter.com/martinwells/status/727846063546208256",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "TattorTalk",
+      "proof_url": "https://gist.github.com/TattorTalk/fe89163dfe86a9b70bf9419f7ec3945c",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "tinybirdflies",
+      "proof_url": "https://www.facebook.com/martin.wells.7549",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tinybird.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tinybird.id\"\n"
+}
