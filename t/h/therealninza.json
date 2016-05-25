@@ -1,0 +1,50 @@
+{
+  "owner_address": "1Hz9YaSRwDV3V5fx378wgGUSEiK4qP37Yv",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "therealninza",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/therealninza/status/731544373528166400",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https://soundcloud.com/keirnan-wright",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tmchow/068adf954b870b96e8e2e9f03eb95554",
+        "service": "soundcloud"
+      },
+      {
+        "@type": "Account",
+        "identifier": "14m3nKJ6HywFijP13nRJsHHcdZ2UF7zQ8j",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Vancouver"
+    },
+    "description": "The coin is strong",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Keirnan"
+  },
+  "verifications": [
+    {
+      "identifier": "therealninza",
+      "proof_url": "https://twitter.com/therealninza/status/731544373528166400",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN therealninza.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/therealninza.id\"\n"
+}
