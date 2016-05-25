@@ -1,0 +1,37 @@
+{
+  "owner_address": "13gooFrxmwTZ3vWDufq3XD67TnpURmSJ1G",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "VernerG",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/vernerg1/status/731011622093914112",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sweden"
+    },
+    "description": "Male",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Verner Gustafsson"
+  },
+  "verifications": [
+    {
+      "identifier": "VernerG",
+      "proof_url": "https://twitter.com/vernerg1/status/731011622093914112",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN vernerg.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vernerg.id\"\n"
+}
