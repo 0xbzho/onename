@@ -1,0 +1,78 @@
+{
+  "owner_address": "19XYoE9p5rdeuL5ecbVA26tWy7wSme5A68",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tompinator",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/tompinator/posts/10153507609821003",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "villefort",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/villefort/2f9a3939037805c19556cb50b31e810f#file-proof",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "villefort_toys",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/villefort_toys/status/731527722866987011",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "145jaYJPajCdkYnHuK1nhppU26mdt325hJ",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "7c8e76b8a075f6527c3b3ca01ee1f36271118039",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Budapest"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/villefort",
+        "name": "avatar"
+      }
+    ],
+    "name": "Villefort Toys"
+  },
+  "verifications": [
+    {
+      "identifier": "tompinator",
+      "proof_url": "https://www.facebook.com/tompinator/posts/10153507609821003",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "villefort",
+      "proof_url": "https://gist.github.com/villefort/2f9a3939037805c19556cb50b31e810f#file-proof",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "villefort_toys",
+      "proof_url": "https://twitter.com/villefort_toys/status/731527722866987011",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN villefort.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/villefort.id\"\n"
+}
