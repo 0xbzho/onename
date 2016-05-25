@@ -1,0 +1,38 @@
+{
+  "owner_address": "1aKwSmAGT926CJVeB1uTW8kRhBUkQpytj",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "yellowsongbirdshop",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "SongbirdsShop",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "582ac1ce1cdf6af160af056ec5d52d22e091da3e",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Denver, CO"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/yellowsongbird",
+        "name": "cover"
+      }
+    ],
+    "name": "Yellow Songbird"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN yellowsongbird.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/yellowsongbird.id\"\n"
+}
