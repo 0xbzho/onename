@@ -1,0 +1,60 @@
+{
+  "owner_address": "1P5rkYS7xi3Pj1dX6kKUNWtGAzWtfhe64r",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mcvillan",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "17Rr3z8qPVZWXcZUrn5YNmFm6t6gibQbjX",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "TheBitcoinKing",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TheBitcoinKing/status/731200026152734720",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "UK"
+    },
+    "description": "UK Based international Bitcoin dealer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/thebitcoinking",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/thebitcoinking",
+        "name": "cover"
+      }
+    ],
+    "name": "The BitCoin King",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://thebitcoinking.uk"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "TheBitcoinKing",
+      "proof_url": "https://twitter.com/TheBitcoinKing/status/731200026152734720",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN thebitcoinking.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/thebitcoinking.id\"\n"
+}
