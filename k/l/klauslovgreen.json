@@ -1,64 +1,73 @@
 {
   "owner_address": "16u19Y2Kb5RL8AoADrxPTywcbMvrU4tchC",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/klauslovgreen"
-    },
-    "bio": "Investing in companies, bonds, real estate, content development and music rights. Founded AMEInfo in 1996 which was acquired by Emap plc in 2006",
-    "bitcoin": {
-      "address": "1QCQjdVBjdS5HpUCtWLNxEb86E3bFj12X8"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/klauslovgreen"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/klauslovgreen/posts/10152826781835120"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "klauslovgreen",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "klauslovgreen"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/klauslovgreen/33e7b3d4f166cf30439b"
+      {
+        "@type": "Account",
+        "identifier": "1PNzczMep4qh2kj28Zyv6Aiif8qejKobQf",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "klauslovgreen"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/klauslovgreen"
-    },
-    "location": {
-      "formatted": "Monaco"
-    },
-    "name": {
-      "formatted": "Klaus Lovgreen"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/KlausLovgreen/status/533939793860628480"
+      {
+        "@type": "Account",
+        "identifier": "KlausLovgreen",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/KlausLovgreen/status/735156457218441216",
+        "service": "twitter"
       },
-      "username": "KlausLovgreen"
+      {
+        "@type": "Account",
+        "identifier": "klauslovgreen",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/klauslovgreen/5c4cb2bc04d774851aed6cef76bb7340",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Monaco"
     },
-    "v": "0.2",
-    "website": "http://evershift.com"
+    "description": "Investing in companies, bonds, real estate, content development and music rights. Founded AMEInfo in 1996 which was acquired by Emap plc in 2006",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/klauslovgreen",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/klauslovgreen",
+        "name": "cover"
+      }
+    ],
+    "name": "Klaus Lovgreen",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://evershift.com"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "klauslovgreen",
-      "proof_url": "https://gist.github.com/klauslovgreen/33e7b3d4f166cf30439b",
-      "service": "github",
-      "valid": true
-    },
-    {
       "identifier": "KlausLovgreen",
-      "proof_url": "https://twitter.com/KlausLovgreen/status/533939793860628480",
+      "proof_url": "https://twitter.com/KlausLovgreen/status/735156457218441216",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "klauslovgreen",
-      "proof_url": "https://facebook.com/klauslovgreen/posts/10152826781835120",
-      "service": "facebook",
-      "valid": false
+      "proof_url": "https://gist.github.com/klauslovgreen/5c4cb2bc04d774851aed6cef76bb7340",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN klauslovgreen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/klauslovgreen.id\"\n"
 }
