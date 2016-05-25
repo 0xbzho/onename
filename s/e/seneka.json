@@ -1,0 +1,62 @@
+{
+  "owner_address": "1KNmuhejcV7JKRYWhcigC9Rio7QBTa749j",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "SaracenRomero",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SaracenRomero/status/732565460546359296",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "SaracenRomero213",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/SaracenRomero213/afd2aca043a0bff5ccd8de872b97764a#file-onename",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "saracen.romero.1",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/saracen.romero.1/posts/1719533928313906",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/seneka",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "SaracenRomero",
+      "proof_url": "https://twitter.com/SaracenRomero/status/732565460546359296",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "SaracenRomero213",
+      "proof_url": "https://gist.github.com/SaracenRomero213/afd2aca043a0bff5ccd8de872b97764a#file-onename",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "saracen.romero.1",
+      "proof_url": "https://www.facebook.com/saracen.romero.1/posts/1719533928313906",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN seneka.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/seneka.id\"\n"
+}
