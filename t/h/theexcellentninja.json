@@ -1,0 +1,49 @@
+{
+  "owner_address": "159veN1WhcmEfRc8aFGa8Dg55mDxnazX3s",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "theexcellentnin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/theexcellentnin/status/730847127837003776",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "zephyyrr",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/zephyyrr/5a56224388afe801f33a788e2b05ec71",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Växjö, Sweden"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Johan Fogelström"
+  },
+  "verifications": [
+    {
+      "identifier": "theexcellentnin",
+      "proof_url": "https://twitter.com/theexcellentnin/status/730847127837003776",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "zephyyrr",
+      "proof_url": "https://gist.github.com/zephyyrr/5a56224388afe801f33a788e2b05ec71",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN theexcellentninja.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/theexcellentninja.id\"\n"
+}
