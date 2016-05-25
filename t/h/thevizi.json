@@ -1,0 +1,57 @@
+{
+  "owner_address": "1JbVetTg5e4BRMywnP2wViK9aRYy2iws8K",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "YouLingLong",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/YouLingLong/7dc5f3d788cf28843489269cac5878ed",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tamashevizi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tamashevizi/status/729057064899641344",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tamashevizi",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/thevizi/posts/10154345032562240",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "YouLingLong",
+      "proof_url": "https://gist.github.com/YouLingLong/7dc5f3d788cf28843489269cac5878ed",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "tamashevizi",
+      "proof_url": "https://twitter.com/tamashevizi/status/729057064899641344",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "tamashevizi",
+      "proof_url": "https://www.facebook.com/thevizi/posts/10154345032562240",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN thevizi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/thevizi.id\"\n"
+}
