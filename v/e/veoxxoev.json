@@ -1,0 +1,68 @@
+{
+  "owner_address": "1Mj32gfhRtsahsD25ZgNo6ZE6j7SXDzvRA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1AXTMbR4c5fdfaEQZL1CstMmMXfddkgNEM",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "veox",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/veox/969961d7783d215a0d17f5f6cbcbf612",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "veoxwmt",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/veoxwmt/status/730735719111639040",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/veoxxoev",
+        "identifier": "1298BC0A9B0DBEEA3BDDCBA62D3DA6CD74AB3D37",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/veoxxoev",
+        "name": "avatar"
+      }
+    ],
+    "name": "Noel Maersk",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://veox.pw/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "veox",
+      "proof_url": "https://gist.github.com/veox/969961d7783d215a0d17f5f6cbcbf612",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "veoxwmt",
+      "proof_url": "https://twitter.com/veoxwmt/status/730735719111639040",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN veoxxoev.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/veoxxoev.id\"\n"
+}
