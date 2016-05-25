@@ -1,0 +1,43 @@
+{
+  "owner_address": "1NMsjNuM1LfSLJtca2bRmmhWsABqVjj6gr",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tradenark",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tradenark/status/732405968043167744",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "6fa84b6d7d65623af130214609a4141e334dffcd",
+        "service": "openbazzar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Gleb",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://tradenark.com.ua"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tradenark",
+      "proof_url": "https://twitter.com/tradenark/status/732405968043167744",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tradenark.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tradenark.id\"\n"
+}
