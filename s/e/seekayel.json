@@ -1,0 +1,50 @@
+{
+  "owner_address": "19SSqcH5sFnRe128F7NBUmo1bDV3dzHi48",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "seekayel",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/seekayel/status/727981597136461826",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "seekayel",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/seekayel/3922dd5f3d6538047805aa85c821c9b7",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/seekayel",
+        "name": "avatar"
+      }
+    ],
+    "name": "Kam Lasater"
+  },
+  "verifications": [
+    {
+      "identifier": "seekayel",
+      "proof_url": "https://twitter.com/seekayel/status/727981597136461826",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "seekayel",
+      "proof_url": "https://gist.github.com/seekayel/3922dd5f3d6538047805aa85c821c9b7",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN seekayel.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/seekayel.id\"\n"
+}
