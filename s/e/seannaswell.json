@@ -1,0 +1,57 @@
+{
+  "owner_address": "1LopUEbrhg2Ft1SMpcpLNEMR2xaxa2ssTq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "seannaswell",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/seannaswell/91a00195d5b7c21d38893cfc86486229",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "seannaswell",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SeannAswell/status/732944424276099073",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1cekVSLfKa3YNmt2nXJXoCVxQjgJPjuqi",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "description": "Experienced Learner",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/seannaswell",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/seannaswell",
+        "name": "cover"
+      }
+    ],
+    "name": "Seann Aswell"
+  },
+  "verifications": [
+    {
+      "identifier": "seannaswell",
+      "proof_url": "https://gist.github.com/seannaswell/91a00195d5b7c21d38893cfc86486229",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "seannaswell",
+      "proof_url": "https://twitter.com/SeannAswell/status/732944424276099073",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN seannaswell.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/seannaswell.id\"\n"
+}
