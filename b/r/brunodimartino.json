@@ -1,61 +1,58 @@
 {
   "owner_address": "19CMPf2KjymFkV8AbmVEvXVzLorQBBQJ2K",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/brunodimartino"
-    },
-    "bio": "#TechnicalAnalyst #ElliottWave #BitcoinThinker #Entrepreneur #IngressPlayer #HobbyMusician #Foodie",
-    "bitcoin": {
-      "address": "1EBJqnZoLP6kbV11ZQLv1utpH4hTm28MWF"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/brunodimartino"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/bruceguionbajo/posts/10153811902278189"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bruno_dimartino",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "bruceguionbajo"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/brunodimartino/4f7741d9ffad66925d01#file-verifying-txt"
+      {
+        "@type": "Account",
+        "identifier": "bruceguionbajo",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "brunodimartino"
-    },
-    "location": {
-      "formatted": "La Plata,  Buenos Aires, Argentina"
-    },
-    "name": {
-      "formatted": "Bruno Di Martino"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/bruno_dimartino/status/644155384190640128"
+      {
+        "@type": "Account",
+        "identifier": "brunodimartino",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "bruno_dimartino"
+      {
+        "@type": "Account",
+        "identifier": "1EBJqnZoLP6kbV11ZQLv1utpH4hTm28MWF",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "La Plata,  Buenos Aires, Argentina"
     },
-    "v": "0.2",
-    "website": "https://www.brunodimartino.com.ar"
+    "description": "#TechnicalAnalyst #ElliottWave #BitcoinThinker #Entrepreneur #IngressPlayer #HobbyMusician #Foodie",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/brunodimartino",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/brunodimartino",
+        "name": "avatar"
+      }
+    ],
+    "name": "Bruno Di Martino",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.brunodimartino.com.ar"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "brunodimartino",
-      "proof_url": "https://gist.github.com/brunodimartino/4f7741d9ffad66925d01#file-verifying-txt",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "bruno_dimartino",
-      "proof_url": "https://twitter.com/bruno_dimartino/status/644155384190640128",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "bruceguionbajo",
-      "proof_url": "https://facebook.com/bruceguionbajo/posts/10153811902278189",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN brunodimartino.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/brunodimartino.id\"\n"
 }
