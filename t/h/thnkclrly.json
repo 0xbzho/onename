@@ -1,0 +1,61 @@
+{
+  "owner_address": "19yysXmFdNrSEmyQ3TLSR1VSK3w4ZmSGNU",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "thnkclrly",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/thnkclrly/status/727213524238344192",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mathiasvestergaard",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mathiasvestergaard/posts/506953322690?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York City"
+    },
+    "description": "I help people Think Clearly by facilitating space for personal- and group reflection. Get the handwritten newsletter, the Clarity Cards or DM for 1:1 support.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/thnkclrly",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/thnkclrly",
+        "name": "cover"
+      }
+    ],
+    "name": "Mathias Jakobsen",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.thnkclrly.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "thnkclrly",
+      "proof_url": "https://twitter.com/thnkclrly/status/727213524238344192",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mathiasvestergaard",
+      "proof_url": "https://www.facebook.com/mathiasvestergaard/posts/506953322690?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN thnkclrly.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/thnkclrly.id\"\n"
+}
