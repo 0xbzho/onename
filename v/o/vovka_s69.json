@@ -1,0 +1,64 @@
+{
+  "owner_address": "1Lc2wqKsEynxsBJVxrRJrhsUQn7TQtCngV",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "vladimir.salitrinskij",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "VS69",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/VS69/ee76441f0c8be0710c990b194545b931",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "VladSalitrinsky",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/VladSalitrinsky/status/724300942942810112",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Zhytomyr, Ukraine"
+    },
+    "description": "IT, programming, business, internet, financial independence",
+    "graph": {
+      "url": "https://s3.amazonaws.com/grph/vovka_s69"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/vovka_s69",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/vovka_s69",
+        "name": "cover"
+      }
+    ],
+    "name": "Volodymyr Salitrynskyi"
+  },
+  "verifications": [
+    {
+      "identifier": "VS69",
+      "proof_url": "https://gist.github.com/VS69/ee76441f0c8be0710c990b194545b931",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "VladSalitrinsky",
+      "proof_url": "https://twitter.com/VladSalitrinsky/status/724300942942810112",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN vovka_s69.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vovka_s69.id\"\n"
+}
