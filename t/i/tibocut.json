@@ -1,0 +1,91 @@
+{
+  "owner_address": "1BY12nJzfxpwFmBebBHfPuPvzKZ5BaU15j",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tibocut",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TiboCut/status/730431915627515904",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tibocut",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tibocut/ad135ff8a7a718899aecf19340889481",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "15bQT1437oALhatRoWxUAy8h259SzudwsQ",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tibocut",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/tibocut/posts/507249236146393",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/tibocut",
+        "identifier": "215A7F3C9594D2178A0CD59BCC6F19F2207B31FE",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "8dbcf4b3f6d5aa9cba726f845213e7a3f37e4d4a",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London, UK"
+    },
+    "description": "I translate dry words, nascent ideas ☛ diagrams, illustrations and comics. I also try to re-invent the way we experience graphic novels and radios on smartphones.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tibocut",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/tibocut",
+        "name": "cover"
+      }
+    ],
+    "name": "Tibocut",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.tibocut.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tibocut",
+      "proof_url": "https://twitter.com/TiboCut/status/730431915627515904",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "tibocut",
+      "proof_url": "https://gist.github.com/tibocut/ad135ff8a7a718899aecf19340889481",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "tibocut",
+      "proof_url": "https://www.facebook.com/tibocut/posts/507249236146393",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tibocut.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tibocut.id\"\n"
+}
