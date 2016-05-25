@@ -1,0 +1,54 @@
+{
+  "owner_address": "1BtFUS1GtrvFe2C2x89wMufxUehsjTkPpM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sethleedy",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/sethleedy/4b5e49810e152f126c19a4f0a918d41d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sethleedy",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SethLeedy/status/732406814315319297",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "9794b702c3f1fba8216c28a18db353a388b2f691",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sethleedy",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/sethleedy",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "sethleedy",
+      "proof_url": "https://gist.github.com/sethleedy/4b5e49810e152f126c19a4f0a918d41d",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "sethleedy",
+      "proof_url": "https://twitter.com/SethLeedy/status/732406814315319297",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN sethleedy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sethleedy.id\"\n"
+}
