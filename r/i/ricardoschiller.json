@@ -1,6 +1,63 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1QCdBTZWzA1SV47vBoVXJbaUdXzEqKQcDu",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ricardoschiller",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ricardoschiller/status/734764125264478208",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ricardoschillerpinto",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ricardoschillerpinto/posts/1205978532769804",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ricardoschiller",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ricardoschiller/0a976c8af0f704909a0259ee0e6e7459",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ricardoschiller",
+        "name": "avatar"
+      }
+    ],
+    "name": "Ricardo Schiller Pinto"
+  },
+  "verifications": [
+    {
+      "identifier": "ricardoschiller",
+      "proof_url": "https://twitter.com/ricardoschiller/status/734764125264478208",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ricardoschillerpinto",
+      "proof_url": "https://www.facebook.com/ricardoschillerpinto/posts/1205978532769804",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "ricardoschiller",
+      "proof_url": "https://gist.github.com/ricardoschiller/0a976c8af0f704909a0259ee0e6e7459",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ricardoschiller.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ricardoschiller.id\"\n"
 }
