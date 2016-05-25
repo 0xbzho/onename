@@ -1,0 +1,41 @@
+{
+  "owner_address": "1KWJUDQNMubwZ5xNo5aHULRZ5ake7Ve8gK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mpe",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mpe/c1fb72248d677a7796a88272f4fe58e0",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Australia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/realmpe",
+        "name": "avatar"
+      }
+    ],
+    "name": "Michael Ellerman"
+  },
+  "verifications": [
+    {
+      "identifier": "mpe",
+      "proof_url": "https://gist.github.com/mpe/c1fb72248d677a7796a88272f4fe58e0",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN realmpe.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/realmpe.id\"\n"
+}
