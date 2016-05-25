@@ -1,0 +1,54 @@
+{
+  "owner_address": "1MvQzN5pdn7yVVbtpn2F7hTj3hRsepGKQN",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rbenadon",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1Hwd8zkkkmWUubUQPLHwniRxBvRM2Rgtjh",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "benadon",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/benadon/posts/10154427384373352",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
+    },
+    "description": "\"There is no end to the within of things. The dreamer dreams, and the dreamer within the dream dreams.\"",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rodrigo",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rodrigo",
+        "name": "cover"
+      }
+    ],
+    "name": "R Benadon"
+  },
+  "verifications": [
+    {
+      "identifier": "benadon",
+      "proof_url": "https://facebook.com/benadon/posts/10154427384373352",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN rodrigo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rodrigo.id\"\n"
+}
