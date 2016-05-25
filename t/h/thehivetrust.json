@@ -1,0 +1,62 @@
+{
+  "owner_address": "15hnwAGJim1uHSCFwFBMzk6zjdgeGuv2o5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1EJsZuDzZTtjDAtinQV3UuBg5QLot3PmYN",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Paul O'Shea",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/Paul O'Shea/posts/10207346541736239",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "pauloshea",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/pauloshea/5e2e3df8275fbff461bb0125e42aeef5",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "7189f8e9ab5d64f597733326567d8cfe3773d499",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/pauloshea/5e2e3df8275fbff461bb0125e42aeef5",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/thehivetrust",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Paul O'Shea",
+      "proof_url": "https://facebook.com/Paul O'Shea/posts/10207346541736239",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "pauloshea",
+      "proof_url": "https://gist.github.com/pauloshea/5e2e3df8275fbff461bb0125e42aeef5",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN thehivetrust.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/thehivetrust.id\"\n"
+}
