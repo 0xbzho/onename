@@ -1,61 +1,58 @@
 {
   "owner_address": "1JqrmtrkLUFknjRLjXx8PJBYbBPbEbCJuH",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/scorpiot1000"
-    },
-    "bio": "xgmlab",
-    "bitcoin": {
-      "address": "1PcJtoehJsCNZtQo4US9HnbqgVNSCt7HaJ"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/scorpiot1000"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/ScorpioT1000/posts/846454548750221"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ScorpioT1000",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "ScorpioT1000"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/ScorpioT1000/5f61ce8f8c1e7f8c6c5b"
+      {
+        "@type": "Account",
+        "identifier": "ScorpioT1000",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "ScorpioT1000"
-    },
-    "location": {
-      "formatted": "Nizhniy Novgorod"
-    },
-    "name": {
-      "formatted": "ScorpioT1000"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/ScorpioT1000/status/534385208154267650"
+      {
+        "@type": "Account",
+        "identifier": "ScorpioT1000",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "ScorpioT1000"
+      {
+        "@type": "Account",
+        "identifier": "1PcJtoehJsCNZtQo4US9HnbqgVNSCt7HaJ",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nizhniy Novgorod"
     },
-    "v": "0.2",
-    "website": "http://xgm.ru"
+    "description": "xgmlab",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/scorpiot1000",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/scorpiot1000",
+        "name": "cover"
+      }
+    ],
+    "name": "ScorpioT1000",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://indaxia.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "ScorpioT1000",
-      "proof_url": "https://gist.github.com/ScorpioT1000/5f61ce8f8c1e7f8c6c5b",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "ScorpioT1000",
-      "proof_url": "https://twitter.com/ScorpioT1000/status/534385208154267650",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "ScorpioT1000",
-      "proof_url": "https://facebook.com/ScorpioT1000/posts/846454548750221",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN scorpiot1000.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/scorpiot1000.id\"\n"
 }
