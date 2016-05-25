@@ -1,0 +1,47 @@
+{
+  "owner_address": "1LhYbunhrw9i1ikUU83yKzomNrsqyWjXkx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "SensesOrganics",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SensesOrganics/status/724944995271192577",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "eb1307c825ecd9fd65858cdbc94a4f28066fd107",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Utrecht, The Netherlands"
+    },
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/senses",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/senses",
+        "name": "cover"
+      }
+    ],
+    "name": "Senses Organics"
+  },
+  "verifications": [
+    {
+      "identifier": "SensesOrganics",
+      "proof_url": "https://twitter.com/SensesOrganics/status/724944995271192577",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN senses.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/senses.id\"\n"
+}
