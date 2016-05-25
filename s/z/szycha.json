@@ -1,0 +1,73 @@
+{
+  "owner_address": "1FkQbDMn8K96ZZBZ1g2J3aNW6bejPhwVjn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "szycha76",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1mRGWdZp4f1iqrURnCvrxqe3tshaUJW5k",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "adastor.marcin.szychowski",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/adastor.marcin.szychowski/posts/1013586915383808",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "szycha",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/szycha/status/714838618850922496",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Łódź, Poland"
+    },
+    "description": "Let's build something better!",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/szycha",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Marcin Szychowski",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://adastor.pl"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "adastor.marcin.szychowski",
+      "proof_url": "https://www.facebook.com/adastor.marcin.szychowski/posts/1013586915383808",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "szycha",
+      "proof_url": "https://twitter.com/szycha/status/714838618850922496",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN szycha.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/szycha.id\"\n"
+}
