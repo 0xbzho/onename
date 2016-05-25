@@ -1,6 +1,79 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1JCfkCT7AK6gbbzVqR679hVVEJYRgrpYaY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "basbrink",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/basbrink/cc70ef40b56142b031bb15ee95e4af77",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bas.brink.9",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bas.brink.9/posts/1081738215221922",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "basbrink",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BasBrink/status/734833935641923585",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "e5f2012f-965b-40d8-b1f4-bb03d7f67a3b",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/basbrink",
+        "identifier": null,
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ede"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/basbrink",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/basbrink",
+        "name": "cover"
+      }
+    ],
+    "name": "Bas Brink"
+  },
+  "verifications": [
+    {
+      "identifier": "basbrink",
+      "proof_url": "https://gist.github.com/basbrink/cc70ef40b56142b031bb15ee95e4af77",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "bas.brink.9",
+      "proof_url": "https://www.facebook.com/bas.brink.9/posts/1081738215221922",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "basbrink",
+      "proof_url": "https://twitter.com/BasBrink/status/734833935641923585",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN basbrink.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/basbrink.id\"\n"
 }
