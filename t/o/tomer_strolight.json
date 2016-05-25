@@ -1,10 +1,31 @@
 {
   "owner_address": "1447ZrTgj77hvfF63Lw4cxZAtz4sWPQZn3",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/483.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "the.best.profile.page.ever",
+        "proofType": "http",
+        "proofUrl": "https://Fwww.facebook.com/the.best.profile.page.ever/posts/10156907660670261",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "the.best.profile.page.ever",
+      "proof_url": "https://Fwww.facebook.com/the.best.profile.page.ever/posts/10156907660670261",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tomer_strolight.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tomer_strolight.id\"\n"
 }
