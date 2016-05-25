@@ -1,0 +1,67 @@
+{
+  "owner_address": "1MKTokddvLDWR2ZNPdwMpug7AWGCnAQVHi",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "3ADjELbV15ofCAovQmFR3mhwdBQhpyWqN6",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "verylihi",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/verylihi/posts/1221605104517175",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "verylihi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/verylihi/status/729559817333800960",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "台灣.台中"
+    },
+    "description": "數位金融、趨勢分析、廣告企劃",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/verylihi",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/verylihi",
+        "name": "cover"
+      }
+    ],
+    "name": "非禪立亥",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://about.me/verylihi"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "verylihi",
+      "proof_url": "https://www.facebook.com/verylihi/posts/1221605104517175",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "verylihi",
+      "proof_url": "https://twitter.com/verylihi/status/729559817333800960",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN verylihi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/verylihi.id\"\n"
+}
