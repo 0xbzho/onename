@@ -1,0 +1,49 @@
+{
+  "owner_address": "1GjkvAU85mYR1jYpzrXMEwTVjmfUVeApiL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mrmacete",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mrmacete/804119abe507d681225f1cb47d785eb0",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "8aed39742ec533e173a7350e3ba6772a012ade3f",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mrmacete",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bezjaje/status/726445591715299328",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mrmacete",
+      "proof_url": "https://gist.github.com/mrmacete/804119abe507d681225f1cb47d785eb0",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "mrmacete",
+      "proof_url": "https://twitter.com/bezjaje/status/726445591715299328",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN reversingfactory.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/reversingfactory.id\"\n"
+}
