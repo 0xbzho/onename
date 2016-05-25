@@ -1,0 +1,74 @@
+{
+  "owner_address": "1FccRPhmU33AznnY7ievA5LjhDqKb1yi7A",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "woods_nh",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/woods_nh/status/728831150613991424",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tomwoodsnh",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tomwoodsnh/8f6c2ffba4b2b1b2cd58db3e5ef6a4f1#file-twoods-txt",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1AW7SmMorRQde4vBNbFs7NhdcJXF8aQmte",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "40df45b9fc830abcc52a334856e73ad8779988bf",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tomwoodsnh/8f6c2ffba4b2b1b2cd58db3e5ef6a4f1#file-twoods-txt",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New Hampshire USA"
+    },
+    "description": "artist, jewelry maker, rockhound, macroeconomics, nature, hiking, bicycling",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tomwoods_nh_jewelrymaker",
+        "name": "avatar"
+      }
+    ],
+    "name": "Tom Woods",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://TomsCoolJewels.blogspot.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "woods_nh",
+      "proof_url": "https://twitter.com/woods_nh/status/728831150613991424",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "tomwoodsnh",
+      "proof_url": "https://gist.github.com/tomwoodsnh/8f6c2ffba4b2b1b2cd58db3e5ef6a4f1#file-twoods-txt",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tomwoods_nh_jewelrymaker.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tomwoods_nh_jewelrymaker.id\"\n"
+}
