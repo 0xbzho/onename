@@ -1,0 +1,50 @@
+{
+  "owner_address": "13244XZzgFM8SZzp7kR1hjcVfPMY7RwSex",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ralphloura",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RalphLoura/status/730776816860827649",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ralph.loura",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ralph.loura/posts/10154592626154769",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rloura",
+        "name": "avatar"
+      }
+    ],
+    "name": "Ralph Earl Loura"
+  },
+  "verifications": [
+    {
+      "identifier": "ralphloura",
+      "proof_url": "https://twitter.com/RalphLoura/status/730776816860827649",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ralph.loura",
+      "proof_url": "https://www.facebook.com/ralph.loura/posts/10154592626154769",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN rloura.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rloura.id\"\n"
+}
