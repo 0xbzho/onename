@@ -1,6 +1,57 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "134B4513VVB5S84e4tPZpyhaMfA8g9hjDz",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mitja_simcic",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mitja_simcic/status/734719260514254848",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mitja.simcic",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mitja.simcic/posts/10154353789201435",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mitjasim",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mitjasim/ce3e05c887357c4c4ff944e6d5eb455f",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mitja_simcic",
+      "proof_url": "https://twitter.com/mitja_simcic/status/734719260514254848",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mitja.simcic",
+      "proof_url": "https://www.facebook.com/mitja.simcic/posts/10154353789201435",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "mitjasim",
+      "proof_url": "https://gist.github.com/mitjasim/ce3e05c887357c4c4ff944e6d5eb455f",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN msimcic.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/msimcic.id\"\n"
 }
