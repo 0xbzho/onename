@@ -1,0 +1,63 @@
+{
+  "owner_address": "1NJZdvGM6hsBJ1bALU81shRcTh2uCpjfJC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "yngrdyn",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/yngrdyn/e57f7cd6943986e012991f5b86372ebe",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "yngrdyn",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/yngrdyn/status/728661243448459264",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "yngrdyn",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/yngrdyn?post_id=10154082170841772_10154082171656772#/facebook",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/yngrdyn",
+        "name": "avatar"
+      }
+    ],
+    "name": "Yngrid Coello"
+  },
+  "verifications": [
+    {
+      "identifier": "yngrdyn",
+      "proof_url": "https://gist.github.com/yngrdyn/e57f7cd6943986e012991f5b86372ebe",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "yngrdyn",
+      "proof_url": "https://twitter.com/yngrdyn/status/728661243448459264",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "yngrdyn",
+      "proof_url": "https://onename.com/yngrdyn?post_id=10154082170841772_10154082171656772#/facebook",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN yngrdyn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/yngrdyn.id\"\n"
+}
