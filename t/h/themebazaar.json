@@ -1,0 +1,33 @@
+{
+  "owner_address": "1DKDDxaiWFAqVvD7FoRxHRfAisraSHPcTu",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "287e4ca8e24592a4ea4ddf1d7e31d8e18cf2449c",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Worldwide"
+    },
+    "description": "Cool Themes",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/themebazaar",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/themebazaar",
+        "name": "cover"
+      }
+    ],
+    "name": "Theme Bazaar"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN themebazaar.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/themebazaar.id\"\n"
+}
