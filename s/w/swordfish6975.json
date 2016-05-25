@@ -1,0 +1,59 @@
+{
+  "owner_address": "1GLZwZQNBvbXuegxEWHBXPXgB6Gxa6e87u",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cryptofolio",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cryptofolio/status/725316055976038400",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "13owWKDScijS41W4ezJCTjZfFa7JioDQfe",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "0a7ec697900ee76102428e27fe45c5ab3bed23b5",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "the interwebs"
+    },
+    "description": "Im a folio that likes long walks on the beach with alt coins ;D",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/swordfish6975",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/swordfish6975",
+        "name": "cover"
+      }
+    ],
+    "name": "cryptofolio",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://cryptofolio.info"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "cryptofolio",
+      "proof_url": "https://twitter.com/cryptofolio/status/725316055976038400",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN swordfish6975.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/swordfish6975.id\"\n"
+}
