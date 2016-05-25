@@ -1,0 +1,85 @@
+{
+  "owner_address": "1TTo4Yz41QVmFsJqUeXsiQN5SmRwZBcMX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1AKSntxfEWwAKYVrUjf81AHBskM6KC4Ypg",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "RogerGLewis",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RogerGLewis/status/725066492614705152",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tonefreqhz",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tonefreqhz/ba1375ffdf65f5660de9864c98260fa4",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "c8a2fdb4f489616a29d9add8b13f05ff1202892c",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rogergl",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/20531316728/posts/10154009990506729/",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Laholm, SE"
+    },
+    "description": "Dad to my two beautiful Children Rhiannon and Rasmus. &  Director Tychastic Investment group",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tonefreqhz",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/tonefreqhz",
+        "name": "cover"
+      }
+    ],
+    "name": "Roger Glyndwr Lewis",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://se.linkedin.com/in/roger-lewis-48175211"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "RogerGLewis",
+      "proof_url": "https://twitter.com/RogerGLewis/status/725066492614705152",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "tonefreqhz",
+      "proof_url": "https://gist.github.com/tonefreqhz/ba1375ffdf65f5660de9864c98260fa4",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "rogergl",
+      "proof_url": "https://www.facebook.com/20531316728/posts/10154009990506729/",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tonefreqhz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tonefreqhz.id\"\n"
+}
