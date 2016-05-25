@@ -1,0 +1,42 @@
+{
+  "owner_address": "1BDNFaJHEBGbwGrzAV4zBf5QQ227ybT4tB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "wilsonand1",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/wilsonand1/status/730028173908451328",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Manchester, Uk"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Danny Wilson",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://danwilson.co"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "wilsonand1",
+      "proof_url": "https://twitter.com/wilsonand1/status/730028173908451328",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN wilsonand1.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wilsonand1.id\"\n"
+}
