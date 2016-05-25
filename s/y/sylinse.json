@@ -1,0 +1,41 @@
+{
+  "owner_address": "16o3baeNDFjM5dzGuz1bAJLLMjxaE217zy",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sylinse",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/sylinse",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "b08c5d021f9bcb8c78a14819e15a03f059d5eceb",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sylinse",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "sylinse",
+      "proof_url": "https://www.facebook.com/sylinse",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN sylinse.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sylinse.id\"\n"
+}
