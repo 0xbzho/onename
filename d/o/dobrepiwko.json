@@ -1,35 +1,36 @@
 {
   "owner_address": "1EcUXunsgifp72nL57a2XPXYzG3arNsgD5",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/IKM.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/halfik/posts/1035945273094023"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "halfik",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "halfik"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/anonymous/53d7e5ad55bbe7de23a6"
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "anonymous"
-    },
-    "v": "0.2"
+      {
+        "@type": "Account",
+        "identifier": "halfik",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ogarkov/status/735505179110461441",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "halfik",
-      "proof_url": "https://facebook.com/halfik/posts/1035945273094023",
-      "service": "facebook",
-      "valid": true
-    },
-    {
-      "identifier": "anonymous",
-      "proof_url": "https://gist.github.com/anonymous/53d7e5ad55bbe7de23a6",
-      "service": "github",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN dobrepiwko.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dobrepiwko.id\"\n"
 }
