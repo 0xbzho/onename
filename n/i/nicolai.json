@@ -1,32 +1,41 @@
 {
   "owner_address": "1FpuyGEGEFAonxyjxc28HpSqZRbJ1Pkaqh",
   "profile": {
-    "bitcoin": {
-      "address": "19mXu5Cayoa82MdSBczeMeULctm629LCxe"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/ikZ.jpeg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/NicolaiSoeborg/1ad5991c1aa94829e032"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "NicolaiSoeborg",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "NicolaiSoeborg"
+      {
+        "@type": "Account",
+        "identifier": "19mXu5Cayoa82MdSBczeMeULctm629LCxe",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "0x9F69B7e4f08c27E9D37ba3DbD330A03A06f741C0",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sridhar87/status/735474892800299008",
+        "service": "ethereum address"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Denmark"
     },
-    "location": {
-      "formatted": "Denmark"
-    },
-    "name": {
-      "formatted": "Nicolai S"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Nicolai Søborg"
   },
-  "verifications": [
-    {
-      "identifier": "NicolaiSoeborg",
-      "proof_url": "https://gist.github.com/NicolaiSoeborg/1ad5991c1aa94829e032",
-      "service": "github",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN nicolai.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nicolai.id\"\n"
 }
