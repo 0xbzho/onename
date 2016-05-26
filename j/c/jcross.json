@@ -1,59 +1,75 @@
 {
   "owner_address": "1GTgN2rkJLGCwVTk7yWCCKpok6mq2XVewx",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "push through my blockchain update please",
-        "service": "test"
+        "identifier": "jonathan.cross.3994",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1FN4ugMQUByTLtPv4yFY59uEjXvdNBHhdp",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://jonathancross.com/2FFA7695.asc",
+        "identifier": "9386A2FB2DA9D0D31FAF0818C0C076132FFA7695",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jonf3n",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jonf3n/status/735530667128283137",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jonathancross",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jonathancross/551c75eff193cf6e19772f80465f3d32",
+        "service": "github"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/jcross"
-    },
-    "bitcoin": {
-      "address": "1FN4ugMQUByTLtPv4yFY59uEjXvdNBHhdp"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/Ov8.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/jonathan.cross.3994/posts/10156324511290241"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jcross",
+        "name": "avatar"
       },
-      "username": "jonathan.cross.3994"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/jonathancross/e20486ac9cb6dec9da2a"
-      },
-      "username": "jonathancross"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/jcross"
-    },
-    "name": {
-      "formatted": "Jonathan Cross"
-    },
-    "pgp": {
-      "fingerprint": "9386A2FB2DA9D0D31FAF0818C0C076132FFA7695",
-      "url": "https://jonathancross.com/2FFA7695.asc"
-    },
-    "v": "0.2",
-    "website": "http://www.jonathancross.com"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jonathan Cross",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.jonathancross.com"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "jonathancross",
-      "proof_url": "https://gist.github.com/jonathancross/e20486ac9cb6dec9da2a",
-      "service": "github",
+      "identifier": "jonf3n",
+      "proof_url": "https://twitter.com/jonf3n/status/735530667128283137",
+      "service": "twitter",
       "valid": true
     },
     {
-      "identifier": "jonathan.cross.3994",
-      "proof_url": "https://facebook.com/jonathan.cross.3994/posts/10156324511290241",
-      "service": "facebook",
-      "valid": false
+      "identifier": "jonathancross",
+      "proof_url": "https://gist.github.com/jonathancross/551c75eff193cf6e19772f80465f3d32",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN jcross.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jcross.id\"\n"
 }
