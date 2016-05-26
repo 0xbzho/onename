@@ -1,65 +1,65 @@
 {
   "owner_address": "1NwQFMTKfc7H2K1AVaupcUovnjEiV9mtdX",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/ponsaelius"
-    },
-    "bio": "ICT Professional, senior support engineer, formerly a Microsoft Exchange Admin. Member of the BCS.",
-    "bitcoin": {
-      "address": "13FL18BqVDZGByJczqX3Sfo9F8WVa6mjfD"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/ponsaelius"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/stephen.townsley/posts/10152576359390868"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ponsaelius122",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "stephen.townsley"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/ponsaelius/393ad712dac5b5930e2d"
+      {
+        "@type": "Account",
+        "identifier": "stephen.townsley",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "ponsaelius"
-    },
-    "location": {
-      "formatted": "Gateshead, England"
-    },
-    "name": {
-      "formatted": "Stephen Townsley"
-    },
-    "pgp": {
-      "fingerprint": "4B51498BF04981426A7C0D56C3FCEF0F42470070",
-      "url": "https://s3.amazonaws.com/pk9/ponsaelius"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/ponsaelius122/status/542775277558837248"
+      {
+        "@type": "Account",
+        "identifier": "ponsaelius",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "ponsaelius122"
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/ponsaelius",
+        "identifier": "4B51498BF04981426A7C0D56C3FCEF0F42470070",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1EAYmT9tAYY9k8WPME3rRWmMJgpfGJC7uA",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Gateshead, England"
     },
-    "v": "0.2",
-    "website": "http://stephentownsley.com"
+    "description": "ICT Professional, senior support engineer, formerly a Microsoft Exchange Admin. Member of the BCS.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ponsaelius",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ponsaelius",
+        "name": "cover"
+      }
+    ],
+    "name": "Stephen Townsley",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://stephentownsley.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "ponsaelius",
-      "proof_url": "https://gist.github.com/ponsaelius/393ad712dac5b5930e2d",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "ponsaelius122",
-      "proof_url": "https://twitter.com/ponsaelius122/status/542775277558837248",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "stephen.townsley",
-      "proof_url": "https://facebook.com/stephen.townsley/posts/10152576359390868",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN ponsaelius.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ponsaelius.id\"\n"
 }
