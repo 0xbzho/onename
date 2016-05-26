@@ -5,18 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "nmhuy",
-        "proofType": "http",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "nmhuy",
-        "proofType": "http",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
         "contentUrl": "https://s3.amazonaws.com/pk9/nmhuy",
         "identifier": "26890FEFC7C64A907BC11CB11541E506826BE555",
         "role": "key",
@@ -24,9 +12,29 @@
       },
       {
         "@type": "Account",
+        "identifier": "nmhuy",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/nmhuy/c6be1e43bcf6c8760dd9",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nmhuy",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/nmhuy/status/657525665118441474",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1A18UqCoCtxC13jMbLDnWpQBtU2fgVnBLe",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
         "identifier": "huynguyen.org",
         "proofType": "http",
-        "proofUrl": "https://www.facebook.com/huynguyen.org/posts/10153365180543371",
+        "proofUrl": "https://www.facebook.com/huynguyen.org/posts/10153836145118371",
         "service": "facebook"
       }
     ],
@@ -51,8 +59,20 @@
   },
   "verifications": [
     {
+      "identifier": "nmhuy",
+      "proof_url": "https://gist.github.com/nmhuy/c6be1e43bcf6c8760dd9",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "nmhuy",
+      "proof_url": "https://twitter.com/nmhuy/status/657525665118441474",
+      "service": "twitter",
+      "valid": true
+    },
+    {
       "identifier": "huynguyen.org",
-      "proof_url": "https://www.facebook.com/huynguyen.org/posts/10153365180543371",
+      "proof_url": "https://www.facebook.com/huynguyen.org/posts/10153836145118371",
       "service": "facebook",
       "valid": false
     }
