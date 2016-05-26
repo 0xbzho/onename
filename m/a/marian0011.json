@@ -5,12 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "marian001",
-        "proofType": "http",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
         "identifier": "18G2iUj84ms28rUnCCVvdtYFVuoDDUtFBT",
         "role": "payment",
         "service": "bitcoin"
@@ -33,6 +27,13 @@
         "proofType": "http",
         "proofUrl": "https://www.facebook.com/marian001/posts/10153244399878587",
         "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "marian001",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/marian001/56a9b62ae11e42b39114e6fcc19ce167",
+        "service": "github"
       }
     ],
     "address": {
@@ -71,6 +72,12 @@
       "identifier": "marian001",
       "proof_url": "https://www.facebook.com/marian001/posts/10153244399878587",
       "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "marian001",
+      "proof_url": "https://gist.github.com/marian001/56a9b62ae11e42b39114e6fcc19ce167",
+      "service": "github",
       "valid": true
     }
   ],
