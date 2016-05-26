@@ -1,43 +1,67 @@
 {
   "owner_address": "1GyAZ9txKv9JQM3m3dpMJysPD1xyM6gGxo",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/giuseppegrisorio"
-    },
-    "bio": "Lawyer, web enthusiast, President of Bitcoin Foundation Puglia",
-    "bitcoin": {
-      "address": "39v9BEmH6VXNpEBnd7xbx5zTgArPRZfNVb"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/giuseppegrisorio"
-    },
-    "facebook": {
-      "username": "GiuseppeGrisorio"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/giuseppegrisorio"
-    },
-    "location": {
-      "formatted": "Bari, Puglia, Italy"
-    },
-    "name": {
-      "formatted": "Giuseppe Grisorio"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/oraziorosso/status/710072624529973252"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "39v9BEmH6VXNpEBnd7xbx5zTgArPRZfNVb",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "oraziorosso"
+      {
+        "@type": "Account",
+        "identifier": "oraziorosso",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/oraziorosso/status/735430916890349568",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "GiuseppeGrisorio",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/GiuseppeGrisorio/posts/10210235306425054?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bari, Puglia, Italy"
     },
-    "v": "0.2",
-    "website": "http://www.ottavopiano.it"
+    "description": "Lawyer, web enthusiast, President of Bitcoin Foundation Puglia",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/giuseppegrisorio",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/giuseppegrisorio",
+        "name": "cover"
+      }
+    ],
+    "name": "Giuseppe Grisorio",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.bitcoin-puglia.org"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "oraziorosso",
-      "proof_url": "https://twitter.com/oraziorosso/status/710072624529973252",
+      "proof_url": "https://twitter.com/oraziorosso/status/735430916890349568",
       "service": "twitter",
       "valid": true
+    },
+    {
+      "identifier": "GiuseppeGrisorio",
+      "proof_url": "https://www.facebook.com/GiuseppeGrisorio/posts/10210235306425054?pnref=story",
+      "service": "facebook",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN giuseppegrisorio.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/giuseppegrisorio.id\"\n"
 }
