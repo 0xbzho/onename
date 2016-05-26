@@ -1,37 +1,54 @@
 {
   "owner_address": "1FqC5qyMJgNHHNB9nuPNGRPL4bBKqWZyqw",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/hyunlee"
-    },
-    "bio": "SEO | Marketing | Tech",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/gQZ.jpg"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/hyunlee"
-    },
-    "location": {
-      "formatted": "Tallinn, Estonia"
-    },
-    "name": {
-      "formatted": "Hyun Lee"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/HyunLee/status/714532337074184193"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1PriVy4ZvknXxP75emTzDmoPWqiZoWUVxm",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "HyunLee"
+      {
+        "@type": "Account",
+        "identifier": "HyunLee",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/HyunLee/status/713684448311644164",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Tallinn, Estonia"
     },
-    "v": "0.2",
-    "website": "http://hyunl.ee"
+    "description": "SEO | Marketing | Tech",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hyunlee",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Hyun Lee",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://hyunl.ee"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "HyunLee",
-      "proof_url": "https://twitter.com/HyunLee/status/714532337074184193",
+      "proof_url": "https://twitter.com/HyunLee/status/713684448311644164",
       "service": "twitter",
-      "valid": true
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN hyunlee.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hyunlee.id\"\n"
 }
