@@ -1,0 +1,48 @@
+{
+  "owner_address": "1CcRDgozoDE783wnw4Jn7CZapJPLk7sz2p",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "huangzhong",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/huangzhong/status/733382338961375232",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Toronto"
+    },
+    "description": "关注开源软件、电子商务、网络营销的发展和应用",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/huangzhong",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/huangzhong",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jack Huang",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.huangzhong.ca"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "huangzhong",
+      "proof_url": "https://twitter.com/huangzhong/status/733382338961375232",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN huangzhong.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/huangzhong.id\"\n"
+}
