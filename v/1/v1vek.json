@@ -1,29 +1,76 @@
 {
   "owner_address": "13Qjv4eBBHk722qMrLuNeRTog1W3a8P5SK",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/v1vek"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "vivek.vivek",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1AHPm63SKihSZS6ZdoQtHspVLjJCG1GXVU",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "vivek_kumar",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/vivek_kumar/status/736252801790054400",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "vzk",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/vzk/a2410285066d9d74e3d78e1b03268f44#file-gistfile1-txt",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco"
     },
-    "bio": "Creating technology for Hacking your Hearing",
-    "bitcoin": {
-      "address": "1AHPm63SKihSZS6ZdoQtHspVLjJCG1GXVU"
+    "description": "Creating technology for Hacking your Hearing",
+    "graph": {
+      "url": "https://s3.amazonaws.com/grph/v1vek"
     },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/483.jpeg"
-    },
-    "facebook": {
-      "username": "vivek.vivek"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Vivek Kumar"
-    },
-    "twitter": {
-      "username": "vivek_kumar"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/v1vek",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Vivek Kumar",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://v1vek.com"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "vivek_kumar",
+      "proof_url": "https://twitter.com/vivek_kumar/status/736252801790054400",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "vzk",
+      "proof_url": "https://gist.github.com/vzk/a2410285066d9d74e3d78e1b03268f44#file-gistfile1-txt",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN v1vek.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/v1vek.id\"\n"
 }
