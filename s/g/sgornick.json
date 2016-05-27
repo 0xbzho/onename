@@ -5,12 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "sgornick",
-        "proofType": "http",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
         "identifier": "1DsZaXefjvAJ7mXgyH5jTkMpXdF1Qc62RM",
         "role": "payment",
         "service": "bitcoin"
@@ -21,6 +15,27 @@
         "identifier": "1619E0F30A0AE945C3A5407EF64A32C07327B2F8",
         "role": "key",
         "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sgornick",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sgornick/status/719417075928670208",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sgornick",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/sgornick/b8a474e9aa249cacf3109f6018cfa319",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "0f226e6e1b3c9813e2c1a94230b14cbaf270f785",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/alainchrun/status/735847237792739329",
+        "service": "openbazaar"
       }
     ],
     "address": {
@@ -47,6 +62,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "sgornick",
+      "proof_url": "https://twitter.com/sgornick/status/719417075928670208",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "sgornick",
+      "proof_url": "https://gist.github.com/sgornick/b8a474e9aa249cacf3109f6018cfa319",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN sgornick.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sgornick.id\"\n"
 }
