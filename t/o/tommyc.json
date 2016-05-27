@@ -1,36 +1,60 @@
 {
   "owner_address": "1QCFs6zfegFEZwC7NQg8WB1gnAiMZajK24",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/tommyc"
-    },
-    "bio": "Inspiration gathered from NYC & the talented creators we know around the world || by: Thomas Courtney",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/tommyc"
-    },
-    "facebook": {
-      "username": "thomasmcourtney"
-    },
-    "location": {
-      "formatted": "NYC"
-    },
-    "name": {
-      "formatted": "SEE INTERNATIONAL"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/SEE_int/status/686649856828530688"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "e9eb814dd1a754931c336248b293123e9a1853de",
+        "service": "openbazaar"
       },
-      "username": "SEE_int"
+      {
+        "@type": "Account",
+        "identifier": "SEE_int",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SEE_int/status/735818515349942273",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "thomasmcourtney",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/thomasmcourtney/posts/10208695356473647?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "NYC"
     },
-    "v": "0.2"
+    "description": "Inspiration gathered from NYC & the talented creators we know around the world || by: Thomas Courtney",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tommyc",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/tommyc",
+        "name": "cover"
+      }
+    ],
+    "name": "SEE INTERNATIONAL"
   },
   "verifications": [
     {
       "identifier": "SEE_int",
-      "proof_url": "https://twitter.com/SEE_int/status/686649856828530688",
+      "proof_url": "https://twitter.com/SEE_int/status/735818515349942273",
       "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "thomasmcourtney",
+      "proof_url": "https://www.facebook.com/thomasmcourtney/posts/10208695356473647?pnref=story",
+      "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN tommyc.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tommyc.id\"\n"
 }
