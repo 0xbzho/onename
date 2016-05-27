@@ -14,6 +14,13 @@
         "@type": "Account",
         "identifier": "ernestkoe",
         "proofType": "http",
+        "proofUrl": "https://gist.github.com/ernestkoe/f74efe45844d74c12b20145bab079602",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ernestkoe",
+        "proofType": "http",
         "proofUrl": "https://www.facebook.com/ernestkoe/posts/10154270938504073",
         "service": "facebook"
       }
@@ -45,9 +52,15 @@
     },
     {
       "identifier": "ernestkoe",
+      "proof_url": "https://gist.github.com/ernestkoe/f74efe45844d74c12b20145bab079602",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "ernestkoe",
       "proof_url": "https://www.facebook.com/ernestkoe/posts/10154270938504073",
       "service": "facebook",
-      "valid": false
+      "valid": true
     }
   ],
   "zone_file": "$ORIGIN ernestkoe.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ernestkoe.id\"\n"
