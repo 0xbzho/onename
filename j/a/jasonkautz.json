@@ -1,44 +1,53 @@
 {
   "owner_address": "13J4dEweu9FG4JU7i8QvypKqgAo2HrR5sq",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/yId.jpg"
-    },
-    "facebook": {
-      "username": "JasonCKautz"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/jubbsy/82afd9920d2148abfc99"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "JasonCKautz",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "jubbsy"
-    },
-    "location": {
-      "formatted": "San Francisco"
-    },
-    "name": {
-      "formatted": "Jason Kautz"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/jkautz0/status/704427514341371904"
+      {
+        "@type": "Account",
+        "identifier": "jubbsy",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "jkautz0"
+      {
+        "@type": "Account",
+        "identifier": "5azquatch",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/5azquatch/status/735644943054573568",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jasonkautz",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jason Kautz"
   },
   "verifications": [
     {
-      "identifier": "jubbsy",
-      "proof_url": "https://gist.github.com/jubbsy/82afd9920d2148abfc99",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "jkautz0",
-      "proof_url": "https://twitter.com/jkautz0/status/704427514341371904",
+      "identifier": "5azquatch",
+      "proof_url": "https://twitter.com/5azquatch/status/735644943054573568",
       "service": "twitter",
-      "valid": false
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN jasonkautz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jasonkautz.id\"\n"
 }
