@@ -1,6 +1,36 @@
 {
-  "owner_address": "1cHv1osQ7tsaSN1QVxroxat4aPqG5g7GK",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1PRRE4GPkLfb4WY9TKsiutufRK9ULRdhnc",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jeremiahsmall",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jeremiahsmall/status/733294582964723713",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jeremiahsmall",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jeremiahsmall",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jeremiahsmall",
+      "proof_url": "https://twitter.com/jeremiahsmall/status/733294582964723713",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN jeremiahsmall.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jeremiahsmall.id\"\n"
 }
