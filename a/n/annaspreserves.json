@@ -5,15 +5,30 @@
     "account": [
       {
         "@type": "Account",
+        "identifier": "1vMPHAYEEBQEEBu7987HxWeKxsDaYLRmf",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
         "identifier": "annaspreserves",
         "proofType": "http",
+        "proofUrl": "https://www.facebook.com/annaspreserves/posts/1724916004463129",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "annaspreserves",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/annaspreserves/status/733582746711261185",
         "service": "twitter"
       },
       {
         "@type": "Account",
-        "identifier": "1vMPHAYEEBQEEBu7987HxWeKxsDaYLRmf",
-        "role": "payment",
-        "service": "bitcoin"
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/f0641a8413a8d217ac5a342b7aa53a43",
+        "service": "github"
       },
       {
         "@type": "Account",
@@ -23,6 +38,14 @@
         "service": "openbazaar"
       }
     ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London"
+    },
+    "description": "Fresh & Healthy Handmade Preserves",
+    "graph": {
+      "url": "https://s3.amazonaws.com/grph/annaspreserves"
+    },
     "image": [
       {
         "@type": "ImageObject",
@@ -35,6 +58,7 @@
         "name": "cover"
       }
     ],
+    "name": "Anna's Preserves",
     "website": [
       {
         "@type": "WebSite",
@@ -42,6 +66,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "annaspreserves",
+      "proof_url": "https://www.facebook.com/annaspreserves/posts/1724916004463129",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "annaspreserves",
+      "proof_url": "https://twitter.com/annaspreserves/status/733582746711261185",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/f0641a8413a8d217ac5a342b7aa53a43",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN annaspreserves.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/annaspreserves.id\"\n"
 }
