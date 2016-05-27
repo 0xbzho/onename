@@ -1,46 +1,61 @@
 {
   "owner_address": "1AdiERpAXALd6w9vKV4LDMh3btXdsebTv",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/paulsweeney"
-    },
-    "bio": "Product & Innovation in Communications.\nEveryone has a plan until they get punched in the face.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/paulsweeney"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/PaulSweeney/posts/1017065088350135"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "PaulSweeney",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/PaulSweeney/status/735828343359209472",
+        "service": "twitter"
       },
-      "username": "PaulSweeney"
+      {
+        "@type": "Account",
+        "identifier": "PaulSweeney",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/namingconvention/posts/1094959640560679",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Limerick, Ireland"
     },
-    "location": {
-      "formatted": "Limerick, Ireland"
-    },
-    "name": {
-      "formatted": "Paul Sweeney"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/PaulSweeney/status/694164955847880704"
+    "description": "Product & Innovation in Communications.\nEveryone has a plan until they get punched in the face.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/paulsweeney",
+        "name": "avatar"
       },
-      "username": "PaulSweeney"
-    },
-    "v": "0.2",
-    "website": "http://ie.linkedin.com/in/paulsweeney"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/paulsweeney",
+        "name": "cover"
+      }
+    ],
+    "name": "Paul Sweeney",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://ie.linkedin.com/in/paulsweeney"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "PaulSweeney",
-      "proof_url": "https://twitter.com/PaulSweeney/status/694164955847880704",
+      "proof_url": "https://twitter.com/PaulSweeney/status/735828343359209472",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "PaulSweeney",
-      "proof_url": "https://facebook.com/PaulSweeney/posts/1017065088350135",
+      "proof_url": "https://www.facebook.com/namingconvention/posts/1094959640560679",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN paulsweeney.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/paulsweeney.id\"\n"
 }
