@@ -1,35 +1,61 @@
 {
   "owner_address": "1JcMKPZCoqYRHyENyGaanHsHQSjouu8fnE",
   "profile": {
-    "avatar": {
-      "url": "https://twitter.com/angelilREbroker"
-    },
-    "bio": "Live person living in Florida",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/flrebroker"
-    },
-    "location": {
-      "formatted": "Pembroke Pines, FL"
-    },
-    "name": {
-      "formatted": "Steven"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/SteveAngelil/status/525744720325009408"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "steven.angelil",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/steven.angelil/posts/10154249105492059?pnref=story",
+        "service": "facebook"
       },
-      "username": "SteveAngelil"
+      {
+        "@type": "Account",
+        "identifier": "SteveAngelil",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SteveAngelil/status/736226027849056257",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Pembroke Pines, FL"
     },
-    "v": "0.2",
-    "website": "http://www.stevenangelil.com"
+    "description": "Live person living in Florida",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/flrebroker",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/flrebroker",
+        "name": "cover"
+      }
+    ],
+    "name": "Steven",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.stevenangelil.com"
+      }
+    ]
   },
   "verifications": [
     {
+      "identifier": "steven.angelil",
+      "proof_url": "https://www.facebook.com/steven.angelil/posts/10154249105492059?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
       "identifier": "SteveAngelil",
-      "proof_url": "https://twitter.com/SteveAngelil/status/525744720325009408",
+      "proof_url": "https://twitter.com/SteveAngelil/status/736226027849056257",
       "service": "twitter",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN flrebroker.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/flrebroker.id\"\n"
 }
