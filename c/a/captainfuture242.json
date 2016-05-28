@@ -1,42 +1,45 @@
 {
   "owner_address": "1NNDDcWRLFgyjsY6bMgivWRYjDbDm5k3ke",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "6292116fa270fc7a6b033218b12965f65192efb7",
+        "identifier": "Capt_Future242",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "17rkXkbfv2YEukEtvif8woxECRRBUP26pF",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ef772b62bd4d4e788858e3f48d8318fcbfc825e5",
         "service": "openbazaar"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/captainfuture242"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "the verse"
     },
-    "bitcoin": {
-      "address": "17rkXkbfv2YEukEtvif8woxECRRBUP26pF"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/wkj.jpeg"
-    },
-    "location": {
-      "formatted": "the verse"
-    },
-    "name": {
-      "formatted": "Captain Future"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/Capt_Future242/status/722389751119142913"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/captainfuture242",
+        "name": "avatar"
       },
-      "username": "Capt_Future242"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/captainfuture242",
+        "name": "cover"
+      }
+    ],
+    "name": "Captain Future"
   },
-  "verifications": [
-    {
-      "identifier": "Capt_Future242",
-      "proof_url": "https://twitter.com/Capt_Future242/status/722389751119142913",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN captainfuture242.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/captainfuture242.id\"\n"
 }
