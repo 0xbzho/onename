@@ -1,44 +1,68 @@
 {
   "owner_address": "1PP3xDrSWD9K1RGEpZ4gFtwMddD284jJUM",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/davidmoldawer"
-    },
-    "bio": "Book editor, writer, reader experience designer at @Bookitect, father of 2, husband of illustrator Samantha Hahn, dweller in Park Slope",
-    "bitcoin": {
-      "address": "1FG9sdCBJzSiYMcirXcS3QrjWgQdm3u8Mx"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/davidmoldawer"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/davidmoldawer/posts/864618330811"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1FG9sdCBJzSiYMcirXcS3QrjWgQdm3u8Mx",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "davidmoldawer"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/davidmoldawer/31b923a65b86276c011a29eafa454417"
+      {
+        "@type": "Account",
+        "identifier": "davidmoldawer",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/davidmoldawer/posts/864618330811",
+        "service": "facebook"
       },
-      "username": "davidmoldawer"
-    },
-    "location": {
-      "formatted": "Brooklyn, NY"
-    },
-    "name": {
-      "formatted": "David Moldawer"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/davidmoldawer/status/722112650545668096"
+      {
+        "@type": "Account",
+        "identifier": "davidmoldawer",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/davidmoldawer/31b923a65b86276c011a29eafa454417",
+        "service": "github"
       },
-      "username": "davidmoldawer"
+      {
+        "@type": "Account",
+        "identifier": "davidmoldawer",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/davidmoldawer/status/722112650545668096",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brooklyn, NY"
     },
-    "v": "0.2",
-    "website": "http://www.davidmoldawer.com"
+    "description": "Independent nonfiction book editor and writer living in Brooklyn with my wife and 2 kids.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/davidmoldawer",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/davidmoldawer",
+        "name": "avatar"
+      }
+    ],
+    "name": "David Moldawer",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.davidmoldawer.com"
+      }
+    ]
   },
   "verifications": [
+    {
+      "identifier": "davidmoldawer",
+      "proof_url": "https://www.facebook.com/davidmoldawer/posts/864618330811",
+      "service": "facebook",
+      "valid": true
+    },
     {
       "identifier": "davidmoldawer",
       "proof_url": "https://gist.github.com/davidmoldawer/31b923a65b86276c011a29eafa454417",
@@ -50,12 +74,7 @@
       "proof_url": "https://twitter.com/davidmoldawer/status/722112650545668096",
       "service": "twitter",
       "valid": true
-    },
-    {
-      "identifier": "davidmoldawer",
-      "proof_url": "https://facebook.com/davidmoldawer/posts/864618330811",
-      "service": "facebook",
-      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN davidmoldawer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/davidmoldawer.id\"\n"
 }
