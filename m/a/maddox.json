@@ -1,13 +1,28 @@
 {
   "owner_address": "1FEgiXGpfceEEqmirCoieDVmoyqdNjHiFY",
   "profile": {
-    "bitcoin": {
-      "address": "1HW7aRenPubaHGScNwQs33dcwoxLQQGLDv"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/4AL.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "146C3RVo9MERjP6S4DaqwPFVX9LE8AkGfg",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "32366f6c77a0fd46753df3d5af26c766361b5162",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN maddox.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/maddox.id\"\n"
 }
