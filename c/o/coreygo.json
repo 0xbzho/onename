@@ -1,61 +1,64 @@
 {
   "owner_address": "1LqGR1WmAtWZJEPp8rBxvrm463CvGAFfCc",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/coreygo"
-    },
-    "bio": "http://t.co/et4k4sT3Vo  --  http://t.co/yZ6aErNXTt",
-    "bitcoin": {
-      "address": "1AQYy5C3evzrBZcoJaYEtizTQtjXHjfy6x"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/coreygo"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/coreygo/posts/10152276760741659"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cgomind",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "coreygo"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/coreygo/e7dd1ce2c6ed622e5433"
+      {
+        "@type": "Account",
+        "identifier": "coreygo",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "coreygo"
-    },
-    "location": {
-      "formatted": "Seattle, WA"
-    },
-    "name": {
-      "formatted": "Corey Gouker"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/cgomind/status/675975879005179904"
+      {
+        "@type": "Account",
+        "identifier": "coreygo",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "cgomind"
+      {
+        "@type": "Account",
+        "identifier": "1AQYy5C3evzrBZcoJaYEtizTQtjXHjfy6x",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/coreygo",
+        "identifier": "0xf8189720240a11d1",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seattle, WA"
     },
-    "v": "0.2",
-    "website": "http://coreygo.com"
+    "description": "http://t.co/et4k4sT3Vo  --  http://t.co/yZ6aErNXTt",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/coreygo",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/coreygo",
+        "name": "cover"
+      }
+    ],
+    "name": "Corey Gouker",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://coreygo.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "coreygo",
-      "proof_url": "https://gist.github.com/coreygo/e7dd1ce2c6ed622e5433",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "cgomind",
-      "proof_url": "https://twitter.com/cgomind/status/675975879005179904",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "coreygo",
-      "proof_url": "https://facebook.com/coreygo/posts/10152276760741659",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN coreygo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/coreygo.id\"\n"
 }
