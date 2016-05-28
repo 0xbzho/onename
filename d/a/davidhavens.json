@@ -1,10 +1,56 @@
 {
   "owner_address": "1J9fKnMVMg2ig4AJ8JTDckXQ9MvckcmC77",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/F9g.jpg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "eduhavens",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/eduhavens/status/735950754264014849",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dhavens",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dhavens/1ea03445e1d3c5f169568009389580b9",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "12Lf986mmPssaayg7Mcw2FsKrDWfvnoLbV",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chicago"
     },
-    "v": "0.2"
+    "description": "In eight words, I would say I am",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "David"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "eduhavens",
+      "proof_url": "https://twitter.com/eduhavens/status/735950754264014849",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "dhavens",
+      "proof_url": "https://gist.github.com/dhavens/1ea03445e1d3c5f169568009389580b9",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN davidhavens.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/davidhavens.id\"\n"
 }
