@@ -1,35 +1,80 @@
 {
   "owner_address": "1EkYWCKpwP7UcRuRd9U2pPGtHDrtkyywz8",
   "profile": {
-    "avatar": {
-      "url": "http://old.internetnz.net.nz/about/council/2009-2010/2009-election/HM.JPG/image_preview"
-    },
-    "bio": "",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/leaves-sky.jpg"
-    },
-    "location": {
-      "formatted": "Wellington"
-    },
-    "name": {
-      "formatted": "Hamish MacEwan"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/hamishmacewan/status/528692986477961216"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "HamishMacEwan",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/HamishMacEwan/37f8ca6a53cd8b0f8d848bae56b333b0",
+        "service": "github"
       },
-      "username": "hamishmacewan"
+      {
+        "@type": "Account",
+        "identifier": "hamishmacewan",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/HamishMacEwan/status/735945013981388801",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "http://pgp.net.nz:11371/pks/lookup?op=vindex&search=0xEC0761409CA89753",
+        "identifier": null,
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hamishmacewan",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/hamish.macewan/posts/10153528993326770",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Wellington"
     },
-    "v": "0.2",
-    "website": "http://delta.geek.nz"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/hamishmacewan",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hamishmacewan",
+        "name": "avatar"
+      }
+    ],
+    "name": "Hamish MacEwan",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://delta.geek.nz"
+      }
+    ]
   },
   "verifications": [
     {
+      "identifier": "HamishMacEwan",
+      "proof_url": "https://gist.github.com/HamishMacEwan/37f8ca6a53cd8b0f8d848bae56b333b0",
+      "service": "github",
+      "valid": false
+    },
+    {
       "identifier": "hamishmacewan",
-      "proof_url": "https://twitter.com/hamishmacewan/status/528692986477961216",
+      "proof_url": "https://twitter.com/HamishMacEwan/status/735945013981388801",
       "service": "twitter",
       "valid": true
+    },
+    {
+      "identifier": "hamishmacewan",
+      "proof_url": "https://www.facebook.com/hamish.macewan/posts/10153528993326770",
+      "service": "facebook",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN hamishmacewan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hamishmacewan.id\"\n"
 }
