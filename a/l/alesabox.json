@@ -5,13 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "alesabox",
-        "proofType": "http",
-        "proofUrl": "https://onename.com/alesabox?post_id=238059366572348_238059729905645#/facebook",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
         "identifier": "128HJUQCF8gBUcyRkzXnnsocyo5NsMHTkq",
         "role": "payment",
         "service": "bitcoin"
@@ -22,6 +15,18 @@
         "proofType": "http",
         "proofUrl": "https://twitter.com/alesabox/status/734435281026306049",
         "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "30aa9225704644ab00ceb4f688d2ef12afe29313",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "alesabox",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/alesabox/posts/1540612879578633",
+        "service": "facebook"
       }
     ],
     "address": {
@@ -52,14 +57,14 @@
   "verifications": [
     {
       "identifier": "alesabox",
-      "proof_url": "https://onename.com/alesabox?post_id=238059366572348_238059729905645#/facebook",
-      "service": "facebook",
-      "valid": false
+      "proof_url": "https://twitter.com/alesabox/status/734435281026306049",
+      "service": "twitter",
+      "valid": true
     },
     {
       "identifier": "alesabox",
-      "proof_url": "https://twitter.com/alesabox/status/734435281026306049",
-      "service": "twitter",
+      "proof_url": "https://www.facebook.com/alesabox/posts/1540612879578633",
+      "service": "facebook",
       "valid": true
     }
   ],
