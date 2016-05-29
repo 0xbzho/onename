@@ -1,34 +1,74 @@
 {
   "owner_address": "1PC8g7CTswaRf2eeDtphKYHej8vptXVwdM",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/andrewdick"
-    },
-    "bio": "Full Stack Marketer",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/andrewdick"
-    },
-    "location": {
-      "formatted": "Toronto"
-    },
-    "name": {
-      "formatted": "Andrew Dick"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/Bubble_gum_tate/status/700080606877773824"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "andrewgdick",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/andrewgdick/91ff06f6cb6a229655443919db081a81",
+        "service": "github"
       },
-      "username": "Bubble_gum_tate"
+      {
+        "@type": "Account",
+        "identifier": "Bubble_gum_tate",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Bubble_Gum_Tate/status/736647925296685056",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "andrew.dick.2112",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/andrew.dick.2112/posts/10154039293636265?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Toronto"
     },
-    "v": "0.2",
-    "website": "http://www.drewdick.com"
+    "description": "Full Stack Marketer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/andrewdick",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/andrewdick",
+        "name": "cover"
+      }
+    ],
+    "name": "Andrew Dick",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.drewdick.com"
+      }
+    ]
   },
   "verifications": [
     {
+      "identifier": "andrewgdick",
+      "proof_url": "https://gist.github.com/andrewgdick/91ff06f6cb6a229655443919db081a81",
+      "service": "github",
+      "valid": true
+    },
+    {
       "identifier": "Bubble_gum_tate",
-      "proof_url": "https://twitter.com/Bubble_gum_tate/status/700080606877773824",
+      "proof_url": "https://twitter.com/Bubble_Gum_Tate/status/736647925296685056",
       "service": "twitter",
       "valid": true
+    },
+    {
+      "identifier": "andrew.dick.2112",
+      "proof_url": "https://www.facebook.com/andrew.dick.2112/posts/10154039293636265?pnref=story",
+      "service": "facebook",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN andrewdick.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/andrewdick.id\"\n"
 }
