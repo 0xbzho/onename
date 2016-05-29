@@ -1,46 +1,46 @@
 {
   "owner_address": "1Fi5it3YDytsLCMBQei59z2rMbBRKHgH8B",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/alistairf"
-    },
-    "bio": "CTO at @PublicisMachine. Greyhound of capital, columnist, cat fancier, journeyman absurdist. All tweets are my own & don't represent Publicis Machine's views.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/alistairf"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/alistair.fairweather/posts/10156026276280204"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "afairweather",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "alistair.fairweather"
+      {
+        "@type": "Account",
+        "identifier": "alistair.fairweather",
+        "proofType": "http",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "South Africa"
     },
-    "location": {
-      "formatted": "South Africa"
-    },
-    "name": {
-      "formatted": "Alistair Fairweather"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/afairweather/status/636951056887492608"
+    "description": "Founder @ PlainSpeak. Professional uncomplicator of technology. Greyhound of capital. Columnist, cat fancier, journeyman absurdist.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/alistairf",
+        "name": "avatar"
       },
-      "username": "afairweather"
-    },
-    "v": "0.2",
-    "website": "http://alistairfairweather.com"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/alistairf",
+        "name": "cover"
+      }
+    ],
+    "name": "Alistair Fairweather",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://alistairfairweather.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "afairweather",
-      "proof_url": "https://twitter.com/afairweather/status/636951056887492608",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "alistair.fairweather",
-      "proof_url": "https://facebook.com/alistair.fairweather/posts/10156026276280204",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN alistairf.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alistairf.id\"\n"
 }
