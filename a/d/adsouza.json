@@ -1,61 +1,66 @@
 {
   "owner_address": "1PJ9ZMbVyUbPdRa2dc2ASRBqEfVy8Rta5p",
   "profile": {
-    "avatar": {
-      "url": "http://quikchange.net/images/my-face-400x600.png"
-    },
-    "bio": "I have my way with words.",
-    "bitcoin": {
-      "address": "1FaPUwsEFNkLCA7nyCmhraqb6ob2RPJ54W"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/adsouza"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/antonio.dsouza/posts/10100974580515857"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Quikchange",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "antonio.dsouza"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/adsouza/16b91714cd1fed13e2ba"
+      {
+        "@type": "Account",
+        "identifier": "adsouza",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "adsouza"
-    },
-    "location": {
-      "formatted": "USA"
-    },
-    "name": {
-      "formatted": "Antonio D'souza"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/Quikchange/status/715107414819913729"
+      {
+        "@type": "Account",
+        "identifier": "1FaPUwsEFNkLCA7nyCmhraqb6ob2RPJ54W",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "Quikchange"
+      {
+        "@type": "Account",
+        "identifier": "antonio.dsouza",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/antonio.dsouza/posts/10101587142731267",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "USA"
     },
-    "v": "0.2",
-    "website": "http://www.adsouza.net"
+    "description": "I have my way with words.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "http://quikchange.net/images/my-face-400x600.png",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/adsouza",
+        "name": "cover"
+      }
+    ],
+    "name": "Antonio D'souza",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.adsouza.net"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "adsouza",
-      "proof_url": "https://gist.github.com/adsouza/16b91714cd1fed13e2ba",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "Quikchange",
-      "proof_url": "https://twitter.com/Quikchange/status/715107414819913729",
-      "service": "twitter",
-      "valid": true
-    },
-    {
       "identifier": "antonio.dsouza",
-      "proof_url": "https://facebook.com/antonio.dsouza/posts/10100974580515857",
+      "proof_url": "https://facebook.com/antonio.dsouza/posts/10101587142731267",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN adsouza.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/adsouza.id\"\n"
 }
