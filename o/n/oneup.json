@@ -1,0 +1,55 @@
+{
+  "owner_address": "1941ijYJ9hRo2jR9r7WBtD4Tiu6HwzD8xM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "oneupworld",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/oneupworld/status/738128184407818244",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "7d2b5aeb4c6444d4a7611861a2ed923abadaa7d0",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/christophermlr/status/729326498432229378",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Culver City, California"
+    },
+    "description": "Personalized Supplements",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/oneup",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/oneup",
+        "name": "cover"
+      }
+    ],
+    "name": "ONEUP",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.oneup.me"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "oneupworld",
+      "proof_url": "https://twitter.com/oneupworld/status/738128184407818244",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN oneup.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/oneup.id\"\n"
+}
