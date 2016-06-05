@@ -1,36 +1,61 @@
 {
   "owner_address": "1BcqgtssyoJJR3bG1hGthqyE7JDRNvWFKw",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/jaapfris"
-    },
-    "bio": "ondernemer | possibilities | technical innovation | social innovation | design thinking | what if? | art of not knowing | boardmember @RCZwolle",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/QAd.jpeg"
-    },
-    "facebook": {
-      "username": "jaapfris"
-    },
-    "location": {
-      "formatted": "Dieren"
-    },
-    "name": {
-      "formatted": "Jaap Fris"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/frisgenoeg/status/684809295679107073"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jaapfris",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jaapfris/posts/1194820087230010?pnref=story",
+        "service": "facebook"
       },
-      "username": "frisgenoeg"
+      {
+        "@type": "Account",
+        "identifier": "frisgenoeg",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/frisgenoeg/status/738379750402576384",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Dieren"
     },
-    "v": "0.2"
+    "description": "challenging the status quo with @wearemindt | driving curiosity and finding new possibilities | helping you out create new meaningful things that drive impact",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jaapfris",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jaap Fris",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://wearemindt.nl"
+      }
+    ]
   },
   "verifications": [
     {
+      "identifier": "jaapfris",
+      "proof_url": "https://www.facebook.com/jaapfris/posts/1194820087230010?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
       "identifier": "frisgenoeg",
-      "proof_url": "https://twitter.com/frisgenoeg/status/684809295679107073",
+      "proof_url": "https://twitter.com/frisgenoeg/status/738379750402576384",
       "service": "twitter",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN jaapfris.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jaapfris.id\"\n"
 }
