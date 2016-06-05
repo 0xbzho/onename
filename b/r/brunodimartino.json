@@ -5,34 +5,36 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "bruno_dimartino",
-        "proofType": "http",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "bruceguionbajo",
-        "proofType": "http",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
         "identifier": "brunodimartino",
         "proofType": "http",
         "service": "github"
       },
       {
         "@type": "Account",
-        "identifier": "1EBJqnZoLP6kbV11ZQLv1utpH4hTm28MWF",
+        "identifier": "18xZPX9MYGbiJ31STxywtXUg5u6bUaqxGr",
         "role": "payment",
         "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bruno_dimartino",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bruno_dimartino/status/737752762776190977",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bruceguionbajo",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bruceguionbajo/posts/10154365862488189?pnref=story",
+        "service": "facebook"
       }
     ],
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "La Plata,  Buenos Aires, Argentina"
     },
-    "description": "#TechnicalAnalyst #ElliottWave #BitcoinThinker #Entrepreneur #IngressPlayer #HobbyMusician #Foodie",
+    "description": "#TechnicalAnalyst #Elliotticcian #BitcoinThinker #Entrepreneur #IngressPlayer #HobbyMusician #Foodie",
     "image": [
       {
         "@type": "ImageObject",
@@ -53,6 +55,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "bruno_dimartino",
+      "proof_url": "https://twitter.com/bruno_dimartino/status/737752762776190977",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "bruceguionbajo",
+      "proof_url": "https://www.facebook.com/bruceguionbajo/posts/10154365862488189?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN brunodimartino.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/brunodimartino.id\"\n"
 }
