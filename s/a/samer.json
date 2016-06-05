@@ -1,6 +1,19 @@
 {
   "owner_address": "185xkUWhGTyjsCf966VCLS9bQnha3uXCsP",
-  "profile": "{\"bitcoin\": {\"address\": \"1LM5qzidyG4Tprg2zmdEumSJLccVUxzQRq\"}, \"v\": \"0.2\"}",
+  "profile": {
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1K3AsoR1hg5g5qr44WxstRqB3WiVb8j72S",
+        "service": "test"
+      }
+    ],
+    "bitcoin": {
+      "address": "1LM5qzidyG4Tprg2zmdEumSJLccVUxzQRq"
+    },
+    "image": [],
+    "v": "0.2"
+  },
   "verifications": [],
-  "zone_file": "{\"bitcoin\": {\"address\": \"1LM5qzidyG4Tprg2zmdEumSJLccVUxzQRq\"}, \"v\": \"0.2\"}"
+  "zone_file": "$ORIGIN samer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/samer.id\"\n"
 }
