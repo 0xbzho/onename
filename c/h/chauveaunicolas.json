@@ -1,45 +1,55 @@
 {
   "owner_address": "14Mn7hmX5bT3vGwwD42mafagcw7xqdacFo",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/chauveaunicolas"
-    },
-    "bio": "Pdt et Producteur @lapureprod",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/chauveaunicolas"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/chauveaunicolas/posts/10153829280563382"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "chauveaunicolas",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ChauveauNicolas/status/738328720897921024",
+        "service": "twitter"
       },
-      "username": "chauveaunicolas"
+      {
+        "@type": "Account",
+        "identifier": "chauveaunicolas",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/chauveaunicolas",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bordeaux"
     },
-    "location": {
-      "formatted": "Bordeaux"
-    },
-    "name": {
-      "formatted": "Nicolas Chauveau"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/chauveaunicolas/status/694276778613948416"
+    "description": "Pdt et Producteur @lapureprod",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/chauveaunicolas",
+        "name": "avatar"
       },
-      "username": "chauveaunicolas"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/chauveaunicolas",
+        "name": "cover"
+      }
+    ],
+    "name": "Nicolas Chauveau"
   },
   "verifications": [
     {
       "identifier": "chauveaunicolas",
-      "proof_url": "https://twitter.com/chauveaunicolas/status/694276778613948416",
+      "proof_url": "https://twitter.com/ChauveauNicolas/status/738328720897921024",
       "service": "twitter",
-      "valid": false
+      "valid": true
     },
     {
       "identifier": "chauveaunicolas",
-      "proof_url": "https://facebook.com/chauveaunicolas/posts/10153829280563382",
+      "proof_url": "https://onename.com/chauveaunicolas",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN chauveaunicolas.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/chauveaunicolas.id\"\n"
 }
