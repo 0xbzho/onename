@@ -1,63 +1,79 @@
 {
   "owner_address": "1212DcRUYa6cLmGZW7E6PLm8mUQaoYcqiK",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/berendbotje"
-    },
-    "bitcoin": {
-      "address": "1PBaDGc6PidCfG1F5HhhEyacdrHNPms39K"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/OSA.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/chris.eilander.7/posts/966377686775438"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "chris.eilander.7",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/chris.eilander.7/posts/966377686775438",
+        "service": "facebook"
       },
-      "username": "chris.eilander.7"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/chriseilander/f294e0c6a2f21d6935ff"
+      {
+        "@type": "Account",
+        "identifier": "chriseilander",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/chriseilander/status/737349512428130304",
+        "service": "twitter"
       },
-      "username": "chriseilander"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/berendbotje"
-    },
-    "location": {
-      "formatted": "The Netherlands"
-    },
-    "name": {
-      "formatted": "Christiaan Matthijs Eilander"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/chriseilander/status/661841445209378816"
+      {
+        "@type": "Account",
+        "identifier": "chriseilander",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/chriseilander/675ff602f7d63d3753d509c19702f332",
+        "service": "github"
       },
-      "username": "chriseilander"
+      {
+        "@type": "Account",
+        "identifier": "35RFUx7eTXA4ZkpTMkXSWa1fuk9eGr1c76",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "The Netherlands"
     },
-    "v": "0.2",
-    "website": "http://chriseilander.nl"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/berendbotje",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Christiaan Matthijs Eilander",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://chriseilander.nl"
+      }
+    ]
   },
   "verifications": [
-    {
-      "identifier": "chriseilander",
-      "proof_url": "https://gist.github.com/chriseilander/f294e0c6a2f21d6935ff",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "chriseilander",
-      "proof_url": "https://twitter.com/chriseilander/status/661841445209378816",
-      "service": "twitter",
-      "valid": true
-    },
     {
       "identifier": "chris.eilander.7",
       "proof_url": "https://facebook.com/chris.eilander.7/posts/966377686775438",
       "service": "facebook",
-      "valid": false
+      "valid": true
+    },
+    {
+      "identifier": "chriseilander",
+      "proof_url": "https://twitter.com/chriseilander/status/737349512428130304",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "chriseilander",
+      "proof_url": "https://gist.github.com/chriseilander/675ff602f7d63d3753d509c19702f332",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN berendbotje.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/berendbotje.id\"\n"
 }
