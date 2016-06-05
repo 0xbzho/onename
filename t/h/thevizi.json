@@ -21,8 +21,20 @@
         "@type": "Account",
         "identifier": "tamashevizi",
         "proofType": "http",
-        "proofUrl": "https://www.facebook.com/thevizi/posts/10154345032562240",
+        "proofUrl": "https://www.facebook.com/thevizi/posts/10154396575477240",
         "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/thevizi",
+        "identifier": "2D70BFC160D280EF3C1BA6348E4A7F8C80E63E0F",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "role": "payment",
+        "service": "bitcoin"
       }
     ],
     "image": [
@@ -30,8 +42,14 @@
         "@type": "ImageObject",
         "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
         "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/thevizi",
+        "name": "avatar"
       }
-    ]
+    ],
+    "name": "Tamas Hevizi"
   },
   "verifications": [
     {
@@ -48,7 +66,7 @@
     },
     {
       "identifier": "tamashevizi",
-      "proof_url": "https://www.facebook.com/thevizi/posts/10154345032562240",
+      "proof_url": "https://www.facebook.com/thevizi/posts/10154396575477240",
       "service": "facebook",
       "valid": false
     }
