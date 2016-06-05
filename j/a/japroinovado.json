@@ -1,46 +1,61 @@
 {
   "owner_address": "1KJPdPrevs2fo2AtQ4bbJFJzT7Vs6D9gj7",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/japroinovado"
-    },
-    "bio": "You can find me at http://t.co/ClhpyXafwh",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/japroinovado"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/japroinovado/posts/1021274897893584"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "I2Gbits",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "japroinovado"
-    },
-    "location": {
-      "formatted": "Braga"
-    },
-    "name": {
-      "formatted": "JaproRiple"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/I2Gbits/status/629088502802685952"
+      {
+        "@type": "Account",
+        "identifier": "japroinovado",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/japroinovado/posts/1021274897893584",
+        "service": "facebook"
       },
-      "username": "I2Gbits"
+      {
+        "@type": "Account",
+        "identifier": "Verifying that +japroinovado is my blockchain ID. https://onename.com/japroinovado",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/christophermlr/status/729326498432229378",
+        "service": "verifying that +japroinovado is my blockchain id. https://onename.com/japroinovado"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Braga"
     },
-    "v": "0.2",
-    "website": "http://twittercounter.com/I2Gbits"
+    "description": "You can find me at http://t.co/ClhpyXafwh",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/japroinovado",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/japroinovado",
+        "name": "cover"
+      }
+    ],
+    "name": "JaproRiple",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://twittercounter.com/I2Gbits"
+      }
+    ]
   },
   "verifications": [
-    {
-      "identifier": "I2Gbits",
-      "proof_url": "https://twitter.com/I2Gbits/status/629088502802685952",
-      "service": "twitter",
-      "valid": true
-    },
     {
       "identifier": "japroinovado",
       "proof_url": "https://facebook.com/japroinovado/posts/1021274897893584",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN japroinovado.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/japroinovado.id\"\n"
 }
