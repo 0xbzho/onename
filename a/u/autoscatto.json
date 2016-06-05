@@ -1,13 +1,61 @@
 {
   "owner_address": "1BdfSM2A3GgdgT434sqaeJvmth1xBn5aGg",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/autoscatto"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/autoscatto"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "autoscatto",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/autoscatto/91cecb13700903debdc59b4c8b871688",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1N99juG8orL6atf3SPogj9MgTFgzzCd6Z4",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "autoscatto",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/autoscatto/status/738477144788086784",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/autoscatto",
+        "identifier": "066B8E53",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/autoscatto",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/autoscatto",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "autoscatto",
+      "proof_url": "https://gist.github.com/autoscatto/91cecb13700903debdc59b4c8b871688",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "autoscatto",
+      "proof_url": "https://twitter.com/autoscatto/status/738477144788086784",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN autoscatto.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/autoscatto.id\"\n"
 }
