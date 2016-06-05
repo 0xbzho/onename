@@ -1,6 +1,53 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "18kyV9EvCHFqub4wdgMPMsy1sruUQPiXhn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Diaz.Acacio",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "12NETM2AsW4VnCR81EL7KJxayFH3ANnnVs",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Mirelis_D",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Mirelis_D",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/yosemir",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/yosemir",
+        "name": "cover"
+      }
+    ],
+    "name": "Mirelis Diaz"
+  },
+  "verifications": [
+    {
+      "identifier": "Mirelis_D",
+      "proof_url": "https://twitter.com/Mirelis_D",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN yosemir.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/yosemir.id\"\n"
 }
