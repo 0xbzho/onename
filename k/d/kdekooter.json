@@ -1,46 +1,61 @@
 {
   "owner_address": "1E2qq6kWXgJbokqjDytVgefqhpFaGnBmUb",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/kdekooter"
-    },
-    "bio": "Independent software developer",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/kdekooter"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/kdekooter/e6eaab4f2ab5c79908e6"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kdekooter",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kdekooter/status/736876188241678336",
+        "service": "twitter"
       },
-      "username": "kdekooter"
+      {
+        "@type": "Account",
+        "identifier": "kdekooter",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/kdekooter/44933e12500f0c0f3a32d875b7031e1f",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Rotterdam"
     },
-    "location": {
-      "formatted": "Rotterdam"
-    },
-    "name": {
-      "formatted": "Kees de Kooter"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/kdekooter/status/684974307949309952"
+    "description": "Independent software developer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kdekooter",
+        "name": "avatar"
       },
-      "username": "kdekooter"
-    },
-    "v": "0.2",
-    "website": "https://boplicity.nl"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/kdekooter",
+        "name": "cover"
+      }
+    ],
+    "name": "Kees de Kooter",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://boplicity.nl"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "kdekooter",
-      "proof_url": "https://gist.github.com/kdekooter/e6eaab4f2ab5c79908e6",
-      "service": "github",
-      "valid": false
+      "proof_url": "https://twitter.com/kdekooter/status/736876188241678336",
+      "service": "twitter",
+      "valid": true
     },
     {
       "identifier": "kdekooter",
-      "proof_url": "https://twitter.com/kdekooter/status/684974307949309952",
-      "service": "twitter",
-      "valid": false
+      "proof_url": "https://gist.github.com/kdekooter/44933e12500f0c0f3a32d875b7031e1f",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN kdekooter.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kdekooter.id\"\n"
 }
