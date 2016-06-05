@@ -1,62 +1,81 @@
 {
   "owner_address": "18pmsf4mdEKiXUfqgcoq98gBbGd8FjAdDr",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/yvangodard"
-    },
-    "bio": "Un brin geek, un brin cultureux, un brin musicien, un brin a-social. Aussi directeur de @reseauenscene",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/Ov8.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/yvan.godard/posts/10207512239078225"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/yvangodard",
+        "identifier": "F40104D135ABB9EBB7ECDAABAFCCBCADBD1A8D50",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "yvan.godard"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/yvangodard/8136fbc8cb372afbf1c7"
+      {
+        "@type": "Account",
+        "identifier": "yvan.godard",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/yvan.godard/posts/10207512239078225",
+        "service": "facebook"
       },
-      "username": "yvangodard"
-    },
-    "location": {
-      "formatted": "Montpellier LR"
-    },
-    "name": {
-      "formatted": "Yvan Godard"
-    },
-    "pgp": {
-      "fingerprint": "F40104D135ABB9EBB7ECDAABAFCCBCADBD1A8D50",
-      "url": "https://s3.amazonaws.com/pk9/yvangodard"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/ygodard/status/694060368809869313"
+      {
+        "@type": "Account",
+        "identifier": "ygodard",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ygodard/status/737212768256970752",
+        "service": "twitter"
       },
-      "username": "ygodard"
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/37ccbcada1e08186397c45fefb2326a0",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Montpellier LR"
     },
-    "v": "0.2",
-    "website": "http://about.me/ygodard"
+    "description": "Un brin geek, un brin cultureux, un brin musicien, un brin a-social. Aussi directeur de @reseauenscene",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/yvangodard",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Yvan Godard",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://about.me/ygodard"
+      }
+    ]
   },
   "verifications": [
-    {
-      "identifier": "yvangodard",
-      "proof_url": "https://gist.github.com/yvangodard/8136fbc8cb372afbf1c7",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "ygodard",
-      "proof_url": "https://twitter.com/ygodard/status/694060368809869313",
-      "service": "twitter",
-      "valid": true
-    },
     {
       "identifier": "yvan.godard",
       "proof_url": "https://facebook.com/yvan.godard/posts/10207512239078225",
       "service": "facebook",
       "valid": false
+    },
+    {
+      "identifier": "ygodard",
+      "proof_url": "https://twitter.com/ygodard/status/737212768256970752",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/37ccbcada1e08186397c45fefb2326a0",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN yvangodard.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/yvangodard.id\"\n"
 }
