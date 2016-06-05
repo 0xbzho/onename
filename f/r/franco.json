@@ -1,68 +1,87 @@
 {
   "owner_address": "1An74rQm2QSZBJGzbHoat9bV3aG22TEVAR",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/franco"
-    },
-    "bio": "Buenos Aires Bitcoin Center, Bitcoin Argentina NGO and BitCourt co-founder, organizing team member of each year's laBITconf (Latin American Bitcoin Conference).",
-    "bitcoin": {
-      "address": "19ADrUfkaBRbfBLoc1aHM6bjMMUnECerxy"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/franco"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/franco.amati/posts/10205832488944074"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "19ADrUfkaBRbfBLoc1aHM6bjMMUnECerxy",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "franco.amati"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/eleuteromaniaco/98b3c79b4bd1ee30eff2"
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/franco",
+        "identifier": "5721818662B0D673EA7B4A399EF66712CDE78EF3",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "eleuteromaniaco"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/franco"
-    },
-    "location": {
-      "formatted": "Ciudad de Buenos Aires, Argentina"
-    },
-    "name": {
-      "formatted": "Franco Amati"
-    },
-    "pgp": {
-      "fingerprint": "CDE78EF3",
-      "url": "https://s3.amazonaws.com/pk9/franco"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/franamati/status/553946045101510656"
+      {
+        "@type": "Account",
+        "identifier": "franamati",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/franamati/status/737375466777137154",
+        "service": "twitter"
       },
-      "username": "franamati"
+      {
+        "@type": "Account",
+        "identifier": "franamati",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/franamati/2eae9b125ae09e90f03a8060cf6100ea",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "franco.amati",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/franco.amati/posts/10207814668377321",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ciudad de Buenos Aires, Argentina"
     },
-    "v": "0.2",
-    "website": "http://francoamati.com"
+    "description": "Buenos Aires Bitcoin Center, Consentio and Bitcoin Argentina NGO co-founder, organizing team member of laBITconf (Latin American Bitcoin Conference).",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/franco",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/franco",
+        "name": "cover"
+      }
+    ],
+    "name": "Franco Amati",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://francoamati.com"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "eleuteromaniaco",
-      "proof_url": "https://gist.github.com/eleuteromaniaco/98b3c79b4bd1ee30eff2",
-      "service": "github",
-      "valid": true
-    },
-    {
       "identifier": "franamati",
-      "proof_url": "https://twitter.com/franamati/status/553946045101510656",
+      "proof_url": "https://twitter.com/franamati/status/737375466777137154",
       "service": "twitter",
       "valid": true
     },
     {
+      "identifier": "franamati",
+      "proof_url": "https://gist.github.com/franamati/2eae9b125ae09e90f03a8060cf6100ea",
+      "service": "github",
+      "valid": true
+    },
+    {
       "identifier": "franco.amati",
-      "proof_url": "https://facebook.com/franco.amati/posts/10205832488944074",
+      "proof_url": "https://www.facebook.com/franco.amati/posts/10207814668377321",
       "service": "facebook",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN franco.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/franco.id\"\n"
 }
