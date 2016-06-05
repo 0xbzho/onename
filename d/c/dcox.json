@@ -1,34 +1,60 @@
 {
   "owner_address": "1Cj7UEU9XbiX2k5P2gAm78qt8mXTcX8TcA",
   "profile": {
-    "bio": "Developer and Bitcoin enthusiast",
-    "bitcoin": {
-      "address": "1EhWoqa6fbQRJ4nbMeeGKnN6bRCQwprqSF"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/n6r.jpeg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/dacox/d4f28d5ee1f6e598267f"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dacox",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "dacox"
+      {
+        "@type": "Account",
+        "identifier": "1EhWoqa6fbQRJ4nbMeeGKnN6bRCQwprqSF",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cox_douglas",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cox_douglas/status/737848799146573824",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "eab7c96b6d98adabda4294f1a17f3c735578f5d6",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Victoria, BC, Canada"
     },
-    "location": {
-      "formatted": "Victoria, BC, Canada"
-    },
-    "name": {
-      "formatted": "Doug Cox"
-    },
-    "v": "0.2",
-    "website": "http://www.dacox.net"
+    "description": "Developer and Bitcoin enthusiast",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Doug Cox",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.dacox.net"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "dacox",
-      "proof_url": "https://gist.github.com/dacox/d4f28d5ee1f6e598267f",
-      "service": "github",
+      "identifier": "cox_douglas",
+      "proof_url": "https://twitter.com/cox_douglas/status/737848799146573824",
+      "service": "twitter",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN dcox.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dcox.id\"\n"
 }
