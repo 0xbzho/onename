@@ -1,46 +1,58 @@
 {
   "owner_address": "15TcFXvapKrRwGBRAzr7gpYHgiPKSzLKJ2",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/digitsu"
-    },
-    "bio": "Wall street techie, crypto-enthusiast",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/digitsu"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/digitsu/49bf140ea88eb2db48d3#file-gistfile1-txt"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "digitsu",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "digitsu"
-    },
-    "location": {
-      "formatted": "Tokyo"
-    },
-    "name": {
-      "formatted": "David Jerry"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/digitsu/status/625515332136927232"
+      {
+        "@type": "Account",
+        "identifier": "digitsu",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "digitsu"
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/digitsu",
+        "identifier": "A84C5917D258377465A95EFCDAC748381E7623F0",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "420d0d44ea74b787828167bb1e17c010be0108ed",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Tokyo"
     },
-    "v": "0.2",
-    "website": "http://wallstreettechnologist.com"
+    "description": "Wall street techie, crypto-enthusiast",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/digitsu",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/digitsu",
+        "name": "cover"
+      }
+    ],
+    "name": "DJC",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://wallstreettechnologist.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "digitsu",
-      "proof_url": "https://gist.github.com/digitsu/49bf140ea88eb2db48d3#file-gistfile1-txt",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "digitsu",
-      "proof_url": "https://twitter.com/digitsu/status/625515332136927232",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN digitsu.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/digitsu.id\"\n"
 }
