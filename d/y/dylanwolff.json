@@ -1,47 +1,56 @@
 {
   "owner_address": "183XYe4qo4PZYPaepSNTmWBqhFo4pqXxSQ",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/dylanwolff"
-    },
-    "bio": "Developer at @icelab | Traveller | Beard Enthusiast",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/dylanwolff"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/dylangwolff/posts/135373416864731"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dgwolff",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dgwolff/status/705886827677286400",
+        "service": "twitter"
       },
-      "username": "dylangwolff"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/dylanwolff/19eedd13121ccdcbc9b1"
+      {
+        "@type": "Account",
+        "identifier": "dylangwolff",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dylangwolff/posts/135373416864731?pnref=story",
+        "service": "facebook"
       },
-      "username": "dylanwolff"
+      {
+        "@type": "Account",
+        "identifier": "dylanwolff",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dylanwolff/19eedd13121ccdcbc9b1",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Everywhere"
     },
-    "location": {
-      "formatted": "Everywhere"
-    },
-    "name": {
-      "formatted": "Dylan Wolff"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/dgwolff/status/705886827677286400"
+    "description": "Developer at @icelab | Traveller | Beard Enthusiast",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/dylanwolff",
+        "name": "cover"
       },
-      "username": "dgwolff"
-    },
-    "v": "0.2",
-    "website": "https://dylanwolff.com"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dylanwolff",
+        "name": "avatar"
+      }
+    ],
+    "name": "Dylan Wolff",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://dylanwolff.com"
+      }
+    ]
   },
   "verifications": [
-    {
-      "identifier": "dylanwolff",
-      "proof_url": "https://gist.github.com/dylanwolff/19eedd13121ccdcbc9b1",
-      "service": "github",
-      "valid": true
-    },
     {
       "identifier": "dgwolff",
       "proof_url": "https://twitter.com/dgwolff/status/705886827677286400",
@@ -50,9 +59,16 @@
     },
     {
       "identifier": "dylangwolff",
-      "proof_url": "https://facebook.com/dylangwolff/posts/135373416864731",
+      "proof_url": "https://www.facebook.com/dylangwolff/posts/135373416864731?pnref=story",
       "service": "facebook",
       "valid": true
+    },
+    {
+      "identifier": "dylanwolff",
+      "proof_url": "https://gist.github.com/dylanwolff/19eedd13121ccdcbc9b1",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN dylanwolff.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dylanwolff.id\"\n"
 }
