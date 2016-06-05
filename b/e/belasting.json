@@ -1,6 +1,43 @@
 {
-  "owner_address": "1Muzjdxpfqt6SDtjEvMW4JazJrEQfpkb9M",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1H9CuCPPKAcBH25hFAZNsSdgv5sYUqCYrM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/5638f5d84df9fdfb0f88287ea3e0f6eb",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1JgmNr1iobBUP5Ua2qQupGPPkAjAudKtxH",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/belasting",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/belasting",
+        "name": "cover"
+      }
+    ],
+    "name": "Mijn Belastingdienst"
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/5638f5d84df9fdfb0f88287ea3e0f6eb",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN belasting.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/belasting.id\"\n"
 }
