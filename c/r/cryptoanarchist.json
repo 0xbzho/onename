@@ -18,14 +18,21 @@
       },
       {
         "@type": "Account",
-        "identifier": "c04d8c1fe938ebc8d4781183ac668adb3a719cc3",
-        "service": "openbazaar"
-      },
-      {
-        "@type": "Account",
         "contentUrl": "https://pgp.mit.edu/pks/lookup?op=get&search=0x296937A3",
         "identifier": "2466FF8779532287B77C9F895A588CD2296937A3",
         "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Gitju",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Gitju/be15927b0c14440a7afec1f51890a47a",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "5616e6d15e4f74c09256466c2724ada07bf1f20d",
+        "service": "openbazaar"
       }
     ],
     "image": [
@@ -47,6 +54,12 @@
       "identifier": "gitju",
       "proof_url": "https://twitter.com/gitju/status/726539910409261056",
       "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Gitju",
+      "proof_url": "https://gist.github.com/Gitju/be15927b0c14440a7afec1f51890a47a",
+      "service": "github",
       "valid": true
     }
   ],
