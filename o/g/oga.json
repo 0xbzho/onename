@@ -1,52 +1,58 @@
 {
   "owner_address": "12NBzF77ixaswkqcZFMmKGWN9U9L2yvq3j",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/oga"
-    },
-    "bitcoin": {
-      "address": "3QZwCefZEHZyyRsd4jHjZkLQbsavA38PGA"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/gQZ.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/ouzhangazi/posts/10153192363190732"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ouzhangazi",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "ouzhangazi"
-    },
-    "location": {
-      "formatted": "korriban"
-    },
-    "name": {
-      "formatted": "Oğuzhan Gazi Aslantaş"
-    },
-    "pgp": {
-      "fingerprint": "4EAC52FC3F650DE5899C301501D60366163F9D",
-      "url": "https://pgp.oga.im/oga.asc"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/ouzhangazi/status/650705634271305728"
+      {
+        "@type": "Account",
+        "identifier": "ouzhangazi",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "ouzhangazi"
+      {
+        "@type": "Account",
+        "identifier": "3QZwCefZEHZyyRsd4jHjZkLQbsavA38PGA",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pgp.oga.im/oga.asc",
+        "identifier": "4EAC52FC3F650DE5899C301501D60366163F9D",
+        "role": "key",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "korriban"
     },
-    "v": "0.2",
-    "website": "https://oga.im"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/oga",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Oğuzhan Gazi Aslantaş",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://oga.im"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "ouzhangazi",
-      "proof_url": "https://twitter.com/ouzhangazi/status/650705634271305728",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "ouzhangazi",
-      "proof_url": "https://facebook.com/ouzhangazi/posts/10153192363190732",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN oga.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/oga.id\"\n"
 }
