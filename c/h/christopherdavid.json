@@ -1,26 +1,46 @@
 {
   "owner_address": "18R2V1SiJyNZq1bn1gFFMZ4qv2HozfxBHa",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/christopherdavid"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/vsS.jpeg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/MillennialChris/9b7dc5881269cbbd40e2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "MillennialChris",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "MillennialChris"
-    },
-    "v": "0.2"
+      {
+        "@type": "Account",
+        "identifier": "MillennialChris",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "MillennialChris",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1L4u9cruwyPoJRPMnws313HLrSXJJW4CC",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/christopherdavid",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/christopherdavid",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "MillennialChris",
-      "proof_url": "https://gist.github.com/MillennialChris/9b7dc5881269cbbd40e2",
-      "service": "github",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN christopherdavid.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/christopherdavid.id\"\n"
 }
