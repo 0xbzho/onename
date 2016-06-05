@@ -1,68 +1,87 @@
 {
   "owner_address": "17rxEk8onyZ7hjLTt1JdtUUS59nMpzPnuv",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/rjmalagon"
-    },
-    "bio": "Cosechado en la ciudad de Mexico, añejado en Manzanillo, y embotellado en Cuernavaca. Vinos, gatos y androides. Pero hay mucho mas que tecnologia y cultura.",
-    "bitcoin": {
-      "address": "1BGwNAK67HXB4hoDTpBZ5ryoeWeH6YpeDA"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/rjmalagon"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/rmalagonjerez/posts/1069593303059309"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/rjmalagon/key.asc",
+        "identifier": "5EDCE5A14D65D4F4FF56AB7D20FEF57D18374769",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "rmalagonjerez"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/rjmalagon/46ebb52f6b17110e2670"
+      {
+        "@type": "Account",
+        "identifier": "1BN1WHfbbJ8nEC71imTLyLVny1peGFio4q",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "rjmalagon"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/rjmalagon"
-    },
-    "location": {
-      "formatted": "Manzanillo"
-    },
-    "name": {
-      "formatted": "Ricardo Malagon Jerez"
-    },
-    "pgp": {
-      "fingerprint": "35273D372A6C9D62DDF185E5347F908A587E577C",
-      "url": "https://keybase.io/rjmalagon/key.asc"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/rjmalagon/status/665910443899289600"
+      {
+        "@type": "Account",
+        "identifier": "rjmalagon",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rjmalagon/status/739109304515584000",
+        "service": "twitter"
       },
-      "username": "rjmalagon"
+      {
+        "@type": "Account",
+        "identifier": "rmalagonjerez",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/rmalagonjerez/posts/1192955537389751",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rjmalagon",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rjmalagon/dead23bc3268d4d7f49c6be5056a9e74",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Manzanillo"
     },
-    "v": "0.2",
-    "website": "https://plus.google.com/u/0/112263584121496565833/about"
+    "description": "Cosechado en la ciudad de Mexico, añejado en Manzanillo, y embotellado en Cuernavaca. Vinos, gatos y androides. Pero hay mucho mas que tecnologia y cultura.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rjmalagon",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rjmalagon",
+        "name": "cover"
+      }
+    ],
+    "name": "Ricardo Malagon Jerez",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://plus.google.com/u/0/112263584121496565833/about"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "rjmalagon",
-      "proof_url": "https://gist.github.com/rjmalagon/46ebb52f6b17110e2670",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "rjmalagon",
-      "proof_url": "https://twitter.com/rjmalagon/status/665910443899289600",
+      "proof_url": "https://twitter.com/rjmalagon/status/739109304515584000",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "rmalagonjerez",
-      "proof_url": "https://facebook.com/rmalagonjerez/posts/1069593303059309",
+      "proof_url": "https://www.facebook.com/rmalagonjerez/posts/1192955537389751",
       "service": "facebook",
       "valid": true
+    },
+    {
+      "identifier": "rjmalagon",
+      "proof_url": "https://gist.github.com/rjmalagon/dead23bc3268d4d7f49c6be5056a9e74",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN rjmalagon.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rjmalagon.id\"\n"
 }
