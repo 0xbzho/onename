@@ -1,46 +1,67 @@
 {
   "owner_address": "1HnG4CrbXDbyG1aTMUGhwqLShK6ZuVUqim",
   "profile": {
-    "avatar": {
-      "url": "https://pbs.twimg.com/profile_images/1389022310/brooks_0037_head.jpg"
-    },
-    "bio": "Teaching computers / to make art with just some code. / It is what I do.",
-    "bitcoin": {
-      "address": "1MdniTEev3nr6hVPetFT4VT3iUGF9PN4r9"
-    },
-    "cover": {
-      "url": "https://pbs.twimg.com/profile_background_images/345644405/nebula.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/midnightlightning/posts/10100504750694212"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1MdniTEev3nr6hVPetFT4VT3iUGF9PN4r9",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "midnightlightning"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/MidnightLightning/bcfffdf02fde63e7f25a"
+      {
+        "@type": "Account",
+        "contentUrl": "http://pool.sks-keyservers.net:11371/pks/lookup?op=get&search=0xB662E365F7FE8FCB",
+        "identifier": "9FC10A4CF96677318666142FC08F89557DB6F2CA",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "MidnightLightning"
-    },
-    "location": {
-      "formatted": "Wisconsin"
-    },
-    "name": {
-      "formatted": "Brooks Boyd"
-    },
-    "pgp": {
-      "fingerprint": "B662E365F7FE8FCB",
-      "url": "http://pool.sks-keyservers.net:11371/pks/lookup?op=get&search=0xB662E365F7FE8FCB"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/midnight426/status/486919185448972288"
+      {
+        "@type": "Account",
+        "identifier": "MidnightLightning",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/MidnightLightning/bcfffdf02fde63e7f25a",
+        "service": "github"
       },
-      "username": "midnight426"
+      {
+        "@type": "Account",
+        "identifier": "midnight426",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/midnight426/status/486919185448972288",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "midnightlightning",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/midnightlightning/posts/10100504750694212",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Wisconsin"
     },
-    "v": "0.2",
-    "website": "http://midnightdesign.ws"
+    "description": "Teaching computers / to make art with just some code. / It is what I do.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://pbs.twimg.com/profile_images/1389022310/brooks_0037_head.jpg",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://pbs.twimg.com/profile_background_images/345644405/nebula.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Brooks Boyd",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://midnightdesign.ws"
+      }
+    ]
   },
   "verifications": [
     {
@@ -57,9 +78,10 @@
     },
     {
       "identifier": "midnightlightning",
-      "proof_url": "https://facebook.com/midnightlightning/posts/10100504750694212",
+      "proof_url": "https://www.facebook.com/midnightlightning/posts/10100504750694212",
       "service": "facebook",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN midnight.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/midnight.id\"\n"
 }
