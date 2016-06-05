@@ -1,13 +1,17 @@
 {
   "owner_address": "1ErBWa46ZqKUcSTQR3hP4NheHTzPrQxt5c",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/wdX.jpeg"
-    },
-    "name": {
-      "formatted": "Johan"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Johan"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN accounts.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/accounts.id\"\n"
 }
