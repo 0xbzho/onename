@@ -1,70 +1,65 @@
 {
   "owner_address": "1Dy314wxnE5w2jVB7o1j68uUPUjUjiibuY",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "65e44642c64e69286205d556fbce271d8fce12bf",
+        "identifier": "Max_Hill1",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "maxwell.hill",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rogue26",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1F2Ab9wS6vui8mb4ox5eLfE3EJhV278XHX",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "http://keyserver.ubuntu.com/pks/lookup?op=get&fingerprint=on&search=0xDCC55D532C8947E1",
+        "identifier": "25AC1C0B9FDACDE2C0CCE362DCC55D532C8947E1",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "9ea40fc9ad1c08143c34634a9a13984ca57d8aba",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tomaste/status/738387883258748928",
         "service": "openbazaar"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/maxwellhill"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Atlanta, GA"
     },
-    "bitcoin": {
-      "address": "1F2Ab9wS6vui8mb4ox5eLfE3EJhV278XHX"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/IHL.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/maxwell.hill/posts/10155919571365235"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/maxwellhill",
+        "name": "avatar"
       },
-      "username": "maxwell.hill"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/rogue26/42bbca558e9491c8e6b0b2bd0c76536d"
-      },
-      "username": "rogue26"
-    },
-    "location": {
-      "formatted": "Atlanta, GA"
-    },
-    "name": {
-      "formatted": "Maxwell Hill"
-    },
-    "pgp": {
-      "fingerprint": "25AC1C0B9FDACDE2C0CCE362DCC55D532C8947E1",
-      "url": "http://keyserver.ubuntu.com/pks/lookup?op=get&fingerprint=on&search=0xDCC55D532C8947E1"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/Max_Hill1/status/722821038250168320"
-      },
-      "username": "Max_Hill1"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Maxwell Hill"
   },
-  "verifications": [
-    {
-      "identifier": "rogue26",
-      "proof_url": "https://gist.github.com/rogue26/42bbca558e9491c8e6b0b2bd0c76536d",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "Max_Hill1",
-      "proof_url": "https://twitter.com/Max_Hill1/status/722821038250168320",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "maxwell.hill",
-      "proof_url": "https://facebook.com/maxwell.hill/posts/10155919571365235",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN maxwellhill.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/maxwellhill.id\"\n"
 }
