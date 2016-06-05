@@ -1,13 +1,37 @@
 {
   "owner_address": "1HM2pSUMQB9uo7WDRt1qMBTKMNeu56zFe7",
   "profile": {
-    "bitcoin": {
-      "address": "1B7L8XDmAqqH2q4vx66T2Rj6tJieSd3EyP"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/yId.jpg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1B7L8XDmAqqH2q4vx66T2Rj6tJieSd3EyP",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "LukaPercic",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/LukaPercic/posts/10208537836179886",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "LukaPercic",
+      "proof_url": "https://www.facebook.com/LukaPercic/posts/10208537836179886",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN lukapercic.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lukapercic.id\"\n"
 }
