@@ -1,37 +1,54 @@
 {
   "owner_address": "1KFgA6L1XvF7GTbid5xi41usfHNPFZMian",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/boerdeboer"
-    },
-    "bio": "Enables real time to strategy | #Yachting | More than 10 yrs a #Hollandstar | #Rescuebadge | NL/ENG | Loves future concepts",
-    "bitcoin": {
-      "address": "17j23BGc7qgGFYaSc5i6jP5mZfaPDYVUb6"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/boerdeboer"
-    },
-    "location": {
-      "formatted": "Utrecht , Netherlands"
-    },
-    "name": {
-      "formatted": "Bert de Boer"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/boerdeboer/status/571756908916428800"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "17j23BGc7qgGFYaSc5i6jP5mZfaPDYVUb6",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "boerdeboer"
+      {
+        "@type": "Account",
+        "identifier": "boerdeboer",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/boerdeboer/status/737194314497961985",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Utrecht , Netherlands"
     },
-    "v": "0.2",
-    "website": "http://www.hollandstar.com"
+    "description": "Enables real time to strategy | helps companies and brands to be desired in the next digital decade | NL/EN",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/boerdeboer",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/boerdeboer",
+        "name": "cover"
+      }
+    ],
+    "name": "Bert de Boer",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.hollandstar.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "boerdeboer",
-      "proof_url": "https://twitter.com/boerdeboer/status/571756908916428800",
+      "proof_url": "https://twitter.com/boerdeboer/status/737194314497961985",
       "service": "twitter",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN boerdeboer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/boerdeboer.id\"\n"
 }
