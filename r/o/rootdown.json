@@ -1,0 +1,67 @@
+{
+  "owner_address": "1L5VWdTWmffSQVxzo2JW4uDBe6cbcAKqsU",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Canalytic",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Canalytic/66c1e481770823c2c85bf215db435b19",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "matthew.mcilhenny",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/matthew.mcilhenny/posts/942526178418",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "82f82b65155102acb55d8a9b3128827aedb84966",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/raphaelom/posts/10153649908246270?pnref=story",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "13mT923gsqsvuefTDQMyVmSTdchoSiyB91",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Asheville, North Carolina"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rootdown",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rootdown",
+        "name": "cover"
+      }
+    ],
+    "name": "Mateo"
+  },
+  "verifications": [
+    {
+      "identifier": "Canalytic",
+      "proof_url": "https://gist.github.com/Canalytic/66c1e481770823c2c85bf215db435b19",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "matthew.mcilhenny",
+      "proof_url": "https://www.facebook.com/matthew.mcilhenny/posts/942526178418",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rootdown.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rootdown.id\"\n"
+}
