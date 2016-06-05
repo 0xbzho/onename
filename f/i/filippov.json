@@ -1,63 +1,66 @@
 {
   "owner_address": "18RKcfRJFzTekTbEaTzEMvh1vwbRi9C1mL",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/filippov"
-    },
-    "bitcoin": {
-      "address": "185rqRxH7atX3dTMNNFvFR9kfkgvdCdG22"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/filippov"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/profile.php?id=100006964265980/posts/1625303194378474"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "profile.php?id=100006964265980",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "profile.php?id=100006964265980"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/fvalle1/5ba186464ce8802ed63a"
+      {
+        "@type": "Account",
+        "identifier": "fvalle1",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "fvalle1"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": ""
-    },
-    "pgp": {
-      "fingerprint": "",
-      "url": ""
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/Filippo_Valle/status/653556450107785216"
+      {
+        "@type": "Account",
+        "contentUrl": "",
+        "identifier": "",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "Filippo_Valle"
+      {
+        "@type": "Account",
+        "identifier": "",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "aaaa",
+        "proofType": "http",
+        "proofUrl": "sss",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/filippov",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/filippov",
+        "name": "cover"
+      }
+    ],
+    "name": ""
   },
   "verifications": [
     {
-      "identifier": "fvalle1",
-      "proof_url": "https://gist.github.com/fvalle1/5ba186464ce8802ed63a",
-      "service": "github",
-      "valid": false
-    },
-    {
-      "identifier": "Filippo_Valle",
-      "proof_url": "https://twitter.com/Filippo_Valle/status/653556450107785216",
+      "identifier": "aaaa",
+      "proof_url": "sss",
       "service": "twitter",
       "valid": false
-    },
-    {
-      "identifier": "profile.php?id=100006964265980",
-      "proof_url": "https://facebook.com/profile.php?id=100006964265980/posts/1625303194378474",
-      "service": "facebook",
-      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN filippov.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/filippov.id\"\n"
 }
