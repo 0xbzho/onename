@@ -16,6 +16,13 @@
         "proofType": "http",
         "proofUrl": "https://www.facebook.com/mvogg/posts/10153393860690793?pnref=story",
         "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "MCBLN85",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/MCBLN85/d3efd4e72fc66a7e1862590a47f447d9",
+        "service": "github"
       }
     ],
     "address": {
@@ -48,6 +55,12 @@
       "proof_url": "https://www.facebook.com/mvogg/posts/10153393860690793?pnref=story",
       "service": "facebook",
       "valid": true
+    },
+    {
+      "identifier": "MCBLN85",
+      "proof_url": "https://gist.github.com/MCBLN85/d3efd4e72fc66a7e1862590a47f447d9",
+      "service": "github",
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN mc_bln85.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mc_bln85.id\"\n"
