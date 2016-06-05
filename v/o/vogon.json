@@ -1,44 +1,53 @@
 {
   "owner_address": "1P8AMDv3x3rkNTtw5B6aAjvoWN97xAmdus",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/vogon"
-    },
-    "bio": "Software Developer, loves decentralization. Twister: @vogon",
-    "bitcoin": {
-      "address": "35BfriSn1jM6DXfKLY96gXKZKzYTxizRjx"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/ikZ.jpeg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/VogonogoV/7b2d4ba4d79e46155383"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "VogonogoV",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "VogonogoV"
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/vogon",
+        "identifier": null,
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Groningen, The Netherlands"
     },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/vogon"
-    },
-    "location": {
-      "formatted": "Groningen, The Netherlands"
-    },
-    "name": {
-      "formatted": "Laurence de Jong"
-    },
-    "pgp": {
-      "fingerprint": "",
-      "url": "https://s3.amazonaws.com/pk9/vogon"
-    },
-    "v": "0.2",
-    "website": "http://www.media2b.net"
+    "description": "Software Developer, loves decentralization. Twister: @vogon",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/vogon",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Laurence de Jong",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.media2b.net"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "VogonogoV",
-      "proof_url": "https://gist.github.com/VogonogoV/7b2d4ba4d79e46155383",
-      "service": "github",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN vogon.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vogon.id\"\n"
 }
