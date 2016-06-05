@@ -1,49 +1,60 @@
 {
   "owner_address": "1P29xbw3syDHG6gZjkU89yBaiU8qAwYzGJ",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/coetzee"
-    },
-    "bio": "Philomath, adventurer, futurist, utopianist, hacker.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/coetzee"
-    },
-    "facebook": {
-      "username": "abcoetzee"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/abrahamcoetzee/74cae18b758007a464ac"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "abrahamcoetzee",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "abrahamcoetzee"
-    },
-    "location": {
-      "formatted": "South Africa"
-    },
-    "name": {
-      "formatted": "Abraham"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/abcoetzee/status/699840586778591232"
+      {
+        "@type": "Account",
+        "identifier": "abcoetzee",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/abcoetzee/status/699840586778591232",
+        "service": "twitter"
       },
-      "username": "abcoetzee"
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "South Africa"
     },
-    "v": "0.2",
-    "website": "http://about.me/coetzee"
+    "description": "Philomath, adventurer, futurist, utopianist, hacker.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/coetzee",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/coetzee",
+        "name": "cover"
+      }
+    ],
+    "name": "Abraham",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://about.me/coetzee"
+      }
+    ]
   },
   "verifications": [
-    {
-      "identifier": "abrahamcoetzee",
-      "proof_url": "https://gist.github.com/abrahamcoetzee/74cae18b758007a464ac",
-      "service": "github",
-      "valid": true
-    },
     {
       "identifier": "abcoetzee",
       "proof_url": "https://twitter.com/abcoetzee/status/699840586778591232",
       "service": "twitter",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN coetzee.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/coetzee.id\"\n"
 }
