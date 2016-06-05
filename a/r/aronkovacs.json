@@ -1,16 +1,43 @@
 {
   "owner_address": "1AH4ffR3n8sXuLQihauE6QV1wJXd3hrsbT",
   "profile": {
-    "bitcoin": {
-      "address": "1PDiF6V4gutWzyJ4jdRSNC35rcW3wmAore"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/4AL.jpeg"
-    },
-    "name": {
-      "formatted": "Áron Kovács"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1PDiF6V4gutWzyJ4jdRSNC35rcW3wmAore",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "_aronkovacs",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/_aronkovacs/status/737598676302893056",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/aronkovacs",
+        "name": "avatar"
+      }
+    ],
+    "name": "Áron Kovács"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "_aronkovacs",
+      "proof_url": "https://twitter.com/_aronkovacs/status/737598676302893056",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN aronkovacs.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/aronkovacs.id\"\n"
 }
