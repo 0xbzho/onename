@@ -7,12 +7,25 @@
         "@type": "Account",
         "identifier": "9be1893dfd5d9913072adaee0d71e811c82c7309",
         "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/bubbabit",
+        "identifier": null,
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "18AbYrkf4ZBRTYdt5bZt1CQ7E1dDRx6pZU",
+        "role": "payment",
+        "service": "bitcoin"
       }
     ],
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "a small moon"
     },
+    "description": "bio",
     "image": [
       {
         "@type": "ImageObject",
@@ -25,7 +38,7 @@
         "name": "avatar"
       }
     ],
-    "name": "Bubba  the Bitcoin Sponge"
+    "name": "Bubba the Bitcoin Sponge"
   },
   "verifications": [],
   "zone_file": "$ORIGIN bubbabit.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bubbabit.id\"\n"
