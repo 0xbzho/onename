@@ -1,10 +1,22 @@
 {
   "owner_address": "1E6TeMMurRwJvbQMCZiykKHZZBQviGuHMu",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/wdX.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "8e7e33b1773da33a6d07e28d09594541ff4aba76",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN cannabismart.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cannabismart.id\"\n"
 }
