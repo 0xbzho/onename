@@ -5,10 +5,9 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "pizarrojesus",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/pizarrojesus",
-        "service": "twitter"
+        "identifier": "1Lf2tUvgVJxrchbZtZS2h48HkLvSX9RprH",
+        "role": "payment",
+        "service": "bitcoin"
       },
       {
         "@type": "Account",
@@ -19,9 +18,17 @@
       },
       {
         "@type": "Account",
-        "identifier": "1Lf2tUvgVJxrchbZtZS2h48HkLvSX9RprH",
-        "role": "payment",
-        "service": "bitcoin"
+        "identifier": "pizarrojesus",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/pizarrojesus",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https:",
+        "proofType": "http",
+        "proofUrl": "https://github.com/pizarrojesus",
+        "service": "github"
       }
     ],
     "description": "http://pizarrojesus.com/about-us/",
@@ -42,14 +49,20 @@
   "verifications": [
     {
       "identifier": "pizarrojesus",
+      "proof_url": "https://www.facebook.com/pizarrojesus",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "pizarrojesus",
       "proof_url": "https://twitter.com/pizarrojesus",
       "service": "twitter",
       "valid": false
     },
     {
-      "identifier": "pizarrojesus",
-      "proof_url": "https://www.facebook.com/pizarrojesus",
-      "service": "facebook",
+      "identifier": "https:",
+      "proof_url": "https://github.com/pizarrojesus",
+      "service": "github",
       "valid": false
     }
   ],
