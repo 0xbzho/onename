@@ -8,6 +8,18 @@
         "identifier": "1MnVsjp6xfAzt3T57vw8rUBFts2rdiH6uF",
         "role": "payment",
         "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "pheidias",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "pheidias21",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/pheidias21/status/734887141470306305",
+        "service": "twitter"
       }
     ],
     "address": {
@@ -35,6 +47,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "pheidias21",
+      "proof_url": "https://twitter.com/pheidias21/status/734887141470306305",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN pheidias.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pheidias.id\"\n"
 }
