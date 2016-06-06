@@ -1,30 +1,40 @@
 {
   "owner_address": "16GtcH3YF2oxapYasU7PyUBSygZHB9zqhP",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/ikZ.jpeg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/wldhx/859b93d58776e4312c5a"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "wldhx",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "wldhx"
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/wldhx/key.asc",
+        "identifier": "FB527CDAC1176535A4CF9B4C0E8CB6EC231EDDFE",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Earth"
     },
-    "location": {
-      "formatted": "Earth"
-    },
-    "name": {
-      "formatted": "Dmitriy Volkov"
-    },
-    "v": "0.2",
-    "website": "https://wldhx.me"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Dmitriy Volkov",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://wldhx.me"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "wldhx",
-      "proof_url": "https://gist.github.com/wldhx/859b93d58776e4312c5a",
-      "service": "github",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN wldhx.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wldhx.id\"\n"
 }
