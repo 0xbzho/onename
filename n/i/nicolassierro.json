@@ -1,59 +1,80 @@
 {
   "owner_address": "17CrsZXBR5zG6ZM6eBDecAJC51zMQjXtSX",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/nicolassierro"
-    },
-    "bio": "17 year experience Mobile/Internet & customer interaction/satisfaction. @galixo COO. Last projects: Business Design for new companies. Ready to shake…",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/nicolassierro"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/nicolas.sierro/posts/1538841396329246"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nicolas.sierro",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/nicolas.sierro/posts/10154265715148711",
+        "service": "facebook"
       },
-      "username": "nicolas.sierro"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/NicolasSierro/a7c5f005bc7c332677dc"
+      {
+        "@type": "Account",
+        "identifier": "NicolasSierro",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/NicolasSierro/status/738730620524843008",
+        "service": "twitter"
       },
-      "username": "NicolasSierro"
-    },
-    "location": {
-      "formatted": "Vevey (CH)"
-    },
-    "name": {
-      "formatted": "Nicolas Sierro"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/NicolasSierro/status/534134706111918080"
+      {
+        "@type": "Account",
+        "identifier": "NicolasSierro",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/NicolasSierro/a7c5f005bc7c332677dc",
+        "service": "github"
       },
-      "username": "NicolasSierro"
+      {
+        "@type": "Account",
+        "identifier": "35rpo1vMapm2iEETrrDd1uzryrxAY4sPKA",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Vevey (CH)"
     },
-    "v": "0.2",
-    "website": "http://galixo.com"
+    "description": "17 year experience Mobile/Internet & customer interaction/satisfaction. @galixo COO. Last projects: Business Design for new companies. Ready to shake…",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nicolassierro",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/nicolassierro",
+        "name": "cover"
+      }
+    ],
+    "name": "Nicolas Sierro",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://galixo.com"
+      }
+    ]
   },
   "verifications": [
+    {
+      "identifier": "nicolas.sierro",
+      "proof_url": "https://www.facebook.com/nicolas.sierro/posts/10154265715148711",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "NicolasSierro",
+      "proof_url": "https://twitter.com/NicolasSierro/status/738730620524843008",
+      "service": "twitter",
+      "valid": true
+    },
     {
       "identifier": "NicolasSierro",
       "proof_url": "https://gist.github.com/NicolasSierro/a7c5f005bc7c332677dc",
       "service": "github",
       "valid": true
-    },
-    {
-      "identifier": "NicolasSierro",
-      "proof_url": "https://twitter.com/NicolasSierro/status/534134706111918080",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "nicolas.sierro",
-      "proof_url": "https://facebook.com/nicolas.sierro/posts/1538841396329246",
-      "service": "facebook",
-      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN nicolassierro.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nicolassierro.id\"\n"
 }
