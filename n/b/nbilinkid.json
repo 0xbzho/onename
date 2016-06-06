@@ -1,24 +1,35 @@
 {
   "owner_address": "19XzWgj3Qc64fq2cZMVgCExaybvRB9kSaN",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/nbilinkid"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bilinkisn",
+        "proofType": "http",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Buenos Aires"
     },
-    "bio": "Conductor profesional de autos autónomos.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/nbilinkid"
-    },
-    "location": {
-      "formatted": "Buenos Aires"
-    },
-    "name": {
-      "formatted": "Nicolás Bilinkis"
-    },
-    "twitter": {
-      "username": "bilinkisn"
-    },
-    "v": "0.2",
-    "website": "http://bookmerang.com.ar"
+    "description": "Conductor profesional de autos autónomos.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nbilinkid",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/nbilinkid",
+        "name": "cover"
+      }
+    ],
+    "name": "Nicolás Bilinkis",
+    "website": []
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN nbilinkid.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nbilinkid.id\"\n"
 }
