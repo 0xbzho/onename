@@ -1,23 +1,42 @@
 {
   "owner_address": "1uBwosPjCH8WEA3WQgmDggjZepxgjo6yL",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/placroix"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "placroix",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/placroix/status/739508646443356160",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris"
     },
-    "bio": "Déja une cinquantaine d’années d’existence, un parcours atypique : de la musique au e-learning en passant par les pizzas, et ce n'est pas fini...",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/placroix"
-    },
-    "location": {
-      "formatted": "Paris"
-    },
-    "name": {
-      "formatted": "Philippe LACROIX"
-    },
-    "twitter": {
-      "username": "placroix"
-    },
-    "v": "0.2"
+    "description": "Déja une cinquantaine d’années d’existence, un parcours atypique : de la musique au e-learning en passant par les pizzas, et ce n'est pas fini...",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/placroix",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/placroix",
+        "name": "cover"
+      }
+    ],
+    "name": "Philippe LACROIX"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "placroix",
+      "proof_url": "https://twitter.com/placroix/status/739508646443356160",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN placroix.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/placroix.id\"\n"
 }
