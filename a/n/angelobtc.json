@@ -1,36 +1,40 @@
 {
   "owner_address": "1MYRAvcioubS5e378wCQcuycuMMaeYkDbk",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/angelobtc"
-    },
-    "bio": "Whale Whisperer - Professional Crypto Trader",
-    "bitcoin": {
-      "address": "1Ck8JwPEoevNe3nrxHpWvfGcrghQiEDAt1"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/angelobtc"
-    },
-    "location": {
-      "formatted": "Forever 27 - NCO - CMC"
-    },
-    "name": {
-      "formatted": "Angelo฿TC"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/AngeloBTC/status/506958677203353600"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "AngeloBTC",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "AngeloBTC"
+      {
+        "@type": "Account",
+        "identifier": "1Ck8JwPEoevNe3nrxHpWvfGcrghQiEDAt1",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Forever 27"
     },
-    "v": "0.2"
+    "description": "Whale Whisperer - Professional Trader",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/angelobtc",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/angelobtc",
+        "name": "cover"
+      }
+    ],
+    "name": "Angelo฿TC"
   },
-  "verifications": [
-    {
-      "identifier": "AngeloBTC",
-      "proof_url": "https://twitter.com/AngeloBTC/status/506958677203353600",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN angelobtc.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/angelobtc.id\"\n"
 }
