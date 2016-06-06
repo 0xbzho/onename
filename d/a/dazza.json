@@ -1,0 +1,86 @@
+{
+  "owner_address": "13Sfaoxx4MQqhzDvK1ZZUCWzyz2PRAixQk",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dazzagreenwood",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dazzagreenwood/status/738790133512736768",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/dazza",
+        "identifier": "CBE2400F9A7BC624EE2405AC85DD49F74B2DCB08",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dazzaji",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dazzaji/f80cb357c6907f29b80e2d813557bc69#file-onename-verif-txt",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dazzagreenwood",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dazzagreenwood/posts/10153749002563556",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bitcoin:12wFcGgXn62yP33rkBxLFEfLQAdaaU5s5D",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "http://CIVICS.com"
+    },
+    "description": "Consultancy & Research",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dazza",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Dazza Greenwood",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://CIVICS.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dazzagreenwood",
+      "proof_url": "https://twitter.com/dazzagreenwood/status/738790133512736768",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "dazzaji",
+      "proof_url": "https://gist.github.com/dazzaji/f80cb357c6907f29b80e2d813557bc69#file-onename-verif-txt",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "dazzagreenwood",
+      "proof_url": "https://www.facebook.com/dazzagreenwood/posts/10153749002563556",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dazza.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dazza.id\"\n"
+}
