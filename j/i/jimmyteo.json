@@ -1,10 +1,21 @@
 {
   "owner_address": "1GjsAvePWtdQVSnBYwFQz9RZVeFwhbTWPy",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/2wu.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jimmyteo",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jimmyteo",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN jimmyteo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jimmyteo.id\"\n"
 }
