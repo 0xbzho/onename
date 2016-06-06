@@ -1,58 +1,59 @@
 {
   "owner_address": "1JvL4xbDgKySaX7uk5KWemoM3xvjx2RUZv",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/impshum"
-    },
-    "bio": "Why not take an unorthodox look at our meaningless lives in the hope that we can better ourselves by discarding trivial nonsense?",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/impshum"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/impshum/posts/10154095850724579"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "impshum",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "impshum"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/impshum/d26aff0f9dfa1b1787962ce4413a07bb"
+      {
+        "@type": "Account",
+        "identifier": "impshum",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "impshum"
-    },
-    "location": {
-      "formatted": "UK"
-    },
-    "name": {
-      "formatted": "Impshum"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/impshum/status/717387565536571393"
+      {
+        "@type": "Account",
+        "identifier": "impshum",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "impshum"
+      {
+        "@type": "Account",
+        "identifier": "7c27489c7315308b96227a1129c96ccb56a68034",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/04f4876fd6af1b8587a3f42e55436247",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "UK"
     },
-    "v": "0.2",
-    "website": "http://impshum.co.uk"
+    "description": "Why not take an unorthodox look at our meaningless lives in the hope that we can better ourselves by discarding trivial nonsense?",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/impshum",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/impshum",
+        "name": "cover"
+      }
+    ],
+    "name": "Impshum",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://impshum.co.uk"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "impshum",
-      "proof_url": "https://gist.github.com/impshum/d26aff0f9dfa1b1787962ce4413a07bb",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "impshum",
-      "proof_url": "https://twitter.com/impshum/status/717387565536571393",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "impshum",
-      "proof_url": "https://facebook.com/impshum/posts/10154095850724579",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN impshum.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/impshum.id\"\n"
 }
