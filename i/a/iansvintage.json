@@ -1,32 +1,61 @@
 {
   "owner_address": "1Kd9UwZSsjuS6pFXKLF9azzpDSu9Asw8n3",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/iansvintage"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/wdX.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/iansvintagewarehouse/posts/979742842080221"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "iansvintagewarehouse",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/iansvintagewarehouse/posts/1172101296148144",
+        "service": "facebook"
       },
-      "username": "iansvintagewarehouse"
+      {
+        "@type": "Account",
+        "identifier": "583e6c19ecd52d7eca45209f324bd30932a29db9",
+        "proofType": "http",
+        "proofUrl": "Take a look at @tsearle's Tweet: https://twitter.com/tsearle/status/737591127830757377?s=09",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "iansvintage",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/iansvintage/status/737628354661261312",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Halifax, Canada"
     },
-    "location": {
-      "formatted": "Halifax, Canada"
-    },
-    "name": {
-      "formatted": "Ian's Vintage Warehouse"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/iansvintage",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ian's Vintage Warehouse"
   },
   "verifications": [
     {
       "identifier": "iansvintagewarehouse",
-      "proof_url": "https://facebook.com/iansvintagewarehouse/posts/979742842080221",
+      "proof_url": "https://www.facebook.com/iansvintagewarehouse/posts/1172101296148144",
       "service": "facebook",
-      "valid": false
+      "valid": true
+    },
+    {
+      "identifier": "iansvintage",
+      "proof_url": "https://twitter.com/iansvintage/status/737628354661261312",
+      "service": "twitter",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN iansvintage.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/iansvintage.id\"\n"
 }
