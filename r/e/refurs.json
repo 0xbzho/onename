@@ -5,16 +5,34 @@
     "account": [
       {
         "@type": "Account",
+        "identifier": "1RefurFeMzo9RywGrMJhhY7MRjbbU6U4R",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "refur-eu",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/refur-eu/d6c741e1e4851babcb6078f198c1a2f9",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/refurs",
+        "identifier": "46160B44D6E80E153708046191DE41D138714475",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
         "identifier": "refur_eu",
         "proofType": "http",
-        "proofUrl": "https://twitter.com/refur_eu/status/737031835960639489",
+        "proofUrl": "https://twitter.com/refur_eu/status/739475587652300802",
         "service": "twitter"
       },
       {
         "@type": "Account",
-        "identifier": "1RefurFeMzo9RywGrMJhhY7MRjbbU6U4R",
-        "role": "payment",
-        "service": "bitcoin"
+        "identifier": "15cbcf1a7bcce5584ea1de2d90a49ff838353faa",
+        "service": "openbazaar"
       }
     ],
     "address": {
@@ -44,8 +62,14 @@
   },
   "verifications": [
     {
+      "identifier": "refur-eu",
+      "proof_url": "https://gist.github.com/refur-eu/d6c741e1e4851babcb6078f198c1a2f9",
+      "service": "github",
+      "valid": true
+    },
+    {
       "identifier": "refur_eu",
-      "proof_url": "https://twitter.com/refur_eu/status/737031835960639489",
+      "proof_url": "https://twitter.com/refur_eu/status/739475587652300802",
       "service": "twitter",
       "valid": true
     }
