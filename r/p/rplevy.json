@@ -1,64 +1,73 @@
 {
   "owner_address": "1DPJKrowGdHmpwebyNTPvmdzuSzvL3Bmu5",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/rplevy"
-    },
-    "bio": "Voluntary autopoietic system, Clojurer, Dataflow plumber.",
-    "bitcoin": {
-      "address": "1LggYhwMZgJ6d1Werif8gnGgdYJC22mcyE"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/F9g.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/rplevy/posts/10152847718320572"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1LggYhwMZgJ6d1Werif8gnGgdYJC22mcyE",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "rplevy"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/rplevy/f6f589dbdf89a032c036"
+      {
+        "@type": "Account",
+        "identifier": "rplevy",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rplevy/status/739532317975158784",
+        "service": "twitter"
       },
-      "username": "rplevy"
-    },
-    "location": {
-      "formatted": "San Francisco, CA"
-    },
-    "name": {
-      "formatted": "Robert P. Levy"
-    },
-    "pgp": {
-      "url": "https://s3.amazonaws.com/pk9/rplevy"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/rplevy/status/516080138073546752"
+      {
+        "@type": "Account",
+        "identifier": "rplevy",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rplevy/c5875d9578ef8ee1e076301816b830af",
+        "service": "github"
       },
-      "username": "rplevy"
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco, CA"
     },
-    "v": "0.2",
-    "website": "http://rplevy.info"
+    "description": "Enactive constructivist, Clojure dataflow plumber, Voluntary autopoietic system.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rplevy",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Robert P. Levy",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://rplevy.info"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "rplevy",
-      "proof_url": "https://gist.github.com/rplevy/f6f589dbdf89a032c036",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "rplevy",
-      "proof_url": "https://twitter.com/rplevy/status/516080138073546752",
+      "proof_url": "https://twitter.com/rplevy/status/739532317975158784",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "rplevy",
-      "proof_url": "https://facebook.com/rplevy/posts/10152847718320572",
-      "service": "facebook",
-      "valid": false
+      "proof_url": "https://gist.github.com/rplevy/c5875d9578ef8ee1e076301816b830af",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN rplevy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rplevy.id\"\n"
 }
