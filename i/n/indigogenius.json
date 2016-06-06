@@ -1,61 +1,80 @@
 {
   "owner_address": "15VGCUZkSnGTRQ2Et3z5A6xrBrbR6C5iZZ",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/indigogenius"
-    },
-    "bio": "Governor of the United Micronations Multi-Oceanic Archipelago (UMMOA), and the Guru of Global Earth Oceans (GEO).",
-    "bitcoin": {
-      "address": "1BwmK7vi8ZrcqMbSXZPYFm33XSbcfEGB4s"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/indigogenius"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/ctallini/posts/10153415778417822"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1BwmK7vi8ZrcqMbSXZPYFm33XSbcfEGB4s",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "ctallini"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/IndigoGenius/18c844f053c49ba091fc"
+      {
+        "@type": "Account",
+        "identifier": "ctallini",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ctallini/status/737358034779942912",
+        "service": "twitter"
       },
-      "username": "IndigoGenius"
-    },
-    "location": {
-      "formatted": "Fifth World Community, GEO"
-    },
-    "name": {
-      "formatted": "HMRD Cesidio Tallini"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/ctallini/status/620623634218946560"
+      {
+        "@type": "Account",
+        "identifier": "IndigoGenius",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/IndigoGenius/ade0d7f17d7a00b426f81ce4122c25e5",
+        "service": "github"
       },
-      "username": "ctallini"
+      {
+        "@type": "Account",
+        "identifier": "ctallini",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ctallini/posts/10154157848602822",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Fifth World Community, GEO"
     },
-    "v": "0.2",
-    "website": "http://geo.pe"
+    "description": "Governor of the United Micronations Multi-Oceanic Archipelago (UMMOA), and the Guru of Global Earth Oceans (GEO).",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/indigogenius",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/indigogenius",
+        "name": "cover"
+      }
+    ],
+    "name": "HMRD Cesidio Tallini",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://geo.pe"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "IndigoGenius",
-      "proof_url": "https://gist.github.com/IndigoGenius/18c844f053c49ba091fc",
-      "service": "github",
-      "valid": false
-    },
-    {
       "identifier": "ctallini",
-      "proof_url": "https://twitter.com/ctallini/status/620623634218946560",
+      "proof_url": "https://twitter.com/ctallini/status/737358034779942912",
       "service": "twitter",
       "valid": true
     },
     {
+      "identifier": "IndigoGenius",
+      "proof_url": "https://gist.github.com/IndigoGenius/ade0d7f17d7a00b426f81ce4122c25e5",
+      "service": "github",
+      "valid": true
+    },
+    {
       "identifier": "ctallini",
-      "proof_url": "https://facebook.com/ctallini/posts/10153415778417822",
+      "proof_url": "https://www.facebook.com/ctallini/posts/10154157848602822",
       "service": "facebook",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN indigogenius.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/indigogenius.id\"\n"
 }
