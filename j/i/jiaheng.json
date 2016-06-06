@@ -1,13 +1,43 @@
 {
   "owner_address": "1PMnUzR2ZJVn4BD5DKpdtNa2tyZ2bPsAmV",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/L2N.jpeg"
-    },
-    "name": {
-      "formatted": "Jiaheng Zhang"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jiahengzhang",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jiahengzhang/status/738301901804998656",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "15vweTJT2eG8vLBmbSkUkUT15qqVXudZbj",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jiaheng",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jiaheng Zhang"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "jiahengzhang",
+      "proof_url": "https://twitter.com/jiahengzhang/status/738301901804998656",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jiaheng.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jiaheng.id\"\n"
 }
