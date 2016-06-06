@@ -1,56 +1,51 @@
 {
   "owner_address": "1Bj5rA6a8ipRxYGFAHXGEYcP6kyRtRCmfa",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/webflo"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/webflo"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/webflofr/posts/10153953193802094"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "webflo_fr",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "webflofr"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/webflo-dev/dabd0363f7342e8609be"
+      {
+        "@type": "Account",
+        "identifier": "webflofr",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "webflo-dev"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Florent"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/webflo_fr/status/694246197263884288"
+      {
+        "@type": "Account",
+        "identifier": "webflo-dev",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "webflo_fr"
+      {
+        "@type": "Account",
+        "identifier": "19PnytotzSRSDLj4iesE9PSBfyxAP7RhGo",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/webflo",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/webflo",
+        "name": "cover"
+      }
+    ],
+    "name": "Florent"
   },
-  "verifications": [
-    {
-      "identifier": "webflo-dev",
-      "proof_url": "https://gist.github.com/webflo-dev/dabd0363f7342e8609be",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "webflo_fr",
-      "proof_url": "https://twitter.com/webflo_fr/status/694246197263884288",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "webflofr",
-      "proof_url": "https://facebook.com/webflofr/posts/10153953193802094",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN webflo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/webflo.id\"\n"
 }
