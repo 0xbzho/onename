@@ -1,0 +1,40 @@
+{
+  "owner_address": "1HF81gTtA3BJ7RYwcAbUryhAFsrTsV8swD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nmkenji",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1A51npepmBwp1xGsyxmMNRBn3ryWxh4aS2",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
+    },
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/nkenji",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nkenji",
+        "name": "avatar"
+      }
+    ],
+    "name": "N.Kenji "
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN nkenji.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nkenji.id\"\n"
+}
