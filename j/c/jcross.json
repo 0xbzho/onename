@@ -5,12 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "jonathan.cross.3994",
-        "proofType": "http",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
         "identifier": "1FN4ugMQUByTLtPv4yFY59uEjXvdNBHhdp",
         "role": "payment",
         "service": "bitcoin"
@@ -35,6 +29,13 @@
         "proofType": "http",
         "proofUrl": "https://gist.github.com/jonathancross/551c75eff193cf6e19772f80465f3d32",
         "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jonf3n",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jonf3n/posts/10156998561280241",
+        "service": "facebook"
       }
     ],
     "image": [
@@ -68,6 +69,12 @@
       "identifier": "jonathancross",
       "proof_url": "https://gist.github.com/jonathancross/551c75eff193cf6e19772f80465f3d32",
       "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jonf3n",
+      "proof_url": "https://www.facebook.com/jonf3n/posts/10156998561280241",
+      "service": "facebook",
       "valid": true
     }
   ],
