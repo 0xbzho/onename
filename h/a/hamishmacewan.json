@@ -5,13 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "HamishMacEwan",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/HamishMacEwan/37f8ca6a53cd8b0f8d848bae56b333b0",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
         "identifier": "hamishmacewan",
         "proofType": "http",
         "proofUrl": "https://twitter.com/HamishMacEwan/status/735945013981388801",
@@ -19,16 +12,29 @@
       },
       {
         "@type": "Account",
-        "contentUrl": "http://pgp.net.nz:11371/pks/lookup?op=vindex&search=0xEC0761409CA89753",
-        "identifier": null,
-        "service": "pgp"
-      },
-      {
-        "@type": "Account",
-        "identifier": "hamishmacewan",
+        "identifier": "hamish.macewan",
         "proofType": "http",
         "proofUrl": "https://www.facebook.com/hamish.macewan/posts/10153528993326770",
         "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "HamishMacEwan",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/HamishMacEwan/37f8ca6a53cd8b0f8d848bae56b333b0",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1CfK1TaUrovRdSZZpo6Z4V63hJxh7aBe4R",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "http://pgp.net.nz:11371/pks/lookup?op=vindex&search=0xEC0761409CA89753",
+        "identifier": "FDA208701F1C93B6A9469556EC0761409CA89753",
+        "service": "pgp"
       }
     ],
     "address": {
@@ -58,21 +64,21 @@
   },
   "verifications": [
     {
-      "identifier": "HamishMacEwan",
-      "proof_url": "https://gist.github.com/HamishMacEwan/37f8ca6a53cd8b0f8d848bae56b333b0",
-      "service": "github",
-      "valid": false
-    },
-    {
       "identifier": "hamishmacewan",
       "proof_url": "https://twitter.com/HamishMacEwan/status/735945013981388801",
       "service": "twitter",
       "valid": true
     },
     {
-      "identifier": "hamishmacewan",
+      "identifier": "hamish.macewan",
       "proof_url": "https://www.facebook.com/hamish.macewan/posts/10153528993326770",
       "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "HamishMacEwan",
+      "proof_url": "https://gist.github.com/HamishMacEwan/37f8ca6a53cd8b0f8d848bae56b333b0",
+      "service": "github",
       "valid": false
     }
   ],
