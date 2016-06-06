@@ -1,33 +1,61 @@
 {
   "owner_address": "1MUyt9JtkU1BPw8Qx5nQbwnyUtZ9FYbSgQ",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/neilord"
-    },
-    "bio": "I accidentally the internet. Software engineer currently writing Scala in London.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/rVv.jpeg"
-    },
-    "location": {
-      "formatted": "Hampshire, UK"
-    },
-    "name": {
-      "formatted": "Neil Ord"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/neiljord/status/719190363228004355"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "NoOrdInaryGuy",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/NoOrdInaryGuy/14c06bfa744c505d42cf24ad44a80e1a",
+        "service": "github"
       },
-      "username": "neiljord"
+      {
+        "@type": "Account",
+        "identifier": "neiljord",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/neiljord/status/719190363228004355",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/neilord",
+        "identifier": "C8B39539A78B93B2FA5C84D6E93A850E57076E8C",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hampshire, UK"
     },
-    "v": "0.2"
+    "description": "I accidentally the internet. Software engineer currently writing Scala in London.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/neilord",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Neil Ord"
   },
   "verifications": [
+    {
+      "identifier": "NoOrdInaryGuy",
+      "proof_url": "https://gist.github.com/NoOrdInaryGuy/14c06bfa744c505d42cf24ad44a80e1a",
+      "service": "github",
+      "valid": true
+    },
     {
       "identifier": "neiljord",
       "proof_url": "https://twitter.com/neiljord/status/719190363228004355",
       "service": "twitter",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN neilord.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/neilord.id\"\n"
 }
