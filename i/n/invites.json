@@ -1,13 +1,17 @@
 {
   "owner_address": "1Prz1sWLhq7Rpjdyw3HZ5tVZ71ugLqLM6d",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/vsS.jpeg"
-    },
-    "name": {
-      "formatted": "Jim"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ji"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN invites.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/invites.id\"\n"
 }
