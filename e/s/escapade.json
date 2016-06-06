@@ -1,20 +1,40 @@
 {
   "owner_address": "16G8dtQ7CepomGDebVLbYQbjuDraJiH1RW",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/escapade"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "12DbdqXhME4zVLQ6rQmmHdw1K4tMiYk3iY",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York, NY"
     },
-    "bitcoin": {
-      "address": "12DbdqXhME4zVLQ6rQmmHdw1K4tMiYk3iY"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/escapade"
-    },
-    "name": {
-      "formatted": "Escapade"
-    },
-    "v": "0.2",
-    "website": "http://www.escapa.de"
+    "description": "Producer,  Code and Theory",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/escapade",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/escapade",
+        "name": "cover"
+      }
+    ],
+    "name": "Evan Dufour",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.evandufour.com"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN escapade.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/escapade.id\"\n"
 }
