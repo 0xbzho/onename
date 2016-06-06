@@ -1,60 +1,52 @@
 {
   "owner_address": "1Gv9HZaM7NZ1NdKhVMcvtBEuKDUo1pUyKz",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/hassan_el_shbokshy"
-    },
-    "bio": "",
-    "bitcoin": {
-      "address": "1fp6zsZXARe2fRQzkyKjAixWhWf7YMMcY"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/hassan_el_shbokshy"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/elshbokshy.hassan/posts/449949911866851"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Hshbokshy",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "elshbokshy.hassan"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/hassan-el-shbokshy/1f163d347d56dd542a70"
+      {
+        "@type": "Account",
+        "identifier": "elshbokshy.hassan",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "hassan-el-shbokshy"
-    },
-    "location": {
-      "formatted": "Cairo_Egypt"
-    },
-    "name": {
-      "formatted": "Hassan"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/Hshbokshy/status/695663915343224833"
+      {
+        "@type": "Account",
+        "identifier": "hassan-el-shbokshy",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "Hshbokshy"
+      {
+        "@type": "Account",
+        "identifier": "1fp6zsZXARe2fRQzkyKjAixWhWf7YMMcY",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cairo_Egypt"
     },
-    "v": "0.2"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hassan_el_shbokshy",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/hassan_el_shbokshy",
+        "name": "cover"
+      }
+    ],
+    "name": "Hassan"
   },
-  "verifications": [
-    {
-      "identifier": "hassan-el-shbokshy",
-      "proof_url": "https://gist.github.com/hassan-el-shbokshy/1f163d347d56dd542a70",
-      "service": "github",
-      "valid": false
-    },
-    {
-      "identifier": "Hshbokshy",
-      "proof_url": "https://twitter.com/Hshbokshy/status/695663915343224833",
-      "service": "twitter",
-      "valid": false
-    },
-    {
-      "identifier": "elshbokshy.hassan",
-      "proof_url": "https://facebook.com/elshbokshy.hassan/posts/449949911866851",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN hassan_el_shbokshy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hassan_el_shbokshy.id\"\n"
 }
