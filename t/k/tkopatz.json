@@ -1,0 +1,50 @@
+{
+  "owner_address": "1BsayfBssWdhm18e82GGDuQFujuTwpBECw",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/tkopatz",
+        "identifier": "9467BB3BB6D8393329409CD70105D826C4450D39",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tkopatz",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TKopatz/status/734496583241322496",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tkopatz",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tkopatz/45ab99a497a3dedf5d019f4a7d9b0fca",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tkopatz",
+      "proof_url": "https://twitter.com/TKopatz/status/734496583241322496",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "tkopatz",
+      "proof_url": "https://gist.github.com/tkopatz/45ab99a497a3dedf5d019f4a7d9b0fca",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tkopatz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tkopatz.id\"\n"
+}
