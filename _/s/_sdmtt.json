@@ -1,54 +1,74 @@
 {
   "owner_address": "19TbpmaMqcamAAtKJEXbmQt65QzkxVk3KJ",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/_sdmtt"
-    },
-    "bio": "Desarrollador web. Su foto de perfil es del 2009.",
-    "bitcoin": {
-      "address": "1MxGaFEefpBfvCN9u7dNcaEMmQDgh6JSaQ"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/ic1.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/santiago.dimattia/posts/10154331066991124"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1MxGaFEefpBfvCN9u7dNcaEMmQDgh6JSaQ",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "santiago.dimattia"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/sdmtt/a39e335751235562aa4f"
+      {
+        "@type": "Account",
+        "contentUrl": "https://santiago.dimattia.com.ar/assets/pgp.key",
+        "identifier": "66523A099C8BD6D67423E11FA9579338DDD3E311",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "sdmtt"
-    },
-    "location": {
-      "formatted": "Buenos Aires, Argentina"
-    },
-    "name": {
-      "formatted": "Santiago Dimattía"
-    },
-    "pgp": {
-      "fingerprint": "66523A099C8BD6D67423E11FA9579338DDD3E311",
-      "url": "https://santiago.dimattia.com.ar/assets/pgp.key"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/_sdmtt/status/675470401259053056"
+      {
+        "@type": "Account",
+        "identifier": "f36fecb6f9e59d30ed772d655c470d411ccca1d5",
+        "service": "openbazaar"
       },
-      "username": "_sdmtt"
+      {
+        "@type": "Account",
+        "identifier": "_sdmtt",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/_sdmtt/status/675470401259053056",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sdmtt",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/sdmtt/a39e335751235562aa4f",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "santiago.dimattia",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/santiago.dimattia/posts/10154331066991124?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Buenos Aires, Argentina"
     },
-    "v": "0.2",
-    "website": "http://santiago.dimattia.com.ar"
+    "description": "Desarrollador web. Su foto de perfil es del 2009.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/_sdmtt",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Santiago Dimattía",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://santiago.dimattia.com.ar"
+      }
+    ]
   },
   "verifications": [
-    {
-      "identifier": "sdmtt",
-      "proof_url": "https://gist.github.com/sdmtt/a39e335751235562aa4f",
-      "service": "github",
-      "valid": true
-    },
     {
       "identifier": "_sdmtt",
       "proof_url": "https://twitter.com/_sdmtt/status/675470401259053056",
@@ -56,10 +76,17 @@
       "valid": true
     },
     {
+      "identifier": "sdmtt",
+      "proof_url": "https://gist.github.com/sdmtt/a39e335751235562aa4f",
+      "service": "github",
+      "valid": true
+    },
+    {
       "identifier": "santiago.dimattia",
-      "proof_url": "https://facebook.com/santiago.dimattia/posts/10154331066991124",
+      "proof_url": "https://www.facebook.com/santiago.dimattia/posts/10154331066991124?pnref=story",
       "service": "facebook",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN _sdmtt.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/_sdmtt.id\"\n"
 }
