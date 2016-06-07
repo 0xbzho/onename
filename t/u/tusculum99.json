@@ -1,0 +1,44 @@
+{
+  "owner_address": "1FJ2K93S3qGg9jfdbtQ9F2Bz6mzUn4ceBs",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "seamdb",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mbartseattle/status/734186134075379712",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "themattyb",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/themattyb/374811fc3f4ed46ba97f31604ccce74d",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "seamdb",
+      "proof_url": "https://twitter.com/mbartseattle/status/734186134075379712",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "themattyb",
+      "proof_url": "https://gist.github.com/themattyb/374811fc3f4ed46ba97f31604ccce74d",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tusculum99.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tusculum99.id\"\n"
+}
