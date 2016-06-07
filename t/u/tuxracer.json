@@ -1,0 +1,81 @@
+{
+  "owner_address": "14PJhWqK4ouvvEyzQ1XN8Dfh5v9dfxi8ti",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/tuxracer",
+        "identifier": "DE8059175B64A79ABE18A7076A39F0651B8E5F5B",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tuxracer",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/tuxracer/posts/1740268826245876",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tuxracer",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tuxracer/status/737535007166595073",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tuxracer",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tuxracer/93502d822a190616351c",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "अनित्य"
+    },
+    "description": "not all those who wander are lost",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tuxracer",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/tuxracer",
+        "name": "cover"
+      }
+    ],
+    "name": "Derek Petersen",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.snapchat.com/add/tuxracer"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tuxracer",
+      "proof_url": "https://www.facebook.com/tuxracer/posts/1740268826245876",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "tuxracer",
+      "proof_url": "https://twitter.com/tuxracer/status/737535007166595073",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "tuxracer",
+      "proof_url": "https://gist.github.com/tuxracer/93502d822a190616351c",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tuxracer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tuxracer.id\"\n"
+}
