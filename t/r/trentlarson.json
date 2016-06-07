@@ -1,25 +1,45 @@
 {
   "owner_address": "17V3Yv1r1y1rXGrXH4hX2PxRxMoQrd5J5T",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/trentlarson"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "trentlarson",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "90bc5a0103445a088c34f490115eb4821fc305fd",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "West Bountiful, UT, USA"
     },
-    "bio": "Humanity in technology?",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/F9g.jpg"
-    },
-    "location": {
-      "formatted": "West Bountiful, UT, USA"
-    },
-    "name": {
-      "formatted": "Trent Larson"
-    },
-    "twitter": {
-      "username": "trentlarson"
-    },
-    "v": "0.2",
-    "website": "http://trentlarson.com"
+    "description": "Humanity in technology?",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/trentlarson",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Trent Larson",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://trentlarson.com"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN trentlarson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/trentlarson.id\"\n"
 }
