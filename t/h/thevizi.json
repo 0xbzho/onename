@@ -19,13 +19,6 @@
       },
       {
         "@type": "Account",
-        "identifier": "tamashevizi",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/thevizi/posts/10154396575477240",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
         "contentUrl": "https://pk9.s3.amazonaws.com/thevizi",
         "identifier": "2D70BFC160D280EF3C1BA6348E4A7F8C80E63E0F",
         "service": "pgp"
@@ -35,6 +28,13 @@
         "identifier": "",
         "role": "payment",
         "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "thevizi",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/thevizi/posts/10154345032562240",
+        "service": "facebook"
       }
     ],
     "image": [
@@ -65,8 +65,8 @@
       "valid": true
     },
     {
-      "identifier": "tamashevizi",
-      "proof_url": "https://www.facebook.com/thevizi/posts/10154396575477240",
+      "identifier": "thevizi",
+      "proof_url": "https://www.facebook.com/thevizi/posts/10154345032562240",
       "service": "facebook",
       "valid": false
     }
