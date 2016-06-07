@@ -1,64 +1,69 @@
 {
   "owner_address": "15gFy6MRR7HBv4NMEzZ9vPehJEb8GeLHtB",
   "profile": {
-    "angellist": {
-      "username": "abueesp"
-    },
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/abueesp"
-    },
-    "bio": "exSysop@Wikipedia - HEC MBA eBusiness - EU Lawyer  ~ Science Technology & Society · BigLaw · Transnational Networks · FinTech ~ ฿e ℋuman, be κinđ, be ωise",
-    "bitcoin": {
-      "address": "1Q6DgsqXh9m5kNfAyHo96jkP53yGKMEsWv"
-    },
-    "bitmessage": {
-      "address": "BM-Gu1WCwCNa3s9sakvBzPbh8grapVRRzSk"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/abueesp"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/abueesp/053846696e7c2e9837dc"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1Q6DgsqXh9m5kNfAyHo96jkP53yGKMEsWv",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "abueesp"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/abueesp"
-    },
-    "linkedin": {
-      "url": "https://linkedin.com/in/alfredobueno/en"
-    },
-    "location": {
-      "formatted": "Sevilla - Manaus - London"
-    },
-    "name": {
-      "formatted": "Alfredo Bueno"
-    },
-    "pgp": {
-      "fingerprint": "963F4680E167D9DAE71292B270813A9276D1D99A",
-      "url": "https://pgp.mit.edu:11371/pks/lookup?op=get&search=0x70813A9276D1D99A"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/abueesp/status/484945129564688384"
+      {
+        "@type": "Account",
+        "identifier": "abueesp",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/abueesp/a0ed6b872b19c31c9db1f687ca5c7016",
+        "service": "github"
       },
-      "username": "abueesp"
+      {
+        "@type": "Account",
+        "identifier": "abueesp",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/abueesp/status/739655214031110144",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pgp.mit.edu:11371/pks/lookup?op=get&search=0x70813A9276D1D99A",
+        "identifier": "ECF5901B69D07B23CD2EAAD548510D68669E4F4A",
+        "role": "key",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sevilla - Manaus - London - Lisbon"
     },
-    "v": "0.2"
+    "description": "Ƀe ℋuman, be κinđ, be ωise",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/abueesp",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/abueesp",
+        "name": "cover"
+      }
+    ],
+    "name": "Abueesp",
+    "website": []
   },
   "verifications": [
     {
       "identifier": "abueesp",
-      "proof_url": "https://gist.github.com/abueesp/053846696e7c2e9837dc",
+      "proof_url": "https://gist.github.com/abueesp/a0ed6b872b19c31c9db1f687ca5c7016",
       "service": "github",
-      "valid": true
+      "valid": false
     },
     {
       "identifier": "abueesp",
-      "proof_url": "https://twitter.com/abueesp/status/484945129564688384",
+      "proof_url": "https://twitter.com/abueesp/status/739655214031110144",
       "service": "twitter",
-      "valid": true
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN abueesp.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/abueesp.id\"\n"
 }
