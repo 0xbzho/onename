@@ -6,11 +6,6 @@
       {
         "@type": "Account",
         "identifier": "pmbollen@gmail.com",
-        "service": "google mail"
-      },
-      {
-        "@type": "Account",
-        "identifier": "pmbollen@gmail.com",
         "service": "gmail"
       },
       {
@@ -22,6 +17,17 @@
       },
       {
         "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/pmbollen",
+        "identifier": null,
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "pmbollen@gmail.com",
+        "service": "google mail"
+      },
+      {
+        "@type": "Account",
         "identifier": "pmbollen",
         "proofType": "http",
         "proofUrl": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/pmbollen&redirect_uri=https://onename.com/pmbollen%23facebook",
@@ -29,9 +35,10 @@
       },
       {
         "@type": "Account",
-        "contentUrl": "https://pk9.s3.amazonaws.com/pmbollen",
-        "identifier": null,
-        "service": "pgp"
+        "identifier": "pmbollen",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/pmbollen/4bedaf7a41e6b1dfb8a5ef13da7745cb",
+        "service": "github"
       }
     ],
     "address": {
@@ -69,6 +76,12 @@
       "identifier": "pmbollen",
       "proof_url": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/pmbollen&redirect_uri=https://onename.com/pmbollen%23facebook",
       "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "pmbollen",
+      "proof_url": "https://gist.github.com/pmbollen/4bedaf7a41e6b1dfb8a5ef13da7745cb",
+      "service": "github",
       "valid": false
     }
   ],
