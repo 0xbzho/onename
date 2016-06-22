@@ -1,49 +1,80 @@
 {
   "owner_address": "1HoxVfuWhQq6pkK1KHdAcFNQj3PaAg956E",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/aschatria"
-    },
-    "bio": "#followback #blogger, Slavic translator & commentator, #Gaption #Ello #Instagram #YouTube #GitHub #BHW #Medium #Quora #Crusox",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/aschatria"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/aschatria.xyana/posts/1051847331520224"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "zerdet",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/zerdet/5f6dbbe1a93a2ac81ac10fc140469e80",
+        "service": "github"
       },
-      "username": "aschatria.xyana"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/rapidblue/8f6a6d0b1f1ce7f55e90"
+      {
+        "@type": "Account",
+        "identifier": "RapidBlueWriter",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/RapidBlueWriter/posts/293513747653058?pnref=story",
+        "service": "facebook"
       },
-      "username": "rapidblue"
+      {
+        "@type": "Account",
+        "identifier": "aschatria",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/aschatria/status/741001644574445568",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1VVC32S3PFLsXhqm3Yg1uhxqzjNLiwGcb",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Rijeka, Croatia"
     },
-    "location": {
-      "formatted": "Rijeka, Croatia"
-    },
-    "name": {
-      "formatted": "Rapid Blue - Crusox"
-    },
-    "twitter": {
-      "username": "aschatria"
-    },
-    "v": "0.2",
-    "website": "http://www.crusox.com"
+    "description": "#followback #blogger, Slavic translator & commentator, #Gaption #Ello #Instagram #YouTube #GitHub #BHW #Medium #Quora #Crusox",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/aschatria",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/aschatria",
+        "name": "avatar"
+      }
+    ],
+    "name": "Rapid Blue - Crusox",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.crusox.com"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "rapidblue",
-      "proof_url": "https://gist.github.com/rapidblue/8f6a6d0b1f1ce7f55e90",
+      "identifier": "zerdet",
+      "proof_url": "https://gist.github.com/zerdet/5f6dbbe1a93a2ac81ac10fc140469e80",
       "service": "github",
-      "valid": false
+      "valid": true
     },
     {
-      "identifier": "aschatria.xyana",
-      "proof_url": "https://facebook.com/aschatria.xyana/posts/1051847331520224",
+      "identifier": "RapidBlueWriter",
+      "proof_url": "https://www.facebook.com/RapidBlueWriter/posts/293513747653058?pnref=story",
       "service": "facebook",
-      "valid": false
+      "valid": true
+    },
+    {
+      "identifier": "aschatria",
+      "proof_url": "https://twitter.com/aschatria/status/741001644574445568",
+      "service": "twitter",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN aschatria.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/aschatria.id\"\n"
 }
