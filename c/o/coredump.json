@@ -1,10 +1,67 @@
 {
   "owner_address": "1CeJ9mD1aYD31yFZT34CChzNp9qohYhQr7",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/ikZ.jpeg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "yinyunqiao",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/yinyunqiao/ce32710acdc5abb2440e6946f3e11e6b",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "yinyunqiao",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/yinyunqiao/status/742932408937381888",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "yinyunqiao",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/yinyunqiao/posts/10153867232678621",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Australia"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/coredump",
+        "name": "avatar"
+      }
+    ],
+    "name": "YUNQIAO YIN"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "yinyunqiao",
+      "proof_url": "https://gist.github.com/yinyunqiao/ce32710acdc5abb2440e6946f3e11e6b",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "yinyunqiao",
+      "proof_url": "https://twitter.com/yinyunqiao/status/742932408937381888",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "yinyunqiao",
+      "proof_url": "https://www.facebook.com/yinyunqiao/posts/10153867232678621",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN coredump.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/coredump.id\"\n"
 }
