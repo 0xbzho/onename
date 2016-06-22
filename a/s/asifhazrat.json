@@ -1,61 +1,68 @@
 {
   "owner_address": "1J1tV4hPgKh8qZvcbURUw1y7EciJoEg5Cu",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/asifhazrat"
-    },
-    "bio": "Actuary turned data scientist. Cryptography, machine learning, decentralized systems.",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/asifhazrat"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/asif.hazrat/posts/10104433494922450"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "asif.hazrat",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/asif.hazrat/posts/10106350726120760",
+        "service": "facebook"
       },
-      "username": "asif.hazrat"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/hakunapotato/beec1f01b826d72e25d2"
+      {
+        "@type": "Account",
+        "identifier": "ahazrat",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ahazrat/status/740700917234847744",
+        "service": "twitter"
       },
-      "username": "hakunapotato"
+      {
+        "@type": "Account",
+        "identifier": "ahazrat",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ahazrat/beec1f01b826d72e25d2",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chicago"
     },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/asifhazrat"
-    },
-    "location": {
-      "formatted": "Chicago"
-    },
-    "name": {
-      "formatted": "Asif Hazrat"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/ahazrat/status/544670842446028800"
+    "description": "Data scientist with Kogentix. Hadoop, spark, machine learning, bitcoin.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/asifhazrat",
+        "name": "avatar"
       },
-      "username": "ahazrat"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/asifhazrat",
+        "name": "cover"
+      }
+    ],
+    "name": "Asif Hazrat"
   },
   "verifications": [
     {
-      "identifier": "hakunapotato",
-      "proof_url": "https://gist.github.com/hakunapotato/beec1f01b826d72e25d2",
-      "service": "github",
-      "valid": false
+      "identifier": "asif.hazrat",
+      "proof_url": "https://www.facebook.com/asif.hazrat/posts/10106350726120760",
+      "service": "facebook",
+      "valid": true
     },
     {
       "identifier": "ahazrat",
-      "proof_url": "https://twitter.com/ahazrat/status/544670842446028800",
+      "proof_url": "https://twitter.com/ahazrat/status/740700917234847744",
       "service": "twitter",
       "valid": true
     },
     {
-      "identifier": "asif.hazrat",
-      "proof_url": "https://facebook.com/asif.hazrat/posts/10104433494922450",
-      "service": "facebook",
-      "valid": false
+      "identifier": "ahazrat",
+      "proof_url": "https://gist.github.com/ahazrat/beec1f01b826d72e25d2",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN asifhazrat.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/asifhazrat.id\"\n"
 }
