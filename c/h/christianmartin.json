@@ -1,34 +1,46 @@
 {
   "owner_address": "1LzUDwLrQSQeg3iv3EsHrtfD6qyrdPyAfs",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/christianmartin"
-    },
-    "bitcoin": {
-      "address": "16rxfQGvhp9sGKM93tXZ5ijuh9MS1tq9hS"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/christianmartin"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/christianmartin/posts/10202552958360766"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "16rxfQGvhp9sGKM93tXZ5ijuh9MS1tq9hS",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "christianmartin"
-    },
-    "location": {
-      "formatted": "Miami, FL"
-    },
-    "name": {
-      "formatted": "Christian Martin"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/surfstarchris/status/500456401995448320"
+      {
+        "@type": "Account",
+        "identifier": "surfstarchris",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/surfstarchris/status/500456401995448320",
+        "service": "twitter"
       },
-      "username": "surfstarchris"
+      {
+        "@type": "Account",
+        "identifier": "christianmartin",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/christianmartin/posts/10206455545122996",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Miami, FL"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/christianmartin",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/christianmartin",
+        "name": "cover"
+      }
+    ],
+    "name": "Christian Martin"
   },
   "verifications": [
     {
@@ -39,9 +51,10 @@
     },
     {
       "identifier": "christianmartin",
-      "proof_url": "https://facebook.com/christianmartin/posts/10202552958360766",
+      "proof_url": "https://www.facebook.com/christianmartin/posts/10206455545122996",
       "service": "facebook",
-      "valid": true
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN christianmartin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/christianmartin.id\"\n"
 }
