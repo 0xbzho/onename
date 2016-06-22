@@ -1,36 +1,54 @@
 {
   "owner_address": "14HH6hxsgTwpJwKPxfYgbDLXPczAz4hKfZ",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/goenkas"
-    },
-    "bio": "Entrepreneur, Investor, Techie | \r\nMember of Indian Angel Network and LetsVenture |\r\nCo-Founder of @ZebPay app, the easiest way to send and receive Bitcoins",
-    "bitcoin": {
-      "address": "1ActBg4rbhwJ4Rzmj4ePdnrQQQm29dsV3B"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/goenkas"
-    },
-    "location": {
-      "formatted": "India"
-    },
-    "name": {
-      "formatted": "Sandeep Goenka"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/GoenkaSandeep/status/529253986700759042"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "GoenkaSandeep",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/GoenkaSandeep/status/741620472345812992?lang=en",
+        "service": "twitter"
       },
-      "username": "GoenkaSandeep"
+      {
+        "@type": "Account",
+        "identifier": "17Mvn3RHmW4S3CiH7URiE5pBrcaK8LK5v3",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "India"
     },
-    "v": "0.2"
+    "description": "Co-Founder of @Zebpay app, India's biggest bitcoin exchange",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/goenkas",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/goenkas",
+        "name": "cover"
+      }
+    ],
+    "name": "Sandeep Goenka",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.zebpay.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "GoenkaSandeep",
-      "proof_url": "https://twitter.com/GoenkaSandeep/status/529253986700759042",
+      "proof_url": "https://twitter.com/GoenkaSandeep/status/741620472345812992?lang=en",
       "service": "twitter",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN goenkas.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/goenkas.id\"\n"
 }
