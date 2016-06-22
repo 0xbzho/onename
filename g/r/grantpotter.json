@@ -1,24 +1,67 @@
 {
   "owner_address": "1EvjVNNh5TZtCfZPaj5Zb97mjotywzzXoq",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/grantpotter"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "grantpotter",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/grantpotter/status/740634334533701632",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "grantpotter",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/grantpotter/1340c591eeb3e4a0ea01e8ede6fc6035",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1BR5fyAYTKmR1sokZ2EgV5mJfXYJC2nZKb",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "a land of shadow & substance"
     },
-    "bio": "Educator, instructional technologist, tinkerer, musicmaker, hauler of bootstraps",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/grantpotter"
-    },
-    "location": {
-      "formatted": "a land of shadow & substance"
-    },
-    "name": {
-      "formatted": "Grant Potter"
-    },
-    "twitter": {
-      "username": "grantpotter"
-    },
-    "v": "0.2",
-    "website": "http://known.networkeffects.ca"
+    "description": "Educator, instructional technologist, tinkerer, musicmaker, hauler of bootstraps",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/grantpotter",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/grantpotter",
+        "name": "cover"
+      }
+    ],
+    "name": "Grant Potter",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://known.networkeffects.ca"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "grantpotter",
+      "proof_url": "https://twitter.com/grantpotter/status/740634334533701632",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "grantpotter",
+      "proof_url": "https://gist.github.com/grantpotter/1340c591eeb3e4a0ea01e8ede6fc6035",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN grantpotter.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/grantpotter.id\"\n"
 }
