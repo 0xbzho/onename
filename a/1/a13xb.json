@@ -1,17 +1,50 @@
 {
   "owner_address": "1BxxfBzNFGexcuc19QY6DP5QpHmoE7cFu8",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/a13xb"
-    },
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/Ov8.jpg"
-    },
-    "name": {
-      "formatted": "Alex"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "a13xb",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/a13xb/e805e1838bef31b2a89f671a3019a2c1",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sigkill",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SIGKILL/status/740900466964324353",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/a13xb",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Alex"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "a13xb",
+      "proof_url": "https://gist.github.com/a13xb/e805e1838bef31b2a89f671a3019a2c1",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "sigkill",
+      "proof_url": "https://twitter.com/SIGKILL/status/740900466964324353",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN a13xb.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/a13xb.id\"\n"
 }
