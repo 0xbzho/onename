@@ -1,17 +1,30 @@
 {
   "owner_address": "1QJevCGqURHHAufG1Do71TKJCEujS4e6Ri",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/ic1.jpeg"
-    },
-    "name": {
-      "formatted": "Utku Tönel"
-    },
-    "pgp": {
-      "fingerprint": "73FFD8846B731E22C3AF63F6FE691D36B202B578",
-      "url": "https://s3.amazonaws.com/pk9/kahpecuce"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/kahpecuce",
+        "identifier": "73FFD8846B731E22C3AF63F6FE691D36B202B578",
+        "role": "key",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kahpecuce",
+        "name": "avatar"
+      }
+    ],
+    "name": "Utku Tönel"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN kahpecuce.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kahpecuce.id\"\n"
 }
