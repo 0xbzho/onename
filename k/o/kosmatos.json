@@ -1,30 +1,60 @@
 {
   "owner_address": "1EVwdDEdwVPLJu6QQAPwJ2GhtKoiAeqMbr",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/kosmatos"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kosmatos",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1GrDiNrhMuXwfCvgBVGkZEe2QE28UofiVM",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Kosmatos",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Kosmatos/status/740926464778993664",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Quebec, Canada"
     },
-    "bio": "I build software: games, virtual worlds, programming tools. iOS game developer, co-founder of Xceed, bitcoin node, capitalist, father of amazing kids.",
-    "bitcoin": {
-      "address": "1GrDiNrhMuXwfCvgBVGkZEe2QE28UofiVM"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/kosmatos"
-    },
-    "facebook": {
-      "username": "kosmatos"
-    },
-    "location": {
-      "formatted": "Quebec, Canada"
-    },
-    "name": {
-      "formatted": "Odi Kosmatos"
-    },
-    "twitter": {
-      "username": "Kosmatos"
-    },
-    "v": "0.2",
-    "website": "http://kosmatos.com"
+    "description": "I build software: games, virtual worlds, programming tools. iOS game developer, co-founder of Xceed, bitcoin node, capitalist, father of amazing kids.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kosmatos",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/kosmatos",
+        "name": "cover"
+      }
+    ],
+    "name": "Odi Kosmatos",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://kosmatos.com"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "Kosmatos",
+      "proof_url": "https://twitter.com/Kosmatos/status/740926464778993664",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kosmatos.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kosmatos.id\"\n"
 }
