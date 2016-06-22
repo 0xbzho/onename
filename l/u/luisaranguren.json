@@ -1,64 +1,86 @@
 {
   "owner_address": "1jgxd6LGWzDecWdUmjpnCvF5M87bSxy3R",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/luisaranguren"
-    },
-    "bitcoin": {
-      "address": "1LuisA5tBZFVY3z55UMEcvYDLuKYQ8qbg4"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/luisaranguren"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/mercurytoxic/posts/10152214040054229"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1LuisA5tBZFVY3z55UMEcvYDLuKYQ8qbg4",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "mercurytoxic"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/mercurytoxic/4eae1d3c8a9f378561e6"
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/luisaranguren",
+        "identifier": "91983EF8A4D803804EEBF0BFBBB57013B0BC0EF3",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "mercurytoxic"
-    },
-    "location": {
-      "formatted": "Melbourne, Australia"
-    },
-    "name": {
-      "formatted": "Luis Aranguren"
-    },
-    "pgp": {
-      "fingerprint": "91983EF8A4D803804EEBF0BFBBB57013B0BC0EF3",
-      "url": "https://s3.amazonaws.com/pk9/luisaranguren"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/mercurytoxic/status/678563891329171456"
+      {
+        "@type": "Account",
+        "identifier": "mercurytoxic",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mercurytoxic/status/740515325435772930",
+        "service": "twitter"
       },
-      "username": "mercurytoxic"
+      {
+        "@type": "Account",
+        "identifier": "mercurytoxic",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mercurytoxic/4e138ecbe703874fa7dec4391f0fbe0d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mercurytoxic",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mercurytoxic/posts/10153147227649229",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Melbourne, Australia"
     },
-    "v": "0.2",
-    "website": "http://luisaranguren.com"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/luisaranguren",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/luisaranguren",
+        "name": "cover"
+      }
+    ],
+    "name": "Luis Aranguren",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://luisaranguren.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "mercurytoxic",
-      "proof_url": "https://gist.github.com/mercurytoxic/4eae1d3c8a9f378561e6",
-      "service": "github",
-      "valid": false
-    },
-    {
-      "identifier": "mercurytoxic",
-      "proof_url": "https://twitter.com/mercurytoxic/status/678563891329171456",
+      "proof_url": "https://twitter.com/mercurytoxic/status/740515325435772930",
       "service": "twitter",
-      "valid": false
+      "valid": true
     },
     {
       "identifier": "mercurytoxic",
-      "proof_url": "https://facebook.com/mercurytoxic/posts/10152214040054229",
+      "proof_url": "https://gist.github.com/mercurytoxic/4e138ecbe703874fa7dec4391f0fbe0d",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "mercurytoxic",
+      "proof_url": "https://www.facebook.com/mercurytoxic/posts/10153147227649229",
       "service": "facebook",
-      "valid": false
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN luisaranguren.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/luisaranguren.id\"\n"
 }
