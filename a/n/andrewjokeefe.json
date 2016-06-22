@@ -1,40 +1,52 @@
 {
   "owner_address": "1fLx8aRL6wHLFk8GpDxZu6P9Z4DmbgU8T",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/andrewjokeefe"
-    },
-    "bio": "media producer & archivist. in search of: adequate reality tunnels for use with steering spaceship earth.",
-    "bitcoin": {
-      "address": "19w1jMwc7ZZAPRtUhvfCoNexpSWYSMjon5"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/andrewjokeefe"
-    },
-    "facebook": {
-      "username": "andrewjokeefe"
-    },
-    "location": {
-      "formatted": "Santa Cruz, CA"
-    },
-    "name": {
-      "formatted": "Andrew J. O'Keefe II"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/andrewjokeefe/status/687755079063965697"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "andrewjokeefe",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "andrewjokeefe"
+      {
+        "@type": "Account",
+        "identifier": "andrewjokeefe",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "19w1jMwc7ZZAPRtUhvfCoNexpSWYSMjon5",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Santa Cruz, CA"
     },
-    "v": "0.2",
-    "website": "http://www.andrewjokeefe.com"
+    "description": "media producer & archivist",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/andrewjokeefe",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/andrewjokeefe",
+        "name": "cover"
+      }
+    ],
+    "name": "Andrew J. O'Keefe II",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.andrewjokeefe.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "andrewjokeefe",
-      "proof_url": "https://twitter.com/andrewjokeefe/status/687755079063965697",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN andrewjokeefe.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/andrewjokeefe.id\"\n"
 }
