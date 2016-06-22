@@ -5,29 +5,37 @@
     "account": [
       {
         "@type": "Account",
+        "identifier": "1L4u9cruwyPoJRPMnws313HLrSXJJW4CC",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
         "identifier": "MillennialChris",
         "proofType": "http",
+        "proofUrl": "https://twitter.com/MillennialChris/status/742454444458049536",
         "service": "twitter"
       },
       {
         "@type": "Account",
         "identifier": "MillennialChris",
         "proofType": "http",
+        "proofUrl": "https://www.facebook.com/MillennialChris/posts/656575791166052",
         "service": "facebook"
       },
       {
         "@type": "Account",
         "identifier": "MillennialChris",
         "proofType": "http",
+        "proofUrl": "https://gist.github.com/MillennialChris/3333d00569450d95bdee6d5ebb9ce6cc",
         "service": "github"
-      },
-      {
-        "@type": "Account",
-        "identifier": "1L4u9cruwyPoJRPMnws313HLrSXJJW4CC",
-        "role": "payment",
-        "service": "bitcoin"
       }
     ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Austin, TX"
+    },
+    "description": "Decentralizer extraordinaire",
     "image": [
       {
         "@type": "ImageObject",
@@ -39,8 +47,28 @@
         "contentUrl": "https://s3.amazonaws.com/dx3/christopherdavid",
         "name": "cover"
       }
-    ]
+    ],
+    "name": "Christopher David"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "MillennialChris",
+      "proof_url": "https://twitter.com/MillennialChris/status/742454444458049536",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "MillennialChris",
+      "proof_url": "https://www.facebook.com/MillennialChris/posts/656575791166052",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "MillennialChris",
+      "proof_url": "https://gist.github.com/MillennialChris/3333d00569450d95bdee6d5ebb9ce6cc",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN christopherdavid.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/christopherdavid.id\"\n"
 }
