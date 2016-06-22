@@ -1,16 +1,29 @@
 {
   "owner_address": "1NnxvxFfB3NLkC3f3WiUhRXVCsTnk7e139",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/F9g.jpg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "a6791ce9eb8e16d338920d31be66021ce0a55f12",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/konratz",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Zürich, Switzerland"
     },
-    "location": {
-      "formatted": "Zürich, Switzerland"
-    },
-    "name": {
-      "formatted": "Bernhard Muller"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Bernhard Muller"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN froh64.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/froh64.id\"\n"
 }
