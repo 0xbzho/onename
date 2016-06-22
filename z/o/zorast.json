@@ -1,13 +1,28 @@
 {
   "owner_address": "15Xbaf2LS8WQGPa35grAvCZULFfohSmigR",
   "profile": {
-    "bitcoin": {
-      "address": "12WNBUETdqZfbkhmU51FdHLaYtKcAGfCj8"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/yId.jpg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "12WNBUETdqZfbkhmU51FdHLaYtKcAGfCj8",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/zorast",
+        "name": "avatar"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN zorast.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/zorast.id\"\n"
 }
