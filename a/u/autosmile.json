@@ -1,52 +1,66 @@
 {
   "owner_address": "1C4c2P28t6CaiTfgVfwQhrfqWHb9NXUTvV",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/autosmile"
-    },
-    "bio": "helping people",
-    "bitcoin": {
-      "address": "13aPGiKd5kuX7JhSkUqCFaitFqqdLUQN2Z"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/autosmile"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/autosmile/posts/617193778445134"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "autosmile",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "autosmile"
-    },
-    "github": {
-      "proof": {
-        "url": "Verifying that +autosmile is my blockchain ID. https://onename.com/autosmile"
+      {
+        "@type": "Account",
+        "identifier": "Verifying that +autosmile is my blockchain ID. https:",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "Verifying that +autosmile is my blockchain ID. https:"
+      {
+        "@type": "Account",
+        "identifier": "13aPGiKd5kuX7JhSkUqCFaitFqqdLUQN2Z",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "autosmile13",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/autosmile13",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "us"
     },
-    "location": {
-      "formatted": "us"
-    },
-    "name": {
-      "formatted": "auto smile"
-    },
-    "twitter": {
-      "username": "autosmile13"
-    },
-    "v": "0.2",
-    "website": "http://www.thebitgold.com"
+    "description": "helping people",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/autosmile",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/autosmile",
+        "name": "cover"
+      }
+    ],
+    "name": "auto smile",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.thebitgold.com"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "Verifying that +autosmile is my blockchain ID. https:",
-      "proof_url": "Verifying that +autosmile is my blockchain ID. https://onename.com/autosmile",
-      "service": "github",
-      "valid": false
-    },
-    {
-      "identifier": "autosmile",
-      "proof_url": "https://facebook.com/autosmile/posts/617193778445134",
-      "service": "facebook",
+      "identifier": "autosmile13",
+      "proof_url": "https://twitter.com/autosmile13",
+      "service": "twitter",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN autosmile.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/autosmile.id\"\n"
 }
