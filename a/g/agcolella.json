@@ -1,57 +1,73 @@
 {
   "owner_address": "1QK5vGhaptzXj46NHxeJgVhRuMJHqQrhKX",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/agcolella"
-    },
-    "bio": "Technician at Centro Tecnico per la Rupa, CNIPA, DigitPA and Agenzia per l'Italia Digitale.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/agcolella"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/agcolella/posts/10209109176272624"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "agcolella@gmail.com",
+        "service": "inbox"
       },
-      "username": "agcolella"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/agcolella/4a31863cbeac0425f15ae25446c91e9c"
+      {
+        "@type": "Account",
+        "identifier": "agcolella",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/agcolella/status/742235447582203904",
+        "service": "twitter"
       },
-      "username": "agcolella"
-    },
-    "location": {
-      "formatted": "Roma"
-    },
-    "name": {
-      "formatted": "Antonio Colella"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/agcolella/status/722712446801207296"
+      {
+        "@type": "Account",
+        "identifier": "agcolella",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/agcolella/fd97c4f95bcad2cac16a495b9f6f86e9",
+        "service": "github"
       },
-      "username": "agcolella"
+      {
+        "@type": "Account",
+        "identifier": "agcolella",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/agcolella&redirect_uri=https://onename.com/agcolella%23facebook",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Roma"
     },
-    "v": "0.2"
+    "description": "Technician at Centro Tecnico per la Rupa, CNIPA, DigitPA and Agenzia per l'Italia Digitale.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/agcolella",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/agcolella",
+        "name": "cover"
+      }
+    ],
+    "name": "Antonio Colella"
   },
   "verifications": [
     {
       "identifier": "agcolella",
-      "proof_url": "https://gist.github.com/agcolella/4a31863cbeac0425f15ae25446c91e9c",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "agcolella",
-      "proof_url": "https://twitter.com/agcolella/status/722712446801207296",
+      "proof_url": "https://twitter.com/agcolella/status/742235447582203904",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "agcolella",
-      "proof_url": "https://facebook.com/agcolella/posts/10209109176272624",
-      "service": "facebook",
+      "proof_url": "https://gist.github.com/agcolella/fd97c4f95bcad2cac16a495b9f6f86e9",
+      "service": "github",
       "valid": true
+    },
+    {
+      "identifier": "agcolella",
+      "proof_url": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/agcolella&redirect_uri=https://onename.com/agcolella%23facebook",
+      "service": "facebook",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN agcolella.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/agcolella.id\"\n"
 }
