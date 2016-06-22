@@ -1,25 +1,54 @@
 {
   "owner_address": "16Ai3AcKMgGoHW2fJesoifB68naQQFUniU",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/kellyjosephc"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "josephkelly",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "joeman",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/joeman/02d7bd9d2894681dc45f66c379323b2b",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Austin, TX"
     },
-    "bio": "Thinker, entrepreneur",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/kellyjosephc"
-    },
-    "location": {
-      "formatted": "Austin, TX"
-    },
-    "name": {
-      "formatted": "Joseph Kelly"
-    },
-    "twitter": {
-      "username": "josephkelly"
-    },
-    "v": "0.2",
-    "website": "http://josephckelly.com/"
+    "description": "Thinker, entrepreneur",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kellyjosephc",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/kellyjosephc",
+        "name": "cover"
+      }
+    ],
+    "name": "Joseph Kelly",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://josephckelly.com/"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "joeman",
+      "proof_url": "https://gist.github.com/joeman/02d7bd9d2894681dc45f66c379323b2b",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kellyjosephc.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kellyjosephc.id\"\n"
 }
