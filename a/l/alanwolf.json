@@ -1,10 +1,31 @@
 {
   "owner_address": "1PJsRWtSKMXC4LA61yqHhUNL7ZVUWLGGkX",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/KJy.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "alan_wolf",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Alan_Wolf/status/741373449965326336",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "alan_wolf",
+      "proof_url": "https://twitter.com/Alan_Wolf/status/741373449965326336",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN alanwolf.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alanwolf.id\"\n"
 }
