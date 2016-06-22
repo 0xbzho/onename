@@ -1,63 +1,87 @@
 {
   "owner_address": "144S2R78x1VJ9SUArYGQ6RejyDqzQ41qdz",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/griffey"
-    },
-    "bio": "I write and talk about libraries, technology, 'net culture, new media, and sometimes zombies.",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/griffey"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/griffey/posts/10100847799051268"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/griffey/key.asc",
+        "identifier": "519F3C973324170ECDEEC5E215CD9E77B65910F5",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "griffey"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/griffey/4ad908cc2608080a7cac"
+      {
+        "@type": "Account",
+        "identifier": "griffey",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/griffey/status/740656709912256512",
+        "service": "twitter"
       },
-      "username": "griffey"
-    },
-    "location": {
-      "formatted": "Sewanee, TN"
-    },
-    "name": {
-      "formatted": "Jason Griffey"
-    },
-    "pgp": {
-      "fingerprint": "519F3C973324170ECDEEC5E215CD9E77B65910F5",
-      "url": "https://keybase.io/griffey/key.asc"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/griffey/status/636203396995883009"
+      {
+        "@type": "Account",
+        "identifier": "griffey",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/griffey/posts/10101046734907218",
+        "service": "facebook"
       },
-      "username": "griffey"
+      {
+        "@type": "Account",
+        "identifier": "griffey",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/griffey/2f53329872a521c3f9fa7a0b0ff2509e",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "17vESZgA3MfWV4hHtNNpMkqBAew4mc7XAE",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sewanee, TN"
     },
-    "v": "0.2",
-    "website": "http://www.jasongriffey.net"
+    "description": "Fellow at the Berkman Center for Internet & Society, Librarian, Technologist",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/griffey",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/griffey",
+        "name": "cover"
+      }
+    ],
+    "name": "Jason Griffey",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.jasongriffey.net"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "griffey",
-      "proof_url": "https://gist.github.com/griffey/4ad908cc2608080a7cac",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "griffey",
-      "proof_url": "https://twitter.com/griffey/status/636203396995883009",
+      "proof_url": "https://twitter.com/griffey/status/740656709912256512",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "griffey",
-      "proof_url": "https://facebook.com/griffey/posts/10100847799051268",
+      "proof_url": "https://www.facebook.com/griffey/posts/10101046734907218",
       "service": "facebook",
       "valid": true
+    },
+    {
+      "identifier": "griffey",
+      "proof_url": "https://gist.github.com/griffey/2f53329872a521c3f9fa7a0b0ff2509e",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN griffey.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/griffey.id\"\n"
 }
