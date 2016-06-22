@@ -1,23 +1,34 @@
 {
   "owner_address": "16TsAJaMUrWAGkVXu3WBoi5WZJsztS6wUA",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/arcadeeric"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "swingman141414",
+        "proofType": "http",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Austin, Tx"
     },
-    "bio": "Director of Media Relations for Arcade City. Former Uber driver. BY DRIVERS FOR DRIVERS AND RIDERS!!!",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/arcadeeric"
-    },
-    "facebook": {
-      "username": "swingman141414"
-    },
-    "location": {
-      "formatted": "Midland, Tx"
-    },
-    "name": {
-      "formatted": "Eric Green"
-    },
-    "v": "0.2"
+    "description": "Director of Media Relations for Arcade City. Former Uber driver. BY DRIVERS FOR DRIVERS AND RIDERS!!!",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/arcadeeric",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/arcadeeric",
+        "name": "cover"
+      }
+    ],
+    "name": "Eric Green"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN arcadeeric.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/arcadeeric.id\"\n"
 }
