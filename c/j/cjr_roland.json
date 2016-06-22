@@ -1,68 +1,87 @@
 {
   "owner_address": "1LxYAwRYcUExv96JFeSfFk9Wa7uozR69Yb",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/cjr_roland"
-    },
-    "bio": "Sales Engineer at BitPay - Bitcoin Payment Processor",
-    "bitcoin": {
-      "address": "1A8i68KvZnWezJJr4G8JrpHTNxwMCoyd3P"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/cjr_roland"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/cjr.roIand/posts/553537694810135"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/cjr_roland",
+        "identifier": "EBD31B9A373DEF94445F3D48CF9160E841DA6F27",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "cjr.roIand"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/cjr-roland/49ee80708c020f524a2e"
+      {
+        "@type": "Account",
+        "identifier": "148hiKyMg6Lm7JqpaAw1VNcqW3qxKGCiPJ",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "cjr-roland"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/cjr_roland"
-    },
-    "location": {
-      "formatted": "Amsterdam, Netherlands"
-    },
-    "name": {
-      "formatted": "Charles Roland"
-    },
-    "pgp": {
-      "fingerprint": "EBD31B9A373DEF94445F3D48CF9160E841DA6F27",
-      "url": "https://s3.amazonaws.com/pk9/cjr_roland"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/cjr_roland/status/702566715113267201"
+      {
+        "@type": "Account",
+        "identifier": "cjr_roland",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cjr_roland/status/741246400042807296",
+        "service": "twitter"
       },
-      "username": "cjr_roland"
+      {
+        "@type": "Account",
+        "identifier": "cjr-roland",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/cjr-roland/89ba0f73ddcaf237142825523ba7444d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cjr.roland",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcjr.roland%2Fposts%2F608587002638537",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Amsterdam, Netherlands"
     },
-    "v": "0.2",
-    "website": "https://bitpay.com"
+    "description": "Sales Engineer at BitPay - Bitcoin Payment Processor",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cjr_roland",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/cjr_roland",
+        "name": "cover"
+      }
+    ],
+    "name": "Charles Roland",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://bitpay.com"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "cjr-roland",
-      "proof_url": "https://gist.github.com/cjr-roland/49ee80708c020f524a2e",
-      "service": "github",
-      "valid": true
-    },
-    {
       "identifier": "cjr_roland",
-      "proof_url": "https://twitter.com/cjr_roland/status/702566715113267201",
+      "proof_url": "https://twitter.com/cjr_roland/status/741246400042807296",
       "service": "twitter",
       "valid": true
     },
     {
-      "identifier": "cjr.roIand",
-      "proof_url": "https://facebook.com/cjr.roIand/posts/553537694810135",
-      "service": "facebook",
+      "identifier": "cjr-roland",
+      "proof_url": "https://gist.github.com/cjr-roland/89ba0f73ddcaf237142825523ba7444d",
+      "service": "github",
       "valid": true
+    },
+    {
+      "identifier": "cjr.roland",
+      "proof_url": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcjr.roland%2Fposts%2F608587002638537",
+      "service": "facebook",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN cjr_roland.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cjr_roland.id\"\n"
 }
