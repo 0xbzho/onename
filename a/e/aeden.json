@@ -1,37 +1,80 @@
 {
   "owner_address": "12C9Vsr8nK655KFovDuUtAmoYnjQ5W46uA",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/aeden"
-    },
-    "bio": "Founder of DNSimple, vendor of duct tape, purveyor of UDP packets.\nFurious Thunder.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/ikZ.jpeg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/aeden/46222f24c603efd5cc56"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "aeden",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/aeden/status/744830397649928192",
+        "service": "twitter"
       },
-      "username": "aeden"
+      {
+        "@type": "Account",
+        "identifier": "aeden",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/aeden/7fa82a9df7a86eba75e8a771ef5c49f2",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/aeden/key.asc",
+        "identifier": "A11FAA64C6AAB3559387C87E07B94E5ACDA4BFAE",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anthonyeden",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/anthonyeden/posts/10155996876096515?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Carcassonne, France"
     },
-    "location": {
-      "formatted": "Carcassonne, France"
-    },
-    "name": {
-      "formatted": "Comte Anthony Eden"
-    },
-    "twitter": {
-      "username": "aeden"
-    },
-    "v": "0.2",
-    "website": "http://anthonyeden.com"
+    "description": "Founder of DNSimple, vendor of duct tape, purveyor of UDP packets.\nFurious Thunder.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/aeden",
+        "name": "avatar"
+      }
+    ],
+    "name": "Comte Anthony Eden",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://anthonyeden.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "aeden",
-      "proof_url": "https://gist.github.com/aeden/46222f24c603efd5cc56",
+      "proof_url": "https://twitter.com/aeden/status/744830397649928192",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "aeden",
+      "proof_url": "https://gist.github.com/aeden/7fa82a9df7a86eba75e8a771ef5c49f2",
       "service": "github",
       "valid": true
+    },
+    {
+      "identifier": "anthonyeden",
+      "proof_url": "https://www.facebook.com/anthonyeden/posts/10155996876096515?pnref=story",
+      "service": "facebook",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN aeden.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/aeden.id\"\n"
 }
