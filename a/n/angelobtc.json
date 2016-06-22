@@ -5,22 +5,23 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "AngeloBTC",
-        "proofType": "http",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
         "identifier": "1Ck8JwPEoevNe3nrxHpWvfGcrghQiEDAt1",
         "role": "payment",
         "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "AngeloBTC",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/AngeloBTC/status/506958677203353600",
+        "service": "twitter"
       }
     ],
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Forever 27"
     },
-    "description": "Whale Whisperer - Professional Trader",
+    "description": "Whale Whisperer  | Professional Trader",
     "image": [
       {
         "@type": "ImageObject",
@@ -35,6 +36,13 @@
     ],
     "name": "Angelo฿TC"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "AngeloBTC",
+      "proof_url": "https://twitter.com/AngeloBTC/status/506958677203353600",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN angelobtc.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/angelobtc.id\"\n"
 }
