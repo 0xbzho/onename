@@ -5,15 +5,16 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "kytsune",
-        "proofType": "http",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
         "identifier": "1ARpEWrsoxPUAVDe22cXk3zpNkX1RHNMz7",
         "role": "payment",
         "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kytsune",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kytsune/status/507001835849134080",
+        "service": "twitter"
       }
     ],
     "image": [
@@ -25,6 +26,13 @@
     ],
     "name": "Kyt Dotson"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "kytsune",
+      "proof_url": "https://twitter.com/kytsune/status/507001835849134080",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN kytdotson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kytdotson.id\"\n"
 }
