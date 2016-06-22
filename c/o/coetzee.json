@@ -5,12 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "abrahamcoetzee",
-        "proofType": "http",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
         "identifier": "abcoetzee",
         "proofType": "http",
         "proofUrl": "https://twitter.com/abcoetzee/status/699840586778591232",
@@ -21,6 +15,19 @@
         "identifier": "",
         "proofType": "http",
         "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1GATBqneyKtoGcK5iU2XjW4KMAPsbuvZx8",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "abrahamcoetzee",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/abrahamcoetzee/74cae18b758007a464ac",
+        "service": "github"
       }
     ],
     "address": {
@@ -53,6 +60,12 @@
       "identifier": "abcoetzee",
       "proof_url": "https://twitter.com/abcoetzee/status/699840586778591232",
       "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "abrahamcoetzee",
+      "proof_url": "https://gist.github.com/abrahamcoetzee/74cae18b758007a464ac",
+      "service": "github",
       "valid": true
     }
   ],
