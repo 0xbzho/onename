@@ -1,53 +1,53 @@
 {
   "owner_address": "1CwgeMQ7FNmVmXVVHNqhPM15JuHq4JJKCq",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/fcotton"
-    },
-    "bio": "Digital Blacksmith",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/fcotton"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/fcotton/547e232f5d6e09204665"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "elpep",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "fcotton"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/fcotton"
-    },
-    "location": {
-      "formatted": "France"
-    },
-    "name": {
-      "formatted": "Florent Cotton"
-    },
-    "pgp": {
-      "fingerprint": "00F525B0CC209B8CCEEC733EC3E5ACA309D914B2",
-      "url": "https://nrkn.tl/pgp/fc-gpg-pubkey.asc"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/elpep/status/712287926030303234"
+      {
+        "@type": "Account",
+        "identifier": "fcotton",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "elpep"
+      {
+        "@type": "Account",
+        "contentUrl": "https://nrkn.tl/pgp/fc-gpg-pubkey.asc",
+        "identifier": "00F525B0CC209B8CCEEC733EC3E5ACA309D914B2",
+        "role": "key",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "France"
     },
-    "v": "0.2",
-    "website": "https://nrkn.tl"
+    "description": "Guess What.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/fcotton",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/fcotton",
+        "name": "cover"
+      }
+    ],
+    "name": "Florent Cotton",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://nrkn.fr"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "fcotton",
-      "proof_url": "https://gist.github.com/fcotton/547e232f5d6e09204665",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "elpep",
-      "proof_url": "https://twitter.com/elpep/status/712287926030303234",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN fcotton.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fcotton.id\"\n"
 }
