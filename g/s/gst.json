@@ -1,55 +1,79 @@
 {
   "owner_address": "1Hmyx6TGA8cnzVNUT7RderXNThtFb1v8zd",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/gst"
-    },
-    "bitcoin": {
-      "address": "1GSTdDUuBFqbabNCaV8Dh4UsuqFMvGZ9kX"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/gst"
-    },
-    "facebook": {
-      "username": "guenther.starnberger"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/gstarnberger/8c51cd749df92a2e1258e67bc8192e3b"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "guenther.starnberger",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "gstarnberger"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Guenther Starnberger"
-    },
-    "pgp": {
-      "fingerprint": "CA916B2B2277EB6A",
-      "url": "https://keybase.io/gst/key.asc"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/gstarnberger/status/716091774695911428"
+      {
+        "@type": "Account",
+        "identifier": "1GSTdDUuBFqbabNCaV8Dh4UsuqFMvGZ9kX",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "gstarnberger"
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/gst/key.asc",
+        "identifier": "CA916B2B2277EB6A",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gstarnberger",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gstarnberger/status/716091774695911428",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gstarnberger",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/gstarnberger/8c51cd749df92a2e1258e67bc8192e3b",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "v": "0.2",
-    "website": "https://gst.name/"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gst",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/gst",
+        "name": "cover"
+      }
+    ],
+    "name": "Guenther Starnberger",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://gst.name/"
+      }
+    ]
   },
   "verifications": [
-    {
-      "identifier": "gstarnberger",
-      "proof_url": "https://gist.github.com/gstarnberger/8c51cd749df92a2e1258e67bc8192e3b",
-      "service": "github",
-      "valid": false
-    },
     {
       "identifier": "gstarnberger",
       "proof_url": "https://twitter.com/gstarnberger/status/716091774695911428",
       "service": "twitter",
       "valid": true
+    },
+    {
+      "identifier": "gstarnberger",
+      "proof_url": "https://gist.github.com/gstarnberger/8c51cd749df92a2e1258e67bc8192e3b",
+      "service": "github",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN gst.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gst.id\"\n"
 }
