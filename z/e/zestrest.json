@@ -1,68 +1,87 @@
 {
   "owner_address": "17M3AmuEwZ3eAxfFdc6k727eE4VJTjrM5w",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "19b0719b3f537749e2a7adfd95ab3bc83f967144",
+        "identifier": "12y3GJVjT2vy9Nrr9nfUc3vc59csxz2cCV",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "skzgzr",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/skzgzr/posts/848777131892843",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "82f33ac038590a1adde673be856763043e35bea8",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/jcajjanssen",
         "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "skzgzr",
+        "proofType": "http",
+        "proofUrl": "http://twitter.com/skzgzr",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "http:",
+        "proofType": "http",
+        "proofUrl": "http://gist.github.com/anonymous/96a3df206aada8f74fe345cba23ee9e9",
+        "service": "github"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/zestrest"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "bio": "I can because i think i can.",
-    "bitcoin": {
-      "address": "12y3GJVjT2vy9Nrr9nfUc3vc59csxz2cCV"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/zestrest"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/skzgzr/posts/847041165399773"
+    "description": "I can because i think i can.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/zestrest",
+        "name": "avatar"
       },
-      "username": "skzgzr"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/bee1fb6f986415f614788bd86fb70061.git"
-      },
-      "username": "bee1fb6f986415f614788bd86fb70061.git"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "zestrest"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/skzgzr/status/704575160146210816"
-      },
-      "username": "skzgzr"
-    },
-    "v": "0.2",
-    "website": "http://www.zestrest.com"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/zestrest",
+        "name": "cover"
+      }
+    ],
+    "name": "zestrest",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.zestrest.com"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "bee1fb6f986415f614788bd86fb70061.git",
-      "proof_url": "https://gist.github.com/bee1fb6f986415f614788bd86fb70061.git",
-      "service": "github",
-      "valid": true
-    },
-    {
       "identifier": "skzgzr",
-      "proof_url": "https://twitter.com/skzgzr/status/704575160146210816",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "skzgzr",
-      "proof_url": "https://facebook.com/skzgzr/posts/847041165399773",
+      "proof_url": "https://facebook.com/skzgzr/posts/848777131892843",
       "service": "facebook",
       "valid": false
+    },
+    {
+      "identifier": "skzgzr",
+      "proof_url": "http://twitter.com/skzgzr",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "http:",
+      "proof_url": "http://gist.github.com/anonymous/96a3df206aada8f74fe345cba23ee9e9",
+      "service": "github",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN zestrest.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/zestrest.id\"\n"
 }
