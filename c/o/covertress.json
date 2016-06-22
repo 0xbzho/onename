@@ -1,61 +1,87 @@
 {
   "owner_address": "1KSNyZrMS6sNvcdfzHLGvkD98oNjDnHZS9",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/covertress"
-    },
-    "bio": "python dev 4 fun ★ crypto hostess 4 hire ★ into running sailing trading physics languages space art photography foodie paleo minimalism wanderlust bitcoin",
-    "bitcoin": {
-      "address": "1FoxY2FXSzEPjNb2K4gBCAp6oaSsbpCSMe"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/covertress"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/covertresscovertress/posts/1510968959163824"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1FoxY2FXSzEPjNb2K4gBCAp6oaSsbpCSMe",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "covertresscovertress"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/covertress"
+      {
+        "@type": "Account",
+        "identifier": "covertress",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/covertress/status/740564300650184704",
+        "service": "twitter"
       },
-      "username": "covertress"
-    },
-    "location": {
-      "formatted": "Florida, USA"
-    },
-    "name": {
-      "formatted": "covertress"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/covertress/status/633339364328779776"
+      {
+        "@type": "Account",
+        "identifier": "covertress",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/covertress/e1e00358cbd2db84be04ec8a6b0573f4",
+        "service": "github"
       },
-      "username": "covertress"
+      {
+        "@type": "Account",
+        "identifier": "Kryptoncoin",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/Kryptoncoin/posts/1732245147018633",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1a8af21f26c7e5739f9720035a44cd60ad634396",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/idiopathic/status/744251080138063873",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Florida, USA"
     },
-    "v": "0.2",
-    "website": "https://www.coinbase.com/covertress"
+    "description": "Proj Mgr of Krypton, a SmartContracts and DAPPs development firm for business systems & IoT. $KR is Ethereum-based & trades on Bittrex. Krypton is hiring S.C./DAPPs devs. Apply at: http://slack.krypton.rocks",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/covertress",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/covertress",
+        "name": "cover"
+      }
+    ],
+    "name": "covertress",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://krypton.rocks"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "covertress",
-      "proof_url": "https://gist.github.com/covertress",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "covertress",
-      "proof_url": "https://twitter.com/covertress/status/633339364328779776",
+      "proof_url": "https://twitter.com/covertress/status/740564300650184704",
       "service": "twitter",
       "valid": true
     },
     {
-      "identifier": "covertresscovertress",
-      "proof_url": "https://facebook.com/covertresscovertress/posts/1510968959163824",
+      "identifier": "covertress",
+      "proof_url": "https://gist.github.com/covertress/e1e00358cbd2db84be04ec8a6b0573f4",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "Kryptoncoin",
+      "proof_url": "https://www.facebook.com/Kryptoncoin/posts/1732245147018633",
       "service": "facebook",
-      "valid": false
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN covertress.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/covertress.id\"\n"
 }
