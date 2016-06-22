@@ -1,45 +1,79 @@
 {
   "owner_address": "1pCS4ePhwbBkeN2uN2b8u8dQm4cWpxTqR",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/alinush"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/4AL.jpeg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/alinush/56fabfbded1623abb1f8"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/alinush",
+        "identifier": "2848DBBD007FBCB075B797FB37C1887D6E55CA9A",
+        "service": "pgp"
       },
-      "username": "alinush"
-    },
-    "location": {
-      "formatted": "Cambridge, MA"
-    },
-    "name": {
-      "formatted": "Alin Tomescu"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/alinush407/status/631884317099102209"
+      {
+        "@type": "Account",
+        "identifier": "alinush407",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/alinush407/status/743512319204851713",
+        "service": "twitter"
       },
-      "username": "alinush407"
+      {
+        "@type": "Account",
+        "identifier": "alinush",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/alinush/posts/10102557984929627?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "alinush",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/alinush/56fabfbded1623abb1f8",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cambridge, MA"
     },
-    "v": "0.2",
-    "website": "http://alinush.org"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/alinush",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Alin Tomescu",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://alinush.org"
+      }
+    ]
   },
   "verifications": [
+    {
+      "identifier": "alinush407",
+      "proof_url": "https://twitter.com/alinush407/status/743512319204851713",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "alinush",
+      "proof_url": "https://www.facebook.com/alinush/posts/10102557984929627?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
     {
       "identifier": "alinush",
       "proof_url": "https://gist.github.com/alinush/56fabfbded1623abb1f8",
       "service": "github",
       "valid": true
-    },
-    {
-      "identifier": "alinush407",
-      "proof_url": "https://twitter.com/alinush407/status/631884317099102209",
-      "service": "twitter",
-      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN alinush.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alinush.id\"\n"
 }
