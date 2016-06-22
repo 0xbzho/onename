@@ -1,65 +1,76 @@
 {
   "owner_address": "1BKyjz3JUWn7ooFLZgiG1hwa4DPXLNuyPW",
   "profile": {
-    "avatar": {
-      "url": "https://pbs.twimg.com/profile_images/447474301650751488/BfLVbuh0.jpeg"
-    },
-    "bio": "CEO / Founder Walltime",
-    "bitcoin": {
-      "address": "1LipeR1AjHL6gwE7WQECW4a2H4tuqm768N"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/micaroni/posts/10153507234714673"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "felipelalli",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "micaroni"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/felipelalli/0d851bc1147214ff4ce9"
+      {
+        "@type": "Account",
+        "identifier": "1LipeR1AjHL6gwE7WQECW4a2H4tuqm768N",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "felipelalli"
+      {
+        "@type": "Account",
+        "contentUrl": "http://pgp.mit.edu/pks/lookup?op=get&search=0x4C0AFCCFED5CDE14",
+        "identifier": "9E08524833CB3038FDE385C54C0AFCCFED5CDE14",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "micaroni3",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "micaroni",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/micaroni/posts/10154118238674673",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Campinas"
     },
+    "description": "CEO / Founder Walltime",
     "graph": {
       "url": "https://s3.amazonaws.com/grph/felipelalli"
     },
-    "location": {
-      "formatted": "Campinas"
-    },
-    "name": {
-      "formatted": "Felipe ML"
-    },
-    "pgp": {
-      "fingerprint": "9E08524833CB3038FDE385C54C0AFCCFED5CDE14",
-      "url": "http://pgp.mit.edu/pks/lookup?op=get&search=0x4C0AFCCFED5CDE14"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/micaroni3/status/525359110108110848"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/felipelalli",
+        "name": "avatar"
       },
-      "username": "micaroni3"
-    },
-    "v": "0.2",
-    "website": "http://walltime.info"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/felipelalli",
+        "name": "cover"
+      }
+    ],
+    "name": "Felipe ML",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://walltime.info"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "felipelalli",
-      "proof_url": "https://gist.github.com/felipelalli/0d851bc1147214ff4ce9",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "micaroni3",
-      "proof_url": "https://twitter.com/micaroni3/status/525359110108110848",
-      "service": "twitter",
-      "valid": true
-    },
-    {
       "identifier": "micaroni",
-      "proof_url": "https://facebook.com/micaroni/posts/10153507234714673",
+      "proof_url": "https://facebook.com/micaroni/posts/10154118238674673",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN felipelalli.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/felipelalli.id\"\n"
 }
