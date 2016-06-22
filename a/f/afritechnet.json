@@ -1,37 +1,54 @@
 {
   "owner_address": "1Go3NemJHiCjYev7q5Vxr7E48QCiuUMpSX",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/afritechnet"
-    },
-    "bio": "Dedicated to African Cyber-security Awareness.",
-    "bitcoin": {
-      "address": "1QHmMn87GBPyJQkdtsmMTZ4c8hcjF31DfM"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/OSA.jpeg"
-    },
-    "location": {
-      "formatted": "afritechnet.blogspot.com"
-    },
-    "name": {
-      "formatted": "AfritechNet"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/NetAfritech/status/619614269064278016"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1QHmMn87GBPyJQkdtsmMTZ4c8hcjF31DfM",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "NetAfritech"
+      {
+        "@type": "Account",
+        "identifier": "NetAfritech",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/NetAfritech/status/740837999592771585",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "afritechnet.blogspot.com"
     },
-    "v": "0.2",
-    "website": "http://afritechnet.blogspot.com"
+    "description": "Cyber-security Awareness and FinTech",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/afritechnet",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "AfritechNet",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://afritechnet.blogspot.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "NetAfritech",
-      "proof_url": "https://twitter.com/NetAfritech/status/619614269064278016",
+      "proof_url": "https://twitter.com/NetAfritech/status/740837999592771585",
       "service": "twitter",
-      "valid": true
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN afritechnet.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/afritechnet.id\"\n"
 }
