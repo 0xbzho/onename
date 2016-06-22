@@ -1,22 +1,42 @@
 {
   "owner_address": "1J2khXtWLYYheWfZ88S7zpgPGboZ2keH7Z",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/keybase_processed_uploads/c4e1b030f4283d13eb8f8ae3768d0e05_200_200_square_200.png"
-    },
-    "bio": "Please see my twitter: https://twitter.com/taoeffect",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/foggy-tree.jpg"
-    },
-    "name": {
-      "formatted": "Greg Slepak"
-    },
-    "twitter": {
-      "username": "taoeffect"
-    },
-    "v": "0.2",
-    "website": "http://dns.dnschain.net/id/greg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "taoeffect",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1LXqiSx4nSJib68zgy87LH2p4nCLVD31kp",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "description": "Please see my twitter: https://twitter.com/taoeffect",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/keybase_processed_uploads/c4e1b030f4283d13eb8f8ae3768d0e05_200_200_square_200.png",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/foggy-tree.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Greg Slepak",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://dns.dnschain.net/id/greg"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN greg.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/greg.id\"\n"
 }
