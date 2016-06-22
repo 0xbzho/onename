@@ -1,46 +1,45 @@
 {
   "owner_address": "1LZPEvzV8KKXKw1q87UFnEdergmrkcUoDg",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "c7cf555fb1219758d6418e07503b793c13fa29e4",
+        "identifier": "twiteis",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "18qrSPz5buZAW7xY3aScdfjNXbbofkdPmV",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "9a968384af7b0a0bf2b615a9022f50d32c8b08b4",
         "service": "openbazaar"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/leodocosta"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "bio": "",
-    "bitcoin": {
-      "address": "18qrSPz5buZAW7xY3aScdfjNXbbofkdPmV"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/leaf-silhouette.jpg"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/leodocosta"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Leonardo"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/twiteis/status/709006621544980481"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/leodocosta",
+        "name": "avatar"
       },
-      "username": "twiteis"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/leaf-silhouette.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Leonardo"
   },
-  "verifications": [
-    {
-      "identifier": "twiteis",
-      "proof_url": "https://twitter.com/twiteis/status/709006621544980481",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN leodocosta.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/leodocosta.id\"\n"
 }
