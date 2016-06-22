@@ -1,10 +1,51 @@
 {
   "owner_address": "12uU9y3Ey4Tft6TmKNXvNdQCiMHtt3Y5wh",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/IHL.jpg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "algernoone",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/algernoone/status/742085021192839168",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "algernon",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/algernon/49b591dd6db0bb38270b0273a24819f0",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Gergely Nagy",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://asylum.madhouse-project.org/"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "algernoone",
+      "proof_url": "https://twitter.com/algernoone/status/742085021192839168",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "algernon",
+      "proof_url": "https://gist.github.com/algernon/49b591dd6db0bb38270b0273a24819f0",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN algernone.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/algernone.id\"\n"
 }
