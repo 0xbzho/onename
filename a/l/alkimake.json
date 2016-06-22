@@ -1,53 +1,59 @@
 {
   "owner_address": "1Fxk4R7Ndzr4WW2nCrag9yxwtCnuTbVNGu",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/alkimake"
-    },
-    "bio": "Just a smart guy :P",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/alkimake"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/alkimake/posts/10153591963017394"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "alkimake",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/alkimake/status/740383593982107651",
+        "service": "twitter"
       },
-      "username": "alkimake"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/alkimake/94b4f907cc3d83b12e64"
+      {
+        "@type": "Account",
+        "identifier": "alkimake",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/alkimake/posts/10153591963017394",
+        "service": "facebook"
       },
-      "username": "alkimake"
+      {
+        "@type": "Account",
+        "identifier": "alkimake",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/alkimake/94b4f907cc3d83b12e64",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Istanbul"
     },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/alkimake"
-    },
-    "location": {
-      "formatted": "Istanbul"
-    },
-    "name": {
-      "formatted": "Alkim Gozen"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/alkimake/status/650922286967595009"
+    "description": "Just a smart guy :P",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/alkimake",
+        "name": "avatar"
       },
-      "username": "alkimake"
-    },
-    "v": "0.2",
-    "website": "http://about.me/alkimake"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/alkimake",
+        "name": "cover"
+      }
+    ],
+    "name": "Alkim Gozen",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://about.me/alkimake"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "alkimake",
-      "proof_url": "https://gist.github.com/alkimake/94b4f907cc3d83b12e64",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "alkimake",
-      "proof_url": "https://twitter.com/alkimake/status/650922286967595009",
+      "proof_url": "https://twitter.com/alkimake/status/740383593982107651",
       "service": "twitter",
       "valid": true
     },
@@ -56,6 +62,13 @@
       "proof_url": "https://facebook.com/alkimake/posts/10153591963017394",
       "service": "facebook",
       "valid": false
+    },
+    {
+      "identifier": "alkimake",
+      "proof_url": "https://gist.github.com/alkimake/94b4f907cc3d83b12e64",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN alkimake.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alkimake.id\"\n"
 }
