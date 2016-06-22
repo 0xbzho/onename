@@ -1,61 +1,79 @@
 {
   "owner_address": "13ycP3NMJkSbaASbn1FtPihMxv561pQkKq",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/leo"
-    },
-    "bio": "Bitcoin advocate",
-    "bitcoin": {
-      "address": "1A1xrPbzXct22YQhqKVdqnVdWdYm1MmswR"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/web-gray.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/leotheleo/posts/10153085045891982"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "songproducer",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "leotheleo"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/songproducer/1f3cd33fdb54826334a1"
+      {
+        "@type": "Account",
+        "identifier": "1A1xrPbzXct22YQhqKVdqnVdWdYm1MmswR",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "songproducer"
-    },
-    "location": {
-      "formatted": "Taiwan"
-    },
-    "name": {
-      "formatted": "Leo Treasure"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/songproducer/status/498366611548434432"
+      {
+        "@type": "Account",
+        "contentUrl": "hkps://hkps.pool.sks-keyservers.net",
+        "identifier": "90BB07F33F3101ABD2C093C36636FBF87D989016",
+        "service": "pgp"
       },
-      "username": "songproducer"
+      {
+        "@type": "Account",
+        "identifier": "songproducer",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/songproducer/status/740748578339987460",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "leotheleo",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/leotheleo/posts/10154940964151982",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Taiwan"
     },
-    "v": "0.2",
-    "website": "http://leotreasure.com"
+    "description": "Bitcoin advocate",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/leo",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/web-gray.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Leo Treasure",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://leotreasure.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "songproducer",
-      "proof_url": "https://gist.github.com/songproducer/1f3cd33fdb54826334a1",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "songproducer",
-      "proof_url": "https://twitter.com/songproducer/status/498366611548434432",
+      "proof_url": "https://twitter.com/songproducer/status/740748578339987460",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "leotheleo",
-      "proof_url": "https://facebook.com/leotheleo/posts/10153085045891982",
+      "proof_url": "https://www.facebook.com/leotheleo/posts/10154940964151982",
       "service": "facebook",
-      "valid": true
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN leo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/leo.id\"\n"
 }
