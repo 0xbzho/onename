@@ -1,13 +1,37 @@
 {
   "owner_address": "1HVb6t98vjKwpLfZDotKfBmTsmzmw8DG5i",
   "profile": {
-    "bitcoin": {
-      "address": "18be8SphGXC4EiJmho57qrZzY8U4hH3E7Q"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/yId.jpg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "18be8SphGXC4EiJmho57qrZzY8U4hH3E7Q",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "coreyo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/coreyo/status/742153552605249537",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "coreyo",
+      "proof_url": "https://twitter.com/coreyo/status/742153552605249537",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN coreyo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/coreyo.id\"\n"
 }
