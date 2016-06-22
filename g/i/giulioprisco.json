@@ -1,51 +1,58 @@
 {
   "owner_address": "1PQE8JDmTp4QtqbMrNRLf2vKPGVborSMNw",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/giulioprisco"
-    },
-    "bio": "",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/giulioprisco"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/giulioprisco/posts/10153407038574012"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "giulioprisco",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "giulioprisco"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/giulioprisco/f19d17e2840ce7c76f8f"
+      {
+        "@type": "Account",
+        "identifier": "giulioprisco",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/giulioprisco/status/741106830047334401",
+        "service": "twitter"
       },
-      "username": "giulioprisco"
+      {
+        "@type": "Account",
+        "identifier": "giulioprisco",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/giulioprisco/posts/10153407038574012",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Giulio Prisco"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/giulioprisco/status/534710152490799105"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/giulioprisco",
+        "name": "avatar"
       },
-      "username": "giulioprisco"
-    },
-    "v": "0.2",
-    "website": "http://giulioprisco.com/"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/giulioprisco",
+        "name": "cover"
+      }
+    ],
+    "name": "Giulio Prisco",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://giulioprisco.com/"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "giulioprisco",
-      "proof_url": "https://gist.github.com/giulioprisco/f19d17e2840ce7c76f8f",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "giulioprisco",
-      "proof_url": "https://twitter.com/giulioprisco/status/534710152490799105",
+      "proof_url": "https://twitter.com/giulioprisco/status/741106830047334401",
       "service": "twitter",
       "valid": true
     },
@@ -55,5 +62,6 @@
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN giulioprisco.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/giulioprisco.id\"\n"
 }
