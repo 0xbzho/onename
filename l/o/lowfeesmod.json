@@ -5,22 +5,35 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "teo_riccardi",
-        "proofType": "http",
-        "service": "twitter"
+        "contentUrl": "https://s3.amazonaws.com/pk9/lowfeesmod",
+        "identifier": "C2D6350C",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "6a037dad89ac57bff719899b197a1c5038cf8b6e",
+        "service": "openbazaar"
       },
       {
         "@type": "Account",
         "identifier": "liquorburn",
         "proofType": "http",
+        "proofUrl": "https://gist.github.com/liquorburn/23ec280bcd5dc0949c47cf7909c7e679",
         "service": "github"
       },
       {
         "@type": "Account",
-        "contentUrl": "https://s3.amazonaws.com/pk9/lowfeesmod",
-        "identifier": "C2D6350C",
-        "role": "key",
-        "service": "pgp"
+        "identifier": "teo_riccardi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/teo_riccardi/status/738049934767882240",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1CvNzdskXoWUNmGShBvhpoJpayfosqucF7",
+        "role": "payment",
+        "service": "bitcoin"
       }
     ],
     "image": [
@@ -36,6 +49,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "liquorburn",
+      "proof_url": "https://gist.github.com/liquorburn/23ec280bcd5dc0949c47cf7909c7e679",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "teo_riccardi",
+      "proof_url": "https://twitter.com/teo_riccardi/status/738049934767882240",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN lowfeesmod.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lowfeesmod.id\"\n"
 }
