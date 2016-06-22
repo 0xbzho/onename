@@ -1,64 +1,66 @@
 {
   "owner_address": "1LTiEKhdxQzxoPcijGiYhiVd8cCwHjg3eM",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/creiddouthat"
-    },
-    "bio": "Technologies that have great potential to change the world 'drive me'.",
-    "bitcoin": {
-      "address": "18QZ6q37ytZoxBr1kXMH8FfVHz8v31fsdf"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/creiddouthat"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/Mimocom/posts/10102541896101905"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Mimocom",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "Mimocom"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/e5b5fa316002d79c1593.git"
+      {
+        "@type": "Account",
+        "identifier": "e5b5fa316002d79c1593.git",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "e5b5fa316002d79c1593.git"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/creiddouthat"
-    },
-    "location": {
-      "formatted": "Earth"
-    },
-    "name": {
-      "formatted": "Charles R Douthat"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/creiddouthat/status/508429424778149889"
+      {
+        "@type": "Account",
+        "identifier": "1T7pWQBvDbJndZNhLeHQJQs4wZMxtn4aR",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "creiddouthat"
+      {
+        "@type": "Account",
+        "identifier": "creiddouthat",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/creiddouthat/status/742138235879591940",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Earth"
     },
-    "v": "0.2",
-    "website": "http://www.pearltrees.com/reidcoin"
+    "description": "Technologies that have great potential to change the world 'drive me'.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/creiddouthat",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/creiddouthat",
+        "name": "cover"
+      }
+    ],
+    "name": "Charles R Douthat",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.pearltrees.com/reidcoin"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "e5b5fa316002d79c1593.git",
-      "proof_url": "https://gist.github.com/e5b5fa316002d79c1593.git",
-      "service": "github",
-      "valid": false
-    },
-    {
       "identifier": "creiddouthat",
-      "proof_url": "https://twitter.com/creiddouthat/status/508429424778149889",
+      "proof_url": "https://twitter.com/creiddouthat/status/742138235879591940",
       "service": "twitter",
       "valid": true
-    },
-    {
-      "identifier": "Mimocom",
-      "proof_url": "https://facebook.com/Mimocom/posts/10102541896101905",
-      "service": "facebook",
-      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN creiddouthat.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/creiddouthat.id\"\n"
 }
