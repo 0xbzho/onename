@@ -1,16 +1,41 @@
 {
   "owner_address": "1NUNdPDgVyyrLmyVSPETHVPpCYVm1GS1Si",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/lUU.jpeg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "martinjurco",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/martinjurco/c624275710cd6c2a3595ab514419d275",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Prague"
     },
-    "location": {
-      "formatted": "Prague"
-    },
-    "name": {
-      "formatted": "Martin Jurco"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/martinjurco",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/martinjurco",
+        "name": "cover"
+      }
+    ],
+    "name": "Martin Jurco"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "martinjurco",
+      "proof_url": "https://gist.github.com/martinjurco/c624275710cd6c2a3595ab514419d275",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN martinjurco.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/martinjurco.id\"\n"
 }
