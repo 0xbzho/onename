@@ -5,21 +5,9 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "samuel",
-        "proofType": "http",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
         "identifier": "lehman",
         "proofType": "http",
         "service": "facebook"
-      },
-      {
-        "@type": "Account",
-        "identifier": "samlehman",
-        "proofType": "http",
-        "service": "github"
       },
       {
         "@type": "Account",
@@ -33,6 +21,20 @@
         "identifier": "",
         "role": "payment",
         "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "samuel",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/samuel/status/745311470901166080",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "samlehman",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/samlehman/cb3186f329f65b172333",
+        "service": "github"
       }
     ],
     "address": {
@@ -60,6 +62,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "samuel",
+      "proof_url": "https://twitter.com/samuel/status/745311470901166080",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "samlehman",
+      "proof_url": "https://gist.github.com/samlehman/cb3186f329f65b172333",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN samuel.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/samuel.id\"\n"
 }
