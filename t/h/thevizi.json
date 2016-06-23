@@ -37,6 +37,10 @@
         "service": "facebook"
       }
     ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "tamas@hevizi.com"
+    },
     "image": [
       {
         "@type": "ImageObject",
@@ -68,7 +72,7 @@
       "identifier": "thevizi",
       "proof_url": "https://www.facebook.com/thevizi/posts/10154345032562240",
       "service": "facebook",
-      "valid": false
+      "valid": true
     }
   ],
   "zone_file": "$ORIGIN thevizi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/thevizi.id\"\n"
