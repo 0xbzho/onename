@@ -1,16 +1,24 @@
 {
   "owner_address": "12NcNBiXgAGjGjygAbxyRBeAPpCixzbBKa",
   "profile": {
-    "bitcoin": {
-      "address": "3Mx1LwXto4BLA1xNcdKKzSMi7VAupAT3fp"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/leaf-silhouette.jpg"
-    },
-    "name": {
-      "formatted": "Ole Andreas"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "3AsJ6DrMyK3dabCci1yFPuz3g6uPAdFoZZ",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/leaf-silhouette.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ole Andreas"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN ole.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ole.id\"\n"
 }
