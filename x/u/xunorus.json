@@ -1,23 +1,68 @@
 {
   "owner_address": "1PU5WqDRuRyGdx32b1FR64PfcAQ9vF34dq",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/4AL.jpeg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/b874e3b03567cf231300c2f28c5c0aaf.git"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "xunorus",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/xunorus/status/740030028222599168",
+        "service": "twitter"
       },
-      "username": "b874e3b03567cf231300c2f28c5c0aaf.git"
+      {
+        "@type": "Account",
+        "identifier": "xunorus.social",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/xunorus.social/posts/10209649742504862",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "xunorus",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/xunorus/d677d4e6645963727e287061f64daefc",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Patagonia"
     },
-    "v": "0.2"
+    "description": "Xunorus, alias de Claudio Maldonado, es compositor, solista de guitarra, arreglador y desarrollador. Discípulo de los maestros Claudio Ceccoli, Piraí Vaca, Armando de la Vega y Gustavo Fedel. Ha tomado clases magistrales, lecciones privadas y cursos con los maestros Jorge Sad, David Rosenboom, Francisco Colasanto, Rodrigo Sigal, Jorge Morel, Maria Isabel Siewers, Carlos Groisman, Marco Tamayo, Daniel Wolf, Humberto Amorim, Pablo DiGiusto, Eduardo Isaac, Carlos Perez y Roman Viasovsky entre otros. Curso estudios de dirección orquestal bajo la supervision del maestro Jorge Fontenla. Ha recibido el premio Jóvenes Creadores de la Secretaria de Cultura de la Nación Argentina (2005), beca Practicas de Vuelo (CMMAS- México), Fondo Nacional de las Artes (2008, Grupo Energia Sonora ), reconocimiento por el Conservatorio de las Rosas, Distición a la calidad artistica por la Secretaría Cultura Cotija de la Paz(2005 Michoacán -Mexico) y Seleccion del Encuentro internacional de Guitarra Clásica La Falda (2013). En 2008 el Transatlantic Arts Consortium (CalArts- Idyllwild-Dartinton Hall Trust) le selecciona entre los 'top ten world composer-performers'( 10 compositores- interpretes del mundo), y le comisiona la opera \"Ah!\" una obra multidimensional para escena estrenada en el REDCAT Walt Disney Concert Hall, LA. California, EEUU en 2009. Ha desarrollado proyectos de investigación, creación musical y residencias artísticas en I.I.eS.Mu.M.D (2003), LIPM (2004), CMMAS (2005), desarrollando software focalizado en el uso en música de cámara mixta. Entre 2001 y 2010 organiza en San Martín de los Andes el Festival Internacional de Música Electroacústica y Arte Sonoro “ENERGIA SONORA”, el cual promueve el desarrollo de música contemporánea en la región patagónica, convocando además a mas de un centenar de artistas de todo el mundo. En Abril de 2009 estrena su quinteto Suite Patagónica junto al Cuarteto de Cuerdas de la Fundación Cultural Patagónica. En Junio de 2010, estrena Colección, suite para orquesta de cámara, guitarra y Electrónica basada en obras del artista plástico Georg. En 2013 lanza su CD Debút Cantata, grabado junto al Cuarteto de Cuerdas de la Fundacion Cultural Patagonia, con obras que exploran la combinacion entre la musica camarística vernacula y el folklore argentino. Ha realizado giras por Argentina, México, Chile y EEUU presentádose en importantes eventos, salas y festivales como: REDCAT-Walt Disney Concert Hall 2009 (L.A.-EEUU), Sala Tita Merelo- Sonoimágenes 2007 (internacional Multimedia Festival, UNLa), 404 International Festival ofElectronic Art , XVIII Electroacustic Music Nacional Meeting( FARME Cordoba Argentina) , XXI Week of the electroacustic music and other media (FARME Santa Fe Argentina), 6to “Encuentro de Guitarristas en el sur neuquino\", Buenache 2008 (España), Visiones Sonoras 2005 (México DF), Manzana de las luces (Bs As-Arg.), Sala prícipe de Asturias (Rosario-Arg.), Conservatorio de las Rosas (Morelia- Mex), Camping Musical Bariloche (Rio Negro-Arg.), Universidad Nacional de Córdoba, Festival Guitarras del Mundo 2009, Teatro del Lago (Frutillar-Chile 2012) entre otros",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/xunorus",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/xunorus",
+        "name": "cover"
+      }
+    ],
+    "name": "Xun"
   },
   "verifications": [
     {
-      "identifier": "b874e3b03567cf231300c2f28c5c0aaf.git",
-      "proof_url": "https://gist.github.com/b874e3b03567cf231300c2f28c5c0aaf.git",
+      "identifier": "xunorus",
+      "proof_url": "https://twitter.com/xunorus/status/740030028222599168",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "xunorus.social",
+      "proof_url": "https://www.facebook.com/xunorus.social/posts/10209649742504862",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "xunorus",
+      "proof_url": "https://gist.github.com/xunorus/d677d4e6645963727e287061f64daefc",
       "service": "github",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN xunorus.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/xunorus.id\"\n"
 }
