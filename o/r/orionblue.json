@@ -1,13 +1,29 @@
 {
   "owner_address": "16xinRE2DVnkJngCPHSFxCZrKqPn9vCgrD",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/ikZ.jpeg"
-    },
-    "name": {
-      "formatted": "Jonathan King"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1H3h2h1wD7zfMKSreVFwWP57WwXmwRG53B",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/orionblue",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jonathan King"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN orionblue.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/orionblue.id\"\n"
 }
