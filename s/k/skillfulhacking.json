@@ -1,62 +1,81 @@
 {
   "owner_address": "13RQT4kJ2acLZQEziZ8Kp7UNeb8WCa95z3",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/skillfulhacking"
-    },
-    "bio": "Ethical Hacking, Social Engineering, Forensics, Hackerspaces, Cryptography, InfoSec, Pentesting, OSint, Bitcoin",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/skillfulhacking"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/MarkScrano/posts/10206588747784768"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/skillfulhacking/key.asc",
+        "identifier": "F5CBA62006874F01",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "MarkScrano"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/SkillfulHacking/43b07da721e76e203daa"
+      {
+        "@type": "Account",
+        "identifier": "SkillfulHacking",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SkillfulHacking/status/743587749173825536",
+        "service": "twitter"
       },
-      "username": "SkillfulHacking"
-    },
-    "location": {
-      "formatted": "New York NY"
-    },
-    "name": {
-      "formatted": "ouɐɹɔs ʞɹɐɯ"
-    },
-    "pgp": {
-      "fingerprint": "F5CBA62006874F01",
-      "url": "https://keybase.io/skillfulhacking/key.asc"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/SkillfulHacking/status/642551881911418880"
+      {
+        "@type": "Account",
+        "identifier": "MarkScrano",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/MarkScrano/posts/10206588747784768",
+        "service": "facebook"
       },
-      "username": "SkillfulHacking"
+      {
+        "@type": "Account",
+        "identifier": "SkillfulHacking",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/SkillfulHacking/43b07da721e76e203daa",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York NY"
     },
-    "v": "0.2",
-    "website": "https://keybase.io/skillfulhacking"
+    "description": "Ethical Hacking, Social Engineering, Forensics, Hackerspaces, Cryptography, InfoSec, Pentesting, OSint, Bitcoin, Security Engineer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/skillfulhacking",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/skillfulhacking",
+        "name": "cover"
+      }
+    ],
+    "name": "ouɐɹɔs ʞɹɐɯ",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://keybase.io/skillfulhacking"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "SkillfulHacking",
-      "proof_url": "https://gist.github.com/SkillfulHacking/43b07da721e76e203daa",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "SkillfulHacking",
-      "proof_url": "https://twitter.com/SkillfulHacking/status/642551881911418880",
+      "proof_url": "https://twitter.com/SkillfulHacking/status/743587749173825536",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "MarkScrano",
-      "proof_url": "https://facebook.com/MarkScrano/posts/10206588747784768",
+      "proof_url": "https://www.facebook.com/MarkScrano/posts/10206588747784768",
       "service": "facebook",
       "valid": true
+    },
+    {
+      "identifier": "SkillfulHacking",
+      "proof_url": "https://gist.github.com/SkillfulHacking/43b07da721e76e203daa",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN skillfulhacking.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/skillfulhacking.id\"\n"
 }
