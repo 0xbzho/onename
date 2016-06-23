@@ -1,23 +1,79 @@
 {
   "owner_address": "114pPZtFexcJRFaV9RbZNGTW7J3NDLz562",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/msgilligan"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1Jy8jScPm78DK712d5uDdnJ2xSh5mP2MZP",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "msgilligan",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/msgilligan/6736f39402f04bd0e46845e2569d9b9b",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "msgilligan",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/msgilligan/status/737681544559501313",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "msgilligan",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/msgilligan/posts/10154090157952040",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Santa Cruz, CA"
     },
-    "bitcoin": {
-      "address": "1Jy8jScPm78DK712d5uDdnJ2xSh5mP2MZP"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/yId.jpg"
-    },
-    "location": {
-      "formatted": "Santa Cruz, CA"
-    },
-    "name": {
-      "formatted": "Sean Gilligan"
-    },
-    "v": "0.2",
-    "website": "http://www.msgilligan.com"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/msgilligan",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Sean Gilligan",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.msgilligan.com"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "msgilligan",
+      "proof_url": "https://gist.github.com/msgilligan/6736f39402f04bd0e46845e2569d9b9b",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "msgilligan",
+      "proof_url": "https://twitter.com/msgilligan/status/737681544559501313",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "msgilligan",
+      "proof_url": "https://www.facebook.com/msgilligan/posts/10154090157952040",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN msgilligan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/msgilligan.id\"\n"
 }
