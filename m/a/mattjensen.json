@@ -5,17 +5,24 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "_mattjensen",
+        "identifier": "Matt-Jensen",
         "proofType": "http",
-        "proofUrl": "https://gist.github.com/mitjasim/ce3e05c887357c4c4ff944e6d5eb455f",
-        "service": "twitter"
+        "proofUrl": "https://gist.github.com/Matt-Jensen/bcc1d5aa12c6395265b159d8e0b7349f",
+        "service": "github"
       },
       {
         "@type": "Account",
-        "identifier": "Matt-Jensen",
+        "identifier": "profile.php?id=10133267",
         "proofType": "http",
-        "proofUrl": "https://gist.github.com/Matt-Jensen/ebbd3afa24d8985354461d3264517a7b",
-        "service": "github"
+        "proofUrl": "https://www.facebook.com/permalink.php?story_fbid=10104933817701672&id=10133267",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "_mattjensen",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/_mattjensen/status/740918990084530183",
+        "service": "twitter"
       }
     ],
     "image": [
@@ -34,16 +41,22 @@
   },
   "verifications": [
     {
-      "identifier": "_mattjensen",
-      "proof_url": "https://gist.github.com/mitjasim/ce3e05c887357c4c4ff944e6d5eb455f",
-      "service": "twitter",
+      "identifier": "Matt-Jensen",
+      "proof_url": "https://gist.github.com/Matt-Jensen/bcc1d5aa12c6395265b159d8e0b7349f",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "profile.php?id=10133267",
+      "proof_url": "https://www.facebook.com/permalink.php?story_fbid=10104933817701672&id=10133267",
+      "service": "facebook",
       "valid": false
     },
     {
-      "identifier": "Matt-Jensen",
-      "proof_url": "https://gist.github.com/Matt-Jensen/ebbd3afa24d8985354461d3264517a7b",
-      "service": "github",
-      "valid": false
+      "identifier": "_mattjensen",
+      "proof_url": "https://twitter.com/_mattjensen/status/740918990084530183",
+      "service": "twitter",
+      "valid": true
     }
   ],
   "zone_file": "$ORIGIN mattjensen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mattjensen.id\"\n"
