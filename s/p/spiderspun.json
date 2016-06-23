@@ -1,16 +1,21 @@
 {
   "owner_address": "113RRWqLt8fLWZTTxZPwonign3sJajuTau",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/QAd.jpeg"
+    "@type": "Person",
+    "account": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Colorado"
     },
-    "location": {
-      "formatted": "Colorado"
-    },
-    "name": {
-      "formatted": "SpiderSpun"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "SpiderSpun"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN spiderspun.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/spiderspun.id\"\n"
 }
