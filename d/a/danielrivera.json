@@ -1,32 +1,58 @@
 {
   "owner_address": "1BRJ2Pj2deHoqquBhcX8WdW67BUH15RpjC",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/danielrivera"
-    },
-    "bitcoin": {
-      "address": "1KY7Pp67ZUoq3xwovZZ3SxPRzq3YNf42Vh"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/danielrivera"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/danielhadahifi/posts/10204563536122395"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "danielhadahifi",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "danielhadahifi"
+      {
+        "@type": "Account",
+        "identifier": "_DanielRivera_",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/_DanielRivera__/status/741142054609244160",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "19dnQL96P6wcTV7QbKRhn8cZr946NLCJYu",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "43b497a8f4ca12099fe45d63ee46c4e4899f6d50",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "United States"
     },
-    "twitter": {
-      "username": "_DanielRivera_"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/danielrivera",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/danielrivera",
+        "name": "cover"
+      }
+    ],
+    "name": "Daniel Rivera"
   },
   "verifications": [
     {
-      "identifier": "danielhadahifi",
-      "proof_url": "https://facebook.com/danielhadahifi/posts/10204563536122395",
-      "service": "facebook",
-      "valid": false
+      "identifier": "_DanielRivera_",
+      "proof_url": "https://twitter.com/_DanielRivera__/status/741142054609244160",
+      "service": "twitter",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN danielrivera.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/danielrivera.id\"\n"
 }
