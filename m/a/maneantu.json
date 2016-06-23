@@ -1,24 +1,55 @@
 {
   "owner_address": "1M7xv3zAvpZRwrLaMbgRyQuF7pWga9Mp1N",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/maneantu"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "7d10517228d813739e399b6a340b4acd28d6fac7",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jameswester/a35a5215a986a60aa33d956e5fb93e17",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ManeAntuJewelry",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ManeAntuJewelry/status/742210955052867585",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Costa Rica"
     },
-    "bio": "Art, Design, Rainforest, Travel, Pure live, and Bitcoin enthusiasm concentrated in one of a kind pieces of jewelry.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/maneantu"
-    },
-    "location": {
-      "formatted": "Costa Rica"
-    },
-    "name": {
-      "formatted": "Mane Antu Jewelry"
-    },
-    "twitter": {
-      "username": "ManeAntuJewelry"
-    },
-    "v": "0.2",
-    "website": "http://www.maneantu.com"
+    "description": "Art, Design, Rainforest, and crypto- enthusiasm concentrated in one of a kind pieces of jewelry.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/maneantu",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/maneantu",
+        "name": "cover"
+      }
+    ],
+    "name": "Mane Antu Jewelry",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.maneantu.com"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "ManeAntuJewelry",
+      "proof_url": "https://twitter.com/ManeAntuJewelry/status/742210955052867585",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN maneantu.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/maneantu.id\"\n"
 }
