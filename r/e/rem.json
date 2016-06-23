@@ -1,67 +1,87 @@
 {
   "owner_address": "1QLELn22DzcgPr3PdT5v4zmVKVJGrkZ4hZ",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/rem"
-    },
-    "bio": "Professional software developer interested in decentralized bitcoin exchanges enabled by p2sh.",
-    "bitcoin": {
-      "address": "1BzQjwPpg1MtNErnduNTN7hDyCtYwc1JAM"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/rem"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/hej.richard/posts/10152754172467249"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1BzQjwPpg1MtNErnduNTN7hDyCtYwc1JAM",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "hej.richard"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/remyers/4ca270957e519f94375e#file-onename-md"
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/rem",
+        "identifier": "238F5EBE6A5A5E09BB4D2A4A77A9E6F578E6B1FF",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "remyers"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/rem"
-    },
-    "location": {
-      "formatted": "Sweden"
-    },
-    "name": {
-      "formatted": "Richard Myers"
-    },
-    "pgp": {
-      "fingerprint": "238F5EBE6A5A5E09BB4D2A4A77A9E6F578E6B1FF",
-      "url": "https://s3.amazonaws.com/pk9/rem"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/remyers_/status/505081281109950464"
+      {
+        "@type": "Account",
+        "identifier": "remyers_",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/remyers_/status/740874988492881920",
+        "service": "twitter"
       },
-      "username": "remyers_"
+      {
+        "@type": "Account",
+        "identifier": "hej.richard",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/hej.richard/posts/10154356615697249",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "remyers",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/remyers/4ca270957e519f94375e#file-onename-md",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sweden"
     },
-    "v": "0.2"
+    "description": "Professional software developer interested in decentralized bitcoin exchanges enabled by p2sh.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rem",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rem",
+        "name": "cover"
+      }
+    ],
+    "name": "Richard Myers",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://bytabit.org"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "remyers",
-      "proof_url": "https://gist.github.com/remyers/4ca270957e519f94375e#file-onename-md",
-      "service": "github",
-      "valid": false
-    },
-    {
       "identifier": "remyers_",
-      "proof_url": "https://twitter.com/remyers_/status/505081281109950464",
+      "proof_url": "https://twitter.com/remyers_/status/740874988492881920",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "hej.richard",
-      "proof_url": "https://facebook.com/hej.richard/posts/10152754172467249",
+      "proof_url": "https://www.facebook.com/hej.richard/posts/10154356615697249",
       "service": "facebook",
       "valid": true
+    },
+    {
+      "identifier": "remyers",
+      "proof_url": "https://gist.github.com/remyers/4ca270957e519f94375e#file-onename-md",
+      "service": "github",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN rem.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rem.id\"\n"
 }
