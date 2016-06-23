@@ -1,64 +1,64 @@
 {
   "owner_address": "1MpxrJ5mnKtc7HYx5684oi2yPvAwGDKZ3a",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/slavasveta"
-    },
-    "bitcoin": {
-      "address": "3Nm9Zvu9p8G3ksj89FzESZ634gVwrGs58n"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/IKM.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/slava.sveta/posts/1560271460880206"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "slava8sveta",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "slavasveta"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/slavasveta/dc823bf9442cbcc32c9f"
+      {
+        "@type": "Account",
+        "identifier": "slavasveta",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "slavasveta"
-    },
-    "location": {
-      "formatted": "Moldova, Chișinău"
-    },
-    "name": {
-      "formatted": "Slava Sveta"
-    },
-    "pgp": {
-      "fingerprint": "ABE60540702CCF66E4A71DEFA84BB1A59768E369",
-      "url": "https://s3.amazonaws.com/pk9/slavasveta"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/slava8sveta/status/722074102111080448"
+      {
+        "@type": "Account",
+        "identifier": "slavasveta",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "slava8sveta"
+      {
+        "@type": "Account",
+        "identifier": "3Nm9Zvu9p8G3ksj89FzESZ634gVwrGs58n",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/slavasveta",
+        "identifier": "ABE60540702CCF66E4A71DEFA84BB1A59768E369",
+        "role": "key",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Moldova, Chișinău"
     },
-    "v": "0.2",
-    "website": "http://www.slavasveta.info/"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/slavasveta",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Slava Sveta",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://slavasveta.info/"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "slavasveta",
-      "proof_url": "https://gist.github.com/slavasveta/dc823bf9442cbcc32c9f",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "slava8sveta",
-      "proof_url": "https://twitter.com/slava8sveta/status/722074102111080448",
-      "service": "twitter",
-      "valid": false
-    },
-    {
-      "identifier": "slavasveta",
-      "proof_url": "https://facebook.com/slava.sveta/posts/1560271460880206",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN slavasveta.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/slavasveta.id\"\n"
 }
