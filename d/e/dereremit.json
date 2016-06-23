@@ -23,13 +23,35 @@
         "proofType": "http",
         "proofUrl": "https://www.facebook.com/derEremit/posts/10208858241231472",
         "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1BQ7mVoyQisuHexfPZNeu8fRkDHnbVVyxx",
+        "role": "payment",
+        "service": "bitcoin"
       }
     ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ingolstadt"
+    },
     "image": [
       {
         "@type": "ImageObject",
         "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
         "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dereremit",
+        "name": "avatar"
+      }
+    ],
+    "name": "Sebastian Paul",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://socialhub.io"
       }
     ]
   },
