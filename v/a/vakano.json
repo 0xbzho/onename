@@ -1,48 +1,64 @@
 {
   "owner_address": "1AcGJ7QWYLdSLRfhNNLmYNhw3Uxkx5bJy9",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/vakano"
-    },
-    "bio": "",
-    "bitcoin": {
-      "address": "1KmMyK31kVZ1girtnxR7nYNEJEVJxJPQ5a"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/vakano"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/harleylozano/posts/10153813196240090"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "17NFQyczJEMCXdPfuix8maWnHQ5pbRJoSk",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "harleylozano"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Arley Lozano"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/LozanoArley/status/700197316779712512"
+      {
+        "@type": "Account",
+        "identifier": "LozanoArley",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/LozanoArley/status/745106603746045952",
+        "service": "twitter"
       },
-      "username": "LozanoArley"
+      {
+        "@type": "Account",
+        "identifier": "harleylozano",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/harleylozano",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cucuta"
     },
-    "v": "0.2"
+    "description": "Bitcoin Entusiasta y Comerciante internacional y economista",
+    "graph": {
+      "url": "https://s3.amazonaws.com/grph/vakano"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/vakano",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/vakano",
+        "name": "cover"
+      }
+    ],
+    "name": "Arley Lozano"
   },
   "verifications": [
     {
       "identifier": "LozanoArley",
-      "proof_url": "https://twitter.com/LozanoArley/status/700197316779712512",
+      "proof_url": "https://twitter.com/LozanoArley/status/745106603746045952",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "harleylozano",
-      "proof_url": "https://facebook.com/harleylozano/posts/10153813196240090",
+      "proof_url": "https://www.facebook.com/harleylozano",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN vakano.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vakano.id\"\n"
 }
