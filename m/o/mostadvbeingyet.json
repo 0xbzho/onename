@@ -1,58 +1,52 @@
 {
   "owner_address": "1FtHQHpFdpYWmW1n6htjEvE5iN1NRJywdr",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/mostadvbeingyet"
-    },
-    "bio": "Observe. Question. Process. Act. - then somewhere in there find time to live.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/mostadvbeingyet"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/MostAdvBeingYet/posts/149998668732971"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "MostAdvBeingYet",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "MostAdvBeingYet"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/MostAdvBeingYet/151115e936aed7dc0396"
+      {
+        "@type": "Account",
+        "identifier": "MostAdvBeingYet",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "MostAdvBeingYet"
+      {
+        "@type": "Account",
+        "identifier": "MostAdvBeingYet",
+        "proofType": "http",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sochi"
     },
-    "location": {
-      "formatted": "Sochi"
-    },
-    "name": {
-      "formatted": "Dmitry Tokarev"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/MostAdvBeingYet/status/710866049919488001"
+    "description": "Structural Engineer @ Open X",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mostadvbeingyet",
+        "name": "avatar"
       },
-      "username": "MostAdvBeingYet"
-    },
-    "v": "0.2",
-    "website": "http://vk.com/dmitrytokarev3"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mostadvbeingyet",
+        "name": "cover"
+      }
+    ],
+    "name": "Dmitry Tokarev",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://openexploration.ru/"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "MostAdvBeingYet",
-      "proof_url": "https://gist.github.com/MostAdvBeingYet/151115e936aed7dc0396",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "MostAdvBeingYet",
-      "proof_url": "https://twitter.com/MostAdvBeingYet/status/710866049919488001",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "MostAdvBeingYet",
-      "proof_url": "https://facebook.com/MostAdvBeingYet/posts/149998668732971",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN mostadvbeingyet.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mostadvbeingyet.id\"\n"
 }
