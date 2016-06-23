@@ -1,49 +1,73 @@
 {
   "owner_address": "19aJkubTQzKGcv6P43Gd5x3vF7n9rVLJzW",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/raginglikeaboss"
-    },
-    "bio": "Cryptocurrency Day-Trader | Bitcoin | Behavioral Neuroscience | Service Dogs | Narcolepsy Awareness | All while being dressed in the dapper threads of J.Crew",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/483.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/bobbylehrman/posts/10154058692963828"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Raginglikeaboss",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "bobbylehrman"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/Raginglikeaboss/6effa66ac213d6fa6ff61c85539d7670"
+      {
+        "@type": "Account",
+        "identifier": "1NSPWHC1e4c5BUnUSgyn3UhnPsSEUEvGHw",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "Raginglikeaboss"
+      {
+        "@type": "Account",
+        "identifier": "bobby.lehrman",
+        "proofType": "http",
+        "proofUrl": "https://m.facebook.com/bobby.lehrman?fref=nf&pn_ref=story#!/bobby.lehrman?fref=nf&pn_ref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "raginglikeaboss",
+        "proofType": "http",
+        "proofUrl": "https://mobile.twitter.com/raginglikeaboss/status/743713536266776578",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "United States"
     },
-    "location": {
-      "formatted": "United States"
-    },
-    "name": {
-      "formatted": "Raginglikeaboss"
-    },
-    "twitter": {
-      "username": "raginglikeaboss"
-    },
-    "v": "0.2",
-    "website": "http://Raginglikeaboss.com"
+    "description": "Cryptocurrency Day-Trader | Hardware Sales & Repairs | Bitcoin | Behavioral Neuroscience | Service Dogs | Narcolepsy Awareness | All while being dressed in the dapper threads of J.Crew",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/raginglikeaboss",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Raginglikeaboss",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://Raginglikeaboss.com"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "Raginglikeaboss",
-      "proof_url": "https://gist.github.com/Raginglikeaboss/6effa66ac213d6fa6ff61c85539d7670",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "bobbylehrman",
-      "proof_url": "https://facebook.com/bobbylehrman/posts/10154058692963828",
+      "identifier": "bobby.lehrman",
+      "proof_url": "https://m.facebook.com/bobby.lehrman?fref=nf&pn_ref=story#!/bobby.lehrman?fref=nf&pn_ref=story",
       "service": "facebook",
       "valid": false
+    },
+    {
+      "identifier": "raginglikeaboss",
+      "proof_url": "https://mobile.twitter.com/raginglikeaboss/status/743713536266776578",
+      "service": "twitter",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN raginglikeaboss.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/raginglikeaboss.id\"\n"
 }
