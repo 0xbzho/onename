@@ -1,34 +1,69 @@
 {
   "owner_address": "18FW4ggkR7rL4tLSceAQzE6UK7PuXxb74x",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/slsdhl"
-    },
-    "bio": "ok",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/2wu.jpeg"
-    },
-    "location": {
-      "formatted": "Danmark"
-    },
-    "name": {
-      "formatted": "Silas Riisager Dahl"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/slsdhl/status/690958546876420096"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "slsdhl",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "slsdhl"
+      {
+        "@type": "Account",
+        "identifier": "178vxsXJLeid6rFzgZ6TgHXou5XaHw24Cd",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "slsdhl",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/slsdhl/70df48726a6316ef5eaf447c7641a242",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/slsdhl",
+        "identifier": "71373E5A25F00132525056F0201A8B22BB41F2B8",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Danmark"
     },
-    "v": "0.2",
-    "website": "http://slsdhl.dk"
+    "description": "ok",
+    "graph": {
+      "url": "https://s3.amazonaws.com/grph/slsdhl"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/slsdhl",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Silas Riisager Dahl",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://slsdhl.dk"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "slsdhl",
-      "proof_url": "https://twitter.com/slsdhl/status/690958546876420096",
-      "service": "twitter",
-      "valid": false
+      "proof_url": "https://gist.github.com/slsdhl/70df48726a6316ef5eaf447c7641a242",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN slsdhl.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/slsdhl.id\"\n"
 }
