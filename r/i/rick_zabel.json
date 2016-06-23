@@ -1,51 +1,60 @@
 {
   "owner_address": "1LAab36ArBonUT1zyxBqf31PWXuQKwKkEc",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/rick_zabel"
-    },
-    "bitcoin": {
-      "address": "1BucDG781iA9w8wTGt5WwqCTW1pPs7pbSf"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/rick_zabel"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/riczabel/posts/10203673663579986"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "riczabel",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "riczabel"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Rick Zabel"
-    },
-    "pgp": {
-      "fingerprint": "5C5075A011470B092C71ADF06C47284246998253",
-      "url": "https://s3.amazonaws.com/pk9/rick_zabel"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/RickZabel_WNY/status/534772286075592704"
+      {
+        "@type": "Account",
+        "identifier": "1BucDG781iA9w8wTGt5WwqCTW1pPs7pbSf",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "RickZabel_WNY"
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/rick_zabel",
+        "identifier": "5C5075A011470B092C71ADF06C47284246998253",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "RickZabel_WNY",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RickZabel_WNY/status/741860033109983232",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rick_zabel",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rick_zabel",
+        "name": "avatar"
+      }
+    ],
+    "name": "Rick Zabel"
   },
   "verifications": [
     {
       "identifier": "RickZabel_WNY",
-      "proof_url": "https://twitter.com/RickZabel_WNY/status/534772286075592704",
+      "proof_url": "https://twitter.com/RickZabel_WNY/status/741860033109983232",
       "service": "twitter",
       "valid": true
-    },
-    {
-      "identifier": "riczabel",
-      "proof_url": "https://facebook.com/riczabel/posts/10203673663579986",
-      "service": "facebook",
-      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN rick_zabel.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rick_zabel.id\"\n"
 }
