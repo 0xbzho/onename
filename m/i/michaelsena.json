@@ -1,24 +1,74 @@
 {
   "owner_address": "1BCy4HvaiVi1kgeYLybqCjVq9EZbJCPXwK",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/michaelsena"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "somemikesena",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/somemikesena/status/742118367369121794",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "michaelrsena",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/MichaelRSena/posts/10207218491764148",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "miksen22",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/miksen22/d1e465fe8ba999794e961f630fac0b99#file-gistfile1-txt",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco, CA"
     },
-    "bio": "product management consulting @jumpassociates, formerly @barclays, @princeton",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/michaelsena"
-    },
-    "location": {
-      "formatted": "San Francisco, CA"
-    },
-    "name": {
-      "formatted": "Michael Sena"
-    },
-    "twitter": {
-      "username": "somemikesena"
-    },
-    "v": "0.2",
-    "website": "http://www.strategymic.com"
+    "description": "product management consulting @jumpassociates, formerly @barclays, @princeton",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/michaelsena",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/michaelsena",
+        "name": "cover"
+      }
+    ],
+    "name": "Michael Sena",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.strategymic.com"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "somemikesena",
+      "proof_url": "https://twitter.com/somemikesena/status/742118367369121794",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "michaelrsena",
+      "proof_url": "https://www.facebook.com/MichaelRSena/posts/10207218491764148",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "miksen22",
+      "proof_url": "https://gist.github.com/miksen22/d1e465fe8ba999794e961f630fac0b99#file-gistfile1-txt",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN michaelsena.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/michaelsena.id\"\n"
 }
