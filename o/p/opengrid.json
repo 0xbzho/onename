@@ -1,64 +1,58 @@
 {
   "owner_address": "1EzkN3G2qMCQLe8TuYo6xWLQtoYRahK689",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/opengrid"
-    },
-    "bio": "Front-end developer, bitcoinpreneur",
-    "bitcoin": {
-      "address": "15vS3jJCpfwaGu1EvJJHVJKbPWtrgVGt6i"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/opengrid"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/lech.wilczynski/posts/10204611530151707"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "DoctorLex",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "lech.wilczynski"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/OpenGrid/22908007ac33cc6511d5"
+      {
+        "@type": "Account",
+        "identifier": "lech.wilczynski",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "OpenGrid"
-    },
-    "location": {
-      "formatted": "Warsaw"
-    },
-    "name": {
-      "formatted": "Lech Wilczyński"
-    },
-    "pgp": {
-      "url": "https://pgp.mit.edu/pks/lookup?op=get&search=0xB5099B2A9A5A8BDC"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/DoctorLex/status/498184942044463104"
+      {
+        "@type": "Account",
+        "identifier": "OpenGrid",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "DoctorLex"
+      {
+        "@type": "Account",
+        "identifier": "15vS3jJCpfwaGu1EvJJHVJKbPWtrgVGt6i",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London"
     },
-    "v": "0.2",
-    "website": "http://inpay.pl"
+    "description": "bitcoinpreneur",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/opengrid",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/opengrid",
+        "name": "cover"
+      }
+    ],
+    "name": "Lech Wilczyński",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://inpay.pl"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "OpenGrid",
-      "proof_url": "https://gist.github.com/OpenGrid/22908007ac33cc6511d5",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "DoctorLex",
-      "proof_url": "https://twitter.com/DoctorLex/status/498184942044463104",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "lech.wilczynski",
-      "proof_url": "https://facebook.com/lech.wilczynski/posts/10204611530151707",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN opengrid.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/opengrid.id\"\n"
 }
