@@ -1,46 +1,61 @@
 {
   "owner_address": "1EmaMU1R3DG8XWzkC1B3M5NYHPxjuQ43JC",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/robhoare"
-    },
-    "bio": "Words, numbers, names, and places.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/L2N.jpeg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/robhoare/ed5cbea5c9a5a1d972a5"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "robhoare",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/robhoare/f15c7c2edd5fb71178090018ed0fdcd1",
+        "service": "github"
       },
-      "username": "robhoare"
+      {
+        "@type": "Account",
+        "identifier": "robhoare",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/robhoare/status/740981741079367680",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Rob Hoare"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/robhoare/status/598734355997925376"
+    "description": "Words, numbers, names, and places.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/robhoare",
+        "name": "avatar"
       },
-      "username": "robhoare"
-    },
-    "v": "0.2",
-    "website": "http://google.com/+RobertHoare/about"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Rob Hoare",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.robhoare.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "robhoare",
-      "proof_url": "https://gist.github.com/robhoare/ed5cbea5c9a5a1d972a5",
+      "proof_url": "https://gist.github.com/robhoare/f15c7c2edd5fb71178090018ed0fdcd1",
       "service": "github",
-      "valid": false
+      "valid": true
     },
     {
       "identifier": "robhoare",
-      "proof_url": "https://twitter.com/robhoare/status/598734355997925376",
+      "proof_url": "https://twitter.com/robhoare/status/740981741079367680",
       "service": "twitter",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN robhoare.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/robhoare.id\"\n"
 }
