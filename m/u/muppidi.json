@@ -1,10 +1,32 @@
 {
   "owner_address": "1B7XdJbeeo2AyyyGLuhz8pThNg6ZG9ZdWo",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/ikZ.jpeg"
+    "@type": "Person",
+    "account": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Austin"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/muppidi",
+        "name": "avatar"
+      }
+    ],
+    "name": "Sridhar Muppidi",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.linkedin.com/in/smuppidi"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN muppidi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/muppidi.id\"\n"
 }
