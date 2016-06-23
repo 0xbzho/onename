@@ -1,63 +1,66 @@
 {
   "owner_address": "1LWR3YNdpREouJ5oBSn8joGnyQaEnPx395",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/tonesnotes"
-    },
-    "bitcoin": {
-      "address": "1ToneLbtjpVR9v1LdogWskKMwJgdwvTnv"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/rv1.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/tonesnotes/posts/10152552617281251"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tonesnotes",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "tonesnotes"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/tonesnotes/6ddba9e451f23c0c1229"
+      {
+        "@type": "Account",
+        "identifier": "tonesnotes",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "tonesnotes"
-    },
-    "location": {
-      "formatted": "Bolton, MA"
-    },
-    "name": {
-      "formatted": "Tone Engel"
-    },
-    "pgp": {
-      "fingerprint": "7905DE2DBECDD3D34144413634732F4772B19A70",
-      "url": "https://s3.amazonaws.com/pk9/tonesnotes"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/tonesnotes/status/497713614841593858"
+      {
+        "@type": "Account",
+        "identifier": "1ToneLbtjpVR9v1LdogWskKMwJgdwvTnv",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "tonesnotes"
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/tonesnotes",
+        "identifier": "7905DE2DBECDD3D34144413634732F4772B19A70",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tonesnotes",
+        "proofType": "http",
+        "proofUrl": "Verifying that +tonesnotes is my blockchain ID. https://onename.com/tonesnotes",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bolton, MA"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tonesnotes",
+        "name": "avatar"
+      }
+    ],
+    "name": "Tone Engel"
   },
   "verifications": [
     {
       "identifier": "tonesnotes",
-      "proof_url": "https://gist.github.com/tonesnotes/6ddba9e451f23c0c1229",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "tonesnotes",
-      "proof_url": "https://twitter.com/tonesnotes/status/497713614841593858",
+      "proof_url": "Verifying that +tonesnotes is my blockchain ID. https://onename.com/tonesnotes",
       "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "tonesnotes",
-      "proof_url": "https://facebook.com/tonesnotes/posts/10152552617281251",
-      "service": "facebook",
-      "valid": true
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN tonesnotes.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tonesnotes.id\"\n"
 }
