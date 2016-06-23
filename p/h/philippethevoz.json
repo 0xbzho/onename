@@ -1,54 +1,74 @@
 {
   "owner_address": "12Mzu1MGxBAaRHY7AwqAzTygHbkH966xVm",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/philippethevoz"
-    },
-    "bio": "Digital Transformation for a tangible Return",
-    "bitcoin": {
-      "address": "16rFCbAtTWHzYuEttd16BkbugiKp4f5JSx"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/philippethevoz"
-    },
-    "facebook": {
-      "username": "thevoz.philippe"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/PhilippeThevoz/e4516ab3d7d3f238ff61"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "16rFCbAtTWHzYuEttd16BkbugiKp4f5JSx",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "PhilippeThevoz"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/philippethevoz"
-    },
-    "location": {
-      "formatted": "Switzerland"
-    },
-    "name": {
-      "formatted": "Philippe Thevoz"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/PhilippeThevoz/status/694565161059901440"
+      {
+        "@type": "Account",
+        "identifier": "PhilippeThevoz",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/PhilippeThevoz/status/742372148019335168",
+        "service": "twitter"
       },
-      "username": "PhilippeThevoz"
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/f0957704d7e0fc498979d4f9161a336a",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "thevoz.philippe",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/thevoz.philippe/posts/623435364499396",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Switzerland"
     },
-    "v": "0.2"
+    "description": "Blockchain & Digital Transformation",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/philippethevoz",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/philippethevoz",
+        "name": "cover"
+      }
+    ],
+    "name": "Philippe Thevoz"
   },
   "verifications": [
     {
       "identifier": "PhilippeThevoz",
-      "proof_url": "https://gist.github.com/PhilippeThevoz/e4516ab3d7d3f238ff61",
+      "proof_url": "https://twitter.com/PhilippeThevoz/status/742372148019335168",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/f0957704d7e0fc498979d4f9161a336a",
       "service": "github",
       "valid": true
     },
     {
-      "identifier": "PhilippeThevoz",
-      "proof_url": "https://twitter.com/PhilippeThevoz/status/694565161059901440",
-      "service": "twitter",
+      "identifier": "thevoz.philippe",
+      "proof_url": "https://www.facebook.com/thevoz.philippe/posts/623435364499396",
+      "service": "facebook",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN philippethevoz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/philippethevoz.id\"\n"
 }
