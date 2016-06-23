@@ -1,36 +1,54 @@
 {
   "owner_address": "1NpofLr1M6SPze1RBhBbEmaYZZEuXvS6WK",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/mrarcade"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/n6r.jpeg"
-    },
-    "facebook": {
-      "username": "iamtommykeyss"
-    },
-    "location": {
-      "formatted": "Fresno, Ca"
-    },
-    "name": {
-      "formatted": "Tommy Marquez"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/Iamtommymarquez/status/705508856445562880"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "iamtommykeyss",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "Iamtommymarquez"
+      {
+        "@type": "Account",
+        "identifier": "_mrarcade",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/_mrarcade/status/740413006778138624",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1GX3dm7ZYo5D63rSSit6bS8YUBuaFiF9t8",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Fresno, Ca"
     },
-    "v": "0.2",
-    "website": "https://www.newtorideshare.com"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mrarcade",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Tommy Marquez",
+    "website": []
   },
   "verifications": [
     {
-      "identifier": "Iamtommymarquez",
-      "proof_url": "https://twitter.com/Iamtommymarquez/status/705508856445562880",
+      "identifier": "_mrarcade",
+      "proof_url": "https://twitter.com/_mrarcade/status/740413006778138624",
       "service": "twitter",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN mrarcade.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mrarcade.id\"\n"
 }
