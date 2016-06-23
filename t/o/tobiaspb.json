@@ -1,53 +1,68 @@
 {
   "owner_address": "1M5izEmc6vy9uryetbgE2NyztytNXMWUae",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/tobiaspb"
-    },
-    "bitcoin": {
-      "address": "19XnouAzcgrTtozQLkExSb3mdyKNg9LeWH"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/tobiaspb"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/tobias.bjorndal/posts/10153415013927413"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "19XnouAzcgrTtozQLkExSb3mdyKNg9LeWH",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "tobias.bjorndal"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/anonymous/43ecd82df09217debf5448aa7ad5764d"
+      {
+        "@type": "Account",
+        "identifier": "tobiaspb",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tobiaspb/status/740130200135073792",
+        "service": "twitter"
       },
-      "username": "anonymous"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/tobiaspb/status/723488563015356416"
+      {
+        "@type": "Account",
+        "identifier": "tobiaspb",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tobiaspb/013481d19d3cbd60fcbf04126c11d07d",
+        "service": "github"
       },
-      "username": "tobiaspb"
-    },
-    "v": "0.2"
+      {
+        "@type": "Account",
+        "identifier": "tobias.bjorndal",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/tobias.bjorndal/posts/10153504868342413",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tobiaspb",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/tobiaspb",
+        "name": "cover"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "anonymous",
-      "proof_url": "https://gist.github.com/anonymous/43ecd82df09217debf5448aa7ad5764d",
-      "service": "github",
-      "valid": true
-    },
-    {
       "identifier": "tobiaspb",
-      "proof_url": "https://twitter.com/tobiaspb/status/723488563015356416",
+      "proof_url": "https://twitter.com/tobiaspb/status/740130200135073792",
       "service": "twitter",
       "valid": true
     },
     {
+      "identifier": "tobiaspb",
+      "proof_url": "https://gist.github.com/tobiaspb/013481d19d3cbd60fcbf04126c11d07d",
+      "service": "github",
+      "valid": true
+    },
+    {
       "identifier": "tobias.bjorndal",
-      "proof_url": "https://facebook.com/tobias.bjorndal/posts/10153415013927413",
+      "proof_url": "https://www.facebook.com/tobias.bjorndal/posts/10153504868342413",
       "service": "facebook",
-      "valid": false
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN tobiaspb.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tobiaspb.id\"\n"
 }
