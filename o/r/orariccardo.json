@@ -1,13 +1,41 @@
 {
   "owner_address": "1AB5ibicgvzdgpML5eokS3C4p5PpKiNYJv",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/F9g.jpg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ORARiccardo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ORARiccardo/status/741586360415494144",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "http://keyserver.ubuntu.com/pks/lookup?op=get&fingerprint=on&search=0x38C43AB98C9C549F",
+        "identifier": "49B91B5F48D0108947FD518E38C43AB98C9C549F",
+        "service": "pgp"
+      }
+    ],
+    "graph": {
+      "url": "https://s3.amazonaws.com/grph/orariccardo"
     },
-    "name": {
-      "formatted": "Riccardo Coluccini"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Riccardo Coluccini"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "ORARiccardo",
+      "proof_url": "https://twitter.com/ORARiccardo/status/741586360415494144",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN orariccardo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/orariccardo.id\"\n"
 }
