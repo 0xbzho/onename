@@ -1,27 +1,54 @@
 {
   "owner_address": "1Dgyf2QXXDm1AtWSp2FJBFyLQ7jN8EJs2c",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/sdbj"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1ETJhHKeBr4AYpTWv366yQKfVzQkY6kAPa",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sdbj",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sdbj/status/742079850945646593",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco"
     },
-    "bio": "Co-founder @Aging20 @Innovationldrs. #Innovation #mobile #aging #health. \nSan Francisco & London",
-    "bitcoin": {
-      "address": "1ETJhHKeBr4AYpTWv366yQKfVzQkY6kAPa"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/rv1.jpeg"
-    },
-    "location": {
-      "formatted": "San Francisco"
-    },
-    "name": {
-      "formatted": "Stephen Johnston"
-    },
-    "twitter": {
-      "username": "sdbj"
-    },
-    "v": "0.2",
-    "website": "http://www.aging2.com"
+    "description": "Co-founder @Aging20 @Innovationldrs. #Innovation #mobile #aging #health. \nSan Francisco & London",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sdbj",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Stephen Johnston",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.aging2.com"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "sdbj",
+      "proof_url": "https://twitter.com/sdbj/status/742079850945646593",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN sdbj.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sdbj.id\"\n"
 }
