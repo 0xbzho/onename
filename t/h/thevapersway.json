@@ -1,53 +1,68 @@
 {
   "owner_address": "16dzqdbuafTp5dn5y1jUDRsJWVPDsW8mkJ",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "77384fc57b3a60fa14b2f2278f3e95e8b135f3a3",
+        "identifier": "8eb41c8ef9b7595cf5cd60cbe07b3fc3b27e39c4",
+        "proofType": "http",
+        "proofUrl": "https://mobile.twitter.com/NerdBlurt/status/724662140364308480",
         "service": "open bazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "thevapersway",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TheVapersWay/status/741385069516972032",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "TheVapersWay",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/TheVapersWay/posts/649278085222552",
+        "service": "facebook"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/thevapersway"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "NJ, USA"
     },
-    "bio": "A Popular Variety of Vaping Related Products including E-Liquid, Hardware, and Accessories.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/Ov8.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/Thevapersway/posts/10209578509486463"
+    "description": "A Popular Variety of Vaping Related Products including E-Liquid, Hardware, and Accessories.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/thevapersway",
+        "name": "avatar"
       },
-      "username": "Thevapersway"
-    },
-    "location": {
-      "formatted": "NJ, USA"
-    },
-    "name": {
-      "formatted": "The Vapers Way"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/thevapersway/status/717160605602422784"
-      },
-      "username": "thevapersway"
-    },
-    "v": "0.2",
-    "website": "https://TheVapersWay.com"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "The Vapers Way",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://TheVapersWay.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "thevapersway",
-      "proof_url": "https://twitter.com/thevapersway/status/717160605602422784",
+      "proof_url": "https://twitter.com/TheVapersWay/status/741385069516972032",
       "service": "twitter",
       "valid": true
     },
     {
-      "identifier": "Thevapersway",
-      "proof_url": "https://facebook.com/Thevapersway/posts/10209578509486463",
+      "identifier": "TheVapersWay",
+      "proof_url": "https://www.facebook.com/TheVapersWay/posts/649278085222552",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN thevapersway.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/thevapersway.id\"\n"
 }
