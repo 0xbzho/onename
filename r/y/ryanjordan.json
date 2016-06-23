@@ -1,76 +1,64 @@
 {
   "owner_address": "1K4r4uaKJSgnQa2faFwC8Nh1AYGjYG8e5",
   "profile": {
-    "angellist": {
-      "username": "https://angel.co/ryan-jordan"
-    },
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/ryanjordan"
-    },
-    "bio": "Co-founder of Blocktech",
-    "bitcoin": {
-      "address": "1FQ3xhSMbD3wF4PmFn6usHCY3kbzGz9Fda"
-    },
-    "bitmessage": {
-      "address": "BM-2cVjjfpVgViPzmRM3QiQtw5dztG84UmuSL"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/foggy-tree.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/ryankendalljordan/posts/10153029663301276"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "theryanjordan",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "none"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/theryanjordan/60a0632b349fe29471ea58adfd8f6612#file-onename-verification"
+      {
+        "@type": "Account",
+        "identifier": "none",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "theryanjordan"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/ryanjordan"
-    },
-    "linkedin": {
-      "url": "https://www.linkedin.com/in/ryanjordan"
-    },
-    "location": {
-      "formatted": "San Diego, CA"
-    },
-    "name": {
-      "formatted": "Ryan Jordan"
-    },
-    "pgp": {
-      "fingerprint": "02648B172F0ED13C3796450FE915C41D0933432E",
-      "url": "https://s3.amazonaws.com/pk9/ryanjordan"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/theryanjordan/status/724338259266932736"
+      {
+        "@type": "Account",
+        "identifier": "theryanjordan",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "theryanjordan"
+      {
+        "@type": "Account",
+        "identifier": "1FQ3xhSMbD3wF4PmFn6usHCY3kbzGz9Fda",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/ryanjordan",
+        "identifier": "02648B172F0ED13C3796450FE915C41D0933432E",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "56c4e27acd50c0cf9a0de2ae4a31534aba052d8b",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Diego, CA"
     },
-    "v": "0.2"
+    "description": "The Decentralized Library of Alexandria",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ryanjordan",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/foggy-tree.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ryan Jordan"
   },
-  "verifications": [
-    {
-      "identifier": "theryanjordan",
-      "proof_url": "https://gist.github.com/theryanjordan/60a0632b349fe29471ea58adfd8f6612#file-onename-verification",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "theryanjordan",
-      "proof_url": "https://twitter.com/theryanjordan/status/724338259266932736",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "none",
-      "proof_url": "https://facebook.com/ryankendalljordan/posts/10153029663301276",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN ryanjordan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ryanjordan.id\"\n"
 }
