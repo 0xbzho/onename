@@ -5,13 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "phideas",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/phideas/5bbe917e5a53301a1fba9bf17c0c8b22",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
         "identifier": "phideas_",
         "proofType": "http",
         "proofUrl": "https://twitter.com/phideas_/status/672369587514667008",
@@ -22,6 +15,13 @@
         "identifier": "31iCKdZPTjR97NiyArPf64RcrSA5nZuoE4",
         "role": "payment",
         "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "phideas",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/phideas/f6fb54a549361e3718b54324b882c6db",
+        "service": "github"
       }
     ],
     "address": {
@@ -45,15 +45,15 @@
   },
   "verifications": [
     {
-      "identifier": "phideas",
-      "proof_url": "https://gist.github.com/phideas/5bbe917e5a53301a1fba9bf17c0c8b22",
-      "service": "github",
-      "valid": false
-    },
-    {
       "identifier": "phideas_",
       "proof_url": "https://twitter.com/phideas_/status/672369587514667008",
       "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "phideas",
+      "proof_url": "https://gist.github.com/phideas/f6fb54a549361e3718b54324b882c6db",
+      "service": "github",
       "valid": true
     }
   ],
