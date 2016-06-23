@@ -5,12 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "ponsaelius122",
-        "proofType": "http",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
         "identifier": "stephen.townsley",
         "proofType": "http",
         "service": "facebook"
@@ -33,6 +27,13 @@
         "identifier": "1EAYmT9tAYY9k8WPME3rRWmMJgpfGJC7uA",
         "role": "payment",
         "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ponsaelius122",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ponsaelius122/status/742011180273795072",
+        "service": "twitter"
       }
     ],
     "address": {
@@ -60,6 +61,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "ponsaelius122",
+      "proof_url": "https://twitter.com/ponsaelius122/status/742011180273795072",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN ponsaelius.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ponsaelius.id\"\n"
 }
