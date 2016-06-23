@@ -1,17 +1,48 @@
 {
   "owner_address": "1DVrqa8kdpSVqjuYyZevbYyNui43JpRfwm",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/rv1.jpeg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "xtof_fr",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/nicolas.loubet/posts/10209839284047833",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris"
     },
-    "location": {
-      "formatted": "Paris"
-    },
-    "name": {
-      "formatted": "Christophe Ducamp"
-    },
-    "v": "0.2",
-    "website": "http://christopheducamp.com"
+    "description": "IndieWeb",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/xtof_fr",
+        "name": "avatar"
+      }
+    ],
+    "name": "Christophe Ducamp",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://christophe.ducamp.me"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "xtof_fr",
+      "proof_url": "https://www.facebook.com/nicolas.loubet/posts/10209839284047833",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN xtof_fr.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/xtof_fr.id\"\n"
 }
