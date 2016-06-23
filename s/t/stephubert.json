@@ -1,35 +1,68 @@
 {
   "owner_address": "1HKD2obHLCR2FEs9SBQzv7Q2mZTReWyJGr",
   "profile": {
-    "bitcoin": {
-      "address": "1ZwZrhN6CxKYZvmLcKhg2qNbRTRmQAxGY"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/IHL.jpg"
-    },
-    "facebook": {
-      "username": "stephubert"
-    },
-    "location": {
-      "formatted": "New York"
-    },
-    "name": {
-      "formatted": "Stephane Hubert"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/stephubert/status/697188838393774080"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1ZwZrhN6CxKYZvmLcKhg2qNbRTRmQAxGY",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "stephubert"
+      {
+        "@type": "Account",
+        "identifier": "stephubert",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/stephubert/posts/10154073327880255?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "stephubert",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/stephubert/status/743905577961590784",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/1f1ec98b2c8bbba8129e2228b97f6c5b",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Los Angeles"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Stephane Hubert"
   },
   "verifications": [
     {
       "identifier": "stephubert",
-      "proof_url": "https://twitter.com/stephubert/status/697188838393774080",
+      "proof_url": "https://www.facebook.com/stephubert/posts/10154073327880255?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "stephubert",
+      "proof_url": "https://twitter.com/stephubert/status/743905577961590784",
       "service": "twitter",
       "valid": true
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/1f1ec98b2c8bbba8129e2228b97f6c5b",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN stephubert.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stephubert.id\"\n"
 }
