@@ -1,24 +1,61 @@
 {
   "owner_address": "1KxUxGyf65x7eWcyTRKzFiPg78k2oD1Z7",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/rschulman"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "RossSchulman",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RossSchulman/status/742899342361677825",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rschulman",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rschulman/7307b056b74faac3819dcb33fc7cd8b8",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Washington, DC"
     },
-    "bio": "Privacy lawyer, gamer. Washingtonian. Cybersec, encryption, surveillance @OTI. My opinions here are mostly my own. RT != Endorse PGP: http://t.co/qkS2va7lea",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/rVv.jpeg"
-    },
-    "location": {
-      "formatted": "Washington, DC"
-    },
-    "name": {
-      "formatted": "Ross Schulman"
-    },
-    "twitter": {
-      "username": "RossSchulman"
-    },
-    "v": "0.2",
-    "website": "https://rbs.io/"
+    "description": "Privacy lawyer, gamer. Washingtonian. Cybersec, encryption, surveillance @OTI. My opinions here are mostly my own. RT != Endorse PGP: http://t.co/qkS2va7lea",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rschulman",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ross Schulman",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://rbs.io/"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "RossSchulman",
+      "proof_url": "https://twitter.com/RossSchulman/status/742899342361677825",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "rschulman",
+      "proof_url": "https://gist.github.com/rschulman/7307b056b74faac3819dcb33fc7cd8b8",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rschulman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rschulman.id\"\n"
 }
