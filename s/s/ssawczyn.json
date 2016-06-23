@@ -1,53 +1,67 @@
 {
   "owner_address": "18z9RKnSBCLY5kZw1W4C5qr2839tWk39NA",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/ssawczyn"
-    },
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/L2N.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/ssawczyn/posts/10205151259443747"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/ssawczyn",
+        "identifier": "429FE7E2D0B560657BD17934BAF478A04AC2AA91",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "ssawczyn"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/ssawczyn"
-    },
-    "location": {
-      "formatted": "44.952165,-93.414586"
-    },
-    "name": {
-      "formatted": "Steve Sawczyn"
-    },
-    "pgp": {
-      "fingerprint": "429FE7E2D0B560657BD17934BAF478A04AC2AA91",
-      "url": "https://s3.amazonaws.com/pk9/ssawczyn"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/steveofmaine/status/539638247383506944"
+      {
+        "@type": "Account",
+        "identifier": "steveofmaine",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/steveofmaine/status/741028808141086721",
+        "service": "twitter"
       },
-      "username": "steveofmaine"
+      {
+        "@type": "Account",
+        "identifier": "ssawczyn",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ssawczyn/posts/10209304351508453",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "44.952165,-93.414586"
     },
-    "v": "0.2",
-    "website": "http://steve.sawczyn.com"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ssawczyn",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Steve Sawczyn",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://steve.sawczyn.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "steveofmaine",
-      "proof_url": "https://twitter.com/steveofmaine/status/539638247383506944",
+      "proof_url": "https://twitter.com/steveofmaine/status/741028808141086721",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "ssawczyn",
-      "proof_url": "https://facebook.com/ssawczyn/posts/10205151259443747",
+      "proof_url": "https://www.facebook.com/ssawczyn/posts/10209304351508453",
       "service": "facebook",
-      "valid": false
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN ssawczyn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ssawczyn.id\"\n"
 }
