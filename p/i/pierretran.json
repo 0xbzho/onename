@@ -1,61 +1,74 @@
 {
   "owner_address": "19JuDYek9fA9nGyQtnLMnFGVZtaQQT7ZWv",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/pierretran"
-    },
-    "bio": "Journaliste consultant formateur",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/pierretran"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/pierretran1/posts/10153226628832181"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "pierretran1",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/pierre.tran1/posts/10153504019577181",
+        "service": "facebook"
       },
-      "username": "pierretran1"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/pierretran/fb74306cc2bda655998f"
+      {
+        "@type": "Account",
+        "identifier": "PierreTran",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/PierreTran/status/741299847953846272",
+        "service": "twitter"
       },
-      "username": "pierretran"
+      {
+        "@type": "Account",
+        "identifier": "pierretran",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/pierretran/fb74306cc2bda655998f",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris, France"
     },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/pierretran"
-    },
-    "location": {
-      "formatted": "Paris, France"
-    },
-    "name": {
-      "formatted": "Pierre Tran"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/PierreTran/status/694108976087207936"
+    "description": "Journaliste consultant formateur",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/pierretran",
+        "name": "avatar"
       },
-      "username": "PierreTran"
-    },
-    "v": "0.2",
-    "website": "http://pierretran.fr"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/pierretran",
+        "name": "cover"
+      }
+    ],
+    "name": "Pierre Tran",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://pierretran.fr"
+      }
+    ]
   },
   "verifications": [
+    {
+      "identifier": "pierretran1",
+      "proof_url": "https://www.facebook.com/pierre.tran1/posts/10153504019577181",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "PierreTran",
+      "proof_url": "https://twitter.com/PierreTran/status/741299847953846272",
+      "service": "twitter",
+      "valid": false
+    },
     {
       "identifier": "pierretran",
       "proof_url": "https://gist.github.com/pierretran/fb74306cc2bda655998f",
       "service": "github",
       "valid": true
-    },
-    {
-      "identifier": "PierreTran",
-      "proof_url": "https://twitter.com/PierreTran/status/694108976087207936",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "pierretran1",
-      "proof_url": "https://facebook.com/pierretran1/posts/10153226628832181",
-      "service": "facebook",
-      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN pierretran.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pierretran.id\"\n"
 }
