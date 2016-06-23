@@ -1,32 +1,47 @@
 {
   "owner_address": "1KfDAPrWwJgTTLZVnrpfBXrHX4NEfGXYy",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/simonhowell"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/yvD.jpeg"
-    },
-    "location": {
-      "formatted": "toronto"
-    },
-    "name": {
-      "formatted": "texas fun-eral"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/hollowmines/status/678066377916325888"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1QESTYVQmzHTFZbzVjPWwj9xrTKm8U2vqb",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "hollowmines"
+      {
+        "@type": "Account",
+        "identifier": "hollowmines",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/hollowmines/status/742440492932157444",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "toronto"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/simonhowell",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "hollowmines"
   },
   "verifications": [
     {
       "identifier": "hollowmines",
-      "proof_url": "https://twitter.com/hollowmines/status/678066377916325888",
+      "proof_url": "https://twitter.com/hollowmines/status/742440492932157444",
       "service": "twitter",
-      "valid": false
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN simonhowell.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/simonhowell.id\"\n"
 }
