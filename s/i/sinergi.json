@@ -1,24 +1,61 @@
 {
   "owner_address": "13YyAt3ccMKNbiTXEX1zbAtJ21PnWvc21w",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/sinergi"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "marksroth",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/marksroth/2e6f5806acb3d08f82b94386542de006",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sinergi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sinergi/status/743090025995378688",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "chicago, il"
     },
-    "bio": "Passion for blending creativity, communications & technology to make the world a better place. I enjoy developing impactful digital media strategies.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/L2N.jpeg"
-    },
-    "location": {
-      "formatted": "chicago, il"
-    },
-    "name": {
-      "formatted": "Mark R."
-    },
-    "twitter": {
-      "username": "sinergi"
-    },
-    "v": "0.2",
-    "website": "http://markroth.com"
+    "description": "Passion for blending creativity, communications & technology to make the world a better place. I enjoy developing impactful digital media strategies.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sinergi",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Mark R.",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://markroth.com"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "marksroth",
+      "proof_url": "https://gist.github.com/marksroth/2e6f5806acb3d08f82b94386542de006",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "sinergi",
+      "proof_url": "https://twitter.com/sinergi/status/743090025995378688",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN sinergi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sinergi.id\"\n"
 }
