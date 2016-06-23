@@ -1,47 +1,55 @@
 {
   "owner_address": "171WpTV5LfNU1yPpudpR19SHB8drYHdHEF",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/rupy"
-    },
-    "bitcoin": {
-      "address": "1FXNk4cxmnuph62nwme6LzdZeArt4dthwa"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/ikZ.jpeg"
-    },
-    "facebook": {
-      "username": "marc.larue"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/tinspin/d441bd0583ee7b518262"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kvitter",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "tinspin"
-    },
-    "name": {
-      "formatted": "Marc Larue"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/kvitter/status/600041831057981440"
+      {
+        "@type": "Account",
+        "identifier": "tinspin",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "kvitter"
-    },
-    "v": "0.2"
+      {
+        "@type": "Account",
+        "identifier": "1FXNk4cxmnuph62nwme6LzdZeArt4dthwa",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "marc.larue",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/marc.larue/posts/10153403294990950",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rupy",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Marc Larue"
   },
   "verifications": [
     {
-      "identifier": "tinspin",
-      "proof_url": "https://gist.github.com/tinspin/d441bd0583ee7b518262",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "kvitter",
-      "proof_url": "https://twitter.com/kvitter/status/600041831057981440",
-      "service": "twitter",
-      "valid": true
+      "identifier": "marc.larue",
+      "proof_url": "https://facebook.com/marc.larue/posts/10153403294990950",
+      "service": "facebook",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN rupy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rupy.id\"\n"
 }
