@@ -1,48 +1,60 @@
 {
   "owner_address": "16bQtPA9sNuAY3ivtExXe9JfTmZgB8uokL",
   "profile": {
-    "auth": [
+    "@type": "Person",
+    "account": [
       {
-        "publicKeychain": ""
+        "@type": "Account",
+        "identifier": "13fAMiNAVsPh24MQdn7d71aXPeQ54UJ26E",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/driesderoeck",
+        "identifier": "433AE487712B6330A1BA5E5F8585782E822DD0CA",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "driesderoeck",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/driesderoeck/2d973f8e0f4b02b4bb9f",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "DriesDeRoeck",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/DriesDeRoeck/status/697782534785077248",
+        "service": "twitter"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/driesderoeck"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Antwerp, Belgium"
     },
-    "bio": "Next generation alchemist ** Full stack human",
-    "bitcoin": {
-      "address": "13fAMiNAVsPh24MQdn7d71aXPeQ54UJ26E"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/driesderoeck"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/driesderoeck/2d973f8e0f4b02b4bb9f"
+    "description": "Next generation alchemist ** Full stack human",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/driesderoeck",
+        "name": "avatar"
       },
-      "username": "driesderoeck"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/driesderoeck"
-    },
-    "location": {
-      "formatted": "Antwerp, Belgium"
-    },
-    "name": {
-      "formatted": "Dries De Roeck"
-    },
-    "pgp": {
-      "fingerprint": "0CA42052F0AE4455C8821702392CB1DB318E9F7D",
-      "url": "https://s3.amazonaws.com/pk9/driesderoeck"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/DriesDeRoeck/status/697782534785077248"
-      },
-      "username": "DriesDeRoeck"
-    },
-    "v": "0.2",
-    "website": "http://driesdr.ramdac.be"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/driesderoeck",
+        "name": "cover"
+      }
+    ],
+    "name": "Dries De Roeck",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://driesdr.ramdac.be"
+      }
+    ]
   },
   "verifications": [
     {
@@ -57,5 +69,6 @@
       "service": "twitter",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN driesderoeck.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/driesderoeck.id\"\n"
 }
