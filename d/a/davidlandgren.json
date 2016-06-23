@@ -1,6 +1,55 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "17vHD6ZyJ2GvnfHM5hGgDnmWTZ6ZqjdXtB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dland",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dland/2f33c2afd937510e22a5cb610b59a014",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/davidlandgren",
+        "identifier": "A2EFAC11B3D25C90BFF3F95D7DE7884281061A23",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dlandgren",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dlandgren/status/734678747912232960",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/davidlandgren",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/davidlandgren",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dland",
+      "proof_url": "https://gist.github.com/dland/2f33c2afd937510e22a5cb610b59a014",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "dlandgren",
+      "proof_url": "https://twitter.com/dlandgren/status/734678747912232960",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN davidlandgren.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/davidlandgren.id\"\n"
 }
