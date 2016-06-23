@@ -1,49 +1,62 @@
 {
   "owner_address": "186K4K4Vw5MrrSWxmyWppXsyRyoHR64gDM",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/delitzer"
-    },
-    "bio": "Bitcoin, startups, FinTech | Designing ventures w @IDEOFutures | Co-Founder @MITBitcoinClub, @MITFinTech",
-    "bitcoin": {
-      "address": "1J83QeGAndSzivvr1z6akqsfxwVGwcAzMj"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/web-gray.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/delitzer/posts/10100315802466254"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "3MPF1wXTBA3vfg5AMdkvtz3NxtipCmjmL1",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "delitzer"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/delitzer/895a70f269b996aab04b"
+      {
+        "@type": "Account",
+        "identifier": "delitzer",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/delitzer/status/501187518713192450",
+        "service": "twitter"
       },
-      "username": "delitzer"
-    },
-    "location": {
-      "formatted": "Cambridge, MA"
-    },
-    "name": {
-      "formatted": "Dan Elitzer"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/delitzer/status/501187518713192450"
+      {
+        "@type": "Account",
+        "identifier": "delitzer",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/delitzer/posts/10100315802466254",
+        "service": "facebook"
       },
-      "username": "delitzer"
+      {
+        "@type": "Account",
+        "identifier": "delitzer",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/delitzer/895a70f269b996aab04b",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/delitzer/key.asc",
+        "identifier": "2A70FD05BD7A74CEC70595895B7251655A7C75E7",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Oakland, CA"
     },
-    "v": "0.2"
+    "description": "Bitcoin, startups, FinTech | Designing ventures w @IDEOcoLAB | Co-Founder @MITBitcoinClub, @MITFinTech",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/delitzer",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/web-gray.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Dan Elitzer"
   },
   "verifications": [
-    {
-      "identifier": "delitzer",
-      "proof_url": "https://gist.github.com/delitzer/895a70f269b996aab04b",
-      "service": "github",
-      "valid": true
-    },
     {
       "identifier": "delitzer",
       "proof_url": "https://twitter.com/delitzer/status/501187518713192450",
@@ -52,9 +65,16 @@
     },
     {
       "identifier": "delitzer",
-      "proof_url": "https://facebook.com/delitzer/posts/10100315802466254",
+      "proof_url": "https://www.facebook.com/delitzer/posts/10100315802466254",
       "service": "facebook",
       "valid": true
+    },
+    {
+      "identifier": "delitzer",
+      "proof_url": "https://gist.github.com/delitzer/895a70f269b996aab04b",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN delitzer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/delitzer.id\"\n"
 }
