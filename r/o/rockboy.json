@@ -1,13 +1,28 @@
 {
   "owner_address": "14PM4P8cG3u4CgUHNm1hxb3BPMhYEHoqxB",
   "profile": {
-    "bitcoin": {
-      "address": "1Ev6X7MUzqYzrygMzooRKTAujZwTFzMSqa"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/n6r.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1Ev6X7MUzqYzrygMzooRKTAujZwTFzMSqa",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rockboy",
+        "name": "avatar"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN rockboy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rockboy.id\"\n"
 }
