@@ -1,45 +1,60 @@
 {
   "owner_address": "1NMe6zRdvjStxeG7DEQEiq4F6PomQmYwPo",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/metacosm"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/ikZ.jpeg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/metacosm/d02310f1df874e360eb2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "metacosm",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/metacosm/status/694479161889525760",
+        "service": "twitter"
       },
-      "username": "metacosm"
+      {
+        "@type": "Account",
+        "identifier": "metacosm",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/metacosm/d02310f1df874e360eb2",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Christophe Laprun"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/metacosm/status/694479161889525760"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/metacosm",
+        "name": "avatar"
       },
-      "username": "metacosm"
-    },
-    "v": "0.2",
-    "website": "http://about.me/metacosm"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Christophe Laprun",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://about.me/metacosm"
+      }
+    ]
   },
   "verifications": [
-    {
-      "identifier": "metacosm",
-      "proof_url": "https://gist.github.com/metacosm/d02310f1df874e360eb2",
-      "service": "github",
-      "valid": true
-    },
     {
       "identifier": "metacosm",
       "proof_url": "https://twitter.com/metacosm/status/694479161889525760",
       "service": "twitter",
       "valid": true
+    },
+    {
+      "identifier": "metacosm",
+      "proof_url": "https://gist.github.com/metacosm/d02310f1df874e360eb2",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN metacosm.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/metacosm.id\"\n"
 }
