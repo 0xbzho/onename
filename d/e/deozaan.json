@@ -1,36 +1,43 @@
 {
   "owner_address": "1QAsRTZaMGoYbUaAdhisovQRMVzAN5vw7F",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "127bdb65c87e5a4b42d326278f2c9f67f27f9a50",
-        "service": "openbazaar"
+        "identifier": "1DeozaanYaZY4kFr3jHo4jDWamYJ79S1QS",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Deozaan",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Deozaan/58249896df702630d4b5eee9ada7262b",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Deozaan",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Deozaan/status/717526628650213380",
+        "service": "twitter"
       }
     ],
-    "bitcoin": {
-      "address": "1DwZACCtUy3nnWUk4SmXyLinhrN1Lf1FXr"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/wdX.jpeg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/Deozaan/58249896df702630d4b5eee9ada7262b"
-      },
-      "username": "Deozaan"
-    },
-    "name": {
-      "formatted": "Deozaan"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/Deozaan/status/717526628650213380"
-      },
-      "username": "Deozaan"
-    },
-    "v": "0.2",
-    "website": "http://deozaan.com/"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Deozaan",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://deozaan.com/"
+      }
+    ]
   },
   "verifications": [
     {
@@ -45,5 +52,6 @@
       "service": "twitter",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN deozaan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/deozaan.id\"\n"
 }
