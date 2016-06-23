@@ -1,35 +1,51 @@
 {
   "owner_address": "1Hcq1xNqYXWiXzfinr2DCWY2yCU1DhcAMk",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/sevensheeps"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sevensheeps",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sevensheeps",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Eutropolis"
     },
-    "bio": "I'm a Creative Designer, Digital Storyteller. Eutropolis. Acta Non Verba. What I read is what I tweet. http://t.co/Wuuc3M4Xun",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/sevensheeps"
+    "description": "I am a Digital Storyteller, ICT Designer - Maastricht Academy for Media Design and Technology - Acta Non Verba",
+    "graph": {
+      "url": "https://s3.amazonaws.com/grph/sevensheeps"
     },
-    "location": {
-      "formatted": "Internet"
-    },
-    "name": {
-      "formatted": "Planet Earth Sphere"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/sevensheeps/status/545542885332877312"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sevensheeps",
+        "name": "avatar"
       },
-      "username": "sevensheeps"
-    },
-    "v": "0.2",
-    "website": "http://www.planetearthsphere.com/"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/sevensheeps",
+        "name": "cover"
+      }
+    ],
+    "name": "Bram Balvers",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.planetearthsphere.com/"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "sevensheeps",
-      "proof_url": "https://twitter.com/sevensheeps/status/545542885332877312",
+      "proof_url": "https://twitter.com/sevensheeps",
       "service": "twitter",
-      "valid": true
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN sevensheeps.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sevensheeps.id\"\n"
 }
