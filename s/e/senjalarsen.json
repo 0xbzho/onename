@@ -1,49 +1,70 @@
 {
   "owner_address": "16PqiDjSQVHL7pQWw6L194v2uUtvdRpvZj",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/senjalarsen"
-    },
-    "bio": "Kauppalehden kirjeenvaihtaja. Correspondent for Kauppalehti, the leading Finnish business daily. Writes, listens, learns and tells stories big and small.",
-    "bitcoin": {
-      "address": "1PWZPoR5gQ9RGsxfYUwX2y8FW3pgnk3pmg"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/senjalarsen"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/senjalarsen/posts/10153393789899129"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1PWZPoR5gQ9RGsxfYUwX2y8FW3pgnk3pmg",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "senjalarsen"
-    },
-    "location": {
-      "formatted": "San Francisco"
-    },
-    "name": {
-      "formatted": "senjalarsen"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/senjalarsen/status/533866773259370496"
+      {
+        "@type": "Account",
+        "identifier": "senjalarsen",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/senjalarsen/status/743565073814192128",
+        "service": "twitter"
       },
-      "username": "senjalarsen"
+      {
+        "@type": "Account",
+        "identifier": "senja.larsen",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/senja.larsen/posts/10154983997979129",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Helsinki - San Francisco"
     },
-    "v": "0.2",
-    "website": "http://senjalarsen.com"
+    "description": "Kauppalehden kirjeenvaihtaja. Correspondent for Kauppalehti, the leading Finnish business daily. Writes, listens, learns and tells stories big and small.",
+    "graph": {
+      "url": "https://s3.amazonaws.com/grph/senjalarsen"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/senjalarsen",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/senjalarsen",
+        "name": "cover"
+      }
+    ],
+    "name": "senjalarsen",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://senjalarsen.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "senjalarsen",
-      "proof_url": "https://twitter.com/senjalarsen/status/533866773259370496",
+      "proof_url": "https://twitter.com/senjalarsen/status/743565073814192128",
       "service": "twitter",
       "valid": true
     },
     {
-      "identifier": "senjalarsen",
-      "proof_url": "https://facebook.com/senjalarsen/posts/10153393789899129",
+      "identifier": "senja.larsen",
+      "proof_url": "https://www.facebook.com/senja.larsen/posts/10154983997979129",
       "service": "facebook",
-      "valid": false
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN senjalarsen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/senjalarsen.id\"\n"
 }
