@@ -1,10 +1,21 @@
 {
   "owner_address": "1J5CwaVnMy2ssSFbZu7UdYH6eQoMcyoMfm",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/rVv.jpeg"
+    "@type": "Person",
+    "account": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sweden"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Dennis Andersson"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN dennisandersson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dennisandersson.id\"\n"
 }
