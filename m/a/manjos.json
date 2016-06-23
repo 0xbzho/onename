@@ -1,39 +1,69 @@
 {
   "owner_address": "1GyijE25jDAXrzenzEEoJCSJ5VorAHD8AW",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/manjos"
-    },
-    "bitcoin": {
-      "address": "1PAkksRpvTtRaRtvHqkHWEWnDFQQ1AEnD7"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/yId.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/matt.manjos/posts/10152721182954629"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "matt.manjos",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "matt.manjos"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/manjos"
-    },
-    "name": {
-      "formatted": "Matthew Manjos"
-    },
-    "pgp": {
-      "fingerprint": "28788B152005417E842BC5414F43327998EA6FEA",
-      "url": "https://s3.amazonaws.com/pk9/manjos"
-    },
-    "v": "0.2"
+      {
+        "@type": "Account",
+        "identifier": "1PAkksRpvTtRaRtvHqkHWEWnDFQQ1AEnD7",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/manjos",
+        "identifier": "28788B152005417E842BC5414F43327998EA6FEA",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "matthewmanjos",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/matthewmanjos/status/743125076342542337",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mmanjos",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mmanjos/912b9747b6c89fc4470622ccc67289bf",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/manjos",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Matthew Manjos"
   },
   "verifications": [
     {
-      "identifier": "matt.manjos",
-      "proof_url": "https://facebook.com/matt.manjos/posts/10152721182954629",
-      "service": "facebook",
-      "valid": false
+      "identifier": "matthewmanjos",
+      "proof_url": "https://twitter.com/matthewmanjos/status/743125076342542337",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mmanjos",
+      "proof_url": "https://gist.github.com/mmanjos/912b9747b6c89fc4470622ccc67289bf",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN manjos.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/manjos.id\"\n"
 }
