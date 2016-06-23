@@ -1,0 +1,79 @@
+{
+  "owner_address": "1824bjSKQovnjpvkd6FUoZCaGWJm783fra",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "michael.duergner",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1AEnJ5KcZQYEEn7GhcCsaxVZceqekdXWPj",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/duergner",
+        "identifier": "E7B7E5284D869EDC84CC050B5DC8BB5A729E79E8",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "duergner",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/duergner/status/742077461312241664",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "duergner",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/duergner/03e2a2dc3787e1d1d924",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Munich"
+    },
+    "description": "Tech geek, Java/Groovy/CoffeeScript coder, Software Architect, doing some amateur photography",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/duergner",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Michael Dürgner",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://github.com/duergner"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "duergner",
+      "proof_url": "https://twitter.com/duergner/status/742077461312241664",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "duergner",
+      "proof_url": "https://gist.github.com/duergner/03e2a2dc3787e1d1d924",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN duergner.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/duergner.id\"\n"
+}
