@@ -1,42 +1,60 @@
 {
   "owner_address": "15VLh84BUGPSR9Pvd9Q5TEJkQgcuDSEjao",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/vonc__"
-    },
-    "bio": "French programmer and Source Control administrator (ClearCase, Subversion, Git). See my StackOverflow profile.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/vonc__"
-    },
-    "facebook": {
-      "username": "dan.vonc"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/VonC/3aaa6782daddd232d15a"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dan.vonc",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dan.vonc/posts/1752591138309644",
+        "service": "facebook"
       },
-      "username": "VonC"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "VonC"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/VonC_/status/706093482063106048"
+      {
+        "@type": "Account",
+        "identifier": "VonC_",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/VonC_/status/706093482063106048",
+        "service": "twitter"
       },
-      "username": "VonC_"
+      {
+        "@type": "Account",
+        "identifier": "VonC",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/VonC/3aaa6782daddd232d15a",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "v": "0.2",
-    "website": "http://stackoverflow.com/users/6309/vonc"
+    "description": "French programmer and Source Control administrator (ClearCase, Subversion, Git). See my StackOverflow profile.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/vonc__",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/vonc__",
+        "name": "cover"
+      }
+    ],
+    "name": "VonC",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://stackoverflow.com/users/6309/vonc"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "VonC",
-      "proof_url": "https://gist.github.com/VonC/3aaa6782daddd232d15a",
-      "service": "github",
+      "identifier": "dan.vonc",
+      "proof_url": "https://www.facebook.com/dan.vonc/posts/1752591138309644",
+      "service": "facebook",
       "valid": true
     },
     {
@@ -44,6 +62,13 @@
       "proof_url": "https://twitter.com/VonC_/status/706093482063106048",
       "service": "twitter",
       "valid": true
+    },
+    {
+      "identifier": "VonC",
+      "proof_url": "https://gist.github.com/VonC/3aaa6782daddd232d15a",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN vonc__.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vonc__.id\"\n"
 }
