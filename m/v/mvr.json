@@ -13,6 +13,13 @@
         "@type": "Account",
         "identifier": "95123d3c30b7af50fece4b59610682a2e29d96ed",
         "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "askmike",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/askmike/e6cd7e19638e79abee3dd856a1381de6",
+        "service": "github"
       }
     ],
     "address": {
@@ -40,6 +47,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "askmike",
+      "proof_url": "https://gist.github.com/askmike/e6cd7e19638e79abee3dd856a1381de6",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN mvr.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mvr.id\"\n"
 }
