@@ -1,52 +1,60 @@
 {
   "owner_address": "1KYzbWoyDzsR55eAySRF2FaZmkj78PWxkD",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/tylershuster"
-    },
-    "bio": "Writer",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/tylershuster"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/herrshuster/posts/10152767290300845"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tylershuster",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tylershuster/c5daa3fb2d6d25b6e87e602ebf06a711",
+        "service": "github"
       },
-      "username": "herrshuster"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/herrshuster/84b9d5230778e6fefcc9"
+      {
+        "@type": "Account",
+        "identifier": "herrshuster",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/herrshuster/posts/10152767290300845",
+        "service": "facebook"
       },
-      "username": "herrshuster"
+      {
+        "@type": "Account",
+        "identifier": "tylershuster",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tylershuster/status/540332607657897984",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Redding, Ca"
     },
-    "location": {
-      "formatted": "Redding, Ca"
-    },
-    "name": {
-      "formatted": "Tyler Shuster"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/tylershuster/status/540332607657897984"
+    "description": "Writer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tylershuster",
+        "name": "avatar"
       },
-      "username": "tylershuster"
-    },
-    "v": "0.2",
-    "website": "http://tylershuster.com"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/tylershuster",
+        "name": "cover"
+      }
+    ],
+    "name": "Tyler Shuster",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://tyler.shuster.house"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "herrshuster",
-      "proof_url": "https://gist.github.com/herrshuster/84b9d5230778e6fefcc9",
-      "service": "github",
-      "valid": false
-    },
-    {
       "identifier": "tylershuster",
-      "proof_url": "https://twitter.com/tylershuster/status/540332607657897984",
-      "service": "twitter",
+      "proof_url": "https://gist.github.com/tylershuster/c5daa3fb2d6d25b6e87e602ebf06a711",
+      "service": "github",
       "valid": true
     },
     {
@@ -54,6 +62,13 @@
       "proof_url": "https://facebook.com/herrshuster/posts/10152767290300845",
       "service": "facebook",
       "valid": false
+    },
+    {
+      "identifier": "tylershuster",
+      "proof_url": "https://twitter.com/tylershuster/status/540332607657897984",
+      "service": "twitter",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN tylershuster.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tylershuster.id\"\n"
 }
