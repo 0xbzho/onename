@@ -1,40 +1,48 @@
 {
   "owner_address": "14a3kicmofaeDzq5mL3TToSSoUzeofqYjf",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "ed4244ba765d724a562c1faf1273c68f0e7437cd",
-        "service": "open bazaar"
+        "identifier": "Mothmanagora",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "profile.php?id=100012445274443",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/permalink.php?story_fbid=118848908539951&id=100012445274443",
+        "service": "facebook"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/mothman"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Point Pleasant, WV"
     },
-    "bio": "From approximately November 1966 through December 1967, dozens of people reported sightings of a huge, semi-human winged creature with glowing red eyes in and around Point Pleasant, West Virginia. At between 6.5 and 7 feet tall and with a wingspan of nearly 10 feet, the shadowy creature was reportedly able to fly great distances at speeds up to 100 miles per hour. All who encountered this menacing creature were terrified by their experience. In the local media, the giant winged beast became known as \"Mothman.\"",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/ic1.jpeg"
-    },
-    "location": {
-      "formatted": "Point Pleasant, WV"
-    },
-    "name": {
-      "formatted": "Mothman"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/Mothmanagora/status/704718423973089280"
+    "description": "From approximately November 1966 through December 1967, dozens of people reported sightings of a huge, semi-human winged creature with glowing red eyes in and around Point Pleasant, West Virginia. At between 6.5 and 7 feet tall and with a wingspan of nearly 10 feet, the shadowy creature was reportedly able to fly great distances at speeds up to 100 miles per hour. All who encountered this menacing creature were terrified by their experience. In the local media, the giant winged beast became known as \"Mothman.\"",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mothman",
+        "name": "avatar"
       },
-      "username": "Mothmanagora"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Mothman"
   },
   "verifications": [
     {
-      "identifier": "Mothmanagora",
-      "proof_url": "https://twitter.com/Mothmanagora/status/704718423973089280",
-      "service": "twitter",
-      "valid": true
+      "identifier": "profile.php?id=100012445274443",
+      "proof_url": "https://www.facebook.com/permalink.php?story_fbid=118848908539951&id=100012445274443",
+      "service": "facebook",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN mothman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mothman.id\"\n"
 }
