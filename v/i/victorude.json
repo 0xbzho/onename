@@ -1,39 +1,68 @@
 {
   "owner_address": "1BG7f3acRZ2uZjJ76nU1Dq1VtLcbyVitog",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/victorude"
-    },
-    "bio": "",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/victorude"
-    },
-    "facebook": {
-      "username": "kalu.v.ude"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/victorude"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Victor Ude"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/NostrumRemedium/status/656574624776359936"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "udev",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/udev/7a8217adf7ba8b6909ad875ad2191505",
+        "service": "github"
       },
-      "username": "NostrumRemedium"
+      {
+        "@type": "Account",
+        "identifier": "NostrumRemedium",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/NostrumRemedium/status/743460258526396419",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kalu.v.ude",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/kalu.v.ude/posts/10100271409964886",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "v": "0.2"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/victorude",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/victorude",
+        "name": "cover"
+      }
+    ],
+    "name": "Victor Ude"
   },
   "verifications": [
     {
+      "identifier": "udev",
+      "proof_url": "https://gist.github.com/udev/7a8217adf7ba8b6909ad875ad2191505",
+      "service": "github",
+      "valid": true
+    },
+    {
       "identifier": "NostrumRemedium",
-      "proof_url": "https://twitter.com/NostrumRemedium/status/656574624776359936",
+      "proof_url": "https://twitter.com/NostrumRemedium/status/743460258526396419",
       "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "kalu.v.ude",
+      "proof_url": "https://www.facebook.com/kalu.v.ude/posts/10100271409964886",
+      "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN victorude.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/victorude.id\"\n"
 }
