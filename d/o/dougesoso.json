@@ -1,13 +1,28 @@
 {
   "owner_address": "1Q2sQwRWzq5tgvVWVwhzjfzE92RSoG819w",
   "profile": {
-    "bitcoin": {
-      "address": "17yVcayiMwwxN3bbFhVbsgFoC2QSzQJXZP"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/KJy.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "17yVcayiMwwxN3bbFhVbsgFoC2QSzQJXZP",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dougesoso",
+        "name": "avatar"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN dougesoso.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dougesoso.id\"\n"
 }
