@@ -1,28 +1,54 @@
 {
   "owner_address": "14KK7CzttyWfAcZLLte8KmjfygDE6BX5YX",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/duplessie"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "alexduplessie",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/alexduplessie/status/740744547328745472",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boston, MA"
     },
-    "bio": "",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/duplessie"
-    },
-    "facebook": {
-      "username": "arex.leee"
-    },
-    "location": {
-      "formatted": "Tallahassee, FL"
-    },
-    "name": {
-      "formatted": "Alex Duplessie"
-    },
-    "twitter": {
-      "username": "theduplexer"
-    },
-    "v": "0.2",
-    "website": "http://adoseofaesthetica.tumblr.com/"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/duplessie",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/duplessie",
+        "name": "cover"
+      }
+    ],
+    "name": "Alex Duplessie",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://millennial-investor.com/"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "alexduplessie",
+      "proof_url": "https://twitter.com/alexduplessie/status/740744547328745472",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN duplessie.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/duplessie.id\"\n"
 }
