@@ -1,11 +1,62 @@
 {
   "owner_address": "1JtcRwxvTTxbAevJwmKDEZAguDPqU63beG",
   "profile": {
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/wkj.jpeg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sinmantky",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sinmantky/status/741290822562283520",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sin.kimishima",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/sin.kimishima/posts/10153991054891998",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sinmantky",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/sinmantky/d9e1a7564ba192318c8d4efaa4190311",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Tokyo"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Sin Kimishima"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "sinmantky",
+      "proof_url": "https://twitter.com/sinmantky/status/741290822562283520",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "sin.kimishima",
+      "proof_url": "https://www.facebook.com/sin.kimishima/posts/10153991054891998",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "sinmantky",
+      "proof_url": "https://gist.github.com/sinmantky/d9e1a7564ba192318c8d4efaa4190311",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN sinmantky.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sinmantky.id\"\n"
 }
