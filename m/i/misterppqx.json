@@ -1,24 +1,54 @@
 {
   "owner_address": "1BoKXb6uPWAhAzVQntxe4sXCuD9o7w89pz",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/misterppqx"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "misterppqx",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "philippelightnin",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/philippelightnin/posts/10209087518602125?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Rouen"
     },
-    "bio": "",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/IKM.jpeg"
-    },
-    "location": {
-      "formatted": "Rouen"
-    },
-    "name": {
-      "formatted": "philippe petitqueux"
-    },
-    "twitter": {
-      "username": "misterppqx"
-    },
-    "v": "0.2",
-    "website": "http://acoustice.educagri.fr"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/misterppqx",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/misterppqx",
+        "name": "avatar"
+      }
+    ],
+    "name": "philippe petitqueux",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://acoustice.educagri.fr"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "philippelightnin",
+      "proof_url": "https://www.facebook.com/philippelightnin/posts/10209087518602125?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN misterppqx.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/misterppqx.id\"\n"
 }
