@@ -7,12 +7,6 @@
         "@type": "Account",
         "identifier": "ouzhangazi",
         "proofType": "http",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "ouzhangazi",
-        "proofType": "http",
         "service": "facebook"
       },
       {
@@ -24,9 +18,16 @@
       {
         "@type": "Account",
         "contentUrl": "https://pgp.oga.im/oga.asc",
-        "identifier": "4EAC52FC3F650DE5899C301501D60366163F9D",
+        "identifier": "DFE4F2643DD7B362CEA3C1E764AFD8CC1760B944",
         "role": "key",
         "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ouzhangazi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ouzhangazi/status/745684073323044868",
+        "service": "twitter"
       }
     ],
     "address": {
@@ -53,6 +54,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "ouzhangazi",
+      "proof_url": "https://twitter.com/ouzhangazi/status/745684073323044868",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN oga.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/oga.id\"\n"
 }
