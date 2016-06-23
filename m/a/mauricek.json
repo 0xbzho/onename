@@ -1,46 +1,59 @@
 {
   "owner_address": "1EKEcsxJLKpVqpQNPmAeh2wmJwZ4HSZrSy",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/mauricek"
-    },
-    "bio": "System Center / Cloud Consultant @ 3Fifty | Family Man | Whiskey | Dropbox | Synology | IJsselstein",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/mauricek"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/mauricekok/posts/873129262785144"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "k0kk13",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/k0kk13/e83757ad77e39fe70b48cd13718955f9",
+        "service": "github"
       },
-      "username": "mauricekok"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/k0kk13/d46f571b056b9f150d30"
+      {
+        "@type": "Account",
+        "identifier": "K0KK13",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/K0KK13/status/685045446818021376",
+        "service": "twitter"
       },
-      "username": "k0kk13"
+      {
+        "@type": "Account",
+        "identifier": "maurice.kok.7",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/maurice.kok.7/posts/961640623934007",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "LocalHost"
     },
-    "location": {
-      "formatted": "LocalHost"
+    "description": "Cloud  / System Center Consultant @ 3FiftyBV | Family Man | Whiskey | Dropbox | Synology | IJsselstein",
+    "graph": {
+      "url": "https://s3.amazonaws.com/grph/mauricek"
     },
-    "name": {
-      "formatted": "Maurice Kok"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/K0KK13/status/685045446818021376"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mauricek",
+        "name": "avatar"
       },
-      "username": "K0KK13"
-    },
-    "v": "0.2",
-    "website": "https://nl.linkedin.com/in/kokmaurice"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mauricek",
+        "name": "cover"
+      }
+    ],
+    "name": "Maurice Kok",
+    "website": []
   },
   "verifications": [
     {
       "identifier": "k0kk13",
-      "proof_url": "https://gist.github.com/k0kk13/d46f571b056b9f150d30",
+      "proof_url": "https://gist.github.com/k0kk13/e83757ad77e39fe70b48cd13718955f9",
       "service": "github",
-      "valid": false
+      "valid": true
     },
     {
       "identifier": "K0KK13",
@@ -49,10 +62,11 @@
       "valid": true
     },
     {
-      "identifier": "mauricekok",
-      "proof_url": "https://facebook.com/mauricekok/posts/873129262785144",
+      "identifier": "maurice.kok.7",
+      "proof_url": "https://www.facebook.com/maurice.kok.7/posts/961640623934007",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN mauricek.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mauricek.id\"\n"
 }
