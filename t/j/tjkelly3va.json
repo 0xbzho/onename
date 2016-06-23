@@ -1,16 +1,67 @@
 {
   "owner_address": "17z9HYEAfedsSM1WxVMmRF5xtWggduCBz4",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/IHL.jpg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tjkelly3va",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tjkelly3va/44c03f01cc7f5e6fbe8a7c7ecf837064",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tom.kelly.986",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/tom.kelly.986/posts/1413264072032986",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tjkelly3va",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tjkelly3va/status/742494543665344512",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Virginia USA"
     },
-    "location": {
-      "formatted": "Virginia USA"
-    },
-    "name": {
-      "formatted": "Thomas J. Kelly"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tjkelly3va",
+        "name": "avatar"
+      }
+    ],
+    "name": "Thomas J. Kelly"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "tjkelly3va",
+      "proof_url": "https://gist.github.com/tjkelly3va/44c03f01cc7f5e6fbe8a7c7ecf837064",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "tom.kelly.986",
+      "proof_url": "https://www.facebook.com/tom.kelly.986/posts/1413264072032986",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "tjkelly3va",
+      "proof_url": "https://twitter.com/tjkelly3va/status/742494543665344512",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tjkelly3va.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tjkelly3va.id\"\n"
 }
