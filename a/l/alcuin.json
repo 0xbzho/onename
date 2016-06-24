@@ -1,0 +1,67 @@
+{
+  "owner_address": "1NaBW6JmCHGzmyBYMkqQ9oupCQTuVSuYvV",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ghostsequence",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ghostsequence/71f6b1e891ed5b70eb4d6f7ba71337a4",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1BBFfpfBb2b7LLPmjwaA9XrGHJXhqDSudN",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "alcuinai",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/alcuinai/status/738610307510112260",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Berlin/Tokyo"
+    },
+    "description": "technology at Studio Olafur Eliasson, space geek at Celestial Mechanics, devops at Quantified Planet☄ Space, Technology, Neuromantic",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/alcuin",
+        "name": "avatar"
+      }
+    ],
+    "name": "Alcuin Stevenson",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://alcuin.space"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ghostsequence",
+      "proof_url": "https://gist.github.com/ghostsequence/71f6b1e891ed5b70eb4d6f7ba71337a4",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "alcuinai",
+      "proof_url": "https://twitter.com/alcuinai/status/738610307510112260",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN alcuin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alcuin.id\"\n"
+}
