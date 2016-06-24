@@ -1,24 +1,61 @@
 {
   "owner_address": "17KNwxZeJyWh2BCNGM9MmP93uaFeB29Dte",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/bartwaeterschoot"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "djbart",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/djbart/ef5cc7950cd1cc066dd50548e6d6a147",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bytesizebart",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bytesizebart/status/741283744372396032",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Schoten, Belgium"
     },
-    "bio": "Dad, IT geek, tech enthousiast & addicted to change since 1980\n\n@SDWorxBelgie, @SportsPay, @BordEnSpelen",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/bartwaeterschoot"
-    },
-    "location": {
-      "formatted": "Schoten, Belgium"
-    },
-    "name": {
-      "formatted": "Bart Waeterschoot"
-    },
-    "twitter": {
-      "username": "bytesizebart"
-    },
-    "v": "0.2",
-    "website": "http://about.me/bartwaeterschoot"
+    "description": "Dad, IT geek, tech enthousiast & addicted to change since 1980. Works at bITe to assist companies with technology, innovation & agility.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bartwaeterschoot",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bartwaeterschoot",
+        "name": "cover"
+      }
+    ],
+    "name": "Bart Waeterschoot",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.bite.be"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "djbart",
+      "proof_url": "https://gist.github.com/djbart/ef5cc7950cd1cc066dd50548e6d6a147",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "bytesizebart",
+      "proof_url": "https://twitter.com/bytesizebart/status/741283744372396032",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bartwaeterschoot.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bartwaeterschoot.id\"\n"
 }
