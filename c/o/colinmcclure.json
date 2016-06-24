@@ -1,0 +1,67 @@
+{
+  "owner_address": "133RtPGCZsJiAL1msdGv5cKmYFwazvicQs",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "colinmcclure",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/colinmcclure/status/743728549916381184",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mcclure.colin",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mcclure.colin/posts/10153485571781755",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "colinappnovation",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/colinappnovation/4fabe5b72d4b555ff9e9e5395a072997",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "United Kingdom"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/colinmcclure",
+        "name": "avatar"
+      }
+    ],
+    "name": "Colin McClure"
+  },
+  "verifications": [
+    {
+      "identifier": "colinmcclure",
+      "proof_url": "https://twitter.com/colinmcclure/status/743728549916381184",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mcclure.colin",
+      "proof_url": "https://www.facebook.com/mcclure.colin/posts/10153485571781755",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "colinappnovation",
+      "proof_url": "https://gist.github.com/colinappnovation/4fabe5b72d4b555ff9e9e5395a072997",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN colinmcclure.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/colinmcclure.id\"\n"
+}
