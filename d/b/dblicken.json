@@ -1,0 +1,67 @@
+{
+  "owner_address": "19gNdjaF2zGXzPCGfjwvadAorMPHturYXL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dan_blick",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Dan_Blick/status/740700443307806720",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dblicken",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dblicken/posts/1038356686218827",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dblicken",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dblicken/b2299d6bdf2de465d07942cb6dcb786b",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Maine and New Hampshire"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dblicken",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/dblicken",
+        "name": "cover"
+      }
+    ],
+    "name": "Dan Blickensderfer"
+  },
+  "verifications": [
+    {
+      "identifier": "dan_blick",
+      "proof_url": "https://twitter.com/Dan_Blick/status/740700443307806720",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "dblicken",
+      "proof_url": "https://www.facebook.com/dblicken/posts/1038356686218827",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "dblicken",
+      "proof_url": "https://gist.github.com/dblicken/b2299d6bdf2de465d07942cb6dcb786b",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dblicken.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dblicken.id\"\n"
+}
