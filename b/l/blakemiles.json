@@ -1,61 +1,75 @@
 {
   "owner_address": "1KycCTPxbfQKz6wG5e8SgGUYjaFhFonj97",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/blakemiles"
-    },
-    "bio": "You leave Jack Burton ALONE!",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/blakemiles"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/bmiles84/posts/10207647993465542"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1Hm1YVHZA49jGxtna7r1JRcNfaP443r4yb",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "bmiles84"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/blakemiles/1300540255ada7bb25bb"
+      {
+        "@type": "Account",
+        "identifier": "bmiles84",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bmiles84/status/740775858294652929",
+        "service": "twitter"
       },
-      "username": "blakemiles"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/blakemiles"
-    },
-    "location": {
-      "formatted": "Indiana"
-    },
-    "name": {
-      "formatted": "Blake Miles"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/bmiles84/status/664551756760752129"
+      {
+        "@type": "Account",
+        "identifier": "blakemiles",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/blakemiles/b87ed437357f69927ffe24389fb6415c",
+        "service": "github"
       },
-      "username": "bmiles84"
+      {
+        "@type": "Account",
+        "identifier": "bmiles84",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bmiles84/posts/10209247588854427?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Indiana"
     },
-    "v": "0.2",
-    "website": "http://www.greenberetfoundation.org"
+    "description": "You leave Jack Burton ALONE!",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/blakemiles",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/blakemiles",
+        "name": "cover"
+      }
+    ],
+    "name": "Blake Miles",
+    "website": []
   },
   "verifications": [
     {
+      "identifier": "bmiles84",
+      "proof_url": "https://twitter.com/bmiles84/status/740775858294652929",
+      "service": "twitter",
+      "valid": true
+    },
+    {
       "identifier": "blakemiles",
-      "proof_url": "https://gist.github.com/blakemiles/1300540255ada7bb25bb",
+      "proof_url": "https://gist.github.com/blakemiles/b87ed437357f69927ffe24389fb6415c",
       "service": "github",
       "valid": true
     },
     {
       "identifier": "bmiles84",
-      "proof_url": "https://twitter.com/bmiles84/status/664551756760752129",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "bmiles84",
-      "proof_url": "https://facebook.com/bmiles84/posts/10207647993465542",
+      "proof_url": "https://www.facebook.com/bmiles84/posts/10209247588854427?pnref=story",
       "service": "facebook",
-      "valid": false
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN blakemiles.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/blakemiles.id\"\n"
 }
