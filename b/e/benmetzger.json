@@ -1,0 +1,53 @@
+{
+  "owner_address": "1LvhgFmenwUYocQ6iWoQMziYgaGR7aJgCq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1Luut2aMEmQeLLZ2erQJ5rYCj1xKkKLhve",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bmetzger",
+        "proofType": "http",
+        "proofUrl": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbmetzger%2Fposts%2F613084772017&width=500\" width=\"500\" height=\"482\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\"></iframe>",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Denver, CO"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/benmetzger",
+        "name": "avatar"
+      }
+    ],
+    "name": "Ben Metzger",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.linkedin.com/in/benmetzger"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bmetzger",
+      "proof_url": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbmetzger%2Fposts%2F613084772017&width=500\" width=\"500\" height=\"482\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\"></iframe>",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN benmetzger.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/benmetzger.id\"\n"
+}
