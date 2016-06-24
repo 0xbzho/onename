@@ -1,0 +1,61 @@
+{
+  "owner_address": "1E9JY8cG5YTiWwHLkGPKQ8DKLcybJaZdND",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "castig",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/castig/status/742491637037830146",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "castig",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/castig/a29ea32628d71a83ec69424e25fedce0",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York City"
+    },
+    "description": "Host of the On Books Podcast, Co-Founder of One Month",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/castig",
+        "name": "avatar"
+      }
+    ],
+    "name": "Chris Castiglione",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.castig.org"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "castig",
+      "proof_url": "https://twitter.com/castig/status/742491637037830146",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "castig",
+      "proof_url": "https://gist.github.com/castig/a29ea32628d71a83ec69424e25fedce0",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN castig.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/castig.id\"\n"
+}
