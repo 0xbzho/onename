@@ -1,0 +1,42 @@
+{
+  "owner_address": "1H9T2povEip6uFTS4xhuUwjNcYDMfbAGQ1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "alainchrun",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/alainchrun/status/735847237792739329",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris, France"
+    },
+    "description": "Founder of Aircraft Capital, the first online marketplace dedicated to aircraft financing",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/alainchrun",
+        "name": "avatar"
+      }
+    ],
+    "name": "Alain Chrun"
+  },
+  "verifications": [
+    {
+      "identifier": "alainchrun",
+      "proof_url": "https://twitter.com/alainchrun/status/735847237792739329",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN alainchrun.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alainchrun.id\"\n"
+}
