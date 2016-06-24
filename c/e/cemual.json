@@ -1,0 +1,62 @@
+{
+  "owner_address": "15EEnUvrLicWFyZ7HnwbWZtcWPcWkZwXrn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "on3_g",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/on3_g/status/742408652414455808",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cemual",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/cemual/1c0374a797c097dda33a18ac36deb937",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https://web.facebook.com/cemual",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/cemual?post_id=10207840778589730_10207840779229746#facebook",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lima, Perú"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "César Muñoz Albitres"
+  },
+  "verifications": [
+    {
+      "identifier": "on3_g",
+      "proof_url": "https://twitter.com/on3_g/status/742408652414455808",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "cemual",
+      "proof_url": "https://gist.github.com/cemual/1c0374a797c097dda33a18ac36deb937",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "https://web.facebook.com/cemual",
+      "proof_url": "https://onename.com/cemual?post_id=10207840778589730_10207840779229746#facebook",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN cemual.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cemual.id\"\n"
+}
