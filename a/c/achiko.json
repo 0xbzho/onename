@@ -1,0 +1,57 @@
+{
+  "owner_address": "18T1ag7zbAzWpMZndsoBVCZAUwZbYzUVFF",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "achiko75",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/achiko75/status/740887793082241024",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "achiko",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/achiko/ca138f1344d910948e78e66fa1e99e66",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "archil.phanchulidze",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/archil.phanchulidze/posts/10154914086095299",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "achiko75",
+      "proof_url": "https://twitter.com/achiko75/status/740887793082241024",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "achiko",
+      "proof_url": "https://gist.github.com/achiko/ca138f1344d910948e78e66fa1e99e66",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "archil.phanchulidze",
+      "proof_url": "https://www.facebook.com/archil.phanchulidze/posts/10154914086095299",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN achiko.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/achiko.id\"\n"
+}
