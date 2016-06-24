@@ -1,0 +1,31 @@
+{
+  "owner_address": "1JyCzMR6jQP1dXCDsagtLxxHWZ3SrEfGBi",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "CarstenStoecker",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/carstenstoecker/status/737369264370397188",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "CarstenStoecker",
+      "proof_url": "https://twitter.com/carstenstoecker/status/737369264370397188",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN cstoecker.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cstoecker.id\"\n"
+}
