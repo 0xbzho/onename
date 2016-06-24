@@ -1,0 +1,73 @@
+{
+  "owner_address": "14vToh6GQS45Mj3stz3uVsVRJL8GaXJFmu",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "chloealpert",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ChloeAlpert/status/740858538336112640",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "chloealpert",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/chloealpert/posts/10154240162655522",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "chloealpert",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/chloealpert/83c71a6448b7997279c9a18fe3e92640",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/chloealpert",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/chloealpert",
+        "name": "cover"
+      }
+    ],
+    "name": "Chloe Alpert",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.chloealpert.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "chloealpert",
+      "proof_url": "https://twitter.com/ChloeAlpert/status/740858538336112640",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "chloealpert",
+      "proof_url": "https://www.facebook.com/chloealpert/posts/10154240162655522",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "chloealpert",
+      "proof_url": "https://gist.github.com/chloealpert/83c71a6448b7997279c9a18fe3e92640",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN chloealpert.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/chloealpert.id\"\n"
+}
