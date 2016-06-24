@@ -1,0 +1,31 @@
+{
+  "owner_address": "182HnMJQhXCmTiL7dpCdCQM1uFGdi5yfcf",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dalanmiller",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dalanmiller/4cb4d1354419182d50dfdd602e402202",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dalanmiller",
+      "proof_url": "https://gist.github.com/dalanmiller/4cb4d1354419182d50dfdd602e402202",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dalanmiller.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dalanmiller.id\"\n"
+}
