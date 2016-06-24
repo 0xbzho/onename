@@ -1,0 +1,45 @@
+{
+  "owner_address": "15zYE1X3WKH3YjA6fFTipPLuy3LR87gMda",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bethysmalls",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bethysmalls/status/735181403978092544",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bethysmalls",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bethysmalls/posts/10100570670683513?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Beth Howard"
+  },
+  "verifications": [
+    {
+      "identifier": "bethysmalls",
+      "proof_url": "https://twitter.com/bethysmalls/status/735181403978092544",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bethysmalls",
+      "proof_url": "https://www.facebook.com/bethysmalls/posts/10100570670683513?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN bethnhoward.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bethnhoward.id\"\n"
+}
