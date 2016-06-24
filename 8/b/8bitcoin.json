@@ -1,0 +1,38 @@
+{
+  "owner_address": "12gmwi2PcyhC8CBo3TgvvdJvQ6ZD1Yeehs",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "brenzig",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/brenzig",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "e16d01b2d88ea1c6bd1d09c19063f9bf7f457e08",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/shungite/9902febadc47532627572db8d552e804",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "brenzig",
+      "proof_url": "https://twitter.com/brenzig",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN 8bitcoin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/8bitcoin.id\"\n"
+}
