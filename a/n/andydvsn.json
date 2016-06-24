@@ -1,0 +1,73 @@
+{
+  "owner_address": "1N4iPYAoMWNM22F6Eb3LrNctLj5BzgQuWV",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "andydvsn",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/andydvsn/status/742275457933053952",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "andydvsn",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/andydvsn/3b664a71d9080416b4a78e2efd250c00",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1LDNgaeSSzKGirJyDYs5BfN8G2KAw77GnH",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/andydvsn",
+        "identifier": "91DB0853BADA0664BB7D51A446140E198AAB430B",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Salford, UK"
+    },
+    "description": "Tech Fella.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/andydvsn",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/andydvsn",
+        "name": "cover"
+      }
+    ],
+    "name": "Andrew Davison",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://dvsn.net/andy"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "andydvsn",
+      "proof_url": "https://twitter.com/andydvsn/status/742275457933053952",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "andydvsn",
+      "proof_url": "https://gist.github.com/andydvsn/3b664a71d9080416b4a78e2efd250c00",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN andydvsn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/andydvsn.id\"\n"
+}
