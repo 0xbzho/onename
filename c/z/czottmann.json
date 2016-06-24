@@ -1,0 +1,62 @@
+{
+  "owner_address": "19egCJM6mBfUMqxxcoNfkyUy2mteQDC726",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "municode",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/municode/status/740973722278998016",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "carlo",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/carlo/816f80d4eed7637b7434aa6bcac744a8",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "12XbJzjmUTKCynTSgcLDB36hb4wWA7dcaP",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/czottmann",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/czottmann",
+        "name": "cover"
+      }
+    ],
+    "name": "Carlo Zottmann",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://czm.io"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "municode",
+      "proof_url": "https://twitter.com/municode/status/740973722278998016",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "carlo",
+      "proof_url": "https://gist.github.com/carlo/816f80d4eed7637b7434aa6bcac744a8",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN czottmann.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/czottmann.id\"\n"
+}
