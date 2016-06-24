@@ -1,0 +1,31 @@
+{
+  "owner_address": "1AXtFYsyM5BnYmddH3VYXFYMT8xHRvNCjx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dannymick",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dannymick/0e351eb493a9fdd4f2cf385b3511dd5f",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dannymick",
+      "proof_url": "https://gist.github.com/dannymick/0e351eb493a9fdd4f2cf385b3511dd5f",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dannymick.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dannymick.id\"\n"
+}
