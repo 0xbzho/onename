@@ -1,0 +1,50 @@
+{
+  "owner_address": "1Kgp6oMUAUF8eFjfmnRjZ42ZWzbiCw6Jrz",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "alainesse",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/alainesse/status/740901319372902400",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "alainesse",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/alainesse/06c316f24f487d4fe72db6b4ee0c640c",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Gatineau"
+    },
+    "description": "Software Developer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Anthony Lainesse"
+  },
+  "verifications": [
+    {
+      "identifier": "alainesse",
+      "proof_url": "https://twitter.com/alainesse/status/740901319372902400",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "alainesse",
+      "proof_url": "https://gist.github.com/alainesse/06c316f24f487d4fe72db6b4ee0c640c",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN alainesse.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alainesse.id\"\n"
+}
