@@ -1,0 +1,41 @@
+{
+  "owner_address": "1DAStegz3wMYWYtfR5Vh1EBHkM2p2WE8Ka",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "https://www.facebook.com/christophe.blomme",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/christophe.blomme/posts/10210207286160923",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Belgium"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/chrisalive",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/chrisalive",
+        "name": "cover"
+      }
+    ],
+    "name": "Christophe Blomme"
+  },
+  "verifications": [
+    {
+      "identifier": "https://www.facebook.com/christophe.blomme",
+      "proof_url": "https://www.facebook.com/christophe.blomme/posts/10210207286160923",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN chrisalive.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/chrisalive.id\"\n"
+}
