@@ -1,0 +1,48 @@
+{
+  "owner_address": "16meQV72ZjvxS2QvxtDTpkXoPKN3fUkZLu",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "agnesdelmotte",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/agnesdelmotte/status/741314421444775936",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "paris"
+    },
+    "description": "art/web",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/agnesdelmotte",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/agnesdelmotte",
+        "name": "avatar"
+      }
+    ],
+    "name": "agnes delmotte",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.pearltrees.com/agnesdelmotte"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "agnesdelmotte",
+      "proof_url": "https://twitter.com/agnesdelmotte/status/741314421444775936",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN agnesdelmotte.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/agnesdelmotte.id\"\n"
+}
