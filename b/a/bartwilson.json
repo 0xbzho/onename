@@ -1,0 +1,37 @@
+{
+  "owner_address": "12jex8GPbuNW65ThXHstdVXViEpePPcXL4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bartwilson",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bartwilson/status/735329223326437381",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bartwilson",
+        "name": "avatar"
+      }
+    ],
+    "name": "Bart J Wilson"
+  },
+  "verifications": [
+    {
+      "identifier": "bartwilson",
+      "proof_url": "https://twitter.com/bartwilson/status/735329223326437381",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bartwilson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bartwilson.id\"\n"
+}
