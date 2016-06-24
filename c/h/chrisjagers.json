@@ -1,0 +1,50 @@
+{
+  "owner_address": "1FcuKYcg4RgGptsfbnxMAkD2wL9A5mJxkA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "chrisjagers",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/chrisjagers/status/741425697470722048",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "chrisjagers",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/chrisjagers/posts/10209232205544070",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https://hr.learningmachine.com/52d8acfc86584d0c40700631",
+        "service": "learning machine hr"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Chris Jagers"
+  },
+  "verifications": [
+    {
+      "identifier": "chrisjagers",
+      "proof_url": "https://twitter.com/chrisjagers/status/741425697470722048",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "chrisjagers",
+      "proof_url": "https://www.facebook.com/chrisjagers/posts/10209232205544070",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN chrisjagers.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/chrisjagers.id\"\n"
+}
