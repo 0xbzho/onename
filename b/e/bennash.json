@@ -1,0 +1,62 @@
+{
+  "owner_address": "14ppbLCFo3s6n2so6kXEj4zey6VRmndFAf",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bennash",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bennash/status/741057974282506240",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bennash",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bennash/posts/10155105112723306",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bennash",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bennash/08ae2c25bd0b513d0e03b7815b47e80d",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bennash",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bennash",
+      "proof_url": "https://twitter.com/bennash/status/741057974282506240",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bennash",
+      "proof_url": "https://www.facebook.com/bennash/posts/10155105112723306",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "bennash",
+      "proof_url": "https://gist.github.com/bennash/08ae2c25bd0b513d0e03b7815b47e80d",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bennash.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bennash.id\"\n"
+}
