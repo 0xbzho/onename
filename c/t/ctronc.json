@@ -1,0 +1,68 @@
+{
+  "owner_address": "13RsNcEhnFfWTF7kL8BQkx4KgfLRbSqTy7",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ctroncoa",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ctroncoa/status/740785009011871744",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cristobaltron",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/cristobaltron/posts/248084248889430",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ctronc",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ctronc/32ef4e2f21a058e9d4a236dcd01a847c",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "14hQEJVFPr3tzNw1mTpY3aUSgv67gUTEKb",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Valparaíso, Chile"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Cristóbal Troncoso A."
+  },
+  "verifications": [
+    {
+      "identifier": "ctroncoa",
+      "proof_url": "https://twitter.com/ctroncoa/status/740785009011871744",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "cristobaltron",
+      "proof_url": "https://www.facebook.com/cristobaltron/posts/248084248889430",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "ctronc",
+      "proof_url": "https://gist.github.com/ctronc/32ef4e2f21a058e9d4a236dcd01a847c",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ctronc.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ctronc.id\"\n"
+}
