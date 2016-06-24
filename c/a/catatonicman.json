@@ -1,1 +1,80 @@
-null
+{
+  "owner_address": "1Ba5C3i5gT14uxBX2WGaXd13GrPkpRhmPa",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "13FMm59kxU95odc6GHLiW9cvMpLgFVNW8U",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "99b165598cfcfc22643f0ad50ab91300f711c866",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/kyledillon/3d1124741b3d3a6489b33f22eb184650",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "CatatonicMan",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/CatatonicMan/status/717094410983329792",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "CatatonicMan",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/CatatonicMan/posts/10153887227401311",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "CatatonicMan",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/CatatonicMan/e603609e4bb66ba2d1e47f4bb08a1cd5",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hobbs, NM, USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/catatonicman",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Matthew Grieco"
+  },
+  "verifications": [
+    {
+      "identifier": "CatatonicMan",
+      "proof_url": "https://twitter.com/CatatonicMan/status/717094410983329792",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "CatatonicMan",
+      "proof_url": "https://www.facebook.com/CatatonicMan/posts/10153887227401311",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "CatatonicMan",
+      "proof_url": "https://gist.github.com/CatatonicMan/e603609e4bb66ba2d1e47f4bb08a1cd5",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN catatonicman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/catatonicman.id\"\n"
+}
