@@ -1,0 +1,54 @@
+{
+  "owner_address": "1FRdwcavzfiPSDE1oR64TNG4cxQbSEyEK9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "acostarodrigo",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/acostarodrigo/9e33e37f9b5556e118a9d03ce1499d19",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "RodrigoGAcosta",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RodrigoGAcosta/status/740574845986086912",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Buenos Aires"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/acosta_rodrigo",
+        "name": "avatar"
+      }
+    ],
+    "name": "Rodrigo Acosta"
+  },
+  "verifications": [
+    {
+      "identifier": "acostarodrigo",
+      "proof_url": "https://gist.github.com/acostarodrigo/9e33e37f9b5556e118a9d03ce1499d19",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "RodrigoGAcosta",
+      "proof_url": "https://twitter.com/RodrigoGAcosta/status/740574845986086912",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN acosta_rodrigo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/acosta_rodrigo.id\"\n"
+}
