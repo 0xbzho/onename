@@ -1,0 +1,63 @@
+{
+  "owner_address": "17MYN3mrmzA3hqpVjKLc8max3wxQXZQqjH",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "chrismytton",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/chrismytton/d832c82c86168d81cc480b1f99e584cd",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1KmYqJQkiMYf38a6EGT2rog5k14ZxHAvNm",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://www.chrismytton.uk/chrismytton.asc",
+        "identifier": "033C80B9A6037BA95127B208219D848548A1CF7A",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "chrismytton",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/chrismytton/status/741529173278240768",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Chris Mytton",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.chrismytton.uk/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "chrismytton",
+      "proof_url": "https://gist.github.com/chrismytton/d832c82c86168d81cc480b1f99e584cd",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "chrismytton",
+      "proof_url": "https://twitter.com/chrismytton/status/741529173278240768",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN chrismytton.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/chrismytton.id\"\n"
+}
