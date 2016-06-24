@@ -1,0 +1,68 @@
+{
+  "owner_address": "129BLipdn9P9wL8KncCjPva14Bf8Szs2MB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dmassiani",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dmassiani/status/741287854677086208",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dmassiani",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dmassiani/912137582c9934bab1b246c77cfcae36",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "profile.php?id=1087374224",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/permalink.php?story_fbid=10206685693636134&id=1087374224",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nantes"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "dmassiani",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.davidmassiani.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dmassiani",
+      "proof_url": "https://twitter.com/dmassiani/status/741287854677086208",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "dmassiani",
+      "proof_url": "https://gist.github.com/dmassiani/912137582c9934bab1b246c77cfcae36",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "profile.php?id=1087374224",
+      "proof_url": "https://www.facebook.com/permalink.php?story_fbid=10206685693636134&id=1087374224",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN davidmassiani.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/davidmassiani.id\"\n"
+}
