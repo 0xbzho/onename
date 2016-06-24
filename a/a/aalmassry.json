@@ -1,0 +1,60 @@
+{
+  "owner_address": "19xhsimqmMJKWxysF6irxvpUjUQXxkDo5b",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "aalmassry",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/aalmassry/status/744385561696288768",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1BsNeE1c5mNTEEBU2nVMqE5Qt3HBUfTGKZ",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "almaassry",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/almaassry/posts/10153734217488583",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cincinnati, Ohio"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/aalmassry",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/aalmassry",
+        "name": "avatar"
+      }
+    ],
+    "name": "Ahmed Al-Massry"
+  },
+  "verifications": [
+    {
+      "identifier": "aalmassry",
+      "proof_url": "https://twitter.com/aalmassry/status/744385561696288768",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "almaassry",
+      "proof_url": "https://www.facebook.com/almaassry/posts/10153734217488583",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN aalmassry.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/aalmassry.id\"\n"
+}
