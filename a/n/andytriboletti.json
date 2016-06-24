@@ -1,0 +1,74 @@
+{
+  "owner_address": "17mJtAx35L28WbRpaoLAwA58FaendXLwwi",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "andytriboletti",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/andytriboletti/status/740678626467819520",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "andytriboletti",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/andytriboletti/posts/10102767382809479",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "andytriboletti",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/andytriboletti/bbf152b5669ee5928bbc54b906b6ab7b",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Jersey City NJ, USA"
+    },
+    "description": "Android, iOS and Facebook app developer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/andytriboletti",
+        "name": "avatar"
+      }
+    ],
+    "name": "Andy Triboletti",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://greenrobot.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "andytriboletti",
+      "proof_url": "https://twitter.com/andytriboletti/status/740678626467819520",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "andytriboletti",
+      "proof_url": "https://www.facebook.com/andytriboletti/posts/10102767382809479",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "andytriboletti",
+      "proof_url": "https://gist.github.com/andytriboletti/bbf152b5669ee5928bbc54b906b6ab7b",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN andytriboletti.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/andytriboletti.id\"\n"
+}
