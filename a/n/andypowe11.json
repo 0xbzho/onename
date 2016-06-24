@@ -1,37 +1,60 @@
 {
   "owner_address": "1H7UUMRY2P2DGbBZwdrGWkJHYs5RUvxqzw",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/andypowe11"
-    },
-    "bio": "cloudy, with a chance of cycling",
-    "bitcoin": {
-      "address": "1Du5sB44YMceaY87tVnffQeYtQDmxmQfnT"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/IKM.jpeg"
-    },
-    "location": {
-      "formatted": "Bath, UK"
-    },
-    "name": {
-      "formatted": "Andy Powell"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/andypowe11/status/534482017946042368"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "andypowe11",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "andypowe11"
+      {
+        "@type": "Account",
+        "identifier": "1Du5sB44YMceaY87tVnffQeYtQDmxmQfnT",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "andypowe11",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/andypowe11/c3f558ee7b0561086e28637770c270ae",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bath, UK"
     },
-    "v": "0.2",
-    "website": "http://about.me/andypowe11"
+    "description": "cloudy, with a chance of cycling",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/andypowe11",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Andy Powell",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://about.me/andypowe11"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "andypowe11",
-      "proof_url": "https://twitter.com/andypowe11/status/534482017946042368",
-      "service": "twitter",
+      "proof_url": "https://gist.github.com/andypowe11/c3f558ee7b0561086e28637770c270ae",
+      "service": "github",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN andypowe11.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/andypowe11.id\"\n"
 }
