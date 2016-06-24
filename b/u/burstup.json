@@ -1,0 +1,43 @@
+{
+  "owner_address": "14ukrU2tAhfQZXMNGRM8L3y41Gk9VNcPE2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "burstup",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Burstup/status/741038439202754561",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/burstup",
+        "name": "avatar"
+      }
+    ],
+    "name": "Burstup",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://fm4.orf.at/burstup"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "burstup",
+      "proof_url": "https://twitter.com/Burstup/status/741038439202754561",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN burstup.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/burstup.id\"\n"
+}
