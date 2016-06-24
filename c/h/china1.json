@@ -1,0 +1,50 @@
+{
+  "owner_address": "1Jtn7ZXpZEbmAPVWT5s8H8gEeECtxvDXb2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "chinanumba111",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/chinanumba111/status/738605636619898882",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "chinanumba1",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/chinanumba1/a777e757e5bde600425bb5fed3ad7f9a",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "China"
+    },
+    "description": "Bitcoin sourcing agent, direct sales, custom making in China",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Chinanumba1"
+  },
+  "verifications": [
+    {
+      "identifier": "chinanumba111",
+      "proof_url": "https://twitter.com/chinanumba111/status/738605636619898882",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "chinanumba1",
+      "proof_url": "https://gist.github.com/chinanumba1/a777e757e5bde600425bb5fed3ad7f9a",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN china1.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/china1.id\"\n"
+}
