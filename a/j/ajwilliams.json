@@ -1,0 +1,61 @@
+{
+  "owner_address": "1M2FYxMdWb5ExWCzMY8KWCnYnNUiVSC5t2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ajwms",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ajwms/status/740884668946481152",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ajwms",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ajwms/e1aa27d00c9bd76ddf7e9d7d5f4a00a3",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Tennessee, USA"
+    },
+    "description": "A techy-feely kinda girl",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ajwilliams",
+        "name": "avatar"
+      }
+    ],
+    "name": "Audrey J Williams",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://audreyjwilliams.info"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ajwms",
+      "proof_url": "https://twitter.com/ajwms/status/740884668946481152",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ajwms",
+      "proof_url": "https://gist.github.com/ajwms/e1aa27d00c9bd76ddf7e9d7d5f4a00a3",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ajwilliams.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ajwilliams.id\"\n"
+}
