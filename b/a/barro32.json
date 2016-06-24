@@ -1,0 +1,51 @@
+{
+  "owner_address": "1FPYnHgEBKqNduYGqZgJquntoFcYPZHgfy",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "⁠⁠⁠1AqvPF9tXtDjcijok3sHSt2PLzQkgmKN5J",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "barro32",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/barro32/status/741182258615324672",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "barro32",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/barro32/a2f8f24bd696cd1a9997b4b63c3118a7",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "barro"
+  },
+  "verifications": [
+    {
+      "identifier": "barro32",
+      "proof_url": "https://twitter.com/barro32/status/741182258615324672",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "barro32",
+      "proof_url": "https://gist.github.com/barro32/a2f8f24bd696cd1a9997b4b63c3118a7",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN barro32.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/barro32.id\"\n"
+}
