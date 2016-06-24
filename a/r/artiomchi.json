@@ -1,0 +1,51 @@
+{
+  "owner_address": "1Db6jGdtaotXheAkVMUxSDM7CD4fHniRmA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "artiom_chi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/artiom_chi/status/740774980225511424",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "artiomchi",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/artiomchi/5214f7f44dff375f7e0da98856128884",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1B6Y4jSTwv3noFPNiXgGKiHFyii3amtzpY",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Artiom Chilaru"
+  },
+  "verifications": [
+    {
+      "identifier": "artiom_chi",
+      "proof_url": "https://twitter.com/artiom_chi/status/740774980225511424",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "artiomchi",
+      "proof_url": "https://gist.github.com/artiomchi/5214f7f44dff375f7e0da98856128884",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN artiomchi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/artiomchi.id\"\n"
+}
