@@ -1,0 +1,68 @@
+{
+  "owner_address": "177wBR93rcThWkknED3Vek43UJDuThpvn9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ChrisMorrisOrg",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ChrisMorrisOrg/acb38dfc025ea98ecf8692011ce418de",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ChrisMorrisOrg",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ChrisMorrisOrg/status/741462636160815104",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ChrisMorrisOrg",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ChrisMorrisOrg/posts/603436523159012",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Melbourne, Australia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Chris Morris",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://chrismorris.org"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ChrisMorrisOrg",
+      "proof_url": "https://gist.github.com/ChrisMorrisOrg/acb38dfc025ea98ecf8692011ce418de",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "ChrisMorrisOrg",
+      "proof_url": "https://twitter.com/ChrisMorrisOrg/status/741462636160815104",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ChrisMorrisOrg",
+      "proof_url": "https://www.facebook.com/ChrisMorrisOrg/posts/603436523159012",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN chrismorrisorg.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/chrismorrisorg.id\"\n"
+}
