@@ -1,0 +1,55 @@
+{
+  "owner_address": "1FqYhmmT2dZzc27qgM6B7VmH4LyMjyjTDj",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cervantescedric",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/CervantesCedric/status/741004637050966016",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "altais",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/altais/02d214b561f8914a53a74b4f8ed79121",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1CwhGnJ5N4r5Lu6GAjM4EcJ1Q594UtvhXL",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Cédric Cervantes"
+  },
+  "verifications": [
+    {
+      "identifier": "cervantescedric",
+      "proof_url": "https://twitter.com/CervantesCedric/status/741004637050966016",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "altais",
+      "proof_url": "https://gist.github.com/altais/02d214b561f8914a53a74b4f8ed79121",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN altais.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/altais.id\"\n"
+}
