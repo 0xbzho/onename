@@ -1,0 +1,73 @@
+{
+  "owner_address": "1AXq3Uks3GFSiCjQkZNdFGwMvJJCJzHzer",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1EtXqbj8WD3SYLKc2avdQ6Lx7rzKwZM3dS",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "atmazzerexe",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/atmazzerexe/status/741346277569372160",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "atmazzerexe",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/atmazzerexe/14165e43f25bb7bbc8e7a1d024e26fdb",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "atmazzerexe",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/atmazzerexe/posts/10206398396745163",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bogor, Indonesia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/atmazzerexe",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/atmazzerexe",
+        "name": "cover"
+      }
+    ],
+    "name": "Muhamad Rizki Prawiraatmaja"
+  },
+  "verifications": [
+    {
+      "identifier": "atmazzerexe",
+      "proof_url": "https://twitter.com/atmazzerexe/status/741346277569372160",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "atmazzerexe",
+      "proof_url": "https://gist.github.com/atmazzerexe/14165e43f25bb7bbc8e7a1d024e26fdb",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "atmazzerexe",
+      "proof_url": "https://www.facebook.com/atmazzerexe/posts/10206398396745163",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN atmazzerexe.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/atmazzerexe.id\"\n"
+}
