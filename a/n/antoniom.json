@@ -1,0 +1,54 @@
+{
+  "owner_address": "1AXwVwjzJWUbg24GGDhUY5ADAGJ5YdQuw2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "52010905a59af24ebef14e7b2f179736.git",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/52010905a59af24ebef14e7b2f179736.git",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "abalasas",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/abalasas/status/741301286818185216",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Thessaloniki, GR"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/antoniom",
+        "name": "avatar"
+      }
+    ],
+    "name": "Antonis Balasas"
+  },
+  "verifications": [
+    {
+      "identifier": "52010905a59af24ebef14e7b2f179736.git",
+      "proof_url": "https://gist.github.com/52010905a59af24ebef14e7b2f179736.git",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "abalasas",
+      "proof_url": "https://twitter.com/abalasas/status/741301286818185216",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN antoniom.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/antoniom.id\"\n"
+}
