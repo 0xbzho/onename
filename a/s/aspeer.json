@@ -1,0 +1,49 @@
+{
+  "owner_address": "1EqM4V1mKMKzW6Bh5YbSUJJg3XYbHYZ8XC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "17JBQVTtBe1AZJfpkGY3qaHypz451gFpew",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "hkp://pool.sks-keyservers.net",
+        "identifier": "3FD56504B749A21DC42947D49D203364CD20052D",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Ays388",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Ays388/status/741008376373612544",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/aspeer",
+        "name": "avatar"
+      }
+    ],
+    "name": "Arthur Speer"
+  },
+  "verifications": [
+    {
+      "identifier": "Ays388",
+      "proof_url": "https://twitter.com/Ays388/status/741008376373612544",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN aspeer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/aspeer.id\"\n"
+}
