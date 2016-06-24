@@ -1,0 +1,44 @@
+{
+  "owner_address": "1LR9pL3Hj9En9yF6ucbqucPAXa9ReMn8qU",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "angelikikk",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/angelikikk/posts/10154206731440350",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Angelikh_K",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Angelikh_K/status/741162394144112641",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "angelikikk",
+      "proof_url": "https://www.facebook.com/angelikikk/posts/10154206731440350",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "Angelikh_K",
+      "proof_url": "https://twitter.com/Angelikh_K/status/741162394144112641",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN angeliki.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/angeliki.id\"\n"
+}
