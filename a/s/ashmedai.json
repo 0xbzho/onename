@@ -1,13 +1,24 @@
 {
   "owner_address": "1E2ebZJB4aTtZ7J5ec61Wg2vkdmtPP4qHL",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/ic1.jpeg"
-    },
-    "name": {
-      "formatted": "Ashmedai Samael"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1EspgcSnzmAgi2bbgMkLFiLHGLshg2Qq6W",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ashmedai Samael"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN ashmedai.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ashmedai.id\"\n"
 }
