@@ -1,0 +1,37 @@
+{
+  "owner_address": "1SPy24ySonwYbHfVviykXC6b6dWu8dd1P",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "afrancisboeuf",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/afrancisboeuf/status/741695056252305408",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/afrancisboeuf",
+        "name": "avatar"
+      }
+    ],
+    "name": "augustin francis-boeuf"
+  },
+  "verifications": [
+    {
+      "identifier": "afrancisboeuf",
+      "proof_url": "https://twitter.com/afrancisboeuf/status/741695056252305408",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN afrancisboeuf.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/afrancisboeuf.id\"\n"
+}
