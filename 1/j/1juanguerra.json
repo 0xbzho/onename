@@ -1,0 +1,62 @@
+{
+  "owner_address": "19fR2AqJUufRhHHtDPdd2g5cCmNaGagoas",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bucs4life",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bucs4life/status/742709509538385920",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1juanguerra",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/1juanguerra/bc41819247011fec2feba272f7925490",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "aloha50juan",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/aloha50juan/posts/10209443971365765",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/1juanguerra",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bucs4life",
+      "proof_url": "https://twitter.com/bucs4life/status/742709509538385920",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "1juanguerra",
+      "proof_url": "https://gist.github.com/1juanguerra/bc41819247011fec2feba272f7925490",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "aloha50juan",
+      "proof_url": "https://www.facebook.com/aloha50juan/posts/10209443971365765",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN 1juanguerra.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/1juanguerra.id\"\n"
+}
