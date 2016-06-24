@@ -1,73 +1,58 @@
 {
   "owner_address": "1JeS6TyC3L4A7CnSoTGgrmURP5kA49NkZz",
   "profile": {
-    "angellist": {
-      "username": "borismann"
-    },
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/bmann"
-    },
-    "bio": "Web entrepreneur. Vancouver. Startups. Carnivore. Infovore. Managing director @FullStackDotCa",
-    "bitcoin": {
-      "address": "13d4H2Qj4djzsKWXbY98jCdGWjijcU7bZa"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/bmann"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/bmann/posts/10154911445075438"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bmann",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "bmann"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/bmann/ba40704d5c069a36c605"
+      {
+        "@type": "Account",
+        "identifier": "bmann",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "bmann"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/bmann"
-    },
-    "instagram": {
-      "username": "bmann"
-    },
-    "linkedin": {
-      "url": "http://www.linkedin.com/in/boris"
-    },
-    "location": {
-      "formatted": "Vancouver, BC, Canada"
-    },
-    "name": {
-      "formatted": "Boris Mann"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/bmann/status/526440520826904578"
+      {
+        "@type": "Account",
+        "identifier": "bmann",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "bmann"
+      {
+        "@type": "Account",
+        "identifier": "13d4H2Qj4djzsKWXbY98jCdGWjijcU7bZa",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Vancouver, BC, Canada"
     },
-    "v": "0.2",
-    "website": "http://blog.bmannconsulting.com"
+    "description": "Product Consulting & Business Design+Ops. VR/AR. Future of web/work/venture. Infovore. Vancouver. Startups.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bmann",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bmann",
+        "name": "cover"
+      }
+    ],
+    "name": "Boris Mann",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.bmannconsulting.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "bmann",
-      "proof_url": "https://gist.github.com/bmann/ba40704d5c069a36c605",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "bmann",
-      "proof_url": "https://twitter.com/bmann/status/526440520826904578",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "bmann",
-      "proof_url": "https://facebook.com/bmann/posts/10154911445075438",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN bmann.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bmann.id\"\n"
 }
