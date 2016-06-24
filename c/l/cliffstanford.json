@@ -1,0 +1,86 @@
+{
+  "owner_address": "1Lhx9N6pwyWqvc9f4NPhTGpzMeEdxVbrH9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "10c2e86ff88333dd58fcda580bd6ae676859a072",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/brachetti/bc05f4646f975f3bb99c9475224c3b4d",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "CliffStanford",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/CliffStanford/posts/10154817185528238",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "CliffStanford",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/CliffStanford/status/741608347389054976",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "CliffS",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/CliffS/1ec504fdd6a80995828b8bc8d57d4adc",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "15RzSqQC5NLwmNQnH1T6LzsdAxaUwc4FbB",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mijas, Spain"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cliffstanford",
+        "name": "avatar"
+      }
+    ],
+    "name": "Cliff Stanford",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://en.wikipedia.org/wiki/Cliff_Stanford"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "CliffStanford",
+      "proof_url": "https://www.facebook.com/CliffStanford/posts/10154817185528238",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "CliffStanford",
+      "proof_url": "https://twitter.com/CliffStanford/status/741608347389054976",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "CliffS",
+      "proof_url": "https://gist.github.com/CliffS/1ec504fdd6a80995828b8bc8d57d4adc",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN cliffstanford.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cliffstanford.id\"\n"
+}
