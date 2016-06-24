@@ -1,0 +1,36 @@
+{
+  "owner_address": "14fbPKwWRi26itpehKS92rz8b95cdXr5YR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ff9c16480f0891acb1c5d519e18a2adc2e778300",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "3dmagicgr",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/3dmagicgr/posts/1728920504028627",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "3dmagicgr",
+      "proof_url": "https://www.facebook.com/3dmagicgr/posts/1728920504028627",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN 3dmagic.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/3dmagic.id\"\n"
+}
