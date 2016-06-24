@@ -1,0 +1,84 @@
+{
+  "owner_address": "1EgrWGtP3gbH1AzsvfBJVETKdG1SPvCrz6",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "64b33afa94e830fd48784442899851bd524a144f",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/ahoehn",
+        "identifier": "B572203FDE73159424EA594BF741058BD448651B",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hoehn.alexander",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/hoehn.alexander/posts/1016977541714395",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "alexhoehn",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/alexhoehn/status/739947219219025920",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1QCz8p6BrLNFiBV24xmd69z1ZU86LUPZjy",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hoehni",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/hoehni/9a3ebbfa0c8111f895edf61752ff5d19#file-gistfile1-txt",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Auf der Welt"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ahoehn",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ahoehn",
+        "name": "cover"
+      }
+    ],
+    "name": "Alexander Höhn"
+  },
+  "verifications": [
+    {
+      "identifier": "hoehn.alexander",
+      "proof_url": "https://www.facebook.com/hoehn.alexander/posts/1016977541714395",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "alexhoehn",
+      "proof_url": "https://twitter.com/alexhoehn/status/739947219219025920",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "hoehni",
+      "proof_url": "https://gist.github.com/hoehni/9a3ebbfa0c8111f895edf61752ff5d19#file-gistfile1-txt",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ahoehn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ahoehn.id\"\n"
+}
