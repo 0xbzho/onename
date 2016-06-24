@@ -1,0 +1,38 @@
+{
+  "owner_address": "13thsKRCHcyhPQ9vgj96Yye4N6G5xL3ryn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "18Xqn9ffroLxZ6zSXCpBZDnbuRQwU3eisH",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1d4f95444002bcfeea3162c6ed8f977f6f8dd4b0",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "At the Bazaar"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bitstuff",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bitstuff",
+        "name": "cover"
+      }
+    ],
+    "name": "Bit Stuff"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN bitstuff.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bitstuff.id\"\n"
+}
