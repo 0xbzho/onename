@@ -1,0 +1,44 @@
+{
+  "owner_address": "1Pzo8xshLz22jc3xWkCm1fKZmLfp8nZqCr",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "benoparanoid",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/benoparanoid/status/737217004059271168",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "maundrell.beno",
+        "proofType": "http",
+        "proofUrl": "https://mobile.facebook.com/story.php?story_fbid=1142886865775707&id=100001632126322",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "benoparanoid",
+      "proof_url": "https://twitter.com/benoparanoid/status/737217004059271168",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "maundrell.beno",
+      "proof_url": "https://mobile.facebook.com/story.php?story_fbid=1142886865775707&id=100001632126322",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN benomaundrell27.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/benomaundrell27.id\"\n"
+}
