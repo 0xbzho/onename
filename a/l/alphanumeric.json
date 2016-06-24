@@ -1,0 +1,71 @@
+{
+  "owner_address": "1AvKgrXTjazfkyw8n19ERZ95Cx3FGNmJJk",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1EgWUBPvT8CTFaP4EyxwvBQpo4xM1pQY1D",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "enz0_matrix",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/enz0_matrix/status/737353497021186048",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "alphanumeric0101",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/alphanumeric0101/63b663a84100e50f54b6a2dba13d148f",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/alphanumeric",
+        "identifier": null,
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "a9e08c3256fd2980516e78226430757900e8a4cd",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Canada"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/alphanumeric",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/alphanumeric",
+        "name": "cover"
+      }
+    ],
+    "name": "Enzo Matrix"
+  },
+  "verifications": [
+    {
+      "identifier": "enz0_matrix",
+      "proof_url": "https://twitter.com/enz0_matrix/status/737353497021186048",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "alphanumeric0101",
+      "proof_url": "https://gist.github.com/alphanumeric0101/63b663a84100e50f54b6a2dba13d148f",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN alphanumeric.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alphanumeric.id\"\n"
+}
