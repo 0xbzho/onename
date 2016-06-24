@@ -1,0 +1,36 @@
+{
+  "owner_address": "1BP6hfwzWz8Cav4STUbNgdFnKZe9nWpAE7",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "brantbeckta",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BrantBeckta/status/741068550819844096",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kitchener, Ontario"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Brant Beckta"
+  },
+  "verifications": [
+    {
+      "identifier": "brantbeckta",
+      "proof_url": "https://twitter.com/BrantBeckta/status/741068550819844096",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN brantb.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/brantb.id\"\n"
+}
