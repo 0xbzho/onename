@@ -1,0 +1,55 @@
+{
+  "owner_address": "1K2cKaL3VZrxNYbD8G6nnpNEJd9N4SSBV9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "asperger514",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/asperger514/status/745443330020937729",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1NZucKzksxFFQvCxVDpKGiVM14bbDhcukD",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "asperger514",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/Asperger514/posts/876483535811686",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Montreal"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Michael"
+  },
+  "verifications": [
+    {
+      "identifier": "asperger514",
+      "proof_url": "https://twitter.com/asperger514/status/745443330020937729",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "asperger514",
+      "proof_url": "https://www.facebook.com/Asperger514/posts/876483535811686",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN asperger514.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/asperger514.id\"\n"
+}
