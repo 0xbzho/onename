@@ -1,0 +1,57 @@
+{
+  "owner_address": "19fnkvTKMpiWeY1CAiYD2aJm7J7EoRPWpQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "conors10",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/conors10/status/738309687490138112",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "conor10",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/conor10/151fbbcc1ff5a0a1d354066eace0da8e",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "conor.svensson",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/conor.svensson/posts/10156919087800176",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "conors10",
+      "proof_url": "https://twitter.com/conors10/status/738309687490138112",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "conor10",
+      "proof_url": "https://gist.github.com/conor10/151fbbcc1ff5a0a1d354066eace0da8e",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "conor.svensson",
+      "proof_url": "https://www.facebook.com/conor.svensson/posts/10156919087800176",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN conor10.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/conor10.id\"\n"
+}
