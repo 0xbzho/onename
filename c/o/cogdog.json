@@ -1,0 +1,61 @@
+{
+  "owner_address": "1PVL9mQn1GZ3LwnxNo3spg2tYomvbC1Mz",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cogdog",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cogdog/status/741369833074237440",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cogdog",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/cogdog/bb8fcbc0f9d4b71c728d4544aaf59797",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Strawberry, AZ"
+    },
+    "description": "barks about and plays in the internet, has shots",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cogdog",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/cogdog",
+        "name": "cover"
+      }
+    ],
+    "name": "Alan Levine",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://cog.dog"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "cogdog",
+      "proof_url": "https://twitter.com/cogdog/status/741369833074237440",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "cogdog",
+      "proof_url": "https://gist.github.com/cogdog/bb8fcbc0f9d4b71c728d4544aaf59797",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN cogdog.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cogdog.id\"\n"
+}
