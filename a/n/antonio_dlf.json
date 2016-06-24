@@ -1,0 +1,36 @@
+{
+  "owner_address": "1EhNgVgwE4WKCTN5unQDCYTtVURejFVMyp",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Landstand3r",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Landstand3r/status/741701090903654401",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seattle, WA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Antonio de la Fuente"
+  },
+  "verifications": [
+    {
+      "identifier": "Landstand3r",
+      "proof_url": "https://twitter.com/Landstand3r/status/741701090903654401",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN antonio_dlf.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/antonio_dlf.id\"\n"
+}
