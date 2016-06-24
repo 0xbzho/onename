@@ -1,0 +1,49 @@
+{
+  "owner_address": "1DzH6oHjuaipfp1cEafA7FaH3Fs4b4Ta2r",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/f006668ad3bc5418495eacf2ed2e3252",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "danr_wales",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/danr_wales/status/740785500743667712",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Wales"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Daniel Rainbird"
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/f006668ad3bc5418495eacf2ed2e3252",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "danr_wales",
+      "proof_url": "https://twitter.com/danr_wales/status/740785500743667712",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN danrainbird.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/danrainbird.id\"\n"
+}
