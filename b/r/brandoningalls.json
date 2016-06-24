@@ -1,0 +1,53 @@
+{
+  "owner_address": "1MegA84jVDQA9A9x9GqnQZNCvMpXryj3E",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1AC1xAGAyQ58SGA1CrfdTvqirckkdB3ihU",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "BrandonIngalls0",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "BrandonIngalls",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/BrandonIngalls/48362f6d60178eea60f632bbee62f51c",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/bi/key.asc",
+        "identifier": "7462593A58B93BBF2573A9CC9EE26A433CA32060",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/brandoningalls",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/brandoningalls",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "BrandonIngalls",
+      "proof_url": "https://gist.github.com/BrandonIngalls/48362f6d60178eea60f632bbee62f51c",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN brandoningalls.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/brandoningalls.id\"\n"
+}
