@@ -1,0 +1,31 @@
+{
+  "owner_address": "19tD82QFs1pKmmC6pEZ8hi3rDvF9tiR3qy",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "caferace",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/caferace/status/743969459224739841",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "caferace",
+      "proof_url": "https://twitter.com/caferace/status/743969459224739841",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN caferace.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/caferace.id\"\n"
+}
