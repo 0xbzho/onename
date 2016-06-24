@@ -1,0 +1,74 @@
+{
+  "owner_address": "16uKRA9VNN3zuvY16TBr1e2uLwHbHtsWUR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "chrismetcalf",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/chrismetcalf/status/740711884190420992",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "chrismetcalf",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/chrismetcalf/posts/10101072992466339?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "chrismetcalf",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/chrismetcalf/f033fc0c4bf4b52b5a34b545782907c8",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seattle, WA"
+    },
+    "description": "\"Specialization is for insects\" -- Lazarus Long",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/chrismetcalf",
+        "name": "avatar"
+      }
+    ],
+    "name": "Chris Metcalf",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://chrismetcalf.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "chrismetcalf",
+      "proof_url": "https://twitter.com/chrismetcalf/status/740711884190420992",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "chrismetcalf",
+      "proof_url": "https://www.facebook.com/chrismetcalf/posts/10101072992466339?pnref=story",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "chrismetcalf",
+      "proof_url": "https://gist.github.com/chrismetcalf/f033fc0c4bf4b52b5a34b545782907c8",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN chrismetcalf.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/chrismetcalf.id\"\n"
+}
