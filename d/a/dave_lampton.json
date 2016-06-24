@@ -1,0 +1,74 @@
+{
+  "owner_address": "18KUByT36C7v9MbxtAdiBe6TZDDXqZhQRx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/dave_lampton",
+        "identifier": "dave.lampton@gmail.com",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ColdCold",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ColdCold/857538a8d31685f1d11ce5a0f55eeeff",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "DaveLampton",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/DaveLampton/posts/10155008459043636",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dave_lampton",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dave_lampton/status/743999740660977664",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco, CA"
+    },
+    "description": "software developer, entrepreneur, writer, musician, electrical engineer, co-founder #Rhapsody Digital Music Service, progressive green Democrat, paronomasiac",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dave_lampton",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/dave_lampton",
+        "name": "cover"
+      }
+    ],
+    "name": "Dave Lampton"
+  },
+  "verifications": [
+    {
+      "identifier": "ColdCold",
+      "proof_url": "https://gist.github.com/ColdCold/857538a8d31685f1d11ce5a0f55eeeff",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "DaveLampton",
+      "proof_url": "https://www.facebook.com/DaveLampton/posts/10155008459043636",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "dave_lampton",
+      "proof_url": "https://twitter.com/dave_lampton/status/743999740660977664",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dave_lampton.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dave_lampton.id\"\n"
+}
