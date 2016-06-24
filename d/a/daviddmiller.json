@@ -1,0 +1,32 @@
+{
+  "owner_address": "1M2b1N5sCuFRAjHJ9aFGv663mYXiHWhUnZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "manglematter",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/manglematter/status/741822970084098048",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "David Miller"
+  },
+  "verifications": [
+    {
+      "identifier": "manglematter",
+      "proof_url": "https://twitter.com/manglematter/status/741822970084098048",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN daviddmiller.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/daviddmiller.id\"\n"
+}
