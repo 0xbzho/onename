@@ -1,10 +1,21 @@
 {
   "owner_address": "1FKmjaCTweNN9N4YEV5nbKgN69jQvdnpQW",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/rv1.jpeg"
+    "@type": "Person",
+    "account": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Torrance, CA"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Brett Boston"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN bboston1.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bboston1.id\"\n"
 }
