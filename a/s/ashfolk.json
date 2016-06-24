@@ -1,0 +1,47 @@
+{
+  "owner_address": "12C5mY5asYcEZ7Q8gL3HPXTM78omMpy6Ea",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ASHFOLK",
+        "proofType": "http",
+        "proofUrl": "https://mobile.twitter.com/ASHFOLK/status/740883610933174273",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "California, United States of America"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ashfolk",
+        "name": "avatar"
+      }
+    ],
+    "name": "ASHFOLK",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.ashfolk.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ASHFOLK",
+      "proof_url": "https://mobile.twitter.com/ASHFOLK/status/740883610933174273",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ashfolk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ashfolk.id\"\n"
+}
