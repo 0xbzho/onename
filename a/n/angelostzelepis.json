@@ -1,0 +1,44 @@
+{
+  "owner_address": "1EnkJp3CK2xEJgMa1WQDr1o3xLBFXD6rG2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "angelostzelepis",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/AngelosTzelepis/status/741336429494697985",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "angelostzelepis",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/angelostzelepis/posts/10207859443582442",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "angelostzelepis",
+      "proof_url": "https://twitter.com/AngelosTzelepis/status/741336429494697985",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "angelostzelepis",
+      "proof_url": "https://www.facebook.com/angelostzelepis/posts/10207859443582442",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN angelostzelepis.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/angelostzelepis.id\"\n"
+}
