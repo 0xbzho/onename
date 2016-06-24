@@ -1,0 +1,42 @@
+{
+  "owner_address": "15jHjuFVQY4N8HFp9Gt4JaLJa4XoEJgHsD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "iamadamleeb",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/iamadamleeb/status/740925225509003264",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Adam Leeb",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://adamleeb.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "iamadamleeb",
+      "proof_url": "https://twitter.com/iamadamleeb/status/740925225509003264",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN adamleeb.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/adamleeb.id\"\n"
+}
