@@ -1,0 +1,42 @@
+{
+  "owner_address": "1GEH132P481kCE6dCtDwByT7zsiTw9fmkA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dchetson",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dchetson/status/735457397964148737",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Raleigh, NC"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Damon Chetson",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.chetson.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dchetson",
+      "proof_url": "https://twitter.com/dchetson/status/735457397964148737",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dchetson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dchetson.id\"\n"
+}
