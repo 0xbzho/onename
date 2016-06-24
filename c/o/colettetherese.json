@@ -1,0 +1,69 @@
+{
+  "owner_address": "1AstdZQH4iqxYJG2PjhCiWaPWTK1o9uUrZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Colette_Therese",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Colette_Therese/status/742600664287612929",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "colettetherese1",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/colettetherese1/21897ed88b7a24336c0bfe507dc2dbc2",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "colecash",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "colette.therese1",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/colette.therese1/posts/10153774326681902",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/colettetherese",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/colettetherese",
+        "name": "avatar"
+      }
+    ],
+    "name": "Colette Therese"
+  },
+  "verifications": [
+    {
+      "identifier": "Colette_Therese",
+      "proof_url": "https://twitter.com/Colette_Therese/status/742600664287612929",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "colettetherese1",
+      "proof_url": "https://gist.github.com/colettetherese1/21897ed88b7a24336c0bfe507dc2dbc2",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "colette.therese1",
+      "proof_url": "https://www.facebook.com/colette.therese1/posts/10153774326681902",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN colettetherese.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/colettetherese.id\"\n"
+}
