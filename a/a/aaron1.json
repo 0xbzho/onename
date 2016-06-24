@@ -1,0 +1,80 @@
+{
+  "owner_address": "1CcvxxepwZW6bY9Cg6HjMrbgVwCtnjfSR5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "AaronCasillas",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/AaronCasillas/status/740974676269223936",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "17Tzc3JAWTAjM9m9ZPq1UQXxWBKcwWZxd",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "aaronanthony.casillas",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/aaronanthony.casillas/posts/1740572329550737",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "AaronCas",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/AaronCas/51c2fcf7e3c4249a9adaddfefcad03fd",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ddcf3bf76253b6026e36d440c69385e7e9437ed4",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/PrasSylvain/status/741281556124315648",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Luis Obispo, CA USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/aaron1",
+        "name": "avatar"
+      }
+    ],
+    "name": "Aaron Casillas"
+  },
+  "verifications": [
+    {
+      "identifier": "AaronCasillas",
+      "proof_url": "https://twitter.com/AaronCasillas/status/740974676269223936",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "aaronanthony.casillas",
+      "proof_url": "https://www.facebook.com/aaronanthony.casillas/posts/1740572329550737",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "AaronCas",
+      "proof_url": "https://gist.github.com/AaronCas/51c2fcf7e3c4249a9adaddfefcad03fd",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN aaron1.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/aaron1.id\"\n"
+}
