@@ -1,0 +1,38 @@
+{
+  "owner_address": "1PohLfa9iPYXcFM9JUchmZFt9y6srFdpW2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "davchana",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/davchana/status/740510282519285761",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Dav Chana",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://DavChana.com/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "davchana",
+      "proof_url": "https://twitter.com/davchana/status/740510282519285761",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN davchana.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/davchana.id\"\n"
+}
