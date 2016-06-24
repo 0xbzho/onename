@@ -1,0 +1,42 @@
+{
+  "owner_address": "131Zu2hgpeXpDgpJ49k7KknCi1nhCWqdnb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Ataccounting",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ataccounting/status/740678724677476353",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Herts,UK"
+    },
+    "description": "He's just this guy you know?",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ataccounting",
+        "name": "avatar"
+      }
+    ],
+    "name": "Andrew"
+  },
+  "verifications": [
+    {
+      "identifier": "Ataccounting",
+      "proof_url": "https://twitter.com/ataccounting/status/740678724677476353",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ataccounting.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ataccounting.id\"\n"
+}
