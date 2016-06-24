@@ -1,0 +1,73 @@
+{
+  "owner_address": "1B2f7ACNJ6CvZzcDTfKthLFXToAHtCaiPk",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "coolcrisys",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/CoolCriSyS/status/740889832520617984",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1Fx9mQGGkYog3oUYYGhDRZJK4t5SXoHGut",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "CoolCriSyS",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/CoolCriSyS/9e19858dc25fc5eb637fc6f3e6b6fdf3",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "coolcrisys",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/CoolCriSyS/posts/10103277429731565",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Grand Rapids, MI, USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/coolcrisys",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/coolcrisys",
+        "name": "cover"
+      }
+    ],
+    "name": "Matt Westover"
+  },
+  "verifications": [
+    {
+      "identifier": "coolcrisys",
+      "proof_url": "https://twitter.com/CoolCriSyS/status/740889832520617984",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "CoolCriSyS",
+      "proof_url": "https://gist.github.com/CoolCriSyS/9e19858dc25fc5eb637fc6f3e6b6fdf3",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "coolcrisys",
+      "proof_url": "https://www.facebook.com/CoolCriSyS/posts/10103277429731565",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN coolcrisys.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/coolcrisys.id\"\n"
+}
