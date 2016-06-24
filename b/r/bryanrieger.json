@@ -1,58 +1,74 @@
 {
   "owner_address": "1H1iDD8doGWW6cAB7Zsb4NHqPiatREUfxR",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/bryanrieger"
-    },
-    "bio": "情況變了。…design + technology @yiibu. Currently exploring where the Web meets the World: Mobile, Internet of Things, Economics and the Media.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/bryanrieger"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/bryanrieger/posts/10153696739071142"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bryanrieger",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bryanrieger/d848e03936053801e931aa2fabcdaa2b",
+        "service": "github"
       },
-      "username": "bryanrieger"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/bryanrieger/de8114f553d293dd945c"
+      {
+        "@type": "Account",
+        "identifier": "bryanrieger",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bryanrieger/status/740907389876998144",
+        "service": "twitter"
       },
-      "username": "bryanrieger"
+      {
+        "@type": "Account",
+        "identifier": "bryanrieger",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bryanrieger/posts/10154136208811142",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "YVR, HKG, BKK, LHR, ETC…"
     },
-    "location": {
-      "formatted": "YVR, HKG, BKK, LHR, ETC…"
-    },
-    "name": {
-      "formatted": "Bryan Rieger"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/bryanrieger/status/671532586066317312"
+    "description": "情況變了。…design + technology @yiibu. Currently exploring where the Web meets the World: Mobile, Internet of Things, Economics and the Media.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bryanrieger",
+        "name": "avatar"
       },
-      "username": "bryanrieger"
-    },
-    "v": "0.2",
-    "website": "http://bryanrieger.com"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bryanrieger",
+        "name": "cover"
+      }
+    ],
+    "name": "Bryan Rieger",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://bryanrieger.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "bryanrieger",
-      "proof_url": "https://gist.github.com/bryanrieger/de8114f553d293dd945c",
+      "proof_url": "https://gist.github.com/bryanrieger/d848e03936053801e931aa2fabcdaa2b",
       "service": "github",
-      "valid": false
+      "valid": true
     },
     {
       "identifier": "bryanrieger",
-      "proof_url": "https://twitter.com/bryanrieger/status/671532586066317312",
+      "proof_url": "https://twitter.com/bryanrieger/status/740907389876998144",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "bryanrieger",
-      "proof_url": "https://facebook.com/bryanrieger/posts/10153696739071142",
+      "proof_url": "https://www.facebook.com/bryanrieger/posts/10154136208811142",
       "service": "facebook",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN bryanrieger.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bryanrieger.id\"\n"
 }
