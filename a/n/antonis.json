@@ -1,0 +1,69 @@
+{
+  "owner_address": "1NocXNmkdBkLHpRDtmHaMfh8kQp7AJpiRG",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "aNTwNHs",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/aNTwNHs/status/741156051198877696",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "antonis",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/antonis/e140d6a4d68233590462ca759cb40a15",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "alilis",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/alilis/posts/10154477022249505",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Athens, Greece"
+    },
+    "description": "Mobile Software Developer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Antonis Lilis",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://antonis.me"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "aNTwNHs",
+      "proof_url": "https://twitter.com/aNTwNHs/status/741156051198877696",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "antonis",
+      "proof_url": "https://gist.github.com/antonis/e140d6a4d68233590462ca759cb40a15",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "alilis",
+      "proof_url": "https://www.facebook.com/alilis/posts/10154477022249505",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN antonis.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/antonis.id\"\n"
+}
