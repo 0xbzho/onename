@@ -1,0 +1,73 @@
+{
+  "owner_address": "1KF6oEXkuJf7DhaLBp775jMWxaNMSCzP6Q",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "benchodroff",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/benchodroff/status/740679593405878273",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "benjaminchodroff",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/benjaminchodroff/0035333ecb30eee7eb931caf36fa26c7",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "benjamin.chodroff",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/benjamin.chodroff/posts/10100488914782806",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chicago, IL USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/benjaminchodroff",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/benjaminchodroff",
+        "name": "cover"
+      }
+    ],
+    "name": "Benjamin Evans Chodroff",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://benchodroff.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "benchodroff",
+      "proof_url": "https://twitter.com/benchodroff/status/740679593405878273",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "benjaminchodroff",
+      "proof_url": "https://gist.github.com/benjaminchodroff/0035333ecb30eee7eb931caf36fa26c7",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "benjamin.chodroff",
+      "proof_url": "https://www.facebook.com/benjamin.chodroff/posts/10100488914782806",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN benjaminchodroff.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/benjaminchodroff.id\"\n"
+}
