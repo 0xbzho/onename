@@ -1,0 +1,55 @@
+{
+  "owner_address": "16LL3eeZbGLAt1yBU7mTG9MsLDMAy72P4k",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "astadnicki",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/astadnicki/status/742164438631862272",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "astadnicki",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/astadnicki/posts/10156949313425545?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New Zealand"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Andrew Stadnicki",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.andrewstadnicki.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "astadnicki",
+      "proof_url": "https://twitter.com/astadnicki/status/742164438631862272",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "astadnicki",
+      "proof_url": "https://www.facebook.com/astadnicki/posts/10156949313425545?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN astadnicki.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/astadnicki.id\"\n"
+}
