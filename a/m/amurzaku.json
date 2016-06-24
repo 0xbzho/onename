@@ -1,0 +1,64 @@
+{
+  "owner_address": "1ESH9dPt2GUaqHgtLS44ykUDpk4XoEt83E",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "murzaku",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/murzaku/efcd2914eeeb9e9198ba3f921d02d778",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "AlexMurzaku",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/AlexMurzaku/status/740692233410752512",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "amurzaku",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/amurzaku/posts/621224314713772",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Alex Murzaku",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.linkedin.com/in/murzaku"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "murzaku",
+      "proof_url": "https://gist.github.com/murzaku/efcd2914eeeb9e9198ba3f921d02d778",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "AlexMurzaku",
+      "proof_url": "https://twitter.com/AlexMurzaku/status/740692233410752512",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "amurzaku",
+      "proof_url": "https://www.facebook.com/amurzaku/posts/621224314713772",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN amurzaku.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/amurzaku.id\"\n"
+}
