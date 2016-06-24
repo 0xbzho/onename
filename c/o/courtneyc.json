@@ -1,0 +1,54 @@
+{
+  "owner_address": "16ZoZBML97gWpCtxP2U2NLDgMiy1Rp9otT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Boogiesquatch",
+        "proofType": "http",
+        "proofUrl": "https://mobile.twitter.com/BoogieSquatch/status/742517660483624960",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https://m.facebook.com/Symply.Courtney",
+        "proofType": "http",
+        "proofUrl": "https://m.facebook.com/dialog/feed?app_id=548488045273230&link=https%3A%2F%2Fonename.com%2Fcourtneyc&redirect_uri=https%3A%2F%2Fonename.com%2Fcourtneyc%23facebook",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Austin, Texas"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/courtneyc",
+        "name": "avatar"
+      }
+    ],
+    "name": "Courtney B. Crayton"
+  },
+  "verifications": [
+    {
+      "identifier": "Boogiesquatch",
+      "proof_url": "https://mobile.twitter.com/BoogieSquatch/status/742517660483624960",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "https://m.facebook.com/Symply.Courtney",
+      "proof_url": "https://m.facebook.com/dialog/feed?app_id=548488045273230&link=https%3A%2F%2Fonename.com%2Fcourtneyc&redirect_uri=https%3A%2F%2Fonename.com%2Fcourtneyc%23facebook",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN courtneyc.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/courtneyc.id\"\n"
+}
