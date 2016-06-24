@@ -1,0 +1,74 @@
+{
+  "owner_address": "1JGBUvdgJ7UjuEbVvqhVGBuubG1ww5Ffot",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "arlogilbert",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/arlogilbert/posts/10154326345129623?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "arlogilbert",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/arlogilbert/status/741460950151139329",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "arlogilbert",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/arlogilbert/7ae948f4e1dbcc98a8387d60f9bdfc2a",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Austin, TX"
+    },
+    "description": "Voted most likely to find a loophole. Inventor, investor, operator.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/arlogilbert",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/arlogilbert",
+        "name": "cover"
+      }
+    ],
+    "name": "Arlo Gilbert",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://arlo.is"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "arlogilbert",
+      "proof_url": "https://www.facebook.com/arlogilbert/posts/10154326345129623?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "arlogilbert",
+      "proof_url": "https://twitter.com/arlogilbert/status/741460950151139329",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "arlogilbert",
+      "proof_url": "https://gist.github.com/arlogilbert/7ae948f4e1dbcc98a8387d60f9bdfc2a",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN arlogilbert.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/arlogilbert.id\"\n"
+}
