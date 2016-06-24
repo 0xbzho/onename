@@ -1,0 +1,44 @@
+{
+  "owner_address": "15egAcWWVwWu7kFhxxL7CRFv5KaP4DsPpr",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "citleon",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/citleon/3787697d1e41ce58f9d29fb9e7999e51#file-citleon",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "leonidku",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/leonidku/status/737787379579289605",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "citleon",
+      "proof_url": "https://gist.github.com/citleon/3787697d1e41ce58f9d29fb9e7999e51#file-citleon",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "leonidku",
+      "proof_url": "https://twitter.com/leonidku/status/737787379579289605",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN citleon.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/citleon.id\"\n"
+}
