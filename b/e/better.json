@@ -1,0 +1,50 @@
+{
+  "owner_address": "1uk34BU1xvTJSpau3gVT5GHW2VVUn68jv",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "skystone_t",
+        "proofType": "http",
+        "proofUrl": "https://mobile.twitter.com/skystone_t/status/740026473810006016",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sky.stone",
+        "proofType": "http",
+        "proofUrl": "https://m.facebook.com/story.php?story_fbid=10154328894509589&id=751289588",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/better",
+        "name": "avatar"
+      }
+    ],
+    "name": "better"
+  },
+  "verifications": [
+    {
+      "identifier": "skystone_t",
+      "proof_url": "https://mobile.twitter.com/skystone_t/status/740026473810006016",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "sky.stone",
+      "proof_url": "https://m.facebook.com/story.php?story_fbid=10154328894509589&id=751289588",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN better.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/better.id\"\n"
+}
