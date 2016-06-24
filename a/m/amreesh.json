@@ -1,0 +1,63 @@
+{
+  "owner_address": "1LxpKkJKyNJ3Cgpdeexdq33j2KGw4kvRs1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "amreesh",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/amreesh/status/740129986842071040",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "amreeshdev",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/amreeshdev/posts/10153776250942648",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "amreesh",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/amreesh/27fba8a5d3f24c4f23a8c187172e6108#file-gistfile1-txt",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/amreesh",
+        "name": "avatar"
+      }
+    ],
+    "name": "Amreesh Phokeer"
+  },
+  "verifications": [
+    {
+      "identifier": "amreesh",
+      "proof_url": "https://twitter.com/amreesh/status/740129986842071040",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "amreeshdev",
+      "proof_url": "https://www.facebook.com/amreeshdev/posts/10153776250942648",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "amreesh",
+      "proof_url": "https://gist.github.com/amreesh/27fba8a5d3f24c4f23a8c187172e6108#file-gistfile1-txt",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN amreesh.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/amreesh.id\"\n"
+}
