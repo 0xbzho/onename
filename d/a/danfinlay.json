@@ -1,0 +1,55 @@
+{
+  "owner_address": "1eYEaqNo9hG2mCK658aYNnhwWfHxjtZC7",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "danfinlay",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/danfinlay/status/740951538592448513",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "flyswatter",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/flyswatter/fb9f5e341853427d735906d4f4dc9d26",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Leandro, CA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Daniel Jamal Finlay",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.danfinlay.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "danfinlay",
+      "proof_url": "https://twitter.com/danfinlay/status/740951538592448513",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "flyswatter",
+      "proof_url": "https://gist.github.com/flyswatter/fb9f5e341853427d735906d4f4dc9d26",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN danfinlay.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/danfinlay.id\"\n"
+}
