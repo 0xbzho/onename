@@ -1,1 +1,79 @@
-null
+{
+  "owner_address": "1AJWupnRVDs3zq9zPVUEfdUmYVz3NAVFXK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1F7h8wFU1EDTYrgp4GSBNYBZRQdaVqg8KB",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/custommuzzlebrakes",
+        "identifier": "CE54FEA4C8BA5E646794766DDAE32AA520D87E03",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "CustomMuzzleBrk",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/CustomMuzzleBrk/status/724622010249142273",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "custommuzzlebrakes",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/custommuzzlebrakes/posts/1007093016034390",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "522ce6a1919ca37d8b97068ea013ad4934045172",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bozeman, Montana"
+    },
+    "description": "Manufacturer of Fine Muzzle Devices",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/custommuzzlebrakes",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/custommuzzlebrakes",
+        "name": "cover"
+      }
+    ],
+    "name": "Custom Muzzle Brakes",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.custommuzzlebrakes.com/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "CustomMuzzleBrk",
+      "proof_url": "https://twitter.com/CustomMuzzleBrk/status/724622010249142273",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "custommuzzlebrakes",
+      "proof_url": "https://www.facebook.com/custommuzzlebrakes/posts/1007093016034390",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN custommuzzlebrakes.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/custommuzzlebrakes.id\"\n"
+}
