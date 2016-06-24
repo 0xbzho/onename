@@ -1,0 +1,61 @@
+{
+  "owner_address": "1HsRs6yJqDkeAKWVyy7ux3iNQ21WhnFYbY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ac7ef236adfe42580984a17d7e728495a783acbf",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "BTC_Sales",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BTC_Sales/status/742087064745857024",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "BitcoinSales",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/BitcoinSales/75de13c9f6bdd67f6e4bee602e31c166",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "15m7DaPgLrhGZCZ2WgzYgfsHh6gKqCcCtJ",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bitcoinsales",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bitcoinsales",
+        "name": "cover"
+      }
+    ],
+    "name": "BitcoinSales"
+  },
+  "verifications": [
+    {
+      "identifier": "BTC_Sales",
+      "proof_url": "https://twitter.com/BTC_Sales/status/742087064745857024",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "BitcoinSales",
+      "proof_url": "https://gist.github.com/BitcoinSales/75de13c9f6bdd67f6e4bee602e31c166",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bitcoinsales.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bitcoinsales.id\"\n"
+}
