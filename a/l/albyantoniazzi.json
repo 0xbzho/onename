@@ -1,0 +1,54 @@
+{
+  "owner_address": "1KXJ4agZaWHiihkJyZVxAq2DD1yY2AP63D",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "albyantoniazzi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/albyantoniazzi/status/740818753995300864",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "albyantoniazzi",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/albyantoniazzi/776385107d85ed60214db7c1aa476859#file-onename",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hove, UK"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/albyantoniazzi",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/albyantoniazzi",
+        "name": "cover"
+      }
+    ],
+    "name": "Alberto Antoniazzi"
+  },
+  "verifications": [
+    {
+      "identifier": "albyantoniazzi",
+      "proof_url": "https://twitter.com/albyantoniazzi/status/740818753995300864",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "albyantoniazzi",
+      "proof_url": "https://gist.github.com/albyantoniazzi/776385107d85ed60214db7c1aa476859#file-onename",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN albyantoniazzi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/albyantoniazzi.id\"\n"
+}
