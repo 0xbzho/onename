@@ -1,0 +1,62 @@
+{
+  "owner_address": "18KHxstK5VaYHZaqsJBAyFTCQVQe8JSSQv",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "realalexfortin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RealAlexfortin/status/742211920938164224",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "alex.fortin11",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/alex.fortin11/posts/10153523205686750?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Alex-Fortin",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Alex-Fortin/946f7d8ffb50c6696388df3905269aff#file-gistfile1-txt",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/alexfortin",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "realalexfortin",
+      "proof_url": "https://twitter.com/RealAlexfortin/status/742211920938164224",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "alex.fortin11",
+      "proof_url": "https://www.facebook.com/alex.fortin11/posts/10153523205686750?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "Alex-Fortin",
+      "proof_url": "https://gist.github.com/Alex-Fortin/946f7d8ffb50c6696388df3905269aff#file-gistfile1-txt",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN alexfortin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alexfortin.id\"\n"
+}
