@@ -1,0 +1,67 @@
+{
+  "owner_address": "1Kga2BKic7gpCa3s5F7C6nYKWAasm94oTb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "apcloveswdc",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/apcloveswdc/status/742853933542973448",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "aaron-cawley",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/aaron-cawley/acec4756b63d3b45240be26a93731bc4",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Aaron Cawley",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/aaron.cawley.5",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Austin TX"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/aaron_cawley",
+        "name": "avatar"
+      }
+    ],
+    "name": "Aaron Cawley"
+  },
+  "verifications": [
+    {
+      "identifier": "apcloveswdc",
+      "proof_url": "https://twitter.com/apcloveswdc/status/742853933542973448",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "aaron-cawley",
+      "proof_url": "https://gist.github.com/aaron-cawley/acec4756b63d3b45240be26a93731bc4",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "Aaron Cawley",
+      "proof_url": "https://www.facebook.com/aaron.cawley.5",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN aaron_cawley.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/aaron_cawley.id\"\n"
+}
