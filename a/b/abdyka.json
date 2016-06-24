@@ -1,0 +1,68 @@
+{
+  "owner_address": "1MPsnTjexBfkDzqWb22WvqCBuFGdBRuB7H",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "abdyka.wirmon",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/abdyka.wirmon/posts/10208531741305345",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "abdyka",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/abdyka/status/738059334744047616",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Abdyka",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Abdyka/aeedc9e2ee9a7d1c411812309599a01e",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bandung"
+    },
+    "description": "I'm Reader",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/abdyka",
+        "name": "avatar"
+      }
+    ],
+    "name": "Abdyka Wirmon"
+  },
+  "verifications": [
+    {
+      "identifier": "abdyka.wirmon",
+      "proof_url": "https://www.facebook.com/abdyka.wirmon/posts/10208531741305345",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "abdyka",
+      "proof_url": "https://twitter.com/abdyka/status/738059334744047616",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Abdyka",
+      "proof_url": "https://gist.github.com/Abdyka/aeedc9e2ee9a7d1c411812309599a01e",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN abdyka.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/abdyka.id\"\n"
+}
