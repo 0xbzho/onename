@@ -1,0 +1,36 @@
+{
+  "owner_address": "1K5H9d1zHo2KEy1dHWZ1zBd8Sz6QBeVKF",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Verifying that +davidbean is my blockchain ID. https:",
+        "proofType": "http",
+        "proofUrl": "Verifying that +davidbean is my blockchain ID. https://onename.com/davidbean",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Waterloo, ON. Canada"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "David Bean"
+  },
+  "verifications": [
+    {
+      "identifier": "Verifying that +davidbean is my blockchain ID. https:",
+      "proof_url": "Verifying that +davidbean is my blockchain ID. https://onename.com/davidbean",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN davidbean.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/davidbean.id\"\n"
+}
