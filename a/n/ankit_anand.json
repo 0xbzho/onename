@@ -1,0 +1,66 @@
+{
+  "owner_address": "1C9oeiULuLtS8uMQBhviaMb7EoJ7XXb16W",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/417250ae10a6c787ae6d785962669c7c",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ankit90.anand",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ankit90.anand/posts/1135066863202830?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "3MgMgCXzFjG3WEksuiAQ3HQ7UZx9YqswQq",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Delhi"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ankit_anand",
+        "name": "avatar"
+      }
+    ],
+    "name": "Ankit Anand",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.linkedin.com/in/ankit90anand?trk=nav_responsive_tab_profile"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/417250ae10a6c787ae6d785962669c7c",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "ankit90.anand",
+      "proof_url": "https://www.facebook.com/ankit90.anand/posts/1135066863202830?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ankit_anand.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ankit_anand.id\"\n"
+}
