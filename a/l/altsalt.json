@@ -1,0 +1,61 @@
+{
+  "owner_address": "1rexcRnuJSE3FzmUYPf7wCEvhgCb7mgbu",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "altsalt",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/altsalt/9c260f31e851bff93a00f1c4c15b328a#file-onename-md",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "http://www.altsalt.net/GPG",
+        "identifier": "26D2F98FB888BB470B416267C0895372F5CDEFF8",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "altsalt",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Mr-Yuk/019e9442791c1f7050584e088e138e6d",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seattle, WA"
+    },
+    "description": "Kilted Globetrotter, Free/Libre/Open Advocate, and Lifelong Hacker",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/altsalt",
+        "name": "avatar"
+      }
+    ],
+    "name": "William Hale"
+  },
+  "verifications": [
+    {
+      "identifier": "altsalt",
+      "proof_url": "https://gist.github.com/altsalt/9c260f31e851bff93a00f1c4c15b328a#file-onename-md",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "altsalt",
+      "proof_url": "https://gist.github.com/Mr-Yuk/019e9442791c1f7050584e088e138e6d",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN altsalt.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/altsalt.id\"\n"
+}
