@@ -1,0 +1,36 @@
+{
+  "owner_address": "1i1d2qX8P8nMarpbedAjqyYbT6HMBPZtp",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "christophermlr",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/christophermlr/status/729326498432229378",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "California, United States"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Christopher Miller"
+  },
+  "verifications": [
+    {
+      "identifier": "christophermlr",
+      "proof_url": "https://twitter.com/christophermlr/status/729326498432229378",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN christophermiller.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/christophermiller.id\"\n"
+}
