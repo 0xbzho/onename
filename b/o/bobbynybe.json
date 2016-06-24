@@ -1,27 +1,80 @@
 {
   "owner_address": "1MCtFMY1vJKrEf1mes225d6YWbjckqqyAd",
   "profile": {
-    "avatar": {
-      "url": "https://pbs.twimg.com/profile_images/1777243227/image.jpg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1PmFR3gnoxh9Lor8CK8wH8oTTCTPcWdeLT",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nybe",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/nybe/status/740955917630332929",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bobnybe",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bobnybe/posts/284819568524041",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nybe",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/nybe/96bca9f0b41544c015a1b11b2efd9a7d",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "L.A."
     },
-    "bio": "Life... She is a beautiful thing.",
-    "bitcoin": {
-      "address": "1PmFR3gnoxh9Lor8CK8wH8oTTCTPcWdeLT"
-    },
-    "cover": {
-      "url": "https://pbs.twimg.com/profile_banners/16551094/1398363255/web_retina"
-    },
-    "location": {
-      "formatted": "L.A."
-    },
-    "name": {
-      "formatted": "nybe"
-    },
-    "twitter": {
-      "username": "nybe"
-    },
-    "v": "0.2",
-    "website": "http://nybenoir.com"
+    "description": "Life... She is a beautiful thing.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://pbs.twimg.com/profile_images/1777243227/image.jpg",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://pbs.twimg.com/profile_banners/16551094/1398363255/web_retina",
+        "name": "cover"
+      }
+    ],
+    "name": "nybe",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://nybenoir.com"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "nybe",
+      "proof_url": "https://twitter.com/nybe/status/740955917630332929",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bobnybe",
+      "proof_url": "https://www.facebook.com/bobnybe/posts/284819568524041",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "nybe",
+      "proof_url": "https://gist.github.com/nybe/96bca9f0b41544c015a1b11b2efd9a7d",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bobbynybe.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bobbynybe.id\"\n"
 }
