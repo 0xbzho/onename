@@ -1,0 +1,42 @@
+{
+  "owner_address": "12HjbSjwauvZoFTRQSS88Gju6qqUaKSaJw",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cadfile",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cadfile/status/742019854329221121",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ohio"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Doug Berger",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.dougberger.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "cadfile",
+      "proof_url": "https://twitter.com/cadfile/status/742019854329221121",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN cadfile.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cadfile.id\"\n"
+}
