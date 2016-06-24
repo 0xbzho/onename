@@ -1,0 +1,48 @@
+{
+  "owner_address": "1LQmoJ4RYToiJsrNFbW9tno2Z4GSqUgKMH",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "chill4xed",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/chill4xed/status/740836403949502465",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Near Paris"
+    },
+    "description": "chill4xed.com",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/chill4xed",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/chill4xed",
+        "name": "cover"
+      }
+    ],
+    "name": "Dennis Drabinski",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://chill4xed.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "chill4xed",
+      "proof_url": "https://twitter.com/chill4xed/status/740836403949502465",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN chill4xed.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/chill4xed.id\"\n"
+}
