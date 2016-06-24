@@ -1,0 +1,49 @@
+{
+  "owner_address": "1HKubaRUMYVA7ZNpQvjJtBpRZMwXFhsSS3",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gallegos",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gallegos/status/737715644855111681",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "briangallegos",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/briangallegos/3ca7a7e1e159648a82161ffc378ac55e",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Brian Gallegos"
+  },
+  "verifications": [
+    {
+      "identifier": "gallegos",
+      "proof_url": "https://twitter.com/gallegos/status/737715644855111681",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "briangallegos",
+      "proof_url": "https://gist.github.com/briangallegos/3ca7a7e1e159648a82161ffc378ac55e",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bgallegos.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bgallegos.id\"\n"
+}
