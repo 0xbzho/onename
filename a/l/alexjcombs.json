@@ -1,0 +1,31 @@
+{
+  "owner_address": "16sCDfMRsotwqmKwRWww5AhZQVZRS1R7KU",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "alexjcombs",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/alexjcombs/status/740963005735673857",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "alexjcombs",
+      "proof_url": "https://twitter.com/alexjcombs/status/740963005735673857",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN alexjcombs.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alexjcombs.id\"\n"
+}
