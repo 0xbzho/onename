@@ -1,1 +1,32 @@
-null
+{
+  "owner_address": "1H83XERxQsrrsMyckVDm589qrXU1Y2zPLp",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kayakmediatweet",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/KayakMediaTweet/status/731646801653141504",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Claire Sommer"
+  },
+  "verifications": [
+    {
+      "identifier": "kayakmediatweet",
+      "proof_url": "https://twitter.com/KayakMediaTweet/status/731646801653141504",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN clairesommer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/clairesommer.id\"\n"
+}
