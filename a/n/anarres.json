@@ -1,0 +1,44 @@
+{
+  "owner_address": "1GHsBgE6MabQKoZbqg1bE5s82SXnj7yLXw",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "aanarres",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/aanarres/4f45ec82696806a1a5359f2e639fe485",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "AnarresA",
+        "proofType": "http",
+        "proofUrl": "https://mobile.twitter.com/AnarresA/status/744663258230063104",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "aanarres",
+      "proof_url": "https://gist.github.com/aanarres/4f45ec82696806a1a5359f2e639fe485",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "AnarresA",
+      "proof_url": "https://mobile.twitter.com/AnarresA/status/744663258230063104",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN anarres.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/anarres.id\"\n"
+}
