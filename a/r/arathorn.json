@@ -1,0 +1,73 @@
+{
+  "owner_address": "1NxXTLs4UQuPhg75j1XwiGU7Rrhm1RAKHj",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ara4n",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ara4n/status/743098967089647616",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ara4n",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ara4n/101f47018c0e5bfd4709253109bae34a",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ara4n",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ara4n/posts/10101731301989100",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/arathorn",
+        "name": "avatar"
+      }
+    ],
+    "name": "Matthew Hodgson",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://matrix.org"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ara4n",
+      "proof_url": "https://twitter.com/ara4n/status/743098967089647616",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ara4n",
+      "proof_url": "https://gist.github.com/ara4n/101f47018c0e5bfd4709253109bae34a",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "ara4n",
+      "proof_url": "https://www.facebook.com/ara4n/posts/10101731301989100",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN arathorn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/arathorn.id\"\n"
+}
