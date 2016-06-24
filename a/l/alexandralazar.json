@@ -1,0 +1,47 @@
+{
+  "owner_address": "1FFnufmQv9VeNUJyBUQPghDvn8PRZkNgBV",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "alexandralazar",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/alexandralazar/status/740990179280818176",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York, NY"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/alexandralazar",
+        "name": "avatar"
+      }
+    ],
+    "name": "Alexandra Lazar",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.alexandrarlazar.com/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "alexandralazar",
+      "proof_url": "https://twitter.com/alexandralazar/status/740990179280818176",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN alexandralazar.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alexandralazar.id\"\n"
+}
