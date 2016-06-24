@@ -1,0 +1,37 @@
+{
+  "owner_address": "1PvURPY8g7GwznQn5dxJaq4mXzghrHK2tp",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Audeomn",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/AudeOmn/status/741510845360922624",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/audeomn",
+        "name": "avatar"
+      }
+    ],
+    "name": "Aude Omerin"
+  },
+  "verifications": [
+    {
+      "identifier": "Audeomn",
+      "proof_url": "https://twitter.com/AudeOmn/status/741510845360922624",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN audeomn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/audeomn.id\"\n"
+}
