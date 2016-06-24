@@ -1,0 +1,45 @@
+{
+  "owner_address": "1ECm6iFzsqiyftCnfYAZ2Ya9GSEcDZ8whu",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "BretLindquist",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bretlindquist/status/740776275099459585",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Bretlindquist",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bretlindquist/posts/10209182284531453",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Bret Lindquist"
+  },
+  "verifications": [
+    {
+      "identifier": "BretLindquist",
+      "proof_url": "https://twitter.com/bretlindquist/status/740776275099459585",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Bretlindquist",
+      "proof_url": "https://www.facebook.com/bretlindquist/posts/10209182284531453",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bretlindquist.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bretlindquist.id\"\n"
+}
