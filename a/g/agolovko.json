@@ -1,0 +1,44 @@
+{
+  "owner_address": "115HC1qtS1tRC9nM765ZeUgWQvWvFeKRwU",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "andrej.golovko",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/andrej.golovko/posts/1198817893461838",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "andreybl",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/andreybl/7ce10535a0f44f28212c9f6d21eeda98",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "andrej.golovko",
+      "proof_url": "https://www.facebook.com/andrej.golovko/posts/1198817893461838",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "andreybl",
+      "proof_url": "https://gist.github.com/andreybl/7ce10535a0f44f28212c9f6d21eeda98",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN agolovko.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/agolovko.id\"\n"
+}
