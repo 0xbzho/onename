@@ -1,23 +1,48 @@
 {
   "owner_address": "18WgxjbevzPtMdKPLdtJdJDbEPreJbPSCv",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/bramdeboer"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bramdeboer94",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bramdeboer94/status/743183346969214978",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "12dDZ4nNHA8LXvxQMwgGJZZfrh126ijcbA",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "bio": "",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/rVv.jpeg"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Bram de Boer"
-    },
-    "twitter": {
-      "username": "bramdeboer94"
-    },
-    "v": "0.2"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bramdeboer",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Bram de Boer"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "bramdeboer94",
+      "proof_url": "https://twitter.com/bramdeboer94/status/743183346969214978",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bramdeboer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bramdeboer.id\"\n"
 }
