@@ -1,0 +1,57 @@
+{
+  "owner_address": "158PPRBQq8pRBtZQohLBNKU9y7zdQ8mjwx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "candida.haynes",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/candida.haynes/posts/10208811142009479",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "TheLady",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/TheLady/57c90c21066aa28e99bf983f7104cc74",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dihaynes",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dihaynes/status/740635140078997505",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "candida.haynes",
+      "proof_url": "https://www.facebook.com/candida.haynes/posts/10208811142009479",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "TheLady",
+      "proof_url": "https://gist.github.com/TheLady/57c90c21066aa28e99bf983f7104cc74",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "dihaynes",
+      "proof_url": "https://twitter.com/dihaynes/status/740635140078997505",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN candida.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/candida.id\"\n"
+}
