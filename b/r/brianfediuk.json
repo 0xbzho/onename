@@ -1,0 +1,42 @@
+{
+  "owner_address": "148rGzfMkXJK8gVp1AV6i5tpWh2mpCiScq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "19XKQr4VVBviQZrbDbqrpvy8Jaz3H7peRm",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Zomgitsduke",
+        "proofType": "http",
+        "proofUrl": "https://m.facebook.com/story.php?story_fbid=10100942125040940&id=27907021&ref=bookmarks",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/brianfediuk",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Zomgitsduke",
+      "proof_url": "https://m.facebook.com/story.php?story_fbid=10100942125040940&id=27907021&ref=bookmarks",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN brianfediuk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/brianfediuk.id\"\n"
+}
