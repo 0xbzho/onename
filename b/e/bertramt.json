@@ -1,0 +1,31 @@
+{
+  "owner_address": "1QE4DxoQ5upBp2RamWXjVpmM1hcJbpja8c",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bertramt",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bertramt/064f86a76f2f7f73d13ea21fd4a0f2b4",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bertramt",
+      "proof_url": "https://gist.github.com/bertramt/064f86a76f2f7f73d13ea21fd4a0f2b4",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bertramt.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bertramt.id\"\n"
+}
