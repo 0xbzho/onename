@@ -1,0 +1,62 @@
+{
+  "owner_address": "1Ew26SMdYR2SXJRPz3f5Z9WC2j7xYafWvn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "carlenek",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/carlenek/status/741349462241484800",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "carlenek",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/carlenek/posts/10104210895199228",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "carlenek",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/carlenek/1b8981ac06b0702cb33dbbc5d7e0f51e",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lubbock, TX"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Carlene Kelly"
+  },
+  "verifications": [
+    {
+      "identifier": "carlenek",
+      "proof_url": "https://twitter.com/carlenek/status/741349462241484800",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "carlenek",
+      "proof_url": "https://www.facebook.com/carlenek/posts/10104210895199228",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "carlenek",
+      "proof_url": "https://gist.github.com/carlenek/1b8981ac06b0702cb33dbbc5d7e0f51e",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN carlenek.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/carlenek.id\"\n"
+}
