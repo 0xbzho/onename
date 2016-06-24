@@ -1,0 +1,67 @@
+{
+  "owner_address": "14924JFVcu6cPPn6KRUw4yXsD5g99reBq1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "firemound",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/firemound/status/741464061976530945",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bboydGensler",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bboydGensler/0e3d433d985f6723102164439716559b",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "firemound",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/firemound/posts/10208080700049693?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bay Area, CA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/brendanboyd",
+        "name": "avatar"
+      }
+    ],
+    "name": "Brendan Boyd"
+  },
+  "verifications": [
+    {
+      "identifier": "firemound",
+      "proof_url": "https://twitter.com/firemound/status/741464061976530945",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bboydGensler",
+      "proof_url": "https://gist.github.com/bboydGensler/0e3d433d985f6723102164439716559b",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "firemound",
+      "proof_url": "https://www.facebook.com/firemound/posts/10208080700049693?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN brendanboyd.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/brendanboyd.id\"\n"
+}
