@@ -1,0 +1,57 @@
+{
+  "owner_address": "1MMoRCtpopTHsqKMBYQnWtwh2LPNahyLMm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "danieltsantos",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/danieltsantos/status/742016635612041216",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "danieltsantos",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/danieltsantos/posts/10154251689698459",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "danieltsantos",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/danieltsantos/ed54c914367c096c08055245a5c47ccc",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "danieltsantos",
+      "proof_url": "https://twitter.com/danieltsantos/status/742016635612041216",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "danieltsantos",
+      "proof_url": "https://www.facebook.com/danieltsantos/posts/10154251689698459",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "danieltsantos",
+      "proof_url": "https://gist.github.com/danieltsantos/ed54c914367c096c08055245a5c47ccc",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN danieltsantos.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/danieltsantos.id\"\n"
+}
