@@ -1,0 +1,37 @@
+{
+  "owner_address": "1KGdYFm39Dro93SQUVTNAw3EabbcXhm2ny",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1XnaLAaMvGDDcKbDa7ifLWosCuVobS1Fj",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "eveko",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/eveko/28721d25151e392af7724c63ee98ff81",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "eveko",
+      "proof_url": "https://gist.github.com/eveko/28721d25151e392af7724c63ee98ff81",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN _eveko.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/_eveko.id\"\n"
+}
