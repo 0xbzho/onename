@@ -1,0 +1,55 @@
+{
+  "owner_address": "13rvoLSkm4vBzxk6XeWeprRdThrGEXA5F1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "a_velios",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/a_velios/status/742271831097376768",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "natuk",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/natuk/d9ab65f5861fd0068253e73033bb92a4#file-gistfile1-txt",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cardiff, UK"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Athanasios Velios",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.ligatus.org.uk"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "a_velios",
+      "proof_url": "https://twitter.com/a_velios/status/742271831097376768",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "natuk",
+      "proof_url": "https://gist.github.com/natuk/d9ab65f5861fd0068253e73033bb92a4#file-gistfile1-txt",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN a_velios.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/a_velios.id\"\n"
+}
