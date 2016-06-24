@@ -1,0 +1,44 @@
+{
+  "owner_address": "17jHW799EhuFHFEEPBkRAB92Bwn8VRGPz9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "abishekk92",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/abishekk92/status/740800458139308032",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "abishekk92",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/abishekk92/3423e5eb63ac1e1f0041959a2405d407",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "abishekk92",
+      "proof_url": "https://twitter.com/abishekk92/status/740800458139308032",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "abishekk92",
+      "proof_url": "https://gist.github.com/abishekk92/3423e5eb63ac1e1f0041959a2405d407",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN abishekk92.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/abishekk92.id\"\n"
+}
