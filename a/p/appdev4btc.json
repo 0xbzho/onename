@@ -1,0 +1,42 @@
+{
+  "owner_address": "1JYd2MrmfjT4aMTsaSizpa2meASt5jfhtf",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "appdev4btc",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/appdev4btc/status/739211280578383872",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "168uPtumCokwWqKXKTBeCK5yioUMX2hciu",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/appdev4btc",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "appdev4btc",
+      "proof_url": "https://twitter.com/appdev4btc/status/739211280578383872",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN appdev4btc.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/appdev4btc.id\"\n"
+}
