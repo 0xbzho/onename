@@ -1,0 +1,48 @@
+{
+  "owner_address": "1HvViVmaUDQqoz39FumgNuG5FJ2fBqD2NQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jingo67",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jingo67/status/740803043088859136",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "UK"
+    },
+    "description": "https://www.linkedin.com/in/daviehay",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/daviehay",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/daviehay",
+        "name": "cover"
+      }
+    ],
+    "name": "Davie Hay",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://about.me/daviehay"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jingo67",
+      "proof_url": "https://twitter.com/jingo67/status/740803043088859136",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN daviehay.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/daviehay.id\"\n"
+}
