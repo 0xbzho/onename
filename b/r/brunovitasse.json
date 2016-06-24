@@ -1,0 +1,74 @@
+{
+  "owner_address": "1Jje6mEM7RBi2yRe2f6ARWiP7mfCebtV2w",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ZoneAH",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ZoneAH/status/742124982914940932",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bruno.vitasse",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bruno.vitasse/posts/1220526044654368",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "BrunoZ-AH",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/BrunoZ-AH/8f565619854f48958e7c98d4db4e8dc7",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris"
+    },
+    "description": "Directeur général / Co-fondateur Zone-AH! ; initiateur et porteur du projet ZéBU, l'écosystème des brasseries urbaines.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/brunovitasse",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/brunovitasse",
+        "name": "cover"
+      }
+    ],
+    "name": "Bruno Vitasse",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.zone-ah.org"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ZoneAH",
+      "proof_url": "https://twitter.com/ZoneAH/status/742124982914940932",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bruno.vitasse",
+      "proof_url": "https://www.facebook.com/bruno.vitasse/posts/1220526044654368",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "BrunoZ-AH",
+      "proof_url": "https://gist.github.com/BrunoZ-AH/8f565619854f48958e7c98d4db4e8dc7",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN brunovitasse.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/brunovitasse.id\"\n"
+}
