@@ -1,0 +1,49 @@
+{
+  "owner_address": "13K1GqNdEywi1tXk5Wjd7EjiUMWvnE1SqX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "BigDataArtist",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BigDataArtist/status/741003809695145984",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "david.stephane.oliver",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/david.stephane.oliver/posts/10153541413001363?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/aeternam",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/aeternam",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "BigDataArtist",
+      "proof_url": "https://twitter.com/BigDataArtist/status/741003809695145984",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "david.stephane.oliver",
+      "proof_url": "https://www.facebook.com/david.stephane.oliver/posts/10153541413001363?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN aeternam.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/aeternam.id\"\n"
+}
