@@ -1,0 +1,38 @@
+{
+  "owner_address": "1LrwSsQyFbFCJ8k49RLjFyPb1n8TmoFagz",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "7ea559427bd89c5c138d804cadb5f36acaeb023f",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "18F95xk6VgcUqDwhCLiJoB5mWiKL8Wu7Z1",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cipherspace"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/barefootguru",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/barefootguru",
+        "name": "cover"
+      }
+    ],
+    "name": "The Barefoot Guru"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN barefootguru.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/barefootguru.id\"\n"
+}
