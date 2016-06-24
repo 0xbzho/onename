@@ -1,0 +1,86 @@
+{
+  "owner_address": "1FPUuZwuxLWV1m8q1EKbL3VBL4GZRyRnA1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1JWZpGyn7fzbZJQsybzWNdft4rsTjVmk8T",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "BlackBullTradingPost",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/BlackBullTradingPost/posts/634419130057752",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "BlackBullTradn",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BlackBullTradn/status/740931322210750468",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "BlackBullTradingPost",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/BlackBullTradingPost/58a9c09a1c6ef4d6188d489d9de291f7",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "8fa6c2ab4ad987b0c9920daff263a0150fb82b5d",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/permalink.php?story_fbid=1203982466280521&id=100000063360914",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Arlington, TX"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/blackbull",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/blackbull",
+        "name": "cover"
+      }
+    ],
+    "name": "Anthony",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://BlackBullTradingPost.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "BlackBullTradingPost",
+      "proof_url": "https://www.facebook.com/BlackBullTradingPost/posts/634419130057752",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "BlackBullTradn",
+      "proof_url": "https://twitter.com/BlackBullTradn/status/740931322210750468",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "BlackBullTradingPost",
+      "proof_url": "https://gist.github.com/BlackBullTradingPost/58a9c09a1c6ef4d6188d489d9de291f7",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN blackbull.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/blackbull.id\"\n"
+}
