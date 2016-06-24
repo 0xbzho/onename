@@ -1,0 +1,42 @@
+{
+  "owner_address": "1EiYxe49yFQNphqHFT2R4ZYNDHRZByfKdW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cbhopkins",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cbhopkins/status/740848800542121984",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "West Palm Beach, Florida"
+    },
+    "description": "lawyer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cbhopkins",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/cbhopkins",
+        "name": "cover"
+      }
+    ],
+    "name": "Christopher Hopkins"
+  },
+  "verifications": [
+    {
+      "identifier": "cbhopkins",
+      "proof_url": "https://twitter.com/cbhopkins/status/740848800542121984",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN cbhopkins.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cbhopkins.id\"\n"
+}
