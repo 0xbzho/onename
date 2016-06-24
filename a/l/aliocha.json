@@ -1,0 +1,79 @@
+{
+  "owner_address": "1GonP8h6Maxtzhj3iq2adsH3fUX58ynWRg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "13XNGyVV2EEwy7SZAhxkjmX1EtakmHUjjv",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ali0cha",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ali0cha/status/740963303699165184",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "aliocha",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/aliocha/posts/10154978836433677",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ali0cha",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ali0cha/3cb7153f31ebb99e6b772a6b92d0a461",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brussels, Belgium"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/aliocha",
+        "name": "avatar"
+      }
+    ],
+    "name": "Aliocha Sioen",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://aliocha.xyz"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ali0cha",
+      "proof_url": "https://twitter.com/ali0cha/status/740963303699165184",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "aliocha",
+      "proof_url": "https://www.facebook.com/aliocha/posts/10154978836433677",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "ali0cha",
+      "proof_url": "https://gist.github.com/ali0cha/3cb7153f31ebb99e6b772a6b92d0a461",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN aliocha.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/aliocha.id\"\n"
+}
