@@ -1,0 +1,69 @@
+{
+  "owner_address": "1GNTFygnjLyxakNJjkZM6bSh3kdxVZmomq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "boazsender",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BoazSender/status/739584653380751360",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "boaz.sender",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/boaz.sender/posts/10154054178331140",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "boazsender",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/boazsender/789c3e4a437538cf7f56f3e848efa7b6",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/boazsender",
+        "name": "avatar"
+      }
+    ],
+    "name": "Boaz Sender",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://boazsender.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "boazsender",
+      "proof_url": "https://twitter.com/BoazSender/status/739584653380751360",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "boaz.sender",
+      "proof_url": "https://www.facebook.com/boaz.sender/posts/10154054178331140",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "boazsender",
+      "proof_url": "https://gist.github.com/boazsender/789c3e4a437538cf7f56f3e848efa7b6",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN boazsender.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/boazsender.id\"\n"
+}
