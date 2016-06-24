@@ -1,0 +1,66 @@
+{
+  "owner_address": "1GHpDfqTemB9wE5V22KuTzhkpaTtWrAy8A",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/bgidley",
+        "identifier": "3D4C462F27F9A2EB83131A836C1FA6B5831AE4BF",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bgidley",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bgidley/status/741873394665312256",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bgidley",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bgidley/8883240e4b9eb99783038b490aa001fa",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Aston Crews, Herefordshire, UK"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bgidley",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bgidley",
+        "name": "cover"
+      }
+    ],
+    "name": "Ben Gidley",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.gidley.co.uk/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bgidley",
+      "proof_url": "https://twitter.com/bgidley/status/741873394665312256",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bgidley",
+      "proof_url": "https://gist.github.com/bgidley/8883240e4b9eb99783038b490aa001fa",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bgidley.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bgidley.id\"\n"
+}
