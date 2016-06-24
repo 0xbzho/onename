@@ -1,0 +1,36 @@
+{
+  "owner_address": "19XEsK6GUxTfv2fXnrwpj2Wac7swW8pdJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "laughtrack",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/laughtrack",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "David Judge"
+  },
+  "verifications": [
+    {
+      "identifier": "laughtrack",
+      "proof_url": "https://www.facebook.com/laughtrack",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN davidjudge.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/davidjudge.id\"\n"
+}
