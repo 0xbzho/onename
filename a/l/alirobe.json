@@ -1,0 +1,68 @@
+{
+  "owner_address": "1C1bEmKqdxgLLgwbuyrhSYqY9Z7qFv45nS",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "alirobe",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/alirobe/status/739379379592036353",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "alirobe",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/alirobe/c2e841d0a8e7a1e83542eeb5dca20f52",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "alirobe",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/alirobe/posts/10153410673022132",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Melbourne, Australia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ali Robertson",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://ali.id.au"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "alirobe",
+      "proof_url": "https://twitter.com/alirobe/status/739379379592036353",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "alirobe",
+      "proof_url": "https://gist.github.com/alirobe/c2e841d0a8e7a1e83542eeb5dca20f52",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "alirobe",
+      "proof_url": "https://www.facebook.com/alirobe/posts/10153410673022132",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN alirobe.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alirobe.id\"\n"
+}
