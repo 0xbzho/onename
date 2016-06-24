@@ -1,0 +1,59 @@
+{
+  "owner_address": "1BmxPVdxrpuT74YRE5QyXVmcMwNtRnKiqA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "14H5bHe4gVW3kRDyPCioGGJbUchFYBaRQu",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "184bc5f668f88d810006e831d9bbb84cff78d507",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Benjamim",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/benjamim/status/739908077101678592",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lisbon, Portugal"
+    },
+    "description": "Father, dyslexic, runner, surfer and photographer. Not necessarily in that order",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/benjamim",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/benjamim",
+        "name": "cover"
+      }
+    ],
+    "name": "Benjamim Silva",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://about.me/Benjamim"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Benjamim",
+      "proof_url": "https://twitter.com/benjamim/status/739908077101678592",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN benjamim.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/benjamim.id\"\n"
+}
