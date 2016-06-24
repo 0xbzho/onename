@@ -1,0 +1,66 @@
+{
+  "owner_address": "1J7P9C4NBDc7ZSLPtoeQGF8dHyn8A2wur9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "beshrkayali",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/beshrkayali/0d87ed8ed1f249c39a313c48d1e48c26",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "beshr",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/beshr/status/742464096923230212",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pgp.mit.edu/pks/lookup?op=get&search=0x2FBC83F8D5DA9B55",
+        "identifier": "0x2fbc83f8d5da9b55",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Stockholm, Sweden"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/beshrkayali",
+        "name": "avatar"
+      }
+    ],
+    "name": "Beshr Kayali",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://beshr.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "beshrkayali",
+      "proof_url": "https://gist.github.com/beshrkayali/0d87ed8ed1f249c39a313c48d1e48c26",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "beshr",
+      "proof_url": "https://twitter.com/beshr/status/742464096923230212",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN beshrkayali.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/beshrkayali.id\"\n"
+}
