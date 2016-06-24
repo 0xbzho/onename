@@ -1,0 +1,73 @@
+{
+  "owner_address": "1LyDH1Pj51ENVpnqT64GpPbA5qDD7A6Enx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bluebroham",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bluebroham/status/741899542317010944",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Bluebroham",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Bluebroham/5298023d6336b723ff3ca9c023554bc1",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "13TjrDYqKqyKQJzVgJavwZ5xxzrT18n3L6",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bluebroham",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bluebroham/posts/10154234693149836",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boise, ID"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bluebroham",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bluebroham",
+        "name": "cover"
+      }
+    ],
+    "name": "AJ Mortensen"
+  },
+  "verifications": [
+    {
+      "identifier": "bluebroham",
+      "proof_url": "https://twitter.com/bluebroham/status/741899542317010944",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Bluebroham",
+      "proof_url": "https://gist.github.com/Bluebroham/5298023d6336b723ff3ca9c023554bc1",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "bluebroham",
+      "proof_url": "https://www.facebook.com/bluebroham/posts/10154234693149836",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bluebroham.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bluebroham.id\"\n"
+}
