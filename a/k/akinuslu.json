@@ -1,0 +1,58 @@
+{
+  "owner_address": "1GwxLXtKYRXaj81o5CddaGFPxFP2HgeMLK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "uslu",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/uslu/status/737017725810147328",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "akin.uslu",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/akin.uslu/posts/10153893166214877",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "akinu",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/akinu/0a43be76884c537259dacd1877cdcb69",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Akin Uslu"
+  },
+  "verifications": [
+    {
+      "identifier": "uslu",
+      "proof_url": "https://twitter.com/uslu/status/737017725810147328",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "akin.uslu",
+      "proof_url": "https://www.facebook.com/akin.uslu/posts/10153893166214877",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "akinu",
+      "proof_url": "https://gist.github.com/akinu/0a43be76884c537259dacd1877cdcb69",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN akinuslu.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/akinuslu.id\"\n"
+}
