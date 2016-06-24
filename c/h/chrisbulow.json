@@ -1,0 +1,68 @@
+{
+  "owner_address": "129N1GnzP9TBXHzFkqUqhhTuBay94EFH5f",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "chrisbulow",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ChrisBulow/status/741225349154000896",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cjbulow",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/cjbulow/posts/1578178795807836",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "chrisbulow",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/chrisbulow/b77f2f444093bf22086123d0c49ba986",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Uzbekhistan"
+    },
+    "description": "Not now...",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/chrisbulow",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/chrisbulow",
+        "name": "cover"
+      }
+    ],
+    "name": "Chris Bulow"
+  },
+  "verifications": [
+    {
+      "identifier": "chrisbulow",
+      "proof_url": "https://twitter.com/ChrisBulow/status/741225349154000896",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "cjbulow",
+      "proof_url": "https://www.facebook.com/cjbulow/posts/1578178795807836",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "chrisbulow",
+      "proof_url": "https://gist.github.com/chrisbulow/b77f2f444093bf22086123d0c49ba986",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN chrisbulow.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/chrisbulow.id\"\n"
+}
