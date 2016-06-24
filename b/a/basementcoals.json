@@ -1,0 +1,47 @@
+{
+  "owner_address": "1PgCMN6fPfhgqJ3FQEq51hgDmab5viA8GQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "a7667cb872726c7081603b2b543a0c963b5f4eaa",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "BasementCoals",
+        "proofType": "http",
+        "proofUrl": "https://mobile.twitter.com/BasementCoals/status/735855300507377664",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "California, USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Basement Coals",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.basementcoals.com/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "BasementCoals",
+      "proof_url": "https://mobile.twitter.com/BasementCoals/status/735855300507377664",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN basementcoals.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/basementcoals.id\"\n"
+}
