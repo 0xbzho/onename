@@ -1,0 +1,36 @@
+{
+  "owner_address": "16KaTWjZPU5drggoWPLTpYD2gB7XdxYqAy",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Cheri Hawes",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/cheririders",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cheririders",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Cheri Hawes",
+      "proof_url": "https://onename.com/cheririders",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN cheririders.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cheririders.id\"\n"
+}
