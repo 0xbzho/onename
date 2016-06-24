@@ -1,0 +1,73 @@
+{
+  "owner_address": "12EZQGdZfaWRuPvRDE2iwn234YiM18H1tp",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Aar0nStoddard",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Aar0nStoddard/status/735857520837697536",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Aar0nStoddard",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/Aar0nStoddard/posts/1179820712036220",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "aaronstoddard",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/aaronstoddard/d2dd41cd4aeb37ef514ae2c2cf7211b1",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1561g8F8ayKnwKLEFV5yLhFEn8hpCGvAqa",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Southern California"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/aaronstoddard",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/aaronstoddard",
+        "name": "cover"
+      }
+    ],
+    "name": "Aaron Stoddard"
+  },
+  "verifications": [
+    {
+      "identifier": "Aar0nStoddard",
+      "proof_url": "https://twitter.com/Aar0nStoddard/status/735857520837697536",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Aar0nStoddard",
+      "proof_url": "https://www.facebook.com/Aar0nStoddard/posts/1179820712036220",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "aaronstoddard",
+      "proof_url": "https://gist.github.com/aaronstoddard/d2dd41cd4aeb37ef514ae2c2cf7211b1",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN aaronstoddard.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/aaronstoddard.id\"\n"
+}
