@@ -1,0 +1,36 @@
+{
+  "owner_address": "1F3m6jUk1oVEkVXcbzYxadMEgU4f3Lswyf",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "certel",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/certel/status/710316203160371200",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/certel",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "certel",
+      "proof_url": "https://twitter.com/certel/status/710316203160371200",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN certel.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/certel.id\"\n"
+}
