@@ -1,0 +1,51 @@
+{
+  "owner_address": "17qFLxG9nQkDcRgpUUqMfEfThtEzhzXgnH",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cvanderlinden",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cvanderlinden/status/740775620662177794",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cvanderlinden",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/cvanderlinden/8568a252d688b1c7845cc487e2f4f408",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Craig Vanderlinden",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://cvanderlinden.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "cvanderlinden",
+      "proof_url": "https://twitter.com/cvanderlinden/status/740775620662177794",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "cvanderlinden",
+      "proof_url": "https://gist.github.com/cvanderlinden/8568a252d688b1c7845cc487e2f4f408",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN cvanderlinden.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cvanderlinden.id\"\n"
+}
