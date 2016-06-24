@@ -1,0 +1,56 @@
+{
+  "owner_address": "1ArLGhtRQxVpPTM4mVRYatCa5yCbrLXyHV",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "10buckties",
+        "proofType": "http",
+        "proofUrl": "https://t.co/52rck1yqNl",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "10buckties",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/10buckties",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/10buckties",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/10buckties",
+        "name": "cover"
+      }
+    ],
+    "name": "10buckties",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.10buckties.biz"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "10buckties",
+      "proof_url": "https://t.co/52rck1yqNl",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "10buckties",
+      "proof_url": "https://onename.com/10buckties",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN 10buckties.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/10buckties.id\"\n"
+}
