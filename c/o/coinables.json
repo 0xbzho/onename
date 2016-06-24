@@ -1,0 +1,55 @@
+{
+  "owner_address": "17XVWTVFAoXYxVcSGPHSkUwV5mfxUmDDmh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "coinableS",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/coinableS/status/740711739868610560",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "coinables",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/coinables/3a5aa23ef1699ca82bf0c46cafd36c1d",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Diego, CA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Kyle Honeycutt",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://btcthreads.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "coinableS",
+      "proof_url": "https://twitter.com/coinableS/status/740711739868610560",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "coinables",
+      "proof_url": "https://gist.github.com/coinables/3a5aa23ef1699ca82bf0c46cafd36c1d",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN coinables.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/coinables.id\"\n"
+}
