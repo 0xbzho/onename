@@ -1,33 +1,41 @@
 {
   "owner_address": "1EfgLKCtNKqVdbCFYHDQZ8XLLgeVfqB1dT",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/bilthon83"
-    },
-    "bio": "",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/IHL.jpg"
-    },
-    "location": {
-      "formatted": "Rio de Janeiro"
-    },
-    "name": {
-      "formatted": "Nelson"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/Bilthon/status/656934604679585792"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Bilthon",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "Bilthon"
+      {
+        "@type": "Account",
+        "identifier": "569bf63c34d578b83b4aab5776fee2c165cf8259",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TheOpenSourceN/status/742533847703654402",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Rio de Janeiro"
     },
-    "v": "0.2"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bilthon83",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Nelson"
   },
-  "verifications": [
-    {
-      "identifier": "Bilthon",
-      "proof_url": "https://twitter.com/Bilthon/status/656934604679585792",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN bilthon83.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bilthon83.id\"\n"
 }
