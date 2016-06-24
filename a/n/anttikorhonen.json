@@ -1,0 +1,49 @@
+{
+  "owner_address": "18bjVkJbY3KCtFQKt7Nt4o3aybiHbcb4QD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anttikorhonen",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/anttikorhonen/status/742086571000778752",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https://www.facebook.com/anttiatkorhonendotcom",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/anttiatkorhonendotcom/posts/10209337686097094",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Finland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Antti Korhonen"
+  },
+  "verifications": [
+    {
+      "identifier": "anttikorhonen",
+      "proof_url": "https://twitter.com/anttikorhonen/status/742086571000778752",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "https://www.facebook.com/anttiatkorhonendotcom",
+      "proof_url": "https://www.facebook.com/anttiatkorhonendotcom/posts/10209337686097094",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN anttikorhonen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/anttikorhonen.id\"\n"
+}
