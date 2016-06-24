@@ -1,0 +1,57 @@
+{
+  "owner_address": "15JTTPgiP3ykmShX2dCQozDNwJM7CXbh4J",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Chuox",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Chuox/status/743288006140788737",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Chu0x",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/Chu0x/posts/10208940199478916",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Verifying that +chuox77 is my blockchain ID. https:",
+        "proofType": "http",
+        "proofUrl": "Verifying that +chuox77 is my blockchain ID. https://onename.com/chuox77",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Chuox",
+      "proof_url": "https://twitter.com/Chuox/status/743288006140788737",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Chu0x",
+      "proof_url": "https://www.facebook.com/Chu0x/posts/10208940199478916",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "Verifying that +chuox77 is my blockchain ID. https:",
+      "proof_url": "Verifying that +chuox77 is my blockchain ID. https://onename.com/chuox77",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN chuox77.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/chuox77.id\"\n"
+}
