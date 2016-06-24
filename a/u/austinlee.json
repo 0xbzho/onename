@@ -1,0 +1,44 @@
+{
+  "owner_address": "1CsNtEV9xLxE3Ub8AvQxnxjCjcEq8Z5pZb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "green18bean",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/green18bean/status/740986161045196800",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "leeaustinb",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/leeaustinb/posts/10201861433533761",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "green18bean",
+      "proof_url": "https://twitter.com/green18bean/status/740986161045196800",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "leeaustinb",
+      "proof_url": "https://www.facebook.com/leeaustinb/posts/10201861433533761",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN austinlee.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/austinlee.id\"\n"
+}
