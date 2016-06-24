@@ -1,0 +1,44 @@
+{
+  "owner_address": "194QTb9MEkMrA54sWWweCJ2K4DDrffChis",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "waxieus",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/waxieus/status/740965994961592321",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "metapup",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/meta.pup/posts/10208610313548036",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "waxieus",
+      "proof_url": "https://twitter.com/waxieus/status/740965994961592321",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "metapup",
+      "proof_url": "https://www.facebook.com/meta.pup/posts/10208610313548036",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN calease.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/calease.id\"\n"
+}
