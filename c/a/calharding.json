@@ -1,0 +1,56 @@
+{
+  "owner_address": "1PHZDXYR355P7dtMVfJJd1frq93horz4u5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "calharding",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/calharding/221f94f2338b7684bf654307fbd7c2a3",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "calharding",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/calharding/status/740814749550661632",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/calharding",
+        "name": "avatar"
+      }
+    ],
+    "name": "Cal Harding",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://calharding.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "calharding",
+      "proof_url": "https://gist.github.com/calharding/221f94f2338b7684bf654307fbd7c2a3",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "calharding",
+      "proof_url": "https://twitter.com/calharding/status/740814749550661632",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN calharding.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/calharding.id\"\n"
+}
