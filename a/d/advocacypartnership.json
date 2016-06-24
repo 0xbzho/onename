@@ -1,0 +1,47 @@
+{
+  "owner_address": "15ZuCwDfaDkmV1tkXjGpuzGmrPCzGN3huf",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "advocacyptnrs",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/AdvocacyPtnrs/status/740752062737047552",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Singapore"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/advocacypartnership",
+        "name": "avatar"
+      }
+    ],
+    "name": "The Advocacy Partnership",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.advocacypartnership.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "advocacyptnrs",
+      "proof_url": "https://twitter.com/AdvocacyPtnrs/status/740752062737047552",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN advocacypartnership.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/advocacypartnership.id\"\n"
+}
