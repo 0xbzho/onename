@@ -1,0 +1,57 @@
+{
+  "owner_address": "19ipEy3JUgYJHJpXdGeWVEpB153BvWqq5e",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "colwar",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/colwar/status/740739565070077952",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "colin.warren.568",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/colin.warren.568/posts/10153483184221695",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "colinwarren",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/colinwarren/9b0c6cd5912573a012726a6c0de579f7",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "colwar",
+      "proof_url": "https://twitter.com/colwar/status/740739565070077952",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "colin.warren.568",
+      "proof_url": "https://www.facebook.com/colin.warren.568/posts/10153483184221695",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "colinwarren",
+      "proof_url": "https://gist.github.com/colinwarren/9b0c6cd5912573a012726a6c0de579f7",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN colinwarren.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/colinwarren.id\"\n"
+}
