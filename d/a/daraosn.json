@@ -1,0 +1,63 @@
+{
+  "owner_address": "1FjQCSqYTsbgobmxbjuX9D1pqsxuZa3toM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "daraosn",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/daraosn/status/740940058715430913",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1FT4LoifsAonbW3ngBiawdX5AUUqjoDzSu",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "daraosn",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/daraosn/843980d668dfe42f2d5c1ebf66decf5d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "diego.araos",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/diego.araos/posts/10154241726844609",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "daraosn",
+      "proof_url": "https://twitter.com/daraosn/status/740940058715430913",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "daraosn",
+      "proof_url": "https://gist.github.com/daraosn/843980d668dfe42f2d5c1ebf66decf5d",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "diego.araos",
+      "proof_url": "https://www.facebook.com/diego.araos/posts/10154241726844609",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN daraosn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/daraosn.id\"\n"
+}
