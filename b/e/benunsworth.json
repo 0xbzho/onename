@@ -1,0 +1,57 @@
+{
+  "owner_address": "1DQ7tZL5cwoQWmYhQXDhQi2gxftBiXnd2G",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "benunsworth",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/benunsworth/status/740876034824896512",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "benunsworth",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/benunsworth/f9d891c8ed2240908e6ecab85c9ac42a",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ben.unsworth1",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ben.unsworth1/posts/10154043226890266?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "benunsworth",
+      "proof_url": "https://twitter.com/benunsworth/status/740876034824896512",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "benunsworth",
+      "proof_url": "https://gist.github.com/benunsworth/f9d891c8ed2240908e6ecab85c9ac42a",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "ben.unsworth1",
+      "proof_url": "https://www.facebook.com/ben.unsworth1/posts/10154043226890266?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN benunsworth.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/benunsworth.id\"\n"
+}
