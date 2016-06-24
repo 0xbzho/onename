@@ -1,0 +1,54 @@
+{
+  "owner_address": "1GU5v497Ed9vFJuQ5142vHqqCF4Aeq9jhp",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "MplsBarry",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MplsBarry/status/735254884644052992",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "barry-johnson",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/barry-johnson/fb54d1906575660242a5582f7de0c087",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Minneapolis, MN"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/barryjohnson",
+        "name": "avatar"
+      }
+    ],
+    "name": "Barry Johnson"
+  },
+  "verifications": [
+    {
+      "identifier": "MplsBarry",
+      "proof_url": "https://twitter.com/MplsBarry/status/735254884644052992",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "barry-johnson",
+      "proof_url": "https://gist.github.com/barry-johnson/fb54d1906575660242a5582f7de0c087",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN barryjohnson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/barryjohnson.id\"\n"
+}
