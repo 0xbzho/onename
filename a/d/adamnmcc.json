@@ -1,0 +1,42 @@
+{
+  "owner_address": "1Kjjhtvjt4jYjJyU1fqhHQHTZc4TAL4EnW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "adamnmcc",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/adamnmcc/962e7c9ca4815841da14b28eb2f9f378#file-onename-verication",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "West Sussex"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Adam McCartney",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://teamawesome.eu"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "adamnmcc",
+      "proof_url": "https://gist.github.com/adamnmcc/962e7c9ca4815841da14b28eb2f9f378#file-onename-verication",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN adamnmcc.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/adamnmcc.id\"\n"
+}
