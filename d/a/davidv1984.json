@@ -1,0 +1,37 @@
+{
+  "owner_address": "1PgJZDc1dhJjQ1nBCG41QW7qxRiHGSXMZu",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "david.vegelj",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/davidv1984",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/davidv1984",
+        "name": "avatar"
+      }
+    ],
+    "name": "David Vegelj"
+  },
+  "verifications": [
+    {
+      "identifier": "david.vegelj",
+      "proof_url": "https://onename.com/davidv1984",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN davidv1984.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/davidv1984.id\"\n"
+}
