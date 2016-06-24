@@ -1,0 +1,66 @@
+{
+  "owner_address": "1Eu5dttg6SDNA2Aj18Ct9gL6q51Q3EuaNK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bitcoholic",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bitcoholic/status/740832294328504320",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bitcoholic",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bitcoholic/posts/1718344475070929",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1bitcoHSMEtDgVdqJ3WnVm5tLcukE5m5v",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Wroclaw"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bitcoholic",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bitcoholic",
+        "name": "cover"
+      }
+    ],
+    "name": "Adam",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://bitcoholic.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bitcoholic",
+      "proof_url": "https://twitter.com/bitcoholic/status/740832294328504320",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bitcoholic",
+      "proof_url": "https://www.facebook.com/bitcoholic/posts/1718344475070929",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN bitcoholic.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bitcoholic.id\"\n"
+}
