@@ -1,0 +1,50 @@
+{
+  "owner_address": "12Fsjy8x3vFuW98Q7eDB94FmBUJHQ5NiGk",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "CurtisMelvin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/CurtisMelvin/status/735160387843264512",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "curtis.melvin",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/curtis.melvin/posts/10208146596475386",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Alexandria, VA"
+    },
+    "description": "Researcher, US-Korea Institute, Johns Hopkins SAIS",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Curtis Melvin"
+  },
+  "verifications": [
+    {
+      "identifier": "CurtisMelvin",
+      "proof_url": "https://twitter.com/CurtisMelvin/status/735160387843264512",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "curtis.melvin",
+      "proof_url": "https://www.facebook.com/curtis.melvin/posts/10208146596475386",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN curtismelvin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/curtismelvin.id\"\n"
+}
