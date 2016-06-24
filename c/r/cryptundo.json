@@ -1,0 +1,47 @@
+{
+  "owner_address": "1N196KYH5iTkPke15TaUFt5i3vqm1Le5db",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "31nmLEWA8Y9faZoMQRkfPjSBnvLxFxJx6u",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "profile.php?id=100012527045723",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/permalink.php?story_fbid=106059136488321&id=100012527045723",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cuba"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cryptundo",
+        "name": "avatar"
+      }
+    ],
+    "name": "Compadre Cryptundo"
+  },
+  "verifications": [
+    {
+      "identifier": "profile.php?id=100012527045723",
+      "proof_url": "https://www.facebook.com/permalink.php?story_fbid=106059136488321&id=100012527045723",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN cryptundo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cryptundo.id\"\n"
+}
