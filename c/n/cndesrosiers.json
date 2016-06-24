@@ -1,0 +1,74 @@
+{
+  "owner_address": "173DUMA3NDrtk6wf3FVBTd5QA8dvyuwqUW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cndesrosiers",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cndesrosiers/status/739843397972811776",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cndesrosiers",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/cndesrosiers/posts/874686743631",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cndesrosiers",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/cndesrosiers/806fbecb5c2bb42e82c1087387451287#file-gistfile1-txt",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York"
+    },
+    "description": "Entrepreneur",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cndesrosiers",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/cndesrosiers",
+        "name": "cover"
+      }
+    ],
+    "name": "Christian Nicolás Desrosiers",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.twitter.com/cndesrosiers"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "cndesrosiers",
+      "proof_url": "https://twitter.com/cndesrosiers/status/739843397972811776",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "cndesrosiers",
+      "proof_url": "https://www.facebook.com/cndesrosiers/posts/874686743631",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "cndesrosiers",
+      "proof_url": "https://gist.github.com/cndesrosiers/806fbecb5c2bb42e82c1087387451287#file-gistfile1-txt",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN cndesrosiers.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cndesrosiers.id\"\n"
+}
