@@ -1,0 +1,73 @@
+{
+  "owner_address": "1Q2fjE6F3VfRx2C21vRh7b1vxPKUKwJDFk",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dafzthomas",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dafzthomas/posts/10210063524843847",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dafzthomas",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dafzthomas/status/740805582882508800",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dafzthomas",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dafzthomas/c082a0ea7e6af6b77dc035ad4df94af5",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "36btqCgwVGWBb1HRaeLwD6iX34T4Tkftnd",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Wales"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dafzthomas",
+        "name": "avatar"
+      }
+    ],
+    "name": "Dafydd Thomas"
+  },
+  "verifications": [
+    {
+      "identifier": "dafzthomas",
+      "proof_url": "https://www.facebook.com/dafzthomas/posts/10210063524843847",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "dafzthomas",
+      "proof_url": "https://twitter.com/dafzthomas/status/740805582882508800",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "dafzthomas",
+      "proof_url": "https://gist.github.com/dafzthomas/c082a0ea7e6af6b77dc035ad4df94af5",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dafzthomas.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dafzthomas.id\"\n"
+}
