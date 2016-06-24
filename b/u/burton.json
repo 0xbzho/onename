@@ -1,33 +1,48 @@
 {
   "owner_address": "1C9WDBbxBnHz4Xkg3MJSUuTJddTr5o2jkM",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "ee3c8baa8c62137b7374dead85d5fedd9fa1f128",
-        "service": "openbazaar"
+        "identifier": "1K9SPeXeC6ZKnYu4bUosVcZ7fMA2GACnnV",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "manticlops",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/manticlops/status/740946581575356416",
+        "service": "twitter"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/burton"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nestling in green nowhere"
     },
-    "bio": "Sometimes it's not the size, but the ferocity that counts.",
-    "bitcoin": {
-      "address": "1K9SPeXeC6ZKnYu4bUosVcZ7fMA2GACnnV"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/burton"
-    },
-    "location": {
-      "formatted": "Nestling in green nowhere"
-    },
-    "name": {
-      "formatted": "Burton"
-    },
-    "twitter": {
-      "username": "manticlops"
-    },
-    "v": "0.2"
+    "description": "Sometimes it's not the size, but the ferocity that counts.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/burton",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/burton",
+        "name": "cover"
+      }
+    ],
+    "name": "Burton"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "manticlops",
+      "proof_url": "https://twitter.com/manticlops/status/740946581575356416",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN burton.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/burton.id\"\n"
 }
