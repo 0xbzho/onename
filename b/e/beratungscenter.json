@@ -1,0 +1,48 @@
+{
+  "owner_address": "18BboDahfwmJgTwyYMcsqtCe4hPyUiRRF3",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "beratungscenter",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Beratungscenter/status/741178078081232897",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kelkheim | Wiesbaden | Frankfurt a.M. - Rhein-Main-Gebiet"
+    },
+    "description": "#beratungscenter #machtweb",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/beratungscenter",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/beratungscenter",
+        "name": "cover"
+      }
+    ],
+    "name": "Beratungscenter für Handwerksbetriebe | Reinhard Lange",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://beratungscenter.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "beratungscenter",
+      "proof_url": "https://twitter.com/Beratungscenter/status/741178078081232897",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN beratungscenter.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/beratungscenter.id\"\n"
+}
