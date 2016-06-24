@@ -1,0 +1,49 @@
+{
+  "owner_address": "1DC57n1mHYtovF8qkymwsgYMj3BVnTp76y",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mikaelmleczko",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MikaelMleczko/status/735226258410201088",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "evilmuffinman",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/evilmuffinman/cd63c91184faa41f29ea27da0d18902f",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/blockchainmail",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mikaelmleczko",
+      "proof_url": "https://twitter.com/MikaelMleczko/status/735226258410201088",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "evilmuffinman",
+      "proof_url": "https://gist.github.com/evilmuffinman/cd63c91184faa41f29ea27da0d18902f",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN blockchainmail.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/blockchainmail.id\"\n"
+}
