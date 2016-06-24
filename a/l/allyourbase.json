@@ -1,0 +1,67 @@
+{
+  "owner_address": "14jhMNjp2NeDL2q79J8MP31cCDhuPVjHTB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ScottyKarell",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ScottyKarell/status/739207132608860160",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/5oloist",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "aybase",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/aybase/",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Earth"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/allyourbase",
+        "name": "avatar"
+      }
+    ],
+    "name": "allyourbase"
+  },
+  "verifications": [
+    {
+      "identifier": "ScottyKarell",
+      "proof_url": "https://twitter.com/ScottyKarell/status/739207132608860160",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "",
+      "proof_url": "https://www.facebook.com/5oloist",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "aybase",
+      "proof_url": "https://gist.github.com/aybase/",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN allyourbase.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/allyourbase.id\"\n"
+}
