@@ -1,0 +1,68 @@
+{
+  "owner_address": "1LdPwxENhgCyA1Ums6oBgMoKu4AEHjsZ57",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bcooney",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bcooney/f1303858a7d5cd8d955222b6c134fc9e",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "contact_bc",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/contact_bc/status/740875458883948545",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/bcooney",
+        "identifier": "0AF39D734A9B91EB468FE2A0BB572D7C437B1FAA",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "13Km9qG13MDtQDqCnSBPAKM9hLHh8PDQvS",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bcooney",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bcooney",
+        "name": "cover"
+      }
+    ],
+    "name": "Brendan Cooney",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://bcooney.github.io/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bcooney",
+      "proof_url": "https://gist.github.com/bcooney/f1303858a7d5cd8d955222b6c134fc9e",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "contact_bc",
+      "proof_url": "https://twitter.com/contact_bc/status/740875458883948545",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bcooney.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bcooney.id\"\n"
+}
