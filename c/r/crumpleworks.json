@@ -1,0 +1,73 @@
+{
+  "owner_address": "1LwWroWhKtCVDwNJptXfmF3xyvdQDAMNWa",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "crumpleworks",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/crumpleworks/status/740787961822912512",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "crumpleworks",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/crumpleworks/bdc26de6c2fbbc0dfebbf03ada5015be",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "petphi",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/petphi/posts/1114635011933806",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Jan Juc, Australia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/crumpleworks",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/crumpleworks",
+        "name": "cover"
+      }
+    ],
+    "name": "Peter Phillips",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.crumpleworks.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "crumpleworks",
+      "proof_url": "https://twitter.com/crumpleworks/status/740787961822912512",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "crumpleworks",
+      "proof_url": "https://gist.github.com/crumpleworks/bdc26de6c2fbbc0dfebbf03ada5015be",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "petphi",
+      "proof_url": "https://www.facebook.com/petphi/posts/1114635011933806",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN crumpleworks.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/crumpleworks.id\"\n"
+}
