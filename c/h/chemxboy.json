@@ -1,0 +1,86 @@
+{
+  "owner_address": "1L6HmxKL9FFUFTpfN6ku3rgaitQ7jBFDKB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "chemxboy",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/chemxboy/status/741029364603584512",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "chemxboy",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/chemxboy/c029c68eb9c9904ded459d76e4470a8c",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "randy.garrison",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/randy.garrison/posts/10154491509498268",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "164nq5kiKB5iWsXCAPEonLjdaKAoy6JGNa",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "4a8e165f11d1f9685d0f56d2f186a503b620525c  Create Listing  Customize ...  About  Following 3  Followers 1  Reviews 0  Store 0",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/chemxboy/c029c68eb9c9904ded459d76e4470a8c",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Santa Cruz, CA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/chemxboy",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/chemxboy",
+        "name": "cover"
+      }
+    ],
+    "name": "Randy Garrison",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://chemxlabs.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "chemxboy",
+      "proof_url": "https://twitter.com/chemxboy/status/741029364603584512",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "chemxboy",
+      "proof_url": "https://gist.github.com/chemxboy/c029c68eb9c9904ded459d76e4470a8c",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "randy.garrison",
+      "proof_url": "https://www.facebook.com/randy.garrison/posts/10154491509498268",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN chemxboy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/chemxboy.id\"\n"
+}
