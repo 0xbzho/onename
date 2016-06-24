@@ -1,0 +1,36 @@
+{
+  "owner_address": "15dSC9DHkHeTpRgUym7fUZFVrbvCqU1B96",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "davidnachum",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nachum",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Dave_Aiello/status/741113092952719362",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "nachum",
+      "proof_url": "https://twitter.com/Dave_Aiello/status/741113092952719362",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN davidnachum.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/davidnachum.id\"\n"
+}
