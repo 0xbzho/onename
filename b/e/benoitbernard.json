@@ -1,52 +1,60 @@
 {
   "owner_address": "1F1tT2JV8xe5haiWJuP7UQ87rRzVuebDsu",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/benoitbernard"
-    },
-    "bio": "",
-    "bitcoin": {
-      "address": "3FfYtE1VCNdaVCfb99AK6p82GYwmHovrsK"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/benoitbernard"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/benster1970/posts/10153015549905892"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "benster1970",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "benster1970"
-    },
-    "location": {
-      "formatted": "Strasbourg, France"
-    },
-    "name": {
-      "formatted": "benster1970"
-    },
-    "pgp": {
-      "url": "https://pgp.mit.edu/pks/lookup?op=get&search=0x47F947B2EEC94542"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/benster1970/status/606809578194501632"
+      {
+        "@type": "Account",
+        "identifier": "1AS8bi2X8wTjjuosHaBGXtk2R3MA4wPbhD",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "benster1970"
+      {
+        "@type": "Account",
+        "identifier": "benster1970",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/benster1970/status/743789882313707520",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Strasbourg, France"
     },
-    "v": "0.2",
-    "website": "http://benoitbernard.com"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/benoitbernard",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/benoitbernard",
+        "name": "avatar"
+      }
+    ],
+    "name": "benster1970",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://benoitbernard.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "benster1970",
-      "proof_url": "https://twitter.com/benster1970/status/606809578194501632",
+      "proof_url": "https://twitter.com/benster1970/status/743789882313707520",
       "service": "twitter",
       "valid": true
-    },
-    {
-      "identifier": "benster1970",
-      "proof_url": "https://facebook.com/benster1970/posts/10153015549905892",
-      "service": "facebook",
-      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN benoitbernard.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/benoitbernard.id\"\n"
 }
