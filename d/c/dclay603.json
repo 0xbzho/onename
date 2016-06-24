@@ -1,0 +1,54 @@
+{
+  "owner_address": "142N5v5KmPoS669vEoMfwVjie7b9cdQ1cG",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "David Clay",
+        "proofType": "http",
+        "proofUrl": "https://m.facebook.com/story.php?story_fbid=1203399356339901&id=100000095459111",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dclay603",
+        "proofType": "http",
+        "proofUrl": "Verifying that +dclay603 is my blockchain ID. https://onename.com/dclay603",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Pflugerville"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dclay603",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/dclay603",
+        "name": "cover"
+      }
+    ],
+    "name": "DAVID CLAY"
+  },
+  "verifications": [
+    {
+      "identifier": "David Clay",
+      "proof_url": "https://m.facebook.com/story.php?story_fbid=1203399356339901&id=100000095459111",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "dclay603",
+      "proof_url": "Verifying that +dclay603 is my blockchain ID. https://onename.com/dclay603",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN dclay603.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dclay603.id\"\n"
+}
