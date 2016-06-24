@@ -1,0 +1,42 @@
+{
+  "owner_address": "1P1osJfYhWC9NBUKNQkpswJgbGEvqR9T52",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bartbez",
+        "proofType": "http",
+        "proofUrl": "Verifying that +broomlog is my blockchain ID. https://onename.com/broomlog",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Gouda"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Bart Bezembinder",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://bartbezembinder.nl"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bartbez",
+      "proof_url": "Verifying that +broomlog is my blockchain ID. https://onename.com/broomlog",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN broomlog.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/broomlog.id\"\n"
+}
