@@ -1,0 +1,42 @@
+{
+  "owner_address": "1AJQjKdH9ksW37CUun4VE4ufywke9SAeb2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "amiqus",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/amiqus/status/741652689981964288",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Edinburgh"
+    },
+    "description": "Building tools to give informed & affordable alternatives to court",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/amiqus",
+        "name": "avatar"
+      }
+    ],
+    "name": "amiqus"
+  },
+  "verifications": [
+    {
+      "identifier": "amiqus",
+      "proof_url": "https://twitter.com/amiqus/status/741652689981964288",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN amiqus.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/amiqus.id\"\n"
+}
