@@ -1,0 +1,72 @@
+{
+  "owner_address": "1Hh3qicAKF7AdQN5FfmLUz19v6aezHsPKW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1DanMosqqSrfnhFVM4BP2uYEVyhZFw6w7f",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "BlauDev",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/BlauDev/1198d088304af60fd126c220f1d4988a",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/blaudev",
+        "identifier": "706CA2AC517917B3E4FBE7B66115D0FBF570CEF0",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "BlauDev",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BlauDev/status/743888576555945984",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Alacant, Spain"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/blaudev",
+        "name": "avatar"
+      }
+    ],
+    "name": "Daniel Mosquera",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://blaudev.es"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "BlauDev",
+      "proof_url": "https://gist.github.com/BlauDev/1198d088304af60fd126c220f1d4988a",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "BlauDev",
+      "proof_url": "https://twitter.com/BlauDev/status/743888576555945984",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN blaudev.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/blaudev.id\"\n"
+}
