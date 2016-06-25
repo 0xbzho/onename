@@ -1,0 +1,81 @@
+{
+  "owner_address": "1Nqj335wogZcLs3WTu7Jnd5Lb4KzYNnEr9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "messwright",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/messwright/e1323624248ffb6d950c9f00e43d5d53#file-onename",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "scrum_bag",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Scrum_Bag/status/741471316738347008",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "messwright",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/messwright/posts/10208115281392168",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "@messwright",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/messwright/posts/10208115227750827?pnref=story",
+        "service": "instagram"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Dallas, Tx"
+    },
+    "description": "I want it all.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/messwright",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/messwright",
+        "name": "cover"
+      }
+    ],
+    "name": "Mess Wright"
+  },
+  "verifications": [
+    {
+      "identifier": "messwright",
+      "proof_url": "https://gist.github.com/messwright/e1323624248ffb6d950c9f00e43d5d53#file-onename",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "scrum_bag",
+      "proof_url": "https://twitter.com/Scrum_Bag/status/741471316738347008",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "messwright",
+      "proof_url": "https://www.facebook.com/messwright/posts/10208115281392168",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "@messwright",
+      "proof_url": "https://www.facebook.com/messwright/posts/10208115227750827?pnref=story",
+      "service": "instagram",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN messwright.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/messwright.id\"\n"
+}
