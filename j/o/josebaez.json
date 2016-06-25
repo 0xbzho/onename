@@ -1,0 +1,73 @@
+{
+  "owner_address": "1NqdaYhJDDpTcLmYyNRDH8e1BVNZkgtG6N",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "http://www.josebaez.com/josebaez/josebaez_export_7884714F1C5BEB01.asc",
+        "identifier": "0x7884714f1c5beb01",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/cc39aa9a1663cdf6793cfb7c6b368522",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "14EFH3JUpBytqw1qxpRVySAtfRwthTECuT",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "josebaezbarranco",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mbaas/posts/10154876272186124",
+        "service": "linkedin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Spain"
+    },
+    "description": "Computer Scientist / Software Engineer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/josebaez",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jose Baez",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.josebaez.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "",
+      "proof_url": "https://gist.github.com/anonymous/cc39aa9a1663cdf6793cfb7c6b368522",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "josebaezbarranco",
+      "proof_url": "https://www.facebook.com/mbaas/posts/10154876272186124",
+      "service": "linkedin",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN josebaez.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/josebaez.id\"\n"
+}
