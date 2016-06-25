@@ -1,0 +1,49 @@
+{
+  "owner_address": "13m7dfmx8zE2awu5fzxcuSXvZ4VyUPqcVw",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "@LauraChampio_n",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/LauraChampio_n/status/740895089904521216",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "laura.geoffroy.773",
+        "proofType": "http",
+        "proofUrl": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Flaura.geoffroy.773%2Fposts%2F10154194597702145&width=500\" width=\"500\" height=\"482\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\"></iframe>",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/laura_c",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/laura_c",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "@LauraChampio_n",
+      "proof_url": "https://twitter.com/LauraChampio_n/status/740895089904521216",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "laura.geoffroy.773",
+      "proof_url": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Flaura.geoffroy.773%2Fposts%2F10154194597702145&width=500\" width=\"500\" height=\"482\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\"></iframe>",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN laura_c.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/laura_c.id\"\n"
+}
