@@ -1,0 +1,49 @@
+{
+  "owner_address": "1RZzZkVcFZJYk8ooNJhGHGWbaf29N8G72",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kornfidential",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kornfidential/status/743887089519951872",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "keybase.io/kornfidential/key.asc",
+        "identifier": "1350AE6F43A5433232E013699378F1EEEFB6AA3D",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1CVRtNsUHNV5YsuHZVAbaa4gWV8LDwfNgo",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kornfidential",
+        "name": "avatar"
+      }
+    ],
+    "name": "Klaus Ko_"
+  },
+  "verifications": [
+    {
+      "identifier": "kornfidential",
+      "proof_url": "https://twitter.com/kornfidential/status/743887089519951872",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kornfidential.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kornfidential.id\"\n"
+}
