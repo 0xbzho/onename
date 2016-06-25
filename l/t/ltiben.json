@@ -1,0 +1,60 @@
+{
+  "owner_address": "1EQduzJkG79RUSHcCYA8WUPrcGJMVYcKjt",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tibendesign",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tibendesign/status/743403726447190016",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "larsgunnar.tiben",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/larsgunnar.tiben/posts/629398440541291",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Fredrikstad"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ltiben",
+        "name": "avatar"
+      }
+    ],
+    "name": "Lars Gunnar Tiben",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.tiben.no"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tibendesign",
+      "proof_url": "https://twitter.com/tibendesign/status/743403726447190016",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "larsgunnar.tiben",
+      "proof_url": "https://www.facebook.com/larsgunnar.tiben/posts/629398440541291",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ltiben.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ltiben.id\"\n"
+}
