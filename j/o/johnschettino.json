@@ -1,0 +1,62 @@
+{
+  "owner_address": "1HPcuQpwgGB1keqiPvUWyib7tXpwjCkqCg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "john.schettino",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/john.schettino/posts/10209639569887302",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "schettj",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/schettj/614ea0828116d8dcf2e352115c3d0245",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "JohnSchettino",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JohnSchettino/status/741249600309235712",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/johnschettino",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/johnschettino",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "john.schettino",
+      "proof_url": "https://www.facebook.com/john.schettino/posts/10209639569887302",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "schettj",
+      "proof_url": "https://gist.github.com/schettj/614ea0828116d8dcf2e352115c3d0245",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "JohnSchettino",
+      "proof_url": "https://twitter.com/JohnSchettino/status/741249600309235712",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN johnschettino.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/johnschettino.id\"\n"
+}
