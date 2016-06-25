@@ -1,0 +1,49 @@
+{
+  "owner_address": "1NupgdDtGnVehYEQNRob2N2MVzNtAJuaVw",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nankobouman",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/nankobouman/posts/10209666681650695",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "NankoBouman",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/NankoBouman/status/735121971848044545",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "The Netherlands"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Nanko Bouman"
+  },
+  "verifications": [
+    {
+      "identifier": "nankobouman",
+      "proof_url": "https://www.facebook.com/nankobouman/posts/10209666681650695",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "NankoBouman",
+      "proof_url": "https://twitter.com/NankoBouman/status/735121971848044545",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN nankobouman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nankobouman.id\"\n"
+}
