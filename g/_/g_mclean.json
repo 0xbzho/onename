@@ -1,0 +1,44 @@
+{
+  "owner_address": "131dphoT8CjHB11j3TS8dVctQG6RVpVDgb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "G-Mclean",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/G-Mclean/2c49481f2166fd9a396cab948f077e17#file-verifying-that-g_mclean-is-my-blockchain-id",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "GaryMclean",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/GaryMclean/status/356459907991605249",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "G-Mclean",
+      "proof_url": "https://gist.github.com/G-Mclean/2c49481f2166fd9a396cab948f077e17#file-verifying-that-g_mclean-is-my-blockchain-id",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "GaryMclean",
+      "proof_url": "https://twitter.com/GaryMclean/status/356459907991605249",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN g_mclean.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/g_mclean.id\"\n"
+}
