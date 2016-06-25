@@ -1,0 +1,55 @@
+{
+  "owner_address": "13z5fh3Bn1h5txzXMaVGx3DoxXu79JrdF1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Scalextrix666",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Scalextrix666/status/742077447982682113",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Scalextrix",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Scalextrix/2b51a1bfee610aa8b471b3213d6453e3",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1DRJEkJxvWJDu1jX7bFpb1wT7kPzMjiFso",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Essex, UK"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Steven Campbell"
+  },
+  "verifications": [
+    {
+      "identifier": "Scalextrix666",
+      "proof_url": "https://twitter.com/Scalextrix666/status/742077447982682113",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Scalextrix",
+      "proof_url": "https://gist.github.com/Scalextrix/2b51a1bfee610aa8b471b3213d6453e3",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN scalextrix.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/scalextrix.id\"\n"
+}
