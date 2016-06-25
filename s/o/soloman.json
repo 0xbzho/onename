@@ -1,0 +1,50 @@
+{
+  "owner_address": "1MgykQwCWUcZxJs3r8Sk34shzXdy4zoKUA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "LIONELKRIEGER",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/LionelKrieger/status/736198654650920960",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lionelskrieger",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/lionelskrieger/posts/10204901118368217?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cape Town, South Africa"
+    },
+    "description": "SEO and Web Marketing",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Lionel Solomon Krieger"
+  },
+  "verifications": [
+    {
+      "identifier": "LIONELKRIEGER",
+      "proof_url": "https://twitter.com/LionelKrieger/status/736198654650920960",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "lionelskrieger",
+      "proof_url": "https://www.facebook.com/lionelskrieger/posts/10204901118368217?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN soloman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/soloman.id\"\n"
+}
