@@ -1,0 +1,74 @@
+{
+  "owner_address": "134TWJVXzukkyupT6wVbefy7wtkfzYSjBQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1d75fbb30f0f21eb1265c52f8c1a3cec5103959a",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ScottBoner/9ea08fd5ef55e7f9a2c542d10815e1c0",
+        "service": "openbazzar"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/mr_yuk",
+        "identifier": null,
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "19dtxPxjFBfSsRiFpaKzVUwrtBExcT3Hf4",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "_mryuk_",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/_mryuk_/status/738256845849145344",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Mr-Yuk",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Mr-Yuk/27e49d5112a6fcf682aa07afc4d4c2d4",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1d75fbb30f0f21eb1265c52f8c1a3cec5103959a",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mr_yuk",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mr_yuk",
+        "name": "cover"
+      }
+    ],
+    "name": "Mr. Yuk"
+  },
+  "verifications": [
+    {
+      "identifier": "_mryuk_",
+      "proof_url": "https://twitter.com/_mryuk_/status/738256845849145344",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Mr-Yuk",
+      "proof_url": "https://gist.github.com/Mr-Yuk/27e49d5112a6fcf682aa07afc4d4c2d4",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mr_yuk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mr_yuk.id\"\n"
+}
