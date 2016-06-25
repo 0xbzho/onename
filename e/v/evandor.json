@@ -1,0 +1,44 @@
+{
+  "owner_address": "1JJxFsTNXh7XfpeSyLFyeNs1PngSZQBKGj",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "evandor34",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/evandor34/status/740762904899817472",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "evandor",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/evandor/7ac966e49c34f54e944ef729d2c47100",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "evandor34",
+      "proof_url": "https://twitter.com/evandor34/status/740762904899817472",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "evandor",
+      "proof_url": "https://gist.github.com/evandor/7ac966e49c34f54e944ef729d2c47100",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN evandor.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/evandor.id\"\n"
+}
