@@ -1,0 +1,49 @@
+{
+  "owner_address": "1JK4JBpDdB6PgTpzohFZsoKqhQDfa9CRn4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "https://www.facebook.com/kmiyakawa",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/daraosn/status/740940058715430913",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "k_miya7",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/szerge/6937baccdd1d2c265ed8465e00bae574",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kmiyakawa",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "https://www.facebook.com/kmiyakawa",
+      "proof_url": "https://twitter.com/daraosn/status/740940058715430913",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "k_miya7",
+      "proof_url": "https://gist.github.com/szerge/6937baccdd1d2c265ed8465e00bae574",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN kmiyakawa.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kmiyakawa.id\"\n"
+}
