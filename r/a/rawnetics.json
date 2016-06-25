@@ -1,1 +1,73 @@
-null
+{
+  "owner_address": "191QwJZFX6rzvDib2bfYC57BeF8aaMVWmd",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "https://www.facebook.com/profile.php?id=100010922946109",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "17J2tBsiFywJWrnnvzzFGNpJoMPZAPWLog",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "6b45401029d9f8850f7d3c5b5e9899094f2a9c44",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/shares/view?id=10153695055483831&av=618578830",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rawnetica",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rawnetica/status/732019101556563968",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rawnetics",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rawnetics/009845280f2d7dbb178102788d769c7f",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Byron Bay Baby"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rawnetics",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rawnetics",
+        "name": "cover"
+      }
+    ],
+    "name": "Rawnetics"
+  },
+  "verifications": [
+    {
+      "identifier": "rawnetica",
+      "proof_url": "https://twitter.com/rawnetica/status/732019101556563968",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "rawnetics",
+      "proof_url": "https://gist.github.com/rawnetics/009845280f2d7dbb178102788d769c7f",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rawnetics.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rawnetics.id\"\n"
+}
