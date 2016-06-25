@@ -1,0 +1,61 @@
+{
+  "owner_address": "1Ejzi1R9Euuegihww6xzW8SZVrKH4DZUFQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "velofisch",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Velofisch/status/741326623652384768",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "erbguth",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/erbguth",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1QYkC7V1MhpzfymbRrqBqzhWGmgYQFj64",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Geneva, Switzerland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jörn Erbguth",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://erbguth.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "velofisch",
+      "proof_url": "https://twitter.com/Velofisch/status/741326623652384768",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "erbguth",
+      "proof_url": "https://www.facebook.com/erbguth",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN veloski.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/veloski.id\"\n"
+}
