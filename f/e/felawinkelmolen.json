@@ -1,0 +1,44 @@
+{
+  "owner_address": "1HbTgCFCr9uHSu7FuvyrzhWfKaZGK7n1Ng",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "felawinkelmolen",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/felawinkelmolen/posts/10208205309441859",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fela",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/fela/a314f530b7f706def5710282f5329f7f",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "felawinkelmolen",
+      "proof_url": "https://www.facebook.com/felawinkelmolen/posts/10208205309441859",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "fela",
+      "proof_url": "https://gist.github.com/fela/a314f530b7f706def5710282f5329f7f",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN felawinkelmolen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/felawinkelmolen.id\"\n"
+}
