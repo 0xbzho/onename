@@ -1,0 +1,54 @@
+{
+  "owner_address": "1JodWjPGYoaqhCn8baA2mD95EZnKfqxLQK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Pinchdatails",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Pinchdatails/status/743096227886075905",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "pinchdatail",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/pinchdatail?fref=nf&pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Frisco, TX"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/pinchdatail",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/pinchdatail",
+        "name": "cover"
+      }
+    ],
+    "name": "Gary Campos"
+  },
+  "verifications": [
+    {
+      "identifier": "Pinchdatails",
+      "proof_url": "https://twitter.com/Pinchdatails/status/743096227886075905",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "pinchdatail",
+      "proof_url": "https://www.facebook.com/pinchdatail?fref=nf&pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN pinchdatail.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pinchdatail.id\"\n"
+}
