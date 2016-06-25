@@ -1,0 +1,60 @@
+{
+  "owner_address": "1EdtDWRjqPRHoVjvHkLiBPg3jjdDLa94P1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "zevore",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Zevore/status/744693928230805504",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "zevore",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/zevore/posts/1453681481324473",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/zevore",
+        "name": "avatar"
+      }
+    ],
+    "name": "Zevore",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://zevore.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "zevore",
+      "proof_url": "https://twitter.com/Zevore/status/744693928230805504",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "zevore",
+      "proof_url": "https://www.facebook.com/zevore/posts/1453681481324473",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN zevore.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/zevore.id\"\n"
+}
