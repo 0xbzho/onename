@@ -1,0 +1,68 @@
+{
+  "owner_address": "14aJrw4VPgpF5huN22grefMir4QyRPhFzk",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "florianfink",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/florianfink/status/741036654295666688",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "florianfink",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/florianfink/b4b56bae3ea72de1f25fb79d0ea5395d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "florianfink",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/florianfink/posts/10205942200028725?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "18GCrhiFyG2jWUpuVWmDtw92FhTGkx3ms9",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Stuttgart, Germany"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Florian Fink"
+  },
+  "verifications": [
+    {
+      "identifier": "florianfink",
+      "proof_url": "https://twitter.com/florianfink/status/741036654295666688",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "florianfink",
+      "proof_url": "https://gist.github.com/florianfink/b4b56bae3ea72de1f25fb79d0ea5395d",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "florianfink",
+      "proof_url": "https://www.facebook.com/florianfink/posts/10205942200028725?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN florianfink.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/florianfink.id\"\n"
+}
