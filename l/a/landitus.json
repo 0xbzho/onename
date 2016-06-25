@@ -1,0 +1,31 @@
+{
+  "owner_address": "1NQGVogTLpnqgEuzCeckZC9YC4vYqH18nN",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "landitus",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/lfalkenburg/status/740682996034965504",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "landitus",
+      "proof_url": "https://twitter.com/lfalkenburg/status/740682996034965504",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN landitus.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/landitus.id\"\n"
+}
