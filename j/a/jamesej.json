@@ -1,0 +1,62 @@
+{
+  "owner_address": "1MWVCVu9me9q19PaVroTQhEQX7csAjLEyR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jamesej",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jamesej/status/735199736660168704",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jamesejia",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jamesejia/744b652f095c64af8d3ac599a338a015#file-onename1-txt",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jamesej",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jamesej/posts/10157187408430122",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chicago, USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "James Edward Johnson"
+  },
+  "verifications": [
+    {
+      "identifier": "jamesej",
+      "proof_url": "https://twitter.com/jamesej/status/735199736660168704",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jamesejia",
+      "proof_url": "https://gist.github.com/jamesejia/744b652f095c64af8d3ac599a338a015#file-onename1-txt",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jamesej",
+      "proof_url": "https://www.facebook.com/jamesej/posts/10157187408430122",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jamesej.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jamesej.id\"\n"
+}
