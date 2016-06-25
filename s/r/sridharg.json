@@ -1,0 +1,50 @@
+{
+  "owner_address": "15ZfqBnaJoYXBLL2r95KDCUfCLFTL4GvsM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/c5250cf1ed39634b043bc688c9fc0f8f",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sridhar87",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sridhar87/status/735474892800299008",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chennai, India"
+    },
+    "description": "Software Developer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Sridhar Ganesan"
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/c5250cf1ed39634b043bc688c9fc0f8f",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "sridhar87",
+      "proof_url": "https://twitter.com/sridhar87/status/735474892800299008",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN sridharg.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sridharg.id\"\n"
+}
