@@ -1,0 +1,48 @@
+{
+  "owner_address": "1F5qztoEgWnQzshXrGqbLwt5VHAbaUCb4C",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "SHK_de",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SHK_de/status/743895770097651712",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Frankfurt a.M. | Wiesbaden - Hessen - Germany"
+    },
+    "description": "Sanitär - Heizung - Klima",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sanitaer",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/sanitaer",
+        "name": "cover"
+      }
+    ],
+    "name": "Sanitär - Heizung - Klima",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://machtweb.de"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "SHK_de",
+      "proof_url": "https://twitter.com/SHK_de/status/743895770097651712",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN sanitaer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sanitaer.id\"\n"
+}
