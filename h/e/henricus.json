@@ -5,27 +5,30 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "zenricus",
-        "proofType": "http",
-        "service": "twitter"
+        "contentUrl": "https://keybase.io/bear/key.asc",
+        "identifier": "2E80896B810FFF19403C89800C6A8424F5850D67",
+        "service": "pgp"
       },
       {
         "@type": "Account",
-        "identifier": "027e4180beedb29744413a7ea6b84a42",
+        "identifier": "zenricus",
         "proofType": "http",
-        "service": "facebook"
+        "proofUrl": "https://twitter.com/zenricus/status/744790689225945089",
+        "service": "twitter"
       },
       {
         "@type": "Account",
         "identifier": "zenry",
         "proofType": "http",
+        "proofUrl": "https://gist.github.com/zenry/b28b1f3ff0a001a453cf3f1caed1ad35",
         "service": "github"
       },
       {
         "@type": "Account",
-        "contentUrl": "https://keybase.io/bear/key.asc",
-        "identifier": "2E80896B810FFF19403C89800C6A8424F5850D67",
-        "service": "pgp"
+        "identifier": "027e4180beedb29744413a7ea6b84a42",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/027e4180beedb29744413a7ea6b84a42/posts/613679758786468",
+        "service": "facebook"
       }
     ],
     "address": {
@@ -53,6 +56,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "zenricus",
+      "proof_url": "https://twitter.com/zenricus/status/744790689225945089",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "zenry",
+      "proof_url": "https://gist.github.com/zenry/b28b1f3ff0a001a453cf3f1caed1ad35",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "027e4180beedb29744413a7ea6b84a42",
+      "proof_url": "https://www.facebook.com/027e4180beedb29744413a7ea6b84a42/posts/613679758786468",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN henricus.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/henricus.id\"\n"
 }
