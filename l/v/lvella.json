@@ -1,0 +1,63 @@
+{
+  "owner_address": "17JmwXKYjbyTvrx2pDZ5Z5VHAxicY5jeib",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "lvella",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/lvella/f10ba5ab7df7f6532f9331c7947c9126",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "13bbGCsjo5RrByDdQovxLwhquzDyTbHG7Q",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lcvella",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/lcvella/status/741144959848480772",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lcvella",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/lcvella/posts/1142747645746076",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "lvella",
+      "proof_url": "https://gist.github.com/lvella/f10ba5ab7df7f6532f9331c7947c9126",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "lcvella",
+      "proof_url": "https://twitter.com/lcvella/status/741144959848480772",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "lcvella",
+      "proof_url": "https://www.facebook.com/lcvella/posts/1142747645746076",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN lvella.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lvella.id\"\n"
+}
