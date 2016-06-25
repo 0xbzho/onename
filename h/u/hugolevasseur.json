@@ -1,0 +1,62 @@
+{
+  "owner_address": "14NYijHU9yWWbHCBu3Mhf6YwQBHT2bXTaS",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "HugoLevasseur",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/HugoLevasseur/status/741023629836705792",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hugolev",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/hugolev/570db4ac029c5ceb2e6dc8534f1f72de",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hugo.levasseur.14",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/hugo.levasseur.14/posts/1723676177850247?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hugolevasseur",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "HugoLevasseur",
+      "proof_url": "https://twitter.com/HugoLevasseur/status/741023629836705792",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "hugolev",
+      "proof_url": "https://gist.github.com/hugolev/570db4ac029c5ceb2e6dc8534f1f72de",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "hugo.levasseur.14",
+      "proof_url": "https://www.facebook.com/hugo.levasseur.14/posts/1723676177850247?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN hugolevasseur.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hugolevasseur.id\"\n"
+}
