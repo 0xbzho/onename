@@ -1,0 +1,49 @@
+{
+  "owner_address": "1LDpVuyW8oevPPmpYZU8mu47QAvQuydack",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "m_erlandsson",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/m_erlandsson/status/740826720606007298",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "merland",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/merland/1336c2f6351c3cf0dd22d41e77cae2da",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sweden"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Martin Erlandsson"
+  },
+  "verifications": [
+    {
+      "identifier": "m_erlandsson",
+      "proof_url": "https://twitter.com/m_erlandsson/status/740826720606007298",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "merland",
+      "proof_url": "https://gist.github.com/merland/1336c2f6351c3cf0dd22d41e77cae2da",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN merland.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/merland.id\"\n"
+}
