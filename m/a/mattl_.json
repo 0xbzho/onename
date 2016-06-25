@@ -1,0 +1,56 @@
+{
+  "owner_address": "1NKNshmst1b14n8qk2TvUy1ZT9DBedqqQY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mattl",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mattl/status/741323685420752901",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mattl",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mattl/a90bbbbf1539320d54bab068cf5eb8a8",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Austin, TX"
+    },
+    "description": "Free software hacker",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Matt Lee",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://mat.tl"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mattl",
+      "proof_url": "https://twitter.com/mattl/status/741323685420752901",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mattl",
+      "proof_url": "https://gist.github.com/mattl/a90bbbbf1539320d54bab068cf5eb8a8",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mattl_.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mattl_.id\"\n"
+}
