@@ -1,0 +1,62 @@
+{
+  "owner_address": "1BowRAFHwGVEeiUbYD3JbuXTh6JXqtVKuB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tj47201",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tj47201/status/740714404606554112",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tj47201",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tj47201/5d2b4549b513b647fe334f1ff9c7d8f4#file-gistfile1-txt",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tj47201",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/tj47201/posts/1611789279150120",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tylerj",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tj47201",
+      "proof_url": "https://twitter.com/tj47201/status/740714404606554112",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "tj47201",
+      "proof_url": "https://gist.github.com/tj47201/5d2b4549b513b647fe334f1ff9c7d8f4#file-gistfile1-txt",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "tj47201",
+      "proof_url": "https://www.facebook.com/tj47201/posts/1611789279150120",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tylerj.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tylerj.id\"\n"
+}
