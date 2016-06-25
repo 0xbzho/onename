@@ -1,0 +1,31 @@
+{
+  "owner_address": "1GKdn3n9d446Vx3wpxcs96SrEYQbxPm1QJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "williamsanger",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/williamsanger/ed2bc090a835876a9f91c9be76da9490",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "williamsanger",
+      "proof_url": "https://gist.github.com/williamsanger/ed2bc090a835876a9f91c9be76da9490",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN williamsanger.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/williamsanger.id\"\n"
+}
