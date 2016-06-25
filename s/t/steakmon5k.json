@@ -1,0 +1,73 @@
+{
+  "owner_address": "12VWwTH2ZvbgcsAj7KEDmY5PgRR4iVbiNU",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "CrazyMike79",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/CrazyMike79/status/742168273861541888",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "crazymike79",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/crazymike79/posts/10208289007316582",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "crazymike79",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/crazymike79/939e5f6f6bd7dba240e34c5c3cdc5a0f",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "13rHbh2bYgChGR1wo2ae5mKqkah1ETGByP",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Barrow, AK"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/steakmon5k",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/steakmon5k",
+        "name": "cover"
+      }
+    ],
+    "name": "Micheal Judkins"
+  },
+  "verifications": [
+    {
+      "identifier": "CrazyMike79",
+      "proof_url": "https://twitter.com/CrazyMike79/status/742168273861541888",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "crazymike79",
+      "proof_url": "https://www.facebook.com/crazymike79/posts/10208289007316582",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "crazymike79",
+      "proof_url": "https://gist.github.com/crazymike79/939e5f6f6bd7dba240e34c5c3cdc5a0f",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN steakmon5k.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/steakmon5k.id\"\n"
+}
