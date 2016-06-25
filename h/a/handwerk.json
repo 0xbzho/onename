@@ -1,0 +1,48 @@
+{
+  "owner_address": "1L3CvEWKpbYRtUoqpciPYPZb5SfX8dS3yw",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Handwerk_de",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Handwerk_de/status/741175233357438976",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Frankfurt a.M. | Germany"
+    },
+    "description": "#handwerk",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/handwerk",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/handwerk",
+        "name": "cover"
+      }
+    ],
+    "name": "Handwerk",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://handwerksmeister.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Handwerk_de",
+      "proof_url": "https://twitter.com/Handwerk_de/status/741175233357438976",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN handwerk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/handwerk.id\"\n"
+}
