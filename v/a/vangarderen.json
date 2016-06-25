@@ -1,0 +1,73 @@
+{
+  "owner_address": "1NnQvHzRVB79Kdk22KQpVvwZvnXZrXXSX5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "pjvangarderen",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/pjvangarderen/status/740892276801437697",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "petervg",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/petervg/posts/10153441643671152",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "peterVG",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/peterVG/417e4e508dfc4ba5e60c3006fd026171",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Vancouver, Canada"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/vangarderen",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/vangarderen",
+        "name": "cover"
+      }
+    ],
+    "name": "Peter Van Garderen",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://vangarderen.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "pjvangarderen",
+      "proof_url": "https://twitter.com/pjvangarderen/status/740892276801437697",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "petervg",
+      "proof_url": "https://www.facebook.com/petervg/posts/10153441643671152",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "peterVG",
+      "proof_url": "https://gist.github.com/peterVG/417e4e508dfc4ba5e60c3006fd026171",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN vangarderen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vangarderen.id\"\n"
+}
