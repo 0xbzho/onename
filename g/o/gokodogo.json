@@ -1,0 +1,31 @@
+{
+  "owner_address": "1A6fyudr1LeZBAesbfzAySewWyC4csDkGw",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gokodogo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gokodogo/status/740737674319794176",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "gokodogo",
+      "proof_url": "https://twitter.com/gokodogo/status/740737674319794176",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN gokodogo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gokodogo.id\"\n"
+}
