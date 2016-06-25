@@ -1,0 +1,69 @@
+{
+  "owner_address": "13asdZ2LSojwpAEAWgZ9sf68fjZCX1tNqc",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1nviousFvoZFKog7wQp8Dak1YQvUjbe4b",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "BeInvious",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BeInvious/status/740906974678777856",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "BeInvious",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/BeInvious/posts/4936183082086",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "invious",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/invious/ec2a613f823c1dc439ea43e67a0d8565",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/invious",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/invious",
+        "name": "avatar"
+      }
+    ],
+    "name": "Aymon Fournier"
+  },
+  "verifications": [
+    {
+      "identifier": "BeInvious",
+      "proof_url": "https://twitter.com/BeInvious/status/740906974678777856",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "BeInvious",
+      "proof_url": "https://www.facebook.com/BeInvious/posts/4936183082086",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "invious",
+      "proof_url": "https://gist.github.com/invious/ec2a613f823c1dc439ea43e67a0d8565",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN invious.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/invious.id\"\n"
+}
