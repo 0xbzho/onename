@@ -1,0 +1,54 @@
+{
+  "owner_address": "12r1bhbUqXtQRMUZY8eaAmDFUZr6XXWV6p",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "zetruenando",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/zetruenando/status/743469396270714884",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Zetruenando",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Zetruenando/7a2b1c74ac253f68c3aa34c240279702",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nantes"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/zetruenando",
+        "name": "avatar"
+      }
+    ],
+    "name": "Fernando Rynne"
+  },
+  "verifications": [
+    {
+      "identifier": "zetruenando",
+      "proof_url": "https://twitter.com/zetruenando/status/743469396270714884",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "Zetruenando",
+      "proof_url": "https://gist.github.com/Zetruenando/7a2b1c74ac253f68c3aa34c240279702",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN zetruenando.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/zetruenando.id\"\n"
+}
