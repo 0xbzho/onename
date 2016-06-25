@@ -1,0 +1,49 @@
+{
+  "owner_address": "16o7mHPvRCG1SFur7ohLTpCzMPb7LfoafZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mountainofmoney",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mountainofmoney/status/741006991271792641",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "austing",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/austing/ebd0487c15905ae1246de5feb1648777",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mountainofmoney",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mountainofmoney",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mountainofmoney",
+      "proof_url": "https://twitter.com/mountainofmoney/status/741006991271792641",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "austing",
+      "proof_url": "https://gist.github.com/austing/ebd0487c15905ae1246de5feb1648777",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mountainofmoney.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mountainofmoney.id\"\n"
+}
