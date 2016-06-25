@@ -9,6 +9,13 @@
         "proofType": "http",
         "proofUrl": "https://twitter.com/YLeDuc/status/734493510355853313",
         "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/62fe1017b3e73913d2bc3beb1780e0d9",
+        "service": "github"
       }
     ],
     "address": {
@@ -18,8 +25,13 @@
     "image": [
       {
         "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "contentUrl": "https://s3.amazonaws.com/dx3/yleduc",
         "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/yleduc",
+        "name": "avatar"
       }
     ],
     "name": "Yannick LE DUC"
@@ -30,6 +42,12 @@
       "proof_url": "https://twitter.com/YLeDuc/status/734493510355853313",
       "service": "twitter",
       "valid": false
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/62fe1017b3e73913d2bc3beb1780e0d9",
+      "service": "github",
+      "valid": true
     }
   ],
   "zone_file": "$ORIGIN yleduc.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/yleduc.id\"\n"
