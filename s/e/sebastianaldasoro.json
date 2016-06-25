@@ -1,0 +1,54 @@
+{
+  "owner_address": "12gp9HAnrX2SUQfztveDyv2sf9AS4DTXVy",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "saldasoro",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Saldasoro/status/735862676266594305",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sebastian.aldasoro.7",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/sebastianaldasoro&redirect_uri=https://onename.com/sebastianaldasoro%23facebook",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Buenos Aires"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sebastianaldasoro",
+        "name": "avatar"
+      }
+    ],
+    "name": "Sebastian Aldasoro"
+  },
+  "verifications": [
+    {
+      "identifier": "saldasoro",
+      "proof_url": "https://twitter.com/Saldasoro/status/735862676266594305",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "sebastian.aldasoro.7",
+      "proof_url": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/sebastianaldasoro&redirect_uri=https://onename.com/sebastianaldasoro%23facebook",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN sebastianaldasoro.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sebastianaldasoro.id\"\n"
+}
