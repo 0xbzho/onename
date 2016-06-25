@@ -1,0 +1,79 @@
+{
+  "owner_address": "1CCk58ixCVyBZeUBg4jdFiASPvm1zwnj46",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "larluzeharmonia",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/larluzeharmonia/status/742446677743833088",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "15uAomSAgqGive67WdFNdHEUfcYzVAMHdw",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "larluzeharmonia",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/larluzeharmonia/51a4b85cf47385fa6320aa5af02c3331#file-onename",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "larluzeharmonia",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/larluzeharmonia/posts/1233312276713312",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Rua Antonio Marcondes, 584 - Ipiranga. São Paulo - SP. Brasil"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/luzeharmonia",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/luzeharmonia",
+        "name": "avatar"
+      }
+    ],
+    "name": "Lar Kardecista Luz e Harmonia Chico Xavier",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.luzeharmonia.com.br"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "larluzeharmonia",
+      "proof_url": "https://twitter.com/larluzeharmonia/status/742446677743833088",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "larluzeharmonia",
+      "proof_url": "https://gist.github.com/larluzeharmonia/51a4b85cf47385fa6320aa5af02c3331#file-onename",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "larluzeharmonia",
+      "proof_url": "https://www.facebook.com/larluzeharmonia/posts/1233312276713312",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN luzeharmonia.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/luzeharmonia.id\"\n"
+}
