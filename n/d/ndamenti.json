@@ -1,0 +1,44 @@
+{
+  "owner_address": "1B5NocN8tSmxqQFBfRRxwEbTb18mtXohLN",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ndamenti",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/ndamenti",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ndamenti",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ndamenti/status/740998368843960320",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ndamenti",
+      "proof_url": "https://onename.com/ndamenti",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "ndamenti",
+      "proof_url": "https://twitter.com/ndamenti/status/740998368843960320",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ndamenti.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ndamenti.id\"\n"
+}
