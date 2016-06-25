@@ -1,0 +1,44 @@
+{
+  "owner_address": "1Ce5ddqtu1ERNLgEakXifU8GbH25gbi4WR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "pavansingh_live",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/PavanSingh_live/status/743427447933247488",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "pavan.singh",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/pavan.singh/posts/10153615640807681",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "pavansingh_live",
+      "proof_url": "https://twitter.com/PavanSingh_live/status/743427447933247488",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "pavan.singh",
+      "proof_url": "https://www.facebook.com/pavan.singh/posts/10153615640807681",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN pavansingh.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pavansingh.id\"\n"
+}
