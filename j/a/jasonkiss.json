@@ -1,0 +1,60 @@
+{
+  "owner_address": "1JizwnDR7pq6XhcCSkqL9E55kmhsYS1bBi",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jasonkiss",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jasonkiss/28c9334a8443b8b0cdcd74e299f5d4d5",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jason.kiss.758",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jason.kiss.758/posts/526418054213186?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New Zealand"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jasonkiss",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jason Kiss",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://accessibleculture.org"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jasonkiss",
+      "proof_url": "https://gist.github.com/jasonkiss/28c9334a8443b8b0cdcd74e299f5d4d5",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jason.kiss.758",
+      "proof_url": "https://www.facebook.com/jason.kiss.758/posts/526418054213186?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jasonkiss.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jasonkiss.id\"\n"
+}
