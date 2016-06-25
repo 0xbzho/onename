@@ -1,0 +1,62 @@
+{
+  "owner_address": "1EmR1qDA4ZXsZNBUsD9TXSUUN6CBpowowF",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "warmingheartsm",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/warmingheartsm/posts/10209173002709745",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "williferg",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/WilliFerg/status/742498484150886400",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ptkwilliam",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ptkwilliam/abf181d46081df3b833589f41d07cbcd#file-gistfile1-txt",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ptkwilliam",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "warmingheartsm",
+      "proof_url": "https://www.facebook.com/warmingheartsm/posts/10209173002709745",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "williferg",
+      "proof_url": "https://twitter.com/WilliFerg/status/742498484150886400",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ptkwilliam",
+      "proof_url": "https://gist.github.com/ptkwilliam/abf181d46081df3b833589f41d07cbcd#file-gistfile1-txt",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ptkwilliam.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ptkwilliam.id\"\n"
+}
