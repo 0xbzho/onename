@@ -1,0 +1,63 @@
+{
+  "owner_address": "14Uu9JZvpfWQyHgDbfL9bKCoXzGo9oVa5G",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kyledillon",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/kyledillon/3d1124741b3d3a6489b33f22eb184650",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kyle.dillon",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/kyle.dillon.988/posts/10206919290597240",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "xkyle_dillonx",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/xKyle_Dillonx/status/745772719778697218",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kyledillon",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/kyledillon",
+        "name": "cover"
+      }
+    ],
+    "name": "Kyle Dillon"
+  },
+  "verifications": [
+    {
+      "identifier": "kyledillon",
+      "proof_url": "https://gist.github.com/kyledillon/3d1124741b3d3a6489b33f22eb184650",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "kyle.dillon",
+      "proof_url": "https://www.facebook.com/kyle.dillon.988/posts/10206919290597240",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "xkyle_dillonx",
+      "proof_url": "https://twitter.com/xKyle_Dillonx/status/745772719778697218",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kyledillon.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kyledillon.id\"\n"
+}
