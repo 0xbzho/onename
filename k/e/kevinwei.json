@@ -1,0 +1,36 @@
+{
+  "owner_address": "1PyXxGdYVscQGiJvveGLLCHppXYS7w38TZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "weikevin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/WeiKevin/status/740000135862583297",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hong Kong"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Kevin Wei"
+  },
+  "verifications": [
+    {
+      "identifier": "weikevin",
+      "proof_url": "https://twitter.com/WeiKevin/status/740000135862583297",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN kevinwei.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kevinwei.id\"\n"
+}
