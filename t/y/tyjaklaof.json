@@ -1,0 +1,63 @@
+{
+  "owner_address": "1JnrjCn5yDejMkQQ6aUt6CkZ5hn7pbpps",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tyjak",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tyjak/status/741012778228416512",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tyjak",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tyjak/031e612dee57b1e3513ea2164d09118f",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "david.foucher",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/david.foucher/posts/10154072936681041",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/tyjaklaof",
+        "identifier": "9CA8AD8FCC730C23E27EC9161106A3751E6659C9",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tyjak",
+      "proof_url": "https://twitter.com/tyjak/status/741012778228416512",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "tyjak",
+      "proof_url": "https://gist.github.com/tyjak/031e612dee57b1e3513ea2164d09118f",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "david.foucher",
+      "proof_url": "https://www.facebook.com/david.foucher/posts/10154072936681041",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tyjaklaof.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tyjaklaof.id\"\n"
+}
