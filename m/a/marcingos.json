@@ -1,0 +1,57 @@
+{
+  "owner_address": "1Hw5FpCfw54Fff1RQVDkjYLQLraTyzmATc",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "marcingos",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/marcingos/status/741704893682049024",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "marcingos",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/marcingos/posts/10154274805059532",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "marcingos",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/marcingos/f5b9252d0f1b935ea888d3265f9fc073",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "marcingos",
+      "proof_url": "https://twitter.com/marcingos/status/741704893682049024",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "marcingos",
+      "proof_url": "https://www.facebook.com/marcingos/posts/10154274805059532",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "marcingos",
+      "proof_url": "https://gist.github.com/marcingos/f5b9252d0f1b935ea888d3265f9fc073",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN marcingos.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/marcingos.id\"\n"
+}
