@@ -1,0 +1,54 @@
+{
+  "owner_address": "1AJCkL1WLnMtuHEtaE7huZhKRqiiAMkSEK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jim_zhou",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jim_zhou/status/740793966531125249",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "3GVUBnzk2iunuYSvCgUNXojLJYwHXKrH1a",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/jimzhou",
+        "identifier": "035D1A07AE18B634EFEE933584F3C0413AA305FA",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brooklyn"
+    },
+    "description": "the awkward spot between a JD and an Esq",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jimzhou",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jim Zhou"
+  },
+  "verifications": [
+    {
+      "identifier": "jim_zhou",
+      "proof_url": "https://twitter.com/jim_zhou/status/740793966531125249",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jimzhou.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jimzhou.id\"\n"
+}
