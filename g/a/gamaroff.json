@@ -1,0 +1,66 @@
+{
+  "owner_address": "1DAK4z57ZriYvENXgk7B64Br5MP3AowZe7",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gamaroff",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gamaroff/status/737035738835996672",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Gamaroff",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Gamaroff/ba66215d9227cf92d751f029b6d55f66",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "18at8mWEutu7Qirorq2DuKnetCx2BUN9tq",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "South Africa"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gamaroff",
+        "name": "avatar"
+      }
+    ],
+    "name": "Lorien Gamaroff",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://za.linkedin.com/in/gamaroff"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "gamaroff",
+      "proof_url": "https://twitter.com/gamaroff/status/737035738835996672",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Gamaroff",
+      "proof_url": "https://gist.github.com/Gamaroff/ba66215d9227cf92d751f029b6d55f66",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN gamaroff.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gamaroff.id\"\n"
+}
