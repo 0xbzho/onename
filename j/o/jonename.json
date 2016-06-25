@@ -1,0 +1,68 @@
+{
+  "owner_address": "16QLppwQ7AGxVHG1NFA7JGWkcSndyuzJxm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "MaleThriver",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MaleThriver/status/741189771678994433",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "MellowJoe",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/MellowJoe/12af0cc3b31231b3237a092182e42de4",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "MellowJoe",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/MellowJoe43/posts/10210027850037502?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Los Angeles"
+    },
+    "description": "Connect, Express, Dance, Live",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jonename",
+        "name": "avatar"
+      }
+    ],
+    "name": "Joe Hanbury"
+  },
+  "verifications": [
+    {
+      "identifier": "MaleThriver",
+      "proof_url": "https://twitter.com/MaleThriver/status/741189771678994433",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "MellowJoe",
+      "proof_url": "https://gist.github.com/MellowJoe/12af0cc3b31231b3237a092182e42de4",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "MellowJoe",
+      "proof_url": "https://www.facebook.com/MellowJoe43/posts/10210027850037502?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jonename.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jonename.id\"\n"
+}
