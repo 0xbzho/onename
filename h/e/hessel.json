@@ -1,0 +1,43 @@
+{
+  "owner_address": "1NRh4wpe8X6ngUdfdrBcRKFs3RowzCmRqq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "HesselWellema",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/HesselWellema/status/738309482397241345",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "19RRGNa5WBNGJ619X9v34b2J7nVvkNP3mV",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Rotterdam"
+    },
+    "description": "Father of two sons.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Hessel Wellema"
+  },
+  "verifications": [
+    {
+      "identifier": "HesselWellema",
+      "proof_url": "https://twitter.com/HesselWellema/status/738309482397241345",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN hessel.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hessel.id\"\n"
+}
