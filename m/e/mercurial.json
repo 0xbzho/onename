@@ -1,0 +1,68 @@
+{
+  "owner_address": "16ebGGJit6s4Z4HfLcdqEdpYSyZsD2SYic",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "devicenull",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/devicenull/status/742725457095856128",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "devicenul",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/devicenul/b9d3409b50d3ea181cc67128e92ef549",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rrjefferson",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/rrjefferson/posts/10154260680252070",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/mercurial",
+        "identifier": "15A5D093D7EE812AC9A808D492284F7D71366CD0",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mercurial",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mercurial",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "devicenull",
+      "proof_url": "https://twitter.com/devicenull/status/742725457095856128",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "devicenul",
+      "proof_url": "https://gist.github.com/devicenul/b9d3409b50d3ea181cc67128e92ef549",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "rrjefferson",
+      "proof_url": "https://www.facebook.com/rrjefferson/posts/10154260680252070",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mercurial.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mercurial.id\"\n"
+}
