@@ -1,0 +1,55 @@
+{
+  "owner_address": "1Jih5s1K2fT4dn4f2RjjeGC5f5doSLRvod",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "14q4HWRLM5u6Nh7sJEui1GNx3gMbgiQbke",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jonas_krensler",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jonas_krensler/status/742230300420415488",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "krensler",
+        "proofType": "http",
+        "proofUrl": "Verifying that +jonas_krensler is my blockchain ID. https://onename.com/jonas_krensler",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Zurich, Switzerland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jonas Krensler"
+  },
+  "verifications": [
+    {
+      "identifier": "jonas_krensler",
+      "proof_url": "https://twitter.com/jonas_krensler/status/742230300420415488",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "krensler",
+      "proof_url": "Verifying that +jonas_krensler is my blockchain ID. https://onename.com/jonas_krensler",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jonas_krensler.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jonas_krensler.id\"\n"
+}
