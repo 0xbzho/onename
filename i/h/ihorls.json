@@ -1,0 +1,32 @@
+{
+  "owner_address": "1Lx6aRUUrcZ6wi4DS7XvrrmmL3MmA3VmLq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "igor.shevchenko75",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kyiv"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ihorls",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ihorls",
+        "name": "cover"
+      }
+    ],
+    "name": "Ihor Shevchenko"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN ihorls.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ihorls.id\"\n"
+}
