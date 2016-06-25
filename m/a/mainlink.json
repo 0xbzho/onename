@@ -1,0 +1,37 @@
+{
+  "owner_address": "12XaUYTb5tKZbP2pBpwsygDzHGHfMk5whj",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mainlink",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MainLink/status/739232758757609473",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ],
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://mainlinkinternet.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mainlink",
+      "proof_url": "https://twitter.com/MainLink/status/739232758757609473",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mainlink.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mainlink.id\"\n"
+}
