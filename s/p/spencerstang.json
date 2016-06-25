@@ -1,0 +1,31 @@
+{
+  "owner_address": "1Q3CiAGFLrNLWq38dTqBnL7nsUjVGfAxoy",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "@spencerstang",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/spencerstang",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "@spencerstang",
+      "proof_url": "https://twitter.com/spencerstang",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN spencerstang.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/spencerstang.id\"\n"
+}
