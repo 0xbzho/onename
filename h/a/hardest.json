@@ -1,28 +1,54 @@
 {
   "owner_address": "1GTQc5Ct5RZcHkbb7sGhzGpm9dLdHpGSXW",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/hardest"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "michele.mostarda",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "micmos",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/micmos/status/740951112547729408",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Trento"
     },
-    "bio": "Technologist at @FBK, passionate software engineer, SemanticWeb experimenter, programming enthusiast!",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/hardest"
-    },
-    "facebook": {
-      "username": "michele.mostarda"
-    },
-    "location": {
-      "formatted": "Trento"
-    },
-    "name": {
-      "formatted": "Michele Mostarda"
-    },
-    "twitter": {
-      "username": "micmos"
-    },
-    "v": "0.2",
-    "website": "http://www.michelemostarda.com"
+    "description": "Technologist at @FBK, passionate software engineer, SemanticWeb experimenter, programming enthusiast!",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hardest",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/hardest",
+        "name": "cover"
+      }
+    ],
+    "name": "Michele Mostarda",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.michelemostarda.com"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "micmos",
+      "proof_url": "https://twitter.com/micmos/status/740951112547729408",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN hardest.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hardest.id\"\n"
 }
