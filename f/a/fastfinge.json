@@ -1,0 +1,31 @@
+{
+  "owner_address": "1CXJhDG8kMivkVR3gA4Ecc7Uq5xdDoswnT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "fastfinge",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/fastfinge/status/741030639097524224",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "fastfinge",
+      "proof_url": "https://twitter.com/fastfinge/status/741030639097524224",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN fastfinge.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fastfinge.id\"\n"
+}
