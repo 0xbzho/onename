@@ -1,47 +1,42 @@
 {
   "owner_address": "1Aok7fMA4wYtRQPmnkLaW7ff2hxhMHWM6M",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/483.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/nik.barker/posts/10154097003815522"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "totanics",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "nik.barker"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/TOTANICS/f8929bab56c406ecadcc9515bbe42a2f"
+      {
+        "@type": "Account",
+        "identifier": "nik.barker",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "TOTANICS"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/totanics/status/718403912592723969"
+      {
+        "@type": "Account",
+        "identifier": "TOTANICS",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "totanics"
-    },
-    "v": "0.2"
+      {
+        "@type": "Account",
+        "identifier": "e0aa4642025bad1b1b0fb167d58bf0bc7fed2303",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/marcelolbr",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "nik.barker",
-      "proof_url": "https://facebook.com/nik.barker/posts/10154097003815522",
-      "service": "facebook",
-      "valid": false
-    },
-    {
-      "identifier": "totanics",
-      "proof_url": "https://twitter.com/totanics/status/718403912592723969",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "TOTANICS",
-      "proof_url": "https://gist.github.com/TOTANICS/f8929bab56c406ecadcc9515bbe42a2f",
-      "service": "github",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN totanics.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/totanics.id\"\n"
 }
