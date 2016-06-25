@@ -1,0 +1,56 @@
+{
+  "owner_address": "13Ho3b51ke8CW1FRCkrv9HHbodUFC5PKUM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "keepitkati",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/KeepitKati/status/744648037222481920",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "katrinskaya",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/katrinskaya/1241df3ceee09a9b732974bf1be5d839",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pgp.mit.edu/pks/lookup?op=get&search=0xEC4783129C3A654C",
+        "identifier": "87B2B5CFAC442C4BCC570616EC4783129C3A654C",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/katrinverclas",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/katrinverclas",
+        "name": "cover"
+      }
+    ],
+    "name": "Katrinskaya"
+  },
+  "verifications": [
+    {
+      "identifier": "keepitkati",
+      "proof_url": "https://twitter.com/KeepitKati/status/744648037222481920",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "katrinskaya",
+      "proof_url": "https://gist.github.com/katrinskaya/1241df3ceee09a9b732974bf1be5d839",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN katrinverclas.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/katrinverclas.id\"\n"
+}
