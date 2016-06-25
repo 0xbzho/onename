@@ -1,0 +1,68 @@
+{
+  "owner_address": "1JMZfspX2yQCYSrqsVt3PyXgk85WbFrc8A",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "paulwhiteywhite",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/paulwhiteywhite/posts/10157211735745413",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "paullwhite",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/paullwhite/35b2a752bfd1561ca5001f15e8f8b676",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "paulwhiteoslo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/paulwhiteoslo/status/741557443746992128",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1C5XGPQqmrDy9o8Gsntgg3FRji6rtw2M1m",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/paullwhite",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/paullwhite",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "paulwhiteywhite",
+      "proof_url": "https://www.facebook.com/paulwhiteywhite/posts/10157211735745413",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "paullwhite",
+      "proof_url": "https://gist.github.com/paullwhite/35b2a752bfd1561ca5001f15e8f8b676",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "paulwhiteoslo",
+      "proof_url": "https://twitter.com/paulwhiteoslo/status/741557443746992128",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN paullwhite.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/paullwhite.id\"\n"
+}
