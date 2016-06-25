@@ -1,0 +1,38 @@
+{
+  "owner_address": "1AX8aYTLo8jCBuN1rtxRAAwVskJqyRLRPc",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "2cbdf9142837d0f6d523da03c65bf65fa4ee62ee",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Switzerland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/fuzzy_pete",
+        "name": "avatar"
+      }
+    ],
+    "name": "Fuzzy Pete's",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.fuzzypetes.com"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN fuzzy_pete.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fuzzy_pete.id\"\n"
+}
