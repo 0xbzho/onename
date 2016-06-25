@@ -1,37 +1,47 @@
 {
   "owner_address": "1LHFavLj5SMw5Fcddfpb1xaAxnKdRruQhj",
   "profile": {
-    "bio": "Software Engineer from Montreal",
-    "bitcoin": {
-      "address": "1zWZCup6y9oKXhLAjx1DXFCovQS61HCFC"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/4AL.jpeg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/Hudon/f209367fb5cbdbca1b5a"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Hudon",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "Hudon"
+      {
+        "@type": "Account",
+        "identifier": "1zWZCup6y9oKXhLAjx1DXFCovQS61HCFC",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/hudon",
+        "identifier": "9C9940549B447CFC",
+        "role": "key",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco"
     },
-    "location": {
-      "formatted": "San Francisco"
-    },
-    "name": {
-      "formatted": "James Hudon"
-    },
-    "pgp": {
-      "fingerprint": "9C9940549B447CFC",
-      "url": "https://s3.amazonaws.com/pk9/hudon"
-    },
-    "v": "0.2"
+    "description": "Software Engineer from Montreal",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hudon",
+        "name": "avatar"
+      }
+    ],
+    "name": "James Hudon"
   },
-  "verifications": [
-    {
-      "identifier": "Hudon",
-      "proof_url": "https://gist.github.com/Hudon/f209367fb5cbdbca1b5a",
-      "service": "github",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN hudon.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hudon.id\"\n"
 }
