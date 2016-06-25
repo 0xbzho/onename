@@ -1,0 +1,74 @@
+{
+  "owner_address": "15PduPn7dUswaJ4Rd9GaaPRZeEhMHR2DXK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kirtanechiron",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/KirtaneChiron/status/736304844344950784",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kirtanechiron",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/kirtanechiron/posts/886512211471692?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/ea710970d23169d53ea5e6a200d3951c",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boulder CO"
+    },
+    "description": "and by you I mean me, and by me I meanyou",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kirtanechiron",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/kirtanechiron",
+        "name": "cover"
+      }
+    ],
+    "name": "Kirtane Chiron",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://twitter.com/KirtaneChiron"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "kirtanechiron",
+      "proof_url": "https://twitter.com/KirtaneChiron/status/736304844344950784",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "kirtanechiron",
+      "proof_url": "https://www.facebook.com/kirtanechiron/posts/886512211471692?pnref=story",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/ea710970d23169d53ea5e6a200d3951c",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kirtanechiron.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kirtanechiron.id\"\n"
+}
