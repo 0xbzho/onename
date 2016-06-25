@@ -1,46 +1,74 @@
 {
   "owner_address": "1BNjM4xMjzvbeEEjEHZdQRFUqg8pdFxdjX",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/scottjenson"
-    },
-    "bio": "Project Lead for Physical Web (UX director in previous life (Apple, Symbian, frog design, Google))",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/scottjenson"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/scottjenson/0a909ed13e19a0cbaab3"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "scottjenson",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/scottjenson/status/634783143388684288",
+        "service": "twitter"
       },
-      "username": "scottjenson"
-    },
-    "location": {
-      "formatted": "Palo Alto, CA"
-    },
-    "name": {
-      "formatted": "Scott Jenson"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/scottjenson/status/634783143388684288"
+      {
+        "@type": "Account",
+        "identifier": "scottjenson",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/sjenson/posts/10154394400958159?pnref=story",
+        "service": "facebook"
       },
-      "username": "scottjenson"
+      {
+        "@type": "Account",
+        "identifier": "scottjenson",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/scottjenson/0a909ed13e19a0cbaab3",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Palo Alto, CA"
     },
-    "v": "0.2",
-    "website": "http://www.jenson.org"
+    "description": "Project Lead for Physical Web (UX director in previous life (Apple, Symbian, frog design, Google))",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/scottjenson",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/scottjenson",
+        "name": "cover"
+      }
+    ],
+    "name": "Scott Jenson",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.jenson.org"
+      }
+    ]
   },
   "verifications": [
-    {
-      "identifier": "scottjenson",
-      "proof_url": "https://gist.github.com/scottjenson/0a909ed13e19a0cbaab3",
-      "service": "github",
-      "valid": true
-    },
     {
       "identifier": "scottjenson",
       "proof_url": "https://twitter.com/scottjenson/status/634783143388684288",
       "service": "twitter",
       "valid": true
+    },
+    {
+      "identifier": "scottjenson",
+      "proof_url": "https://www.facebook.com/sjenson/posts/10154394400958159?pnref=story",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "scottjenson",
+      "proof_url": "https://gist.github.com/scottjenson/0a909ed13e19a0cbaab3",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN scottjenson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/scottjenson.id\"\n"
 }
