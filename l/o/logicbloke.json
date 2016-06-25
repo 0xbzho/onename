@@ -1,0 +1,74 @@
+{
+  "owner_address": "1NM3RapN8cSajFeHVEQGREt6rT7QvsoC5L",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Logicbloke",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Logicbloke/84368089e59c57b667fab5ec252199e0",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "logicbloke",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/logicbloke/status/737549221495066624",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "logicbloke",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/logicbloke/posts/10157542191193125",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "e8edbed8bbf1ee35d225f6759fcedddf2fb87203",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "http://pgp.mit.edu/pks/lookup?op=get&search=0x05C4BDDF8CB4E4A0",
+        "identifier": null,
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Tangier, Morocco"
+    },
+    "description": "Programmer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Taha Zouhair"
+  },
+  "verifications": [
+    {
+      "identifier": "Logicbloke",
+      "proof_url": "https://gist.github.com/Logicbloke/84368089e59c57b667fab5ec252199e0",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "logicbloke",
+      "proof_url": "https://twitter.com/logicbloke/status/737549221495066624",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "logicbloke",
+      "proof_url": "https://www.facebook.com/logicbloke/posts/10157542191193125",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN logicbloke.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/logicbloke.id\"\n"
+}
