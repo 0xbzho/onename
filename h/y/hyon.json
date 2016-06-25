@@ -1,44 +1,55 @@
 {
   "owner_address": "1JzpjnjykjtBU2m1h6gwDT8XX1ZFE3rtDL",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/hyon"
-    },
-    "bitcoin": {
-      "address": "17gopUSKSVaWNQ5FGF1jM8p6zN8UGs3gHT"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/hyon"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/hyonlee/posts/10100337630432708"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "hyonlee",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "hyonlee"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/hoi/def63f760b7fb053f1b0"
+      {
+        "@type": "Account",
+        "identifier": "hoi",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "hoi"
-    },
-    "name": {
-      "formatted": "Hyon Lee"
-    },
-    "v": "0.2"
+      {
+        "@type": "Account",
+        "identifier": "17gopUSKSVaWNQ5FGF1jM8p6zN8UGs3gHT",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hyonlee",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/twiteli/1ec2e5fa088f78fff211cda317215fe3",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hyon",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/hyon",
+        "name": "cover"
+      }
+    ],
+    "name": "Hyon Lee"
   },
   "verifications": [
     {
-      "identifier": "hoi",
-      "proof_url": "https://gist.github.com/hoi/def63f760b7fb053f1b0",
-      "service": "github",
-      "valid": false
-    },
-    {
       "identifier": "hyonlee",
-      "proof_url": "https://facebook.com/hyonlee/posts/10100337630432708",
-      "service": "facebook",
+      "proof_url": "https://gist.github.com/twiteli/1ec2e5fa088f78fff211cda317215fe3",
+      "service": "twitter",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN hyon.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hyon.id\"\n"
 }
