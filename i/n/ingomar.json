@@ -1,0 +1,68 @@
+{
+  "owner_address": "12rsSu3WmxL7YxPBFxL1VLtgWY5tsVdhLB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "IngomarL",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/IngomarL/1332db9b6d61a954c885740ddfca2057",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ingomarL",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ingomarL/status/742399629594091520",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ingomar.lochschmidt",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ingomar.lochschmidt/posts/10154395656617590",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Santos/SP, Brazil"
+    },
+    "description": "Austrian Trade Commissioner for Brazil, São Paulo",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ingomar",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ingomar",
+        "name": "cover"
+      }
+    ],
+    "name": "Ingomar Lochschmidt"
+  },
+  "verifications": [
+    {
+      "identifier": "IngomarL",
+      "proof_url": "https://gist.github.com/IngomarL/1332db9b6d61a954c885740ddfca2057",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "ingomarL",
+      "proof_url": "https://twitter.com/ingomarL/status/742399629594091520",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ingomar.lochschmidt",
+      "proof_url": "https://www.facebook.com/ingomar.lochschmidt/posts/10154395656617590",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ingomar.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ingomar.id\"\n"
+}
