@@ -1,0 +1,34 @@
+{
+  "owner_address": "1QGRcCsbAB7yKGfrji6ZU4hLoAnBfc5x4y",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "3G1gVoGoXe97AdqhUDBLaakrHhYtataViw",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "39aee99144c2b52325bc10f3c70df959bc0d1186",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/print_it",
+        "name": "avatar"
+      }
+    ],
+    "name": "Print It!"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN print_it.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/print_it.id\"\n"
+}
