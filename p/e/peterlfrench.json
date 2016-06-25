@@ -1,0 +1,48 @@
+{
+  "owner_address": "17Hf72FbV4iCqhzuHva4RjMrceCKs4mBqs",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "pfrench99",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/pfrench99/status/740786528423686144",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Texas"
+    },
+    "description": "Community builder and entrepreneur",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/peterlfrench",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/peterlfrench",
+        "name": "cover"
+      }
+    ],
+    "name": "Peter French",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://sa-ec.org/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "pfrench99",
+      "proof_url": "https://twitter.com/pfrench99/status/740786528423686144",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN peterlfrench.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/peterlfrench.id\"\n"
+}
