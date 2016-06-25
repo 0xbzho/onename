@@ -1,0 +1,67 @@
+{
+  "owner_address": "1MYPce5dPeMFWcsHELZUyXTKLCEk1FNkUY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Jacarandachick",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jacarandachick/status/742489614276034561",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "footballinha",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/footballinha/53ae05d9f91892f442170ee119b67464",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "MiyandaN",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/miyandan/posts/10209329410254112",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/emmessenn",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/emmessenn",
+        "name": "cover"
+      }
+    ],
+    "name": "Miyanda Nehwati"
+  },
+  "verifications": [
+    {
+      "identifier": "Jacarandachick",
+      "proof_url": "https://twitter.com/jacarandachick/status/742489614276034561",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "footballinha",
+      "proof_url": "https://gist.github.com/footballinha/53ae05d9f91892f442170ee119b67464",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "MiyandaN",
+      "proof_url": "https://www.facebook.com/miyandan/posts/10209329410254112",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN emmessenn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/emmessenn.id\"\n"
+}
