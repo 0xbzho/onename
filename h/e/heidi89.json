@@ -1,0 +1,67 @@
+{
+  "owner_address": "1MfHoX3RZbWrEbydhf73U2RQsY8dfZX17Q",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "heidi.french.169",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/heidi.french.169/posts/1151933878181904",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "heidisheart89",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/heidisheart89/status/744645551791104000",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "heidisheart89",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/heidisheart89/abfb362f2227a7c6c6898bc943e3b7be",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Austin, TX"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/heidi89",
+        "name": "avatar"
+      }
+    ],
+    "name": "Heidi French"
+  },
+  "verifications": [
+    {
+      "identifier": "heidi.french.169",
+      "proof_url": "https://www.facebook.com/heidi.french.169/posts/1151933878181904",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "heidisheart89",
+      "proof_url": "https://twitter.com/heidisheart89/status/744645551791104000",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "heidisheart89",
+      "proof_url": "https://gist.github.com/heidisheart89/abfb362f2227a7c6c6898bc943e3b7be",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN heidi89.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/heidi89.id\"\n"
+}
