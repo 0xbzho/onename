@@ -1,0 +1,32 @@
+{
+  "owner_address": "1GZizv5WgtUZCEmwHw5PbWX8RJVSbtP7xs",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "RonaldSnijder",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ronaldsnijder/status/740781819281461248?s=09",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ronald Snijder"
+  },
+  "verifications": [
+    {
+      "identifier": "RonaldSnijder",
+      "proof_url": "https://twitter.com/ronaldsnijder/status/740781819281461248?s=09",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ronaldsnijder.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ronaldsnijder.id\"\n"
+}
