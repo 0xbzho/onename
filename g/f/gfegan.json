@@ -1,0 +1,55 @@
+{
+  "owner_address": "1NNkf5ESBMPPDhcJdZzx9L5E9SiWPbFa5b",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "fegan",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Fegan/status/741200383624794112",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gfegan",
+        "proofType": "http",
+        "proofUrl": "www.facebook.com/gfegan/posts/10153656818662551",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Scotland"
+    },
+    "description": "IT bod",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gfegan",
+        "name": "avatar"
+      }
+    ],
+    "name": "Gary Fegan"
+  },
+  "verifications": [
+    {
+      "identifier": "fegan",
+      "proof_url": "https://twitter.com/Fegan/status/741200383624794112",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "gfegan",
+      "proof_url": "www.facebook.com/gfegan/posts/10153656818662551",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN gfegan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gfegan.id\"\n"
+}
