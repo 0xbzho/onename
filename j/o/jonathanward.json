@@ -1,19 +1,49 @@
 {
   "owner_address": "1CL1nTT8kPs72jbZ7PYEby4iUY7cnkVF9J",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/483.jpeg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "flyinj24",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/flyinj24/status/741062896172584961",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jonathan.i.ward",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jonathan.i.ward/posts/10103562658535558?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Greensboro, NC"
     },
-    "location": {
-      "formatted": "Greensboro, NC"
-    },
-    "name": {
-      "formatted": "Jonathan Ward"
-    },
-    "twitter": {
-      "username": "flyinj24"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jonathan Ward"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "flyinj24",
+      "proof_url": "https://twitter.com/flyinj24/status/741062896172584961",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jonathan.i.ward",
+      "proof_url": "https://www.facebook.com/jonathan.i.ward/posts/10103562658535558?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jonathanward.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jonathanward.id\"\n"
 }
