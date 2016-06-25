@@ -1,0 +1,48 @@
+{
+  "owner_address": "1A8hbBoEVwMcorQk4k7NFHaPZRxjyn9doR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Loicus",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Loicus/status/735434300431183872",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "France"
+    },
+    "description": "https://www.linkedin.com/in/loduval",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/lduval",
+        "name": "avatar"
+      }
+    ],
+    "name": "Loic Duval",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.linkedin.com/in/loduval"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Loicus",
+      "proof_url": "https://twitter.com/Loicus/status/735434300431183872",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN lduval.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lduval.id\"\n"
+}
