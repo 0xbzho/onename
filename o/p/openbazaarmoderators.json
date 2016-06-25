@@ -1,0 +1,41 @@
+{
+  "owner_address": "1JLDHrXS8tJ761wQt7mDsDqWVLGf9DKZ5z",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "openbazaarjudge",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/OpenBazaarJudge/status/737266868692602880",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "98d1ed324409f844c223dad459df6f9341e7fe41",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/openbazaarmoderators",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "openbazaarjudge",
+      "proof_url": "https://twitter.com/OpenBazaarJudge/status/737266868692602880",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN openbazaarmoderators.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/openbazaarmoderators.id\"\n"
+}
