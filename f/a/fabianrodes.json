@@ -1,0 +1,43 @@
+{
+  "owner_address": "1NVAhtGwyNtL6ZeMLszoiAejL7sby9it8w",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "FabianRODES",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/FabianRODES",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "hkp keys.gnupg.net",
+        "identifier": "4D5BC033E2C3E74525D9255D64312CFB062B1D57",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/fabianrodes",
+        "name": "avatar"
+      }
+    ],
+    "name": "FabianRODES"
+  },
+  "verifications": [
+    {
+      "identifier": "FabianRODES",
+      "proof_url": "https://twitter.com/FabianRODES",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN fabianrodes.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fabianrodes.id\"\n"
+}
