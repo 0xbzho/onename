@@ -1,0 +1,36 @@
+{
+  "owner_address": "16kU3WqHf7dvvBubni3qXd5gBopZBjKZED",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kornykory",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Bkornykory%20is%20my%20blockchain%20ID.%20https://onename.com/kornykory",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kornykory",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/kornykory",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "kornykory",
+      "proof_url": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Bkornykory%20is%20my%20blockchain%20ID.%20https://onename.com/kornykory",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN kornykory.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kornykory.id\"\n"
+}
