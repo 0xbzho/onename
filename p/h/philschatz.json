@@ -1,0 +1,45 @@
+{
+  "owner_address": "12uGU5s3bRMWFrmgH7QMVQTDHS9it3y3gk",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "philschatz",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/philschatz/1cce3b93d5a0a04b29e5111de31be1d5",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "philipschatz",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/philipschatz/status/740632883220512768",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Philip Schatz"
+  },
+  "verifications": [
+    {
+      "identifier": "philschatz",
+      "proof_url": "https://gist.github.com/philschatz/1cce3b93d5a0a04b29e5111de31be1d5",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "philipschatz",
+      "proof_url": "https://twitter.com/philipschatz/status/740632883220512768",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN philschatz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/philschatz.id\"\n"
+}
