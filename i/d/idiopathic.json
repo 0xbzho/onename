@@ -1,0 +1,55 @@
+{
+  "owner_address": "13QxH2o51vwFfggyHasjNgvpsyoM4KehBN",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "idiopathic",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/idiopathic/status/744251080138063873",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "alubaydli",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/alubaydli/posts/10101735942005470?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cambridge, UK"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Mohammad Al-Ubaydli",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.mo.md"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "idiopathic",
+      "proof_url": "https://twitter.com/idiopathic/status/744251080138063873",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "alubaydli",
+      "proof_url": "https://www.facebook.com/alubaydli/posts/10101735942005470?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN idiopathic.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/idiopathic.id\"\n"
+}
