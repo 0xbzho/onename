@@ -1,0 +1,74 @@
+{
+  "owner_address": "1Dt32AJwZpKxmghc4tMFcxpzMf6PrGRSLu",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "zbowman",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/zbowman/status/741011894744547328",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "zbowman",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/zbowman/9e5f5d3cf4d9f4a38ffaa165b77bb084",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "zbowman",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/zbowman/posts/766064709564",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "198VuZAcBNYRMkhe93wje9w8yenZYUgB2Y",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ohio, USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Zach Bowman",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://zbowman.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "zbowman",
+      "proof_url": "https://twitter.com/zbowman/status/741011894744547328",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "zbowman",
+      "proof_url": "https://gist.github.com/zbowman/9e5f5d3cf4d9f4a38ffaa165b77bb084",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "zbowman",
+      "proof_url": "https://www.facebook.com/zbowman/posts/766064709564",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN zbowman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/zbowman.id\"\n"
+}
