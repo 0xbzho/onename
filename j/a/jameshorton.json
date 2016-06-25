@@ -1,33 +1,47 @@
 {
   "owner_address": "1NieDmPM91UxhCgEJuMt4Xick1zq4vgG9o",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/jameshorton"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jameshorton",
+        "proofType": "http",
+        "proofUrl": "Check out @jameshorton's Tweet: https://twitter.com/jameshorton/status/740681913975734272?s=09",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Melbourne"
     },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/rv1.jpeg"
-    },
-    "location": {
-      "formatted": "Melbourne"
-    },
-    "name": {
-      "formatted": "James Horton"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/jameshorton/status/620859828492087296"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
       },
-      "username": "jameshorton"
-    },
-    "v": "0.2",
-    "website": "http://jameshorton.me"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jameshorton",
+        "name": "avatar"
+      }
+    ],
+    "name": "James Horton",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://jameshorton.me"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "jameshorton",
-      "proof_url": "https://twitter.com/jameshorton/status/620859828492087296",
+      "proof_url": "Check out @jameshorton's Tweet: https://twitter.com/jameshorton/status/740681913975734272?s=09",
       "service": "twitter",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN jameshorton.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jameshorton.id\"\n"
 }
