@@ -1,0 +1,48 @@
+{
+  "owner_address": "1M4ds4fuUekaAKhFnK1UyJEunyd8dWpm2P",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1ed6cc0ba6bc0bd2d0475c7cac3008aaaf9469ec",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jemiz_/status/743127099167395840",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jemiz_",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jemiz_/status/743150282184491008",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1ed6cc0ba6bc0bd2d0475c7cac3008aaaf9469ec",
+        "service": "openbaazar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Switzerland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jérôme Mizeret"
+  },
+  "verifications": [
+    {
+      "identifier": "jemiz_",
+      "proof_url": "https://twitter.com/jemiz_/status/743150282184491008",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jemiz_.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jemiz_.id\"\n"
+}
