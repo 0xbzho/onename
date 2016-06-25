@@ -1,0 +1,56 @@
+{
+  "owner_address": "1K6DZwDY9trqkJMaJq39BjLaFw7NcG4DQY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1MoH9eBR2mW5KeoYvim89BWdbiWFHPxWUw",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jordan.hom",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jordan.hom/posts/10154272923409084",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jordanhom",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jordanhom/b1b40dd2f42950fc87cd9bd3855c398a",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "USA"
+    },
+    "description": "I live in a giant bucket!",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jordan Hom"
+  },
+  "verifications": [
+    {
+      "identifier": "jordan.hom",
+      "proof_url": "https://www.facebook.com/jordan.hom/posts/10154272923409084",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "jordanhom",
+      "proof_url": "https://gist.github.com/jordanhom/b1b40dd2f42950fc87cd9bd3855c398a",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jordanhom.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jordanhom.id\"\n"
+}
