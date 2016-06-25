@@ -1,0 +1,36 @@
+{
+  "owner_address": "1KYNDwfuaekvxR6rZSqRvY3WXHUya2KUgL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kirbydharris",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Bkirbyharris%20is%20my%20blockchain%20ID.%20https://onename.com/kirbyharris",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kirbyharris",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/kirbyharris",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "kirbydharris",
+      "proof_url": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Bkirbyharris%20is%20my%20blockchain%20ID.%20https://onename.com/kirbyharris",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN kirbyharris.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kirbyharris.id\"\n"
+}
