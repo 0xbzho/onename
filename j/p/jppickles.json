@@ -1,0 +1,74 @@
+{
+  "owner_address": "1BiKFrjmYD5zVYCPwAnbxw49aUSRtZgbrV",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jpickles3",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jpickles3/status/742936238148210688",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Joshua D Pickles",
+        "proofType": "http",
+        "proofUrl": "https://m.facebook.com/story.php?story_fbid=1698047537125838&id=100007618247726",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "<script src=\"cardrifter3",
+        "proofType": "http",
+        "proofUrl": "<script src=\"https://gist.github.com/cardrifter3/453c7b662da617b00ffc6ff2f114f54d.js\"></script>",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1TGG5BkQDHnfELZUPDKnFBzAAtmEUkssv",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Redmond Or"
+    },
+    "description": "Chef",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jppickles",
+        "name": "avatar"
+      }
+    ],
+    "name": "Josh Pickles"
+  },
+  "verifications": [
+    {
+      "identifier": "jpickles3",
+      "proof_url": "https://twitter.com/jpickles3/status/742936238148210688",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Joshua D Pickles",
+      "proof_url": "https://m.facebook.com/story.php?story_fbid=1698047537125838&id=100007618247726",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "<script src=\"cardrifter3",
+      "proof_url": "<script src=\"https://gist.github.com/cardrifter3/453c7b662da617b00ffc6ff2f114f54d.js\"></script>",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jppickles.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jppickles.id\"\n"
+}
