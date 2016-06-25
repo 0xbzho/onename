@@ -1,0 +1,63 @@
+{
+  "owner_address": "12TZ9eZ9jjjf1BdNA777ZHs9szBeNBk8v4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tomtenthij",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/tomtenthij/posts/10154146122655772",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "15tomtt7A7qxEpRpR77JvUHsmAde1AuABW",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tomtt",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tomtt/bb927417cacd4c80ac697c098b81ee93",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "eco_coder",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/eco_coder/status/740818240767680512",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tomtenthij",
+      "proof_url": "https://www.facebook.com/tomtenthij/posts/10154146122655772",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "tomtt",
+      "proof_url": "https://gist.github.com/tomtt/bb927417cacd4c80ac697c098b81ee93",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "eco_coder",
+      "proof_url": "https://twitter.com/eco_coder/status/740818240767680512",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tomtenthij.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tomtenthij.id\"\n"
+}
