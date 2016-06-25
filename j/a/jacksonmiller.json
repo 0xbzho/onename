@@ -1,0 +1,49 @@
+{
+  "owner_address": "1BmrQS3TS42ytdwqbUBwdnJz7oejHRQ6FV",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "JacksonDMiller",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JacksonDMiller/status/740719514589876224",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Jackson.Dean.Miller",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/Jackson.Dean.Miller/posts/10205993226621433",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jacksonmiller",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "JacksonDMiller",
+      "proof_url": "https://twitter.com/JacksonDMiller/status/740719514589876224",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Jackson.Dean.Miller",
+      "proof_url": "https://www.facebook.com/Jackson.Dean.Miller/posts/10205993226621433",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jacksonmiller.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jacksonmiller.id\"\n"
+}
