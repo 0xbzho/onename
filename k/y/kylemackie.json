@@ -1,0 +1,57 @@
+{
+  "owner_address": "1FJQ1HgJRLjeKmRC9PVprYewSf2fmtTfEM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kylemackie",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kylemackie/status/740717707943923712",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kylemackie",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/kylemackie/85673b362f3bd2094d53f82240f2c1af",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kylemackie",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/kylemackie/posts/10154058406376294",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "kylemackie",
+      "proof_url": "https://twitter.com/kylemackie/status/740717707943923712",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "kylemackie",
+      "proof_url": "https://gist.github.com/kylemackie/85673b362f3bd2094d53f82240f2c1af",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "kylemackie",
+      "proof_url": "https://www.facebook.com/kylemackie/posts/10154058406376294",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kylemackie.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kylemackie.id\"\n"
+}
