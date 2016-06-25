@@ -1,0 +1,61 @@
+{
+  "owner_address": "1CgdkwyGvQXPWwMWCGXn8xLK4UPfcyRnje",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "MariaJoana",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MariaJoana/status/739327116928372736",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "joana.b.totten",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/joana.b.totten/posts/10207982084287417",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/marijo",
+        "identifier": "2C94C0456B4345F5CC5E71780E38FAC0748C725D",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Louisville, KY, U.S.A.; Philippines"
+    },
+    "description": "V.P., SouthGain Enterprises",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/marijo",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/marijo",
+        "name": "cover"
+      }
+    ],
+    "name": "Maria Joana B. Totten"
+  },
+  "verifications": [
+    {
+      "identifier": "MariaJoana",
+      "proof_url": "https://twitter.com/MariaJoana/status/739327116928372736",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "joana.b.totten",
+      "proof_url": "https://www.facebook.com/joana.b.totten/posts/10207982084287417",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN marijo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/marijo.id\"\n"
+}
