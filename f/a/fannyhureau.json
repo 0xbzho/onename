@@ -1,0 +1,50 @@
+{
+  "owner_address": "1KSNy7AVBHV61EhQzbREqxTw6BNmKCRzpg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "fannyhureau",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/FannyHureau/status/741374520313942016",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fannyhureau",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/fannyhureau/ec39e55b7706b2a0d9b61bd37c01a071",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/fannyhureau",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/fannyhureau",
+        "name": "cover"
+      }
+    ],
+    "name": "Fanny Hureau"
+  },
+  "verifications": [
+    {
+      "identifier": "fannyhureau",
+      "proof_url": "https://twitter.com/FannyHureau/status/741374520313942016",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "fannyhureau",
+      "proof_url": "https://gist.github.com/fannyhureau/ec39e55b7706b2a0d9b61bd37c01a071",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN fannyhureau.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fannyhureau.id\"\n"
+}
