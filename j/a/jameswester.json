@@ -1,38 +1,74 @@
 {
   "owner_address": "18e7WCiF94VQbTy1mq1ZTiVfTidB4NjE95",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/jameswester"
-    },
-    "bio": "Unabashedly curious tech analyst looking at how we pay for stuff. Expect questions, possibly impertinent. Research Director for Global Payments at IDC.",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/jameswester"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/jameswester"
-    },
-    "location": {
-      "formatted": "DFW"
-    },
-    "name": {
-      "formatted": "James Wester"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/jameswester/status/535873098172481536"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jameswester",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jameswester/status/742102529387855873",
+        "service": "twitter"
       },
-      "username": "jameswester"
+      {
+        "@type": "Account",
+        "identifier": "jameswester",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jameswester/a35a5215a986a60aa33d956e5fb93e17",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jwester",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jwester/posts/10154279642334936",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "DFW"
     },
-    "v": "0.2",
-    "website": "http://goo.gl/tbiXYh"
+    "description": "Unabashedly curious tech analyst looking at how we pay for stuff. Expect questions, possibly impertinent. Research Director for Global Payments at IDC.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jameswester",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jameswester",
+        "name": "cover"
+      }
+    ],
+    "name": "James Wester",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://goo.gl/tbiXYh"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "jameswester",
-      "proof_url": "https://twitter.com/jameswester/status/535873098172481536",
+      "proof_url": "https://twitter.com/jameswester/status/742102529387855873",
       "service": "twitter",
       "valid": true
+    },
+    {
+      "identifier": "jameswester",
+      "proof_url": "https://gist.github.com/jameswester/a35a5215a986a60aa33d956e5fb93e17",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jwester",
+      "proof_url": "https://www.facebook.com/jwester/posts/10154279642334936",
+      "service": "facebook",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN jameswester.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jameswester.id\"\n"
 }
