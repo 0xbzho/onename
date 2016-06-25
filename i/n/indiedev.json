@@ -1,0 +1,59 @@
+{
+  "owner_address": "1GiaGacLGTjCKKGijNzEQSJanwepEUt5q7",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "CryptArc",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/CryptArc/d095eba0dedc242fd4d821986137a8fe",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cryptosports",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cryptosports/status/739576086200098817",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "3e579378f4876462193484a0bd481bacc429d6c4",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Internet"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/indiedev",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/indiedev",
+        "name": "avatar"
+      }
+    ],
+    "name": "Crypto Sports"
+  },
+  "verifications": [
+    {
+      "identifier": "CryptArc",
+      "proof_url": "https://gist.github.com/CryptArc/d095eba0dedc242fd4d821986137a8fe",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "cryptosports",
+      "proof_url": "https://twitter.com/cryptosports/status/739576086200098817",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN indiedev.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/indiedev.id\"\n"
+}
