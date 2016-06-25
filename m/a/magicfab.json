@@ -1,0 +1,73 @@
+{
+  "owner_address": "16bDf2np52QvwfN9V1CGXexyUNjuXbdmJJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "MagicFab",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/MagicFab/efc2dd6232c1e3ba002f3ac4c154c877",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "magicfab",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/magicfab/posts/10153562588207190",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "magicblob",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MagicBlob/status/740857239594885123",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Montreal, Canada"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/magicfab",
+        "name": "avatar"
+      }
+    ],
+    "name": "Fabián Rodríguez",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://magicfab.ca"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "MagicFab",
+      "proof_url": "https://gist.github.com/MagicFab/efc2dd6232c1e3ba002f3ac4c154c877",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "magicfab",
+      "proof_url": "https://www.facebook.com/magicfab/posts/10153562588207190",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "magicblob",
+      "proof_url": "https://twitter.com/MagicBlob/status/740857239594885123",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN magicfab.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/magicfab.id\"\n"
+}
