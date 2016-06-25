@@ -1,0 +1,67 @@
+{
+  "owner_address": "1PCNUPDA3SrXtPGccpXf8VGC9X2oJzNY82",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "saeyoung93",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/saeyoung93/status/735113407460839425",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "saeyoung93",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/saeyoung93/posts/1085224224856597?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "remsimple93",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/remsimple93/7e60ac08ede2568681b2a51c49b8b8bb",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seoul, South Korea"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/remsimple93",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/remsimple93",
+        "name": "cover"
+      }
+    ],
+    "name": "Saeyoung Macx Kim"
+  },
+  "verifications": [
+    {
+      "identifier": "saeyoung93",
+      "proof_url": "https://twitter.com/saeyoung93/status/735113407460839425",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "saeyoung93",
+      "proof_url": "https://www.facebook.com/saeyoung93/posts/1085224224856597?pnref=story",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "remsimple93",
+      "proof_url": "https://gist.github.com/remsimple93/7e60ac08ede2568681b2a51c49b8b8bb",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN remsimple93.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/remsimple93.id\"\n"
+}
