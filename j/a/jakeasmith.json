@@ -1,0 +1,50 @@
+{
+  "owner_address": "1H1KPy4KRJcBzh8DwUEh3hLY2B1smx3FqE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jakeasmith",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jakeasmith/bb3d491e93b1a2f2538f536df46b98b2",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jakeasmith",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jakeasmith/status/737035295808454656",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Orlando, FL"
+    },
+    "description": "Software Engineer: I create things.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jake A. Smith"
+  },
+  "verifications": [
+    {
+      "identifier": "jakeasmith",
+      "proof_url": "https://gist.github.com/jakeasmith/bb3d491e93b1a2f2538f536df46b98b2",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jakeasmith",
+      "proof_url": "https://twitter.com/jakeasmith/status/737035295808454656",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jakeasmith.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jakeasmith.id\"\n"
+}
