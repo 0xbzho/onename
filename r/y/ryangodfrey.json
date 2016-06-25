@@ -1,0 +1,68 @@
+{
+  "owner_address": "1KuFnaJGMKHGKeZTWBYRmp9HtM1fy9jzCm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rgodfrey",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rgodfrey/status/735160386916372481",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ryan.godfrey",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ryan.godfrey/posts/10154911702020752",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ryan-godfrey",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ryan-godfrey/08ffff38193b37ed81ca4ff0e958da51",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1LJ2wLt2q2rXH2CzysjAomwGQRxe5ZT6Jy",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Philadelphia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ryan Godfrey"
+  },
+  "verifications": [
+    {
+      "identifier": "rgodfrey",
+      "proof_url": "https://twitter.com/rgodfrey/status/735160386916372481",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ryan.godfrey",
+      "proof_url": "https://www.facebook.com/ryan.godfrey/posts/10154911702020752",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "ryan-godfrey",
+      "proof_url": "https://gist.github.com/ryan-godfrey/08ffff38193b37ed81ca4ff0e958da51",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ryangodfrey.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ryangodfrey.id\"\n"
+}
