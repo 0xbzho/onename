@@ -1,0 +1,36 @@
+{
+  "owner_address": "1Gmkpuf6eTSvsPULJagcE1Un85Hp9x3HjE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "fbaafa6355bd091acafe8ced68649815f303b9ef",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bayareahomebrew",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BayAreaHomeBrew/status/739982796421140482",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bayareahomebrew",
+      "proof_url": "https://twitter.com/BayAreaHomeBrew/status/739982796421140482",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rickles.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rickles.id\"\n"
+}
