@@ -1,0 +1,38 @@
+{
+  "owner_address": "14wXHLuqfViqZXXnXF2HaW4cGPyRwmUwcb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ha_sch",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Ha_Sch/status/740806211889733632",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Harald Schilly",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://harald.schil.ly"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ha_sch",
+      "proof_url": "https://twitter.com/Ha_Sch/status/740806211889733632",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ha_sch.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ha_sch.id\"\n"
+}
