@@ -1,0 +1,79 @@
+{
+  "owner_address": "1GZbKN47c7SibQzeEVL6bp8dDUy58uEVGt",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "waingram",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/waingram/2615215cbf702031fb50a859272c7579",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sudobear",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sudobear/status/740696863704293376",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bill.ingram",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bill.ingram/posts/10102746116163006",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1HBDdsSsSXtw9X7b99Ew4x9Gax3KPsC36k",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Urbana, IL"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ingram",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ingram",
+        "name": "cover"
+      }
+    ],
+    "name": "Bill Ingram",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://orcid.org/0000-0002-8307-8844"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "waingram",
+      "proof_url": "https://gist.github.com/waingram/2615215cbf702031fb50a859272c7579",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "sudobear",
+      "proof_url": "https://twitter.com/sudobear/status/740696863704293376",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bill.ingram",
+      "proof_url": "https://www.facebook.com/bill.ingram/posts/10102746116163006",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ingram.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ingram.id\"\n"
+}
