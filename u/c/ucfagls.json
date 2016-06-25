@@ -1,0 +1,60 @@
+{
+  "owner_address": "1PZEJ1bRJ33gFv9XG9FsJEXnnE6P1c9KVN",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gavinsimpson",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/gavinsimpson/2ea38a70b5a267f1e8fcab30a0e03aad",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ucfagls",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ucfagls/status/740679835106742272",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Regina, Canada"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ucfagls",
+        "name": "avatar"
+      }
+    ],
+    "name": "Gavin Simpson",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.fromthebottomoftheheap.net/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "gavinsimpson",
+      "proof_url": "https://gist.github.com/gavinsimpson/2ea38a70b5a267f1e8fcab30a0e03aad",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "ucfagls",
+      "proof_url": "https://twitter.com/ucfagls/status/740679835106742272",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ucfagls.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ucfagls.id\"\n"
+}
