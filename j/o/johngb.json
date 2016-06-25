@@ -1,0 +1,31 @@
+{
+  "owner_address": "1771ezYKQB2GuWpkaG6aLCCybY5RRrXN8y",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "johngb",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/johngb/efda1d42b8d693b80b7a83af8ba02854",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "johngb",
+      "proof_url": "https://gist.github.com/johngb/efda1d42b8d693b80b7a83af8ba02854",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN johngb.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/johngb.id\"\n"
+}
