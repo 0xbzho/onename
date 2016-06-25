@@ -1,0 +1,68 @@
+{
+  "owner_address": "1DEgFPisK1KVk4kWtRwhauxiKZURkVoNaL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://pgp.mit.edu/pks/lookup?op=get&search=0x96127A1ED25DC445",
+        "identifier": "0638BB78F16C2CD43201680696127A1ED25DC445",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "SocorailroadJim",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SocorailroadJim/status/745374278917447680",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "FredNatural",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/FredNatural/c9cc65216991f5b83b27c199c2c4dfb3",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jim.pauley.986",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jim.pauley.986/posts/1227695183921380",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/socorailroad",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/socorailroad",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "SocorailroadJim",
+      "proof_url": "https://twitter.com/SocorailroadJim/status/745374278917447680",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "FredNatural",
+      "proof_url": "https://gist.github.com/FredNatural/c9cc65216991f5b83b27c199c2c4dfb3",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jim.pauley.986",
+      "proof_url": "https://www.facebook.com/jim.pauley.986/posts/1227695183921380",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN socorailroad.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/socorailroad.id\"\n"
+}
