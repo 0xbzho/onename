@@ -1,0 +1,67 @@
+{
+  "owner_address": "1394BrXt7Rk2p2rFTjB5of5uAnY6XQYy49",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "TheEyeInTheNet",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TheEyeInTheNet/status/744688009832980480",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "GustavoFranchella",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/GustavoFranchella/posts/10207695471717582",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/16639f99194dc77f0f580b52ba2e2838",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Buenos Aires, Argentina"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gustavof280856",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/gustavof280856",
+        "name": "cover"
+      }
+    ],
+    "name": "Gustavo Franchella"
+  },
+  "verifications": [
+    {
+      "identifier": "TheEyeInTheNet",
+      "proof_url": "https://twitter.com/TheEyeInTheNet/status/744688009832980480",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "GustavoFranchella",
+      "proof_url": "https://www.facebook.com/GustavoFranchella/posts/10207695471717582",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/16639f99194dc77f0f580b52ba2e2838",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN gustavof280856.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gustavof280856.id\"\n"
+}
