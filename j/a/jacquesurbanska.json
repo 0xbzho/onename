@@ -1,0 +1,61 @@
+{
+  "owner_address": "1565znjxVGmnZWrUSYGdSzJ27uVAmMEEoB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "arts_numeriques",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/arts_numeriques/status/741406168480911360",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jacques.urbanska",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jacques.urbanska/posts/10154352660964916?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Belgium"
+    },
+    "description": "Project Manager / Consultant: new media - digital media arts - art & networks - Web strategy / New medias artist",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jacquesurbanska",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jacques Urbanska",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://jacques-urbanska.be"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "arts_numeriques",
+      "proof_url": "https://twitter.com/arts_numeriques/status/741406168480911360",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jacques.urbanska",
+      "proof_url": "https://www.facebook.com/jacques.urbanska/posts/10154352660964916?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jacquesurbanska.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jacquesurbanska.id\"\n"
+}
