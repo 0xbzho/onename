@@ -1,0 +1,62 @@
+{
+  "owner_address": "1ChoQxm1pinky7kQeGRXvty96YfAqyuqUh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jacekwalicki",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jacekwalicki/status/741430910986256384",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jacek.walicki",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jacek.walicki/posts/10154306099282577?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jacekw79",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jacekw79/71d26ccb2f2f76008f7d01458d72b982",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jacekwalicki",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jacekwalicki",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jacekwalicki",
+      "proof_url": "https://twitter.com/jacekwalicki/status/741430910986256384",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jacek.walicki",
+      "proof_url": "https://www.facebook.com/jacek.walicki/posts/10154306099282577?pnref=story",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "jacekw79",
+      "proof_url": "https://gist.github.com/jacekw79/71d26ccb2f2f76008f7d01458d72b982",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jacekwalicki.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jacekwalicki.id\"\n"
+}
