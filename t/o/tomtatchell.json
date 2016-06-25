@@ -1,0 +1,68 @@
+{
+  "owner_address": "1BHviJ7MUaeyvc1cPZTva36NHAYjoXpVae",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tomtatchell",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tomtatchell/status/740863420434616320",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tomtatchell",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/tom.tatchell/posts/10156976470210092",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tomtatchell",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tomtatchell/cade725f8b99cc59621de3cf7dbd35a0",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "15bJqRFL8n2k5yCyccw1X7r5nJb56xXjCu",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cardiff"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Tom Tatchell"
+  },
+  "verifications": [
+    {
+      "identifier": "tomtatchell",
+      "proof_url": "https://twitter.com/tomtatchell/status/740863420434616320",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "tomtatchell",
+      "proof_url": "https://www.facebook.com/tom.tatchell/posts/10156976470210092",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "tomtatchell",
+      "proof_url": "https://gist.github.com/tomtatchell/cade725f8b99cc59621de3cf7dbd35a0",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tomtatchell.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tomtatchell.id\"\n"
+}
