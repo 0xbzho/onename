@@ -1,0 +1,85 @@
+{
+  "owner_address": "15MmQzR3mynU8Nn3hHAic7s5hEQtrzyVcX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "e1ae4024b9bef09c928ca485ab227340ce7c1fb1",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "FrostHomestead",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/FrostHomestead/posts/1056784991076966",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "183biFSfoCQfA1D2nepYzVzoWTzRJVH9BS",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "frosthomestead",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/frosthomestead/62a1ed4a7a7060760dfd9de2893549f8",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "FrostHomestead",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/FrostHomestead/status/744577931423322112",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Austin Texas"
+    },
+    "description": "chicks and fertile chicken eggs",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/frosthomestead",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/frosthomestead",
+        "name": "avatar"
+      }
+    ],
+    "name": "Frost Homestead",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://facebook.com/frosthomestead"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "FrostHomestead",
+      "proof_url": "https://www.facebook.com/FrostHomestead/posts/1056784991076966",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "frosthomestead",
+      "proof_url": "https://gist.github.com/frosthomestead/62a1ed4a7a7060760dfd9de2893549f8",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "FrostHomestead",
+      "proof_url": "https://twitter.com/FrostHomestead/status/744577931423322112",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN frosthomestead.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/frosthomestead.id\"\n"
+}
