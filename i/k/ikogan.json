@@ -1,42 +1,59 @@
 {
   "owner_address": "14cWy1wSrapZsjsUw9tJrq9zd95bMhWHd1",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/ikogan"
-    },
-    "bio": "\"Enterprise\" Application Architect at Ohio University, Gamer, Social Justice Advocate.",
-    "bitcoin": {
-      "address": "1FndPA6QkcWgTDQHQ9hjxBUwBNnwHdY6uM"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/IKM.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/ilyaakogan/posts/10102548825300584"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ilkogan",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "ilyaakogan"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/ikogan/2d66c47a6b008124b2f9"
+      {
+        "@type": "Account",
+        "identifier": "1FndPA6QkcWgTDQHQ9hjxBUwBNnwHdY6uM",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "ikogan"
-    },
-    "location": {
-      "formatted": "Athens, Ohio"
-    },
-    "name": {
-      "formatted": "Ilya Kogan"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/ilkogan/status/515934205771931648"
+      {
+        "@type": "Account",
+        "identifier": "ikogan",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ikogan/2d66c47a6b008124b2f9",
+        "service": "github"
       },
-      "username": "ilkogan"
+      {
+        "@type": "Account",
+        "identifier": "ilyaakogan",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ilyaakogan/posts/10102548825300584",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Athens, Ohio"
     },
-    "v": "0.2",
-    "website": "http://google.com/+IlyaKoganA"
+    "description": "\"Enterprise\" Application Architect at Ohio University, Gamer, Social Justice Advocate.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ikogan",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ikogan",
+        "name": "cover"
+      }
+    ],
+    "name": "Ilya Kogan",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://google.com/+IlyaKoganA"
+      }
+    ]
   },
   "verifications": [
     {
@@ -46,16 +63,11 @@
       "valid": true
     },
     {
-      "identifier": "ilkogan",
-      "proof_url": "https://twitter.com/ilkogan/status/515934205771931648",
-      "service": "twitter",
-      "valid": true
-    },
-    {
       "identifier": "ilyaakogan",
-      "proof_url": "https://facebook.com/ilyaakogan/posts/10102548825300584",
+      "proof_url": "https://www.facebook.com/ilyaakogan/posts/10102548825300584",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN ikogan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ikogan.id\"\n"
 }
