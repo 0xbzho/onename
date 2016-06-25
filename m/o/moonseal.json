@@ -1,0 +1,55 @@
+{
+  "owner_address": "13WfBwN8QLR9t2VsDpTzBinFp8y96GE6ph",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anne.raskin",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/anne.raskin/posts/10154324960417160",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anneraskin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/anneraskin/status/740795108044505092",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1S3GgpYpJ8CmvDtffqc5w7saasgT2wMCu",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "san francisco"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "anne raskin"
+  },
+  "verifications": [
+    {
+      "identifier": "anne.raskin",
+      "proof_url": "https://www.facebook.com/anne.raskin/posts/10154324960417160",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "anneraskin",
+      "proof_url": "https://twitter.com/anneraskin/status/740795108044505092",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN moonseal.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/moonseal.id\"\n"
+}
