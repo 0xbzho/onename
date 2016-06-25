@@ -1,0 +1,50 @@
+{
+  "owner_address": "1PidAn7D7sf2c4z3sgH9A9UgXUnVZGkbYY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rxl881",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rxl881/9550a31ba7a0e5a19b1060f10cb71402",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rxl881",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rxl881/status/743166143238672386",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/wolvie",
+        "name": "avatar"
+      }
+    ],
+    "name": "Richard Lewis"
+  },
+  "verifications": [
+    {
+      "identifier": "rxl881",
+      "proof_url": "https://gist.github.com/rxl881/9550a31ba7a0e5a19b1060f10cb71402",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "rxl881",
+      "proof_url": "https://twitter.com/rxl881/status/743166143238672386",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN wolvie.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wolvie.id\"\n"
+}
