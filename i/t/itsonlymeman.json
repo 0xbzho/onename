@@ -1,0 +1,66 @@
+{
+  "owner_address": "1Js4y7jTZawE1QrDTRX4To4xRkPfYBZYY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "onesmartninja",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/onesmartninja/status/741466377278656516",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "15QUEZU3SQyHEzMwC8v6MyoN9VVDjDQhAg",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bd155650e9d0d6988cc079a9c73f67b3af8e7b44",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "edward.duffy.52",
+        "proofType": "http",
+        "proofUrl": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fedward.duffy.52%2Fposts%2F931336520309276&width=500\" width=\"500\" height=\"235\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\"></iframe>",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Portland ME"
+    },
+    "description": "Artist and Technologist",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/itsonlymeman",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/itsonlymeman",
+        "name": "cover"
+      }
+    ],
+    "name": "Edward Duffy"
+  },
+  "verifications": [
+    {
+      "identifier": "onesmartninja",
+      "proof_url": "https://twitter.com/onesmartninja/status/741466377278656516",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "edward.duffy.52",
+      "proof_url": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fedward.duffy.52%2Fposts%2F931336520309276&width=500\" width=\"500\" height=\"235\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\"></iframe>",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN itsonlymeman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/itsonlymeman.id\"\n"
+}
