@@ -1,0 +1,39 @@
+{
+  "owner_address": "1PmjFCCmxLURwQBPLtHf9XS5tXFQwinA38",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ddfbec14611aa3bb50f34fa51f36b396ea9e2884",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/GuiseBule/7767930909e4134d46b767182e342c61#file-gb_onename",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "windsok",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/windsok/28161b7224c67202c74484e67370743e",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "windsok"
+  },
+  "verifications": [
+    {
+      "identifier": "windsok",
+      "proof_url": "https://gist.github.com/windsok/28161b7224c67202c74484e67370743e",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN windsok.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/windsok.id\"\n"
+}
