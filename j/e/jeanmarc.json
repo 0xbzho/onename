@@ -1,0 +1,60 @@
+{
+  "owner_address": "18drr1MpFNxj7CpRqrFmdzVAWsRvY8w7Ve",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jm.sabet",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jm.sabet",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jmsabet",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jmsabet",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Geneva, Switzerland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jeanmarc",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jean-Marc Sabet",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.b-sharpe.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jm.sabet",
+      "proof_url": "https://www.facebook.com/jm.sabet",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "jmsabet",
+      "proof_url": "https://twitter.com/jmsabet",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jeanmarc.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jeanmarc.id\"\n"
+}
