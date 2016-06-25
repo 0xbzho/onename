@@ -1,0 +1,74 @@
+{
+  "owner_address": "1CSF3JrjaNNCLva8Wj8vN8hsMKbGqHEqZA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jp_mayo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jp_mayo/status/735050836800344064",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jpmayo",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jpmayo/c4f46d272a291aa56112e9c190413e3d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jose.p.mayo",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jose.p.mayo/posts/10210229523681106",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1D3un6RWhbbaGkHTCqRmaofdCb1qBEDZsu",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Madrid"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jose Pedro Mayo",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://mayomendo.es/blog"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jp_mayo",
+      "proof_url": "https://twitter.com/jp_mayo/status/735050836800344064",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jpmayo",
+      "proof_url": "https://gist.github.com/jpmayo/c4f46d272a291aa56112e9c190413e3d",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jose.p.mayo",
+      "proof_url": "https://www.facebook.com/jose.p.mayo/posts/10210229523681106",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jpmayo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jpmayo.id\"\n"
+}
