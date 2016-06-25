@@ -1,0 +1,44 @@
+{
+  "owner_address": "1Pw9rAjZRGQYu8SMjAhKjDASZ11FNRLk5B",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "seanmarkey",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/seanmarkey/status/741000175615778816",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "seanemarkey",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/seanemarkey/posts/10100897238424099?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "seanmarkey",
+      "proof_url": "https://twitter.com/seanmarkey/status/741000175615778816",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "seanemarkey",
+      "proof_url": "https://www.facebook.com/seanemarkey/posts/10100897238424099?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN markey.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/markey.id\"\n"
+}
