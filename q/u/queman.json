@@ -1,0 +1,49 @@
+{
+  "owner_address": "138Gq6NRGG3g5TCUZGMQM64kez4rutXxyW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "chexo3",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/chexo3/7cb471ccf14f171f5c85d2c6076744d1",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/queman",
+        "identifier": "C61CEABA2017C0EB38E33C1CBA98CD94017498BD",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "faac8efb490964fb4f9b36ef73e9e011b267cb9f",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gamaroff/status/737035738835996672",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/queman",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "chexo3",
+      "proof_url": "https://gist.github.com/chexo3/7cb471ccf14f171f5c85d2c6076744d1",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN queman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/queman.id\"\n"
+}
