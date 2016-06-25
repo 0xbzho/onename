@@ -1,0 +1,41 @@
+{
+  "owner_address": "12Wonf6Sq7KvNMmojg7DQuDc1fodUj1NxA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ridesharejack",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RideshareJack/status/743099638622752769",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Louisville, KY"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jacklr",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jacklr",
+        "name": "cover"
+      }
+    ],
+    "name": "Jack Riddle"
+  },
+  "verifications": [
+    {
+      "identifier": "ridesharejack",
+      "proof_url": "https://twitter.com/RideshareJack/status/743099638622752769",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jacklr.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jacklr.id\"\n"
+}
