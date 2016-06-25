@@ -1,0 +1,80 @@
+{
+  "owner_address": "1N5LJ7r4CWhpqpKqvvsBsAEdeT8G5gijL2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "99257a408ef0a919917ad57777e3b4d10c4b321b",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "_LR_",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/_LR_/status/739164851155697665",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "laurent.raufaste",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/laurent.raufaste/posts/10153549932316128",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lra",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/lra/4b0ec18c5a3b39535e7ae525d8282bd0",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1MV1UzzSnqk4giE8yCMisSadw1PYXUj7kj",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/lolotte",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/lolotte",
+        "name": "cover"
+      }
+    ],
+    "name": "Laurent Raufaste",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.glop.org/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "_LR_",
+      "proof_url": "https://twitter.com/_LR_/status/739164851155697665",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "laurent.raufaste",
+      "proof_url": "https://www.facebook.com/laurent.raufaste/posts/10153549932316128",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "lra",
+      "proof_url": "https://gist.github.com/lra/4b0ec18c5a3b39535e7ae525d8282bd0",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN lolotte.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lolotte.id\"\n"
+}
