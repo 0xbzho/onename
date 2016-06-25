@@ -1,0 +1,70 @@
+{
+  "owner_address": "1GzEWRFRuorKRmFGCtm1zgkpp9EeZXrbyT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "MuchBitcoin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MuchBitcoin/status/740761205179088897",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/8d781802b9be2d30e97020c35c352575",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "profile.php?id=100009346160490",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/permalink.php?story_fbid=1628826904105499&id=100009346160490&pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "description": "Bitcoin Education",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/muchbitcoin",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/muchbitcoin",
+        "name": "cover"
+      }
+    ],
+    "name": "MuchBitcoin",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.muchbitcoin.org"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "MuchBitcoin",
+      "proof_url": "https://twitter.com/MuchBitcoin/status/740761205179088897",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/8d781802b9be2d30e97020c35c352575",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "profile.php?id=100009346160490",
+      "proof_url": "https://www.facebook.com/permalink.php?story_fbid=1628826904105499&id=100009346160490&pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN muchbitcoin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/muchbitcoin.id\"\n"
+}
