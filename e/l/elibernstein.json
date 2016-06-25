@@ -1,0 +1,60 @@
+{
+  "owner_address": "1PQSJFJvikhqs7yVEFuHWDdRvLhcJc3ofD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "twiteli",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/twiteli/1ec2e5fa088f78fff211cda317215fe3",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "twiteli",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/twiteli/status/740900304569303041",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "15r8moS9vLtTLxfAoUwrzZbT1C9sd9Jeo3",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Perth, Australia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/elibernstein",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/elibernstein",
+        "name": "cover"
+      }
+    ],
+    "name": "Eli Bernstein"
+  },
+  "verifications": [
+    {
+      "identifier": "twiteli",
+      "proof_url": "https://gist.github.com/twiteli/1ec2e5fa088f78fff211cda317215fe3",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "twiteli",
+      "proof_url": "https://twitter.com/twiteli/status/740900304569303041",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN elibernstein.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/elibernstein.id\"\n"
+}
