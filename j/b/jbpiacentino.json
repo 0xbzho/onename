@@ -1,0 +1,49 @@
+{
+  "owner_address": "1CvGo3kTuHPp1d5bGHKhFbFTNePjCdgVQ4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jbpiacentino",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jbpiacentino/status/741521592409153537",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jbpiacentino",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jbpiacentino/posts/1094061887326881",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jb Piacentino"
+  },
+  "verifications": [
+    {
+      "identifier": "jbpiacentino",
+      "proof_url": "https://twitter.com/jbpiacentino/status/741521592409153537",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "jbpiacentino",
+      "proof_url": "https://www.facebook.com/jbpiacentino/posts/1094061887326881",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jbpiacentino.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jbpiacentino.id\"\n"
+}
