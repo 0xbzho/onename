@@ -1,0 +1,50 @@
+{
+  "owner_address": "1MjyKcoZacANvhVtm1gCgarBG1rVkRannM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kharri1073",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/kharri1073/16c3b22132a3fa05fb74232704055729",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kharri1073",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kharri1073/status/741454354146811904",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "141s5Joi7x5vhm2BbtiXsmWk3bWhkWKn8D",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "kharri1073",
+      "proof_url": "https://gist.github.com/kharri1073/16c3b22132a3fa05fb74232704055729",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "kharri1073",
+      "proof_url": "https://twitter.com/kharri1073/status/741454354146811904",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kharri1073.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kharri1073.id\"\n"
+}
