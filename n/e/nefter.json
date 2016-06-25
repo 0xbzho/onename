@@ -1,0 +1,45 @@
+{
+  "owner_address": "1EJoc12ZKimYaecP624TkYpNoK5sPG1nXi",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nefter",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/nefter/6897bf4c52dd9829e0f0e404fbf655f4",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nefter_",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/nefter_/status/740233451123548160",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Nef Rossano"
+  },
+  "verifications": [
+    {
+      "identifier": "nefter",
+      "proof_url": "https://gist.github.com/nefter/6897bf4c52dd9829e0f0e404fbf655f4",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "nefter_",
+      "proof_url": "https://twitter.com/nefter_/status/740233451123548160",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN nefter.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nefter.id\"\n"
+}
