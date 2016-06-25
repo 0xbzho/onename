@@ -1,0 +1,48 @@
+{
+  "owner_address": "12oZvujTJXMnv8KK9d2WcNXhg533UbisZL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jhmorin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jhmorin/status/741006250918457348",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Geneva, Switzerland"
+    },
+    "description": "Hello BlockWorld :-)",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jhmorin",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jean-Henry Morin",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://jean-henry.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jhmorin",
+      "proof_url": "https://twitter.com/jhmorin/status/741006250918457348",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jhmorin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jhmorin.id\"\n"
+}
