@@ -1,0 +1,36 @@
+{
+  "owner_address": "14XSwr39nsDNDXBfU3rjsBBacQWGdjFRaw",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kjesle",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/kjesle/ef3927b928d880b5609c6190dd706816",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Oslo, Norway"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Kjetil Sletten"
+  },
+  "verifications": [
+    {
+      "identifier": "kjesle",
+      "proof_url": "https://gist.github.com/kjesle/ef3927b928d880b5609c6190dd706816",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kjesle.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kjesle.id\"\n"
+}
