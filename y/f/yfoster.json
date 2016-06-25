@@ -1,0 +1,37 @@
+{
+  "owner_address": "1PCNriPxq5wHrEVH1Ee22EkUv6wzPx71Ur",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Yancey_Foster",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Yancey_Foster/status/740765818741460992",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/yfoster",
+        "name": "avatar"
+      }
+    ],
+    "name": "Yancey Foster"
+  },
+  "verifications": [
+    {
+      "identifier": "Yancey_Foster",
+      "proof_url": "https://twitter.com/Yancey_Foster/status/740765818741460992",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN yfoster.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/yfoster.id\"\n"
+}
