@@ -1,0 +1,36 @@
+{
+  "owner_address": "142vKooHwgJcsFL3ZqMTaR6pxBPwA3gga4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "informationcto",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/InformationCTO/status/740967320936427520",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/informationcto",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/informationcto",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "informationcto",
+      "proof_url": "https://twitter.com/InformationCTO/status/740967320936427520",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN informationcto.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/informationcto.id\"\n"
+}
