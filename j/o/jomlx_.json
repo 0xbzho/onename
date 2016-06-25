@@ -1,0 +1,63 @@
+{
+  "owner_address": "1JYsD1jqVXwoyFgcSJdbXxUWsg5dXwEHnh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "JoMlx",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JoMlx/status/740852614154342400",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "C1n",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/C1n/a57aa3a5fb013c9581b8123da805902c",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/jomlx_",
+        "identifier": null,
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jo.mailleux",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jo.mailleux/posts/10204825811803998",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "JoMlx",
+      "proof_url": "https://twitter.com/JoMlx/status/740852614154342400",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "C1n",
+      "proof_url": "https://gist.github.com/C1n/a57aa3a5fb013c9581b8123da805902c",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jo.mailleux",
+      "proof_url": "https://www.facebook.com/jo.mailleux/posts/10204825811803998",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jomlx_.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jomlx_.id\"\n"
+}
