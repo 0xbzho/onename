@@ -1,0 +1,74 @@
+{
+  "owner_address": "181GYHCqappSDKnfrzzFQ7vXQ9yXDC2889",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gaufredus",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gaufredus/status/740803091478523904",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gsallen",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/gsallen/4ef94a42f8300ae62b6b7e78fea47e1a",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "geoffrey.allen.90",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/geoffrey.allen.90/posts/10206144419626419",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Canada"
+    },
+    "description": "Librarian, teacher, designer with focus on technology",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gsallen",
+        "name": "avatar"
+      }
+    ],
+    "name": "Geoffrey Allen",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://geopardy.ca"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "gaufredus",
+      "proof_url": "https://twitter.com/gaufredus/status/740803091478523904",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "gsallen",
+      "proof_url": "https://gist.github.com/gsallen/4ef94a42f8300ae62b6b7e78fea47e1a",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "geoffrey.allen.90",
+      "proof_url": "https://www.facebook.com/geoffrey.allen.90/posts/10206144419626419",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN gsallen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gsallen.id\"\n"
+}
