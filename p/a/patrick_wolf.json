@@ -1,0 +1,37 @@
+{
+  "owner_address": "1DSW1Wk3Aa26N232H882TYU84MpXFg3NoS",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "pwwolf",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/pwwolf/cb9c075e9ee8df5643916e6d39baebfe",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1ZsNY6M4pniEepbeavavPzZk8vugMR3WK",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "pwwolf",
+      "proof_url": "https://gist.github.com/pwwolf/cb9c075e9ee8df5643916e6d39baebfe",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN patrick_wolf.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/patrick_wolf.id\"\n"
+}
