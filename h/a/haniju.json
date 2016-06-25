@@ -1,0 +1,36 @@
+{
+  "owner_address": "1995Xp7yZQ4bnbgWktoaVa1mqCLLheHuey",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "haniju",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Haniju/status/740695045716742153",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Justine Hannequin"
+  },
+  "verifications": [
+    {
+      "identifier": "haniju",
+      "proof_url": "https://twitter.com/Haniju/status/740695045716742153",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN haniju.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/haniju.id\"\n"
+}
