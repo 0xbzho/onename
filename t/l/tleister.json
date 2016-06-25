@@ -1,0 +1,59 @@
+{
+  "owner_address": "18vVFx5WbR9fpxknpCvk7EQ3Fbm4kzQ8Jp",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ThomasLeister",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ThomasLeister/58aea0007b6d6f73eac4de5d1e19ae5b",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/tleister",
+        "identifier": "2500F4F52F77AE69E22B331D2AB6AD369DFD2A65",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "15z8QkNidHsxq9WWd8nxW9XUhsdfQe5B4s",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Landshut, Niederbayern, Germany"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tleister",
+        "name": "avatar"
+      }
+    ],
+    "name": "Thomas Leister",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://thomas-leister.de/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ThomasLeister",
+      "proof_url": "https://gist.github.com/ThomasLeister/58aea0007b6d6f73eac4de5d1e19ae5b",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tleister.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tleister.id\"\n"
+}
