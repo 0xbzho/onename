@@ -1,0 +1,75 @@
+{
+  "owner_address": "17qcPWtun42Zzmew2EXGKCa6ENLRCsysxP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "zack456",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/zack456/31def1c3ceaf196adf880676abe67d36",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "zc456",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Zc456/status/742243096260382720",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tpaworg",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/tpaworg/posts/1555117548116325",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/tpawbzr",
+        "identifier": "47F78A1914543BBA190546F7CEECE9ED3E2234A5",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1K8MF7DNdq598WhVuwMxAQL8SRfWZK1Lkc",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tpawbzr",
+        "name": "avatar"
+      }
+    ],
+    "name": "TPaw"
+  },
+  "verifications": [
+    {
+      "identifier": "zack456",
+      "proof_url": "https://gist.github.com/zack456/31def1c3ceaf196adf880676abe67d36",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "zc456",
+      "proof_url": "https://twitter.com/Zc456/status/742243096260382720",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "tpaworg",
+      "proof_url": "https://www.facebook.com/tpaworg/posts/1555117548116325",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tpawbzr.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tpawbzr.id\"\n"
+}
