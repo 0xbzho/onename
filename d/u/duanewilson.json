@@ -1,0 +1,68 @@
+{
+  "owner_address": "1ByA9NHVM6CSAVEqTUbFH8BVEvoNfuhBAJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "HelloDuane",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/helloduane/status/741481746974183424",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Duanewilsonsf",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/duanewilsonsf/posts/10153505261586010",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "duanewilson",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/duanewilson/abd6ac1cc4e197f870a97113d884110d",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sacramento, CA"
+    },
+    "description": "Designer, Developer, Helper of Startups",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/duanewilson",
+        "name": "avatar"
+      }
+    ],
+    "name": "Duane Wilson"
+  },
+  "verifications": [
+    {
+      "identifier": "HelloDuane",
+      "proof_url": "https://twitter.com/helloduane/status/741481746974183424",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Duanewilsonsf",
+      "proof_url": "https://www.facebook.com/duanewilsonsf/posts/10153505261586010",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "duanewilson",
+      "proof_url": "https://gist.github.com/duanewilson/abd6ac1cc4e197f870a97113d884110d",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN duanewilson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/duanewilson.id\"\n"
+}
