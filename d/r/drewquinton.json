@@ -1,0 +1,55 @@
+{
+  "owner_address": "14gUKKt2QsrVRw95QwBHnjUUftEVSx1UtF",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "14egbki8uQPyKbi3JKSKFVLB84A7ZKtmUb",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Akilou_q",
+        "proofType": "http",
+        "proofUrl": "https://mobile.twitter.com/Akilou_Q/status/740894972820520960",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "drewjq",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/DrewJQ/posts/10100699356296775?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boston Area"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Drew Quinton"
+  },
+  "verifications": [
+    {
+      "identifier": "Akilou_q",
+      "proof_url": "https://mobile.twitter.com/Akilou_Q/status/740894972820520960",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "drewjq",
+      "proof_url": "https://www.facebook.com/DrewJQ/posts/10100699356296775?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN drewquinton.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/drewquinton.id\"\n"
+}
