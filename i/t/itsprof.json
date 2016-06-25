@@ -1,64 +1,80 @@
 {
   "owner_address": "1LkThCq7C6wxy7DW63y4rGsJYQ6cU4swiC",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/itsprof"
-    },
-    "bio": " iOS developer, gamer and sybarite. Currently studying at Full Sail University. Happily married. Writing my life in Swift and Objective-C.",
-    "bitcoin": {
-      "address": "1KJXemRqy37Bg8fTuUUj63fHMRHbuPeF7Z"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/wkj.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/jorgeltapiar/posts/1649330665279559"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1KJXemRqy37Bg8fTuUUj63fHMRHbuPeF7Z",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "jorgeltapiar"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/itsProf/93a50e17c03e35af41a1"
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/jorgeltapiar/posts/1649330665279559",
+        "service": "facebook"
       },
-      "username": "itsProf"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/itsprof"
-    },
-    "location": {
-      "formatted": "Winter Park, FL"
-    },
-    "name": {
-      "formatted": "Jorge Tapia"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/itsProf/status/605847759564857345"
+      {
+        "@type": "Account",
+        "identifier": "itsProf",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/itsProf/status/743142151962361856",
+        "service": "twitter"
       },
-      "username": "itsProf"
+      {
+        "@type": "Account",
+        "identifier": "itsProf",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/itsProf/4be61aed91f122b662a2b243332801d4",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Winter Park, FL"
     },
-    "v": "0.2",
-    "website": "http://jorgetapia.net"
+    "description": "Soldier of God. Software engineer, gamer and sybarite. Writing my life in Swift and Objective-C.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/itsprof",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jorge Tapia",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://jorgetapia.net"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "itsProf",
-      "proof_url": "https://gist.github.com/itsProf/93a50e17c03e35af41a1",
-      "service": "github",
-      "valid": true
+      "identifier": "",
+      "proof_url": "https://facebook.com/jorgeltapiar/posts/1649330665279559",
+      "service": "facebook",
+      "valid": false
     },
     {
       "identifier": "itsProf",
-      "proof_url": "https://twitter.com/itsProf/status/605847759564857345",
+      "proof_url": "https://twitter.com/itsProf/status/743142151962361856",
       "service": "twitter",
       "valid": true
     },
     {
-      "identifier": "jorgeltapiar",
-      "proof_url": "https://facebook.com/jorgeltapiar/posts/1649330665279559",
-      "service": "facebook",
-      "valid": false
+      "identifier": "itsProf",
+      "proof_url": "https://gist.github.com/itsProf/4be61aed91f122b662a2b243332801d4",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN itsprof.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/itsprof.id\"\n"
 }
