@@ -1,0 +1,49 @@
+{
+  "owner_address": "18pfmbxZhZMUzyiowCN9vd6xFr1cpn1ua1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "riehs",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/riehs/status/740736281395744768",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "riehs",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/riehs/78fd81b12b27d45f0c6eb6a4de643e11",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boston"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Daniel Riehs"
+  },
+  "verifications": [
+    {
+      "identifier": "riehs",
+      "proof_url": "https://twitter.com/riehs/status/740736281395744768",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "riehs",
+      "proof_url": "https://gist.github.com/riehs/78fd81b12b27d45f0c6eb6a4de643e11",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN driehs.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/driehs.id\"\n"
+}
