@@ -1,0 +1,75 @@
+{
+  "owner_address": "13KhQpKvr9hTRapevDfDp91Lk5ZyS3Yram",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "lfalkenburg",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/lfalkenburg/status/740682996034965504",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lutz.falkenburg",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/lutz.falkenburg/posts/1624023661258548",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lfalkenburg",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/lfalkenburg/2cc5a9420d4a485ef0bafd942e927872#",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "159AXx9zHmTeWwswkVZuiw77wyjmEXqdSw",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/lfalkenburg",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/lfalkenburg",
+        "name": "cover"
+      }
+    ],
+    "name": "Lutz Falkenburg",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.lfalkenburg.de"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "lfalkenburg",
+      "proof_url": "https://twitter.com/lfalkenburg/status/740682996034965504",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "lutz.falkenburg",
+      "proof_url": "https://www.facebook.com/lutz.falkenburg/posts/1624023661258548",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "lfalkenburg",
+      "proof_url": "https://gist.github.com/lfalkenburg/2cc5a9420d4a485ef0bafd942e927872#",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN lfalkenburg.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lfalkenburg.id\"\n"
+}
