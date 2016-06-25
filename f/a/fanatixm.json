@@ -1,0 +1,54 @@
+{
+  "owner_address": "14PZW2WnUiD4QjQ1CVVp9zNLbrRFVmmJvg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "david.perchais",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/davidperchais/status/740166830271123456?lang=fr",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fanatixm",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/fanatixm/79f865b0d3f711439290073f303ff0c6",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Rennes"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/fanatixm",
+        "name": "avatar"
+      }
+    ],
+    "name": "David Perchais"
+  },
+  "verifications": [
+    {
+      "identifier": "david.perchais",
+      "proof_url": "https://twitter.com/davidperchais/status/740166830271123456?lang=fr",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "fanatixm",
+      "proof_url": "https://gist.github.com/fanatixm/79f865b0d3f711439290073f303ff0c6",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN fanatixm.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fanatixm.id\"\n"
+}
