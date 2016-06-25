@@ -1,0 +1,44 @@
+{
+  "owner_address": "1PrN81ZKe9rB1BUAA3rF6j7JePdyVMMVdh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "pkubasov",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/pkubasov/798507d70efd3cbffc52dc0b2873833f",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mongotimo",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mongotimo/posts/10154257622028799",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "pkubasov",
+      "proof_url": "https://gist.github.com/pkubasov/798507d70efd3cbffc52dc0b2873833f",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "mongotimo",
+      "proof_url": "https://www.facebook.com/mongotimo/posts/10154257622028799",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN philipk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/philipk.id\"\n"
+}
