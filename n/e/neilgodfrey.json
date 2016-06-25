@@ -1,0 +1,44 @@
+{
+  "owner_address": "1LjPZSR56bfFjuaXoKpk1BDYsmehqm3B9q",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ngodfrey",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ngodfrey/status/735158201310580736",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "neilgodfrey",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/neilgodfrey/posts/10153979716798387",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ngodfrey",
+      "proof_url": "https://twitter.com/ngodfrey/status/735158201310580736",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "neilgodfrey",
+      "proof_url": "https://www.facebook.com/neilgodfrey/posts/10153979716798387",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN neilgodfrey.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/neilgodfrey.id\"\n"
+}
