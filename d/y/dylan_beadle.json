@@ -1,0 +1,66 @@
+{
+  "owner_address": "1BMYbneZiL8hq9rUqrpoJQKLAUVCEBsHMm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dylanbeadle",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dylanbeadle/bdc40771ec09bb06b8230636123e22c0",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1NLjDJy7wk5uFemfHvoHK9ZpnfaXvfZMgQ",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dylan_beadle",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Dylan_Beadle/status/744561499780243456",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Diego, CA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dylan_beadle",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/dylan_beadle",
+        "name": "cover"
+      }
+    ],
+    "name": "Dylan Beadle",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://dylan.beadle.name"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dylanbeadle",
+      "proof_url": "https://gist.github.com/dylanbeadle/bdc40771ec09bb06b8230636123e22c0",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "dylan_beadle",
+      "proof_url": "https://twitter.com/Dylan_Beadle/status/744561499780243456",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN dylan_beadle.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dylan_beadle.id\"\n"
+}
