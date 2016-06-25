@@ -1,37 +1,80 @@
 {
   "owner_address": "1K3xKYPKMwbd2RHP378QPDoPhfSWvhCbQx",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/emilio"
-    },
-    "bio": "",
-    "bitcoin": {
-      "address": "13CU31KkwfPuwDox5GhEWn4ognLeHQtjXJ"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/emilio"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Emilio Pagan-Yourno"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/EPaganYourno/status/512409450737442816"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "13CU31KkwfPuwDox5GhEWn4ognLeHQtjXJ",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "EPaganYourno"
+      {
+        "@type": "Account",
+        "identifier": "EPaganYourno",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/EPaganYourno/status/741060330357460992",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cosifresco",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/cosifresco/posts/630012380483954?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cosifresco",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/cosifresco/3b788d56665cce42446b019fac8efaf5#file-gistfile1-txt",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "v": "0.2",
-    "website": "http://pycbitcoin.com"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/emilio",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/emilio",
+        "name": "cover"
+      }
+    ],
+    "name": "Emilio Pagan-Yourno",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://unbank.world"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "EPaganYourno",
-      "proof_url": "https://twitter.com/EPaganYourno/status/512409450737442816",
+      "proof_url": "https://twitter.com/EPaganYourno/status/741060330357460992",
       "service": "twitter",
       "valid": true
+    },
+    {
+      "identifier": "cosifresco",
+      "proof_url": "https://www.facebook.com/cosifresco/posts/630012380483954?pnref=story",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "cosifresco",
+      "proof_url": "https://gist.github.com/cosifresco/3b788d56665cce42446b019fac8efaf5#file-gistfile1-txt",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN emilio.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/emilio.id\"\n"
 }
