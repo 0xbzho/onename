@@ -1,0 +1,31 @@
+{
+  "owner_address": "19nPfPtVpohBBJoU3ha5wL6gquioKb6Jh2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ieleja",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ieleja/76c889677f9831de98a44c48e2600fe3",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ieleja",
+      "proof_url": "https://gist.github.com/ieleja/76c889677f9831de98a44c48e2600fe3",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ieleja.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ieleja.id\"\n"
+}
