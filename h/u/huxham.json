@@ -1,0 +1,41 @@
+{
+  "owner_address": "1Hzos5PRKrvW8uSd4GiJLfKvSNgDMmx3MP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "huxham",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/huxham/status/740796173787770880",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "UK"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/huxham",
+        "name": "avatar"
+      }
+    ],
+    "name": "Paul Huxham"
+  },
+  "verifications": [
+    {
+      "identifier": "huxham",
+      "proof_url": "https://twitter.com/huxham/status/740796173787770880",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN huxham.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/huxham.id\"\n"
+}
