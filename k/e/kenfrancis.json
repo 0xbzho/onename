@@ -1,0 +1,67 @@
+{
+  "owner_address": "18SWU2BscWxH7eykhPCnsP9Pf2x8vC5VFf",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kenvisions",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kenvisions/status/738331685721411584",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kennethfrancisjr",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kenvisions/status/738331685721411584",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https:",
+        "proofType": "http",
+        "proofUrl": "https://github.com/Kenvisions",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Houston, Tx"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/kenfrancis",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kenfrancis",
+        "name": "avatar"
+      }
+    ],
+    "name": "Kenneth Francis Jr"
+  },
+  "verifications": [
+    {
+      "identifier": "kenvisions",
+      "proof_url": "https://twitter.com/kenvisions/status/738331685721411584",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "kennethfrancisjr",
+      "proof_url": "https://twitter.com/kenvisions/status/738331685721411584",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "https:",
+      "proof_url": "https://github.com/Kenvisions",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN kenfrancis.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kenfrancis.id\"\n"
+}
