@@ -1,62 +1,73 @@
 {
   "owner_address": "1MEsqFQAKpUS8BKX36JVAZzzPvCBCxkgoh",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/nicolasgramlich"
-    },
-    "bio": "Developer at heart",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/nicolasgramlich"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/nicolasgramlich/posts/10203989739436828"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nicolasgramlich",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "nicolasgramlich"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/nicolasgramlich/14f0770ac3a68a3f56ce"
+      {
+        "@type": "Account",
+        "identifier": "18xPTbybjZzbUM3NBMMMVybzAMqGBKPAyj",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "nicolasgramlich"
-    },
-    "linkedin": {
-      "url": "http://linkedin.com/in/nicolasgramlich"
-    },
-    "location": {
-      "formatted": "San Francisco"
-    },
-    "name": {
-      "formatted": "Nicolas Gramlich"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/nicolasgramlich/status/532857977691074560"
+      {
+        "@type": "Account",
+        "identifier": "nicolasgramlich",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/nicolasgramlich/status/740808996769169408",
+        "service": "twitter"
       },
-      "username": "nicolasgramlich"
+      {
+        "@type": "Account",
+        "identifier": "nicolasgramlich",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/nicolasgramlich/4021247d31e9144492e51ccd4fd01a1a",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco"
     },
-    "v": "0.2",
-    "website": ""
+    "description": "Developer at heart",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nicolasgramlich",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/nicolasgramlich",
+        "name": "cover"
+      }
+    ],
+    "name": "Nicolas Gramlich",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": ""
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "nicolasgramlich",
-      "proof_url": "https://gist.github.com/nicolasgramlich/14f0770ac3a68a3f56ce",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "nicolasgramlich",
-      "proof_url": "https://twitter.com/nicolasgramlich/status/532857977691074560",
+      "proof_url": "https://twitter.com/nicolasgramlich/status/740808996769169408",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "nicolasgramlich",
-      "proof_url": "https://facebook.com/nicolasgramlich/posts/10203989739436828",
-      "service": "facebook",
+      "proof_url": "https://gist.github.com/nicolasgramlich/4021247d31e9144492e51ccd4fd01a1a",
+      "service": "github",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN nicolasgramlich.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nicolasgramlich.id\"\n"
 }
