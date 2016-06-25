@@ -1,0 +1,73 @@
+{
+  "owner_address": "1Q4ntTuRm5CgB2WeJPkRL8qnU4PZj2uisn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "machawk1",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/machawk1/678ac6d4cc3057bd543272e01c5b3565",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "proofUrl": "post_id=10108689414335831_10108689423103261",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "machawk1",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/machawk1/status/740699315128172545",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Portsmouth, Virginia USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/machawk1",
+        "name": "avatar"
+      }
+    ],
+    "name": "Mat Kelly",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.cs.odu.edu/~mkelly/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "machawk1",
+      "proof_url": "https://gist.github.com/machawk1/678ac6d4cc3057bd543272e01c5b3565",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "",
+      "proof_url": "post_id=10108689414335831_10108689423103261",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "machawk1",
+      "proof_url": "https://twitter.com/machawk1/status/740699315128172545",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN machawk1.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/machawk1.id\"\n"
+}
