@@ -1,0 +1,49 @@
+{
+  "owner_address": "14yfRWbY8qM9ykw1xsB2rPrzKHr7Gv5P1a",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "andreicristianpetcu",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/andreicristianpetcu/6ece1e80a724ce27a7c194af1a95f111#file-verifying-that-dreian-is-my-blockchain",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ddreian",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ddreian/status/740909177682432000",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dreian",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "andreicristianpetcu",
+      "proof_url": "https://gist.github.com/andreicristianpetcu/6ece1e80a724ce27a7c194af1a95f111#file-verifying-that-dreian-is-my-blockchain",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "ddreian",
+      "proof_url": "https://twitter.com/ddreian/status/740909177682432000",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dreian.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dreian.id\"\n"
+}
