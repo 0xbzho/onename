@@ -1,0 +1,62 @@
+{
+  "owner_address": "1J1ug9Efy5e1MjFKyYiMo5qi34UL8tGGNr",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "genebecker",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/genebecker/status/740738622312218624",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gbecker",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/gbecker/7d96dc9a6a7a963d91a6d60d3bfa51a7",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "genebecker",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/genebecker/posts/10154244044398827",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Yes"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Gene Becker"
+  },
+  "verifications": [
+    {
+      "identifier": "genebecker",
+      "proof_url": "https://twitter.com/genebecker/status/740738622312218624",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "gbecker",
+      "proof_url": "https://gist.github.com/gbecker/7d96dc9a6a7a963d91a6d60d3bfa51a7",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "genebecker",
+      "proof_url": "https://www.facebook.com/genebecker/posts/10154244044398827",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN genebecker.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/genebecker.id\"\n"
+}
