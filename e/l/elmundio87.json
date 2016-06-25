@@ -1,28 +1,81 @@
 {
   "owner_address": "1Pra534UsJSq1ynCBKE4GfSJYxtepXAfRF",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/elmundio87"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/elmundio87",
+        "identifier": "0F0E5CA5",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ElMundio87",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ElMundio87/status/740809701420584960",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "edmund.dipple",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/edmund.dipple/posts/10153966088287935?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "elmundio87",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/elmundio87/c09d2753662f64ddc8fd84c380271eb3",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lewisham, England"
     },
-    "bio": "Professionally a Devops Engineer, I like to blog about my work with Chef and Virtualisation (vSphere and Hyper-V in particular)",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/wkj.jpeg"
-    },
-    "location": {
-      "formatted": "Lewisham, England"
-    },
-    "name": {
-      "formatted": "Edmund Dipple"
-    },
-    "pgp": {
-      "fingerprint": "0F0E5CA5",
-      "url": "https://s3.amazonaws.com/pk9/elmundio87"
-    },
-    "twitter": {
-      "username": "ElMundio87"
-    },
-    "v": "0.2",
-    "website": "http://www.devopsninjas.com"
+    "description": "Professionally a Devops Engineer, I like to blog about my work with Chef and Virtualisation (vSphere and Hyper-V in particular)",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/elmundio87",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Edmund Dipple",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.devopsninjas.com"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "ElMundio87",
+      "proof_url": "https://twitter.com/ElMundio87/status/740809701420584960",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "edmund.dipple",
+      "proof_url": "https://www.facebook.com/edmund.dipple/posts/10153966088287935?pnref=story",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "elmundio87",
+      "proof_url": "https://gist.github.com/elmundio87/c09d2753662f64ddc8fd84c380271eb3",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN elmundio87.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/elmundio87.id\"\n"
 }
