@@ -1,63 +1,74 @@
 {
   "owner_address": "1Es2QHEzFWYpvraAzByg6z56qbtfcWeCRA",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/jamesyoung"
-    },
-    "bio": "",
-    "bitcoin": {
-      "address": "1LV8f6gX7RxFGudUMPk4mWMNvJoHkumk4g"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/yId.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/youngjames/posts/10153588521249750"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1LV8f6gX7RxFGudUMPk4mWMNvJoHkumk4g",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "youngjames"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/jamesyoung/8e93b0db8b42fac295c5"
+      {
+        "@type": "Account",
+        "identifier": "jamesyoung",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jamesyoung/status/745394882022248449",
+        "service": "twitter"
       },
-      "username": "jamesyoung"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/jamesyoung"
-    },
-    "location": {
-      "formatted": "iPhone: 41.897827,-87.625076"
-    },
-    "name": {
-      "formatted": "James Young"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/jamesyoung/status/585236500008296448"
+      {
+        "@type": "Account",
+        "identifier": "jamesyoung",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jamesyoung/ae518f41980408a037cb0ad3dcbeb697",
+        "service": "github"
       },
-      "username": "jamesyoung"
+      {
+        "@type": "Account",
+        "identifier": "youngjames",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/youngjames/posts/10153779235954750",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "iPhone: 41.897827,-87.625076"
     },
-    "v": "0.2"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jamesyoung",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "James Young"
   },
   "verifications": [
     {
       "identifier": "jamesyoung",
-      "proof_url": "https://gist.github.com/jamesyoung/8e93b0db8b42fac295c5",
+      "proof_url": "https://twitter.com/jamesyoung/status/745394882022248449",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "jamesyoung",
+      "proof_url": "https://gist.github.com/jamesyoung/ae518f41980408a037cb0ad3dcbeb697",
       "service": "github",
       "valid": true
     },
     {
-      "identifier": "jamesyoung",
-      "proof_url": "https://twitter.com/jamesyoung/status/585236500008296448",
-      "service": "twitter",
-      "valid": true
-    },
-    {
       "identifier": "youngjames",
-      "proof_url": "https://facebook.com/youngjames/posts/10153588521249750",
+      "proof_url": "https://facebook.com/youngjames/posts/10153779235954750",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN jamesyoung.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jamesyoung.id\"\n"
 }
