@@ -1,0 +1,41 @@
+{
+  "owner_address": "1GsL7fuDd7ptuKpa53HWBdptqGRT6u1UF2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "henderson2k",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/henderson2k/723fdd65bdd86c48026ab172ab64d543",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Scotland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/henderson2k",
+        "name": "avatar"
+      }
+    ],
+    "name": "Andrew Henderson"
+  },
+  "verifications": [
+    {
+      "identifier": "henderson2k",
+      "proof_url": "https://gist.github.com/henderson2k/723fdd65bdd86c48026ab172ab64d543",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN henderson2k.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/henderson2k.id\"\n"
+}
