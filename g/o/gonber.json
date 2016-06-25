@@ -1,0 +1,63 @@
+{
+  "owner_address": "19NAwzuHW2A3QiSmo3ovgymv8ZcW7Uo7LC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "goncbernardo",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/goncbernardo/posts/1051192878250334",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gonber",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/gonber/9f646677468ca44ef56a185f8ffec8d8",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gonber",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gonber/status/737760750589054977",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gonber",
+        "name": "avatar"
+      }
+    ],
+    "name": "Goncalo Bernardo"
+  },
+  "verifications": [
+    {
+      "identifier": "goncbernardo",
+      "proof_url": "https://www.facebook.com/goncbernardo/posts/1051192878250334",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "gonber",
+      "proof_url": "https://gist.github.com/gonber/9f646677468ca44ef56a185f8ffec8d8",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "gonber",
+      "proof_url": "https://twitter.com/gonber/status/737760750589054977",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN gonber.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gonber.id\"\n"
+}
