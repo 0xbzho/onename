@@ -1,0 +1,60 @@
+{
+  "owner_address": "1KVWchyKGJc7yUxh5p7FaXNfxBHbkELCER",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "foto8",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/FOTO8/status/742351999254073345",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fotoboogie",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/fotoboogie/posts/10154355017427268",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/foto88",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/foto88",
+        "name": "cover"
+      }
+    ],
+    "name": "Jon Levy",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://foto8.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "foto8",
+      "proof_url": "https://twitter.com/FOTO8/status/742351999254073345",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "fotoboogie",
+      "proof_url": "https://www.facebook.com/fotoboogie/posts/10154355017427268",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN foto88.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/foto88.id\"\n"
+}
