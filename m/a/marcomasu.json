@@ -1,0 +1,44 @@
+{
+  "owner_address": "1c91nPZ5N2wQKMJ7Ph9DNyimj5xJGHg4Q",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "marcmasul",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/marcmasul/posts/10153591793696766",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "stroboscopio",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/stroboscopio/4b9be2b3bb31f8fcf76e9db590f1227d",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "marcmasul",
+      "proof_url": "https://www.facebook.com/marcmasul/posts/10153591793696766",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "stroboscopio",
+      "proof_url": "https://gist.github.com/stroboscopio/4b9be2b3bb31f8fcf76e9db590f1227d",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN marcomasu.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/marcomasu.id\"\n"
+}
