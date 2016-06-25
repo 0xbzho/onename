@@ -1,0 +1,49 @@
+{
+  "owner_address": "16trWYt5PxtissmNaMn7mwthjEWhpGrJYC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "flyingzumwalt",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/flyingzumwalt/dcffd9ffb44be1f484aff57641057176",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "flyingzumwalt",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/flyingzumwalt/status/740635515473403904",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/flyingzumwalt",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "flyingzumwalt",
+      "proof_url": "https://gist.github.com/flyingzumwalt/dcffd9ffb44be1f484aff57641057176",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "flyingzumwalt",
+      "proof_url": "https://twitter.com/flyingzumwalt/status/740635515473403904",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN flyingzumwalt.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/flyingzumwalt.id\"\n"
+}
