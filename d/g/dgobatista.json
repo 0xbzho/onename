@@ -1,0 +1,48 @@
+{
+  "owner_address": "1NgLheM4S5fAxkXHgVeZMibCPgNeaTzwTe",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dgodj",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dgodj/status/736814008544727040",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1AuN9CPVkL5cuqXQZHnYvQPBPtWS3qEbXw",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bahia, Brazil"
+    },
+    "description": "♥",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dgobatista",
+        "name": "avatar"
+      }
+    ],
+    "name": "Diego Batista"
+  },
+  "verifications": [
+    {
+      "identifier": "dgodj",
+      "proof_url": "https://twitter.com/dgodj/status/736814008544727040",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dgobatista.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dgobatista.id\"\n"
+}
