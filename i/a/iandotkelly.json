@@ -1,0 +1,58 @@
+{
+  "owner_address": "1Ae4ZmxKtEnQpyWPvRKfFiRDjZgjUHPXrr",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "itkelly",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/itkelly/status/741338545600626688",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "iandotkelly",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/iandotkelly/583ca87d1f52a64e11399aa506768e2e",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ian.t.kelly",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ian.t.kelly/posts/10208147914548570",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ian Kelly"
+  },
+  "verifications": [
+    {
+      "identifier": "itkelly",
+      "proof_url": "https://twitter.com/itkelly/status/741338545600626688",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "iandotkelly",
+      "proof_url": "https://gist.github.com/iandotkelly/583ca87d1f52a64e11399aa506768e2e",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "ian.t.kelly",
+      "proof_url": "https://www.facebook.com/ian.t.kelly/posts/10208147914548570",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN iandotkelly.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/iandotkelly.id\"\n"
+}
