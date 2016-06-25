@@ -1,0 +1,49 @@
+{
+  "owner_address": "17LHH4uARtcuyBUyZMgwywiULAhY2iYBSX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "hockeyfrissa",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/hockeyfrissa/7df559c2afa723e63132a2d14ff9e144",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lingondricka",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/lingondricka/status/741261319786090496",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/genisys",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "hockeyfrissa",
+      "proof_url": "https://gist.github.com/hockeyfrissa/7df559c2afa723e63132a2d14ff9e144",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "lingondricka",
+      "proof_url": "https://twitter.com/lingondricka/status/741261319786090496",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN genisys.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/genisys.id\"\n"
+}
