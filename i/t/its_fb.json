@@ -1,0 +1,67 @@
+{
+  "owner_address": "14syLWm9TganrvKCzXvoNtKcN4hgLST2yW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "its_fb",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/its_fb/status/737234212626026496",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Sarsay",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Sarsay/11712648da9681c14d9a50d0d39e66cf#file-very",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "francescobortoluzzi21",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/francescobortoluzzi21/posts/10154133562978162",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lugano, Switzerland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/its_fb",
+        "name": "avatar"
+      }
+    ],
+    "name": "Francesco"
+  },
+  "verifications": [
+    {
+      "identifier": "its_fb",
+      "proof_url": "https://twitter.com/its_fb/status/737234212626026496",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Sarsay",
+      "proof_url": "https://gist.github.com/Sarsay/11712648da9681c14d9a50d0d39e66cf#file-very",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "francescobortoluzzi21",
+      "proof_url": "https://www.facebook.com/francescobortoluzzi21/posts/10154133562978162",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN its_fb.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/its_fb.id\"\n"
+}
