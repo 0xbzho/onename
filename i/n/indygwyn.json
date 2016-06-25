@@ -1,60 +1,85 @@
 {
   "owner_address": "19EzLaJ2thaw66nKd9g3A7wp7UYkxjKNaC",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/indygwyn"
-    },
-    "bitcoin": {
-      "address": "18eesSPSVDHcJ4XEGLVKFAfrh7hca2mt6o"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/indygwyn"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/indygwyn/posts/10152173671360951"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "18eesSPSVDHcJ4XEGLVKFAfrh7hca2mt6o",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "indygwyn"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/indygwyn/ca3d1e63d423efd716a3"
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/indygwyn/key.asc",
+        "identifier": "79394FA772052F809F1DBD0E36C4A1987DBAD8A4",
+        "service": "pgp"
       },
-      "username": "indygwyn"
-    },
-    "location": {
-      "formatted": "Indianapolis, IN, USA"
-    },
-    "name": {
-      "formatted": "Thomas W. Holt Jr."
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/indygwyn/status/492114861610909696"
+      {
+        "@type": "Account",
+        "identifier": "indygwyn",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/indygwyn/status/740983623961055233",
+        "service": "twitter"
       },
-      "username": "indygwyn"
+      {
+        "@type": "Account",
+        "identifier": "indygwyn",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/indygwyn/posts/10153531265250951",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "indygwyn",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/indygwyn/c7d7b0468c452b49432e388991f655d5",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Indianapolis, IN, USA"
     },
-    "v": "0.2",
-    "website": "http://about.me/twh"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/indygwyn",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/indygwyn",
+        "name": "cover"
+      }
+    ],
+    "name": "Thomas W. Holt Jr.",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://about.me/twh"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "indygwyn",
-      "proof_url": "https://gist.github.com/indygwyn/ca3d1e63d423efd716a3",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "indygwyn",
-      "proof_url": "https://twitter.com/indygwyn/status/492114861610909696",
+      "proof_url": "https://twitter.com/indygwyn/status/740983623961055233",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "indygwyn",
-      "proof_url": "https://facebook.com/indygwyn/posts/10152173671360951",
+      "proof_url": "https://www.facebook.com/indygwyn/posts/10153531265250951",
       "service": "facebook",
       "valid": false
+    },
+    {
+      "identifier": "indygwyn",
+      "proof_url": "https://gist.github.com/indygwyn/c7d7b0468c452b49432e388991f655d5",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN indygwyn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/indygwyn.id\"\n"
 }
