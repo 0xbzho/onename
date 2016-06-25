@@ -1,0 +1,36 @@
+{
+  "owner_address": "1AHLzxmFKLJN9UCswgJixeannH8BWs5rpD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "serogjan",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/serogjan/status/743517916239376384",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/seroja",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "serogjan",
+      "proof_url": "https://twitter.com/serogjan/status/743517916239376384",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN seroja.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/seroja.id\"\n"
+}
