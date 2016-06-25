@@ -1,0 +1,44 @@
+{
+  "owner_address": "1NimBpNrAwz69vh5Cd6SAJRKoUSSDkaswo",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dricaveloso",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dricaveloso/status/741351359736352768",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dricaveloso",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dricaveloso/28a5a95de355736feeb3eeb2a36dd1e1",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dricaveloso",
+      "proof_url": "https://twitter.com/dricaveloso/status/741351359736352768",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "dricaveloso",
+      "proof_url": "https://gist.github.com/dricaveloso/28a5a95de355736feeb3eeb2a36dd1e1",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dricaveloso.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dricaveloso.id\"\n"
+}
