@@ -1,0 +1,73 @@
+{
+  "owner_address": "19FbVZXpTKCvJHBukFtmZmSSyGadKRZNBK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "michaelrhorsley",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/michaelrhorsley/status/740742592166498304",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "michaelrhorsley",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/michaelrhorsley/7b4c7965e0c6e447a0ff7605c8769115",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "michaelrhorsley",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/michaelrhorsley/posts/10154840715511124",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1BFYLUSSxS1DDDxVnh8rKRkZdPyVRm55Vw",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Atlanta"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/michaelrhorsley",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/michaelrhorsley",
+        "name": "cover"
+      }
+    ],
+    "name": "Michael R. Horsley"
+  },
+  "verifications": [
+    {
+      "identifier": "michaelrhorsley",
+      "proof_url": "https://twitter.com/michaelrhorsley/status/740742592166498304",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "michaelrhorsley",
+      "proof_url": "https://gist.github.com/michaelrhorsley/7b4c7965e0c6e447a0ff7605c8769115",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "michaelrhorsley",
+      "proof_url": "https://www.facebook.com/michaelrhorsley/posts/10154840715511124",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN michaelrhorsley.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/michaelrhorsley.id\"\n"
+}
