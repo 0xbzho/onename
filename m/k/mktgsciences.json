@@ -1,0 +1,49 @@
+{
+  "owner_address": "1AS1oo1Ub3hwaa8yQX8VNvsy5ahkDA3wKq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "MktgSciences",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MktgSciences/status/736613275383660546",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https://www.facebook.com/tscottclendaniel",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/tscottclendaniel/posts/10154863712574307",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mktgsciences",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mktgsciences",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "MktgSciences",
+      "proof_url": "https://twitter.com/MktgSciences/status/736613275383660546",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "https://www.facebook.com/tscottclendaniel",
+      "proof_url": "https://www.facebook.com/tscottclendaniel/posts/10154863712574307",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mktgsciences.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mktgsciences.id\"\n"
+}
