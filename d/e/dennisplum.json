@@ -1,0 +1,42 @@
+{
+  "owner_address": "1J5iwm29Vft7Yy12NWxwp7wmwedoSUYeM2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dennisplum",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dennisplum/status/736225276175261700",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mississauga, ON Canada"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Dennis Plum",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://dennisplum.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dennisplum",
+      "proof_url": "https://twitter.com/dennisplum/status/736225276175261700",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN dennisplum.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dennisplum.id\"\n"
+}
