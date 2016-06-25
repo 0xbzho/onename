@@ -1,0 +1,68 @@
+{
+  "owner_address": "129SW3WQhFAKs6DeJkx6qZufK7iqULquvq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "stefanr0sca",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/stefanr0sca/status/741195311637528576",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "stefanr0sca",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/stefanr0sca/79e1f27fa3e635b4d74d09a349bb2f53",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https://www.facebook.com/profile.php?id=100006073451956",
+        "proofType": "http",
+        "proofUrl": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D1760245794187852%26id%3D100006073451956&width=500\" width=\"500\" height=\"482\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\"></iframe>",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "9d4465eacc2088a7c9c043f079e1950a31f979b2",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bucharest"
+    },
+    "description": "hai",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Stefan Rosca"
+  },
+  "verifications": [
+    {
+      "identifier": "stefanr0sca",
+      "proof_url": "https://twitter.com/stefanr0sca/status/741195311637528576",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "stefanr0sca",
+      "proof_url": "https://gist.github.com/stefanr0sca/79e1f27fa3e635b4d74d09a349bb2f53",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "https://www.facebook.com/profile.php?id=100006073451956",
+      "proof_url": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D1760245794187852%26id%3D100006073451956&width=500\" width=\"500\" height=\"482\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\"></iframe>",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN stefanr0sca.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stefanr0sca.id\"\n"
+}
