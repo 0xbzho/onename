@@ -1,0 +1,61 @@
+{
+  "owner_address": "1JoqbPDWJgfftmc3PVm1tHSi3rqVHkJUcU",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1GmeLCHvi4Y44oTYYiHiU52Ett7NFmWK5C",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gmelch_walter",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gmelch_walter/status/742784762998358016",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "walterGmelch",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/walterGmelch/d8820408849fd7b3b587506bcd9750a0",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "30ea7f6c56e69fa3302616ef667f88d72909656d",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gmelch",
+        "name": "avatar"
+      }
+    ],
+    "name": "Walter Gmelch"
+  },
+  "verifications": [
+    {
+      "identifier": "gmelch_walter",
+      "proof_url": "https://twitter.com/gmelch_walter/status/742784762998358016",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "walterGmelch",
+      "proof_url": "https://gist.github.com/walterGmelch/d8820408849fd7b3b587506bcd9750a0",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN gmelch.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gmelch.id\"\n"
+}
