@@ -1,0 +1,36 @@
+{
+  "owner_address": "15nibpdcVE5hgspCuWmdUKBJFvqSADvzfP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jamesadmiller",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JamesADMiller/status/742312351333027840",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jamesadmiller",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jamesadmiller",
+      "proof_url": "https://twitter.com/JamesADMiller/status/742312351333027840",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jamesadmiller.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jamesadmiller.id\"\n"
+}
