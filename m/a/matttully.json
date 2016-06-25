@@ -1,0 +1,49 @@
+{
+  "owner_address": "1MBxA3sc91qyiwphtb6SJZr3qkkBFDe4PV",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ukmatttully",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/UKmatttully/status/735404763735576576",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ukmatttully",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ukmatttully/posts/10154156415432114?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "United Kingdom"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Matt Tully"
+  },
+  "verifications": [
+    {
+      "identifier": "ukmatttully",
+      "proof_url": "https://twitter.com/UKmatttully/status/735404763735576576",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ukmatttully",
+      "proof_url": "https://www.facebook.com/ukmatttully/posts/10154156415432114?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN matttully.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/matttully.id\"\n"
+}
