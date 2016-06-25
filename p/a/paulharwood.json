@@ -1,0 +1,44 @@
+{
+  "owner_address": "1JGf2AoMQnzWAqX17swJFFX2bAb2cEA1sE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Paulharwood",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/paulharwood/status/744280568301518848",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "paulharwood",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/paulharwood/53223e2f369209021eafbd2744780bf0",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Paulharwood",
+      "proof_url": "https://twitter.com/paulharwood/status/744280568301518848",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "paulharwood",
+      "proof_url": "https://gist.github.com/paulharwood/53223e2f369209021eafbd2744780bf0",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN paulharwood.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/paulharwood.id\"\n"
+}
