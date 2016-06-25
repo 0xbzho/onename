@@ -1,0 +1,44 @@
+{
+  "owner_address": "19JDxCEjbAaR1TQv8sPRLFRWgMDqB4tAkx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kurthalex",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/kurthalex/4a0a9946b1bcedd1034a26bcb1cf54ee",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kurthalex",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kurthalex/status/741225556394528768",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "kurthalex",
+      "proof_url": "https://gist.github.com/kurthalex/4a0a9946b1bcedd1034a26bcb1cf54ee",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "kurthalex",
+      "proof_url": "https://twitter.com/kurthalex/status/741225556394528768",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kurthalex.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kurthalex.id\"\n"
+}
