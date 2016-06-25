@@ -1,0 +1,41 @@
+{
+  "owner_address": "1Biedb3QKsWzvSSSrPQD92SCRd57zqzQ7W",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "smeckhoff",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/smeckhoff/posts/10153873176530000",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Houston"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/smeckhoff",
+        "name": "avatar"
+      }
+    ],
+    "name": "Miles Eckhoff"
+  },
+  "verifications": [
+    {
+      "identifier": "smeckhoff",
+      "proof_url": "https://www.facebook.com/smeckhoff/posts/10153873176530000",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN smeckhoff.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/smeckhoff.id\"\n"
+}
