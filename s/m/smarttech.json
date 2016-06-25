@@ -1,0 +1,34 @@
+{
+  "owner_address": "145rtM1dkRqu4k2mARVZnFAT8LkNMFmiCQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "0fe91de1dfa3b183e0d82fda201af3b13321e2fe",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1Dg6ZRZ34g8VBwLH5TYXHGcy1PbvZbw9aq",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/smarttech",
+        "name": "avatar"
+      }
+    ],
+    "name": "Smart Tech"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN smarttech.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/smarttech.id\"\n"
+}
