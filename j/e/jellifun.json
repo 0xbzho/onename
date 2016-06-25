@@ -1,0 +1,49 @@
+{
+  "owner_address": "1FRbKezjnWEufm8CetWG4C2pX8B8r5TpST",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jellifun",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jellifun/status/738365764869230593",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jellifun",
+        "proofType": "http",
+        "proofUrl": "http://www.facebook.com/jellifun/posts/10153621983829117",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "South Africa"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jennifer Sutherland"
+  },
+  "verifications": [
+    {
+      "identifier": "jellifun",
+      "proof_url": "https://twitter.com/jellifun/status/738365764869230593",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jellifun",
+      "proof_url": "http://www.facebook.com/jellifun/posts/10153621983829117",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jellifun.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jellifun.id\"\n"
+}
