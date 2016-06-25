@@ -1,0 +1,67 @@
+{
+  "owner_address": "19kJ1kra7TBGASKCziobR3uAa2NnzrkvS1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Tekkromancer",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Tekkromancer/f9549a8d455560a4f97dd27364ca8f20",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sdgarson",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/sdgarson/posts/10153998112235862",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Tekkromancer",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sdgarson/status/737693241919873024",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Toronto"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tekkromancer",
+        "name": "avatar"
+      }
+    ],
+    "name": "Scott David Garson"
+  },
+  "verifications": [
+    {
+      "identifier": "Tekkromancer",
+      "proof_url": "https://gist.github.com/Tekkromancer/f9549a8d455560a4f97dd27364ca8f20",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "sdgarson",
+      "proof_url": "https://www.facebook.com/sdgarson/posts/10153998112235862",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "Tekkromancer",
+      "proof_url": "https://twitter.com/sdgarson/status/737693241919873024",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tekkromancer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tekkromancer.id\"\n"
+}
