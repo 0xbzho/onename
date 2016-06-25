@@ -1,0 +1,46 @@
+{
+  "owner_address": "17CmVWpFzsEAGD5owpouhYU2HVwB6qUg6W",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jeanpaulluijten",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jeanpaulluijten/b57d63a867074f83ff74eb3c0f8da085",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jeanpaulluijten",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Netherlands"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jeanpaulluijten",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jean-Paul Luijten"
+  },
+  "verifications": [
+    {
+      "identifier": "jeanpaulluijten",
+      "proof_url": "https://gist.github.com/jeanpaulluijten/b57d63a867074f83ff74eb3c0f8da085",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jeanpaulluijten.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jeanpaulluijten.id\"\n"
+}
