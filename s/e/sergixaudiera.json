@@ -1,0 +1,44 @@
+{
+  "owner_address": "1MH3xptQAPviFVWgrpCEuaur9WvrLoEGLs",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "SergiXaudiera",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SergiXaudiera/status/740817775824896000",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sergixaudiera",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/sergixaudiera/516af115c7307f39a9a5c6d61e0f235e",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "SergiXaudiera",
+      "proof_url": "https://twitter.com/SergiXaudiera/status/740817775824896000",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "sergixaudiera",
+      "proof_url": "https://gist.github.com/sergixaudiera/516af115c7307f39a9a5c6d61e0f235e",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN sergixaudiera.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sergixaudiera.id\"\n"
+}
