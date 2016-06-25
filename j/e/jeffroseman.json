@@ -1,0 +1,67 @@
+{
+  "owner_address": "1KsiTBLfrKqJnfXU7dkVVkskQs4RdNhcFJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "CASpice",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/caspice/status/741503735117946882",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jeffroseman",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jeffroseman/posts/10153680318608657",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "RosemanJ",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/RosemanJ/23ec1eb07494826561ddfa91ba1b91d2",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Walnut Creek, CA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jeffroseman",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jeffroseman",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jeff Roseman"
+  },
+  "verifications": [
+    {
+      "identifier": "CASpice",
+      "proof_url": "https://twitter.com/caspice/status/741503735117946882",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jeffroseman",
+      "proof_url": "https://www.facebook.com/jeffroseman/posts/10153680318608657",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "RosemanJ",
+      "proof_url": "https://gist.github.com/RosemanJ/23ec1eb07494826561ddfa91ba1b91d2",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jeffroseman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jeffroseman.id\"\n"
+}
