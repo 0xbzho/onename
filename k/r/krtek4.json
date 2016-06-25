@@ -1,0 +1,85 @@
+{
+  "owner_address": "1J2snhSm5k5h7PgVh1g87Xcfj5NtU1VgjC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "meierg",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/meierg/status/743049644645732356",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "krtek4",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/krtek4/3f5bbeb384eac2c6259fb125c94d59aa",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gilles.crettenand.7",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/gilles.crettenand.7/posts/1708094919463729",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/krtek4",
+        "identifier": "80ACA91948A8A17927C6CF29744B99CEC2F2B3AD",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "3LEPK9GeYvmfeLJurLt2FSgAz7gxi6xowm",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sion, Switzerland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/krtek4",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/krtek4",
+        "name": "cover"
+      }
+    ],
+    "name": "Gilles Crettenand",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://gilles.crettenand.info"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "meierg",
+      "proof_url": "https://twitter.com/meierg/status/743049644645732356",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "krtek4",
+      "proof_url": "https://gist.github.com/krtek4/3f5bbeb384eac2c6259fb125c94d59aa",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "gilles.crettenand.7",
+      "proof_url": "https://www.facebook.com/gilles.crettenand.7/posts/1708094919463729",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN krtek4.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/krtek4.id\"\n"
+}
