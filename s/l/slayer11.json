@@ -1,0 +1,42 @@
+{
+  "owner_address": "1CNNeJ9PV1AAEkG5Vu8wowStCbC3CYkHCC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "slayer_11_",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Slayer_11_/status/743588011699470336",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1JHGK5iJDpuhP36D7pbhix52asrwhfHhTS",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/slayer11",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/slayer11",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "slayer_11_",
+      "proof_url": "https://twitter.com/Slayer_11_/status/743588011699470336",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN slayer11.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/slayer11.id\"\n"
+}
