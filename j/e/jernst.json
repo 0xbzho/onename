@@ -1,0 +1,74 @@
+{
+  "owner_address": "1H48aBbWzbkotZGYBVNAKZutqpYzyQirJg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Johannes_Ernst",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Johannes_Ernst/status/743200145093722112",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jernst",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jernst/4f31b870714bd52eab0d774792757968",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "johannes.ernst",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/johannes.ernst/posts/10154987035957796",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "http://upon2020.com/public/pubkey.txt",
+        "identifier": null,
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Known Universe"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Johannes Ernst",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://upon2020.com/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Johannes_Ernst",
+      "proof_url": "https://twitter.com/Johannes_Ernst/status/743200145093722112",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jernst",
+      "proof_url": "https://gist.github.com/jernst/4f31b870714bd52eab0d774792757968",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "johannes.ernst",
+      "proof_url": "https://www.facebook.com/johannes.ernst/posts/10154987035957796",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jernst.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jernst.id\"\n"
+}
