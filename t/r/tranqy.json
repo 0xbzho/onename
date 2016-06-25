@@ -1,0 +1,66 @@
+{
+  "owner_address": "1Rw4xYwktknhgTZkLrE9sEqgAxbgXCGNm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tranqy",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tranqy/aeb363c9be84f9f92458bbb0f2957ba7",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tranqy",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tranqy/status/741593629567815680",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "c62848dd09108abaee23038d7d27d29f0a0b522e",
+        "service": "openbazzar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "CT"
+    },
+    "description": "I make software",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tranqy",
+        "name": "avatar"
+      }
+    ],
+    "name": "Aaron Junod",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.twitter.com/tranqy"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tranqy",
+      "proof_url": "https://gist.github.com/tranqy/aeb363c9be84f9f92458bbb0f2957ba7",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "tranqy",
+      "proof_url": "https://twitter.com/tranqy/status/741593629567815680",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tranqy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tranqy.id\"\n"
+}
