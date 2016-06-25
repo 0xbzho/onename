@@ -1,0 +1,67 @@
+{
+  "owner_address": "1HkqNkQv5tLwyaY1hnxjz75TM9v2UCoPd6",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "MinjaSmura",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MinjaSmura/status/742383416734273536",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "minja.smura",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/minja.smura/posts/1060358047334855?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Minjasmura",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Minjasmura/e10abe7978aaf1b2ec28eef550862169",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London, UK"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/minjasmura",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/minjasmura",
+        "name": "avatar"
+      }
+    ],
+    "name": "Minja Smura"
+  },
+  "verifications": [
+    {
+      "identifier": "MinjaSmura",
+      "proof_url": "https://twitter.com/MinjaSmura/status/742383416734273536",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "minja.smura",
+      "proof_url": "https://www.facebook.com/minja.smura/posts/1060358047334855?pnref=story",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "Minjasmura",
+      "proof_url": "https://gist.github.com/Minjasmura/e10abe7978aaf1b2ec28eef550862169",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN minjasmura.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/minjasmura.id\"\n"
+}
