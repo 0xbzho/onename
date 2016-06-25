@@ -1,0 +1,62 @@
+{
+  "owner_address": "1B6y8fHVWBCMMr3YTYyct839tRYFHBUNuL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mmorini",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mmorini/2b7078723dafebffc9aaf33cb2bfd49b",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pgp.mit.edu/pks/lookup?op=get&search=0x30FCB921821B595F",
+        "identifier": "2048R/821B595F",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "_marameo_",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/_marameo_/status/735900916067504128",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1CMVxE25dG717nCphAhvTQ9UZPF9aQERaY",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/matteom",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/matteom",
+        "name": "cover"
+      }
+    ],
+    "name": "Matteo Morini"
+  },
+  "verifications": [
+    {
+      "identifier": "mmorini",
+      "proof_url": "https://gist.github.com/mmorini/2b7078723dafebffc9aaf33cb2bfd49b",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "_marameo_",
+      "proof_url": "https://twitter.com/_marameo_/status/735900916067504128",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN matteom.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/matteom.id\"\n"
+}
