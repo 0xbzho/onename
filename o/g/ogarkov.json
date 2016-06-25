@@ -1,0 +1,38 @@
+{
+  "owner_address": "15dJKgNE4QnAhukzrx3g2Z6cqJKFHHTNu6",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ogarkov",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ogarkov/status/735505179110461441",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Dmitry Ogarkov",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://ogarkov.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ogarkov",
+      "proof_url": "https://twitter.com/ogarkov/status/735505179110461441",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ogarkov.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ogarkov.id\"\n"
+}
