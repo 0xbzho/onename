@@ -1,0 +1,36 @@
+{
+  "owner_address": "1HZjCJ1A9W6PsersiggfaDzk9rCkAtwT4s",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "scottasims",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/scottasims/posts/10209883939434179",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Austin, Texas"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Scott Sims"
+  },
+  "verifications": [
+    {
+      "identifier": "scottasims",
+      "proof_url": "https://www.facebook.com/scottasims/posts/10209883939434179",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN scottasims.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/scottasims.id\"\n"
+}
