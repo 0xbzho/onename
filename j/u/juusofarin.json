@@ -1,60 +1,67 @@
 {
   "owner_address": "1HhQSs66PFGtYPp7qYgkxqTEYqbzGYMxzo",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/juusofarin"
-    },
-    "bio": "Software engineer",
-    "bitcoin": {
-      "address": "1FeWDE8MdnT9jJT3q4YDgfirF5sFTVBmE3"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/juusofarin"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/juuso.farin/posts/10152754537419243"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "juuso.farin",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "juuso.farin"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/kurujupe/9db0d5507792a2622196"
+      {
+        "@type": "Account",
+        "identifier": "1FeWDE8MdnT9jJT3q4YDgfirF5sFTVBmE3",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "kurujupe"
-    },
-    "location": {
-      "formatted": "Berlin"
-    },
-    "name": {
-      "formatted": "Juuso Farin"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/JuusoFarin/status/512914951850049536"
+      {
+        "@type": "Account",
+        "identifier": "juusofarin",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/juusofarin/9db0d5507792a2622196",
+        "service": "github"
       },
-      "username": "JuusoFarin"
+      {
+        "@type": "Account",
+        "identifier": "JuusoFarin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JuusoFarin/status/740832828464766976",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Berlin"
     },
-    "v": "0.2"
+    "description": "Software engineer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/juusofarin",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/juusofarin",
+        "name": "cover"
+      }
+    ],
+    "name": "Juuso Farin"
   },
   "verifications": [
     {
-      "identifier": "kurujupe",
-      "proof_url": "https://gist.github.com/kurujupe/9db0d5507792a2622196",
+      "identifier": "juusofarin",
+      "proof_url": "https://gist.github.com/juusofarin/9db0d5507792a2622196",
       "service": "github",
-      "valid": false
+      "valid": true
     },
     {
       "identifier": "JuusoFarin",
-      "proof_url": "https://twitter.com/JuusoFarin/status/512914951850049536",
+      "proof_url": "https://twitter.com/JuusoFarin/status/740832828464766976",
       "service": "twitter",
       "valid": true
-    },
-    {
-      "identifier": "juuso.farin",
-      "proof_url": "https://facebook.com/juuso.farin/posts/10152754537419243",
-      "service": "facebook",
-      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN juusofarin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/juusofarin.id\"\n"
 }
