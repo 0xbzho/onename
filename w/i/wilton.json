@@ -1,0 +1,36 @@
+{
+  "owner_address": "1Dwr5gereg96DXha6fFTrhu6w2VQjEzokd",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "wiltongorske",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/wiltongorske/status/744639124691357696",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/wilton",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "wiltongorske",
+      "proof_url": "https://twitter.com/wiltongorske/status/744639124691357696",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN wilton.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wilton.id\"\n"
+}
