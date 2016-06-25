@@ -1,0 +1,36 @@
+{
+  "owner_address": "15H4tyPvkQDtbSY6KgqZuKxjRWVr3FrnR7",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "menega",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/menega/status/740860719403552768",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Rio"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Rafael Menegassi de Almeida"
+  },
+  "verifications": [
+    {
+      "identifier": "menega",
+      "proof_url": "https://twitter.com/menega/status/740860719403552768",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN menega.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/menega.id\"\n"
+}
