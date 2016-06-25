@@ -1,0 +1,79 @@
+{
+  "owner_address": "1L8Fp6oJKfniyvmpXpEUvv7CaDfHdo3o7k",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "a29530b91aabd8235f70e680363d0cfed67b1f26",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/mhamzahkhan",
+        "identifier": "54E3A287F3466D8BF15DB966F8D25809676B771A",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mhamzahkhan",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mhamzahkhan/status/744723287989706752",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mhamzahkhan",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mhamzahkhan/29183511d3744a356061dab75afca745",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1EPNQcH4yFYcgMAkJFZaEqSCnwP39NbMWd",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mhamzahkhan",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mhamzahkhan/posts/10154945776029202",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mhamzahkhan",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mhamzahkhan",
+      "proof_url": "https://twitter.com/mhamzahkhan/status/744723287989706752",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mhamzahkhan",
+      "proof_url": "https://gist.github.com/mhamzahkhan/29183511d3744a356061dab75afca745",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "mhamzahkhan",
+      "proof_url": "https://www.facebook.com/mhamzahkhan/posts/10154945776029202",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mhamzahkhan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mhamzahkhan.id\"\n"
+}
