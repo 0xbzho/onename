@@ -1,0 +1,73 @@
+{
+  "owner_address": "1BfFj39aBfH1rf5Tmy6xicNbxSVewPgidp",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ryu5t",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ryu5t/status/741125806395666432",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rieul.techer",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/rieul.techer/posts/10153793781493915?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Rieul",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Rieul/97901454484d58b51c50a4a68893c3d0#file-blockchain-id",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lyon"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rieul_daisee",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rieul_daisee",
+        "name": "cover"
+      }
+    ],
+    "name": "Rieul",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://lamyne.org"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ryu5t",
+      "proof_url": "https://twitter.com/ryu5t/status/741125806395666432",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "rieul.techer",
+      "proof_url": "https://www.facebook.com/rieul.techer/posts/10153793781493915?pnref=story",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "Rieul",
+      "proof_url": "https://gist.github.com/Rieul/97901454484d58b51c50a4a68893c3d0#file-blockchain-id",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rieul_daisee.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rieul_daisee.id\"\n"
+}
