@@ -1,0 +1,31 @@
+{
+  "owner_address": "1N1FbuM6Biecotwg8H4vh9tzRj9a97AWxT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "joepusher",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JoePusher/status/743550958207066112",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "joepusher",
+      "proof_url": "https://twitter.com/JoePusher/status/743550958207066112",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN joepusher.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/joepusher.id\"\n"
+}
