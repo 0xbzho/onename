@@ -1,0 +1,31 @@
+{
+  "owner_address": "1NQgeiHrEFMipQxkmXqCaJFBfvFwGityTu",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gilcarter",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gilcarter/status/740681133998768128",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "gilcarter",
+      "proof_url": "https://twitter.com/gilcarter/status/740681133998768128",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN gilcarter.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gilcarter.id\"\n"
+}
