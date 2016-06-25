@@ -1,0 +1,38 @@
+{
+  "owner_address": "1AUVqq6vZEGWQafLkHVeJj7uYN9GEzvBnr",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "51d11a70dcfd7dlfec96c354b95e7elc5ef12a71",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ryan-godfrey/08ffff38193b37ed81ca4ff0e958da51",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "pam.smyth.73",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/pam.smyth.73/posts/10209347695910480?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "pam.smyth.73",
+      "proof_url": "https://www.facebook.com/pam.smyth.73/posts/10209347695910480?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN happypam.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/happypam.id\"\n"
+}
