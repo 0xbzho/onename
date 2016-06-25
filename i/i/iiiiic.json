@@ -1,0 +1,81 @@
+{
+  "owner_address": "1NQcWnhDwtzfjEAhP2qp1JkgrF7qGt7VB4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/iiiiic",
+        "identifier": "C331FDC20D2EB506A522E160760CC8FBFF5A6EA7",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "iiiiic",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/iiiiic/posts/10206585097735073",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "iiic",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/iiic/status/743406457014616064",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "iiic",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/iiic/6140dad8b1bd19bcf343690e93a66a7e",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1oneNamkV1dwSarxHQqZHyABhm7HzqHxD",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "City 17"
+    },
+    "description": "taková normální česká lama… aktuálně k nalezení v Brně",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "ic",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://icweb.eu"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "iiiiic",
+      "proof_url": "https://www.facebook.com/iiiiic/posts/10206585097735073",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "iiic",
+      "proof_url": "https://twitter.com/iiic/status/743406457014616064",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "iiic",
+      "proof_url": "https://gist.github.com/iiic/6140dad8b1bd19bcf343690e93a66a7e",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN iiiiic.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/iiiiic.id\"\n"
+}
