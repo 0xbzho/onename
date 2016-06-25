@@ -1,27 +1,54 @@
 {
   "owner_address": "1Bg3mfnwv8sUEjPf8SALpuHfpDh2ksQ12x",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/idehenk"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kidehen",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kidehen",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kidehen/status/741605735004508160",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lexington, MA"
     },
-    "bio": "Founder & CEO, OpenLink Software, A Linked Open Data (LOD) Enthusiast & Technology Provider",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/lUU.jpeg"
-    },
-    "facebook": {
-      "username": "kidehen"
-    },
-    "location": {
-      "formatted": "Lexington, MA"
-    },
-    "name": {
-      "formatted": "Kingsley Uyi Idehen"
-    },
-    "twitter": {
-      "username": "kidehen"
-    },
-    "v": "0.2",
-    "website": "http://www.linkedin.com/in/kidehen"
+    "description": "Founder & CEO, OpenLink Software, A Linked Open Data (LOD) Enthusiast & Technology Provider",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/idehenk",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Kingsley Uyi Idehen",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.linkedin.com/in/kidehen"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "kidehen",
+      "proof_url": "https://twitter.com/kidehen/status/741605735004508160",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN idehenk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/idehenk.id\"\n"
 }
