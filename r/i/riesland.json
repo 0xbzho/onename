@@ -1,0 +1,37 @@
+{
+  "owner_address": "1Fmr9LtJZhdEqN52AhXCjp8Jx4NizLKHqd",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "erin_riesland",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Erin_Riesland/status/740685781417766912",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seattle"
+    },
+    "description": "I make  things and people, and research and write about education technologies.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Erin Riesland"
+  },
+  "verifications": [
+    {
+      "identifier": "erin_riesland",
+      "proof_url": "https://twitter.com/Erin_Riesland/status/740685781417766912",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN riesland.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/riesland.id\"\n"
+}
