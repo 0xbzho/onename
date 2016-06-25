@@ -1,0 +1,62 @@
+{
+  "owner_address": "1HXgZpw42iLnkxUTjx4iVrybvCADbpB3p1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "villagehymn",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/villagehymn/status/740795525117693952",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "villagehymn",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/villagehymn/ebf071e44ffb02dd48cf48fb4ac1070b",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "villagehymn",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/villagehymn/posts/601759223334360?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Edinburgh"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Greg Smith"
+  },
+  "verifications": [
+    {
+      "identifier": "villagehymn",
+      "proof_url": "https://twitter.com/villagehymn/status/740795525117693952",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "villagehymn",
+      "proof_url": "https://gist.github.com/villagehymn/ebf071e44ffb02dd48cf48fb4ac1070b",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "villagehymn",
+      "proof_url": "https://www.facebook.com/villagehymn/posts/601759223334360?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN villagehymn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/villagehymn.id\"\n"
+}
