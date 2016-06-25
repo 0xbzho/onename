@@ -1,0 +1,36 @@
+{
+  "owner_address": "1KQVAF99MZojdUHfDNPJnkD6bLfD2e3LsX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "paulrouget",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/paulrouget/258b65e2a0fa7a6eb484b1963ffba5fa",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/paulrouget",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "paulrouget",
+      "proof_url": "https://gist.github.com/paulrouget/258b65e2a0fa7a6eb484b1963ffba5fa",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN paulrouget.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/paulrouget.id\"\n"
+}
