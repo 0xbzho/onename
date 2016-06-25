@@ -1,0 +1,58 @@
+{
+  "owner_address": "1FgTRR783QMtYPcHeHZ8XsKhDgfsGq5MEC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "halldoro",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/halldoro/68b0c089f08f5aca9a840ee438e1c88d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "halldoro",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/halldoro/posts/10153458449831577",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gammageisli",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gammageisli/status/741647376583168000",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Halldór Örn Ólafsson"
+  },
+  "verifications": [
+    {
+      "identifier": "halldoro",
+      "proof_url": "https://gist.github.com/halldoro/68b0c089f08f5aca9a840ee438e1c88d",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "halldoro",
+      "proof_url": "https://www.facebook.com/halldoro/posts/10153458449831577",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "gammageisli",
+      "proof_url": "https://twitter.com/gammageisli/status/741647376583168000",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN halldoro.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/halldoro.id\"\n"
+}
