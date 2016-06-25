@@ -1,0 +1,75 @@
+{
+  "owner_address": "1KMb8UuinkWwomToXdxBvykTiYgvKZeTYf",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "logonaut",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/logonaut/status/740731892828241920",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pgp.mit.edu/pks/lookup?op=get&search=0xDD54A110CFB79F5A",
+        "identifier": "05CD24E39F20E96E3D259108DD54A110CFB79F5A",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "logonaut",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/logonaut/ee66e8a4adfaa4b440dc8f1820252f86",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "logonaut",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/logonaut/posts/10209898650928986",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1HLfve66ZdTiFBfhJRuW3mbGHdVQRBAFmh",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/logonaut",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/logonaut",
+        "name": "cover"
+      }
+    ],
+    "name": "Marc B. Geller"
+  },
+  "verifications": [
+    {
+      "identifier": "logonaut",
+      "proof_url": "https://twitter.com/logonaut/status/740731892828241920",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "logonaut",
+      "proof_url": "https://gist.github.com/logonaut/ee66e8a4adfaa4b440dc8f1820252f86",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "logonaut",
+      "proof_url": "https://www.facebook.com/logonaut/posts/10209898650928986",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN logonaut.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/logonaut.id\"\n"
+}
