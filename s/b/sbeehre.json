@@ -1,0 +1,65 @@
+{
+  "owner_address": "1Q7rknXcb9FWkFtd24tx8n1384trvZDabT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sbeehre",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sbeehre/status/740483530149351424",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "simon.beehre",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/simon.beehre/posts/10206674353244070",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "0be402a422b31a90538d32618b874c3a2886a8b6",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "3LQ2uGLDDruRngdRMvzSKBoDqsoG6b1RwE",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hamilton, New Zealand"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sbeehre",
+        "name": "avatar"
+      }
+    ],
+    "name": "Simon Beehre"
+  },
+  "verifications": [
+    {
+      "identifier": "sbeehre",
+      "proof_url": "https://twitter.com/sbeehre/status/740483530149351424",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "simon.beehre",
+      "proof_url": "https://www.facebook.com/simon.beehre/posts/10206674353244070",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN sbeehre.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sbeehre.id\"\n"
+}
