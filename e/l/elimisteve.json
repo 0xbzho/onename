@@ -16,6 +16,13 @@
         "proofType": "http",
         "proofUrl": "https://gist.github.com/elimisteve/dc4b6486d2584ad44522ec0a5415a705",
         "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "elimisteve",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/elimisteve/posts/10104683971650097",
+        "service": "facebook"
       }
     ],
     "address": {
@@ -55,6 +62,12 @@
       "proof_url": "https://gist.github.com/elimisteve/dc4b6486d2584ad44522ec0a5415a705",
       "service": "github",
       "valid": true
+    },
+    {
+      "identifier": "elimisteve",
+      "proof_url": "https://www.facebook.com/elimisteve/posts/10104683971650097",
+      "service": "facebook",
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN elimisteve.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/elimisteve.id\"\n"
