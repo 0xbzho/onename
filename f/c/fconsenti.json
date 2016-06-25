@@ -1,0 +1,67 @@
+{
+  "owner_address": "125RUQoStNTGXfiHL5RpcQpQ9biN6KPuW8",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "fabrice.consenti",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/fabrice.consenti/posts/1020230658064770",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fconsenti",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/fconsenti/status/743351435048288256",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fconsenti",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/fconsenti/3c17da9c7066ccea873efbe5f3035675",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Switzerland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/fconsenti",
+        "name": "avatar"
+      }
+    ],
+    "name": "Fabrice Consenti"
+  },
+  "verifications": [
+    {
+      "identifier": "fabrice.consenti",
+      "proof_url": "https://www.facebook.com/fabrice.consenti/posts/1020230658064770",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "fconsenti",
+      "proof_url": "https://twitter.com/fconsenti/status/743351435048288256",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "fconsenti",
+      "proof_url": "https://gist.github.com/fconsenti/3c17da9c7066ccea873efbe5f3035675",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN fconsenti.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fconsenti.id\"\n"
+}
