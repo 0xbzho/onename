@@ -1,0 +1,38 @@
+{
+  "owner_address": "133infkDvUyibJF6aXXczrNB5WqYX2U6WL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "lindell",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/lindell/784cbdb60601f3710ef18e7a6924e7e2",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Johan Lindell",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://lindell.me"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "lindell",
+      "proof_url": "https://gist.github.com/lindell/784cbdb60601f3710ef18e7a6924e7e2",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN lindell.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lindell.id\"\n"
+}
