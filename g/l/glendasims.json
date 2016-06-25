@@ -1,0 +1,68 @@
+{
+  "owner_address": "1Mpp6D9UtakQCUUUQ5U3JovsQnokYtdnrJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "goodwitch",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/goodwitch/status/741274782017032192",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "glendathegood",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/glendathegood/posts/10107706157226020",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "goodwitch",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/goodwitch/3277cc4b06b33752612ca2891b4d3453",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Austin, Texas"
+    },
+    "description": "Accessibility Alchemist",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/glendasims",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/glendasims",
+        "name": "cover"
+      }
+    ],
+    "name": "Glenda Sims"
+  },
+  "verifications": [
+    {
+      "identifier": "goodwitch",
+      "proof_url": "https://twitter.com/goodwitch/status/741274782017032192",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "glendathegood",
+      "proof_url": "https://www.facebook.com/glendathegood/posts/10107706157226020",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "goodwitch",
+      "proof_url": "https://gist.github.com/goodwitch/3277cc4b06b33752612ca2891b4d3453",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN glendasims.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/glendasims.id\"\n"
+}
