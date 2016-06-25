@@ -1,0 +1,48 @@
+{
+  "owner_address": "16JdForjLQQ3HdwsVexCuWmyWv6SGN9Nbz",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "shepherdnet",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ShepherdNet/status/743467528043790336",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Henley on Thames"
+    },
+    "description": "Patent pending predictive analytics and alert escalation for smart buildings.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/shepherdnetwork",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/shepherdnetwork",
+        "name": "cover"
+      }
+    ],
+    "name": "Shepherd",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://shprd.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "shepherdnet",
+      "proof_url": "https://twitter.com/ShepherdNet/status/743467528043790336",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN shepherdnetwork.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/shepherdnetwork.id\"\n"
+}
