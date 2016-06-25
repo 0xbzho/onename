@@ -1,0 +1,48 @@
+{
+  "owner_address": "1HKPgSdzmPrZNJSo676yMKCZdYuu21eiXs",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "underhillsgames",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/UnderhillsGames/status/740755018299637761",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cuyahoga Falls, Ohio"
+    },
+    "description": "All types of table top games!",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/underhillsgames",
+        "name": "avatar"
+      }
+    ],
+    "name": "Underhill's Games",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.underhillsgames.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "underhillsgames",
+      "proof_url": "https://twitter.com/UnderhillsGames/status/740755018299637761",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN underhillsgames.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/underhillsgames.id\"\n"
+}
