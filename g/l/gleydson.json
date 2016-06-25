@@ -1,0 +1,49 @@
+{
+  "owner_address": "1WZReFfJTN152pCZKXTXjvXjfpg1dhKGG",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "arianigleydson",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/arianigleydson/status/741660493765545984",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "arianigleydson",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/gleydson?post_id=1137598939629687_1137598999629681#/facebook",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gleydson",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/gleydson",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "arianigleydson",
+      "proof_url": "https://twitter.com/arianigleydson/status/741660493765545984",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "arianigleydson",
+      "proof_url": "https://onename.com/gleydson?post_id=1137598939629687_1137598999629681#/facebook",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN gleydson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gleydson.id\"\n"
+}
