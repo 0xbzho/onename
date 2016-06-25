@@ -1,0 +1,42 @@
+{
+  "owner_address": "1CFd3gFmEeqMifMDMC2n7Y4NDHKQdEz5Gm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "djmckee",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/djmckee/9027479499f8e5401418aac7acbe4e9c",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Newcastle upon Tyne"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Dylan McKee",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://dylan.ninja"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "djmckee",
+      "proof_url": "https://gist.github.com/djmckee/9027479499f8e5401418aac7acbe4e9c",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dylanm.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dylanm.id\"\n"
+}
