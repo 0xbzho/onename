@@ -1,0 +1,79 @@
+{
+  "owner_address": "1EuxbksCL6A3yhJyNphnUeAQGqS6WpmMxi",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "198QMbiQra7pyfWhpFotG5UJAAPZrXNNsj",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kevinduquette",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kevinduquette/status/740741898592129024",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "topshelfsquad",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/topshelfsquad/555366f87ca80f47d5411a2058109bf0",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kevinduquette",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/kevinduquette/posts/10100436454828275",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Diego, CA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kevinduquette",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/kevinduquette",
+        "name": "cover"
+      }
+    ],
+    "name": "Kevin Duquette",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://topshelfrecords.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "kevinduquette",
+      "proof_url": "https://twitter.com/kevinduquette/status/740741898592129024",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "topshelfsquad",
+      "proof_url": "https://gist.github.com/topshelfsquad/555366f87ca80f47d5411a2058109bf0",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "kevinduquette",
+      "proof_url": "https://www.facebook.com/kevinduquette/posts/10100436454828275",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN kevinduquette.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kevinduquette.id\"\n"
+}
