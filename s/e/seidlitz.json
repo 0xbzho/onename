@@ -1,0 +1,55 @@
+{
+  "owner_address": "1GhEvkPTK5J37o6YLxPVZd41rMEHPENN1C",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "seidlitz",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/seidlitz/status/739960236010704896",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "aseidlitz",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/aseidlitz/44e980fe121e0501b09022d9c497dc3b",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Vancouver, Canada"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Alex Popov",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.seidlitz.ca"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "seidlitz",
+      "proof_url": "https://twitter.com/seidlitz/status/739960236010704896",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "aseidlitz",
+      "proof_url": "https://gist.github.com/aseidlitz/44e980fe121e0501b09022d9c497dc3b",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN seidlitz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/seidlitz.id\"\n"
+}
