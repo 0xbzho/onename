@@ -1,16 +1,21 @@
 {
   "owner_address": "17ZfZGtQCHWsWtwDUQtqUCaxeRCdkv8mUr",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/IKM.jpeg"
+    "@type": "Person",
+    "account": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "the blockchain"
     },
-    "location": {
-      "formatted": "the blockchain"
-    },
-    "name": {
-      "formatted": "John Light"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/johnlight",
+        "name": "cover"
+      }
+    ],
+    "name": "John Light"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN johnlight.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/johnlight.id\"\n"
 }
