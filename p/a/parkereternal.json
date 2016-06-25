@@ -1,0 +1,55 @@
+{
+  "owner_address": "113vkM8LggDzXR7atwvEsDtKvdyqJTBHqu",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ParkerEternal",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ParkerEternal/status/735216695682293761?lang=en",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ParkerEternal",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ParkerEternal/8366305d7ea6370fc35e1352f90d6b96",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Los Angeles"
+    },
+    "description": "https://www.linkedin.com/in/djparkerboothnezzi",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/parkereternal",
+        "name": "avatar"
+      }
+    ],
+    "name": "DJ Parker"
+  },
+  "verifications": [
+    {
+      "identifier": "ParkerEternal",
+      "proof_url": "https://twitter.com/ParkerEternal/status/735216695682293761?lang=en",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "ParkerEternal",
+      "proof_url": "https://gist.github.com/ParkerEternal/8366305d7ea6370fc35e1352f90d6b96",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN parkereternal.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/parkereternal.id\"\n"
+}
