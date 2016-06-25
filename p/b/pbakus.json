@@ -1,0 +1,33 @@
+{
+  "owner_address": "16Q7WxGYUUnb2FHRULfzd7coTk7sqAoFWV",
+  "profile": {
+    "@type": "Person",
+    "account": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bakus"
+    },
+    "description": "Hiker, photographer, adventurer.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/pbakus",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/pbakus",
+        "name": "cover"
+      }
+    ],
+    "name": "Petr",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.pbakus.ca"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN pbakus.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pbakus.id\"\n"
+}
