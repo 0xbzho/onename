@@ -1,0 +1,31 @@
+{
+  "owner_address": "1DUCMM7Xp4N7ETpwqQhBht1pPr6nj7rdg4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ggatheral",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ggatheral/status/740873641018195968",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ggatheral",
+      "proof_url": "https://twitter.com/ggatheral/status/740873641018195968",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ggatheral.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ggatheral.id\"\n"
+}
