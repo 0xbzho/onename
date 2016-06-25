@@ -1,0 +1,44 @@
+{
+  "owner_address": "1BTF42f2TcRGL4JqRVNnMcSkhbdz7QhTfG",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "derabbink",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/derabbink/status/740896509189820416",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "maarten.abbink",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/maarten.abbink/posts/10209536344188436",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "derabbink",
+      "proof_url": "https://twitter.com/derabbink/status/740896509189820416",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "maarten.abbink",
+      "proof_url": "https://www.facebook.com/maarten.abbink/posts/10209536344188436",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN derabbink.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/derabbink.id\"\n"
+}
