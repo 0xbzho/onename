@@ -1,64 +1,66 @@
 {
   "owner_address": "17VKANzQXKjR6DRuUrMsz8L7JiQrspNt7K",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/stevenmdean"
-    },
-    "bio": "Co-founder, Career Matchmaker @ Jobsuitors.com; Principal, Online Dating Consultant @ Dateworking.com",
-    "bitcoin": {
-      "address": "17wgTT7AA83nEQ1keoArTTNLfMNZipN9kU"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/stevenmdean"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/stevenmdean/posts/10202543219489973"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "stevenmdean",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "stevenmdean"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/stevenmdean/a86b933545688c1a7b15"
+      {
+        "@type": "Account",
+        "identifier": "stevenmdean",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "stevenmdean"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/stevenmdean"
-    },
-    "location": {
-      "formatted": "New York, NY"
-    },
-    "name": {
-      "formatted": "Steve Dean"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/StevenMDean/status/500366100891070464"
+      {
+        "@type": "Account",
+        "identifier": "17wgTT7AA83nEQ1keoArTTNLfMNZipN9kU",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "StevenMDean"
+      {
+        "@type": "Account",
+        "identifier": "StevenMDean",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/StevenMDean/status/746592174041604096",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York, NY"
     },
-    "v": "0.2",
-    "website": "http://about.me/stevenmdean"
+    "description": "Online Dating Consultant & Speaker @ Dateworking.com",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/stevenmdean",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/stevenmdean",
+        "name": "cover"
+      }
+    ],
+    "name": "Steve Dean",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://about.me/stevenmdean"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "stevenmdean",
-      "proof_url": "https://gist.github.com/stevenmdean/a86b933545688c1a7b15",
-      "service": "github",
-      "valid": true
-    },
-    {
       "identifier": "StevenMDean",
-      "proof_url": "https://twitter.com/StevenMDean/status/500366100891070464",
+      "proof_url": "https://twitter.com/StevenMDean/status/746592174041604096",
       "service": "twitter",
       "valid": true
-    },
-    {
-      "identifier": "stevenmdean",
-      "proof_url": "https://facebook.com/stevenmdean/posts/10202543219489973",
-      "service": "facebook",
-      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN stevenmdean.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stevenmdean.id\"\n"
 }
