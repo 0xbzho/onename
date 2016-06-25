@@ -1,0 +1,73 @@
+{
+  "owner_address": "18Mbx2DikW9uU682W7v9VoxegWMnWMhYGj",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "fluxe",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/fluxe/status/736950567482851330",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "geralddejong",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/geralddejong/0b8f7fe3fef0a83b72759db6c0603538",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gerald.dejong",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/gerald.dejong/posts/10154199031103948",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1Jc6mC7tRmXtisMjZ7pkDxJJrSskuxF1LR",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Rotterdam, The Netherlands"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/fluxe1963",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/fluxe1963",
+        "name": "cover"
+      }
+    ],
+    "name": "Gerald de Jong"
+  },
+  "verifications": [
+    {
+      "identifier": "fluxe",
+      "proof_url": "https://twitter.com/fluxe/status/736950567482851330",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "geralddejong",
+      "proof_url": "https://gist.github.com/geralddejong/0b8f7fe3fef0a83b72759db6c0603538",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "gerald.dejong",
+      "proof_url": "https://www.facebook.com/gerald.dejong/posts/10154199031103948",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN fluxe1963.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fluxe1963.id\"\n"
+}
