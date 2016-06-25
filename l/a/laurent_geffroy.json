@@ -1,0 +1,73 @@
+{
+  "owner_address": "1BvwfDhDomEoSgCT6mmPyJdgwntP6DyHY5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "L_Geffroy",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/L_Geffroy/status/735462447331594244",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "laurentgeffroy",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/laurentgeffroy/08496af342ad73f096eedcc1c3ace3cd",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "geffroylaurent",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/geffroylaurent/posts/10154820441865830",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/laurent_geffroy",
+        "name": "avatar"
+      }
+    ],
+    "name": "Laurent Geffroy",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://fr.linkedin.com/in/laurentgeffroy"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "L_Geffroy",
+      "proof_url": "https://twitter.com/L_Geffroy/status/735462447331594244",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "laurentgeffroy",
+      "proof_url": "https://gist.github.com/laurentgeffroy/08496af342ad73f096eedcc1c3ace3cd",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "geffroylaurent",
+      "proof_url": "https://www.facebook.com/geffroylaurent/posts/10154820441865830",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN laurent_geffroy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/laurent_geffroy.id\"\n"
+}
