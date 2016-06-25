@@ -1,0 +1,31 @@
+{
+  "owner_address": "1AmDHQzDP5ngDLUbxdpPJDkpk8n2zQvDRs",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "darobin",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/darobin/70bafaf95189ea48659d05c74c1c6035",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "darobin",
+      "proof_url": "https://gist.github.com/darobin/70bafaf95189ea48659d05c74c1c6035",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN robinb.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/robinb.id\"\n"
+}
