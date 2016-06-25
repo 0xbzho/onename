@@ -1,0 +1,62 @@
+{
+  "owner_address": "1jBvJiV4jZNwwj7jnsgESJjMS8raXohkK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "stfnandersen",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/stfnandersen/status/735033133645582336",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "stfnandersen",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/stfnandersen/posts/10153582037077647",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "stfnndrsn",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/stfnndrsn/8fb1ec960d3d6e7ba5df7fe69f9a00e1",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Copenhagen"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Stefan Andersen"
+  },
+  "verifications": [
+    {
+      "identifier": "stfnandersen",
+      "proof_url": "https://twitter.com/stfnandersen/status/735033133645582336",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "stfnandersen",
+      "proof_url": "https://www.facebook.com/stfnandersen/posts/10153582037077647",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "stfnndrsn",
+      "proof_url": "https://gist.github.com/stfnndrsn/8fb1ec960d3d6e7ba5df7fe69f9a00e1",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN stfnandersen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stfnandersen.id\"\n"
+}
