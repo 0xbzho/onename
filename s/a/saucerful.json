@@ -1,0 +1,31 @@
+{
+  "owner_address": "1m7uCdbyQX384dvTYthdV8EWz8VrykyKB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "saucerful",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/saucerful/a0b322f2eaea300332256c818e0070e2",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "saucerful",
+      "proof_url": "https://gist.github.com/saucerful/a0b322f2eaea300332256c818e0070e2",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN saucerful.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/saucerful.id\"\n"
+}
