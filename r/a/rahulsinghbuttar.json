@@ -1,52 +1,59 @@
 {
   "owner_address": "18Jk5XrDHNPSYSpT5vDzkcrpZVR7eumCWY",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/rahulsinghbuttar"
-    },
-    "bio": "All is Love. Fear is Illusion. All beings are Free. Truth can never be destroyed.  ~Mark Passio",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/rahulsinghbuttar"
-    },
-    "facebook": {
-      "username": "rahulsinghbuttar"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/rahulsinghbuttar/43d52bc17b0235a5eb9d"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rahulsingh_1984",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "rahulsinghbuttar"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/rahulsinghbuttar"
-    },
-    "location": {
-      "formatted": "Seattle"
-    },
-    "name": {
-      "formatted": "Rahul"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/rahulsingh_1984/status/705919363807735809"
+      {
+        "@type": "Account",
+        "identifier": "rahulsinghbuttar",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "rahulsingh_1984"
+      {
+        "@type": "Account",
+        "identifier": "rahulsinghbuttar",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "20e580574a9a3fb941e065acb886336a99f69db8",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rizalvaro/status/746044719893880832",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seattle"
     },
-    "v": "0.2",
-    "website": "http://www.rahulsinghbuttar.com"
+    "description": "All is Love. Fear is Illusion. All beings are Free. Truth can never be destroyed.  ~Mark Passio",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rahulsinghbuttar",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rahulsinghbuttar",
+        "name": "cover"
+      }
+    ],
+    "name": "Rahul",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.rahulsinghbuttar.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "rahulsinghbuttar",
-      "proof_url": "https://gist.github.com/rahulsinghbuttar/43d52bc17b0235a5eb9d",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "rahulsingh_1984",
-      "proof_url": "https://twitter.com/rahulsingh_1984/status/705919363807735809",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN rahulsinghbuttar.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rahulsinghbuttar.id\"\n"
 }
