@@ -1,0 +1,73 @@
+{
+  "owner_address": "17m78diAPSRmSeb2u2FNqJCx2QbLCXLGuC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Melek_Hakim",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Melek_Hakim/status/746035989374636033",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hakimelek",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/hakimelek/abb7faa24902603c1a14a9357fa6a813",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1AxW2Cp9yf3kxExGHNxAUCLFLeuFd2bAyW",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "darkshark",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/DarkShark/posts/10208999496318327",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Winona"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hakimelek",
+        "name": "avatar"
+      }
+    ],
+    "name": "Malek Hakim"
+  },
+  "verifications": [
+    {
+      "identifier": "Melek_Hakim",
+      "proof_url": "https://twitter.com/Melek_Hakim/status/746035989374636033",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "hakimelek",
+      "proof_url": "https://gist.github.com/hakimelek/abb7faa24902603c1a14a9357fa6a813",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "darkshark",
+      "proof_url": "https://www.facebook.com/DarkShark/posts/10208999496318327",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN hakimelek.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hakimelek.id\"\n"
+}
