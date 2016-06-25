@@ -1,0 +1,67 @@
+{
+  "owner_address": "18uQVzEbb5QowzHgktqhzF9Y1P9j6WYvuD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tyfoster",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tyfoster/status/740949466845323264",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1AXdsLeVgNvscxbZMPrE91DFcxPMNLTbdz",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tyfoster",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tyfoster/a2166b26db78d899ac4a3c373f849d77",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boulder, CO"
+    },
+    "description": "Published Author. Internationally recognized commerical and editorial dog and animal  photographer.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tyfoster",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/tyfoster",
+        "name": "cover"
+      }
+    ],
+    "name": "Ty Foster",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.tyfoster.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tyfoster",
+      "proof_url": "https://twitter.com/tyfoster/status/740949466845323264",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "tyfoster",
+      "proof_url": "https://gist.github.com/tyfoster/a2166b26db78d899ac4a3c373f849d77",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tyfoster.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tyfoster.id\"\n"
+}
