@@ -1,0 +1,67 @@
+{
+  "owner_address": "12g6jJGPx59sz9G6T3zqSVfnqNKTGMWFzK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "feamster",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/feamster/status/739760514671247360",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "feamster",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/feamster/010fca73c593f284e08424a38333dd53",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/feamster",
+        "identifier": "1769B8001AA8F73B32199F75D09FA1AA748AD36A",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Princeton, NJ"
+    },
+    "description": "Professor of Computer Science, Princeton University",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/feamster",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/feamster",
+        "name": "cover"
+      }
+    ],
+    "name": "Nick Feamster",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.cs.princeton.edu/~feamster/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "feamster",
+      "proof_url": "https://twitter.com/feamster/status/739760514671247360",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "feamster",
+      "proof_url": "https://gist.github.com/feamster/010fca73c593f284e08424a38333dd53",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN feamster.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/feamster.id\"\n"
+}
