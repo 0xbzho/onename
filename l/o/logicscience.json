@@ -1,0 +1,38 @@
+{
+  "owner_address": "1G8tR86n3p4gampByJzb1RbZfcQyZMh3gn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "logicscience",
+        "proofType": "http",
+        "proofUrl": "https://t.co/zFC5XS5nTn",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "8bffb7af919347fa1917de1e2b6e665fd1d7725a",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ScottBoner/9ea08fd5ef55e7f9a2c542d10815e1c0",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "logicscience",
+      "proof_url": "https://t.co/zFC5XS5nTn",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN logicscience.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/logicscience.id\"\n"
+}
