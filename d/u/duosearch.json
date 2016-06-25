@@ -1,0 +1,61 @@
+{
+  "owner_address": "1PbLJPPX9t4XHDwCQzQ5oeM6pbEg4EgopG",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "duosearch",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/duosearch",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "duosearch",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/duosearch/status/741197115389546496",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ad8a93b524ad02de23ddd7760e49a34bc55f9b19",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
+    },
+    "description": "OpenBazaar Search Engine",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/duosearch",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/duosearch",
+        "name": "cover"
+      }
+    ],
+    "name": "Duo Search",
+    "website": []
+  },
+  "verifications": [
+    {
+      "identifier": "duosearch",
+      "proof_url": "https://www.facebook.com/duosearch",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "duosearch",
+      "proof_url": "https://twitter.com/duosearch/status/741197115389546496",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN duosearch.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/duosearch.id\"\n"
+}
