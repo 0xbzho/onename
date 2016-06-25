@@ -1,0 +1,68 @@
+{
+  "owner_address": "147FSQ3fTsh9NUHSzMdSpNnDyhJvWCTF1E",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "russdaniels",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/russdaniels/status/740939320349982721",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "russd.NOLA",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/russd.NOLA/posts/10153995502413859?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "inquestruss",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/inquestruss/e87af812794afd9bcfd95c7df75492ac#file-gistfile1-txt",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "http://keyserver.ubuntu.com",
+        "identifier": "5E80723CE6AB3317790130B9743499620E0C1C37",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/russdaniels",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "russdaniels",
+      "proof_url": "https://twitter.com/russdaniels/status/740939320349982721",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "russd.NOLA",
+      "proof_url": "https://www.facebook.com/russd.NOLA/posts/10153995502413859?pnref=story",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "inquestruss",
+      "proof_url": "https://gist.github.com/inquestruss/e87af812794afd9bcfd95c7df75492ac#file-gistfile1-txt",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN russdaniels.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/russdaniels.id\"\n"
+}
