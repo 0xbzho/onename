@@ -1,0 +1,63 @@
+{
+  "owner_address": "1Fdabpx8S7pkH7fWR4FPXqh37CkEx4Smge",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jakobhans",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JakobHans/status/741011033834151936",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jakobhans",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jakobhans/826dcf2d9c6c29547990385cd04210a8",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jakobhans",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jakobhans/posts/10154232538578735",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "3JfKiFzjvFXDsDxNXAbLpWLuZG7ipnKntt",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jakobhans",
+      "proof_url": "https://twitter.com/JakobHans/status/741011033834151936",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jakobhans",
+      "proof_url": "https://gist.github.com/jakobhans/826dcf2d9c6c29547990385cd04210a8",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jakobhans",
+      "proof_url": "https://www.facebook.com/jakobhans/posts/10154232538578735",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jakobhans.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jakobhans.id\"\n"
+}
