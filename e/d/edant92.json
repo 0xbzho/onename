@@ -1,0 +1,68 @@
+{
+  "owner_address": "1BUZvnUxf74JDn9CfmcUv8EznpmoABhcWf",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "edant92",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/edant92/status/743177944756006912",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "estevens1",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/estevens1/posts/10154165014366590",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "edant92",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/edant92/e0ba7e97150e2876455d97f4e1c8e15b",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Stevens"
+    },
+    "description": "Hi",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/edant92",
+        "name": "avatar"
+      }
+    ],
+    "name": "Edward"
+  },
+  "verifications": [
+    {
+      "identifier": "edant92",
+      "proof_url": "https://twitter.com/edant92/status/743177944756006912",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "estevens1",
+      "proof_url": "https://www.facebook.com/estevens1/posts/10154165014366590",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "edant92",
+      "proof_url": "https://gist.github.com/edant92/e0ba7e97150e2876455d97f4e1c8e15b",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN edant92.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/edant92.id\"\n"
+}
