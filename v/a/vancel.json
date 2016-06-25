@@ -1,0 +1,69 @@
+{
+  "owner_address": "1Do6JkrAfZxec8gFu2Sr9aquaZcwVQRzGT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1K6E1LMesXcRbuLzL4U2WtganGKdPiqiLx",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "shottails",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Shottails/status/742741910171750401",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Vanceml",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Vanceml/e6e48079b453605ce2f79a6ea5ccdb0f",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "vance.long.94",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/vance.long.94?fref=nf&pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/vancel",
+        "name": "avatar"
+      }
+    ],
+    "name": "Vance"
+  },
+  "verifications": [
+    {
+      "identifier": "shottails",
+      "proof_url": "https://twitter.com/Shottails/status/742741910171750401",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Vanceml",
+      "proof_url": "https://gist.github.com/Vanceml/e6e48079b453605ce2f79a6ea5ccdb0f",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "vance.long.94",
+      "proof_url": "https://www.facebook.com/vance.long.94?fref=nf&pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN vancel.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vancel.id\"\n"
+}
