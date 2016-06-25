@@ -1,16 +1,36 @@
 {
   "owner_address": "1DSPVRdorV3EMcojuuTNVL9BZsGDRs6zeT",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/lUU.jpeg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ju5tbitcoin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Ju5tBitcoin/status/746025320428503040",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "ju5tin"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "ju5tin"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "ju5tbitcoin",
+      "proof_url": "https://twitter.com/Ju5tBitcoin/status/746025320428503040",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ju5tin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ju5tin.id\"\n"
 }
