@@ -1,0 +1,36 @@
+{
+  "owner_address": "13Vtevbkx3L3zDB7AgGoXi84mJYiod43xv",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "MichaelSmale",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MichaelSmale/status/740678304928145409",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fishfishfish123",
+        "service": "fishy test"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "MichaelSmale",
+      "proof_url": "https://twitter.com/MichaelSmale/status/740678304928145409",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN michaelsmale.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/michaelsmale.id\"\n"
+}
