@@ -1,0 +1,32 @@
+{
+  "owner_address": "1GnTgsx26V8UnFaYBWzy7JMuyG9EKbiJHn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "iveitch",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/iveitch/status/743577138293420032",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Greg Veitch"
+  },
+  "verifications": [
+    {
+      "identifier": "iveitch",
+      "proof_url": "https://twitter.com/iveitch/status/743577138293420032",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN gregveitch.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gregveitch.id\"\n"
+}
