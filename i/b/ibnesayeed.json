@@ -1,0 +1,81 @@
+{
+  "owner_address": "1QHV5n4A6vtBU637L2wupjsxP55fHbfNZ9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ibnesayeed",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ibnesayeed/status/740682141634289665",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ibnesayeed",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ibnesayeed/c4ce756443f324134a4964ca52d9ed85",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ibnesayeed",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ibnesayeed/posts/10154228784511672",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "18Ey7YHLBuSZWdX9RrNiuhYVniTqNw8ZNr",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/ibnesayeed",
+        "identifier": "246E50FD8236FD23E8ADA2AC4D2522717032428B",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ibnesayeed",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ibnesayeed",
+        "name": "cover"
+      }
+    ],
+    "name": "Sawood Alam",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.ibnesayeed.com/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ibnesayeed",
+      "proof_url": "https://twitter.com/ibnesayeed/status/740682141634289665",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ibnesayeed",
+      "proof_url": "https://gist.github.com/ibnesayeed/c4ce756443f324134a4964ca52d9ed85",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "ibnesayeed",
+      "proof_url": "https://www.facebook.com/ibnesayeed/posts/10154228784511672",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ibnesayeed.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ibnesayeed.id\"\n"
+}
