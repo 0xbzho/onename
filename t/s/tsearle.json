@@ -1,0 +1,49 @@
+{
+  "owner_address": "1G8C2NCnZowFfrUWHpj5XM9MgW1zJtvD8s",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tsearle",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tsearle/c725ffa55c0630dfa3e452290236ee00",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Tsearle",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tsearle/status/737601911516340224?s=09",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brussels, Belgium"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Torrey Searle"
+  },
+  "verifications": [
+    {
+      "identifier": "tsearle",
+      "proof_url": "https://gist.github.com/tsearle/c725ffa55c0630dfa3e452290236ee00",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "Tsearle",
+      "proof_url": "https://twitter.com/tsearle/status/737601911516340224?s=09",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tsearle.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tsearle.id\"\n"
+}
