@@ -1,0 +1,42 @@
+{
+  "owner_address": "16me3rweK8as77hJYaCSKDzwyrmBMdufn5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nate-strauser",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/nate-strauser/5e0a5d084ac2135518568bbe37221840",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Philadelphia, PA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Nathan Strauser",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://natestrauser.me"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "nate-strauser",
+      "proof_url": "https://gist.github.com/nate-strauser/5e0a5d084ac2135518568bbe37221840",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN natestrauser.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/natestrauser.id\"\n"
+}
