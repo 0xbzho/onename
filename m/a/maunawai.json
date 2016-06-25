@@ -1,0 +1,47 @@
+{
+  "owner_address": "15H3La39xDBU9SkPLwJzFgqDWaS5Zgo4h2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "maunawai",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/maunawai/status/744554911338233856",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Werder"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/maunawai",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/maunawai",
+        "name": "cover"
+      }
+    ],
+    "name": "Maunawai",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.maunawai.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "maunawai",
+      "proof_url": "https://twitter.com/maunawai/status/744554911338233856",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN maunawai.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/maunawai.id\"\n"
+}
