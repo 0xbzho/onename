@@ -1,0 +1,67 @@
+{
+  "owner_address": "1J9CptqfgGyxLTTdaHgXvKyjU2QmF25dRR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mbklein",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mbklein/status/742722602020528128",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mbklein",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mbklein/c0318ea8b8470f8f5d017166e60d3a5a",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mbklein",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mbklein/posts/10154354560301677",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Evanston, IL"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mbklein",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mbklein",
+        "name": "cover"
+      }
+    ],
+    "name": "Michael B. Klein"
+  },
+  "verifications": [
+    {
+      "identifier": "mbklein",
+      "proof_url": "https://twitter.com/mbklein/status/742722602020528128",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mbklein",
+      "proof_url": "https://gist.github.com/mbklein/c0318ea8b8470f8f5d017166e60d3a5a",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "mbklein",
+      "proof_url": "https://www.facebook.com/mbklein/posts/10154354560301677",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mbklein.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mbklein.id\"\n"
+}
