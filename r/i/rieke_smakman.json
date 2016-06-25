@@ -1,0 +1,49 @@
+{
+  "owner_address": "14CQDuQhizDoTfHLEYECwieRH8wbqmsN7U",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Rieke",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Rieke/status/741751094364274688",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rieke.smakman",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/rieke.smakman/posts/10153788390711312?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rieke_smakman",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rieke_smakman",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Rieke",
+      "proof_url": "https://twitter.com/Rieke/status/741751094364274688",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "rieke.smakman",
+      "proof_url": "https://www.facebook.com/rieke.smakman/posts/10153788390711312?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN rieke_smakman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rieke_smakman.id\"\n"
+}
