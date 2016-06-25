@@ -1,0 +1,85 @@
+{
+  "owner_address": "18hjkJkzTgm7KyM51DSJwz1aF9MCku1vbC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "geofox",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/geofox/status/740846061292560385",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "geoffrey.richard",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/geoffrey.richard/posts/10156974911855514",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "geofox",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/geofox/f6a4725974180920a46f6710e0c598d1",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "18pRR3vUvVjXzA4e5zNVa3xT5L5W1dfmRo",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/geoffrey/key.asc",
+        "identifier": "53346DDCF15F3EC8",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Belgium"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/geofox",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/geofox",
+        "name": "cover"
+      }
+    ],
+    "name": "Geoffrey Richard",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://geofox.org"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "geofox",
+      "proof_url": "https://twitter.com/geofox/status/740846061292560385",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "geoffrey.richard",
+      "proof_url": "https://www.facebook.com/geoffrey.richard/posts/10156974911855514",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "geofox",
+      "proof_url": "https://gist.github.com/geofox/f6a4725974180920a46f6710e0c598d1",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN geofox.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/geofox.id\"\n"
+}
