@@ -1,51 +1,64 @@
 {
   "owner_address": "18k7sFHwjrT9BcaS2eUpzbpyq3iNt6LV6k",
   "profile": {
-    "bio": "Facebook · Caltech CS '14",
-    "bitcoin": {
-      "address": "32Sf4S76di1tmEHfJQ4RAR2p7JL2rrLJt1"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/483.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/byte/posts/10154460387290597"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "32Sf4S76di1tmEHfJQ4RAR2p7JL2rrLJt1",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "byte"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/periodic1236/d27c38138ae6900ac5ae"
+      {
+        "@type": "Account",
+        "contentUrl": "https://pgp.mit.edu/pks/lookup?op=get&search=0x646CA08D109CD9D2",
+        "identifier": "090CE1AA565A593F760435FF646CA08D109CD9D2",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "periodic1236"
-    },
-    "location": {
-      "formatted": "Palo Alto, CA, USA"
-    },
-    "name": {
-      "formatted": "Mike Qian"
-    },
-    "pgp": {
-      "fingerprint": "090CE1AA565A593F760435FF646CA08D109CD9D2",
-      "url": "https://pgp.mit.edu/pks/lookup?op=get&search=0x646CA08D109CD9D2"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/periodic1236/status/497450484689428480"
+      {
+        "@type": "Account",
+        "identifier": "periodic1236",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/periodic1236/status/497450484689428480",
+        "service": "twitter"
       },
-      "username": "periodic1236"
+      {
+        "@type": "Account",
+        "identifier": "byte",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/byte/posts/10154460387290597",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "periodic1236",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/periodic1236/d27c38138ae6900ac5ae",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Palo Alto, CA, USA"
     },
-    "v": "0.2",
-    "website": "https://keybase.io/mq"
+    "description": "Facebook · Caltech CS '14",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Mike Qian",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://keybase.io/mq"
+      }
+    ]
   },
   "verifications": [
-    {
-      "identifier": "periodic1236",
-      "proof_url": "https://gist.github.com/periodic1236/d27c38138ae6900ac5ae",
-      "service": "github",
-      "valid": false
-    },
     {
       "identifier": "periodic1236",
       "proof_url": "https://twitter.com/periodic1236/status/497450484689428480",
@@ -54,9 +67,16 @@
     },
     {
       "identifier": "byte",
-      "proof_url": "https://facebook.com/byte/posts/10154460387290597",
+      "proof_url": "https://www.facebook.com/byte/posts/10154460387290597",
       "service": "facebook",
       "valid": false
+    },
+    {
+      "identifier": "periodic1236",
+      "proof_url": "https://gist.github.com/periodic1236/d27c38138ae6900ac5ae",
+      "service": "github",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN mq.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mq.id\"\n"
 }
