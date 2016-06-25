@@ -1,0 +1,57 @@
+{
+  "owner_address": "1EPAVTGfa2cDUyKDNZhhmgjC6ShowYYXVy",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "SudakovYury",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SudakovYury/status/739862728676941825",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "vadaha",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/vadaha/733b3e099f0f61a5cee5273dce8e7c7e",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "vadaha",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/vadaha/posts/792639574168945?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "SudakovYury",
+      "proof_url": "https://twitter.com/SudakovYury/status/739862728676941825",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "vadaha",
+      "proof_url": "https://gist.github.com/vadaha/733b3e099f0f61a5cee5273dce8e7c7e",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "vadaha",
+      "proof_url": "https://www.facebook.com/vadaha/posts/792639574168945?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN vadaha.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vadaha.id\"\n"
+}
