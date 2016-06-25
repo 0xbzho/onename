@@ -1,0 +1,43 @@
+{
+  "owner_address": "1G92vbfGEs1PVtMUm9hbCrRcS4zp5HoHdu",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "digisim",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/digisim/status/741408584978862080",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/digisim",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/digisim",
+        "name": "cover"
+      }
+    ],
+    "name": "Simon Thomson",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://blog.digis.im"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "digisim",
+      "proof_url": "https://twitter.com/digisim/status/741408584978862080",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN digisim.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/digisim.id\"\n"
+}
