@@ -1,0 +1,49 @@
+{
+  "owner_address": "1358e9tdGXYJULzexdiWjS4zMNnka37es1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mshahbaz",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mshahbaz/c7a49f561c8c7fa0154b643bece5ebb2",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "msbaz2013",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/msbaz2013/status/739935003950256129",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mshahbaz",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mshahbaz",
+      "proof_url": "https://gist.github.com/mshahbaz/c7a49f561c8c7fa0154b643bece5ebb2",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "msbaz2013",
+      "proof_url": "https://twitter.com/msbaz2013/status/739935003950256129",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mshahbaz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mshahbaz.id\"\n"
+}
