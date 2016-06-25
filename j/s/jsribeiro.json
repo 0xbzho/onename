@@ -7,6 +7,33 @@
         "@type": "Account",
         "identifier": "5d27ce243ea385d55a1c2a017b6bf54bf5bdab58",
         "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jsribeiro",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jsribeiro/7d72ac1968535e471cd2093b83f163bf",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sena",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sena/status/740890629362855936",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jsribeiro",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jsribeiro/posts/10153705571101238",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1CLU73apV7MQDtVUCzxbC972e3BvkKwZRs",
+        "role": "payment",
+        "service": "bitcoin"
       }
     ],
     "address": {
@@ -33,6 +60,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "jsribeiro",
+      "proof_url": "https://gist.github.com/jsribeiro/7d72ac1968535e471cd2093b83f163bf",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "sena",
+      "proof_url": "https://twitter.com/sena/status/740890629362855936",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jsribeiro",
+      "proof_url": "https://www.facebook.com/jsribeiro/posts/10153705571101238",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN jsribeiro.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jsribeiro.id\"\n"
 }
