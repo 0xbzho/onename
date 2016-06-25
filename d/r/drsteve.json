@@ -1,0 +1,42 @@
+{
+  "owner_address": "1DKQ5bk2EyH4gAZ2VxyhxpwsuycRhCad4y",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "drstoll",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/drstoll/status/741679593963290624",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Freiburg, Germany"
+    },
+    "description": "Professor, Digital Punk",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/drsteve",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/drsteve",
+        "name": "avatar"
+      }
+    ],
+    "name": "Stefan Stoll"
+  },
+  "verifications": [
+    {
+      "identifier": "drstoll",
+      "proof_url": "https://twitter.com/drstoll/status/741679593963290624",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN drsteve.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/drsteve.id\"\n"
+}
