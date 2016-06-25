@@ -1,0 +1,63 @@
+{
+  "owner_address": "1VoiqfutqKymsQvnGDnFcNyCrrw1Hy8pB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "louisvlrd",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/louisvlrd/status/741409422631653376",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "louisvlrd",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/louisvlrd/c0f1b85e10e9fa7e991acd83b0dae018#file-gistfile1-txt",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "loulou.vlrd",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/loulou.vlrd/posts/1799509513602865",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/louisvillard",
+        "name": "avatar"
+      }
+    ],
+    "name": "Louis Villard"
+  },
+  "verifications": [
+    {
+      "identifier": "louisvlrd",
+      "proof_url": "https://twitter.com/louisvlrd/status/741409422631653376",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "louisvlrd",
+      "proof_url": "https://gist.github.com/louisvlrd/c0f1b85e10e9fa7e991acd83b0dae018#file-gistfile1-txt",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "loulou.vlrd",
+      "proof_url": "https://www.facebook.com/loulou.vlrd/posts/1799509513602865",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN louisvillard.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/louisvillard.id\"\n"
+}
