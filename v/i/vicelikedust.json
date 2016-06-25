@@ -1,0 +1,74 @@
+{
+  "owner_address": "1GX3K2TAbsWMSX2DrqtERiqM1YSWS47pGg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Thomasb909",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Thomasb909/status/741119887217659905",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "vicelikedust",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/vicelikedust/508fcb3f8fee38cefa4fa3f6455b6350",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Vicelikedust",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/Vicelikedust/posts/10153721983657705",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kitchener Ontario"
+    },
+    "description": "This is not the Bio you are looking for",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/vicelikedust",
+        "name": "avatar"
+      }
+    ],
+    "name": "Thomas Needle",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://curacomputers.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Thomasb909",
+      "proof_url": "https://twitter.com/Thomasb909/status/741119887217659905",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "vicelikedust",
+      "proof_url": "https://gist.github.com/vicelikedust/508fcb3f8fee38cefa4fa3f6455b6350",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "Vicelikedust",
+      "proof_url": "https://www.facebook.com/Vicelikedust/posts/10153721983657705",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN vicelikedust.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vicelikedust.id\"\n"
+}
