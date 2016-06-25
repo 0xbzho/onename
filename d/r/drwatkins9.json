@@ -1,0 +1,42 @@
+{
+  "owner_address": "1DeoZm9Bhruvww9WvkBREVeHfnqPo8AEoR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "19gnxWg9cY4odAo9uKux4AfcPi3UHfQVb6",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dr.watkins9",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/DRWATKINS9/status/742544473658261504",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seattle"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Riley Watkins"
+  },
+  "verifications": [
+    {
+      "identifier": "dr.watkins9",
+      "proof_url": "https://twitter.com/DRWATKINS9/status/742544473658261504",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN drwatkins9.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/drwatkins9.id\"\n"
+}
