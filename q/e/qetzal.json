@@ -1,0 +1,45 @@
+{
+  "owner_address": "1APLmhobaYZPzET3VG8NAJ6nDMavw2PqXx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "qetzalcoatl",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/qetzalcoatl/status/735531998991765505",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "qetzal",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/qetzal/posts/10208569306366047?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Eugene Kaznacheev"
+  },
+  "verifications": [
+    {
+      "identifier": "qetzalcoatl",
+      "proof_url": "https://twitter.com/qetzalcoatl/status/735531998991765505",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "qetzal",
+      "proof_url": "https://www.facebook.com/qetzal/posts/10208569306366047?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN qetzal.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/qetzal.id\"\n"
+}
