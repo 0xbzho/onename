@@ -1,0 +1,48 @@
+{
+  "owner_address": "16XtDWpAkj2ee1Fh8uY7VYpgqqqfZBoRH6",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "fsocietyIRC",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/FSocietyIRC/status/738138048752287744",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "hill valley, ca"
+    },
+    "description": "We Are Awake, We Are Free, Are You? A Mr. Robot Podcast Show",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/onemanstreasure",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/onemanstreasure",
+        "name": "cover"
+      }
+    ],
+    "name": "fsociety",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.fsocietyircpodcast.xyz"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "fsocietyIRC",
+      "proof_url": "https://twitter.com/FSocietyIRC/status/738138048752287744",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN onemanstreasure.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/onemanstreasure.id\"\n"
+}
