@@ -1,0 +1,41 @@
+{
+  "owner_address": "1bPqBXQAfUUNairdmkZ3xZVuC8VzRksFQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jvdheyden",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Jvdheyden/status/743412072822747136",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Belgium"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jvdheyden",
+        "name": "avatar"
+      }
+    ],
+    "name": "John van der Heyden"
+  },
+  "verifications": [
+    {
+      "identifier": "jvdheyden",
+      "proof_url": "https://twitter.com/Jvdheyden/status/743412072822747136",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jvdheyden.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jvdheyden.id\"\n"
+}
