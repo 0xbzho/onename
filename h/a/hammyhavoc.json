@@ -1,0 +1,54 @@
+{
+  "owner_address": "15rpg8e1tcrd7XkQTHYtTwVdSUDR6NiAEH",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "HammyHavoc",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/HammyHavoc/1025443a44896dfd26048052fae5d9c2",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://www.hammyhavoc.com/wp-content/uploads/2016/05/Hammy-Havoc-me@hammyhavoc.com-0xAC1D3F33-pub.asc",
+        "identifier": "21EAF73A7A14DD52EE03088E147F9952AC1D3F33",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Liverpool, United Kingdom"
+    },
+    "description": "CEO of Split An Atom and Previous Magazine. Makes music as The Orion Correlation. Privacy advocate.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hammyhavoc",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/hammyhavoc",
+        "name": "cover"
+      }
+    ],
+    "name": "Hammy Havoc",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.hammyhavoc.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "HammyHavoc",
+      "proof_url": "https://gist.github.com/HammyHavoc/1025443a44896dfd26048052fae5d9c2",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN hammyhavoc.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hammyhavoc.id\"\n"
+}
