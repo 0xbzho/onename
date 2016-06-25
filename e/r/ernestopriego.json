@@ -1,0 +1,55 @@
+{
+  "owner_address": "1BRut4ktzeuVKX3mTp9wRMpZ4LQjcURVzo",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ernestopriego",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ernestopriego/status/740680823221936128",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/epriego/f593fd9487c1c544fe112441c82d0b0b",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "The Wide Wide World."
+    },
+    "description": "Content.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ernestopriego",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ernestopriego",
+        "name": "cover"
+      }
+    ],
+    "name": "Ernesto Priego"
+  },
+  "verifications": [
+    {
+      "identifier": "ernestopriego",
+      "proof_url": "https://twitter.com/ernestopriego/status/740680823221936128",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "",
+      "proof_url": "https://gist.github.com/epriego/f593fd9487c1c544fe112441c82d0b0b",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ernestopriego.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ernestopriego.id\"\n"
+}
