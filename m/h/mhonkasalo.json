@@ -1,0 +1,80 @@
+{
+  "owner_address": "1NpxvpmzUXznfSTxaadSMTPdnY76u7MHud",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mhonkasalo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mhonkasalo/status/741347960936615938",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mikahon",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mikahon/083c2e935f4b01867a377d18c81f11c3",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mika.honkasalo",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mika.honkasalo/posts/10156956431105696?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "17p6twbHwAW1t4B4VNu7RkxHmCpFL5WngV",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Finland"
+    },
+    "description": "NBA Writer at HoopsHype. Associate Analyst at ACE Consulting",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mhonkasalo",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mhonkasalo",
+        "name": "cover"
+      }
+    ],
+    "name": "Mika Honkasalo",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.twitter.com/mhonkasalo"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mhonkasalo",
+      "proof_url": "https://twitter.com/mhonkasalo/status/741347960936615938",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mikahon",
+      "proof_url": "https://gist.github.com/mikahon/083c2e935f4b01867a377d18c81f11c3",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "mika.honkasalo",
+      "proof_url": "https://www.facebook.com/mika.honkasalo/posts/10156956431105696?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mhonkasalo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mhonkasalo.id\"\n"
+}
