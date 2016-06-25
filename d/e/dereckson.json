@@ -1,0 +1,62 @@
+{
+  "owner_address": "1AYVaeRWPXmDhyjw1HKpS2X8kMuQnyADai",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dereckson",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Dereckson/status/740858658003783680",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dereckson",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dereckson/e4d184599de177f8a57539df59ae0889",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/dereckson",
+        "identifier": "1E16E1A70417625776FA944D34A43097536F1E8D",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dereckson",
+        "name": "avatar"
+      }
+    ],
+    "name": "Sébastien Santoro",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.dereckson.be/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dereckson",
+      "proof_url": "https://twitter.com/Dereckson/status/740858658003783680",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "dereckson",
+      "proof_url": "https://gist.github.com/dereckson/e4d184599de177f8a57539df59ae0889",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dereckson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dereckson.id\"\n"
+}
