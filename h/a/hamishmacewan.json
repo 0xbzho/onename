@@ -19,13 +19,6 @@
       },
       {
         "@type": "Account",
-        "identifier": "HamishMacEwan",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/HamishMacEwan/37f8ca6a53cd8b0f8d848bae56b333b0",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
         "identifier": "1CfK1TaUrovRdSZZpo6Z4V63hJxh7aBe4R",
         "role": "payment",
         "service": "bitcoin"
@@ -33,8 +26,15 @@
       {
         "@type": "Account",
         "contentUrl": "http://pgp.net.nz:11371/pks/lookup?op=vindex&search=0xEC0761409CA89753",
-        "identifier": "FDA208701F1C93B6A9469556EC0761409CA89753",
+        "identifier": null,
         "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "HamishMacEwan",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/HamishMacEwan/7bc8414df4e9b67add64a3efa4ae6419",
+        "service": "github"
       }
     ],
     "address": {
@@ -73,13 +73,13 @@
       "identifier": "hamish.macewan",
       "proof_url": "https://www.facebook.com/hamish.macewan/posts/10153528993326770",
       "service": "facebook",
-      "valid": true
+      "valid": false
     },
     {
       "identifier": "HamishMacEwan",
-      "proof_url": "https://gist.github.com/HamishMacEwan/37f8ca6a53cd8b0f8d848bae56b333b0",
+      "proof_url": "https://gist.github.com/HamishMacEwan/7bc8414df4e9b67add64a3efa4ae6419",
       "service": "github",
-      "valid": false
+      "valid": true
     }
   ],
   "zone_file": "$ORIGIN hamishmacewan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hamishmacewan.id\"\n"
