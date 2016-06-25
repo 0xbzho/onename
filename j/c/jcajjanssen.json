@@ -1,0 +1,67 @@
+{
+  "owner_address": "1P1iUDEyMjBbuyLfs6JnAhvhAe3yTc6rFT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jcajjanssen",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jcajjanssen/status/739955184361742336",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jcajjanssen",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jcajjanssen/posts/1398771176816321",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jcajjanssen",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jcajjanssen/2bb0d464bd888ad672d0e30b186080c7",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Eemnes"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jcajjanssen",
+        "name": "avatar"
+      }
+    ],
+    "name": "Joost Janssen"
+  },
+  "verifications": [
+    {
+      "identifier": "jcajjanssen",
+      "proof_url": "https://twitter.com/jcajjanssen/status/739955184361742336",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jcajjanssen",
+      "proof_url": "https://www.facebook.com/jcajjanssen/posts/1398771176816321",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "jcajjanssen",
+      "proof_url": "https://gist.github.com/jcajjanssen/2bb0d464bd888ad672d0e30b186080c7",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jcajjanssen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jcajjanssen.id\"\n"
+}
