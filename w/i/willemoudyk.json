@@ -1,0 +1,50 @@
+{
+  "owner_address": "1K6CB4up2SDkh6sfVbkm189Ar7JA5gfStZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "willemoudyk",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Bwillemoudyk%20is%20my%20blockchain%20ID.%20https://onename.com/willemoudyk",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "willem.oudyk",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/willemoudyk&redirect_uri=https://onename.com/willemoudyk%23facebook",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Australia"
+    },
+    "description": "http://au.linkedin.com/pub/willem-oudyk/18/a40/155",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "willem oudyk"
+  },
+  "verifications": [
+    {
+      "identifier": "willemoudyk",
+      "proof_url": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Bwillemoudyk%20is%20my%20blockchain%20ID.%20https://onename.com/willemoudyk",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "willem.oudyk",
+      "proof_url": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/willemoudyk&redirect_uri=https://onename.com/willemoudyk%23facebook",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN willemoudyk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/willemoudyk.id\"\n"
+}
