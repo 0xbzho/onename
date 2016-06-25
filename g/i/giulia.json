@@ -1,0 +1,73 @@
+{
+  "owner_address": "1P8eCQ7kBw3Wgia4p3sg7VWHsc3qvvMPhY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "giuliaforsythe",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/giuliaforsythe/status/740632273943465984",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "giuliaforsythe",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/giuliaforsythe/b2cb863b50cae1694f1e80558e6a4900",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gforsythe",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/gforsythe/posts/10157012302890344?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Niagara, Ontario, Canada"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/giulia",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/giulia",
+        "name": "avatar"
+      }
+    ],
+    "name": "Giulia Forsythe",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://gforsythe.ca"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "giuliaforsythe",
+      "proof_url": "https://twitter.com/giuliaforsythe/status/740632273943465984",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "giuliaforsythe",
+      "proof_url": "https://gist.github.com/giuliaforsythe/b2cb863b50cae1694f1e80558e6a4900",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "gforsythe",
+      "proof_url": "https://www.facebook.com/gforsythe/posts/10157012302890344?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN giulia.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/giulia.id\"\n"
+}
