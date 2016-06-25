@@ -1,0 +1,80 @@
+{
+  "owner_address": "168DGRCkXqyWV9d1Saf55MqRADxJweeRAx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1MPL2ifs6UsJ6Tv38ZzsRaFXRWeHYKUZGQ",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "moustachu",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/moustachu/8d52d0acbce886fa3fc017bea67c4d09",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "_moustachu",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/_moustachu/status/736136404057653248",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "moustachu.net",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/moustachu.net/posts/10154246148927430",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris"
+    },
+    "description": "DevOps",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/moustachu",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/moustachu",
+        "name": "cover"
+      }
+    ],
+    "name": "Alain Buchotte",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://moustachu.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "moustachu",
+      "proof_url": "https://gist.github.com/moustachu/8d52d0acbce886fa3fc017bea67c4d09",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "_moustachu",
+      "proof_url": "https://twitter.com/_moustachu/status/736136404057653248",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "moustachu.net",
+      "proof_url": "https://www.facebook.com/moustachu.net/posts/10154246148927430",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN moustachu.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/moustachu.id\"\n"
+}
