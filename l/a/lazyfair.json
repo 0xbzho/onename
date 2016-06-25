@@ -1,0 +1,78 @@
+{
+  "owner_address": "1BF11YCLx25oeYzLgxRSvx1ABDpkTk74D5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "fairestlazy",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/fairestlazy/posts/122330568189942",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "BlondePadawan",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BlondePadawan/status/741910661836374016",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "13RRoGYa2rygMkt7T2smibwiMZivhS7Uog",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fairestlazy",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/fairestlazy/070c4323ffba0ffea46df7b1bb1af099",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "5f67a31349a03ec3e92a42727cd409c4071d4451",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boise, ID"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/lazyfair",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/lazyfair",
+        "name": "cover"
+      }
+    ],
+    "name": "V"
+  },
+  "verifications": [
+    {
+      "identifier": "fairestlazy",
+      "proof_url": "https://www.facebook.com/fairestlazy/posts/122330568189942",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "BlondePadawan",
+      "proof_url": "https://twitter.com/BlondePadawan/status/741910661836374016",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "fairestlazy",
+      "proof_url": "https://gist.github.com/fairestlazy/070c4323ffba0ffea46df7b1bb1af099",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN lazyfair.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lazyfair.id\"\n"
+}
