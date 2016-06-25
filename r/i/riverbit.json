@@ -1,0 +1,61 @@
+{
+  "owner_address": "1Duetwyz9TMc6fzMEesR5eSmoKUeGGc5Gy",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1ENjsuCnKv6a1jqrVH53m7gyh6LDirs6sW",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "riverbit",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/riverbit/d8a2f0a27f190a860493953938c6e620",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "775b854d69bbd0c2fbd1ff5680c46d020d35bc50",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/raycrowley/8726103d75f2fcf854ffbd3b740e9c43",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/riverbit",
+        "identifier": "E75CAA4362C9FBF7952CB2A3DB7CFA0170FD023C",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "The Netherlands"
+    },
+    "description": "Background image by The City of Toronto, CC BY 2.0. Image has been modified.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/riverbit",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/riverbit",
+        "name": "avatar"
+      }
+    ],
+    "name": "Bastiaan"
+  },
+  "verifications": [
+    {
+      "identifier": "riverbit",
+      "proof_url": "https://gist.github.com/riverbit/d8a2f0a27f190a860493953938c6e620",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN riverbit.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/riverbit.id\"\n"
+}
