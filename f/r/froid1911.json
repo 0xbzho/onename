@@ -1,0 +1,68 @@
+{
+  "owner_address": "1LCVMfNuYVLhCyiKipDpYSyuQPhiDAMve8",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "froid1911",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/froid1911/status/740850722124771328",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "froid1911",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/froid1911/posts/10204979610809794?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "froid1911",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/froid1911/4aa2cfca6f7fbf146e77d1bde133f627",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Göttingen, Germany"
+    },
+    "description": "Business Computing, Georg-August-University",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/froid1911",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/froid1911",
+        "name": "cover"
+      }
+    ],
+    "name": "Frank Pfeift"
+  },
+  "verifications": [
+    {
+      "identifier": "froid1911",
+      "proof_url": "https://twitter.com/froid1911/status/740850722124771328",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "froid1911",
+      "proof_url": "https://www.facebook.com/froid1911/posts/10204979610809794?pnref=story",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "froid1911",
+      "proof_url": "https://gist.github.com/froid1911/4aa2cfca6f7fbf146e77d1bde133f627",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN froid1911.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/froid1911.id\"\n"
+}
