@@ -1,0 +1,48 @@
+{
+  "owner_address": "13G4QpJqBi3QzwdBM2sW9eoMoandb971Ci",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1FC9DHrCzAH63ehH129ZHkMqM7R5Jegetw",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "onlineobserver",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Bmartinfuchs%20is%20my%20blockchain%20ID.%20https://onename.com/martinfuchs",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Tel-Aviv, Israel"
+    },
+    "description": "SaaS sales professional and fan of the future",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/martinfuchs",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/martinfuchs",
+        "name": "cover"
+      }
+    ],
+    "name": "Martin Fuchs"
+  },
+  "verifications": [
+    {
+      "identifier": "onlineobserver",
+      "proof_url": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Bmartinfuchs%20is%20my%20blockchain%20ID.%20https://onename.com/martinfuchs",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN martinfuchs.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/martinfuchs.id\"\n"
+}
