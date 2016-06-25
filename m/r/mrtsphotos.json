@@ -1,0 +1,61 @@
+{
+  "owner_address": "1LBzLx9Vw6hi6Dh4p2ZRfqDLPMzm3mqYr",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Mrtscomputers",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/Mrtscomputers",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "localtopmodels",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/localtopmodels",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ashland,KY"
+    },
+    "description": "Computer Tech, Photographer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mrtsphotos",
+        "name": "avatar"
+      }
+    ],
+    "name": "Mr. Thornton",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://MrTsPhotography.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Mrtscomputers",
+      "proof_url": "https://www.facebook.com/Mrtscomputers",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "localtopmodels",
+      "proof_url": "https://twitter.com/localtopmodels",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mrtsphotos.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mrtsphotos.id\"\n"
+}
