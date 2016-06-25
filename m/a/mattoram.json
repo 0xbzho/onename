@@ -1,0 +1,60 @@
+{
+  "owner_address": "16zMCBqqKkhBkamwgNSP68h4M97fmUzcaJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "matt0ram",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Matt0ram/status/740688369072668672",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "matt0ram",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/matt0ram/posts/10153635559681439",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Tring, UK"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mattoram",
+        "name": "avatar"
+      }
+    ],
+    "name": "Matt Oram",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://mattoram.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "matt0ram",
+      "proof_url": "https://twitter.com/Matt0ram/status/740688369072668672",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "matt0ram",
+      "proof_url": "https://www.facebook.com/matt0ram/posts/10153635559681439",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mattoram.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mattoram.id\"\n"
+}
