@@ -1,0 +1,73 @@
+{
+  "owner_address": "16ZV56woZqfQ8zE5qBJi6bsw6GQAEDyVV2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "lorenz_li",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/lorenz_li/status/740820556455530496",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "schmid.lorenz",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/schmid.lorenz/posts/10208512757229116?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lorenzschmid",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/lorenzschmid/bdc3c0bb336bde480cf24c86b15d3772",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/lorenzschmid/key.asc",
+        "identifier": "720317353EEEE027D795519791940C297CCA4471",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Geneva, Switzerland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/lorenzschmid",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/lorenzschmid",
+        "name": "cover"
+      }
+    ],
+    "name": "Lorenz Schmid"
+  },
+  "verifications": [
+    {
+      "identifier": "lorenz_li",
+      "proof_url": "https://twitter.com/lorenz_li/status/740820556455530496",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "schmid.lorenz",
+      "proof_url": "https://www.facebook.com/schmid.lorenz/posts/10208512757229116?pnref=story",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "lorenzschmid",
+      "proof_url": "https://gist.github.com/lorenzschmid/bdc3c0bb336bde480cf24c86b15d3772",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN lorenzschmid.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lorenzschmid.id\"\n"
+}
