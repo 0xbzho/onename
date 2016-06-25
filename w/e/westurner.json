@@ -1,0 +1,55 @@
+{
+  "owner_address": "1K7efYjAugycfPrgxtdSU1p6x2gjeDtdBh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "westurner",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/westurner/1d025efe587d06f8b6dace4bc99e3410",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "westurner",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/westurner/status/741702761050300417",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Omaha, Nebraska, USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Wes Turner",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://westurner.org"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "westurner",
+      "proof_url": "https://gist.github.com/westurner/1d025efe587d06f8b6dace4bc99e3410",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "westurner",
+      "proof_url": "https://twitter.com/westurner/status/741702761050300417",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN westurner.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/westurner.id\"\n"
+}
