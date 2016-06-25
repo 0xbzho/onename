@@ -1,0 +1,69 @@
+{
+  "owner_address": "19ACL3U8iuZvKy1AHG2FSkHWPsda6k6ZGh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "satonaoki",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/satonaoki/status/740443845108830211",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "satonaoki",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/satonaoki/posts/10153987483381943",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "satonaoki",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/satonaoki/84f5c42b8f3903f93f96317c85bbd4ce",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Tokyo"
+    },
+    "description": "Azure Technologist, Microsoft Japan",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "SATO Naoki/さとうなおき",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://satonaoki.wordpress.com/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "satonaoki",
+      "proof_url": "https://twitter.com/satonaoki/status/740443845108830211",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "satonaoki",
+      "proof_url": "https://www.facebook.com/satonaoki/posts/10153987483381943",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "satonaoki",
+      "proof_url": "https://gist.github.com/satonaoki/84f5c42b8f3903f93f96317c85bbd4ce",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN satonaoki.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/satonaoki.id\"\n"
+}
