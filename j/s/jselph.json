@@ -1,0 +1,54 @@
+{
+  "owner_address": "12Ly6hW6JKEv8ukfzts3ctd4DqBmu6qY5C",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "JasonDidIt",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JasonDidIt/status/740857509817266176",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jasonstx",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jasonstx/posts/10208972393883590",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Dallas / Philadelphia / London"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jselph",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jselph",
+        "name": "cover"
+      }
+    ],
+    "name": "Jason Selph"
+  },
+  "verifications": [
+    {
+      "identifier": "JasonDidIt",
+      "proof_url": "https://twitter.com/JasonDidIt/status/740857509817266176",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jasonstx",
+      "proof_url": "https://www.facebook.com/jasonstx/posts/10208972393883590",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jselph.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jselph.id\"\n"
+}
