@@ -1,0 +1,44 @@
+{
+  "owner_address": "1KR4pTeatgdG3BvZJmmYLsBMeaDjGmcmsX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "lisaellwood",
+        "proofType": "http",
+        "proofUrl": "https://mobile.twitter.com/LisaEllwood/status/740719108233302016",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lisa.ellwood.90",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/lisa.ellwood.90/posts/10154865242415021",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "lisaellwood",
+      "proof_url": "https://mobile.twitter.com/LisaEllwood/status/740719108233302016",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "lisa.ellwood.90",
+      "proof_url": "https://www.facebook.com/lisa.ellwood.90/posts/10154865242415021",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN lisaellwood.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lisaellwood.id\"\n"
+}
