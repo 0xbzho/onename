@@ -1,0 +1,55 @@
+{
+  "owner_address": "1AKDBn8w92Cym84zv2QUUNmRtXWiT4nyaj",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "12sv84FWhgfvtpZwpVeTsFNnF6tHxVizt2",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jsimpson0",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Jsimpson0/status/739639819979096065",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ben.simpson.31586",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ben.simpson.31586/posts/10100652946342801?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jsimpson0",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jsimpson0",
+      "proof_url": "https://twitter.com/Jsimpson0/status/739639819979096065",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ben.simpson.31586",
+      "proof_url": "https://www.facebook.com/ben.simpson.31586/posts/10100652946342801?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jsimpson0.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jsimpson0.id\"\n"
+}
