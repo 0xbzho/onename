@@ -1,0 +1,44 @@
+{
+  "owner_address": "17W4GHCwdRFedNM2msfvASoidT7sMzk896",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "fabiolocascio",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/fabiolocascio/status/740836018249687042",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fabio.sc.locascio",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/l.php?u=https%3A%2F%2Fonename.com%2Ftheofil&h=rAQFdaT3k&s=1",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "fabiolocascio",
+      "proof_url": "https://twitter.com/fabiolocascio/status/740836018249687042",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "fabio.sc.locascio",
+      "proof_url": "https://www.facebook.com/l.php?u=https%3A%2F%2Fonename.com%2Ftheofil&h=rAQFdaT3k&s=1",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN theofil.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/theofil.id\"\n"
+}
