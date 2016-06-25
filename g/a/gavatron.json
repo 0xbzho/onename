@@ -1,0 +1,38 @@
+{
+  "owner_address": "1Bi9Km147GnT7ChrLjy2wZEwPuEocERmzi",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gavatron",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gavatron/status/740728757456142336",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Gavan Watson",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.gavan.ca/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "gavatron",
+      "proof_url": "https://twitter.com/gavatron/status/740728757456142336",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN gavatron.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gavatron.id\"\n"
+}
