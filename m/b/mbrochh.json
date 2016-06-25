@@ -1,0 +1,55 @@
+{
+  "owner_address": "12CvibeYXVBoQ5Vsm8j98VxRVhxh7ps2f2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mbrochh",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mbrochh/status/740679499415572480",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mbrochh",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mbrochh/273a16241eaa414aca595e4c50812582",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Singapore"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Martin Brochhaus",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://martinbrochhaus.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mbrochh",
+      "proof_url": "https://twitter.com/mbrochh/status/740679499415572480",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mbrochh",
+      "proof_url": "https://gist.github.com/mbrochh/273a16241eaa414aca595e4c50812582",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mbrochh.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mbrochh.id\"\n"
+}
