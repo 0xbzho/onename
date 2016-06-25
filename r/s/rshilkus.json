@@ -1,0 +1,49 @@
+{
+  "owner_address": "1AhL1hsWyGRCkfp9NhmWgoy2vQY5ewxHud",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "RichardShilkus",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/RichardShilkus/posts/10154932337629377?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "RichardShilkus",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RichardShilkus/status/744339845196054529",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chicago"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Richard Shilkus"
+  },
+  "verifications": [
+    {
+      "identifier": "RichardShilkus",
+      "proof_url": "https://www.facebook.com/RichardShilkus/posts/10154932337629377?pnref=story",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "RichardShilkus",
+      "proof_url": "https://twitter.com/RichardShilkus/status/744339845196054529",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rshilkus.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rshilkus.id\"\n"
+}
