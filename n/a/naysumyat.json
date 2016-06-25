@@ -1,0 +1,56 @@
+{
+  "owner_address": "1LzagCEueLhNVaDjuGimPJtyjUUnR94c5V",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "naysumyat",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/naysumyat/status/743846869063761920",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ilovesumyatmaw",
+        "proofType": "http",
+        "proofUrl": "https://web.facebook.com/ilovesumyatmaw/posts/1193092577381995",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Yangon,Myanmar"
+    },
+    "description": "I am a Programmer who love  to build awesome things...",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Nay Lin Aung",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://naysumyat.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "naysumyat",
+      "proof_url": "https://twitter.com/naysumyat/status/743846869063761920",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "ilovesumyatmaw",
+      "proof_url": "https://web.facebook.com/ilovesumyatmaw/posts/1193092577381995",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN naysumyat.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/naysumyat.id\"\n"
+}
