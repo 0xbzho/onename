@@ -1,0 +1,37 @@
+{
+  "owner_address": "1HbYaF9NouDXHYUJBNg5VSLfuNNwvbEV96",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jubaloo_",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jubaloo_/status/741335595453194240",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jubaloo",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jubaloo",
+        "name": "cover"
+      }
+    ],
+    "name": "Julie"
+  },
+  "verifications": [
+    {
+      "identifier": "jubaloo_",
+      "proof_url": "https://twitter.com/jubaloo_/status/741335595453194240",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jubaloo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jubaloo.id\"\n"
+}
