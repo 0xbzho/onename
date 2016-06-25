@@ -1,0 +1,38 @@
+{
+  "owner_address": "1K6p2hDENr5u582AzybuC3cuHXm8VqMLzm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "stevetout",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Poulsbo, WA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/stevetout",
+        "name": "avatar"
+      }
+    ],
+    "name": "Steve",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.stevetout.com"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN stevetout.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stevetout.id\"\n"
+}
