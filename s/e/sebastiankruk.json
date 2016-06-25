@@ -1,0 +1,47 @@
+{
+  "owner_address": "1G7skydStfq7pGiPN3A3PWZ1Um68RAFYes",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "skruk",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/skruk/status/740757064092405760",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Gdansk, Poland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sebastiankruk",
+        "name": "avatar"
+      }
+    ],
+    "name": "Sebastian Ryszard Kruk",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.kruk.me/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "skruk",
+      "proof_url": "https://twitter.com/skruk/status/740757064092405760",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN sebastiankruk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sebastiankruk.id\"\n"
+}
