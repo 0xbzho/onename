@@ -1,0 +1,85 @@
+{
+  "owner_address": "121U9BVgvNdViYswKT2QsixiuWp54ypkgA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "paudley",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/paudley/6634e0acfb4fc78a5988efe07d43990c",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "paudley",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/paudley/status/744618659851567104",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/paudley",
+        "identifier": "CA8592E3F5E06BC2079779B66C2E7A6C9C162447",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "17Js6R3LM89UvFGDGv2USpxZUspJ143RYA",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "paudley",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/paudley/posts/10154071937845339",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Vancouver, BC"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/paudley",
+        "name": "avatar"
+      }
+    ],
+    "name": "Patrick Colm Audley",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://patrickaudley.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "paudley",
+      "proof_url": "https://gist.github.com/paudley/6634e0acfb4fc78a5988efe07d43990c",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "paudley",
+      "proof_url": "https://twitter.com/paudley/status/744618659851567104",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "paudley",
+      "proof_url": "https://www.facebook.com/paudley/posts/10154071937845339",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN paudley.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/paudley.id\"\n"
+}
