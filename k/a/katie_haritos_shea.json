@@ -1,0 +1,41 @@
+{
+  "owner_address": "1LyvFARZbXfc2a3G8P7piJf7jPUhbD8RtS",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Katie.Haritos.Shea",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Ryladog",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Bkatie_haritos_shea%20is%20my%20blockchain%20ID.%20https://onename.com/katie_haritos_shea",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/katie_haritos_shea",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Ryladog",
+      "proof_url": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Bkatie_haritos_shea%20is%20my%20blockchain%20ID.%20https://onename.com/katie_haritos_shea",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN katie_haritos_shea.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/katie_haritos_shea.id\"\n"
+}
