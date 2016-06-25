@@ -1,0 +1,60 @@
+{
+  "owner_address": "13Cj5AfxjqazfSZMQu8uvwQGGFCqtzXKXg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mmmoret",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MMMoret/status/735040977887432704",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "moretm",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/moretm/posts/1127003247349723",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Utrecht, The Netherlands"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mmoret",
+        "name": "avatar"
+      }
+    ],
+    "name": "Martijn Moret",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.dataprotection.nu/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mmmoret",
+      "proof_url": "https://twitter.com/MMMoret/status/735040977887432704",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "moretm",
+      "proof_url": "https://www.facebook.com/moretm/posts/1127003247349723",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mmoret.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mmoret.id\"\n"
+}
