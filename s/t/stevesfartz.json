@@ -1,0 +1,61 @@
+{
+  "owner_address": "17qn7TrHKYLyZjyACwyH7d6MY19dWSixot",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "SteveSfartz",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SteveSfartz/status/737586130426597378",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ObjectIsAdvantag",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ObjectIsAdvantag/e53e010af8aec049762cfdbb4bcfacf7",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nantes"
+    },
+    "description": "API Evangelist @CiscoDevNet",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/stevesfartz",
+        "name": "avatar"
+      }
+    ],
+    "name": "Stève Sfartz",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://twitter.com/SteveSfartz"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "SteveSfartz",
+      "proof_url": "https://twitter.com/SteveSfartz/status/737586130426597378",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ObjectIsAdvantag",
+      "proof_url": "https://gist.github.com/ObjectIsAdvantag/e53e010af8aec049762cfdbb4bcfacf7",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN stevesfartz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stevesfartz.id\"\n"
+}
