@@ -1,0 +1,49 @@
+{
+  "owner_address": "1DF9jwQRa3CsnzucnVop84dioimHkUHrnB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "transcendlabsin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/transcendlabsin/status/735477345067270144",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "transcendlabs",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/transcendlabs/3c74eec45c6372e75ab8bb638949f927",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bangalore, India"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Transcend Labs"
+  },
+  "verifications": [
+    {
+      "identifier": "transcendlabsin",
+      "proof_url": "https://twitter.com/transcendlabsin/status/735477345067270144",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "transcendlabs",
+      "proof_url": "https://gist.github.com/transcendlabs/3c74eec45c6372e75ab8bb638949f927",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN transcendlabs.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/transcendlabs.id\"\n"
+}
