@@ -1,0 +1,75 @@
+{
+  "owner_address": "12hDqmHiEtZXGpenUQJoewUfq7oVZQ1pQC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/8e341d84ebac5ff1dce817caaa2a497b",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "derek.wong.58555",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/derek.wong.58555/posts/10156966584155324?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "derek_mw",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Derek_MW/status/740746770892754944",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1NeJ3ikpT4hoftNmJriAhF5shFUeunMKy2",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/derekwong",
+        "identifier": null,
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Canada"
+    },
+    "description": "Boxeo, BTCer, Businessman, Ba",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Derek Wong"
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/8e341d84ebac5ff1dce817caaa2a497b",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "derek.wong.58555",
+      "proof_url": "https://www.facebook.com/derek.wong.58555/posts/10156966584155324?pnref=story",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "derek_mw",
+      "proof_url": "https://twitter.com/Derek_MW/status/740746770892754944",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN derekwong.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/derekwong.id\"\n"
+}
