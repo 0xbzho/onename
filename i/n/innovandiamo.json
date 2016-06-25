@@ -1,0 +1,42 @@
+{
+  "owner_address": "1BHkQFELP5otAzA9UorNH14eKCFoXSY6y8",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "innovandiamo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Innovandiamo/status/741407940465266688",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/innovandiamo",
+        "name": "avatar"
+      }
+    ],
+    "name": "Francesco Carollo",
+    "website": []
+  },
+  "verifications": [
+    {
+      "identifier": "innovandiamo",
+      "proof_url": "https://twitter.com/Innovandiamo/status/741407940465266688",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN innovandiamo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/innovandiamo.id\"\n"
+}
