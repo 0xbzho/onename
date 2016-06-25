@@ -1,0 +1,74 @@
+{
+  "owner_address": "12bmEWo5VJu9R7wKM8WDCoSKED5WGK2yVq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "phr_eidentity",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/phr_eidentity/status/740471403128856576",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fujie",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/fujie/cce556db2a15ca7cbc4c7d2724d194ff",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "naohiro.fujie",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/naohiro.fujie/posts/1045225658846031",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Japan"
+    },
+    "description": "Identitiani",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nfujie",
+        "name": "avatar"
+      }
+    ],
+    "name": "Naohiro Fujie",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://idmlab.eidentity.jp"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "phr_eidentity",
+      "proof_url": "https://twitter.com/phr_eidentity/status/740471403128856576",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "fujie",
+      "proof_url": "https://gist.github.com/fujie/cce556db2a15ca7cbc4c7d2724d194ff",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "naohiro.fujie",
+      "proof_url": "https://www.facebook.com/naohiro.fujie/posts/1045225658846031",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN nfujie.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nfujie.id\"\n"
+}
