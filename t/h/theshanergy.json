@@ -1,0 +1,31 @@
+{
+  "owner_address": "15o8EwxDs2ZNExrmGinQ35ELxk1kZbRAqz",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "theshanergy",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/theshanergy/7ce44e7621721fb6206c72932dc6ffbe",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "theshanergy",
+      "proof_url": "https://gist.github.com/theshanergy/7ce44e7621721fb6206c72932dc6ffbe",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN theshanergy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/theshanergy.id\"\n"
+}
