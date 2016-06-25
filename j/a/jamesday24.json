@@ -1,0 +1,48 @@
+{
+  "owner_address": "1BusVdHNfAbJoCvbd1SVkaypbEnTHUA3Me",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jamesday24",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jamesday24/status/741345964926074880",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Daytona Beach"
+    },
+    "description": "Electronic Services Librarian at Embry-Riddle Aeronautical University",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jamesday24",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jamesday24",
+        "name": "cover"
+      }
+    ],
+    "name": "James Day",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://jamesday.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jamesday24",
+      "proof_url": "https://twitter.com/jamesday24/status/741345964926074880",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jamesday24.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jamesday24.id\"\n"
+}
