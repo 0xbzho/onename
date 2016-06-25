@@ -1,1 +1,41 @@
-null
+{
+  "owner_address": "1JmyKY9cRWFxYQRYqR8iYmVzjmV4myXiRm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "la_bec_star",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/la_bec_star/status/729972162388463616",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "France"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rebeccagarnett",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rebeccagarnett",
+        "name": "avatar"
+      }
+    ],
+    "name": "Rebecca Garnett"
+  },
+  "verifications": [
+    {
+      "identifier": "la_bec_star",
+      "proof_url": "https://twitter.com/la_bec_star/status/729972162388463616",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rebeccagarnett.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rebeccagarnett.id\"\n"
+}
