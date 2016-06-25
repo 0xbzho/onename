@@ -1,0 +1,60 @@
+{
+  "owner_address": "1FM2fjqm6BzZeFFguqMYY97WbJNp7rXYqT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "S_Tschauner",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/S_Tschauner/status/740924941701382146",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sebastian.tschauner",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/sebastian.tschauner/posts/10201876193303306",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1PbxQKXZD9YEhQihFBDJp1wDXfuMrZaVQV",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Graz, Austria"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tschauner_s",
+        "name": "avatar"
+      }
+    ],
+    "name": "Sebastian Tschauner"
+  },
+  "verifications": [
+    {
+      "identifier": "S_Tschauner",
+      "proof_url": "https://twitter.com/S_Tschauner/status/740924941701382146",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "sebastian.tschauner",
+      "proof_url": "https://www.facebook.com/sebastian.tschauner/posts/10201876193303306",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tschauner_s.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tschauner_s.id\"\n"
+}
