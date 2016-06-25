@@ -1,0 +1,31 @@
+{
+  "owner_address": "1K3eYqubDekWwftitxp3bvPEngRsmMriDN",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gregroebuck",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gregroebuck/status/738262945713397760",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "gregroebuck",
+      "proof_url": "https://twitter.com/gregroebuck/status/738262945713397760",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN gregroebuck.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gregroebuck.id\"\n"
+}
