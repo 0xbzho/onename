@@ -1,0 +1,51 @@
+{
+  "owner_address": "17cYapdrQgTiRDhHuBrWWSV4SsHU74xmxk",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mathieuguille",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mathieuguille/status/741215318777974784",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mathieuguille",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mathieuguille/f6d9f6aeccad6f02177326b860d823e0#file-gistfile1-txt",
+        "service": "github"
+      }
+    ],
+    "description": "Technology, economy, finance, VC. Think *truthfully* for yourself.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mathieuguille",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mathieuguille",
+        "name": "cover"
+      }
+    ],
+    "name": "Mathieu Guille"
+  },
+  "verifications": [
+    {
+      "identifier": "mathieuguille",
+      "proof_url": "https://twitter.com/mathieuguille/status/741215318777974784",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mathieuguille",
+      "proof_url": "https://gist.github.com/mathieuguille/f6d9f6aeccad6f02177326b860d823e0#file-gistfile1-txt",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mathieuguille.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mathieuguille.id\"\n"
+}
