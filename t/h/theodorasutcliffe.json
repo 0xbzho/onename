@@ -1,0 +1,44 @@
+{
+  "owner_address": "12BkPygDz8wv28coKmL9HvDMapck9jyyoK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "EscapeArtistes",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/escapeartistes/status/742017595679727616",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "theodorasutcliffe",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/theodora.sutcliffe/posts/1206291752716844?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "EscapeArtistes",
+      "proof_url": "https://twitter.com/escapeartistes/status/742017595679727616",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "theodorasutcliffe",
+      "proof_url": "https://www.facebook.com/theodora.sutcliffe/posts/1206291752716844?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN theodorasutcliffe.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/theodorasutcliffe.id\"\n"
+}
