@@ -1,0 +1,31 @@
+{
+  "owner_address": "18PPZUpL5a6horEiBuvuvrZeHtqe4e7Yo6",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "manglematter",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/manglematter/ab1719d1be0b2ec7041d5af98e3d2f2c",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "manglematter",
+      "proof_url": "https://gist.github.com/manglematter/ab1719d1be0b2ec7041d5af98e3d2f2c",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN manglematter.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/manglematter.id\"\n"
+}
