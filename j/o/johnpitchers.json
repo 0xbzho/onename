@@ -1,0 +1,53 @@
+{
+  "owner_address": "1FUt3yCz3ZNbJyBzYVENJtZb9XcZFNmNsg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1JoomLaU2X6X6686LTeN4kzvNswYyhZo6Z",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "johnpitchers",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/johnpitchers/status/740859752394018816",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Western Australia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/johnpitchers",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/johnpitchers",
+        "name": "cover"
+      }
+    ],
+    "name": "John Pitchers",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://viperfish.com.au"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "johnpitchers",
+      "proof_url": "https://twitter.com/johnpitchers/status/740859752394018816",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN johnpitchers.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/johnpitchers.id\"\n"
+}
