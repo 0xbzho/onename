@@ -1,0 +1,60 @@
+{
+  "owner_address": "17jRFy6cxw7eeJEPDtjhTfZbpUWMKbearn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Jtdameron",
+        "proofType": "http",
+        "proofUrl": "https://m.facebook.com/story.php?story_fbid=10108684531910251&id=2031606&fs=4&ref=bookmarks",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Themysteryinc",
+        "proofType": "http",
+        "proofUrl": "https://mobile.twitter.com/themysteryinc/status/740353585246965760",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Austin, tx"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/shaggy",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/shaggy",
+        "name": "cover"
+      }
+    ],
+    "name": "Jason Dameron",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.themysteryinc.org"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Jtdameron",
+      "proof_url": "https://m.facebook.com/story.php?story_fbid=10108684531910251&id=2031606&fs=4&ref=bookmarks",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "Themysteryinc",
+      "proof_url": "https://mobile.twitter.com/themysteryinc/status/740353585246965760",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN shaggy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/shaggy.id\"\n"
+}
