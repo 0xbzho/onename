@@ -1,44 +1,76 @@
 {
   "owner_address": "1LEPv3VW7L14kRAVL4GNBw6fgi1fZPVoUH",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/jenniferwilliams"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/ic1.jpeg"
-    },
-    "facebook": {
-      "username": "jennifer.williams.031878"
-    },
-    "github": {
-      "proof": {
-        "url": "https://github.com/orgs/ArcadeCityJenny/dashboard"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1Q3p3HSEWtckzqydvRdMaox5ozNk3yRA1t",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "https:"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/jenniferwilliams"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/arcadecityjenny/status/705611788595941376"
+      {
+        "@type": "Account",
+        "identifier": "ArcadeCityHelp",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ArcadeCityHelp/status/743932239759740928",
+        "service": "twitter"
       },
-      "username": "arcadecityjenny"
-    },
-    "v": "0.2"
+      {
+        "@type": "Account",
+        "identifier": "jenniferwilliams509",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jenniferwilliams509/52711a92ad6c7eea1696e6ae0a316f14",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ArcadeCitySupport",
+        "proofType": "http",
+        "proofUrl": "https://m.facebook.com/story.php?story_fbid=197233494007373&id=100011621706123",
+        "service": "facebook"
+      }
+    ],
+    "description": "Director of Support, Arcade City",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jenniferwilliams",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jennifer Williams",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://arcadecity.desk.com"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "https:",
-      "proof_url": "https://github.com/orgs/ArcadeCityJenny/dashboard",
-      "service": "github",
-      "valid": false
-    },
-    {
-      "identifier": "arcadecityjenny",
-      "proof_url": "https://twitter.com/arcadecityjenny/status/705611788595941376",
+      "identifier": "ArcadeCityHelp",
+      "proof_url": "https://twitter.com/ArcadeCityHelp/status/743932239759740928",
       "service": "twitter",
       "valid": true
+    },
+    {
+      "identifier": "jenniferwilliams509",
+      "proof_url": "https://gist.github.com/jenniferwilliams509/52711a92ad6c7eea1696e6ae0a316f14",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "ArcadeCitySupport",
+      "proof_url": "https://m.facebook.com/story.php?story_fbid=197233494007373&id=100011621706123",
+      "service": "facebook",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN jenniferwilliams.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jenniferwilliams.id\"\n"
 }
