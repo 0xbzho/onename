@@ -1,0 +1,61 @@
+{
+  "owner_address": "19iNGRjTySckRwzwPhXoq4isNicPttpQGs",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "freshnode",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/freshnode/status/740777595697037312",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "playeren",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/playeren/e952eeb14d310f400299fd330a91bf94",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "3AKpnYRUYP1CC4Zg6LxMLVTubnEVA2RJJ6",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Copenhagen"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "John MHM",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://freshnode.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "freshnode",
+      "proof_url": "https://twitter.com/freshnode/status/740777595697037312",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "playeren",
+      "proof_url": "https://gist.github.com/playeren/e952eeb14d310f400299fd330a91bf94",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN freshnode.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/freshnode.id\"\n"
+}
