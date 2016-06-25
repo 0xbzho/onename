@@ -1,0 +1,49 @@
+{
+  "owner_address": "1HubZiLUSU93fUwEyVaf6FUgAsb622w5ss",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "madewithtea",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/madewithtea/status/741944348095467520",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jpzk",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jpzk/2a00bdf7d8d8d6bf9bc4c818747cc38f",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jendrik",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jendrik",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "madewithtea",
+      "proof_url": "https://twitter.com/madewithtea/status/741944348095467520",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "jpzk",
+      "proof_url": "https://gist.github.com/jpzk/2a00bdf7d8d8d6bf9bc4c818747cc38f",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jendrik.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jendrik.id\"\n"
+}
