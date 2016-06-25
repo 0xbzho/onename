@@ -1,0 +1,67 @@
+{
+  "owner_address": "1NpbBWsfMcBCUgCrv5fh1HrcEmxZyWwHaS",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "pacapaul",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/pacapaul/c4250bce0df8a5d0ef351a4d5cb3c243",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1ENU5Xa8qsjTVqxHY81afc3xYp5WMcfc76",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "@paulbellizzi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/paulbellizzi/status/742875314125037569",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Yerington, NV"
+    },
+    "description": "Playing alpaca rancher and website monkey....",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/pacapaul",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/pacapaul",
+        "name": "cover"
+      }
+    ],
+    "name": "Paul Bellizzi",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.jewelrybysands.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "pacapaul",
+      "proof_url": "https://gist.github.com/pacapaul/c4250bce0df8a5d0ef351a4d5cb3c243",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "@paulbellizzi",
+      "proof_url": "https://twitter.com/paulbellizzi/status/742875314125037569",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN pacapaul.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pacapaul.id\"\n"
+}
