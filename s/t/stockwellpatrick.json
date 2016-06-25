@@ -1,0 +1,50 @@
+{
+  "owner_address": "1M2we8DJLSKA5nCKZKV2BSxsV87pkygjVf",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "patstockwell",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/patstockwell/status/744480187639750656",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "patrick.stockwell.9",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/patrick.stockwell.9/posts/10156935725160618",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/stockwellpatrick",
+        "name": "avatar"
+      }
+    ],
+    "name": "Patrick Stockwell"
+  },
+  "verifications": [
+    {
+      "identifier": "patstockwell",
+      "proof_url": "https://twitter.com/patstockwell/status/744480187639750656",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "patrick.stockwell.9",
+      "proof_url": "https://www.facebook.com/patrick.stockwell.9/posts/10156935725160618",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN stockwellpatrick.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stockwellpatrick.id\"\n"
+}
