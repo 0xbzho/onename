@@ -1,0 +1,61 @@
+{
+  "owner_address": "1E6sGfQFW86QRiJvePnJyf1zvM8fao7jxi",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "MichDe",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MichDe/status/743795015046963201",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "MichDe",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/MichDe/e38dfe322883e200db225802de0972fb",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "North America"
+    },
+    "description": "I can do anything... just ask @ForHireMedia.com & #SEATACINC.com",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/michde",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/michde",
+        "name": "cover"
+      }
+    ],
+    "name": "Mich De L'Orme",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://michde.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "MichDe",
+      "proof_url": "https://twitter.com/MichDe/status/743795015046963201",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "MichDe",
+      "proof_url": "https://gist.github.com/MichDe/e38dfe322883e200db225802de0972fb",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN michde.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/michde.id\"\n"
+}
