@@ -1,0 +1,31 @@
+{
+  "owner_address": "1DdwFtE59j9d72i8QFwQtcBZ88SwW6cqkV",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mhread",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Bmartin_read%20is%20my%20blockchain%20ID.%20https://onename.com/martin_read",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mhread",
+      "proof_url": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Bmartin_read%20is%20my%20blockchain%20ID.%20https://onename.com/martin_read",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN martin_read.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/martin_read.id\"\n"
+}
