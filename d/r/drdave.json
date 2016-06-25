@@ -1,0 +1,38 @@
+{
+  "owner_address": "15hNqjjUAHrHnGaHmaVzHqL2RSE17x469d",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Dave_aiello",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Dave_Aiello/status/741113092952719362",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Dave Aiello",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.token.me"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Dave_aiello",
+      "proof_url": "https://twitter.com/Dave_Aiello/status/741113092952719362",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN drdave.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/drdave.id\"\n"
+}
