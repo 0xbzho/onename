@@ -1,0 +1,49 @@
+{
+  "owner_address": "1Pz26LFKHJ5jMFzKWh7Q2dxuRhEocLwZnm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "lindner",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/lindner/status/740963848182583296",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/5bddb521b59d5bd17f029dad0e472971",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Oakland, CA USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Paul Lindner"
+  },
+  "verifications": [
+    {
+      "identifier": "lindner",
+      "proof_url": "https://twitter.com/lindner/status/740963848182583296",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/5bddb521b59d5bd17f029dad0e472971",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN lindner.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lindner.id\"\n"
+}
