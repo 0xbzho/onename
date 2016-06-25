@@ -1,0 +1,74 @@
+{
+  "owner_address": "1NtubAA9BDq5EQBbarinCRrDEZxPLYAdh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "maciekziolkowski",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/maciekziolkowski/ab2b69a5ddf28b58aed7eecbb2425930",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "satoshipl",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/satoshiPL/status/743871261181382657",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "maciekdsquared",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/MaciekDsquared/posts/1163994646977932",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Warsaw Poland"
+    },
+    "description": "Blockchain, Bitcoin AML and KYC expert at Coinfirm.io",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/maciejziolkowski",
+        "name": "avatar"
+      }
+    ],
+    "name": "Maciej Ziółkowski",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.satoshi.pl"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "maciekziolkowski",
+      "proof_url": "https://gist.github.com/maciekziolkowski/ab2b69a5ddf28b58aed7eecbb2425930",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "satoshipl",
+      "proof_url": "https://twitter.com/satoshiPL/status/743871261181382657",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "maciekdsquared",
+      "proof_url": "https://www.facebook.com/MaciekDsquared/posts/1163994646977932",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN maciejziolkowski.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/maciejziolkowski.id\"\n"
+}
