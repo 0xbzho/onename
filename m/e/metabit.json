@@ -1,0 +1,57 @@
+{
+  "owner_address": "1KCbXFHnWhx7FS83EjAmpWWTFCe9UAWyFN",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "metabit",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/metabit/ea5fc4b0479c1c3f216820e52020c1fa",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "metabitsquare",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/metabitsquare/status/741011860066054144",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "metabit",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/permalink.php?story_fbid=130658930688263&id=100012324708930",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "metabit",
+      "proof_url": "https://gist.github.com/metabit/ea5fc4b0479c1c3f216820e52020c1fa",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "metabitsquare",
+      "proof_url": "https://twitter.com/metabitsquare/status/741011860066054144",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "metabit",
+      "proof_url": "https://www.facebook.com/permalink.php?story_fbid=130658930688263&id=100012324708930",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN metabit.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/metabit.id\"\n"
+}
