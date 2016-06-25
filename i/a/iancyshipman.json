@@ -1,0 +1,46 @@
+{
+  "owner_address": "133tQfSVf7rfNNBtbJTJH5om6PqP7zbwEj",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "a22121a7caf687bfe81bca63734cb099ec126840",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1Fznvqx5oHg6VtsRU4LCFFPco81Z34WiRC",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/iancyshipman",
+        "identifier": "A966ACAF57CCCBCE3006B2CE03EA83A0377D44DC",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/iancyshipman",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/iancyshipman",
+        "name": "cover"
+      }
+    ],
+    "name": "Ian Shipman",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://gambolingpangolin.com"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN iancyshipman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/iancyshipman.id\"\n"
+}
