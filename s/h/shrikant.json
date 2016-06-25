@@ -1,0 +1,46 @@
+{
+  "owner_address": "192VZckcb8iJiMyJHN8ne3nxVLqRe4ZFFg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "shrikant-joshi",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/shrikant-joshi/13fb5015a7ba84dd54e67c0aed04f0e7",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "b75238e116bfbdf838fda77a10d4731f41d8e02b",
+        "service": "@shrikant"
+      },
+      {
+        "@type": "Account",
+        "identifier": "b75238e116bfbdf838fda77a10d4731f41d8e02b",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/shrikant",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "shrikant-joshi",
+      "proof_url": "https://gist.github.com/shrikant-joshi/13fb5015a7ba84dd54e67c0aed04f0e7",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN shrikant.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/shrikant.id\"\n"
+}
