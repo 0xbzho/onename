@@ -1,0 +1,36 @@
+{
+  "owner_address": "1PZNzHA5bvCF7gSqk95MHHEq5qEE5XGraX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Jamee Borgman",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/jameeswarm",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Austin Texas"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Douglas Jamee Borgman II"
+  },
+  "verifications": [
+    {
+      "identifier": "Jamee Borgman",
+      "proof_url": "https://onename.com/jameeswarm",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jameeswarm.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jameeswarm.id\"\n"
+}
