@@ -1,0 +1,44 @@
+{
+  "owner_address": "13WK8A8ZHKL9dP6k12MUjrnQcGXJNUWoHR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "scientia2",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/scientia2/53a69d7172cc481bda7bcfe7e557b3d5",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "scientia",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/scientia_2/status/741331697577365504",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "scientia2",
+      "proof_url": "https://gist.github.com/scientia2/53a69d7172cc481bda7bcfe7e557b3d5",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "scientia",
+      "proof_url": "https://twitter.com/scientia_2/status/741331697577365504",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN scientia.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/scientia.id\"\n"
+}
