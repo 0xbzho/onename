@@ -1,0 +1,56 @@
+{
+  "owner_address": "1HEzr1HMYv7XZg8uoJvR6UPat976yQHCA9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1H3htVXaSjrTahN9Jx1TUy51YJ27WUdGFu",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ganehag",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ganehag/680bcc81876aedd2617dff46159c2bd4",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ganehag",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ganehag/status/740116852257480704",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ganehag",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ganehag",
+        "name": "cover"
+      }
+    ],
+    "name": "Mikael Ganehag Brorsson"
+  },
+  "verifications": [
+    {
+      "identifier": "ganehag",
+      "proof_url": "https://gist.github.com/ganehag/680bcc81876aedd2617dff46159c2bd4",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "ganehag",
+      "proof_url": "https://twitter.com/ganehag/status/740116852257480704",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ganehag.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ganehag.id\"\n"
+}
