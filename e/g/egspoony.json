@@ -1,0 +1,74 @@
+{
+  "owner_address": "19UGDi2XzipFbzRnd84hyshGuodL5n6DEq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "egspoony",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/egspoony/4e611b98c187e260e8f490fa6b91a69a",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "egspoony",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/egspoony/status/742801965965574149",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "edgargarcia",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/edgargarcia/posts/10101841951146955",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chicagoland Area"
+    },
+    "description": "Some Dev some Ops. Discovery Platforms Services. Northwestern University Libraries. 90 lbs lost since August 2015.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/egspoony",
+        "name": "avatar"
+      }
+    ],
+    "name": "Edgar Garcia",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://edgargarcia.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "egspoony",
+      "proof_url": "https://gist.github.com/egspoony/4e611b98c187e260e8f490fa6b91a69a",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "egspoony",
+      "proof_url": "https://twitter.com/egspoony/status/742801965965574149",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "edgargarcia",
+      "proof_url": "https://www.facebook.com/edgargarcia/posts/10101841951146955",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN egspoony.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/egspoony.id\"\n"
+}
