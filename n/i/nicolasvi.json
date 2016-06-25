@@ -1,0 +1,41 @@
+{
+  "owner_address": "1DgLKGmb6pNn277wh2Mzj7qpqBo9w9TF9L",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Nicolasvi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/nicolasvi/status/740714657749598208",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "CABA, Argentina"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nicolasvi",
+        "name": "avatar"
+      }
+    ],
+    "name": "Nicolas Viarengo"
+  },
+  "verifications": [
+    {
+      "identifier": "Nicolasvi",
+      "proof_url": "https://twitter.com/nicolasvi/status/740714657749598208",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN nicolasvi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nicolasvi.id\"\n"
+}
