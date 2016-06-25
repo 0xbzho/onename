@@ -1,0 +1,55 @@
+{
+  "owner_address": "115mWQPtCQWfuUcwiVP5eKKcGwnacVCa3R",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1L97aGVgN8NsfaQMFnDij8FS9qUeEsTdp7",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "erlend",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/erlend/f7bc746e1dea56a3657f068bd5364827",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "_erlend",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/_erlend/status/740814662674026498",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Norway"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Erlend Finvåg"
+  },
+  "verifications": [
+    {
+      "identifier": "erlend",
+      "proof_url": "https://gist.github.com/erlend/f7bc746e1dea56a3657f068bd5364827",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "_erlend",
+      "proof_url": "https://twitter.com/_erlend/status/740814662674026498",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN erlendf.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/erlendf.id\"\n"
+}
