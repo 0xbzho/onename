@@ -1,0 +1,42 @@
+{
+  "owner_address": "18f3682e7aodgvNnpX5hxGGRXuUTKuyxd1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "schmidtphi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/schmidtphi/status/743803060376506369",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boston"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jan Philipp Schmidt",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://1l2p.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "schmidtphi",
+      "proof_url": "https://twitter.com/schmidtphi/status/743803060376506369",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN pschmidt.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pschmidt.id\"\n"
+}
