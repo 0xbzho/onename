@@ -1,0 +1,47 @@
+{
+  "owner_address": "1L5byu1sYm4UB9f3C4P2CFArSHPuDLkcnt",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1FEkSmUhsG2ccV5NCW25F9iEn5oo2cMuUo",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rickgejr",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rickgejr/status/740629415177125889",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Tavares, FL"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rickgejr",
+        "name": "avatar"
+      }
+    ],
+    "name": "Richard G. Easterbrook, Jr."
+  },
+  "verifications": [
+    {
+      "identifier": "rickgejr",
+      "proof_url": "https://twitter.com/rickgejr/status/740629415177125889",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rickgejr.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rickgejr.id\"\n"
+}
