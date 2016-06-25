@@ -1,0 +1,49 @@
+{
+  "owner_address": "14SdU8MB38MfUDg2pPsVsPobXXudJBsCUH",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ebb024d5b59bd8d411a34db230490a008c0904da",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/totoleo/39361d0af9c4f0c5b4508d62686c8f13",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "woodspringsproutfed",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/l.php?u=https%3A%2F%2Fonename.com%2Fwoodspring&h=eAQEfYYqX&s=1",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Queensland, Australia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Woodspring",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.woodspring.com.au"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "woodspringsproutfed",
+      "proof_url": "https://www.facebook.com/l.php?u=https%3A%2F%2Fonename.com%2Fwoodspring&h=eAQEfYYqX&s=1",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN woodspring.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/woodspring.id\"\n"
+}
