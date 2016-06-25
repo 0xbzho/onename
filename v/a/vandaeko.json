@@ -1,0 +1,50 @@
+{
+  "owner_address": "188SgofiAo5jZX4eddJ16pbmTxnvF1BweU",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "koenedaele",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/koenedaele/status/740806735615696897",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "koenedaele",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/koenedaele/4fb3ce70cc753ef9f1b2603767fa9258",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Gent, Belgium"
+    },
+    "description": "Heritage and IT professional.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Koen Van Daele"
+  },
+  "verifications": [
+    {
+      "identifier": "koenedaele",
+      "proof_url": "https://twitter.com/koenedaele/status/740806735615696897",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "koenedaele",
+      "proof_url": "https://gist.github.com/koenedaele/4fb3ce70cc753ef9f1b2603767fa9258",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN vandaeko.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vandaeko.id\"\n"
+}
