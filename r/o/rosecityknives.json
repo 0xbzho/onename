@@ -1,1 +1,73 @@
-null
+{
+  "owner_address": "1M6Q4hWK1Sq9dAmS13A7gYzsA7XqHrzYpo",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rosecityknives",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rosecityknives/83897abaafb2582402292a1aad7ea8ef",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rosecityknives",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rosecityknives/status/728078225243406337",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rosecityknives",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/rosecityknives/posts/1012333312168351",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Portland, Oregon"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rosecityknives",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rosecityknives",
+        "name": "cover"
+      }
+    ],
+    "name": "Rose City Knifeworks",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.rosecityknifeworks.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "rosecityknives",
+      "proof_url": "https://gist.github.com/rosecityknives/83897abaafb2582402292a1aad7ea8ef",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "rosecityknives",
+      "proof_url": "https://twitter.com/rosecityknives/status/728078225243406337",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "rosecityknives",
+      "proof_url": "https://www.facebook.com/rosecityknives/posts/1012333312168351",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rosecityknives.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rosecityknives.id\"\n"
+}
