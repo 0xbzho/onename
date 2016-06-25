@@ -1,0 +1,50 @@
+{
+  "owner_address": "1PqgCFEUt3b7vfMrhVRukSbP7DUsEL5pJS",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "maxhollmann",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/maxhollmann/status/740938671893950464",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "maxhollmann",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/maxhollmann/9994f52f8cc6ea96b880df48c7e5ab6b",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "13MbvciDc9sfHCxssgrTVcDtxgPzDmqWni",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "maxhollmann",
+      "proof_url": "https://twitter.com/maxhollmann/status/740938671893950464",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "maxhollmann",
+      "proof_url": "https://gist.github.com/maxhollmann/9994f52f8cc6ea96b880df48c7e5ab6b",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN maxhollmann.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/maxhollmann.id\"\n"
+}
