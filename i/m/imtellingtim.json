@@ -1,0 +1,49 @@
+{
+  "owner_address": "1CN3VtzCuDexBJaDsLRzYiNV7btapMJPMA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "TimAugustynen",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TimAugustynen/status/735189320613646336",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "augustynen",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/augustynen?fref=nf&pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hove"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Tim Augustynen"
+  },
+  "verifications": [
+    {
+      "identifier": "TimAugustynen",
+      "proof_url": "https://twitter.com/TimAugustynen/status/735189320613646336",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "augustynen",
+      "proof_url": "https://www.facebook.com/augustynen?fref=nf&pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN imtellingtim.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/imtellingtim.id\"\n"
+}
