@@ -1,0 +1,73 @@
+{
+  "owner_address": "1AGJryygka5LiYykAF7YeN7XpkAmsZjeUL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "linjaaho",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/linjaaho/status/743570189292273668",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "linjaaho",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/linjaaho/posts/10154222866138058",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "linjaaho",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/linjaaho/362512291c2231b63888083d3239fe65",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Finland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/linjaaho",
+        "name": "avatar"
+      }
+    ],
+    "name": "Vesa Linja-aho",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.linkedin.com/in/linjaaho"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "linjaaho",
+      "proof_url": "https://twitter.com/linjaaho/status/743570189292273668",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "linjaaho",
+      "proof_url": "https://www.facebook.com/linjaaho/posts/10154222866138058",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "linjaaho",
+      "proof_url": "https://gist.github.com/linjaaho/362512291c2231b63888083d3239fe65",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN linjaaho.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/linjaaho.id\"\n"
+}
