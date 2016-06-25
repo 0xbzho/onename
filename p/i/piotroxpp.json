@@ -1,0 +1,63 @@
+{
+  "owner_address": "1MD7hWM8qJDbF1g4FhAAKFn64QqJ6vdWj1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://pgp.key-server.io/pks/lookup?op=get&search=0x939476A62E24CBA5",
+        "identifier": "10EE33F22C3D7FCC4089FDF6939476A62E24CBA5",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "piotroxp",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/piotroxp/status/743834276144287744",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "piotroxp",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/piotroxp/046ef0504828f01803156c706c6f8b11",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https://www.facebook.com/piotrslupski",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/piotrslupski/posts/1227459063945044",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "piotroxp",
+      "proof_url": "https://twitter.com/piotroxp/status/743834276144287744",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "piotroxp",
+      "proof_url": "https://gist.github.com/piotroxp/046ef0504828f01803156c706c6f8b11",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "https://www.facebook.com/piotrslupski",
+      "proof_url": "https://www.facebook.com/piotrslupski/posts/1227459063945044",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN piotroxpp.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/piotroxpp.id\"\n"
+}
