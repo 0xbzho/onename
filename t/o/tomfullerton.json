@@ -1,0 +1,49 @@
+{
+  "owner_address": "1NV5AK4GK7nSb4Kgr2jC9YAfHuzVLvzhu1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "@tomfullerton",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tomfullerton/status/740648364916760576",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fullertontom",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/fullertontom/posts/579253422244825",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tomfullerton",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/tomfullerton",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "@tomfullerton",
+      "proof_url": "https://twitter.com/tomfullerton/status/740648364916760576",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "fullertontom",
+      "proof_url": "https://www.facebook.com/fullertontom/posts/579253422244825",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tomfullerton.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tomfullerton.id\"\n"
+}
