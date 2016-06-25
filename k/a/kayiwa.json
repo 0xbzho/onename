@@ -1,0 +1,62 @@
+{
+  "owner_address": "1Esy3WPQ3g8UgY5BAW2uZ2JYrx3nUahmSE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kayiwa",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/kayiwa/a3c8b787d0907d6692e3a21901fce41a",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kayiwa",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kayiwa/status/740637177252577280",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kayiwa",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/kayiwa/posts/10102446564956339",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kayiwa",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "kayiwa",
+      "proof_url": "https://gist.github.com/kayiwa/a3c8b787d0907d6692e3a21901fce41a",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "kayiwa",
+      "proof_url": "https://twitter.com/kayiwa/status/740637177252577280",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "kayiwa",
+      "proof_url": "https://www.facebook.com/kayiwa/posts/10102446564956339",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN kayiwa.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kayiwa.id\"\n"
+}
