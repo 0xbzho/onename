@@ -1,0 +1,60 @@
+{
+  "owner_address": "1DNoqTo1FAuyK5mjU5BgcMw93ggNsiZWKB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tim.kruger.121",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/jinwoonlee?post_id=10101413891073151_10101413893792701#/facebook",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jinwoonlee",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jinwoonlee/status/740780550630350848",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1KKPTRsBskstoQUSR12F6XSELKESAbScG",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Busan South Korea"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jinwoonlee",
+        "name": "avatar"
+      }
+    ],
+    "name": "Timothy Kruger"
+  },
+  "verifications": [
+    {
+      "identifier": "tim.kruger.121",
+      "proof_url": "https://onename.com/jinwoonlee?post_id=10101413891073151_10101413893792701#/facebook",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "jinwoonlee",
+      "proof_url": "https://twitter.com/jinwoonlee/status/740780550630350848",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jinwoonlee.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jinwoonlee.id\"\n"
+}
