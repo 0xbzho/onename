@@ -1,0 +1,47 @@
+{
+  "owner_address": "1CVSt3Kxnvn5AkprdSMPS4F3eXncnUYEK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "almightylinuxgo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/almightylinuxgo/status/742013090737344513",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York, NY"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rickmark",
+        "name": "avatar"
+      }
+    ],
+    "name": "Rick Mark",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://rickmark.me"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "almightylinuxgo",
+      "proof_url": "https://twitter.com/almightylinuxgo/status/742013090737344513",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rickmark.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rickmark.id\"\n"
+}
