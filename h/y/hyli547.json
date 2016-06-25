@@ -1,0 +1,48 @@
+{
+  "owner_address": "1KqArChRUNacMVFv2p5LKc3mnpCqJP9v7q",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1PkwjqkG34Jc1SYZJVf4QyCo7gAgvQY9Np",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hyli1",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/hyli1/posts/10208576280858229",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/hyli547",
+        "identifier": "JohnatanNaly<hyli@naly.info>",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lausanne"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Johnatan Naly"
+  },
+  "verifications": [
+    {
+      "identifier": "hyli1",
+      "proof_url": "https://www.facebook.com/hyli1/posts/10208576280858229",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN hyli547.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hyli547.id\"\n"
+}
