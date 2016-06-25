@@ -1,0 +1,61 @@
+{
+  "owner_address": "13XLto4y6mJQwaHGFMLZaNCi78JDKQpRWr",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Sandsafari1",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Sandsafari1/status/743227550168551425",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Sands",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/permalink.php?story_fbid=10154222975770645&id=592655644&pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Yerington, NV"
+    },
+    "description": "Alpaca Rancher, wire jewelry designer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/isands",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/isands",
+        "name": "cover"
+      }
+    ],
+    "name": "Sands Bellizzi",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.jewelrybysands.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Sandsafari1",
+      "proof_url": "https://twitter.com/Sandsafari1/status/743227550168551425",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Sands",
+      "proof_url": "https://www.facebook.com/permalink.php?story_fbid=10154222975770645&id=592655644&pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN isands.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/isands.id\"\n"
+}
