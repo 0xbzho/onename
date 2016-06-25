@@ -1,0 +1,45 @@
+{
+  "owner_address": "1FHb5FBrxqkeZicKNJWL486hA1HRA5j87q",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "wonzongho",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/wonzongho/posts/1321141767900140?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "JonghoWon",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/JonghoWon/37ef36d37ba097526a8f1ddc70c8012e",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jongho Won"
+  },
+  "verifications": [
+    {
+      "identifier": "wonzongho",
+      "proof_url": "https://www.facebook.com/wonzongho/posts/1321141767900140?pnref=story",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "JonghoWon",
+      "proof_url": "https://gist.github.com/JonghoWon/37ef36d37ba097526a8f1ddc70c8012e",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jongho.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jongho.id\"\n"
+}
