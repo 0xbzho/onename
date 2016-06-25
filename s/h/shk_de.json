@@ -1,0 +1,48 @@
+{
+  "owner_address": "19aGwyUgiZz39z8xKs4whLFpHDPbbFS74w",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "shk_de",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SHK_de/status/741198245293068288",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Frankfurt a.M. | Hessen | Germany"
+    },
+    "description": "#shk #sanitär #heizung #klima",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/shk_de",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/shk_de",
+        "name": "cover"
+      }
+    ],
+    "name": "Sanitär-Heizung-Klima",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://relaxits.de"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "shk_de",
+      "proof_url": "https://twitter.com/SHK_de/status/741198245293068288",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN shk_de.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/shk_de.id\"\n"
+}
