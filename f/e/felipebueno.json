@@ -1,0 +1,49 @@
+{
+  "owner_address": "195MEyQPTzAGr9mZY9RRFiudbuZFXMCRdK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "felipebueno",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/felipebueno/status/737714152546828288",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "felipebueno",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/felipebueno/eec2b1bf0848b68f57be8019b0af8724#file-gistfile1-txt",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/felipebueno",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/felipebueno",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "felipebueno",
+      "proof_url": "https://twitter.com/felipebueno/status/737714152546828288",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "felipebueno",
+      "proof_url": "https://gist.github.com/felipebueno/eec2b1bf0848b68f57be8019b0af8724#file-gistfile1-txt",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN felipebueno.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/felipebueno.id\"\n"
+}
