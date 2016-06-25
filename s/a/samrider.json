@@ -1,0 +1,55 @@
+{
+  "owner_address": "1EwWnQUAEucsCGCbbJgopdXeBvV2ZSwGf",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Sam Rider",
+        "proofType": "http",
+        "proofUrl": "Verifying that +samrider is my blockchain ID. https://onename.com/samrider",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "samaritanride",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/samrider",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Austin"
+    },
+    "description": "Non for profit donation expensed transportation",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/samrider",
+        "name": "avatar"
+      }
+    ],
+    "name": "Cecil Sam Rider"
+  },
+  "verifications": [
+    {
+      "identifier": "Sam Rider",
+      "proof_url": "Verifying that +samrider is my blockchain ID. https://onename.com/samrider",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "samaritanride",
+      "proof_url": "https://onename.com/samrider",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN samrider.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/samrider.id\"\n"
+}
