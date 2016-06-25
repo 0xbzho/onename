@@ -1,0 +1,80 @@
+{
+  "owner_address": "19dutcJqVHHe11YtNMNP3pFA7uveex8GbE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "morenopc",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/morenopc/ade4800a27fcb1d43e8ee845a5c7abfd",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "moreno.pinheiro",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/moreno.pinheiro/posts/1294936907191076",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "morenocunha",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/morenocunha/status/738511117295718400",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "3PuoCcv9Qt2JpsYHSy9pJM2o7joAuJhJQv",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brazil"
+    },
+    "description": "I’m a creative Brazilian full-stack django/python web developer and a JS (framework) UX/UI enthusiastic",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/moreno",
+        "name": "avatar"
+      }
+    ],
+    "name": "Moreno Pinheiro Cunha",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.morenopc.com/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "morenopc",
+      "proof_url": "https://gist.github.com/morenopc/ade4800a27fcb1d43e8ee845a5c7abfd",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "moreno.pinheiro",
+      "proof_url": "https://www.facebook.com/moreno.pinheiro/posts/1294936907191076",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "morenocunha",
+      "proof_url": "https://twitter.com/morenocunha/status/738511117295718400",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN moreno.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/moreno.id\"\n"
+}
