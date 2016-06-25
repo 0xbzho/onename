@@ -1,0 +1,31 @@
+{
+  "owner_address": "1GQV1qzGMt5exrQM7VRm4mGVzPpNLr3qbW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/9491490fc94b0e328a90aa4e13ff6507",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/9491490fc94b0e328a90aa4e13ff6507",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rogerdube.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rogerdube.id\"\n"
+}
