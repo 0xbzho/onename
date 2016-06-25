@@ -1,0 +1,64 @@
+{
+  "owner_address": "1AtmgkM7XPmkRfZcX3Z4cov1W3hiFhGDjf",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "donaminos",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/donaminos/status/741198595739766784",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "donaminos",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/donaminos/893e5192dd699697d58e5de6afb132bf",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "donaminos",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/donaminos/posts/10153931722878001",
+        "service": "facebook"
+      }
+    ],
+    "description": "Full-Stack developer: Ethereum / Meteor / React / React Native",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/donaminos",
+        "name": "avatar"
+      }
+    ],
+    "name": "Amine Sadry"
+  },
+  "verifications": [
+    {
+      "identifier": "donaminos",
+      "proof_url": "https://twitter.com/donaminos/status/741198595739766784",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "donaminos",
+      "proof_url": "https://gist.github.com/donaminos/893e5192dd699697d58e5de6afb132bf",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "donaminos",
+      "proof_url": "https://www.facebook.com/donaminos/posts/10153931722878001",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN donaminos.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/donaminos.id\"\n"
+}
