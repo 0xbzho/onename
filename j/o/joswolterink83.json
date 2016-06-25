@@ -1,10 +1,42 @@
 {
   "owner_address": "1JPKoRkUNgraCfrC2XiDoLoWyM9ByyGhRn",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/n6r.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "joswolterink",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/joswolterink83#/facebook&post_id=1434082669952603_1434082646619272",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1GiAfbamATSgjjdL9PN4pktnNhZS9sMyjQ",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/joswolterink83",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/joswolterink83",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "joswolterink",
+      "proof_url": "https://onename.com/joswolterink83#/facebook&post_id=1434082669952603_1434082646619272",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN joswolterink83.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/joswolterink83.id\"\n"
 }
