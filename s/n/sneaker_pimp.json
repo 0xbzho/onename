@@ -1,0 +1,49 @@
+{
+  "owner_address": "1CyrLZY7pG1eMJq9DMMUsjaq7JyZ9nQKiR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jayjayflips",
+        "proofType": "http",
+        "proofUrl": "onename.com",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/04f4876fd6af1b8587a3f42e55436247",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seoul, South Korea"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "JayJay Flips"
+  },
+  "verifications": [
+    {
+      "identifier": "jayjayflips",
+      "proof_url": "onename.com",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/04f4876fd6af1b8587a3f42e55436247",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN sneaker_pimp.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sneaker_pimp.id\"\n"
+}
