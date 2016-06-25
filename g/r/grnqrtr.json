@@ -1,0 +1,78 @@
+{
+  "owner_address": "1EinUcdJSRXztLifmiv6D6NLaFuXXoCR5n",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "grnqrtr",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/grnqrtr/status/740908594929893378",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "grnqrtr",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/grnqrtr/655d3b187f1975edf11263423f2907b9",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1GRNQRtrdWchH5DUwcp8epKebMZNpfk8cK",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "travis.kilson",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/travis.kilson/posts/632567722964",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "a768b5553119db55e0bda54e5dc4e3a38ee40a2c",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Yokohama, Japan"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/grnqrtr",
+        "name": "avatar"
+      }
+    ],
+    "name": "Travis Kilson"
+  },
+  "verifications": [
+    {
+      "identifier": "grnqrtr",
+      "proof_url": "https://twitter.com/grnqrtr/status/740908594929893378",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "grnqrtr",
+      "proof_url": "https://gist.github.com/grnqrtr/655d3b187f1975edf11263423f2907b9",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "travis.kilson",
+      "proof_url": "https://www.facebook.com/travis.kilson/posts/632567722964",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN grnqrtr.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/grnqrtr.id\"\n"
+}
