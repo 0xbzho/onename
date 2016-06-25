@@ -1,0 +1,74 @@
+{
+  "owner_address": "1KM2R1SwS5yfdsdkgSgskaXqgYz1FESWNa",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dennisl",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dennisl/status/741082264365334528",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "weboverhauls",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/weboverhauls/c25abb8779eeaa85c83e3a4fdf196f9d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dennis3",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dennis3/posts/10208254187524684",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Raleigh-Durham, USA"
+    },
+    "description": "digital accessibility guy",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dennisl",
+        "name": "avatar"
+      }
+    ],
+    "name": "Dennis L",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.dennislembree.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dennisl",
+      "proof_url": "https://twitter.com/dennisl/status/741082264365334528",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "weboverhauls",
+      "proof_url": "https://gist.github.com/weboverhauls/c25abb8779eeaa85c83e3a4fdf196f9d",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "dennis3",
+      "proof_url": "https://www.facebook.com/dennis3/posts/10208254187524684",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN dennisl.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dennisl.id\"\n"
+}
