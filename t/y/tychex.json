@@ -1,0 +1,60 @@
+{
+  "owner_address": "12Yo45ue8R4EAqQ2r1dimwoy4u4GEveNjs",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "TychexOB",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TychexOB/status/743534560193961984",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/squawka99/1264b08b0fb73b3866ca3094e1aa6a5b",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "United Kingdom"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tychex",
+        "name": "avatar"
+      }
+    ],
+    "name": "Tychex",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://tychex.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "TychexOB",
+      "proof_url": "https://twitter.com/TychexOB/status/743534560193961984",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "",
+      "proof_url": "https://gist.github.com/squawka99/1264b08b0fb73b3866ca3094e1aa6a5b",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tychex.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tychex.id\"\n"
+}
