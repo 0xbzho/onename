@@ -1,0 +1,55 @@
+{
+  "owner_address": "1tQm9EXQNCLUd3S2LJy9118Ks3Ajivkkw",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "vitorgoncalv",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/vitorgoncalv/status/740643265859473412",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "vrgoncalv",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/vrgoncalv/posts/504087443049303",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sorocaba, SP, Brazil"
+    },
+    "description": "Just a hairless ape floating through space on a rock",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/vitor_rodrigues_goncalves",
+        "name": "avatar"
+      }
+    ],
+    "name": "Vítor Rodrigues Gonçalves"
+  },
+  "verifications": [
+    {
+      "identifier": "vitorgoncalv",
+      "proof_url": "https://twitter.com/vitorgoncalv/status/740643265859473412",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "vrgoncalv",
+      "proof_url": "https://www.facebook.com/vrgoncalv/posts/504087443049303",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN vitor_rodrigues_goncalves.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vitor_rodrigues_goncalves.id\"\n"
+}
