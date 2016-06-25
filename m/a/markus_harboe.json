@@ -1,0 +1,31 @@
+{
+  "owner_address": "15ya5fMsPPcfcmZADRgQsH7bB1cLvpHtcv",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "https://www.facebook.com/markus.harboe",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/markus.harboe/posts/10155946257916515",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "https://www.facebook.com/markus.harboe",
+      "proof_url": "https://www.facebook.com/markus.harboe/posts/10155946257916515",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN markus_harboe.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/markus_harboe.id\"\n"
+}
