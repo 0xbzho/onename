@@ -1,0 +1,49 @@
+{
+  "owner_address": "1PJu88Gmr51c15FyriXfe868K1diuCUb4i",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "NickCobb",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/NickCobb/status/743416457103474688",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nickcobb",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/nickcobb/posts/10208147802786080",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nickcobb",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/nickcobb",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "NickCobb",
+      "proof_url": "https://twitter.com/NickCobb/status/743416457103474688",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "nickcobb",
+      "proof_url": "https://www.facebook.com/nickcobb/posts/10208147802786080",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN nickcobb.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nickcobb.id\"\n"
+}
