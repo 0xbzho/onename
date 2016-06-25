@@ -1,0 +1,73 @@
+{
+  "owner_address": "1KqokHCxA1rFiZoTNUuiwCcxPrDTXvDXZK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jasonsilverstein",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jasonsilverstein/c112cd26d205dbd030f36f65f486052f",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jasonbsilverstein",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jasonbsilverstein/posts/10153461456001441",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sleuth",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sleuth/status/740933801883271168",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kirkland, WA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sleuth",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/sleuth",
+        "name": "cover"
+      }
+    ],
+    "name": "Jason Silverstein",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://jasonsilverstein.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jasonsilverstein",
+      "proof_url": "https://gist.github.com/jasonsilverstein/c112cd26d205dbd030f36f65f486052f",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jasonbsilverstein",
+      "proof_url": "https://www.facebook.com/jasonbsilverstein/posts/10153461456001441",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "sleuth",
+      "proof_url": "https://twitter.com/sleuth/status/740933801883271168",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN sleuth.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sleuth.id\"\n"
+}
