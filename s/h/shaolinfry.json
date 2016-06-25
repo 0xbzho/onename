@@ -1,0 +1,49 @@
+{
+  "owner_address": "1DFS9Ua126yPW4iNsTGbx7wM7EeJ5Yf379",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "shaolinfry",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/shaolinfry/8778ae3f1ebff1bc7b7de1dd02038cf7",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "shaolinfry",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/shaolinfry/status/740875835079544832",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/shaolinfry",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/shaolinfry",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "shaolinfry",
+      "proof_url": "https://gist.github.com/shaolinfry/8778ae3f1ebff1bc7b7de1dd02038cf7",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "shaolinfry",
+      "proof_url": "https://twitter.com/shaolinfry/status/740875835079544832",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN shaolinfry.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/shaolinfry.id\"\n"
+}
