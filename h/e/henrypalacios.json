@@ -1,0 +1,36 @@
+{
+  "owner_address": "12Zu88CwJri5Qk3EkzuNB5FCMUCkNZwrGJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "henrydpalacios",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/henrydpalacios",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/henrypalacios",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "henrydpalacios",
+      "proof_url": "https://twitter.com/henrydpalacios",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN henrypalacios.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/henrypalacios.id\"\n"
+}
