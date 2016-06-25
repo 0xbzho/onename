@@ -1,0 +1,36 @@
+{
+  "owner_address": "1A6VqhaiZg2bHAMZ9hHsbvtQzem476CPyZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sthunter",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/sthunter/c57fe07185d966c787705aa979898ce0",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Sean Hunter"
+  },
+  "verifications": [
+    {
+      "identifier": "sthunter",
+      "proof_url": "https://gist.github.com/sthunter/c57fe07185d966c787705aa979898ce0",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN seanhunter.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/seanhunter.id\"\n"
+}
