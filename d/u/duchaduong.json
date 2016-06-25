@@ -1,0 +1,55 @@
+{
+  "owner_address": "1HxLdYMuxa5ygKBgW6VxVxZGS7ykLvcsFW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "OffyVN",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/OffyVN/status/741677062600040448",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "duc.haduong",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/duc.haduong/posts/10154459352483646",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris"
+    },
+    "description": "France, Vietnam, BPO, ITO, TEDx, FrenchTech, Barbarian, TheFamily, Officience",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/duchaduong",
+        "name": "avatar"
+      }
+    ],
+    "name": "Duc Ha Duong"
+  },
+  "verifications": [
+    {
+      "identifier": "OffyVN",
+      "proof_url": "https://twitter.com/OffyVN/status/741677062600040448",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "duc.haduong",
+      "proof_url": "https://www.facebook.com/duc.haduong/posts/10154459352483646",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN duchaduong.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/duchaduong.id\"\n"
+}
