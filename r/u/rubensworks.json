@@ -1,0 +1,43 @@
+{
+  "owner_address": "1JV6Utv2YY8DviXwD4Dr3ko7Yjkuzdy9fY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rubensworks",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rubensworks/aa228eac4975ebc926752905edc7ccb9",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Belgium"
+    },
+    "description": "Semantic Web PhD Researcher",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ruben Taelman",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.rubensworks.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "rubensworks",
+      "proof_url": "https://gist.github.com/rubensworks/aa228eac4975ebc926752905edc7ccb9",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rubensworks.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rubensworks.id\"\n"
+}
