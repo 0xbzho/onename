@@ -1,0 +1,37 @@
+{
+  "owner_address": "1PoCTBnTNqoCYYwkEhRb3mGySoLv3F4yDV",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mark.wetterman",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mwett68",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Austin, Texas"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mark_wetterman",
+        "name": "avatar"
+      }
+    ],
+    "name": "Mark Wetterman"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN mark_wetterman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mark_wetterman.id\"\n"
+}
