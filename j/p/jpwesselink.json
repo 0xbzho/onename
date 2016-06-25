@@ -1,0 +1,44 @@
+{
+  "owner_address": "18zUKNLhwXkjb83aXAUpvXTBamnzjnEsVW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jp10k",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jp10k/status/738409092067254274",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jpwesselink",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jpwesselink/0e4adb5e2563398836b4216308ca0500",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jp10k",
+      "proof_url": "https://twitter.com/jp10k/status/738409092067254274",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jpwesselink",
+      "proof_url": "https://gist.github.com/jpwesselink/0e4adb5e2563398836b4216308ca0500",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jpwesselink.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jpwesselink.id\"\n"
+}
