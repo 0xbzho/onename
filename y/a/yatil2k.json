@@ -1,0 +1,68 @@
+{
+  "owner_address": "18ndQe2BUowS3p822f8kznd4nggzkfV5QX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "yatil",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/yatil/status/741051356786622465",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "yatil",
+        "proofType": "http",
+        "proofUrl": "https://m.facebook.com/story.php?story_fbid=10154946266459676&id=631604675",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "yatil",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/yatil/26114f2814b6d1dbbb6e3ec1a1aa4476",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Essen, Germany"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Eric Eggert",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://yatil.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "yatil",
+      "proof_url": "https://twitter.com/yatil/status/741051356786622465",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "yatil",
+      "proof_url": "https://m.facebook.com/story.php?story_fbid=10154946266459676&id=631604675",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "yatil",
+      "proof_url": "https://gist.github.com/yatil/26114f2814b6d1dbbb6e3ec1a1aa4476",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN yatil2k.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/yatil2k.id\"\n"
+}
