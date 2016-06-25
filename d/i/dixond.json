@@ -1,0 +1,57 @@
+{
+  "owner_address": "12MKsfoEmBXpsgvcev7GCfkKVPxea5gMLb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "DixonDs",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/DixonDs/status/737681562964242432",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dmytro.dzyuma",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dmytro.dzyuma/posts/10209440231339853",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "DixonDs",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/DixonDs/c54106cf0371e92261ba98e04e716fba",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "DixonDs",
+      "proof_url": "https://twitter.com/DixonDs/status/737681562964242432",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "dmytro.dzyuma",
+      "proof_url": "https://www.facebook.com/dmytro.dzyuma/posts/10209440231339853",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "DixonDs",
+      "proof_url": "https://gist.github.com/DixonDs/c54106cf0371e92261ba98e04e716fba",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dixond.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dixond.id\"\n"
+}
