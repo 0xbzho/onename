@@ -1,0 +1,85 @@
+{
+  "owner_address": "15UDuhxWU8ACem1m6pjoEVL977CrXuLnMf",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1CBCBkwBjXbQw7Qu9LEoQqK91iMofFVK76",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "HaroldNixon",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/HaroldNixon/status/740104625777455104",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "haroldnixon",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/haroldnixon/b09508b81d8cd634c12aacdafc102e4c",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "harold.nixon",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/harold.nixon/posts/10154945958398916",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "a977d1be59bc52dcc251710b2182a70d5efc0376",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Winchester, KY"
+    },
+    "description": "Musician, Dad, & Husband",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/haroldnixon",
+        "name": "avatar"
+      }
+    ],
+    "name": "Harold Nixon",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.HaroldNixon.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "HaroldNixon",
+      "proof_url": "https://twitter.com/HaroldNixon/status/740104625777455104",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "haroldnixon",
+      "proof_url": "https://gist.github.com/haroldnixon/b09508b81d8cd634c12aacdafc102e4c",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "harold.nixon",
+      "proof_url": "https://www.facebook.com/harold.nixon/posts/10154945958398916",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN haroldnixon.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/haroldnixon.id\"\n"
+}
