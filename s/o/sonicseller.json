@@ -1,0 +1,38 @@
+{
+  "owner_address": "1Bfxu2h4JHJCpRbfHMeLvPdtvLcPRkNcxt",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "c75254d785ebe6664796d3d6c24361db0e291963",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/aseidlitz/44e980fe121e0501b09022d9c497dc3b",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lifeunmoored",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/lifeunmoored/status/740003125671563264",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "lifeunmoored",
+      "proof_url": "https://twitter.com/lifeunmoored/status/740003125671563264",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN sonicseller.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sonicseller.id\"\n"
+}
