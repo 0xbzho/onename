@@ -1,65 +1,73 @@
 {
   "owner_address": "1igzhnobEptnujqrztJexp7U3GraFo6vW",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/npdistefano"
-    },
-    "bio": "Interactive & Experience Designer",
-    "bitcoin": {
-      "address": "1F3DhJ3kbmQchH3rStgm4xWJtzPqZmTzT6"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/npdistefano"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/npdistefano/posts/10100599366935830"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "npdistefano",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "npdistefano"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/npdistefano/3f878ac4ad16630641f0"
+      {
+        "@type": "Account",
+        "identifier": "npdistefano",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "npdistefano"
-    },
-    "location": {
-      "formatted": "Boston, MA"
-    },
-    "name": {
-      "formatted": "Nick Di Stefano"
-    },
-    "pgp": {
-      "fingerprint": "2C3A439BF59C963A3E46314867C7D80AD456D",
-      "url": "https://s3.amazonaws.com/pk9/npdistefano"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/npdistefano/status/703382469190537217"
+      {
+        "@type": "Account",
+        "identifier": "1F3DhJ3kbmQchH3rStgm4xWJtzPqZmTzT6",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "npdistefano"
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/npdistefano",
+        "identifier": "2C3A439BF59C963A3E46314867C7D80AD456D",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "npdistefano",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/npdistefano/status/740367358498328577",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boston, MA"
     },
-    "v": "0.2",
-    "website": "http://nickdesigns.net"
+    "description": "Interactive & Experience Designer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/npdistefano",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/npdistefano",
+        "name": "cover"
+      }
+    ],
+    "name": "Nick Di Stefano",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://nickdesigns.net"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "npdistefano",
-      "proof_url": "https://gist.github.com/npdistefano/3f878ac4ad16630641f0",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "npdistefano",
-      "proof_url": "https://twitter.com/npdistefano/status/703382469190537217",
+      "proof_url": "https://twitter.com/npdistefano/status/740367358498328577",
       "service": "twitter",
       "valid": true
-    },
-    {
-      "identifier": "npdistefano",
-      "proof_url": "https://facebook.com/npdistefano/posts/10100599366935830",
-      "service": "facebook",
-      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN npdistefano.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/npdistefano.id\"\n"
 }
