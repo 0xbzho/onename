@@ -1,0 +1,86 @@
+{
+  "owner_address": "12qvKJizawTqcepfHQhmsDLa82wgNjdGDJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "profile.php?id=722976408",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/permalink.php?story_fbid=10153648467381409&id=722976408",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "robmint",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/robmint/644853d98956ccc646f887860a70ada9",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "vdu23",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/vdu23/status/741474099013115904",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "vdu23",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ChrisMorrisOrg/acb38dfc025ea98ecf8692011ce418de",
+        "service": "instagram"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Auckland, Aotearoa, New Zealand"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/robcarter",
+        "name": "avatar"
+      }
+    ],
+    "name": "Robert Carter",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://createrevolutionaryart.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "profile.php?id=722976408",
+      "proof_url": "https://www.facebook.com/permalink.php?story_fbid=10153648467381409&id=722976408",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "robmint",
+      "proof_url": "https://gist.github.com/robmint/644853d98956ccc646f887860a70ada9",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "vdu23",
+      "proof_url": "https://twitter.com/vdu23/status/741474099013115904",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "vdu23",
+      "proof_url": "https://gist.github.com/ChrisMorrisOrg/acb38dfc025ea98ecf8692011ce418de",
+      "service": "instagram",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN robcarter.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/robcarter.id\"\n"
+}
