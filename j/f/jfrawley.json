@@ -1,0 +1,49 @@
+{
+  "owner_address": "1pQspx6n8794iuLBhL8PCTWZvxCFAmkaF",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "https://www.facebook.com/james.frawley",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/james.frawley/posts/10153470796776510?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jimmyfrawley",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JimmyFrawley/status/736385998628790272",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jfrawley",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jfrawley",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "https://www.facebook.com/james.frawley",
+      "proof_url": "https://www.facebook.com/james.frawley/posts/10153470796776510?pnref=story",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "jimmyfrawley",
+      "proof_url": "https://twitter.com/JimmyFrawley/status/736385998628790272",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jfrawley.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jfrawley.id\"\n"
+}
