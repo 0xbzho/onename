@@ -1,0 +1,56 @@
+{
+  "owner_address": "1KpdCj8CnMMuPNpatq6aEzPnj7xRoDGiga",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "walley",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/walley/7857dbfcfa015125713ccff8140a2026",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "_walley_",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/_walley_/status/740797188075294720",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/walley",
+        "name": "avatar"
+      }
+    ],
+    "name": "walley",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://openstreetmap.cz"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "walley",
+      "proof_url": "https://gist.github.com/walley/7857dbfcfa015125713ccff8140a2026",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "_walley_",
+      "proof_url": "https://twitter.com/_walley_/status/740797188075294720",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN walley.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/walley.id\"\n"
+}
