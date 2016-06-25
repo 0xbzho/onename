@@ -1,0 +1,69 @@
+{
+  "owner_address": "1PuAX4fiwqK2rtb6bnm4PtAtVYqR3RbFdr",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "iradche",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/iradche/status/742527587738636289",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "iradche",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/iradche/posts/650596685092466",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "iradche",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/iradche/74af2cdb6e782bdfddfc410540f5d4b8",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/iradche",
+        "name": "avatar"
+      }
+    ],
+    "name": "Irina",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://iradche.ru/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "iradche",
+      "proof_url": "https://twitter.com/iradche/status/742527587738636289",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "iradche",
+      "proof_url": "https://www.facebook.com/iradche/posts/650596685092466",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "iradche",
+      "proof_url": "https://gist.github.com/iradche/74af2cdb6e782bdfddfc410540f5d4b8",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN iradche.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/iradche.id\"\n"
+}
