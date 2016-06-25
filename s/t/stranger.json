@@ -1,0 +1,54 @@
+{
+  "owner_address": "18WuJ2etopqwsvFKQWomJ7LPQozN816pTa",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "profile.php?id=100000063360914",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/permalink.php?story_fbid=1203982466280521&id=100000063360914",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "stranger26",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/stranger26/42c06759744ef32e4949a5854f23f0f2",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kuala Lumpur"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/stranger",
+        "name": "avatar"
+      }
+    ],
+    "name": "Ho Chin Chee"
+  },
+  "verifications": [
+    {
+      "identifier": "profile.php?id=100000063360914",
+      "proof_url": "https://www.facebook.com/permalink.php?story_fbid=1203982466280521&id=100000063360914",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "stranger26",
+      "proof_url": "https://gist.github.com/stranger26/42c06759744ef32e4949a5854f23f0f2",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN stranger.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stranger.id\"\n"
+}
