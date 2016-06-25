@@ -1,0 +1,61 @@
+{
+  "owner_address": "16DwDfkeMA9ctMTsXWrJR86c7UeuCdNXUx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mchollywood",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/McHollywood/status/740909982200135681",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "McHollywoodOfficial",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/McHollywoodOfficial/posts/10153986059520379",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Melbourne & LA"
+    },
+    "description": "New Music. Soon.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mchollywood",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mchollywood",
+        "name": "cover"
+      }
+    ],
+    "name": "McHollywood",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.mchollywood.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mchollywood",
+      "proof_url": "https://twitter.com/McHollywood/status/740909982200135681",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "McHollywoodOfficial",
+      "proof_url": "https://www.facebook.com/McHollywoodOfficial/posts/10153986059520379",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mchollywood.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mchollywood.id\"\n"
+}
