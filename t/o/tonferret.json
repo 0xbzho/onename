@@ -1,0 +1,31 @@
+{
+  "owner_address": "1A7VnZHFRrfdGZxVeMSjEYSS4kZZuKis5H",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tonferret",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tonferret/status/740843065368281088",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tonferret",
+      "proof_url": "https://twitter.com/tonferret/status/740843065368281088",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tonferret.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tonferret.id\"\n"
+}
