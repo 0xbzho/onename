@@ -1,0 +1,54 @@
+{
+  "owner_address": "1FkzzHJL1e92rA2ytss8SuzWMDAzZdh9Hv",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sebasjm",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sebasjm/status/743897187839582213",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sebasjm",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/sebasjm/118597d1d5aee2c77f164bcff209b4bc",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Buenos Aires"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sebasjm",
+        "name": "avatar"
+      }
+    ],
+    "name": "Sebastian Javier Marchano"
+  },
+  "verifications": [
+    {
+      "identifier": "sebasjm",
+      "proof_url": "https://twitter.com/sebasjm/status/743897187839582213",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "sebasjm",
+      "proof_url": "https://gist.github.com/sebasjm/118597d1d5aee2c77f164bcff209b4bc",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN sebasjm.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sebasjm.id\"\n"
+}
