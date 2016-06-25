@@ -1,0 +1,68 @@
+{
+  "owner_address": "14CDSzBd2YrC2g3wZMDZ6NNqNWhhYMQN1K",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "junichia",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/junichia/96341b5a9d3a23c5455696a9b5d23d10",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "junichia@microsoft.com",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/junichia/status/741423261993422849",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "junichi.anno.1",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/junichi.anno.1/posts/10154151954034566?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Japan"
+    },
+    "description": "Junichi Anno in Japan",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/junichia",
+        "name": "avatar"
+      }
+    ],
+    "name": "Junichi Anno"
+  },
+  "verifications": [
+    {
+      "identifier": "junichia",
+      "proof_url": "https://gist.github.com/junichia/96341b5a9d3a23c5455696a9b5d23d10",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "junichia@microsoft.com",
+      "proof_url": "https://twitter.com/junichia/status/741423261993422849",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "junichi.anno.1",
+      "proof_url": "https://www.facebook.com/junichi.anno.1/posts/10154151954034566?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN junichia.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/junichia.id\"\n"
+}
