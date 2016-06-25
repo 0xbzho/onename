@@ -1,0 +1,74 @@
+{
+  "owner_address": "19gJuGGkiL7tjqtSFboagS8bJQd3Tjjrnf",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jasonclark",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jasonclark/d81509e2088c7f9f8ccdc9c0cdc8a064",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jasclark",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jasclark/posts/10100647872655239",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jaclark",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jaclark/status/740762785861251072",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Under the Big Sky"
+    },
+    "description": "professor, librarian, hacker/developer, author, #SemanticWeb + metadata geek he/him/his",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jasonclark",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jasonclark",
+        "name": "cover"
+      }
+    ],
+    "name": "Jason A. Clark",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.jasonclark.info"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jasonclark",
+      "proof_url": "https://gist.github.com/jasonclark/d81509e2088c7f9f8ccdc9c0cdc8a064",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jasclark",
+      "proof_url": "https://www.facebook.com/jasclark/posts/10100647872655239",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "jaclark",
+      "proof_url": "https://twitter.com/jaclark/status/740762785861251072",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jasonclark.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jasonclark.id\"\n"
+}
