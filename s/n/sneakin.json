@@ -1,0 +1,42 @@
+{
+  "owner_address": "1LPfsV9ghgUSaiMUVaFuJnbw33KVny4rLb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sneakin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sneakin/status/742076152039231488",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1N8HjTvMJyKoV6QkyvgALoa8StFQkCSebw",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Indiana"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Nolan"
+  },
+  "verifications": [
+    {
+      "identifier": "sneakin",
+      "proof_url": "https://twitter.com/sneakin/status/742076152039231488",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN sneakin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sneakin.id\"\n"
+}
