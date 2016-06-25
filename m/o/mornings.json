@@ -1,0 +1,38 @@
+{
+  "owner_address": "17KnARNQsHJ5yKrvyFEyJuZufWLaQpUVWZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "aeb4ca7f84564acf93eb7f8d5ec2c4839268aa6a",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/willbank/2c16446ebe2bf8cf1a0741eab940a524",
+        "service": "openbaazar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "edouerd",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/edouerd/ea0c44eac177a437e4c1bc950ddeb1d6",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "edouerd",
+      "proof_url": "https://gist.github.com/edouerd/ea0c44eac177a437e4c1bc950ddeb1d6",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mornings.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mornings.id\"\n"
+}
