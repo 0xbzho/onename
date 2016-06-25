@@ -1,0 +1,55 @@
+{
+  "owner_address": "18u3mjkMCYGoHLR1HCqA9BdXMZKytUxvT9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sudarshankushal",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sudarshankushal/status/736415166586179586",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kushal.sud",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/kushal.sud/posts/1108969185832457",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chennai, India"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Sudarshan Subramanian",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://sudarshankushal.in"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "sudarshankushal",
+      "proof_url": "https://twitter.com/sudarshankushal/status/736415166586179586",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "kushal.sud",
+      "proof_url": "https://www.facebook.com/kushal.sud/posts/1108969185832457",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN sudarshankushal.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sudarshankushal.id\"\n"
+}
