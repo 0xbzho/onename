@@ -1,0 +1,44 @@
+{
+  "owner_address": "1K9YrjTfqz8cWeEXdJF8BnVGKcPXZfKBHx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "OdyX",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/OdyX/350bd732b18963836619d6c91f80f5ef",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "OdyX_",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/OdyX_/status/742281274056925184",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "OdyX",
+      "proof_url": "https://gist.github.com/OdyX/350bd732b18963836619d6c91f80f5ef",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "OdyX_",
+      "proof_url": "https://twitter.com/OdyX_/status/742281274056925184",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN didierraboud.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/didierraboud.id\"\n"
+}
