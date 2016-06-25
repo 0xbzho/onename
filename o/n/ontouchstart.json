@@ -1,0 +1,50 @@
+{
+  "owner_address": "13LdNMN7rDHqevTZzuxmWwVNzbiuPCD1Md",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ontouchstart",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ontouchstart/status/744345760913850368",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ontouchstart",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ontouchstart/e2eb43b5370740e8308b4566dfe6c868",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ontouchstart",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ontouchstart",
+        "name": "cover"
+      }
+    ],
+    "name": "Sam Liu"
+  },
+  "verifications": [
+    {
+      "identifier": "ontouchstart",
+      "proof_url": "https://twitter.com/ontouchstart/status/744345760913850368",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ontouchstart",
+      "proof_url": "https://gist.github.com/ontouchstart/e2eb43b5370740e8308b4566dfe6c868",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ontouchstart.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ontouchstart.id\"\n"
+}
