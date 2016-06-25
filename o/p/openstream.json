@@ -1,0 +1,74 @@
+{
+  "owner_address": "15vGANCQXtNoB3AXJBZ45kmPqRTV1VWb2E",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "openstream",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/openstream/status/738723091849859073",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "openstream.ch",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/openstream.ch/posts/10154266656056350",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nickw108",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/nickw108/ece2cc9235446adabe2aeb1db69661c2",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Switzerland"
+    },
+    "description": "We love to build online stores. E-Commerce Agentur in Zürich und am Bodensee.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/openstream",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/openstream",
+        "name": "avatar"
+      }
+    ],
+    "name": "Openstream Internet Solutions",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.openstream.ch/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "openstream",
+      "proof_url": "https://twitter.com/openstream/status/738723091849859073",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "openstream.ch",
+      "proof_url": "https://www.facebook.com/openstream.ch/posts/10154266656056350",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "nickw108",
+      "proof_url": "https://gist.github.com/nickw108/ece2cc9235446adabe2aeb1db69661c2",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN openstream.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/openstream.id\"\n"
+}
