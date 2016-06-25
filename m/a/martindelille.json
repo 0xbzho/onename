@@ -1,0 +1,44 @@
+{
+  "owner_address": "18hWtr1RBWkZ8PpPjvBCRp1iKL2LDEm4Jr",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "MartinDelille",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/MartinDelille/d586084f4ba2d3e1038485992363b433",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "martin.delille",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/martin.delille/posts/10153744479603123",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "MartinDelille",
+      "proof_url": "https://gist.github.com/MartinDelille/d586084f4ba2d3e1038485992363b433",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "martin.delille",
+      "proof_url": "https://www.facebook.com/martin.delille/posts/10153744479603123",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN martindelille.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/martindelille.id\"\n"
+}
