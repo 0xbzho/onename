@@ -1,0 +1,55 @@
+{
+  "owner_address": "1E2Soqc9mvokjZYbj3d1WkErv16UR5JhYe",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "particlemess",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/particlemess/status/740845877779140608",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "n1ghtfly",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/n1ghtfly/posts/10153504893481123",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "EbpeDxEh67B2rpDkvsMsp1QPu7wg8uh6JD",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Amsterdam"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Walter Petermann"
+  },
+  "verifications": [
+    {
+      "identifier": "particlemess",
+      "proof_url": "https://twitter.com/particlemess/status/740845877779140608",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "n1ghtfly",
+      "proof_url": "https://www.facebook.com/n1ghtfly/posts/10153504893481123",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN n1ghtfly.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/n1ghtfly.id\"\n"
+}
