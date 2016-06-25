@@ -1,0 +1,61 @@
+{
+  "owner_address": "1FLNaWBaqfZ3iwwJYhWNd63Jx2ZKtSRN97",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "machtweb",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/machtweb/034ea23426efeb9e464dfd635d975040",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "machtweb",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/machtweb/status/741261200483356673",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kelkheim | Frankfurt a.M. - Germany"
+    },
+    "description": "machtWeb",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/machtweb",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/machtweb",
+        "name": "cover"
+      }
+    ],
+    "name": "Reinhard Lange",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://machtweb.de"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "machtweb",
+      "proof_url": "https://gist.github.com/machtweb/034ea23426efeb9e464dfd635d975040",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "machtweb",
+      "proof_url": "https://twitter.com/machtweb/status/741261200483356673",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN machtweb.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/machtweb.id\"\n"
+}
