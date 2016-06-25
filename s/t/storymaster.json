@@ -1,0 +1,61 @@
+{
+  "owner_address": "141SEy8q8p4c7G1xCvtcWd5RuuKcNPku9n",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "NoStoryNoBizz",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/NoStoryNoBizz/status/744552252996751360",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "joachim.guenster",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/joachim.guenster/posts/10155031082584199",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Munich | Germany"
+    },
+    "description": "StoryMaster | NoStory.NoBusiness.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/storymaster",
+        "name": "avatar"
+      }
+    ],
+    "name": "Joachim Günster",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.storymaster.de"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "NoStoryNoBizz",
+      "proof_url": "https://twitter.com/NoStoryNoBizz/status/744552252996751360",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "joachim.guenster",
+      "proof_url": "https://www.facebook.com/joachim.guenster/posts/10155031082584199",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN storymaster.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/storymaster.id\"\n"
+}
