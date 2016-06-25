@@ -1,0 +1,58 @@
+{
+  "owner_address": "1HrGJ3ZNA3y1JGtQfRxbQjKbf4bCn6UAKr",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dquirk",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dquirk/status/740693368230060033",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "derqui",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/derqui/d67824c2b0ff6518e730898e476402b9",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dermot.quirk@gmail.com",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/dermotquirk?post_id=10153485592276761_10153485599241761#facebook",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Dermot Quirk"
+  },
+  "verifications": [
+    {
+      "identifier": "dquirk",
+      "proof_url": "https://twitter.com/dquirk/status/740693368230060033",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "derqui",
+      "proof_url": "https://gist.github.com/derqui/d67824c2b0ff6518e730898e476402b9",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "dermot.quirk@gmail.com",
+      "proof_url": "https://onename.com/dermotquirk?post_id=10153485592276761_10153485599241761#facebook",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN dermotquirk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dermotquirk.id\"\n"
+}
