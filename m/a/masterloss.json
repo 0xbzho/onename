@@ -1,0 +1,54 @@
+{
+  "owner_address": "1CqRnbcfXcB71ncCgAZT5g9kFcowrjh7fa",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "masterloss",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/masterloss/posts/1170538869644930",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "masterloss",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/masterloss/770326532f6080a19eaf92caf469ee4b",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Moscow"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/masterloss",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/masterloss",
+        "name": "cover"
+      }
+    ],
+    "name": "Konstantin Loss"
+  },
+  "verifications": [
+    {
+      "identifier": "masterloss",
+      "proof_url": "https://www.facebook.com/masterloss/posts/1170538869644930",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "masterloss",
+      "proof_url": "https://gist.github.com/masterloss/770326532f6080a19eaf92caf469ee4b",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN masterloss.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/masterloss.id\"\n"
+}
