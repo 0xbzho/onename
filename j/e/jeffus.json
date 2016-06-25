@@ -1,0 +1,74 @@
+{
+  "owner_address": "1AS7HofQ6nP2zMfwdkb6muVUFaPWwAmN6b",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jjeffus",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jjeffus/status/741058447353864192",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "profile.php?id=121204411&fref=nf",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/permalink.php?story_fbid=949534015273&id=121204411&pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jjeffus",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jjeffus/5566a32a64b3daca789c1f1ca95578a5",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Long Beach, CA"
+    },
+    "description": "https://www.linkedin.com/in/janet-jeffus-b0709720?trk=hp-identity-name",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jeffus",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jeffus",
+        "name": "cover"
+      }
+    ],
+    "name": "Janet Jeffus",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://jjeffus.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jjeffus",
+      "proof_url": "https://twitter.com/jjeffus/status/741058447353864192",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "profile.php?id=121204411&fref=nf",
+      "proof_url": "https://www.facebook.com/permalink.php?story_fbid=949534015273&id=121204411&pnref=story",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "jjeffus",
+      "proof_url": "https://gist.github.com/jjeffus/5566a32a64b3daca789c1f1ca95578a5",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jeffus.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jeffus.id\"\n"
+}
