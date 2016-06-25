@@ -1,0 +1,37 @@
+{
+  "owner_address": "1FSmU77Jg3qqxz9PdBj1jwEXwXWLnKbAyP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "leenooks",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/leenooks/86ea8289e2484937dcecf55316b299a9",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "19yjxRNuiJrvj8JqVfDrbpmMbCSmGHzYRQ",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "leenooks",
+      "proof_url": "https://gist.github.com/leenooks/86ea8289e2484937dcecf55316b299a9",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN leenooks.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/leenooks.id\"\n"
+}
