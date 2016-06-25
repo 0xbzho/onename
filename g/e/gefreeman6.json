@@ -1,0 +1,69 @@
+{
+  "owner_address": "1fhkRUyrSXQVEMCmNJuLPKLZW8UsWM6rW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gefreeman6",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gefreeman6/status/740721371970424837",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1EpDx4JGcym9HW2yME6Z2gckwxMKAudUuZ",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gefreeman6",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/gefreeman6/posts/996537057068524",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gefreeman6",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/gefreeman6/5ebce4505113cc3200c1a27d2393d522",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gefreeman6",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/gefreeman6",
+        "name": "cover"
+      }
+    ],
+    "name": "Greg Freeman"
+  },
+  "verifications": [
+    {
+      "identifier": "gefreeman6",
+      "proof_url": "https://twitter.com/gefreeman6/status/740721371970424837",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "gefreeman6",
+      "proof_url": "https://www.facebook.com/gefreeman6/posts/996537057068524",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "gefreeman6",
+      "proof_url": "https://gist.github.com/gefreeman6/5ebce4505113cc3200c1a27d2393d522",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN gefreeman6.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gefreeman6.id\"\n"
+}
