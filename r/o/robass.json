@@ -1,0 +1,61 @@
+{
+  "owner_address": "1N8mQEoXJVhJi8jFGHoxyd3QjiS3E6355Z",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rogerbass",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rogerbass/status/741646344280932353",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "roger.g.bass",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/roger.g.bass/posts/10154022928415020",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco, CA, USA"
+    },
+    "description": "Internet of Payments and B2B Thought Leader. Traxiant CEO",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/robass",
+        "name": "avatar"
+      }
+    ],
+    "name": "Roger Bass",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.traxiant.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "rogerbass",
+      "proof_url": "https://twitter.com/rogerbass/status/741646344280932353",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "roger.g.bass",
+      "proof_url": "https://www.facebook.com/roger.g.bass/posts/10154022928415020",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN robass.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/robass.id\"\n"
+}
