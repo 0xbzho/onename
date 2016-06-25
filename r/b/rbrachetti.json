@@ -1,0 +1,64 @@
+{
+  "owner_address": "1FmChJCDrHoNgkRdznyQwryRGmxRoddQRp",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rbra_",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rbra_/status/741520610006814721",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "brachetti",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/brachetti/bc05f4646f975f3bb99c9475224c3b4d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ronald.brachetti",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ronald.brachetti/posts/10153829898869069",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pgp.mit.edu/pks/lookup?op=get&search=0xFB7ECA2DE13F1BC7",
+        "identifier": "5105F3285F081141C1B75901FB7ECA2DE13F1BC7",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ronald Brachetti"
+  },
+  "verifications": [
+    {
+      "identifier": "rbra_",
+      "proof_url": "https://twitter.com/rbra_/status/741520610006814721",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "brachetti",
+      "proof_url": "https://gist.github.com/brachetti/bc05f4646f975f3bb99c9475224c3b4d",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "ronald.brachetti",
+      "proof_url": "https://www.facebook.com/ronald.brachetti/posts/10153829898869069",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN rbrachetti.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rbrachetti.id\"\n"
+}
