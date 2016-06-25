@@ -1,0 +1,79 @@
+{
+  "owner_address": "15AL7JAWqNhSR4wv9RsrP2aMF7Qm4AhEcw",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mooregramsbeats",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MooreGramsBeats/status/740926892828729345",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "graeme.n.moore",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/graeme.n.moore/posts/10205696723691419",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mooregramsbeats",
+        "service": "vine"
+      },
+      {
+        "@type": "Account",
+        "identifier": "realgraememoore",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/Dreaddymck/",
+        "service": "snapchat"
+      },
+      {
+        "@type": "Account",
+        "identifier": "realgraememoore",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/johnsockwell/07f4e6417690a8c3be48b0ef9f0a1740",
+        "service": "instagram"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Toronto, ON"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/graememoore",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/graememoore",
+        "name": "cover"
+      }
+    ],
+    "name": "Graeme Moore"
+  },
+  "verifications": [
+    {
+      "identifier": "mooregramsbeats",
+      "proof_url": "https://twitter.com/MooreGramsBeats/status/740926892828729345",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "graeme.n.moore",
+      "proof_url": "https://www.facebook.com/graeme.n.moore/posts/10205696723691419",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "realgraememoore",
+      "proof_url": "https://gist.github.com/johnsockwell/07f4e6417690a8c3be48b0ef9f0a1740",
+      "service": "instagram",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN graememoore.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/graememoore.id\"\n"
+}
