@@ -1,0 +1,69 @@
+{
+  "owner_address": "1Peqcc8ypc95zCEA5Z5FzHGFSz63mAQ9bn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mattiaswerner",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mattiaswerner/status/740966458323263489",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "16GpA24wTSHzX2iZDaSFcdkovH7dAPJrn1",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mattiasw",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mattiasw/posts/10153930711208612",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mattiaswerner",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mattiaswerner/364f9d0e6b04ceccd1c136a5b00da94f",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mattiaswerner",
+        "name": "avatar"
+      }
+    ],
+    "name": "Mattias Wernér"
+  },
+  "verifications": [
+    {
+      "identifier": "mattiaswerner",
+      "proof_url": "https://twitter.com/mattiaswerner/status/740966458323263489",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mattiasw",
+      "proof_url": "https://www.facebook.com/mattiasw/posts/10153930711208612",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "mattiaswerner",
+      "proof_url": "https://gist.github.com/mattiaswerner/364f9d0e6b04ceccd1c136a5b00da94f",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mattiaswerner.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mattiaswerner.id\"\n"
+}
