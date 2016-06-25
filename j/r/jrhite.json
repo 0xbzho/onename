@@ -1,0 +1,58 @@
+{
+  "owner_address": "1A5AZAi24hTu23RDypDnFGmvNFULbH36Ek",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jacobhite",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jacobhite/status/741445253228429313",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jacob.hite",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jacob.hite/posts/10209424873756978",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jrhite",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jrhite/85ce8d029e12bf16036512b2e18ef949",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jacob Hite"
+  },
+  "verifications": [
+    {
+      "identifier": "jacobhite",
+      "proof_url": "https://twitter.com/jacobhite/status/741445253228429313",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jacob.hite",
+      "proof_url": "https://www.facebook.com/jacob.hite/posts/10209424873756978",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "jrhite",
+      "proof_url": "https://gist.github.com/jrhite/85ce8d029e12bf16036512b2e18ef949",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jrhite.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jrhite.id\"\n"
+}
