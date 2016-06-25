@@ -1,0 +1,48 @@
+{
+  "owner_address": "15tCTGcxFUJt1FqqqJGffNyS5yoMxQmC4M",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "michaelallenflannery",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/MichaelAllenFlannery/posts/10155466744253084",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "c966aa9c49097a69b1c8092dbdcf12a6800113d9",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/virenmantri/status/742768996844339200",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Los Angeles, CA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mikeflannery",
+        "name": "avatar"
+      }
+    ],
+    "name": "Mike Flannery"
+  },
+  "verifications": [
+    {
+      "identifier": "michaelallenflannery",
+      "proof_url": "https://www.facebook.com/MichaelAllenFlannery/posts/10155466744253084",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mikeflannery.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mikeflannery.id\"\n"
+}
