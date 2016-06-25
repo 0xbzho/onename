@@ -1,0 +1,29 @@
+{
+  "owner_address": "1CbyKLmqWnJQqBeDcJMUNHMgK6xgXpPN1T",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "97e2b22a051cfdaff5a31799cab988e8a380e401",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1B3vceR1p9W3WgUdme1zgFnZEqAmnbR7cP",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "DigitalWare"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN digitalware.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/digitalware.id\"\n"
+}
