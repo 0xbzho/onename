@@ -1,0 +1,31 @@
+{
+  "owner_address": "1EMFXZNiWaFe7PmFRae5TfwuhwwjhP1ryG",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "OperatorDanGame",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/OperatorDanGame/status/740860851335385088",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "OperatorDanGame",
+      "proof_url": "https://twitter.com/OperatorDanGame/status/740860851335385088",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN operatordan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/operatordan.id\"\n"
+}
