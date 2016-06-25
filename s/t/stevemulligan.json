@@ -1,0 +1,31 @@
+{
+  "owner_address": "172jGppquYmKCoQUGeFAx2QD5PVDE9k3Ez",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "stevemulligan",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/stevemulligan/status/740685215618748416",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "stevemulligan",
+      "proof_url": "https://twitter.com/stevemulligan/status/740685215618748416",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN stevemulligan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stevemulligan.id\"\n"
+}
