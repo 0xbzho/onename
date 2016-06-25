@@ -1,0 +1,50 @@
+{
+  "owner_address": "1NkgmhVfKUY6uwrPFLDBz31z56YpcmMcVe",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "39doqj1dbBCFo6yQSBC4d4vn4vJ4WYAqax",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "08528cf416e256d5b3350694d32bfd71a65647f2",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/hoehni/9a3ebbfa0c8111f895edf61752ff5d19#file-gistfile1-txt",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "victor.vdbu",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/victor.vdbu/posts/10154203510139522",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/victorvdb",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/victorvdb",
+        "name": "avatar"
+      }
+    ],
+    "name": "Victor VDB"
+  },
+  "verifications": [
+    {
+      "identifier": "victor.vdbu",
+      "proof_url": "https://www.facebook.com/victor.vdbu/posts/10154203510139522",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN victorvdb.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/victorvdb.id\"\n"
+}
