@@ -1,0 +1,62 @@
+{
+  "owner_address": "18xtcLnxHp645sXxx5obEWQkv53pQDr11W",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "madgoat",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/madgoat/aebb89ee11d6b610103557fd4ec08f87",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "madgoat",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/madgoat/status/736719100307771392",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ian.robertson",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ian.robertson/posts/10157211593575001",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ottawa, Canada"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ian Robertson"
+  },
+  "verifications": [
+    {
+      "identifier": "madgoat",
+      "proof_url": "https://gist.github.com/madgoat/aebb89ee11d6b610103557fd4ec08f87",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "madgoat",
+      "proof_url": "https://twitter.com/madgoat/status/736719100307771392",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ian.robertson",
+      "proof_url": "https://www.facebook.com/ian.robertson/posts/10157211593575001",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN madgoat.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/madgoat.id\"\n"
+}
