@@ -1,0 +1,68 @@
+{
+  "owner_address": "1DsmXyKuJT4Gv1rznz6ntT7N6PumK5tVNz",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "guisebule",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/guisebule/status/744311942546866176",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "GuiseBule",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/GuiseBule/7767930909e4134d46b767182e342c61#file-gb_onename",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "guisebule",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/guisebule/posts/970548749732588",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "SFO + LAX + LHR"
+    },
+    "description": "Chief | Chair | Consultant",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/guisebule",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/guisebule",
+        "name": "cover"
+      }
+    ],
+    "name": "Guise Bule"
+  },
+  "verifications": [
+    {
+      "identifier": "guisebule",
+      "proof_url": "https://twitter.com/guisebule/status/744311942546866176",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "GuiseBule",
+      "proof_url": "https://gist.github.com/GuiseBule/7767930909e4134d46b767182e342c61#file-gb_onename",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "guisebule",
+      "proof_url": "https://www.facebook.com/guisebule/posts/970548749732588",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN guisebule.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/guisebule.id\"\n"
+}
