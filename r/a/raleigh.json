@@ -1,0 +1,50 @@
+{
+  "owner_address": "1MS9KwzGPe3UBk6Qt9NAVpihZRb99AbKEQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "raleighc",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RaleighC/status/740819842098462720",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "illgenr",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/illgenr/ee37d87186ee2e98be32d15941cf5e4d",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/raleigh",
+        "name": "avatar"
+      }
+    ],
+    "name": "Raleigh"
+  },
+  "verifications": [
+    {
+      "identifier": "raleighc",
+      "proof_url": "https://twitter.com/RaleighC/status/740819842098462720",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "illgenr",
+      "proof_url": "https://gist.github.com/illgenr/ee37d87186ee2e98be32d15941cf5e4d",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN raleigh.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/raleigh.id\"\n"
+}
