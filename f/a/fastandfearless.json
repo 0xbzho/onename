@@ -1,0 +1,64 @@
+{
+  "owner_address": "1BUiwNm63irj4ZZTrGGyFVN3RVJfbJguHs",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "fastandfearless",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/fastandfearless/status/739756056964964352",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fastandfearless",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/fastandfearless/posts/10208614620579684",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mabels",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mabels/cdcd39c29e49915bbcfea630419a4894",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/fastandfearless",
+        "identifier": "F36846C4A7DEFD55F492069C19B013CF06A4BEEF",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Meno Abels"
+  },
+  "verifications": [
+    {
+      "identifier": "fastandfearless",
+      "proof_url": "https://twitter.com/fastandfearless/status/739756056964964352",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "fastandfearless",
+      "proof_url": "https://www.facebook.com/fastandfearless/posts/10208614620579684",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "mabels",
+      "proof_url": "https://gist.github.com/mabels/cdcd39c29e49915bbcfea630419a4894",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN fastandfearless.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fastandfearless.id\"\n"
+}
