@@ -1,0 +1,44 @@
+{
+  "owner_address": "1PiM9QmhPLJzEJss67kj2i7NavDZGEcVXD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "trevor.holmes.963",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/trevor.holmes.963/posts/10101145192902920",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "vardalek",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/vardalek/status/740717226035150848",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "trevor.holmes.963",
+      "proof_url": "https://www.facebook.com/trevor.holmes.963/posts/10101145192902920",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "vardalek",
+      "proof_url": "https://twitter.com/vardalek/status/740717226035150848",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN vardalek.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vardalek.id\"\n"
+}
