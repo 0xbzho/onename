@@ -1,0 +1,37 @@
+{
+  "owner_address": "12d3t8fBhE4KxjMP1SAeZTC19ko2khau11",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mr_mustash",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mr_mustash/status/741017168444166144",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/king/key.asc",
+        "identifier": "269E87A8B0E4EA16ABF611012A590EC935F55DB1",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mr_mustash",
+      "proof_url": "https://twitter.com/mr_mustash/status/741017168444166144",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mr_mustash.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mr_mustash.id\"\n"
+}
