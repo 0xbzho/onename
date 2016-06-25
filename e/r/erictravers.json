@@ -1,49 +1,62 @@
 {
   "owner_address": "1LbK7WZUvDsENXefCodVdiMeCUztrqS2MA",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/erictravers"
-    },
-    "bio": "Husband, Father, Bass Player, Hacker",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/4AL.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/EricXTroy/posts/781127585324754"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/erictravers",
+        "identifier": "AF4DFBA97074973EB49ABE2490BF12C831982124",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "EricXTroy"
-    },
-    "location": {
-      "formatted": "Florida, USA"
-    },
-    "name": {
-      "formatted": "Eric Travers"
-    },
-    "pgp": {
-      "fingerprint": "AF4DFBA97074973EB49ABE2490BF12C831982124",
-      "url": "https://s3.amazonaws.com/pk9/erictravers"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/erictravers/status/685190264529498112"
+      {
+        "@type": "Account",
+        "identifier": "erictravers",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/erictravers/status/745292927602032641",
+        "service": "twitter"
       },
-      "username": "erictravers"
+      {
+        "@type": "Account",
+        "identifier": "EricXTroy",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ericxtravers/posts/866384003465778",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Florida, USA"
     },
-    "v": "0.2"
+    "description": "Husband, Father, Bass Player, Hacker",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/erictravers",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Eric Travers"
   },
   "verifications": [
     {
       "identifier": "erictravers",
-      "proof_url": "https://twitter.com/erictravers/status/685190264529498112",
+      "proof_url": "https://twitter.com/erictravers/status/745292927602032641",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "EricXTroy",
-      "proof_url": "https://facebook.com/EricXTroy/posts/781127585324754",
+      "proof_url": "https://www.facebook.com/ericxtravers/posts/866384003465778",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN erictravers.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/erictravers.id\"\n"
 }
