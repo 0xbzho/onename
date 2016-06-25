@@ -1,0 +1,31 @@
+{
+  "owner_address": "12ExtRmPcbD6WWGYBJeRauqN6qVKRnxSBR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "smactoback",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/smactoback/status/740769575676084224",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "smactoback",
+      "proof_url": "https://twitter.com/smactoback/status/740769575676084224",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN smactoback.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/smactoback.id\"\n"
+}
