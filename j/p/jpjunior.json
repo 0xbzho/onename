@@ -1,48 +1,67 @@
 {
   "owner_address": "1CW2x5cyL1s1PKkUWS9jzeYKB88vyzP2o7",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/jpjunior"
-    },
-    "bio": "Espresso and Planes. Pretty much sums it up!",
-    "bitcoin": {
-      "address": "3QDV6Jdg42B3gmsHMWAzVxvtfrpKeaUAFz"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/jpjunior"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/jpnicole/posts/10101018263425451"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jpnicole",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "jpnicole"
-    },
-    "location": {
-      "formatted": "Tokyo"
-    },
-    "name": {
-      "formatted": "JP Nicole"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/Jpjunior/status/580185309670830082"
+      {
+        "@type": "Account",
+        "identifier": "3QDV6Jdg42B3gmsHMWAzVxvtfrpKeaUAFz",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "Jpjunior"
+      {
+        "@type": "Account",
+        "identifier": "jpjpjunior",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jpjpjunior/22e53b3327ec7c79525910dd8ae98494",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Jpjunior",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Jpjunior/status/740774469623504896",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Tokyo"
     },
-    "v": "0.2"
+    "description": "Espresso and Planes. Pretty much sums it up!",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jpjunior",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jpjunior",
+        "name": "cover"
+      }
+    ],
+    "name": "JP Nicole"
   },
   "verifications": [
     {
-      "identifier": "Jpjunior",
-      "proof_url": "https://twitter.com/Jpjunior/status/580185309670830082",
-      "service": "twitter",
+      "identifier": "jpjpjunior",
+      "proof_url": "https://gist.github.com/jpjpjunior/22e53b3327ec7c79525910dd8ae98494",
+      "service": "github",
       "valid": true
     },
     {
-      "identifier": "jpnicole",
-      "proof_url": "https://facebook.com/jpnicole/posts/10101018263425451",
-      "service": "facebook",
-      "valid": false
+      "identifier": "Jpjunior",
+      "proof_url": "https://twitter.com/Jpjunior/status/740774469623504896",
+      "service": "twitter",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN jpjunior.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jpjunior.id\"\n"
 }
