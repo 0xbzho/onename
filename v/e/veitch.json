@@ -1,0 +1,31 @@
+{
+  "owner_address": "1AgR1PHmQGxdnm7ketcacws3dAQqpcjFyp",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "veitchtweets",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/veitchtweets/status/740697195050106885",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "veitchtweets",
+      "proof_url": "https://twitter.com/veitchtweets/status/740697195050106885",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN veitch.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/veitch.id\"\n"
+}
