@@ -1,0 +1,72 @@
+{
+  "owner_address": "19JMdWGoYQPB4nCzStf992qxDjnkKwxXJ5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "geahaad",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/geahaad/b441994ad07fe60944833b8e7fdc11d8",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "geahaad",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/geahaad/status/740557354555543553",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "15VuMJx6inYDKtYi7p2zP3bYk6wBmUvVAo",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/geahaad",
+        "identifier": "482B9BE32A3F429C402D4DC191EA3716E92E61F3",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Austria"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/geahaad",
+        "name": "avatar"
+      }
+    ],
+    "name": "Gerhard Dinhof",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://trailsandplants.eu"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "geahaad",
+      "proof_url": "https://gist.github.com/geahaad/b441994ad07fe60944833b8e7fdc11d8",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "geahaad",
+      "proof_url": "https://twitter.com/geahaad/status/740557354555543553",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN geahaad.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/geahaad.id\"\n"
+}
