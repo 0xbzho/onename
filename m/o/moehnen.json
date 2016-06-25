@@ -1,0 +1,31 @@
+{
+  "owner_address": "1NRgmcqLxaLaaU6nKdefNts5hb2LQJZAM5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "moehnen",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/moehnen/26d09dbeddf6dd43a19c79ecfaff74bc",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "moehnen",
+      "proof_url": "https://gist.github.com/moehnen/26d09dbeddf6dd43a19c79ecfaff74bc",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN moehnen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/moehnen.id\"\n"
+}
