@@ -1,61 +1,73 @@
 {
   "owner_address": "1JvkjfvCSXpQm48LHY79qg4oULCHYGJuwe",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/wvbitcoinboy"
-    },
-    "bio": "Loving father to two absolutely precious little boys and their mother! Bitcoin evangelist, investor and lover. Into all things technology, music and science.",
-    "bitcoin": {
-      "address": "1Mj8PWjCPcea8o9o4KvXV2cPzSFgsXeZrm"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/yvD.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/jteknet/posts/10204088071834028"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jwaugh",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "jteknet"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/jwaugh/88b1d0ae1efe3d3b02e2"
+      {
+        "@type": "Account",
+        "identifier": "1CFVz73ag97xXHaYrw9dih8WHowkGreqR7",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "jwaugh"
-    },
-    "location": {
-      "formatted": "West Virginia"
-    },
-    "name": {
-      "formatted": "Justin M. Waugh"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/WVBitcoinBoy/status/617192152632836097"
+      {
+        "@type": "Account",
+        "identifier": "WVBitcoinBoy",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/WVBitcoinBoy/status/745436792246120448",
+        "service": "twitter"
       },
-      "username": "WVBitcoinBoy"
+      {
+        "@type": "Account",
+        "identifier": "jteknet",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jteknet/posts/10206085944139587",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "West Virginia"
     },
-    "v": "0.2",
-    "website": "http://www.sswv.com"
+    "description": "Loving father to two absolutely precious little boys and their mother! Bitcoin evangelist, investor and lover. Into all things technology, music and science.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/wvbitcoinboy",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Justin M. Waugh",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.sswv.com"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "jwaugh",
-      "proof_url": "https://gist.github.com/jwaugh/88b1d0ae1efe3d3b02e2",
-      "service": "github",
-      "valid": true
-    },
-    {
       "identifier": "WVBitcoinBoy",
-      "proof_url": "https://twitter.com/WVBitcoinBoy/status/617192152632836097",
+      "proof_url": "https://twitter.com/WVBitcoinBoy/status/745436792246120448",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "jteknet",
-      "proof_url": "https://facebook.com/jteknet/posts/10204088071834028",
+      "proof_url": "https://www.facebook.com/jteknet/posts/10206085944139587",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN wvbitcoinboy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wvbitcoinboy.id\"\n"
 }
