@@ -1,0 +1,41 @@
+{
+  "owner_address": "1Ebce5F6ajMdHRRzpkxuH734yWhJZL7Wc",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Nammalvar",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/nammalvar/status/741006597300850688",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Montrouge"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nammalvar",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/nammalvar",
+        "name": "cover"
+      }
+    ],
+    "name": "Etienne Jouin"
+  },
+  "verifications": [
+    {
+      "identifier": "Nammalvar",
+      "proof_url": "https://twitter.com/nammalvar/status/741006597300850688",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN nammalvar.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nammalvar.id\"\n"
+}
