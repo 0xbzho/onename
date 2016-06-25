@@ -1,0 +1,44 @@
+{
+  "owner_address": "19rFgC7AkJaX68kUnuvkhpLEWoYQzBobb4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "thekittster",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/thekittster/status/742245558534975488",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "skitt",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/skitt/721eaad014a5b5c1a6ab09848c1e91cb",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "thekittster",
+      "proof_url": "https://twitter.com/thekittster/status/742245558534975488",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "skitt",
+      "proof_url": "https://gist.github.com/skitt/721eaad014a5b5c1a6ab09848c1e91cb",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN skkitt.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/skkitt.id\"\n"
+}
