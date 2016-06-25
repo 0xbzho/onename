@@ -1,0 +1,47 @@
+{
+  "owner_address": "18pLzaZtS4DiX4Zco5eiReEsd81gcoxekd",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Devenclemens",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/devenclemens/status/739843130376081408",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1LWjSZpg5TTkPbECutpGLTLfuQDFVtKC8q",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/deven_clemens",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/deven_clemens",
+        "name": "cover"
+      }
+    ],
+    "name": "Deven Clemens"
+  },
+  "verifications": [
+    {
+      "identifier": "Devenclemens",
+      "proof_url": "https://twitter.com/devenclemens/status/739843130376081408",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN deven_clemens.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/deven_clemens.id\"\n"
+}
