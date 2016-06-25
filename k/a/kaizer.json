@@ -1,0 +1,49 @@
+{
+  "owner_address": "1EM4GEomVNhdiLheLr5JbLMj5CVUAmzG4j",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "getkaizer",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/getkaizer/status/740778030344372224",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "getkaizer",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/getkaizer/ea01ec69fcd4714aebfdbab1d2855872",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kaizer",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "getkaizer",
+      "proof_url": "https://twitter.com/getkaizer/status/740778030344372224",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "getkaizer",
+      "proof_url": "https://gist.github.com/getkaizer/ea01ec69fcd4714aebfdbab1d2855872",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kaizer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kaizer.id\"\n"
+}
