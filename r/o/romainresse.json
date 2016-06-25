@@ -1,10 +1,62 @@
 {
   "owner_address": "15CiVnzVswL96mn7JSsNhVtaPzPju1AxRg",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/vsS.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "RomainRss",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RomainRss/status/745826572960051200",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "roman.rsss",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/roman.rsss/posts/10154292561954712",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "romanrss",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/romanrss/b2f74792ad2571f08106b362f0205cae",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/romainresse",
+        "name": "avatar"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "RomainRss",
+      "proof_url": "https://twitter.com/RomainRss/status/745826572960051200",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "roman.rsss",
+      "proof_url": "https://www.facebook.com/roman.rsss/posts/10154292561954712",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "romanrss",
+      "proof_url": "https://gist.github.com/romanrss/b2f74792ad2571f08106b362f0205cae",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN romainresse.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/romainresse.id\"\n"
 }
