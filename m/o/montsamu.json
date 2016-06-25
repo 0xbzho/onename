@@ -1,0 +1,31 @@
+{
+  "owner_address": "1PvUuzCuZZYEp3JdnkBfEMbU6Lp8Z4ESWB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "montsamu",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/montsamu/status/740898579498172416",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "montsamu",
+      "proof_url": "https://twitter.com/montsamu/status/740898579498172416",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN montsamu.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/montsamu.id\"\n"
+}
