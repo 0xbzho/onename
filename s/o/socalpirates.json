@@ -1,0 +1,57 @@
+{
+  "owner_address": "1KHfRVjPYkorMdC7YdF9cTd9r29uDCz63r",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "realsocalpirate",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/realsocalpirate/status/740069398451388422",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "2c1a015d32d0e01c0eecaba51e09e3eb63fb9efe",
+        "service": "openbazzar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "18qRyoHLNLpXagic31qFaA1zJoqAkKAqNa",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "2c1a015d32d0e01c0eecaba51e09e3eb63fb9efe",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Orange County, CA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/socalpirates",
+        "name": "avatar"
+      }
+    ],
+    "name": "Aaron Rusnak"
+  },
+  "verifications": [
+    {
+      "identifier": "realsocalpirate",
+      "proof_url": "https://twitter.com/realsocalpirate/status/740069398451388422",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN socalpirates.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/socalpirates.id\"\n"
+}
