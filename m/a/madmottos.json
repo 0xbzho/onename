@@ -1,0 +1,33 @@
+{
+  "owner_address": "1Fx7anwDhGJ5udbhsfxB23s7Qd82scyhjc",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "8ac5ac34ab1d4ba7ef0388ec7abf6f109cdf1210",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "3CRdjWUyYzygSeQgJniYLam7Fz47RzLtgF",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/madmottos",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/madmottos",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN madmottos.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/madmottos.id\"\n"
+}
