@@ -1,0 +1,79 @@
+{
+  "owner_address": "12kjcnBhC7hS49VqiYKDaZVxh1FFcYTD5i",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "crowdgofundme",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/crowdgofundme/status/739369176314220544",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "crowdgofundme",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/crowdgofundme/efe9239f2f58a4c11c22dc685513993a",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "c55e089558efe79f2eb7f1c47dbb8d9f684d6665",
+        "service": "open bazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "profile.php?id=100001617190679",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/permalink.php?story_fbid=1717274828520766&id=100007147965881",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Melbourne Australia"
+    },
+    "description": "Hi my name is Peter and my business specialises in providing ideas and marketing concepts for startups, entrepreneurs, small and large business.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/pet2016",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/pet2016",
+        "name": "cover"
+      }
+    ],
+    "name": "Peter Elmore",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.crowdfundmemedia.com/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "crowdgofundme",
+      "proof_url": "https://twitter.com/crowdgofundme/status/739369176314220544",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "crowdgofundme",
+      "proof_url": "https://gist.github.com/crowdgofundme/efe9239f2f58a4c11c22dc685513993a",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "profile.php?id=100001617190679",
+      "proof_url": "https://www.facebook.com/permalink.php?story_fbid=1717274828520766&id=100007147965881",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN pet2016.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pet2016.id\"\n"
+}
