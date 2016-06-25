@@ -1,0 +1,51 @@
+{
+  "owner_address": "1CoFeQntTQ2xdn9rbBkNtPfVWda4uoBcLh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "orkrad",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ORKRAD/status/743488449802493954",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1Lp8dfa9aELCg7aGXckEpoj1sHxMza8yry",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "marcus.downing.3",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/marcus.downing.3/posts/10209645103355326?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Marcus Downing"
+  },
+  "verifications": [
+    {
+      "identifier": "orkrad",
+      "proof_url": "https://twitter.com/ORKRAD/status/743488449802493954",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "marcus.downing.3",
+      "proof_url": "https://www.facebook.com/marcus.downing.3/posts/10209645103355326?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN marcusdowning.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/marcusdowning.id\"\n"
+}
