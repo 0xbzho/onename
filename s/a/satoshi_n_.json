@@ -1,0 +1,56 @@
+{
+  "owner_address": "1BJzWW1H1deYw4H947R5XDpeu9cdCxBhM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1BMijgoJknnf6Vjyrr3EghxbpDhjVP7zee",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Satoshi_N_",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Satoshi_N_/status/738383592280186880",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "profile.php?id=100009821161650",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/permalink.php?story_fbid=292315717772465&id=100009821161650",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/satoshi_n_",
+        "name": "avatar"
+      }
+    ],
+    "name": "Satoshi Nakamoto"
+  },
+  "verifications": [
+    {
+      "identifier": "Satoshi_N_",
+      "proof_url": "https://twitter.com/Satoshi_N_/status/738383592280186880",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "profile.php?id=100009821161650",
+      "proof_url": "https://www.facebook.com/permalink.php?story_fbid=292315717772465&id=100009821161650",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN satoshi_n_.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/satoshi_n_.id\"\n"
+}
