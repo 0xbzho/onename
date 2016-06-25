@@ -1,58 +1,74 @@
 {
   "owner_address": "17mB6uX2ecG5cSnyen7LdutPxAfRVZ2tiz",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/hawkmauk"
-    },
-    "bio": "Enviromentally conscious Software analyst, outdoor swimmer, cyclist and runner.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/hawkmauk"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/hawkmauk/posts/10207246333654040"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "hawkmauk",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/hawkmauk/posts/10209216241340501",
+        "service": "facebook"
       },
-      "username": "hawkmauk"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/hawkmauk/54fe88c3fe2b6c2fda17"
+      {
+        "@type": "Account",
+        "identifier": "hawkmauk",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/hawkmauk/status/742315217540030464",
+        "service": "twitter"
       },
-      "username": "hawkmauk"
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/7c60f61ebc49cdb887aebb8464cac6b0",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Michael Hawkins"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/hawkmauk/status/644261509279801348"
+    "description": "Enviromentally conscious Software analyst, outdoor swimmer, cyclist and runner.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hawkmauk",
+        "name": "avatar"
       },
-      "username": "hawkmauk"
-    },
-    "v": "0.2",
-    "website": "http://hawkmauk.com"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/hawkmauk",
+        "name": "cover"
+      }
+    ],
+    "name": "Michael Hawkins",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://hawkmauk.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "hawkmauk",
-      "proof_url": "https://gist.github.com/hawkmauk/54fe88c3fe2b6c2fda17",
-      "service": "github",
-      "valid": true
+      "proof_url": "https://www.facebook.com/hawkmauk/posts/10209216241340501",
+      "service": "facebook",
+      "valid": false
     },
     {
       "identifier": "hawkmauk",
-      "proof_url": "https://twitter.com/hawkmauk/status/644261509279801348",
+      "proof_url": "https://twitter.com/hawkmauk/status/742315217540030464",
       "service": "twitter",
       "valid": true
     },
     {
-      "identifier": "hawkmauk",
-      "proof_url": "https://facebook.com/hawkmauk/posts/10207246333654040",
-      "service": "facebook",
-      "valid": false
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/7c60f61ebc49cdb887aebb8464cac6b0",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN hawkmauk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hawkmauk.id\"\n"
 }
