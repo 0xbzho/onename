@@ -1,0 +1,43 @@
+{
+  "owner_address": "13uogmTWqwTesGx327hgnrKEF1BkCeEmVW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Kupferhirn",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Kupferhirn/7f19afb8ff567281ab839711d7f26f9a",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kupferhirn",
+        "name": "avatar"
+      }
+    ],
+    "name": "Stefan Leitgeb",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://kupferhirn.me/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Kupferhirn",
+      "proof_url": "https://gist.github.com/Kupferhirn/7f19afb8ff567281ab839711d7f26f9a",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kupferhirn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kupferhirn.id\"\n"
+}
