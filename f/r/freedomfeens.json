@@ -1,0 +1,37 @@
+{
+  "owner_address": "1DPWEvXXqWMD4WrSrnzySgxr8GijW9gd9g",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "13dCaAuCnYaarsBUaqNTkzXZya7AzBMNjY",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "FreedomFeens",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/FreedomFeens/status/739917986580987904",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "FreedomFeens",
+      "proof_url": "https://twitter.com/FreedomFeens/status/739917986580987904",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN freedomfeens.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/freedomfeens.id\"\n"
+}
