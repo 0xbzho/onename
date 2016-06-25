@@ -1,0 +1,75 @@
+{
+  "owner_address": "188jzxsTgXPnCn5asKVHPSwyjNpPX9JvFG",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "12MikcX6zjXSXYn4RenAsY696EcWSV34QA",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tonyjayfunk",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tonyjayfunk/0d56277a224d9160d0d4b8b6e9da9f23",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "soufian",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/soufian/posts/10155023713414782",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tonyjayfunk",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tonyjayfunk/status/741705737345306624",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tonyjayfunk",
+        "name": "avatar"
+      }
+    ],
+    "name": "Soufian Aboulfaouz",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.doowaly.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tonyjayfunk",
+      "proof_url": "https://gist.github.com/tonyjayfunk/0d56277a224d9160d0d4b8b6e9da9f23",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "soufian",
+      "proof_url": "https://www.facebook.com/soufian/posts/10155023713414782",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "tonyjayfunk",
+      "proof_url": "https://twitter.com/tonyjayfunk/status/741705737345306624",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tonyjayfunk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tonyjayfunk.id\"\n"
+}
