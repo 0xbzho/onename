@@ -13,8 +13,22 @@
         "@type": "Account",
         "identifier": "skzgzr",
         "proofType": "http",
-        "proofUrl": "https://facebook.com/skzgzr/posts/848777131892843",
+        "proofUrl": "https://twitter.com/skzgzr/status/746334251696545792",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "skzgzr",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/skzgzr/posts/883297801774109",
         "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/9150d9a53c09a43763851d04743ea4c7",
+        "service": "github"
       },
       {
         "@type": "Account",
@@ -22,20 +36,6 @@
         "proofType": "http",
         "proofUrl": "https://onename.com/jcajjanssen",
         "service": "openbazaar"
-      },
-      {
-        "@type": "Account",
-        "identifier": "skzgzr",
-        "proofType": "http",
-        "proofUrl": "http://twitter.com/skzgzr",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "http:",
-        "proofType": "http",
-        "proofUrl": "http://gist.github.com/anonymous/96a3df206aada8f74fe345cba23ee9e9",
-        "service": "github"
       }
     ],
     "address": {
@@ -66,21 +66,21 @@
   "verifications": [
     {
       "identifier": "skzgzr",
-      "proof_url": "https://facebook.com/skzgzr/posts/848777131892843",
+      "proof_url": "https://twitter.com/skzgzr/status/746334251696545792",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "skzgzr",
+      "proof_url": "https://www.facebook.com/skzgzr/posts/883297801774109",
       "service": "facebook",
       "valid": false
     },
     {
-      "identifier": "skzgzr",
-      "proof_url": "http://twitter.com/skzgzr",
-      "service": "twitter",
-      "valid": false
-    },
-    {
-      "identifier": "http:",
-      "proof_url": "http://gist.github.com/anonymous/96a3df206aada8f74fe345cba23ee9e9",
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/9150d9a53c09a43763851d04743ea4c7",
       "service": "github",
-      "valid": false
+      "valid": true
     }
   ],
   "zone_file": "$ORIGIN zestrest.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/zestrest.id\"\n"
