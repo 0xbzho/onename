@@ -1,0 +1,49 @@
+{
+  "owner_address": "1NPNw1bhJiBvFZzoTkvjfm7RDya8fee6zm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "paulvanbladel",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/paulvanbladel/0d626d08815e11ded935c3651a1ed864",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "paulbladel",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/paulbladel/status/744113937977835520",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "oud-heverlee"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "paul van bladel"
+  },
+  "verifications": [
+    {
+      "identifier": "paulvanbladel",
+      "proof_url": "https://gist.github.com/paulvanbladel/0d626d08815e11ded935c3651a1ed864",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "paulbladel",
+      "proof_url": "https://twitter.com/paulbladel/status/744113937977835520",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN paulvanbladel.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/paulvanbladel.id\"\n"
+}
