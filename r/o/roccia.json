@@ -1,0 +1,36 @@
+{
+  "owner_address": "1LjFun12XhUtNNcePccyudoQdcxhbxhymh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "roccia",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/roccia/status/737194750311272448",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/roccia",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "roccia",
+      "proof_url": "https://twitter.com/roccia/status/737194750311272448",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN roccia.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/roccia.id\"\n"
+}
