@@ -1,0 +1,31 @@
+{
+  "owner_address": "1A7XkXCXD7ykSpZnshgDUGPDKD7ubGk2gc",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "matthewsag",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/matthewsag/status/740647994228363264",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "matthewsag",
+      "proof_url": "https://twitter.com/matthewsag/status/740647994228363264",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN matthewsag.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/matthewsag.id\"\n"
+}
