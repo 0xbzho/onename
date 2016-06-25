@@ -1,0 +1,42 @@
+{
+  "owner_address": "1AmSoEFwmnUHNF5cZ2TqrDSs9LpbfaHovr",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "pwolke",
+        "proofType": "http",
+        "proofUrl": "twitter.com/pwolke/status/741081721240592384",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Washington, NJ"
+    },
+    "description": "Front end designer and developer.  Musician and sound designer.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/pwolke",
+        "name": "avatar"
+      }
+    ],
+    "name": "Paul Wolke"
+  },
+  "verifications": [
+    {
+      "identifier": "pwolke",
+      "proof_url": "twitter.com/pwolke/status/741081721240592384",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN pwolke.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pwolke.id\"\n"
+}
