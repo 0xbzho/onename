@@ -1,0 +1,42 @@
+{
+  "owner_address": "1HUNwnEsET65PaAqGVboxu4gnC52rxGDqb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "satra",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/satra/20226d65b759a13c010dcc59ab88a770",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cambridge"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Satrajit Ghosh",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://satra.cogitatum.org/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "satra",
+      "proof_url": "https://gist.github.com/satra/20226d65b759a13c010dcc59ab88a770",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN satrajit.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/satrajit.id\"\n"
+}
