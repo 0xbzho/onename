@@ -1,0 +1,31 @@
+{
+  "owner_address": "1PXdCtS9kVvCZa4VQFtsrkuyqWauiDd6fQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dieterdp",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dieterdp",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dieterdp",
+      "proof_url": "https://www.facebook.com/dieterdp",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN dieterdp.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dieterdp.id\"\n"
+}
