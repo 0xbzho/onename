@@ -1,0 +1,32 @@
+{
+  "owner_address": "1LFRHKxm5SJDVLrdQHcCBLzbxo1CqbbNVE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "GoogilyBoogily",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/GoogilyBoogily/82a23caedb756ebaa7e01a3c75554200",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Derek Mayer"
+  },
+  "verifications": [
+    {
+      "identifier": "GoogilyBoogily",
+      "proof_url": "https://gist.github.com/GoogilyBoogily/82a23caedb756ebaa7e01a3c75554200",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN googilyboogily.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/googilyboogily.id\"\n"
+}
