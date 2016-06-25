@@ -1,0 +1,42 @@
+{
+  "owner_address": "1CrVag2EijUZKo9sWHggq5kWaJeqdP1L7E",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Jerdmul",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JerDmuL/status/740784700566974464",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1JQQuTD8AU2n6S51r6qgQN2YHEiow2gpZN",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "VA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jeremy Mullins"
+  },
+  "verifications": [
+    {
+      "identifier": "Jerdmul",
+      "proof_url": "https://twitter.com/JerDmuL/status/740784700566974464",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jerdmul.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jerdmul.id\"\n"
+}
