@@ -1,0 +1,41 @@
+{
+  "owner_address": "1AUQvVk7HQsbyHPRnqF29gPAEbNqd1YS4X",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "whereiskurt",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/kurt.hundeck/posts/10157083747355085",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Guelph, ON"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/whereiskurt",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/whereiskurt",
+        "name": "cover"
+      }
+    ],
+    "name": "Kurt P. Hundeck"
+  },
+  "verifications": [
+    {
+      "identifier": "whereiskurt",
+      "proof_url": "https://www.facebook.com/kurt.hundeck/posts/10157083747355085",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN whereiskurt.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/whereiskurt.id\"\n"
+}
