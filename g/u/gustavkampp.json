@@ -1,0 +1,63 @@
+{
+  "owner_address": "1Q9TbTh5V6VFCPpDagnYTMYdGJaqUSuk6j",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gustavkampp",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/GustavKampp/status/741030919159549952",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gustavkampp",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/gustavkampp/5e96b069505462654a67576cce2b0785",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gustavkampp",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/gustavkampp/posts/10209519117485878",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gustavkampp",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/gustavkampp",
+        "name": "cover"
+      }
+    ],
+    "name": "Gustav Sverre Kampp"
+  },
+  "verifications": [
+    {
+      "identifier": "gustavkampp",
+      "proof_url": "https://twitter.com/GustavKampp/status/741030919159549952",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "gustavkampp",
+      "proof_url": "https://gist.github.com/gustavkampp/5e96b069505462654a67576cce2b0785",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "gustavkampp",
+      "proof_url": "https://www.facebook.com/gustavkampp/posts/10209519117485878",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN gustavkampp.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gustavkampp.id\"\n"
+}
