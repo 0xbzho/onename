@@ -1,0 +1,49 @@
+{
+  "owner_address": "1KfjCWVZjtcY8Z3y4gg3Hot5fDY24quR7o",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kvnryn",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kvnryn/status/740891936047923200",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kevin.c.ryan",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/kevin.c.ryan/posts/10101755253405029",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Atlanta"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Kevin Ryan"
+  },
+  "verifications": [
+    {
+      "identifier": "kvnryn",
+      "proof_url": "https://twitter.com/kvnryn/status/740891936047923200",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "kevin.c.ryan",
+      "proof_url": "https://www.facebook.com/kevin.c.ryan/posts/10101755253405029",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN kvnryn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kvnryn.id\"\n"
+}
