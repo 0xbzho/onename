@@ -1,0 +1,41 @@
+{
+  "owner_address": "1M5NFCJ5j4bivn1DNgMT6nWvQmMWb2evDr",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "neilb",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "neilsb",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/neilsb/7e69d332f901c6f650a15aa302e49050",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Glasgow, UK"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Neil B"
+  },
+  "verifications": [
+    {
+      "identifier": "neilsb",
+      "proof_url": "https://gist.github.com/neilsb/7e69d332f901c6f650a15aa302e49050",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN neilsb.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/neilsb.id\"\n"
+}
