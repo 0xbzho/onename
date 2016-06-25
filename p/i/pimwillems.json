@@ -1,0 +1,36 @@
+{
+  "owner_address": "16sTJwkBvZzRYEe2mtP1KsBcVe6Xsr9v7L",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "forza1896",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/forza1896/status/740939238267621376",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Tilburg"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Pim Willems"
+  },
+  "verifications": [
+    {
+      "identifier": "forza1896",
+      "proof_url": "https://twitter.com/forza1896/status/740939238267621376",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN pimwillems.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pimwillems.id\"\n"
+}
