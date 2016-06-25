@@ -1,0 +1,67 @@
+{
+  "owner_address": "14uy1ror5PaZoxPmjhLCASuYgbK1WPSfFa",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jeffdaube",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jeffdaube/status/740901288490192896",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "daubejb",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/daubejb/b92260fe486bdcac44063a7cdf5d9867",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jeffdaube",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jeffdaube/posts/1939769889583007?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Apex, NC"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jeffdaube",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jeffrey B. Daube"
+  },
+  "verifications": [
+    {
+      "identifier": "jeffdaube",
+      "proof_url": "https://twitter.com/jeffdaube/status/740901288490192896",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "daubejb",
+      "proof_url": "https://gist.github.com/daubejb/b92260fe486bdcac44063a7cdf5d9867",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jeffdaube",
+      "proof_url": "https://www.facebook.com/jeffdaube/posts/1939769889583007?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jeffdaube.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jeffdaube.id\"\n"
+}
