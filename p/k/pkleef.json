@@ -1,0 +1,73 @@
+{
+  "owner_address": "1CmYZpssjPQMckuuAUJE8B99UBn34hGZQq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "pkleef",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/pkleef/0f8b142a8258dbc59240c8b17ea6d4b4",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "pkleef",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/pkleef/status/740989716611407873",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "pkleef",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/pkleef/posts/10153759085133721",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Amsterdam"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/pkleef",
+        "name": "avatar"
+      }
+    ],
+    "name": "Patrick van Kleef",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.openlinksw.com/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "pkleef",
+      "proof_url": "https://gist.github.com/pkleef/0f8b142a8258dbc59240c8b17ea6d4b4",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "pkleef",
+      "proof_url": "https://twitter.com/pkleef/status/740989716611407873",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "pkleef",
+      "proof_url": "https://www.facebook.com/pkleef/posts/10153759085133721",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN pkleef.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pkleef.id\"\n"
+}
