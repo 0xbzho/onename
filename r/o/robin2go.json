@@ -1,0 +1,62 @@
+{
+  "owner_address": "1CcdtQSTbNrQAJJtc1DRdTWHUKSzF2CUYh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Robin2go",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Robin2go/status/741335534904180736",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "robin2go",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/robin2go/6c6d4596b0d6a5fa0a1970c5d32c67e0",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "robin2go",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/robin2go/posts/10110928443358794",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/robin2go",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Robin2go",
+      "proof_url": "https://twitter.com/Robin2go/status/741335534904180736",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "robin2go",
+      "proof_url": "https://gist.github.com/robin2go/6c6d4596b0d6a5fa0a1970c5d32c67e0",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "robin2go",
+      "proof_url": "https://www.facebook.com/robin2go/posts/10110928443358794",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN robin2go.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/robin2go.id\"\n"
+}
