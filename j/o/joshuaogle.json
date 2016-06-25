@@ -1,0 +1,60 @@
+{
+  "owner_address": "1PBNfxCnM11ELsoZfiqBut5PKftMbJqxAW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "joshuaogle",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/joshuaogle/b103f7980e97f6485d5a96e9c35f72ef",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "joshuaogle",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/joshuaogle/status/742088065091395584",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Denver"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/joshuaogle",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/joshuaogle",
+        "name": "cover"
+      }
+    ],
+    "name": "Joshua Ogle",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://joshuaogle.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "joshuaogle",
+      "proof_url": "https://gist.github.com/joshuaogle/b103f7980e97f6485d5a96e9c35f72ef",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "joshuaogle",
+      "proof_url": "https://twitter.com/joshuaogle/status/742088065091395584",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN joshuaogle.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/joshuaogle.id\"\n"
+}
