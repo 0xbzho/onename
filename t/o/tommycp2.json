@@ -1,0 +1,36 @@
+{
+  "owner_address": "18wrBEtxJkxB1y3SBQwm5M6F1TX91MGqfc",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "2481b26f8d037115b5a9796f62823b88336703aa",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ubuntutom",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/UbuntuTom/status/743011058382557184",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ubuntutom",
+      "proof_url": "https://twitter.com/UbuntuTom/status/743011058382557184",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tommycp2.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tommycp2.id\"\n"
+}
