@@ -1,0 +1,31 @@
+{
+  "owner_address": "1Cm944SctpEaQRaHQAbD1NvBjt59zaBBmf",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mitchmcginnis",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mitchmcginnis/545086d7613ef9d5a747c670c53a9bca#file-gistfile1-txt",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mitchmcginnis",
+      "proof_url": "https://gist.github.com/mitchmcginnis/545086d7613ef9d5a747c670c53a9bca#file-gistfile1-txt",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mitchmcginnis.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mitchmcginnis.id\"\n"
+}
