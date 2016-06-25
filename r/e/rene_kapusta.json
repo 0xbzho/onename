@@ -1,0 +1,74 @@
+{
+  "owner_address": "1MyyUKfy8P6q3rbgW6DsSvfin1n5LWPA5i",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "evo42",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/evo42/4730d57cf78fef90bd4c94d03366182e",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rene.kapusta",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/rene.kapusta/posts/10154235064188205",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rene_kapusta",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rene_kapusta/status/741003534901116929",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Austria"
+    },
+    "description": "SEPA.digital  system architect & information designer #Blockchain #FinTech #SEPA #LinkedData #JavaScript entrepreneur.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rene_kapusta",
+        "name": "avatar"
+      }
+    ],
+    "name": "Rene Kapusta",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://evo42.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "evo42",
+      "proof_url": "https://gist.github.com/evo42/4730d57cf78fef90bd4c94d03366182e",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "rene.kapusta",
+      "proof_url": "https://www.facebook.com/rene.kapusta/posts/10154235064188205",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "rene_kapusta",
+      "proof_url": "https://twitter.com/rene_kapusta/status/741003534901116929",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rene_kapusta.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rene_kapusta.id\"\n"
+}
