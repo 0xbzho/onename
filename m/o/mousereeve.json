@@ -1,0 +1,62 @@
+{
+  "owner_address": "1PUPcAv9CR4DoDxdCHYVNWWvD1Lg1hEgdc",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tripofmice",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tripofmice/status/740681489344401408",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mouse-reeve",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mouse-reeve/0eddef009519f9d919e845c10a877b6c",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/mousereeve",
+        "identifier": "0F2D7751AA7F7F0312AA4B6ACD9A922FEF10CB25",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mousereeve",
+        "name": "avatar"
+      }
+    ],
+    "name": "Mouse Reeve",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.mousereeve.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tripofmice",
+      "proof_url": "https://twitter.com/tripofmice/status/740681489344401408",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mouse-reeve",
+      "proof_url": "https://gist.github.com/mouse-reeve/0eddef009519f9d919e845c10a877b6c",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mousereeve.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mousereeve.id\"\n"
+}
