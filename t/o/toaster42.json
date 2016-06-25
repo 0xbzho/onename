@@ -1,0 +1,73 @@
+{
+  "owner_address": "1MwhmpitwUm63XJFL9FTWqan9xAbDvRgFx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "d933c4944333899ab3634060ad8835ca5ef1fa60",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "m41ku",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/m41ku/status/739024030703845376",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "16RRxEQhAQiyqgM2W5KxQ68VxfQV5o8dMF",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "toaster42",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/toaster42/b5155a99fd9d05d13aa7fa9c218353ed",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https://www.facebook.com/mike.troester",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mike.troester/posts/10156909805825548?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/toaster42",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "m41ku",
+      "proof_url": "https://twitter.com/m41ku/status/739024030703845376",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "toaster42",
+      "proof_url": "https://gist.github.com/toaster42/b5155a99fd9d05d13aa7fa9c218353ed",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "https://www.facebook.com/mike.troester",
+      "proof_url": "https://www.facebook.com/mike.troester/posts/10156909805825548?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN toaster42.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/toaster42.id\"\n"
+}
