@@ -1,0 +1,45 @@
+{
+  "owner_address": "18Ec6NzPqgcgG3mBEtjM1jynWbVGp52pyJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "marcusdunlop",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/marcusdunlop/status/736181440552013824",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https://www.facebook.com/marcus.dunlop.1",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/marcusdunlop",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Marcus Dunlop"
+  },
+  "verifications": [
+    {
+      "identifier": "marcusdunlop",
+      "proof_url": "https://twitter.com/marcusdunlop/status/736181440552013824",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "https://www.facebook.com/marcus.dunlop.1",
+      "proof_url": "https://onename.com/marcusdunlop",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN marcusdunlop.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/marcusdunlop.id\"\n"
+}
