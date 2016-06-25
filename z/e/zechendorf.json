@@ -1,0 +1,74 @@
+{
+  "owner_address": "1GvTGfZaYnswgB8rx7LK551o9Q8sssA2f9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "zechendorf",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/zechendorf/status/742291232488083456",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "63ca3b8f2f6094f8cd36853511d32afec85ae7b8",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/OdyX_/status/742281274056925184",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "16XQhQTxSV6YDnUGx3hrRhQKQUnmEd7BgY",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "zechendorf",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/zechendorf/e6ac0d7a8d4433c0778752ed7d483914",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lüneburg, Germany"
+    },
+    "description": "bitcoin enthusiast / typo3 developer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/zechendorf",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/zechendorf",
+        "name": "cover"
+      }
+    ],
+    "name": "Christopher Zechendorf",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.zechendorf.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "zechendorf",
+      "proof_url": "https://twitter.com/zechendorf/status/742291232488083456",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "zechendorf",
+      "proof_url": "https://gist.github.com/zechendorf/e6ac0d7a8d4433c0778752ed7d483914",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN zechendorf.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/zechendorf.id\"\n"
+}
