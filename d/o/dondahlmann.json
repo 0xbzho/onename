@@ -1,0 +1,36 @@
+{
+  "owner_address": "1kP9gN1oEoAqpk4FdUGkNsfKhJzsavi2Q",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dondahlmann",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/DonDahlmann/status/740678197013057536",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dondahlmann",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dondahlmann",
+      "proof_url": "https://twitter.com/DonDahlmann/status/740678197013057536",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dondahlmann.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dondahlmann.id\"\n"
+}
