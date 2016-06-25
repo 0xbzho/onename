@@ -1,0 +1,54 @@
+{
+  "owner_address": "1FX3gA12hTECLz9cVqLMehhDYsoLrWNdnX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ArcadeCity_CV",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ArcadeCity_CV/status/742506603249868800?s=01",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ArcadeCityCedarValley",
+        "proofType": "http",
+        "proofUrl": "https://m.facebook.com/story.php?story_fbid=1274063325938000&id=1194262303918103&__tn__=%2As",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Waterloo, IA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/juddmercurio",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/juddmercurio",
+        "name": "cover"
+      }
+    ],
+    "name": "Judd Mercurio"
+  },
+  "verifications": [
+    {
+      "identifier": "ArcadeCity_CV",
+      "proof_url": "https://twitter.com/ArcadeCity_CV/status/742506603249868800?s=01",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ArcadeCityCedarValley",
+      "proof_url": "https://m.facebook.com/story.php?story_fbid=1274063325938000&id=1194262303918103&__tn__=%2As",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN juddmercurio.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/juddmercurio.id\"\n"
+}
