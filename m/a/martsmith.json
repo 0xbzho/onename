@@ -1,0 +1,41 @@
+{
+  "owner_address": "1QCcFFAXC1ccWSEWsoVfLSDaTraB1D29VL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "martsmiths",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/martsmiths/status/737794297760731136",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Wirral"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/martsmith",
+        "name": "avatar"
+      }
+    ],
+    "name": "Martin Smith"
+  },
+  "verifications": [
+    {
+      "identifier": "martsmiths",
+      "proof_url": "https://twitter.com/martsmiths/status/737794297760731136",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN martsmith.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/martsmith.id\"\n"
+}
