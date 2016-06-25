@@ -1,33 +1,42 @@
 {
   "owner_address": "1GSNpKcmNZtELxoRnaMRUs8i2kGh6PPDSB",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/jose_luu"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "joseluu",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/joseluu/status/635964144055943168",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "bio": "Electronic hacks and more",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/OSA.jpeg"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Jose Luu"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/joseluu/status/626314784938569728"
+    "description": "Electronic hacks and more",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jose_luu",
+        "name": "avatar"
       },
-      "username": "joseluu"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jose Luu"
   },
   "verifications": [
     {
       "identifier": "joseluu",
-      "proof_url": "https://twitter.com/joseluu/status/626314784938569728",
+      "proof_url": "https://twitter.com/joseluu/status/635964144055943168",
       "service": "twitter",
-      "valid": false
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN jose_luu.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jose_luu.id\"\n"
 }
