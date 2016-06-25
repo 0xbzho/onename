@@ -1,0 +1,55 @@
+{
+  "owner_address": "137sbFqMHosGJ8ptpdnMYqjn5YS3ULnkgR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1Begnc317FRemTocQb6Jc7WhoGzK13udJL",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "yeyo_makun",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/yeyo_makun/status/743421748549423104",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jestevez",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jestevez/230b5a721e1000b51cb1dc5470aec29d",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jestevez",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "yeyo_makun",
+      "proof_url": "https://twitter.com/yeyo_makun/status/743421748549423104",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jestevez",
+      "proof_url": "https://gist.github.com/jestevez/230b5a721e1000b51cb1dc5470aec29d",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jestevez.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jestevez.id\"\n"
+}
