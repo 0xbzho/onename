@@ -1,0 +1,36 @@
+{
+  "owner_address": "1G3R6rW9yNw9TN7g63VvqeF6FDQNGqeCbB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "joeonion",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/joeonion/46332fe2ef69df3fcfdfeeb17bbe7bfe",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/joeonion",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "joeonion",
+      "proof_url": "https://gist.github.com/joeonion/46332fe2ef69df3fcfdfeeb17bbe7bfe",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN joeonion.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/joeonion.id\"\n"
+}
