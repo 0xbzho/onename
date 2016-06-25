@@ -1,0 +1,75 @@
+{
+  "owner_address": "15CjjbZ9RxpBhXa1rknRao1J4pzhVxFmcg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "xGeek007",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/xGeek007/eb0641177f9cf4a1ec6a670b492b4e39#file-gistfile1-txt",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "SQGeekua",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SQGeekua/status/739546897325645825",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "profile.php?id=100011351080261",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/permalink.php?story_fbid=277702539284780&id=100011351080261&pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "19heAuvtJAXmcmM62EsCJa2xKoC1fK5eUM",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Localhost"
+    },
+    "description": "Unknwon",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "SQ Geeki",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://pr1v.herokuapp.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "xGeek007",
+      "proof_url": "https://gist.github.com/xGeek007/eb0641177f9cf4a1ec6a670b492b4e39#file-gistfile1-txt",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "SQGeekua",
+      "proof_url": "https://twitter.com/SQGeekua/status/739546897325645825",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "profile.php?id=100011351080261",
+      "proof_url": "https://www.facebook.com/permalink.php?story_fbid=277702539284780&id=100011351080261&pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN xgeek007.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/xgeek007.id\"\n"
+}
