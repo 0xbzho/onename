@@ -1,0 +1,60 @@
+{
+  "owner_address": "14JCZhhhmUsQsSoic6yCGjXz4ZegwV6Sga",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "willwilkinson",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/willwilkinson/status/735154625678970880",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "wwilkinson",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/wwilkinson/posts/10156894732060117?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Iowa City, Iowa"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/willwilkinson",
+        "name": "avatar"
+      }
+    ],
+    "name": "Will Wilkinson",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://willwilkinson.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "willwilkinson",
+      "proof_url": "https://twitter.com/willwilkinson/status/735154625678970880",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "wwilkinson",
+      "proof_url": "https://www.facebook.com/wwilkinson/posts/10156894732060117?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN willwilkinson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/willwilkinson.id\"\n"
+}
