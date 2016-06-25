@@ -1,0 +1,37 @@
+{
+  "owner_address": "1237tzzwppxyRCfC5z2shS7gLavxqh7DHa",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "eduhavens",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/eduhavens/status/735950079480201216",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chicago"
+    },
+    "description": "I vote with my feet",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "David Havens"
+  },
+  "verifications": [
+    {
+      "identifier": "eduhavens",
+      "proof_url": "https://twitter.com/eduhavens/status/735950079480201216",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN havens.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/havens.id\"\n"
+}
