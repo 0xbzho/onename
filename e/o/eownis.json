@@ -1,53 +1,74 @@
 {
   "owner_address": "16pVzgtYCY1vTCjt6JFRUkhjqgMdfdV18V",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/eownis"
-    },
-    "bio": "19yo. Apprenti Geek. Sérievore.",
-    "bitcoin": {
-      "address": "1LECfyKeAfYkgJxfKDp5Vekn1UzT8B7YeB"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/eownis"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/Eownis/82ac7c7a3ecf998211d6"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1LECfyKeAfYkgJxfKDp5Vekn1UzT8B7YeB",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "Eownis"
-    },
-    "location": {
-      "formatted": "France"
-    },
-    "name": {
-      "formatted": "Titouan Condé"
-    },
-    "pgp": {
-      "fingerprint": "180EEB468911C4B1690D4FE706E4FCB47AA60608",
-      "url": "https://keybase.io/eownis/key.asc"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/Eownis/status/717849370163617792"
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/eownis/key.asc",
+        "identifier": "180EEB468911C4B1690D4FE706E4FCB47AA60608",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "Eownis"
+      {
+        "@type": "Account",
+        "identifier": "eownis",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/eownis/status/741438763180654592",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "eownis",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/eownis/df8323b64e1e6cb8e2a63a3b5b206394",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "France"
     },
-    "v": "0.2",
-    "website": "https://titouan.co"
+    "description": "19yo. Apprenti Geek. Sérievore.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/eownis",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/eownis",
+        "name": "cover"
+      }
+    ],
+    "name": "Titouan Condé",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://titouan.co"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "Eownis",
-      "proof_url": "https://gist.github.com/Eownis/82ac7c7a3ecf998211d6",
-      "service": "github",
+      "identifier": "eownis",
+      "proof_url": "https://twitter.com/eownis/status/741438763180654592",
+      "service": "twitter",
       "valid": true
     },
     {
-      "identifier": "Eownis",
-      "proof_url": "https://twitter.com/Eownis/status/717849370163617792",
-      "service": "twitter",
-      "valid": false
+      "identifier": "eownis",
+      "proof_url": "https://gist.github.com/eownis/df8323b64e1e6cb8e2a63a3b5b206394",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN eownis.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/eownis.id\"\n"
 }
