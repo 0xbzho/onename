@@ -1,0 +1,55 @@
+{
+  "owner_address": "1EccUxLdMCLoCYxU32zYt8xRNEH6bUJDbB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "frdwrd",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/frdwrd/status/742072909166874624",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "frdwrd",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/frdwrd/ef8aeda3a0c6e430dc9a6638e2e3472c",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Yes."
+    },
+    "description": "Co-founder & COO @ Storj Labs Inc.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/prestwich",
+        "name": "avatar"
+      }
+    ],
+    "name": "James Prestwich"
+  },
+  "verifications": [
+    {
+      "identifier": "frdwrd",
+      "proof_url": "https://twitter.com/frdwrd/status/742072909166874624",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "frdwrd",
+      "proof_url": "https://gist.github.com/frdwrd/ef8aeda3a0c6e430dc9a6638e2e3472c",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN prestwich.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/prestwich.id\"\n"
+}
