@@ -1,0 +1,50 @@
+{
+  "owner_address": "1HGYsbSW1iTy5yosj6iUeExVApd9SvMnxX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rtayag",
+        "proofType": "http",
+        "proofUrl": "Take a look at @rtayag's Tweet: https://twitter.com/rtayag/status/740848263323095040?s=09",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ramontayag",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ramontayag/5de8c118a1d1764c3ac373922f688850",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "16MiNwDxtjp72x7Wf1Qqm9a13ZYc6LD15q",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "rtayag",
+      "proof_url": "Take a look at @rtayag's Tweet: https://twitter.com/rtayag/status/740848263323095040?s=09",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "ramontayag",
+      "proof_url": "https://gist.github.com/ramontayag/5de8c118a1d1764c3ac373922f688850",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ramontayag.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ramontayag.id\"\n"
+}
