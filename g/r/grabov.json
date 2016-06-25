@@ -1,0 +1,41 @@
+{
+  "owner_address": "1PHJE7ZzPYiiK1vFoD1HwXBVHAAsSc4GRW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "maxim.grabov",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/Maxim.Grabov/posts/1190768687634085?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Russia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/grabov",
+        "name": "avatar"
+      }
+    ],
+    "name": "Maxim Grabov"
+  },
+  "verifications": [
+    {
+      "identifier": "maxim.grabov",
+      "proof_url": "https://www.facebook.com/Maxim.Grabov/posts/1190768687634085?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN grabov.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/grabov.id\"\n"
+}
