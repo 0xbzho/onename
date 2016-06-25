@@ -1,0 +1,44 @@
+{
+  "owner_address": "12WTVRVJVRV4yB6Fn6wvikAZGfcwYrAP1o",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "michaelb990",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/michaelb990/b37ed413a4fdd6c1a65ff796f5370f13",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "michaelb990",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/michaelb990/status/740723905950711808",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "michaelb990",
+      "proof_url": "https://gist.github.com/michaelb990/b37ed413a4fdd6c1a65ff796f5370f13",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "michaelb990",
+      "proof_url": "https://twitter.com/michaelb990/status/740723905950711808",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN michaelbrown.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/michaelbrown.id\"\n"
+}
