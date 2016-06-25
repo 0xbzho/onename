@@ -1,0 +1,36 @@
+{
+  "owner_address": "1BZAnXiVF6Dx45ghx4iDLTjGFnNSzWEGEM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kimrampling",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kimrampling/status/744434383629627392",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ghostdan",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ghostdan",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "kimrampling",
+      "proof_url": "https://twitter.com/kimrampling/status/744434383629627392",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ghostdan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ghostdan.id\"\n"
+}
