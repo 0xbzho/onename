@@ -1,0 +1,49 @@
+{
+  "owner_address": "1BChhZwqkLVSWkz5ewxZ26wpvkYQ9TZrp8",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "geostu",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/geostu/370f99bab2dc129782dfa10812734c8e",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "docstuart",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/docstuart/status/740936428985712640",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Glasgow, UK"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Stuart Grant"
+  },
+  "verifications": [
+    {
+      "identifier": "geostu",
+      "proof_url": "https://gist.github.com/geostu/370f99bab2dc129782dfa10812734c8e",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "docstuart",
+      "proof_url": "https://twitter.com/docstuart/status/740936428985712640",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN docstuart.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/docstuart.id\"\n"
+}
