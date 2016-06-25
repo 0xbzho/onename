@@ -1,0 +1,55 @@
+{
+  "owner_address": "1PrBqXNhP4RjcVBPYh9ktAnACdp7DTYjcV",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "clemensmorgan",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ClemensMorgan/status/739514456263131137",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "18HCX6AwCGhGLw4E7bY1BAz6sbCWFs25Pg",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "morgan.clemens.79",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/morgan.clemens.79",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Morgan Clemens"
+  },
+  "verifications": [
+    {
+      "identifier": "clemensmorgan",
+      "proof_url": "https://twitter.com/ClemensMorgan/status/739514456263131137",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "morgan.clemens.79",
+      "proof_url": "https://www.facebook.com/morgan.clemens.79",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN morganclemens.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/morganclemens.id\"\n"
+}
