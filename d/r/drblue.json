@@ -1,0 +1,29 @@
+{
+  "owner_address": "1G1kgmdYzSya6zLSqLCVFxfvUcty5gfRQg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1FHAzr3igHDdf9oGwdBF2rXPPrRsUyDLvt",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/drblue",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/drblue",
+        "name": "avatar"
+      }
+    ],
+    "name": "Dr. Blue"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN drblue.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/drblue.id\"\n"
+}
