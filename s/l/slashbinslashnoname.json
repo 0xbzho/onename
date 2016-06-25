@@ -1,0 +1,69 @@
+{
+  "owner_address": "1PbnwPeBAfdMUc7vmcpxU5hQcbpxzkvtPg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "itsnotan3rror",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/itsnotan3rror/status/741352421188874240",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/7cc5e821d9141f3d8cee0f05ae0a9db1",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "itsnotan3rror",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/itsnotan3rror/posts/10153852196463422?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Toulouse"
+    },
+    "description": "Bitcoin && Ethereum",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Romain Lafforgue",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://about.me/romainlafforgue"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "itsnotan3rror",
+      "proof_url": "https://twitter.com/itsnotan3rror/status/741352421188874240",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/7cc5e821d9141f3d8cee0f05ae0a9db1",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "itsnotan3rror",
+      "proof_url": "https://www.facebook.com/itsnotan3rror/posts/10153852196463422?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN slashbinslashnoname.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/slashbinslashnoname.id\"\n"
+}
