@@ -1,0 +1,61 @@
+{
+  "owner_address": "1PExXu3xmBSUtowBBK2iYAQ43UdzrJVwJc",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1G1kjRTnaNnr1GJitzgALPKWtwNmR4QYsc",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "RustyNomad",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RustyNomad/status/740799802678595584",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/rustynomad",
+        "identifier": "376FFAF56BE81E9E697FEEDF60B54CBE703EC9F7",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "RustyNomad",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/RustyNomad/3dda6a72b4139ce1a555db661f387851#file-onename",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rustynomad",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rustynomad",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "RustyNomad",
+      "proof_url": "https://twitter.com/RustyNomad/status/740799802678595584",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "RustyNomad",
+      "proof_url": "https://gist.github.com/RustyNomad/3dda6a72b4139ce1a555db661f387851#file-onename",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN rustynomad.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rustynomad.id\"\n"
+}
