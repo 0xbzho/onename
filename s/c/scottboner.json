@@ -1,0 +1,73 @@
+{
+  "owner_address": "144fsvi2rNJUoZJ3nMvRgFBYDFatLcpBY7",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1AikgnhNwSh1jPPr3TKGZDf9aMJzrEoyPh",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ScottBonerPhoto",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ScottBonerPhoto/status/736839481119125504",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "f32e3b3e2f92356d9d06889d52f7cf3913309033",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dbsargent/status/736762225554132994",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ScottBoner",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ScottBoner/9ea08fd5ef55e7f9a2c542d10815e1c0",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Czech Republic"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/scottboner",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/scottboner",
+        "name": "cover"
+      }
+    ],
+    "name": "Scott Boner",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://scottbonercz.tumblr.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ScottBonerPhoto",
+      "proof_url": "https://twitter.com/ScottBonerPhoto/status/736839481119125504",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ScottBoner",
+      "proof_url": "https://gist.github.com/ScottBoner/9ea08fd5ef55e7f9a2c542d10815e1c0",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN scottboner.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/scottboner.id\"\n"
+}
