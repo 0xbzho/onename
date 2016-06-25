@@ -1,0 +1,44 @@
+{
+  "owner_address": "1JQTTEcZ1fvHb3UQTTgyTjWeV5DFERSFgv",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "stevenstarkey",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/StevenStarkey/status/741077917199781888",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "stevenstarkey",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/stevenstarkey/ca1bd9b76fc1705f3446f59838398486",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "stevenstarkey",
+      "proof_url": "https://twitter.com/StevenStarkey/status/741077917199781888",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "stevenstarkey",
+      "proof_url": "https://gist.github.com/stevenstarkey/ca1bd9b76fc1705f3446f59838398486",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN starkey.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/starkey.id\"\n"
+}
