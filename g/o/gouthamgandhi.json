@@ -1,0 +1,54 @@
+{
+  "owner_address": "15jEQV6PR3m7ZoTeB2jGvcZnWQDJFhywC5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gouthamgandhi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gouthamgandhi/status/735105211992145920",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gouthamgandhi",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/gouthamgandhi/posts/10156974273485596?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Earth"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gouthamgandhi",
+        "name": "avatar"
+      }
+    ],
+    "name": "Goutham Gandhi Nadendla"
+  },
+  "verifications": [
+    {
+      "identifier": "gouthamgandhi",
+      "proof_url": "https://twitter.com/gouthamgandhi/status/735105211992145920",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "gouthamgandhi",
+      "proof_url": "https://www.facebook.com/gouthamgandhi/posts/10156974273485596?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN gouthamgandhi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gouthamgandhi.id\"\n"
+}
