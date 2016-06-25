@@ -1,0 +1,86 @@
+{
+  "owner_address": "18WwDWvDbtwQf42ZDvQPF8D8gWGv7N7NAM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nicdoye",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/nicdoye/adfee3e3b71dde5336da0396d5aa9044",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nicdoye",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/nicdoye/status/741328520610222080",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nicdoye",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/nicdoye/posts/10154227224281810",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "3CdHLPmkVMwxCPEagZ242mv1FhWUxHuhF2",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "http://static.worldofnic.org/cdn/nicdoye.asc",
+        "identifier": "D050989E718E1B9DB0ED355E967CC70B045553AE",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Reading, UK"
+    },
+    "description": "Person of UNIX descent",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nicdoye",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/nicdoye",
+        "name": "cover"
+      }
+    ],
+    "name": "Nicolas Doye",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://worldofnic.org"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "nicdoye",
+      "proof_url": "https://gist.github.com/nicdoye/adfee3e3b71dde5336da0396d5aa9044",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "nicdoye",
+      "proof_url": "https://twitter.com/nicdoye/status/741328520610222080",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "nicdoye",
+      "proof_url": "https://www.facebook.com/nicdoye/posts/10154227224281810",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN nicdoye.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nicdoye.id\"\n"
+}
