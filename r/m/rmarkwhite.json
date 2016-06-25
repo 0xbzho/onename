@@ -1,0 +1,86 @@
+{
+  "owner_address": "1AYbzxLtTuav6kC86FQ9XpCgQAnGGvz6Pw",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rmarkwhite",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rmarkwhite/status/740789643180904448",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rmarkwhite",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rmarkwhite/c420e46e43b1f5284aef66a71ece0058",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rmarkwhite",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/rmarkwhite/posts/10154353969945962",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1BtbDQw8hYHsYWPESPG15o6r8ASn45o5Db",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/rmarkwhite",
+        "identifier": "3D81DE71B6ECE039AB623D9E801F9293",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sparta, NJ 07871"
+    },
+    "description": "59 Years old, Male, Techie, Early adopter, Texan, 12 Stepper.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rmarkwhite",
+        "name": "avatar"
+      }
+    ],
+    "name": "Robert Mark White",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://madabaco.dyndns.org"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "rmarkwhite",
+      "proof_url": "https://twitter.com/rmarkwhite/status/740789643180904448",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "rmarkwhite",
+      "proof_url": "https://gist.github.com/rmarkwhite/c420e46e43b1f5284aef66a71ece0058",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "rmarkwhite",
+      "proof_url": "https://www.facebook.com/rmarkwhite/posts/10154353969945962",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN rmarkwhite.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rmarkwhite.id\"\n"
+}
