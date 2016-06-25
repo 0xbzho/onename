@@ -1,0 +1,80 @@
+{
+  "owner_address": "12X6WCkQ5F5RqF4xLDnAvnsiXyogrLG6x8",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "zkirill",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/zkirill/status/740756625774895105",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "zkirill",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/zkirill/posts/10100661778044453?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "zkirill",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/zkirill/4f098d298707a1bbe931cffff68a9ba8",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "17Dp8a9mS17Q5F9r9stLnpoZiSvxvS9s3N",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Canada"
+    },
+    "description": "Engineer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/zkirill",
+        "name": "avatar"
+      }
+    ],
+    "name": "Kirill Zdornyy",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://twitter.com/zkirill"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "zkirill",
+      "proof_url": "https://twitter.com/zkirill/status/740756625774895105",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "zkirill",
+      "proof_url": "https://www.facebook.com/zkirill/posts/10100661778044453?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "zkirill",
+      "proof_url": "https://gist.github.com/zkirill/4f098d298707a1bbe931cffff68a9ba8",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN zkirill.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/zkirill.id\"\n"
+}
