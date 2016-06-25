@@ -1,37 +1,67 @@
 {
   "owner_address": "1EY7iiv5rbvNS9UxMMSXcCEd7S2MRmgfrK",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/eawharton"
-    },
-    "bio": "Startups to the sounds of @NickAndAndres.",
-    "bitcoin": {
-      "address": "1F85SgbNPnL7sjX5Mt2yhxmRf2SdeLUb2U"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/eawharton"
-    },
-    "location": {
-      "formatted": "DC, NY"
-    },
-    "name": {
-      "formatted": "Eddie Wharton"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/EAWharton/status/494248772809928707"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1F85SgbNPnL7sjX5Mt2yhxmRf2SdeLUb2U",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "EAWharton"
+      {
+        "@type": "Account",
+        "identifier": "ewharton",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ewharton/9ca8d6c8c5823511a63b1a0cc2f533a6",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "EAWharton",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/EAWharton/status/740771515927515137",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New Orleans / NYC"
     },
-    "v": "0.2",
-    "website": "http://eddiewharton.com"
+    "description": "Learning",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/eawharton",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/eawharton",
+        "name": "avatar"
+      }
+    ],
+    "name": "Eddie Wharton",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://eddiewharton.com"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "EAWharton",
-      "proof_url": "https://twitter.com/EAWharton/status/494248772809928707",
-      "service": "twitter",
+      "identifier": "ewharton",
+      "proof_url": "https://gist.github.com/ewharton/9ca8d6c8c5823511a63b1a0cc2f533a6",
+      "service": "github",
       "valid": true
+    },
+    {
+      "identifier": "EAWharton",
+      "proof_url": "https://twitter.com/EAWharton/status/740771515927515137",
+      "service": "twitter",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN eawharton.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/eawharton.id\"\n"
 }
