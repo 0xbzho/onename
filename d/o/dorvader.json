@@ -1,0 +1,49 @@
+{
+  "owner_address": "1CuwxNX8ZBNAkD1QCba2jTNtZoZEoQ5c69",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Dor_Vader",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Dor_Vader/status/743195218422435841",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "depooltrd",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/depooltrd/posts/10154184941216153?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "España"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Doriam de Pool"
+  },
+  "verifications": [
+    {
+      "identifier": "Dor_Vader",
+      "proof_url": "https://twitter.com/Dor_Vader/status/743195218422435841",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "depooltrd",
+      "proof_url": "https://www.facebook.com/depooltrd/posts/10154184941216153?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN dorvader.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dorvader.id\"\n"
+}
