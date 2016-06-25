@@ -1,68 +1,80 @@
 {
   "owner_address": "17eLhFoX4QYTDQbGtkSQzWHSjRRzR6ivtB",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "9f24838c4f357ff8d1dc8a5797fb83de67d7baeb",
-        "service": "openbazaar"
+        "identifier": "1BTqDY6wACXzWEyyk2mnVDfwX3SZiXoTgV",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "etherdesignlab",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/etherdesignlab/status/740024448468811776",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "designuiru",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/designuiru/6d62a28ae3a9424f02895f3cc12c1a43",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "swebdesign",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/swebdesign/posts/1208882672476739",
+        "service": "facebook"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/etherdesign"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Moscow, Russia"
     },
-    "bio": "Freelancer",
-    "bitcoin": {
-      "address": "1BTqDY6wACXzWEyyk2mnVDfwX3SZiXoTgV"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/etherdesign"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/swebdesign/posts/1176496382382035"
+    "description": "Freelancer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/etherdesign",
+        "name": "avatar"
       },
-      "username": "swebdesign"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/designuiru/311030265becca7d5f793f8a62b8e0b7"
-      },
-      "username": "designuiru"
-    },
-    "location": {
-      "formatted": "Moscow, Russia"
-    },
-    "name": {
-      "formatted": "EtherDesign"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/etherdesignlab/status/720954402547376128"
-      },
-      "username": "etherdesignlab"
-    },
-    "v": "0.2",
-    "website": "http://etherdesign.io"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/etherdesign",
+        "name": "cover"
+      }
+    ],
+    "name": "EtherDesign",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://etherdesign.io"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "designuiru",
-      "proof_url": "https://gist.github.com/designuiru/311030265becca7d5f793f8a62b8e0b7",
-      "service": "github",
-      "valid": true
-    },
-    {
       "identifier": "etherdesignlab",
-      "proof_url": "https://twitter.com/etherdesignlab/status/720954402547376128",
+      "proof_url": "https://twitter.com/etherdesignlab/status/740024448468811776",
       "service": "twitter",
       "valid": true
     },
     {
+      "identifier": "designuiru",
+      "proof_url": "https://gist.github.com/designuiru/6d62a28ae3a9424f02895f3cc12c1a43",
+      "service": "github",
+      "valid": true
+    },
+    {
       "identifier": "swebdesign",
-      "proof_url": "https://facebook.com/swebdesign/posts/1176496382382035",
+      "proof_url": "https://www.facebook.com/swebdesign/posts/1208882672476739",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN etherdesign.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/etherdesign.id\"\n"
 }
