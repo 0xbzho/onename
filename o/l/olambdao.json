@@ -1,0 +1,36 @@
+{
+  "owner_address": "1LvzgFDyAnxe9HaAd5zYRueJj6tWK1chyN",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "olambdao",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/olambdao/status/742952514241331200",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seoul"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "임석의"
+  },
+  "verifications": [
+    {
+      "identifier": "olambdao",
+      "proof_url": "https://twitter.com/olambdao/status/742952514241331200",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN olambdao.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/olambdao.id\"\n"
+}
