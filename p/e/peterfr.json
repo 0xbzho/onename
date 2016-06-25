@@ -1,0 +1,32 @@
+{
+  "owner_address": "14kxCFjKLwJpE4wyQMjsyAtDCyLUDEXpr1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "FroystadP",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ramontayag/5de8c118a1d1764c3ac373922f688850",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Peter Frøystad"
+  },
+  "verifications": [
+    {
+      "identifier": "FroystadP",
+      "proof_url": "https://gist.github.com/ramontayag/5de8c118a1d1764c3ac373922f688850",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN peterfr.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/peterfr.id\"\n"
+}
