@@ -1,0 +1,86 @@
+{
+  "owner_address": "1LTYNQeu6W8XEy62uGwzmnB43rzVD7cAoW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mindbound",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mindbound/status/741186962065895424",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mindbound",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mindbound/posts/1295660240461565",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mindbound",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mindbound/9844325b7b0f8c8dab59d9cd5b779d59",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1Q2FR8dM19t4xDTqpsjd6VzuModn96qJLy",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x01b7d948a0542c99",
+        "identifier": "0x01b7d948a0542c99",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Riga, Latvia"
+    },
+    "description": "Computational neuroscientist, aspiring rationalist, founder of the Latvian Transhumanist Association",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mindbound",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mindbound",
+        "name": "cover"
+      }
+    ],
+    "name": "Arets Paeglis",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://about.me/mindbound"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mindbound",
+      "proof_url": "https://twitter.com/mindbound/status/741186962065895424",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mindbound",
+      "proof_url": "https://www.facebook.com/mindbound/posts/1295660240461565",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "mindbound",
+      "proof_url": "https://gist.github.com/mindbound/9844325b7b0f8c8dab59d9cd5b779d59",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mindbound.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mindbound.id\"\n"
+}
