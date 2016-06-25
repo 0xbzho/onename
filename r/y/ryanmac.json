@@ -1,0 +1,67 @@
+{
+  "owner_address": "1hnEnnyZHuahXKm2AkVt73BbSjf7Ckij1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ryanmac",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ryanmac/status/743854701616128000",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ryanmaccarthy",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ryanmaccarthy/posts/10207854827182473",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ryanmac",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ryanmac/4eebca0865339561228fc63a30cba70b",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chicago, Sacramento, San Francisco"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ryanmac",
+        "name": "avatar"
+      }
+    ],
+    "name": "Ryan MacCarthy"
+  },
+  "verifications": [
+    {
+      "identifier": "ryanmac",
+      "proof_url": "https://twitter.com/ryanmac/status/743854701616128000",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ryanmaccarthy",
+      "proof_url": "https://www.facebook.com/ryanmaccarthy/posts/10207854827182473",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "ryanmac",
+      "proof_url": "https://gist.github.com/ryanmac/4eebca0865339561228fc63a30cba70b",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ryanmac.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ryanmac.id\"\n"
+}
