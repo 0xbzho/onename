@@ -1,0 +1,41 @@
+{
+  "owner_address": "15LAPeU7zbVojMCugNSVxHjCPn7NenYwqp",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "scott@logicdatasystems.com",
+        "proofType": "http",
+        "proofUrl": "Verifying that +scottmnelson is my blockchain ID. https://onename.com/scottmnelson",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Fort Worth, TX"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/scottmnelson",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/scottmnelson",
+        "name": "cover"
+      }
+    ],
+    "name": "Scott Nelson"
+  },
+  "verifications": [
+    {
+      "identifier": "scott@logicdatasystems.com",
+      "proof_url": "Verifying that +scottmnelson is my blockchain ID. https://onename.com/scottmnelson",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN scottmnelson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/scottmnelson.id\"\n"
+}
