@@ -1,0 +1,73 @@
+{
+  "owner_address": "18fy2fXzAeFZScfqPeUUKUtDVX3X1ksWq3",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "QuentinFennessy",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/QuentinFennessy/status/741012495666716676",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "qfennessy",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/qfennessy/db5b9174f76a14e3f4638af8196d5ab7#file-onename-self-id",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "quentinfennessy",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/quentinfennessy/posts/10154853858905130",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Belmont, Massachusetts"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/qfennessy",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/qfennessy",
+        "name": "cover"
+      }
+    ],
+    "name": "Quentin Fennessy",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.linkedin.com/in/quentinfennessy"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "QuentinFennessy",
+      "proof_url": "https://twitter.com/QuentinFennessy/status/741012495666716676",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "qfennessy",
+      "proof_url": "https://gist.github.com/qfennessy/db5b9174f76a14e3f4638af8196d5ab7#file-onename-self-id",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "quentinfennessy",
+      "proof_url": "https://www.facebook.com/quentinfennessy/posts/10154853858905130",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN qfennessy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/qfennessy.id\"\n"
+}
