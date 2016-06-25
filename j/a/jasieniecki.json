@@ -1,16 +1,28 @@
 {
   "owner_address": "1u3n2pqXWcj9NKmoEWHWSSBi69r1GYZQx",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/wdX.jpeg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1H4v35VgibDvC3MvWRNtrSnpQ1TyvQ8yFT",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Warsaw, Poland"
     },
-    "location": {
-      "formatted": "Warsaw, Poland"
-    },
-    "name": {
-      "formatted": "Hubert Jasieniecki"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Hubert Jasieniecki"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN jasieniecki.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jasieniecki.id\"\n"
 }
