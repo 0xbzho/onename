@@ -1,0 +1,44 @@
+{
+  "owner_address": "1P6KRRwmt7YAVZgHdLLjJfqVgCtwYiberL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "peysal",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/peysal/95accd4974fad50d0359cf5cb0b25ba1",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "peysal",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/peysal/status/741858744737243136",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "peysal",
+      "proof_url": "https://gist.github.com/peysal/95accd4974fad50d0359cf5cb0b25ba1",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "peysal",
+      "proof_url": "https://twitter.com/peysal/status/741858744737243136",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN peysal.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/peysal.id\"\n"
+}
