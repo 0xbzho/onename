@@ -1,13 +1,36 @@
 {
   "owner_address": "1DkmGv8VZa6SvQCFL4fXMQ5W9akhJZLfgz",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/gQZ.jpg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nerjine",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/nerjine/status/741554846734680064",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nice"
     },
-    "twitter": {
-      "username": "nerjine"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Brian Collins"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "nerjine",
+      "proof_url": "https://twitter.com/nerjine/status/741554846734680064",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN nerjine.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nerjine.id\"\n"
 }
