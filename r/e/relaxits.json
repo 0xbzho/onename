@@ -1,0 +1,48 @@
+{
+  "owner_address": "1A2kJKSSgT54koNGwQ9Jej26eFfAv4xPJX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "relaXits_de",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/relaXits_de/status/741151082504724481",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Frankfurt a.M. | Germany"
+    },
+    "description": "relaXits",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/relaxits",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/relaxits",
+        "name": "avatar"
+      }
+    ],
+    "name": "Reinhard Lange",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://relaxits.de"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "relaXits_de",
+      "proof_url": "https://twitter.com/relaXits_de/status/741151082504724481",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN relaxits.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/relaxits.id\"\n"
+}
