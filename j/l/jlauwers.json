@@ -1,19 +1,48 @@
 {
   "owner_address": "1CeuDfCFo6n1b27VRMzLRxjVeDH7Ae8bgU",
   "profile": {
-    "bitcoin": {
-      "address": "1JRYUYCLhVzsmTKYSf4zDSvXVm9KV5H4Ww"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/KJy.jpeg"
-    },
-    "facebook": {
-      "username": "jonathan.lauwers"
-    },
-    "name": {
-      "formatted": "Lauwers Jonathan"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1JRYUYCLhVzsmTKYSf4zDSvXVm9KV5H4Ww",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jonathan.lauwers",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jonathan.lauwers/posts/10154119091537752",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1e79de76bafce390b43bcfeb9051ebd1c000ef38",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jlauwers",
+        "name": "avatar"
+      }
+    ],
+    "name": "Lauwers Jonathan"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "jonathan.lauwers",
+      "proof_url": "https://www.facebook.com/jonathan.lauwers/posts/10154119091537752",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jlauwers.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jlauwers.id\"\n"
 }
