@@ -1,0 +1,91 @@
+{
+  "owner_address": "1LfEJCH4CpKCPbZApEXgRSx6g7q311BGtX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/jamesrobertmurphy",
+        "identifier": "DEF9D45E136E20B6BCCE52717155C613754B13D9",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1DMJmt25oTV1r9x5CJM6NTvRAdcaRivvhY",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "futurefallout",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/futurefallout/cc1ddf6799e5927852ab40a435a24867",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "futurefallout",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/futurefallout/status/736429391018872832",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "da1prophet",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/da1prophet/posts/10154184463369808?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "e8d71b78e94c8e38c45d7e9ed058e1b47f27f1ee",
+        "service": "open bazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "South Carolina"
+    },
+    "description": "Future Fallout",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jamesrobertmurphy",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jamesrobertmurphy",
+        "name": "cover"
+      }
+    ],
+    "name": "James Murphy",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.futurefallout.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "futurefallout",
+      "proof_url": "https://gist.github.com/futurefallout/cc1ddf6799e5927852ab40a435a24867",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "futurefallout",
+      "proof_url": "https://twitter.com/futurefallout/status/736429391018872832",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "da1prophet",
+      "proof_url": "https://www.facebook.com/da1prophet/posts/10154184463369808?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jamesrobertmurphy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jamesrobertmurphy.id\"\n"
+}
