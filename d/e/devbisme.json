@@ -1,0 +1,44 @@
+{
+  "owner_address": "1JEpM78dXMAgwtKzyiBpNyJzQgw8EZMX6j",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "devbisme",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/devbisme/status/742196028850503680",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "devbisme",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/devbisme/28336d9f4c3da0b00ab9acab96e1bc18",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "devbisme",
+      "proof_url": "https://twitter.com/devbisme/status/742196028850503680",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "devbisme",
+      "proof_url": "https://gist.github.com/devbisme/28336d9f4c3da0b00ab9acab96e1bc18",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN devbisme.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/devbisme.id\"\n"
+}
