@@ -1,0 +1,61 @@
+{
+  "owner_address": "1G77munoGpXT2DUdPBxGyRcXaXdeNPBWoy",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "traceypooh",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/traceypooh/afe551df63118b7f1d2747f2dbee6513",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tracey_pooh",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tracey_pooh/status/743163730796503040",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "san francisco and oakland, CA"
+    },
+    "description": "archive.org website and TV; big data++; two-wheeler; feline spooner; interior designer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tracey",
+        "name": "avatar"
+      }
+    ],
+    "name": "tracey jaquith",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://archive.org/tv"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "traceypooh",
+      "proof_url": "https://gist.github.com/traceypooh/afe551df63118b7f1d2747f2dbee6513",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "tracey_pooh",
+      "proof_url": "https://twitter.com/tracey_pooh/status/743163730796503040",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tracey.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tracey.id\"\n"
+}
