@@ -1,0 +1,44 @@
+{
+  "owner_address": "1NB6QrtEVG3KekdAwFJNiSMXhC2h9axat9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "szerge",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/szerge/status/740937306845122560",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "szerge",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/szerge/6937baccdd1d2c265ed8465e00bae574",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "szerge",
+      "proof_url": "https://twitter.com/szerge/status/740937306845122560",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "szerge",
+      "proof_url": "https://gist.github.com/szerge/6937baccdd1d2c265ed8465e00bae574",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN szerge.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/szerge.id\"\n"
+}
