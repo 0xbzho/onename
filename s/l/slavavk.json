@@ -1,0 +1,38 @@
+{
+  "owner_address": "14G2SMpT5EH29MKu65V65Z5RT4mWKD6HTE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "SlavaVK",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SlavaVK/status/740976694778028032",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1sLaVav4QtnV2Q4qLynT1AYrHxfPZ1pTj",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Slava Kashcheyevs"
+  },
+  "verifications": [
+    {
+      "identifier": "SlavaVK",
+      "proof_url": "https://twitter.com/SlavaVK/status/740976694778028032",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN slavavk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/slavavk.id\"\n"
+}
