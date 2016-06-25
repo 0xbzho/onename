@@ -1,0 +1,80 @@
+{
+  "owner_address": "13KUgf99ZuywMEDqfHgmZGttqva22RP1xH",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "trampish",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/trampish/31c69f72610725ecab86fce32edbcfc6",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "trampish",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/trampish/status/740924619960528898",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "christin.gabriel",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/christin.gabriel/posts/10206199156993054",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "13La1hbpfrCMdsBjLHfssFkm3eh6xrcT2K",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York, NY"
+    },
+    "description": "Interactive designer & developer. Ambassador to Mars.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/trampish",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/trampish",
+        "name": "cover"
+      }
+    ],
+    "name": "Chris Gabriel",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://chrisgabriel.co"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "trampish",
+      "proof_url": "https://gist.github.com/trampish/31c69f72610725ecab86fce32edbcfc6",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "trampish",
+      "proof_url": "https://twitter.com/trampish/status/740924619960528898",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "christin.gabriel",
+      "proof_url": "https://www.facebook.com/christin.gabriel/posts/10206199156993054",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN trampish.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/trampish.id\"\n"
+}
