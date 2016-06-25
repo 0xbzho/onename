@@ -1,0 +1,67 @@
+{
+  "owner_address": "1PR7umyYxsk4s8xTeUXPJ9Vqtkgeb6EFfn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kim_itsu",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Kim_Itsu/status/741653552838369280",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kimihub",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/kimihub/927be83c0e022ba3cd72ce06465d302d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mx.kimcastelli",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mx.kimcastelli/posts/1712399742341941",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kimcastelli",
+        "name": "avatar"
+      }
+    ],
+    "name": "Kim"
+  },
+  "verifications": [
+    {
+      "identifier": "kim_itsu",
+      "proof_url": "https://twitter.com/Kim_Itsu/status/741653552838369280",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "kimihub",
+      "proof_url": "https://gist.github.com/kimihub/927be83c0e022ba3cd72ce06465d302d",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "mx.kimcastelli",
+      "proof_url": "https://www.facebook.com/mx.kimcastelli/posts/1712399742341941",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN kimcastelli.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kimcastelli.id\"\n"
+}
