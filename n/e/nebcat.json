@@ -1,0 +1,69 @@
+{
+  "owner_address": "18YGdTDkMxQ8HnLixzpTcvnKxTWopnQJsk",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "denebc",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/denebc/status/735710316370104320",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "158sVLFpnn6U5pEUUJXwPTXHu2FszPH1Pr",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nebcat",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/nebcat/posts/10208233895277243/",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nebcat",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/nebcat/7e6b4ae404940be323449d7bde1ee74f",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nebcat",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/nebcat",
+        "name": "cover"
+      }
+    ],
+    "name": "Deneb Catalan"
+  },
+  "verifications": [
+    {
+      "identifier": "denebc",
+      "proof_url": "https://twitter.com/denebc/status/735710316370104320",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "nebcat",
+      "proof_url": "https://www.facebook.com/nebcat/posts/10208233895277243/",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "nebcat",
+      "proof_url": "https://gist.github.com/nebcat/7e6b4ae404940be323449d7bde1ee74f",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN nebcat.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nebcat.id\"\n"
+}
