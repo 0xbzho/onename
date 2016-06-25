@@ -1,0 +1,49 @@
+{
+  "owner_address": "1JQKeYeLqaMpF16H2wCgtrDmSqfJRY3YQq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mformarlon",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MForMarlon/status/741522766424219653",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "MForMarlon",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/MForMarlon/207eec909eb3fd2fbada5337aae580d9",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mformarlon",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mformarlon",
+      "proof_url": "https://twitter.com/MForMarlon/status/741522766424219653",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "MForMarlon",
+      "proof_url": "https://gist.github.com/MForMarlon/207eec909eb3fd2fbada5337aae580d9",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mformarlon.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mformarlon.id\"\n"
+}
