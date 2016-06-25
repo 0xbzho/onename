@@ -1,41 +1,40 @@
 {
   "owner_address": "14JYEbk4Mribs1KYXNjhuyzo3mNtjeGYSR",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/ifhcampbell"
-    },
-    "bio": "Architecture student",
-    "bitcoin": {
-      "address": "1FCbYYNQ1xg5WqZHcwr9k32sDGuhUu19SV"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/ifhcampbell"
-    },
-    "location": {
-      "formatted": "London"
-    },
-    "name": {
-      "formatted": "Ian Campbell"
-    },
-    "pgp": {
-      "fingerprint": "CF914BC98AFFD85EB8C5B5ED613F8F32257328D5",
-      "url": "https://s3.amazonaws.com/pk9/ifhcampbell"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/ifhcampbell/status/533227610638016512"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ifhcampbell",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "ifhcampbell"
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/ifhcampbell",
+        "identifier": null,
+        "role": "key",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "v": "0.2",
-    "website": "http://www.iancampbell.ch"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ifhcampbell",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ifhcampbell",
+        "name": "cover"
+      }
+    ],
+    "name": ""
   },
-  "verifications": [
-    {
-      "identifier": "ifhcampbell",
-      "proof_url": "https://twitter.com/ifhcampbell/status/533227610638016512",
-      "service": "twitter",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN ifhcampbell.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ifhcampbell.id\"\n"
 }
