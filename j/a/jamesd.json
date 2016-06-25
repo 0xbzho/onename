@@ -1,0 +1,55 @@
+{
+  "owner_address": "1GhowVZ7avWx49cE1Qm8pLZV6dAp3EWgku",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "JamesDonnelly",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/JamesDonnelly/c52883184990a029ec6553843006adc0",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "inb4",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/inb4/status/740845203397959680",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Windsor, UK"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "James Donnelly",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://jamesmdonnelly.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "JamesDonnelly",
+      "proof_url": "https://gist.github.com/JamesDonnelly/c52883184990a029ec6553843006adc0",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "inb4",
+      "proof_url": "https://twitter.com/inb4/status/740845203397959680",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jamesd.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jamesd.id\"\n"
+}
