@@ -1,0 +1,41 @@
+{
+  "owner_address": "1PLwUxffD3Tx7gFany1N5RKv6ZFEpfgdQK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "JenRiders",
+        "proofType": "http",
+        "proofUrl": "https://mobile.twitter.com/JenRiders/status/741692310455357441",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Central Austin"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jenriders",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jennifer Rodriguez"
+  },
+  "verifications": [
+    {
+      "identifier": "JenRiders",
+      "proof_url": "https://mobile.twitter.com/JenRiders/status/741692310455357441",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jenriders.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jenriders.id\"\n"
+}
