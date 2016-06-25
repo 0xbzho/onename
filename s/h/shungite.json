@@ -1,0 +1,62 @@
+{
+  "owner_address": "1FfE79rJSXQFTjcRXWk1bdwGb5gLHKuTxQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "shungite",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/shungite/status/744546392866119680",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "shungite",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/shungite/9902febadc47532627572db8d552e804",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jon.snidal",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jon.snidal/posts/10154346266679073?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/shungite",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "shungite",
+      "proof_url": "https://twitter.com/shungite/status/744546392866119680",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "shungite",
+      "proof_url": "https://gist.github.com/shungite/9902febadc47532627572db8d552e804",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jon.snidal",
+      "proof_url": "https://www.facebook.com/jon.snidal/posts/10154346266679073?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN shungite.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/shungite.id\"\n"
+}
