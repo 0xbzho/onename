@@ -1,0 +1,53 @@
+{
+  "owner_address": "1APurmWhT6ZNbdXfVDJnHTPwJBDCQq2hez",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nichodges",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/nichodges/d2e0c16b358421a5801d845d076edb23",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1sv4NdWLHHRMuK1JW1HxNh8iKfxy2gHuH",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Australia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nichodges",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/nichodges",
+        "name": "cover"
+      }
+    ],
+    "name": "Nic Hodges",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://blonde3.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "nichodges",
+      "proof_url": "https://gist.github.com/nichodges/d2e0c16b358421a5801d845d076edb23",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN nichodges.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nichodges.id\"\n"
+}
