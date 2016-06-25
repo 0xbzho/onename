@@ -1,0 +1,57 @@
+{
+  "owner_address": "1NLN2xH5HgspQxmn7S1SBAGphG5wFW5qmz",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "teleject",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/teleject/9f6e7bf9bd7098237d1ea6557e499b08",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "teleject",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/teleject/status/741342393778077696",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "teleject",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/teleject/posts/10107720499838283",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "teleject",
+      "proof_url": "https://gist.github.com/teleject/9f6e7bf9bd7098237d1ea6557e499b08",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "teleject",
+      "proof_url": "https://twitter.com/teleject/status/741342393778077696",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "teleject",
+      "proof_url": "https://www.facebook.com/teleject/posts/10107720499838283",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN teleject.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/teleject.id\"\n"
+}
