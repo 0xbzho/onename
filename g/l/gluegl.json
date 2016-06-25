@@ -1,0 +1,48 @@
+{
+  "owner_address": "1PCq9Vo76u5ugyuioM7hAWL96fjcMhha53",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gluegl",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Gluegl/status/736885270348484609",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Vigo"
+    },
+    "description": "No",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gluegl",
+        "name": "avatar"
+      }
+    ],
+    "name": "Javier Blanco Thomas",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://glue.gl"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "gluegl",
+      "proof_url": "https://twitter.com/Gluegl/status/736885270348484609",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN gluegl.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gluegl.id\"\n"
+}
