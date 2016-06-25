@@ -1,0 +1,55 @@
+{
+  "owner_address": "1KJsfQBQJaeBpUsGmhjSyQAZCTxM1u8uAE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "steefmin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/steefmin/status/741263936629157889",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "steefmin",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/steefmin/23c79e83ef7c87c6bf199f7efc6903c3",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Amersfoort, the Netherlands"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Steef Min",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://steefmin.xyz"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "steefmin",
+      "proof_url": "https://twitter.com/steefmin/status/741263936629157889",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "steefmin",
+      "proof_url": "https://gist.github.com/steefmin/23c79e83ef7c87c6bf199f7efc6903c3",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN steefmin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/steefmin.id\"\n"
+}
