@@ -1,0 +1,55 @@
+{
+  "owner_address": "16aW6bGB9jDUY6fWyhV2yzDEF3smUqQ9R4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Samuel1_Martin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Samuel1_Martin/status/743355693621616641",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Sam2304",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Sam2304/d80685b12e54a94c511217f6cfea84e0",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "keybase.io/Sam2304",
+        "identifier": null,
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "England"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Sam Martin"
+  },
+  "verifications": [
+    {
+      "identifier": "Samuel1_Martin",
+      "proof_url": "https://twitter.com/Samuel1_Martin/status/743355693621616641",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Sam2304",
+      "proof_url": "https://gist.github.com/Sam2304/d80685b12e54a94c511217f6cfea84e0",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN sam2304.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sam2304.id\"\n"
+}
