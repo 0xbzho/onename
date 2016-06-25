@@ -1,0 +1,84 @@
+{
+  "owner_address": "1LomsXNhJn7nHkzx5PJtqjtQff4vi9CiLB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "7c12e14a4194c372a560fecb8df5f4426b34337b",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lapingvino",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/LaPingvino/status/739871316900216835",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "LaPingvino",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/LaPingvino/58ccc05b04f92bfcec21b06d75da5fb7",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lapingvino",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/lapingvino/posts/10157241356360019",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1CMeJ9s5hWyknwqC8i4ThJph9obs16mZSv",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ede, NL"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/lapingvino",
+        "name": "avatar"
+      }
+    ],
+    "name": "Joop Kiefte",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://joop.kiefte.eu"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "lapingvino",
+      "proof_url": "https://twitter.com/LaPingvino/status/739871316900216835",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "LaPingvino",
+      "proof_url": "https://gist.github.com/LaPingvino/58ccc05b04f92bfcec21b06d75da5fb7",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "lapingvino",
+      "proof_url": "https://www.facebook.com/lapingvino/posts/10157241356360019",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN lapingvino.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lapingvino.id\"\n"
+}
