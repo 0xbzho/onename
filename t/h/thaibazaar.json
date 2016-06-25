@@ -1,0 +1,55 @@
+{
+  "owner_address": "1KC39qPoNLqxZ37FN4h2gKZoqMtbuqRuYj",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "thaibazaar",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ThaiBazaar/status/744014382095470592",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ThaiBazaar1/",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ThaiBazaar1/posts/1733588883520666",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Thailand"
+    },
+    "description": "All your favourite Thai products in one space",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/thaibazaar",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/thaibazaar",
+        "name": "cover"
+      }
+    ],
+    "name": "ThaiBazaar"
+  },
+  "verifications": [
+    {
+      "identifier": "thaibazaar",
+      "proof_url": "https://twitter.com/ThaiBazaar/status/744014382095470592",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ThaiBazaar1/",
+      "proof_url": "https://www.facebook.com/ThaiBazaar1/posts/1733588883520666",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN thaibazaar.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/thaibazaar.id\"\n"
+}
