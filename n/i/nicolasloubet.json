@@ -1,0 +1,80 @@
+{
+  "owner_address": "1D4M6be8tAuVUMQMdEykSNtBibHGC4cYaW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nicolasloubet",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/nicolasloubet/cb44bcbe65acdae4ee24ac46ea57f701",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nicolasloubet",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/NicolasLoubet/status/741362075964841984",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nicolas.loubet",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/nicolas.loubet/posts/10209839303208312",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1JMc1rQgkKpGYLHvBsE2YcuDSzYjqgJkaU",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris"
+    },
+    "description": "Founder Cellabz, Bluenod, Umaps. Radical & sustainable innovation addict.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nicolasloubet",
+        "name": "avatar"
+      }
+    ],
+    "name": "Nicolas Loubet",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://cellabz.com/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "nicolasloubet",
+      "proof_url": "https://gist.github.com/nicolasloubet/cb44bcbe65acdae4ee24ac46ea57f701",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "nicolasloubet",
+      "proof_url": "https://twitter.com/NicolasLoubet/status/741362075964841984",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "nicolas.loubet",
+      "proof_url": "https://www.facebook.com/nicolas.loubet/posts/10209839303208312",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN nicolasloubet.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nicolasloubet.id\"\n"
+}
