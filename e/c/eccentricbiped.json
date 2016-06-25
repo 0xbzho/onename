@@ -1,35 +1,40 @@
 {
   "owner_address": "16HwSouf4SRHiis5XnYxnroY1F2w7iNMt3",
   "profile": {
-    "bitcoin": {
-      "address": "1JYF6umqtuUzUL5Wkb5PqxNKidcHR8eMqE"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/vsS.jpeg"
-    },
-    "facebook": {
-      "username": "eccentricbiped"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/anonymous/2a552b0c06d561d13ce6"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "anonymous"
+      {
+        "@type": "Account",
+        "identifier": "1JYF6umqtuUzUL5Wkb5PqxNKidcHR8eMqE",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kirkland, WA"
     },
-    "location": {
-      "formatted": "Kirkland, WA"
-    },
-    "name": {
-      "formatted": "Jason V"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jason V"
   },
-  "verifications": [
-    {
-      "identifier": "anonymous",
-      "proof_url": "https://gist.github.com/anonymous/2a552b0c06d561d13ce6",
-      "service": "github",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN eccentricbiped.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/eccentricbiped.id\"\n"
 }
