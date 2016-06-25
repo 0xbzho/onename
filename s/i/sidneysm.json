@@ -1,0 +1,66 @@
+{
+  "owner_address": "1HVRsMYNda6uf3b8NeKt1QHt3RD9HvCF4U",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Sidnicious",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sidnicious/status/740882805647892480",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Sidnicious",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Sidnicious/11f5da052e02fd0b7702e53a1f2f52a3",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://sks-keyservers.net/pks/lookup?op=get&search=0x0DAA1A4AB1D88291",
+        "identifier": "5E685E60EB8733654DCB00570DAA1A4AB1D88291",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brooklyn, NY, USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sidneysm",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/sidneysm",
+        "name": "cover"
+      }
+    ],
+    "name": "Sidney San Martín",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://sidnicio.us/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Sidnicious",
+      "proof_url": "https://twitter.com/sidnicious/status/740882805647892480",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Sidnicious",
+      "proof_url": "https://gist.github.com/Sidnicious/11f5da052e02fd0b7702e53a1f2f52a3",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN sidneysm.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sidneysm.id\"\n"
+}
