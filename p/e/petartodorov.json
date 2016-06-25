@@ -1,0 +1,41 @@
+{
+  "owner_address": "1DafzRVoDrs7KXuDXsTwash7bs5qRUU4Dd",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Montag86",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Montag86/status/741006357487362048",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/petartodorov",
+        "name": "avatar"
+      }
+    ],
+    "name": "Petar Todorov"
+  },
+  "verifications": [
+    {
+      "identifier": "Montag86",
+      "proof_url": "https://twitter.com/Montag86/status/741006357487362048",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN petartodorov.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/petartodorov.id\"\n"
+}
