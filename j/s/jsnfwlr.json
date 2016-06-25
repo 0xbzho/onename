@@ -1,0 +1,55 @@
+{
+  "owner_address": "1rLaf839CfWUg6EwGAHSZiSZhwJi7wQWV",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jsnfwlr",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jsnfwlr/status/740859063618019329",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jsnfwlr",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jsnfwlr/29472e996e8c00ac4171743cf15231ad",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Perth, Western Australia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jason Fowler",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://jsnfwlr.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jsnfwlr",
+      "proof_url": "https://twitter.com/jsnfwlr/status/740859063618019329",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jsnfwlr",
+      "proof_url": "https://gist.github.com/jsnfwlr/29472e996e8c00ac4171743cf15231ad",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jsnfwlr.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jsnfwlr.id\"\n"
+}
