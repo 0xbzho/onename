@@ -1,0 +1,54 @@
+{
+  "owner_address": "19Pq6W5DTc93BpT8JQjuumhjEjVmYJkaWh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Jenhudson2001",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jenhudson2001/posts/10154897480672542",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hudson2001",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/hudson2001/statuses/742925601644896256",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "DC Suburbia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hudson2001",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jennifer Hudson"
+  },
+  "verifications": [
+    {
+      "identifier": "Jenhudson2001",
+      "proof_url": "https://www.facebook.com/jenhudson2001/posts/10154897480672542",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "hudson2001",
+      "proof_url": "https://twitter.com/hudson2001/statuses/742925601644896256",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN hudson2001.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hudson2001.id\"\n"
+}
