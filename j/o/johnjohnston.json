@@ -1,0 +1,31 @@
+{
+  "owner_address": "18Qzcp2ey7ojuoMA9egE4GZ8e1ovEYQxw1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "johnjohnston",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/johnjohnston/status/741405774358949888?s=17",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "johnjohnston",
+      "proof_url": "https://twitter.com/johnjohnston/status/741405774358949888?s=17",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN johnjohnston.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/johnjohnston.id\"\n"
+}
