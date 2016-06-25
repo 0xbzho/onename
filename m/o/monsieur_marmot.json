@@ -1,0 +1,31 @@
+{
+  "owner_address": "1CCFXAfD3v661eTAm45faQffcccm84cTjM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "monsieurmarmot",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/monsieurmarmot/status/741045182196420608",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "monsieurmarmot",
+      "proof_url": "https://twitter.com/monsieurmarmot/status/741045182196420608",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN monsieur_marmot.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/monsieur_marmot.id\"\n"
+}
