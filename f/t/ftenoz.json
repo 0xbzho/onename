@@ -1,0 +1,67 @@
+{
+  "owner_address": "1Leb91hUjrxHegkkgGC7RAU5FEVMhevsp4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Ftenoz",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ftenoz/status/740782274250178560",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ftenoz",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ftenoz/posts/10154021954718673",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ftenoz",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ftenoz/01298070b6185b18418a9f3d263d4087",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "İstanbul"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ftenoz",
+        "name": "avatar"
+      }
+    ],
+    "name": "Ferit Tenöz"
+  },
+  "verifications": [
+    {
+      "identifier": "Ftenoz",
+      "proof_url": "https://twitter.com/ftenoz/status/740782274250178560",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ftenoz",
+      "proof_url": "https://www.facebook.com/ftenoz/posts/10154021954718673",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "ftenoz",
+      "proof_url": "https://gist.github.com/ftenoz/01298070b6185b18418a9f3d263d4087",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ftenoz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ftenoz.id\"\n"
+}
