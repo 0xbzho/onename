@@ -1,0 +1,58 @@
+{
+  "owner_address": "1DTUwztvU3HtqsQTccDocfiwLDq3Yq4VYB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "velicanu",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/velicanu/49a1cfc244d3f7443c128bbeeb582a34",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dragosvelicanu",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dragosvelicanu/status/740966941410627584",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dragosvelicanu",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dragosvelicanu/posts/3536886380826?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Dragos Velicanu"
+  },
+  "verifications": [
+    {
+      "identifier": "velicanu",
+      "proof_url": "https://gist.github.com/velicanu/49a1cfc244d3f7443c128bbeeb582a34",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "dragosvelicanu",
+      "proof_url": "https://twitter.com/dragosvelicanu/status/740966941410627584",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "dragosvelicanu",
+      "proof_url": "https://www.facebook.com/dragosvelicanu/posts/3536886380826?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN dragosvelicanu.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dragosvelicanu.id\"\n"
+}
