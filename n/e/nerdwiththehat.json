@@ -1,0 +1,49 @@
+{
+  "owner_address": "1QATUBZvNtnGBN6T8Vf23iqUvsGcR5Nma9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nerdwiththehat",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Nerdwiththehat/status/740885744336637952",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/nerdwiththehat",
+        "identifier": "9BF653E026675D4C72D826A56AE208660A173771",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nerdwiththehat",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/nerdwiththehat",
+        "name": "cover"
+      }
+    ],
+    "name": "Liam Hefferman",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.about.me/nerdwiththehat"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "nerdwiththehat",
+      "proof_url": "https://twitter.com/Nerdwiththehat/status/740885744336637952",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN nerdwiththehat.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nerdwiththehat.id\"\n"
+}
