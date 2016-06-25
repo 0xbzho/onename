@@ -1,0 +1,31 @@
+{
+  "owner_address": "1KgbpsrdYehCKXREi8xUyytUWcZTTjXMY3",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mike.mcaulay",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mike.mcaulay/posts/10153844636828710?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mike.mcaulay",
+      "proof_url": "https://www.facebook.com/mike.mcaulay/posts/10153844636828710?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mikemcaulay.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mikemcaulay.id\"\n"
+}
