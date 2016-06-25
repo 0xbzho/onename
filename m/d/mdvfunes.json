@@ -1,0 +1,37 @@
+{
+  "owner_address": "1KCu2rmYDQ9gbNaAubvfga3Y3TvKCgkk16",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mdvfunes",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mdvfunes/status/741382654214479873",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mdvfunes",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mdvfunes",
+        "name": "cover"
+      }
+    ],
+    "name": "Mariana Funes"
+  },
+  "verifications": [
+    {
+      "identifier": "mdvfunes",
+      "proof_url": "https://twitter.com/mdvfunes/status/741382654214479873",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mdvfunes.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mdvfunes.id\"\n"
+}
