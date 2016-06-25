@@ -1,0 +1,44 @@
+{
+  "owner_address": "157LzMmJyYiLMbDj32qE6mCJUU6WogzTBZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "laurenceallard",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SamuelCLOT1/status/741008528438140928",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "laurenceallard",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tyjak/status/741012778228416512",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "laurenceallard",
+      "proof_url": "https://twitter.com/SamuelCLOT1/status/741008528438140928",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "laurenceallard",
+      "proof_url": "https://twitter.com/tyjak/status/741012778228416512",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN laurenceallard.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/laurenceallard.id\"\n"
+}
