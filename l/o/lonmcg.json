@@ -1,0 +1,49 @@
+{
+  "owner_address": "1L6PJR7496fUKuWCeMD7J8zDaYKto9MtTi",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "LonMcGregor",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/LonMcGregor/status/740815871657050112",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "LonMcGregor",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/LonMcGregor/d8b59a4a220eaabf6d268e45f62f0fc6",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/lonmcg",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "LonMcGregor",
+      "proof_url": "https://twitter.com/LonMcGregor/status/740815871657050112",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "LonMcGregor",
+      "proof_url": "https://gist.github.com/LonMcGregor/d8b59a4a220eaabf6d268e45f62f0fc6",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN lonmcg.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lonmcg.id\"\n"
+}
