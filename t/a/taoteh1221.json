@@ -1,0 +1,75 @@
+{
+  "owner_address": "1GUNUsmni1dtgyAiErsXeJ2xct4os1UCWD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "taoteh1221",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/taoteh1221/status/740914262449786880",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "taoteh1221",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/taoteh1221/posts/10154961150143508?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "taoteh1221",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/taoteh1221/ebe21b85e552386d4bd9c5ddd5bb0036",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1FfWHekHPLH7hQcU4d5MBVQ4WekJiA8Mk2",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Maine, USA"
+    },
+    "description": "Web Developer, Motorsports and Football Fan.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Michael Kilday",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://dragonfrugal.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "taoteh1221",
+      "proof_url": "https://twitter.com/taoteh1221/status/740914262449786880",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "taoteh1221",
+      "proof_url": "https://www.facebook.com/taoteh1221/posts/10154961150143508?pnref=story",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "taoteh1221",
+      "proof_url": "https://gist.github.com/taoteh1221/ebe21b85e552386d4bd9c5ddd5bb0036",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN taoteh1221.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/taoteh1221.id\"\n"
+}
