@@ -1,0 +1,74 @@
+{
+  "owner_address": "1tQjfAGU4JSUgSmtdCiigA1fjYsF5r6YD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kyleejohnson",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kyleejohnson/status/740708555779538944",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "pkscout",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/pkscout/1c9be791a77595cc09911184896f21f3",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kyle.e.johnson",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/kyle.e.johnson/posts/10101451482224794",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Honolulu, HI"
+    },
+    "description": "Ed Tech instigator",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kyleejohnson",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/kyleejohnson",
+        "name": "cover"
+      }
+    ],
+    "name": "Kyle Johnson",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://ci-uhoh.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "kyleejohnson",
+      "proof_url": "https://twitter.com/kyleejohnson/status/740708555779538944",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "pkscout",
+      "proof_url": "https://gist.github.com/pkscout/1c9be791a77595cc09911184896f21f3",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "kyle.e.johnson",
+      "proof_url": "https://www.facebook.com/kyle.e.johnson/posts/10101451482224794",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN kyleejohnson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kyleejohnson.id\"\n"
+}
