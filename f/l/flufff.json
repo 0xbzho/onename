@@ -1,0 +1,51 @@
+{
+  "owner_address": "1CrLfZSdFmAJ39vAWHGwZD1SG5wQ5nBXdm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "flufff42",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/flufff42/0e3db108e0bf1a4912de34c147988bc7",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "flufffel",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/flufffel/status/741915509529169920",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Seán Labastille",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://sean.systems"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "flufff42",
+      "proof_url": "https://gist.github.com/flufff42/0e3db108e0bf1a4912de34c147988bc7",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "flufffel",
+      "proof_url": "https://twitter.com/flufffel/status/741915509529169920",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN flufff.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/flufff.id\"\n"
+}
