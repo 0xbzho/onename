@@ -1,0 +1,37 @@
+{
+  "owner_address": "1AGkhcmmba2vQioFZYyNbhmkbNSBcHbfsY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "RyanDewey",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RyanDewey/status/740735214180171776",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ryandewey",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ryandewey",
+        "name": "cover"
+      }
+    ],
+    "name": "Ryan Dewey"
+  },
+  "verifications": [
+    {
+      "identifier": "RyanDewey",
+      "proof_url": "https://twitter.com/RyanDewey/status/740735214180171776",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ryandewey.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ryandewey.id\"\n"
+}
