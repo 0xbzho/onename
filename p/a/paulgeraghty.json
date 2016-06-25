@@ -1,0 +1,31 @@
+{
+  "owner_address": "1LURW5oBjHF2L1cQvg94s7EgxVx4vQaKFN",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "paulgeraghty",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/paulgeraghty/status/741006264591880192",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "paulgeraghty",
+      "proof_url": "https://twitter.com/paulgeraghty/status/741006264591880192",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN paulgeraghty.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/paulgeraghty.id\"\n"
+}
