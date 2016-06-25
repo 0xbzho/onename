@@ -1,0 +1,31 @@
+{
+  "owner_address": "1Mv453JenQucdRdB6vvRzweQGT16rU115e",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jasonkolb",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jasonkolb/status/742188323909840896",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jasonkolb",
+      "proof_url": "https://twitter.com/jasonkolb/status/742188323909840896",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jasonkolb.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jasonkolb.id\"\n"
+}
