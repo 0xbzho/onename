@@ -1,0 +1,36 @@
+{
+  "owner_address": "1NgQ2rDHqgtrGnkgbGAhSQoFXzaeWzJX6L",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "frankwit",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/frankwit/7693da37764c16f6fabf1261efc173d1",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/frankwit",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "frankwit",
+      "proof_url": "https://gist.github.com/frankwit/7693da37764c16f6fabf1261efc173d1",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN frankwit.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/frankwit.id\"\n"
+}
