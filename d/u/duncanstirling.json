@@ -1,0 +1,56 @@
+{
+  "owner_address": "1DmgCGkfvjyRUctWRtXUdGNsyZwoTabHmZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "duncanstirling",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/DuncanStirling/status/740852003077795840",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "duncan.stirling",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/duncan.stirling/posts/10154234230582152",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "HCMC, Vietnam"
+    },
+    "description": "www.stirlingresources.com",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Duncan Stirling",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.rebelmouse.com/onlyblockchain"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "duncanstirling",
+      "proof_url": "https://twitter.com/DuncanStirling/status/740852003077795840",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "duncan.stirling",
+      "proof_url": "https://www.facebook.com/duncan.stirling/posts/10154234230582152",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN duncanstirling.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/duncanstirling.id\"\n"
+}
