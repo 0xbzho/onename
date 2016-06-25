@@ -1,0 +1,38 @@
+{
+  "owner_address": "12XBFSMaXBimfMoKuxJCzrNBDr2HkHn7dw",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mspl13",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mspl13/b2ba2762f407f95cfc34fb6bfbd03944",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Max Spliethöver",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://spliethoever.de"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mspl13",
+      "proof_url": "https://gist.github.com/mspl13/b2ba2762f407f95cfc34fb6bfbd03944",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mspliethoever.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mspliethoever.id\"\n"
+}
