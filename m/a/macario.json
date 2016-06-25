@@ -1,0 +1,44 @@
+{
+  "owner_address": "1NdECPtJAE84GdzN2AiMaEeTNGHkjy3Wdm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "DanMacarioB",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/DanMacarioB/status/740927287160393728",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "macadev",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/macadev/165e2f4b315377bbaad12f7141d498c5",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "DanMacarioB",
+      "proof_url": "https://twitter.com/DanMacarioB/status/740927287160393728",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "macadev",
+      "proof_url": "https://gist.github.com/macadev/165e2f4b315377bbaad12f7141d498c5",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN macario.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/macario.id\"\n"
+}
