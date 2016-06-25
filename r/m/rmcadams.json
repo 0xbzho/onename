@@ -1,0 +1,57 @@
+{
+  "owner_address": "1MLnaRwzkLDMRcD9uLZ8xJrj5nBDezTtmt",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ryanmcadams",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ryanmcadams/status/741470449666826244",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rmcadams",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rmcadams/427aebfeab1b225f042a21699119a4c2",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rmcadams78",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/rmcadams78/posts/287672898233671",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ryanmcadams",
+      "proof_url": "https://twitter.com/ryanmcadams/status/741470449666826244",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "rmcadams",
+      "proof_url": "https://gist.github.com/rmcadams/427aebfeab1b225f042a21699119a4c2",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "rmcadams78",
+      "proof_url": "https://www.facebook.com/rmcadams78/posts/287672898233671",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN rmcadams.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rmcadams.id\"\n"
+}
