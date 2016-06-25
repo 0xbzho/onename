@@ -1,0 +1,62 @@
+{
+  "owner_address": "14FMYhpZeH8m2JovQZoqt4JrcHGBonsx5o",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jurasick",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jurasick/status/740683025164439552",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "srinivasmurty",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/srinivasmurty/posts/10154272260121457?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "smurty61",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/smurty61/56d503fb5d94eabfbfbfe755cd42d0c7",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Srinivas Murty"
+  },
+  "verifications": [
+    {
+      "identifier": "jurasick",
+      "proof_url": "https://twitter.com/jurasick/status/740683025164439552",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "srinivasmurty",
+      "proof_url": "https://www.facebook.com/srinivasmurty/posts/10154272260121457?pnref=story",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "smurty61",
+      "proof_url": "https://gist.github.com/smurty61/56d503fb5d94eabfbfbfe755cd42d0c7",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN srinivasmurty.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/srinivasmurty.id\"\n"
+}
