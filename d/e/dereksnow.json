@@ -1,0 +1,31 @@
+{
+  "owner_address": "1F2ANB3gSAK9FW4DeoSSwaPJRQxjgjyuhA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dereksnow",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dereksnow/b7d0dc1644230c3736358babde4cab05",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dereksnow",
+      "proof_url": "https://gist.github.com/dereksnow/b7d0dc1644230c3736358babde4cab05",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dereksnow.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dereksnow.id\"\n"
+}
