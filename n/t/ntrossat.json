@@ -1,0 +1,48 @@
+{
+  "owner_address": "1DiTUya19qy13NraWd8NLHGWBpLYXiLr1Z",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ntrossat",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ntrossat/status/741261038545473536",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "[FR] Tourves - In the wild Var"
+    },
+    "description": "Slow entrepreneur, Magento developer, Father, Sailor, and Trail runner.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ntrossat",
+        "name": "avatar"
+      }
+    ],
+    "name": "Nicolas Trossat",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.boutikcircus.com/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ntrossat",
+      "proof_url": "https://twitter.com/ntrossat/status/741261038545473536",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ntrossat.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ntrossat.id\"\n"
+}
