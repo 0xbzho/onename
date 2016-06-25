@@ -1,59 +1,60 @@
 {
   "owner_address": "1AjSDUYjTQMySMrJ7g37Pnm5dVuYTwqhk2",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/eduardoveiga"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/Ov8.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/eduardokveiga/posts/10153459582478232"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "eduardoveiga",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "eduardokveiga"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/eduardoveiga/9853dd833d1bdf08bb9c"
+      {
+        "@type": "Account",
+        "identifier": "eduardokveiga",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/eduardokveiga/posts/10153459582478232",
+        "service": "facebook"
       },
-      "username": "eduardoveiga"
+      {
+        "@type": "Account",
+        "identifier": "eduardoveiga",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/eduardoveiga/status/742768719152222208",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bagé RS"
     },
-    "location": {
-      "formatted": "Bagé RS"
-    },
-    "name": {
-      "formatted": "Eduardo  Kluwe Veiga"
-    },
-    "pgp": {
-      "url": "https://s3.amazonaws.com/pk9/eduardoveiga"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/eduardoveiga/status/626986006454083584"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/eduardoveiga",
+        "name": "avatar"
       },
-      "username": "eduardoveiga"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Eduardo  Kluwe Veiga"
   },
   "verifications": [
-    {
-      "identifier": "eduardoveiga",
-      "proof_url": "https://gist.github.com/eduardoveiga/9853dd833d1bdf08bb9c",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "eduardoveiga",
-      "proof_url": "https://twitter.com/eduardoveiga/status/626986006454083584",
-      "service": "twitter",
-      "valid": true
-    },
     {
       "identifier": "eduardokveiga",
       "proof_url": "https://facebook.com/eduardokveiga/posts/10153459582478232",
       "service": "facebook",
       "valid": false
+    },
+    {
+      "identifier": "eduardoveiga",
+      "proof_url": "https://twitter.com/eduardoveiga/status/742768719152222208",
+      "service": "twitter",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN eduardoveiga.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/eduardoveiga.id\"\n"
 }
