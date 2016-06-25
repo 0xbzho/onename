@@ -1,26 +1,54 @@
 {
   "owner_address": "12J7cj7aV2TtWwi7tMCpn5tNPxtpnsWtiu",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/larsk"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "197DhSg6MNfYNRUs6TCuZodVeKyfRXHwBH",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/larsk",
+        "identifier": null,
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/larskrueger/b0e0e93557748f099cd689491b0bc3dc",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Berlin"
     },
-    "bitcoin": {
-      "address": "1JspGGejkxUd9EXsC5JBLQrebbmaECAwKd"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/larsk"
-    },
-    "location": {
-      "formatted": "Berlin"
-    },
-    "name": {
-      "formatted": "Lars Krüger"
-    },
-    "pgp": {
-      "fingerprint": "",
-      "url": "https://s3.amazonaws.com/pk9/larsk"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/larsk",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/larsk",
+        "name": "cover"
+      }
+    ],
+    "name": "Lars Krüger"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "",
+      "proof_url": "https://gist.github.com/larskrueger/b0e0e93557748f099cd689491b0bc3dc",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN larsk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/larsk.id\"\n"
 }
