@@ -1,0 +1,44 @@
+{
+  "owner_address": "17HqZ7CkrwMp8ERTm2breuW6jgpP4iV4gB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Willbank",
+        "proofType": "http",
+        "proofUrl": "https://mobile.twitter.com/willbank/status/741529331634163713",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "willbank",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/willbank/2c16446ebe2bf8cf1a0741eab940a524",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Willbank",
+      "proof_url": "https://mobile.twitter.com/willbank/status/741529331634163713",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "willbank",
+      "proof_url": "https://gist.github.com/willbank/2c16446ebe2bf8cf1a0741eab940a524",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN willbank.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/willbank.id\"\n"
+}
