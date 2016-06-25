@@ -1,0 +1,41 @@
+{
+  "owner_address": "16RHv4PraF5dLqY8qvTveK4R8iVE7psFJK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "web_martin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/web_martin/status/740691776432943104",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Fullerton, CA, USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/martinweber",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/martinweber",
+        "name": "cover"
+      }
+    ],
+    "name": "Martin Weber"
+  },
+  "verifications": [
+    {
+      "identifier": "web_martin",
+      "proof_url": "https://twitter.com/web_martin/status/740691776432943104",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN martinweber.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/martinweber.id\"\n"
+}
