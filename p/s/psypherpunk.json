@@ -1,0 +1,57 @@
+{
+  "owner_address": "1JENzZwgbhMiXeQmSRGNVEVVATFxPGDodj",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "PsypherPunk",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/PsypherPunk/425f46720fed08ac93d17ab0a9d0ae7d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "PsypherPunk",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/PsypherPunk/status/742335501080907776",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1EBKqM9vtM2x2zcpe1QuWiJBcHi8sRXuzs",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/psypherpunk",
+        "identifier": null,
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/psypherpunk",
+        "name": "cover"
+      }
+    ],
+    "name": "PsypherPunk"
+  },
+  "verifications": [
+    {
+      "identifier": "PsypherPunk",
+      "proof_url": "https://gist.github.com/PsypherPunk/425f46720fed08ac93d17ab0a9d0ae7d",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "PsypherPunk",
+      "proof_url": "https://twitter.com/PsypherPunk/status/742335501080907776",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN psypherpunk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/psypherpunk.id\"\n"
+}
