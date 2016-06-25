@@ -1,0 +1,36 @@
+{
+  "owner_address": "1ANvYM6pD1isX6f6JCQiqzxmfzDBaTo2MT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "littlefuzz",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/littlefuzz/status/740754742184284161",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kelowna, Canada"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jamie Greenhough"
+  },
+  "verifications": [
+    {
+      "identifier": "littlefuzz",
+      "proof_url": "https://twitter.com/littlefuzz/status/740754742184284161",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jamiefromcanada.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jamiefromcanada.id\"\n"
+}
