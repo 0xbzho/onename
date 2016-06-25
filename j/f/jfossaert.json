@@ -1,0 +1,36 @@
+{
+  "owner_address": "1LX73a8u7sRaDjPreXMXjzZFTiRV5Mj6C2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Jfossaert",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jfossaert/status/740750864500023296",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jfossaert",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Jfossaert",
+      "proof_url": "https://twitter.com/jfossaert/status/740750864500023296",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jfossaert.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jfossaert.id\"\n"
+}
