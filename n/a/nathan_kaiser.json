@@ -1,59 +1,74 @@
 {
   "owner_address": "1GPCf3rtEYHVzBfPDhrMWY5oYZDTWz4FTW",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/nathan_kaiser"
-    },
-    "bio": "Swiss Lawyer in Shanghai/Hong Kong/Taipei",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/nathan_kaiser"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/nathankaiser/posts/10152625996897242"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nathan_kaiser",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/nathan_kaiser/status/744108363064049664",
+        "service": "twitter"
       },
-      "username": "nathankaiser"
-    },
-    "github": {
-      "proof": {
-        "url": "<script src=\"https://gist.github.com/nathankaiser/ef7d5f487a3945d27fca.js\"></script>"
+      {
+        "@type": "Account",
+        "identifier": "nathankaiser",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/nathan.kaiser/posts/10153397247337242",
+        "service": "facebook"
       },
-      "username": "<script src=\"nathankaiser"
+      {
+        "@type": "Account",
+        "identifier": "nathankaiser",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/nathankaiser/ec190decd3767d8626becd45cec00690",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Greater China/Asia"
     },
-    "location": {
-      "formatted": "Greater China/Asia"
-    },
-    "name": {
-      "formatted": "Nathan Kaiser 王納森"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/nathan_kaiser/status/593178382512197632"
+    "description": "Swiss Lawyer in Shanghai/Hong Kong/Taipei",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nathan_kaiser",
+        "name": "avatar"
       },
-      "username": "nathan_kaiser"
-    },
-    "v": "0.2",
-    "website": "http://www.eigerlaw.com"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/nathan_kaiser",
+        "name": "cover"
+      }
+    ],
+    "name": "Nathan Kaiser 王納森",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.eigerlaw.com"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "<script src=\"nathankaiser",
-      "proof_url": "<script src=\"https://gist.github.com/nathankaiser/ef7d5f487a3945d27fca.js\"></script>",
-      "service": "github",
-      "valid": false
-    },
-    {
       "identifier": "nathan_kaiser",
-      "proof_url": "https://twitter.com/nathan_kaiser/status/593178382512197632",
+      "proof_url": "https://twitter.com/nathan_kaiser/status/744108363064049664",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "nathankaiser",
-      "proof_url": "https://facebook.com/nathankaiser/posts/10152625996897242",
+      "proof_url": "https://www.facebook.com/nathan.kaiser/posts/10153397247337242",
       "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "nathankaiser",
+      "proof_url": "https://gist.github.com/nathankaiser/ec190decd3767d8626becd45cec00690",
+      "service": "github",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN nathan_kaiser.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nathan_kaiser.id\"\n"
 }
