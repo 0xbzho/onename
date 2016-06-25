@@ -1,0 +1,42 @@
+{
+  "owner_address": "1NVdcsvyzMAqvXzz1i79TzycoHKPQGCKWQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1G8sbLFUxWq7dA3cCwp9WDz83QncVzYg8s",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "laszlos1",
+        "proofType": "http",
+        "proofUrl": "Verifying that +laszlos is my blockchain ID. https://onename.com/laszlos",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Laszlo Sallay"
+  },
+  "verifications": [
+    {
+      "identifier": "laszlos1",
+      "proof_url": "Verifying that +laszlos is my blockchain ID. https://onename.com/laszlos",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN laszlos.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/laszlos.id\"\n"
+}
