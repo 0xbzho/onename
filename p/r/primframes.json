@@ -1,0 +1,58 @@
+{
+  "owner_address": "1DnLyuaMKXZRdPNpGR7WWbLF5wVDjMZGvC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "primframes",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/5oloist",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "primframes",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "21a8e8bcf690229cdcfac7aa9e7120e2d101d4bc",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "UK"
+    },
+    "description": "The new, affordable way to purchase eyewear.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/primframes",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/primframes",
+        "name": "cover"
+      }
+    ],
+    "name": "PRIMFRAMES",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.primframes.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "primframes",
+      "proof_url": "https://www.facebook.com/5oloist",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN primframes.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/primframes.id\"\n"
+}
