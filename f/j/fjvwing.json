@@ -1,0 +1,38 @@
+{
+  "owner_address": "1KRpppExa5DbZ64UcFdF3Co8hnaDd96KG7",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "fj",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/fj/status/740918866499534848",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1A9QezTYr6eBzwiPu4QK4RmerFdKhomwcL",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "FJ!!"
+  },
+  "verifications": [
+    {
+      "identifier": "fj",
+      "proof_url": "https://twitter.com/fj/status/740918866499534848",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN fjvwing.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fjvwing.id\"\n"
+}
