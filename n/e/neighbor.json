@@ -1,0 +1,27 @@
+{
+  "owner_address": "1woXEk3G6JwHUTjVaGtFtVyQRA4bH6pVR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "fbaafa6355bd091acafe8ced68649815f303b9ef",
+        "service": "neighbor"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fbaafa6355bd091acafe8ced68649815f303b9ef",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN neighbor.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/neighbor.id\"\n"
+}
