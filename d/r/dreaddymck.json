@@ -1,0 +1,79 @@
+{
+  "owner_address": "17FCsyf5DmnVkS1tEyMtXZTqoMgxnTuik9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1DJHvHaoAJSN52ebiiRnrhBuoENbAUX5dk",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dreaddymck",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dreaddymck/status/740932146848759808",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dreaddymck",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/Dreaddymck/",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dreaddymck",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dreaddymck/320da96f410f676e1013d8ca1cb637d0",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "The Ether"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dreaddymck",
+        "name": "avatar"
+      }
+    ],
+    "name": "Dreaddy Mck",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://dreaddymck.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dreaddymck",
+      "proof_url": "https://twitter.com/dreaddymck/status/740932146848759808",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "dreaddymck",
+      "proof_url": "https://www.facebook.com/Dreaddymck/",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "dreaddymck",
+      "proof_url": "https://gist.github.com/dreaddymck/320da96f410f676e1013d8ca1cb637d0",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dreaddymck.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dreaddymck.id\"\n"
+}
