@@ -1,0 +1,63 @@
+{
+  "owner_address": "14RPvc7tpoXt4CZdLe6ypnz4eKpJ1QAeNX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "lauramzvz",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/lauramzvz/1a7a42419bebd2ef118c5f9f31770416",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "laura.martinez.vazquez",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/laura.martinez.vazquez/posts/10209555894436946",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "loryan",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/loryan/status/743379541838684160",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/lauramv",
+        "name": "avatar"
+      }
+    ],
+    "name": "Laura Martínez Vázquez"
+  },
+  "verifications": [
+    {
+      "identifier": "lauramzvz",
+      "proof_url": "https://gist.github.com/lauramzvz/1a7a42419bebd2ef118c5f9f31770416",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "laura.martinez.vazquez",
+      "proof_url": "https://www.facebook.com/laura.martinez.vazquez/posts/10209555894436946",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "loryan",
+      "proof_url": "https://twitter.com/loryan/status/743379541838684160",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN lauramv.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lauramv.id\"\n"
+}
