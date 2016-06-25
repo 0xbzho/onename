@@ -1,0 +1,73 @@
+{
+  "owner_address": "16fpevmVDaMv2hTbzXmLNJPTiPV9E5iQA1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mondain",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mondain/ac649d85b02c144e1e866d793915e37c",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "paul.gregoire",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/paul.gregoire/posts/10154332872464416",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mondain",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mondain/status/740872069206839297",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Michigan"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mondain",
+        "name": "avatar"
+      }
+    ],
+    "name": "Paul Eugene Gregoire Jr",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.gregoire.org/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mondain",
+      "proof_url": "https://gist.github.com/mondain/ac649d85b02c144e1e866d793915e37c",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "paul.gregoire",
+      "proof_url": "https://www.facebook.com/paul.gregoire/posts/10154332872464416",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "mondain",
+      "proof_url": "https://twitter.com/mondain/status/740872069206839297",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mondain.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mondain.id\"\n"
+}
