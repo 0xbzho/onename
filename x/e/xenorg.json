@@ -1,0 +1,32 @@
+{
+  "owner_address": "1FzTJkiHxWh7ptfmr479HhnB9j1yC9WAoB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Xenorg",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/xenorg/status/744486093068738560?s=09",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Brent Avery"
+  },
+  "verifications": [
+    {
+      "identifier": "Xenorg",
+      "proof_url": "https://twitter.com/xenorg/status/744486093068738560?s=09",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN xenorg.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/xenorg.id\"\n"
+}
