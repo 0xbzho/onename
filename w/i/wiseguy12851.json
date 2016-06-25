@@ -1,0 +1,78 @@
+{
+  "owner_address": "12ZytvdfZNfPtCyzSRUzgL5U6rmyFqF5ji",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1B1aNwjqBXFdREQY8QibUS92XmjsNiJAwG",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "toumayukidesu",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/toumayukidesu/posts/934933643272583",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "aoi_ika_desu",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/aoi_ika_desu/status/736593516097208322",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "wiseguy12851",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/wiseguy12851/2cfb09151af54cef83c7f3d4b8c4084d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "c02f9d6a192ea70568d606e880171c7915a4f128",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/wiseguy12851",
+        "name": "avatar"
+      }
+    ],
+    "name": "John M"
+  },
+  "verifications": [
+    {
+      "identifier": "toumayukidesu",
+      "proof_url": "https://www.facebook.com/toumayukidesu/posts/934933643272583",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "aoi_ika_desu",
+      "proof_url": "https://twitter.com/aoi_ika_desu/status/736593516097208322",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "wiseguy12851",
+      "proof_url": "https://gist.github.com/wiseguy12851/2cfb09151af54cef83c7f3d4b8c4084d",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN wiseguy12851.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wiseguy12851.id\"\n"
+}
