@@ -1,0 +1,44 @@
+{
+  "owner_address": "12UmFEXP66gS6ZJi7occaCzcKVUcgYdCwq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "leotenis2013",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/leotenis2013/status/737955536675688449",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nani.alvarez.31",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/nani.alvarez.31/posts/10209241318567183?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "leotenis2013",
+      "proof_url": "https://twitter.com/leotenis2013/status/737955536675688449",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "nani.alvarez.31",
+      "proof_url": "https://www.facebook.com/nani.alvarez.31/posts/10209241318567183?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN leoalvarez.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/leoalvarez.id\"\n"
+}
