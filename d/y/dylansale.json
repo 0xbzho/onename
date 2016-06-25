@@ -1,0 +1,66 @@
+{
+  "owner_address": "1Enuj5WzExrBqiY9nhtDara8y5Cum1xRQJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "DylanSale",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/DylanSale/fcefabc52a175ddb3a93bd72331572e3",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "DylanSale",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dylansale/status/740831498606149632?s=09",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1JpKM61UhZkuoQ2kWVWLJ8CVizi85L5YFe",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Adelaide"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dylansale",
+        "name": "avatar"
+      }
+    ],
+    "name": "Dylan Sale",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://dylan.sale"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "DylanSale",
+      "proof_url": "https://gist.github.com/DylanSale/fcefabc52a175ddb3a93bd72331572e3",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "DylanSale",
+      "proof_url": "https://twitter.com/dylansale/status/740831498606149632?s=09",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dylansale.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dylansale.id\"\n"
+}
