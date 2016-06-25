@@ -1,0 +1,57 @@
+{
+  "owner_address": "1BsC5cecMZX1rrcC8q5hhZ4wS4wuHGM1Ty",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gaylegander",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/GayleGander/status/741215680687656960",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "GayleGander",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/GayleGander/f18c541a605dffe6c6209aaa631e3820",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gayle.gander",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/gayle.gander?fref=nf",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "gaylegander",
+      "proof_url": "https://twitter.com/GayleGander/status/741215680687656960",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "GayleGander",
+      "proof_url": "https://gist.github.com/GayleGander/f18c541a605dffe6c6209aaa631e3820",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "gayle.gander",
+      "proof_url": "https://www.facebook.com/gayle.gander?fref=nf",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN gaylegander.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gaylegander.id\"\n"
+}
