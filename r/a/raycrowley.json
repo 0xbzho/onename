@@ -1,0 +1,54 @@
+{
+  "owner_address": "15MwJ6HrDG28EKYNxWzYfqoVhdTdhkcKz2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ray_crowley",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ray_crowley/status/741633628921311233",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "raycrowley",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/raycrowley/8726103d75f2fcf854ffbd3b740e9c43",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cork"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/raycrowley",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/raycrowley",
+        "name": "cover"
+      }
+    ],
+    "name": "Ray Crowley"
+  },
+  "verifications": [
+    {
+      "identifier": "ray_crowley",
+      "proof_url": "https://twitter.com/ray_crowley/status/741633628921311233",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "raycrowley",
+      "proof_url": "https://gist.github.com/raycrowley/8726103d75f2fcf854ffbd3b740e9c43",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN raycrowley.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/raycrowley.id\"\n"
+}
