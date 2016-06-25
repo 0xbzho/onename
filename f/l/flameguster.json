@@ -1,0 +1,57 @@
+{
+  "owner_address": "1CdwYP8CV2VSqBDZTXYaKRTxhfHygKwuwX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "flameguster",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/flameguster/status/740947736745246721",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "flameguster",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/flameguster/af28996655b7cf6960fd929385c97bfa#file-gistfile1-txt",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "flameguster",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/flameguster/posts/10153741027588775",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "flameguster",
+      "proof_url": "https://twitter.com/flameguster/status/740947736745246721",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "flameguster",
+      "proof_url": "https://gist.github.com/flameguster/af28996655b7cf6960fd929385c97bfa#file-gistfile1-txt",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "flameguster",
+      "proof_url": "https://www.facebook.com/flameguster/posts/10153741027588775",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN flameguster.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/flameguster.id\"\n"
+}
