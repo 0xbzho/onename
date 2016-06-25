@@ -1,0 +1,53 @@
+{
+  "owner_address": "12NoEoLu6NugxMmJYU1nPc1ky2yVTzccfz",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "all2one",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/all2one/status/740008422230233089",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/jaewon",
+        "identifier": "46BE6BE955A6BED2E207DC8511A35120A54171B2",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Santa Monica"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jaewon",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jaewon",
+        "name": "cover"
+      }
+    ],
+    "name": "Jaewon Jung",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://medium.com/@all2one"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "all2one",
+      "proof_url": "https://twitter.com/all2one/status/740008422230233089",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jaewon.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jaewon.id\"\n"
+}
