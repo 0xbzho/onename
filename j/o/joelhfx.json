@@ -1,27 +1,80 @@
 {
   "owner_address": "1K6MqYArpyKrDRbqHj8FzPYPnVDggBvyPi",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/joelhfx"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "JoelRichard",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JoelRichard/status/746500853503139840",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "17cMvQKr1sj7SAzn7z7ou9no8WcRDrmQ41",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "joeltang",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/joeltang/3c37b12c4cc870c2b9b45f47d5f42ffd",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "joelhfx",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/joelhfx/posts/10153549264446050",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "dartmouth, ns"
     },
-    "bio": "RF Designer at Cobham Tactical Communications.  Big lover of GTD, DIY, All Grain Brewing, GOOD beer and new technology that does more than just waste time.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/joelhfx"
-    },
-    "facebook": {
-      "username": "joelhfx"
-    },
-    "location": {
-      "formatted": "dartmouth, ns"
-    },
-    "name": {
-      "formatted": "Joel Richard"
-    },
-    "twitter": {
-      "username": "JoelRichard"
-    },
-    "v": "0.2",
-    "website": "http://about.me/joel.richard"
+    "description": "Electronics Engineering Technologist.  Big lover of GTD, DIY, All Grain Brewing, GOOD beer and new technology that does more than just waste time.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/joelhfx",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/joelhfx",
+        "name": "cover"
+      }
+    ],
+    "name": "Joel Richard",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://about.me/joel.richard"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "JoelRichard",
+      "proof_url": "https://twitter.com/JoelRichard/status/746500853503139840",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "joeltang",
+      "proof_url": "https://gist.github.com/joeltang/3c37b12c4cc870c2b9b45f47d5f42ffd",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "joelhfx",
+      "proof_url": "https://www.facebook.com/joelhfx/posts/10153549264446050",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN joelhfx.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/joelhfx.id\"\n"
 }
