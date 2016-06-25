@@ -1,0 +1,54 @@
+{
+  "owner_address": "1MxeeeHmQKU6B9qp1irUeawFEoD9FtjXrU",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "14eMEyry7JoCmMYJkvDAbBASDC5KfvQ4iN",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "quvmoh",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/quvmoh/status/740890907826741249",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boise Idaho"
+    },
+    "description": "Lover of tools tech and Trek, Builder and breaker of things, Father husband and enigma to those who endeavor to know me, warrior poet and lover of things geeky and odd. enthusiastic user of Linux and all things Floss.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/quvmoh",
+        "name": "avatar"
+      }
+    ],
+    "name": "Chad Nelson",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://hackerpublicradio.org/correspondents.php?hostid=110"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "quvmoh",
+      "proof_url": "https://twitter.com/quvmoh/status/740890907826741249",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN quvmoh.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/quvmoh.id\"\n"
+}
