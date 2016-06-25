@@ -1,0 +1,67 @@
+{
+  "owner_address": "1QCef1LyZMa8e684VaH2LgdYohZ1H6qLM9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Floppy",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Floppy/status/741393806701023232",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Floppy",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Floppy/961cec1c3a6c3e84c176d95902e6b73f",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1jWPeEm8ic9q4u1V1n1ZSq6p6SKCxsBAj",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "UK"
+    },
+    "description": "Building a better future out of code. Head of ODI Labs, party leader of Something New, founder of Cleanweb UK, and chair of criduchat.org.uk. Neutral Good.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/floppy76",
+        "name": "avatar"
+      }
+    ],
+    "name": "James Smith",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://floppy.org.uk"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Floppy",
+      "proof_url": "https://twitter.com/Floppy/status/741393806701023232",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Floppy",
+      "proof_url": "https://gist.github.com/Floppy/961cec1c3a6c3e84c176d95902e6b73f",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN floppy76.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/floppy76.id\"\n"
+}
