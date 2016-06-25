@@ -1,0 +1,56 @@
+{
+  "owner_address": "1HEuVomJH4Ao32JFfhoVFZL8sws7FreL8N",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "drupalero",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/drupalero/status/743726521282531328",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "manuee",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/manuee/2bbafa111594f81eec7930d04b04a591",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/manuelgarcia",
+        "name": "avatar"
+      }
+    ],
+    "name": "Manuel Garcia",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.drupal.org/user/213194"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "drupalero",
+      "proof_url": "https://twitter.com/drupalero/status/743726521282531328",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "manuee",
+      "proof_url": "https://gist.github.com/manuee/2bbafa111594f81eec7930d04b04a591",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN manuelgarcia.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/manuelgarcia.id\"\n"
+}
