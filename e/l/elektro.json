@@ -1,0 +1,48 @@
+{
+  "owner_address": "1P9gTKu95kQ6T5dNf1zoSbHe8baG3XZaAe",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "elektro_de",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Elektro_de/status/741194914751520768",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Frankfurt a.M.  - Hessen - Germany"
+    },
+    "description": "#elektro #elektrotechnik #cms",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/elektro",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/elektro",
+        "name": "cover"
+      }
+    ],
+    "name": "Elektro",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://relaxits.de"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "elektro_de",
+      "proof_url": "https://twitter.com/Elektro_de/status/741194914751520768",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN elektro.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/elektro.id\"\n"
+}
