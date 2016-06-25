@@ -1,0 +1,58 @@
+{
+  "owner_address": "1Q6yPazt3C9fuBgmz8vBNo9GYDYpfDaQ4z",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "2cbdf9142837d0f6d523da03c65bf65fa4ee62ee",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "18f3puQmvWZjNMBJ8Hr5yTWCTKPFz2dxpG",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Fuzzy_Petes",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Fuzzy_Petes/status/745605882189352960",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Switzerland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/fuzzy_petes",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/fuzzy_petes",
+        "name": "avatar"
+      }
+    ],
+    "name": "Fuzzy Petes",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.fuzzypetes.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Fuzzy_Petes",
+      "proof_url": "https://twitter.com/Fuzzy_Petes/status/745605882189352960",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN fuzzy_petes.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fuzzy_petes.id\"\n"
+}
