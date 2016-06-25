@@ -1,0 +1,80 @@
+{
+  "owner_address": "1Ba29YK6E3kp7mT1F8vpBWTeVsiiFPLsmr",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rodrigouroz",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rodrigouroz/status/740744958794207232",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rodrigouroz",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rodrigouroz/ea0221e47c7f9ee99882dfbae0368012",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rodrigouroz",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/rodrigouroz/posts/10208335279036202",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1xJc2X3F5idhvGwp465PnPSnJ5iaJdgoJ",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Buenos Aires"
+    },
+    "description": "Software Engineer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rodrigouroz",
+        "name": "avatar"
+      }
+    ],
+    "name": "Rodrigo Uroz",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://rodrigouroz.github.io"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "rodrigouroz",
+      "proof_url": "https://twitter.com/rodrigouroz/status/740744958794207232",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "rodrigouroz",
+      "proof_url": "https://gist.github.com/rodrigouroz/ea0221e47c7f9ee99882dfbae0368012",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "rodrigouroz",
+      "proof_url": "https://www.facebook.com/rodrigouroz/posts/10208335279036202",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN rodrigouroz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rodrigouroz.id\"\n"
+}
