@@ -1,0 +1,58 @@
+{
+  "owner_address": "15rwNpqUqAP7SSDmMiiVtNCwVC6nFWcVvP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dreamflasher",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/DreamFlasher/status/741388535652061184",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "MarcelAckermann",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/MarcelAckermann/posts/10153869067213558",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "DreamFlasher",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/DreamFlasher/da7b6ddb953ae917b86074cef0204b91",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Marcel Ackermann"
+  },
+  "verifications": [
+    {
+      "identifier": "dreamflasher",
+      "proof_url": "https://twitter.com/DreamFlasher/status/741388535652061184",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "MarcelAckermann",
+      "proof_url": "https://www.facebook.com/MarcelAckermann/posts/10153869067213558",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "DreamFlasher",
+      "proof_url": "https://gist.github.com/DreamFlasher/da7b6ddb953ae917b86074cef0204b91",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN dreamflasher.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dreamflasher.id\"\n"
+}
