@@ -1,0 +1,73 @@
+{
+  "owner_address": "13vHGW8n2uruMQeRuJPyKZMTXEFRTW1h2F",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jeremykendall",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JeremyKendall/status/737003301674225664",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jeremykendall",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jeremykendall/8cdc7a6f7a52555ad120f5d0ca15f143",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jeremykendall",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jeremy.kendall/posts/10154267291583408",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Earth"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jeremykendall",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jeremy Kendall",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://about.me/jeremykendall"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jeremykendall",
+      "proof_url": "https://twitter.com/JeremyKendall/status/737003301674225664",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jeremykendall",
+      "proof_url": "https://gist.github.com/jeremykendall/8cdc7a6f7a52555ad120f5d0ca15f143",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jeremykendall",
+      "proof_url": "https://www.facebook.com/jeremy.kendall/posts/10154267291583408",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jeremykendall.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jeremykendall.id\"\n"
+}
