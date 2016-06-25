@@ -1,0 +1,37 @@
+{
+  "owner_address": "19CSbn7CFPxM6eDffarojq5Rv88p4Gfqep",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "TheMilkRoad",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/TheMilkRoad/posts/1152425634799860",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/milk_road",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/milk_road",
+        "name": "cover"
+      }
+    ],
+    "name": "Milk Road"
+  },
+  "verifications": [
+    {
+      "identifier": "TheMilkRoad",
+      "proof_url": "https://www.facebook.com/TheMilkRoad/posts/1152425634799860",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN milk_road.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/milk_road.id\"\n"
+}
