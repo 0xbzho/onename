@@ -1,0 +1,42 @@
+{
+  "owner_address": "17ADvouWf3MpTW5W3RbrVbNHJpdhnDonp7",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "udi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/udi/status/740936466973478912",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1LoHi5Ly715qTzTzNrcy63VqYtFXdJrzdf",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/udifalkson",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "udi",
+      "proof_url": "https://twitter.com/udi/status/740936466973478912",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN udifalkson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/udifalkson.id\"\n"
+}
