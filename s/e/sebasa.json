@@ -1,0 +1,41 @@
+{
+  "owner_address": "1NW6X6Hym3KycpBQgzeEgDB42BNMR9dprB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sebasa",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/sebasa/54e09846bc58672e648521b15fcd31a1#file-gistfile1-txt",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Argentina"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sebasa",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/sebasa",
+        "name": "cover"
+      }
+    ],
+    "name": "Sebastian B+"
+  },
+  "verifications": [
+    {
+      "identifier": "sebasa",
+      "proof_url": "https://gist.github.com/sebasa/54e09846bc58672e648521b15fcd31a1#file-gistfile1-txt",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN sebasa.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sebasa.id\"\n"
+}
