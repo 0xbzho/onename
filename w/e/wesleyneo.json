@@ -1,0 +1,62 @@
+{
+  "owner_address": "1DVkYW3A97xqHYz6LenQeg1XXwYpBcVKDx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "wneo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/wneo/status/740917341286850561",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "wesleyneo",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/wesleyneo/773811ab893c6551e82edfc09d0879aa",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "wneo7",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/wneo7/posts/580506375455789",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/wesleyneo",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "wneo",
+      "proof_url": "https://twitter.com/wneo/status/740917341286850561",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "wesleyneo",
+      "proof_url": "https://gist.github.com/wesleyneo/773811ab893c6551e82edfc09d0879aa",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "wneo7",
+      "proof_url": "https://www.facebook.com/wneo7/posts/580506375455789",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN wesleyneo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wesleyneo.id\"\n"
+}
