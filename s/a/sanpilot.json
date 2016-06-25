@@ -1,0 +1,55 @@
+{
+  "owner_address": "1EwKw25qq9i4KwoxUAtFNVjNm4H4YfaWRz",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "SanPilot",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SanPilot/status/739187424069332992",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "SanPilot",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/SanPilot/16c6ee6d7408d638e5cfaaed5e326770",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1c5599cba386b61f3860129650afb52d69af56d3",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sanpilot",
+        "name": "avatar"
+      }
+    ],
+    "name": "Hussain Khalil"
+  },
+  "verifications": [
+    {
+      "identifier": "SanPilot",
+      "proof_url": "https://twitter.com/SanPilot/status/739187424069332992",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "SanPilot",
+      "proof_url": "https://gist.github.com/SanPilot/16c6ee6d7408d638e5cfaaed5e326770",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN sanpilot.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sanpilot.id\"\n"
+}
