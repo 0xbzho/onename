@@ -1,0 +1,61 @@
+{
+  "owner_address": "13HsSe3pK1rUMkMRTM8VWrVvF77WG1MZBQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nanoarc.org",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/nanoarc.org/posts/502166963307103",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "NANOARCLTD",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/NANOARCLTD/status/742866588320157697",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Auckland, New Zealand"
+    },
+    "description": "Nanomaterial Architecture, Nanopowders, Consultancy, Renewable Energy",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nanoarc",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/nanoarc",
+        "name": "cover"
+      }
+    ],
+    "name": "NANOARC",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.nanoarc.org"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "nanoarc.org",
+      "proof_url": "https://www.facebook.com/nanoarc.org/posts/502166963307103",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "NANOARCLTD",
+      "proof_url": "https://twitter.com/NANOARCLTD/status/742866588320157697",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN nanoarc.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nanoarc.id\"\n"
+}
