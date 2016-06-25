@@ -1,0 +1,56 @@
+{
+  "owner_address": "1BV5v9HNPaZPodMPv3miFwx3rXftad5MJD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "eden_sg",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/eden_sg/status/743159158644563969",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "EdenSG",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/EdenSG/6342053ec46d65afda8420bd6255e440",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/edensg",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/edensg",
+        "name": "cover"
+      }
+    ],
+    "name": "Eden SG",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://edensg.me"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "eden_sg",
+      "proof_url": "https://twitter.com/eden_sg/status/743159158644563969",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "EdenSG",
+      "proof_url": "https://gist.github.com/EdenSG/6342053ec46d65afda8420bd6255e440",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN edensg.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/edensg.id\"\n"
+}
