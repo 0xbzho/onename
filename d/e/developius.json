@@ -1,0 +1,60 @@
+{
+  "owner_address": "19R9tcBRLFfgezETSoF48BGFTqXZ2BZ4kr",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "developius",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/developius/status/740837041123012608",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "developius",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/developius/f5d3089fdf80563c33095cff1d9867bd",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Suffolk, UK"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/developius",
+        "name": "avatar"
+      }
+    ],
+    "name": "Finnian Anderson",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://finnian.io"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "developius",
+      "proof_url": "https://twitter.com/developius/status/740837041123012608",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "developius",
+      "proof_url": "https://gist.github.com/developius/f5d3089fdf80563c33095cff1d9867bd",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN developius.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/developius.id\"\n"
+}
