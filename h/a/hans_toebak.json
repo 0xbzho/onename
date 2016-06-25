@@ -1,0 +1,44 @@
+{
+  "owner_address": "14wCV1ShYouM7X4XnPkPHe1Wi8wUAAP6ke",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "htoebak",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/h_toebak/status/738271798010228737",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hans.toebak",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/saved/?notif_id=1464853954343894&cref=52&ref=notif&notif_t=saved_off_fb",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "htoebak",
+      "proof_url": "https://twitter.com/h_toebak/status/738271798010228737",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "hans.toebak",
+      "proof_url": "https://www.facebook.com/saved/?notif_id=1464853954343894&cref=52&ref=notif&notif_t=saved_off_fb",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN hans_toebak.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hans_toebak.id\"\n"
+}
