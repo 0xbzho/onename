@@ -1,44 +1,66 @@
 {
   "owner_address": "18FRYUqWjYg7iEPp1bMQAfySZhbAVapVjY",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "-----ACCOUNT BACKUP ON ONENAME-----  Warning: This document has the encrypted secret keys for your Onename account.  In the event that you lose your password, you will be required to upload this file in order to reset your password and recover your account.  You are the only one in possession of this file - Onename does not have a copy and cannot provide a backup later, so make sure to take care of it and remember your password.  For more information, visit onename.com/support  -----------------------------------  Email: seangozdziak1@yahoo.com  Creation date: Thu, 07 Apr 2016 00:27:52 GMT  Bitcoin address: 1AC3DPXFcP5YjAQBfdYkDboJDU9CzMobxK  Namecoin address: N3pnk8LVevmgEmeKHQfyPC8MHvzDPy3eTL  App encrypted secret: 6PRNFYUEmbRqHe5ZBiJXpikdQrrQh19LGyCLSYVc9AFzrHQVGboKUusSb3  Version: 0.2.0",
+        "identifier": "xboxliveanddigitalservices",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "6PRNFYUEmbRqHe5ZBiJXpikdQrrQh19LGyCLSYVc9AFzrHQVGboKUusSb3",
+        "proofType": "http",
+        "proofUrl": "Verifying that +jonas_krensler is my blockchain ID. https://onename.com/jonas_krensler",
         "service": "open bazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "havefungames",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/havefungames",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "6PRNFYUEmbRqHe5ZBiJXpikdQrrQh19LGyCLSYVc9AFzrHQVGboKUusSb3",
+        "service": "openbazaar"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/havefungames"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York"
     },
-    "bio": "Everything video games store.When retro and modern day collide. For gamers, made by gamers. click the link below to start saving and have fun.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/havefungames"
-    },
-    "facebook": {
-      "username": "xboxliveanddigitalservices"
-    },
-    "location": {
-      "formatted": "New York"
-    },
-    "name": {
-      "formatted": "Media Warehouse"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/havefungames/status/717871757013680129"
+    "description": "Everything video games store.When retro and modern day collide. For gamers, made by gamers. click the link below to start saving and have fun.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/havefungames",
+        "name": "avatar"
       },
-      "username": "havefungames"
-    },
-    "v": "0.2",
-    "website": "https://www.xboxliveanddigitalservices.com/"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/havefungames",
+        "name": "cover"
+      }
+    ],
+    "name": "Media Warehouse",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.xboxliveanddigitalservices.com/"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "havefungames",
-      "proof_url": "https://twitter.com/havefungames/status/717871757013680129",
+      "proof_url": "https://twitter.com/havefungames",
       "service": "twitter",
-      "valid": true
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN havefungames.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/havefungames.id\"\n"
 }
