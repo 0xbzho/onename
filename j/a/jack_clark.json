@@ -1,0 +1,69 @@
+{
+  "owner_address": "172UpH5fyK54kE7Nv8FGuGavKF7f6jNm9f",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "viralspiral",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/viralspiral/status/740823373006143488",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1BJwnXnGRe8A3E1kbCqm26WvWUotsqRYd9",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jackclark",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jackclark/4f71ad0fd61f50232b2c0c7abe8820b5",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "viralspiral",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/viralspiral/posts/10154742381442565",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jack_clark",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jack_clark",
+        "name": "cover"
+      }
+    ],
+    "name": "Jack Clark"
+  },
+  "verifications": [
+    {
+      "identifier": "viralspiral",
+      "proof_url": "https://twitter.com/viralspiral/status/740823373006143488",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jackclark",
+      "proof_url": "https://gist.github.com/jackclark/4f71ad0fd61f50232b2c0c7abe8820b5",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "viralspiral",
+      "proof_url": "https://www.facebook.com/viralspiral/posts/10154742381442565",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jack_clark.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jack_clark.id\"\n"
+}
