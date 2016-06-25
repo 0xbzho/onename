@@ -1,0 +1,32 @@
+{
+  "owner_address": "1LsW536fxopHCWq8mY5PPUMxVVgKqPMcUM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "secondcitytech",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/secondcitytech/status/740835343218397187",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Michael Bailey"
+  },
+  "verifications": [
+    {
+      "identifier": "secondcitytech",
+      "proof_url": "https://twitter.com/secondcitytech/status/740835343218397187",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN secondcitytech.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/secondcitytech.id\"\n"
+}
