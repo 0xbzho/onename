@@ -1,0 +1,86 @@
+{
+  "owner_address": "18DCBMYxriEM9kRbeoVvqU1LA7RYiXv8JV",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "12PZtnbyHqKnQqcW4EobXbCQxYEzA2XgfW",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "citizenk",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/citizenk/status/740773980366340096",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "serkeller",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/serkeller/posts/1635402006780718?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "citizenk",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/citizenk/c339e5abae74f07a033a64c5a38520b2",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/citizenk/key.asc",
+        "identifier": "3A8BFF06171363F5B03AFA66DAD19DC064CC29FE",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Fribourg (Switzerland)"
+    },
+    "description": "Sharp. Intelligent. Cold-blooded. Ruthless. I void warranties.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/skeller",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/skeller",
+        "name": "cover"
+      }
+    ],
+    "name": "Serge K. Keller",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.sergekeller.ch"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "citizenk",
+      "proof_url": "https://twitter.com/citizenk/status/740773980366340096",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "serkeller",
+      "proof_url": "https://www.facebook.com/serkeller/posts/1635402006780718?pnref=story",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "citizenk",
+      "proof_url": "https://gist.github.com/citizenk/c339e5abae74f07a033a64c5a38520b2",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN skeller.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/skeller.id\"\n"
+}
