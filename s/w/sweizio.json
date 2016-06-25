@@ -1,0 +1,49 @@
+{
+  "owner_address": "1NZzY27oq8c7AT7vNv9yzk6pVvWNv2wzeZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sweizio",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sweizio/status/740890503160299522",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sweiz",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/sweiz/b530f4a9bb1310adc055c45f9f92e396",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sweizio",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "sweizio",
+      "proof_url": "https://twitter.com/sweizio/status/740890503160299522",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "sweiz",
+      "proof_url": "https://gist.github.com/sweiz/b530f4a9bb1310adc055c45f9f92e396",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN sweizio.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sweizio.id\"\n"
+}
