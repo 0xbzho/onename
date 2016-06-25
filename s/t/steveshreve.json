@@ -1,0 +1,37 @@
+{
+  "owner_address": "1PsfrZjYDnzcAYjbfC3dASYQFtGjP5W3Kh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Steveshreve",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/steveshreve/status/741089724379496449",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "West Palm Beach"
+    },
+    "description": "Creative Director",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Steve Shreve"
+  },
+  "verifications": [
+    {
+      "identifier": "Steveshreve",
+      "proof_url": "https://twitter.com/steveshreve/status/741089724379496449",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN steveshreve.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/steveshreve.id\"\n"
+}
