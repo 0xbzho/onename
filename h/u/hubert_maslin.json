@@ -1,0 +1,32 @@
+{
+  "owner_address": "1M91ZRqoUVmf58DLh21ivCkNe8ABNALWap",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "h_msln",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/h_msln/status/740820375857209345",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Hubert Maslin"
+  },
+  "verifications": [
+    {
+      "identifier": "h_msln",
+      "proof_url": "https://twitter.com/h_msln/status/740820375857209345",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN hubert_maslin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hubert_maslin.id\"\n"
+}
