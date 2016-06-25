@@ -1,0 +1,44 @@
+{
+  "owner_address": "1F7toB5eqKDggoxTQJrRUZrb6xpTFYCreG",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "oriste",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/oriste/status/741155421235388416",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "oriste",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/oriste/ebd675cb7ab541d0cba3ff1b7bf103d9",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "oriste",
+      "proof_url": "https://twitter.com/oriste/status/741155421235388416",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "oriste",
+      "proof_url": "https://gist.github.com/oriste/ebd675cb7ab541d0cba3ff1b7bf103d9",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN oriste.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/oriste.id\"\n"
+}
