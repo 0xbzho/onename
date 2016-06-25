@@ -1,0 +1,56 @@
+{
+  "owner_address": "1LQuCUXACGAjRWMXLFunzQokPD1rfyruik",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dnlbyl",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dnlbyl/status/736971700395474945",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dnlbyl",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dnlbyl/4c62af2eda80e2c7a1c9314552cd08af",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dnlbyl",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/dnlbyl",
+        "name": "cover"
+      }
+    ],
+    "name": "Dónal Boyle",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://dnlbyl.com/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dnlbyl",
+      "proof_url": "https://twitter.com/dnlbyl/status/736971700395474945",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "dnlbyl",
+      "proof_url": "https://gist.github.com/dnlbyl/4c62af2eda80e2c7a1c9314552cd08af",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dnlbyl.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dnlbyl.id\"\n"
+}
