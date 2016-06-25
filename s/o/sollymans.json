@@ -1,0 +1,32 @@
+{
+  "owner_address": "1FeEUCbrggWRChJJcCTBsZ8ZBzWiyyPD1C",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Sollymans",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sollymans/status/741336981263818752",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Stephen Harris"
+  },
+  "verifications": [
+    {
+      "identifier": "Sollymans",
+      "proof_url": "https://twitter.com/sollymans/status/741336981263818752",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN sollymans.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sollymans.id\"\n"
+}
