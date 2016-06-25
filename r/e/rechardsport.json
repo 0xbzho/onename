@@ -1,0 +1,47 @@
+{
+  "owner_address": "1EqAeaJEJUTSYhQ7S1UvG8oPAey84hBML4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rechardsport",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rechardsport/status/735816762399195136",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "China"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rechardsport",
+        "name": "avatar"
+      }
+    ],
+    "name": "RechardSport",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.rechard-sport.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "rechardsport",
+      "proof_url": "https://twitter.com/rechardsport/status/735816762399195136",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rechardsport.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rechardsport.id\"\n"
+}
