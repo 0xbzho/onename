@@ -1,1 +1,41 @@
-null
+{
+  "owner_address": "19KrFjsAWA8fjftTrbpRsbvduragTdTNMm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kigiri",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/kigiri/b5c9aaaebeb3b428ad9924f5aedc3801",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "France?"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kigiri",
+        "name": "avatar"
+      }
+    ],
+    "name": "Clément Denis"
+  },
+  "verifications": [
+    {
+      "identifier": "kigiri",
+      "proof_url": "https://gist.github.com/kigiri/b5c9aaaebeb3b428ad9924f5aedc3801",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kigiri.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kigiri.id\"\n"
+}
