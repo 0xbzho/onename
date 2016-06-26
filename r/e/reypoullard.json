@@ -1,68 +1,87 @@
 {
   "owner_address": "1E2yDLKUwFzBVTBDiRpDsfsaeobAjBebxL",
   "profile": {
-    "avatar": {
-      "url": "https://pbs.twimg.com/profile_images/433540797330251776/hUR4PFYs.png"
-    },
-    "bio": "Cyberfunks",
-    "bitcoin": {
-      "address": "1Q9pvAqnDcqVN4mamzsvkhtohk3EtirXvy"
-    },
-    "bitmessage": {
-      "address": "BM-NBXG7sTdMC46LHM9R2MPiSJti4NvLsgg"
-    },
-    "cover": {
-      "url": "http://scorchborn.s3.amazonaws.com/20120212_132617.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/reynaldo.poullard/posts/316334138539857"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1Q9pvAqnDcqVN4mamzsvkhtohk3EtirXvy",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "reynaldo.poullard"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/reypoullard/57d966d346026746f205#file-onename-verification"
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/reypoullard/key.asc",
+        "identifier": "9474FC81902DC79C6FB962AFE632D5D9B75CC8E8",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "reypoullard"
-    },
-    "location": {
-      "formatted": "Medellin, Colombia"
-    },
-    "name": {
-      "formatted": "Rey Poullard"
-    },
-    "pgp": {
-      "fingerprint": "9474FC81902DC79C6FB962AFE632D5D9B75CC8E8",
-      "url": "https://keybase.io/reypoullard/key.asc"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/reypoullard/status/489286152281939968"
+      {
+        "@type": "Account",
+        "identifier": "reypoullard",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/reypoullard/status/746779312024485888",
+        "service": "twitter"
       },
-      "username": "reypoullard"
+      {
+        "@type": "Account",
+        "identifier": "reypoullard",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/reypoullard/1be817ee6c7ad2855924c9b787acedde",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "reynaldo.poullard",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/reynaldo.poullard/posts/597408760432392",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Medellin, Colombia"
     },
-    "v": "0.2",
-    "website": "http://www.cyberfunks.tech"
+    "description": "Cyberfunks Alliance",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://pbs.twimg.com/profile_images/433540797330251776/hUR4PFYs.png",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "http://scorchborn.s3.amazonaws.com/20120212_132617.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Rey Poullard",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.cyberfunks.tech"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "reypoullard",
-      "proof_url": "https://gist.github.com/reypoullard/57d966d346026746f205#file-onename-verification",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "reypoullard",
-      "proof_url": "https://twitter.com/reypoullard/status/489286152281939968",
+      "proof_url": "https://twitter.com/reypoullard/status/746779312024485888",
       "service": "twitter",
       "valid": true
     },
     {
+      "identifier": "reypoullard",
+      "proof_url": "https://gist.github.com/reypoullard/1be817ee6c7ad2855924c9b787acedde",
+      "service": "github",
+      "valid": true
+    },
+    {
       "identifier": "reynaldo.poullard",
-      "proof_url": "https://facebook.com/reynaldo.poullard/posts/316334138539857",
+      "proof_url": "https://www.facebook.com/reynaldo.poullard/posts/597408760432392",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN reypoullard.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/reypoullard.id\"\n"
 }
