@@ -1,32 +1,47 @@
 {
   "owner_address": "17wHCiRa4cJdADGoARqiQLSx2pWgUe9siV",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/bwritchie"
-    },
-    "bio": "Systems architect by day, astronomer by night",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/bwritchie"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/bwritchie/f7ba58711e6d2c36a4a5"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "12XC9WS2WaUMhiKZTwmDoZJ62UgK2Le5kV",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "bwritchie"
-    },
-    "location": {
-      "formatted": "UK"
-    },
-    "name": {
-      "formatted": "Ben Ritchie"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/ben_ritchie/status/686611961480671233"
+      {
+        "@type": "Account",
+        "identifier": "bwritchie",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bwritchie/f7ba58711e6d2c36a4a5",
+        "service": "github"
       },
-      "username": "ben_ritchie"
+      {
+        "@type": "Account",
+        "identifier": "ben_ritchie",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ben_ritchie/status/686611961480671233",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "UK"
     },
-    "v": "0.2"
+    "description": "Systems architect by day, astronomer by night",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bwritchie",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bwritchie",
+        "name": "cover"
+      }
+    ],
+    "name": "Ben Ritchie"
   },
   "verifications": [
     {
@@ -41,5 +56,6 @@
       "service": "twitter",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN bwritchie.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bwritchie.id\"\n"
 }

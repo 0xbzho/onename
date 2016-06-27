@@ -5,12 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "MusingsOfAShibe",
-        "proofType": "http",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
         "identifier": "HirojaShibe",
         "proofType": "http",
         "service": "facebook"
@@ -38,6 +32,13 @@
         "@type": "Account",
         "identifier": "1eaff0cbfa0393accfe379b55ed43fd63b370599",
         "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "MusingsOfAShibe",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MusingsOfAShibe/status/747255860196347905",
+        "service": "twitter"
       }
     ],
     "address": {
@@ -65,6 +66,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "MusingsOfAShibe",
+      "proof_url": "https://twitter.com/MusingsOfAShibe/status/747255860196347905",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN hiroja.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hiroja.id\"\n"
 }
