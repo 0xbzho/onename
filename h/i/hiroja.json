@@ -11,12 +11,6 @@
       },
       {
         "@type": "Account",
-        "identifier": "R-HirojaTrevize",
-        "proofType": "http",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
         "identifier": "16PvDfkMCNsCYyv5TTzuapSHgmr6yX5Ve3",
         "role": "payment",
         "service": "bitcoin"
@@ -30,15 +24,22 @@
       },
       {
         "@type": "Account",
-        "identifier": "1eaff0cbfa0393accfe379b55ed43fd63b370599",
-        "service": "openbazaar"
-      },
-      {
-        "@type": "Account",
         "identifier": "MusingsOfAShibe",
         "proofType": "http",
         "proofUrl": "https://twitter.com/MusingsOfAShibe/status/747255860196347905",
         "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "R-HirojaTrevize",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/R-HirojaTrevize/87fc41301200c56e64526d085c9bbd64",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1eaff0cbfa0393accfe379b55ed43fd63b370599",
+        "service": "openbazaar"
       }
     ],
     "address": {
@@ -71,6 +72,12 @@
       "identifier": "MusingsOfAShibe",
       "proof_url": "https://twitter.com/MusingsOfAShibe/status/747255860196347905",
       "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "R-HirojaTrevize",
+      "proof_url": "https://gist.github.com/R-HirojaTrevize/87fc41301200c56e64526d085c9bbd64",
+      "service": "github",
       "valid": true
     }
   ],

@@ -2,7 +2,22 @@
   "owner_address": "1HZK5vHig7SHfaRdARtdJoox8cE1bguYoQ",
   "profile": {
     "@type": "Person",
-    "account": [],
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "HeidiHurskainen",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/HeidiHurskainen/status/747314380639862784",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "heidi.hurskainen.9",
+        "proofType": "http",
+        "proofUrl": "http://ow.ly/5V7l301EWe8",
+        "service": "facebook"
+      }
+    ],
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Jyväskylä"
@@ -16,6 +31,19 @@
     ],
     "name": "Heidi Hurskainen"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "HeidiHurskainen",
+      "proof_url": "https://twitter.com/HeidiHurskainen/status/747314380639862784",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "heidi.hurskainen.9",
+      "proof_url": "http://ow.ly/5V7l301EWe8",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN heidihurskainen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/heidihurskainen.id\"\n"
 }
