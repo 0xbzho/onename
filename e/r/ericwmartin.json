@@ -1,1 +1,44 @@
-null
+{
+  "owner_address": "1JdGcQLP8YQ1MbGJoaGqPjcKMXXfXyCq3H",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "508_692",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/508_692/status/740944189400059904",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "10048097",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/permalink.php?story_fbid=10106340375548471&id=10048097",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "508_692",
+      "proof_url": "https://twitter.com/508_692/status/740944189400059904",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "10048097",
+      "proof_url": "https://www.facebook.com/permalink.php?story_fbid=10106340375548471&id=10048097",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ericwmartin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ericwmartin.id\"\n"
+}

@@ -1,1 +1,38 @@
-null
+{
+  "owner_address": "1HnWF6F7mwswg2BJ94ZJrihWsmABkitt5Y",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "https://www.facebook.com/profile.php?id=100011010613400",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/l.php?u=https%3A%2F%2Fonename.com%2Fzpanda&h=WAQHMyPnj&s=1",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "3e0c407d7e209d9a42230707dfa15fc7c3082918",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MainLink",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "https://www.facebook.com/profile.php?id=100011010613400",
+      "proof_url": "https://www.facebook.com/l.php?u=https%3A%2F%2Fonename.com%2Fzpanda&h=WAQHMyPnj&s=1",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN zpanda.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/zpanda.id\"\n"
+}

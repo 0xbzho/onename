@@ -2,7 +2,15 @@
   "owner_address": "1GQmJ7AFYS9hPHjd7GP6VS7DDufMAveFSB",
   "profile": {
     "@type": "Person",
-    "account": [],
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "daigoushop",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/daigoushop/status/746789117506125830",
+        "service": "twitter"
+      }
+    ],
     "image": [
       {
         "@type": "ImageObject",
@@ -12,6 +20,13 @@
     ],
     "name": "+DaiG0u"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "daigoushop",
+      "proof_url": "https://twitter.com/daigoushop/status/746789117506125830",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN daig0u.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/daig0u.id\"\n"
 }

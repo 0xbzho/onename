@@ -1,61 +1,80 @@
 {
   "owner_address": "1A7copaFxQs98t6bgYHLctoGnVFyqti5kY",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/danynativel"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/ikZ.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/dany.nativel/posts/954025274633333"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "http://www.danynativel.com/DanyNativel-0xB85B5EA6.asc",
+        "identifier": "ADE3AEB24C02BF3DC294DE6BCC6F3AB7B85B5EA6",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "dany.nativel"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/danynativel/221e0af4c4a4f38cb933"
+      {
+        "@type": "Account",
+        "identifier": "danynativel",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/danynativel/status/747101556777041920",
+        "service": "twitter"
       },
-      "username": "danynativel"
-    },
-    "location": {
-      "formatted": "France"
-    },
-    "name": {
-      "formatted": "Dany Nativel"
-    },
-    "pgp": {
-      "fingerprint": "ADE3AEB24C02BF3DC294DE6BCC6F3AB7B85B5EA6",
-      "url": "http://www.danynativel.com/DanyNativel-0xB85B5EA6.asc"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/danynativel/status/694250647940644865"
+      {
+        "@type": "Account",
+        "identifier": "danynativel",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/danynativel/7db2aa11e648ddfd831ec6448dd42b49",
+        "service": "github"
       },
-      "username": "danynativel"
+      {
+        "@type": "Account",
+        "identifier": "dany.nativel",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dany.nativel/posts/1036874123015114?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "France"
     },
-    "v": "0.2",
-    "website": "http://danynativel.com"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/danynativel",
+        "name": "avatar"
+      }
+    ],
+    "name": "Dany Nativel",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://danynativel.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "danynativel",
-      "proof_url": "https://gist.github.com/danynativel/221e0af4c4a4f38cb933",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "danynativel",
-      "proof_url": "https://twitter.com/danynativel/status/694250647940644865",
+      "proof_url": "https://twitter.com/danynativel/status/747101556777041920",
       "service": "twitter",
       "valid": true
     },
     {
+      "identifier": "danynativel",
+      "proof_url": "https://gist.github.com/danynativel/7db2aa11e648ddfd831ec6448dd42b49",
+      "service": "github",
+      "valid": true
+    },
+    {
       "identifier": "dany.nativel",
-      "proof_url": "https://facebook.com/dany.nativel/posts/954025274633333",
+      "proof_url": "https://www.facebook.com/dany.nativel/posts/1036874123015114?pnref=story",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN danynativel.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/danynativel.id\"\n"
 }

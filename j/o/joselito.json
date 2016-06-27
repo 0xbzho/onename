@@ -1,46 +1,80 @@
 {
   "owner_address": "12p7WqmZmV6kortC5LyGWnmYYHh6WHxHNT",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/joselito"
-    },
-    "bio": "GDG Organizer, entrepreneur, comedian and a trouble maker · ❤ chrome, angular, ionic and cordova · ex-bbb · editor",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/joselito"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/joselitojunior/2f17145a0133294c2df5"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "joselitojunior1",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/joselitojunior1/status/746915099290574852",
+        "service": "twitter"
       },
-      "username": "joselitojunior"
-    },
-    "location": {
-      "formatted": "Recife, Pernambuco, Brazil"
-    },
-    "name": {
-      "formatted": "Joselito Júnior"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/joselitojunior1/status/684930841328390144"
+      {
+        "@type": "Account",
+        "identifier": "3ED5B6o2xYkDnExubUjKqtFiq1RHe95gjF",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "joselitojunior1"
+      {
+        "@type": "Account",
+        "identifier": "joselitojunior1",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/joselitojunior1/a267439fe063dd4df8f77d0d583847ee",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "joselitojr",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/joselitojr/posts/1269550533063607",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Recife, Pernambuco, Brazil"
     },
-    "v": "0.2",
-    "website": "http://joselito.ninja"
+    "description": "I'm a human (at least is what they told me) who likes to make things up and break stuff so that other people can build even more amazing things. Those hiperlinks below talks more about me than anything that I can say to you.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/joselito",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/joselito",
+        "name": "cover"
+      }
+    ],
+    "name": "Joselito Júnior",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://joselito.space"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "joselitojunior",
-      "proof_url": "https://gist.github.com/joselitojunior/2f17145a0133294c2df5",
-      "service": "github",
+      "identifier": "joselitojunior1",
+      "proof_url": "https://twitter.com/joselitojunior1/status/746915099290574852",
+      "service": "twitter",
       "valid": false
     },
     {
       "identifier": "joselitojunior1",
-      "proof_url": "https://twitter.com/joselitojunior1/status/684930841328390144",
-      "service": "twitter",
+      "proof_url": "https://gist.github.com/joselitojunior1/a267439fe063dd4df8f77d0d583847ee",
+      "service": "github",
       "valid": true
+    },
+    {
+      "identifier": "joselitojr",
+      "proof_url": "https://www.facebook.com/joselitojr/posts/1269550533063607",
+      "service": "facebook",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN joselito.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/joselito.id\"\n"
 }

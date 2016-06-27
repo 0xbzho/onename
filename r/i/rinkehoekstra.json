@@ -1,1 +1,36 @@
-null
+{
+  "owner_address": "12HzU5Bdt6eMeSQ5W6heyg4M6TBeHoGt4Y",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "RinkeHoekstra",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rinkehoekstra/status/740966766260686849",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Diemen"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Rinke Hoekstra"
+  },
+  "verifications": [
+    {
+      "identifier": "RinkeHoekstra",
+      "proof_url": "https://twitter.com/rinkehoekstra/status/740966766260686849",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rinkehoekstra.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rinkehoekstra.id\"\n"
+}

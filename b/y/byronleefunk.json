@@ -1,29 +1,34 @@
 {
   "owner_address": "1MdpfKfJYhZpweGQqxxLLnsL8iZLW96CTN",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/wdX.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/byron funk/posts/775236049277782"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "byron funk",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "byron funk"
+      {
+        "@type": "Account",
+        "identifier": "16DBZWdrC4JT9ToECUK2BzXeqBznMKwfxm",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Canada"
     },
-    "location": {
-      "formatted": "Canada"
-    },
-    "name": {
-      "formatted": "Byron Lee Funk"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Byron Lee Funk"
   },
-  "verifications": [
-    {
-      "identifier": "byron funk",
-      "proof_url": "https://facebook.com/byron funk/posts/775236049277782",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN byronleefunk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/byronleefunk.id\"\n"
 }

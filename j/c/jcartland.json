@@ -1,74 +1,13 @@
 {
-  "owner_address": "16GrPeEEXovddgT65mfuDWueW4KuiPyrub",
+  "owner_address": "1DnF1E4pheaJHqw67me5ZcNMrKzWrmobyK",
   "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "54085f0ba69eadcd16706e0b54b27b7d2c8c7205",
-        "service": "openbazaar"
-      },
-      {
-        "@type": "Account",
-        "identifier": "mr_whythat",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/mr_whythat/status/738883725153468416?lang=en",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "yurizhykin",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/yurizhykin/e9711649d18c7657faafdc26fcc9001b",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
-        "identifier": "mrwhythat",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/mrwhythat/posts/2033567203535808",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
-        "identifier": "1FJqkRiRge1V4Bh3rrekyGD4XJYKYKmskM",
-        "role": "payment",
-        "service": "bitcoin"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
-        "name": "cover"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/whythat",
-        "name": "avatar"
-      }
-    ],
-    "name": "Yuri Zhykin"
+    "bitcoin": {
+      "address": "14236vaRwoekyGdcs4vmxtBDAEuwypcFHg"
+    },
+    "cover": {
+      "url": "https://s3.amazonaws.com/97p/IKM.jpeg"
+    },
+    "v": "0.2"
   },
-  "verifications": [
-    {
-      "identifier": "mr_whythat",
-      "proof_url": "https://twitter.com/mr_whythat/status/738883725153468416?lang=en",
-      "service": "twitter",
-      "valid": false
-    },
-    {
-      "identifier": "yurizhykin",
-      "proof_url": "https://gist.github.com/yurizhykin/e9711649d18c7657faafdc26fcc9001b",
-      "service": "github",
-      "valid": false
-    },
-    {
-      "identifier": "mrwhythat",
-      "proof_url": "https://www.facebook.com/mrwhythat/posts/2033567203535808",
-      "service": "facebook",
-      "valid": false
-    }
-  ],
-  "zone_file": "$ORIGIN whythat.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/whythat.id\"\n"
+  "verifications": []
 }

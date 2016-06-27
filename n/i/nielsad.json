@@ -1,1 +1,41 @@
-null
+{
+  "owner_address": "181646iYc4j3R541J9V59zHxckHWaoApuK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nielsAD",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/nielsAD/360bb40aea5c2386aaffd65b16671577",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "The Netherlands"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nielsad",
+        "name": "avatar"
+      }
+    ],
+    "name": "Niels"
+  },
+  "verifications": [
+    {
+      "identifier": "nielsAD",
+      "proof_url": "https://gist.github.com/nielsAD/360bb40aea5c2386aaffd65b16671577",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN nielsad.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nielsad.id\"\n"
+}

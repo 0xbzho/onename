@@ -1,1 +1,41 @@
-null
+{
+  "owner_address": "1CUymj7pXyXEe3NpmBq7u1aaKGzoB18pXK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "standerson",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/standerson/4f82382c27733cb1432d41af5536589e",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Milwaukee WI"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/steveanderson",
+        "name": "avatar"
+      }
+    ],
+    "name": "Steve Anderson"
+  },
+  "verifications": [
+    {
+      "identifier": "standerson",
+      "proof_url": "https://gist.github.com/standerson/4f82382c27733cb1432d41af5536589e",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN steveanderson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/steveanderson.id\"\n"
+}

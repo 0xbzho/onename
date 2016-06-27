@@ -1,67 +1,106 @@
 {
   "owner_address": "12RkN6Z5apdq71CatMVywcWgrqaU5jXh6Y",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/beber007"
-    },
-    "bio": "",
-    "bitcoin": {
-      "address": "1DRK3UgfFRkUZmp6JacVUt7e3oZ9STDQL4"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/beber007"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/beber007/posts/1177898798890431"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "beber007",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/beber007/68ded3099aa9e6ff220f76578cd31414",
+        "service": "github"
       },
-      "username": "beber007"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/beber007/1bcc00ac33a96ebfbbfb"
+      {
+        "@type": "Account",
+        "identifier": "beber007",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/beber007/status/724611466771456001",
+        "service": "twitter"
       },
-      "username": "beber007"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/beber007"
-    },
-    "location": {
-      "formatted": "Yverdon-les-Bains"
-    },
-    "name": {
-      "formatted": "Bertrand Hurst"
-    },
-    "pgp": {
-      "fingerprint": "1F3AC2FD4BB1D974E57A003E3D984F8304E1761C",
-      "url": "https://s3.amazonaws.com/pk9/beber007"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/beber007/status/605807049864146944"
+      {
+        "@type": "Account",
+        "identifier": "193usPpVZbWMKchZFkAKf5VS2BiFNGiNqK",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "beber007"
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/beber007",
+        "identifier": "1F3AC2FD4BB1D974E57A003E3D984F8304E1761C",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofUrl": "https://www.facebook.com/beber007/posts/1279212308759079",
+        "service": "facebook"
+      }
+    ],
+    "accounts": [
+      {
+        "@type": "Account",
+        "identifier": "beber007",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "beber007",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "beber007",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1DRK3UgfFRkUZmp6JacVUt7e3oZ9STDQL4",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/beber007",
+        "identifier": "1F3AC2FD4BB1D974E57A003E3D984F8304E1761C",
+        "role": "key",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Yverdon-les-Bains"
     },
-    "v": "0.2"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/beber007",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/beber007",
+        "name": "cover"
+      }
+    ],
+    "name": "Bertrand Hurst"
   },
   "verifications": [
     {
       "identifier": "beber007",
-      "proof_url": "https://gist.github.com/beber007/1bcc00ac33a96ebfbbfb",
+      "proof_url": "https://gist.github.com/beber007/68ded3099aa9e6ff220f76578cd31414",
       "service": "github",
-      "valid": false
+      "valid": true
     },
     {
       "identifier": "beber007",
-      "proof_url": "https://twitter.com/beber007/status/605807049864146944",
+      "proof_url": "https://twitter.com/beber007/status/724611466771456001",
       "service": "twitter",
-      "valid": false
-    },
-    {
-      "identifier": "beber007",
-      "proof_url": "https://facebook.com/beber007/posts/1177898798890431",
-      "service": "facebook",
-      "valid": false
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN beber007.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/beber007.id\"\n"
 }

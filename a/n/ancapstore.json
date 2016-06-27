@@ -1,1 +1,46 @@
-null
+{
+  "owner_address": "18fqpt6wMAH6MTnd3xDNMkJPrq7sD2q1xg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ancapstore",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ancapstore",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "02e7eb57a67a1b87b23bdd370af539167465639c",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ancapstore",
+        "name": "avatar"
+      }
+    ],
+    "name": "Ancapstore",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://ancapstore.com"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN ancapstore.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ancapstore.id\"\n"
+}
