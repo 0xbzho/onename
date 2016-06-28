@@ -1,19 +1,42 @@
 {
   "owner_address": "1N7p6BKbmV9TE2WAHmGidqXE9P9JkYskHC",
   "profile": {
-    "bitcoin": {
-      "address": "16gvanwrEdota1DUSszpwrXCmyUpwYfmBm"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "16gvanwrEdota1DUSszpwrXCmyUpwYfmBm",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "idra.ho.5",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/idra.ho.5/posts/998032160317293",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "China"
     },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/rVv.jpeg"
-    },
-    "location": {
-      "formatted": "China"
-    },
-    "name": {
-      "formatted": "何俊仪"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "何俊仪"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "idra.ho.5",
+      "proof_url": "https://www.facebook.com/idra.ho.5/posts/998032160317293",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN hejunyi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hejunyi.id\"\n"
 }

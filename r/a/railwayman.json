@@ -1,6 +1,66 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1GdZ7mJN6aS8MRDC6rLj3iadxVF2XQiPwL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Dave Saunders",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "culverden",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "12b2n52pUUYEcyonGdETvCtJC8ZAGzxyB4",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "drs_railwayman",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/drs_railwayman/status/533579750082506752",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Tunbridge Wells • Kent • UK"
+    },
+    "description": "Railwayman • Autonomous System Specialist • MAPM MBCS",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/railwayman",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/railwayman",
+        "name": "cover"
+      }
+    ],
+    "name": "Dave Saunders",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://railwayman.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "drs_railwayman",
+      "proof_url": "https://twitter.com/drs_railwayman/status/533579750082506752",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN railwayman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/railwayman.id\"\n"
 }

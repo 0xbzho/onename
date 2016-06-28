@@ -14,13 +14,6 @@
         "@type": "Account",
         "identifier": "mindbound",
         "proofType": "http",
-        "proofUrl": "https://www.facebook.com/mindbound/posts/1295660240461565",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
-        "identifier": "mindbound",
-        "proofType": "http",
         "proofUrl": "https://gist.github.com/mindbound/9844325b7b0f8c8dab59d9cd5b779d59",
         "service": "github"
       },
@@ -35,6 +28,13 @@
         "contentUrl": "http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x01b7d948a0542c99",
         "identifier": "0x01b7d948a0542c99",
         "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mindbound",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mindbound/posts/1295660240461565",
+        "service": "facebook"
       }
     ],
     "address": {
@@ -71,15 +71,15 @@
     },
     {
       "identifier": "mindbound",
-      "proof_url": "https://www.facebook.com/mindbound/posts/1295660240461565",
-      "service": "facebook",
-      "valid": false
-    },
-    {
-      "identifier": "mindbound",
       "proof_url": "https://gist.github.com/mindbound/9844325b7b0f8c8dab59d9cd5b779d59",
       "service": "github",
       "valid": true
+    },
+    {
+      "identifier": "mindbound",
+      "proof_url": "https://www.facebook.com/mindbound/posts/1295660240461565",
+      "service": "facebook",
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN mindbound.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mindbound.id\"\n"

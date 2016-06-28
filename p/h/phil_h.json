@@ -1,6 +1,73 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1PrC3nHEGiww4rD5fdEjwraBCoPZGjG7ze",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "PhilH",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "145ZRY6kBzVXURjPDaidxra8KZBsSat23c",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "philippe.honigman",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/philippe.honigman/posts/10153660197738483",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "phil_h",
+        "proofType": "http",
+        "proofUrl": "https://pbs.twimg.com/media/Cl9UAmoWEAALaug.jpg",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris, France"
+    },
+    "description": "Entrepreneur | UX design, digital art, social media, tech business | ftopia, Backfeed, Le Pixel Blanc",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/phil_h",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/phil_h",
+        "name": "cover"
+      }
+    ],
+    "name": "Philippe Honigman",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://philh.flavors.me/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "philippe.honigman",
+      "proof_url": "https://www.facebook.com/philippe.honigman/posts/10153660197738483",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "phil_h",
+      "proof_url": "https://pbs.twimg.com/media/Cl9UAmoWEAALaug.jpg",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN phil_h.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/phil_h.id\"\n"
 }
