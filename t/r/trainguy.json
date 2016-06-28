@@ -1,6 +1,47 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1LQY3Ao3bzD7zQVkwWR1aFoZiWdLFR3xqf",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1L3ujMMXFCXaDSeteKVuWDzqYJwViDULqx",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "<script src=\"DrSluice",
+        "proofType": "http",
+        "proofUrl": "<script src=\"https://gist.github.com/DrSluice/b49b4f607fbc01026246.js\"></script>",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hudson Valley, New York"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/trainguy",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Glen Carter"
+  },
+  "verifications": [
+    {
+      "identifier": "<script src=\"DrSluice",
+      "proof_url": "<script src=\"https://gist.github.com/DrSluice/b49b4f607fbc01026246.js\"></script>",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN trainguy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/trainguy.id\"\n"
 }
