@@ -14,13 +14,6 @@
         "@type": "Account",
         "identifier": "danynativel",
         "proofType": "http",
-        "proofUrl": "https://twitter.com/danynativel/status/747101556777041920",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "danynativel",
-        "proofType": "http",
         "proofUrl": "https://gist.github.com/danynativel/7db2aa11e648ddfd831ec6448dd42b49",
         "service": "github"
       },
@@ -30,6 +23,13 @@
         "proofType": "http",
         "proofUrl": "https://www.facebook.com/dany.nativel/posts/1036874123015114?pnref=story",
         "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "danynativel",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/danynativel/status/747904195685036032",
+        "service": "twitter"
       }
     ],
     "address": {
@@ -59,12 +59,6 @@
   "verifications": [
     {
       "identifier": "danynativel",
-      "proof_url": "https://twitter.com/danynativel/status/747101556777041920",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "danynativel",
       "proof_url": "https://gist.github.com/danynativel/7db2aa11e648ddfd831ec6448dd42b49",
       "service": "github",
       "valid": true
@@ -74,6 +68,12 @@
       "proof_url": "https://www.facebook.com/dany.nativel/posts/1036874123015114?pnref=story",
       "service": "facebook",
       "valid": false
+    },
+    {
+      "identifier": "danynativel",
+      "proof_url": "https://twitter.com/danynativel/status/747904195685036032",
+      "service": "twitter",
+      "valid": true
     }
   ],
   "zone_file": "$ORIGIN danynativel.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/danynativel.id\"\n"

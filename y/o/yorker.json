@@ -1,34 +1,48 @@
 {
   "owner_address": "1PbRMMtkq2iKn5Nox3VKzKPXjCqgZEky4g",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/yorker"
-    },
-    "bio": "Blend of CTO, CMO and Creative Innovator",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/rv1.jpeg"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Yorke E. Rhodes III"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/yorkerhodes/status/525982219551002625"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "yorkerhodes",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "yorkerhodes"
+      {
+        "@type": "Account",
+        "identifier": "yorkerhodes3",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/yorkerhodes3/cf079561d5d58d90c6d66f13854f797f#file-onename-registration-validation",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "v": "0.2"
+    "description": "Blend of CTO, CMO and Creative Innovator",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/yorker",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Yorke E. Rhodes III"
   },
   "verifications": [
     {
-      "identifier": "yorkerhodes",
-      "proof_url": "https://twitter.com/yorkerhodes/status/525982219551002625",
-      "service": "twitter",
+      "identifier": "yorkerhodes3",
+      "proof_url": "https://gist.github.com/yorkerhodes3/cf079561d5d58d90c6d66f13854f797f#file-onename-registration-validation",
+      "service": "github",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN yorker.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/yorker.id\"\n"
 }
