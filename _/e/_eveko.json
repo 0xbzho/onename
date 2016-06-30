@@ -15,21 +15,39 @@
         "proofType": "http",
         "proofUrl": "https://gist.github.com/eveko/28721d25151e392af7724c63ee98ff81",
         "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jason.palios",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jason.palios/posts/1032880200122577",
+        "service": "facebook"
       }
     ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Netherlands"
+    },
     "image": [
       {
         "@type": "ImageObject",
         "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
         "name": "cover"
       }
-    ]
+    ],
+    "name": "Jason Palios"
   },
   "verifications": [
     {
       "identifier": "eveko",
       "proof_url": "https://gist.github.com/eveko/28721d25151e392af7724c63ee98ff81",
       "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jason.palios",
+      "proof_url": "https://www.facebook.com/jason.palios/posts/1032880200122577",
+      "service": "facebook",
       "valid": true
     }
   ],
