@@ -12,13 +12,6 @@
       },
       {
         "@type": "Account",
-        "identifier": "andrew.curioso",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/andrew.curioso/posts/10100105162575570",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
         "identifier": "andrewcurioso",
         "proofType": "http",
         "proofUrl": "https://gist.github.com/andrewcurioso/d72d16c95e06f8b5b12c03b3a375da99",
@@ -29,6 +22,13 @@
         "identifier": "16LD9H84oes8x5Nqq8h4ffxRfotMDVrpvQ",
         "role": "payment",
         "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "andrew.curioso",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/andrew.curioso/posts/10100105162575570",
+        "service": "facebook"
       }
     ],
     "address": {
@@ -64,16 +64,16 @@
       "valid": true
     },
     {
-      "identifier": "andrew.curioso",
-      "proof_url": "https://www.facebook.com/andrew.curioso/posts/10100105162575570",
-      "service": "facebook",
-      "valid": false
-    },
-    {
       "identifier": "andrewcurioso",
       "proof_url": "https://gist.github.com/andrewcurioso/d72d16c95e06f8b5b12c03b3a375da99",
       "service": "github",
       "valid": true
+    },
+    {
+      "identifier": "andrew.curioso",
+      "proof_url": "https://www.facebook.com/andrew.curioso/posts/10100105162575570",
+      "service": "facebook",
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN andrewcurioso.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/andrewcurioso.id\"\n"

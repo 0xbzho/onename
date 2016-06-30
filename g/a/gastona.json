@@ -1,10 +1,32 @@
 {
   "owner_address": "19nD4weAxgC5Pez1Xag5Q1nJmWBTRyF9te",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/ic1.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gaston",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gaston/status/744883900082696192",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Gaston Annebicque"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "gaston",
+      "proof_url": "https://twitter.com/gaston/status/744883900082696192",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN gastona.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gastona.id\"\n"
 }

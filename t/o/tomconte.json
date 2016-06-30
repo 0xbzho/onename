@@ -1,24 +1,61 @@
 {
   "owner_address": "1NTGrcyP4B2giFZVrzCDRxT5jhVuzWv8n5",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/tomconte"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tomconte",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tomconte/ea681fcf4311ec3adb61de3e48a72f15",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tomconte",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tomconte/status/748210182132539393",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris"
     },
-    "bio": "Microsoft Azure Technical Evangelist",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/tomconte"
-    },
-    "location": {
-      "formatted": "Paris"
-    },
-    "name": {
-      "formatted": "Thomas Conté"
-    },
-    "twitter": {
-      "username": "tomconte"
-    },
-    "v": "0.2",
-    "website": "http://hypernephelist.com/"
+    "description": "Microsoft Azure Technical Evangelist",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tomconte",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/tomconte",
+        "name": "cover"
+      }
+    ],
+    "name": "Thomas Conté",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://hypernephelist.com/"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "tomconte",
+      "proof_url": "https://gist.github.com/tomconte/ea681fcf4311ec3adb61de3e48a72f15",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "tomconte",
+      "proof_url": "https://twitter.com/tomconte/status/748210182132539393",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tomconte.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tomconte.id\"\n"
 }

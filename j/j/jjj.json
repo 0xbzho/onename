@@ -1,61 +1,66 @@
 {
   "owner_address": "14spFLHDTmFjHbnHx2iSK6gKNsjTzrvBgx",
   "profile": {
-    "avatar": {
-      "url": "https://pbs.twimg.com/profile_images/450602895570771968/8UPGlsCR.jpeg"
-    },
-    "bio": "@BuddyPress, @bbPress, @WordPress, @10up, @automattic, jaco.by",
-    "bitcoin": {
-      "address": "1EF3GnUkd6vzHXG3vwDnUWHdxUW1gq2xfW"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/n6r.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/johnjamesjacoby/posts/10152610256620989"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "johnjamesjacoby",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "johnjamesjacoby"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/johnjamesjacoby/c516fd5e7395ecea93cc"
+      {
+        "@type": "Account",
+        "identifier": "johnjamesjacoby",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "johnjamesjacoby"
-    },
-    "location": {
-      "formatted": "23% of the web"
-    },
-    "name": {
-      "formatted": "John James Jacoby"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/JJJ/status/574902679949942786"
+      {
+        "@type": "Account",
+        "identifier": "1EF3GnUkd6vzHXG3vwDnUWHdxUW1gq2xfW",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "JJJ"
+      {
+        "@type": "Account",
+        "identifier": "JJJ",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jjj/status/747987674158538752",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "23% of the web"
     },
-    "v": "0.2",
-    "website": "http://jjj.me"
+    "description": "@BuddyPress, @bbPress, @WordPress, @10up, @automattic, jaco.by",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jjj",
+        "name": "avatar"
+      }
+    ],
+    "name": "John James Jacoby",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://jjj.me"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "johnjamesjacoby",
-      "proof_url": "https://gist.github.com/johnjamesjacoby/c516fd5e7395ecea93cc",
-      "service": "github",
-      "valid": true
-    },
-    {
       "identifier": "JJJ",
-      "proof_url": "https://twitter.com/JJJ/status/574902679949942786",
+      "proof_url": "https://twitter.com/jjj/status/747987674158538752",
       "service": "twitter",
       "valid": true
-    },
-    {
-      "identifier": "johnjamesjacoby",
-      "proof_url": "https://facebook.com/johnjamesjacoby/posts/10152610256620989",
-      "service": "facebook",
-      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN jjj.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jjj.id\"\n"
 }

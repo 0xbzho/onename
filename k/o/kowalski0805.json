@@ -1,42 +1,61 @@
 {
   "owner_address": "1BUwkyndN85fpkiAHyJmaDtnyweCwzwSxu",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/kowalski0805"
-    },
-    "bitcoin": {
-      "address": "1ALbcDmiHqLV13xAjvzjZn4Xsd5cpX6DjH"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/OSA.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/kowalski0805/posts/992380880832836"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1ALbcDmiHqLV13xAjvzjZn4Xsd5cpX6DjH",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "kowalski0805"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/Kowalski0805/45256b56a78351fbd79e240113ad6c60"
+      {
+        "@type": "Account",
+        "identifier": "kowalski0805",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Kowalski0805/status/718089765099347968",
+        "service": "twitter"
       },
-      "username": "Kowalski0805"
-    },
-    "location": {
-      "formatted": "Ternopil, Ukraine"
-    },
-    "name": {
-      "formatted": "Illya Fedorovych"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/kowalski0805/status/718089765099347968"
+      {
+        "@type": "Account",
+        "identifier": "Kowalski0805",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Kowalski0805/45256b56a78351fbd79e240113ad6c60",
+        "service": "github"
       },
-      "username": "kowalski0805"
+      {
+        "@type": "Account",
+        "identifier": "kowalski0805",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/Kowalski0805/posts/992380880832836",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ternopil, Ukraine"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kowalski0805",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Illya Fedorovych"
   },
   "verifications": [
+    {
+      "identifier": "kowalski0805",
+      "proof_url": "https://twitter.com/Kowalski0805/status/718089765099347968",
+      "service": "twitter",
+      "valid": true
+    },
     {
       "identifier": "Kowalski0805",
       "proof_url": "https://gist.github.com/Kowalski0805/45256b56a78351fbd79e240113ad6c60",
@@ -45,15 +64,10 @@
     },
     {
       "identifier": "kowalski0805",
-      "proof_url": "https://twitter.com/kowalski0805/status/718089765099347968",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "kowalski0805",
-      "proof_url": "https://facebook.com/kowalski0805/posts/992380880832836",
+      "proof_url": "https://www.facebook.com/Kowalski0805/posts/992380880832836",
       "service": "facebook",
-      "valid": false
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN kowalski0805.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kowalski0805.id\"\n"
 }

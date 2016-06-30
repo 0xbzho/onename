@@ -1,23 +1,40 @@
 {
   "owner_address": "1JifiQ199JAJyx56s8gyN2NAjK2HjBn6Jm",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/oconnorroger"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "BitcoinLearner",
+        "proofType": "http",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ohio"
     },
-    "bio": "",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/ikZ.jpeg"
-    },
-    "location": {
-      "formatted": "Ohio"
-    },
-    "name": {
-      "formatted": "wolfinger"
-    },
-    "twitter": {
-      "username": "OConnorRoger"
-    },
-    "v": "0.2"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/oconnorroger",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Roger OConnor",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://bitcoinlearner.com"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN oconnorroger.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/oconnorroger.id\"\n"
 }

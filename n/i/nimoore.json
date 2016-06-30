@@ -1,57 +1,67 @@
 {
   "owner_address": "14dbhzmwApVmf2U9zMWHtVuDiM6aq3h9vX",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/nimoore"
-    },
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/ic1.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/rasheedmoore/posts/1534659956826180"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rasheed_moore",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Rasheed_Moore/status/747876755357085696",
+        "service": "twitter"
       },
-      "username": "rasheedmoore"
-    },
-    "github": {
-      "proof": {
-        "url": "rasheedmoore/gist:f00544715caa59e8d244"
+      {
+        "@type": "Account",
+        "identifier": "rasheedmoore",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rasheedmoore/f00544715caa59e8d244",
+        "service": "github"
       },
-      "username": "rasheedmoore"
+      {
+        "@type": "Account",
+        "identifier": "rasheedmoore",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D1612631172362391%26id%3D100008465715353&width=500",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Palos Verdes"
     },
-    "location": {
-      "formatted": "Palos Verdes"
-    },
-    "name": {
-      "formatted": "Nicholas \"Rasheed\" Moore"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/rasheed_moore/status/666390363960020992"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nimoore",
+        "name": "avatar"
       },
-      "username": "rasheed_moore"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Nicholas \"Rasheed\" Moore"
   },
   "verifications": [
     {
-      "identifier": "rasheedmoore",
-      "proof_url": "rasheedmoore/gist:f00544715caa59e8d244",
-      "service": "github",
-      "valid": false
-    },
-    {
       "identifier": "rasheed_moore",
-      "proof_url": "https://twitter.com/rasheed_moore/status/666390363960020992",
+      "proof_url": "https://twitter.com/Rasheed_Moore/status/747876755357085696",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "rasheedmoore",
-      "proof_url": "https://facebook.com/rasheedmoore/posts/1534659956826180",
+      "proof_url": "https://gist.github.com/rasheedmoore/f00544715caa59e8d244",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "rasheedmoore",
+      "proof_url": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D1612631172362391%26id%3D100008465715353&width=500",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN nimoore.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nimoore.id\"\n"
 }

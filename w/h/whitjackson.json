@@ -1,49 +1,57 @@
 {
   "owner_address": "17SoTUEHyqkvHEvPbrG9t63mm2h91zFsR",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/whitjackson"
-    },
-    "bio": "Co-founder of @etherparty_io",
-    "bitcoin": {
-      "address": "17t9jJkx1XoVXXVR5kBkF34Dv14rQkzFHH"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/whitjackson"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/whitj00/cd2670b78130f3e6337d"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "whitj00",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "whitj00"
-    },
-    "location": {
-      "formatted": "Los Angeles, CA"
-    },
-    "name": {
-      "formatted": "Whit Jackson"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/bitcoinwhit/status/648225254234460160"
+      {
+        "@type": "Account",
+        "identifier": "17t9jJkx1XoVXXVR5kBkF34Dv14rQkzFHH",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "bitcoinwhit"
+      {
+        "@type": "Account",
+        "identifier": "whitjck",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "50b0cd1876d2e12062a3331504d4209bb3aa845e",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Los Angeles, CA"
     },
-    "v": "0.2",
-    "website": "http://whitjack.me"
+    "description": "Intern @ netki",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/whitjackson",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/whitjackson",
+        "name": "cover"
+      }
+    ],
+    "name": "Whit Jackson",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://whitjack.me"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "whitj00",
-      "proof_url": "https://gist.github.com/whitj00/cd2670b78130f3e6337d",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "bitcoinwhit",
-      "proof_url": "https://twitter.com/bitcoinwhit/status/648225254234460160",
-      "service": "twitter",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN whitjackson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/whitjackson.id\"\n"
 }
