@@ -1,55 +1,51 @@
 {
   "owner_address": "16rJUCRnFSf26vkJSFK1NjFL68FhHpujMh",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "",
-        "service": ""
+        "identifier": "afcreamer",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "afcreamer",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "18w8272DpS3Z2dwpyopYE6yd7hZBvAZKME",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "aca42322029e7f67b4a73c6b60d73fd025c9287f",
+        "service": "openbazaar"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/afcreamer"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Edinburgh"
     },
-    "bio": "On A Mission",
-    "bitcoin": {
-      "address": "18w8272DpS3Z2dwpyopYE6yd7hZBvAZKME"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/wdX.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/afcreamer/posts/10156086875390385"
+    "description": "On A Mission",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/afcreamer",
+        "name": "avatar"
       },
-      "username": "afcreamer"
-    },
-    "location": {
-      "formatted": "Edinburgh"
-    },
-    "name": {
-      "formatted": "Andrew Creamer"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/afcreamer/status/644441191577198592"
-      },
-      "username": "afcreamer"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Andrew Creamer"
   },
-  "verifications": [
-    {
-      "identifier": "afcreamer",
-      "proof_url": "https://twitter.com/afcreamer/status/644441191577198592",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "afcreamer",
-      "proof_url": "https://facebook.com/afcreamer/posts/10156086875390385",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN afcreamer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/afcreamer.id\"\n"
 }
