@@ -18,16 +18,21 @@
       },
       {
         "@type": "Account",
-        "identifier": "darthludi",
+        "contentUrl": "https://pk9.s3.amazonaws.com/pludikovsky",
+        "identifier": "488ED0DD94A9C8C72681B69BCFBA360E696EDC99",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "pludikovsky",
         "proofType": "http",
-        "proofUrl": "https://twitter.com/darthludi/status/726833848219254785",
+        "proofUrl": "https://twitter.com/pludikovsky/status/726833848219254785",
         "service": "twitter"
       },
       {
         "@type": "Account",
-        "contentUrl": "https://pk9.s3.amazonaws.com/pludikovsky",
-        "identifier": "488ED0DD94A9C8C72681B69BCFBA360E696EDC99",
-        "service": "pgp"
+        "identifier": "32651832908d6415f25d5b1baa5aaafde9363be2",
+        "service": "openbazaar"
       }
     ],
     "image": [
@@ -46,10 +51,10 @@
       "valid": true
     },
     {
-      "identifier": "darthludi",
-      "proof_url": "https://twitter.com/darthludi/status/726833848219254785",
+      "identifier": "pludikovsky",
+      "proof_url": "https://twitter.com/pludikovsky/status/726833848219254785",
       "service": "twitter",
-      "valid": false
+      "valid": true
     }
   ],
   "zone_file": "$ORIGIN pludikovsky.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pludikovsky.id\"\n"
