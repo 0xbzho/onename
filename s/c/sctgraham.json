@@ -1,0 +1,37 @@
+{
+  "owner_address": "18gDpYNKVE1LLeTbL8ALazocyPCibU6uMh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sctgraham",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sctgraham/status/744832976786173953",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Grenoble"
+    },
+    "description": "cofounder at helloquence.com",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Scott Graham"
+  },
+  "verifications": [
+    {
+      "identifier": "sctgraham",
+      "proof_url": "https://twitter.com/sctgraham/status/744832976786173953",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN sctgraham.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sctgraham.id\"\n"
+}

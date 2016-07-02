@@ -1,0 +1,74 @@
+{
+  "owner_address": "1PD1rPreVhnqUYQsr8r7kr8nvhn6gPhKKi",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mackembob",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MackemBob/status/745153237842485249",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mackembob",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mackembob/posts/10209692081556127",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mackembob",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mackembob/223fc536f50d53e444eb30e007c78b94",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Edinburgh"
+    },
+    "description": "I make systems that work for people, where they want them and when they want them.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/robmason",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/robmason",
+        "name": "cover"
+      }
+    ],
+    "name": "Rob Mason",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.rbmcs.org"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mackembob",
+      "proof_url": "https://twitter.com/MackemBob/status/745153237842485249",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mackembob",
+      "proof_url": "https://www.facebook.com/mackembob/posts/10209692081556127",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "mackembob",
+      "proof_url": "https://gist.github.com/mackembob/223fc536f50d53e444eb30e007c78b94",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN robmason.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/robmason.id\"\n"
+}

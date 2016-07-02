@@ -1,0 +1,73 @@
+{
+  "owner_address": "1456pUZkYajSMwKXXiqD321EaLC6F7kF28",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "OiNutter",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/OiNutter/5bfccc7e563d7890a4cafff57b312894",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "enechorion",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Enechorion/status/744817604615770112",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "enechorion",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/enechorion/posts/10156997567450175",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Durham, UK"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/enechorion",
+        "name": "avatar"
+      }
+    ],
+    "name": "Will McKenzie",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://oinutter.co.uk"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "OiNutter",
+      "proof_url": "https://gist.github.com/OiNutter/5bfccc7e563d7890a4cafff57b312894",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "enechorion",
+      "proof_url": "https://twitter.com/Enechorion/status/744817604615770112",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "enechorion",
+      "proof_url": "https://www.facebook.com/enechorion/posts/10156997567450175",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN enechorion.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/enechorion.id\"\n"
+}

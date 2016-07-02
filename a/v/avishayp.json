@@ -1,0 +1,36 @@
+{
+  "owner_address": "16A3DqDEgv99349XxAggv8nzJBaWGpSeQc",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "avishayp",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/avishayp/d5d34e24bee5cfd96793e097a75fd696",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/avishayp",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "avishayp",
+      "proof_url": "https://gist.github.com/avishayp/d5d34e24bee5cfd96793e097a75fd696",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN avishayp.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/avishayp.id\"\n"
+}

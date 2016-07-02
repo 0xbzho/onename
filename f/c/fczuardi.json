@@ -1,6 +1,70 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "12duVeZqNUPme7Ledb4HGiRpQmft4Q2K4P",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "fczuardi",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fczuardi",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fczuardi",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "3LmLFMkNJYM5v7hcoSWSht321Eb6Xq3xv4",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/fczuardi",
+        "identifier": "1D9E54149F468D5EF9E55CBFE669F445B145A9E0",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "0a525ce057266563f289c7b3305e0bb4f5b27101",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "São Carlos, SP, Brazil"
+    },
+    "description": "Publicitários: a Web não precisa de vocês.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/fczuardi",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/fczuardi",
+        "name": "cover"
+      }
+    ],
+    "name": "Fabricio Zuardi",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://blog.fabricio.org"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN fczuardi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fczuardi.id\"\n"
 }

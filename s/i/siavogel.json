@@ -1,0 +1,57 @@
+{
+  "owner_address": "1GtuNZMC9EBFP5mfUExFP4b7PJGAEM34jX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "siavogel",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/siavogel/status/745500084591173632",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "siavogel",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/siavogel/posts/10210341151631513",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/a7f82e3ae66805ac80292a171e78448b",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "siavogel",
+      "proof_url": "https://twitter.com/siavogel/status/745500084591173632",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "siavogel",
+      "proof_url": "https://www.facebook.com/siavogel/posts/10210341151631513",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/a7f82e3ae66805ac80292a171e78448b",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN siavogel.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/siavogel.id\"\n"
+}

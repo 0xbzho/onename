@@ -1,60 +1,57 @@
 {
   "owner_address": "1GAJRov17FD5rET6yE1gnATpX98p2vVcSp",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/joshuajbouw"
-    },
-    "bio": "INTP, assertive individual.",
-    "bitcoin": {
-      "address": "1DkdecA6BKmrRxwqWPWTt97avDDXRLZjn1"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/joshuajbouw"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/Grittenoir/posts/10207783876748180"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "JoshuaJBouw",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "Grittenoir"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/joshuajbouw/8bd0d269dc8ee7a530d14f4cfed4cb84"
+      {
+        "@type": "Account",
+        "identifier": "Grittenoir",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "joshuajbouw"
-    },
-    "location": {
-      "formatted": "Phnom Penh, Cambodia"
-    },
-    "name": {
-      "formatted": "Joshua J. Bouw"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/JoshuaJBouw/status/719498937598513152"
+      {
+        "@type": "Account",
+        "identifier": "joshuajbouw",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "JoshuaJBouw"
+      {
+        "@type": "Account",
+        "identifier": "1DkdecA6BKmrRxwqWPWTt97avDDXRLZjn1",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "grittenald",
+        "service": "steemit.com"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Phnom Penh, Cambodia"
     },
-    "v": "0.2"
+    "description": "INTP, assertive individual.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/joshuajbouw",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/joshuajbouw",
+        "name": "cover"
+      }
+    ],
+    "name": "Joshua J. Bouw"
   },
-  "verifications": [
-    {
-      "identifier": "joshuajbouw",
-      "proof_url": "https://gist.github.com/joshuajbouw/8bd0d269dc8ee7a530d14f4cfed4cb84",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "JoshuaJBouw",
-      "proof_url": "https://twitter.com/JoshuaJBouw/status/719498937598513152",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "Grittenoir",
-      "proof_url": "https://facebook.com/Grittenoir/posts/10207783876748180",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN joshuajbouw.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/joshuajbouw.id\"\n"
 }

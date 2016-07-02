@@ -1,0 +1,50 @@
+{
+  "owner_address": "17rBpAMZUUhMkEVKsKVhAAxzS7SvF27ihC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "moock1337",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/moock1337/status/747562642290552834",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "smoock",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/smoock/d2ff27e89083468f8817fadbbf4a39b7",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1AFynghiK6VznUWfrksx1GZWw4K9Ngqrk5",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "moock1337",
+      "proof_url": "https://twitter.com/moock1337/status/747562642290552834",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "smoock",
+      "proof_url": "https://gist.github.com/smoock/d2ff27e89083468f8817fadbbf4a39b7",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN smoock1337.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/smoock1337.id\"\n"
+}

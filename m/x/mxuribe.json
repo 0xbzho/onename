@@ -1,0 +1,39 @@
+{
+  "owner_address": "1ChTFiLLQ3bFoX8kay3Q3wYoDxbkxvxkNb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mxuribe",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mxuribe/status/745087119618678784",
+        "service": "twitter"
+      }
+    ],
+    "description": "Internet professional, web aficionado, enthusiast of silliness...",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Mauricio Uribe",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://mxuribe.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mxuribe",
+      "proof_url": "https://twitter.com/mxuribe/status/745087119618678784",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mxuribe.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mxuribe.id\"\n"
+}

@@ -1,0 +1,44 @@
+{
+  "owner_address": "1CLBo6myXprAfs9j2UHK4Dn1FG2YKZkrkk",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "oregonorigins",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Burban_haiku%20is%20my%20blockchain%20ID.%20https://onename.com/urban_haiku",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "RixPyx",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/saved/?cref=53&pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "oregonorigins",
+      "proof_url": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Burban_haiku%20is%20my%20blockchain%20ID.%20https://onename.com/urban_haiku",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "RixPyx",
+      "proof_url": "https://www.facebook.com/saved/?cref=53&pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN urban_haiku.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/urban_haiku.id\"\n"
+}

@@ -1,0 +1,47 @@
+{
+  "owner_address": "1AD6L8MbP2yTWHGqXCdeNzNFTFUFPQDmP9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Celau",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Celau/status/744968289642745856",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Denmark"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/celau_",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/celau_",
+        "name": "cover"
+      }
+    ],
+    "name": "Jesper Clausen",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.celau.dk"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Celau",
+      "proof_url": "https://twitter.com/Celau/status/744968289642745856",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN celau_.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/celau_.id\"\n"
+}

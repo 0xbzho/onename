@@ -1,0 +1,57 @@
+{
+  "owner_address": "1NcYAyKo3BMi5TxwMaAadoubQ2RsJrUABD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "GiantFromJax",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/GiantFromJax/1d988b637cba8fe4f1e9764036c484f1#file-onename",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "thegiant",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TheGiant/status/746045197071560704",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "matthew.blocker",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/matthew.blocker/posts/10157277804540495",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "GiantFromJax",
+      "proof_url": "https://gist.github.com/GiantFromJax/1d988b637cba8fe4f1e9764036c484f1#file-onename",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "thegiant",
+      "proof_url": "https://twitter.com/TheGiant/status/746045197071560704",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "matthew.blocker",
+      "proof_url": "https://www.facebook.com/matthew.blocker/posts/10157277804540495",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN starstorm.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/starstorm.id\"\n"
+}

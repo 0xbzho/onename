@@ -1,0 +1,62 @@
+{
+  "owner_address": "15n6rEjTyFXGg73DkqeqrhoWsCfEjvTmWB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "muenzpraeger",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/muenzpraeger/status/744894355438211072",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "muenzpraeger",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/muenzpraeger/919e8679b07c7d824f125132088faf21",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "muenzpraeger",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/muenzpraeger/posts/1035984693156366",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/muenzpraeger",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "muenzpraeger",
+      "proof_url": "https://twitter.com/muenzpraeger/status/744894355438211072",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "muenzpraeger",
+      "proof_url": "https://gist.github.com/muenzpraeger/919e8679b07c7d824f125132088faf21",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "muenzpraeger",
+      "proof_url": "https://www.facebook.com/muenzpraeger/posts/1035984693156366",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN muenzpraeger.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/muenzpraeger.id\"\n"
+}

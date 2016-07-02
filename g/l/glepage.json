@@ -1,55 +1,58 @@
 {
   "owner_address": "1rdmDisni8VuNCTi29AEtMAsW3UYK1GnC",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/glepage"
-    },
-    "bio": "Building the next BIG thing @Onename. Entrepreneur, Technology, Luxury, Creative, Marketing, Content, Triathlete & Surfer.",
-    "bitcoin": {
-      "address": "1KD69CyPtwEEVvcwG4uUg5HLdPuhxBR6dK"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/glepage"
-    },
-    "facebook": {
-      "username": "g3lepage"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/guylepage3/82a737b475a2818c3563"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "guylepage3",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "guylepage3"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/glepage"
-    },
-    "location": {
-      "formatted": "New York, NY"
-    },
-    "name": {
-      "formatted": "Guy Lepage"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/guylepage3/status/575376832784109568"
+      {
+        "@type": "Account",
+        "identifier": "g3lepage",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "guylepage3"
+      {
+        "@type": "Account",
+        "identifier": "guylepage3",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1KD69CyPtwEEVvcwG4uUg5HLdPuhxBR6dK",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York, NY"
     },
-    "v": "0.2",
-    "website": "http://onename.com"
+    "description": "@blockstackorg developer. 1st hire, Design Partner @blockstacklabs (YC/@USV backed) entrepreneur, blockchain, creative, marketing, surf, triathlon, ironman",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/glepage",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/glepage",
+        "name": "cover"
+      }
+    ],
+    "name": "Guy Lepage",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://blockstack.com/team"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "guylepage3",
-      "proof_url": "https://gist.github.com/guylepage3/82a737b475a2818c3563",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "guylepage3",
-      "proof_url": "https://twitter.com/guylepage3/status/575376832784109568",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN glepage.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/glepage.id\"\n"
 }

@@ -1,0 +1,62 @@
+{
+  "owner_address": "1HszaTX66SnccD6Q75pUN6bXkS7qDE13nd",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rizalvaro",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rizalvaro/status/746044719893880832",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rizalvaro",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rizalvaro/d93c96614e18c1e2246a6a7965ee5f3d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rizalvaro",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/rizalvaro/posts/10100671863692733",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Vancouver"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jose (Bill) Olaguera"
+  },
+  "verifications": [
+    {
+      "identifier": "rizalvaro",
+      "proof_url": "https://twitter.com/rizalvaro/status/746044719893880832",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "rizalvaro",
+      "proof_url": "https://gist.github.com/rizalvaro/d93c96614e18c1e2246a6a7965ee5f3d",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "rizalvaro",
+      "proof_url": "https://www.facebook.com/rizalvaro/posts/10100671863692733",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rizalvaro.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rizalvaro.id\"\n"
+}

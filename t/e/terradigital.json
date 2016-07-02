@@ -1,0 +1,54 @@
+{
+  "owner_address": "1EL4HcZc5mDR7PNFYQeKyUnoz5vxe2srJq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "terradigital",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/terradigital/ed7ffad15c69971a8cad6620ac51f5c6",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "terradigital",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/terradigital/status/747440350873157633",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Salvador"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/terradigital",
+        "name": "avatar"
+      }
+    ],
+    "name": "Terra Digital"
+  },
+  "verifications": [
+    {
+      "identifier": "terradigital",
+      "proof_url": "https://gist.github.com/terradigital/ed7ffad15c69971a8cad6620ac51f5c6",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "terradigital",
+      "proof_url": "https://twitter.com/terradigital/status/747440350873157633",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN terradigital.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/terradigital.id\"\n"
+}

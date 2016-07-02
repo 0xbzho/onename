@@ -1,0 +1,61 @@
+{
+  "owner_address": "1GWh2f7juWf6H9ihEZzo2HmgX5iYvHwbc6",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "16acrUVY4Sy51wxZC8p88CLPsTYo2iybs7",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kazigath",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kazigath/status/745559129737990144",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sean.moore.7146557",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/saved/?notif_id=1466590319568571&cref=52&notif_t=saved_off_fb",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New Zealand"
+    },
+    "description": "Maker / Taker / Breaker / Shaker",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bearclaw",
+        "name": "avatar"
+      }
+    ],
+    "name": "Sean Moore"
+  },
+  "verifications": [
+    {
+      "identifier": "kazigath",
+      "proof_url": "https://twitter.com/kazigath/status/745559129737990144",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "sean.moore.7146557",
+      "proof_url": "https://www.facebook.com/saved/?notif_id=1466590319568571&cref=52&notif_t=saved_off_fb",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN bearclaw.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bearclaw.id\"\n"
+}

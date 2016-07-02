@@ -1,0 +1,57 @@
+{
+  "owner_address": "1LwHs8yp3PRCuVwG4QipVbt7TaeA69pCh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bazaarcityio",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bazaarcityio/status/748223616546967552",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bazaarcity.io",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bazaarcity.io/posts/617061295118891",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "benvhool",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/benvhool/cdd75855c8a57fe5826a5607f4882800",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bazaarcityio",
+      "proof_url": "https://twitter.com/bazaarcityio/status/748223616546967552",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bazaarcity.io",
+      "proof_url": "https://www.facebook.com/bazaarcity.io/posts/617061295118891",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "benvhool",
+      "proof_url": "https://gist.github.com/benvhool/cdd75855c8a57fe5826a5607f4882800",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bazaarcity.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bazaarcity.id\"\n"
+}

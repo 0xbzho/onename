@@ -1,0 +1,67 @@
+{
+  "owner_address": "1B7kGsMgn7zf3RczQk5Hum1jr4z8mhdwNC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "shdunning",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/shdunning/93ae221faccc72497d0df53f1f05384c",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "shdunning",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/shdunning/status/745437770961674240",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "shdunning",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/shdunning/posts/10207861026901986",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Raleigh, North Carolina"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/shaundunning",
+        "name": "avatar"
+      }
+    ],
+    "name": "Shaun Dunning"
+  },
+  "verifications": [
+    {
+      "identifier": "shdunning",
+      "proof_url": "https://gist.github.com/shdunning/93ae221faccc72497d0df53f1f05384c",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "shdunning",
+      "proof_url": "https://twitter.com/shdunning/status/745437770961674240",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "shdunning",
+      "proof_url": "https://www.facebook.com/shdunning/posts/10207861026901986",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN shaundunning.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/shaundunning.id\"\n"
+}

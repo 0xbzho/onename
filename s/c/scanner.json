@@ -1,0 +1,80 @@
+{
+  "owner_address": "1HwqamW7D4iDwRxFLesjLHoDEhTHoVFNWX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "scanner",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/scanner/2c17a284074369bbf682bc03cd7bd543",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/scanner",
+        "identifier": "DB7934FC4D1C0D1F968DAB6846EEA1C0BA6FF3CA",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "matsubue",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Matsubue/status/748187261670301696",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "matsubue",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/matsubue/posts/10154250227508764",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "SFBA California"
+    },
+    "description": "Programmer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/scanner",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/scanner",
+        "name": "cover"
+      }
+    ],
+    "name": "Scanner Luce",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.apricot.com/~scanner/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "scanner",
+      "proof_url": "https://gist.github.com/scanner/2c17a284074369bbf682bc03cd7bd543",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "matsubue",
+      "proof_url": "https://twitter.com/Matsubue/status/748187261670301696",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "matsubue",
+      "proof_url": "https://www.facebook.com/matsubue/posts/10154250227508764",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN scanner.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/scanner.id\"\n"
+}

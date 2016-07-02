@@ -1,0 +1,71 @@
+{
+  "owner_address": "18pPpeVZZJLsWnaEbcX8BuBQMR4i6KKtJY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dedo1911",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dedo1911/posts/1742169829397125",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dedo1911",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dedo1911/cceee1be4b1dc11b84226d72640500e2",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "@dedo1911",
+        "service": "telegram"
+      },
+      {
+        "@type": "Account",
+        "identifier": "13TuL6u3771K8U8RbQZ8iiK4eQzCrz5YmG",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Milano"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dedo1911",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/dedo1911",
+        "name": "cover"
+      }
+    ],
+    "name": "Dario Emerson",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://dedo1911.xyz"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dedo1911",
+      "proof_url": "https://www.facebook.com/dedo1911/posts/1742169829397125",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "dedo1911",
+      "proof_url": "https://gist.github.com/dedo1911/cceee1be4b1dc11b84226d72640500e2",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dedo1911.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dedo1911.id\"\n"
+}

@@ -1,0 +1,49 @@
+{
+  "owner_address": "1NYZtM82bpr3f1Mgw2hnLkZYbDSS2UNQfK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cmosthestore",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cmosthestore/status/747682368098545664",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "074265875f569b33b68dbee6834d1c4fd2438fa0",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/FredyYiap/c5c1c56e17963a1f9b7add0cd60c683f",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Everywhere"
+    },
+    "description": "OpenBazaar store: ob://074265875f569b33b68dbee6834d1c4fd2438fa0",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cmosthestore",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/cmosthestore",
+        "name": "cover"
+      }
+    ],
+    "name": "Cmos the Store"
+  },
+  "verifications": [
+    {
+      "identifier": "cmosthestore",
+      "proof_url": "https://twitter.com/cmosthestore/status/747682368098545664",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN cmosthestore.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cmosthestore.id\"\n"
+}

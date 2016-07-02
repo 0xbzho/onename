@@ -1,0 +1,60 @@
+{
+  "owner_address": "16xTU2R6xCFc5efLSbcsHwWPbnp1eHzVZZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dr_motley",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dr_motley/status/744922119956480000",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "drm22",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/drm22/253665a7bc56563558df698657e13c24",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jamesfrew",
+        "name": "avatar"
+      }
+    ],
+    "name": "James Frew",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://about.me/jamesfrew"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dr_motley",
+      "proof_url": "https://twitter.com/dr_motley/status/744922119956480000",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "drm22",
+      "proof_url": "https://gist.github.com/drm22/253665a7bc56563558df698657e13c24",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jamesfrew.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jamesfrew.id\"\n"
+}

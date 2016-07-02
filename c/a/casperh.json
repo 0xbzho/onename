@@ -1,0 +1,36 @@
+{
+  "owner_address": "13hN3CUn6GpgMXZZmqkdNUXpK7JnbEWG8X",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "titchener",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Titchener/status/745500838919999501",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/casperh",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/casperh",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "titchener",
+      "proof_url": "https://twitter.com/Titchener/status/745500838919999501",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN casperh.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/casperh.id\"\n"
+}

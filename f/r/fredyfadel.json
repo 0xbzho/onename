@@ -1,6 +1,74 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1E8No8JaxmQLxKwnDeB4CRj3bQCAfAdpmw",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "fredy.fadel",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/fredy.fadel/posts/10153961246293884",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "FredyFadel",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/FredyFadel/status/748428268609675264",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "FredyFadel",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/FredyFadel/f022cad8da49f00b3b987680e970053d",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris"
+    },
+    "description": "Code Eliminator",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/fredyfadel",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/fredyfadel",
+        "name": "cover"
+      }
+    ],
+    "name": "frederic fadel",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://aspectize.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "fredy.fadel",
+      "proof_url": "https://www.facebook.com/fredy.fadel/posts/10153961246293884",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "FredyFadel",
+      "proof_url": "https://twitter.com/FredyFadel/status/748428268609675264",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "FredyFadel",
+      "proof_url": "https://gist.github.com/FredyFadel/f022cad8da49f00b3b987680e970053d",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN fredyfadel.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fredyfadel.id\"\n"
 }

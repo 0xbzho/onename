@@ -1,0 +1,43 @@
+{
+  "owner_address": "1VmvRWr5JhrVmTFnk7i5xsnfsRpNw9DkD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dasilvaric",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/DaSilvaRic/status/747565748340523009",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dasilvaric",
+        "name": "avatar"
+      }
+    ],
+    "name": "Ricardo Da Silva",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://helloquence.com/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dasilvaric",
+      "proof_url": "https://twitter.com/DaSilvaRic/status/747565748340523009",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dasilvaric.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dasilvaric.id\"\n"
+}

@@ -1,0 +1,55 @@
+{
+  "owner_address": "1PY7QrMKixKWAyymqLksQjGh5o2tiNNaUt",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mkuhnt",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mkuhnt/19cb3bb1998446a429fce1d7969e7f76",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mkuhnt",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mkuhnt/status/745195085244018688",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Germany"
+    },
+    "description": "Full Stack Strategist",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mkuhnt",
+        "name": "avatar"
+      }
+    ],
+    "name": "Markus Kuhnt"
+  },
+  "verifications": [
+    {
+      "identifier": "mkuhnt",
+      "proof_url": "https://gist.github.com/mkuhnt/19cb3bb1998446a429fce1d7969e7f76",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "mkuhnt",
+      "proof_url": "https://twitter.com/mkuhnt/status/745195085244018688",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mkuhnt.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mkuhnt.id\"\n"
+}

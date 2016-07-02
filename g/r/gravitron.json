@@ -1,0 +1,73 @@
+{
+  "owner_address": "13BJXHHB6wwXfd6Gy3JaCynwYcSn96Fpcn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gravitron-",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/gravitron-/4745a1ad5ae8cf16b2c07c223e51c02c",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gravitron",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/gravitron/posts/10154259389942065",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gravitron",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gravitron/status/744845834131386368",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Australia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gravitron",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/gravitron",
+        "name": "cover"
+      }
+    ],
+    "name": "Geoff Hinchcliffe",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://gravitron.com.au"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "gravitron-",
+      "proof_url": "https://gist.github.com/gravitron-/4745a1ad5ae8cf16b2c07c223e51c02c",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "gravitron",
+      "proof_url": "https://www.facebook.com/gravitron/posts/10154259389942065",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "gravitron",
+      "proof_url": "https://twitter.com/gravitron/status/744845834131386368",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN gravitron.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gravitron.id\"\n"
+}

@@ -1,0 +1,62 @@
+{
+  "owner_address": "1JSWJxhQ5PVR9WBeTtpDnFriXQ3fr2sJw7",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "siddharatha",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/siddharatha/c97106a5d2f77dc5ffc598c9d1f0a9e0",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "na_sidharth",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/na_sidharth/status/744902348368191488",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "buntysidz",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/buntysidz/posts/10208365380868899",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sidharth",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "siddharatha",
+      "proof_url": "https://gist.github.com/siddharatha/c97106a5d2f77dc5ffc598c9d1f0a9e0",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "na_sidharth",
+      "proof_url": "https://twitter.com/na_sidharth/status/744902348368191488",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "buntysidz",
+      "proof_url": "https://www.facebook.com/buntysidz/posts/10208365380868899",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN sidharth.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sidharth.id\"\n"
+}

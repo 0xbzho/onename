@@ -1,0 +1,70 @@
+{
+  "owner_address": "19VQvqp2Vr8z31e3XNm1iZmZ7RAYLwks8J",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bankonmeOS",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bankonmeOS/status/744981170924838912",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bankonmeOS",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bankonmeOS/posts/1212665958767636",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "studio666",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/studio666/025747ceb37cb655d8867ebc248d3aba",
+        "service": "github"
+      }
+    ],
+    "description": "You can bankon.me",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bankonme",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bankonme",
+        "name": "cover"
+      }
+    ],
+    "name": "bankonmeOS",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://bankon.me"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bankonmeOS",
+      "proof_url": "https://twitter.com/bankonmeOS/status/744981170924838912",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bankonmeOS",
+      "proof_url": "https://www.facebook.com/bankonmeOS/posts/1212665958767636",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "studio666",
+      "proof_url": "https://gist.github.com/studio666/025747ceb37cb655d8867ebc248d3aba",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN bankonme.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bankonme.id\"\n"
+}

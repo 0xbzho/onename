@@ -1,0 +1,61 @@
+{
+  "owner_address": "1NVbA6G1TZmoWXrt5RS5B4BPZPJNPMZwc3",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "quieroya_ba",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/quieroya_ba/status/744944448866484224",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Quiero-Ya-814798095316099",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/permalink.php?story_fbid=877843155678259&id=814798095316099",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Argentina"
+    },
+    "description": "Conectamos con lo que querés.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/quieroya",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/quieroya",
+        "name": "cover"
+      }
+    ],
+    "name": "Quiero Ya",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://quieroya.club"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "quieroya_ba",
+      "proof_url": "https://twitter.com/quieroya_ba/status/744944448866484224",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Quiero-Ya-814798095316099",
+      "proof_url": "https://www.facebook.com/permalink.php?story_fbid=877843155678259&id=814798095316099",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN quieroya.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/quieroya.id\"\n"
+}

@@ -1,0 +1,63 @@
+{
+  "owner_address": "1MYmWgvftBo9sxJiduTs358CSTNTxrDCbS",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "focaskater",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/focaskater/status/745567781475717120",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fpischedda",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/fpischedda/4afc1be735ca6d48147863daa1b3135e",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "foca.daminas",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/foca.daminas/posts/10209682047663628",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/francesco_pischedda",
+        "identifier": "20TyiqPRwmcLFuARTm6UjdoiTw39DoBCBJ0+Jv9K1pQ",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "focaskater",
+      "proof_url": "https://twitter.com/focaskater/status/745567781475717120",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "fpischedda",
+      "proof_url": "https://gist.github.com/fpischedda/4afc1be735ca6d48147863daa1b3135e",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "foca.daminas",
+      "proof_url": "https://www.facebook.com/foca.daminas/posts/10209682047663628",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN francesco_pischedda.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/francesco_pischedda.id\"\n"
+}

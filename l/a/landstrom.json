@@ -1,0 +1,60 @@
+{
+  "owner_address": "1ZTfwEwrbuPN1njKwPZZ3RmVrYMr81Mhn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "codyjlandstrom",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/CodyJLandstrom/status/747457006932471808",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "codyjlandstrom",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/codyjlandstrom/38172b4f9db0fd4455c4eb4f557b33fb",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York, NY"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/landstrom",
+        "name": "avatar"
+      }
+    ],
+    "name": "Cody J Landstrom",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://landstrom.co"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "codyjlandstrom",
+      "proof_url": "https://twitter.com/CodyJLandstrom/status/747457006932471808",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "codyjlandstrom",
+      "proof_url": "https://gist.github.com/codyjlandstrom/38172b4f9db0fd4455c4eb4f557b33fb",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN landstrom.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/landstrom.id\"\n"
+}

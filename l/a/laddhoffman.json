@@ -1,0 +1,36 @@
+{
+  "owner_address": "14Zie2XAGmowUckZgVxxu1y4GdLSi5p3xU",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "westwea",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/westwea/posts/10103197539701976",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Houston, TX"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ladd Hoffman"
+  },
+  "verifications": [
+    {
+      "identifier": "westwea",
+      "proof_url": "https://www.facebook.com/westwea/posts/10103197539701976",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN laddhoffman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/laddhoffman.id\"\n"
+}

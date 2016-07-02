@@ -1,0 +1,57 @@
+{
+  "owner_address": "1J3Duj4JaJ5oobasqybttRw76N3cR5GKzr",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/ae8d8e40600fc43a5ba21b930b63f6d7",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "YannDecoopman",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/YannDecoopman/status/748209439698714624",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "yann.decoopman",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/yann.decoopman/posts/10208317720594538",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/ae8d8e40600fc43a5ba21b930b63f6d7",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "YannDecoopman",
+      "proof_url": "https://twitter.com/YannDecoopman/status/748209439698714624",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "yann.decoopman",
+      "proof_url": "https://www.facebook.com/yann.decoopman/posts/10208317720594538",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN yanndecoopman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/yanndecoopman.id\"\n"
+}

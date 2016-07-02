@@ -1,0 +1,66 @@
+{
+  "owner_address": "16ZGEYxBJfivNrz16mNdrxHiN4scBJR35J",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nicokaiser",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/nicokaiser/status/744927125673750528",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nicokaiser",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/nicokaiser/3e2ea578b669a48c45c95238ad31c061",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://kaiser.me/pgp",
+        "identifier": "653EFE2F98D53D04D41CE0F28CA23480C02A6A60",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Vienna"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nicokaiser",
+        "name": "avatar"
+      }
+    ],
+    "name": "Nico Kaiser",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://kaiser.me/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "nicokaiser",
+      "proof_url": "https://twitter.com/nicokaiser/status/744927125673750528",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "nicokaiser",
+      "proof_url": "https://gist.github.com/nicokaiser/3e2ea578b669a48c45c95238ad31c061",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN nicokaiser.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nicokaiser.id\"\n"
+}

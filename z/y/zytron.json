@@ -1,0 +1,50 @@
+{
+  "owner_address": "15RETGUfsqWrfHSiofaQ1xHX144awuv4HK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "zytron",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/zytron/5d96ba259b3fc4ca7257182ba428b450",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lokop",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/lokop/status/745579156725956609",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/zytron",
+        "identifier": "95FD996A8BAF0F9CB4C7DBDDBCD16D3AE10B9A44",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "zytron",
+      "proof_url": "https://gist.github.com/zytron/5d96ba259b3fc4ca7257182ba428b450",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "lokop",
+      "proof_url": "https://twitter.com/lokop/status/745579156725956609",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN zytron.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/zytron.id\"\n"
+}

@@ -1,0 +1,55 @@
+{
+  "owner_address": "1HJRTqc7bN9oWGoZMk1QkRSyyF8Voo4B8w",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "icholy",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/icholy/21a4478947762c940f9b59913ade1925",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "icholy",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/icholy/status/746022576762294272",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "St. Catharines"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ilia Choly",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://choly.ca"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "icholy",
+      "proof_url": "https://gist.github.com/icholy/21a4478947762c940f9b59913ade1925",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "icholy",
+      "proof_url": "https://twitter.com/icholy/status/746022576762294272",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN icholy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/icholy.id\"\n"
+}

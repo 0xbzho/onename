@@ -1,47 +1,53 @@
 {
   "owner_address": "1FPuX3epBatDYxGeuTQmkY4LCDo3eBdjBS",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/jutta"
-    },
-    "bitcoin": {
-      "address": "1BXpgWgN2C77GVfHN7qQXdYnz7E49c66uW"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/wdX.jpeg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/kaeptnjoda/8b043e38386f59aa5df3"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kaeptnjoda",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "kaeptnjoda"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Jutta"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/tajukahe/status/551421835493904385"
+      {
+        "@type": "Account",
+        "identifier": "1BXpgWgN2C77GVfHN7qQXdYnz7E49c66uW",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "tajukahe"
+      {
+        "@type": "Account",
+        "identifier": "jutta_steiner",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tajukahe/status/551421835493904385",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jutta",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jutta"
   },
   "verifications": [
     {
-      "identifier": "kaeptnjoda",
-      "proof_url": "https://gist.github.com/kaeptnjoda/8b043e38386f59aa5df3",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "tajukahe",
+      "identifier": "jutta_steiner",
       "proof_url": "https://twitter.com/tajukahe/status/551421835493904385",
       "service": "twitter",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN jutta.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jutta.id\"\n"
 }

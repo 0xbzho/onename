@@ -1,0 +1,38 @@
+{
+  "owner_address": "121xfxtq4GkBqhwhVdBmhhMhGUnd1Y7JAc",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "snarfed",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/snarfed/9941c421943f668b24b3021365db04c9",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ryan Barrett",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://snarfed.org/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "snarfed",
+      "proof_url": "https://gist.github.com/snarfed/9941c421943f668b24b3021365db04c9",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN snarfed.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/snarfed.id\"\n"
+}

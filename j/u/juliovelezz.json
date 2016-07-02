@@ -1,0 +1,49 @@
+{
+  "owner_address": "1CpVDxZKoFKLKfz1XGCpjt1hWGGhfH9fKw",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "juliovelezz",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/juliovelezz/status/745086372097077249",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "juliovelezz",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/juliovelezz/posts/300500993617843",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/juliovelezz",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "juliovelezz",
+      "proof_url": "https://twitter.com/juliovelezz/status/745086372097077249",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "juliovelezz",
+      "proof_url": "https://www.facebook.com/juliovelezz/posts/300500993617843",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN juliovelezz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/juliovelezz.id\"\n"
+}

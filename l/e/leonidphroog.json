@@ -1,0 +1,44 @@
+{
+  "owner_address": "1HMjVNZbGp2PSng9bpe5GnCdyfnCRuVCZq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "owlcom",
+        "proofType": "http",
+        "proofUrl": "https://t.co/Ib3QT57r0S",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "leonid.phroog",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/leonid.phroog/posts/10154197922379070",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "owlcom",
+      "proof_url": "https://t.co/Ib3QT57r0S",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "leonid.phroog",
+      "proof_url": "https://www.facebook.com/leonid.phroog/posts/10154197922379070",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN leonidphroog.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/leonidphroog.id\"\n"
+}

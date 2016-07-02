@@ -1,0 +1,57 @@
+{
+  "owner_address": "1HbF4FviStrFEzYoZUqfMzd34Rsq1Ms4QK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rickcusick",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rickcusick/status/744963642370756608",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "qxk23",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/qxk23/204b76ef4eacdab5bae9ad3578070dd7",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rick.cusick",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/rick.cusick/posts/10154187827811031",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "rickcusick",
+      "proof_url": "https://twitter.com/rickcusick/status/744963642370756608",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "qxk23",
+      "proof_url": "https://gist.github.com/qxk23/204b76ef4eacdab5bae9ad3578070dd7",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "rick.cusick",
+      "proof_url": "https://www.facebook.com/rick.cusick/posts/10154187827811031",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rickcusick.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rickcusick.id\"\n"
+}

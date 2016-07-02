@@ -1,0 +1,69 @@
+{
+  "owner_address": "1GBo2Yrx4UK1Xa7o7FCvjpvPTD7kRPf61z",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/digitalwat",
+        "identifier": "EAF4913D00F12BB04FE06502177083D705961617",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1Fff5CZQ1baKW42qVbiBPUfH3Jyem2hfzo",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "digitalwat",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/DigitalWat/status/747990123824939008",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "DigitalWat",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/DigitalWat/posts/559158090953948",
+        "service": "facebook"
+      }
+    ],
+    "description": "SEO and online marketing services",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/digitalwat",
+        "name": "avatar"
+      }
+    ],
+    "name": "Digital Wat",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://digitalwat.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "digitalwat",
+      "proof_url": "https://twitter.com/DigitalWat/status/747990123824939008",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "DigitalWat",
+      "proof_url": "https://www.facebook.com/DigitalWat/posts/559158090953948",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN digitalwat.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/digitalwat.id\"\n"
+}

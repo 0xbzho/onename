@@ -1,0 +1,55 @@
+{
+  "owner_address": "1D8MuPKxn8QvzqKJYvLLyXfS5eGYDwKFBZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mialomo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mialomo/status/747432834663587840",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https://www.facebook.com/mia.bennett",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mia.bennett/posts/10157064205355313",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London"
+    },
+    "description": "Digital entrepreneur",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mialomo",
+        "name": "avatar"
+      }
+    ],
+    "name": "Mia Bennett"
+  },
+  "verifications": [
+    {
+      "identifier": "mialomo",
+      "proof_url": "https://twitter.com/mialomo/status/747432834663587840",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "https://www.facebook.com/mia.bennett",
+      "proof_url": "https://www.facebook.com/mia.bennett/posts/10157064205355313",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mialomo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mialomo.id\"\n"
+}

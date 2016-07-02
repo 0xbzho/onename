@@ -1,0 +1,73 @@
+{
+  "owner_address": "18MnNwdYDvTdbTWT7eGSjNN1e1aUKBKZuM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tasi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tasi/status/745321211828244482",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tariqali333",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/tariqali333/posts/10154281890328909",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tasi333",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tasi333/b635579bfa9710a389d0d047aa29c592",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1MZjasjjwssRqo8oQPTfG2NX5ns6HNFZ2b",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Fremont, CA USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tariqali",
+        "name": "avatar"
+      }
+    ],
+    "name": "Tariq Ali"
+  },
+  "verifications": [
+    {
+      "identifier": "tasi",
+      "proof_url": "https://twitter.com/tasi/status/745321211828244482",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "tariqali333",
+      "proof_url": "https://www.facebook.com/tariqali333/posts/10154281890328909",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "tasi333",
+      "proof_url": "https://gist.github.com/tasi333/b635579bfa9710a389d0d047aa29c592",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tariqali.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tariqali.id\"\n"
+}

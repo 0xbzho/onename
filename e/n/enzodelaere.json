@@ -1,0 +1,49 @@
+{
+  "owner_address": "159RAt5Mvn2W7cK6bAzAmZyn49uFktVnW7",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Delaere_enzo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/delaere_enzo/status/747093600337534976",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Delaere.enzo",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/delaere.enzo/posts/10207776569905578",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/enzodelaere",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Delaere_enzo",
+      "proof_url": "https://twitter.com/delaere_enzo/status/747093600337534976",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Delaere.enzo",
+      "proof_url": "https://www.facebook.com/delaere.enzo/posts/10207776569905578",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN enzodelaere.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/enzodelaere.id\"\n"
+}

@@ -1,0 +1,53 @@
+{
+  "owner_address": "1HgVnMTT8SEudYH5ohBVJMFGJgYYti4NKK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "janrothen",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/janrothen/status/744799327139201024",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1CY1bu249SqWpNWTxuQTLubN6VfaQJoN5d",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bern"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/janrothen",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jan Rothen",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://rothen.sudo.ch"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "janrothen",
+      "proof_url": "https://twitter.com/janrothen/status/744799327139201024",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN janrothen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/janrothen.id\"\n"
+}

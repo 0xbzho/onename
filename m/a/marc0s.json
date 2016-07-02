@@ -1,0 +1,42 @@
+{
+  "owner_address": "164jJKkFLJvi8YYGKjFWfXGoHvFdd1opim",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "marc0s",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/marc0s/c076bc4155c3cf46708d7fa4b15b298d",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Earth, or something"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Marcos",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://tenak.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "marc0s",
+      "proof_url": "https://gist.github.com/marc0s/c076bc4155c3cf46708d7fa4b15b298d",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN marc0s.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/marc0s.id\"\n"
+}

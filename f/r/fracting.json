@@ -1,0 +1,31 @@
+{
+  "owner_address": "16xcmHf2ujT22Rp3LC4HJUXsTb4CjFKeJv",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "fracting",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/fracting/054e3c79dbb57497d5854e3169617659",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "fracting",
+      "proof_url": "https://gist.github.com/fracting/054e3c79dbb57497d5854e3169617659",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN fracting.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fracting.id\"\n"
+}

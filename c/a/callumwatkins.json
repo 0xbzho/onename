@@ -1,0 +1,79 @@
+{
+  "owner_address": "1AX4RmTLu2rja1X5b5QH9t5WKe1Af2DquA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "_CallumWatkins",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/_CallumWatkins/status/746700786088960000",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "CallumWatkins",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/CallumWatkins/37bbb0fa4aa8328d6410598fb424714d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/callumwatkins",
+        "identifier": "7A2C9986AF664A9E2A8D869FC71C342DA44DAB84",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1CG7DRoTv5d5nhH3s6GFMmNp9j63ef7LSE",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Watkins.Callum",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/Watkins.Callum/posts/101023563665097",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London, United Kingdom"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/callumwatkins",
+        "name": "avatar"
+      }
+    ],
+    "name": "Callum Watkins"
+  },
+  "verifications": [
+    {
+      "identifier": "_CallumWatkins",
+      "proof_url": "https://twitter.com/_CallumWatkins/status/746700786088960000",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "CallumWatkins",
+      "proof_url": "https://gist.github.com/CallumWatkins/37bbb0fa4aa8328d6410598fb424714d",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "Watkins.Callum",
+      "proof_url": "https://www.facebook.com/Watkins.Callum/posts/101023563665097",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN callumwatkins.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/callumwatkins.id\"\n"
+}

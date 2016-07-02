@@ -1,0 +1,36 @@
+{
+  "owner_address": "19n6JpcAdvJkE77VSJ2iA78mwSYJdoeTh5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "RaduPopescuVega",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Braduvega%20is%20my%20blockchain%20ID.%20https://onename.com/raduvega",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bucharest"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Radu Popescu"
+  },
+  "verifications": [
+    {
+      "identifier": "RaduPopescuVega",
+      "proof_url": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Braduvega%20is%20my%20blockchain%20ID.%20https://onename.com/raduvega",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN raduvega.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/raduvega.id\"\n"
+}

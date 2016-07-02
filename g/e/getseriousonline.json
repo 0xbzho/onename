@@ -1,0 +1,44 @@
+{
+  "owner_address": "13THiBciHLbbNrqpAdVx8qD2deL7VKy2SE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "@getserious",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/getserious/status/747537612919844865",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "getseriousonline",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/getseriousonline/fc66560d1ebf31bb7b34a39981802d89",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "@getserious",
+      "proof_url": "https://twitter.com/getserious/status/747537612919844865",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "getseriousonline",
+      "proof_url": "https://gist.github.com/getseriousonline/fc66560d1ebf31bb7b34a39981802d89",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN getseriousonline.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/getseriousonline.id\"\n"
+}

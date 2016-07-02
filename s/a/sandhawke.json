@@ -1,0 +1,56 @@
+{
+  "owner_address": "1Cvi4jpsxmnVZECgjDwK52925fbxUa3Ut9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sandhawke",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/sandhawke/d983f6de24834f55833c008d2ac4e0a6",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sandhawke",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sandhawke/status/748176846005608452",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sandhawke",
+        "name": "avatar"
+      }
+    ],
+    "name": "Sandro Hawke",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://hawke.org"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "sandhawke",
+      "proof_url": "https://gist.github.com/sandhawke/d983f6de24834f55833c008d2ac4e0a6",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "sandhawke",
+      "proof_url": "https://twitter.com/sandhawke/status/748176846005608452",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN sandhawke.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sandhawke.id\"\n"
+}

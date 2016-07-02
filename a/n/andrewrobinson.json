@@ -1,0 +1,44 @@
+{
+  "owner_address": "1NCneApZmsJiGXoK23ugq6JwwuymsT1Nni",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "andrewrobinson",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/andrewrobinson/status/744818501852880896",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "arobinsonuk",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/arobinsonuk/posts/10157077661490154",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "andrewrobinson",
+      "proof_url": "https://twitter.com/andrewrobinson/status/744818501852880896",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "arobinsonuk",
+      "proof_url": "https://www.facebook.com/arobinsonuk/posts/10157077661490154",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN andrewrobinson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/andrewrobinson.id\"\n"
+}

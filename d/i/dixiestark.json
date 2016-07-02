@@ -1,0 +1,57 @@
+{
+  "owner_address": "19bw69NaZaetPSMccRorkcyiyo8V3oRspt",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dixiestark",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dixiestark/status/747992881873326080",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dixiestarkinteriors",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dixiestarkinteriors/posts/978929658893742",
+        "service": "facebook"
+      }
+    ],
+    "description": "Interior designer // Blogger // Seattle",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dixiestark",
+        "name": "avatar"
+      }
+    ],
+    "name": "Dixie Stark",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.dixiestark.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dixiestark",
+      "proof_url": "https://twitter.com/dixiestark/status/747992881873326080",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "dixiestarkinteriors",
+      "proof_url": "https://www.facebook.com/dixiestarkinteriors/posts/978929658893742",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dixiestark.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dixiestark.id\"\n"
+}

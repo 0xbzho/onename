@@ -1,0 +1,62 @@
+{
+  "owner_address": "15fB4qByydGmxcAmF5VL1CC2yHXaixKdqt",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "murli184",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/murli184/status/747462424366743553",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "murli184",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/murli184/49a6bb0833f05951369628243aee903d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "murliravi",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/murliravi/posts/10154951053574128",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "b339769c31525b0e3824580c9b9d30434ba62c88",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "murli184",
+      "proof_url": "https://twitter.com/murli184/status/747462424366743553",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "murli184",
+      "proof_url": "https://gist.github.com/murli184/49a6bb0833f05951369628243aee903d",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "murliravi",
+      "proof_url": "https://www.facebook.com/murliravi/posts/10154951053574128",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN murli184.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/murli184.id\"\n"
+}

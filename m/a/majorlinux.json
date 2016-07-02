@@ -1,0 +1,74 @@
+{
+  "owner_address": "1cdkianECwrXb5u3nbvjZhwnWgyPFdT58",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "majorlinux",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MajorLinux/status/745331660372189184",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "marcus.summers",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/marcus.summers/posts/10101789843406373",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "majorlinux",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/majorlinux/5c4be08e49c0aa7a715d001ad2da55d1",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "NC"
+    },
+    "description": "Founder of http://MajorsHouse.com , tech consultant, RHCE, charity gamer, and VP of the Extra Life Raleigh-Durham Guild.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/majorlinux",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/majorlinux",
+        "name": "cover"
+      }
+    ],
+    "name": "Marcus Summers",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://majorshouse.com/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "majorlinux",
+      "proof_url": "https://twitter.com/MajorLinux/status/745331660372189184",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "marcus.summers",
+      "proof_url": "https://www.facebook.com/marcus.summers/posts/10101789843406373",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "majorlinux",
+      "proof_url": "https://gist.github.com/majorlinux/5c4be08e49c0aa7a715d001ad2da55d1",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN majorlinux.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/majorlinux.id\"\n"
+}

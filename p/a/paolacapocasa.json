@@ -1,0 +1,44 @@
+{
+  "owner_address": "1FhxTbdKmTnygLcmXmmp18oMEMFbTikTEu",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "PathBe1",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/PathBe1/status/747610568727506944",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "paola.capocasa",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/paola.capocasa/posts/10153968767474822",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "PathBe1",
+      "proof_url": "https://twitter.com/PathBe1/status/747610568727506944",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "paola.capocasa",
+      "proof_url": "https://www.facebook.com/paola.capocasa/posts/10153968767474822",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN paolacapocasa.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/paolacapocasa.id\"\n"
+}

@@ -1,0 +1,63 @@
+{
+  "owner_address": "1KJU3foPEnkh7vEufppdbP4V4nErX9Abqn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "farolanfaisal",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/farolanfaisal/status/746375910715056128",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "farolanf",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/farolanf/06a1dad3b688698b44a07b3609906cba#file-gistfile1-txt",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "farolanfaisal",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/farolanfaisal/posts/1748093738808399?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Martapura, Kalimantan Selatan, Indonesia"
+    },
+    "description": "I'm an Android app developer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Farolan Faisal"
+  },
+  "verifications": [
+    {
+      "identifier": "farolanfaisal",
+      "proof_url": "https://twitter.com/farolanfaisal/status/746375910715056128",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "farolanf",
+      "proof_url": "https://gist.github.com/farolanf/06a1dad3b688698b44a07b3609906cba#file-gistfile1-txt",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "farolanfaisal",
+      "proof_url": "https://www.facebook.com/farolanfaisal/posts/1748093738808399?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN farolan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/farolan.id\"\n"
+}

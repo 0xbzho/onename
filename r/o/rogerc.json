@@ -1,0 +1,51 @@
+{
+  "owner_address": "1L2HcbzJ4tway5pWxpbFfUPmxLUkTaqxWC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rogersresume",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rogersresume/status/748245434745950208",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "RogerGrahamClark1",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/shares/view?id=10210263068552037",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "293eb9d6542d81e6e6e7fe4386a390e7eb761357",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/matsubue/posts/10154250227508764",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "rogersresume",
+      "proof_url": "https://twitter.com/rogersresume/status/748245434745950208",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "RogerGrahamClark1",
+      "proof_url": "https://www.facebook.com/shares/view?id=10210263068552037",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN rogerc.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rogerc.id\"\n"
+}

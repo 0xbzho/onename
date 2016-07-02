@@ -1,0 +1,31 @@
+{
+  "owner_address": "1DBTuHg14VBq1b3exruDccAz9UxPU9qivg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "luke3butler",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/luke3butler/788b8a462a34dc41b0f841e6dcfdc0c0",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "luke3butler",
+      "proof_url": "https://gist.github.com/luke3butler/788b8a462a34dc41b0f841e6dcfdc0c0",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN luke3butler.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/luke3butler.id\"\n"
+}

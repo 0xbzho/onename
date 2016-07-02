@@ -1,0 +1,37 @@
+{
+  "owner_address": "1EcfPWCtLSUJ96MWn4oBipcW2KW6vKggKR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "BrendanFDMoore",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/BrendanFDMoore/bfd83f2fcdb81b5f124aa6649c474f6a",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Toronto, Ontario, Canada"
+    },
+    "description": "software developer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Brendan Moore"
+  },
+  "verifications": [
+    {
+      "identifier": "BrendanFDMoore",
+      "proof_url": "https://gist.github.com/BrendanFDMoore/bfd83f2fcdb81b5f124aa6649c474f6a",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN brendanm.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/brendanm.id\"\n"
+}

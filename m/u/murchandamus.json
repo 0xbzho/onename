@@ -1,0 +1,60 @@
+{
+  "owner_address": "1P7rrwXBEoia5CdGXApngRoZsvngqS2fFZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Xekyo",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Xekyo/252c7fb0e767349ffb61693fea63dda6",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1AbBKPCCK1TaRdN6TPM8u3FHoPTdiPqWM6",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "http://murch.one/wp-content/uploads/2016/01/key.asc",
+        "identifier": "F33D9DA5",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Germany"
+    },
+    "description": "Computer scientist, Bitcoin enthusiast",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/murchandamus",
+        "name": "avatar"
+      }
+    ],
+    "name": "Murch",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://murch.one"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Xekyo",
+      "proof_url": "https://gist.github.com/Xekyo/252c7fb0e767349ffb61693fea63dda6",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN murchandamus.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/murchandamus.id\"\n"
+}

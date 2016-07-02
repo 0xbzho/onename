@@ -1,0 +1,31 @@
+{
+  "owner_address": "14xFVHNEbczfmZ3RLL8RgHwFVySeT8pXUa",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tony.fairminer",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/tony.fairminer/posts/10206901674852946?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tony.fairminer",
+      "proof_url": "https://www.facebook.com/tony.fairminer/posts/10206901674852946?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tonyfair.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tonyfair.id\"\n"
+}

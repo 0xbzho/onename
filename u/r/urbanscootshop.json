@@ -1,0 +1,72 @@
+{
+  "owner_address": "1GjtUgYVQGUzibHuKN7YsVwqVCRSEx9FjJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "urbanscootshop",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/UrbanScootShop/status/746151527807594496",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "urbanscootshop",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/urbanscootshop/posts/1173165489369893",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1E9GBEPdgcoZqW9vtR5ZSLCs28XAM88DXp",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "414dffa080cba8df9a9acfdba8e9b46c003f8c07",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Phoenix, AZ"
+    },
+    "description": "Scooters, drift trikes and ride on toys. Find us on OpenBazaar and the web.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/urbanscootshop",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/urbanscootshop",
+        "name": "cover"
+      }
+    ],
+    "name": "UrbanScootShop",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.urbanscootshop.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "urbanscootshop",
+      "proof_url": "https://twitter.com/UrbanScootShop/status/746151527807594496",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "urbanscootshop",
+      "proof_url": "https://www.facebook.com/urbanscootshop/posts/1173165489369893",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN urbanscootshop.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/urbanscootshop.id\"\n"
+}

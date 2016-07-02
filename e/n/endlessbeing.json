@@ -1,0 +1,61 @@
+{
+  "owner_address": "18UKx5Xdf3mCBzWDvVKBAHRhkrTiURghcS",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "endlessbeing",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/endlessbeing/511c80a072bcc9468d15a0457b52ca32",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "benjamin.crandall",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/benjamin.crandall/posts/10153523336506331",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Eugene, OR, USA"
+    },
+    "description": "Gift Economy Organizer, Social Entrepreneur, Musician, Martial Artist, Software Developer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/endlessbeing",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/endlessbeing",
+        "name": "cover"
+      }
+    ],
+    "name": "Benjamin Crandall",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://kindista.org/people/benjamin"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "endlessbeing",
+      "proof_url": "https://gist.github.com/endlessbeing/511c80a072bcc9468d15a0457b52ca32",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "benjamin.crandall",
+      "proof_url": "https://www.facebook.com/benjamin.crandall/posts/10153523336506331",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN endlessbeing.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/endlessbeing.id\"\n"
+}

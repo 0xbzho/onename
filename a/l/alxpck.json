@@ -1,0 +1,60 @@
+{
+  "owner_address": "12A6BnQ3KFVAyR4iR5ttYVyb5EsCoDhzMb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "alxpck",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/alxpck/status/745315686872944640",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "alxpck",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/alxpck/4cf830e1241374085aa2f5af83159509",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brooklyn, NY"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/alxpck",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/alxpck",
+        "name": "cover"
+      }
+    ],
+    "name": "Alex Peck",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://alxpck.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "alxpck",
+      "proof_url": "https://twitter.com/alxpck/status/745315686872944640",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "alxpck",
+      "proof_url": "https://gist.github.com/alxpck/4cf830e1241374085aa2f5af83159509",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN alxpck.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alxpck.id\"\n"
+}

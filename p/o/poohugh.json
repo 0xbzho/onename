@@ -1,0 +1,36 @@
+{
+  "owner_address": "1MM472V5bH9AQQTBFRUD2TjzPZt6P9GD9o",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "poohugh",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/poohugh/status/744805206014103556",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/poohugh",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "poohugh",
+      "proof_url": "https://twitter.com/poohugh/status/744805206014103556",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN poohugh.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/poohugh.id\"\n"
+}

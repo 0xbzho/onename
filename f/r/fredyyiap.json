@@ -1,0 +1,73 @@
+{
+  "owner_address": "1CL4KqnDQk8Ks419wAQoMKrgXsgXPURpa5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/fredyyiap",
+        "identifier": null,
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "FredyYiap",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/FredyYiap/status/747666193553690626",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fredy",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/fredy/posts/10209354167117347",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/FredyYiap/c5c1c56e17963a1f9b7add0cd60c683f",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Malaysia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/fredyyiap",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/fredyyiap",
+        "name": "cover"
+      }
+    ],
+    "name": "Fredy YIAP"
+  },
+  "verifications": [
+    {
+      "identifier": "FredyYiap",
+      "proof_url": "https://twitter.com/FredyYiap/status/747666193553690626",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "fredy",
+      "proof_url": "https://www.facebook.com/fredy/posts/10209354167117347",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "",
+      "proof_url": "https://gist.github.com/FredyYiap/c5c1c56e17963a1f9b7add0cd60c683f",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN fredyyiap.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fredyyiap.id\"\n"
+}

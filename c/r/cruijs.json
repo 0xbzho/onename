@@ -1,0 +1,38 @@
+{
+  "owner_address": "1BBDFrGTsebV7VaWFAyEYbaXo7Yj6AVdTc",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "lxndr",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/lxndr/status/745322217928556544",
+        "service": "twitter"
+      }
+    ],
+    "description": "Social Business enthusiast",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cruijs",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/cruijs",
+        "name": "cover"
+      }
+    ],
+    "name": "Alexander van de Cruijs"
+  },
+  "verifications": [
+    {
+      "identifier": "lxndr",
+      "proof_url": "https://twitter.com/lxndr/status/745322217928556544",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN cruijs.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cruijs.id\"\n"
+}

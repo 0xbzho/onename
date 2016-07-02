@@ -1,0 +1,55 @@
+{
+  "owner_address": "1BVL72pBrJaKUaBxgYntLeU8daBithfnKg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Davidallenwind",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/david.wind.359/posts/608050856018616",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "davidwind",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/davidwind/status/747277097119289347",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco, CA"
+    },
+    "description": "FinTech Exec",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/davidwind",
+        "name": "avatar"
+      }
+    ],
+    "name": "David Wind"
+  },
+  "verifications": [
+    {
+      "identifier": "Davidallenwind",
+      "proof_url": "https://www.facebook.com/david.wind.359/posts/608050856018616",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "davidwind",
+      "proof_url": "https://twitter.com/davidwind/status/747277097119289347",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN davidwind.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/davidwind.id\"\n"
+}

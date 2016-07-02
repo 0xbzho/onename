@@ -1,0 +1,84 @@
+{
+  "owner_address": "12ZBUimNsfEEjcdGGsxrmrJoAoLoD8UQqA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "d2f77f7dcd7c8f9cdad7e1217bc43c3650059f04",
+        "service": "openbazarr"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gogroovycastle",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/GoGroovyCastle/status/747850025087148032",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "groovycastle",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/groovycastle/posts/10153697331787043",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "GroovyCastle",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/GroovyCastle/6d121618df2fd6c475ea4a3e512891e7",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "d2f77f7dcd7c8f9cdad7e1217bc43c3650059f04",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "United States"
+    },
+    "description": "The Place To Find Groovy Things",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/groovycastle",
+        "name": "avatar"
+      }
+    ],
+    "name": "Groovy Castle",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://GroovyCastle.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "gogroovycastle",
+      "proof_url": "https://twitter.com/GoGroovyCastle/status/747850025087148032",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "groovycastle",
+      "proof_url": "https://www.facebook.com/groovycastle/posts/10153697331787043",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "GroovyCastle",
+      "proof_url": "https://gist.github.com/GroovyCastle/6d121618df2fd6c475ea4a3e512891e7",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN groovycastle.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/groovycastle.id\"\n"
+}

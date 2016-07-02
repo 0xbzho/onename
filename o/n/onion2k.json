@@ -1,0 +1,50 @@
+{
+  "owner_address": "1712w6Nz3xcttGnkiztq26KUkDxWNj8Ndj",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "onion2k",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/onion2k/status/744805099600384006",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "onion2k",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/onion2k/5d196fda8ccd76e1c5e94c3cf128114b",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Newcastle, UK"
+    },
+    "description": "Web dev.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Chris Neale"
+  },
+  "verifications": [
+    {
+      "identifier": "onion2k",
+      "proof_url": "https://twitter.com/onion2k/status/744805099600384006",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "onion2k",
+      "proof_url": "https://gist.github.com/onion2k/5d196fda8ccd76e1c5e94c3cf128114b",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN onion2k.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/onion2k.id\"\n"
+}

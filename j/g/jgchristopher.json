@@ -1,0 +1,38 @@
+{
+  "owner_address": "15Lc4updjnPwWv2ffBbVYXzF4KxzNoiyBY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jgchristopher",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jgchristopher/f3ad3619c293ee2d0710c768ce869d9b",
+        "service": "github"
+      }
+    ],
+    "description": "CTO @ C2FO.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jgchristopher",
+        "name": "avatar"
+      }
+    ],
+    "name": "John Christopher"
+  },
+  "verifications": [
+    {
+      "identifier": "jgchristopher",
+      "proof_url": "https://gist.github.com/jgchristopher/f3ad3619c293ee2d0710c768ce869d9b",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jgchristopher.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jgchristopher.id\"\n"
+}

@@ -1,0 +1,63 @@
+{
+  "owner_address": "1Pg1HDVRAYMUHpeLzPcFQ1fNj3KLUkg3Wg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "NikBPage",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/NikBPage/status/747795563534516228",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nikpage",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/nikpage/420e4ff4684ff9aa32d82bed8342c5f6",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "12C4axYp8TtqhKfP2agsUSZP4hfLiCnuRw",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nbpage",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/nbpage/posts/10209028750383627?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "NikBPage",
+      "proof_url": "https://twitter.com/NikBPage/status/747795563534516228",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "nikpage",
+      "proof_url": "https://gist.github.com/nikpage/420e4ff4684ff9aa32d82bed8342c5f6",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "nbpage",
+      "proof_url": "https://www.facebook.com/nbpage/posts/10209028750383627?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN nikpage.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nikpage.id\"\n"
+}

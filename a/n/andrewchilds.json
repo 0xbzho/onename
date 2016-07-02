@@ -1,0 +1,63 @@
+{
+  "owner_address": "1BZLqAReZtwSqLRgJT44cB7CNRMgC8A5zX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "andrewchildsza",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/andrewchildsza/status/746273743429844992",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "andrewchildsza",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/andrewchilds?post_id=10157062163170052_10157062163640052#/facebook",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "vexersa",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/vexersa/6b520d58b98e7006524cf25204250123",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1GBL7ddwssgtNzkx81Szcdncg2coeVjVSd",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "andrewchildsza",
+      "proof_url": "https://twitter.com/andrewchildsza/status/746273743429844992",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "andrewchildsza",
+      "proof_url": "https://onename.com/andrewchilds?post_id=10157062163170052_10157062163640052#/facebook",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "vexersa",
+      "proof_url": "https://gist.github.com/vexersa/6b520d58b98e7006524cf25204250123",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN andrewchilds.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/andrewchilds.id\"\n"
+}

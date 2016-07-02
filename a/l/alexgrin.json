@@ -1,0 +1,44 @@
+{
+  "owner_address": "1ET35P3rNErP8SpstcRYdwFuCLVEg2M9sY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "lyoshenka",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/lyoshenka/8aa99bf6c2690c1c41647a20b14e1d3e",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "17ovpRmagg7TFiGaYw4PMHUUKe8MNwBwkc",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Alex Grin",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://grin.io"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "lyoshenka",
+      "proof_url": "https://gist.github.com/lyoshenka/8aa99bf6c2690c1c41647a20b14e1d3e",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN alexgrin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alexgrin.id\"\n"
+}

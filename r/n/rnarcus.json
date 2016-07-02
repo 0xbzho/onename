@@ -1,0 +1,67 @@
+{
+  "owner_address": "1NTfhhRnrr7kvd3KjyyHPSjnP4wuexUUE3",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rnarcus",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rnarcus/status/744978028925685760",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rnarcus",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rnarcus/368f429b1fd3781ed6d9dcea04bfd018",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rnarcus",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/rnarcus/posts/10154234685132346",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Gelsenkirchen"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rnarcus",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rnarcus",
+        "name": "cover"
+      }
+    ],
+    "name": "Marcus Klein"
+  },
+  "verifications": [
+    {
+      "identifier": "rnarcus",
+      "proof_url": "https://twitter.com/rnarcus/status/744978028925685760",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "rnarcus",
+      "proof_url": "https://gist.github.com/rnarcus/368f429b1fd3781ed6d9dcea04bfd018",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "rnarcus",
+      "proof_url": "https://www.facebook.com/rnarcus/posts/10154234685132346",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rnarcus.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rnarcus.id\"\n"
+}

@@ -1,0 +1,60 @@
+{
+  "owner_address": "1MaVf9hG2dKzvANsFo6fJ4PbUdQqERz6J8",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "siegberttill",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SiegbertTill/status/747707740328501248",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "siegbert.till",
+        "proofType": "http",
+        "proofUrl": "Verifying that +siegberttill is my blockchain ID. https://onename.com/siegberttill",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Rio de Janeiro"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/siegberttill",
+        "name": "avatar"
+      }
+    ],
+    "name": "Siegbert Till",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.11millionaires.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "siegberttill",
+      "proof_url": "https://twitter.com/SiegbertTill/status/747707740328501248",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "siegbert.till",
+      "proof_url": "Verifying that +siegberttill is my blockchain ID. https://onename.com/siegberttill",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN siegberttill.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/siegberttill.id\"\n"
+}

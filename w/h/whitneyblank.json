@@ -1,0 +1,38 @@
+{
+  "owner_address": "18AjbUhUWjsn57P6hPcg5L9wpYGa5EAGaW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "WhitneyBlank",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/WhitneyBlank/status/747815597854101504",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "whitneyblank@protonmail.com",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Whitney Blank"
+  },
+  "verifications": [
+    {
+      "identifier": "WhitneyBlank",
+      "proof_url": "https://twitter.com/WhitneyBlank/status/747815597854101504",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN whitneyblank.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/whitneyblank.id\"\n"
+}

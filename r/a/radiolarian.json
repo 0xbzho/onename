@@ -1,0 +1,41 @@
+{
+  "owner_address": "1JhAEquqN7Z7yBcwXSGfmv5VnjnEVV3jrR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "barrabinfc",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/barrabinfc/94d1442c0a59575b47182bc7f341623d",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "sp"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/radiolarian",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/radiolarian",
+        "name": "cover"
+      }
+    ],
+    "name": "radiolarian"
+  },
+  "verifications": [
+    {
+      "identifier": "barrabinfc",
+      "proof_url": "https://gist.github.com/barrabinfc/94d1442c0a59575b47182bc7f341623d",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN radiolarian.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/radiolarian.id\"\n"
+}

@@ -1,0 +1,61 @@
+{
+  "owner_address": "1AsgMZV7nJyDaB1nHXy9BFgwBGeuqRgA1Z",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kalefranz",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kalefranz/status/746760684881469441",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kalefranz",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/kalefranz/54dcf9e391c11ce8c50d064b42c53651",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "12YqX1PjFXJpBJZB5RbeYZaWMzSMMdCceL",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Austin, Texas"
+    },
+    "description": "Conda Tech Lead at Continuum Analytics",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kalefranz",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/kalefranz",
+        "name": "cover"
+      }
+    ],
+    "name": "Kale Franz"
+  },
+  "verifications": [
+    {
+      "identifier": "kalefranz",
+      "proof_url": "https://twitter.com/kalefranz/status/746760684881469441",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "kalefranz",
+      "proof_url": "https://gist.github.com/kalefranz/54dcf9e391c11ce8c50d064b42c53651",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kalefranz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kalefranz.id\"\n"
+}

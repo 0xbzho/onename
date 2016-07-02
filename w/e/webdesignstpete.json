@@ -1,0 +1,36 @@
+{
+  "owner_address": "1KqcKNqQ5wrf9pSVD8NfFRjyQ1ELdhxeWv",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cool_webs",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cool_webs/status/747424096233857026",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https://www.facebook.com/peter.scribner.31?fref=ts",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "cool_webs",
+      "proof_url": "https://twitter.com/cool_webs/status/747424096233857026",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN webdesignstpete.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/webdesignstpete.id\"\n"
+}

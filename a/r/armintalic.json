@@ -1,0 +1,60 @@
+{
+  "owner_address": "16YL5srV64BVZBMJw7sHu3UAZjBw61nEhX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "armintalic",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/armintalic/status/744814712253079552",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "12jWdTj7R9f8GwCWawE5dnMuajA75Afu89",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "armintalic",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/armintalic/posts/10157074020345215",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Newcastle upon Tyne"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/armintalic",
+        "name": "avatar"
+      }
+    ],
+    "name": "Armin Talic"
+  },
+  "verifications": [
+    {
+      "identifier": "armintalic",
+      "proof_url": "https://twitter.com/armintalic/status/744814712253079552",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "armintalic",
+      "proof_url": "https://www.facebook.com/armintalic/posts/10157074020345215",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN armintalic.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/armintalic.id\"\n"
+}

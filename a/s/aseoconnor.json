@@ -1,0 +1,60 @@
+{
+  "owner_address": "1734vmkjPDARmk4oTL1CgTVPmypZot3APX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "aseoconnor",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/aseoconnor/status/745296971569709056",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "oconns",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/l.php?u=https%3A%2F%2Fonename.com%2Faseoconnor&h=HAQECM2EY&s=1",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "NYC"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/aseoconnor",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/aseoconnor",
+        "name": "cover"
+      }
+    ],
+    "name": "Sean O'Connor",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.seanoconn.org"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "aseoconnor",
+      "proof_url": "https://twitter.com/aseoconnor/status/745296971569709056",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "oconns",
+      "proof_url": "https://www.facebook.com/l.php?u=https%3A%2F%2Fonename.com%2Faseoconnor&h=HAQECM2EY&s=1",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN aseoconnor.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/aseoconnor.id\"\n"
+}

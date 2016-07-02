@@ -1,0 +1,54 @@
+{
+  "owner_address": "16cK1acEdJHb4n4R9HMxV2JJHdus64aRSo",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "courtneylmoser",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/courtneylmoser/status/744919318232698880",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "profile.php?id=7949749",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/permalink.php?story_fbid=10107757611760720&id=7949749",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Germantown, TN"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/courtneymoser",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/courtneymoser",
+        "name": "cover"
+      }
+    ],
+    "name": "Courtney Moser"
+  },
+  "verifications": [
+    {
+      "identifier": "courtneylmoser",
+      "proof_url": "https://twitter.com/courtneylmoser/status/744919318232698880",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "profile.php?id=7949749",
+      "proof_url": "https://www.facebook.com/permalink.php?story_fbid=10107757611760720&id=7949749",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN courtneymoser.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/courtneymoser.id\"\n"
+}

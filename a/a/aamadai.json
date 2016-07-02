@@ -1,0 +1,44 @@
+{
+  "owner_address": "1J76Fu6wZCcBoc9VokE5f2buF368zUhFtF",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "poti_polusco",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Baamadai%20is%20my%20blockchain%20ID.%20https://onename.com/aamadai",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "potipolusco",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/aamadai?post_id=1647587215562071_1647587438895382#/facebook",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "poti_polusco",
+      "proof_url": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Baamadai%20is%20my%20blockchain%20ID.%20https://onename.com/aamadai",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "potipolusco",
+      "proof_url": "https://onename.com/aamadai?post_id=1647587215562071_1647587438895382#/facebook",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN aamadai.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/aamadai.id\"\n"
+}

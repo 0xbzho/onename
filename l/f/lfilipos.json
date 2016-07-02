@@ -1,0 +1,44 @@
+{
+  "owner_address": "19VaUhUffgUTj35DNyv4NjvAu1h7m3PYgK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Lfilipos",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/lfilipos/status/746509621343379456",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Lfilipos",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/lfilipos/posts/10100300499378789",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Lfilipos",
+      "proof_url": "https://twitter.com/lfilipos/status/746509621343379456",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "Lfilipos",
+      "proof_url": "https://www.facebook.com/lfilipos/posts/10100300499378789",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN lfilipos.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lfilipos.id\"\n"
+}

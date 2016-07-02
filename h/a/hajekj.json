@@ -1,0 +1,56 @@
+{
+  "owner_address": "1FbZ5pL68wonnwxQmxwicum7GMXRYud9zx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "hajekj",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/hajekj/status/748093630091567104",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hajekj",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/hajekj/9673e733a47047ca707568686403e30c",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hajekj",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jan Hajek",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://hajekj.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "hajekj",
+      "proof_url": "https://twitter.com/hajekj/status/748093630091567104",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "hajekj",
+      "proof_url": "https://gist.github.com/hajekj/9673e733a47047ca707568686403e30c",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN hajekj.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hajekj.id\"\n"
+}

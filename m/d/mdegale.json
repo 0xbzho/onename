@@ -1,0 +1,44 @@
+{
+  "owner_address": "1Noh9g7fVjRkoGjzNh2B6Li3fNkwGAJtmA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Mdegale",
+        "proofType": "http",
+        "proofUrl": "https://mobile.twitter.com/mdegale/status/744978310875217921",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Mdegale",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mdegale/posts/10153472776227260?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Mdegale",
+      "proof_url": "https://mobile.twitter.com/mdegale/status/744978310875217921",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "Mdegale",
+      "proof_url": "https://www.facebook.com/mdegale/posts/10153472776227260?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mdegale.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mdegale.id\"\n"
+}

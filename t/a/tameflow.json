@@ -1,0 +1,31 @@
+{
+  "owner_address": "1DL2NcffDrjfMdnRXdsMtCaYMAEF5wYPjM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tameflow",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TameFlow/status/745624836781768704",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tameflow",
+      "proof_url": "https://twitter.com/TameFlow/status/745624836781768704",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tameflow.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tameflow.id\"\n"
+}

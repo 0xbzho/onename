@@ -1,0 +1,42 @@
+{
+  "owner_address": "17nyZSNQ6nb2RsJMTraD9iSnN4i7iA4RA4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/09ba7defcdc2f3a7a0abc3285c34ab01",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Xi'an, Shaanxi, China"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Tony Huang",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://oldcheng.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/09ba7defcdc2f3a7a0abc3285c34ab01",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tony_huang.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tony_huang.id\"\n"
+}

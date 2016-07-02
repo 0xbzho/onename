@@ -1,0 +1,36 @@
+{
+  "owner_address": "14ALQg1r6psgUPA97np8WWueiV3uZp4vxc",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "klaus.g.schroeter",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/hajekj/status/748093630091567104",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Berlin"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Klaus Schröter"
+  },
+  "verifications": [
+    {
+      "identifier": "klaus.g.schroeter",
+      "proof_url": "https://twitter.com/hajekj/status/748093630091567104",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN kgsberlin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kgsberlin.id\"\n"
+}

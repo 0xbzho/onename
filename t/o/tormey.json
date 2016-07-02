@@ -1,26 +1,40 @@
 {
   "owner_address": "12Bgm6ktRL91P6xxKpN6SSXDqzUyg9ZTt4",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/tormey"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "j_tormey",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1JustinEgsQJp1tkZAh5LE8g6rorvtSCmH",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "bio": "",
-    "bitcoin": {
-      "address": "1JuSTiNWPjK5hAuV1jFGtYhLddjhpb46oF"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/ic1.jpeg"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Justin Tormey"
-    },
-    "twitter": {
-      "username": "j_tormey"
-    },
-    "v": "0.2"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tormey",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Justin Tormey"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN tormey.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tormey.id\"\n"
 }

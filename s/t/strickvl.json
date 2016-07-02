@@ -1,0 +1,44 @@
+{
+  "owner_address": "1KcvTNGAgdUSuAXLV52PeAjFXemTWcW9q4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/strickvl",
+        "identifier": null,
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "strickvl",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/strickvl/67e2da0661a621001794372d138dca25",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Alex Strick van Linschoten",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.alexstrick.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "strickvl",
+      "proof_url": "https://gist.github.com/strickvl/67e2da0661a621001794372d138dca25",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN strickvl.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/strickvl.id\"\n"
+}

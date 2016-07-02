@@ -1,0 +1,62 @@
+{
+  "owner_address": "19DeGu9RM6eU9Xq8jPTURX7tv166CDSzQA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "vntrp",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/vntrp/status/747175554487463938",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "vntrp",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/vntrp/446ecca80fefa5864dd030ea1b5e31fa",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "vntrp",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/vntrp/posts/10153638118556905",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/vntrp_",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "vntrp",
+      "proof_url": "https://twitter.com/vntrp/status/747175554487463938",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "vntrp",
+      "proof_url": "https://gist.github.com/vntrp/446ecca80fefa5864dd030ea1b5e31fa",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "vntrp",
+      "proof_url": "https://www.facebook.com/vntrp/posts/10153638118556905",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN vntrp_.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vntrp_.id\"\n"
+}

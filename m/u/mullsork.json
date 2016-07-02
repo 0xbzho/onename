@@ -1,0 +1,31 @@
+{
+  "owner_address": "1EbHmABbmse5mAhxEG37DYthWn55QjdPTt",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mull",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mull/0571ed2f1a9a76b31ca633d4a697006f",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mull",
+      "proof_url": "https://gist.github.com/mull/0571ed2f1a9a76b31ca633d4a697006f",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mullsork.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mullsork.id\"\n"
+}

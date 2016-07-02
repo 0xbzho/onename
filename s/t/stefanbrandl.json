@@ -1,0 +1,51 @@
+{
+  "owner_address": "18gdCHsecbiS8my4EQT2tFenNfmAXee5yb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "http://pgp.mit.edu/pks/lookup?op=get&search=0x372BAC87BA4E86A4",
+        "identifier": "CB38EE8A6AE90CB4F520CE1B372BAC87BA4E86A4",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mrdlth",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mrdlth/3a7fd53f6e4a9ea501826b1955f1f768#file-gistfile1-txt",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mrdlth",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mrdlth/status/744994660054077441",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Stefan Brandl"
+  },
+  "verifications": [
+    {
+      "identifier": "mrdlth",
+      "proof_url": "https://gist.github.com/mrdlth/3a7fd53f6e4a9ea501826b1955f1f768#file-gistfile1-txt",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "mrdlth",
+      "proof_url": "https://twitter.com/mrdlth/status/744994660054077441",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN stefanbrandl.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stefanbrandl.id\"\n"
+}

@@ -1,0 +1,62 @@
+{
+  "owner_address": "1KVktBL4XZYLnvj5HqYGQK1YQ9HSULvnxr",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "yashovaanh",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/yashovaanh/status/744919409790062595",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "suneel.reddy",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/suneel.reddy/posts/10208709878656855",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/835827aa4c6bf131f8aaf55f65edbb4d",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hyderabad"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Suneel Reddy"
+  },
+  "verifications": [
+    {
+      "identifier": "yashovaanh",
+      "proof_url": "https://twitter.com/yashovaanh/status/744919409790062595",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "suneel.reddy",
+      "proof_url": "https://www.facebook.com/suneel.reddy/posts/10208709878656855",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/835827aa4c6bf131f8aaf55f65edbb4d",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN suneel.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/suneel.id\"\n"
+}

@@ -1,0 +1,62 @@
+{
+  "owner_address": "1GxThALYk4io1BxKmPbZ6AcnYL9u8vK3Ci",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "othatbrian",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/othatbrian/status/747152761976827904",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "othatbrian",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/othatbrian/f13535be9766e5dd5479a796e2255be3",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "briandstevens",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/briandstevens/posts/10206222330732981",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/othatbrian",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "othatbrian",
+      "proof_url": "https://twitter.com/othatbrian/status/747152761976827904",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "othatbrian",
+      "proof_url": "https://gist.github.com/othatbrian/f13535be9766e5dd5479a796e2255be3",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "briandstevens",
+      "proof_url": "https://www.facebook.com/briandstevens/posts/10206222330732981",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN othatbrian.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/othatbrian.id\"\n"
+}

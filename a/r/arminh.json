@@ -1,0 +1,41 @@
+{
+  "owner_address": "1Cc9tasWwzJLtrouf7Kkziy3uoh118JpG4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "arminhoffmann",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/arminhoffmann/status/747761604289249280",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Germany"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/arminh",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/arminh",
+        "name": "cover"
+      }
+    ],
+    "name": "Armin Hoffmann"
+  },
+  "verifications": [
+    {
+      "identifier": "arminhoffmann",
+      "proof_url": "https://twitter.com/arminhoffmann/status/747761604289249280",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN arminh.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/arminh.id\"\n"
+}

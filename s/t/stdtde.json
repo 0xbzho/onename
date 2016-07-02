@@ -1,0 +1,41 @@
+{
+  "owner_address": "1Fgmk3JmpkwQg5WCKmQiudtYAKJWbr6FL2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "StDt",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/StDt/status/744908753657544704",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Fränkische Schweiz"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/stdtde",
+        "name": "avatar"
+      }
+    ],
+    "name": "Stefan Dorscht"
+  },
+  "verifications": [
+    {
+      "identifier": "StDt",
+      "proof_url": "https://twitter.com/StDt/status/744908753657544704",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN stdtde.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stdtde.id\"\n"
+}

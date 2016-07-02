@@ -1,0 +1,62 @@
+{
+  "owner_address": "1LgdkG9GMH8j4HZWKAEQvr31kzC6nVZvh3",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "s17k",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/s17k/d6fdb52ecbd0b9cd4c217b8026755176",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "stanszczesniak",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/stanszczesniak/status/746019566141251584",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "stas.szczesniak",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/stas.szczesniak/posts/1255811321125709?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Warsaw"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Stanisław Szcześniak"
+  },
+  "verifications": [
+    {
+      "identifier": "s17k",
+      "proof_url": "https://gist.github.com/s17k/d6fdb52ecbd0b9cd4c217b8026755176",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "stanszczesniak",
+      "proof_url": "https://twitter.com/stanszczesniak/status/746019566141251584",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "stas.szczesniak",
+      "proof_url": "https://www.facebook.com/stas.szczesniak/posts/1255811321125709?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN szczesniak.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/szczesniak.id\"\n"
+}

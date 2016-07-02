@@ -1,0 +1,54 @@
+{
+  "owner_address": "1HjFbxj5wrv9PQyWrXf6toWGbiDqvSSPPf",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "elisbk",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/elisbk/status/747162671947079680",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "elisbk",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/elisbk/posts/10154366413359903",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London, UK"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/elisbk",
+        "name": "avatar"
+      }
+    ],
+    "name": "Elis Bruce-Konuah"
+  },
+  "verifications": [
+    {
+      "identifier": "elisbk",
+      "proof_url": "https://twitter.com/elisbk/status/747162671947079680",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "elisbk",
+      "proof_url": "https://www.facebook.com/elisbk/posts/10154366413359903",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN elisbk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/elisbk.id\"\n"
+}

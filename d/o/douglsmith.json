@@ -1,47 +1,74 @@
 {
   "owner_address": "1EPSYxyJ4E4aebzfEUqPFEjHoxdfwGtDWK",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/douglsmith"
-    },
-    "bio": "Tech enthusiast, WordPress tinkerer, entrepreneur, homeschooler, saved by grace. Co-founder @simplycm.",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/QAd.jpeg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/douglsmith/d6cf2de0d15e062b69e1"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "douglsmith",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/douglsmith/3108f1645c229c5ae6d5f134d8debac7",
+        "service": "github"
       },
-      "username": "douglsmith"
-    },
-    "location": {
-      "formatted": "Roscoe, IL"
-    },
-    "name": {
-      "formatted": "Doug Smith"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/douglsmith/status/574273038092476416"
+      {
+        "@type": "Account",
+        "identifier": "douglsmith",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/douglsmith/posts/10153828527707153",
+        "service": "facebook"
       },
-      "username": "douglsmith"
+      {
+        "@type": "Account",
+        "identifier": "douglsmith",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/douglsmith/status/748532351739793409",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Roscoe, IL"
     },
-    "v": "0.2",
-    "website": "http://smithsrus.com"
+    "description": "Tech enthusiast, WordPress tinkerer, entrepreneur, saved by grace. Co-founder @simplycm.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/douglsmith",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Doug Smith",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://smithsrus.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "douglsmith",
-      "proof_url": "https://gist.github.com/douglsmith/d6cf2de0d15e062b69e1",
+      "proof_url": "https://gist.github.com/douglsmith/3108f1645c229c5ae6d5f134d8debac7",
       "service": "github",
-      "valid": false
+      "valid": true
     },
     {
       "identifier": "douglsmith",
-      "proof_url": "https://twitter.com/douglsmith/status/574273038092476416",
+      "proof_url": "https://www.facebook.com/douglsmith/posts/10153828527707153",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "douglsmith",
+      "proof_url": "https://twitter.com/douglsmith/status/748532351739793409",
       "service": "twitter",
-      "valid": false
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN douglsmith.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/douglsmith.id\"\n"
 }

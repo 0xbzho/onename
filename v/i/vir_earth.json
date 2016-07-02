@@ -1,0 +1,74 @@
+{
+  "owner_address": "1AbqyX71shynboysRA6hUdYQ1DCiCMVHYu",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "virgiledeville",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/VirgileDeville/status/747175717406806017",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "virgile-dev",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/virgile-dev/7ce5293d4bb8af669741f7c8e12b5e75",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "virgile.devile",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/virgile.devile/posts/10153701010068359",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris"
+    },
+    "description": "Europe founder and Peer at Democracy.earth",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/vir_earth",
+        "name": "avatar"
+      }
+    ],
+    "name": "Vir Dev",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://democracy.earth"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "virgiledeville",
+      "proof_url": "https://twitter.com/VirgileDeville/status/747175717406806017",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "virgile-dev",
+      "proof_url": "https://gist.github.com/virgile-dev/7ce5293d4bb8af669741f7c8e12b5e75",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "virgile.devile",
+      "proof_url": "https://www.facebook.com/virgile.devile/posts/10153701010068359",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN vir_earth.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vir_earth.id\"\n"
+}

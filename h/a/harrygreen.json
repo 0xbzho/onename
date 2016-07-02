@@ -1,0 +1,56 @@
+{
+  "owner_address": "1A4XGE9DcHvQhfmD3bhzEeAtYDnPBfU2UY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "hjgreen_",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/HJGreen_/status/744832180237537280",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "HJGreen",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/HJGreen/973bba3b282f674becef475fe85b97a6",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Newcastle upon Tyne"
+    },
+    "description": "Web Developer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Harry Green",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://harry.green"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "hjgreen_",
+      "proof_url": "https://twitter.com/HJGreen_/status/744832180237537280",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "HJGreen",
+      "proof_url": "https://gist.github.com/HJGreen/973bba3b282f674becef475fe85b97a6",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN harrygreen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/harrygreen.id\"\n"
+}

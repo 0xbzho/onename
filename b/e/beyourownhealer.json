@@ -1,0 +1,74 @@
+{
+  "owner_address": "1EUx5moq8U9WYYyPRtoKL3V67UF92NePhv",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Healing_Secrets",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Healing_Secrets/status/747365267013984256",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "prohealingsecrets",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/prohealingsecrets/4fad5578d3b0452d40e26d254d84334f",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "INSIGHTSintoHEALTH",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/INSIGHTSintoHEALTH/posts/1256003977744593?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "C 2, Lisha Vistara, Cherry Cross, Cherry Lane, Green Glen Layout, Bellandur, Bangalore Karnataka 560103 India"
+    },
+    "description": "I am a natural healer employing various different natural remedies and therapies in my healing venture.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/beyourownhealer",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/beyourownhealer",
+        "name": "cover"
+      }
+    ],
+    "name": "Pro Healing Secrets",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.ProHealingSecrets.com/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Healing_Secrets",
+      "proof_url": "https://twitter.com/Healing_Secrets/status/747365267013984256",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "prohealingsecrets",
+      "proof_url": "https://gist.github.com/prohealingsecrets/4fad5578d3b0452d40e26d254d84334f",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "INSIGHTSintoHEALTH",
+      "proof_url": "https://www.facebook.com/INSIGHTSintoHEALTH/posts/1256003977744593?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN beyourownhealer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/beyourownhealer.id\"\n"
+}

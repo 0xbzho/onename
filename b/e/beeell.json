@@ -1,0 +1,85 @@
+{
+  "owner_address": "15sixjwmFmVbtV9g9iP1Fwf6dHg4LWPrmT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "beeell81",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/beeell81/status/745258236094275584",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "beeell1",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/beeell1/dc893062cf4c14eec7e2198a61b8cdf3",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/beeell/key.asc",
+        "identifier": "003642546512319D2A15F300A7ABE0A5E88ED200",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/beeell82/posts/275434209476706",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1PaXDRTvFfBU4vV6i2pfFQZ5PPuxb5WURT",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kuching"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/beeell",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/beeell",
+        "name": "cover"
+      }
+    ],
+    "name": "Bee Ell",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://beeell.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "beeell81",
+      "proof_url": "https://twitter.com/beeell81/status/745258236094275584",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "beeell1",
+      "proof_url": "https://gist.github.com/beeell1/dc893062cf4c14eec7e2198a61b8cdf3",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "",
+      "proof_url": "https://www.facebook.com/beeell82/posts/275434209476706",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN beeell.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/beeell.id\"\n"
+}

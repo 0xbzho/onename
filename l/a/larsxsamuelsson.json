@@ -1,0 +1,47 @@
+{
+  "owner_address": "19A1LkjVCFgaD9UMjco8hDmbXUfP22UuyS",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Larsxsamuelsson",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/larsxsamuelsson/status/744895837235515393",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Odensala, Sweden"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/larsxsamuelsson",
+        "name": "avatar"
+      }
+    ],
+    "name": "Lars Samuelsson",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://thoughts.samuelsson.co"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Larsxsamuelsson",
+      "proof_url": "https://twitter.com/larsxsamuelsson/status/744895837235515393",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN larsxsamuelsson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/larsxsamuelsson.id\"\n"
+}

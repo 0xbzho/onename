@@ -1,0 +1,79 @@
+{
+  "owner_address": "1HKNAvM3Ee5SchCqU7Mq1N7HSMvUf3EYzA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jvsteiner",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jvsteiner/cbff5d7096b5da7fcf9705b121d7442f",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pgp.mit.edu/pks/lookup?op=get&search=0x5A9F0669AA6E46B8",
+        "identifier": "FA2D06569D0861354F4E738F5A9F0669AA6E46B8",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1ZGANqqhfq9vGgsJ9hi9GCbmtG8hAwrh7",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jvsteiner",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jvsteiner/status/747770806806134784",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jamie.v.steiner",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jamie.v.steiner/posts/10154356064404090",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Riga, Latvia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jvsteiner",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jamie Steiner"
+  },
+  "verifications": [
+    {
+      "identifier": "jvsteiner",
+      "proof_url": "https://gist.github.com/jvsteiner/cbff5d7096b5da7fcf9705b121d7442f",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jvsteiner",
+      "proof_url": "https://twitter.com/jvsteiner/status/747770806806134784",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jamie.v.steiner",
+      "proof_url": "https://www.facebook.com/jamie.v.steiner/posts/10154356064404090",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jvsteiner.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jvsteiner.id\"\n"
+}

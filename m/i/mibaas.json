@@ -1,0 +1,62 @@
+{
+  "owner_address": "1HS3NRQwaaMUYXpqqbYBTiEXSkASsH1Kw4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mbaas",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mbaas/posts/10154876272186124",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mbaas",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mbaas/status/745169110217068544",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mbaas2",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mbaas2/d900090eedf8788ab7850e401e9cb346",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mibaas",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mbaas",
+      "proof_url": "https://www.facebook.com/mbaas/posts/10154876272186124",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "mbaas",
+      "proof_url": "https://twitter.com/mbaas/status/745169110217068544",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mbaas2",
+      "proof_url": "https://gist.github.com/mbaas2/d900090eedf8788ab7850e401e9cb346",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mibaas.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mibaas.id\"\n"
+}

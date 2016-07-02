@@ -1,0 +1,44 @@
+{
+  "owner_address": "1KTsnny6KEC36K7J8VrogtcheVHLkDLAwx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "TheRealTKC",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TheRealTKC/status/744172257635897344",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "BigErn5",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/BigErn5/942688545d8b1f3718d630933e3afbd0.js",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "TheRealTKC",
+      "proof_url": "https://twitter.com/TheRealTKC/status/744172257635897344",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "BigErn5",
+      "proof_url": "https://gist.github.com/BigErn5/942688545d8b1f3718d630933e3afbd0.js",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tomcarey.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tomcarey.id\"\n"
+}

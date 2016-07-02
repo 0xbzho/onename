@@ -1,0 +1,73 @@
+{
+  "owner_address": "1FhCBDU9FciqtpvFmgRPqNGQfnxmB5xBBS",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "camazorro",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/camazorro/status/745379825121103872",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "camazorro",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/camazorro/c4f060d24069af73c4e3b36ea39302ee",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Gerardo-Renovales-489337747910475/",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/grenovales/posts/10154134794836183",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lakeland FL"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/camazorro",
+        "name": "avatar"
+      }
+    ],
+    "name": "Gerardo Renovales",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://gerardorenovales.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "camazorro",
+      "proof_url": "https://twitter.com/camazorro/status/745379825121103872",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "camazorro",
+      "proof_url": "https://gist.github.com/camazorro/c4f060d24069af73c4e3b36ea39302ee",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "Gerardo-Renovales-489337747910475/",
+      "proof_url": "https://www.facebook.com/grenovales/posts/10154134794836183",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN camazorro.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/camazorro.id\"\n"
+}

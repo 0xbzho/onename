@@ -1,0 +1,55 @@
+{
+  "owner_address": "1GG5XHGSe8bb4tDg2e8E9TzTJtjms7mLKG",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rafke",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Rafke/status/746781071497371649",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rafbuyle",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rafbuyle/ded265b458a6781288533390832e3969",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Belgium, Puivelde"
+    },
+    "description": "Passionate about e-Government & Web of Data",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rafbuyle",
+        "name": "avatar"
+      }
+    ],
+    "name": "Raf Buyle"
+  },
+  "verifications": [
+    {
+      "identifier": "rafke",
+      "proof_url": "https://twitter.com/Rafke/status/746781071497371649",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "rafbuyle",
+      "proof_url": "https://gist.github.com/rafbuyle/ded265b458a6781288533390832e3969",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rafbuyle.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rafbuyle.id\"\n"
+}

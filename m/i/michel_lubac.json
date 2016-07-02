@@ -1,0 +1,76 @@
+{
+  "owner_address": "12yyJDRKPFW3SK37e4xeDerZ2rg8SKwqWp",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "philemonday",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/philemonday/e2a517c64d1ee3c6ac6d5819cf5ddc46",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "16QPs8R6XsMxcpvEovgSZyvMV7ytwT9fyV",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Philemonday_Ltd",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Philemonday_Ltd/status/745303362598477825",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "michel.lubac",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/michel.lubac/posts/10154262277272378",
+        "service": "facebook"
+      }
+    ],
+    "description": "Digital Consultant",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/michel_lubac",
+        "name": "avatar"
+      }
+    ],
+    "name": "Michel Lubac",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.philemonday-agency.com/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "philemonday",
+      "proof_url": "https://gist.github.com/philemonday/e2a517c64d1ee3c6ac6d5819cf5ddc46",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "Philemonday_Ltd",
+      "proof_url": "https://twitter.com/Philemonday_Ltd/status/745303362598477825",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "michel.lubac",
+      "proof_url": "https://www.facebook.com/michel.lubac/posts/10154262277272378",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN michel_lubac.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/michel_lubac.id\"\n"
+}

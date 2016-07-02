@@ -1,0 +1,69 @@
+{
+  "owner_address": "1K5SY91HbEV3KvrD44UpMjK9bsv2i9oxSR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "caribaIT",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/caribaIT/status/744768933996167172",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "caribaIT",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/caribaIT/posts/1155377141173457",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cariba",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/cariba/a61babff041a97489cd737e889e98fd4",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cariba",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/cariba",
+        "name": "cover"
+      }
+    ],
+    "name": "Cariba Internet Technology GmbH",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.cariba.de/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "caribaIT",
+      "proof_url": "https://twitter.com/caribaIT/status/744768933996167172",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "caribaIT",
+      "proof_url": "https://www.facebook.com/caribaIT/posts/1155377141173457",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "cariba",
+      "proof_url": "https://gist.github.com/cariba/a61babff041a97489cd737e889e98fd4",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN cariba.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cariba.id\"\n"
+}

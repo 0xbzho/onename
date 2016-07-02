@@ -1,49 +1,67 @@
 {
   "owner_address": "19t13zycTD7TtMAE51zLinukMgXDYEb3bf",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/mitchwongho"
-    },
-    "bio": "Jack of all trades, Jedi Master of none",
-    "bitcoin": {
-      "address": "1QGf2YDFQfTNCoq1qmPLoHswPhLUWbW3Lh"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/mitchwongho"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/mitchwongho/84436cbd63b796172aa0#file-gistfile1-txt"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1QGf2YDFQfTNCoq1qmPLoHswPhLUWbW3Lh",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "mitchwongho"
-    },
-    "location": {
-      "formatted": "/~"
-    },
-    "name": {
-      "formatted": "Pear Programmer"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/mitchwongho/status/533067769516793856"
+      {
+        "@type": "Account",
+        "identifier": "mitchwongho",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mitchwongho/status/748871206292557824",
+        "service": "twitter"
       },
-      "username": "mitchwongho"
+      {
+        "@type": "Account",
+        "identifier": "mitchwongho",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mitchwongho/84436cbd63b796172aa0",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "/~"
     },
-    "v": "0.2",
-    "website": "http://about.me/mitchwongho"
+    "description": "Jack of all trades, Jedi Master of none",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mitchwongho",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mitchwongho",
+        "name": "avatar"
+      }
+    ],
+    "name": "Pear Programmer",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://about.me/mitchwongho"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "mitchwongho",
-      "proof_url": "https://gist.github.com/mitchwongho/84436cbd63b796172aa0#file-gistfile1-txt",
-      "service": "github",
+      "proof_url": "https://twitter.com/mitchwongho/status/748871206292557824",
+      "service": "twitter",
       "valid": true
     },
     {
       "identifier": "mitchwongho",
-      "proof_url": "https://twitter.com/mitchwongho/status/533067769516793856",
-      "service": "twitter",
+      "proof_url": "https://gist.github.com/mitchwongho/84436cbd63b796172aa0",
+      "service": "github",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN mitchwongho.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mitchwongho.id\"\n"
 }
