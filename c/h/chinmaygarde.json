@@ -1,6 +1,36 @@
 {
-  "owner_address": "1H8WydG1ZkYuUKmCfBenhaWwsyYY74WFUy",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1GWnQYt5Tmud1BfszF3xRJgLjvwuRFFBrw",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "chinmaygarde",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/chinmaygarde/status/748279507052703745",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco, CA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Chinmay Garde"
+  },
+  "verifications": [
+    {
+      "identifier": "chinmaygarde",
+      "proof_url": "https://twitter.com/chinmaygarde/status/748279507052703745",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN chinmaygarde.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/chinmaygarde.id\"\n"
 }

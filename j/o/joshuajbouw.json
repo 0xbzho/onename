@@ -5,24 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "JoshuaJBouw",
-        "proofType": "http",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "Grittenoir",
-        "proofType": "http",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
-        "identifier": "joshuajbouw",
-        "proofType": "http",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
         "identifier": "1DkdecA6BKmrRxwqWPWTt97avDDXRLZjn1",
         "role": "payment",
         "service": "bitcoin"
@@ -31,6 +13,27 @@
         "@type": "Account",
         "identifier": "grittenald",
         "service": "steemit.com"
+      },
+      {
+        "@type": "Account",
+        "identifier": "JoshuaJBouw",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JoshuaJBouw/status/749099310562709505",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "JoshuaJBouw",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/JoshuaJBouw/posts/10208353459467392",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "joshuajbouw",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/joshuajbouw/4c4cd7106add5b3ab127beb14392659e",
+        "service": "github"
       }
     ],
     "address": {
@@ -52,6 +55,25 @@
     ],
     "name": "Joshua J. Bouw"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "JoshuaJBouw",
+      "proof_url": "https://twitter.com/JoshuaJBouw/status/749099310562709505",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "JoshuaJBouw",
+      "proof_url": "https://www.facebook.com/JoshuaJBouw/posts/10208353459467392",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "joshuajbouw",
+      "proof_url": "https://gist.github.com/joshuajbouw/4c4cd7106add5b3ab127beb14392659e",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN joshuajbouw.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/joshuajbouw.id\"\n"
 }
