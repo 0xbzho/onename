@@ -1,45 +1,48 @@
 {
   "owner_address": "19pmmRJa95tazUXSMXppkH1zxVUyEVLMgs",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/dz_soul"
-    },
-    "bio": "#DZ #Digital Lover | #Webaddict | Creative thinking  | #Hospitality | #Photography | #Graphic #Design #Branding #Algeria #SBA #Oran",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/dz_soul"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/nabil.louahala/posts/10207689087777359"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nabil.louahala",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "nabil.louahala"
+      {
+        "@type": "Account",
+        "identifier": "Dz_Soul",
+        "proofType": "http",
+        "proofUrl": "https://t.co/dvM4n5LpEt",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Oran,Algérie"
     },
-    "location": {
-      "formatted": "Oran,Algérie"
-    },
-    "name": {
-      "formatted": "LouNz"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/Dz_Soul/status/702773686491877376"
+    "description": "#DZ #Digital Lover | #Webaddict | Creative thinking  | #Hospitality | #Photography | #Graphic #Design #Branding #Algeria #SBA #Oran",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/dz_soul",
+        "name": "cover"
       },
-      "username": "Dz_Soul"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dz_soul",
+        "name": "avatar"
+      }
+    ],
+    "name": "LouNz"
   },
   "verifications": [
     {
       "identifier": "Dz_Soul",
-      "proof_url": "https://twitter.com/Dz_Soul/status/702773686491877376",
+      "proof_url": "https://t.co/dvM4n5LpEt",
       "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "nabil.louahala",
-      "proof_url": "https://facebook.com/nabil.louahala/posts/10207689087777359",
-      "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN dz_soul.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dz_soul.id\"\n"
 }

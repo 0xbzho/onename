@@ -7,18 +7,21 @@
         "@type": "Account",
         "identifier": "MostAdvBeingYet",
         "proofType": "http",
+        "proofUrl": "https://twitter.com/MostAdvBeingYet/status/749583107142062080",
         "service": "twitter"
       },
       {
         "@type": "Account",
         "identifier": "MostAdvBeingYet",
         "proofType": "http",
+        "proofUrl": "https://www.facebook.com/MostAdvBeingYet/posts/216421202090717",
         "service": "facebook"
       },
       {
         "@type": "Account",
         "identifier": "MostAdvBeingYet",
         "proofType": "http",
+        "proofUrl": "https://gist.github.com/MostAdvBeingYet/b8c8f78d0eee945a733be30b639d7fab",
         "service": "github"
       }
     ],
@@ -47,6 +50,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "MostAdvBeingYet",
+      "proof_url": "https://twitter.com/MostAdvBeingYet/status/749583107142062080",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "MostAdvBeingYet",
+      "proof_url": "https://www.facebook.com/MostAdvBeingYet/posts/216421202090717",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "MostAdvBeingYet",
+      "proof_url": "https://gist.github.com/MostAdvBeingYet/b8c8f78d0eee945a733be30b639d7fab",
+      "service": "github",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN mostadvbeingyet.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mostadvbeingyet.id\"\n"
 }
