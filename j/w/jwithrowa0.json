@@ -1,6 +1,56 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "16npXrkWe6GEDdWgZsq91myGX4irv2VSjQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "joe.withrow.545",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/joe.withrow.545/posts/300033480334546",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jwzenconomics",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jwzenconomics/status/722415455869112320",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jwithrowa0",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jwithrowa0",
+        "name": "cover"
+      }
+    ],
+    "name": "Joe Withrow",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.zenconomics.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "joe.withrow.545",
+      "proof_url": "https://www.facebook.com/joe.withrow.545/posts/300033480334546",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "jwzenconomics",
+      "proof_url": "https://twitter.com/jwzenconomics/status/722415455869112320",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jwithrowa0.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jwithrowa0.id\"\n"
 }

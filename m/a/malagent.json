@@ -5,12 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "1FKutFV5FwVQ99Ambi3CpNbQZVMCXxCGoZ",
-        "role": "payment",
-        "service": "bitcoin"
-      },
-      {
-        "@type": "Account",
         "identifier": "malagent",
         "proofType": "http",
         "proofUrl": "https://twitter.com/malagent/status/743997717462953984",
@@ -27,15 +21,21 @@
         "@type": "Account",
         "identifier": "malagent",
         "proofType": "http",
-        "proofUrl": "https://gist.github.com/malagent/96117b511a378677eadd2e26827598cd",
+        "proofUrl": "https://gist.github.com/malagent/5d514672489c62cc2ca07ec419f9a482",
         "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1Roman9Ajr3htqKedDCgyCjCB3DAKHCb4",
+        "role": "payment",
+        "service": "bitcoin"
       }
     ],
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Kansas, USA"
     },
-    "description": "Former CEO. A visionary, technology and constitutional law enthusiest",
+    "description": "Former CEO.  A visionary. Technology, Cryptocurrency, and US Constitutional law enthusiast",
     "image": [
       {
         "@type": "ImageObject",
@@ -48,7 +48,13 @@
         "name": "cover"
       }
     ],
-    "name": "Roman Smith"
+    "name": "Roman Smith",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://fb.me/DOGE.Economist"
+      }
+    ]
   },
   "verifications": [
     {
@@ -65,9 +71,9 @@
     },
     {
       "identifier": "malagent",
-      "proof_url": "https://gist.github.com/malagent/96117b511a378677eadd2e26827598cd",
+      "proof_url": "https://gist.github.com/malagent/5d514672489c62cc2ca07ec419f9a482",
       "service": "github",
-      "valid": false
+      "valid": true
     }
   ],
   "zone_file": "$ORIGIN malagent.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/malagent.id\"\n"
