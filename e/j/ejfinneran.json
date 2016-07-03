@@ -1,63 +1,59 @@
 {
   "owner_address": "1EPEUdh6hrMwL4itUcTvHjBUacbZYwjUFS",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/ejfinneran"
-    },
-    "bio": "Chicago transplant living in PDX. Writing mostly Ruby and some Go @ cloudability.com Formerly viewpoints.com & IBM",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/ejfinneran"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/ej.finneran/posts/10101432362521041"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ejfinneran",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "ej.finneran"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/ejfinneran/04bf3de786c038ca58fe"
+      {
+        "@type": "Account",
+        "identifier": "ej.finneran",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "ejfinneran"
-    },
-    "location": {
-      "formatted": "Portland, OR"
-    },
-    "name": {
-      "formatted": "E.J. Finneran"
-    },
-    "pgp": {
-      "fingerprint": "F98820842B7461C6041DC060FC3E980F3445DEBA",
-      "url": "https://s3.amazonaws.com/pk9/ejfinneran"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/ejfinneran/status/581987234737340416"
+      {
+        "@type": "Account",
+        "identifier": "ejfinneran",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "ejfinneran"
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/ejfinneran",
+        "identifier": "F98820842B7461C6041DC060FC3E980F3445DEBA",
+        "role": "key",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Portland, OR"
     },
-    "v": "0.2",
-    "website": "http://www.finneran.us"
+    "description": "Chicago transplant living in PDX. Building stuff @ cloudability.com Formerly viewpoints.com & IBM",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ejfinneran",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ejfinneran",
+        "name": "cover"
+      }
+    ],
+    "name": "E.J. Finneran",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.finneran.us"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "ejfinneran",
-      "proof_url": "https://gist.github.com/ejfinneran/04bf3de786c038ca58fe",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "ejfinneran",
-      "proof_url": "https://twitter.com/ejfinneran/status/581987234737340416",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "ej.finneran",
-      "proof_url": "https://facebook.com/ej.finneran/posts/10101432362521041",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN ejfinneran.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ejfinneran.id\"\n"
 }

@@ -1,32 +1,54 @@
 {
   "owner_address": "1JwMkSC9AaWTZn25UNjfsLgTNtkxXYTPFw",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/arturomjj"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/IHL.jpg"
-    },
-    "location": {
-      "formatted": "UK"
-    },
-    "name": {
-      "formatted": "Arturo C"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/arturomjj/status/715981482028834816"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "arturomjj",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/arturomjj/20aa8f7aefe2f7a77081f3ce5ca9162f#file-gistfile1-txt",
+        "service": "github"
       },
-      "username": "arturomjj"
+      {
+        "@type": "Account",
+        "identifier": "arturomjj",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/arturomjj/status/715981482028834816",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "UK"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/arturomjj",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/arturomjj",
+        "name": "cover"
+      }
+    ],
+    "name": "Arturo C"
   },
   "verifications": [
+    {
+      "identifier": "arturomjj",
+      "proof_url": "https://gist.github.com/arturomjj/20aa8f7aefe2f7a77081f3ce5ca9162f#file-gistfile1-txt",
+      "service": "github",
+      "valid": true
+    },
     {
       "identifier": "arturomjj",
       "proof_url": "https://twitter.com/arturomjj/status/715981482028834816",
       "service": "twitter",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN arturomjj.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/arturomjj.id\"\n"
 }

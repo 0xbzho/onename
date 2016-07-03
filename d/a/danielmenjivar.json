@@ -1,6 +1,61 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "15x6bWbEFYXgawGTwxth2etA7vLSHHyMeh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "DanielMenjivar",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/DanielMenjivar/status/671555038762942464",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "DanielMenjivar",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/DanielMenjivar/bfa45d801f394470a453",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Toronto, Canada"
+    },
+    "description": "Bassist + Arranger",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/danielmenjivar",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/danielmenjivar",
+        "name": "cover"
+      }
+    ],
+    "name": "Daniel Menjívar",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://DanielMenjivar.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "DanielMenjivar",
+      "proof_url": "https://twitter.com/DanielMenjivar/status/671555038762942464",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "DanielMenjivar",
+      "proof_url": "https://gist.github.com/DanielMenjivar/bfa45d801f394470a453",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN danielmenjivar.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/danielmenjivar.id\"\n"
 }

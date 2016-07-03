@@ -1,10 +1,47 @@
 {
   "owner_address": "17gEjpwhU6UUtNiBsPsCeYrRRyji5LVyhc",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/Ov8.jpg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "denis.tereschenko",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/denis.tereschenko/posts/1197082870323388",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kiev"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/denistereschenko",
+        "name": "avatar"
+      }
+    ],
+    "name": "Denis Tereschenko",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.facebook.com/denis.tereschenko?ref=profile"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "denis.tereschenko",
+      "proof_url": "https://www.facebook.com/denis.tereschenko/posts/1197082870323388",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN denistereschenko.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/denistereschenko.id\"\n"
 }

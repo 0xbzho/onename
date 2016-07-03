@@ -1,39 +1,40 @@
 {
   "owner_address": "17yhwr6x74dmW2BEnWqmHB5S3HLwkeKTzv",
   "profile": {
+    "@type": "Person",
     "account": [
+      {
+        "@type": "Account",
+        "identifier": "1985eWnwDPndE3oMKLRWubJijpjhXonHW8",
+        "role": "payment",
+        "service": "bitcoin"
+      },
       {
         "@type": "Account",
         "identifier": "caec39ca16a4189a241526db9b3719ef87338536",
         "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "service": "twitter"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/thegameroom"
-    },
-    "bitcoin": {
-      "address": "1985eWnwDPndE3oMKLRWubJijpjhXonHW8"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/thegameroom"
-    },
-    "name": {
-      "formatted": "The Game Room"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/_TheGameRoom_/status/717222863900639233"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/thegameroom",
+        "name": "avatar"
       },
-      "username": "_TheGameRoom_"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/thegameroom",
+        "name": "cover"
+      }
+    ],
+    "name": "The Game Room"
   },
-  "verifications": [
-    {
-      "identifier": "_TheGameRoom_",
-      "proof_url": "https://twitter.com/_TheGameRoom_/status/717222863900639233",
-      "service": "twitter",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN thegameroom.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/thegameroom.id\"\n"
 }
