@@ -1,27 +1,54 @@
 {
   "owner_address": "1KYYVjfmSdiadhCQKNy6C9TMrEskYJxKcm",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/jubodin"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "JuBodin",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Julie Bodin",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/jubodin",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Luxembourg"
     },
-    "bio": "Young MARCOM professional in #Luxembourg working at #POSTLuxembourg | #communication #marketing #HR #mindfulness",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/jubodin"
-    },
-    "facebook": {
-      "username": "Julie Bodin"
-    },
-    "location": {
-      "formatted": "Luxembourg"
-    },
-    "name": {
-      "formatted": "Julie Bodin"
-    },
-    "twitter": {
-      "username": "JuBodin"
-    },
-    "v": "0.2",
-    "website": "http://lu.linkedin.com/in/juliebodin"
+    "description": "Young MARCOM professional in #Luxembourg working at #POSTLuxembourg | #communication #marketing #HR #mindfulness",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jubodin",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jubodin",
+        "name": "cover"
+      }
+    ],
+    "name": "Julie Bodin",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://lu.linkedin.com/in/juliebodin"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "Julie Bodin",
+      "proof_url": "https://onename.com/jubodin",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jubodin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jubodin.id\"\n"
 }
