@@ -1,6 +1,44 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1Lp2ebXqyaLEReamP1c8YDkoBiMkAoMsAo",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "miguillo",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/miguillo/aaab6c824eea4a49c61b9f69cc105a29",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "miguillo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/miguillo/status/744986114201632768",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "miguillo",
+      "proof_url": "https://gist.github.com/miguillo/aaab6c824eea4a49c61b9f69cc105a29",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "miguillo",
+      "proof_url": "https://twitter.com/miguillo/status/744986114201632768",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN miguillo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/miguillo.id\"\n"
 }
