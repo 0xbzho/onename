@@ -7,6 +7,20 @@
         "@type": "Account",
         "identifier": "6d8508b16bbe8d34ed98f8fc95e5ae0ca7056af8",
         "service": "the bb bazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "brogangan",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/brogangan",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "benny.brogan",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/brogangan?",
+        "service": "facebook"
       }
     ],
     "address": {
@@ -29,6 +43,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "brogangan",
+      "proof_url": "https://onename.com/brogangan",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "benny.brogan",
+      "proof_url": "https://onename.com/brogangan?",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN brogangan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/brogangan.id\"\n"
 }
