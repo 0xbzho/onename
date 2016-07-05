@@ -1,23 +1,40 @@
 {
   "owner_address": "1291VDhmwfmeL6NWSHhwvRKVu3GZ23XoTs",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/lexarch"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1APJarTuZma72pPwbS9Y9LbWisVUQ5ARXm",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lex Arch"
     },
-    "bio": "Techno-enthusiast;  Coffee lover.  Follower of The Path! Quod amans natur.",
-    "bitcoin": {
-      "address": "1APJarTuZma72pPwbS9Y9LbWisVUQ5ARXm"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/lexarch"
-    },
-    "location": {
-      "formatted": "http://lexarch.flavors.me"
-    },
-    "name": {
-      "formatted": "Alexus (Lex Arch)"
-    },
-    "v": "0.2"
+    "description": "Techno-enthusiast,  coffee lover;  Follower of The Path! Quod amans natur.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/lexarch",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/lexarch",
+        "name": "cover"
+      }
+    ],
+    "name": "Alexus",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://lexarch.flavors.me"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN lexarch.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lexarch.id\"\n"
 }

@@ -1,38 +1,58 @@
 {
   "owner_address": "1Nxewkdvjq2R2HrHWpBB5rh1kt3zNh7mQZ",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/jonlarson"
-    },
-    "bitcoin": {
-      "address": "1B4g4mQ9wLvCDgr1hLPLkD5TdV8Mjo8Q37"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/wdX.jpeg"
-    },
-    "facebook": {
-      "username": "jonlarson90"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/jonlarson/60c47b1b08e433d4a13a"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jonlarson90",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "jonlarson"
+      {
+        "@type": "Account",
+        "identifier": "jonlarson90",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/jonlarson",
+        "identifier": "047D2E177CC2CAC8B6EF4D13861D93F8D1BECC66",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1JHRw73zy1Pg8aKwtoZX5ZWQVE4B451mdc",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jonlarson",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jonlarson/60c47b1b08e433d4a13a",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seattle"
     },
-    "location": {
-      "formatted": "Seattle"
-    },
-    "name": {
-      "formatted": "Jon Larson"
-    },
-    "pgp": {
-      "fingerprint": "047D2E177CC2CAC8B6EF4D13861D93F8D1BECC66",
-      "url": "https://s3.amazonaws.com/pk9/jonlarson"
-    },
-    "twitter": {
-      "username": "jonlarson90"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jonlarson",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jonlarson",
+        "name": "cover"
+      }
+    ],
+    "name": "Jon Larson"
   },
   "verifications": [
     {
@@ -41,5 +61,6 @@
       "service": "github",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN jonlarson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jonlarson.id\"\n"
 }

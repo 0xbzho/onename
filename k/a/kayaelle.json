@@ -1,10 +1,74 @@
 {
   "owner_address": "17VJMwBNpLkNLQjeh4tu7pWWfz9gbJXguS",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/KJy.jpeg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kayaelle",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/kayaelle/e831708729612aa3ad2a62b462a36574",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kayaelle",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kayaelle/status/750149139254677504",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kerri.lemoie",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/kerri.lemoie/posts/10208765153740622?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Providence, RI"
     },
-    "v": "0.2"
+    "description": "CEO/CTO at @OpenWorksGrp - #OpenBadges Contributer - @badgechain",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kayaelle",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/kayaelle",
+        "name": "cover"
+      }
+    ],
+    "name": "Kerri Lemoie",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://openworksgrp.com"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "kayaelle",
+      "proof_url": "https://gist.github.com/kayaelle/e831708729612aa3ad2a62b462a36574",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "kayaelle",
+      "proof_url": "https://twitter.com/kayaelle/status/750149139254677504",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "kerri.lemoie",
+      "proof_url": "https://www.facebook.com/kerri.lemoie/posts/10208765153740622?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kayaelle.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kayaelle.id\"\n"
 }
