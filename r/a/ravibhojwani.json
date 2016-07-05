@@ -1,52 +1,55 @@
 {
   "owner_address": "1JSMpKdn99DAyrJw6MMUGubj2sbnHLThpZ",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/ravibhojwani"
-    },
-    "bio": "Optometrist - applying for further education , Mtgox creditor,",
-    "bitcoin": {
-      "address": "1M6t2uQ2xxpAk1j12vFSWMYBtvQanhSWbg"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/ravibhojwani"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/ravibhojwani/posts/10155854852590093"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ravibhojwani",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "ravibhojwani"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/ravibhojwani"
-    },
-    "location": {
-      "formatted": "UK"
-    },
-    "name": {
-      "formatted": "Ravi Bhojwani"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/Ravibhojwani3/status/551275354115948545"
+      {
+        "@type": "Account",
+        "identifier": "1M6t2uQ2xxpAk1j12vFSWMYBtvQanhSWbg",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "RaviBhojwani3"
+      {
+        "@type": "Account",
+        "identifier": "RaviBhojwani3",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RaviBhojwani3/status/749995143130931202",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nottingham"
     },
-    "v": "0.2",
-    "website": "http://about.me/ravi.bhojwani"
+    "description": "Blockchain Consultant, Optometrist.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ravibhojwani",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ravibhojwani",
+        "name": "cover"
+      }
+    ],
+    "name": "Ravi Bhojwani",
+    "website": []
   },
   "verifications": [
     {
       "identifier": "RaviBhojwani3",
-      "proof_url": "https://twitter.com/Ravibhojwani3/status/551275354115948545",
+      "proof_url": "https://twitter.com/RaviBhojwani3/status/749995143130931202",
       "service": "twitter",
       "valid": true
-    },
-    {
-      "identifier": "ravibhojwani",
-      "proof_url": "https://facebook.com/ravibhojwani/posts/10155854852590093",
-      "service": "facebook",
-      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN ravibhojwani.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ravibhojwani.id\"\n"
 }

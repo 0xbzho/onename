@@ -1,10 +1,36 @@
 {
   "owner_address": "1PRjkhTcnpTmSLtjyQdZGTjTnGskXytATt",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/IKM.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/dd36127e258a08e2074ffeecacdc1ac2",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/openbazaarsex",
+        "name": "avatar"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/dd36127e258a08e2074ffeecacdc1ac2",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN openbazaarsex.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/openbazaarsex.id\"\n"
 }

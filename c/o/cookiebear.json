@@ -1,24 +1,72 @@
 {
   "owner_address": "1DxhohwTQtS91eQRKRiEmpJXg6crcD7PiV",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/cookiebear"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tysonquick",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TysonQuick/status/749851619815149568",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1GnYxrPZzgoiN9P3hDeDLK9tVZqp5Uchi8",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "da6d49c0aeb5772aca1405bbf987be560860ca06",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tysonquick",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/tysonquick/posts/10153968235154355?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco, CA"
     },
-    "bio": "Serial Entrepreneur. Currently CEO & Founder of @Instapage",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/cookiebear"
-    },
-    "location": {
-      "formatted": "San Francisco, CA"
-    },
-    "name": {
-      "formatted": "Tyson Quick"
-    },
-    "twitter": {
-      "username": "TysonQuick"
-    },
-    "v": "0.2",
-    "website": "http://Instapage.com"
+    "description": "Serial Entrepreneur. Currently CEO & Founder of @Instapage",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/cookiebear",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cookiebear",
+        "name": "avatar"
+      }
+    ],
+    "name": "Tyson Quick",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://Instapage.com"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "tysonquick",
+      "proof_url": "https://twitter.com/TysonQuick/status/749851619815149568",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "tysonquick",
+      "proof_url": "https://www.facebook.com/tysonquick/posts/10153968235154355?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN cookiebear.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cookiebear.id\"\n"
 }

@@ -1,51 +1,61 @@
 {
   "owner_address": "1ASjRTSM1KFNAAiJRoCHpCYPBEEUwxw96d",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/derek_smith"
-    },
-    "bio": "",
-    "bitcoin": {
-      "address": "1CX2ugaqRRP3bMdo7Jobf3jVDfMsoPrCag"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/KJy.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/farscapian/posts/625802884941"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1CX2ugaqRRP3bMdo7Jobf3jVDfMsoPrCag",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "farscapian"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/derek_smith"
-    },
-    "location": {
-      "formatted": "United States"
-    },
-    "name": {
-      "formatted": "Derek Smith"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/farscapian/status/706954975545573377"
+      {
+        "@type": "Account",
+        "identifier": "farscapian",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/farscapian/posts/635038486721",
+        "service": "facebook"
       },
-      "username": "farscapian"
+      {
+        "@type": "Account",
+        "identifier": "farscapian",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/farscapian/status/750031122625691649",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "United States"
     },
-    "v": "0.2"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/derek_smith",
+        "name": "avatar"
+      }
+    ],
+    "name": "Derek Smith"
   },
   "verifications": [
     {
       "identifier": "farscapian",
-      "proof_url": "https://twitter.com/farscapian/status/706954975545573377",
-      "service": "twitter",
+      "proof_url": "https://www.facebook.com/farscapian/posts/635038486721",
+      "service": "facebook",
       "valid": true
     },
     {
       "identifier": "farscapian",
-      "proof_url": "https://facebook.com/farscapian/posts/625802884941",
-      "service": "facebook",
-      "valid": false
+      "proof_url": "https://twitter.com/farscapian/status/750031122625691649",
+      "service": "twitter",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN derek_smith.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/derek_smith.id\"\n"
 }

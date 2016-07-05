@@ -1,10 +1,21 @@
 {
   "owner_address": "1JTU7rAX6TWZLpSci3kqkT3gQRxcHtWP5a",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/2wu.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/equipmentforsale",
+        "name": "avatar"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN equipmentforsale.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/equipmentforsale.id\"\n"
 }

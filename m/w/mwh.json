@@ -1,6 +1,61 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1DbUxj7MaXXEibXiJdthZ64tBH3QK4M8gh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mwh",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mwh/status/745604085500502016",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mwhdc",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mwhdc/b39c33e6b6e4ef8ab1b4e8272433b6d1",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Washington, DC"
+    },
+    "description": "Technophile",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mwh",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mwh",
+        "name": "cover"
+      }
+    ],
+    "name": "Michael Hutchinson",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://mwh.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mwh",
+      "proof_url": "https://twitter.com/mwh/status/745604085500502016",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mwhdc",
+      "proof_url": "https://gist.github.com/mwhdc/b39c33e6b6e4ef8ab1b4e8272433b6d1",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mwh.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mwh.id\"\n"
 }

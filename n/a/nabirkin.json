@@ -1,10 +1,22 @@
 {
   "owner_address": "19jGWnpxsoXxtzWJkV3zXBtC9ryQDnEYRJ",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/ic1.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nabirkin",
+        "name": "avatar"
+      }
+    ],
+    "name": "Artem Nabirkin"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN nabirkin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nabirkin.id\"\n"
 }
