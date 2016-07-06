@@ -1,61 +1,67 @@
 {
   "owner_address": "1Cv392D8j23xWWHhuzxBFjiS4ThLCtmLFj",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/rtruex"
-    },
-    "bio": "Working to provide 4th amendment rights for personal data",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/rtruex"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/rtruex/posts/10156047479075293"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "4DigitalRights",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/4DigitalRights/status/750351910436155392",
+        "service": "twitter"
       },
-      "username": "rtruex"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/fe84ce53bd7915b1cf3a.git"
+      {
+        "@type": "Account",
+        "identifier": "rtruex",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "fe84ce53bd7915b1cf3a.git"
+      {
+        "@type": "Account",
+        "identifier": "fe84ce53bd7915b1cf3a.git",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/fe84ce53bd7915b1cf3a.git",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Missouri"
     },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/rtruex"
-    },
-    "location": {
-      "formatted": "Missouri"
-    },
-    "name": {
-      "formatted": "Richard Truex"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/4DigitalRights/status/644913150198837248"
+    "description": "Working to provide 4th amendment rights for personal data",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rtruex",
+        "name": "avatar"
       },
-      "username": "4DigitalRights"
-    },
-    "v": "0.2",
-    "website": "http://personaldatacoalition.org"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rtruex",
+        "name": "cover"
+      }
+    ],
+    "name": "Richard Truex",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://personaldatacoalition.org"
+      }
+    ]
   },
   "verifications": [
+    {
+      "identifier": "4DigitalRights",
+      "proof_url": "https://twitter.com/4DigitalRights/status/750351910436155392",
+      "service": "twitter",
+      "valid": true
+    },
     {
       "identifier": "fe84ce53bd7915b1cf3a.git",
       "proof_url": "https://gist.github.com/fe84ce53bd7915b1cf3a.git",
       "service": "github",
       "valid": false
-    },
-    {
-      "identifier": "4DigitalRights",
-      "proof_url": "https://twitter.com/4DigitalRights/status/644913150198837248",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "rtruex",
-      "proof_url": "https://facebook.com/rtruex/posts/10156047479075293",
-      "service": "facebook",
-      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN rtruex.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rtruex.id\"\n"
 }

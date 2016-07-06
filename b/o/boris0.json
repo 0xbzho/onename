@@ -1,6 +1,40 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "14vxphx9NF5T9osne7RSpPkgaYWvQ9iSvj",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1GSDTDTeHBaJ3fYfonHB3LqQX3PrT47rYg",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "http://pgp.mit.edu/pks/lookup?op=get&search=0x9AF955AD31053F72",
+        "identifier": "B4E66B52A1BF38B29DB194BD7F980F3397D72A05",
+        "role": "key",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chicago"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://media.licdn.com/media/p/5/000/278/38d/27060a0.jpg",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/red-sky.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Boris Umantsev"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN boris0.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/boris0.id\"\n"
 }

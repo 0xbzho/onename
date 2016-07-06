@@ -1,27 +1,61 @@
 {
   "owner_address": "1L53U1AsRXPXqiVcTYmHvm6dwvW8Nmdjr6",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/phillip_long"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "RadHertz",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RadHertz/status/750399099598286848",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "phillip.long",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/phillip_long&redirect_uri=https://onename.com/phillip_long%23facebook",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Austin"
     },
-    "bio": "What I cannot create, I do not understand. R.P.Feynman",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/phillip_long"
-    },
-    "facebook": {
-      "username": "phillip.long"
-    },
-    "location": {
-      "formatted": "Austin"
-    },
-    "name": {
-      "formatted": "Phillip D. Long"
-    },
-    "twitter": {
-      "username": "RadHertz"
-    },
-    "v": "0.2",
-    "website": "http://about.me/longpd"
+    "description": "What I cannot create, I do not understand. R.P.Feynman",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/phillip_long",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/phillip_long",
+        "name": "cover"
+      }
+    ],
+    "name": "Phillip D. Long",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://about.me/longpd"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "RadHertz",
+      "proof_url": "https://twitter.com/RadHertz/status/750399099598286848",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "phillip.long",
+      "proof_url": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/phillip_long&redirect_uri=https://onename.com/phillip_long%23facebook",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN phillip_long.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/phillip_long.id\"\n"
 }
