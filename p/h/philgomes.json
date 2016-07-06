@@ -1,10 +1,51 @@
 {
   "owner_address": "13Hs6MGX6TvioySJGP9EMjUzwFuWK6VKqA",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/rVv.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "philgomes",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/philgomes/status/750453835626377221",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "philgomes",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/philgomes/posts/10157180204265341",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Phil Gomes",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://blog.philgomes.com/"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "philgomes",
+      "proof_url": "https://twitter.com/philgomes/status/750453835626377221",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "philgomes",
+      "proof_url": "https://www.facebook.com/philgomes/posts/10157180204265341",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN philgomes.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/philgomes.id\"\n"
 }

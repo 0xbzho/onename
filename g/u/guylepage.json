@@ -5,9 +5,24 @@
     "account": [
       {
         "@type": "Account",
+        "identifier": "guylepage3",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/guylepage3/status/750437834532777984",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
         "identifier": "g3lepage",
+        "proofType": "http",
         "proofUrl": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fg3lepage%2Fposts%2F10154179855498760",
         "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "guylepage3",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/guylepage3/48777a21a70d322b0fa4c1fcc53f4477",
+        "service": "github"
       }
     ],
     "accounts": [
@@ -41,7 +56,7 @@
       "@type": "PostalAddress",
       "addressLocality": "New York, NY"
     },
-    "description": "@blockstackorg developer. 1st hire, Design Partner @blockstacklabs (YC/@USV backed) entrepreneur, blockchain, creative, marketing, surf, triathlon, ironman",
+    "description": "@blockstackorg developer. 1st hire, Design Partner @blockstacklabs (YC/USV backed) entrepreneur, blockchain, creative, marketing, surf, triathlon, ironman",
     "image": [
       {
         "@type": "ImageObject",
@@ -62,6 +77,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "guylepage3",
+      "proof_url": "https://twitter.com/guylepage3/status/750437834532777984",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "g3lepage",
+      "proof_url": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fg3lepage%2Fposts%2F10154179855498760",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "guylepage3",
+      "proof_url": "https://gist.github.com/guylepage3/48777a21a70d322b0fa4c1fcc53f4477",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN guylepage.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/guylepage.id\"\n"
 }

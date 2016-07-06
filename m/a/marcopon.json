@@ -1,55 +1,73 @@
 {
   "owner_address": "1BKGTTA4zfmZMLQ47iCC9ni1yD78ERgc5c",
   "profile": {
-    "avatar": {
-      "url": "http://i.imgur.com/I1QTmFt.jpg"
-    },
-    "bitcoin": {
-      "address": "1Mark1tF6QGj112F5d3fQALGf41YfzXEK3"
-    },
-    "bitmessage": {
-      "address": "BM-NBLrn1cbzB7oncmW8JxHXEhMCoj7ac9F"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/half-moon.jpg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/MarcoPon/bb33ceb6882b0d3b760a"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "marco.pontello",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "MarcoPon"
-    },
-    "location": {
-      "formatted": "Italy"
-    },
-    "name": {
-      "formatted": "Marco Pontello"
-    },
-    "pgp": {
-      "fingerprint": "7EFFF01538C2BE8937BDAF52FABE6DB9D3807047",
-      "url": "http://mark0.net/0xD3807047.asc"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/MarcoPon/status/556102229082767361"
+      {
+        "@type": "Account",
+        "identifier": "MarcoPon",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "MarcoPon"
+      {
+        "@type": "Account",
+        "identifier": "1Mark1tF6QGj112F5d3fQALGf41YfzXEK3",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "http://mark0.net/0xD3807047.asc",
+        "identifier": "7EFFF01538C2BE8937BDAF52FABE6DB9D3807047",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "MarcoPon",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MarcoPon/status/750400683627646977",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Italy"
     },
-    "v": "0.2",
-    "website": "http://mark0.net"
+    "description": "Proficient in Notepad",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "http://i.imgur.com/I1QTmFt.jpg",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/half-moon.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Marco Pontello",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://mark0.net"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "MarcoPon",
-      "proof_url": "https://gist.github.com/MarcoPon/bb33ceb6882b0d3b760a",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "MarcoPon",
-      "proof_url": "https://twitter.com/MarcoPon/status/556102229082767361",
+      "proof_url": "https://twitter.com/MarcoPon/status/750400683627646977",
       "service": "twitter",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN marcopon.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/marcopon.id\"\n"
 }
