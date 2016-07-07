@@ -5,17 +5,24 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "RixPyx",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/saved/?cref=53&pnref=story",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
         "identifier": "oregonorigins",
         "proofType": "http",
         "proofUrl": "https://twitter.com/OregonOrigins/status/750080373548126208",
         "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rixpyx",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rixpyx/0d1552e7a9857c0d05dc5284e0c7dc28",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "RixPyx",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/RixPyx/posts/10208090852483737",
+        "service": "facebook"
       }
     ],
     "image": [
@@ -23,20 +30,31 @@
         "@type": "ImageObject",
         "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
         "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/urban_haiku",
+        "name": "avatar"
       }
     ]
   },
   "verifications": [
     {
-      "identifier": "RixPyx",
-      "proof_url": "https://www.facebook.com/saved/?cref=53&pnref=story",
-      "service": "facebook",
-      "valid": false
-    },
-    {
       "identifier": "oregonorigins",
       "proof_url": "https://twitter.com/OregonOrigins/status/750080373548126208",
       "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "rixpyx",
+      "proof_url": "https://gist.github.com/rixpyx/0d1552e7a9857c0d05dc5284e0c7dc28",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "RixPyx",
+      "proof_url": "https://www.facebook.com/RixPyx/posts/10208090852483737",
+      "service": "facebook",
       "valid": true
     }
   ],

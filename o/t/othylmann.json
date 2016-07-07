@@ -1,61 +1,65 @@
 {
   "owner_address": "1NCbNpYpyAA2QHUi2o4vbMEcVy7YMQN4t3",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/othylmann"
-    },
-    "bio": "Oliver is father, serial entrepreneur, developer whisperer, geek, and mobile junkie. He loves supporting people that want to go to where the puck is going to be",
-    "bitcoin": {
-      "address": "18iUn3EKh9xrMyA9vXaQmQysgDMXPdHMXi"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/othylmann"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/othylmann/posts/10152187329160793"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "othylmann",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "othylmann"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/othylmann/947e9bfb8c3bdb89e9e5"
+      {
+        "@type": "Account",
+        "identifier": "othylmann",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "othylmann"
-    },
-    "location": {
-      "formatted": "Cologne, Germany"
-    },
-    "name": {
-      "formatted": "Oliver Thylmann"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/othylmann/status/549977227769573376"
+      {
+        "@type": "Account",
+        "identifier": "othylmann",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "othylmann"
+      {
+        "@type": "Account",
+        "identifier": "18iUn3EKh9xrMyA9vXaQmQysgDMXPdHMXi",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ccd46c4d0c63401003169b3f470f43ac25d7086e",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Gibnige/status/750610915570122752",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cologne, Germany"
     },
-    "v": "0.2",
-    "website": "http://thylmann.net"
+    "description": "Oliver is father, serial entrepreneur, developer whisperer, geek, and mobile junkie. He loves supporting people that want to go to where the puck is going to be",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/othylmann",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/othylmann",
+        "name": "cover"
+      }
+    ],
+    "name": "Oliver Thylmann",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://thylmann.net"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "othylmann",
-      "proof_url": "https://gist.github.com/othylmann/947e9bfb8c3bdb89e9e5",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "othylmann",
-      "proof_url": "https://twitter.com/othylmann/status/549977227769573376",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "othylmann",
-      "proof_url": "https://facebook.com/othylmann/posts/10152187329160793",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN othylmann.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/othylmann.id\"\n"
 }

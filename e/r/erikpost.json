@@ -1,26 +1,68 @@
 {
   "owner_address": "1BfQ6B6QWE4jKkLqwsbYtBnWP6EHUiMp1k",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/erikpost"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "erikp0st",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/erikp0st/status/750752706512424960",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "erikpost",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/erikpost/0f0030b697f594ccfd1c1ca7cffad24a",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jungle.jim001",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jungle.jim001/posts/1425942374098613",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "iPhone: 52.196779,5.378438"
     },
-    "bio": "",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/lUU.jpeg"
-    },
-    "facebook": {
-      "username": "jungle.jim001"
-    },
-    "location": {
-      "formatted": "iPhone: 52.196779,5.378438"
-    },
-    "name": {
-      "formatted": "Erik Post"
-    },
-    "twitter": {
-      "username": "erikp0st"
-    },
-    "v": "0.2"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/erikpost",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Erik Post"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "erikp0st",
+      "proof_url": "https://twitter.com/erikp0st/status/750752706512424960",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "erikpost",
+      "proof_url": "https://gist.github.com/erikpost/0f0030b697f594ccfd1c1ca7cffad24a",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jungle.jim001",
+      "proof_url": "https://www.facebook.com/jungle.jim001/posts/1425942374098613",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN erikpost.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/erikpost.id\"\n"
 }
