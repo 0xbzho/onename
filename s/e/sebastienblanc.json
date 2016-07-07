@@ -1,6 +1,67 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1H7MWAkpJ4y2BJMQKaBnfx1fukKyJKi3xz",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sebastienblanc",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sebi2706",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/sebi2706/posts/10153925456873415",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sebi2706",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sebi2706/status/750763564277739520",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Vallauris, France"
+    },
+    "description": "Red Hat/JBoss, Mobile First including @AeroGears , Cordova,  Firefox OS but also RAD/Polyglot Tooling  and Grails.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sebastienblanc",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/sebastienblanc",
+        "name": "cover"
+      }
+    ],
+    "name": "Sébastien Blanc",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://sblanc.org"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "sebi2706",
+      "proof_url": "https://facebook.com/sebi2706/posts/10153925456873415",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "sebi2706",
+      "proof_url": "https://twitter.com/sebi2706/status/750763564277739520",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN sebastienblanc.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sebastienblanc.id\"\n"
 }

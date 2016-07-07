@@ -1,6 +1,70 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "16PqiDjSQVHL7pQWw6L194v2uUtvdRpvZj",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1PWZPoR5gQ9RGsxfYUwX2y8FW3pgnk3pmg",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "senjalarsen",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/senjalarsen/status/743565073814192128",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "senja.larsen",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/senja.larsen/posts/10154983997979129",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Helsinki - San Francisco"
+    },
+    "description": "Kauppalehden kirjeenvaihtaja. Correspondent for Kauppalehti, the leading Finnish business daily. Writes, listens, learns and tells stories big and small.",
+    "graph": {
+      "url": "https://s3.amazonaws.com/grph/senjalarsen"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/senjalarsen",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/senjalarsen",
+        "name": "cover"
+      }
+    ],
+    "name": "senjalarsen",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://senjalarsen.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "senjalarsen",
+      "proof_url": "https://twitter.com/senjalarsen/status/743565073814192128",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "senja.larsen",
+      "proof_url": "https://www.facebook.com/senja.larsen/posts/10154983997979129",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN senjalarsen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/senjalarsen.id\"\n"
 }

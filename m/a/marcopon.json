@@ -5,18 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "marco.pontello",
-        "proofType": "http",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
-        "identifier": "MarcoPon",
-        "proofType": "http",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
         "identifier": "1Mark1tF6QGj112F5d3fQALGf41YfzXEK3",
         "role": "payment",
         "service": "bitcoin"
@@ -34,6 +22,20 @@
         "proofType": "http",
         "proofUrl": "https://twitter.com/MarcoPon/status/750400683627646977",
         "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "marco.pontello",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/marco.pontello/posts/10154614332058352",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "MarcoPon",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/MarcoPon/da8fd3c812a9817cac59dcdcb05bfcda",
+        "service": "github"
       }
     ],
     "address": {
@@ -66,6 +68,18 @@
       "identifier": "MarcoPon",
       "proof_url": "https://twitter.com/MarcoPon/status/750400683627646977",
       "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "marco.pontello",
+      "proof_url": "https://www.facebook.com/marco.pontello/posts/10154614332058352",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "MarcoPon",
+      "proof_url": "https://gist.github.com/MarcoPon/da8fd3c812a9817cac59dcdcb05bfcda",
+      "service": "github",
       "valid": true
     }
   ],
