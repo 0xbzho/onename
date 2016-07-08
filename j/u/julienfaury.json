@@ -1,24 +1,61 @@
 {
   "owner_address": "1MCcY5CnwnFq7XhSdSgAzs3GyoE3JSGgLc",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/julienfaury"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "julienfaury",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/julienfaury/status/751043888887001088",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "julien.faury",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/julien.faury/posts/10154391968288623",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New Jersey, USA"
     },
-    "bio": "#entrepreneur @3dmodelize @alertgasoil #MBA #3dprinting #leadership #frenchtech activist - ready for a new beginning in any US challenge",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/julienfaury"
-    },
-    "location": {
-      "formatted": "New Jersey, USA"
-    },
-    "name": {
-      "formatted": "Julien FAURY"
-    },
-    "twitter": {
-      "username": "julienfaury"
-    },
-    "v": "0.2",
-    "website": "http://julienfaury.com"
+    "description": "#entrepreneur @3dmodelize @alertgasoil #MBA #3dprinting #leadership #frenchtech activist - ready for a new beginning in any US challenge",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/julienfaury",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/julienfaury",
+        "name": "cover"
+      }
+    ],
+    "name": "Julien FAURY",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://julienfaury.com"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "julienfaury",
+      "proof_url": "https://twitter.com/julienfaury/status/751043888887001088",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "julien.faury",
+      "proof_url": "https://www.facebook.com/julien.faury/posts/10154391968288623",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN julienfaury.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/julienfaury.id\"\n"
 }

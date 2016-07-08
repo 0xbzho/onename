@@ -1,6 +1,53 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1CBdAqdBuVUdUezhM87xAsV6rBbMYPPXwT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "shumai",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1B4e4kxiftXm2NbQUqRHbekrwvLMPG5QXH",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "6672fa503ee3769cf8cac5f8538044b764b256ea",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jebsel/229cdf57a711eec6ae4fda2a1f5a0b24",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Japan"
+    },
+    "description": "新しいこと楽しいこと不思議なことわくわくすることが大好きです！iPhone 6 Plus/MacBook Pro",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/shumai",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/shumai",
+        "name": "cover"
+      }
+    ],
+    "name": "しゅうまい",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://shumaiblog.com"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN shumai.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/shumai.id\"\n"
 }

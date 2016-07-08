@@ -1,59 +1,67 @@
 {
   "owner_address": "15xKFYLsMEotnyYwXH5NG2VZ6qutV6USWn",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/libovness"
-    },
-    "bio": "Investment @USV. Creator of @FiftyApp. Formerly Product Manager at @appsfire.\n\nI'm very handsome.",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/libovness"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/jonathan.libov/posts/10100253417461255"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jonathan.libov",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "jonathan.libov"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/libovness/768b2f0e19de2513aab1"
+      {
+        "@type": "Account",
+        "identifier": "libovness",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/libovness/status/751050673450606592",
+        "service": "twitter"
       },
-      "username": "libovness"
+      {
+        "@type": "Account",
+        "identifier": "libovness",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/libovness/91ff7a89070b2ea2b1774f12968bbc7a",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York, NY"
     },
-    "location": {
-      "formatted": "New York, NY"
-    },
-    "name": {
-      "formatted": "Jonathan Libov"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/libovness/status/550349258910470147"
+    "description": "Investment @USV. Creator of @FiftyApp. Formerly Product Manager at @appsfire.\n\nI'm very handsome.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/libovness",
+        "name": "avatar"
       },
-      "username": "libovness"
-    },
-    "v": "0.2",
-    "website": "http://whoo.ps"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/libovness",
+        "name": "cover"
+      }
+    ],
+    "name": "Jonathan Libov",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://whoo.ps"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "libovness",
-      "proof_url": "https://gist.github.com/libovness/768b2f0e19de2513aab1",
-      "service": "github",
+      "proof_url": "https://twitter.com/libovness/status/751050673450606592",
+      "service": "twitter",
       "valid": true
     },
     {
       "identifier": "libovness",
-      "proof_url": "https://twitter.com/libovness/status/550349258910470147",
-      "service": "twitter",
-      "valid": false
-    },
-    {
-      "identifier": "jonathan.libov",
-      "proof_url": "https://facebook.com/jonathan.libov/posts/10100253417461255",
-      "service": "facebook",
-      "valid": false
+      "proof_url": "https://gist.github.com/libovness/91ff7a89070b2ea2b1774f12968bbc7a",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN libovness.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/libovness.id\"\n"
 }

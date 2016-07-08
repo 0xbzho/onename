@@ -1,38 +1,54 @@
 {
   "owner_address": "13xZSMErQdvxGHy8MxYVXhGFdNfNL26MaE",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/arvandijk"
-    },
-    "bio": "Werkt @ Stimuleringsfonds vd Journalistiek @persinnovatie | media | economie | technologie | alternatieve muziek | reizen | Am. literatuur | fietsen | golf",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/n6r.jpeg"
-    },
-    "facebook": {
-      "username": "arvandijk"
-    },
-    "location": {
-      "formatted": "Zoetermeer"
-    },
-    "name": {
-      "formatted": "Rick van Dijk"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/ARvanDijk/status/533660704406904832"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "arvandijk",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "ARvanDijk"
+      {
+        "@type": "Account",
+        "identifier": "ARvanDijk",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ARvanDijk/status/751012418378145795",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Zoetermeer"
     },
-    "v": "0.2",
-    "website": "http://www.arvandijk.nl"
+    "description": "Werkt @ iMMovator @mediamattersvc | media | economie | technologie | alternatieve muziek | reizen | Am. literatuur | fietsen | golf",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/arvandijk",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Rick van Dijk",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.arvandijk.nl"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "ARvanDijk",
-      "proof_url": "https://twitter.com/ARvanDijk/status/533660704406904832",
+      "proof_url": "https://twitter.com/ARvanDijk/status/751012418378145795",
       "service": "twitter",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN arvandijk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/arvandijk.id\"\n"
 }
