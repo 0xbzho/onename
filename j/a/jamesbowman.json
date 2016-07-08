@@ -1,42 +1,60 @@
 {
   "owner_address": "14zJKodKvpqy6xS4g4HDeDGx34DoeZmXyk",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/jamesbowman"
-    },
-    "bio": "",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/lUU.jpeg"
-    },
-    "facebook": {
-      "username": "james.bowman.52831"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/james-bowman/e5c2760bd207ff883604"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "james.bowman.52831",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/james.bowman.52831/posts/1021263781254840",
+        "service": "facebook"
       },
-      "username": "james-bowman"
-    },
-    "location": {
-      "formatted": "Horsham, UK"
-    },
-    "name": {
-      "formatted": "James Bowman"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/JameseBowman/status/699337126534639618"
+      {
+        "@type": "Account",
+        "identifier": "JameseBowman",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JameseBowman/status/699337126534639618",
+        "service": "twitter"
       },
-      "username": "JameseBowman"
+      {
+        "@type": "Account",
+        "identifier": "james-bowman",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/james-bowman/e5c2760bd207ff883604",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Horsham, UK"
     },
-    "v": "0.2",
-    "website": "http://www.jamesbowman.me"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jamesbowman",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "James Bowman",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.jamesbowman.me"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "james-bowman",
-      "proof_url": "https://gist.github.com/james-bowman/e5c2760bd207ff883604",
-      "service": "github",
+      "identifier": "james.bowman.52831",
+      "proof_url": "https://www.facebook.com/james.bowman.52831/posts/1021263781254840",
+      "service": "facebook",
       "valid": true
     },
     {
@@ -44,6 +62,13 @@
       "proof_url": "https://twitter.com/JameseBowman/status/699337126534639618",
       "service": "twitter",
       "valid": true
+    },
+    {
+      "identifier": "james-bowman",
+      "proof_url": "https://gist.github.com/james-bowman/e5c2760bd207ff883604",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN jamesbowman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jamesbowman.id\"\n"
 }

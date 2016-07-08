@@ -5,12 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "e5b5fa316002d79c1593.git",
-        "proofType": "http",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
         "identifier": "1T7pWQBvDbJndZNhLeHQJQs4wZMxtn4aR",
         "role": "payment",
         "service": "bitcoin"
@@ -28,6 +22,13 @@
         "proofType": "http",
         "proofUrl": "https://www.facebook.com/Mimocom/posts/10104147340129205",
         "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ReidDecentral",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ReidDecentral/371bf2b6ad2f88f217544cc29fa5d0bf",
+        "service": "github"
       }
     ],
     "address": {
@@ -69,6 +70,12 @@
       "identifier": "Mimocom",
       "proof_url": "https://www.facebook.com/Mimocom/posts/10104147340129205",
       "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "ReidDecentral",
+      "proof_url": "https://gist.github.com/ReidDecentral/371bf2b6ad2f88f217544cc29fa5d0bf",
+      "service": "github",
       "valid": true
     }
   ],
