@@ -1,24 +1,74 @@
 {
   "owner_address": "1Q4ctqemPzE8GFPbujWSi1gCfgaRM734XA",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/nelson_m_rosario"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "NelsonMRosario",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/NelsonMRosario/status/751237556503584768",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nelson.m.rosario.58",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/nelson.m.rosario.58/posts/10107863507789290",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nelsonrosario",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/nelsonrosario/e2d7251307030a2772458430c16435eb",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chicago"
     },
-    "bio": "My thoughts (seriously, just mine) on law, technology, society, and everything else in-between",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/nelson_m_rosario"
-    },
-    "location": {
-      "formatted": "Chicago"
-    },
-    "name": {
-      "formatted": "Nelson M. Rosario"
-    },
-    "twitter": {
-      "username": "NelsonMRosario"
-    },
-    "v": "0.2",
-    "website": "https://www.linkedin.com/in/nelsonrosario"
+    "description": "My thoughts (seriously, just mine) on law, technology, society, and everything else in-between",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nelson_m_rosario",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/nelson_m_rosario",
+        "name": "cover"
+      }
+    ],
+    "name": "Nelson M. Rosario",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.linkedin.com/in/nelsonrosario"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "NelsonMRosario",
+      "proof_url": "https://twitter.com/NelsonMRosario/status/751237556503584768",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "nelson.m.rosario.58",
+      "proof_url": "https://www.facebook.com/nelson.m.rosario.58/posts/10107863507789290",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "nelsonrosario",
+      "proof_url": "https://gist.github.com/nelsonrosario/e2d7251307030a2772458430c16435eb",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN nelson_m_rosario.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nelson_m_rosario.id\"\n"
 }

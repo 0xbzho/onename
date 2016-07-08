@@ -5,12 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "Mimocom",
-        "proofType": "http",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
         "identifier": "e5b5fa316002d79c1593.git",
         "proofType": "http",
         "service": "github"
@@ -27,6 +21,13 @@
         "proofType": "http",
         "proofUrl": "https://twitter.com/creiddouthat/status/742138235879591940",
         "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Mimocom",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/Mimocom/posts/10104147340129205",
+        "service": "facebook"
       }
     ],
     "address": {
@@ -34,6 +35,9 @@
       "addressLocality": "Earth"
     },
     "description": "Technologies that have great potential to change the world 'drive me'.",
+    "graph": {
+      "url": "https://s3.amazonaws.com/grph/creiddouthat"
+    },
     "image": [
       {
         "@type": "ImageObject",
@@ -59,6 +63,12 @@
       "identifier": "creiddouthat",
       "proof_url": "https://twitter.com/creiddouthat/status/742138235879591940",
       "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Mimocom",
+      "proof_url": "https://www.facebook.com/Mimocom/posts/10104147340129205",
+      "service": "facebook",
       "valid": true
     }
   ],
