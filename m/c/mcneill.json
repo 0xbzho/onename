@@ -2,7 +2,15 @@
   "owner_address": "19cEfjdWtZYqc16a8xryXjikDd6TQ9RTjY",
   "profile": {
     "@type": "Person",
-    "account": [],
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "vincent_mcneill",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/vincent_mcneill/status/754335762901045248",
+        "service": "twitter"
+      }
+    ],
     "image": [
       {
         "@type": "ImageObject",
@@ -12,6 +20,13 @@
     ],
     "name": "Vincent McNeill"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "vincent_mcneill",
+      "proof_url": "https://twitter.com/vincent_mcneill/status/754335762901045248",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN mcneill.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mcneill.id\"\n"
 }

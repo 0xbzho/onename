@@ -18,17 +18,17 @@
       },
       {
         "@type": "Account",
-        "identifier": "designuiru",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/designuiru/6d62a28ae3a9424f02895f3cc12c1a43",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
         "identifier": "swebdesign",
         "proofType": "http",
         "proofUrl": "https://www.facebook.com/swebdesign/posts/1208882672476739",
         "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "etherdesignlab",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/etherdesignlab/d573e9f8f3c1f44b488dace6393672ad",
+        "service": "github"
       }
     ],
     "address": {
@@ -64,16 +64,16 @@
       "valid": true
     },
     {
-      "identifier": "designuiru",
-      "proof_url": "https://gist.github.com/designuiru/6d62a28ae3a9424f02895f3cc12c1a43",
-      "service": "github",
-      "valid": true
-    },
-    {
       "identifier": "swebdesign",
       "proof_url": "https://www.facebook.com/swebdesign/posts/1208882672476739",
       "service": "facebook",
-      "valid": false
+      "valid": true
+    },
+    {
+      "identifier": "etherdesignlab",
+      "proof_url": "https://gist.github.com/etherdesignlab/d573e9f8f3c1f44b488dace6393672ad",
+      "service": "github",
+      "valid": true
     }
   ],
   "zone_file": "$ORIGIN etherdesign.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/etherdesign.id\"\n"

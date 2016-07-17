@@ -5,17 +5,17 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "jm.sabet",
+        "identifier": "jmsabet",
         "proofType": "http",
-        "proofUrl": "https://www.facebook.com/jm.sabet",
-        "service": "facebook"
+        "proofUrl": "https://twitter.com/jmsabet/status/753952916252266496",
+        "service": "twitter"
       },
       {
         "@type": "Account",
-        "identifier": "jmsabet",
+        "identifier": "jm.sabet",
         "proofType": "http",
-        "proofUrl": "https://twitter.com/jmsabet",
-        "service": "twitter"
+        "proofUrl": "https://www.facebook.com/jm.sabet/posts/10153807179711696",
+        "service": "facebook"
       }
     ],
     "address": {
@@ -44,16 +44,16 @@
   },
   "verifications": [
     {
-      "identifier": "jm.sabet",
-      "proof_url": "https://www.facebook.com/jm.sabet",
-      "service": "facebook",
-      "valid": false
+      "identifier": "jmsabet",
+      "proof_url": "https://twitter.com/jmsabet/status/753952916252266496",
+      "service": "twitter",
+      "valid": true
     },
     {
-      "identifier": "jmsabet",
-      "proof_url": "https://twitter.com/jmsabet",
-      "service": "twitter",
-      "valid": false
+      "identifier": "jm.sabet",
+      "proof_url": "https://www.facebook.com/jm.sabet/posts/10153807179711696",
+      "service": "facebook",
+      "valid": true
     }
   ],
   "zone_file": "$ORIGIN jeanmarc.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jeanmarc.id\"\n"

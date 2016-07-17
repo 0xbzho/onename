@@ -5,12 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "kvitter",
-        "proofType": "http",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
         "identifier": "tinspin",
         "proofType": "http",
         "service": "github"
@@ -23,9 +17,16 @@
       },
       {
         "@type": "Account",
+        "identifier": "kvitter",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kvitter/status/754024033885294592",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
         "identifier": "marc.larue",
         "proofType": "http",
-        "proofUrl": "https://facebook.com/marc.larue/posts/10153403294990950",
+        "proofUrl": "https://www.facebook.com/marc.larue/posts/10153403294990950",
         "service": "facebook"
       }
     ],
@@ -45,8 +46,14 @@
   },
   "verifications": [
     {
+      "identifier": "kvitter",
+      "proof_url": "https://twitter.com/kvitter/status/754024033885294592",
+      "service": "twitter",
+      "valid": false
+    },
+    {
       "identifier": "marc.larue",
-      "proof_url": "https://facebook.com/marc.larue/posts/10153403294990950",
+      "proof_url": "https://www.facebook.com/marc.larue/posts/10153403294990950",
       "service": "facebook",
       "valid": false
     }
