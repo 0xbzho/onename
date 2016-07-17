@@ -5,22 +5,23 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "shumai",
-        "proofType": "http",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "1B4e4kxiftXm2NbQUqRHbekrwvLMPG5QXH",
-        "role": "payment",
-        "service": "bitcoin"
-      },
-      {
-        "@type": "Account",
         "identifier": "6672fa503ee3769cf8cac5f8538044b764b256ea",
         "proofType": "http",
         "proofUrl": "https://gist.github.com/jebsel/229cdf57a711eec6ae4fda2a1f5a0b24",
         "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "shumai",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/shumai/status/753485036637163520",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1L8rX45BNDJYnscfBUtcxo3zaY4Z4ttmwK",
+        "role": "payment",
+        "service": "bitcoin"
       }
     ],
     "address": {
@@ -48,6 +49,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "shumai",
+      "proof_url": "https://twitter.com/shumai/status/753485036637163520",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN shumai.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/shumai.id\"\n"
 }

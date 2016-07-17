@@ -5,12 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "ledouarec",
-        "proofType": "http",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
         "identifier": "NicleDouarec",
         "proofType": "http",
         "service": "github"
@@ -20,6 +14,13 @@
         "identifier": "1JNH9uHLX3ENpVGuzvLqp6aZEywN6H7tp7",
         "role": "payment",
         "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ledouarec",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ledouarec/status/753210618912669697",
+        "service": "twitter"
       }
     ],
     "address": {
@@ -47,6 +48,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "ledouarec",
+      "proof_url": "https://twitter.com/ledouarec/status/753210618912669697",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN n1cl3d.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/n1cl3d.id\"\n"
 }

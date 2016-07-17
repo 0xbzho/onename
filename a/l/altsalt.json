@@ -5,13 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "altsalt",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/altsalt/9c260f31e851bff93a00f1c4c15b328a#file-onename-md",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
         "contentUrl": "http://www.altsalt.net/GPG",
         "identifier": "26D2F98FB888BB470B416267C0895372F5CDEFF8",
         "service": "pgp"
@@ -22,6 +15,13 @@
         "proofType": "http",
         "proofUrl": "https://gist.github.com/Mr-Yuk/019e9442791c1f7050584e088e138e6d",
         "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "altsalt",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/altsalt/9c260f31e851bff93a00f1c4c15b328a",
+        "service": "github"
       }
     ],
     "address": {
@@ -46,14 +46,14 @@
   "verifications": [
     {
       "identifier": "altsalt",
-      "proof_url": "https://gist.github.com/altsalt/9c260f31e851bff93a00f1c4c15b328a#file-onename-md",
-      "service": "github",
+      "proof_url": "https://gist.github.com/Mr-Yuk/019e9442791c1f7050584e088e138e6d",
+      "service": "twitter",
       "valid": false
     },
     {
       "identifier": "altsalt",
-      "proof_url": "https://gist.github.com/Mr-Yuk/019e9442791c1f7050584e088e138e6d",
-      "service": "twitter",
+      "proof_url": "https://gist.github.com/altsalt/9c260f31e851bff93a00f1c4c15b328a",
+      "service": "github",
       "valid": false
     }
   ],
