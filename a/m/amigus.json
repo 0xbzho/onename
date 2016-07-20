@@ -1,20 +1,79 @@
 {
   "owner_address": "17LF3W7kECd6UXaohsnbD2bZhvEpzh9wW4",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/amigus"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "amigus",
+        "proofType": "http",
+        "proofUrl": "https://m.facebook.com/story.php?story_fbid=10157113172375375&id=826430374&ref=bookmarks",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "amigus",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/amigus/status/754853957625868288",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "amigus",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/amigus/898b84a68a97c4f4f0a673c2508c10e8",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1Nyqg9HCmrsPomKVtFJ22p8zYsMpprXqG9",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Alexandria, VA, USA"
     },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/L2N.jpeg"
-    },
-    "location": {
-      "formatted": "Alexandria, VA, USA"
-    },
-    "name": {
-      "formatted": "Adam Migus"
-    },
-    "v": "0.2",
-    "website": "https://about.me/amigus"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/amigus",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Adam Migus",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://about.me/amigus"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "amigus",
+      "proof_url": "https://m.facebook.com/story.php?story_fbid=10157113172375375&id=826430374&ref=bookmarks",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "amigus",
+      "proof_url": "https://twitter.com/amigus/status/754853957625868288",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "amigus",
+      "proof_url": "https://gist.github.com/amigus/898b84a68a97c4f4f0a673c2508c10e8",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN amigus.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/amigus.id\"\n"
 }

@@ -1,64 +1,72 @@
 {
   "owner_address": "1KK1ve48gS6Wi3UdVEVzyDhMcXkp83K2fu",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/kerpower"
-    },
-    "bitcoin": {
-      "address": "1FLZCKNBTkm8MntJD97X2ESapTdWEPtgRw"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/vsS.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/https://www.facebook.com/stephane.rochon/posts/10153860325968076"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "KerPower",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "https://www.facebook.com/stephane.rochon"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/Kerpower/1d8d4f8ce67e2a95ad61"
+      {
+        "@type": "Account",
+        "identifier": "Kerpower",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "Kerpower"
-    },
-    "location": {
-      "formatted": "PESSAC"
-    },
-    "name": {
-      "formatted": "Stéphane ROCHON"
-    },
-    "pgp": {
-      "fingerprint": "346EC055F43BDE89805EA6183B76DD8A0FD62521",
-      "url": "keyserver.pgp.com"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/KerPower/status/698266606288433152"
+      {
+        "@type": "Account",
+        "identifier": "1FLZCKNBTkm8MntJD97X2ESapTdWEPtgRw",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "KerPower"
+      {
+        "@type": "Account",
+        "contentUrl": "keyserver.pgp.com",
+        "identifier": "346EC055F43BDE89805EA6183B76DD8A0FD62521",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https://www.facebook.com/stephane.rochon",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/https://www.facebook.com/stephane.rochon/posts/10153860325968076",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "PESSAC"
     },
-    "v": "0.2",
-    "website": "http://www.subphoto.com"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kerpower",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Stéphane ROCHON",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.subphoto.com"
+      }
+    ]
   },
   "verifications": [
-    {
-      "identifier": "Kerpower",
-      "proof_url": "https://gist.github.com/Kerpower/1d8d4f8ce67e2a95ad61",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "KerPower",
-      "proof_url": "https://twitter.com/KerPower/status/698266606288433152",
-      "service": "twitter",
-      "valid": true
-    },
     {
       "identifier": "https://www.facebook.com/stephane.rochon",
       "proof_url": "https://facebook.com/https://www.facebook.com/stephane.rochon/posts/10153860325968076",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN kerpower.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kerpower.id\"\n"
 }

@@ -1,67 +1,72 @@
 {
   "owner_address": "1EvDQhza6oDrb6Ba1vwXj2DLWyzCkxs61d",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/havill"
-    },
-    "bitcoin": {
-      "address": "18TVSa6FuU5jHsHrgTSNEat4MaamKtxGUA"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/havill"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/eidoinoue/posts/508731785958353"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "eidoinoue",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "eidoinoue"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/havill/b09740e86d11d96b7e4e"
+      {
+        "@type": "Account",
+        "identifier": "havill",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "havill"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/havill"
-    },
-    "location": {
-      "formatted": "Tokyo, Japan"
-    },
-    "name": {
-      "formatted": "Eido Inoue"
-    },
-    "pgp": {
-      "fingerprint": "B947F921E83BC31FBC9EC36BDF732CB1074EB3BF",
-      "url": "https://keybase.io/havill/key.asc"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/letteradegree/status/620386963175047168"
+      {
+        "@type": "Account",
+        "identifier": "18TVSa6FuU5jHsHrgTSNEat4MaamKtxGUA",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "letteradegree"
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/havill/key.asc",
+        "identifier": "B947F921E83BC31FBC9EC36BDF732CB1074EB3BF",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "letteradegree",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/letteradegree/status/752726825411891204",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Tokyo, Japan"
     },
-    "v": "0.2",
-    "website": "http://www.turning-japanese.info/"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/havill",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/havill",
+        "name": "cover"
+      }
+    ],
+    "name": "Eido Inoue",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.turning-japanese.info/"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "havill",
-      "proof_url": "https://gist.github.com/havill/b09740e86d11d96b7e4e",
-      "service": "github",
-      "valid": true
-    },
-    {
       "identifier": "letteradegree",
-      "proof_url": "https://twitter.com/letteradegree/status/620386963175047168",
+      "proof_url": "https://twitter.com/letteradegree/status/752726825411891204",
       "service": "twitter",
       "valid": false
-    },
-    {
-      "identifier": "eidoinoue",
-      "proof_url": "https://facebook.com/eidoinoue/posts/508731785958353",
-      "service": "facebook",
-      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN havill.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/havill.id\"\n"
 }

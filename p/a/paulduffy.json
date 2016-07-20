@@ -1,26 +1,48 @@
 {
   "owner_address": "1CFYpjgC92DzsppZXkaAPrzKe24apwo8NQ",
   "profile": {
-    "avatar": {
-      "url": "https://pbs.twimg.com/profile_images/3203940461/731b84b878acbfb20fc3dad82dbb4f8b.jpeg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "19Q4r5BFpSqZYzQJMQTiCYq5EK4CadphoU",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "PaulDuffy1192",
+        "proofType": "http",
+        "proofUrl": "https://t.co/MqUI1YPwPy",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London"
     },
-    "bio": "Engineering Data and Document Management, BS1192:2007 Compliance, specialising in the UK Rail industry.",
-    "bitcoin": {
-      "address": "19Q4r5BFpSqZYzQJMQTiCYq5EK4CadphoU"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/rv1.jpeg"
-    },
-    "location": {
-      "formatted": "London"
-    },
-    "name": {
-      "formatted": "Paul Duffy"
-    },
-    "twitter": {
-      "username": "PaulDuffy1192"
-    },
-    "v": "0.2"
+    "description": "Engineering Data and Document Management, BS1192:2007 Compliance, specialising in the UK Rail industry.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/paulduffy",
+        "name": "avatar"
+      }
+    ],
+    "name": "Paul Duffy"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "PaulDuffy1192",
+      "proof_url": "https://t.co/MqUI1YPwPy",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN paulduffy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/paulduffy.id\"\n"
 }

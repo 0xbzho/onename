@@ -1,10 +1,31 @@
 {
   "owner_address": "1FbhxTQuWzxb7sJ9R1EdZBpbzXPNpo64mR",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/wkj.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jslim18",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jslim18/posts/1206428719388896",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "jslim18",
+      "proof_url": "https://www.facebook.com/jslim18/posts/1206428719388896",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jslim18.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jslim18.id\"\n"
 }

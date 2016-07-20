@@ -1,20 +1,66 @@
 {
   "owner_address": "1JvfwvV6RUNrtuFZpU2aWgRSeK68HH4Xrf",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/stedwms"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "stedwms",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/stedwms/549839ca8fa7f9248ac51b5d1db9c6bf",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bitcoin:1GhRyzZpofLCpsDWwbvNwbr7XkWm88q1GG",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "steven.edward.williams",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/steven.edward.williams/posts/10208860122534483",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Millerton NY"
     },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/2wu.jpeg"
-    },
-    "location": {
-      "formatted": "Millerton NY"
-    },
-    "name": {
-      "formatted": "Steven Williams"
-    },
-    "v": "0.2",
-    "website": "http://www.williamsassociates-ltd.com"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/stedwms",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/stedwms",
+        "name": "cover"
+      }
+    ],
+    "name": "Steven Williams",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.williamsassociates-ltd.com"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "stedwms",
+      "proof_url": "https://gist.github.com/stedwms/549839ca8fa7f9248ac51b5d1db9c6bf",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "steven.edward.williams",
+      "proof_url": "https://www.facebook.com/steven.edward.williams/posts/10208860122534483",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN stedwms.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stedwms.id\"\n"
 }

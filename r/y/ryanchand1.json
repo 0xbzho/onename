@@ -1,34 +1,54 @@
 {
   "owner_address": "1MN1UAc7NQwxukZgxj7xdEDo17LZkuR7XZ",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/ryanchand1"
-    },
-    "bio": "Overcaffeinated finance student, bitcoin fanatic, wine &  spirits enthusiast. Intern at @DCGco. Let's connect: ryanchand01@gmail.com",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/ryanchand1"
-    },
-    "location": {
-      "formatted": "New York, NY"
-    },
-    "name": {
-      "formatted": "Ryan Chand"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/RyanChand1/status/708061332394921987"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "RyanChand1",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "RyanChand1"
+      {
+        "@type": "Account",
+        "identifier": "ryan.chand.984",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/ryan.chand.984/posts/10209070488385162",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York, NY"
     },
-    "v": "0.2",
-    "website": "https://medium.com/@RyanChand1"
+    "description": "Overcaffeinated finance student, bitcoin fanatic, wine &  spirits enthusiast. Intern at @DCGco. Let's connect: ryanchand01@gmail.com",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ryanchand1",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ryanchand1",
+        "name": "cover"
+      }
+    ],
+    "name": "Ryan Chand",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://medium.com/@RyanChand1"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "RyanChand1",
-      "proof_url": "https://twitter.com/RyanChand1/status/708061332394921987",
-      "service": "twitter",
-      "valid": true
+      "identifier": "ryan.chand.984",
+      "proof_url": "https://facebook.com/ryan.chand.984/posts/10209070488385162",
+      "service": "facebook",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN ryanchand1.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ryanchand1.id\"\n"
 }

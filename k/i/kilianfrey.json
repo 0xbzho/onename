@@ -1,46 +1,41 @@
 {
   "owner_address": "1NXQB455kjwAXfuFZU244TThvoa5Gd6oya",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/kilianfrey"
-    },
-    "bio": "Have peculiar questions. Offer interesting answers. http://t.co/6VIFjVDoxr",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/kilianfrey"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/kilianfrey/4c3aacf179ea0aa5659d"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "freyzeit",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "kilianfrey"
+      {
+        "@type": "Account",
+        "identifier": "kilianfrey",
+        "proofType": "http",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lyssach, Switzerland"
     },
-    "location": {
-      "formatted": "Lyssach, Switzerland"
-    },
-    "name": {
-      "formatted": "Kilian Frey"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/freyzeit/status/686654961325871106"
+    "description": "Have peculiar questions. Offer interesting answers. http://t.co/6VIFjVDoxr",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kilianfrey",
+        "name": "avatar"
       },
-      "username": "freyzeit"
-    },
-    "v": "0.2",
-    "website": "http://blog.freyzeit.org/"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/kilianfrey",
+        "name": "cover"
+      }
+    ],
+    "name": "Kilian Frey",
+    "website": []
   },
-  "verifications": [
-    {
-      "identifier": "kilianfrey",
-      "proof_url": "https://gist.github.com/kilianfrey/4c3aacf179ea0aa5659d",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "freyzeit",
-      "proof_url": "https://twitter.com/freyzeit/status/686654961325871106",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN kilianfrey.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kilianfrey.id\"\n"
 }

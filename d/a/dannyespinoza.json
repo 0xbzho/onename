@@ -1,61 +1,58 @@
 {
   "owner_address": "18MBSBXsEkboFNTW4iVXaQbvMnY3jgaERM",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/dannyespinoza"
-    },
-    "bio": "Founder @blushmessenger. Take stuff, make stuff, sometimes break stuff. Curator of the world's most illegible handwriting.",
-    "bitcoin": {
-      "address": "1MLbcP46EukayhR9w43FrHgK127novounw"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/dannyespinoza"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/DannyEspinoza/posts/10152384930982163"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dannyjespinoza",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "DannyEspinoza"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/despinoza/7854cc2769130cdc2f5b"
+      {
+        "@type": "Account",
+        "identifier": "DannyEspinoza",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "despinoza"
-    },
-    "location": {
-      "formatted": "Palo Alto, CA"
-    },
-    "name": {
-      "formatted": "Danny Espinoza"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/dannyjespinoza/status/533819743489122304"
+      {
+        "@type": "Account",
+        "identifier": "despinoza",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "dannyjespinoza"
+      {
+        "@type": "Account",
+        "identifier": "1MLbcP46EukayhR9w43FrHgK127novounw",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Palo Alto, CA"
     },
-    "v": "0.2",
-    "website": "http://dannye.me/"
+    "description": "Founder @getonlow",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/dannyespinoza",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dannyespinoza",
+        "name": "avatar"
+      }
+    ],
+    "name": "Danny Espinoza",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://dannye.me/"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "despinoza",
-      "proof_url": "https://gist.github.com/despinoza/7854cc2769130cdc2f5b",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "dannyjespinoza",
-      "proof_url": "https://twitter.com/dannyjespinoza/status/533819743489122304",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "DannyEspinoza",
-      "proof_url": "https://facebook.com/DannyEspinoza/posts/10152384930982163",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN dannyespinoza.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dannyespinoza.id\"\n"
 }

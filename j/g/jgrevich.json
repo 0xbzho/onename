@@ -1,31 +1,74 @@
 {
   "owner_address": "14XyqNLctx8cLQR5cRJCWkhixHsjTMNihs",
   "profile": {
-    "avatar": {
-      "url": "http://en.gravatar.com/userimage/3556943/9718b53324b50edec4290228d2c50cfb.jpg?size=200"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "17Xf86nRjqGKkLPNYsSP7gxeohfvHJiNCL",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/jgrevich/key.asc",
+        "identifier": "4A6729171B6493A248084C024683946823F02F93",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jgrevich",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jgrevich/5d9bc534b301ce7fe06ed24eac2af9aa",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jgrevich",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jgrevich/status/755528038649966592",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seattle, WA, USA"
     },
-    "bio": "I focus on all things Ruby, especially that related to web development. I love information security and aspire to become a respected member of the community.",
-    "bitcoin": {
-      "address": "17Xf86nRjqGKkLPNYsSP7gxeohfvHJiNCL"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/orange-sky.jpg"
-    },
-    "location": {
-      "formatted": "Seattle, WA, USA"
-    },
-    "name": {
-      "formatted": "Justin Grevich"
-    },
-    "pgp": {
-      "fingerprint": "4A6729171B6493A248084C024683946823F02F93",
-      "url": "https://keybase.io/jgrevich/key.asc"
-    },
-    "twitter": {
-      "username": "jgrevich"
-    },
-    "v": "0.2",
-    "website": "https://grevi.ch"
+    "description": "I focus on all things Ruby, especially that related to web development. I love information security and aspire to become a respected member of the community.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "http://en.gravatar.com/userimage/3556943/9718b53324b50edec4290228d2c50cfb.jpg?size=200",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/orange-sky.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Justin Grevich",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://grevi.ch"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "jgrevich",
+      "proof_url": "https://gist.github.com/jgrevich/5d9bc534b301ce7fe06ed24eac2af9aa",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jgrevich",
+      "proof_url": "https://twitter.com/jgrevich/status/755528038649966592",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jgrevich.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jgrevich.id\"\n"
 }

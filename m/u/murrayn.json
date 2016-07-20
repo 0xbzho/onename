@@ -1,67 +1,65 @@
 {
   "owner_address": "1Nu2FcHovr95vbc9XhYYVmgSqPq5YsAFXy",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "819fa5bc5063d74315671b9ab07b940b2306f01b",
-        "service": "openbazaar"
+        "identifier": "murray.nesbitt",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "murrayn",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1MgUEZgmGNBjmJyiUhEU4HWKSq1ereEraQ",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "murray_nesbitt",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/murray_nesbitt/status/715306746860806145",
+        "service": "twitter"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/murrayn"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "BC Canada"
     },
-    "bitcoin": {
-      "address": "1MgUEZgmGNBjmJyiUhEU4HWKSq1ereEraQ"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/4AL.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/murray.nesbitt/posts/10153378552706227"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/murrayn",
+        "name": "avatar"
       },
-      "username": "murray.nesbitt"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/murrayn/4a84b342ccbd35f7887bc763cfee6eb4"
-      },
-      "username": "murrayn"
-    },
-    "location": {
-      "formatted": "Canada"
-    },
-    "name": {
-      "formatted": "Murray Nesbitt"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/murray_nesbitt/status/715306746860806145"
-      },
-      "username": "murray_nesbitt"
-    },
-    "v": "0.2",
-    "website": "https://www.nesbitt.ca"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Murray Nesbitt",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.nesbitt.ca"
+      }
+    ]
   },
   "verifications": [
-    {
-      "identifier": "murrayn",
-      "proof_url": "https://gist.github.com/murrayn/4a84b342ccbd35f7887bc763cfee6eb4",
-      "service": "github",
-      "valid": true
-    },
     {
       "identifier": "murray_nesbitt",
       "proof_url": "https://twitter.com/murray_nesbitt/status/715306746860806145",
       "service": "twitter",
       "valid": true
-    },
-    {
-      "identifier": "murray.nesbitt",
-      "proof_url": "https://facebook.com/murray.nesbitt/posts/10153378552706227",
-      "service": "facebook",
-      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN murrayn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/murrayn.id\"\n"
 }
