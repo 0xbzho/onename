@@ -1,6 +1,37 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1FFvi8PxrJ2aMByxB76TfjwRs7LbGEhyGs",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/7f4eba48bfd4cc5bd026eab00276ab43",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/usedequipment",
+        "name": "avatar"
+      }
+    ],
+    "name": "Ed Billiot"
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/7f4eba48bfd4cc5bd026eab00276ab43",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN usedequipment.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/usedequipment.id\"\n"
 }
