@@ -1,0 +1,50 @@
+{
+  "owner_address": "1BmRgxf5QF1MsTG6ce59fyw9wVx3FjN4E7",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "adizere",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/adizere/status/752409730199486464",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "adizere",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/adizere/ea7ffbc5176adae2f81dc48bbdce638c",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Switzerland"
+    },
+    "description": "Distributed Systems, EPFL",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Dragos-Adrian"
+  },
+  "verifications": [
+    {
+      "identifier": "adizere",
+      "proof_url": "https://twitter.com/adizere/status/752409730199486464",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "adizere",
+      "proof_url": "https://gist.github.com/adizere/ea7ffbc5176adae2f81dc48bbdce638c",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN adizere.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/adizere.id\"\n"
+}

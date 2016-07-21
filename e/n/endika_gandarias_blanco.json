@@ -1,0 +1,55 @@
+{
+  "owner_address": "1MFPFRvGuafX5Pbw2z9uyLXP47bFCeNFi1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Endrinas1",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Endrinas1/status/748423834005573632",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "endika.g.blanco",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/endika.g.blanco/posts/10209898350994348",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1GYcoqo6spwGu9ZNpfgPsBsLoRtDTP3RWW",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Vitoria-Gasteiz (Spain)"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Endika Gandarias Blanco"
+  },
+  "verifications": [
+    {
+      "identifier": "Endrinas1",
+      "proof_url": "https://twitter.com/Endrinas1/status/748423834005573632",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "endika.g.blanco",
+      "proof_url": "https://www.facebook.com/endika.g.blanco/posts/10209898350994348",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN endika_gandarias_blanco.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/endika_gandarias_blanco.id\"\n"
+}

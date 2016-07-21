@@ -1,0 +1,41 @@
+{
+  "owner_address": "1v3rgAb5VGTKmFhLTTDxmc9uVd88RUqaH",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "GD_Grimes",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gd_grimes/status/751539165280530432",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Dublin"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/garygrimes",
+        "name": "avatar"
+      }
+    ],
+    "name": "Gary Grimes"
+  },
+  "verifications": [
+    {
+      "identifier": "GD_Grimes",
+      "proof_url": "https://twitter.com/gd_grimes/status/751539165280530432",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN garygrimes.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/garygrimes.id\"\n"
+}

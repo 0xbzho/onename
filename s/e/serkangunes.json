@@ -1,0 +1,57 @@
+{
+  "owner_address": "12Ev4xNZd8Tzed4htSkCNLhZPj1dGS4uij",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "serkangunes",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/serkangunes/status/753980237373898752",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "serkangunes",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/serkangunes/cc1a74b96747c6fb7cfdbd49722e8a1e",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gunesserkan",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/gunesserkan/posts/10154818333981729",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "serkangunes",
+      "proof_url": "https://twitter.com/serkangunes/status/753980237373898752",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "serkangunes",
+      "proof_url": "https://gist.github.com/serkangunes/cc1a74b96747c6fb7cfdbd49722e8a1e",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "gunesserkan",
+      "proof_url": "https://www.facebook.com/gunesserkan/posts/10154818333981729",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN serkangunes.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/serkangunes.id\"\n"
+}

@@ -1,0 +1,72 @@
+{
+  "owner_address": "15pXPTuScnKQ28PaoA7NDBqVYe5uHstjLH",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1GXJrqJZbWh9yxaqUbzKAEzo6TPsuYq39F",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "onlinebrandingdirector/",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/adrethink",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "adrethink",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/adrethink",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "371569396cadb0b00d2648c27f24741d9261d843",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Singapore"
+    },
+    "description": "The Best Online Branding Company 2016",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/adrethink",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/adrethink",
+        "name": "cover"
+      }
+    ],
+    "name": "Adrethink",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://adrethink.com/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "onlinebrandingdirector/",
+      "proof_url": "https://onename.com/adrethink",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "adrethink",
+      "proof_url": "https://onename.com/adrethink",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN adrethink.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/adrethink.id\"\n"
+}

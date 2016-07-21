@@ -1,0 +1,62 @@
+{
+  "owner_address": "1FSzD6XzjtskoLNmXKDP1X8BA4UD5eSALR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nevski11",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/nevski11/a2313268d85e32f0ef03f44788a707a2",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nevski_11",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/nevski_11/status/752360560595902464",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "neville.atkinson",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/neville.atkinson/posts/10154971904516521",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Wellington, NZ"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Neville Atkinson"
+  },
+  "verifications": [
+    {
+      "identifier": "nevski11",
+      "proof_url": "https://gist.github.com/nevski11/a2313268d85e32f0ef03f44788a707a2",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "nevski_11",
+      "proof_url": "https://twitter.com/nevski_11/status/752360560595902464",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "neville.atkinson",
+      "proof_url": "https://www.facebook.com/neville.atkinson/posts/10154971904516521",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN nevski11.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nevski11.id\"\n"
+}

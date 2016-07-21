@@ -1,0 +1,41 @@
+{
+  "owner_address": "1MHyhs29CJzyWTBW8B9casEL2vxibgRE87",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tinywindow",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tinywindow/status/749081337496211458",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Easthampton"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tinywindow",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/tinywindow",
+        "name": "cover"
+      }
+    ],
+    "name": "Sita Magnuson"
+  },
+  "verifications": [
+    {
+      "identifier": "tinywindow",
+      "proof_url": "https://twitter.com/tinywindow/status/749081337496211458",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tinywindow.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tinywindow.id\"\n"
+}

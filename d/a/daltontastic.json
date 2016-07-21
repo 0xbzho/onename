@@ -1,0 +1,37 @@
+{
+  "owner_address": "1LdcgNZtdMhH6j1ozxsJppnuQyxhnnNtLz",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "DALTONTASTIC",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/daltontastic/status/754696741207801856",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/daltontastic",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/daltontastic",
+        "name": "cover"
+      }
+    ],
+    "name": "Dalton Edwards"
+  },
+  "verifications": [
+    {
+      "identifier": "DALTONTASTIC",
+      "proof_url": "https://twitter.com/daltontastic/status/754696741207801856",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN daltontastic.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/daltontastic.id\"\n"
+}

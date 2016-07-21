@@ -1,0 +1,44 @@
+{
+  "owner_address": "1Agy6r2jaFZ29Qw5gicgJFjmYhyHDXE9xb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "thebizwebguy",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TheBizWebGuy/status/748954949925560323",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "johnwsawyer",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/johnwsawyer/posts/10210401648856623",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "thebizwebguy",
+      "proof_url": "https://twitter.com/TheBizWebGuy/status/748954949925560323",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "johnwsawyer",
+      "proof_url": "https://www.facebook.com/johnwsawyer/posts/10210401648856623",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN sawyerjw.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sawyerjw.id\"\n"
+}

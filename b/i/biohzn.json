@@ -1,0 +1,57 @@
+{
+  "owner_address": "1EA1tB8z5ASj1coLjysymUFnnKekMegCdK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "BiohZn",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/BiohZn/ead7994bb1c3083aa835b37a65e3d87d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "BiohZn",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BiohZn/status/754641487854497792",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "biohzn",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/biohzn/posts/1619773668337336?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "BiohZn",
+      "proof_url": "https://gist.github.com/BiohZn/ead7994bb1c3083aa835b37a65e3d87d",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "BiohZn",
+      "proof_url": "https://twitter.com/BiohZn/status/754641487854497792",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "biohzn",
+      "proof_url": "https://www.facebook.com/biohzn/posts/1619773668337336?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN biohzn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/biohzn.id\"\n"
+}

@@ -1,0 +1,44 @@
+{
+  "owner_address": "165mGqTrbtbjT6ABkmUAfAJ6A3d2WM5WFM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "eladshtilerman",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/EladShtilerman/status/750063481735512065",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "elad shtilerman",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/elad.shtilerman/posts/1137262379650384?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "eladshtilerman",
+      "proof_url": "https://twitter.com/EladShtilerman/status/750063481735512065",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "elad shtilerman",
+      "proof_url": "https://www.facebook.com/elad.shtilerman/posts/1137262379650384?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN elad_shtilerman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/elad_shtilerman.id\"\n"
+}

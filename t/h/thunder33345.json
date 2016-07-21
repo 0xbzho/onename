@@ -1,0 +1,44 @@
+{
+  "owner_address": "1L9jLJcspHewcYjcoWqSfg3G72tjmKKzVe",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Thunder33345",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Thunder33345/status/752510712891600896",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Thunder33345",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Thunder33345/1e5a373448d6b3feb0d2bedeaebfa841",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Thunder33345",
+      "proof_url": "https://twitter.com/Thunder33345/status/752510712891600896",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Thunder33345",
+      "proof_url": "https://gist.github.com/Thunder33345/1e5a373448d6b3feb0d2bedeaebfa841",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN thunder33345.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/thunder33345.id\"\n"
+}

@@ -1,0 +1,57 @@
+{
+  "owner_address": "1HcBv1w7BXBoWgS2T6FRn92SFvwkGKoTxf",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sdbowe",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/sdbowe/51a23a200d9d0e998935cf3dd3ac9eb3",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "darrylbowe",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/darrylbowe/status/749086157305241600",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sdbowe",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/sdbowe",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "sdbowe",
+      "proof_url": "https://gist.github.com/sdbowe/51a23a200d9d0e998935cf3dd3ac9eb3",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "darrylbowe",
+      "proof_url": "https://twitter.com/darrylbowe/status/749086157305241600",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "sdbowe",
+      "proof_url": "https://www.facebook.com/sdbowe",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN sdb0w3.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sdb0w3.id\"\n"
+}

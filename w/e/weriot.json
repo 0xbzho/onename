@@ -1,0 +1,29 @@
+{
+  "owner_address": "13XEpv7XSdJEvj21kJwfNeV2iA56XRj1MT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "16obe5uCSyV7Y6CPMsjPqjDSEAVs1Aaj2m",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/weriot",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/weriot",
+        "name": "cover"
+      }
+    ],
+    "name": "We Riot"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN weriot.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/weriot.id\"\n"
+}

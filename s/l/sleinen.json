@@ -1,0 +1,63 @@
+{
+  "owner_address": "13FPqaot6Wi7yEkMWfrPSvNkdUm8JzBqs4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/sleinen",
+        "identifier": "21C777AD3DB871C0DFE94641294F87A7231B65D0",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "simon.leinen",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/simon.leinen/posts/10153903863563585?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "simonl",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/simonl/status/750330122251726848",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sleinen",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/sleinen/a0f2cf032cd5dd24353cc4b54d881e27",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/sleinen",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "simon.leinen",
+      "proof_url": "https://www.facebook.com/simon.leinen/posts/10153903863563585?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "simonl",
+      "proof_url": "https://twitter.com/simonl/status/750330122251726848",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "sleinen",
+      "proof_url": "https://gist.github.com/sleinen/a0f2cf032cd5dd24353cc4b54d881e27",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN sleinen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sleinen.id\"\n"
+}

@@ -1,0 +1,50 @@
+{
+  "owner_address": "1ETw5EvX9GS9z7UJsrR8fNHNBEGoeYbLgp",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "fieldmanneasi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/fieldmanneasi/status/749217439620145152",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fieldman",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/fieldman/posts/10209835308623272",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/fieldmanneasi",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/fieldmanneasi",
+        "name": "cover"
+      }
+    ],
+    "name": "Ondrej Polak"
+  },
+  "verifications": [
+    {
+      "identifier": "fieldmanneasi",
+      "proof_url": "https://twitter.com/fieldmanneasi/status/749217439620145152",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "fieldman",
+      "proof_url": "https://www.facebook.com/fieldman/posts/10209835308623272",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN fieldmanneasi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fieldmanneasi.id\"\n"
+}

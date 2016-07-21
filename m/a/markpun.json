@@ -1,0 +1,41 @@
+{
+  "owner_address": "1HUHPRUxk3e2Tw5TWzcMTTEcQcMprZ2zuD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Markpun",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/markpun/status/755175807757258752",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York NY USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/markpun",
+        "name": "avatar"
+      }
+    ],
+    "name": "Mark Punyanitya"
+  },
+  "verifications": [
+    {
+      "identifier": "Markpun",
+      "proof_url": "https://twitter.com/markpun/status/755175807757258752",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN markpun.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/markpun.id\"\n"
+}

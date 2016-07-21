@@ -1,0 +1,69 @@
+{
+  "owner_address": "1GiLB7ZsfkJoEpHv7bbHuX9zBJ82R9g5Pa",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "diazwatson",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/diazwatson/status/753015900056461312",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "diazwatson",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/diazwatson/674e6bdf5be13838a9ca38b4309d5e13#file-blockchain-id",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "diazwatson",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/diazwatson/posts/10154431797255982",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/diazwatson",
+        "name": "avatar"
+      }
+    ],
+    "name": "Raul E Watson",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://diazwatson.com/es"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "diazwatson",
+      "proof_url": "https://twitter.com/diazwatson/status/753015900056461312",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "diazwatson",
+      "proof_url": "https://gist.github.com/diazwatson/674e6bdf5be13838a9ca38b4309d5e13#file-blockchain-id",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "diazwatson",
+      "proof_url": "https://www.facebook.com/diazwatson/posts/10154431797255982",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN diazwatson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/diazwatson.id\"\n"
+}

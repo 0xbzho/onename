@@ -1,0 +1,44 @@
+{
+  "owner_address": "1BSuUyFFvm7763HszKodC53bUk8WggZ4Ms",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "moisesFCB",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/moisesFCB/status/754479673560723456",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "moisesmorillo",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/moisesmorillo/ed8d53f4e1f243396d97755210b74fb6#file-gistfile1-txt",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "moisesFCB",
+      "proof_url": "https://twitter.com/moisesFCB/status/754479673560723456",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "moisesmorillo",
+      "proof_url": "https://gist.github.com/moisesmorillo/ed8d53f4e1f243396d97755210b74fb6#file-gistfile1-txt",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kemdmq.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kemdmq.id\"\n"
+}

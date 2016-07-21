@@ -1,0 +1,62 @@
+{
+  "owner_address": "12BWj1hJELddiHHZ9qhPKVQCQsPj4LZJUQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "MWALL90278",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/MWALL90278/bf18453f58df0fc31b756a2e299ae276",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "GetITFromMike",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/GetITFromMike/status/750451620580724737",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "GetITFromMichael",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/GetITFromMichael",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mwall90278",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "MWALL90278",
+      "proof_url": "https://gist.github.com/MWALL90278/bf18453f58df0fc31b756a2e299ae276",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "GetITFromMike",
+      "proof_url": "https://twitter.com/GetITFromMike/status/750451620580724737",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "GetITFromMichael",
+      "proof_url": "https://www.facebook.com/GetITFromMichael",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mwall90278.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mwall90278.id\"\n"
+}

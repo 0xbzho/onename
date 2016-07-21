@@ -1,0 +1,49 @@
+{
+  "owner_address": "1MtgSuSHMTemdriSh1CXKD5xkkHZjaWWJi",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "votedave00",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/votedave00/status/754170779227398144",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "andrew.d.chambers",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/andrew.d.chambers/posts/10154316099393334?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/votedave",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/votedave",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "votedave00",
+      "proof_url": "https://twitter.com/votedave00/status/754170779227398144",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "andrew.d.chambers",
+      "proof_url": "https://www.facebook.com/andrew.d.chambers/posts/10154316099393334?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN votedave.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/votedave.id\"\n"
+}

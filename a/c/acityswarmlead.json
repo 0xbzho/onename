@@ -1,0 +1,54 @@
+{
+  "owner_address": "17GwRgRCKf6Bj7Fs7gs1v6eJtEZpr25oii",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ACSwarmLead",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/acityswarmlead?post_id=109625946131058_140835616343424#/facebook",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "AshleyATX_AC",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/AshleyATX_AC/status/753340422072610816",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Austin, Texas"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/acityswarmlead",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/acityswarmlead",
+        "name": "avatar"
+      }
+    ],
+    "name": "Ashley Frelke"
+  },
+  "verifications": [
+    {
+      "identifier": "ACSwarmLead",
+      "proof_url": "https://onename.com/acityswarmlead?post_id=109625946131058_140835616343424#/facebook",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "AshleyATX_AC",
+      "proof_url": "https://twitter.com/AshleyATX_AC/status/753340422072610816",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN acityswarmlead.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/acityswarmlead.id\"\n"
+}

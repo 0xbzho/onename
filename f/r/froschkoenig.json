@@ -1,0 +1,42 @@
+{
+  "owner_address": "19C69c5b3QCwsP1VdwKKQ1nRdnchz2ioqF",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "froschkoenig",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/froschkoenig/posts/10154383211414623",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Switzerland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/froschkoenig",
+        "name": "cover"
+      }
+    ],
+    "name": "Marcel Weber",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.marcel-weber.ch"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "froschkoenig",
+      "proof_url": "https://www.facebook.com/froschkoenig/posts/10154383211414623",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN froschkoenig.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/froschkoenig.id\"\n"
+}

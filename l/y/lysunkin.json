@@ -1,0 +1,62 @@
+{
+  "owner_address": "1FDbYf8W1rEVNz5JBoqnp6SqeMUoMpyxbn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "slava.lysunkin",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/slava.lysunkin/posts/10208200009212400?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lysunkin",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/lysunkin/6c0bde039b32058ef845a97559576978#file-verification_message",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "SLysunkin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SLysunkin/status/752403935156056064",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Wellington, New Zealand"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Slava Lysunkin"
+  },
+  "verifications": [
+    {
+      "identifier": "slava.lysunkin",
+      "proof_url": "https://www.facebook.com/slava.lysunkin/posts/10208200009212400?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "lysunkin",
+      "proof_url": "https://gist.github.com/lysunkin/6c0bde039b32058ef845a97559576978#file-verification_message",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "SLysunkin",
+      "proof_url": "https://twitter.com/SLysunkin/status/752403935156056064",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN lysunkin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lysunkin.id\"\n"
+}

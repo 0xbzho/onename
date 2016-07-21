@@ -1,0 +1,42 @@
+{
+  "owner_address": "1GMXkLTWdKURhm1zphTgjRvXWf7ajg7JsH",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sergedonaldp",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sergedonaldp/status/754057690180161536",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "The World"
+    },
+    "description": "Software Engineer, Entrepreneur, Thinker. Founder of @camidus_, a startup building civic technologies for sustainable cities management.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sergepoueme",
+        "name": "avatar"
+      }
+    ],
+    "name": "Serge Poueme"
+  },
+  "verifications": [
+    {
+      "identifier": "sergedonaldp",
+      "proof_url": "https://twitter.com/sergedonaldp/status/754057690180161536",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN sergepoueme.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sergepoueme.id\"\n"
+}

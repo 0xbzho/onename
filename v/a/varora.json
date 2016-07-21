@@ -1,0 +1,31 @@
+{
+  "owner_address": "16mYgF2zKER9USN6Zt2eLE7tmDcsZrEVe3",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "varora",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/varora/status/750021553937457153",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "varora",
+      "proof_url": "https://twitter.com/varora/status/750021553937457153",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN varora.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/varora.id\"\n"
+}

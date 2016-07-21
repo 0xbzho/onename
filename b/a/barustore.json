@@ -1,0 +1,68 @@
+{
+  "owner_address": "15oZxeuCesk8ZVztxRQTVvh6Df3xah8r65",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tino_beauty",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tino_beauty/status/750048396610711552",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "17G781UzCBjCDiHtLH2HEzhpPvomSHQnvc",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "storecigarettes",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/shares/view?id=1138737569511833",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https:",
+        "proofType": "http",
+        "proofUrl": "https://github.com/barustore/Verifying-that-barustore-is-my-blockchain-ID.-https-onename.com-barustore.git",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/barustore",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tino_beauty",
+      "proof_url": "https://twitter.com/tino_beauty/status/750048396610711552",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "storecigarettes",
+      "proof_url": "https://www.facebook.com/shares/view?id=1138737569511833",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "https:",
+      "proof_url": "https://github.com/barustore/Verifying-that-barustore-is-my-blockchain-ID.-https-onename.com-barustore.git",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN barustore.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/barustore.id\"\n"
+}

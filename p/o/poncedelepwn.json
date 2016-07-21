@@ -1,0 +1,42 @@
+{
+  "owner_address": "14XBfdv7RwN9RC9dwXYveptrLyR6SRNUDJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "PonceDeLePwn",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/PonceDeLePwn/status/753735437919715328",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "16B9jj67Zu9DnFBbfTDmRoqHgqpqe1Dubp",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/poncedelepwn",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/poncedelepwn",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "PonceDeLePwn",
+      "proof_url": "https://twitter.com/PonceDeLePwn/status/753735437919715328",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN poncedelepwn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/poncedelepwn.id\"\n"
+}

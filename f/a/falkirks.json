@@ -1,0 +1,44 @@
+{
+  "owner_address": "1C222CVRXvnaNZknAFPe6HVfxUGmGrrCPF",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "falkirknh",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/falkirknh/status/752506151275601920",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Falkirks",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Falkirks/605abcc72902359f67a0f2ec6a99fa14",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "falkirknh",
+      "proof_url": "https://twitter.com/falkirknh/status/752506151275601920",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Falkirks",
+      "proof_url": "https://gist.github.com/Falkirks/605abcc72902359f67a0f2ec6a99fa14",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN falkirks.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/falkirks.id\"\n"
+}

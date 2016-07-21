@@ -1,0 +1,57 @@
+{
+  "owner_address": "14gL7DNwii6NNefhNK5pP4ntDzHJmPotvs",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "alpinegreg",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/alpinegreg/status/750413498111459328",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gvernon",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/gvernon/posts/10209685723849930",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gregswitch",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/gregswitch/86c01722f680deb55372a07fca2c58d5",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "alpinegreg",
+      "proof_url": "https://twitter.com/alpinegreg/status/750413498111459328",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "gvernon",
+      "proof_url": "https://www.facebook.com/gvernon/posts/10209685723849930",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "gregswitch",
+      "proof_url": "https://gist.github.com/gregswitch/86c01722f680deb55372a07fca2c58d5",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN gvernon.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gvernon.id\"\n"
+}

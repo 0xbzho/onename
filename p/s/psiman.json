@@ -1,0 +1,58 @@
+{
+  "owner_address": "1EbFuRmZtoR95NWPJjiRXMCRz51sJaG5Zc",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "RunSi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RunSi/status/755412389575725056",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "RunSi",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/RunSi/e9ed7b47b3356c94b8ed8056741f5e26/revisions",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "PsiMan45",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/PsiMan45/posts/10155050349337468?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Simon Hart"
+  },
+  "verifications": [
+    {
+      "identifier": "RunSi",
+      "proof_url": "https://twitter.com/RunSi/status/755412389575725056",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "RunSi",
+      "proof_url": "https://gist.github.com/RunSi/e9ed7b47b3356c94b8ed8056741f5e26/revisions",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "PsiMan45",
+      "proof_url": "https://www.facebook.com/PsiMan45/posts/10155050349337468?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN psiman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/psiman.id\"\n"
+}

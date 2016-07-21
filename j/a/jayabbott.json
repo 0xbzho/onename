@@ -1,0 +1,61 @@
+{
+  "owner_address": "15wYgjA9vPPJw7kqMiMYeRKdiq7w4MJEfi",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jayabbott",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jayabbott/178f5e515b80c26ace748cb40bc1b015",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jayabbottuk",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JayAbbottUK/status/753210203047399428",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "England, UK"
+    },
+    "description": "Student",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jayabbott",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jay Abbott",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://jayabbott.uk"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jayabbott",
+      "proof_url": "https://gist.github.com/jayabbott/178f5e515b80c26ace748cb40bc1b015",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jayabbottuk",
+      "proof_url": "https://twitter.com/JayAbbottUK/status/753210203047399428",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jayabbott.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jayabbott.id\"\n"
+}

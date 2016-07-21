@@ -1,0 +1,36 @@
+{
+  "owner_address": "12GsREXVkFnEALKQSmec1n4mGo5mWDZ2So",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/738a39f7e5943584c037c08f8e8ed177",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/betonline",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/738a39f7e5943584c037c08f8e8ed177",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN betonline.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/betonline.id\"\n"
+}

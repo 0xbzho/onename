@@ -1,0 +1,36 @@
+{
+  "owner_address": "1DMcVwsSNRGnaV5DCqEBUiDsuNU7s7WSLy",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "EdBilliot",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/EdBilliot/5dc4c63df9f795ccbd2be9a0af577fa6",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mirrormax",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "EdBilliot",
+      "proof_url": "https://gist.github.com/EdBilliot/5dc4c63df9f795ccbd2be9a0af577fa6",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mirrormax.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mirrormax.id\"\n"
+}

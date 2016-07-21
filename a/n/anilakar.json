@@ -1,0 +1,44 @@
+{
+  "owner_address": "1DJhGpWE3eAUcrjWUngSi3i6ZSoSxFmjMX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "andynzor",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/andynzor/status/750521885675356160",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "andyn",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/andyn/c9490e40a960d4001225a6a6eae3a550",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "andynzor",
+      "proof_url": "https://twitter.com/andynzor/status/750521885675356160",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "andyn",
+      "proof_url": "https://gist.github.com/andyn/c9490e40a960d4001225a6a6eae3a550",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN anilakar.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/anilakar.id\"\n"
+}

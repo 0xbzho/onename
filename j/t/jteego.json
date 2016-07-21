@@ -1,0 +1,60 @@
+{
+  "owner_address": "15Xv4Pu79KCLiZWYhEw5mwD8ZJVTahJ8LJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "TigerND",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/TigerND/fc19a62c0c261df049e94367fb38ee53",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "32AeJMJ6oDS5UixJhWbqynGHWd9Co5bHS3",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jTeego",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jTeego/status/755275958958030853",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Vilnius"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jteego",
+        "name": "avatar"
+      }
+    ],
+    "name": "Aleksandr Zykov"
+  },
+  "verifications": [
+    {
+      "identifier": "TigerND",
+      "proof_url": "https://gist.github.com/TigerND/fc19a62c0c261df049e94367fb38ee53",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jTeego",
+      "proof_url": "https://twitter.com/jTeego/status/755275958958030853",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jteego.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jteego.id\"\n"
+}

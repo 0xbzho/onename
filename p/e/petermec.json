@@ -1,0 +1,43 @@
+{
+  "owner_address": "1CT6M2TaTp85A698WLUvpsMojz1Ng7kBfw",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "petermec",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/petermec/9f7b3a51a4a77ada5770f79bd80a7577",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/petermec",
+        "name": "avatar"
+      }
+    ],
+    "name": "Peter Mechant",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.mict.be/petermechant"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "petermec",
+      "proof_url": "https://gist.github.com/petermec/9f7b3a51a4a77ada5770f79bd80a7577",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN petermec.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/petermec.id\"\n"
+}

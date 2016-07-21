@@ -1,0 +1,69 @@
+{
+  "owner_address": "1DKRytqwJRgeCrTTESPCReTFKa9dLW468s",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "RFVenter",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RFVenter/status/753997137914961920",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "RFVenter",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/RFVenter/2f7ab1212154d59b695c22e6ce839aee",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1RFV2TwGUnT2XztCq9tQHaLZYFTpHj8DB",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "riaanfv",
+        "proofType": "http",
+        "proofUrl": "www.facebook.com/riaanfv/posts/10153763413732963https://",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rfventer",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rfventer",
+        "name": "cover"
+      }
+    ],
+    "name": "Ryan Francois Venter"
+  },
+  "verifications": [
+    {
+      "identifier": "RFVenter",
+      "proof_url": "https://twitter.com/RFVenter/status/753997137914961920",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "RFVenter",
+      "proof_url": "https://gist.github.com/RFVenter/2f7ab1212154d59b695c22e6ce839aee",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "riaanfv",
+      "proof_url": "www.facebook.com/riaanfv/posts/10153763413732963https://",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN rfventer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rfventer.id\"\n"
+}

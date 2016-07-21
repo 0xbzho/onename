@@ -1,0 +1,31 @@
+{
+  "owner_address": "14V9sTvLyoPD8J1EMhiobx1KpxeacwibC5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "@innov",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Binnov8%20is%20my%20blockchain%20ID.%20https://onename.com/innov8",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "@innov",
+      "proof_url": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Binnov8%20is%20my%20blockchain%20ID.%20https://onename.com/innov8",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN innov8.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/innov8.id\"\n"
+}

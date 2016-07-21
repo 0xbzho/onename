@@ -1,0 +1,74 @@
+{
+  "owner_address": "13AmxrSjHKQntaU4133e11QPheXVxKsHxe",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "royobrecht",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/royobrecht/1211524a23c57728292f719048b90a55",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "RoyObrecht",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RoyObrecht/status/751208069724418048",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "roy.obrecht",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/roy.obrecht/posts/10154360946928466",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Scotts Valley, California"
+    },
+    "description": "Silicon Valley Pioneer, Engineer, Technologist, Technical Manager, Business/Tech Executive",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/fusionhead",
+        "name": "avatar"
+      }
+    ],
+    "name": "Roy Obrecht",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.royobrecht.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "royobrecht",
+      "proof_url": "https://gist.github.com/royobrecht/1211524a23c57728292f719048b90a55",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "RoyObrecht",
+      "proof_url": "https://twitter.com/RoyObrecht/status/751208069724418048",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "roy.obrecht",
+      "proof_url": "https://www.facebook.com/roy.obrecht/posts/10154360946928466",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN fusionhead.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fusionhead.id\"\n"
+}

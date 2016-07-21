@@ -1,0 +1,68 @@
+{
+  "owner_address": "1GprC7APfGRooT9Q7SRLCQzb4naMXj5pFu",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "huythepham",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/huythepham/status/753483012877062144",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hphamt",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/hphamt/posts/10105749420487076?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "13o4w21z3YTrSTyKGCZZxKGoDDGbf7JQX5",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "huythepham",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/huythepham/1f838e032d3f372370a884120720dfb7",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/huypham",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "huythepham",
+      "proof_url": "https://twitter.com/huythepham/status/753483012877062144",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "hphamt",
+      "proof_url": "https://www.facebook.com/hphamt/posts/10105749420487076?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "huythepham",
+      "proof_url": "https://gist.github.com/huythepham/1f838e032d3f372370a884120720dfb7",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN huypham.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/huypham.id\"\n"
+}

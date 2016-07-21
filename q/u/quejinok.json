@@ -1,0 +1,31 @@
+{
+  "owner_address": "12yciAMARJnck1fW3NW3Zw2tpCA6zh6v7n",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "quejinok",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/quejinok",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "quejinok",
+      "proof_url": "https://onename.com/quejinok",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN quejinok.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/quejinok.id\"\n"
+}

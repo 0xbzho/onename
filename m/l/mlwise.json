@@ -1,0 +1,31 @@
+{
+  "owner_address": "1NZ2h9HiQuUdRMDkTmretUNayJ8Qz8XNsu",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "michael_wise",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/michael_wise/status/752374928918196224",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "michael_wise",
+      "proof_url": "https://twitter.com/michael_wise/status/752374928918196224",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mlwise.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mlwise.id\"\n"
+}

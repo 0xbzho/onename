@@ -1,0 +1,31 @@
+{
+  "owner_address": "1P1MSJbcFSwYhsiDzYJxGHXm3s1GWDbV2A",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "hughes_photogra",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Bmichael_hughes%20is%20my%20blockchain%20ID.%20https://onename.com/michael_hughes",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "hughes_photogra",
+      "proof_url": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Bmichael_hughes%20is%20my%20blockchain%20ID.%20https://onename.com/michael_hughes",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN michael_hughes.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/michael_hughes.id\"\n"
+}

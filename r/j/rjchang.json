@@ -1,0 +1,60 @@
+{
+  "owner_address": "165zfgtwUrxkA5rWB5pTSSQZyF67PETz7N",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rjchang1",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/rjchang1/posts/1314493305230783",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Rjchang1",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rjchang1/status/752843444272398336",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Winchester, MA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rjchang",
+        "name": "avatar"
+      }
+    ],
+    "name": "Ray Chang",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.linkedin.com/in/rjchang"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "rjchang1",
+      "proof_url": "https://www.facebook.com/rjchang1/posts/1314493305230783",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "Rjchang1",
+      "proof_url": "https://twitter.com/rjchang1/status/752843444272398336",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rjchang.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rjchang.id\"\n"
+}

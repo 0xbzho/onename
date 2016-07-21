@@ -1,0 +1,45 @@
+{
+  "owner_address": "1MDLCeGp5e9Wp6L8HP83pgFA6d1eHHxy3s",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "16gV126kK9Y1D8k1JpZLYdqUKrnCkpGAG2",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "f2aeae5e480570469f077e454639b7e06794b200",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Earth"
+    },
+    "description": "Tools for a calm state of mind.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/tranquilitybase",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tranquilitybase",
+        "name": "avatar"
+      }
+    ],
+    "name": "Tranquility Base",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://tranquilitybase.store"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN tranquilitybase.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tranquilitybase.id\"\n"
+}

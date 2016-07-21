@@ -1,0 +1,67 @@
+{
+  "owner_address": "1M7VUyLi64LSNyCbTib8EJYGFR8mYiumJN",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gamecraftervt",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gamecraftervt/status/752369783106990080",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Gamecrafter",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Gamecrafter/d641869410a77fa6beaca72f4890d798",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "14T9bGXcEY6BGzdgzbkR9mdJPaBFF1XFcj",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "California, United States"
+    },
+    "description": "I'm a noob programmer. My code hardly ever works, but if it does, I guess it's just luck.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gamecrafter",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/gamecrafter",
+        "name": "cover"
+      }
+    ],
+    "name": "Victor Truong",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://gamecrafter.github.io"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "gamecraftervt",
+      "proof_url": "https://twitter.com/gamecraftervt/status/752369783106990080",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "Gamecrafter",
+      "proof_url": "https://gist.github.com/Gamecrafter/d641869410a77fa6beaca72f4890d798",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN gamecrafter.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gamecrafter.id\"\n"
+}

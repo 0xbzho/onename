@@ -1,0 +1,44 @@
+{
+  "owner_address": "1M7sZyk6NkjbB7zTtAvNSBhg2CMiZ9fCuV",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "pitmanjd",
+        "proofType": "http",
+        "proofUrl": "Verifying that +pitmanjd is my blockchain ID. https://onename.com/pitmanjd",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "pitmanjd",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/pitmanjd&redirect_uri=https://onename.com/pitmanjd%23facebook",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "pitmanjd",
+      "proof_url": "Verifying that +pitmanjd is my blockchain ID. https://onename.com/pitmanjd",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "pitmanjd",
+      "proof_url": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/pitmanjd&redirect_uri=https://onename.com/pitmanjd%23facebook",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN pitmanjd.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pitmanjd.id\"\n"
+}

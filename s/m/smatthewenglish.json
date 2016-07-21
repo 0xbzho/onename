@@ -1,0 +1,55 @@
+{
+  "owner_address": "17kNPg9Nij4Gd87xpMAzeXUWdfe4HuuYpD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "hsilgnewehttams",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/hsilgnewehttams/status/749944146736058368",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "s-matthew-english",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/s-matthew-english/3b36b39cd4345e9c430b0859e0f3d2ec",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nordrhein-Westfalen"
+    },
+    "description": "Investigator on the trail of the Web 3.0",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/smatthewenglish",
+        "name": "avatar"
+      }
+    ],
+    "name": "S. Matthew English"
+  },
+  "verifications": [
+    {
+      "identifier": "hsilgnewehttams",
+      "proof_url": "https://twitter.com/hsilgnewehttams/status/749944146736058368",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "s-matthew-english",
+      "proof_url": "https://gist.github.com/s-matthew-english/3b36b39cd4345e9c430b0859e0f3d2ec",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN smatthewenglish.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/smatthewenglish.id\"\n"
+}

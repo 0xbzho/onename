@@ -1,0 +1,50 @@
+{
+  "owner_address": "1LdUMCiLqoD7iLqLKj2ZPJnBdgcd9XsEdu",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "glweb",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/glweb/status/753646436965908480",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "glweb",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/glweb/baa3940747c6810a9af59bcf4465a2a3",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/lichtwald",
+        "name": "avatar"
+      }
+    ],
+    "name": "Goetz Lichtwald"
+  },
+  "verifications": [
+    {
+      "identifier": "glweb",
+      "proof_url": "https://twitter.com/glweb/status/753646436965908480",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "glweb",
+      "proof_url": "https://gist.github.com/glweb/baa3940747c6810a9af59bcf4465a2a3",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN lichtwald.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lichtwald.id\"\n"
+}

@@ -1,0 +1,36 @@
+{
+  "owner_address": "1CosNn8Cj4bm2xbnwwaNXS2jyMi7SbcfmU",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/7790f1486fe10c8c56fd98658bef8067",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cajuncountry",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/7790f1486fe10c8c56fd98658bef8067",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN cajuncountry.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cajuncountry.id\"\n"
+}

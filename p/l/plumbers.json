@@ -1,0 +1,36 @@
+{
+  "owner_address": "1FbcRJjUUAXEmGGeJuFVdps8bCW24RGyp9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/bb22f8dbbed13a9dcf52037ac57dc15b",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/plumbers",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/bb22f8dbbed13a9dcf52037ac57dc15b",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN plumbers.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/plumbers.id\"\n"
+}

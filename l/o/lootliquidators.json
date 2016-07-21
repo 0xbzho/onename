@@ -1,0 +1,73 @@
+{
+  "owner_address": "1Dt4DSmEgAEeUhjTwUYBeAeEMXA56QLvbk",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "LootLiquidators",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/LootLiquidators/posts/1161021700626613",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "LootLiquidators",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/LootLiquidators/status/750367501230440448",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "2bf80a3f85f51e8b4011d69d3ba3441c88ff02a4",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/so_on/status/750342313554116609",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1DrjHjNutYXshaLxcEAgKyWVvRb2kFknTv",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hendersonville, TN"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/lootliquidators",
+        "name": "avatar"
+      }
+    ],
+    "name": "Loot Liquidators",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.lootliquidators.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "LootLiquidators",
+      "proof_url": "https://www.facebook.com/LootLiquidators/posts/1161021700626613",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "LootLiquidators",
+      "proof_url": "https://twitter.com/LootLiquidators/status/750367501230440448",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN lootliquidators.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lootliquidators.id\"\n"
+}

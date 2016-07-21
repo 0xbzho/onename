@@ -1,0 +1,44 @@
+{
+  "owner_address": "15hZznVcK6265Q4cXkKpT9GKPdPPTEvz2h",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Pesegato",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Pesegato/92c871cc49bbc0e5144acaa588a28337",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "pesegatoGameDev",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/pesegatoGameDev/status/753155232780124161",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Pesegato",
+      "proof_url": "https://gist.github.com/Pesegato/92c871cc49bbc0e5144acaa588a28337",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "pesegatoGameDev",
+      "proof_url": "https://twitter.com/pesegatoGameDev/status/753155232780124161",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN pesegato.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pesegato.id\"\n"
+}

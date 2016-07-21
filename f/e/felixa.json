@@ -1,0 +1,44 @@
+{
+  "owner_address": "1MrGhWu2CNBX2QjbNtvyNv4uvq2SJPnN4e",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "FelixA",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/FelixA/dfb65b00110d0cd3430b117b7584fe11",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "felixaber",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/felixaber/status/752519896345505792",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "FelixA",
+      "proof_url": "https://gist.github.com/FelixA/dfb65b00110d0cd3430b117b7584fe11",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "felixaber",
+      "proof_url": "https://twitter.com/felixaber/status/752519896345505792",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN felixa.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/felixa.id\"\n"
+}

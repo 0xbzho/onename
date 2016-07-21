@@ -1,0 +1,36 @@
+{
+  "owner_address": "1Jn4a2GJF3GzfQmQS9sGWU6yyaoLwCdR1h",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/412371708ab6e44257a435eb4c1efd59",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cajunfood",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/412371708ab6e44257a435eb4c1efd59",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN cajunfood.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cajunfood.id\"\n"
+}

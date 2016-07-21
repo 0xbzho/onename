@@ -1,0 +1,64 @@
+{
+  "owner_address": "1GDBfvwSnb7Sw5mz1n2vgNa78xGZb82QiX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mightyiam",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mightyiam/status/754968663875346432",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mightyiam",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mightyiam/3eaeac294f04fad77dc768efcc38941f",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "shahar.or",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/shahar.or/posts/10154377367228685",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Shahar Or",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://mightyi.am"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mightyiam",
+      "proof_url": "https://twitter.com/mightyiam/status/754968663875346432",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mightyiam",
+      "proof_url": "https://gist.github.com/mightyiam/3eaeac294f04fad77dc768efcc38941f",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "shahar.or",
+      "proof_url": "https://www.facebook.com/shahar.or/posts/10154377367228685",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mightyiam.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mightyiam.id\"\n"
+}

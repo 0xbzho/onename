@@ -1,0 +1,36 @@
+{
+  "owner_address": "1BWt6HZds99iVJkBtGEohbs1HVwePReNE5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/2ae2f7304ec93ac0c37c7cb63c44d760",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/reference",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/2ae2f7304ec93ac0c37c7cb63c44d760",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN reference.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/reference.id\"\n"
+}

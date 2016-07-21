@@ -1,0 +1,44 @@
+{
+  "owner_address": "1Fh7PPa14ui4c8Me9ym7duK6t8qMayxNw9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "stroz",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/stroz/status/751092007313997824",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "strozykowski",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/strozykowski/8eefc8c2a3845496e6adddb51326317a",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "stroz",
+      "proof_url": "https://twitter.com/stroz/status/751092007313997824",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "strozykowski",
+      "proof_url": "https://gist.github.com/strozykowski/8eefc8c2a3845496e6adddb51326317a",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN strozykowski.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/strozykowski.id\"\n"
+}

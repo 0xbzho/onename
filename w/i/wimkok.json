@@ -1,0 +1,58 @@
+{
+  "owner_address": "1LdmEkxXsNm55jmyhm9m4ovwJGDWJTGNT5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "wpkok",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/wpkok/status/750041902112731136",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "wpkok",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/wpkok/posts/1197975193581252",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "wimkok",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/wimkok/2443e8a8898907af2c291a13684982d5",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Wim Kok"
+  },
+  "verifications": [
+    {
+      "identifier": "wpkok",
+      "proof_url": "https://twitter.com/wpkok/status/750041902112731136",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "wpkok",
+      "proof_url": "https://www.facebook.com/wpkok/posts/1197975193581252",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "wimkok",
+      "proof_url": "https://gist.github.com/wimkok/2443e8a8898907af2c291a13684982d5",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN wimkok.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wimkok.id\"\n"
+}

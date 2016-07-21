@@ -1,0 +1,41 @@
+{
+  "owner_address": "18dbgRShQV8esteujtZWFQAhZFWRVjN7XA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "@hegglov",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/hegglov/status/748092590411616256",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Oslo"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/peterhe",
+        "name": "avatar"
+      }
+    ],
+    "name": "Peter Heggløv"
+  },
+  "verifications": [
+    {
+      "identifier": "@hegglov",
+      "proof_url": "https://twitter.com/hegglov/status/748092590411616256",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN peterhe.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/peterhe.id\"\n"
+}

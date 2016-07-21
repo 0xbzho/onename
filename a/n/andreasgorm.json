@@ -1,0 +1,67 @@
+{
+  "owner_address": "1CDHu8zGFfni2V3AKnVcvgGRkiYm5F7cun",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "andreasgorm",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/andreasgorm/posts/10154532212476842?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "andreasgorm",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/andreasgorm/status/753319846625046528",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "AndreasGorm",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/AndreasGorm/e83d68c622161a649e474f6e59467e30",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Aarhus, Denmark"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/andreasgorm",
+        "name": "avatar"
+      }
+    ],
+    "name": "Andreas Gorm Tungland"
+  },
+  "verifications": [
+    {
+      "identifier": "andreasgorm",
+      "proof_url": "https://www.facebook.com/andreasgorm/posts/10154532212476842?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "andreasgorm",
+      "proof_url": "https://twitter.com/andreasgorm/status/753319846625046528",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "AndreasGorm",
+      "proof_url": "https://gist.github.com/AndreasGorm/e83d68c622161a649e474f6e59467e30",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN andreasgorm.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/andreasgorm.id\"\n"
+}

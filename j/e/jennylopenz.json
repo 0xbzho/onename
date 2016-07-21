@@ -1,0 +1,56 @@
+{
+  "owner_address": "1CWxfxEbMY9EPWstmD2dfsBsSvaDHvjrHe",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "planetjen",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/planetjen/status/748965572491096064",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jennylopenz",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jennylopenz/posts/10153468853066920?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "17nvN8q1jxZ8g6wyPfRi4bjTupuBo7HVdR",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Healdsburg, California"
+    },
+    "description": "Kiwi gal in wine country",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jenny Lopez"
+  },
+  "verifications": [
+    {
+      "identifier": "planetjen",
+      "proof_url": "https://twitter.com/planetjen/status/748965572491096064",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jennylopenz",
+      "proof_url": "https://www.facebook.com/jennylopenz/posts/10153468853066920?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jennylopenz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jennylopenz.id\"\n"
+}

@@ -1,0 +1,58 @@
+{
+  "owner_address": "1AsRvW4Zc8WoBAW1DQxfXcj3A4aM4T1BT8",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "hijazi",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/hijazi/4503e9a28524b063a83591902a2d7f83",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "baha.w.hijazi",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/baha.w.hijazi/posts/1039202622830506",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "@baha_hijazi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/baha_hijazi/status/752511488372473856",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Baha Hijazi"
+  },
+  "verifications": [
+    {
+      "identifier": "hijazi",
+      "proof_url": "https://gist.github.com/hijazi/4503e9a28524b063a83591902a2d7f83",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "baha.w.hijazi",
+      "proof_url": "https://www.facebook.com/baha.w.hijazi/posts/1039202622830506",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "@baha_hijazi",
+      "proof_url": "https://twitter.com/baha_hijazi/status/752511488372473856",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN hijazi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hijazi.id\"\n"
+}

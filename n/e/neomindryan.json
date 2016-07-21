@@ -1,0 +1,49 @@
+{
+  "owner_address": "1LiLBG9JyfEKq31tViu5Vx7u1gmQ65roxZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "neomindryan",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/neomindryan/status/751727481686728704",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/1a1a6734fa73843c858b55e1d7a3f58c",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/neomindryan",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/neomindryan",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "neomindryan",
+      "proof_url": "https://twitter.com/neomindryan/status/751727481686728704",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/1a1a6734fa73843c858b55e1d7a3f58c",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN neomindryan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/neomindryan.id\"\n"
+}

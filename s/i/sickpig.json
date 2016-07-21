@@ -1,0 +1,49 @@
+{
+  "owner_address": "1EwdssSqVhZiedZdNbFeriv54p8CT8wffq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sickpig",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sickpig/status/748782633765572609",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sickpig",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/sickpig/fa2a26af7ec4ac57db8eb575eeaf2363",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Italy"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Andrea Suisani"
+  },
+  "verifications": [
+    {
+      "identifier": "sickpig",
+      "proof_url": "https://twitter.com/sickpig/status/748782633765572609",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "sickpig",
+      "proof_url": "https://gist.github.com/sickpig/fa2a26af7ec4ac57db8eb575eeaf2363",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN sickpig.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sickpig.id\"\n"
+}

@@ -1,0 +1,36 @@
+{
+  "owner_address": "1GEkMf8aahwds6AFv1qMzv4X9sSppajqXz",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/8905305335701e8afce592dc9aa7ea31",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/adamandeve",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/8905305335701e8afce592dc9aa7ea31",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN adamandeve.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/adamandeve.id\"\n"
+}

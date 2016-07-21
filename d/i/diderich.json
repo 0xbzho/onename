@@ -1,0 +1,42 @@
+{
+  "owner_address": "1GNv8ihUY1hwTwgRvs8PetqNg3cMhJkhAG",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "diderich",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/diderich/status/750331053777227776",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Switzerland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/diderich",
+        "name": "cover"
+      }
+    ],
+    "name": "Claude Diderich",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.sigmadream.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "diderich",
+      "proof_url": "https://twitter.com/diderich/status/750331053777227776",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN diderich.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/diderich.id\"\n"
+}

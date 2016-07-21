@@ -1,0 +1,66 @@
+{
+  "owner_address": "1MyedbHude22DuoxJGJNEa56j14DMxsAPX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "brandongiesing",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BrandonGiesing/status/748818041538879488",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bgiesing",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bgiesing/c19b2f1edf966f3c7ea355e6f06be85c",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "18MoWYbr3Sk9YNW8J9isfVegvgbWCMrDbA",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Union, MO"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bgiesing",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bgiesing",
+        "name": "cover"
+      }
+    ],
+    "name": "Brandon Giesing",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://brandongiesing.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "brandongiesing",
+      "proof_url": "https://twitter.com/BrandonGiesing/status/748818041538879488",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bgiesing",
+      "proof_url": "https://gist.github.com/bgiesing/c19b2f1edf966f3c7ea355e6f06be85c",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bgiesing.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bgiesing.id\"\n"
+}

@@ -1,0 +1,42 @@
+{
+  "owner_address": "1EfW3ZvJRqvMkK4pRb7VvRAuRjUJS8GZkJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "joecar",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/joecar/status/755047462369394688",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Glasgow , Scotland , UK"
+    },
+    "description": "International Educational Consultant",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/joecar80",
+        "name": "avatar"
+      }
+    ],
+    "name": "Joe Wilson"
+  },
+  "verifications": [
+    {
+      "identifier": "joecar",
+      "proof_url": "https://twitter.com/joecar/status/755047462369394688",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN joecar80.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/joecar80.id\"\n"
+}

@@ -1,0 +1,49 @@
+{
+  "owner_address": "17CUhq7sRpBpKD7hZAn9WmwePQMtLme87r",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "markrock",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/markrock/status/750176220508221441",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "markrock",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/markrock/posts/10154298456822065",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/markrock",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/markrock",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "markrock",
+      "proof_url": "https://twitter.com/markrock/status/750176220508221441",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "markrock",
+      "proof_url": "https://www.facebook.com/markrock/posts/10154298456822065",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN markrock.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/markrock.id\"\n"
+}

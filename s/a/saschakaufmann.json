@@ -1,0 +1,49 @@
+{
+  "owner_address": "1Hxwz6FuYRXqF1pj3sgKqXyV634GrFWTGF",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "saschakaufmann",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/saschakaufmann/status/750385748440936448",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "syk",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/syk/3e8fc853a7ed76c8f3a048fb0248e507",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Zurich"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Sascha Kaufmann"
+  },
+  "verifications": [
+    {
+      "identifier": "saschakaufmann",
+      "proof_url": "https://twitter.com/saschakaufmann/status/750385748440936448",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "syk",
+      "proof_url": "https://gist.github.com/syk/3e8fc853a7ed76c8f3a048fb0248e507",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN saschakaufmann.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/saschakaufmann.id\"\n"
+}

@@ -1,0 +1,56 @@
+{
+  "owner_address": "1GSj1vadATrvDypnUdDKNzUFMPL2pfYzVa",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "franske99",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Franske99/status/750594366108999680",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "6949b16c7b4bcf625b8f3a3a7d2527226c3c23b8",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/99fc87dd7315b2ef97c5a8af1702a40b",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "frank.terneven",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/frank.terneven/posts/10209845289837108",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Thailand"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "SiamBazaar"
+  },
+  "verifications": [
+    {
+      "identifier": "franske99",
+      "proof_url": "https://twitter.com/Franske99/status/750594366108999680",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "frank.terneven",
+      "proof_url": "https://www.facebook.com/frank.terneven/posts/10209845289837108",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN siambazaar.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/siambazaar.id\"\n"
+}

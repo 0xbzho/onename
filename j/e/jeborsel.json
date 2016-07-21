@@ -1,0 +1,55 @@
+{
+  "owner_address": "1NaVK1azTteWqCBzH9GkPh8546x3qDrazb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jeborsel",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jeborsel/status/751042017849929729",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jebsel",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jebsel/229cdf57a711eec6ae4fda2a1f5a0b24",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "13jPoZeipzY8aWmDcYohBqM95rVta91QE2",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Belgium"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Bert Jehoul"
+  },
+  "verifications": [
+    {
+      "identifier": "jeborsel",
+      "proof_url": "https://twitter.com/jeborsel/status/751042017849929729",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jebsel",
+      "proof_url": "https://gist.github.com/jebsel/229cdf57a711eec6ae4fda2a1f5a0b24",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jeborsel.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jeborsel.id\"\n"
+}

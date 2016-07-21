@@ -1,0 +1,68 @@
+{
+  "owner_address": "14zmJn4Ks2R9jX9LZqdEEMLDqtmQij4fRx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "DrMartin1944",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/DrMartin1944/5d8b236bb9ae361d202e2e81cf42f91d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "DrGMartin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/drgmartin/status/749298930483990528",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "drmartin@longevity-formulas.com",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/drmartin&redirect_uri=https://onename.com/drmartin%23facebook",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Planet Earth"
+    },
+    "description": "Wellness Common Sense",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/drmartin",
+        "name": "avatar"
+      }
+    ],
+    "name": "Dr. Gary A. Martin"
+  },
+  "verifications": [
+    {
+      "identifier": "DrMartin1944",
+      "proof_url": "https://gist.github.com/DrMartin1944/5d8b236bb9ae361d202e2e81cf42f91d",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "DrGMartin",
+      "proof_url": "https://twitter.com/drgmartin/status/749298930483990528",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "drmartin@longevity-formulas.com",
+      "proof_url": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/drmartin&redirect_uri=https://onename.com/drmartin%23facebook",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN drmartin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/drmartin.id\"\n"
+}

@@ -1,0 +1,55 @@
+{
+  "owner_address": "139FTLHXBcmVxDqXuM1b1PajBAwdkLXw9b",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "wondenge",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/wondenge/status/753341388494897157",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "wondenge",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/wondenge/54c38e280c638861ce922a55de02ad1e",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kenya"
+    },
+    "description": "Chairman, BOD @ChamaConekt | Co-founder @Chamarika_KE® | Docker Organiser @DockerKsm Meetup | Speaker | Mentor | Developer Evangelist @LakeHub | Future Husband|",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/wondenge",
+        "name": "avatar"
+      }
+    ],
+    "name": "William Ondenge"
+  },
+  "verifications": [
+    {
+      "identifier": "wondenge",
+      "proof_url": "https://twitter.com/wondenge/status/753341388494897157",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "wondenge",
+      "proof_url": "https://gist.github.com/wondenge/54c38e280c638861ce922a55de02ad1e",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN wondenge.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wondenge.id\"\n"
+}

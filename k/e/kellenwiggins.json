@@ -1,0 +1,54 @@
+{
+  "owner_address": "1KJpS2YnqdcQvwPEFFep4JcBit4EXcHWTT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kellenw",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/kellenw/posts/10154382124988872",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ruckingrugger",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RuckingRugger/status/753743804818227200",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Forest Park, IL"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kellenwiggins",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/kellenwiggins",
+        "name": "cover"
+      }
+    ],
+    "name": "Kellen Wiggins"
+  },
+  "verifications": [
+    {
+      "identifier": "kellenw",
+      "proof_url": "https://www.facebook.com/kellenw/posts/10154382124988872",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "ruckingrugger",
+      "proof_url": "https://twitter.com/RuckingRugger/status/753743804818227200",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kellenwiggins.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kellenwiggins.id\"\n"
+}

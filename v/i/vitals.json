@@ -1,0 +1,47 @@
+{
+  "owner_address": "1FxE627KMNVB1Ny3LLUE9ZqWm6cA8b4Rbg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "vitalschwander",
+        "proofType": "http",
+        "proofUrl": "RE https://twitter.com/vitalschwander/status/754362411524755456",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Zurich"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/vitals",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/vitals",
+        "name": "cover"
+      }
+    ],
+    "name": "Vital Schwander",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.linkedin.com/in/vitalschwander?trk=hp-identity-photo"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "vitalschwander",
+      "proof_url": "RE https://twitter.com/vitalschwander/status/754362411524755456",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN vitals.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vitals.id\"\n"
+}

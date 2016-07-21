@@ -1,0 +1,80 @@
+{
+  "owner_address": "1BneECMTp3953oUCJJxAVQzt37NHW3ecMQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kimbowa",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kimbowa/status/750494660653494272",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kimbowa",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/kimbowa/posts/10155139889013782",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kimbowa",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/kimbowa/2afa4e2c426245c8ca3358d193bed64e",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/kimflintoff",
+        "identifier": null,
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Perth, Western Australia"
+    },
+    "description": "Learning Futures",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kimflintoff",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/kimflintoff",
+        "name": "cover"
+      }
+    ],
+    "name": "Kim Flintoff",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://curtin.academia.edu/Flintoff"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "kimbowa",
+      "proof_url": "https://twitter.com/kimbowa/status/750494660653494272",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "kimbowa",
+      "proof_url": "https://www.facebook.com/kimbowa/posts/10155139889013782",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "kimbowa",
+      "proof_url": "https://gist.github.com/kimbowa/2afa4e2c426245c8ca3358d193bed64e",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kimflintoff.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kimflintoff.id\"\n"
+}

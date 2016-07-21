@@ -1,0 +1,60 @@
+{
+  "owner_address": "14UVY4xYbbvyhMsW1KLRk1b6YDPWMNdXWC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "walter-weinmann",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/walter-weinmann/eec5c7726a56cac046a5de09be056a89",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "walter.weinmann",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/walter.weinmann/posts/10210494555985163",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/walter_weinmann",
+        "identifier": "FDC0132A0CC213407FFACBACD0E7663DD83BC46C",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Switzerland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/walter_weinmann",
+        "name": "avatar"
+      }
+    ],
+    "name": "Walter Weinmann"
+  },
+  "verifications": [
+    {
+      "identifier": "walter-weinmann",
+      "proof_url": "https://gist.github.com/walter-weinmann/eec5c7726a56cac046a5de09be056a89",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "walter.weinmann",
+      "proof_url": "https://www.facebook.com/walter.weinmann/posts/10210494555985163",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN walter_weinmann.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/walter_weinmann.id\"\n"
+}

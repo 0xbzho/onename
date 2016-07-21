@@ -1,0 +1,70 @@
+{
+  "owner_address": "1JUpCxgVXr8umRvrnPvLcGxBnGb9kCeDcJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bdean1000",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bdean1000/status/750370845839724545",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bdean1000",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bdean1000/15ea222f6599878c6efc277aa1c51bd9",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bernardbull",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bernard.bull/posts/10154413484800854",
+        "service": "facebook"
+      }
+    ],
+    "description": "curiosity, the love of learning, agency, meaning, purpose | author, professor, University administrator",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bernardbull",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bernardbull",
+        "name": "cover"
+      }
+    ],
+    "name": "Bernard Bull",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.etale.org"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bdean1000",
+      "proof_url": "https://twitter.com/bdean1000/status/750370845839724545",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bdean1000",
+      "proof_url": "https://gist.github.com/bdean1000/15ea222f6599878c6efc277aa1c51bd9",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "bernardbull",
+      "proof_url": "https://www.facebook.com/bernard.bull/posts/10154413484800854",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN bernardbull.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bernardbull.id\"\n"
+}

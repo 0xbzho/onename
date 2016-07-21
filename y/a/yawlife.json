@@ -1,0 +1,74 @@
+{
+  "owner_address": "1MHM1D7DftMpjKhjzFGK8NnykvgHQa9fzB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "YawLife",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/YawLife/status/754732391944421376",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "YawLife",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/YawLife/a262add8fc5b3189b690d7e90bbc5459",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "YawLife",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/YawLife/",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Edmonton, AB, Canada"
+    },
+    "description": "Creators of the LifeCash™ [LIFE™] Currency and upcoming LifeCash/YawLife apps! We believe every LIFE has value, and that Your'e Always Wealthy [YAW™].",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/yawlife",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/yawlife",
+        "name": "cover"
+      }
+    ],
+    "name": "YawLife Inc.",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://yaw.life"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "YawLife",
+      "proof_url": "https://twitter.com/YawLife/status/754732391944421376",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "YawLife",
+      "proof_url": "https://gist.github.com/YawLife/a262add8fc5b3189b690d7e90bbc5459",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "YawLife",
+      "proof_url": "https://www.facebook.com/YawLife/",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN yawlife.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/yawlife.id\"\n"
+}

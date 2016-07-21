@@ -1,0 +1,47 @@
+{
+  "owner_address": "13Aq2U5aBZTV7F78oyfa97ZsyAy8Z9XM4s",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "umgeher",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/umgeher/status/748979311739277312",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Earth"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/umgeher",
+        "name": "avatar"
+      }
+    ],
+    "name": "Umgeher Torgersen",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://umgeher.org"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "umgeher",
+      "proof_url": "https://twitter.com/umgeher/status/748979311739277312",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN umgeher.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/umgeher.id\"\n"
+}

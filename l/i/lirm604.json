@@ -1,0 +1,45 @@
+{
+  "owner_address": "1MoTZt1HJhEiYoAVdiUzjzEsPMLfA7UVtb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "lirm604",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/lirm604/status/748904510513221633",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Lirm",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Lirm/033e66aa4462313a26c0592ab4be28f2",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Stanislav Liberman"
+  },
+  "verifications": [
+    {
+      "identifier": "lirm604",
+      "proof_url": "https://twitter.com/lirm604/status/748904510513221633",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Lirm",
+      "proof_url": "https://gist.github.com/Lirm/033e66aa4462313a26c0592ab4be28f2",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN lirm604.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lirm604.id\"\n"
+}

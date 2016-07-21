@@ -1,0 +1,41 @@
+{
+  "owner_address": "1GVK9mzbMdbrW2KrH9V3BxLXjkayjnU8bJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Martin.C.Day",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ajax/sharer?appid=586254444758776&s=100&u=https%3A%2F%2Fonename.com%2Fmartinday",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London, United Kingdom"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/martinday",
+        "name": "avatar"
+      }
+    ],
+    "name": "Martin Day"
+  },
+  "verifications": [
+    {
+      "identifier": "Martin.C.Day",
+      "proof_url": "https://www.facebook.com/ajax/sharer?appid=586254444758776&s=100&u=https%3A%2F%2Fonename.com%2Fmartinday",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN martinday.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/martinday.id\"\n"
+}

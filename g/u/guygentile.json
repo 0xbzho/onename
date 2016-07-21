@@ -1,0 +1,41 @@
+{
+  "owner_address": "19bnAfTpvk8iumFCQpgfo3b9ch6xALBJvR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "guy.gentile",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "guygentile",
+        "proofType": "http",
+        "proofUrl": "https://mobile.twitter.com/GuyGentile/status/751055674222714880",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/guygentile",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "guygentile",
+      "proof_url": "https://mobile.twitter.com/GuyGentile/status/751055674222714880",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN guygentile.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/guygentile.id\"\n"
+}

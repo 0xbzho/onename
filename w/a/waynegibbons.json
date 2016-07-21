@@ -1,0 +1,60 @@
+{
+  "owner_address": "1AenBUsRCsPUBAYMqA32rCehHD4DDKmagb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Thewaynegibbons",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TheWayneGibbons/status/751684980359725056",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "wayne.gmit",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/wayne.gmit/posts/1311531388880823?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Galway, Ireland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/waynegibbons",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/waynegibbons",
+        "name": "cover"
+      }
+    ],
+    "name": "Wayne Gibbons",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://about.me/waynegibbons"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Thewaynegibbons",
+      "proof_url": "https://twitter.com/TheWayneGibbons/status/751684980359725056",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "wayne.gmit",
+      "proof_url": "https://www.facebook.com/wayne.gmit/posts/1311531388880823?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN waynegibbons.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/waynegibbons.id\"\n"
+}

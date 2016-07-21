@@ -1,0 +1,67 @@
+{
+  "owner_address": "1Q6o3CcXSgQdaJbWdggcR8S385qnYnsREp",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "julioquadros",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/julioquadros/posts/10201499473325039",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "_JulioQuadros_",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/_JulioQuadros_/status/750908113851678721",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "julioquadros",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/julioquadros/d55b1bc5c980703033adbb5f2caa233c",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brazil"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/julioquadros",
+        "name": "avatar"
+      }
+    ],
+    "name": "Julio Quadros dos Santos"
+  },
+  "verifications": [
+    {
+      "identifier": "julioquadros",
+      "proof_url": "https://www.facebook.com/julioquadros/posts/10201499473325039",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "_JulioQuadros_",
+      "proof_url": "https://twitter.com/_JulioQuadros_/status/750908113851678721",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "julioquadros",
+      "proof_url": "https://gist.github.com/julioquadros/d55b1bc5c980703033adbb5f2caa233c",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN julioquadros.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/julioquadros.id\"\n"
+}

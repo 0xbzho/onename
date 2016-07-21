@@ -1,0 +1,42 @@
+{
+  "owner_address": "1Pr9mQidg5oMPpLgELNR5AutPor9agBKJC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tomsquest",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tomsquest/ce93ebd9aa40b1431d7188a9d56ff1c0",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "France"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Thomas Queste",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.tomsquest.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tomsquest",
+      "proof_url": "https://gist.github.com/tomsquest/ce93ebd9aa40b1431d7188a9d56ff1c0",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tomsquest.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tomsquest.id\"\n"
+}

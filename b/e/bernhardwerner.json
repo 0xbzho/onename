@@ -1,0 +1,36 @@
+{
+  "owner_address": "1BJwURiCkLuFRvDTg9V2rfe5REZ15PgNiX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bwdeg",
+        "proofType": "http",
+        "proofUrl": "https://www.twitter.com/bwdeg/status/752003530609786881",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Deggendorf"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Bernhard Werner"
+  },
+  "verifications": [
+    {
+      "identifier": "bwdeg",
+      "proof_url": "https://www.twitter.com/bwdeg/status/752003530609786881",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN bernhardwerner.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bernhardwerner.id\"\n"
+}

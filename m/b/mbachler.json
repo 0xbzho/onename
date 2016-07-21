@@ -1,0 +1,74 @@
+{
+  "owner_address": "16kepnyp2k72u2YwFA8y3Y5txhrBHd2jsE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "michelle.bachler",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/michelle.bachler/posts/10209711242201876",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "msbachler",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/msbachler/8d6eb853cca6c8ffecf17b37e8a35599",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mbachler",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mbachler/status/750353159164399616",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Milton Keynes"
+    },
+    "description": "Computer Programmer at the Open University",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mbachler",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mbachler",
+        "name": "cover"
+      }
+    ],
+    "name": "Michelle Bachler",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://people.kmi.open.ac.uk/bachler/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "michelle.bachler",
+      "proof_url": "https://www.facebook.com/michelle.bachler/posts/10209711242201876",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "msbachler",
+      "proof_url": "https://gist.github.com/msbachler/8d6eb853cca6c8ffecf17b37e8a35599",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "mbachler",
+      "proof_url": "https://twitter.com/mbachler/status/750353159164399616",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mbachler.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mbachler.id\"\n"
+}

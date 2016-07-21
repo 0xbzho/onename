@@ -1,0 +1,36 @@
+{
+  "owner_address": "1NN5Q5nZk1xPXj1F4ssUjWaAdCM3go6WeY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/dec203caa0de5b484152db4082e12afb",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/eharmony",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/dec203caa0de5b484152db4082e12afb",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN eharmony.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/eharmony.id\"\n"
+}

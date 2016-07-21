@@ -1,0 +1,42 @@
+{
+  "owner_address": "1vXiFkVunivr6fnCuynaebY1GZ7w9kdNm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "robert.potter2",
+        "proofType": "http",
+        "proofUrl": "Verifying that +privaterico is my blockchain ID. https://onename.com/privaterico",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Florida"
+    },
+    "description": "A freelance writer and programmer.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/privaterico",
+        "name": "avatar"
+      }
+    ],
+    "name": "Robert Potter"
+  },
+  "verifications": [
+    {
+      "identifier": "robert.potter2",
+      "proof_url": "Verifying that +privaterico is my blockchain ID. https://onename.com/privaterico",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN privaterico.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/privaterico.id\"\n"
+}

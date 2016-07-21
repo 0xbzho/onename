@@ -1,0 +1,36 @@
+{
+  "owner_address": "1HLmNxG9FnuyygkiwGDTU6zQHBS1Ns3D8Q",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/58f988680616b52c505d1d2a928a5c3a",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/oreilly",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/58f988680616b52c505d1d2a928a5c3a",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN oreilly.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/oreilly.id\"\n"
+}

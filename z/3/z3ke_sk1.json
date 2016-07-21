@@ -1,34 +1,41 @@
 {
   "owner_address": "12XqccbFGTbxt5s2rWZgLywQQeuxUXkTdm",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/z3ke_sk1"
-    },
-    "bio": "Follow the Non-Aggression Principle, join the PC Master Race, and watch a lot of anime.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/z3ke_sk1"
-    },
-    "location": {
-      "formatted": "My private property"
-    },
-    "name": {
-      "formatted": "Ezekiel"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/Z3KE_SK1/status/703658324500324356"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Z3KE_SK1",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "Z3KE_SK1"
+      {
+        "@type": "Account",
+        "identifier": "1H5JSBJX4mwNgZR55DjtYrpeyF7TjhGaxs",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "My private property"
     },
-    "v": "0.2",
-    "website": "http://steamcommunity.com/id/Z3KE_SK1"
+    "description": "Follow the Non-Aggression Principle, join the PC Master Race, and watch a lot of anime.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/z3ke_sk1",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/z3ke_sk1",
+        "name": "cover"
+      }
+    ],
+    "name": "Ezekiel",
+    "website": []
   },
-  "verifications": [
-    {
-      "identifier": "Z3KE_SK1",
-      "proof_url": "https://twitter.com/Z3KE_SK1/status/703658324500324356",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN z3ke_sk1.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/z3ke_sk1.id\"\n"
 }

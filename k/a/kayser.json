@@ -1,0 +1,61 @@
+{
+  "owner_address": "1DgmhjQkXBBavXYBtjA7JaikNbXDorjG6p",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cu_ben",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cu_ben/status/753590180032966656",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ch.kayser",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ch.kayser/posts/1387741891252548",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Berlin"
+    },
+    "description": "Digital Business Enthusiast @TLGG",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kayser",
+        "name": "avatar"
+      }
+    ],
+    "name": "Christoph Kayser",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://christophkayser.de"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "cu_ben",
+      "proof_url": "https://twitter.com/cu_ben/status/753590180032966656",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ch.kayser",
+      "proof_url": "https://www.facebook.com/ch.kayser/posts/1387741891252548",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN kayser.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kayser.id\"\n"
+}

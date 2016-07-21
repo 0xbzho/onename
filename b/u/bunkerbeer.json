@@ -1,0 +1,31 @@
+{
+  "owner_address": "17jh6nWU1NopccN179vRpuAhKopiQyqxmg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "12dDZ4nNHA8LXvxQMwgGJZZfrh126ijcbA",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "c4429efb5a1da67f084e7d6fe0ec1fde5191f2b2",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/andy.brunner/posts/10153797839618763",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Bunker Beers"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN bunkerbeer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bunkerbeer.id\"\n"
+}

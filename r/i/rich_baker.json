@@ -1,0 +1,48 @@
+{
+  "owner_address": "19yZA7VPbBYUsiBB6maWLyjyAbFMd5GAnY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Richard_Baker",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/richard_baker/status/753599893365723136",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "UK"
+    },
+    "description": "Employee Communications Expert.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rich_baker",
+        "name": "avatar"
+      }
+    ],
+    "name": "Rich Baker",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://internalcommunication.uk"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Richard_Baker",
+      "proof_url": "https://twitter.com/richard_baker/status/753599893365723136",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rich_baker.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rich_baker.id\"\n"
+}

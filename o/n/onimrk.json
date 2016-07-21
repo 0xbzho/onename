@@ -1,0 +1,54 @@
+{
+  "owner_address": "1KLWdxhMAWBsb8FKrwvG27FBQghM7dgrUD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dumbenglishman",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/DumbEnglishman/status/753263316697387008",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "onimrk",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/onimrk",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "United States"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/onimrk",
+        "name": "avatar"
+      }
+    ],
+    "name": "Mark O'Neill"
+  },
+  "verifications": [
+    {
+      "identifier": "dumbenglishman",
+      "proof_url": "https://twitter.com/DumbEnglishman/status/753263316697387008",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "onimrk",
+      "proof_url": "https://onename.com/onimrk",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN onimrk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/onimrk.id\"\n"
+}

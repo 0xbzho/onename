@@ -1,0 +1,49 @@
+{
+  "owner_address": "1BznP1A5yYCHLSEzPqwaEKp4Xq3wfkmw3E",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "chico",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/chico/e186ca17b0536e31bef7302afe076c00",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ccharlesworth",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ccharlesworth/status/751448127991873536",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ccharlesworth",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ccharlesworth",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "chico",
+      "proof_url": "https://gist.github.com/chico/e186ca17b0536e31bef7302afe076c00",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "ccharlesworth",
+      "proof_url": "https://twitter.com/ccharlesworth/status/751448127991873536",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ccharlesworth.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ccharlesworth.id\"\n"
+}

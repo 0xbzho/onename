@@ -1,0 +1,37 @@
+{
+  "owner_address": "1GkthLEnteRv2k3TP72AzoWK2VdTTdjLko",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "augusthur",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/augusthur/4c814d86ce425c0c67b37b04cd996afd",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/augusthur",
+        "name": "avatar"
+      }
+    ],
+    "name": "Augusto Mathurin"
+  },
+  "verifications": [
+    {
+      "identifier": "augusthur",
+      "proof_url": "https://gist.github.com/augusthur/4c814d86ce425c0c67b37b04cd996afd",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN augusthur.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/augusthur.id\"\n"
+}

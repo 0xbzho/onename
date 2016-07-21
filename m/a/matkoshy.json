@@ -1,0 +1,62 @@
+{
+  "owner_address": "16KSZEQRdah7L6Gz4jwFEFEEpaf7vc35Zt",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "matkoshy",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/matkoshy/4c62f2ff83587d8039d13d5b3a0bb01d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "matkoshy",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/matkoshy/status/754657177944543232",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "matkoshy",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/matkoshy/posts/10209585065844720",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Melbourne"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Mathew Koshy"
+  },
+  "verifications": [
+    {
+      "identifier": "matkoshy",
+      "proof_url": "https://gist.github.com/matkoshy/4c62f2ff83587d8039d13d5b3a0bb01d",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "matkoshy",
+      "proof_url": "https://twitter.com/matkoshy/status/754657177944543232",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "matkoshy",
+      "proof_url": "https://www.facebook.com/matkoshy/posts/10209585065844720",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN matkoshy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/matkoshy.id\"\n"
+}

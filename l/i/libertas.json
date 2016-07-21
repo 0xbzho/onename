@@ -1,0 +1,40 @@
+{
+  "owner_address": "1NtL5SsTYs6DQKMdYf5Fvs2TPTKtXyQwBr",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1cMgfhn84PNqvg41arC6ib9FyG31tCuEp",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/libertas",
+        "identifier": "AFD73B93252687026AFC8EA524E30094067B6E75",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "15586a8e5a2501802d2a79a519285f6f547c7732",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/libertas",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/libertas",
+        "name": "cover"
+      }
+    ],
+    "name": "David Libertas"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN libertas.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/libertas.id\"\n"
+}

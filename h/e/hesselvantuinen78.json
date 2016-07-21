@@ -1,0 +1,49 @@
+{
+  "owner_address": "123i7UXFuEnY4z22bSHyrWZtLTxvWH8g8y",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "HesselvanTuinen",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/HesselvanTuinen/status/749871430699982849",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hessel.vantuinen",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/hessel.vantuinen/posts/10207946213831183",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hesselvantuinen78",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "HesselvanTuinen",
+      "proof_url": "https://twitter.com/HesselvanTuinen/status/749871430699982849",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "hessel.vantuinen",
+      "proof_url": "https://www.facebook.com/hessel.vantuinen/posts/10207946213831183",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN hesselvantuinen78.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hesselvantuinen78.id\"\n"
+}

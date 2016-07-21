@@ -1,0 +1,57 @@
+{
+  "owner_address": "1AMNkAd4Tuv4YFr59tLyEdGqQcTHVeiFuL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://files.mia.to/mia.pgp.asc",
+        "identifier": "16A761695E4FBC62",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "miyuuli",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/miyuuli/status/749704937773338624",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "miyuuli",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/miyuuli/2d043bb8089321e2c15acb6344176aea",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Mia",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://mia.to/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "miyuuli",
+      "proof_url": "https://twitter.com/miyuuli/status/749704937773338624",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "miyuuli",
+      "proof_url": "https://gist.github.com/miyuuli/2d043bb8089321e2c15acb6344176aea",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN miyuuli.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/miyuuli.id\"\n"
+}

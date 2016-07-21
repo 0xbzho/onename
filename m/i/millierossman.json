@@ -1,0 +1,31 @@
+{
+  "owner_address": "16eFzbRmDxHwX826fQ2LSiP5dhvEs7YW9d",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "millierossman",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/photo.php?fbid=10100109204904856&set=a.545037823236.2054838.56500342&type=3&theater",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "millierossman",
+      "proof_url": "https://www.facebook.com/photo.php?fbid=10100109204904856&set=a.545037823236.2054838.56500342&type=3&theater",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN millierossman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/millierossman.id\"\n"
+}

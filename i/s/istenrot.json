@@ -1,0 +1,54 @@
+{
+  "owner_address": "14WnzUa1BAX6ArKy7ALSx6PiVRSVLXGKhY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "istenrot",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/istenrot/12f95cde628116ac8a36911148325abb",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "istenrot",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/istenrot/status/750474797516255233",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Finland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/istenrot",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/istenrot",
+        "name": "cover"
+      }
+    ],
+    "name": "Ilari Stenroth"
+  },
+  "verifications": [
+    {
+      "identifier": "istenrot",
+      "proof_url": "https://gist.github.com/istenrot/12f95cde628116ac8a36911148325abb",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "istenrot",
+      "proof_url": "https://twitter.com/istenrot/status/750474797516255233",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN istenrot.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/istenrot.id\"\n"
+}

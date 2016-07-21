@@ -1,0 +1,51 @@
+{
+  "owner_address": "13BbMDt4N37qBj1DBC5JGgNAbVo8UH6Txj",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "carlacasilli",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/carlacasilli/status/749019542043570176",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "carlacasilli",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/carlacasilli/42ff822d033ae800a5187e589ed3dbbb",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Carla Casilli",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://carlacasilli.wordpress.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "carlacasilli",
+      "proof_url": "https://twitter.com/carlacasilli/status/749019542043570176",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "carlacasilli",
+      "proof_url": "https://gist.github.com/carlacasilli/42ff822d033ae800a5187e589ed3dbbb",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN carlacasilli.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/carlacasilli.id\"\n"
+}

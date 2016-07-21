@@ -1,0 +1,36 @@
+{
+  "owner_address": "1QB3G5RpVu7unSk5iwz3aQqJgBeTWVDGrw",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/e3c8bb009e08d221b9cabf2946f8bed4",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/i_tunes",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/e3c8bb009e08d221b9cabf2946f8bed4",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN i_tunes.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/i_tunes.id\"\n"
+}

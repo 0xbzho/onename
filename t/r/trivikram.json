@@ -1,0 +1,44 @@
+{
+  "owner_address": "15WLVyKQHaLbqMKAscvzDGJ39eyHecE76b",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bacchu@gmail.com",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Btrivikram%20is%20my%20blockchain%20ID.%20https://onename.com/trivikram",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "",
+      "proof_url": "https://gist.github.com/",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "bacchu@gmail.com",
+      "proof_url": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Btrivikram%20is%20my%20blockchain%20ID.%20https://onename.com/trivikram",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN trivikram.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/trivikram.id\"\n"
+}

@@ -1,0 +1,67 @@
+{
+  "owner_address": "1UqFVbAiUz5Go6afscjUJvhLmmqAspt8p",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "fouge",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/fouge/status/751840434528268288",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "thefouge",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/TheFouge/posts/10153622838536770",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "BradFougere",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/BradFougere/556eeda868d857d674d9d8b5dd323245",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ottawa, ON"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/fougere",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/fougere",
+        "name": "cover"
+      }
+    ],
+    "name": "Brad Fougere"
+  },
+  "verifications": [
+    {
+      "identifier": "fouge",
+      "proof_url": "https://twitter.com/fouge/status/751840434528268288",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "thefouge",
+      "proof_url": "https://www.facebook.com/TheFouge/posts/10153622838536770",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "BradFougere",
+      "proof_url": "https://gist.github.com/BradFougere/556eeda868d857d674d9d8b5dd323245",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN fougere.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fougere.id\"\n"
+}

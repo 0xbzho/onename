@@ -1,0 +1,74 @@
+{
+  "owner_address": "1LwBKnKJ1FU41WHz9Zx9mLQ2UPAM7L6jLe",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "HiroMarleyg",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/HiroMarleyG/status/753391439233609728",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "marleyg",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/marleyg/7891d94963c781381c20323565c23850",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "marleyg",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/marleyg/posts/10154101407257530",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Redmond, WA"
+    },
+    "description": "Blockchain dude at Microsoft",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/marleyg",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/marleyg",
+        "name": "cover"
+      }
+    ],
+    "name": "Marley Gray",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://azure.microsoft.com/en-us/blog/author/marleyg/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "HiroMarleyg",
+      "proof_url": "https://twitter.com/HiroMarleyG/status/753391439233609728",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "marleyg",
+      "proof_url": "https://gist.github.com/marleyg/7891d94963c781381c20323565c23850",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "marleyg",
+      "proof_url": "https://www.facebook.com/marleyg/posts/10154101407257530",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN marleyg.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/marleyg.id\"\n"
+}

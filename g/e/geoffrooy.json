@@ -1,0 +1,43 @@
+{
+  "owner_address": "1PEhA7hiCExP5k4h4dDXj1y72L32whweUU",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "geoffrooy",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/geoffrooy/status/751496762561589248",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/geoffrooy",
+        "name": "avatar"
+      }
+    ],
+    "name": "Geoffroy B",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://medium.com/@geoffrooy"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "geoffrooy",
+      "proof_url": "https://twitter.com/geoffrooy/status/751496762561589248",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN geoffrooy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/geoffrooy.id\"\n"
+}

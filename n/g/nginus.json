@@ -1,0 +1,74 @@
+{
+  "owner_address": "1EJUtKeqycDGvzBm7QGqkP7MrQscpFHuk9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cdvonstinkpot",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cdvonstinkpot/status/754575778667462656",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "NginUS",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/NginUS/5724542490e660538fd8263940d929f3",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "christopherdbartels",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/christopherdbartels/posts/919196218202167",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Syracuse, NY, USA"
+    },
+    "description": "Justa Guy",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nginus",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/nginus",
+        "name": "cover"
+      }
+    ],
+    "name": "Christopher D. Bartels",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://christopherbartels.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "cdvonstinkpot",
+      "proof_url": "https://twitter.com/cdvonstinkpot/status/754575778667462656",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "NginUS",
+      "proof_url": "https://gist.github.com/NginUS/5724542490e660538fd8263940d929f3",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "christopherdbartels",
+      "proof_url": "https://www.facebook.com/christopherdbartels/posts/919196218202167",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN nginus.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nginus.id\"\n"
+}

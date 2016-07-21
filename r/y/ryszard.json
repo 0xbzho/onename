@@ -1,0 +1,60 @@
+{
+  "owner_address": "1GS7mCzbt1J2r2AYwgFq9WWyKs7w2zaF3g",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "steadygoing",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/steadygoing/status/754231243017945088",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "17vAFRYGUs6yXpGPa8vUAuVCwdXgKkXVhF",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/ryszard",
+        "identifier": null,
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "ryszard.nowosielski@gmail.com       Warsaw, Poland"
+    },
+    "description": "economist, aphorist",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ryszard",
+        "name": "avatar"
+      }
+    ],
+    "name": "Ryszard Nowosielski",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://sites.google.com/site/poltradesa/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "steadygoing",
+      "proof_url": "https://twitter.com/steadygoing/status/754231243017945088",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ryszard.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ryszard.id\"\n"
+}

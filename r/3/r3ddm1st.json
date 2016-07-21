@@ -1,0 +1,67 @@
+{
+  "owner_address": "1J3Rfg1RgCRNLzdPSnTn1AHC1uzdnMrd5N",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Reddmist",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Reddmist/0debf2539e7a2b9b45154948bc25484c",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "r3ddm1st",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/r3ddm1st/posts/1021157101314611?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "2AArmament",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/2AArmament/status/748359604778729476",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boise"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/r3ddm1st",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/r3ddm1st",
+        "name": "cover"
+      }
+    ],
+    "name": "Tony Scott"
+  },
+  "verifications": [
+    {
+      "identifier": "Reddmist",
+      "proof_url": "https://gist.github.com/Reddmist/0debf2539e7a2b9b45154948bc25484c",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "r3ddm1st",
+      "proof_url": "https://www.facebook.com/r3ddm1st/posts/1021157101314611?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "2AArmament",
+      "proof_url": "https://twitter.com/2AArmament/status/748359604778729476",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN r3ddm1st.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/r3ddm1st.id\"\n"
+}

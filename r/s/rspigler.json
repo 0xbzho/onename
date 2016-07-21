@@ -1,0 +1,42 @@
+{
+  "owner_address": "14CT6Bhy4jA7hptZ9xH644G1uPLcZFH5nv",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1HnZGLM7fK37PcSy55FMTLKiwocLA9oxRx",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pgp.mit.edu/pks/lookup?op=get&search=0x9F9A647732B465ED",
+        "identifier": "9f9a647732b465ed",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "635a258e270048a538ca7ca8c1947aa374e6b78b",
+        "proofType": "http",
+        "proofUrl": "https://mobile.twitter.com/pgrassi/status/750873902415511552",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rspigler",
+        "name": "avatar"
+      }
+    ],
+    "name": "Robert Spigler"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN rspigler.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rspigler.id\"\n"
+}

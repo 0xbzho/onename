@@ -1,0 +1,63 @@
+{
+  "owner_address": "1BPauM8Lm3j2iud9NQJgSV4ah2Xh6A3H3F",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "elanperach",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/elanperach/d8d709301f0bc09aa13ce3a25f2875a0",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "19TZXVKe5uvGMiFhqJS3DUsKETJeS5SXum",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "elanperach",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/elanperach/status/754749715678392320",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "elanperach",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/elanperach/posts/10154333046753839",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "elanperach",
+      "proof_url": "https://gist.github.com/elanperach/d8d709301f0bc09aa13ce3a25f2875a0",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "elanperach",
+      "proof_url": "https://twitter.com/elanperach/status/754749715678392320",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "elanperach",
+      "proof_url": "https://www.facebook.com/elanperach/posts/10154333046753839",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN elanperach.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/elanperach.id\"\n"
+}

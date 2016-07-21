@@ -1,0 +1,60 @@
+{
+  "owner_address": "19ow5BPYGMth2oYnHj5LJ6h6iJpRgYzHRK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Light_tweeter",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Light_Tweeter/status/749014258113912832",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "james.gallagher.391082",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/jamesgrace&redirect_uri=https://onename.com/jamesgrace%23facebook",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1DHXdzoiwQfDxpkAAovyWJGFGXomGXJKwC",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Rocky Mountains, USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jamesgrace",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jamesgrace",
+        "name": "cover"
+      }
+    ],
+    "name": "James Gallagher"
+  },
+  "verifications": [
+    {
+      "identifier": "Light_tweeter",
+      "proof_url": "https://twitter.com/Light_Tweeter/status/749014258113912832",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "james.gallagher.391082",
+      "proof_url": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/jamesgrace&redirect_uri=https://onename.com/jamesgrace%23facebook",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jamesgrace.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jamesgrace.id\"\n"
+}

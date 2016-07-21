@@ -1,0 +1,43 @@
+{
+  "owner_address": "1GGbBCLyjJzYSC15PP5CTkh18xpe4myp5p",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rasmusds",
+        "proofType": "http",
+        "proofUrl": "https://m.facebook.com/story.php?story_fbid=10153779827358963&id=728033962",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Roskilde, Denmark"
+    },
+    "description": "MD",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Rasmus Dahl-Sørensen",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.dahl-sørensen.dk"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "rasmusds",
+      "proof_url": "https://m.facebook.com/story.php?story_fbid=10153779827358963&id=728033962",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN rasmusds.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rasmusds.id\"\n"
+}

@@ -1,0 +1,48 @@
+{
+  "owner_address": "1NbVvRy4xACD8VaqgsqBwsQbVEG88Fhg7R",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "5036accdaf2f476f03484b3d3d8804994a226b08",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/dd36127e258a08e2074ffeecacdc1ac2",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "EdBilliot",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/EdBilliot/f446fc63e6d1195b0e7d4309c1224884",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cajun Country"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/openbazaarstore",
+        "name": "avatar"
+      }
+    ],
+    "name": "Ed Billiot"
+  },
+  "verifications": [
+    {
+      "identifier": "EdBilliot",
+      "proof_url": "https://gist.github.com/EdBilliot/f446fc63e6d1195b0e7d4309c1224884",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN openbazaarstore.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/openbazaarstore.id\"\n"
+}

@@ -1,0 +1,49 @@
+{
+  "owner_address": "1Pon8Zd5cWoy2nf5PvUbzqpFaDyfx9nZ4r",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "amadlin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dtapscott/status/750738751106772992",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "adam madlin",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/adam.madlin/posts/10209591072549726",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Northern Virginia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Adam Madlin"
+  },
+  "verifications": [
+    {
+      "identifier": "amadlin",
+      "proof_url": "https://twitter.com/dtapscott/status/750738751106772992",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "adam madlin",
+      "proof_url": "https://www.facebook.com/adam.madlin/posts/10209591072549726",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN amadlin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/amadlin.id\"\n"
+}

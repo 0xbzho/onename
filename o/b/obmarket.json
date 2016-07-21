@@ -1,0 +1,50 @@
+{
+  "owner_address": "1HSmRwKBRXF1wG3yKusTvEAmszDtNsVnvF",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/obmarket",
+        "identifier": "obmarket",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fb472a4129adcff595e22378f26d00c89133e1586",
+        "service": "openbazaar4"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fb472a4129adcff595e22378f26d00c89133e158",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "England"
+    },
+    "description": "OpenBazaar seller @obmarket",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/obmarket",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/obmarket",
+        "name": "cover"
+      }
+    ],
+    "name": "obmarket"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN obmarket.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/obmarket.id\"\n"
+}

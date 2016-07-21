@@ -1,0 +1,79 @@
+{
+  "owner_address": "1KVS3xbeH3Rxx2TMjB2U4Ugg5xiS4S8rZo",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "153DWTmSuVW1Qej2b2GWS6ttbQFzueghAh",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "pinheadmz",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/pinheadmz/c106979f3d19e9be2ff5f04ae458762f",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "MatthewZipkin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MatthewZipkin/status/751442696120569856",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/pinheadmz",
+        "identifier": "1FC9D96849CFE0D5A73A24C95D527D4F44134B3D",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "777011388d57da2b6c964c1844eecc5cb075d66d",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/pinheadmz/c106979f3d19e9be2ff5f04ae458762f",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "SF, CA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/pinheadmz",
+        "name": "avatar"
+      }
+    ],
+    "name": "Matthew Zipkin",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.MatthewZipkin.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "pinheadmz",
+      "proof_url": "https://gist.github.com/pinheadmz/c106979f3d19e9be2ff5f04ae458762f",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "MatthewZipkin",
+      "proof_url": "https://twitter.com/MatthewZipkin/status/751442696120569856",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN pinheadmz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pinheadmz.id\"\n"
+}

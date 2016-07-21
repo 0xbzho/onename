@@ -1,0 +1,44 @@
+{
+  "owner_address": "18p3Zi9QkXsgLSiNb8QN5B1wBzTb1NneXn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "robert.eckhoff",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/robert.eckhoff/posts/10154317105018485",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rweckhoff",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rweckhoff/status/752888795867951104",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "robert.eckhoff",
+      "proof_url": "https://www.facebook.com/robert.eckhoff/posts/10154317105018485",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "rweckhoff",
+      "proof_url": "https://twitter.com/rweckhoff/status/752888795867951104",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN rweckhoff.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rweckhoff.id\"\n"
+}

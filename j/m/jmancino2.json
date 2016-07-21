@@ -1,0 +1,73 @@
+{
+  "owner_address": "1L4HZsUCT6VDXB5oGeb2HhvWRCbdJWgF3S",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Jmancino2",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jmancino2/status/752570750339391490",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Jmancino2",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/Jmancino2/posts/122030881563826",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jmancino2",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jmancino2/c35396a3c4c13c0a6ce96d3db45c9e82",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1f47d1158418f08b73a67d286b380609e4538c45",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Manlius, NY"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "John Carl Mancino II",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://john2.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Jmancino2",
+      "proof_url": "https://twitter.com/jmancino2/status/752570750339391490",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Jmancino2",
+      "proof_url": "https://www.facebook.com/Jmancino2/posts/122030881563826",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "jmancino2",
+      "proof_url": "https://gist.github.com/jmancino2/c35396a3c4c13c0a6ce96d3db45c9e82",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jmancino2.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jmancino2.id\"\n"
+}

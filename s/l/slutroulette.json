@@ -1,0 +1,36 @@
+{
+  "owner_address": "1GkdP8H4yYdfYhUa2XLN39AAnwiPNbLXSX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/99fc87dd7315b2ef97c5a8af1702a40b",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/slutroulette",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/99fc87dd7315b2ef97c5a8af1702a40b",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN slutroulette.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/slutroulette.id\"\n"
+}

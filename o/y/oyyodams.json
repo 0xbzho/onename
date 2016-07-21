@@ -1,0 +1,68 @@
+{
+  "owner_address": "19hGUZHxKKe4bevKky3rcTkPJv7Lr7fBw8",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "oyyodams",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/OyyoDams/status/751686497447714816",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "OyyoDams",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/OyyoDams/2627ca228c7ae127be4b77b5802a2afe",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "damien.schmit",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/damien.schmit/posts/10210038005486925",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/oyyodams/key.asc",
+        "identifier": "CD0CED8E4D99906E7629D2C191009C962025874C",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/oyyodams",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/oyyodams",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "oyyodams",
+      "proof_url": "https://twitter.com/OyyoDams/status/751686497447714816",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "OyyoDams",
+      "proof_url": "https://gist.github.com/OyyoDams/2627ca228c7ae127be4b77b5802a2afe",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "damien.schmit",
+      "proof_url": "https://www.facebook.com/damien.schmit/posts/10210038005486925",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN oyyodams.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/oyyodams.id\"\n"
+}

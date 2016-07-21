@@ -1,0 +1,36 @@
+{
+  "owner_address": "1B4MokYczEgQWrjAH2Gd7SDxPcA3vaHfMB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/391c23cf2afc228ead28c81735f97d01",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/camscreative",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/391c23cf2afc228ead28c81735f97d01",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN camscreative.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/camscreative.id\"\n"
+}

@@ -1,0 +1,44 @@
+{
+  "owner_address": "1CQNuMhFkt8iDE1sitRn9d4RRVqbMm8Q45",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bigbishdog",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bigbishdog/status/755565720717496320",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "TMBish",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/TMBish/330fc2f452ffed2ea5ad4b44191a8b24",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bigbishdog",
+      "proof_url": "https://twitter.com/bigbishdog/status/755565720717496320",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "TMBish",
+      "proof_url": "https://gist.github.com/TMBish/330fc2f452ffed2ea5ad4b44191a8b24",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tombish.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tombish.id\"\n"
+}

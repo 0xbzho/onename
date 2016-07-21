@@ -1,0 +1,63 @@
+{
+  "owner_address": "1FbULXfAVQ8G3W42qWsfevDFbGqC8HJjYu",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "isotowright",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/isotowright/status/755171621997056000",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "isotowright",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/isotowright/25246bfa64a621b54cecc2c5878f3baf",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "isotowright",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/isotowright/posts/2990620164576?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ivansw",
+        "name": "avatar"
+      }
+    ],
+    "name": "Ivan Soto-Wright"
+  },
+  "verifications": [
+    {
+      "identifier": "isotowright",
+      "proof_url": "https://twitter.com/isotowright/status/755171621997056000",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "isotowright",
+      "proof_url": "https://gist.github.com/isotowright/25246bfa64a621b54cecc2c5878f3baf",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "isotowright",
+      "proof_url": "https://www.facebook.com/isotowright/posts/2990620164576?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ivansw.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ivansw.id\"\n"
+}

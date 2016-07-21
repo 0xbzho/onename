@@ -1,0 +1,30 @@
+{
+  "owner_address": "1LPpBoRACRiVBBwKYDXMAyrsiuAvuLYzSZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1AnnP7dagASbagSLswQUpDRkXnVUuMbror",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1cdcb86abbaed2c9bea534bf5bcec89a39d1e6ba",
+        "service": "openbazaar"
+      }
+    ],
+    "description": "I'm a RPi3 running decentralized services",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "DecentralBerryPi 3"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN decentralberrypi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/decentralberrypi.id\"\n"
+}

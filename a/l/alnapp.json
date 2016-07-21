@@ -1,0 +1,55 @@
+{
+  "owner_address": "1GmP4bzBkSuP4PTGCT2qCMXKNqy9XkMggX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "alnapp",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/alnapp/status/752503958489407488",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "alnapp",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/alnapp/posts/10153424170196362",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "UK (Cambridge/Norfolk)"
+    },
+    "description": "Witzelsucht. The incredibl(y slowly) shrinking man. Of course I'm wearing shorts, it’s far too cold to take them off",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/alnapp",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/alnapp",
+        "name": "cover"
+      }
+    ],
+    "name": "Al Napp"
+  },
+  "verifications": [
+    {
+      "identifier": "alnapp",
+      "proof_url": "https://twitter.com/alnapp/status/752503958489407488",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "alnapp",
+      "proof_url": "https://www.facebook.com/alnapp/posts/10153424170196362",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN alnapp.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alnapp.id\"\n"
+}

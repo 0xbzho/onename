@@ -1,0 +1,66 @@
+{
+  "owner_address": "12K9ahKtnAuwpLJX8dtLBjd67dqekEH72S",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "voxnonecho",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/voxnonecho/status/749665166594277378",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "voxnonecho",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/voxnonecho/a10079ff0521c21fdf46c8e0d9763f85",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1HvtwSxxzT8kLQ9r1sNyxJevLQrbb2RLZD",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Montreal"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/stevenbeaupre",
+        "name": "avatar"
+      }
+    ],
+    "name": "Steven Beaupré",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://elm.bi"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "voxnonecho",
+      "proof_url": "https://twitter.com/voxnonecho/status/749665166594277378",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "voxnonecho",
+      "proof_url": "https://gist.github.com/voxnonecho/a10079ff0521c21fdf46c8e0d9763f85",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN stevenbeaupre.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stevenbeaupre.id\"\n"
+}

@@ -1,0 +1,41 @@
+{
+  "owner_address": "1LDEjWeFKCiryTEEsatBb7DD8mpygFSigF",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "@spencajawnsen",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/spencajawnsen/status/750413735840346112",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Washington, DC"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/spencerjohnson",
+        "name": "avatar"
+      }
+    ],
+    "name": "Spencer Johnson"
+  },
+  "verifications": [
+    {
+      "identifier": "@spencajawnsen",
+      "proof_url": "https://twitter.com/spencajawnsen/status/750413735840346112",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN spencerjohnson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/spencerjohnson.id\"\n"
+}

@@ -1,0 +1,48 @@
+{
+  "owner_address": "1BFgs5Rri1oLxyaXY6s9VPrzzseEY1JqSe",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Huw_Warren",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Huw_Warren/status/755330812065832960",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dca52680-ef71-4b22-a327-1be530dc6b9e",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "St. Albans, United Kingdom"
+    },
+    "description": "Software Sales, Proud father of twin boys and Blockchain enthusiast",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/huwwarren",
+        "name": "avatar"
+      }
+    ],
+    "name": "Huw Warren"
+  },
+  "verifications": [
+    {
+      "identifier": "Huw_Warren",
+      "proof_url": "https://twitter.com/Huw_Warren/status/755330812065832960",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN huwwarren.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/huwwarren.id\"\n"
+}

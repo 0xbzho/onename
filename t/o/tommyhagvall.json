@@ -1,0 +1,36 @@
+{
+  "owner_address": "1KQZxt3sBCf5Z78N9whMHyjd65AkeMX53N",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "TommyHagvall",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TommyHagvall/status/753180493265469441?lang=sv",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sweden"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Tommy Hagvall"
+  },
+  "verifications": [
+    {
+      "identifier": "TommyHagvall",
+      "proof_url": "https://twitter.com/TommyHagvall/status/753180493265469441?lang=sv",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tommyhagvall.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tommyhagvall.id\"\n"
+}

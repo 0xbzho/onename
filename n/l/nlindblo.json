@@ -1,0 +1,73 @@
+{
+  "owner_address": "1A6kLdMR99DZrXrv4ASw5X8cGjKdoy7FKo",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/a19eea48783caad2e2613331ee4cc5f3",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nlindblo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/nlindblo/status/752361421145534468",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "niclas.lindblom",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/niclas.lindblom/posts/10154376864746450?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "39JL4hhvvaMLmyxtbX9ReufbKXGrAuVUj9",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Singapore"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nlindblo",
+        "name": "avatar"
+      }
+    ],
+    "name": "Niclas Lindblom"
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/a19eea48783caad2e2613331ee4cc5f3",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "nlindblo",
+      "proof_url": "https://twitter.com/nlindblo/status/752361421145534468",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "niclas.lindblom",
+      "proof_url": "https://www.facebook.com/niclas.lindblom/posts/10154376864746450?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN nlindblo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nlindblo.id\"\n"
+}

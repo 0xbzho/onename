@@ -1,0 +1,61 @@
+{
+  "owner_address": "1LKt9yAKt87LJGK2Anj81CBYxtHCYdCEiu",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kgab0r",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/kgab0r/2f6d34bd2082de0b6506518865921b38",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kgab0r",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kgab0r/status/749535853559607296",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1LamfPcGkoYstSa9r3MFkmB7asTiJHip8M",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Exeter, UK"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Gabor Koszegi",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://koszegi.eu"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "kgab0r",
+      "proof_url": "https://gist.github.com/kgab0r/2f6d34bd2082de0b6506518865921b38",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "kgab0r",
+      "proof_url": "https://twitter.com/kgab0r/status/749535853559607296",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kg4b0r.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kg4b0r.id\"\n"
+}

@@ -1,0 +1,47 @@
+{
+  "owner_address": "13Dt9DtK6ScwravjsqcAh9GA6FaQe7xMLv",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jyrimatti",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jyrimatti/76be5db28fd652822a6b77978a7624a0",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kangasala, Finland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jyrimatti",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jyri-Matti Lähteenmäki",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.lahteenmaki.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jyrimatti",
+      "proof_url": "https://gist.github.com/jyrimatti/76be5db28fd652822a6b77978a7624a0",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jyrimatti.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jyrimatti.id\"\n"
+}

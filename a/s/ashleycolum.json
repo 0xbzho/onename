@@ -1,0 +1,50 @@
+{
+  "owner_address": "1HCHpoppx1kjZAE2PaChjpuKv2AWHQyxgf",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ashleycolum",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/AshleyColum/status/749247591712382976",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1GGC3iEXWrcn53SFcwaU2697hTnAkeBSsx",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ashley.colum",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ashley.colum/posts/10210313784427271?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ashleycolum",
+      "proof_url": "https://twitter.com/AshleyColum/status/749247591712382976",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ashley.colum",
+      "proof_url": "https://www.facebook.com/ashley.colum/posts/10210313784427271?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ashleycolum.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ashleycolum.id\"\n"
+}

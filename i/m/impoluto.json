@@ -1,0 +1,42 @@
+{
+  "owner_address": "1Fcy7x5wLDEfio3fCpi9VjyNZRvV6fj7qJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "El_Impoluto1",
+        "proofType": "http",
+        "proofUrl": "https://t.co/Mm6jVfzxXd",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/impoluto",
+        "identifier": null,
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ghana"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "El Impoluto"
+  },
+  "verifications": [
+    {
+      "identifier": "El_Impoluto1",
+      "proof_url": "https://t.co/Mm6jVfzxXd",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN impoluto.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/impoluto.id\"\n"
+}

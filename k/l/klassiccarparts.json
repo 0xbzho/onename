@@ -1,0 +1,44 @@
+{
+  "owner_address": "1P6eMyYGu4TaNAQZVhr3ZMWhzQBmXf9BsP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "KlassicCarParts",
+        "proofType": "http",
+        "proofUrl": "Verifying that +klassiccarparts is my blockchain ID. https://onename.com/klassiccarparts",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "klassicparts",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/klassicparts/posts/1073898086035379?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "KlassicCarParts",
+      "proof_url": "Verifying that +klassiccarparts is my blockchain ID. https://onename.com/klassiccarparts",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "klassicparts",
+      "proof_url": "https://www.facebook.com/klassicparts/posts/1073898086035379?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN klassiccarparts.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/klassiccarparts.id\"\n"
+}

@@ -1,0 +1,32 @@
+{
+  "owner_address": "15bATfyJNnhSpRgrK9uT3pmnCirv12j2Qx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "thedannyfrank",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/thedannyfrank/status/752422610420441089",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Danny Frank"
+  },
+  "verifications": [
+    {
+      "identifier": "thedannyfrank",
+      "proof_url": "https://twitter.com/thedannyfrank/status/752422610420441089",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN thedannyfrank.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/thedannyfrank.id\"\n"
+}

@@ -1,0 +1,44 @@
+{
+  "owner_address": "12VJdvtCKnE7xFW8a2EwJHNzngdc5eZL9L",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "itilpro",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/itilpro/status/748951010077356032",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dhulsman",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dhulsman/fbff7f550e51e0cf93fe9b54cb0181e0",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "itilpro",
+      "proof_url": "https://twitter.com/itilpro/status/748951010077356032",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "dhulsman",
+      "proof_url": "https://gist.github.com/dhulsman/fbff7f550e51e0cf93fe9b54cb0181e0",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN dhulsman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dhulsman.id\"\n"
+}

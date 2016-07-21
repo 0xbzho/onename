@@ -1,0 +1,32 @@
+{
+  "owner_address": "1C7f9fwiB29T2VnKPHYfpSMhzdDTfDgJMK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "stuartleeks",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/stuartleeks/8014f9a6e1370c9f5b50ea9a00a4f61f",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Stuart Leeks"
+  },
+  "verifications": [
+    {
+      "identifier": "stuartleeks",
+      "proof_url": "https://gist.github.com/stuartleeks/8014f9a6e1370c9f5b50ea9a00a4f61f",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN stuartleeks.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stuartleeks.id\"\n"
+}

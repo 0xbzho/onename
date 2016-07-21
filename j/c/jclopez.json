@@ -1,0 +1,67 @@
+{
+  "owner_address": "14XAzYsCV97u5qe7H8oAmw5gUBeXrGTKgh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jclopez",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jclopez/status/751824318540107776",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Carlos0621",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/Carlos0621/posts/101542337649724",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jclopezp",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jclopezp/75a5164817a5be6c089462a265d72ad8",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mexico"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jclopez",
+        "name": "avatar"
+      }
+    ],
+    "name": "Carlos Lopez"
+  },
+  "verifications": [
+    {
+      "identifier": "jclopez",
+      "proof_url": "https://twitter.com/jclopez/status/751824318540107776",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Carlos0621",
+      "proof_url": "https://www.facebook.com/Carlos0621/posts/101542337649724",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "jclopezp",
+      "proof_url": "https://gist.github.com/jclopezp/75a5164817a5be6c089462a265d72ad8",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jclopez.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jclopez.id\"\n"
+}

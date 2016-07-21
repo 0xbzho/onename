@@ -1,0 +1,74 @@
+{
+  "owner_address": "1A13mHYg2D7RmG9gHR56Z5aAz9SyaPnKhd",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1KBvMKHWRZJnjbCmYzycHEdtayuTBUWmFv",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "henriiquecampos",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/henriiquecampos/20b353572e7c5907a1a9a3f4e3caba0e",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "henriiquecampos",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/henriiquecampos/status/751461896637837314",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "henriiquecampos",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/henriiquecampos/posts/998920793494940",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brasília, Brazil"
+    },
+    "description": "Game designer, developer and enthusiast.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/henriquecampos",
+        "name": "avatar"
+      }
+    ],
+    "name": "Henrique Campos"
+  },
+  "verifications": [
+    {
+      "identifier": "henriiquecampos",
+      "proof_url": "https://gist.github.com/henriiquecampos/20b353572e7c5907a1a9a3f4e3caba0e",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "henriiquecampos",
+      "proof_url": "https://twitter.com/henriiquecampos/status/751461896637837314",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "henriiquecampos",
+      "proof_url": "https://www.facebook.com/henriiquecampos/posts/998920793494940",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN henriquecampos.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/henriquecampos.id\"\n"
+}

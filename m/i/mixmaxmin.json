@@ -1,0 +1,54 @@
+{
+  "owner_address": "1NnTPSELmYRfTJP5Vbd2vsf1FSiV2cp4MQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mixmaxmin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mixmaxmin/status/752636760719405058",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mixmaxmin",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mixmaxmin/posts/10154361263169048",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sydney, Australia."
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mixmaxmin",
+        "name": "avatar"
+      }
+    ],
+    "name": "Max Gallo"
+  },
+  "verifications": [
+    {
+      "identifier": "mixmaxmin",
+      "proof_url": "https://twitter.com/mixmaxmin/status/752636760719405058",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mixmaxmin",
+      "proof_url": "https://www.facebook.com/mixmaxmin/posts/10154361263169048",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mixmaxmin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mixmaxmin.id\"\n"
+}

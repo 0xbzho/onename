@@ -1,10 +1,28 @@
 {
   "owner_address": "1JRdyecZyJG3dvR1qR4Wgrsaa4A8aj6WHj",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/rVv.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "3e55d6de4929d10ee7ed1fe74f86f6495e2e8b04",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/autobazaar",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/autobazaar",
+        "name": "cover"
+      }
+    ],
+    "name": "AutoBazaar"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN autobazaar.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/autobazaar.id\"\n"
 }

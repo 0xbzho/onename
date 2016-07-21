@@ -1,0 +1,68 @@
+{
+  "owner_address": "1EmuG4c4xFVmHhTPheZohhJ4VYJPSGbj1z",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mhausding",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mhausding/status/750372070001958912",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mausding",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mausding/5452d4bcf13063963c90e4d59a1c160d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mausding",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mausding/posts/1253821724628711?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/mausding",
+        "identifier": "d0def5aa35b0615e",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Zürich"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Michael"
+  },
+  "verifications": [
+    {
+      "identifier": "mhausding",
+      "proof_url": "https://twitter.com/mhausding/status/750372070001958912",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mausding",
+      "proof_url": "https://gist.github.com/mausding/5452d4bcf13063963c90e4d59a1c160d",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "mausding",
+      "proof_url": "https://www.facebook.com/mausding/posts/1253821724628711?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mausding.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mausding.id\"\n"
+}

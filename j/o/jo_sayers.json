@@ -1,0 +1,47 @@
+{
+  "owner_address": "1HB5aceT1MAQRLqrVifQQYKSRoBXc9DTJH",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jo_sayers",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jo_sayers/status/750653674867818496",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https://greenaddress.it/en/pay/GA3Jj8eiY6Ef1qXE3sd123AYu47Lxt/#/",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jo_sayers",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jo_sayers",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jo Sayers"
+  },
+  "verifications": [
+    {
+      "identifier": "jo_sayers",
+      "proof_url": "https://twitter.com/jo_sayers/status/750653674867818496",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jo_sayers.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jo_sayers.id\"\n"
+}

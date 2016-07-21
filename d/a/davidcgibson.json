@@ -1,0 +1,57 @@
+{
+  "owner_address": "1Dgy2UvVGXqaUeJ21Uk4YZHJ1fCnFtZoYp",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "davidgibson",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/davidgibson/status/750506476909699072",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "/people/David-Gibson/703553085",
+        "proofType": "http",
+        "proofUrl": "Verifying that +davidcgibson is my blockchain ID. https://onename.com/davidcgibson",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "davidcgibson",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/davidcgibson/d01c942ba1bcf9cabec4d4353127d37c.js",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "davidgibson",
+      "proof_url": "https://twitter.com/davidgibson/status/750506476909699072",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "/people/David-Gibson/703553085",
+      "proof_url": "Verifying that +davidcgibson is my blockchain ID. https://onename.com/davidcgibson",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "davidcgibson",
+      "proof_url": "https://gist.github.com/davidcgibson/d01c942ba1bcf9cabec4d4353127d37c.js",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN davidcgibson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/davidcgibson.id\"\n"
+}

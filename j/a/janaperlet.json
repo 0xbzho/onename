@@ -1,0 +1,60 @@
+{
+  "owner_address": "16ECvQgUdZ7b7YLzwJoqaEKKN4BsQcNfw5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nanobitcoin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/NanoBitcoin/status/754306798413283328",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Bitcoin Addresses: 1F49zQdb41Z8r1os2ZSCAarFtx5EG4L5Z5 1NQAeABhGgobUEJ6v6gVixbinq8yhAiiH1",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "janaperlet",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jperlet/posts/10154401176992472",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/janaperlet",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/janaperlet",
+        "name": "cover"
+      }
+    ],
+    "name": "Jana Christel Perlet"
+  },
+  "verifications": [
+    {
+      "identifier": "nanobitcoin",
+      "proof_url": "https://twitter.com/NanoBitcoin/status/754306798413283328",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "janaperlet",
+      "proof_url": "https://www.facebook.com/jperlet/posts/10154401176992472",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN janaperlet.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/janaperlet.id\"\n"
+}

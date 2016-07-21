@@ -1,0 +1,44 @@
+{
+  "owner_address": "1448W5rRTV39eKjMmtG5UJvsT1h6H7nm3G",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tim_machine",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tim_machine/status/751024764312059904",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Tim-Machine",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Tim-Machine/3dfed5401311dfcc4a927c035498d17e",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tim_machine",
+      "proof_url": "https://twitter.com/tim_machine/status/751024764312059904",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Tim-Machine",
+      "proof_url": "https://gist.github.com/Tim-Machine/3dfed5401311dfcc4a927c035498d17e",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN zerovapor.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/zerovapor.id\"\n"
+}

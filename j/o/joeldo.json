@@ -1,0 +1,57 @@
+{
+  "owner_address": "14B3xvYXQihSvvWoAxC63TAShCs9EPSq39",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "joeldo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/joeldo/status/755247706071760896",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "joeldo.holanda",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/joeldo.holanda/posts/10205099077911360?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "joeldo",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/joeldo/96885378fe575ff492d1808203cc7d4a",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "joeldo",
+      "proof_url": "https://twitter.com/joeldo/status/755247706071760896",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "joeldo.holanda",
+      "proof_url": "https://www.facebook.com/joeldo.holanda/posts/10205099077911360?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "joeldo",
+      "proof_url": "https://gist.github.com/joeldo/96885378fe575ff492d1808203cc7d4a",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN joeldo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/joeldo.id\"\n"
+}

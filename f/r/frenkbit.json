@@ -1,0 +1,80 @@
+{
+  "owner_address": "16U5yLmvwnEzMV6jpHphYp6hYd8eZNPV2n",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "frenkbit",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/frenkbit/status/752543213915963393",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nacchia.francesco",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/nacchia.francesco/posts/10153687440845823?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "frenkbit",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/frenkbit/8b61493ff9e871e4a4a74c0eb63441f4",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https://greenaddress.it/en/pay/GA4G3itcWJhf3LnpJMJpnThqDF6zR2/",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Milano, Italu"
+    },
+    "description": "CEO of Energify, Researcher in BlockchainLab.it, Communication Manager in Assob.it",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/frenkbit",
+        "name": "avatar"
+      }
+    ],
+    "name": "Francesco Nacchia",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.nacchia.it"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "frenkbit",
+      "proof_url": "https://twitter.com/frenkbit/status/752543213915963393",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "nacchia.francesco",
+      "proof_url": "https://www.facebook.com/nacchia.francesco/posts/10153687440845823?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "frenkbit",
+      "proof_url": "https://gist.github.com/frenkbit/8b61493ff9e871e4a4a74c0eb63441f4",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN frenkbit.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/frenkbit.id\"\n"
+}

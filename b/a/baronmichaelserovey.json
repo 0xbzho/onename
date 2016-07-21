@@ -1,0 +1,49 @@
+{
+  "owner_address": "1HXMvQMgUtyJEJyTWAkCp1cZJeCWHu3i2Z",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "authormrs",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/authormrs/status/749188406639357952",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mserovey",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/authormrs/status/749188406639357952",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/baronmichaelserovey",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/baronmichaelserovey",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "authormrs",
+      "proof_url": "https://twitter.com/authormrs/status/749188406639357952",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mserovey",
+      "proof_url": "https://twitter.com/authormrs/status/749188406639357952",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN baronmichaelserovey.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/baronmichaelserovey.id\"\n"
+}

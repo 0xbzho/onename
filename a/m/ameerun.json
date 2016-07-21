@@ -1,0 +1,37 @@
+{
+  "owner_address": "1GqCVN7PrVhSisf5PodctnuC6eRXVAQjCD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ameerun",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Bameerun%20is%20my%20blockchain%20ID.%20https://onename.com/ameerun",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ameerun",
+        "name": "avatar"
+      }
+    ],
+    "name": "Rob Ameerun"
+  },
+  "verifications": [
+    {
+      "identifier": "ameerun",
+      "proof_url": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Bameerun%20is%20my%20blockchain%20ID.%20https://onename.com/ameerun",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ameerun.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ameerun.id\"\n"
+}

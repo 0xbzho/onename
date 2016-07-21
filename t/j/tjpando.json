@@ -1,0 +1,53 @@
+{
+  "owner_address": "1L5kmSTuuJXW8uErUrBAT7wxk484SwqHwR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1MeyJCpuo7rKEJb3zSZ8UyB6eLnt5yE61S",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "TJPando",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TJPando/status/755036170623430656",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Perth, Western Australia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tjpando",
+        "name": "avatar"
+      }
+    ],
+    "name": "TJ.Pando",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://stores.ebay.com.au/TJ-Pando-e-Store?_trksid=p2047675.l2568"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "TJPando",
+      "proof_url": "https://twitter.com/TJPando/status/755036170623430656",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tjpando.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tjpando.id\"\n"
+}

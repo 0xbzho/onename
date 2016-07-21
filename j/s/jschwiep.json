@@ -1,0 +1,32 @@
+{
+  "owner_address": "1FiGcLjFZsMYtyhVoh5kK8iPNroJGP8ZKf",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jschwiep",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Jschwiep/status/750757979167817728",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jillian Schwiep"
+  },
+  "verifications": [
+    {
+      "identifier": "jschwiep",
+      "proof_url": "https://twitter.com/Jschwiep/status/750757979167817728",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jschwiep.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jschwiep.id\"\n"
+}

@@ -1,0 +1,73 @@
+{
+  "owner_address": "1K1eB9eAZxFGSsa5Gc56fTvh548hS4W4Gn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ernaneluis",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ernaneluis/status/750096330937208834",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ernaneluis",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ernaneluis/3479cdbdf28bb026b6719dc477c5e35f",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ernaneluis",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ernaneluis/posts/10154190700968700?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Germany"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ernane",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ernane",
+        "name": "cover"
+      }
+    ],
+    "name": "Ernane Luis Paixao Aguiar",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.ernaneluis.com.br/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ernaneluis",
+      "proof_url": "https://twitter.com/ernaneluis/status/750096330937208834",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ernaneluis",
+      "proof_url": "https://gist.github.com/ernaneluis/3479cdbdf28bb026b6719dc477c5e35f",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "ernaneluis",
+      "proof_url": "https://www.facebook.com/ernaneluis/posts/10154190700968700?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ernane.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ernane.id\"\n"
+}

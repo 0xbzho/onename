@@ -1,0 +1,55 @@
+{
+  "owner_address": "197T3mbbfpfeY2fCbHZu9UcLwR1689kMaS",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "billaddison",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/billaddison/3c7d89efb5f7cbd034e7ceb868f65524",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "billaddison82",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/billaddison82/status/753261790587412480",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1LRp6azG3BF2JbTSNabxSpQY4MqBGbM3rH",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/billaddison",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/billaddison",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "billaddison",
+      "proof_url": "https://gist.github.com/billaddison/3c7d89efb5f7cbd034e7ceb868f65524",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "billaddison82",
+      "proof_url": "https://twitter.com/billaddison82/status/753261790587412480",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN billaddison.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/billaddison.id\"\n"
+}

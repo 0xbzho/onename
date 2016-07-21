@@ -1,0 +1,47 @@
+{
+  "owner_address": "1Mqkzu2S33jV4gbmhgA4QdUzMA6YXwStgt",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "shadone",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/shadone/06d71ee42d09643eac5ed037ffbce9a7",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/ddenis/key.asc",
+        "identifier": "E62764B5D944D6702FF9AF9F0468C26E4482D7D9",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Oslo, Norway"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ddenis",
+        "name": "avatar"
+      }
+    ],
+    "name": "Denis Dzyubenko"
+  },
+  "verifications": [
+    {
+      "identifier": "shadone",
+      "proof_url": "https://gist.github.com/shadone/06d71ee42d09643eac5ed037ffbce9a7",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ddenis.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ddenis.id\"\n"
+}

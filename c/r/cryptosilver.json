@@ -1,0 +1,48 @@
+{
+  "owner_address": "1J2Z1r718tyc9QK9eeEZ2fr1ikgDqDaPj3",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Cryptosilver",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Guru469",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1KNvCmfxFm4kSqDR2KHP4J1mvBo1wruB1D",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London"
+    },
+    "description": "Cryptosilver",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cryptosilver",
+        "name": "avatar"
+      }
+    ],
+    "name": "Cryptosilver"
+  },
+  "verifications": [
+    {
+      "identifier": "Cryptosilver",
+      "proof_url": "https://twitter.com/Guru469",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN cryptosilver.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cryptosilver.id\"\n"
+}

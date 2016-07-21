@@ -1,0 +1,68 @@
+{
+  "owner_address": "1KLrnGUP7Tu64zRf98ib9MkNMsYsmXf4kS",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1BAmB9XfoA8dEX76eRYCT4FevG8jnNthKn",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/5502b8f1dc660eed32e2be7d99ef99c3",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "DJSniperwolf",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/DJSniperwolf/status/754130381884882945",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "djsniperwolf",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/Djsniperwolf/posts/1129825223754171",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/teamangrymage",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/5502b8f1dc660eed32e2be7d99ef99c3",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "DJSniperwolf",
+      "proof_url": "https://twitter.com/DJSniperwolf/status/754130381884882945",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "djsniperwolf",
+      "proof_url": "https://www.facebook.com/Djsniperwolf/posts/1129825223754171",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN teamangrymage.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/teamangrymage.id\"\n"
+}

@@ -1,0 +1,36 @@
+{
+  "owner_address": "1NLH2gGzoNKik5CRuGGXezUpLks6FDSThM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "delsborg",
+        "proofType": "http",
+        "proofUrl": "https://mobile.twitter.com/delsborg/status/748813581093785602",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boulder CO USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Don Elsborg"
+  },
+  "verifications": [
+    {
+      "identifier": "delsborg",
+      "proof_url": "https://mobile.twitter.com/delsborg/status/748813581093785602",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN elsborg.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/elsborg.id\"\n"
+}

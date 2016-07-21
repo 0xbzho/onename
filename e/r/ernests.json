@@ -1,0 +1,49 @@
+{
+  "owner_address": "17CwsLdXiTLcVyfKu3pnayemuUhjYgw5FB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ernests.stals",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ernests.stals/posts/10153540255476805",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "so_on",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/so_on/status/750343628300640256",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Riga, Latvia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ernests Stals"
+  },
+  "verifications": [
+    {
+      "identifier": "ernests.stals",
+      "proof_url": "https://www.facebook.com/ernests.stals/posts/10153540255476805",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "so_on",
+      "proof_url": "https://twitter.com/so_on/status/750343628300640256",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ernests.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ernests.id\"\n"
+}

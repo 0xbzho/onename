@@ -1,0 +1,56 @@
+{
+  "owner_address": "1LNwXrAAioctJ2rbQHSAoyFJReQYtpoNzW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "BeautyBazaar",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/BeautyBazaar/d94fc9bfe04eeceb6f489b3848176661",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1HdyYSiG4nrKoxfRek5B8qvetLZmAZh8JJ",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "3e40322038d6d067f541c3d9dc45ad3fcb8500e1",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "OB_BeautyBazaar",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/OB_BeautyBazaar/status/752472097553801216",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "BeautyBazaar"
+  },
+  "verifications": [
+    {
+      "identifier": "BeautyBazaar",
+      "proof_url": "https://gist.github.com/BeautyBazaar/d94fc9bfe04eeceb6f489b3848176661",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "OB_BeautyBazaar",
+      "proof_url": "https://twitter.com/OB_BeautyBazaar/status/752472097553801216",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN beautybazaar.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/beautybazaar.id\"\n"
+}

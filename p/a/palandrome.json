@@ -1,0 +1,42 @@
+{
+  "owner_address": "19aUo3aZamiTnhZVMpAApF6rUZtywYzar1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Palandrome",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/consultusnc/status/748952443829059584",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "North Carolina"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Marc E Cram",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://hefs_nc.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Palandrome",
+      "proof_url": "https://twitter.com/consultusnc/status/748952443829059584",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN palandrome.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/palandrome.id\"\n"
+}

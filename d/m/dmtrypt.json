@@ -1,0 +1,48 @@
+{
+  "owner_address": "15zXZKVPRu1vpqzCM8LQCWcFkgxV75Cn78",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dmtrypt",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dmtrypt/status/754797632703328256",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Depends"
+    },
+    "description": "Software developer and thinker",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dmtrypt",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/dmtrypt",
+        "name": "cover"
+      }
+    ],
+    "name": "Dmitri Orman",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://dimaor.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dmtrypt",
+      "proof_url": "https://twitter.com/dmtrypt/status/754797632703328256",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dmtrypt.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dmtrypt.id\"\n"
+}

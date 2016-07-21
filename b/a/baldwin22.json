@@ -1,0 +1,69 @@
+{
+  "owner_address": "1LDT1KENV3bhmmZesTSAG9r9aTpNiN3zfV",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Jethro2244",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/Jethro2244/posts/275707569463071",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "baldwin22",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/baldwin22/status/754055595276328960",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Baldwin22",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Baldwin22/1a241434d1e7153f831eef48c6ca3b75",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "keith.stackhouse@gmail.com",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/14ae6c211f7d36464c1610d61dabe673",
+        "service": "google mail"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "West Baldwin, Maine USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Keith Stackhouse"
+  },
+  "verifications": [
+    {
+      "identifier": "Jethro2244",
+      "proof_url": "https://www.facebook.com/Jethro2244/posts/275707569463071",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "baldwin22",
+      "proof_url": "https://twitter.com/baldwin22/status/754055595276328960",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Baldwin22",
+      "proof_url": "https://gist.github.com/Baldwin22/1a241434d1e7153f831eef48c6ca3b75",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN baldwin22.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/baldwin22.id\"\n"
+}

@@ -1,0 +1,44 @@
+{
+  "owner_address": "1EgPUrquoUY8wvcM5oKJf2EwYhCUSc8pyM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "annbass",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/annbass/status/755662412179726336",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "annbass",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/annbass/3553da867966eba381f1c841ea07220d",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "annbass",
+      "proof_url": "https://twitter.com/annbass/status/755662412179726336",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "annbass",
+      "proof_url": "https://gist.github.com/annbass/3553da867966eba381f1c841ea07220d",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN annbass.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/annbass.id\"\n"
+}

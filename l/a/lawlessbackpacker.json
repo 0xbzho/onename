@@ -1,0 +1,59 @@
+{
+  "owner_address": "1N1D9LL72DDi2dbdvf1RBA5yfUU5QXR84Y",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "15nvuDkp56xDEacfpB3shVKRf6mVrdmQfG",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cd9e3391ccb056d8e06c4f6b05accb8930109569",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lawlesshiker",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/lawlesshiker/status/753776123641757697",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "hkp://keys.gnupg.net",
+        "identifier": "44690034D40B835A9DA9FEA357A57C9E607391C9",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "USA"
+    },
+    "description": "Drinking the Rivers Dry.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/lawlessbackpacker",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/lawlessbackpacker",
+        "name": "cover"
+      }
+    ],
+    "name": "Lawless"
+  },
+  "verifications": [
+    {
+      "identifier": "lawlesshiker",
+      "proof_url": "https://twitter.com/lawlesshiker/status/753776123641757697",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN lawlessbackpacker.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lawlessbackpacker.id\"\n"
+}

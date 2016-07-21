@@ -1,0 +1,49 @@
+{
+  "owner_address": "1FmN94kfFxGtAWCEdVT5Qh9TFFxqMHha9m",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "JeffMilller",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JEFFMILLLER/status/749476374239338497",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jcm64",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jcm64/posts/10210121396259639",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jcmusa",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "JeffMilller",
+      "proof_url": "https://twitter.com/JEFFMILLLER/status/749476374239338497",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jcm64",
+      "proof_url": "https://www.facebook.com/jcm64/posts/10210121396259639",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jcmusa.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jcmusa.id\"\n"
+}

@@ -1,0 +1,54 @@
+{
+  "owner_address": "13QeuFhmebTu9cR8S55JWPDy1yu49bPz2r",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nicholasnapp",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/nicholasnapp/status/752499797198864384",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nicholasnapp",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/nicholasnapp/posts/10154507493479245",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nick_n",
+        "name": "avatar"
+      }
+    ],
+    "name": "Nicholas Napp"
+  },
+  "verifications": [
+    {
+      "identifier": "nicholasnapp",
+      "proof_url": "https://twitter.com/nicholasnapp/status/752499797198864384",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "nicholasnapp",
+      "proof_url": "https://www.facebook.com/nicholasnapp/posts/10154507493479245",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN nick_n.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nick_n.id\"\n"
+}

@@ -1,0 +1,38 @@
+{
+  "owner_address": "1NmgpNhuV94rcqm7w5ZTSCd2KnJTgBrHWt",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bitcoinbazar",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bitcoinbazar/status/750360706382462976",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "293eb9d6542d81e6e6e7fe4386a390e7eb767f8b",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/EdBilliot/a976d00418f6e83dae503c2d6dff1b03",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bitcoinbazar",
+      "proof_url": "https://twitter.com/bitcoinbazar/status/750360706382462976",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN howtodvds.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/howtodvds.id\"\n"
+}

@@ -1,0 +1,36 @@
+{
+  "owner_address": "18jWW4xadpUQmRqLCXLn2RofreVMiwUtaS",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/14ae6c211f7d36464c1610d61dabe673",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/clubhouse",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/14ae6c211f7d36464c1610d61dabe673",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN clubhouse.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/clubhouse.id\"\n"
+}
