@@ -1,6 +1,22 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1BCe4qjcjhFdRGf2FjnoUccWhvDZtFJebp",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dec2f18d2c4e6969e9cd2a417638004cdfe36d18",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN normandmickey.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/normandmickey.id\"\n"
 }
