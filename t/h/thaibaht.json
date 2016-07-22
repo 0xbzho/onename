@@ -1,21 +1,40 @@
 {
   "owner_address": "1xbYsPCUN3BjRyGNBvA82WNLTKHAzNSfv",
   "profile": {
-    "bio": "Send BTC, Get Thai Baht",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/vsS.jpeg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "131D8RCf9sJz2AZbvoyzTENk1nCLLtVUmw",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Thailand"
     },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/thaibaht"
-    },
-    "location": {
-      "formatted": "Thailand"
-    },
-    "name": {
-      "formatted": "Thai Baht"
-    },
-    "v": "0.2",
-    "website": "https://localbitcoins.com/ad/245934/cash-out-your-bitcoins-bank-transfer-thailand"
+    "description": "Thai Baht and Bitcoin exchanger.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/thaibaht",
+        "name": "avatar"
+      }
+    ],
+    "name": "bkkbtc",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://line.me/ti/p/%40hkm5199t"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN thaibaht.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/thaibaht.id\"\n"
 }
