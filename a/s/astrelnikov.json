@@ -1,0 +1,55 @@
+{
+  "owner_address": "1PNHXv2aSLtwUUGpk1bnB3MpxwnUtwpKHB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "3y6p",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/3y6p/status/756252646768513024",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "3y6p",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/3y6p/ed82ac8e8bb187364c93ba25adabd699",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Russia, Moscow"
+    },
+    "description": "Bussines Analyst",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/astrelnikov",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/astrelnikov",
+        "name": "cover"
+      }
+    ],
+    "name": "Aleksey Strelnikov"
+  },
+  "verifications": [
+    {
+      "identifier": "3y6p",
+      "proof_url": "https://twitter.com/3y6p/status/756252646768513024",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "3y6p",
+      "proof_url": "https://gist.github.com/3y6p/ed82ac8e8bb187364c93ba25adabd699",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN astrelnikov.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/astrelnikov.id\"\n"
+}

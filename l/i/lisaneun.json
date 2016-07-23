@@ -1,0 +1,44 @@
+{
+  "owner_address": "1L7AMB5mbufVKV5fbL1yH8JiauJEa5xJ43",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "lisaneun",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/lisaneun/status/755727894417141760",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lisaneun",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/lisaneun?post_id=10206847050037969_10206847074838589#/facebook",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "lisaneun",
+      "proof_url": "https://twitter.com/lisaneun/status/755727894417141760",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "lisaneun",
+      "proof_url": "https://onename.com/lisaneun?post_id=10206847050037969_10206847074838589#/facebook",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN lisaneun.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lisaneun.id\"\n"
+}

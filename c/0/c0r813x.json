@@ -1,0 +1,62 @@
+{
+  "owner_address": "1H996ZCCr4uBvPx1wsvCyHPPhskiXt7CW4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "c0r813x_l33t",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/c0r813x_l33t/status/756053947115339776",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "C0r813X",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/C0r813X/35e9e3f79bcc6f92742a95a229d47b34",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1EBou5WnuTn1LjKXKJptravhNuhsChDSgr",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Email: C0r813X.L33t@keemail.me"
+    },
+    "description": "Imagine how normal I could have been, If I had not met... Myself.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/c0r813x",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/c0r813x",
+        "name": "cover"
+      }
+    ],
+    "name": "CorbieX Leet",
+    "website": []
+  },
+  "verifications": [
+    {
+      "identifier": "c0r813x_l33t",
+      "proof_url": "https://twitter.com/c0r813x_l33t/status/756053947115339776",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "C0r813X",
+      "proof_url": "https://gist.github.com/C0r813X/35e9e3f79bcc6f92742a95a229d47b34",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN c0r813x.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/c0r813x.id\"\n"
+}
