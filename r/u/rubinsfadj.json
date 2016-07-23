@@ -1,34 +1,46 @@
 {
   "owner_address": "1BYdkyPtd5b3NnoLcKLjmxkfXUq74Mr38C",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/rubinsfadj"
-    },
-    "bio": "Te audire non possum, musa sapientum fixa est in aure.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/rubinsfadj"
-    },
-    "location": {
-      "formatted": "Par ci par là"
-    },
-    "name": {
-      "formatted": "Rubin Sfadj"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/rubin/status/694061569865547776"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rubin",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "rubin"
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/rubinsfadj",
+        "identifier": "7541128E7F5D43D0",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Par ci par là"
     },
-    "v": "0.2",
-    "website": "http://sfadj.com"
+    "description": "Te audire non possum, musa sapientum fixa est in aure.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rubinsfadj",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rubinsfadj",
+        "name": "cover"
+      }
+    ],
+    "name": "Rubin Sfadj",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://sfadj.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "rubin",
-      "proof_url": "https://twitter.com/rubin/status/694061569865547776",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN rubinsfadj.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rubinsfadj.id\"\n"
 }

@@ -1,52 +1,52 @@
 {
   "owner_address": "15a9bXE5qUMoMBNUV5whxJG3GkRv4JFCWX",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/matthieu_montagne"
-    },
-    "bio": "",
-    "bitcoin": {
-      "address": "1NTQ7XU7jhAHbXhgQpuEYQGJutkGAHLgyJ"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/matthieu_montagne"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/matthieu.montagne/posts/1077612282282045"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "_matthieu_m",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "matthieu.montagne"
-    },
-    "location": {
-      "formatted": "Avignon, France"
-    },
-    "name": {
-      "formatted": "Matthieu Montagné"
-    },
-    "pgp": {
-      "fingerprint": "90ACA137663E71E679C0B423AE0B4C93FC1985AB",
-      "url": "https://pgp.mit.edu/pks/lookup?op=get&search=0xAE0B4C93FC1985AB"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/_matthieu_m/status/717776858528481284"
+      {
+        "@type": "Account",
+        "identifier": "1NTQ7XU7jhAHbXhgQpuEYQGJutkGAHLgyJ",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "_matthieu_m"
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pgp.mit.edu/pks/lookup?op=get&search=0xAE0B4C93FC1985AB",
+        "identifier": null,
+        "role": "key",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Avignon, France"
     },
-    "v": "0.2"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/matthieu_montagne",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/matthieu_montagne",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "_matthieu_m",
-      "proof_url": "https://twitter.com/_matthieu_m/status/717776858528481284",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "matthieu.montagne",
-      "proof_url": "https://facebook.com/matthieu.montagne/posts/1077612282282045",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN matthieu_montagne.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/matthieu_montagne.id\"\n"
 }

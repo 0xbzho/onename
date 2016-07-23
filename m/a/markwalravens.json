@@ -1,57 +1,54 @@
 {
   "owner_address": "12vswTMA56DGfyGKLJ5z8qjL323HfiVQfp",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/markwalravens"
-    },
-    "bio": "t.l.c. | php | mysql | we/provide | psv | prince | vinyl | android | mp3 | mixing | motocross | ps4 | nexus 6P | certified magento developer  | ©MCMLXXIV",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/markwalravens"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/mwalravens/posts/10208588070803134"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "MarkWalravens",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "mwalravens"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/markwalravens/0e83669728c54d2caa7b"
+      {
+        "@type": "Account",
+        "identifier": "mwalravens",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "markwalravens"
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/d183a64c88831b0f81ad91413623b141",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "weert"
     },
-    "location": {
-      "formatted": "weert"
-    },
-    "name": {
-      "formatted": "mark walravens"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/MarkWalravens/status/686188302370783232"
+    "description": "t.l.c. | php | mysql | we/provide | psv | prince | vinyl | android | mp3 | mixing | motocross | ps4 | nexus 6P | certified magento developer  | ©MCMLXXIV",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/markwalravens",
+        "name": "avatar"
       },
-      "username": "MarkWalravens"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/markwalravens",
+        "name": "cover"
+      }
+    ],
+    "name": "mark walravens"
   },
   "verifications": [
     {
-      "identifier": "markwalravens",
-      "proof_url": "https://gist.github.com/markwalravens/0e83669728c54d2caa7b",
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/d183a64c88831b0f81ad91413623b141",
       "service": "github",
-      "valid": false
-    },
-    {
-      "identifier": "MarkWalravens",
-      "proof_url": "https://twitter.com/MarkWalravens/status/686188302370783232",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "mwalravens",
-      "proof_url": "https://facebook.com/mwalravens/posts/10208588070803134",
-      "service": "facebook",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN markwalravens.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/markwalravens.id\"\n"
 }

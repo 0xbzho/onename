@@ -1,6 +1,67 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "13NGqm3aQ8S1Nna2n5UKejFQeYFi5nBjTk",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "@le1000voglie",
+        "proofType": "http",
+        "proofUrl": "https://t.co/mJVwY1xcLl",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https://www.facebook.com/le1000voglie/",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/filippo.turrini.3/posts/10209800960763421",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "c4559ee4c72f25e50ae3753b72a91e4f29f08821",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1Chpg4kEy6WB28V1SCrTR9a4Cq3EgCXYHW",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Italy"
+    },
+    "description": "Food and wine lovers, we sell on line our best delights and promote small producers of our region among restaurants and retailers all over the world",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/lemillevoglie",
+        "name": "avatar"
+      }
+    ],
+    "name": "Le Mille Voglie",
+    "website": []
+  },
+  "verifications": [
+    {
+      "identifier": "@le1000voglie",
+      "proof_url": "https://t.co/mJVwY1xcLl",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "https://www.facebook.com/le1000voglie/",
+      "proof_url": "https://www.facebook.com/filippo.turrini.3/posts/10209800960763421",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN lemillevoglie.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lemillevoglie.id\"\n"
 }
