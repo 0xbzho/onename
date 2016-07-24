@@ -1,19 +1,34 @@
 {
   "owner_address": "1NSQ1YwF4ey9nDk8UTvXrEj1LaDZW8Hij3",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/robbiehanson"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/robbiehanson"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/robbiehanson/d324f95239532879bc41"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "robbiehanson",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/robbiehanson/d324f95239532879bc41",
+        "service": "github"
       },
-      "username": "robbiehanson"
-    },
-    "v": "0.2"
+      {
+        "@type": "Account",
+        "identifier": "16S2bRfywEmQ4pU7T1u42gi5HkuFw3tvai",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/robbiehanson",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/robbiehanson",
+        "name": "cover"
+      }
+    ]
   },
   "verifications": [
     {
@@ -22,5 +37,6 @@
       "service": "github",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN robbiehanson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/robbiehanson.id\"\n"
 }

@@ -13,6 +13,13 @@
         "identifier": "35foTPFKpWdHi8TioosJ23h6H3No5wfVXy",
         "role": "payment",
         "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cyberfunks",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/Cyberfunks/?fref=nf",
+        "service": "facebook"
       }
     ],
     "address": {
@@ -40,6 +47,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "cyberfunks",
+      "proof_url": "https://www.facebook.com/Cyberfunks/?fref=nf",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN bitcoinawakens.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bitcoinawakens.id\"\n"
 }

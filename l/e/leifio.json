@@ -1,6 +1,73 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1Jhh9dCPGbAVtrhGyn8uQd12AaDs6q5U52",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "leifg",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/leifg/status/751369033656766464",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "leifg",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/leifg/41cbabb8eb5cbaa7cb44f225ea62ac25",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lgensert",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/lgensert/posts/10153569518797484",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Berlin"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/leifio",
+        "name": "avatar"
+      }
+    ],
+    "name": "Leif Gensert",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://leif.io"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "leifg",
+      "proof_url": "https://twitter.com/leifg/status/751369033656766464",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "leifg",
+      "proof_url": "https://gist.github.com/leifg/41cbabb8eb5cbaa7cb44f225ea62ac25",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "lgensert",
+      "proof_url": "https://www.facebook.com/lgensert/posts/10153569518797484",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN leifio.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/leifio.id\"\n"
 }

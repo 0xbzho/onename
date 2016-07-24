@@ -5,12 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "terrywals234",
-        "proofType": "http",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
         "identifier": "100005106915304",
         "proofType": "http",
         "service": "facebook"
@@ -26,6 +20,13 @@
         "identifier": "158ekDnEeyWNwhhGYJTimt5jWg4kmrjwcA",
         "role": "payment",
         "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "terry_walsworth",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/terry_walsworth/status/756030536783581184",
+        "service": "twitter"
       }
     ],
     "address": {
@@ -53,6 +54,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "terry_walsworth",
+      "proof_url": "https://twitter.com/terry_walsworth/status/756030536783581184",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN terrywalsworth.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/terrywalsworth.id\"\n"
 }

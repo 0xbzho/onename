@@ -5,21 +5,9 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "briguy4588",
-        "proofType": "http",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
         "identifier": "Briguy4588",
         "proofType": "http",
         "service": "facebook"
-      },
-      {
-        "@type": "Account",
-        "identifier": "bshef",
-        "proofType": "http",
-        "service": "github"
       },
       {
         "@type": "Account",
@@ -32,6 +20,20 @@
         "identifier": "1Ea4UVCKVks5B7VVyrmP81kjwENHogmFWo",
         "role": "payment",
         "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "brianshef",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/brianshef/94c1cc30fdd47db0c42944e597882bbf",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "briguy4588",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/briguy4588/status/755453523685322752",
+        "service": "twitter"
       }
     ],
     "address": {
@@ -53,6 +55,19 @@
     ],
     "name": "Brian Shef"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "brianshef",
+      "proof_url": "https://gist.github.com/brianshef/94c1cc30fdd47db0c42944e597882bbf",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "briguy4588",
+      "proof_url": "https://twitter.com/briguy4588/status/755453523685322752",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN bshef.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bshef.id\"\n"
 }

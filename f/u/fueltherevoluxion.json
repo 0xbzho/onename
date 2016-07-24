@@ -7,6 +7,13 @@
         "@type": "Account",
         "identifier": "9d2cee991bc730987d137d21334d59da71e0e15e",
         "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "@fueltherevoluxn",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/FueltheRevoluXn/status/755761634891620352",
+        "service": "twitter"
       }
     ],
     "image": [
@@ -17,6 +24,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "@fueltherevoluxn",
+      "proof_url": "https://twitter.com/FueltheRevoluXn/status/755761634891620352",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN fueltherevoluxion.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fueltherevoluxion.id\"\n"
 }

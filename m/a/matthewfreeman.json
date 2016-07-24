@@ -1,22 +1,33 @@
 {
   "owner_address": "14pqstjqqmFGW7U5dL5xYpbUzFmUz5F3gw",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/matthewfreeman"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1Ju2DRtdiDq9xfdiQXMUtzGb4MFbDJBiwr",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York -> Seattle"
     },
-    "bitcoin": {
-      "address": "1Ju2DRtdiDq9xfdiQXMUtzGb4MFbDJBiwr"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/L2N.jpeg"
-    },
-    "location": {
-      "formatted": "New York"
-    },
-    "name": {
-      "formatted": "Matthew Freeman"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/matthewfreeman",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Matthew Freeman"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN matthewfreeman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/matthewfreeman.id\"\n"
 }
