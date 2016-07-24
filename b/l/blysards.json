@@ -1,6 +1,33 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1FYLz3Mo165faTRnHj2Uvw1VgUN5riXcwm",
+  "profile": {
+    "@type": "Person",
+    "account": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "France"
+    },
+    "description": "Ancien YouTuber et ancien Trader, je me spécialise dans la blockchain, plus précisément dans les crypto-currency.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/blysards",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/blysards",
+        "name": "cover"
+      }
+    ],
+    "name": "Vincent Vilquin",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://vincent-notes.wix.com/vincent-vilquin"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN blysards.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/blysards.id\"\n"
 }

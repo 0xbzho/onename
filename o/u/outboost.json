@@ -1,6 +1,33 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "16d7ePDUSSSSBNMm93Y7MVQhRaNv6jdqs4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1GcaWPnMKYzJQFcrRmhjMQrFVwUJ4HgjSd",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "e77679b843b9a5775eb9faec89c5b49573bc0d30",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "CT"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Randy"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN outboost.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/outboost.id\"\n"
 }

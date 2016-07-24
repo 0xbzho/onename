@@ -1,6 +1,26 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1NKRA3DvxMhXXzb3uWXo6UQJrwaRqcVLHZ",
+  "profile": {
+    "@type": "Person",
+    "account": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Curitiba, Brazil"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/diogogarcia",
+        "name": "avatar"
+      }
+    ],
+    "name": "Diogo Garcia"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN diogogarcia.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/diogogarcia.id\"\n"
 }

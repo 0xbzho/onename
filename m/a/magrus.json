@@ -1,6 +1,47 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "137wdKf9mczEVaWwp5wWwSKZ84pSfJc8GC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "uli6_",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Uli6_/status/756602374819635200",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "3AmDrSrJjeYbNNbKSK6QWMNVprx6SedMvh",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Rio de Janeiro"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/magrus",
+        "name": "avatar"
+      }
+    ],
+    "name": "Ulisses Nogueira de Oliveira"
+  },
+  "verifications": [
+    {
+      "identifier": "uli6_",
+      "proof_url": "https://twitter.com/Uli6_/status/756602374819635200",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN magrus.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/magrus.id\"\n"
 }
