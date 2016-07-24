@@ -1,17 +1,32 @@
 {
   "owner_address": "123jxcZSFv2SS67zs5ftjYLzQVtS6CBNmr",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/yvD.jpeg"
+    "@type": "Person",
+    "account": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Auckland, New Zealand"
     },
-    "location": {
-      "formatted": "Auckland, New Zealand"
-    },
-    "name": {
-      "formatted": "Thomas Joseph Brown"
-    },
-    "v": "0.2",
-    "website": "http://thomasbrown.org"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/alkemix",
+        "name": "avatar"
+      }
+    ],
+    "name": "Thomas Joseph Brown",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://thomasbrown.org"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN alkemix.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alkemix.id\"\n"
 }

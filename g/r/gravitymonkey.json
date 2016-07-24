@@ -1,6 +1,73 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1Q2YdaL1pxKEzg1mKG27MfsAVfmvLbrhVs",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gravitymonkey",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/gravitymonkey/ae70f33341ec4303911b596d94e7193e",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gravitymonkey",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gravitymonkey/status/756574886311723008",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jasonuechi",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jasonuechi/posts/10153533701826548",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Montclair, NJ, USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gravitymonkey",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/gravitymonkey",
+        "name": "cover"
+      }
+    ],
+    "name": "Jason Uechi",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://gravitymonkey.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "gravitymonkey",
+      "proof_url": "https://gist.github.com/gravitymonkey/ae70f33341ec4303911b596d94e7193e",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "gravitymonkey",
+      "proof_url": "https://twitter.com/gravitymonkey/status/756574886311723008",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jasonuechi",
+      "proof_url": "https://www.facebook.com/jasonuechi/posts/10153533701826548",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN gravitymonkey.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gravitymonkey.id\"\n"
 }

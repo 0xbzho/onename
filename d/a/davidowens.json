@@ -1,6 +1,79 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1K2vBgubFuGs413CH8dGpFNg5dNDVbSAap",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "davidowens_net",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/davidowens_net/status/755865690939256832",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fineartdavid",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/fineartdavid/posts/10157526322815179",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/c01c80ccdc173b65ab95b75a8472dd41",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1Dkc6oC7eiiLccYzgZ9Lu3kog7iqyZDSxo",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/davidowens/key.asc",
+        "identifier": "FC10872CD08CA47D",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Berlin"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/davidowens",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/davidowens",
+        "name": "cover"
+      }
+    ],
+    "name": "David Owens"
+  },
+  "verifications": [
+    {
+      "identifier": "davidowens_net",
+      "proof_url": "https://twitter.com/davidowens_net/status/755865690939256832",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "fineartdavid",
+      "proof_url": "https://www.facebook.com/fineartdavid/posts/10157526322815179",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/c01c80ccdc173b65ab95b75a8472dd41",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN davidowens.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/davidowens.id\"\n"
 }

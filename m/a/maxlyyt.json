@@ -1,6 +1,57 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1HARyGneUBdtt7yowAkyhL6DQ5Jo3Q87xb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "maxly_",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/maxly_/status/756600884004544512",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "max-ly",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/max-ly/955eae71c4cff842925d60ae4aa423ae",
+        "service": "github"
+      }
+    ],
+    "description": "Not quite sure what this is.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/maxlyyt",
+        "name": "avatar"
+      }
+    ],
+    "name": "Maxly",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://maxly.pw"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "maxly_",
+      "proof_url": "https://twitter.com/maxly_/status/756600884004544512",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "max-ly",
+      "proof_url": "https://gist.github.com/max-ly/955eae71c4cff842925d60ae4aa423ae",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN maxlyyt.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/maxlyyt.id\"\n"
 }
