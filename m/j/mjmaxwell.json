@@ -8,8 +8,19 @@
         "identifier": "1LeNph2BQeL6DTCyPzETNyoCFZW6hk8fja",
         "role": "payment",
         "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jeremy.maxwell.908",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jeremy.maxwell.908/posts/10156938950655537?pnref=story",
+        "service": "facebook"
       }
     ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Atlanta, GA"
+    },
     "image": [
       {
         "@type": "ImageObject",
@@ -21,8 +32,16 @@
         "contentUrl": "https://s3.amazonaws.com/dx3/mjmaxwell",
         "name": "cover"
       }
-    ]
+    ],
+    "name": "Jeremy Maxwell"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "jeremy.maxwell.908",
+      "proof_url": "https://www.facebook.com/jeremy.maxwell.908/posts/10156938950655537?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN mjmaxwell.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mjmaxwell.id\"\n"
 }

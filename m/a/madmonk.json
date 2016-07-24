@@ -1,45 +1,47 @@
 {
   "owner_address": "15gwaK7LAUv11va5ZUHsLvg8thVTViKrNE",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "fda20deeadc93709599d7d61bf7beaee8a2612da",
+        "identifier": "gist:e6900fe2993115bc0cc98a21027b0cf8",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/madmonk",
+        "identifier": "Monk",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "e16816679b8f3588880ddcb251994c0690944ef0",
         "service": "openbazaar"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/madmonk"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "US"
     },
-    "bio": "I no longer deal with units of time under one minute.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/madmonk"
-    },
-    "github": {
-      "proof": {
-        "url": "gist:e6900fe2993115bc0cc98a21027b0cf8"
+    "description": "I no longer deal with units of time under one minute.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/madmonk",
+        "name": "avatar"
       },
-      "username": "gist:e6900fe2993115bc0cc98a21027b0cf8"
-    },
-    "location": {
-      "formatted": "Florida"
-    },
-    "name": {
-      "formatted": "Gary Marshall"
-    },
-    "pgp": {
-      "fingerprint": "Monk",
-      "url": "https://s3.amazonaws.com/pk9/madmonk"
-    },
-    "v": "0.2",
-    "website": "http://knownspace.com"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/madmonk",
+        "name": "cover"
+      }
+    ],
+    "name": "Monk",
+    "website": []
   },
-  "verifications": [
-    {
-      "identifier": "gist:e6900fe2993115bc0cc98a21027b0cf8",
-      "proof_url": "gist:e6900fe2993115bc0cc98a21027b0cf8",
-      "service": "github",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN madmonk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/madmonk.id\"\n"
 }

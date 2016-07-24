@@ -1,56 +1,59 @@
 {
   "owner_address": "15ZFCCfUWjcyRakSTnsGy52hstgHC7LiAC",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/writingincars"
-    },
-    "bio": "Consider this creative nonfiction.",
-    "bitcoin": {
-      "address": "17fxcsSC15yDJS1Advxk7tvmMBUqvnt9s8"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/IHL.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/writingincars/posts/358200554379999"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "writingincars",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "writingincars"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/writingincars"
-    },
-    "location": {
-      "formatted": "Grey Area"
-    },
-    "name": {
-      "formatted": "Kris"
-    },
-    "pgp": {
-      "fingerprint": "2D798DE8EEDAC5D17E076F7DEC85DD4D9919E5A0",
-      "url": "https://keybase.io/writingincars/key.asc"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/writingincars/status/615610687725789184"
+      {
+        "@type": "Account",
+        "identifier": "writingincars",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "writingincars"
+      {
+        "@type": "Account",
+        "identifier": "17fxcsSC15yDJS1Advxk7tvmMBUqvnt9s8",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/writingincars/key.asc",
+        "identifier": "2D798DE8EEDAC5D17E076F7DEC85DD4D9919E5A0",
+        "role": "key",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Grey Area"
     },
-    "v": "0.2",
-    "website": "https://writingincars.neocities.org/"
+    "description": "Consider this creative nonfiction.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/writingincars",
+        "name": "avatar"
+      }
+    ],
+    "name": "Kris",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://writingincars.neocities.org/"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "writingincars",
-      "proof_url": "https://twitter.com/writingincars/status/615610687725789184",
-      "service": "twitter",
-      "valid": false
-    },
-    {
-      "identifier": "writingincars",
-      "proof_url": "https://facebook.com/writingincars/posts/358200554379999",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN writingincars.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/writingincars.id\"\n"
 }
