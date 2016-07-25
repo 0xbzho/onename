@@ -1,10 +1,31 @@
 {
   "owner_address": "19Vn6qT9EQCoxVQ72Us4yKNEGwtXZi7mho",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/IHL.jpg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "smithbk",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/smithbk/14f40b46d5e57bbc6f150a62d37df1b2",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "smithbk",
+      "proof_url": "https://gist.github.com/smithbk/14f40b46d5e57bbc6f150a62d37df1b2",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN keithsmithccc.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/keithsmithccc.id\"\n"
 }

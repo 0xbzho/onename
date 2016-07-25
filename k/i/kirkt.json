@@ -1,35 +1,39 @@
 {
   "owner_address": "1HQ5wSgQEQ5CxbxpeLx1kGDcQ8j7awE54Z",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/kirkt"
-    },
-    "bitcoin": {
-      "address": "1LzBiCd89V7Z4CKMUA3VLXW8DmZsWMYfBf"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/QAd.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/kirk@talbottaffairs.com/posts/10205809543936328"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kirk@talbottaffairs.com",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "kirk@talbottaffairs.com"
+      {
+        "@type": "Account",
+        "identifier": "1LzBiCd89V7Z4CKMUA3VLXW8DmZsWMYfBf",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Somewhere in the South Eastern United States"
     },
-    "location": {
-      "formatted": "Illinois / Wisconsin Frontier"
-    },
-    "name": {
-      "formatted": "Kirk Talbott"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kirkt",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Kirk Talbott"
   },
-  "verifications": [
-    {
-      "identifier": "kirk@talbottaffairs.com",
-      "proof_url": "https://facebook.com/kirk@talbottaffairs.com/posts/10205809543936328",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN kirkt.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kirkt.id\"\n"
 }

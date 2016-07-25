@@ -1,46 +1,79 @@
 {
   "owner_address": "1Q4L7nzwRAcNWnv4M2DWpRLZcr4CiZzEmj",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/jer979"
-    },
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/jer979"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/jer979/posts/10152954140289669"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jer979",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jer979/status/752325660950073344",
+        "service": "twitter"
       },
-      "username": "jer979"
-    },
-    "location": {
-      "formatted": "Washington, DC"
-    },
-    "name": {
-      "formatted": "Jeremy Epstein"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/jer979/status/541791974089441280"
+      {
+        "@type": "Account",
+        "identifier": "jer979",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jer979/fad4276f8a2cc3103d472b6e635332e5",
+        "service": "github"
       },
-      "username": "jer979"
+      {
+        "@type": "Account",
+        "identifier": "jer979",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jer979/posts/10154358613414669",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1HFCRWYBtWWhUuwot2Qv4BvP899PeoKutV",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Washington, DC"
     },
-    "v": "0.2",
-    "website": "http://www.linkedin.com/in/jer979"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jer979",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jer979",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jeremy Epstein",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.linkedin.com/in/jer979"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "jer979",
-      "proof_url": "https://twitter.com/jer979/status/541791974089441280",
+      "proof_url": "https://twitter.com/jer979/status/752325660950073344",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "jer979",
-      "proof_url": "https://facebook.com/jer979/posts/10152954140289669",
+      "proof_url": "https://gist.github.com/jer979/fad4276f8a2cc3103d472b6e635332e5",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jer979",
+      "proof_url": "https://www.facebook.com/jer979/posts/10154358613414669",
       "service": "facebook",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN jer979.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jer979.id\"\n"
 }
