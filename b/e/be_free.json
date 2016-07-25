@@ -1,16 +1,49 @@
 {
   "owner_address": "1FKQQeKUqK1LoeoBqTUkpG51EC7Rx6kBR5",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/be_free"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/QAd.jpeg"
-    },
-    "facebook": {
-      "username": "befr33"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "be_free",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/be_free/status/754810360285294592",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "befr33",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/befr33/posts/10154238314902165",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/be_free",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "be_free",
+      "proof_url": "https://twitter.com/be_free/status/754810360285294592",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "befr33",
+      "proof_url": "https://www.facebook.com/befr33/posts/10154238314902165",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN be_free.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/be_free.id\"\n"
 }

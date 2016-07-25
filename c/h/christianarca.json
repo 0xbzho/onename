@@ -1,64 +1,63 @@
 {
   "owner_address": "1B1SCXSiKbp3EkCJCQqEB1g1HyXS28kbkX",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/christianarca"
-    },
-    "bio": "Product Manager at Etsy",
-    "bitcoin": {
-      "address": "1GnPd48QBjWBjZFnLDSNt3V51hjL8kocb7"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/christianarca"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/christianarca/posts/10100174506240066"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ChrisA9",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "christianarca"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/ChristianArca/24b21d8e2f9c830ddf35"
+      {
+        "@type": "Account",
+        "identifier": "christianarca",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "ChristianArca"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/christianarca"
-    },
-    "location": {
-      "formatted": "Brooklyn, NY"
-    },
-    "name": {
-      "formatted": "Christian Arca"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/ChrisA9/status/499702850872569856"
+      {
+        "@type": "Account",
+        "identifier": "ChristianArca",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "ChrisA9"
+      {
+        "@type": "Account",
+        "identifier": "1GnPd48QBjWBjZFnLDSNt3V51hjL8kocb7",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ceaca6b054722ae874ea5458c827c506c8de29c2",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brooklyn, NY"
     },
-    "v": "0.2",
-    "website": "http://www.christianarca.com"
+    "description": "Product Manager at Etsy",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/christianarca",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/christianarca",
+        "name": "cover"
+      }
+    ],
+    "name": "Christian Arca",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.christianarca.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "ChristianArca",
-      "proof_url": "https://gist.github.com/ChristianArca/24b21d8e2f9c830ddf35",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "ChrisA9",
-      "proof_url": "https://twitter.com/ChrisA9/status/499702850872569856",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "christianarca",
-      "proof_url": "https://facebook.com/christianarca/posts/10100174506240066",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN christianarca.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/christianarca.id\"\n"
 }

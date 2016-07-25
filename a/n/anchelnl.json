@@ -1,68 +1,65 @@
 {
   "owner_address": "12NcafLgywZBTAR6unTWxRzKNdsPHBboTU",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/anchelnl"
-    },
-    "bio": "Applelaar | Wordpresser | Linux Satelliet kijker | Flyerfietser | Veenendaler & Edenees | Wielerkijker | Life is a BIT….",
-    "bitcoin": {
-      "address": "17WNbsuC5pgQHXZRWfbfLs4R7gDdZpDhqX"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/anchelnl"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/anchelnl/posts/10153441123944492"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anchelnl",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "anchelnl"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/anchelnl/2f94d190a55d4b8d824f"
+      {
+        "@type": "Account",
+        "identifier": "anchelnl",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "anchelnl"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/anchelnl"
-    },
-    "location": {
-      "formatted": "52.032717,5.547978"
-    },
-    "name": {
-      "formatted": "Michel Jongepier"
-    },
-    "pgp": {
-      "fingerprint": "710F46F617978A30CF865B6EA3650E22E5BDA5E8",
-      "url": "https://keybase.io/anchelnl/key.asc"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/anchelnl/status/685168554140905472"
+      {
+        "@type": "Account",
+        "identifier": "anchelnl",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "anchelnl"
+      {
+        "@type": "Account",
+        "identifier": "17WNbsuC5pgQHXZRWfbfLs4R7gDdZpDhqX",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/anchelnl/key.asc",
+        "identifier": "710F46F617978A30CF865B6EA3650E22E5BDA5E8",
+        "role": "key",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "52.032717,5.547978"
     },
-    "v": "0.2",
-    "website": "http://www.anchel.nl"
+    "description": "Applelaar | Wordpresser | Linux Satelliet kijker | Flyerfietser | Veenendaler & Edenees | Wielerkijker | Life is a BIT….",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/anchelnl",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/anchelnl",
+        "name": "cover"
+      }
+    ],
+    "name": "Michel Jongepier",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.anchel.nl"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "anchelnl",
-      "proof_url": "https://gist.github.com/anchelnl/2f94d190a55d4b8d824f",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "anchelnl",
-      "proof_url": "https://twitter.com/anchelnl/status/685168554140905472",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "anchelnl",
-      "proof_url": "https://facebook.com/anchelnl/posts/10153441123944492",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN anchelnl.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/anchelnl.id\"\n"
 }

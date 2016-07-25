@@ -1,72 +1,87 @@
 {
   "owner_address": "18vdUBspNgeyFEsfsY8M5BfiHbNvEWhUJc",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "https://about.me/emaballarin",
-        "service": "about.me"
+        "contentUrl": "https://s3.amazonaws.com/pk9/emaballarin",
+        "identifier": "93179FC88D5244F2EB4E695702B61E2BD9D54AA7",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "39rd4ocHygFbGuPcQ6Z9BD6Q6LhDUGXaK9",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "emaballarin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/emaballarin/status/754048272507994112",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ehteqx",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ehteqx/f244fbbd05c0dc8a1c3247c7ba33599b",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ehteqx",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ehteqx/posts/1156541274396046",
+        "service": "facebook"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/emaballarin"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Pordenone - Trieste (Italy)"
     },
-    "bio": "Physics student, science & technology enthusiast, data addict. Quantitativist, consequentialist, classical liberal. Reason & freedom lover.",
-    "bitcoin": {
-      "address": "15hJ2CCeydeHYxZc18ShkpJvAiJiDoDwXV"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/emaballarin"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/ehteqx/posts/1093465770703597"
+    "description": "Physics student, science & technology enthusiast, data addict. Quantitativist, consequentialist, classical liberal. Reason & freedom lover.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/emaballarin",
+        "name": "avatar"
       },
-      "username": "ehteqx"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/ehteqx/973c523e32c998c20dd0"
-      },
-      "username": "ehteqx"
-    },
-    "location": {
-      "formatted": "Pordenone - Trieste (Italy)"
-    },
-    "name": {
-      "formatted": "Emanuele Ballarin"
-    },
-    "pgp": {
-      "fingerprint": "93179FC88D5244F2EB4E695702B61E2BD9D54AA7",
-      "url": "https://s3.amazonaws.com/pk9/emaballarin"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/emaballarin/status/704053036923092992"
-      },
-      "username": "emaballarin"
-    },
-    "v": "0.2",
-    "website": "https://sites.google.com/site/emaballarin"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/emaballarin",
+        "name": "cover"
+      }
+    ],
+    "name": "Emanuele Ballarin",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://sites.google.com/site/emaballarin"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "ehteqx",
-      "proof_url": "https://gist.github.com/ehteqx/973c523e32c998c20dd0",
-      "service": "github",
-      "valid": true
-    },
-    {
       "identifier": "emaballarin",
-      "proof_url": "https://twitter.com/emaballarin/status/704053036923092992",
+      "proof_url": "https://twitter.com/emaballarin/status/754048272507994112",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "ehteqx",
-      "proof_url": "https://facebook.com/ehteqx/posts/1093465770703597",
+      "proof_url": "https://gist.github.com/ehteqx/f244fbbd05c0dc8a1c3247c7ba33599b",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "ehteqx",
+      "proof_url": "https://www.facebook.com/ehteqx/posts/1156541274396046",
       "service": "facebook",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN emaballarin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/emaballarin.id\"\n"
 }
