@@ -1,10 +1,22 @@
 {
   "owner_address": "1H81gpAjvCkn6wbicrhTqFaeXKq593X4qR",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/ikZ.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "redballtutoring",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN redballtutoring.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/redballtutoring.id\"\n"
 }
