@@ -1,10 +1,60 @@
 {
   "owner_address": "1BnULfNWT64Diiam8AtT861PEvhXaFcCNL",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/n6r.jpeg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jcmlt",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/jcmelati?post_id=1720206448220588_1758938804347352#facebook",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jcmelati",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jcmelati/9900a0d4e3eee01112f805ad39812c4e",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Den Haag, Netherlands"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jcmelati",
+        "name": "avatar"
+      }
+    ],
+    "name": "John Melati",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://neopay.io"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "jcmlt",
+      "proof_url": "https://onename.com/jcmelati?post_id=1720206448220588_1758938804347352#facebook",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "jcmelati",
+      "proof_url": "https://gist.github.com/jcmelati/9900a0d4e3eee01112f805ad39812c4e",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jcmelati.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jcmelati.id\"\n"
 }

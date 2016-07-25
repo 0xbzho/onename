@@ -1,61 +1,80 @@
 {
   "owner_address": "16MMUxMqt8bBYknLcGTFS8idE9bC5DzzAq",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/ramvi"
-    },
-    "bio": "Datasikkerhet-, design- og open source-fanatiker. Skriver master om desentraliserte personverns-teknologier som BitCloud og MaidSafe.",
-    "bitcoin": {
-      "address": "1xAnpU7xsPLdMuhE2unx6w28HibmhHsG9"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/ramvi"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/ramvi/posts/10152719567143680"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "JonRamvi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JonRamvi/status/753251197268717568",
+        "service": "twitter"
       },
-      "username": "ramvi"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/ramvi/5aaa712f9248ea891f75"
+      {
+        "@type": "Account",
+        "identifier": "ramvi",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ramvi/posts/10154336444108680",
+        "service": "facebook"
       },
-      "username": "ramvi"
-    },
-    "location": {
-      "formatted": "Oslo, Norge"
-    },
-    "name": {
-      "formatted": "Jon Ramvi"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/JonRamvi/status/517684024160956417"
+      {
+        "@type": "Account",
+        "identifier": "ramvi",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ramvi/5aaa712f9248ea891f75",
+        "service": "github"
       },
-      "username": "JonRamvi"
+      {
+        "@type": "Account",
+        "identifier": "1CKoDJo1fYU5RqgfFgAueawsVJsWzwGy9v",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Oslo, Norge"
     },
-    "v": "0.2",
-    "website": "http://no.linkedin.com/in/jonramvi/"
+    "description": "Norwegian Blockchain Expert, Engineer and Entrepreneur. Ethereum address: 0x805d2AA42A46B720B9FCBB16e438B4d58Cc72556",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ramvi",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ramvi",
+        "name": "cover"
+      }
+    ],
+    "name": "Jon Ramvi",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://no.linkedin.com/in/jonramvi/"
+      }
+    ]
   },
   "verifications": [
+    {
+      "identifier": "JonRamvi",
+      "proof_url": "https://twitter.com/JonRamvi/status/753251197268717568",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ramvi",
+      "proof_url": "https://www.facebook.com/ramvi/posts/10154336444108680",
+      "service": "facebook",
+      "valid": true
+    },
     {
       "identifier": "ramvi",
       "proof_url": "https://gist.github.com/ramvi/5aaa712f9248ea891f75",
       "service": "github",
       "valid": true
-    },
-    {
-      "identifier": "JonRamvi",
-      "proof_url": "https://twitter.com/JonRamvi/status/517684024160956417",
-      "service": "twitter",
-      "valid": false
-    },
-    {
-      "identifier": "ramvi",
-      "proof_url": "https://facebook.com/ramvi/posts/10152719567143680",
-      "service": "facebook",
-      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN ramvi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ramvi.id\"\n"
 }

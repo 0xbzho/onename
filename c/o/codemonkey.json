@@ -1,16 +1,27 @@
 {
   "owner_address": "14KdrA2pv94nEoV3y5dXdQZmP4Tf3A9ykp",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/wkj.jpeg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bdee81e046ad6d4fd9f571ba02571d196d7ea640",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Gainesville"
     },
-    "location": {
-      "formatted": "Gainesville"
-    },
-    "name": {
-      "formatted": "Dustin Buckley"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Dustin Buckley"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN codemonkey.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/codemonkey.id\"\n"
 }

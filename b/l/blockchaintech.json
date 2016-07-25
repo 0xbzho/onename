@@ -1,6 +1,47 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "16U67hoLZrEYF1vNRpjcEprAjySZpdNcxq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Blockchaintecno",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/blockchaintech",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Spain"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/blockchaintech",
+        "name": "avatar"
+      }
+    ],
+    "name": "BlockChainTech.es",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.blockchaintech.es"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Blockchaintecno",
+      "proof_url": "https://onename.com/blockchaintech",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN blockchaintech.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/blockchaintech.id\"\n"
 }

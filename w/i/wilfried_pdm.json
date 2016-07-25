@@ -1,10 +1,36 @@
 {
   "owner_address": "1PK9uYJrUGERKcC8giE3NJpDwWDqn7r9nE",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/n6r.jpeg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Wilfriedpimenta",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/wilfried_pdm",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Oslo"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Wilfried Pimenta de Miranda"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "Wilfriedpimenta",
+      "proof_url": "https://onename.com/wilfried_pdm",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN wilfried_pdm.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wilfried_pdm.id\"\n"
 }

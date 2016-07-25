@@ -1,48 +1,66 @@
 {
   "owner_address": "196Dv9FUeJp9FPiN3tEgM2shhJxYwbpUhM",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/sebas"
-    },
-    "bitcoin": {
-      "address": "3NBk3pjgqQr129hvmsAtPRMGufoCDAHGud"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/sebas"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/neoranga55/9466beeb213cb82804d3"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "3NBk3pjgqQr129hvmsAtPRMGufoCDAHGud",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "neoranga55"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Sebas LG"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/neoranga55/status/498929969553104896"
+      {
+        "@type": "Account",
+        "identifier": "sebaslogen",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sebaslogen/status/754255971594203140",
+        "service": "twitter"
       },
-      "username": "neoranga55"
+      {
+        "@type": "Account",
+        "identifier": "sebaslogen",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/sebaslogen/247b73166d55746f935171097900aa55",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "v": "0.2",
-    "website": "http://www.LearnToUseBitcoin.com"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sebas",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/sebas",
+        "name": "cover"
+      }
+    ],
+    "name": "Sebas LG",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.LearnToUseBitcoin.com"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "neoranga55",
-      "proof_url": "https://gist.github.com/neoranga55/9466beeb213cb82804d3",
-      "service": "github",
-      "valid": false
+      "identifier": "sebaslogen",
+      "proof_url": "https://twitter.com/sebaslogen/status/754255971594203140",
+      "service": "twitter",
+      "valid": true
     },
     {
-      "identifier": "neoranga55",
-      "proof_url": "https://twitter.com/neoranga55/status/498929969553104896",
-      "service": "twitter",
-      "valid": false
+      "identifier": "sebaslogen",
+      "proof_url": "https://gist.github.com/sebaslogen/247b73166d55746f935171097900aa55",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN sebas.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sebas.id\"\n"
 }

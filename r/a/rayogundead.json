@@ -1,61 +1,80 @@
 {
   "owner_address": "13hqX8B7MFhVosWWP6MYFPNPwZiY2A8MxP",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/rayogundead"
-    },
-    "bio": "#Midskiller, #GarageDev, #SoftwareDev, #FLOSS/#FOSS advocate, #Filipino, #Brony, #GamerGate. I go my own way  because I CAN. https://t.co/bNjuLwKS8F",
-    "bitcoin": {
-      "address": "1HhsZrD9iLHAS4qLLtz5Mh8cfqHP8BW2gy"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/rayogundead"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/emmanuelle.gamboa/posts/1409720105720158"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1HhsZrD9iLHAS4qLLtz5Mh8cfqHP8BW2gy",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "emmanuelle.gamboa"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/RayoGundead/43ab631d308f517466a7eaa5d3268778"
+      {
+        "@type": "Account",
+        "identifier": "RayoGundead",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RayoGundead/status/754613267243282432",
+        "service": "twitter"
       },
-      "username": "RayoGundead"
-    },
-    "location": {
-      "formatted": "Internet"
-    },
-    "name": {
-      "formatted": "RayoGundead"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/RayoGundead/status/717618270803664896"
+      {
+        "@type": "Account",
+        "identifier": "emmanuelle.gamboa",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/emmanuelle.gamboa/posts/1507004892658345",
+        "service": "facebook"
       },
-      "username": "RayoGundead"
+      {
+        "@type": "Account",
+        "identifier": "RayoGundead",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/RayoGundead/c1328bd2b133b3bca966e3f97b3ddb35",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Internet"
     },
-    "v": "0.2",
-    "website": "https://midskiller.org"
+    "description": "#Midskiller, #GarageDev, #SoftwareDev, #FLOSS/#FOSS advocate, #Filipino, #Brony, #GamerGate. I go my own way  because I CAN. https://voat.co/v/GamerGate",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rayogundead",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rayogundead",
+        "name": "avatar"
+      }
+    ],
+    "name": "RayoGundead",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://midskiller.org"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "RayoGundead",
-      "proof_url": "https://gist.github.com/RayoGundead/43ab631d308f517466a7eaa5d3268778",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "RayoGundead",
-      "proof_url": "https://twitter.com/RayoGundead/status/717618270803664896",
+      "proof_url": "https://twitter.com/RayoGundead/status/754613267243282432",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "emmanuelle.gamboa",
-      "proof_url": "https://facebook.com/emmanuelle.gamboa/posts/1409720105720158",
+      "proof_url": "https://www.facebook.com/emmanuelle.gamboa/posts/1507004892658345",
       "service": "facebook",
-      "valid": false
+      "valid": true
+    },
+    {
+      "identifier": "RayoGundead",
+      "proof_url": "https://gist.github.com/RayoGundead/c1328bd2b133b3bca966e3f97b3ddb35",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN rayogundead.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rayogundead.id\"\n"
 }

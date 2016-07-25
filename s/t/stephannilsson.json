@@ -1,41 +1,66 @@
 {
   "owner_address": "1DF3VsEEJSeWvVAtpQLwQPzgutiSu716YH",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/stephannilsson"
-    },
-    "bitcoin": {
-      "address": "1Skye14EP6EuuW7aipWwtJPtDTcJYy5Ui"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/stephannilsson"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/stephan.nilsson.39/posts/10208824171542461"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1Skye14EP6EuuW7aipWwtJPtDTcJYy5Ui",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "stephan.nilsson.39"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/BitcoinDevotee/status/698829558238334976"
+      {
+        "@type": "Account",
+        "identifier": "BitcoinDevotee",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BitcoinDevotee/status/698830468695859200",
+        "service": "twitter"
       },
-      "username": "BitcoinDevotee"
+      {
+        "@type": "Account",
+        "identifier": "stephan.nilsson.39",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/search/top/?q=Verifying%20that%20%2Bstephannilsson%20is%20my%20blockchain%20ID.%20https%3A%2F%2Fonename.com%2Fstephannilsson",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pgp.mit.edu/pks/lookup?search=0x2798544F&op=index",
+        "identifier": "1442A2C09EA4224684ABBD133EF304EF2798544F",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Oslo"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/stephannilsson",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/stephannilsson",
+        "name": "cover"
+      }
+    ],
+    "name": "Stephan Nilsson"
   },
   "verifications": [
     {
       "identifier": "BitcoinDevotee",
-      "proof_url": "https://twitter.com/BitcoinDevotee/status/698829558238334976",
+      "proof_url": "https://twitter.com/BitcoinDevotee/status/698830468695859200",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "stephan.nilsson.39",
-      "proof_url": "https://facebook.com/stephan.nilsson.39/posts/10208824171542461",
+      "proof_url": "https://www.facebook.com/search/top/?q=Verifying%20that%20%2Bstephannilsson%20is%20my%20blockchain%20ID.%20https%3A%2F%2Fonename.com%2Fstephannilsson",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN stephannilsson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stephannilsson.id\"\n"
 }

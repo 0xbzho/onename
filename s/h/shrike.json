@@ -1,52 +1,86 @@
 {
   "owner_address": "1CuXfoXWHFvgivrcuhDNENem8oRtLsVK7g",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/shrike"
-    },
-    "bio": "Just another software developer and gamer.",
-    "bitcoin": {
-      "address": "1LJs7syTtrz6Q71aRuQaaQnJcWrWsTqtzJ"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/shrike"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/SShrike/a28350f1a324017e4802"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1LJs7syTtrz6Q71aRuQaaQnJcWrWsTqtzJ",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "SShrike"
-    },
-    "location": {
-      "formatted": "New Zealand"
-    },
-    "name": {
-      "formatted": "Severen Redwood"
-    },
-    "pgp": {
-      "url": "https://keybase.io/SShrike/key.asc"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/SShrike/status/699529105583157248"
+      {
+        "@type": "Account",
+        "identifier": "SShr1ke",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/SShr1ke/posts/862121360559509",
+        "service": "facebook"
       },
-      "username": "SShrike"
+      {
+        "@type": "Account",
+        "identifier": "SShrike",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SShrike/status/752986916128075776",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "SShrike",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/SShrike/a28350f1a324017e4802",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/SShrike/key.asc",
+        "identifier": "B797B8AC14784A7D55DB3F1E4EEB280C43E7EEDF",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New Zealand"
     },
-    "v": "0.2",
-    "website": "https://shrike.me/"
+    "description": "Just another software developer and gamer.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/shrike",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/shrike",
+        "name": "cover"
+      }
+    ],
+    "name": "Severen Redwood",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://shrike.me/"
+      }
+    ]
   },
   "verifications": [
+    {
+      "identifier": "SShr1ke",
+      "proof_url": "https://www.facebook.com/SShr1ke/posts/862121360559509",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "SShrike",
+      "proof_url": "https://twitter.com/SShrike/status/752986916128075776",
+      "service": "twitter",
+      "valid": true
+    },
     {
       "identifier": "SShrike",
       "proof_url": "https://gist.github.com/SShrike/a28350f1a324017e4802",
       "service": "github",
       "valid": true
-    },
-    {
-      "identifier": "SShrike",
-      "proof_url": "https://twitter.com/SShrike/status/699529105583157248",
-      "service": "twitter",
-      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN shrike.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/shrike.id\"\n"
 }

@@ -1,55 +1,67 @@
 {
   "owner_address": "1Nn4QWQ1YpzsGG1GYiNu2xmwNMGpLNSjhT",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/guyleba"
-    },
-    "bio": "#IT, #IoT, #Startups, #Blockchain, #Entrepreneurship",
-    "bitcoin": {
-      "address": "1AR9YY4KuQM9QHMYZbSfGcTYh55EcVRDSx"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/guyleba"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/lebag/posts/10153277458232291"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "lebag",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "lebag"
-    },
-    "github": {
-      "proof": {
-        "url": "Verifying that +guyleba is my blockchain ID. https://onename.com/guyleba"
+      {
+        "@type": "Account",
+        "identifier": "Verifying that +guyleba is my blockchain ID. https:",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "Verifying that +guyleba is my blockchain ID. https:"
+      {
+        "@type": "Account",
+        "identifier": "1AR9YY4KuQM9QHMYZbSfGcTYh55EcVRDSx",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/guyleba",
+        "identifier": "",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "guyleba",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/guyleba/status/753900883801436160",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "EU|US"
     },
-    "location": {
-      "formatted": "EU|US"
-    },
-    "name": {
-      "formatted": "Guy Leba"
-    },
-    "pgp": {
-      "fingerprint": "",
-      "url": "https://s3.amazonaws.com/pk9/guyleba"
-    },
-    "twitter": {
-      "username": "guyleba"
-    },
-    "v": "0.2"
+    "description": "#IT, #IoT, #Startups, #Blockchain, #Entrepreneurship",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/guyleba",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/guyleba",
+        "name": "cover"
+      }
+    ],
+    "name": "Guy Leba"
   },
   "verifications": [
     {
-      "identifier": "Verifying that +guyleba is my blockchain ID. https:",
-      "proof_url": "Verifying that +guyleba is my blockchain ID. https://onename.com/guyleba",
-      "service": "github",
-      "valid": false
-    },
-    {
-      "identifier": "lebag",
-      "proof_url": "https://facebook.com/lebag/posts/10153277458232291",
-      "service": "facebook",
+      "identifier": "guyleba",
+      "proof_url": "https://twitter.com/guyleba/status/753900883801436160",
+      "service": "twitter",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN guyleba.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/guyleba.id\"\n"
 }

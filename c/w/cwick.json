@@ -1,48 +1,51 @@
 {
   "owner_address": "1Nw3akb7WVWzJq2X8RSvjmxmsJzWihtkzA",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/cwick"
-    },
-    "bio": "artist ~ machead ~ droidhead ~ bithead entrepreneur...keeping the faith",
-    "bitcoin": {
-      "address": "1KJ1MQtJJZx1fjL8eguLWTtvbNats7F4ZG"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/cwick"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/chadwick.palmatier/posts/10204874557116839"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gocwick",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "chadwick.palmatier"
-    },
-    "location": {
-      "formatted": "89423"
-    },
-    "name": {
-      "formatted": "chadwick palmatier"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/gocwick/status/587297318551953409"
+      {
+        "@type": "Account",
+        "identifier": "chadwick.palmatier",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "gocwick"
+      {
+        "@type": "Account",
+        "identifier": "1KJ1MQtJJZx1fjL8eguLWTtvbNats7F4ZG",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "36899a3834a30b622fd976567bf341d8140b799f",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "89423"
     },
-    "v": "0.2"
+    "description": "artist ~ machead ~ droidhead ~ bithead entrepreneur...keeping the faith",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cwick",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/cwick",
+        "name": "cover"
+      }
+    ],
+    "name": "chadwick palmatier"
   },
-  "verifications": [
-    {
-      "identifier": "gocwick",
-      "proof_url": "https://twitter.com/gocwick/status/587297318551953409",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "chadwick.palmatier",
-      "proof_url": "https://facebook.com/chadwick.palmatier/posts/10204874557116839",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN cwick.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cwick.id\"\n"
 }

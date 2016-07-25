@@ -1,55 +1,51 @@
 {
   "owner_address": "1HMzNpYZRWeuecGL4Tesj9sB4zme3CirZ",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "",
-        "service": ""
+        "identifier": "sybiload",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "100008023864885",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sybiload",
+        "proofType": "http",
+        "service": "github"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/sybiload"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "France"
     },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/sybiload"
-    },
-    "facebook": {
-      "username": "100008023864885"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/sybiload/3d13ea66abd364604f49"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/sybiload",
+        "name": "cover"
       },
-      "username": "sybiload"
-    },
-    "location": {
-      "formatted": "France"
-    },
-    "name": {
-      "formatted": "Yohann LEON"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/sybiload/status/699268003888816128"
-      },
-      "username": "sybiload"
-    },
-    "v": "0.2",
-    "website": "https://sybiload.com/"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sybiload",
+        "name": "avatar"
+      }
+    ],
+    "name": "Yohann LEON",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://sybiload.com/"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "sybiload",
-      "proof_url": "https://gist.github.com/sybiload/3d13ea66abd364604f49",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "sybiload",
-      "proof_url": "https://twitter.com/sybiload/status/699268003888816128",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN sybiload.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sybiload.id\"\n"
 }
