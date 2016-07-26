@@ -1,6 +1,63 @@
 {
-  "owner_address": "1Eo261WGgfAfh4op44rmJFLqK4mikwTUw9",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1BHTS3vaYiAzWvraC4a35G5dAzCyTGx9GQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cTiger3",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cTiger3/status/755332861360832512",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lindererik",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/lindererik/b81bc25d3e8e16123a9b7d3637340bd7",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Erik Linder",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/erik.linder.127/posts/10153981881207600",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/eriklinder",
+        "name": "avatar"
+      }
+    ],
+    "name": "Erik Linder"
+  },
+  "verifications": [
+    {
+      "identifier": "cTiger3",
+      "proof_url": "https://twitter.com/cTiger3/status/755332861360832512",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "lindererik",
+      "proof_url": "https://gist.github.com/lindererik/b81bc25d3e8e16123a9b7d3637340bd7",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "Erik Linder",
+      "proof_url": "https://www.facebook.com/erik.linder.127/posts/10153981881207600",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN eriklinder.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/eriklinder.id\"\n"
 }

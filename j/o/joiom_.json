@@ -1,6 +1,66 @@
 {
-  "owner_address": "16V5NUQGUtUKG7nMmvYQwDU1g2YhJVeRbD",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1Fzt3pSntzBADRUyZGNSLUmEFmWQukCmpz",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "joiom",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/joiom/status/754018851730427905",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "f36135a6e829291de71fdb28ad55831e40c30c1a",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1EqBHL9EGYMccLXQrqXKpLudt6jGvivBRE",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "joiom",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/joiom/0db32ce5456633bd1e0516bdcf7e248e",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Earth"
+    },
+    "description": "Web And Marketing Consulting For SME",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/joiom_",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/joiom_",
+        "name": "cover"
+      }
+    ],
+    "name": "JOIOM"
+  },
+  "verifications": [
+    {
+      "identifier": "joiom",
+      "proof_url": "https://twitter.com/joiom/status/754018851730427905",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "joiom",
+      "proof_url": "https://gist.github.com/joiom/0db32ce5456633bd1e0516bdcf7e248e",
+      "service": "github",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN joiom_.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/joiom_.id\"\n"
 }

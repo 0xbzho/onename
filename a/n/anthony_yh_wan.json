@@ -1,6 +1,67 @@
 {
-  "owner_address": "1PvYD5YcMxSewFeFM4buXcYEVMocFFTPq1",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1DZFP2S1oWhtYc56jx8NkAAuNJRcuZtgSG",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "loewan",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/loewan/posts/10153745673310950",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "loewan",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/loewan/status/754957210115899392",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "18FUzLbeDVw4sY7mTuHcoTeno12fKgnQeV",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hong Kong"
+    },
+    "description": "Structural Engineer, Paraglider Pilot, Beekeeper, Photographer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/anthony_yh_wan",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/anthony_yh_wan",
+        "name": "cover"
+      }
+    ],
+    "name": "Anthony Yuec Ho Wan",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://steemit.com/@loewan/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "loewan",
+      "proof_url": "https://www.facebook.com/loewan/posts/10153745673310950",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "loewan",
+      "proof_url": "https://twitter.com/loewan/status/754957210115899392",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN anthony_yh_wan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/anthony_yh_wan.id\"\n"
 }

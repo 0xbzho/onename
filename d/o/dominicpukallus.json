@@ -1,6 +1,80 @@
 {
-  "owner_address": "1EFmYsaSaQ23E8NnL8ozGZVk3GrWsnS53",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1FxJad4CMYZgXCHrrqoSvD4PhsAyKyMMhf",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dompuk",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dompuk/status/754512468240699392",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dominic.pukallus",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dominic.pukallus/posts/10155019720721679",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "DominicPukallus",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/DominicPukallus/9f3dbb1ae874cbff4ef44d0db1dc11a2",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "19wWUw6MTexKefH2GBu9T27ZCTCpUK5g1R",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Blue Mountains, NSW, Australia"
+    },
+    "description": "Peripatetic.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dominicpukallus",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/dominicpukallus",
+        "name": "cover"
+      }
+    ],
+    "name": "Dominic Pukallus",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://sites.google.com/site/dominicpukallus/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dompuk",
+      "proof_url": "https://twitter.com/dompuk/status/754512468240699392",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "dominic.pukallus",
+      "proof_url": "https://www.facebook.com/dominic.pukallus/posts/10155019720721679",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "DominicPukallus",
+      "proof_url": "https://gist.github.com/DominicPukallus/9f3dbb1ae874cbff4ef44d0db1dc11a2",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN dominicpukallus.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dominicpukallus.id\"\n"
 }

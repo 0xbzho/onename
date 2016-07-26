@@ -1,6 +1,36 @@
 {
-  "owner_address": "19de7CVFvNwzApDcRL1fr8pzDxDoLiRHrB",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1BM7nxggmUKwL61F6a84yJBCQL4yWUm2KX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/302620bd485654707d13845dbe9b8fe3",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bitcoinclubhouse",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/302620bd485654707d13845dbe9b8fe3",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN bitcoinclubhouse.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bitcoinclubhouse.id\"\n"
 }

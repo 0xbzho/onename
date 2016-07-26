@@ -1,6 +1,48 @@
 {
-  "owner_address": "18CqnK64QuvULwraqRsETZiRKWhjCTYsjX",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1KeGcEYGqCreRXicvoZP6H1nLZ8qi4tzXP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tunafizzle",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tunafizzle/status/754933589020598274",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1MiaKvvzhuCrbWJ2iXA9RceZfRpNDjwJTk",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Pennsylvania"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ryan J Martin",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://new.tradingview.com/u/RyanMartin/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tunafizzle",
+      "proof_url": "https://twitter.com/tunafizzle/status/754933589020598274",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN ryanmartin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ryanmartin.id\"\n"
 }

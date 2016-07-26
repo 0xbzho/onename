@@ -1,6 +1,86 @@
 {
-  "owner_address": "1A4JEcCT11kqmAq6MFX9aXr4PxRDKPDaEd",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1FTvLbUTSb1NggoHyp1AexfLGVR6i8yL9w",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "matsest",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/matsest/status/754760810279428096",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "matsest",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/matsest/01cb8340c1f74ef3156309cf87f0d0f8",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "184petExNDWAABSp4aPmw741rvsLVccFYR",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/matsest",
+        "identifier": "8CD93F34FAA71448DA31055FFA793962E2D61F80",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "estensen",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/estensen/posts/10157202443015581",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ae28f78552fc2ee98845d680a52c81355441f24a",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jaredrfrank/status/755076054776066048",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Norway"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/matsest",
+        "name": "avatar"
+      }
+    ],
+    "name": "Mats Estensen"
+  },
+  "verifications": [
+    {
+      "identifier": "matsest",
+      "proof_url": "https://twitter.com/matsest/status/754760810279428096",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "matsest",
+      "proof_url": "https://gist.github.com/matsest/01cb8340c1f74ef3156309cf87f0d0f8",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "estensen",
+      "proof_url": "https://www.facebook.com/estensen/posts/10157202443015581",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN matsest.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/matsest.id\"\n"
 }

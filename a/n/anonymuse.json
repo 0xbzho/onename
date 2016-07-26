@@ -1,6 +1,50 @@
 {
-  "owner_address": "1EFbozo19ioiJ9kZYR9o4VEShjw5zE1gNc",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1LWx8JHLHk6hzCC7rV2TwNSKUwC4tzCXXe",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jesse_white",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Jesse_White/status/757315813410037761",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/3d6fa99b13fefc5d87b60f246759aa68",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York, NY"
+    },
+    "description": "Hello Blockstack",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jesse White"
+  },
+  "verifications": [
+    {
+      "identifier": "jesse_white",
+      "proof_url": "https://twitter.com/Jesse_White/status/757315813410037761",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/3d6fa99b13fefc5d87b60f246759aa68",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN anonymuse.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/anonymuse.id\"\n"
 }

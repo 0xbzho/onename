@@ -1,6 +1,44 @@
 {
-  "owner_address": "14VZV1v3tKHX4oQ3ysbw2uUc8rANDs7KTk",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1KQB5BxQPAKLCYAgRNxU5G1bLwf9ZXRg79",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "davidbaeza",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/DavidBaeza/status/754316900121718784",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "baeza",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/baeza/posts/10153508167256710?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "davidbaeza",
+      "proof_url": "https://twitter.com/DavidBaeza/status/754316900121718784",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "baeza",
+      "proof_url": "https://www.facebook.com/baeza/posts/10153508167256710?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN davidbaeza.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/davidbaeza.id\"\n"
 }

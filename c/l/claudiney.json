@@ -1,6 +1,58 @@
 {
-  "owner_address": "1GRYTESUxVraGoeW1yyAdLG98Ft2SRnAXJ",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1BJZCVEkqutxgS7KkDrMRMfMiL4fJdgzaw",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "8d3ac6797738dd24b3506a45aa11ae83e45c9a5f",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "claudineynascimento",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/claudineynascimento/9c190d555fcba28f01c687f62169cba3",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "18NmVbACLFHNHNzbLbc5of6riJJc5xwBUX",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brazil"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/claudiney",
+        "name": "avatar"
+      }
+    ],
+    "name": "Claudiney Nascimento",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.bitcoinservicos.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "claudineynascimento",
+      "proof_url": "https://gist.github.com/claudineynascimento/9c190d555fcba28f01c687f62169cba3",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN claudiney.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/claudiney.id\"\n"
 }

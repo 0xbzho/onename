@@ -1,6 +1,57 @@
 {
-  "owner_address": "1bwZJ9TKPZ1Z1ZQVdvGfuRkCpx7EEhDbU",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "18bxNQKLcHFVYfrpUKsPt4ZsjdURCJHpAn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jonnyquerulous",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jonnyquerulous/status/754314599244165120",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jonny.querulous",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jonny.querulous/posts/522148511303684",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jonqrandom",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jonqrandom/dca07bcbf1b701d70f092e788c457d59",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jonnyquerulous",
+      "proof_url": "https://twitter.com/jonnyquerulous/status/754314599244165120",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jonny.querulous",
+      "proof_url": "https://www.facebook.com/jonny.querulous/posts/522148511303684",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "jonqrandom",
+      "proof_url": "https://gist.github.com/jonqrandom/dca07bcbf1b701d70f092e788c457d59",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN jonqrandom.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jonqrandom.id\"\n"
 }

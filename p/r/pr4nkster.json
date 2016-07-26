@@ -1,6 +1,49 @@
 {
-  "owner_address": "1EWVq9ccsZ5nNAcBJmQp2mopKXSpkhP3cq",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "19CjQAQKb57sxSMVwk2rg4RL7pz5QfJjuf",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jaredrfrank",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jaredrfrank/status/755076054776066048",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "pr4nkster",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/pr4nkster/ea211b324ace3a42eac3629c61084579",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/pr4nkster",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jaredrfrank",
+      "proof_url": "https://twitter.com/jaredrfrank/status/755076054776066048",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "pr4nkster",
+      "proof_url": "https://gist.github.com/pr4nkster/ea211b324ace3a42eac3629c61084579",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN pr4nkster.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pr4nkster.id\"\n"
 }
