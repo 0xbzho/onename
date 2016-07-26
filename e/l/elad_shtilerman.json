@@ -12,17 +12,40 @@
       },
       {
         "@type": "Account",
-        "identifier": "elad shtilerman",
+        "identifier": "elad.shtilerman",
         "proofType": "http",
         "proofUrl": "https://www.facebook.com/elad.shtilerman/posts/1137262379650384?pnref=story",
         "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "elad-shtilerman",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/elad-shtilerman/7c9273ea6d9a70b5c2e7b7b7a7f7154a",
+        "service": "github"
       }
     ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Israel"
+    },
     "image": [
       {
         "@type": "ImageObject",
         "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
         "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/elad_shtilerman",
+        "name": "avatar"
+      }
+    ],
+    "name": "Elad Shtilerman",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://backfeed.cc/"
       }
     ]
   },
@@ -34,9 +57,15 @@
       "valid": true
     },
     {
-      "identifier": "elad shtilerman",
+      "identifier": "elad.shtilerman",
       "proof_url": "https://www.facebook.com/elad.shtilerman/posts/1137262379650384?pnref=story",
       "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "elad-shtilerman",
+      "proof_url": "https://gist.github.com/elad-shtilerman/7c9273ea6d9a70b5c2e7b7b7a7f7154a",
+      "service": "github",
       "valid": false
     }
   ],

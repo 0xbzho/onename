@@ -7,13 +7,6 @@
         "@type": "Account",
         "identifier": "amigus",
         "proofType": "http",
-        "proofUrl": "https://m.facebook.com/story.php?story_fbid=10157113172375375&id=826430374&ref=bookmarks",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
-        "identifier": "amigus",
-        "proofType": "http",
         "proofUrl": "https://twitter.com/amigus/status/754853957625868288",
         "service": "twitter"
       },
@@ -29,6 +22,13 @@
         "identifier": "1Nyqg9HCmrsPomKVtFJ22p8zYsMpprXqG9",
         "role": "payment",
         "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "amigus",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/amigus/posts/10157113172375375?pnref=story",
+        "service": "facebook"
       }
     ],
     "address": {
@@ -58,12 +58,6 @@
   "verifications": [
     {
       "identifier": "amigus",
-      "proof_url": "https://m.facebook.com/story.php?story_fbid=10157113172375375&id=826430374&ref=bookmarks",
-      "service": "facebook",
-      "valid": false
-    },
-    {
-      "identifier": "amigus",
       "proof_url": "https://twitter.com/amigus/status/754853957625868288",
       "service": "twitter",
       "valid": true
@@ -72,6 +66,12 @@
       "identifier": "amigus",
       "proof_url": "https://gist.github.com/amigus/898b84a68a97c4f4f0a673c2508c10e8",
       "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "amigus",
+      "proof_url": "https://www.facebook.com/amigus/posts/10157113172375375?pnref=story",
+      "service": "facebook",
       "valid": true
     }
   ],

@@ -5,16 +5,22 @@
     "account": [
       {
         "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/impoluto",
+        "identifier": null,
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
         "identifier": "El_Impoluto1",
         "proofType": "http",
-        "proofUrl": "https://t.co/Mm6jVfzxXd",
+        "proofUrl": "https://twitter.com/El_Impoluto1/status/756137464562085888",
         "service": "twitter"
       },
       {
         "@type": "Account",
-        "contentUrl": "https://pk9.s3.amazonaws.com/impoluto",
-        "identifier": null,
-        "service": "pgp"
+        "identifier": "18x5mMwQSzssPJ2Y43yHBXVZYqimNwhZKq",
+        "role": "payment",
+        "service": "bitcoin"
       }
     ],
     "address": {
@@ -33,9 +39,9 @@
   "verifications": [
     {
       "identifier": "El_Impoluto1",
-      "proof_url": "https://t.co/Mm6jVfzxXd",
+      "proof_url": "https://twitter.com/El_Impoluto1/status/756137464562085888",
       "service": "twitter",
-      "valid": false
+      "valid": true
     }
   ],
   "zone_file": "$ORIGIN impoluto.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/impoluto.id\"\n"

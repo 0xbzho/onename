@@ -12,13 +12,6 @@
       },
       {
         "@type": "Account",
-        "identifier": "RFVenter",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/RFVenter/2f7ab1212154d59b695c22e6ce839aee",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
         "identifier": "1RFV2TwGUnT2XztCq9tQHaLZYFTpHj8DB",
         "role": "payment",
         "service": "bitcoin"
@@ -27,8 +20,31 @@
         "@type": "Account",
         "identifier": "riaanfv",
         "proofType": "http",
-        "proofUrl": "www.facebook.com/riaanfv/posts/10153763413732963https://",
+        "proofUrl": "https://www.facebook.com/riaanfv/posts/10153763413732963",
         "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "RFVenter",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/RFVenter/4badbbe46cdb38077b61f0dbf8bc301e#file-gistfile1-txt",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "http://www.linkedin.com/in/riaanfrancoisventer",
+        "service": "linkedin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "www.rfv.io",
+        "service": "rfventer"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/rfventer",
+        "identifier": "0BBA1C52158E9D1EFD5BD55452A284EDB9A239F3",
+        "service": "pgp"
       }
     ],
     "image": [
@@ -53,16 +69,16 @@
       "valid": true
     },
     {
-      "identifier": "RFVenter",
-      "proof_url": "https://gist.github.com/RFVenter/2f7ab1212154d59b695c22e6ce839aee",
-      "service": "github",
-      "valid": false
+      "identifier": "riaanfv",
+      "proof_url": "https://www.facebook.com/riaanfv/posts/10153763413732963",
+      "service": "facebook",
+      "valid": true
     },
     {
-      "identifier": "riaanfv",
-      "proof_url": "www.facebook.com/riaanfv/posts/10153763413732963https://",
-      "service": "facebook",
-      "valid": false
+      "identifier": "RFVenter",
+      "proof_url": "https://gist.github.com/RFVenter/4badbbe46cdb38077b61f0dbf8bc301e#file-gistfile1-txt",
+      "service": "github",
+      "valid": true
     }
   ],
   "zone_file": "$ORIGIN rfventer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rfventer.id\"\n"

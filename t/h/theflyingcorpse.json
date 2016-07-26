@@ -1,6 +1,44 @@
 {
-  "owner_address": "19pc3A4i7jea5HbzNJ6hde6EzqbQVy4ovp",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1PRb1xjQjM8N88hegaqhW7x93UjdCxo6tw",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "TheFlyingCorpse",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/TheFlyingCorpse/8d9ce07dae71886c4177447665b52943",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lovenskjold",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/lovenskjold/posts/1125372014203474",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "TheFlyingCorpse",
+      "proof_url": "https://gist.github.com/TheFlyingCorpse/8d9ce07dae71886c4177447665b52943",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "lovenskjold",
+      "proof_url": "https://www.facebook.com/lovenskjold/posts/1125372014203474",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN theflyingcorpse.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/theflyingcorpse.id\"\n"
 }
