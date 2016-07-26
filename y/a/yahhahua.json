@@ -1,0 +1,73 @@
+{
+  "owner_address": "1HvhxNK8gNK5Qh15a2ZfW1FNrDwZPcoHMT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "yahhahua",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/yahhahua/1d58a110c5dd79e551de67bdc239efea",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "yahhahua",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/yahhahua/status/757207343474085888",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "yahhahua",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/yahhahua/posts/141966429570377",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "17XhdoT19QaQZoXpngTQdwvKaky8Jps4Fb",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Osvaldo Cruz, Brazil"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/yahhahua",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jackson Sena"
+  },
+  "verifications": [
+    {
+      "identifier": "yahhahua",
+      "proof_url": "https://gist.github.com/yahhahua/1d58a110c5dd79e551de67bdc239efea",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "yahhahua",
+      "proof_url": "https://twitter.com/yahhahua/status/757207343474085888",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "yahhahua",
+      "proof_url": "https://www.facebook.com/yahhahua/posts/141966429570377",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN yahhahua.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/yahhahua.id\"\n"
+}

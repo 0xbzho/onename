@@ -1,0 +1,72 @@
+{
+  "owner_address": "12eudq14jWnGsPURMkoDsekrNvqixMFBzL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "optimusbrine",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/optimusbrine/4bc608a46c8af6d69ad99c17adf9ce53#file-gistfile1-txt",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "21b111217dacc93241a5a275d0e58c5921a7c7f8",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jesse.a.rudolph",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jesse.a.rudolph/posts/124534607984942",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dumpsternaut",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dumpsternaut/status/757380173704622080",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Tampa, FL"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/homelessrobot",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jesse Rudolph"
+  },
+  "verifications": [
+    {
+      "identifier": "optimusbrine",
+      "proof_url": "https://gist.github.com/optimusbrine/4bc608a46c8af6d69ad99c17adf9ce53#file-gistfile1-txt",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jesse.a.rudolph",
+      "proof_url": "https://www.facebook.com/jesse.a.rudolph/posts/124534607984942",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "dumpsternaut",
+      "proof_url": "https://twitter.com/dumpsternaut/status/757380173704622080",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN homelessrobot.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/homelessrobot.id\"\n"
+}
