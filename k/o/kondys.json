@@ -1,6 +1,68 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1MmUVy8cMsDP17zhDTv4zDz6r9aqcbnak",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kevinkondys",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kevinkondys/status/755306693815263234",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/kondys",
+        "identifier": "kevinkondys@gmail.com",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1KNWxur2wjHzm8wg8at8rYjwnCjPvhQMYd",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https:",
+        "proofType": "http",
+        "proofUrl": "https://gist.githubusercontent.com/littlemonkeyapps/ac40aa2107f1d07f06d854b380c3c27b/raw/fef23123981d5063f8a5b24c9ce59ec5303b6442/onename.md",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Melbourne, Australia"
+    },
+    "description": "Software Engineer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Kevin Kondys",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://littlemonkeyapps.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "kevinkondys",
+      "proof_url": "https://twitter.com/kevinkondys/status/755306693815263234",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "https:",
+      "proof_url": "https://gist.githubusercontent.com/littlemonkeyapps/ac40aa2107f1d07f06d854b380c3c27b/raw/fef23123981d5063f8a5b24c9ce59ec5303b6442/onename.md",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN kondys.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kondys.id\"\n"
 }

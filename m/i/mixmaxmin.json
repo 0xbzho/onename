@@ -16,6 +16,13 @@
         "proofType": "http",
         "proofUrl": "https://www.facebook.com/mixmaxmin/posts/10154361263169048",
         "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mixmaxmin",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mixmaxmin/dedc6ace370c9edc361d3100cde608ee",
+        "service": "github"
       }
     ],
     "address": {
@@ -25,7 +32,7 @@
     "image": [
       {
         "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mixmaxmin",
         "name": "cover"
       },
       {
@@ -48,6 +55,12 @@
       "proof_url": "https://www.facebook.com/mixmaxmin/posts/10154361263169048",
       "service": "facebook",
       "valid": true
+    },
+    {
+      "identifier": "mixmaxmin",
+      "proof_url": "https://gist.github.com/mixmaxmin/dedc6ace370c9edc361d3100cde608ee",
+      "service": "github",
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN mixmaxmin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mixmaxmin.id\"\n"

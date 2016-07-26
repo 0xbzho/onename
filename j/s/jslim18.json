@@ -9,13 +9,48 @@
         "proofType": "http",
         "proofUrl": "https://www.facebook.com/jslim18/posts/1206428719388896",
         "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jslim18",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jslim18/531ddbda84b934c7f94f54bcd4ab0918",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1CLmPYeDfV6DcXpnYbNtQpc4BBUYrEkb9j",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "test",
+        "service": "crypto*trade 2.0"
       }
     ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kuala Lumpur"
+    },
+    "description": "+601120201023",
     "image": [
       {
         "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jslim18",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jslim18",
         "name": "cover"
+      }
+    ],
+    "name": "Jackson",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.airkayu.com"
       }
     ]
   },
@@ -24,6 +59,12 @@
       "identifier": "jslim18",
       "proof_url": "https://www.facebook.com/jslim18/posts/1206428719388896",
       "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "jslim18",
+      "proof_url": "https://gist.github.com/jslim18/531ddbda84b934c7f94f54bcd4ab0918",
+      "service": "github",
       "valid": true
     }
   ],
