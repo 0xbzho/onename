@@ -5,16 +5,16 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "Oldgunix",
-        "proofType": "http",
-        "proofUrl": "https://mobile.twitter.com/OldGunix/status/749829668014944256",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
         "contentUrl": "https://pk9.s3.amazonaws.com/kevinhu",
         "identifier": null,
         "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Oldgunix",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/OldGunix/status/749829668014944256",
+        "service": "twitter"
       }
     ],
     "image": [
@@ -34,9 +34,9 @@
   "verifications": [
     {
       "identifier": "Oldgunix",
-      "proof_url": "https://mobile.twitter.com/OldGunix/status/749829668014944256",
+      "proof_url": "https://twitter.com/OldGunix/status/749829668014944256",
       "service": "twitter",
-      "valid": false
+      "valid": true
     }
   ],
   "zone_file": "$ORIGIN kevinhu.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kevinhu.id\"\n"
