@@ -1,6 +1,44 @@
 {
-  "owner_address": "1PC43RG7XYAeN9g5L7nUbxyuk8aL1AZqFL",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1CgSkX69AtSf8LoPYBJegx7tbPC4zANM5g",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Campbell_Tech",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Campbell_Tech/status/755116317594701825",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "campbell.robertson",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/finhaven",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Campbell_Tech",
+      "proof_url": "https://twitter.com/Campbell_Tech/status/755116317594701825",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "campbell.robertson",
+      "proof_url": "https://onename.com/finhaven",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN finhaven.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/finhaven.id\"\n"
 }

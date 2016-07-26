@@ -1,6 +1,36 @@
 {
-  "owner_address": "17bWfXcFNNhG8Nu6KZopT17KZGPXxjiA9n",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1BQyprewdH62dwp22vcqBDvFTXNR17UMcc",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "240ecd38cb62473cb8df1c0d8efc01c8dff69ea7",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lynxary",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/lynxary/status/755265123955142656",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "lynxary",
+      "proof_url": "https://twitter.com/lynxary/status/755265123955142656",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN lynxary.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lynxary.id\"\n"
 }

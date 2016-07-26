@@ -1,6 +1,37 @@
 {
-  "owner_address": "1cHv1osQ7tsaSN1QVxroxat4aPqG5g7GK",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1LtHrZKL4faN7TYGRZGmcn6LxWK7tmanko",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "crodarte",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/crodarte/status/755171820005908480",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/carlosrodarte",
+        "name": "avatar"
+      }
+    ],
+    "name": "Carlos Rodarte"
+  },
+  "verifications": [
+    {
+      "identifier": "crodarte",
+      "proof_url": "https://twitter.com/crodarte/status/755171820005908480",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN carlosrodarte.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/carlosrodarte.id\"\n"
 }
