@@ -1,10 +1,29 @@
 {
-  "owner_address": "1occgbip7tFDXX9MvzQhcnTUUjcVX2dYK",
+  "owner_address": "12gcHQ8PYP7oAaWrC1SUfD9JC9yHqGmrEt",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/483.jpeg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/sandeepsunny",
+        "identifier": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCqHv2PeYd8HbrP4ZEolCdqq7kMrnPVCsLfy3n0pN7xlLEoVzQqty+I5eQNgDAYHBV76YvL2go5Q74+j6UFEkIKz/Rn1AEbznrZEbtVodG8cj++161wXs3umYeXNBGavk2/+QVkszanQVBRbHGOx65oefKmb8Z0jCoKV1jKZ7SvRQIDAQAB",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bangalore"
     },
-    "v": "0.2"
+    "description": "xyz",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Sandeep Sunny"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN sandeepsunny.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sandeepsunny.id\"\n"
 }
