@@ -1,6 +1,32 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1FVK3AbtrNiXyhT1xE9xfimPRBrDVrbhdg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "peak.euarchukiati",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bangkok Thailand"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/wonderfoolme",
+        "name": "avatar"
+      }
+    ],
+    "name": "Peak Euarchukiati"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN wonderfoolme.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wonderfoolme.id\"\n"
 }
