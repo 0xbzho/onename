@@ -1,52 +1,62 @@
 {
   "owner_address": "1LurFXg9gMjh5fdkCUCWKvXsqLgLmteD2W",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/chevdor"
-    },
-    "bio": "chevdor@gmail.com",
-    "bitcoin": {
-      "address": "1G9fW3RCR171ivLRfzqeW3aUU8fDg55sKe"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/dunes.jpg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/chevdor/0962c703fd4d75973306"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "chevdor",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "chevdor"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/chevdor"
-    },
-    "name": {
-      "formatted": "Chevdor"
-    },
-    "pgp": {
-      "fingerprint": "1E2193D22146E6E5B28C8E91D10991A33805A62A",
-      "url": "https://pgp.mit.edu/pks/lookup?op=get&search=0xD10991A33805A62A"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/chevdor/status/503165312875761664"
+      {
+        "@type": "Account",
+        "identifier": "1G9fW3RCR171ivLRfzqeW3aUU8fDg55sKe",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "chevdor"
-    },
-    "v": "0.2"
+      {
+        "@type": "Account",
+        "contentUrl": "https://pgp.mit.edu/pks/lookup?op=get&search=0xD10991A33805A62A",
+        "identifier": "1E2193D22146E6E5B28C8E91D10991A33805A62A",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "eb9de9b3f629fc01b9782bb6b24a7b6d1acc0c1a",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "chevdor",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/chevdor/status/758242396371025920",
+        "service": "twitter"
+      }
+    ],
+    "description": "chevdor@gmail.com",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/chevdor",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/dunes.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Chevdor"
   },
   "verifications": [
     {
       "identifier": "chevdor",
-      "proof_url": "https://gist.github.com/chevdor/0962c703fd4d75973306",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "chevdor",
-      "proof_url": "https://twitter.com/chevdor/status/503165312875761664",
+      "proof_url": "https://twitter.com/chevdor/status/758242396371025920",
       "service": "twitter",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN chevdor.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/chevdor.id\"\n"
 }

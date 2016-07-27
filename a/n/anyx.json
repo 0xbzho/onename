@@ -1,53 +1,59 @@
 {
   "owner_address": "1H61DuP8xcZ7GdjEGF5U3Ye6XqkodMiNNo",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/anyx"
-    },
-    "bitcoin": {
-      "address": "1AnyxZuWgBh8wsbgFqzhzWZL7FkcwpdLiY"
-    },
-    "cover": {
-      "url": "http://static.tumblr.com/eb981b1badbfdd8a3ec5a2a17c30a524/pgwk7ap/gsbn2pnwn/tumblr_static_masseffect2citadel.jpg"
-    },
-    "facebook": {
-      "username": "scott.sallinen"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/ScottSallinen/16408de865dbb6046ad9"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1AnyxZuWgBh8wsbgFqzhzWZL7FkcwpdLiY",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "ScottSallinen"
-    },
-    "linkedin": {
-      "url": "http://www.linkedin.com/pub/scott-sallinen/47/66b/369"
-    },
-    "location": {
-      "formatted": "Vancouver, Canada"
-    },
-    "name": {
-      "formatted": "Scott Sallinen"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/ScottSallinen/status/585170802083028992"
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "ScottSallinen"
+      {
+        "@type": "Account",
+        "identifier": "AnyxCa",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Any-x",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Any-x/02ebd8a84f58ebecdfb02ff57e2e33fb",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Vancouver, Canada"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "http://static.tumblr.com/eb981b1badbfdd8a3ec5a2a17c30a524/pgwk7ap/gsbn2pnwn/tumblr_static_masseffect2citadel.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/anyx",
+        "name": "avatar"
+      }
+    ],
+    "name": "Scott"
   },
   "verifications": [
     {
-      "identifier": "ScottSallinen",
-      "proof_url": "https://gist.github.com/ScottSallinen/16408de865dbb6046ad9",
+      "identifier": "Any-x",
+      "proof_url": "https://gist.github.com/Any-x/02ebd8a84f58ebecdfb02ff57e2e33fb",
       "service": "github",
       "valid": true
-    },
-    {
-      "identifier": "ScottSallinen",
-      "proof_url": "https://twitter.com/ScottSallinen/status/585170802083028992",
-      "service": "twitter",
-      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN anyx.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/anyx.id\"\n"
 }

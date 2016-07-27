@@ -5,27 +5,30 @@
     "account": [
       {
         "@type": "Account",
+        "identifier": "1BxUs1hjWzYLEYdECbrRTJJtcTmwBzNtFN",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
         "identifier": "lukestokes",
         "proofType": "http",
+        "proofUrl": "https://twitter.com/lukestokes/status/756519231781531649",
         "service": "twitter"
       },
       {
         "@type": "Account",
         "identifier": "bestoked",
         "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bestoked/posts/10152587211730568",
         "service": "facebook"
       },
       {
         "@type": "Account",
         "identifier": "lukestokes",
         "proofType": "http",
+        "proofUrl": "https://gist.github.com/lukestokes/d3cbb2f7ed040e4c31f47ed2e20e906a",
         "service": "github"
-      },
-      {
-        "@type": "Account",
-        "identifier": "1BxUs1hjWzYLEYdECbrRTJJtcTmwBzNtFN",
-        "role": "payment",
-        "service": "bitcoin"
       }
     ],
     "address": {
@@ -53,6 +56,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "lukestokes",
+      "proof_url": "https://twitter.com/lukestokes/status/756519231781531649",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bestoked",
+      "proof_url": "https://www.facebook.com/bestoked/posts/10152587211730568",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "lukestokes",
+      "proof_url": "https://gist.github.com/lukestokes/d3cbb2f7ed040e4c31f47ed2e20e906a",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN lukestokes.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lukestokes.id\"\n"
 }
