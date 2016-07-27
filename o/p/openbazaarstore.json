@@ -16,6 +16,13 @@
         "proofType": "http",
         "proofUrl": "https://gist.github.com/EdBilliot/f446fc63e6d1195b0e7d4309c1224884",
         "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Ed Billiot",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ed.billiot",
+        "service": "facebook"
       }
     ],
     "address": {
@@ -42,6 +49,12 @@
       "proof_url": "https://gist.github.com/EdBilliot/f446fc63e6d1195b0e7d4309c1224884",
       "service": "github",
       "valid": true
+    },
+    {
+      "identifier": "Ed Billiot",
+      "proof_url": "https://www.facebook.com/ed.billiot",
+      "service": "facebook",
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN openbazaarstore.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/openbazaarstore.id\"\n"
