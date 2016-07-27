@@ -1,6 +1,48 @@
 {
-  "owner_address": "17MkzguQnVn7nMhEZkadvL51naFCvPCTmK",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1MgjpJB2SeUwcFdkv9XGvehySywnpowd27",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "adamfontana",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/adamfontana/status/753661125028294657",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "California"
+    },
+    "description": "youtuber, twitch broadcaster, beagle owner",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/adamfontana",
+        "name": "avatar"
+      }
+    ],
+    "name": "Adam Fontana",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.youtube.com/user/theadamfontana"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "adamfontana",
+      "proof_url": "https://twitter.com/adamfontana/status/753661125028294657",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN adamfontana.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/adamfontana.id\"\n"
 }

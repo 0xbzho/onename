@@ -5,18 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "inertia186",
-        "proofType": "http",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "inertia186",
-        "proofType": "http",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
         "identifier": "14ejd5TeaA914A1jHdwNDEycPcv5vuPKJh",
         "role": "payment",
         "service": "bitcoin"
@@ -32,7 +20,22 @@
         "@type": "Account",
         "identifier": "inertia186",
         "proofType": "http",
+        "proofUrl": "https://twitter.com/inertia186/status/718909642974232576",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "inertia186",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/inertia186/posts/10154367898569252",
         "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "inertia186",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/inertia186/bea862fd368d974498f554dfd3b7c8ab",
+        "service": "github"
       }
     ],
     "address": {
@@ -60,6 +63,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "inertia186",
+      "proof_url": "https://twitter.com/inertia186/status/718909642974232576",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "inertia186",
+      "proof_url": "https://www.facebook.com/inertia186/posts/10154367898569252",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "inertia186",
+      "proof_url": "https://gist.github.com/inertia186/bea862fd368d974498f554dfd3b7c8ab",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN inertia.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/inertia.id\"\n"
 }

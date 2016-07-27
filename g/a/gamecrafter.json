@@ -5,23 +5,23 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "gamecraftervt",
+        "identifier": "14T9bGXcEY6BGzdgzbkR9mdJPaBFF1XFcj",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ifvictr",
         "proofType": "http",
-        "proofUrl": "https://twitter.com/gamecraftervt/status/752369783106990080",
+        "proofUrl": "https://twitter.com/ifvictr/status/752369783106990080",
         "service": "twitter"
       },
       {
         "@type": "Account",
-        "identifier": "Gamecrafter",
+        "identifier": "ifvictr",
         "proofType": "http",
-        "proofUrl": "https://gist.github.com/Gamecrafter/d641869410a77fa6beaca72f4890d798",
+        "proofUrl": "https://gist.github.com/ifvictr/434e1caab3c3ca78f0ff7d49f9c7f4e5",
         "service": "github"
-      },
-      {
-        "@type": "Account",
-        "identifier": "14T9bGXcEY6BGzdgzbkR9mdJPaBFF1XFcj",
-        "role": "payment",
-        "service": "bitcoin"
       }
     ],
     "address": {
@@ -41,26 +41,26 @@
         "name": "cover"
       }
     ],
-    "name": "Victor Truong",
+    "name": "Victor T.",
     "website": [
       {
         "@type": "WebSite",
-        "url": "https://gamecrafter.github.io"
+        "url": "https://ifvictr.github.io"
       }
     ]
   },
   "verifications": [
     {
-      "identifier": "gamecraftervt",
-      "proof_url": "https://twitter.com/gamecraftervt/status/752369783106990080",
+      "identifier": "ifvictr",
+      "proof_url": "https://twitter.com/ifvictr/status/752369783106990080",
       "service": "twitter",
-      "valid": false
+      "valid": true
     },
     {
-      "identifier": "Gamecrafter",
-      "proof_url": "https://gist.github.com/Gamecrafter/d641869410a77fa6beaca72f4890d798",
+      "identifier": "ifvictr",
+      "proof_url": "https://gist.github.com/ifvictr/434e1caab3c3ca78f0ff7d49f9c7f4e5",
       "service": "github",
-      "valid": false
+      "valid": true
     }
   ],
   "zone_file": "$ORIGIN gamecrafter.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gamecrafter.id\"\n"

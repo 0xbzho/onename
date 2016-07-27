@@ -1,6 +1,36 @@
 {
-  "owner_address": "1PC43RG7XYAeN9g5L7nUbxyuk8aL1AZqFL",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1LF7h53PqhrbXCPdspKqVszjJJ6rMLztdD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/20c32b5a2c12098e338e7313ba255647",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/pocket_dice",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/20c32b5a2c12098e338e7313ba255647",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN pocket_dice.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pocket_dice.id\"\n"
 }
