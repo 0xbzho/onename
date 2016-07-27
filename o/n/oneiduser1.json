@@ -1,6 +1,28 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1Jh5Qh2YgiS78Ch7z6XY5ZfR7uzRuisxDM",
+  "profile": {
+    "@type": "Person",
+    "account": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seattle , WA"
+    },
+    "description": "My Bio here......",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "OneID User",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.bing.com/"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN oneiduser1.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/oneiduser1.id\"\n"
 }

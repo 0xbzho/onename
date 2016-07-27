@@ -1,6 +1,67 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1K8yb24NiL6NRD8i7FRV6vXqobMtNFfRMM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jonnycrunch",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jonnycrunch/bee3fd165eeae8e8e77b27972c1b4b46",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jonnycrunch",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jonnycrunch/status/757658776128413696",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1FfEQ4LUYDcaXhnjicwf21smcphBW3QBFy",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nashville, TN"
+    },
+    "description": "programmer, software architect, all around nice guy",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jonnycrunch",
+        "name": "avatar"
+      }
+    ],
+    "name": "jonnycrunch",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.jonnycrunch.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jonnycrunch",
+      "proof_url": "https://gist.github.com/jonnycrunch/bee3fd165eeae8e8e77b27972c1b4b46",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "jonnycrunch",
+      "proof_url": "https://twitter.com/jonnycrunch/status/757658776128413696",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jonnycrunch.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jonnycrunch.id\"\n"
 }

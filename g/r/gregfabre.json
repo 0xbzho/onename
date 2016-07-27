@@ -1,6 +1,47 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1MeGDTkHbLLKwNyAyn1Q1uCfqEAECPEjPF",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "greg.fabre",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/greg.fabre/posts/10154400778328011?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris, France"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gregfabre",
+        "name": "avatar"
+      }
+    ],
+    "name": "Gregori FABRE",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.iero.org"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "greg.fabre",
+      "proof_url": "https://www.facebook.com/greg.fabre/posts/10154400778328011?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN gregfabre.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gregfabre.id\"\n"
 }

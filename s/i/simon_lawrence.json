@@ -1,6 +1,31 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1JekCghCX5aHSLQcxEFsyp4tja1Cg89BcD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Sproggdog",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Sproggdog/3687e281ce969370809d38343b7eff90",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Sproggdog",
+      "proof_url": "https://gist.github.com/Sproggdog/3687e281ce969370809d38343b7eff90",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN simon_lawrence.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/simon_lawrence.id\"\n"
 }

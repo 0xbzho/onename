@@ -1,68 +1,65 @@
 {
   "owner_address": "1C1WxW5aG3F7LYLNbQmE8RWyGtz9DqC55G",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/tejqnair"
-    },
-    "bio": "This is a recursive, accurate summary on how summaries for my Internet profiles may or may not go. Other than that, I congratulate you on finding this page.",
-    "bitcoin": {
-      "address": "1JdS7yRL6ehub1u1u2Hp56RZhAsqZGfh7o"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/wdX.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/tej.q.nair/posts/1531136877201296"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tejqnair",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "tej.q.nair"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/tqn/19971ed9192f9dff5bcc"
+      {
+        "@type": "Account",
+        "identifier": "tej.q.nair",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "tqn"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/tejqnair"
-    },
-    "location": {
-      "formatted": "Cupertino, CA"
-    },
-    "name": {
-      "formatted": "Tej Qu Nair"
-    },
-    "pgp": {
-      "fingerprint": "8D783F31C97E924D9BE372E782CA0E4BF5CBCB83",
-      "url": "https://keybase.io/tej/key.asc"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/tejqnair/status/627714456168955905"
+      {
+        "@type": "Account",
+        "identifier": "tqn",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "tejqnair"
+      {
+        "@type": "Account",
+        "identifier": "1JdS7yRL6ehub1u1u2Hp56RZhAsqZGfh7o",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/tej/key.asc",
+        "identifier": "8D783F31C97E924D9BE372E782CA0E4BF5CBCB83",
+        "role": "key",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cupertino, CA"
     },
-    "v": "0.2",
-    "website": "http://tejqunair.com/"
+    "description": "This is a recursive, accurate summary on how summaries for my Internet profiles may or may not go.  I think.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tejqnair",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Tej Qu Nair",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://tejqunair.com/"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "tqn",
-      "proof_url": "https://gist.github.com/tqn/19971ed9192f9dff5bcc",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "tejqnair",
-      "proof_url": "https://twitter.com/tejqnair/status/627714456168955905",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "tej.q.nair",
-      "proof_url": "https://facebook.com/tej.q.nair/posts/1531136877201296",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN tejqnair.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tejqnair.id\"\n"
 }

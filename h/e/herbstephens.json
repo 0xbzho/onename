@@ -1,53 +1,48 @@
 {
   "owner_address": "1H8tua4J5t7uNPbo1RtC29aR9dZnmcaLgG",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/herbstephens"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/herbstephens"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/supherb1/posts/10153231250238214"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "supherb1",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "supherb1"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/e3aaaeb05cb121bfe5ac.git"
+      {
+        "@type": "Account",
+        "identifier": "e3aaaeb05cb121bfe5ac.git",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "e3aaaeb05cb121bfe5ac.git"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/herbstephens"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/herbstephens/status/652584692500140032"
+      {
+        "@type": "Account",
+        "identifier": "herbstephens",
+        "proofType": "http",
+        "proofUrl": "https://t.co/NmFvOWWROj",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/herbstephens",
+        "name": "avatar"
       },
-      "username": "herbstephens"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/herbstephens",
+        "name": "cover"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "e3aaaeb05cb121bfe5ac.git",
-      "proof_url": "https://gist.github.com/e3aaaeb05cb121bfe5ac.git",
-      "service": "github",
-      "valid": true
-    },
-    {
       "identifier": "herbstephens",
-      "proof_url": "https://twitter.com/herbstephens/status/652584692500140032",
+      "proof_url": "https://t.co/NmFvOWWROj",
       "service": "twitter",
       "valid": false
-    },
-    {
-      "identifier": "supherb1",
-      "proof_url": "https://facebook.com/supherb1/posts/10153231250238214",
-      "service": "facebook",
-      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN herbstephens.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/herbstephens.id\"\n"
 }

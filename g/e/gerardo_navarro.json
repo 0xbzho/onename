@@ -1,6 +1,32 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "13bKq8nmkswXxRhtV358MwaSotEWrU94ZV",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gerardo-navarro",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/gerardo-navarro/e125f10c277aa94bf0924106e07e42df",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Gerardo Navarro Suarez"
+  },
+  "verifications": [
+    {
+      "identifier": "gerardo-navarro",
+      "proof_url": "https://gist.github.com/gerardo-navarro/e125f10c277aa94bf0924106e07e42df",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN gerardo_navarro.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gerardo_navarro.id\"\n"
 }

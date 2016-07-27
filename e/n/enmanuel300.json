@@ -1,6 +1,41 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1BSBgPs2Wuw2bBRwoQfQ5wGVvCjPh1VvJJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "enmanuel300",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/3d6fa99b13fefc5d87b60f246759aa68",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ciudad Guayana"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/enmanuel300",
+        "name": "avatar"
+      }
+    ],
+    "name": "Enmanuel Cermeno"
+  },
+  "verifications": [
+    {
+      "identifier": "enmanuel300",
+      "proof_url": "https://gist.github.com/anonymous/3d6fa99b13fefc5d87b60f246759aa68",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN enmanuel300.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/enmanuel300.id\"\n"
 }

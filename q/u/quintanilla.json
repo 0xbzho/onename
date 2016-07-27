@@ -1,6 +1,74 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1MpS9zJhaPMUKVVe8GTUvTdyBzKtHTMdT3",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "quintanillahr",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/QuintanillaHR/status/757693574515273728",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "HQuintanillaR",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/HQuintanillaR/posts/10153720917328314",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https:",
+        "proofType": "http",
+        "proofUrl": "https://gist.githubusercontent.com/dantehq/5c704c6f26b24a09473438b6daf83b60/raw/cf4900996a88e7f86b5678fd5a71a12a28d65881/Onename%2520verification",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "3GNKoQ45jq9sw6APhy1vv496716HQcxgrA",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mexico"
+    },
+    "description": "Hello I am Humberto Quintanilla, inveterate socio-economic entrepreneur. Bitcoin advocate and Nikola Tesla fan.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/quintanilla",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/quintanilla",
+        "name": "cover"
+      }
+    ],
+    "name": "Humberto Quintanilla Ramos"
+  },
+  "verifications": [
+    {
+      "identifier": "quintanillahr",
+      "proof_url": "https://twitter.com/QuintanillaHR/status/757693574515273728",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "HQuintanillaR",
+      "proof_url": "https://www.facebook.com/HQuintanillaR/posts/10153720917328314",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "https:",
+      "proof_url": "https://gist.githubusercontent.com/dantehq/5c704c6f26b24a09473438b6daf83b60/raw/cf4900996a88e7f86b5678fd5a71a12a28d65881/Onename%2520verification",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN quintanilla.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/quintanilla.id\"\n"
 }

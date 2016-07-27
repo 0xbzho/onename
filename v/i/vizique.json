@@ -1,61 +1,65 @@
 {
   "owner_address": "1BPJ1Jxn9kAM2wySJn1A6pw8yoGHrwnezb",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/vizique"
-    },
-    "bio": "Digital Payments specialist",
-    "bitcoin": {
-      "address": "1JnHf3ZvJwDkkkZ29g1pMxT3i3WVSzL8s4"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/vizique"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/Vizique/posts/10154882069875455"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Vizique",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "Vizique"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/Vizique/46187267fd5544eaac89"
+      {
+        "@type": "Account",
+        "identifier": "Vizique",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "Vizique"
-    },
-    "location": {
-      "formatted": "Cambridge UK"
-    },
-    "name": {
-      "formatted": "Vizique"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/Vizique/status/498565456131678208"
+      {
+        "@type": "Account",
+        "identifier": "Vizique",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "Vizique"
+      {
+        "@type": "Account",
+        "identifier": "1JnHf3ZvJwDkkkZ29g1pMxT3i3WVSzL8s4",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "9cf12cc9bcacd24393249188afcbd0160dba2fdb",
+        "proofType": "http",
+        "proofUrl": "xD8Ts27eK9c51ouzC5zHib1WS2iO6vCA",
+        "service": "open bazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cambridge UK"
     },
-    "v": "0.2",
-    "website": "http://heliopay.com"
+    "description": "Digital Payments specialist",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/vizique",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/vizique",
+        "name": "cover"
+      }
+    ],
+    "name": "Vizique",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://heliopay.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "Vizique",
-      "proof_url": "https://gist.github.com/Vizique/46187267fd5544eaac89",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "Vizique",
-      "proof_url": "https://twitter.com/Vizique/status/498565456131678208",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "Vizique",
-      "proof_url": "https://facebook.com/Vizique/posts/10154882069875455",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN vizique.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vizique.id\"\n"
 }
