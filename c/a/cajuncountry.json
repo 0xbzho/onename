@@ -9,8 +9,19 @@
         "proofType": "http",
         "proofUrl": "https://gist.github.com/anonymous/7790f1486fe10c8c56fd98658bef8067",
         "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Ed Billiot",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ed.billiot?fref=nf",
+        "service": "facebook"
       }
     ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Louisiana, USA"
+    },
     "image": [
       {
         "@type": "ImageObject",
@@ -22,7 +33,8 @@
         "contentUrl": "https://s3.amazonaws.com/kd4/cajuncountry",
         "name": "avatar"
       }
-    ]
+    ],
+    "name": "Ed Billiot"
   },
   "verifications": [
     {
@@ -30,6 +42,12 @@
       "proof_url": "https://gist.github.com/anonymous/7790f1486fe10c8c56fd98658bef8067",
       "service": "github",
       "valid": true
+    },
+    {
+      "identifier": "Ed Billiot",
+      "proof_url": "https://www.facebook.com/ed.billiot?fref=nf",
+      "service": "facebook",
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN cajuncountry.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cajuncountry.id\"\n"
