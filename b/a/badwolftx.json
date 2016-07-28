@@ -1,6 +1,79 @@
 {
-  "owner_address": "1EFmYsaSaQ23E8NnL8ozGZVk3GrWsnS53",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1DM1BEJnUchGM1UuvX9bFwQZxfs1gbqjLE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "badwolftx",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BadwolfTX/status/757979635325865985",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "wtfjohnson",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/wtfjohnson/posts/10154205034396830",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Zitroneneis",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Zitroneneis/6f8ebce666a44b5665bb33a366039324",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/badwolftx",
+        "identifier": "907BBFC91F5BD3B3F4626867B21CF8B87382C246",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Austin, Texas"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/badwolftx",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jay Johnson",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://johnson.wtf"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "badwolftx",
+      "proof_url": "https://twitter.com/BadwolfTX/status/757979635325865985",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "wtfjohnson",
+      "proof_url": "https://www.facebook.com/wtfjohnson/posts/10154205034396830",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "Zitroneneis",
+      "proof_url": "https://gist.github.com/Zitroneneis/6f8ebce666a44b5665bb33a366039324",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN badwolftx.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/badwolftx.id\"\n"
 }

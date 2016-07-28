@@ -1,56 +1,53 @@
 {
   "owner_address": "1GB9PL6Hx6WQXoTbEviahfCiMcYUHsE69N",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/tompouss"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/tompouss"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/tpoussart/posts/10153634927123110"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tpoussart",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "tpoussart"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/zatar80/85f800ade3f18b7fb38b"
+      {
+        "@type": "Account",
+        "identifier": "zatar80",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "zatar80"
+      {
+        "@type": "Account",
+        "identifier": "Zatar80",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Zatar80/status/695276648917291008",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bordeaux"
     },
-    "location": {
-      "formatted": "Bordeaux"
-    },
-    "name": {
-      "formatted": "Thomas Poussart"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/Zatar80/status/695276648917291008"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tompouss",
+        "name": "avatar"
       },
-      "username": "Zatar80"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/tompouss",
+        "name": "cover"
+      }
+    ],
+    "name": "Thomas Poussart"
   },
   "verifications": [
-    {
-      "identifier": "zatar80",
-      "proof_url": "https://gist.github.com/zatar80/85f800ade3f18b7fb38b",
-      "service": "github",
-      "valid": true
-    },
     {
       "identifier": "Zatar80",
       "proof_url": "https://twitter.com/Zatar80/status/695276648917291008",
       "service": "twitter",
       "valid": false
-    },
-    {
-      "identifier": "tpoussart",
-      "proof_url": "https://facebook.com/tpoussart/posts/10153634927123110",
-      "service": "facebook",
-      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN tompouss.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tompouss.id\"\n"
 }
