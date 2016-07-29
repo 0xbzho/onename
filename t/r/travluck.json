@@ -1,6 +1,74 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1MfjEi2dzFsCsoYCUmZjccYtoGKwSu1AjZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "travluck",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/travluck/status/758359322942320640",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "travis.luckey",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/travis.luckey/posts/10208150849982846",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "travluck",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/travluck/92d6d642fa77b8fc3f2410fe7eb316ee",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Portland, Oregon"
+    },
+    "description": "Accomplished technology leader and outdoor enthusiast",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/travluck",
+        "name": "avatar"
+      }
+    ],
+    "name": "Travis Luckey",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.linkedin.com/in/travisluckey"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "travluck",
+      "proof_url": "https://twitter.com/travluck/status/758359322942320640",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "travis.luckey",
+      "proof_url": "https://www.facebook.com/travis.luckey/posts/10208150849982846",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "travluck",
+      "proof_url": "https://gist.github.com/travluck/92d6d642fa77b8fc3f2410fe7eb316ee",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN travluck.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/travluck.id\"\n"
 }
