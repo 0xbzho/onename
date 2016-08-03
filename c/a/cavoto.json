@@ -1,0 +1,45 @@
+{
+  "owner_address": "113QLTmvGccDjYFUBpqxMJAW9KYZbW6adL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cavoto",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Cavoto/status/760545719975575553",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cavoto",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/cavoto/c574c80afd44504b1f6be8087be0d547",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Paulo Cavoto"
+  },
+  "verifications": [
+    {
+      "identifier": "cavoto",
+      "proof_url": "https://twitter.com/Cavoto/status/760545719975575553",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "cavoto",
+      "proof_url": "https://gist.github.com/cavoto/c574c80afd44504b1f6be8087be0d547",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN cavoto.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cavoto.id\"\n"
+}

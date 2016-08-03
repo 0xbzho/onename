@@ -1,0 +1,60 @@
+{
+  "owner_address": "1M42FQBpvvwd6Dtsykh8aenbpTFfJ2wDdB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jrandersoniii",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jrandersoniii/status/760485378839179264",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jrandersoniii",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jrandersoniii/posts/10209810610166448?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Superior, WI"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jrandersoniii",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jrandersoniii",
+        "name": "cover"
+      }
+    ],
+    "name": "James R. Anderson III, PhD",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.JamesAndersonIII.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jrandersoniii",
+      "proof_url": "https://twitter.com/jrandersoniii/status/760485378839179264",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jrandersoniii",
+      "proof_url": "https://www.facebook.com/jrandersoniii/posts/10209810610166448?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jrandersoniii.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jrandersoniii.id\"\n"
+}

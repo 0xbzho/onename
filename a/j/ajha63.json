@@ -1,0 +1,79 @@
+{
+  "owner_address": "1FRiwhru6zjTExyPu5fn5akeXbzvtkXN4p",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ajha63",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ajha63/abb206812527b3ac7b5a3a8cb8ba8a98",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ajha63",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ajha63/status/759883879843061760",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "12he2phcA9qW4CrmABkJwvpTcPr9Gir2Er",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ajha63",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/vmadesclair/status/759872849033080832",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Valencia, Venezuela"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ajha63",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ajha63",
+        "name": "cover"
+      }
+    ],
+    "name": "Alvaro Hernandez",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://ajha.work"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ajha63",
+      "proof_url": "https://gist.github.com/ajha63/abb206812527b3ac7b5a3a8cb8ba8a98",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "ajha63",
+      "proof_url": "https://twitter.com/ajha63/status/759883879843061760",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ajha63",
+      "proof_url": "https://twitter.com/vmadesclair/status/759872849033080832",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ajha63.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ajha63.id\"\n"
+}

@@ -1,0 +1,67 @@
+{
+  "owner_address": "1Giw1qFiPMynz3xw86JbGnGWoN94Y6wWTx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "patoarvizu",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/patoarvizu/status/760182468154683392",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "patoarvizu",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/patoarvizu/posts/10157267982540013?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "patoarvizu",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/patoarvizu/c615fa678d27da3c973aa3c46d04f0b1",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brooklyn, NY"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/patoarvizu",
+        "name": "avatar"
+      }
+    ],
+    "name": "Patricio Arvizu"
+  },
+  "verifications": [
+    {
+      "identifier": "patoarvizu",
+      "proof_url": "https://twitter.com/patoarvizu/status/760182468154683392",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "patoarvizu",
+      "proof_url": "https://www.facebook.com/patoarvizu/posts/10157267982540013?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "patoarvizu",
+      "proof_url": "https://gist.github.com/patoarvizu/c615fa678d27da3c973aa3c46d04f0b1",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN patoarvizu.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/patoarvizu.id\"\n"
+}

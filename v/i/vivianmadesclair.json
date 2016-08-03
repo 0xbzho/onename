@@ -1,0 +1,44 @@
+{
+  "owner_address": "15EK4cR1xasGfGaoPp793SYhmBQW9s85yk",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "vmadesclair",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/vmadesclair/status/759872849033080832",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "vmadesclair",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/vmadesclair/f4156dc70583b7aaf8cb3c460fc75e4d#file-gistfile1-txt",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "vmadesclair",
+      "proof_url": "https://twitter.com/vmadesclair/status/759872849033080832",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "vmadesclair",
+      "proof_url": "https://gist.github.com/vmadesclair/f4156dc70583b7aaf8cb3c460fc75e4d#file-gistfile1-txt",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN vivianmadesclair.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vivianmadesclair.id\"\n"
+}

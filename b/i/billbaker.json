@@ -1,0 +1,67 @@
+{
+  "owner_address": "1Q48YeWr69XJoVSKo2Ssohu1rgHncwEM5R",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "billbaker",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/billbaker/status/760587298865946624?lang=en",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "0Bill.Baker",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/0Bill.Baker/posts/10155090857667564",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "BillBakerAcmOrg",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/BillBakerAcmOrg/0890de140bfcc472e75a18c1e5202929#file-gistfile1-txt",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chicago Land"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/billbaker",
+        "name": "avatar"
+      }
+    ],
+    "name": "Bill Baker"
+  },
+  "verifications": [
+    {
+      "identifier": "billbaker",
+      "proof_url": "https://twitter.com/billbaker/status/760587298865946624?lang=en",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "0Bill.Baker",
+      "proof_url": "https://www.facebook.com/0Bill.Baker/posts/10155090857667564",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "BillBakerAcmOrg",
+      "proof_url": "https://gist.github.com/BillBakerAcmOrg/0890de140bfcc472e75a18c1e5202929#file-gistfile1-txt",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN billbaker.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/billbaker.id\"\n"
+}

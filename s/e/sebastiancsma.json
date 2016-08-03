@@ -1,0 +1,47 @@
+{
+  "owner_address": "1Dd3EPAptaEpKExj5r6qmJ2CydaQtkkxeV",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "https:",
+        "proofType": "http",
+        "proofUrl": "https://github.com/sebastiancsma",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Melbourne, Australia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sebastiancsma",
+        "name": "avatar"
+      }
+    ],
+    "name": "Juan Sebastian Cortes",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://au.linkedin.com/in/sebastiancsma"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "https:",
+      "proof_url": "https://github.com/sebastiancsma",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN sebastiancsma.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sebastiancsma.id\"\n"
+}

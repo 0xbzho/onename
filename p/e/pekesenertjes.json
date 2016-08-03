@@ -1,0 +1,41 @@
+{
+  "owner_address": "1LhPsxvy9xyoQCedZDVNegaDCWSaQnAtpe",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ben.windey",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "benwindey",
+        "proofType": "http",
+        "proofUrl": "https://t.co/XeVPwkXu2v",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Antwerp, Belgium"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ben Windey"
+  },
+  "verifications": [
+    {
+      "identifier": "benwindey",
+      "proof_url": "https://t.co/XeVPwkXu2v",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN pekesenertjes.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pekesenertjes.id\"\n"
+}

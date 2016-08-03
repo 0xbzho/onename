@@ -1,0 +1,69 @@
+{
+  "owner_address": "18cFbSqZZ4YGZGVTWAZdrMBJEms1jVA9ZK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "zedronar",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Zedronar/status/759792625578749952",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Zedronar",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Zedronar/3e8b6376e3941aa339aa3c5e7b2506b1",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "prietoaxel",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fprietoaxel%2Fposts%2F1180455578642773",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Buenos Aires, Argentina"
+    },
+    "description": "Software Engineer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Axel Prieto",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.linkedin.com/in/axelprieto"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "zedronar",
+      "proof_url": "https://twitter.com/Zedronar/status/759792625578749952",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Zedronar",
+      "proof_url": "https://gist.github.com/Zedronar/3e8b6376e3941aa339aa3c5e7b2506b1",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "prietoaxel",
+      "proof_url": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fprietoaxel%2Fposts%2F1180455578642773",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN axprieto.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/axprieto.id\"\n"
+}

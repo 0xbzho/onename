@@ -1,0 +1,55 @@
+{
+  "owner_address": "1HHWHPurQ3m8Lh7V8VKXCtFk1W5WpPo34J",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "f149c3a4726a49dd849376c7733b67429edd1ddf",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "agoraapiaries",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/agoraapiaries/posts/1655569748090664",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "AApiaries",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/AApiaries/status/759655497116946432?s=09",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/agoraapiaries",
+        "name": "avatar"
+      }
+    ],
+    "name": "Agora Apiaries"
+  },
+  "verifications": [
+    {
+      "identifier": "agoraapiaries",
+      "proof_url": "https://www.facebook.com/agoraapiaries/posts/1655569748090664",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "AApiaries",
+      "proof_url": "https://twitter.com/AApiaries/status/759655497116946432?s=09",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN agoraapiaries.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/agoraapiaries.id\"\n"
+}

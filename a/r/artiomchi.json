@@ -19,19 +19,46 @@
       },
       {
         "@type": "Account",
-        "identifier": "1B6Y4jSTwv3noFPNiXgGKiHFyii3amtzpY",
+        "identifier": "artiomchi",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/artiomchi/posts/10209802214709831",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "11b75dad4331044389fc414755eaf01be0e3cb11",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "17DU9QKz424JkVC5vmgLcN8ohC3YeJ3zFY",
         "role": "payment",
         "service": "bitcoin"
       }
     ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London, UK"
+    },
     "image": [
       {
         "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "contentUrl": "https://s3.amazonaws.com/kd4/artiomchi",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/artiomchi",
         "name": "cover"
       }
     ],
-    "name": "Artiom Chilaru"
+    "name": "Artiom Chilaru",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.flexlabs.org"
+      }
+    ]
   },
   "verifications": [
     {
@@ -44,6 +71,12 @@
       "identifier": "artiomchi",
       "proof_url": "https://gist.github.com/artiomchi/5214f7f44dff375f7e0da98856128884",
       "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "artiomchi",
+      "proof_url": "https://www.facebook.com/artiomchi/posts/10209802214709831",
+      "service": "facebook",
       "valid": true
     }
   ],

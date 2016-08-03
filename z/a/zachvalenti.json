@@ -1,0 +1,63 @@
+{
+  "owner_address": "1QKWVwEnHNfgArSH5F6uyjz4eppkJvjxY3",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "zachvalenti",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/zachvalenti/status/760612202684481536",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "zachvalenti",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/zachvalenti/b300112ad0ccf403a8217b10230fd189",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "zvalenti",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/zvalenti/posts/10206339612634084?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "NYC"
+    },
+    "description": "Filmmaker, mental health advocate, voiceover sensation",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Zach Valenti"
+  },
+  "verifications": [
+    {
+      "identifier": "zachvalenti",
+      "proof_url": "https://twitter.com/zachvalenti/status/760612202684481536",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "zachvalenti",
+      "proof_url": "https://gist.github.com/zachvalenti/b300112ad0ccf403a8217b10230fd189",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "zvalenti",
+      "proof_url": "https://www.facebook.com/zvalenti/posts/10206339612634084?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN zachvalenti.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/zachvalenti.id\"\n"
+}
