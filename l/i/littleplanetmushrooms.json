@@ -1,10 +1,27 @@
 {
   "owner_address": "14VzYYNEfv9Z3zgjKYn9Fs7R7itMj7vvho",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/yId.jpg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "c034487413d2a234630b512c07f8aaab5354bf64",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boise, ID"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Little Planet Mushrooms"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN littleplanetmushrooms.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/littleplanetmushrooms.id\"\n"
 }

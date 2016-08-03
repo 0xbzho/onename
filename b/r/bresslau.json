@@ -1,34 +1,40 @@
 {
   "owner_address": "13A5WQvYwwyqPbH4JDGwPbFS8WGQiE51hQ",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/bresslau"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bresslau",
+        "proofType": "http",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "São Paulo, Brazil"
     },
-    "bio": "Venture Capital, Startup • social media, innovation • music, blues, harmonica • snowboard • MBA, engineer • Germany, Brazil • Hamburg, São Paulo, Rio de Janeiro",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/bresslau"
-    },
-    "location": {
-      "formatted": "São Paulo, Brazil"
-    },
-    "name": {
-      "formatted": "Fernando Bresslau"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/bresslau/status/658223609610174464"
+    "description": "Venture Capital, Startup • social media, innovation • music, blues, harmonica • snowboard • MBA, engineer • Germany, Brazil • Hamburg, São Paulo, Rio de Janeiro",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bresslau",
+        "name": "cover"
       },
-      "username": "bresslau"
-    },
-    "v": "0.2",
-    "website": "http://linkd.in/bresslau"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bresslau",
+        "name": "avatar"
+      }
+    ],
+    "name": "Fernando Bresslau",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://linkd.in/bresslau"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "bresslau",
-      "proof_url": "https://twitter.com/bresslau/status/658223609610174464",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN bresslau.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bresslau.id\"\n"
 }

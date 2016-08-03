@@ -1,6 +1,41 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1PZvEScsVuUgpuQ8Gyyu4NPiMt8Y1vYEuq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "AlexanderKhrustal",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/AlexanderKhrustal/7dcb147f77013ba8a41616c40b0fb72b",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Melbourne, Australia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/papusik",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/papusik",
+        "name": "cover"
+      }
+    ],
+    "name": "Alexander Khrustal"
+  },
+  "verifications": [
+    {
+      "identifier": "AlexanderKhrustal",
+      "proof_url": "https://gist.github.com/AlexanderKhrustal/7dcb147f77013ba8a41616c40b0fb72b",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN papusik.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/papusik.id\"\n"
 }

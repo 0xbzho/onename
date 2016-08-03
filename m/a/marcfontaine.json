@@ -1,52 +1,61 @@
 {
   "owner_address": "1Cvb2RPo7WK1tPPN1mBranhfNkQPcUh6mR",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/marcfontaine"
-    },
-    "bio": "",
-    "bitcoin": {
-      "address": "1MarcFen5Gmmk2JikzdxS9xbNSptWo1gKK"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/Ov8.jpg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/marcfontainenh/46afa339219d5de45a54"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "marcfontainenh",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "marcfontainenh"
-    },
-    "location": {
-      "formatted": "Vermont"
-    },
-    "name": {
-      "formatted": "Marc Fontaine"
-    },
-    "pgp": {
-      "fingerprint": "1C4E0FB98C0771CA2B2C483FBDCAED77AAC9344D",
-      "url": "https://s3.amazonaws.com/pk9/marcfontaine"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/marcfontainenh/status/534501742092619776"
+      {
+        "@type": "Account",
+        "identifier": "1MarcFen5Gmmk2JikzdxS9xbNSptWo1gKK",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "marcfontainenh"
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/marcfontaine",
+        "identifier": "1C4E0FB98C0771CA2B2C483FBDCAED77AAC9344D",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "marcfontainenh",
+        "proofType": "http",
+        "proofUrl": "https://t.co/IBo6Cv0heX",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Vermont"
     },
-    "v": "0.2"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/marcfontaine",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Marc Fontaine"
   },
   "verifications": [
     {
       "identifier": "marcfontainenh",
-      "proof_url": "https://gist.github.com/marcfontainenh/46afa339219d5de45a54",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "marcfontainenh",
-      "proof_url": "https://twitter.com/marcfontainenh/status/534501742092619776",
+      "proof_url": "https://t.co/IBo6Cv0heX",
       "service": "twitter",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN marcfontaine.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/marcfontaine.id\"\n"
 }

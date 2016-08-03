@@ -1,6 +1,57 @@
 {
-  "owner_address": "1FBAVT2N39y9w5xqgc7N2ouJiZ8dFMPdCV",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1GGUHRwXcRkxW6p47LsEV5eytR5AdUpoUi",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "iamj7e",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/iamj7e/status/756688129487167488",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jellyjim",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jellyjim/posts/10157137419195099",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "JmesPge",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/JmesPge/759ee506e860f5aaa93771166a9098af",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "iamj7e",
+      "proof_url": "https://twitter.com/iamj7e/status/756688129487167488",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jellyjim",
+      "proof_url": "https://www.facebook.com/jellyjim/posts/10157137419195099",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "JmesPge",
+      "proof_url": "https://gist.github.com/JmesPge/759ee506e860f5aaa93771166a9098af",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN jmespge.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jmespge.id\"\n"
 }

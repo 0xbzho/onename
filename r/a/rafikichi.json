@@ -1,47 +1,61 @@
 {
   "owner_address": "1Fk3rHoG8TbmojBvAvJmmvAz2B9wsPKVfk",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/rafikichi"
-    },
-    "bio": "Bitcoin enthusiast, limited-government liberty activist, photographer, computer tech, victory gardener, beekeeper.",
-    "bitcoin": {},
-    "cover": {
-      "url": ""
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/rafikichi/posts/10155747381920131"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rafikichi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rafikichi/status/757033729227304961",
+        "service": "twitter"
       },
-      "username": "rafikichi"
+      {
+        "@type": "Account",
+        "identifier": "rafikichi",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FRafikichi%2Fposts%2F10157721669010131",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Portland, OR"
     },
-    "location": {
-      "formatted": "Portland, OR"
-    },
-    "name": {
-      "formatted": "Cory Barnes"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/rafikichi/status/578946970410061824"
+    "description": "Bitcoin enthusiast, limited-government liberty activist, photographer, computer tech, victory gardener, beekeeper.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rafikichi",
+        "name": "avatar"
       },
-      "username": "rafikichi"
-    },
-    "v": "0.2",
-    "website": "http://coryb.net"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "",
+        "name": "cover"
+      }
+    ],
+    "name": "Cory Barnes",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://coryb.net"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "rafikichi",
-      "proof_url": "https://twitter.com/rafikichi/status/578946970410061824",
+      "proof_url": "https://twitter.com/rafikichi/status/757033729227304961",
       "service": "twitter",
       "valid": false
     },
     {
       "identifier": "rafikichi",
-      "proof_url": "https://facebook.com/rafikichi/posts/10155747381920131",
+      "proof_url": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FRafikichi%2Fposts%2F10157721669010131",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN rafikichi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rafikichi.id\"\n"
 }

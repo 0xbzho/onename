@@ -2,7 +2,35 @@
   "owner_address": "1FYLz3Mo165faTRnHj2Uvw1VgUN5riXcwm",
   "profile": {
     "@type": "Person",
-    "account": [],
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1MGLSjWKkQLyVFmcQthvPN27QH5Ktejhq6",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Blysards",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Blysards/6eba742b2ad92f0f1eceb22db3a1ccff#file-gistfile1-txt",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "vincentvilquin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/vincentvilquin/status/759440578073468929",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https://www.facebook.com/vincent.vilquin.44680",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/vincent.vilquin.44680/posts/1724606077794375?pnref=story",
+        "service": "facebook"
+      }
+    ],
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "France"
@@ -28,6 +56,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "Blysards",
+      "proof_url": "https://gist.github.com/Blysards/6eba742b2ad92f0f1eceb22db3a1ccff#file-gistfile1-txt",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "vincentvilquin",
+      "proof_url": "https://twitter.com/vincentvilquin/status/759440578073468929",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "https://www.facebook.com/vincent.vilquin.44680",
+      "proof_url": "https://www.facebook.com/vincent.vilquin.44680/posts/1724606077794375?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN blysards.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/blysards.id\"\n"
 }

@@ -1,44 +1,62 @@
 {
   "owner_address": "13QZDv6XzgJKar6MTaRsHqf2HYNUS2Q24K",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/jasonjpeters"
-    },
-    "bio": "a computer geek always doing that which I cannot do, in order that I may learn how to do it.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/KJy.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/jason.j.peters/posts/10156126479445398"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jasonjpeters",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jasonjpeters/status/759016971585191938",
+        "service": "twitter"
       },
-      "username": "jason.j.peters"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/jasonjpeters/04cd7fbdf29c18a94034"
+      {
+        "@type": "Account",
+        "identifier": "jasonjpeters",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jasonjpeters/04cd7fbdf29c18a94034",
+        "service": "github"
       },
-      "username": "jasonjpeters"
+      {
+        "@type": "Account",
+        "identifier": "jasonjpeters",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/jason.j.peters/posts/10157159249940398",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Vernon, British Columbia"
     },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/jasonjpeters"
-    },
-    "location": {
-      "formatted": "Vernon, British Columbia"
-    },
-    "name": {
-      "formatted": "JasonJPeters"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/jasonjpeters/status/657271491344502784"
+    "description": "a computer geek always doing that which I cannot do, in order that I may learn how to do it.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jasonjpeters",
+        "name": "avatar"
       },
-      "username": "jasonjpeters"
-    },
-    "v": "0.2",
-    "website": "http://jasonjpeters.com"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "JasonJPeters",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://jasonjpeters.com"
+      }
+    ]
   },
   "verifications": [
+    {
+      "identifier": "jasonjpeters",
+      "proof_url": "https://twitter.com/jasonjpeters/status/759016971585191938",
+      "service": "twitter",
+      "valid": true
+    },
     {
       "identifier": "jasonjpeters",
       "proof_url": "https://gist.github.com/jasonjpeters/04cd7fbdf29c18a94034",
@@ -47,15 +65,10 @@
     },
     {
       "identifier": "jasonjpeters",
-      "proof_url": "https://twitter.com/jasonjpeters/status/657271491344502784",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "jason.j.peters",
-      "proof_url": "https://facebook.com/jason.j.peters/posts/10156126479445398",
+      "proof_url": "https://facebook.com/jason.j.peters/posts/10157159249940398",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN jasonjpeters.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jasonjpeters.id\"\n"
 }

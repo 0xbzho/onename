@@ -1,10 +1,38 @@
 {
   "owner_address": "13CFhJToPnmfwLQTLP9GMm7tkJVfGXpRYm",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/ikZ.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1F7R1YKhbRCUGanATL4ypWB7uHzeJmCEXg",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Avthar16",
+        "proofType": "http",
+        "proofUrl": "https://t.co/XeVPwkXu2v",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Avthar"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "Avthar16",
+      "proof_url": "https://t.co/XeVPwkXu2v",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN avthar.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/avthar.id\"\n"
 }

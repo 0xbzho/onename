@@ -5,24 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "ChrisA9",
-        "proofType": "http",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "christianarca",
-        "proofType": "http",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
-        "identifier": "ChristianArca",
-        "proofType": "http",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
         "identifier": "1GnPd48QBjWBjZFnLDSNt3V51hjL8kocb7",
         "role": "payment",
         "service": "bitcoin"
@@ -31,6 +13,27 @@
         "@type": "Account",
         "identifier": "ceaca6b054722ae874ea5458c827c506c8de29c2",
         "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ChrisA9",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ChrisA9/status/759218027477041153",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "christianarca",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ChristianArca/posts/10100455776572066",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ChristianArca",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ChristianArca/7cd447f0c2fd87b2fda3573c070cc1a7",
+        "service": "github"
       }
     ],
     "address": {
@@ -58,6 +61,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "ChrisA9",
+      "proof_url": "https://twitter.com/ChrisA9/status/759218027477041153",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "christianarca",
+      "proof_url": "https://www.facebook.com/ChristianArca/posts/10100455776572066",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "ChristianArca",
+      "proof_url": "https://gist.github.com/ChristianArca/7cd447f0c2fd87b2fda3573c070cc1a7",
+      "service": "github",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN christianarca.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/christianarca.id\"\n"
 }

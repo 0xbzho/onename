@@ -1,44 +1,72 @@
 {
   "owner_address": "18F9JVRHMRLZBjBJEekmLHUTy8Lv4KLoMQ",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/kimpaulin"
-    },
-    "bio": "Student of CS and BioChemistry at Åbo Akademi University.",
-    "bitcoin": {
-      "address": "15py9pV1YmnZavo5ZMtwQJGRQhcdWSYhrg"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/kimpaulin"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/axlape/f8e11c6a4dd9b8414b8f"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "axlape",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "axlape"
+      {
+        "@type": "Account",
+        "contentUrl": "http://pgp.mit.edu/pks/lookup?op=get&search=0x4028FF850F5D8FDF",
+        "identifier": "0x4028ff850f5d8fdf",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "76fd8a140522bf3f054459e4662f250667174c83",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "158TuURWF12dLMesXt7b2EdfgDLQqQhy4G",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "axlape",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/axlape/5038ca84205e8a41636a3b6ae36dbf2c",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Turku, Finland"
     },
-    "location": {
-      "formatted": "Turku, Finland"
-    },
-    "name": {
-      "formatted": "Kim Paulin"
-    },
-    "pgp": {
-      "fingerprint": "0x4028ff850f5d8fdf",
-      "url": "http://pgp.mit.edu/pks/lookup?op=get&search=0x4028FF850F5D8FDF"
-    },
-    "twitter": {
-      "username": "axlape"
-    },
-    "v": "0.2",
-    "website": "http://kim.pe"
+    "description": "Student of CS and BioChemistry at Åbo Akademi University.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kimpaulin",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/kimpaulin",
+        "name": "cover"
+      }
+    ],
+    "name": "Kim Paulin",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://kim.pe"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "axlape",
-      "proof_url": "https://gist.github.com/axlape/f8e11c6a4dd9b8414b8f",
+      "proof_url": "https://gist.github.com/axlape/5038ca84205e8a41636a3b6ae36dbf2c",
       "service": "github",
-      "valid": false
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN kimpaulin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kimpaulin.id\"\n"
 }

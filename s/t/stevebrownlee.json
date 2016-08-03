@@ -1,50 +1,68 @@
 {
   "owner_address": "1NTqRqzDQYmkS65vphCir6eqqKSgbvtAhr",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/stevebrownlee"
-    },
-    "bio": "Transforming programming education",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/stevebrownlee"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/chortlehoort/ea724c871b20c53903f0e2b2e516fb4e"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/stevebrownlee/key.asc",
+        "identifier": "E0388997DC2CF583",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "chortlehoort"
-    },
-    "location": {
-      "formatted": "Nashville, TN"
-    },
-    "name": {
-      "formatted": "Steve Brownlee"
-    },
-    "pgp": {
-      "fingerprint": "E0388997DC2CF583",
-      "url": "https://keybase.io/stevebrownlee/key.asc"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/nashvillecoder/status/722291095531560960"
+      {
+        "@type": "Account",
+        "identifier": "chortlehoort",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/chortlehoort/d564c97f11207c4bb55f5d086f59f74a",
+        "service": "github"
       },
-      "username": "nashvillecoder"
+      {
+        "@type": "Account",
+        "identifier": "nashvillecoder",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/nashvillecoder/status/760475907815604224",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nashville, TN"
     },
-    "v": "0.2",
-    "website": "http://www.stevebrownlee.com"
+    "description": "Transforming programming education",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/stevebrownlee",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/stevebrownlee",
+        "name": "cover"
+      }
+    ],
+    "name": "Steve Brownlee",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.stevebrownlee.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "chortlehoort",
-      "proof_url": "https://gist.github.com/chortlehoort/ea724c871b20c53903f0e2b2e516fb4e",
+      "proof_url": "https://gist.github.com/chortlehoort/d564c97f11207c4bb55f5d086f59f74a",
       "service": "github",
-      "valid": false
+      "valid": true
     },
     {
       "identifier": "nashvillecoder",
-      "proof_url": "https://twitter.com/nashvillecoder/status/722291095531560960",
+      "proof_url": "https://twitter.com/nashvillecoder/status/760475907815604224",
       "service": "twitter",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN stevebrownlee.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stevebrownlee.id\"\n"
 }

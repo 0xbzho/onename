@@ -1,37 +1,80 @@
 {
   "owner_address": "1Fo6fyxGRBAsUPPyzPEYDSj5t2tdQt8H5w",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/fernando"
-    },
-    "bio": "Entusiasta de tudo que eu gosto",
-    "bitcoin": {
-      "address": "16ausDohTRAd2P3SyKWsrzXPcKpWxcPgo9"
-    },
-    "cover": {
-      "url": "https://pbs.twimg.com/profile_banners/40968180/1395033492/web_retina"
-    },
-    "location": {
-      "formatted": "Belo Horizonte, Brazil"
-    },
-    "name": {
-      "formatted": "FernandoPiancastelli"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/FernandoPian/status/650044297623011328"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "16ausDohTRAd2P3SyKWsrzXPcKpWxcPgo9",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "FernandoPian"
+      {
+        "@type": "Account",
+        "identifier": "fmalk",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/fmalk/5cf226bbf8f507159849805ac99fc67d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "FernandoPian",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/FernandoPian/status/760188437894926336",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fernando.piancastelli",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/fernando.piancastelli/posts/10209421214600897",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Belo Horizonte, Brazil"
     },
-    "v": "0.2",
-    "website": "http://cellide.com"
+    "description": "Entusiasta de tudo que eu gosto",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/fernando",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://pbs.twimg.com/profile_banners/40968180/1395033492/web_retina",
+        "name": "cover"
+      }
+    ],
+    "name": "Fernando Piancastelli",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.smartconvert.com.br"
+      }
+    ]
   },
   "verifications": [
     {
+      "identifier": "fmalk",
+      "proof_url": "https://gist.github.com/fmalk/5cf226bbf8f507159849805ac99fc67d",
+      "service": "github",
+      "valid": true
+    },
+    {
       "identifier": "FernandoPian",
-      "proof_url": "https://twitter.com/FernandoPian/status/650044297623011328",
+      "proof_url": "https://twitter.com/FernandoPian/status/760188437894926336",
       "service": "twitter",
       "valid": true
+    },
+    {
+      "identifier": "fernando.piancastelli",
+      "proof_url": "https://www.facebook.com/fernando.piancastelli/posts/10209421214600897",
+      "service": "facebook",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN fernando.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fernando.id\"\n"
 }

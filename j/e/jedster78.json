@@ -1,6 +1,54 @@
 {
-  "owner_address": "1HqmLDDP5Fwcq4suZuZQ1atsg9TyQdXdqK",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1FPdTN5WJdg6eKyy5mVGofEvKBGxqPK8aZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jed78",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jed78/status/756832776389693440",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jon.hughes.7311",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/jedster78&redirect_uri=https://onename.com/jedster78%23facebook",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Texas"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jedster78",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jon"
+  },
+  "verifications": [
+    {
+      "identifier": "jed78",
+      "proof_url": "https://twitter.com/jed78/status/756832776389693440",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jon.hughes.7311",
+      "proof_url": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/jedster78&redirect_uri=https://onename.com/jedster78%23facebook",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN jedster78.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jedster78.id\"\n"
 }

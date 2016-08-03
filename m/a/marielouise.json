@@ -1,16 +1,36 @@
 {
   "owner_address": "1LG1C3RXcmwsywQLamLkoBcaiWKbreQs4Y",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/483.jpeg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gravue",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gravue/status/757657891318923265",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Netherlands"
     },
-    "location": {
-      "formatted": "Netherlands"
-    },
-    "name": {
-      "formatted": "Marie-Louise de Bruijn"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Marie-Louise de Bruijn"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "gravue",
+      "proof_url": "https://twitter.com/gravue/status/757657891318923265",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN marielouise.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/marielouise.id\"\n"
 }

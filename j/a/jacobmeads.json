@@ -1,41 +1,67 @@
 {
   "owner_address": "1ZC3bs19Q1EtoBb4hHy3wh8Kd4ErAjc3K",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/jacobmeads"
-    },
-    "bio": "",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/leaves-sky.jpg"
-    },
-    "facebook": {
-      "username": "jacobmeads"
-    },
-    "instagram": {
-      "username": "jacobmeads"
-    },
-    "location": {
-      "formatted": "New Zealand"
-    },
-    "name": {
-      "formatted": "Jacob Meads"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/JacobMeads/status/591822043408048128"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jacobmeads",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jacobmeads/posts/1248296105183038",
+        "service": "facebook"
       },
-      "username": "JacobMeads"
+      {
+        "@type": "Account",
+        "identifier": "JacobMeads",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JacobMeads/status/757020127246192640",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1CEn98k3rseiCigTL1byKJAQb7XrpTxF3C",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New Zealand"
     },
-    "v": "0.2",
-    "website": ""
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jacobmeads",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/leaves-sky.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jacob Meads",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": ""
+      }
+    ]
   },
   "verifications": [
     {
+      "identifier": "jacobmeads",
+      "proof_url": "https://www.facebook.com/jacobmeads/posts/1248296105183038",
+      "service": "facebook",
+      "valid": true
+    },
+    {
       "identifier": "JacobMeads",
-      "proof_url": "https://twitter.com/JacobMeads/status/591822043408048128",
+      "proof_url": "https://twitter.com/JacobMeads/status/757020127246192640",
       "service": "twitter",
-      "valid": false
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN jacobmeads.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jacobmeads.id\"\n"
 }

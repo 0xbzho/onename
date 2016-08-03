@@ -1,6 +1,64 @@
 {
-  "owner_address": "1PC43RG7XYAeN9g5L7nUbxyuk8aL1AZqFL",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1ACraco6AsxQfh5eQT5rrUYQFtwV1ZsX4b",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1mjiaQy2MaF6p9aK2LAiAdi5djSxVYP2V",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "pryds",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/pryds/754c01d7a3b31dfda1c1a70ae36a4095",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "TPryds",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TPryds/status/756942676340183040",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "thomas.lauritsen",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/thomas.lauritsen/posts/10209475886671027",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Thomas Pryds"
+  },
+  "verifications": [
+    {
+      "identifier": "pryds",
+      "proof_url": "https://gist.github.com/pryds/754c01d7a3b31dfda1c1a70ae36a4095",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "TPryds",
+      "proof_url": "https://twitter.com/TPryds/status/756942676340183040",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "thomas.lauritsen",
+      "proof_url": "https://www.facebook.com/thomas.lauritsen/posts/10209475886671027",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN tpryds.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tpryds.id\"\n"
 }

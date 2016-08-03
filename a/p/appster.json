@@ -1,6 +1,44 @@
 {
-  "owner_address": "1PC43RG7XYAeN9g5L7nUbxyuk8aL1AZqFL",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "169uMFHBvhEZ3R7HpFcTQ7yknvEhp5BGFC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "adamjjackson",
+        "proofType": "http",
+        "proofUrl": "https://t.co/nbGjAuJyoa",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "adamjohnjackson1",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/appster",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "adamjjackson",
+      "proof_url": "https://t.co/nbGjAuJyoa",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "adamjohnjackson1",
+      "proof_url": "https://onename.com/appster",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN appster.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/appster.id\"\n"
 }

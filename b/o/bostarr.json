@@ -1,6 +1,26 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1KPr7nTiW6NE9LdSbufSdcFHhKAEd5TjUE",
+  "profile": {
+    "@type": "Person",
+    "account": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Gainesville, FL"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bostarr",
+        "name": "avatar"
+      }
+    ],
+    "name": "Bo Starr"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN bostarr.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bostarr.id\"\n"
 }

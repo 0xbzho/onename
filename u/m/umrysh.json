@@ -1,65 +1,65 @@
 {
   "owner_address": "1DMr6Q2kGUV3PkjZFWUBkkW5GDtnvkjkvd",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/umrysh"
-    },
-    "bio": "I feel fantastic! And I never felt as good as how I do right now except for maybe when I think of how I felt that day, when I felt the way, that I do right now.",
-    "bitcoin": {
-      "address": "33uasvCGSSz9esFEB5EkE4sqnSZiDqAVFg"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/umrysh"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/daveumrysh/posts/10154814569550103"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "SudoSays",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "daveumrysh"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/umrysh/da4a81f798443a742eee"
+      {
+        "@type": "Account",
+        "identifier": "daveumrysh",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "umrysh"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Dave Umrysh"
-    },
-    "pgp": {
-      "fingerprint": "0xe946e9d2",
-      "url": "https://s3.amazonaws.com/pk9/umrysh"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/SudoSays/status/533098081600815104"
+      {
+        "@type": "Account",
+        "identifier": "umrysh",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "SudoSays"
+      {
+        "@type": "Account",
+        "identifier": "33uasvCGSSz9esFEB5EkE4sqnSZiDqAVFg",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/umrysh",
+        "identifier": "0xe946e9d2",
+        "role": "key",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "v": "0.2",
-    "website": "http://umrysh.com"
+    "description": "I feel fantastic! And I never felt as good as how I do right now except for maybe when I think of how I felt that day, when I felt the way, that I do right now.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/umrysh",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/umrysh",
+        "name": "avatar"
+      }
+    ],
+    "name": "Dave Umrysh",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://umrysh.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "umrysh",
-      "proof_url": "https://gist.github.com/umrysh/da4a81f798443a742eee",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "SudoSays",
-      "proof_url": "https://twitter.com/SudoSays/status/533098081600815104",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "daveumrysh",
-      "proof_url": "https://facebook.com/daveumrysh/posts/10154814569550103",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN umrysh.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/umrysh.id\"\n"
 }

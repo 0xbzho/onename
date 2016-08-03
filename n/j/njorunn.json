@@ -1,10 +1,39 @@
 {
   "owner_address": "1C7FNQTmgYAApqoCbM4Uepm3g969rahxwQ",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/L2N.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1GA15Hjc7ubH5BUdZUNkrQPsavkg9F4EJg",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "13f2630f235b13e75e30299cd857f779568b8f9d",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/njorunn",
+        "name": "avatar"
+      }
+    ],
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://njorunn.tumblr.com/tagged/TBTLVWD/chrono"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN njorunn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/njorunn.id\"\n"
 }

@@ -1,24 +1,61 @@
 {
   "owner_address": "12tTVcjFf8Mv8Hcv1AjpdqNSqZvmxibFwW",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/cilli"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cornelius.illi",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/cornelius.illi/posts/10209774603979641",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "c_illi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/c_illi/status/757558152699207680",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Berlin"
     },
-    "bio": "Grad Student - HPI School of Design Thinking, Freelance Software Developer",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/cilli"
-    },
-    "location": {
-      "formatted": "Berlin"
-    },
-    "name": {
-      "formatted": "Cornelius I."
-    },
-    "twitter": {
-      "username": "c_illi"
-    },
-    "v": "0.2",
-    "website": "http://corneliusilli.de"
+    "description": "Grad Student - HPI School of Design Thinking, Freelance Software Developer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cilli",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/cilli",
+        "name": "cover"
+      }
+    ],
+    "name": "Cornelius I.",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://corneliusilli.de"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "cornelius.illi",
+      "proof_url": "https://www.facebook.com/cornelius.illi/posts/10209774603979641",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "c_illi",
+      "proof_url": "https://twitter.com/c_illi/status/757558152699207680",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN cilli.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cilli.id\"\n"
 }

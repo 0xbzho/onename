@@ -1,68 +1,80 @@
 {
   "owner_address": "15deYK7AEqtWWJMXMHZbf5beRm2NNghuP9",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/theesp"
-    },
-    "bio": "I am an independent adviser for advertising and media organisations",
-    "bitcoin": {
-      "address": "1ESC4L2hzYhY5KraiqnzodbGKyQqt3pFvv"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/483.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/theesp/posts/10202509289686069"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "theesp",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "theesp"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/theesp/a1c93eedd73587bf5bc3"
+      {
+        "@type": "Account",
+        "identifier": "1ESC4L2hzYhY5KraiqnzodbGKyQqt3pFvv",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "theesp"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/theesp"
-    },
-    "location": {
-      "formatted": "Amsterdam. Netherlands"
-    },
-    "name": {
-      "formatted": "Thees Peereboom"
-    },
-    "pgp": {
-      "fingerprint": "5E72B9BB",
-      "url": "https://s3.amazonaws.com/pk9/theesp"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/tpeereboom/status/534278781922320384"
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/theesp",
+        "identifier": "5E72B9BB",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "tpeereboom"
+      {
+        "@type": "Account",
+        "identifier": "tpeereboom",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tpeereboom/status/758984578589597696",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "theesp",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/theesp/a1c93eedd73587bf5bc3",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Amsterdam. Netherlands"
     },
-    "v": "0.2",
-    "website": "http://www.asecondopinion.nl"
+    "description": "I am an independent adviser for advertising and media organisations & provider of Second Opinions",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/theesp",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Thees Peereboom",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.asecondopinion.nl"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "theesp",
-      "proof_url": "https://gist.github.com/theesp/a1c93eedd73587bf5bc3",
-      "service": "github",
-      "valid": true
-    },
-    {
       "identifier": "tpeereboom",
-      "proof_url": "https://twitter.com/tpeereboom/status/534278781922320384",
+      "proof_url": "https://twitter.com/tpeereboom/status/758984578589597696",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "theesp",
-      "proof_url": "https://facebook.com/theesp/posts/10202509289686069",
-      "service": "facebook",
-      "valid": false
+      "proof_url": "https://gist.github.com/theesp/a1c93eedd73587bf5bc3",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN theesp.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/theesp.id\"\n"
 }

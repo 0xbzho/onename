@@ -5,12 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "GalouGentil",
-        "proofType": "http",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
         "contentUrl": "https://keybase.io/galougentil/key.asc",
         "identifier": "3112B9A00C40BC48487952BB816C64554D03B7FA",
         "role": "key",
@@ -18,16 +12,22 @@
       },
       {
         "@type": "Account",
-        "identifier": "17qoC6rXR8fyNqfEMcBsqaKc1ghRG6myYT",
+        "identifier": "",
         "role": "payment",
         "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "profiledeleted",
+        "proofType": "http",
+        "service": "twitter"
       }
     ],
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Paris, France"
+      "addressLocality": "PROFILE DELETED"
     },
-    "description": "Software Developer & Security Idealist.",
+    "description": "PROFILE DELETED",
     "image": [
       {
         "@type": "ImageObject",
@@ -40,13 +40,8 @@
         "name": "avatar"
       }
     ],
-    "name": "Galou Gentil",
-    "website": [
-      {
-        "@type": "WebSite",
-        "url": "https://www.dronewarfare.org/"
-      }
-    ]
+    "name": "PROFILE DELETED",
+    "website": []
   },
   "verifications": [],
   "zone_file": "$ORIGIN galougentil.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/galougentil.id\"\n"

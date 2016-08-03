@@ -1,74 +1,65 @@
 {
   "owner_address": "1N1fzMDqVJ86XWJJX9AaVR5z8GxAHGZpiW",
   "profile": {
-    "angellist": {
-      "username": ""
-    },
-    "avatar": {
-      "url": "https://s3.amazonaws.com/victor-misc/Headshot.jpg"
-    },
-    "bio": "Software architect and Node.js expert. Specializing in scalable systems. VP of Engineering @SocialRadar building @LocationKit",
-    "bitcoin": {
-      "address": "16j5H3i9hJyTkzx7WncnXhoAbnFd2iST54"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/victor"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/victorjquinn/posts/858883350865279"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "victorquinn",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "victorjquinn"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/victorquinn/974023dc07cc3dcfa96a"
+      {
+        "@type": "Account",
+        "identifier": "victorjquinn",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "victorquinn"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/victor"
-    },
-    "instagram": {
-      "username": "victorjquinn"
-    },
-    "location": {
-      "formatted": "Washington, DC"
-    },
-    "name": {
-      "formatted": "Victor Quinn"
-    },
-    "pgp": {
-      "fingerprint": "0C785D78CCCF28C39841222FEF304CDD429F5478",
-      "url": "https://s3.amazonaws.com/pk9/victor"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/victorquinn/status/498862547911454722"
+      {
+        "@type": "Account",
+        "identifier": "victorquinn",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "victorquinn"
+      {
+        "@type": "Account",
+        "identifier": "16j5H3i9hJyTkzx7WncnXhoAbnFd2iST54",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/victor",
+        "identifier": "0C785D78CCCF28C39841222FEF304CDD429F5478",
+        "role": "key",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Washington, DC"
     },
-    "v": "0.2",
-    "website": "http://victorquinn.com"
+    "description": "Software architect and Node.js expert. Specializing in scalable systems. VP of Engineering @SocialRadar building @LocationKit",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/victor-misc/Headshot.jpg",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/victor",
+        "name": "cover"
+      }
+    ],
+    "name": "Victor Quinn",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.victorquinn.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "victorquinn",
-      "proof_url": "https://gist.github.com/victorquinn/974023dc07cc3dcfa96a",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "victorquinn",
-      "proof_url": "https://twitter.com/victorquinn/status/498862547911454722",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "victorjquinn",
-      "proof_url": "https://facebook.com/victorjquinn/posts/858883350865279",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN victor.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/victor.id\"\n"
 }

@@ -1,10 +1,55 @@
 {
   "owner_address": "1LMRt9exHAwQVJhVTG5aAr6abMM7PSb7ok",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/wdX.jpeg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1L8fU9ePQfipyBWnGCxgMhJPjNfgEPq3xp",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ebenmarks",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/EbenMarks/status/759865760751562752",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "eben1",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/eben1/posts/10100344288342439?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Berlin, Germany"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Eben Marks"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "ebenmarks",
+      "proof_url": "https://twitter.com/EbenMarks/status/759865760751562752",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "eben1",
+      "proof_url": "https://www.facebook.com/eben1/posts/10100344288342439?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ebenmarks.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ebenmarks.id\"\n"
 }

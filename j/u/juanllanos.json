@@ -1,37 +1,67 @@
 {
   "owner_address": "1665H2VJsx5erPwTHHk1KJ2HwVfzUaXMPK",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/juanllanos"
-    },
-    "bio": "http://www.linkedin.com/in/juanllanos",
-    "bitcoin": {
-      "address": "1PaPzHh8YV8CXTZ7sjPSWZ2XBFbHEtXcr7"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/juanllanos"
-    },
-    "location": {
-      "formatted": "Manhattan, NY"
-    },
-    "name": {
-      "formatted": "Juan Llanos"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/juanllanos/status/506663068000976896"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1PaPzHh8YV8CXTZ7sjPSWZ2XBFbHEtXcr7",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "juanllanos"
+      {
+        "@type": "Account",
+        "identifier": "juanllanos",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JuanLlanos/status/759536864965464064",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "juan.b.llanos",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/juan.b.llanos/posts/10153899378344163",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Manhattan, NY"
     },
-    "v": "0.2",
-    "website": "http://contrariancompliance.com"
+    "description": "http://www.linkedin.com/in/juanllanos",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/juanllanos",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/juanllanos",
+        "name": "cover"
+      }
+    ],
+    "name": "Juan Llanos",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://contrariancompliance.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "juanllanos",
-      "proof_url": "https://twitter.com/juanllanos/status/506663068000976896",
+      "proof_url": "https://twitter.com/JuanLlanos/status/759536864965464064",
       "service": "twitter",
       "valid": true
+    },
+    {
+      "identifier": "juan.b.llanos",
+      "proof_url": "https://www.facebook.com/juan.b.llanos/posts/10153899378344163",
+      "service": "facebook",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN juanllanos.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/juanllanos.id\"\n"
 }

@@ -1,6 +1,26 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1ESiTQYRHdEcsz9jLBE9CSxbXkNTH3kwiX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "e532792c5e0f143ef0a0e0313f39da569eb24ec1",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/benvhool/cdd75855c8a57fe5826a5607f4882800",
+        "service": "openbazaar"
+      }
+    ],
+    "description": "an openbazaar shop",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "KB Artworks"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN kbartworks.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kbartworks.id\"\n"
 }

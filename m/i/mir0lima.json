@@ -1,57 +1,77 @@
 {
   "owner_address": "12Adwug8D5kDyhPorpT9LEjRFQbwmbMSyU",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/mir0lima"
-    },
-    "bio": "IBMer, IoT/mobile developer, cloud architecture, science, innovation and always looking for a different Design perspective of thiking.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/ic1.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/mir0lima/posts/1091924267487456"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mirolima",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mirolima/status/760550642603753473",
+        "service": "twitter"
       },
-      "username": "mir0lima"
-    },
-    "github": {
-      "proof": {
-        "url": "Verifying that +mir0lima is my blockchain ID. https://onename.com/mir0lima"
+      {
+        "@type": "Account",
+        "identifier": "1BAne7RZHSDJcVSLkqtbrwGmhKrnTC7UBc",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "Verifying that +mir0lima is my blockchain ID. https:"
-    },
-    "location": {
-      "formatted": "BR n US"
-    },
-    "name": {
-      "formatted": "Miro Lima"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/mirolima/status/671671957520318464"
+      {
+        "@type": "Account",
+        "identifier": "mir0l1m4",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mir0l1m4/posts/1246927191987162",
+        "service": "facebook"
       },
-      "username": "mirolima"
+      {
+        "@type": "Account",
+        "identifier": "mirolima",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mirolima/170b79fe5ad85a3a811023978f329d78",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "BR n US"
     },
-    "v": "0.2"
+    "description": "IBMer, IoT/mobile developer, cloud architecture, science, innovation and always looking for a different Design perspective of thiking.",
+    "graph": {
+      "url": "https://s3.amazonaws.com/grph/mir0lima"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mir0lima",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Miro Lima"
   },
   "verifications": [
     {
-      "identifier": "Verifying that +mir0lima is my blockchain ID. https:",
-      "proof_url": "Verifying that +mir0lima is my blockchain ID. https://onename.com/mir0lima",
-      "service": "github",
-      "valid": false
-    },
-    {
       "identifier": "mirolima",
-      "proof_url": "https://twitter.com/mirolima/status/671671957520318464",
+      "proof_url": "https://twitter.com/mirolima/status/760550642603753473",
       "service": "twitter",
       "valid": true
     },
     {
-      "identifier": "mir0lima",
-      "proof_url": "https://facebook.com/mir0lima/posts/1091924267487456",
+      "identifier": "mir0l1m4",
+      "proof_url": "https://www.facebook.com/mir0l1m4/posts/1246927191987162",
       "service": "facebook",
-      "valid": false
+      "valid": true
+    },
+    {
+      "identifier": "mirolima",
+      "proof_url": "https://gist.github.com/mirolima/170b79fe5ad85a3a811023978f329d78",
+      "service": "github",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN mir0lima.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mir0lima.id\"\n"
 }

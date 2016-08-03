@@ -5,17 +5,17 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "robert.eckhoff",
+        "identifier": "rweckhoff",
         "proofType": "http",
-        "proofUrl": "https://www.facebook.com/robert.eckhoff/posts/10154317105018485",
-        "service": "facebook"
+        "proofUrl": "https://twitter.com/rweckhoff/status/758327704231944192",
+        "service": "twitter"
       },
       {
         "@type": "Account",
-        "identifier": "rweckhoff",
+        "identifier": "robert.eckhoff",
         "proofType": "http",
-        "proofUrl": "https://twitter.com/rweckhoff/status/752888795867951104",
-        "service": "twitter"
+        "proofUrl": "https://www.facebook.com/robert.eckhoff/posts/10154360922298485",
+        "service": "facebook"
       }
     ],
     "image": [
@@ -28,16 +28,16 @@
   },
   "verifications": [
     {
-      "identifier": "robert.eckhoff",
-      "proof_url": "https://www.facebook.com/robert.eckhoff/posts/10154317105018485",
-      "service": "facebook",
-      "valid": false
+      "identifier": "rweckhoff",
+      "proof_url": "https://twitter.com/rweckhoff/status/758327704231944192",
+      "service": "twitter",
+      "valid": true
     },
     {
-      "identifier": "rweckhoff",
-      "proof_url": "https://twitter.com/rweckhoff/status/752888795867951104",
-      "service": "twitter",
-      "valid": false
+      "identifier": "robert.eckhoff",
+      "proof_url": "https://www.facebook.com/robert.eckhoff/posts/10154360922298485",
+      "service": "facebook",
+      "valid": true
     }
   ],
   "zone_file": "$ORIGIN rweckhoff.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rweckhoff.id\"\n"

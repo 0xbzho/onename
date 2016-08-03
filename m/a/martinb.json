@@ -1,36 +1,61 @@
 {
   "owner_address": "1HNDJBFdAqMiWetL5Jb6EQwq5EM7zf3W8y",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/martinb"
-    },
-    "bio": "Dad, son, husband, snowboarder, mountain biker, humanist, and former podcaster. Computering since 1984.",
-    "bitcoin": {
-      "address": "3EUCoaqx8iUEaqfYBRrN1ggPxCJG6caqwm"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/martinb"
-    },
-    "location": {
-      "formatted": "Brooklyn, NY"
-    },
-    "name": {
-      "formatted": "Martín Beauchamp"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/ChairmanTubeAmp/status/719230179994951685"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1Pr3Me5uff7A7X2m2Z5xJ4bq1XUi2v6aET",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "ChairmanTubeAmp"
+      {
+        "@type": "Account",
+        "identifier": "ChairmanTubeAmp",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ChairmanTubeAmp/53170e0a55b3b7a870c7618bd9715b87",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ChairmanTubeAmp",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ChairmanTubeAmp/status/719230179994951685",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brooklyn, NY"
     },
-    "v": "0.2"
+    "description": "Dad, son, husband, snowboarder, mountain biker, humanist, and former podcaster. Computering since 1984.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/martinb",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/martinb",
+        "name": "avatar"
+      }
+    ],
+    "name": "Martín Beauchamp"
   },
   "verifications": [
+    {
+      "identifier": "ChairmanTubeAmp",
+      "proof_url": "https://gist.github.com/ChairmanTubeAmp/53170e0a55b3b7a870c7618bd9715b87",
+      "service": "github",
+      "valid": true
+    },
     {
       "identifier": "ChairmanTubeAmp",
       "proof_url": "https://twitter.com/ChairmanTubeAmp/status/719230179994951685",
       "service": "twitter",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN martinb.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/martinb.id\"\n"
 }

@@ -1,6 +1,54 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1AEcNwbUZ1WXyw6Qyk1c8refkXVxPW8P7D",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ruillier",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ruillier/status/756947396135948288",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ruillier",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ruillier/2ae1831c5f1a69270115e1a01cdbd791",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Petit-Bourg"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ruillier",
+        "name": "avatar"
+      }
+    ],
+    "name": "Renaud Ruillier"
+  },
+  "verifications": [
+    {
+      "identifier": "ruillier",
+      "proof_url": "https://twitter.com/ruillier/status/756947396135948288",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ruillier",
+      "proof_url": "https://gist.github.com/ruillier/2ae1831c5f1a69270115e1a01cdbd791",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ruillier.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ruillier.id\"\n"
 }

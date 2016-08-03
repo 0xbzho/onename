@@ -1,6 +1,42 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1NrJz1VGgX1xyN66KYmnjZnLAt6y2tz2J1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dickbrouwer",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dickbrouwer/status/758509419525083136",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1CRjAepnocPTMwAUqGBscyTCAyBqFYKfjR",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Palo Alto, CA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Dick Brouwer"
+  },
+  "verifications": [
+    {
+      "identifier": "dickbrouwer",
+      "proof_url": "https://twitter.com/dickbrouwer/status/758509419525083136",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dickbrouwer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dickbrouwer.id\"\n"
 }

@@ -1,59 +1,65 @@
 {
   "owner_address": "15drerzvGhdzhArdspSYp5B4VAHXuaP3Zu",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/wiktorschmidt"
-    },
-    "bio": "CEO at @netguru",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/wiktorschmidt"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/wiktorschmidt/posts/10152377542656104"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "wiktorschmidt",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "wiktorschmidt"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/wiktorschmidt/801ceaaace2339d09f31"
+      {
+        "@type": "Account",
+        "identifier": "wiktorschmidt",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "wiktorschmidt"
-    },
-    "location": {
-      "formatted": "Poznan, Poland"
-    },
-    "name": {
-      "formatted": "Wiktor Schmidt"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/wiktorschmidt/status/534112529027321856"
+      {
+        "@type": "Account",
+        "identifier": "wiktorschmidt",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "wiktorschmidt"
+      {
+        "@type": "Account",
+        "identifier": "1964yhfSFjH8E19mnBnGo82WhELkUARpx4",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/wiktorschmidt/key.asc",
+        "identifier": "6D1B2E46A7A5199E",
+        "role": "key",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Poznan, Poland"
     },
-    "v": "0.2",
-    "website": "http://about.me/wiktorschmidt"
+    "description": "CEO at @netguru",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/wiktorschmidt",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/wiktorschmidt",
+        "name": "cover"
+      }
+    ],
+    "name": "Wiktor Schmidt",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://wiktorschmidt.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "wiktorschmidt",
-      "proof_url": "https://gist.github.com/wiktorschmidt/801ceaaace2339d09f31",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "wiktorschmidt",
-      "proof_url": "https://twitter.com/wiktorschmidt/status/534112529027321856",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "wiktorschmidt",
-      "proof_url": "https://facebook.com/wiktorschmidt/posts/10152377542656104",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN wiktorschmidt.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wiktorschmidt.id\"\n"
 }

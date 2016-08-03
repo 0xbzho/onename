@@ -1,6 +1,42 @@
 {
-  "owner_address": "1FaQq289QPiBbYUyqJdXLW4ZPtTuu7D6ok",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "198hXcjzKkRB3y9j9fFWGz9vGU2gqy7xj7",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "474d691c5bec9e8dbea316f0dacd6bf86d13be3e",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "_jacQues_",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/_jacQues_/status/756889143582523392",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/_jacques_",
+        "name": "avatar"
+      }
+    ],
+    "name": "jacQues"
+  },
+  "verifications": [
+    {
+      "identifier": "_jacQues_",
+      "proof_url": "https://twitter.com/_jacQues_/status/756889143582523392",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN _jacques_.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/_jacques_.id\"\n"
 }

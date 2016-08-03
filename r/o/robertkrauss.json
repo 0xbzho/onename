@@ -1,6 +1,42 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1Ck1xdPi2XkYxvLFSMV2a8sfK7hFVaQbwd",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rk-h",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rk-h/b63fa5467c756ce55183438bb51630d4",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1M4pxMaqBrYTxP4NCtFFSx3KSZZKJ1ifDR",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Germany"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Robert Krauss"
+  },
+  "verifications": [
+    {
+      "identifier": "rk-h",
+      "proof_url": "https://gist.github.com/rk-h/b63fa5467c756ce55183438bb51630d4",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN robertkrauss.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/robertkrauss.id\"\n"
 }

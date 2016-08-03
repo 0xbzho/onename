@@ -1,6 +1,27 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1LpQK1Abe5WURJpkWvf73EgnHsZ1cube5v",
+  "profile": {
+    "@type": "Person",
+    "account": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Yezid Acosta",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.yezidacosta.com"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN yacosta.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/yacosta.id\"\n"
 }
