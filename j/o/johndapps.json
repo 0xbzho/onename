@@ -1,10 +1,48 @@
 {
   "owner_address": "1Q4UGwCjkajwk1fudgxFoBHTx4c47FpfWV",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/rVv.jpeg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "johnapps",
+        "proofType": "http",
+        "proofUrl": "https://t.co/Z568FWiRYz",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Switzerland"
     },
-    "v": "0.2"
+    "description": "Long-time IT consultant now retired",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/johndapps",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/johndapps",
+        "name": "cover"
+      }
+    ],
+    "name": "John Apps",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://johndapps.com/"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "johnapps",
+      "proof_url": "https://t.co/Z568FWiRYz",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN johndapps.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/johndapps.id\"\n"
 }

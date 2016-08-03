@@ -1,37 +1,53 @@
 {
   "owner_address": "1ELJxyKB5eMA589arLBxf9AtqhLVsB3riV",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/kyletorpey"
-    },
-    "bio": "#Bitcoin Journalist - Featured on @VICE @motherboard, @businessinsider, @TheLTBNetwork, @BitcoinMagazine, @InsideBitcoins, @RT_com's @KeiserReport, and more.",
-    "bitcoin": {
-      "address": "15eA82FZLogpSb8nkQ5h5qaF3QNEwSeyCm"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/kyletorpey"
-    },
-    "location": {
-      "formatted": "Richmond, VA"
-    },
-    "name": {
-      "formatted": "Kyle Torpey"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/kyletorpey/status/512040180379705344"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kyletorpey",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "kyletorpey"
+      {
+        "@type": "Account",
+        "identifier": "15eA82FZLogpSb8nkQ5h5qaF3QNEwSeyCm",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "09c5985b64d6788877ebb81e17b88a0957634f37",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/leijurv/posts/109197092858686",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Richmond, VA"
     },
-    "v": "0.2",
-    "website": "http://kyletorpey.com"
+    "description": "#Bitcoin Journalist - Featured on @VICE @motherboard, @businessinsider, @TheLTBNetwork, @BitcoinMagazine, @InsideBitcoins, @RT_com's @KeiserReport, and more.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kyletorpey",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/kyletorpey",
+        "name": "cover"
+      }
+    ],
+    "name": "Kyle Torpey",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://kyletorpey.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "kyletorpey",
-      "proof_url": "https://twitter.com/kyletorpey/status/512040180379705344",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN kyletorpey.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kyletorpey.id\"\n"
 }

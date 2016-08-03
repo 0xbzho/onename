@@ -1,6 +1,21 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1LhqgfWtsLKy1qvvVk4mdWJBfLpM73PnNy",
+  "profile": {
+    "@type": "Person",
+    "account": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brooklyn, NY"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Michael Dehls"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN txdohawk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/txdohawk.id\"\n"
 }

@@ -12,16 +12,23 @@
       },
       {
         "@type": "Account",
-        "identifier": "profile.php?id=100002566561750",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/permalink.php?story_fbid=1007462826015927&id=100002566561750&pnref=story",
-        "service": "facebook"
+        "identifier": "1J5kwDsrdd23V34UFFbarBVuHBEmnZRg1e",
+        "role": "payment",
+        "service": "bitcoin"
       },
       {
         "@type": "Account",
-        "identifier": "1L5ohcvknmWn7EuHRC7ecAa68K9Xxbu3UH",
-        "role": "payment",
-        "service": "bitcoin"
+        "identifier": "TonyHughesDesign",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/TonyHughesDesign/472f524f3416eacf386a8345a9c2f043",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "profile.php?id=100002566561750",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/permalink.php?story_fbid=1008283505933859&id=100002566561750",
+        "service": "facebook"
       }
     ],
     "address": {
@@ -57,8 +64,14 @@
       "valid": true
     },
     {
+      "identifier": "TonyHughesDesign",
+      "proof_url": "https://gist.github.com/TonyHughesDesign/472f524f3416eacf386a8345a9c2f043",
+      "service": "github",
+      "valid": true
+    },
+    {
       "identifier": "profile.php?id=100002566561750",
-      "proof_url": "https://www.facebook.com/permalink.php?story_fbid=1007462826015927&id=100002566561750&pnref=story",
+      "proof_url": "https://www.facebook.com/permalink.php?story_fbid=1008283505933859&id=100002566561750",
       "service": "facebook",
       "valid": false
     }
