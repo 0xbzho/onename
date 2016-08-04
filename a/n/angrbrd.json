@@ -1,62 +1,6 @@
 {
-  "owner_address": "1DMS8etVvnrfY2aj9kM3CbDLgBQVBBY8TY",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "angrbrd",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/angrbrd/43a9babf2c4d934e82253d7ca7fa1145",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
-        "identifier": "anna.derbakova",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/anna.derbakova/posts/10103676416798088",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
-        "identifier": "_angrbrd",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/_angrbrd/status/757766019725287424",
-        "service": "twitter"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/angrbrd",
-        "name": "avatar"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/dx3/angrbrd",
-        "name": "cover"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "angrbrd",
-      "proof_url": "https://gist.github.com/angrbrd/43a9babf2c4d934e82253d7ca7fa1145",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "anna.derbakova",
-      "proof_url": "https://www.facebook.com/anna.derbakova/posts/10103676416798088",
-      "service": "facebook",
-      "valid": true
-    },
-    {
-      "identifier": "_angrbrd",
-      "proof_url": "https://twitter.com/_angrbrd/status/757766019725287424",
-      "service": "twitter",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN angrbrd.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/angrbrd.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

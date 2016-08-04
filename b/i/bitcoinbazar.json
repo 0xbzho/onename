@@ -1,36 +1,6 @@
 {
-  "owner_address": "1EoathyZXfW9oQpjo2xxmh7CcEZRWSEe8K",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "bitcoinbazar",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/bitcoinbazar/status/748896314470039552",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "293eb9d6542d81e6e6e7fe4386a390e7e651",
-        "service": "openbazaar"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
-        "name": "cover"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "bitcoinbazar",
-      "proof_url": "https://twitter.com/bitcoinbazar/status/748896314470039552",
-      "service": "twitter",
-      "valid": false
-    }
-  ],
-  "zone_file": "$ORIGIN bitcoinbazar.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bitcoinbazar.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

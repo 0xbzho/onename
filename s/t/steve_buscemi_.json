@@ -1,37 +1,6 @@
 {
-  "owner_address": "1H9qPi9mJTUVMxbCJTh7HvaLLe8Dwh4JDo",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "1QKred5jGXzDS7jp8hmsBAxuwBVLzPpYNc",
-        "role": "payment",
-        "service": "bitcoin"
-      },
-      {
-        "@type": "Account",
-        "identifier": "Dako300",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/Dako300/74f752c6966f2f60177a0cf858c2ccc9",
-        "service": "github"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
-        "name": "cover"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "Dako300",
-      "proof_url": "https://gist.github.com/Dako300/74f752c6966f2f60177a0cf858c2ccc9",
-      "service": "github",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN steve_buscemi_.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/steve_buscemi_.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

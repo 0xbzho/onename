@@ -1,36 +1,6 @@
 {
-  "owner_address": "167mYNkPE9mV6ymm5XrP5tHugMmnRsazwU",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "MrMaadMann",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/MrMaadMann/status/752328864358162432",
-        "service": "twitter"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/bichetordue",
-        "name": "avatar"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/dx3/bichetordue",
-        "name": "cover"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "MrMaadMann",
-      "proof_url": "https://twitter.com/MrMaadMann/status/752328864358162432",
-      "service": "twitter",
-      "valid": false
-    }
-  ],
-  "zone_file": "$ORIGIN bichetordue.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bichetordue.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

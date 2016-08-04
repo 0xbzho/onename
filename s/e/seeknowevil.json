@@ -1,57 +1,6 @@
 {
-  "owner_address": "1GeuVWtZYpfKJBHqKne9SZwvYFqedEB74o",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "simontheone",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/simontheone",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
-        "identifier": "seeknowevil",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/@seeknowevil",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "seeknowevil",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/seeknowevil/efa53d930202271cea45e5f36c9fc584",
-        "service": "github"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
-        "name": "cover"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "simontheone",
-      "proof_url": "https://www.facebook.com/simontheone",
-      "service": "facebook",
-      "valid": false
-    },
-    {
-      "identifier": "seeknowevil",
-      "proof_url": "https://twitter.com/@seeknowevil",
-      "service": "twitter",
-      "valid": false
-    },
-    {
-      "identifier": "seeknowevil",
-      "proof_url": "https://gist.github.com/seeknowevil/efa53d930202271cea45e5f36c9fc584",
-      "service": "github",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN seeknowevil.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/seeknowevil.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

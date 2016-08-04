@@ -1,38 +1,6 @@
 {
-  "owner_address": "1LzRPdJM7giSajihsRrnYrd4WEvLtvGate",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "TheLesserMan",
-        "proofType": "http",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "RicT",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/RicT/286dc577343638ca79d67dee29544c14",
-        "service": "github"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
-        "name": "cover"
-      }
-    ],
-    "name": "TheLesserMan"
-  },
-  "verifications": [
-    {
-      "identifier": "RicT",
-      "proof_url": "https://gist.github.com/RicT/286dc577343638ca79d67dee29544c14",
-      "service": "github",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN thelesserman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/thelesserman.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

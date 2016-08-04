@@ -1,55 +1,6 @@
 {
-  "owner_address": "1F3K4yH2rQdQSkiPAdXCvZDHvM7XjSvj5N",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "Bkoos",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/Bkoos/94b0057be75bff45ea78765978108c79",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
-        "identifier": "134pDfL8MhV71noRbdWGfyFG1mXdwfia5E",
-        "role": "payment",
-        "service": "bitcoin"
-      },
-      {
-        "@type": "Account",
-        "identifier": "tplesner",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/tplesner/posts/10157218170267355",
-        "service": "facebook"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
-        "name": "cover"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/gamlechuck",
-        "name": "avatar"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "Bkoos",
-      "proof_url": "https://gist.github.com/Bkoos/94b0057be75bff45ea78765978108c79",
-      "service": "github",
-      "valid": false
-    },
-    {
-      "identifier": "tplesner",
-      "proof_url": "https://www.facebook.com/tplesner/posts/10157218170267355",
-      "service": "facebook",
-      "valid": false
-    }
-  ],
-  "zone_file": "$ORIGIN gamlechuck.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gamlechuck.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }
