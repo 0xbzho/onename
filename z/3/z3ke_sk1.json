@@ -1,49 +1,6 @@
 {
-  "owner_address": "12XqccbFGTbxt5s2rWZgLywQQeuxUXkTdm",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "1H5JSBJX4mwNgZR55DjtYrpeyF7TjhGaxs",
-        "role": "payment",
-        "service": "bitcoin"
-      },
-      {
-        "@type": "Account",
-        "identifier": "Z3KE_SK1",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/Z3KE_SK1/status/755852470266376192",
-        "service": "twitter"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "My private property"
-    },
-    "description": "Follow the Non-Aggression Principle, join the PC Master Race, and watch a lot of anime.",
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/z3ke_sk1",
-        "name": "avatar"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/dx3/z3ke_sk1",
-        "name": "cover"
-      }
-    ],
-    "name": "Ezekiel",
-    "website": []
-  },
-  "verifications": [
-    {
-      "identifier": "Z3KE_SK1",
-      "proof_url": "https://twitter.com/Z3KE_SK1/status/755852470266376192",
-      "service": "twitter",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN z3ke_sk1.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/z3ke_sk1.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

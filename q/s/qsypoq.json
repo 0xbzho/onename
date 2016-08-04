@@ -1,61 +1,6 @@
 {
-  "owner_address": "12eYZdGHyKdno69gegVsNQGXmWyNSDfAM3",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "qsypoq",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/qsypoq/status/749473476810072064",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "qsypoq",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/qsypoq/2a8584fdfa30b8121d1a947a3275cbe3",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
-        "identifier": "cf49722c4b8143a41de4836e07c580e5bef2222b",
-        "service": "openbazaar"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
-        "name": "cover"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/qsypoq",
-        "name": "avatar"
-      }
-    ],
-    "name": "Adam Magnier",
-    "website": [
-      {
-        "@type": "WebSite",
-        "url": "https://magnier.io"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "qsypoq",
-      "proof_url": "https://twitter.com/qsypoq/status/749473476810072064",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "qsypoq",
-      "proof_url": "https://gist.github.com/qsypoq/2a8584fdfa30b8121d1a947a3275cbe3",
-      "service": "github",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN qsypoq.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/qsypoq.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }
