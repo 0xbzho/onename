@@ -1,57 +1,6 @@
 {
-  "owner_address": "1GbKjJiJduKyEsbTS26212q6nChEAnMFTK",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "philipmckee",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/philipmckee/61ca180ede1553994eedcedd38973fa8",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
-        "identifier": "@philip_mckee",
-        "proofType": "http",
-        "proofUrl": "https://mobile.twitter.com/philip_mckee/status/752043610066001920",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "https://www.facebook.com/philip.mckee",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/philip.mckee/posts/10154299425929655?pnref=story",
-        "service": "facebook"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
-        "name": "cover"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "philipmckee",
-      "proof_url": "https://gist.github.com/philipmckee/61ca180ede1553994eedcedd38973fa8",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "@philip_mckee",
-      "proof_url": "https://mobile.twitter.com/philip_mckee/status/752043610066001920",
-      "service": "twitter",
-      "valid": false
-    },
-    {
-      "identifier": "https://www.facebook.com/philip.mckee",
-      "proof_url": "https://www.facebook.com/philip.mckee/posts/10154299425929655?pnref=story",
-      "service": "facebook",
-      "valid": false
-    }
-  ],
-  "zone_file": "$ORIGIN philipmckee.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/philipmckee.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

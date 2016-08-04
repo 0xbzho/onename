@@ -1,36 +1,6 @@
 {
-  "owner_address": "1HqduytdVYfFmN9jgLPZdmiV5oLW89B9LB",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "anonymous",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/anonymous/e3d74f7061ebd643271b5deec962acbf",
-        "service": "github"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
-        "name": "cover"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/openbazaarrealty",
-        "name": "avatar"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "anonymous",
-      "proof_url": "https://gist.github.com/anonymous/e3d74f7061ebd643271b5deec962acbf",
-      "service": "github",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN openbazaarrealty.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/openbazaarrealty.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

@@ -1,57 +1,6 @@
 {
-  "owner_address": "1NYcpjsrEDW1549gpgjRymixG3fHfpZi3s",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "_ESPO_",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/_Espo_/status/751512746634641408",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "Espo02",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/Espo02/b1d7a8f2ebc571fbca29b5b96fb89ebc",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
-        "identifier": "michael.behrends.35",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/michael.behrends.35/posts/10205153232149424",
-        "service": "facebook"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
-        "name": "cover"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "_ESPO_",
-      "proof_url": "https://twitter.com/_Espo_/status/751512746634641408",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "Espo02",
-      "proof_url": "https://gist.github.com/Espo02/b1d7a8f2ebc571fbca29b5b96fb89ebc",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "michael.behrends.35",
-      "proof_url": "https://www.facebook.com/michael.behrends.35/posts/10205153232149424",
-      "service": "facebook",
-      "valid": false
-    }
-  ],
-  "zone_file": "$ORIGIN espo02.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/espo02.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

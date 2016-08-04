@@ -1,47 +1,6 @@
 {
-  "owner_address": "12XrQF55GFBwPWRAExnDam96T619oBzcqP",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "david.wise.16752",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/david.wise.16752/posts/10154282044574804",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
-        "contentUrl": "https://pk9.s3.amazonaws.com/dfwise",
-        "identifier": null,
-        "service": "pgp"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Brisbane"
-    },
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
-        "name": "cover"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/dfwise",
-        "name": "avatar"
-      }
-    ],
-    "name": "David Wise"
-  },
-  "verifications": [
-    {
-      "identifier": "david.wise.16752",
-      "proof_url": "https://www.facebook.com/david.wise.16752/posts/10154282044574804",
-      "service": "facebook",
-      "valid": false
-    }
-  ],
-  "zone_file": "$ORIGIN dfwise.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dfwise.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

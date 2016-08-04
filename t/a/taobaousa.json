@@ -1,36 +1,6 @@
 {
-  "owner_address": "1Jk1V7Fg7y3XYNQt3XCGGW7nDTCGyQyQ5R",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "anonymous",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/anonymous/cfa3b9a01e4e24c2bf117c2da249b928",
-        "service": "github"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
-        "name": "cover"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/taobaousa",
-        "name": "avatar"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "anonymous",
-      "proof_url": "https://gist.github.com/anonymous/cfa3b9a01e4e24c2bf117c2da249b928",
-      "service": "github",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN taobaousa.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/taobaousa.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

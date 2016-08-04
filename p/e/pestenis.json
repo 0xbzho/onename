@@ -1,23 +1,6 @@
 {
-  "owner_address": "12Q4WFAN6C6tyVanvn6oe4VPaFez4Bg3P1",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "12oPCTgKYj7iZsb1UJCo3z8zdj8Ym8HRKw",
-        "role": "payment",
-        "service": "bitcoin"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
-        "name": "cover"
-      }
-    ]
-  },
-  "verifications": [],
-  "zone_file": "$ORIGIN pestenis.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pestenis.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

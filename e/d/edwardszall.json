@@ -1,44 +1,6 @@
 {
-  "owner_address": "1Ga38z8AZEH7zDNEY4hZkQxbZiULUBWQqj",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "EdwardSzall",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/EdwardSzall/status/748678192362291204",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "EdSzall",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/ed.szall/posts/10153658081276931",
-        "service": "facebook"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
-        "name": "cover"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "EdwardSzall",
-      "proof_url": "https://twitter.com/EdwardSzall/status/748678192362291204",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "EdSzall",
-      "proof_url": "https://www.facebook.com/ed.szall/posts/10153658081276931",
-      "service": "facebook",
-      "valid": false
-    }
-  ],
-  "zone_file": "$ORIGIN edwardszall.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/edwardszall.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

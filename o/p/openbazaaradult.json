@@ -1,36 +1,6 @@
 {
-  "owner_address": "1HXmmBkHvSFvFmjxhzJNia7Yo79Ukm5BhT",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "EdBilliot",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/EdBilliot/a976d00418f6e83dae503c2d6dff1b03",
-        "service": "github"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
-        "name": "cover"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/openbazaaradult",
-        "name": "avatar"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "EdBilliot",
-      "proof_url": "https://gist.github.com/EdBilliot/a976d00418f6e83dae503c2d6dff1b03",
-      "service": "github",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN openbazaaradult.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/openbazaaradult.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

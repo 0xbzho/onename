@@ -1,36 +1,6 @@
 {
-  "owner_address": "1KjESE7yYPefGn6YDVDhfMD3mn2Ur35hxF",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "phonefinder_",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/phonefinder_/status/751098850149031940",
-        "service": "twitter"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Germany"
-    },
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
-        "name": "cover"
-      }
-    ],
-    "name": "Raphael Mack"
-  },
-  "verifications": [
-    {
-      "identifier": "phonefinder_",
-      "proof_url": "https://twitter.com/phonefinder_/status/751098850149031940",
-      "service": "twitter",
-      "valid": false
-    }
-  ],
-  "zone_file": "$ORIGIN raphaelm.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/raphaelm.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

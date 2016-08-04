@@ -1,57 +1,6 @@
 {
-  "owner_address": "1KEkVMUeTL7pS7vLweJvVnjYS5YXcz7uBA",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "TraderT",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/TraderT/02e694c999f4b3c5090abf77579ac77e",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
-        "identifier": "tt@3atrader.com",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/terrence.easler/posts/1739765712945743",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
-        "identifier": "topodinapoli",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Btradert%20is%20my%20blockchain%20ID.%20https://onename.com/tradert",
-        "service": "twitter"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
-        "name": "cover"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "TraderT",
-      "proof_url": "https://gist.github.com/TraderT/02e694c999f4b3c5090abf77579ac77e",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "tt@3atrader.com",
-      "proof_url": "https://www.facebook.com/terrence.easler/posts/1739765712945743",
-      "service": "facebook",
-      "valid": false
-    },
-    {
-      "identifier": "topodinapoli",
-      "proof_url": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Btradert%20is%20my%20blockchain%20ID.%20https://onename.com/tradert",
-      "service": "twitter",
-      "valid": false
-    }
-  ],
-  "zone_file": "$ORIGIN tradert.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tradert.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

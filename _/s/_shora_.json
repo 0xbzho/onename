@@ -1,39 +1,6 @@
 {
-  "owner_address": "1Ud5X7rhrnfG6jCK4FrBn5T5jN9UFB6rV",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "1L3ZfYdLV6rBebxGLtvSZrVyEMnqNJYckA",
-        "role": "payment",
-        "service": "bitcoin"
-      },
-      {
-        "@type": "Account",
-        "identifier": "Shora",
-        "service": "shora"
-      },
-      {
-        "@type": "Account",
-        "identifier": "4fe2f81d0f285b2710834b2fe2c033da29925ad3",
-        "service": "openbazaar"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
-        "name": "cover"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/_shora_",
-        "name": "avatar"
-      }
-    ],
-    "name": "Rain Namphet"
-  },
-  "verifications": [],
-  "zone_file": "$ORIGIN _shora_.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/_shora_.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

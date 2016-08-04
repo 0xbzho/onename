@@ -1,36 +1,6 @@
 {
-  "owner_address": "1MhT8GT7M6G3pShq8srqAgJD2AEnxUS149",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "anonymous",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/anonymous/e64ecb93ab6fd00d4223b2c0f5b6b2da",
-        "service": "github"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
-        "name": "cover"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/xpedia",
-        "name": "avatar"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "anonymous",
-      "proof_url": "https://gist.github.com/anonymous/e64ecb93ab6fd00d4223b2c0f5b6b2da",
-      "service": "github",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN xpedia.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/xpedia.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

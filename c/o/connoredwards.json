@@ -1,41 +1,6 @@
 {
-  "owner_address": "1G85vM38BgrsgHBKsMvzfbgwUjr4TybSQn",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "connoredwards",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/connoredwards/status/751944170525294592",
-        "service": "twitter"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Toronto"
-    },
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
-        "name": "cover"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/connoredwards",
-        "name": "avatar"
-      }
-    ],
-    "name": "Connor"
-  },
-  "verifications": [
-    {
-      "identifier": "connoredwards",
-      "proof_url": "https://twitter.com/connoredwards/status/751944170525294592",
-      "service": "twitter",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN connoredwards.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/connoredwards.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

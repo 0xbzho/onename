@@ -1,48 +1,6 @@
 {
-  "owner_address": "1Hh1YLxPwTDzoVTXhsoW2tNiGWarwGbVmp",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "dotsandspaces",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/dotsandspaces/status/751711488218427393",
-        "service": "twitter"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "South Coast UK"
-    },
-    "description": "bits of design that clutter up our lives.",
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/dotsandspaces",
-        "name": "avatar"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/dx3/dotsandspaces",
-        "name": "cover"
-      }
-    ],
-    "name": "Stephan Caspar",
-    "website": [
-      {
-        "@type": "WebSite",
-        "url": "http://dotsandspaces.typepad.com"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "dotsandspaces",
-      "proof_url": "https://twitter.com/dotsandspaces/status/751711488218427393",
-      "service": "twitter",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN dotsandspaces.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dotsandspaces.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

@@ -1,36 +1,6 @@
 {
-  "owner_address": "1DDuUxkzBRkQeJrUaDgDV7kw25mKNLGgvP",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "erikekkel",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/erikekkel/status/750606933342752768",
-        "service": "twitter"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/erik_ekkel",
-        "name": "avatar"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/dx3/erik_ekkel",
-        "name": "cover"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "erikekkel",
-      "proof_url": "https://twitter.com/erikekkel/status/750606933342752768",
-      "service": "twitter",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN erik_ekkel.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/erik_ekkel.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

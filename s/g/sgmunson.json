@@ -1,50 +1,6 @@
 {
-  "owner_address": "12jgSBHd8iaCCWT7386y51UQPyyrVqrXjH",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "13aAeWBc2PgcN5FdyNTz3HsyDBTADdH1b8",
-        "role": "payment",
-        "service": "bitcoin"
-      },
-      {
-        "@type": "Account",
-        "identifier": "sgmunson",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/sgmunson/status/748996132479598592",
-        "service": "twitter"
-      }
-    ],
-    "description": "SQL Database Development / ETL (SSIS) / Reporting (SSRS, Crystal Reports) // Board Games",
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/sgmunson",
-        "name": "avatar"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/dx3/sgmunson",
-        "name": "cover"
-      }
-    ],
-    "name": "Steve Munson",
-    "website": [
-      {
-        "@type": "WebSite",
-        "url": "http://sgmunson.myunicity.com/"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "sgmunson",
-      "proof_url": "https://twitter.com/sgmunson/status/748996132479598592",
-      "service": "twitter",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN sgmunson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sgmunson.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

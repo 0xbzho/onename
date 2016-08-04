@@ -1,31 +1,6 @@
 {
-  "owner_address": "1Ceh72zMVieuZk9MxZg467xhCaYZ73u732",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "Salmon__GER",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/Salmon__GER/status/752371122612662272",
-        "service": "twitter"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
-        "name": "cover"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "Salmon__GER",
-      "proof_url": "https://twitter.com/Salmon__GER/status/752371122612662272",
-      "service": "twitter",
-      "valid": false
-    }
-  ],
-  "zone_file": "$ORIGIN salmonde.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/salmonde.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

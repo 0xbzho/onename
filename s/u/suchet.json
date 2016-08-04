@@ -1,36 +1,6 @@
 {
-  "owner_address": "19kDUoQcQn17UymeJqChkLaAGzysYKxUiJ",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "Suchet Padhye",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/suchet&redirect_uri=https://onename.com/suchet%23facebook",
-        "service": "facebook"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
-        "name": "cover"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/suchet",
-        "name": "avatar"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "Suchet Padhye",
-      "proof_url": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/suchet&redirect_uri=https://onename.com/suchet%23facebook",
-      "service": "facebook",
-      "valid": false
-    }
-  ],
-  "zone_file": "$ORIGIN suchet.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/suchet.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

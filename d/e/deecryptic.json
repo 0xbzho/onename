@@ -1,33 +1,6 @@
 {
-  "owner_address": "1E2nsuV6gbFD44RYRY3QNVX6iTWk63e7WL",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "1B3PDegrHtevkYSjFSZDxKmJb9o2vZqc9",
-        "role": "payment",
-        "service": "bitcoin"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Mumbai"
-    },
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/deecryptic",
-        "name": "avatar"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/dx3/deecryptic",
-        "name": "cover"
-      }
-    ],
-    "name": "DeePeePee"
-  },
-  "verifications": [],
-  "zone_file": "$ORIGIN deecryptic.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/deecryptic.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }
