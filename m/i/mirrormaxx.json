@@ -1,36 +1,6 @@
 {
-  "owner_address": "14Xy8qFVUb6P6JLFXvYpbmQ8Fz5cbs6mMJ",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "EdBilliot",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/EdBilliot/2bc53c207a35c921817df04b7ad1c7b9",
-        "service": "github"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
-        "name": "cover"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/mirrormaxx",
-        "name": "avatar"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "EdBilliot",
-      "proof_url": "https://gist.github.com/EdBilliot/2bc53c207a35c921817df04b7ad1c7b9",
-      "service": "github",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN mirrormaxx.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mirrormaxx.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

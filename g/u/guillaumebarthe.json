@@ -1,31 +1,6 @@
 {
-  "owner_address": "1PmhMKSuXpoXyaUGge88Tf5ZCVAG7CtNmj",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "gmebarthe",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/gmebarthe/status/750800522718904324",
-        "service": "twitter"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
-        "name": "cover"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "gmebarthe",
-      "proof_url": "https://twitter.com/gmebarthe/status/750800522718904324",
-      "service": "twitter",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN guillaumebarthe.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/guillaumebarthe.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

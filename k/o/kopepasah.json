@@ -1,31 +1,6 @@
 {
-  "owner_address": "13qCqGvGyTHhcbNLEFDGmiq5WnpgWHz135",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "anonymous",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/anonymous/3d74933b88b649da9462bf89c3643a0d",
-        "service": "github"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
-        "name": "cover"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "anonymous",
-      "proof_url": "https://gist.github.com/anonymous/3d74933b88b649da9462bf89c3643a0d",
-      "service": "github",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN kopepasah.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kopepasah.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

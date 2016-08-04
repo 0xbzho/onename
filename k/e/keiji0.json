@@ -1,54 +1,6 @@
 {
-  "owner_address": "1tQycs7ZpdQBLDMgkwVJpCxG8WJMuzfCh",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "keiji0",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/keiji0/5ef3ef83b1f630bbea029e4721397dbf#file-gistfile1-txt",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
-        "identifier": "keiji0",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/keiji0/status/751626412633706498",
-        "service": "twitter"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Japan"
-    },
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
-        "name": "cover"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/keiji0",
-        "name": "avatar"
-      }
-    ],
-    "name": "Keiji Ohara"
-  },
-  "verifications": [
-    {
-      "identifier": "keiji0",
-      "proof_url": "https://gist.github.com/keiji0/5ef3ef83b1f630bbea029e4721397dbf#file-gistfile1-txt",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "keiji0",
-      "proof_url": "https://twitter.com/keiji0/status/751626412633706498",
-      "service": "twitter",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN keiji0.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/keiji0.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

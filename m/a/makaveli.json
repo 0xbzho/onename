@@ -1,38 +1,6 @@
 {
-  "owner_address": "137yEMaJExrVaWM5EG76f9XWLvJvqH1nZe",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "1AMNfnUnnKF9j2X8ZBzz5qwyxFSJXtVLEs",
-        "role": "payment",
-        "service": "bitcoin"
-      },
-      {
-        "@type": "Account",
-        "identifier": "5c6cc05ff1c2cda253e0ed2128fbe6e23eaf88c5",
-        "service": "openbazaar"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Worldwide"
-    },
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/makaveli",
-        "name": "avatar"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/dx3/makaveli",
-        "name": "cover"
-      }
-    ],
-    "name": "Sam Makaveli"
-  },
-  "verifications": [],
-  "zone_file": "$ORIGIN makaveli.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/makaveli.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

@@ -1,31 +1,6 @@
 {
-  "owner_address": "1PScsUs6XWMokQhNiJbMNFtaf5mqLYMWaC",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "mark varel",
-        "proofType": "http",
-        "proofUrl": "https://onename.com/leravmusic",
-        "service": "facebook"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
-        "name": "cover"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "mark varel",
-      "proof_url": "https://onename.com/leravmusic",
-      "service": "facebook",
-      "valid": false
-    }
-  ],
-  "zone_file": "$ORIGIN leravmusic.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/leravmusic.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

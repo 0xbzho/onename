@@ -1,36 +1,6 @@
 {
-  "owner_address": "1N6h6TRcC7cPgw3vu2txvY79ti8py3az2m",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "anonymous",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/anonymous/a170bfddff453005b9003f358048c92a",
-        "service": "github"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
-        "name": "cover"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/imlive",
-        "name": "avatar"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "anonymous",
-      "proof_url": "https://gist.github.com/anonymous/a170bfddff453005b9003f358048c92a",
-      "service": "github",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN imlive.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/imlive.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }
