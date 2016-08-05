@@ -1,60 +1,6 @@
 {
-  "owner_address": "1CdzMxWV8iYY87Gw2ssYFizNiYYshjAQcN",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "JMuscaria",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/JMuscaria/status/756039921626996736",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "jarasmus",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/l.php?u=https%3A%2F%2Fonename.com%2Fmuscaria&amp;h=KAQE_o95M&amp;enc=AZO8nhkC4wrIPyWNN50CDfziieCHC3_mrzZYNvsLkGRNoiDbv8SChcEnC4BdAKiOVkxAohCoiVV_BAQMW9WUxeijHs8Xm8ia11WZXW9p_pBqwYZS1kz7YVGhBnO-yp7xUNZl5qI4ihjsqyUXwMbAK70yA9cgaj3DQ3NrlGgC9cKxod9KorQClv9oIJJTFHALkew&amp;s=1",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
-        "identifier": "3GdeATUWfFC93zMRBxT7QX18n3TEyrrUCC",
-        "role": "payment",
-        "service": "bitcoin"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Lithuania"
-    },
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
-        "name": "cover"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/muscaria",
-        "name": "avatar"
-      }
-    ],
-    "name": "Jaras Muscaria"
-  },
-  "verifications": [
-    {
-      "identifier": "JMuscaria",
-      "proof_url": "https://twitter.com/JMuscaria/status/756039921626996736",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "jarasmus",
-      "proof_url": "https://www.facebook.com/l.php?u=https%3A%2F%2Fonename.com%2Fmuscaria&amp;h=KAQE_o95M&amp;enc=AZO8nhkC4wrIPyWNN50CDfziieCHC3_mrzZYNvsLkGRNoiDbv8SChcEnC4BdAKiOVkxAohCoiVV_BAQMW9WUxeijHs8Xm8ia11WZXW9p_pBqwYZS1kz7YVGhBnO-yp7xUNZl5qI4ihjsqyUXwMbAK70yA9cgaj3DQ3NrlGgC9cKxod9KorQClv9oIJJTFHALkew&amp;s=1",
-      "service": "facebook",
-      "valid": false
-    }
-  ],
-  "zone_file": "$ORIGIN muscaria.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/muscaria.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }
