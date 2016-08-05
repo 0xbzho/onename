@@ -1,41 +1,6 @@
 {
-  "owner_address": "15huhLbJJzwrb8aR5ViLbU1GDBW1qHJVjL",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "ferdiretief",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/FerdiRetief/status/755881807359283201",
-        "service": "twitter"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Sydney"
-    },
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
-        "name": "cover"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/fretief",
-        "name": "avatar"
-      }
-    ],
-    "name": "Ferdinand Retief"
-  },
-  "verifications": [
-    {
-      "identifier": "ferdiretief",
-      "proof_url": "https://twitter.com/FerdiRetief/status/755881807359283201",
-      "service": "twitter",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN fretief.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fretief.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

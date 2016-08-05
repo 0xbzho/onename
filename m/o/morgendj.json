@@ -1,36 +1,6 @@
 {
-  "owner_address": "151firpsTkzVEFsBms7z6MkPkZDHviPnW9",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "morgendj",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/morgendj/status/758107229094490112",
-        "service": "twitter"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "94010"
-    },
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
-        "name": "cover"
-      }
-    ],
-    "name": "David Morgenstern"
-  },
-  "verifications": [
-    {
-      "identifier": "morgendj",
-      "proof_url": "https://twitter.com/morgendj/status/758107229094490112",
-      "service": "twitter",
-      "valid": false
-    }
-  ],
-  "zone_file": "$ORIGIN morgendj.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/morgendj.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

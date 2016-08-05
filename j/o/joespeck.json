@@ -1,60 +1,6 @@
 {
-  "owner_address": "1QEghNq2NccSjrw8onGGMreqpBpP5rC35",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "joespeck",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/joespeck/status/755859986266284032",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "joespeck",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/joespeck/posts/10157236904860445?pnref=story",
-        "service": "facebook"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Barcelona"
-    },
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/joespeck",
-        "name": "avatar"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/dx3/joespeck",
-        "name": "cover"
-      }
-    ],
-    "name": "Joe Speck",
-    "website": [
-      {
-        "@type": "WebSite",
-        "url": "http://www.joespeck.com"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "joespeck",
-      "proof_url": "https://twitter.com/joespeck/status/755859986266284032",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "joespeck",
-      "proof_url": "https://www.facebook.com/joespeck/posts/10157236904860445?pnref=story",
-      "service": "facebook",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN joespeck.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/joespeck.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }
