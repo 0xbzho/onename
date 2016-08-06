@@ -1,42 +1,6 @@
 {
-  "owner_address": "1MPd545MxT9BZZyZGMx3u5LtoLQ972cZT9",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "blackfrank74",
-        "proofType": "http",
-        "proofUrl": "https://m.facebook.com/story.php?story_fbid=10154390263784954&id=639574953",
-        "service": "facebook"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Sydney, Australia"
-    },
-    "description": "Humanus Economicus, libertarian",
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
-        "name": "cover"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/zpljqv",
-        "name": "avatar"
-      }
-    ],
-    "name": "Francois Schwartz"
-  },
-  "verifications": [
-    {
-      "identifier": "blackfrank74",
-      "proof_url": "https://m.facebook.com/story.php?story_fbid=10154390263784954&id=639574953",
-      "service": "facebook",
-      "valid": false
-    }
-  ],
-  "zone_file": "$ORIGIN zpljqv.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/zpljqv.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }
