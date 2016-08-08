@@ -1,6 +1,31 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1BBMVHvL4zAD5XaUsbqy1TXZjavhZXPhQh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "joannahedin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JoannaHedin/status/760029286573244416?lang=sv",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "joannahedin",
+      "proof_url": "https://twitter.com/JoannaHedin/status/760029286573244416?lang=sv",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN joahed.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/joahed.id\"\n"
 }

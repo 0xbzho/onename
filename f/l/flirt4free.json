@@ -1,6 +1,36 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1Hj1EUqHwriFDoQcu4frbu5hBQpCoEwmqw",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "EdBilliot",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/EdBilliot/cc4fcd1724605e98ee7e7f4449b86ded",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/flirt4free",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "EdBilliot",
+      "proof_url": "https://gist.github.com/EdBilliot/cc4fcd1724605e98ee7e7f4449b86ded",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN flirt4free.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/flirt4free.id\"\n"
 }

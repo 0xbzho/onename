@@ -1,6 +1,67 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1GX6ok8kkAPHrGD6d2CtCkTgAwPCPq7Mhw",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "https:",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "joe.nickence",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/joe.nickence/posts/10153392551147874",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "metathuselah",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Bjoey1058%20is%20my%20blockchain%20ID.%20https://onename.com/joey1058",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Gladstone MI"
+    },
+    "description": "I've settled down to wait for the Singularity. Feisty and opinionated, I visit news sites, and blog posts to expound on the wave of the future.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/joey1058",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/joey1058",
+        "name": "cover"
+      }
+    ],
+    "name": "Joe Nickence",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://joey1058.blogspot.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "joe.nickence",
+      "proof_url": "https://facebook.com/joe.nickence/posts/10153392551147874",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "metathuselah",
+      "proof_url": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Bjoey1058%20is%20my%20blockchain%20ID.%20https://onename.com/joey1058",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN joey1058.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/joey1058.id\"\n"
 }

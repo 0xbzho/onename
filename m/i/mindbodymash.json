@@ -1,6 +1,56 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1PHdd3sUSH1BLeDTDHJJWBYt6Dw6dXqerM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "craighole1",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/CraigHole1/status/760914846602842117",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "32xw7aRT6dVxzQhLDCgDh6ypiddhiBoM7z",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "768a23b6e8532a567ec06afb57701bf0dc062815",
+        "proofType": "http",
+        "proofUrl": "https://t.co/Z568FWiRYz",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mindbodymash",
+        "name": "avatar"
+      }
+    ],
+    "name": "Craig Hole",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://mindbodymash.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "craighole1",
+      "proof_url": "https://twitter.com/CraigHole1/status/760914846602842117",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mindbodymash.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mindbodymash.id\"\n"
 }

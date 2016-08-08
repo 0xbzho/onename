@@ -1,6 +1,57 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "136ocZpUBreEohaJ9T46SZuGH3FL8yytEK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kylebirchard",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kylebirchard/status/751933502686306304",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kbirchard",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/kbirchard/posts/10105485832065373",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kbirchard",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/kbirchard/0be62f6dac0d778e597d52dea6951d64",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "kylebirchard",
+      "proof_url": "https://twitter.com/kylebirchard/status/751933502686306304",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "kbirchard",
+      "proof_url": "https://www.facebook.com/kbirchard/posts/10105485832065373",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "kbirchard",
+      "proof_url": "https://gist.github.com/kbirchard/0be62f6dac0d778e597d52dea6951d64",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN kyle_birchard.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kyle_birchard.id\"\n"
 }

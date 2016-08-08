@@ -1,6 +1,22 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "16BpJDL666dgcnXsLLrL9BHxFFrUPqzpf9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "b5a71628bf45176b0393107d52c3b56099ddbdd6",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN allthingsdigital.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/allthingsdigital.id\"\n"
 }

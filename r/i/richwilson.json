@@ -1,6 +1,31 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1GxgZ78fmHNoSmja9hRTF5DV88prUMcJnU",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "richpwilson",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/richpwilson/status/760853579175301120",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "richpwilson",
+      "proof_url": "https://twitter.com/richpwilson/status/760853579175301120",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN richwilson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/richwilson.id\"\n"
 }

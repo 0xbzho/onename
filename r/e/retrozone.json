@@ -1,6 +1,38 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1Cbqi4RpRY1YYQijTQENvQFywdQVLTjTJD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "854e5e5b77b9a9b2fd1e67cdb23337be7c48d238",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "14Mjp6K9C96mpFWheW1sCCFKJ7XFagGcSp",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "United Kingdom"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/retrozone",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/retrozone",
+        "name": "cover"
+      }
+    ],
+    "name": "The Retro Zone"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN retrozone.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/retrozone.id\"\n"
 }

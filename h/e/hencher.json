@@ -1,6 +1,44 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1H2yS87Ni3zyohDBjuXHmuNL6LUCLMCLf3",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Contexxt",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Contexxt/8b111c07fdfe608540f1a6002179620d#file-verifying",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "doppol",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Doppol/status/759707667879202816",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Contexxt",
+      "proof_url": "https://gist.github.com/Contexxt/8b111c07fdfe608540f1a6002179620d#file-verifying",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "doppol",
+      "proof_url": "https://twitter.com/Doppol/status/759707667879202816",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN hencher.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hencher.id\"\n"
 }

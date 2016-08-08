@@ -1,6 +1,47 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1FHL4stDXkwGsTRUcPa4xYnsq2mvqPzVGV",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mickyhoh",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mickyhoh/status/749821664834121728",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Malaysia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mickeyhoh",
+        "name": "avatar"
+      }
+    ],
+    "name": "Mickey Hoh Cheong Sing",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://mickeyhoh.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mickyhoh",
+      "proof_url": "https://twitter.com/mickyhoh/status/749821664834121728",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mickeyhoh.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mickeyhoh.id\"\n"
 }

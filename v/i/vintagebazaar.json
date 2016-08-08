@@ -1,6 +1,56 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1CFe1wrtHXSojCXA1iZg7ufprThN7EsLNx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "d5e3a40cdf21661eb7fbc25d8044f2a7bab9c6e2",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/canalyse/status/737222083546120193",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/f2b8f9aae38780eed3341524518f0536",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "vintagebazaarOB",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/vintagebazaarOB/status/737532963433250816",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/vintagebazaar",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/vintagebazaar",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/f2b8f9aae38780eed3341524518f0536",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "vintagebazaarOB",
+      "proof_url": "https://twitter.com/vintagebazaarOB/status/737532963433250816",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN vintagebazaar.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vintagebazaar.id\"\n"
 }

@@ -1,6 +1,49 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1K1ACL66gqUPtGgU1unpXZZrc2hdMAnR7o",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "brentavery",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/brentavery/posts/10154342051688169",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "xenorg",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/xenorg/status/745095241779187713",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Australia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Brent Avery"
+  },
+  "verifications": [
+    {
+      "identifier": "brentavery",
+      "proof_url": "https://www.facebook.com/brentavery/posts/10154342051688169",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "xenorg",
+      "proof_url": "https://twitter.com/xenorg/status/745095241779187713",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN brentavery.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/brentavery.id\"\n"
 }

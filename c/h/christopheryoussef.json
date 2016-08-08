@@ -1,6 +1,73 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1LUgwCxQtULa48W6oiJy97pLy6dyVUGXaQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cyoussef8",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cyoussef8/status/705490108930084864",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Chris.Youssef.11",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/Chris.Youssef.11/posts/10154187007333415",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cyoussef8",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/cyoussef8/43768a1863aa005c78438bdfbf5f2076",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1D9p8T49PC3eRF2S1FRnwzDc4sTHtiES8F",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Melbourne, Australia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/christopheryoussef",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/christopheryoussef",
+        "name": "cover"
+      }
+    ],
+    "name": "Christopher Youssef"
+  },
+  "verifications": [
+    {
+      "identifier": "cyoussef8",
+      "proof_url": "https://twitter.com/cyoussef8/status/705490108930084864",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Chris.Youssef.11",
+      "proof_url": "https://www.facebook.com/Chris.Youssef.11/posts/10154187007333415",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "cyoussef8",
+      "proof_url": "https://gist.github.com/cyoussef8/43768a1863aa005c78438bdfbf5f2076",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN christopheryoussef.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/christopheryoussef.id\"\n"
 }

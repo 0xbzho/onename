@@ -1,6 +1,80 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "15deYK7AEqtWWJMXMHZbf5beRm2NNghuP9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "theesp",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1ESC4L2hzYhY5KraiqnzodbGKyQqt3pFvv",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/theesp",
+        "identifier": "5E72B9BB",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tpeereboom",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tpeereboom/status/758984578589597696",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "theesp",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/theesp/a1c93eedd73587bf5bc3",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Amsterdam. Netherlands"
+    },
+    "description": "I am an independent adviser for advertising and media organisations & provider of Second Opinions",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/theesp",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Thees Peereboom",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.asecondopinion.nl"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tpeereboom",
+      "proof_url": "https://twitter.com/tpeereboom/status/758984578589597696",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "theesp",
+      "proof_url": "https://gist.github.com/theesp/a1c93eedd73587bf5bc3",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN theesp.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/theesp.id\"\n"
 }

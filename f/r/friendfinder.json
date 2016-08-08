@@ -1,6 +1,36 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1FrWb7oZUh9zfy8Ky3iU259Kbwbv1m47FW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/d64c72122592015ee059dbee544cf2ce",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/friendfinder",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/d64c72122592015ee059dbee544cf2ce",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN friendfinder.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/friendfinder.id\"\n"
 }

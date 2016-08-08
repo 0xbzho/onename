@@ -1,6 +1,74 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "17397ksXU6xeY8YXyiGT73Eoe93XoDtcD6",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "marcnext",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/marcnext/status/745327322442698758",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "e380c40d-90ee-448e-89e9-1f5bb7b961a2",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "marcnext",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/marcnext/346fdbd9342967f6cb7c826c1e0a96b1#file-onename",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/marcnext/posts/10153589425800334",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Delete this account"
+    },
+    "description": "Delete this account",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/marcnext",
+        "name": "avatar"
+      }
+    ],
+    "website": []
+  },
+  "verifications": [
+    {
+      "identifier": "marcnext",
+      "proof_url": "https://twitter.com/marcnext/status/745327322442698758",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "marcnext",
+      "proof_url": "https://gist.github.com/marcnext/346fdbd9342967f6cb7c826c1e0a96b1#file-onename",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "",
+      "proof_url": "https://www.facebook.com/marcnext/posts/10153589425800334",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN marcnext.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/marcnext.id\"\n"
 }

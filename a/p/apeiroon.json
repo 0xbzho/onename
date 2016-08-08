@@ -1,6 +1,54 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1H52QTEHYx8UpsfyvaCe1D6wYYCGcY43Hj",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1NMqf5XtwHz973DRyppT4zKU2zHdydCsNm",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "apeiroon",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/poipoiu/posts/10202132715556765",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mexico DF"
+    },
+    "description": "We are a Mexican company that want to bring the world of bitcoins to Mexico",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/apeiroon",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/apeiroon",
+        "name": "cover"
+      }
+    ],
+    "name": "Apeiroon",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://apeiroon.com/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "apeiroon",
+      "proof_url": "https://www.facebook.com/poipoiu/posts/10202132715556765",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN apeiroon.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/apeiroon.id\"\n"
 }

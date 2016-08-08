@@ -1,6 +1,27 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1Fdh2ZHWnQrGdM6KqbziCaQ98k4ahLzQgE",
+  "profile": {
+    "@type": "Person",
+    "account": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Leo Miguel Javier Garcia",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://leojavier.com"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN leojavier.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/leojavier.id\"\n"
 }

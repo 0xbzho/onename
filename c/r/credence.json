@@ -1,6 +1,30 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "18z7TgM6nzYHZTSnAgf7MyG3E2UACgHSCp",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/credence",
+        "identifier": "CD160EEA928ED83776AD01EE6E3F2FB683917AF",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "James Creeden",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.linkedin.com/in/jamescreeden"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN credence.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/credence.id\"\n"
 }

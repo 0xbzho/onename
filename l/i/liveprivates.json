@@ -1,6 +1,36 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1ETEAPKB3yLCNKAwCFw5rxq7LsK1uzAaXh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/dad1292780d5a419e38551298e900058",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/liveprivates",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/dad1292780d5a419e38551298e900058",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN liveprivates.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/liveprivates.id\"\n"
 }

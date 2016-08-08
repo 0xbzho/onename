@@ -1,6 +1,65 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1LmrNUhESScB5zDqLsZEWZPDkuHvQrpdNi",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Heliopay",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1JnHf3ZvJwDkkkZ29g1pMxT3i3WVSzL8s4",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "c2ff8dc8b174ce58b6ad4c989e3ac0e357cd6b23",
+        "service": "open bazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Heliopay-Ltd-324616434352769/",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/Heliopay-Ltd-324616434352769//posts/506270876230016",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cambridge UK"
+    },
+    "description": "Bitcoin Hardware and Merchandise",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/heliopay",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/heliopay",
+        "name": "cover"
+      }
+    ],
+    "name": "Heliopay",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.heliopay.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Heliopay-Ltd-324616434352769/",
+      "proof_url": "https://facebook.com/Heliopay-Ltd-324616434352769//posts/506270876230016",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN heliopay.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/heliopay.id\"\n"
 }

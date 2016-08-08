@@ -1,6 +1,42 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1DtcMgf3a9MYXg5vrd2isVxufUDd95UR5d",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bill.lewis.9461",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bill.lewis.9461",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "46aa3b2d-c201-4141-9260-18e4cb4233fb",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/389700",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bill.lewis.9461",
+      "proof_url": "https://www.facebook.com/bill.lewis.9461",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN 389700.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/389700.id\"\n"
 }

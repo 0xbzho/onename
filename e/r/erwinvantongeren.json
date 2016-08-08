@@ -1,6 +1,81 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1BVmXCVAGARAy1LjHGDDMcvgME46hNVKm5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/erwinvantongeren",
+        "identifier": "3f61c986bdda53bd2a7bf772a9311217",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "erwinvtongeren",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/erwinvtongeren/posts/207120652982378",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rwinvantongeren",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rwinvantongeren/status/705541239286976513",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "erwinvantongeren",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/erwinvantongeren/212b04d57c05cabc5d812788a41023cd",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Britsum, Friesland, The Netherlands"
+    },
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/erwinvantongeren",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/erwinvantongeren",
+        "name": "cover"
+      }
+    ],
+    "name": "Erwin van Tongeren",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://vantongeren.eu"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "erwinvtongeren",
+      "proof_url": "https://www.facebook.com/erwinvtongeren/posts/207120652982378",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "rwinvantongeren",
+      "proof_url": "https://twitter.com/rwinvantongeren/status/705541239286976513",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "erwinvantongeren",
+      "proof_url": "https://gist.github.com/erwinvantongeren/212b04d57c05cabc5d812788a41023cd",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN erwinvantongeren.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/erwinvantongeren.id\"\n"
 }

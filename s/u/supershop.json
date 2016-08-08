@@ -1,6 +1,27 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "197TNR6Su21vE9MPCjtqKhPdqZ5BCHv7aN",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "9c0b6f28cebfa91d111025f6f682d3ab122bb5e2",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "ob://9c0b6f28cebfa91d111025f6f682d3ab122bb5e2/store"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "SuperShop"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN supershop.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/supershop.id\"\n"
 }

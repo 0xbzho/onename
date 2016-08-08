@@ -1,6 +1,41 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1Kmd6NTmNNYMQx5hkG6H3v2NsDhMkGKQim",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "e4c4e217f73f104712bc9c81b08262639d98a943",
+        "proofType": "http",
+        "proofUrl": "Verifying that +imtellingtim is my blockchain ID. https://onename.com/imtellingtim",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Missouri USA"
+    },
+    "description": "Rhythm And Sounds finds unique pieces of history and makes them available to the world. We deal mostly with music related items, but we also deal with many others things that we find interesting.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rhythmandsounds",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rhythmandsounds",
+        "name": "cover"
+      }
+    ],
+    "name": "Rhythm And Sounds",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://rhythmandsounds.com"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN rhythmandsounds.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rhythmandsounds.id\"\n"
 }

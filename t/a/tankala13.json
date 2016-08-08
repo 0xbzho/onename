@@ -1,6 +1,36 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1GGScGpfo31YmeG18ymiC2akBTdeez9Pvn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tankala",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/saved/?notif_id=1468267047430922&cref=52&notif_t=saved_off_fb",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Winnipeg"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Lalit Tankala"
+  },
+  "verifications": [
+    {
+      "identifier": "tankala",
+      "proof_url": "https://www.facebook.com/saved/?notif_id=1468267047430922&cref=52&notif_t=saved_off_fb",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tankala13.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tankala13.id\"\n"
 }

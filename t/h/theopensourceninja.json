@@ -1,6 +1,69 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1HYBV3cutGatMK1aKz9SJ9xPKNUTbWB164",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "TheOpenSourceNinja",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/TheOpenSourceNinja/69a0c14e028a04fda4280de7d82601c1",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "TheOpenSourceN",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TheOpenSourceN/status/742533847703654402",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "9f4f85568e82d34e54a654db183aeeda1e7f4b1d",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/iradche/74af2cdb6e782bdfddfc410540f5d4b8",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/theopensourceninja",
+        "identifier": "CFB795062E951956D9062607096BA5BD0FB27114",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/theopensourceninja",
+        "name": "avatar"
+      }
+    ],
+    "name": "James Dearing",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://theopensource.ninja"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "TheOpenSourceNinja",
+      "proof_url": "https://gist.github.com/TheOpenSourceNinja/69a0c14e028a04fda4280de7d82601c1",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "TheOpenSourceN",
+      "proof_url": "https://twitter.com/TheOpenSourceN/status/742533847703654402",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN theopensourceninja.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/theopensourceninja.id\"\n"
 }

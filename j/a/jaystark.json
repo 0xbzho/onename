@@ -1,6 +1,61 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1EGUm2GAVDnnE8gnPnj1QhY9bEyK1mDFgP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "starkcorps",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/StarkCorps/status/749650878676672516",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "starkcorps",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/starkcorps/posts/10205577963287691",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seattle"
+    },
+    "description": "Entrepreneur // Marketer // Liberty Lover",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jaystark",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jaystark",
+        "name": "cover"
+      }
+    ],
+    "name": "Jay Stark",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.campaigncatapult.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "starkcorps",
+      "proof_url": "https://twitter.com/StarkCorps/status/749650878676672516",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "starkcorps",
+      "proof_url": "https://www.facebook.com/starkcorps/posts/10205577963287691",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jaystark.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jaystark.id\"\n"
 }

@@ -1,6 +1,62 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1CDbNoSnuAgiPiwf6JKXcBaR1rgoo1WfjJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "devin.venable1",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/devin.venable1/posts/1128777963834920",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "devinvenable",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/devinvenable/a7d2ffc422b4c02d220d1cc130a008d9",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "devinvenable",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/devinvenable/status/761387423439781888",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/devinvenable",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/devinvenable",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "devin.venable1",
+      "proof_url": "https://www.facebook.com/devin.venable1/posts/1128777963834920",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "devinvenable",
+      "proof_url": "https://gist.github.com/devinvenable/a7d2ffc422b4c02d220d1cc130a008d9",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "devinvenable",
+      "proof_url": "https://twitter.com/devinvenable/status/761387423439781888",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN devinvenable.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/devinvenable.id\"\n"
 }

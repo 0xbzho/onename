@@ -1,6 +1,71 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1KHK8Hz2PdSLc2Ba6gKB25m1tCSSvKwL1Q",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mobilewisebear",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mobilewisebear/status/747539567230726144",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Egmondt",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Egmondt/53f39990ba4287076edb45c34f693588",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "5046011662a938196dbc9bdaab292408eaef822c",
+        "service": "wisebear"
+      },
+      {
+        "@type": "Account",
+        "identifier": "5046011662a938196dbc9bdaab292408eaef822c",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "the Netherlands"
+    },
+    "description": "world cyclist and bon vivant",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/wisebear",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/wisebear",
+        "name": "cover"
+      }
+    ],
+    "name": "Egmond Petzoldt",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://wisebear.org"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mobilewisebear",
+      "proof_url": "https://twitter.com/mobilewisebear/status/747539567230726144",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Egmondt",
+      "proof_url": "https://gist.github.com/Egmondt/53f39990ba4287076edb45c34f693588",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN wisebear.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wisebear.id\"\n"
 }

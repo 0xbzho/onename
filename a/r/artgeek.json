@@ -1,6 +1,61 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1CsU5JnUWd5dKPtTVhHhvNtp1C1yedeHXm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Art_Geek_Design",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Art_Geek_Design/status/759600571116613633",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hlbryant",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/hlbryant/posts/10208586124903620",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1P8WwZnEHTvAYdBBhKR2Bnn51zxd3Gb9v9",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Her.e"
+    },
+    "description": "Not your ordinary nerdy artist.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/artgeek",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/artgeek",
+        "name": "cover"
+      }
+    ],
+    "name": "HLB"
+  },
+  "verifications": [
+    {
+      "identifier": "Art_Geek_Design",
+      "proof_url": "https://twitter.com/Art_Geek_Design/status/759600571116613633",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "hlbryant",
+      "proof_url": "https://www.facebook.com/hlbryant/posts/10208586124903620",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN artgeek.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/artgeek.id\"\n"
 }

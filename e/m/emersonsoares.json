@@ -1,6 +1,74 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "14P5Hc4Gkqqnb3oAVZ6g3GibZUbvKTyKum",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dev.emerson",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dev.emerson/posts/1301074096586864:2",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "emerson_soares",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/emerson_soares/status/732601323938578432",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "emersonsoares",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/emersonsoares/96be5f985dbc7cdf8401e2ff4a8fc6a3",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sao Paulo, Brazil"
+    },
+    "description": "A forced software engineer trying to be a software gardener.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/emersonsoares",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/emersonsoares",
+        "name": "cover"
+      }
+    ],
+    "name": "Emerson Soares",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://emersonsoares.github.io"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dev.emerson",
+      "proof_url": "https://www.facebook.com/dev.emerson/posts/1301074096586864:2",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "emerson_soares",
+      "proof_url": "https://twitter.com/emerson_soares/status/732601323938578432",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "emersonsoares",
+      "proof_url": "https://gist.github.com/emersonsoares/96be5f985dbc7cdf8401e2ff4a8fc6a3",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN emersonsoares.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/emersonsoares.id\"\n"
 }

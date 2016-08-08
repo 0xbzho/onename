@@ -1,6 +1,63 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "17HJEXwi6bbWNqsxy2UY6ZWAaybCDw1MMa",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "chestnut7",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/chestnut7/03bc462ab7755f8680b0d7b9b644644b",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "testtesttestman",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/testtesttestman/status/756130192142110721",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "testmanntest1337",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/testmanntest1337/posts/120098935094890",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/angoel",
+        "name": "avatar"
+      }
+    ],
+    "name": "Anne Göllnitz"
+  },
+  "verifications": [
+    {
+      "identifier": "chestnut7",
+      "proof_url": "https://gist.github.com/chestnut7/03bc462ab7755f8680b0d7b9b644644b",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "testtesttestman",
+      "proof_url": "https://twitter.com/testtesttestman/status/756130192142110721",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "testmanntest1337",
+      "proof_url": "https://www.facebook.com/testmanntest1337/posts/120098935094890",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN angoel.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/angoel.id\"\n"
 }

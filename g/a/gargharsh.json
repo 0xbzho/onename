@@ -1,6 +1,54 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "14b9yQH973TxncoYg744e6tZTiYPwAXekW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gargharsh",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gargharsh/status/748752504343502852",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "harsh4380",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/gargharsh&redirect_uri=https://onename.com/gargharsh%23facebook",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hyderabad"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gargharsh",
+        "name": "avatar"
+      }
+    ],
+    "name": "Harsh Garg"
+  },
+  "verifications": [
+    {
+      "identifier": "gargharsh",
+      "proof_url": "https://twitter.com/gargharsh/status/748752504343502852",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "harsh4380",
+      "proof_url": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/gargharsh&redirect_uri=https://onename.com/gargharsh%23facebook",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN gargharsh.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gargharsh.id\"\n"
 }

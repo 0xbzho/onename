@@ -1,6 +1,26 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1HoJ6ZBrEUL8o7G215zX4juxivxeggL72G",
+  "profile": {
+    "@type": "Person",
+    "account": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Amsterdam, The Netherlands"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/pattabhiponugupati",
+        "name": "avatar"
+      }
+    ],
+    "name": "Pattabhi Ponugupati"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN pattabhiponugupati.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pattabhiponugupati.id\"\n"
 }

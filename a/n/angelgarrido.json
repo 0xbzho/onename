@@ -1,6 +1,60 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1ATLYds7GkNeqDxrw7mL8PfBwQRypUVvdY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "angelgarrido_es",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/angelgarrido_es/status/758229987325579269",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "angelgarrido",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/angelgarrido/69f0a8f29799a3ef513a849588000d96#file-blockchainid",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Barcelona"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/angelgarrido",
+        "name": "avatar"
+      }
+    ],
+    "name": "Angel Garrido Prieto",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://angelgarrido.es"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "angelgarrido_es",
+      "proof_url": "https://twitter.com/angelgarrido_es/status/758229987325579269",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "angelgarrido",
+      "proof_url": "https://gist.github.com/angelgarrido/69f0a8f29799a3ef513a849588000d96#file-blockchainid",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN angelgarrido.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/angelgarrido.id\"\n"
 }

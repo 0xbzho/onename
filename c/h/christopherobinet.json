@@ -1,6 +1,42 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1MvxG5yDAAFZD9nE7s4wJ9v2DCWpQw1vsZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "chris_robinet",
+        "proofType": "http",
+        "proofUrl": "https://t.co/kng9Jr2fUB",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bordeaux, France"
+    },
+    "description": "Sales and marketing Director - ITG Groupe, Wild Design, Club Orion",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/christopherobinet",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/christopherobinet",
+        "name": "cover"
+      }
+    ],
+    "name": "Christophe Robinet"
+  },
+  "verifications": [
+    {
+      "identifier": "chris_robinet",
+      "proof_url": "https://t.co/kng9Jr2fUB",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN christopherobinet.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/christopherobinet.id\"\n"
 }

@@ -1,0 +1,61 @@
+{
+  "owner_address": "15eQCGffYhtP1f4BtsMJhFmEYAjgaXo9DW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1Lhjc4wj9qAgpDTpLLr7x8UoqnpBmGMR8h",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/simbafire",
+        "identifier": "F59BAF127FDFF64A0AA651387B6F5798486B5CEA",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "216b27e9d4ad0f0abe392acf589573d0a395e7af",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "simbafire",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/simbafire/a96f7c4b7ad2bcc6f52e6fa1b83650cf",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "SimbaFire",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/SimbaFire/posts/10201952647733728",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "simbafire",
+      "proof_url": "https://gist.github.com/simbafire/a96f7c4b7ad2bcc6f52e6fa1b83650cf",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "SimbaFire",
+      "proof_url": "https://www.facebook.com/SimbaFire/posts/10201952647733728",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN simbafire.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/simbafire.id\"\n"
+}

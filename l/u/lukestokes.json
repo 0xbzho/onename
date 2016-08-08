@@ -1,6 +1,80 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "15fgaccQ6gT6qaadYPot1p52VxEyhuMRfj",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1BxUs1hjWzYLEYdECbrRTJJtcTmwBzNtFN",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lukestokes",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/lukestokes/status/756519231781531649",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bestoked",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bestoked/posts/10152587211730568",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lukestokes",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/lukestokes/d3cbb2f7ed040e4c31f47ed2e20e906a",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nashville, TN"
+    },
+    "description": "Co-Founder and CTO of http://FoxyCart.com. Passionate about living life on purpose. Interested in Bitcoin.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://pbs.twimg.com/profile_banners/8432752/1349239447/web_retina",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/lukestokes",
+        "name": "avatar"
+      }
+    ],
+    "name": "Luke Stokes",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://lukestokes.info"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "lukestokes",
+      "proof_url": "https://twitter.com/lukestokes/status/756519231781531649",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bestoked",
+      "proof_url": "https://www.facebook.com/bestoked/posts/10152587211730568",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "lukestokes",
+      "proof_url": "https://gist.github.com/lukestokes/d3cbb2f7ed040e4c31f47ed2e20e906a",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN lukestokes.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lukestokes.id\"\n"
 }

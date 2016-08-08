@@ -1,6 +1,36 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "18T36G58jqmwzEZvndZ3fBMcYzUuMYk3eh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "EdBilliot",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/EdBilliot/80f066c153adf8cde902a95fb35d0460",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/propellerads",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "EdBilliot",
+      "proof_url": "https://gist.github.com/EdBilliot/80f066c153adf8cde902a95fb35d0460",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN propellerads.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/propellerads.id\"\n"
 }

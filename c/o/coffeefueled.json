@@ -1,6 +1,67 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1A81JzrT6DvUyjA6hH6aZWSw128rixVsDq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "coffee_fueled",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Coffee_Fueled/status/729349361520549888",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "james.bore",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/james.bore/posts/10208616362219395",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jamesbored",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jamesbored/6218520a650f470561a16a407e02aa0f",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "United Kingdom"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/coffeefueled",
+        "name": "avatar"
+      }
+    ],
+    "name": "James"
+  },
+  "verifications": [
+    {
+      "identifier": "coffee_fueled",
+      "proof_url": "https://twitter.com/Coffee_Fueled/status/729349361520549888",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "james.bore",
+      "proof_url": "https://www.facebook.com/james.bore/posts/10208616362219395",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "jamesbored",
+      "proof_url": "https://gist.github.com/jamesbored/6218520a650f470561a16a407e02aa0f",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN coffeefueled.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/coffeefueled.id\"\n"
 }

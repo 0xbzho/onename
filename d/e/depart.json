@@ -1,6 +1,36 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "13m6WoRVmu7fTssxNP47Kyn926xmbEG8fV",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "l-l",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/l-l/f818cb9dba8ba6a06492819f66b4b0bf",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Vienna"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Leonhard Lass"
+  },
+  "verifications": [
+    {
+      "identifier": "l-l",
+      "proof_url": "https://gist.github.com/l-l/f818cb9dba8ba6a06492819f66b4b0bf",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN depart.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/depart.id\"\n"
 }

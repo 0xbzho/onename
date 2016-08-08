@@ -1,6 +1,57 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1MckwGppR3ibufBn2uL7yap4ZXg3YCwDNN",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "David-H-Bolton",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/David-H-Bolton/aa6029e0f82a59166cbf1391a732b6ef",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dhbolton",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dhbolton/posts/10154344583434434",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "TechieWriting",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TechieWriting/status/744845897822048256",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "David-H-Bolton",
+      "proof_url": "https://gist.github.com/David-H-Bolton/aa6029e0f82a59166cbf1391a732b6ef",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "dhbolton",
+      "proof_url": "https://www.facebook.com/dhbolton/posts/10154344583434434",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "TechieWriting",
+      "proof_url": "https://twitter.com/TechieWriting/status/744845897822048256",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN davidbolton.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/davidbolton.id\"\n"
 }

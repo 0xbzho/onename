@@ -1,6 +1,52 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1An5WeUqqh7RV1GJFxPNMA8f1UBSa7icaP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "wizrig",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "joelbosh",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "IOCoin",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1BacTeYXXue9zRfbLm5Q9LXttq5VmNLSAx",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Miami, FL"
+    },
+    "description": "Better days will come",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/wizfarm",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/wizfarm",
+        "name": "cover"
+      }
+    ],
+    "name": "Joel Bosh aka WizFarm"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN wizfarm.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wizfarm.id\"\n"
 }

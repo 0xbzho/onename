@@ -1,6 +1,36 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1Q7Gr1J8pJm5rRYKA2LftAmbq1fS3Rz3n4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "RamiSalle",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RamiSalle/status/755658442522648576",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Helsinki"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Rami Salle"
+  },
+  "verifications": [
+    {
+      "identifier": "RamiSalle",
+      "proof_url": "https://twitter.com/RamiSalle/status/755658442522648576",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ramses.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ramses.id\"\n"
 }

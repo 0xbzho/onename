@@ -1,6 +1,29 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "127rhD9Gk9MJm75WC6oQr6xeFc5Jjv7ckk",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "meta_blur",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "metablur",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/KTAsim/status/753163418111049728",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN metablur.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/metablur.id\"\n"
 }

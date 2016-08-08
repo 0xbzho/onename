@@ -1,6 +1,80 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1Jgu9hPSdgdC26fK99BQMHe95Vf66UhbPm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1PqxKGHq7FZri9M5CBB6LSAfEv7gnMZrUL",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "g_mendes",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/g_mendes/status/755875496739602432",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "a.goncalo.mendes",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/a.goncalo.mendes/posts/1205817886116577",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "agsmds",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/agsmds/159136215e41f9bbd7f8328b05e9a930",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Funchal, Madeira, Portugal"
+    },
+    "description": "Os vencedores nunca desistem. Quem desiste nunca ganha! 1PqxKGHq7FZri9M5CBB6LSAfEv7gnMZrUL",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/agsmds",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/agsmds",
+        "name": "cover"
+      }
+    ],
+    "name": "Gonçalo Mendes",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://correiodigital.ml"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "g_mendes",
+      "proof_url": "https://twitter.com/g_mendes/status/755875496739602432",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "a.goncalo.mendes",
+      "proof_url": "https://www.facebook.com/a.goncalo.mendes/posts/1205817886116577",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "agsmds",
+      "proof_url": "https://gist.github.com/agsmds/159136215e41f9bbd7f8328b05e9a930",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN agsmds.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/agsmds.id\"\n"
 }

@@ -1,6 +1,45 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1P89Kuav1dnZ12fKH3hwT89rUjQDzxiqux",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1ARuhPqyo7SBEJysQLF2aQNG7D429QCZx5",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "276ffe4856bcf5f5f3bd6eed0b25783f581139f8",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/obbitbybitvapeandsmokestore",
+        "identifier": "9607CEC7F7A653E1918C910C777A4B14C4795DE3",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New Jersey"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Robert Pisack",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.vapecryptostore.com"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN obbitbybitvapeandsmokestore.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/obbitbybitvapeandsmokestore.id\"\n"
 }

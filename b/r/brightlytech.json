@@ -1,6 +1,47 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1H5AeJ36wD67TqhrqVYoBbvgTx6PNLaAPK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "brightlytech",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/brightlytech/status/746567425651519488",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Virginia, USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/brightlytech",
+        "name": "avatar"
+      }
+    ],
+    "name": "Brightly Technologies LLC",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://brightlytechnologies.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "brightlytech",
+      "proof_url": "https://twitter.com/brightlytech/status/746567425651519488",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN brightlytech.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/brightlytech.id\"\n"
 }

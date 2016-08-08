@@ -1,0 +1,67 @@
+{
+  "owner_address": "1CviuW1576yC4PejzGK8PjXpjgJC3s67nX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/86c2f8b7b4cf73ff47b8abd2551131ad",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ajwest",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ajwest/posts/10155081626914307",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ajwest",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ajwest/status/762011846060769280",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Montreal, QC"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ajwest",
+        "name": "avatar"
+      }
+    ],
+    "name": "Adam James West"
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/86c2f8b7b4cf73ff47b8abd2551131ad",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "ajwest",
+      "proof_url": "https://www.facebook.com/ajwest/posts/10155081626914307",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "ajwest",
+      "proof_url": "https://twitter.com/ajwest/status/762011846060769280",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ajwest.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ajwest.id\"\n"
+}

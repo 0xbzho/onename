@@ -1,6 +1,76 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1VVsoBegxyCFN3Tv7r5GJzXwFeiJaLxc9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1JzkYRAc5tEFTJ4WSneFiwwS8vA6e5VqnW",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/aan",
+        "identifier": "CB725E7783B4D6816B27C53604F951C5E8B4CF95",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "adamneilson",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/adamneilson/status/725771567830044672",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "adamneilson",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/adamneilson/a7acec020399ea40cd8574628ac075c4",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London"
+    },
+    "description": "CTO of WeFarm, dad, geek and tea drinker",
+    "graph": {
+      "url": "https://s3.amazonaws.com/grph/aan"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/aan",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/aan",
+        "name": "cover"
+      }
+    ],
+    "name": "Adam Neilson",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://aan.io"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "adamneilson",
+      "proof_url": "https://twitter.com/adamneilson/status/725771567830044672",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "adamneilson",
+      "proof_url": "https://gist.github.com/adamneilson/a7acec020399ea40cd8574628ac075c4",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN aan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/aan.id\"\n"
 }

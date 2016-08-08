@@ -1,6 +1,74 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "12Qhhnab2VF2Gj1QMdYkQoc29j9BUKCttE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "binaerdramaturg",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/wladston",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sebastian.krohn",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/wladston/status/761465457694113792",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dramaturg",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dramaturg/0379e3c81fbc1f0876a89edd54341b22",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "337wDBJDek4oDUKsdyACzSXBJ7ys6Uh9hv",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/dramaturg",
+        "identifier": "B4A5EC9C82268497",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Amsterdam"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Sebastian Krohn"
+  },
+  "verifications": [
+    {
+      "identifier": "binaerdramaturg",
+      "proof_url": "https://www.facebook.com/wladston",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "sebastian.krohn",
+      "proof_url": "https://twitter.com/wladston/status/761465457694113792",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "dramaturg",
+      "proof_url": "https://gist.github.com/dramaturg/0379e3c81fbc1f0876a89edd54341b22",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN dramaturg.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dramaturg.id\"\n"
 }

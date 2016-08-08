@@ -1,6 +1,26 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1DhYZsWPjQuEfwLWqyWTV7VSt2FHDVw9X7",
+  "profile": {
+    "@type": "Person",
+    "account": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sammamish, WA USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dwestern",
+        "name": "avatar"
+      }
+    ],
+    "name": "Dale David Western"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN dwestern.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dwestern.id\"\n"
 }

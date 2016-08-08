@@ -1,6 +1,74 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1DRFVGcnF1ViZvT2WApFc7qdzJAyDRjnn7",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "horsewell",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/horsewell",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "horsewell",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/horsewell/status/749135881479397377",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "horsewell",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/horsewell/posts/10206171458077341",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Perth, Western Australia"
+    },
+    "description": "Entrepreneur",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/horsewell",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/horsewell",
+        "name": "cover"
+      }
+    ],
+    "name": "Tyson Horsewell",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://suarstudios.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "horsewell",
+      "proof_url": "https://gist.github.com/horsewell",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "horsewell",
+      "proof_url": "https://twitter.com/horsewell/status/749135881479397377",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "horsewell",
+      "proof_url": "https://www.facebook.com/horsewell/posts/10206171458077341",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN horsewell.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/horsewell.id\"\n"
 }

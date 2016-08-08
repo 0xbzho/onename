@@ -1,0 +1,61 @@
+{
+  "owner_address": "16VqxHK2R4M3buBWAeahuBynic99jGeN4j",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "metaphorex",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/metaphorex/cda07f84e8340848b9aa74a9ec4ceb1c",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/metaphore",
+        "identifier": "2246F5CD0AF593E4568AC16987D4865AA61092AF",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "metaphorex0",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/metaphorex0/status/762040672551628800",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1CdZxVuDc6f1hnEUmDFNrCeEZMHfa3Yr2A",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/metaphore",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/metaphore",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "metaphorex",
+      "proof_url": "https://gist.github.com/metaphorex/cda07f84e8340848b9aa74a9ec4ceb1c",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "metaphorex0",
+      "proof_url": "https://twitter.com/metaphorex0/status/762040672551628800",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN metaphore.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/metaphore.id\"\n"
+}

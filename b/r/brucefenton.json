@@ -1,6 +1,67 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "19ZHziVcx7FC5gqPNpDmRDBAeDEYzEHuNo",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "BruceFenton",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "BRUCEFENTONPAGE",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/BRUCEFENTONPAGE/posts/10100232091548657",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "brucefenton",
+        "proofType": "http",
+        "proofUrl": "https://mobile.twitter.com/brucefenton/status/748678265053872129",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boston USA and Riyadh KSA"
+    },
+    "description": "Bitcoiner, traveler & freedom loving techno geek.  Founder of Atlantic Financial & Boston Gulf Advisors Group.   Board member of the Bitcoin Association.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/brucefenton",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/brucefenton",
+        "name": "cover"
+      }
+    ],
+    "name": "Bruce Fenton",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://Facebook.com/BruceFentonPage"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "BRUCEFENTONPAGE",
+      "proof_url": "https://facebook.com/BRUCEFENTONPAGE/posts/10100232091548657",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "brucefenton",
+      "proof_url": "https://mobile.twitter.com/brucefenton/status/748678265053872129",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN brucefenton.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/brucefenton.id\"\n"
 }

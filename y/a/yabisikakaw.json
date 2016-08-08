@@ -1,6 +1,84 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1BuYK5mbdWzepi3sReZszncrjfZZb9FyCz",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "yabisikakaw",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/yabisikakaw/status/736965122288029696",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "yabisikakaw",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/yabisikakaw/posts/1734257213462072",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "yabisikakaw",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/yabisikakaw/20cd47b99caf1d1a08c92f4ef47b7061",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1G7tki4BMMSeNjiPaLDwdChNakk1aw94KP",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "4dc6f9d8382a230dc6862e28f8713f00d50ce252",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Puerto Rico"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/yabisikakaw",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/yabisikakaw",
+        "name": "cover"
+      }
+    ],
+    "name": "Yabisi Kakaw",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://cacao.farm"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "yabisikakaw",
+      "proof_url": "https://twitter.com/yabisikakaw/status/736965122288029696",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "yabisikakaw",
+      "proof_url": "https://www.facebook.com/yabisikakaw/posts/1734257213462072",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "yabisikakaw",
+      "proof_url": "https://gist.github.com/yabisikakaw/20cd47b99caf1d1a08c92f4ef47b7061",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN yabisikakaw.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/yabisikakaw.id\"\n"
 }

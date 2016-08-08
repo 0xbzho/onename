@@ -1,6 +1,31 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1Jej8V7Rj65jf7P9pqKVGbdW3BJhmgTyj5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "terikfelix",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TeriKFelix/status/750409133300469760?lang=en",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "terikfelix",
+      "proof_url": "https://twitter.com/TeriKFelix/status/750409133300469760?lang=en",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tkfelix.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tkfelix.id\"\n"
 }

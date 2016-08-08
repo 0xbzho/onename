@@ -1,6 +1,85 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1BP7r8CjJbjXYugEYDFhY2zeCi9mdd5cGz",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "15EQPm5BFGbxkqjqAoZKhapwShTtzap9aj",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nrobinson2000",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/nrobinson2000/status/732265428869873664",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nrobinson2000",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/nrobinson2000/posts/694756304009012",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nrobinson2000",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/nrobinson2000/3c3a39d28b1c04aaee33",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "eb0ae6ecb1b80fa1151baf740d5b393be18bcdc7",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "United Kingdom"
+    },
+    "description": "Maker, Hacker, Student. I love building websites and programming embedded devices.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nrobinson2000",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/nrobinson2000",
+        "name": "cover"
+      }
+    ],
+    "name": "Nathan Robinson",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://nrobinson2000.github.io"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "nrobinson2000",
+      "proof_url": "https://twitter.com/nrobinson2000/status/732265428869873664",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "nrobinson2000",
+      "proof_url": "https://www.facebook.com/nrobinson2000/posts/694756304009012",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "nrobinson2000",
+      "proof_url": "https://gist.github.com/nrobinson2000/3c3a39d28b1c04aaee33",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN nrobinson2000.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nrobinson2000.id\"\n"
 }

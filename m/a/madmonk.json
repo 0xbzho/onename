@@ -1,6 +1,47 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "15gwaK7LAUv11va5ZUHsLvg8thVTViKrNE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gist:e6900fe2993115bc0cc98a21027b0cf8",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/madmonk",
+        "identifier": "Monk",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "e16816679b8f3588880ddcb251994c0690944ef0",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "US"
+    },
+    "description": "I no longer deal with units of time under one minute.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/madmonk",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/madmonk",
+        "name": "cover"
+      }
+    ],
+    "name": "Monk",
+    "website": []
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN madmonk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/madmonk.id\"\n"
 }

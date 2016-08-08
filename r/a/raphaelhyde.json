@@ -1,6 +1,23 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "14KTsahSeC6wZctxqqL94ZpkJZNRQs1chk",
+  "profile": {
+    "@type": "Person",
+    "account": [],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Raphael",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.raphaelhyde.com"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN raphaelhyde.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/raphaelhyde.id\"\n"
 }

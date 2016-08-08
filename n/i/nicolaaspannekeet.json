@@ -1,6 +1,54 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1CyrKNcFKSWcuBFPXFAkZd9vbceN1sLi32",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1EhiYSVsPbcy9koNtQzF4pwSpU7bzAcTqx",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nic.pannekeet",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/nicolaaspannekeet&redirect_uri=https://onename.com/nicolaaspannekeet%23facebook",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Shanghai China"
+    },
+    "description": "A serial entrepreneur in China",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nicolaaspannekeet",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/nicolaaspannekeet",
+        "name": "cover"
+      }
+    ],
+    "name": "Nicolaas Pannekeet",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.chcbiz.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "nic.pannekeet",
+      "proof_url": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/nicolaaspannekeet&redirect_uri=https://onename.com/nicolaaspannekeet%23facebook",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN nicolaaspannekeet.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nicolaaspannekeet.id\"\n"
 }

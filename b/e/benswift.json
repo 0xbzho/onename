@@ -1,0 +1,31 @@
+{
+  "owner_address": "12qrD79xe5Pe16Mo7aPPEdU3THPnDv1gX1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "beswift",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/beswift/888ba0c2de751b89e8ad5a749007799c",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "beswift",
+      "proof_url": "https://gist.github.com/beswift/888ba0c2de751b89e8ad5a749007799c",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN benswift.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/benswift.id\"\n"
+}

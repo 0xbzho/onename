@@ -1,6 +1,55 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1v5hpKhP4wcBuhABWUcyMuWgc98uEsQfE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "djoerd",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/djoerd/fbcfb23b3e1923ab519971d68afc0043",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "http://wwwhome.cs.utwente.nl/~hiemstra/wp-content/pubkey.asc",
+        "identifier": null,
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1GiSWhJuPSBSBUSDKd73QG8kwfNgjNWNP9",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/djoerd",
+        "name": "avatar"
+      }
+    ],
+    "name": "Djoerd Hiemstra",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.cs.utwente.nl/~hiemstra"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "djoerd",
+      "proof_url": "https://gist.github.com/djoerd/fbcfb23b3e1923ab519971d68afc0043",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN djoerd.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/djoerd.id\"\n"
 }

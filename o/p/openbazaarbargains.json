@@ -1,6 +1,36 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1f4MLS6fhwYviiikp6XfmRWhNnFTXr3u9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "EdBilliot",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/EdBilliot/eecc1140d8f805a960965c81f560fb75",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/openbazaarbargains",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "EdBilliot",
+      "proof_url": "https://gist.github.com/EdBilliot/eecc1140d8f805a960965c81f560fb75",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN openbazaarbargains.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/openbazaarbargains.id\"\n"
 }

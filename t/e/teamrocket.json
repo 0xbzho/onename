@@ -1,6 +1,28 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1HDXS3gvrJFaKobL2x1mhckcHULwRBtUyT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "d26f69365ff87410cbbad902c063ddc662495bee",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/teamrocket",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/teamrocket",
+        "name": "cover"
+      }
+    ],
+    "name": "Team Rocket"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN teamrocket.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/teamrocket.id\"\n"
 }

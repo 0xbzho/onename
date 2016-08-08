@@ -1,6 +1,66 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "17eSjrs8tEKPda45hUKmAVLqGYvPAZTCKg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1MxK453qKNKYe6tBkTMkFqQCfDE7AqEYLn",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "2018c7c4e74c226e8a168fc8ecf0f1cea85f34f5",
+        "service": "warez"
+      },
+      {
+        "@type": "Account",
+        "identifier": "EricKemedy",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/EricKemedy/status/728089515131199490?lang=en",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "erickemedy",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/erickemedy/2643e64bbcfbd46f6cbf3884ab5ffb0c",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Reston, VA"
+    },
+    "description": "Founder of blockbox.io",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/erick",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Eric"
+  },
+  "verifications": [
+    {
+      "identifier": "EricKemedy",
+      "proof_url": "https://twitter.com/EricKemedy/status/728089515131199490?lang=en",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "erickemedy",
+      "proof_url": "https://gist.github.com/erickemedy/2643e64bbcfbd46f6cbf3884ab5ffb0c",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN erick.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/erick.id\"\n"
 }

@@ -1,6 +1,58 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1x6bf6bNAYyUnPXnejpxtgPjhrYvxLqSp",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "fontvirus",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "xero.nu",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "xero",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1LvZftPiaJpYmF8eNY66FHPnjMCicNMv2v",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "~/"
+    },
+    "description": "(function(){if(x!='code'){die;}})();",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/xero",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/xero",
+        "name": "cover"
+      }
+    ],
+    "name": "xero harrison",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://xero.nu"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN xero.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/xero.id\"\n"
 }

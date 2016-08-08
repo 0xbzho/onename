@@ -1,6 +1,32 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "154UvJaFxtXZVNUbut1jTQVuiUvB5nxydy",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gerardblanton",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gerardblanton/status/757992702709370884",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Gerard Blanton"
+  },
+  "verifications": [
+    {
+      "identifier": "gerardblanton",
+      "proof_url": "https://twitter.com/gerardblanton/status/757992702709370884",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN gblatt22.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gblatt22.id\"\n"
 }

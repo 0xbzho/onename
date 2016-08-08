@@ -1,6 +1,36 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1Ae9toc83D7Uz99ZKq7zx1YKJvMurJ5JD8",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "paul.thronson",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/paul.thronson/posts/10210181934771850",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sioux Falls, SD, USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Paul Thronson"
+  },
+  "verifications": [
+    {
+      "identifier": "paul.thronson",
+      "proof_url": "https://www.facebook.com/paul.thronson/posts/10210181934771850",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN paulthronson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/paulthronson.id\"\n"
 }

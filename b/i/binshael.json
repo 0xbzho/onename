@@ -1,6 +1,55 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1Mc4Dz1diUzXQnUZCFxYBZxBi4FRBcdK6Q",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "binshael",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/saved/?cref=53",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "binshael",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/QuintanillaHR/status/757693574515273728",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "0879f7dc-a3d8-44ff-a411-1de90e526915",
+        "service": "blockchain"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/binshael",
+        "name": "avatar"
+      }
+    ],
+    "name": "Mohammed Shael Alsaadi"
+  },
+  "verifications": [
+    {
+      "identifier": "binshael",
+      "proof_url": "https://www.facebook.com/saved/?cref=53",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "binshael",
+      "proof_url": "https://twitter.com/QuintanillaHR/status/757693574515273728",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN binshael.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/binshael.id\"\n"
 }

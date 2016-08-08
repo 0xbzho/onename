@@ -1,6 +1,54 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "19d5gWydTY1YKr5igAYzV8XZUbXkDGHi1k",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "12DbdqXhME4zVLQ6rQmmHdw1K4tMiYk3iY",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "evanjdufour",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/evanjdufour/status/762435879281397761",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York, NY"
+    },
+    "description": "Digital Producer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/evandufour",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/evandufour",
+        "name": "cover"
+      }
+    ],
+    "name": "Evan Dufour",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.evandufour.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "evanjdufour",
+      "proof_url": "https://twitter.com/evanjdufour/status/762435879281397761",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN evandufour.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/evandufour.id\"\n"
 }

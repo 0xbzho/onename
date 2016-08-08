@@ -1,6 +1,80 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1JyDkBmwdkPkfu5P4hw11mnnwLMR3WG1yc",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1Kg84SCZy6WBX3JgZbXvHa7bpDx9xwN2y7",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ifvictr",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ifvictr/status/755881256261267456",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ifvictr",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ifvictr/5b7aed3fc5c09098a2be02df6378a05a",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ifvictr",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ifvictr/posts/281432272215302",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "California, United States"
+    },
+    "description": "I'm a noob programmer. My code hardly ever works, but if it does, I guess it's just luck.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ifvictr",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ifvictr",
+        "name": "cover"
+      }
+    ],
+    "name": "Victor Truong",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://ifvictr.github.io"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ifvictr",
+      "proof_url": "https://twitter.com/ifvictr/status/755881256261267456",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ifvictr",
+      "proof_url": "https://gist.github.com/ifvictr/5b7aed3fc5c09098a2be02df6378a05a",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "ifvictr",
+      "proof_url": "https://www.facebook.com/ifvictr/posts/281432272215302",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ifvictr.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ifvictr.id\"\n"
 }

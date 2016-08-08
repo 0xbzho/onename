@@ -1,6 +1,45 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "15dbEXjBV2L6amkGixGmYt2Pe3wKtZXsPh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dolatron",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dolatron/status/761542895203680256",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dolatron",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dolatron/b3c81596333b1f0293263595792890cd",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Chris Dolan"
+  },
+  "verifications": [
+    {
+      "identifier": "dolatron",
+      "proof_url": "https://twitter.com/dolatron/status/761542895203680256",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "dolatron",
+      "proof_url": "https://gist.github.com/dolatron/b3c81596333b1f0293263595792890cd",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dolatron.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dolatron.id\"\n"
 }

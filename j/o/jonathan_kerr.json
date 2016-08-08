@@ -1,6 +1,75 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "16qhgpBP8BGeQAWabXp35kKM6fo2QpMT1h",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/jonathan_kerr",
+        "identifier": "F8E42BF9",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jonodrew",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jonodrew/status/761949938507022341",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jonathan.kerr",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jonathan.kerr/posts/10153633849845723?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jonodrew",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jonodrew/4041cdb1ce7d6a032d2eb496f479b169",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London, England"
+    },
+    "description": "Nerd/geek. Super excited about practical applications of tech. DaT trainee with @faststreamuk All views entirely my own.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jonathan_kerr",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jonathan_kerr",
+        "name": "cover"
+      }
+    ],
+    "name": "Jonathan Kerr"
+  },
+  "verifications": [
+    {
+      "identifier": "jonodrew",
+      "proof_url": "https://twitter.com/jonodrew/status/761949938507022341",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jonathan.kerr",
+      "proof_url": "https://www.facebook.com/jonathan.kerr/posts/10153633849845723?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "jonodrew",
+      "proof_url": "https://gist.github.com/jonodrew/4041cdb1ce7d6a032d2eb496f479b169",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jonathan_kerr.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jonathan_kerr.id\"\n"
 }

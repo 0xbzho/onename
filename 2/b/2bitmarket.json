@@ -1,6 +1,33 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "19FPW2FYFDs8aQa9KUo8pr2S677eAHZs2e",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "886a6f269ec3e82d958f5aeb4ff120d291d9c1c5",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "United Kingdom"
+    },
+    "description": "Goods & Services",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/2bitmarket",
+        "name": "avatar"
+      }
+    ],
+    "name": "2BitMarket"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN 2bitmarket.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/2bitmarket.id\"\n"
 }

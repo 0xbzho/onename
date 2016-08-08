@@ -1,6 +1,53 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1AMwPQvpgRz3Kcrgy9ze71Sy8gcSRfkWYQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Tomy2e",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Tomy2e/status/744302169617219584",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/tomy2e",
+        "identifier": "D6E05748514E0FD01B7800715DA296AE5D470F96",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Rennes, France"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tomy2e",
+        "name": "avatar"
+      }
+    ],
+    "name": "Tomy Guichard",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.tomy2e.fr"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Tomy2e",
+      "proof_url": "https://twitter.com/Tomy2e/status/744302169617219584",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tomy2e.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tomy2e.id\"\n"
 }

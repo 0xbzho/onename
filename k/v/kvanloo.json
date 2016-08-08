@@ -1,6 +1,80 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "19piUUEZ3g6GnRt5ULBKq1NZbpEmjKsjez",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1Pqt9VPmRcSfoBJpMhdYzHiYxJ8QgiRGgV",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kvanloo",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/kvanloo/posts/10209831588214864?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kvl0",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kvl0/status/740828510672064512",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/2b5ec385d16be1ec84afca19e83c70aa#file-gistfile1-txt",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brugge, Belgium"
+    },
+    "description": "Find me on http://t.co/frdOMaUYCt",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kvanloo",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Koen Van Loo",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://about.me/koenvanloo"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "kvanloo",
+      "proof_url": "https://www.facebook.com/kvanloo/posts/10209831588214864?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "kvl0",
+      "proof_url": "https://twitter.com/kvl0/status/740828510672064512",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/2b5ec385d16be1ec84afca19e83c70aa#file-gistfile1-txt",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kvanloo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kvanloo.id\"\n"
 }

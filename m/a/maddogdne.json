@@ -1,6 +1,49 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "18KmFSZkQk2Vk69ZUfn7DTsRhv3bL8rWEE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/0532ad9dac2b283a5375f0ca4379371b",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "@maddogdne",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/maddogdne/status/749071335272378368?lang=en",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/maddogdne",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/0532ad9dac2b283a5375f0ca4379371b",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "@maddogdne",
+      "proof_url": "https://twitter.com/maddogdne/status/749071335272378368?lang=en",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN maddogdne.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/maddogdne.id\"\n"
 }

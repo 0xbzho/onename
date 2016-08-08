@@ -1,6 +1,44 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1MqH82vy7exLQc24A4qPd5JPL5M8RNWw6Q",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tejallam",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TejAllam/status/760666365980139520",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "TejAllam",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/TejAllam/649fc21a3a69396223107544ae85010d",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tejallam",
+      "proof_url": "https://twitter.com/TejAllam/status/760666365980139520",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "TejAllam",
+      "proof_url": "https://gist.github.com/TejAllam/649fc21a3a69396223107544ae85010d",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tej_allam.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tej_allam.id\"\n"
 }

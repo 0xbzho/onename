@@ -1,6 +1,73 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1ATqPpkamjtsiwC37inj4kSoTCDyUWNXd2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "toy_bazaar",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/toy_bazaar/status/740061591052357632",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/3919f46b82ee4a7dfb0eeb68a62c5445",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mwa.haaha.1",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mwa.haaha.1/posts/1218719911471504",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cbd7522f7b5e11d7738a1f3f01d13c163fc7d7c1",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Europe"
+    },
+    "description": "Collectible, Toy Hunter, all items 100% Originals.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/toybazaar",
+        "name": "avatar"
+      }
+    ],
+    "name": "ToyBazaar"
+  },
+  "verifications": [
+    {
+      "identifier": "toy_bazaar",
+      "proof_url": "https://twitter.com/toy_bazaar/status/740061591052357632",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/3919f46b82ee4a7dfb0eeb68a62c5445",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "mwa.haaha.1",
+      "proof_url": "https://www.facebook.com/mwa.haaha.1/posts/1218719911471504",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN toybazaar.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/toybazaar.id\"\n"
 }

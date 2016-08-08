@@ -1,6 +1,37 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "13MzS3mTCqDs5Lyz6FyrDAiFjYed7pBcJN",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "neilwillgettoit",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/neilwillgettoit/f166697cce1079b67bcbbdf1787563a3",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/neilsmith",
+        "name": "avatar"
+      }
+    ],
+    "name": "Neil Smith"
+  },
+  "verifications": [
+    {
+      "identifier": "neilwillgettoit",
+      "proof_url": "https://gist.github.com/neilwillgettoit/f166697cce1079b67bcbbdf1787563a3",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN neilsmith.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/neilsmith.id\"\n"
 }

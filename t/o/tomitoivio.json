@@ -1,6 +1,68 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1696s1jhjW7WEdTRGaX2aArMVz5uTssXqE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "@Tomi_Toivio",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/tomitoivio",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "TomiToivio",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/TomiToivio/11d31ad4963fbbfa38e756ba020f92c8",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tomi.toivio",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/tomi.toivio/posts/10153750470501094?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Finland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Tomi Toivio",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://ukulilandia.lol"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "@Tomi_Toivio",
+      "proof_url": "https://onename.com/tomitoivio",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "TomiToivio",
+      "proof_url": "https://gist.github.com/TomiToivio/11d31ad4963fbbfa38e756ba020f92c8",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "tomi.toivio",
+      "proof_url": "https://www.facebook.com/tomi.toivio/posts/10153750470501094?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tomitoivio.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tomitoivio.id\"\n"
 }

@@ -1,6 +1,60 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "19RsYynnsCAQb6KqipxeUSSePNXpKpRTGn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bigme666",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bigme666/dc42402016ad2481768ea5ca267c54b4",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cesc.negredo",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/cesc.negredo/posts/126890271076960",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Italy"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/frankcavallo",
+        "name": "avatar"
+      }
+    ],
+    "name": "Francesco Cavallo",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://frankiecodestohollywood.blogger.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bigme666",
+      "proof_url": "https://gist.github.com/bigme666/dc42402016ad2481768ea5ca267c54b4",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "cesc.negredo",
+      "proof_url": "https://www.facebook.com/cesc.negredo/posts/126890271076960",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN frankcavallo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/frankcavallo.id\"\n"
 }

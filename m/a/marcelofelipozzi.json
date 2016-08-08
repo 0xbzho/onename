@@ -1,6 +1,49 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1EWPqwg5Gha21BNivgu1ifVBsBzbgyx3um",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mfelipozzi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mfelipozzi/status/752329680661975040",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "marcelofelipozzi",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/marcelofelipozzi&redirect_uri=https://onename.com/marcelofelipozzi%23facebook",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/marcelofelipozzi",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mfelipozzi",
+      "proof_url": "https://twitter.com/mfelipozzi/status/752329680661975040",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "marcelofelipozzi",
+      "proof_url": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/marcelofelipozzi&redirect_uri=https://onename.com/marcelofelipozzi%23facebook",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN marcelofelipozzi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/marcelofelipozzi.id\"\n"
 }

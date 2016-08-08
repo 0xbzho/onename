@@ -1,6 +1,73 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "15RpyPQqB8a4Q6JJpxkPsYz18AwHPUWN29",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "felix.sandstrom88",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "17gtcgA4GtcNTkoegRxtL8zKhtm2A31Kth",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "felixsand",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/felixsand/21cbb3c604996256fa4377f8f3c02373",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "SandstromFelix",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SandstromFelix/status/756102148367216640",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mölndal, Sweden"
+    },
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://graph.facebook.com/felixsandstrom88/picture?type=large",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/felixsand",
+        "name": "cover"
+      }
+    ],
+    "name": "Felix Sandström",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": ""
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "felixsand",
+      "proof_url": "https://gist.github.com/felixsand/21cbb3c604996256fa4377f8f3c02373",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "SandstromFelix",
+      "proof_url": "https://twitter.com/SandstromFelix/status/756102148367216640",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN felixsand.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/felixsand.id\"\n"
 }

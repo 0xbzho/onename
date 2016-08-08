@@ -1,6 +1,24 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1MmhACp9JSPmeWdDNrNJU364VCovbfgKoi",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "13hqxvacLwvXLChRDpmWgGe13qUC2Ur6JJ",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Julia Smith"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN julia_smith.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/julia_smith.id\"\n"
 }

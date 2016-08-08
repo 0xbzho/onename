@@ -1,6 +1,44 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1AhYhapKDwZCdBkfYkkaAA9fVgXnGqybD6",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jamesxixu",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Jamesxixu/status/750733588006596608",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Jamesxixu",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Jamesxixu/2ec767f967e98ecc05fdefc3c436f36a#file-verifying-myself",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jamesxixu",
+      "proof_url": "https://twitter.com/Jamesxixu/status/750733588006596608",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "Jamesxixu",
+      "proof_url": "https://gist.github.com/Jamesxixu/2ec767f967e98ecc05fdefc3c436f36a#file-verifying-myself",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jamesxu.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jamesxu.id\"\n"
 }

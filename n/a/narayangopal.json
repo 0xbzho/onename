@@ -1,6 +1,56 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "19ZbeUVy43TFuuqKj2foFZaQmtkqTPLyff",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "javadeveloping",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/javadeveloping/status/759098838523064322",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "privatejava",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/privatejava/389560860ae3246c399b7e4cd52cf9fd",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kathmandu, Nepal"
+    },
+    "description": "Software Developer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Narayan G. Maharjan",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://ngopal.com.np"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "javadeveloping",
+      "proof_url": "https://twitter.com/javadeveloping/status/759098838523064322",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "privatejava",
+      "proof_url": "https://gist.github.com/privatejava/389560860ae3246c399b7e4cd52cf9fd",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN narayangopal.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/narayangopal.id\"\n"
 }

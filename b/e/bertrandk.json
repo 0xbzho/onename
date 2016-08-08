@@ -1,6 +1,36 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1Ekv2wL6S9eWM9YMr4ELu9LcRmkpdHqFSH",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bertrandk",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bertrandk/9dc747fa70e4437dddc6b09d1d1c76d1",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bertrandk",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bertrandk",
+      "proof_url": "https://gist.github.com/bertrandk/9dc747fa70e4437dddc6b09d1d1c76d1",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bertrandk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bertrandk.id\"\n"
 }

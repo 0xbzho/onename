@@ -1,6 +1,62 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1Bv2qjno9jV6DofgvreH5sQ5an8qb2PNmJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bobwarwick",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BobWarwick/status/759833350894817280",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "robertwarwick",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/robertwarwick/48ffd6311f3fd42876d0b22a1ebb3d65",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bob.warwick2",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bob.warwick2/posts/10153726726316981?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Scotland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Robert Warwick"
+  },
+  "verifications": [
+    {
+      "identifier": "bobwarwick",
+      "proof_url": "https://twitter.com/BobWarwick/status/759833350894817280",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "robertwarwick",
+      "proof_url": "https://gist.github.com/robertwarwick/48ffd6311f3fd42876d0b22a1ebb3d65",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "bob.warwick2",
+      "proof_url": "https://www.facebook.com/bob.warwick2/posts/10153726726316981?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN robertwarwick.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/robertwarwick.id\"\n"
 }

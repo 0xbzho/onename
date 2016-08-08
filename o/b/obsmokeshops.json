@@ -1,6 +1,71 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "16TYBLGxPnR48PGyxMjS625nn64wHwEXbb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "276ffe4856bcf5f5f3bd6eed0b25783f581139f8",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "3PLWA27vjQfgYsCWaUVJbb51hSpedQDQH3",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "OBSmokeShops",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/VapeCryptoDist/status/761187188629393408",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ItsACryptoWorld",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ItsACryptoWorld/5a0fb46d5eb12568200c54577542665f",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "ob://276ffe4856bcf5f5f3bd6eed0b25783f581139f8/about"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/obsmokeshops",
+        "name": "avatar"
+      }
+    ],
+    "name": "OBSmokeShops",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.vapecryptostore.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "OBSmokeShops",
+      "proof_url": "https://twitter.com/VapeCryptoDist/status/761187188629393408",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "ItsACryptoWorld",
+      "proof_url": "https://gist.github.com/ItsACryptoWorld/5a0fb46d5eb12568200c54577542665f",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN obsmokeshops.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/obsmokeshops.id\"\n"
 }

@@ -1,6 +1,31 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1CrqLX9Boenma8cCFJkDNAH5LUEse89dae",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "soumya888",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/who8mycurry?post_id=10154407562447502_10154407568002502#/facebook",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "soumya888",
+      "proof_url": "https://onename.com/who8mycurry?post_id=10154407562447502_10154407568002502#/facebook",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN who8mycurry.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/who8mycurry.id\"\n"
 }

@@ -1,6 +1,48 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1ADathXkFxMBjsTSZGAbQd3FvWfPqZ2h1V",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "petryearl",
+        "proofType": "http",
+        "proofUrl": "Verifying that +cliffatgoodland is my blockchain ID. https://onename.com/cliffatgoodland",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Goodland Kansas 67735"
+    },
+    "description": "A Go Getter",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cliffatgoodland",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/cliffatgoodland",
+        "name": "cover"
+      }
+    ],
+    "name": "Clifford Petry",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://cliffatgoodlandwebbasics.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "petryearl",
+      "proof_url": "Verifying that +cliffatgoodland is my blockchain ID. https://onename.com/cliffatgoodland",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN cliffatgoodland.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cliffatgoodland.id\"\n"
 }

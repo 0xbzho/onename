@@ -1,6 +1,41 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "15rRxcxKEdGnTUkg6KzaPw9jrcickCgCjY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ooigroup.slack.com",
+        "service": "slack"
+      },
+      {
+        "@type": "Account",
+        "identifier": "alex.donger@aol.co.uk",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/alex.donger.9/posts/10157215003095425?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Amsterdam, Netherlands"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Alexander Donger"
+  },
+  "verifications": [
+    {
+      "identifier": "alex.donger@aol.co.uk",
+      "proof_url": "https://www.facebook.com/alex.donger.9/posts/10157215003095425?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN alex_donger.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alex_donger.id\"\n"
 }

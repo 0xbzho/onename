@@ -1,6 +1,24 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1D4gipa7ZWcz2o1DhQd1PGqbZzxtck77va",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "6c90d9438375ed599354d910945be0e0043261b2",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/AlexanderKhrustal/7dcb147f77013ba8a41616c40b0fb72b",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN nextbit.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nextbit.id\"\n"
 }

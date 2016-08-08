@@ -1,6 +1,36 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1NjjhA8shERKBPEj2sf948HKSjhrj5Kezv",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Volkswagenparts",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Volkswagenparts/c0ef705682d12fc03d0dba5349a421a0",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gmcparts",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Volkswagenparts",
+      "proof_url": "https://gist.github.com/Volkswagenparts/c0ef705682d12fc03d0dba5349a421a0",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN gmcparts.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gmcparts.id\"\n"
 }

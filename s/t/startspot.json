@@ -1,6 +1,53 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1DRypuFpEF7R2JjGUxvxL4BUCrBaTKxr5u",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "start_spot",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/start_spot/status/733697585073037312",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "43e1af9a2390e87fb81b6453e2787b4f776889db",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Germany"
+    },
+    "description": "StartSPOT the StartCOIN powered Wi-Fi HotSpot. Share your internet connection with your neighbors and customers and earn money with it.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/startspot",
+        "name": "avatar"
+      }
+    ],
+    "name": "StartSPOT",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://startspot.org"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "start_spot",
+      "proof_url": "https://twitter.com/start_spot/status/733697585073037312",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN startspot.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/startspot.id\"\n"
 }

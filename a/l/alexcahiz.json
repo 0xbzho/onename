@@ -1,6 +1,44 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "13qFokcywXkseEVvnsiov6DJssQ7GMQ422",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "total_nomad",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Total_Nomad/status/756505019436924929",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "alexcahiz",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/alexcahiz/posts/10101795814670045",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "total_nomad",
+      "proof_url": "https://twitter.com/Total_Nomad/status/756505019436924929",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "alexcahiz",
+      "proof_url": "https://www.facebook.com/alexcahiz/posts/10101795814670045",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN alexcahiz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alexcahiz.id\"\n"
 }

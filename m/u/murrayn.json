@@ -1,6 +1,65 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1Nu2FcHovr95vbc9XhYYVmgSqPq5YsAFXy",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "murray.nesbitt",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "murrayn",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1MgUEZgmGNBjmJyiUhEU4HWKSq1ereEraQ",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "murray_nesbitt",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/murray_nesbitt/status/715306746860806145",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "BC Canada"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/murrayn",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Murray Nesbitt",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.nesbitt.ca"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "murray_nesbitt",
+      "proof_url": "https://twitter.com/murray_nesbitt/status/715306746860806145",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN murrayn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/murrayn.id\"\n"
 }

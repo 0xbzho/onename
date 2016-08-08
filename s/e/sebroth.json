@@ -1,6 +1,56 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "18z3eWhzJ6TzYLGHtT68n9kvA6GXbYpsFw",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "enedhilwen",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/enedhilwen/status/761493733158248448",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ened",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ened/2160dbd9dc1037161f83aeecbd40a085",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Taipei, Taiwan"
+    },
+    "description": "Software Engineer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Sebastian Roth",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.sebroth.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "enedhilwen",
+      "proof_url": "https://twitter.com/enedhilwen/status/761493733158248448",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ened",
+      "proof_url": "https://gist.github.com/ened/2160dbd9dc1037161f83aeecbd40a085",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN sebroth.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sebroth.id\"\n"
 }

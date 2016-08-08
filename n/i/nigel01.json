@@ -1,6 +1,49 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1CUR9qijdeoQ9ELjFgmUC2gySpZv4w2RtC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "@Gibnige",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Gibnige/status/750610915570122752",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Nigel Neale",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/nigel.neale.50/posts/10153762760898963?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Gibraltar"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Nigel Neale"
+  },
+  "verifications": [
+    {
+      "identifier": "@Gibnige",
+      "proof_url": "https://twitter.com/Gibnige/status/750610915570122752",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "Nigel Neale",
+      "proof_url": "https://www.facebook.com/nigel.neale.50/posts/10153762760898963?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN nigel01.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nigel01.id\"\n"
 }

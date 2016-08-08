@@ -1,6 +1,36 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1MeFSzjcFXc8vfw83hy3KPTLx7um8tYnSp",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "skincancerguru",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/skincancerguru/status/760436822354694144",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sydney"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ian Katz"
+  },
+  "verifications": [
+    {
+      "identifier": "skincancerguru",
+      "proof_url": "https://twitter.com/skincancerguru/status/760436822354694144",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN kitkatz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kitkatz.id\"\n"
 }

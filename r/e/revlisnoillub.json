@@ -1,6 +1,80 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1AUGdeiESHe1bmpcaJKVzneJbptwvaxvbN",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1Lxo68e8WYgYTbyayXNjMRFZEKZe7qBefw",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "RevlisNoillub",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RevlisNoillub/status/726192549879111680",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "revlisnoillub",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/revlisnoillub/1d99eef717594ac3e9736b5ea47b2181",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "RevlisNoillub",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/RevlisNoillub/posts/870098603134616",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "9d1b2f216114de1e00fb0c446717240f07f02faa",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/revlisnoillub",
+        "name": "avatar"
+      }
+    ],
+    "name": "Revlis Noillub",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://RevlisNoillub.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "RevlisNoillub",
+      "proof_url": "https://twitter.com/RevlisNoillub/status/726192549879111680",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "revlisnoillub",
+      "proof_url": "https://gist.github.com/revlisnoillub/1d99eef717594ac3e9736b5ea47b2181",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "RevlisNoillub",
+      "proof_url": "https://www.facebook.com/RevlisNoillub/posts/870098603134616",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN revlisnoillub.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/revlisnoillub.id\"\n"
 }

@@ -1,6 +1,30 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1DAVsVTCowzp23RzwTZy5vYCPS4iVpxAH7",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "8326633947d7a4b0d304bc459385596da3a2fbc8",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Binnov8%20is%20my%20blockchain%20ID.%20https://onename.com/innov8",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/scificoffee",
+        "name": "avatar"
+      }
+    ],
+    "name": "Sci-Fi Coffee"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN scificoffee.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/scificoffee.id\"\n"
 }

@@ -1,6 +1,67 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1Q1xV2XXSxNpCMjT8qPN7bfne3Jh1xNhFH",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1PtotYy3XC4fWDyzW2h8piL4EhWLz8feKv",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "TinaBonifacio",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/TinaBonifacio",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "@TinaBonifacio",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TinaBonifacio",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Savannah, GA"
+    },
+    "description": "I help busy families, who struggle with disorganization (chronic or situational), get and stay organized and live in the freedom and peace God planned for them.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tinabonifacio",
+        "name": "avatar"
+      }
+    ],
+    "name": "Tina Bonifacio",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.OrganizedByTina.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "TinaBonifacio",
+      "proof_url": "https://www.facebook.com/TinaBonifacio",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "@TinaBonifacio",
+      "proof_url": "https://twitter.com/TinaBonifacio",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tinabonifacio.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tinabonifacio.id\"\n"
 }

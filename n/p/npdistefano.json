@@ -1,6 +1,73 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1igzhnobEptnujqrztJexp7U3GraFo6vW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "npdistefano",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "npdistefano",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1F3DhJ3kbmQchH3rStgm4xWJtzPqZmTzT6",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/npdistefano",
+        "identifier": "2C3A439BF59C963A3E46314867C7D80AD456D",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "npdistefano",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/npdistefano/status/740367358498328577",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boston, MA"
+    },
+    "description": "Interactive & Experience Designer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/npdistefano",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/npdistefano",
+        "name": "cover"
+      }
+    ],
+    "name": "Nick Di Stefano",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://nickdesigns.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "npdistefano",
+      "proof_url": "https://twitter.com/npdistefano/status/740367358498328577",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN npdistefano.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/npdistefano.id\"\n"
 }

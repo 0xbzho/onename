@@ -1,6 +1,37 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1A7zoQStxJUjLXmnEHCzoh7z8RkVnPi4ZK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "princehonest",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "asadoughi",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/asadoughi/a640f86577106c731331a9ad0c9c66ec",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Amir Sadoughi"
+  },
+  "verifications": [
+    {
+      "identifier": "asadoughi",
+      "proof_url": "https://gist.github.com/asadoughi/a640f86577106c731331a9ad0c9c66ec",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN princehonest.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/princehonest.id\"\n"
 }

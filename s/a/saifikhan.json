@@ -1,6 +1,66 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "15BYTSBTFFYLDyecD8bqgMRMztrkorprbL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "saifikhan",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "15pLn78ZDFtyTGkLBhPDRBeLVhqFPiMd9X",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hiSaifi",
+        "proofType": "http",
+        "proofUrl": "https://mobile.twitter.com/hisaifi/status/759918148707491840",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bangalore, India."
+    },
+    "description": "Curious, Fit and Irreverent.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/saifikhan",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/saifikhan",
+        "name": "avatar"
+      }
+    ],
+    "name": "Saifi Khan",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://tensorx.io/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "hiSaifi",
+      "proof_url": "https://mobile.twitter.com/hisaifi/status/759918148707491840",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN saifikhan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/saifikhan.id\"\n"
 }

@@ -1,6 +1,67 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1AE77si1nqK92Zvpib5Kn6v9j9SEUAXFXY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "alokvaidya247",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/alokvaidya247/status/759376044235382786",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "alokvaidya247",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/alokvaidya247/posts/1745674549006130",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "alokvaidya247",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/alokvaidya247/c7d4a445f167bb9484cc728bd466ec8e",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bournemouth, United Kingdom"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/alokvaidya",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/alokvaidya",
+        "name": "cover"
+      }
+    ],
+    "name": "Alok Vaidya"
+  },
+  "verifications": [
+    {
+      "identifier": "alokvaidya247",
+      "proof_url": "https://twitter.com/alokvaidya247/status/759376044235382786",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "alokvaidya247",
+      "proof_url": "https://www.facebook.com/alokvaidya247/posts/1745674549006130",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "alokvaidya247",
+      "proof_url": "https://gist.github.com/alokvaidya247/c7d4a445f167bb9484cc728bd466ec8e",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN alokvaidya.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alokvaidya.id\"\n"
 }

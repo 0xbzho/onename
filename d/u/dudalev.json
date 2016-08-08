@@ -1,6 +1,57 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "16BNrr5YUy8GjpyjKThk2W6pJ5YXXPqNme",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dudalev",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dudalev/posts/10154523147351807",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dudalev",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dudalev/status/756280355708076032",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dudalev",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dudalev/d7fd929ffc7d9d7e9d6e8ec16fecc614",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dudalev",
+      "proof_url": "https://www.facebook.com/dudalev/posts/10154523147351807",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "dudalev",
+      "proof_url": "https://twitter.com/dudalev/status/756280355708076032",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "dudalev",
+      "proof_url": "https://gist.github.com/dudalev/d7fd929ffc7d9d7e9d6e8ec16fecc614",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dudalev.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dudalev.id\"\n"
 }

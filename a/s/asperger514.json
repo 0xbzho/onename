@@ -1,6 +1,60 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1K2cKaL3VZrxNYbD8G6nnpNEJd9N4SSBV9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "asperger514",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/asperger514/status/745443330020937729",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "asperger514",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/Asperger514/posts/876483535811686",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "15e48b65a8e280166e3cf72df731403486cc2aab",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1Ae3HiUzw3RmjhshqtRj3brXU6EP9ZXHd2",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Montreal"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Michael"
+  },
+  "verifications": [
+    {
+      "identifier": "asperger514",
+      "proof_url": "https://twitter.com/asperger514/status/745443330020937729",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "asperger514",
+      "proof_url": "https://www.facebook.com/Asperger514/posts/876483535811686",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN asperger514.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/asperger514.id\"\n"
 }

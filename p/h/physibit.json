@@ -1,6 +1,43 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1PPxE12mPGTUizLj97VfBZszm2NArsjv7a",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "PhysiBit",
+        "proofType": "http",
+        "proofUrl": "xD8Ts27eK9c51ouzC5zHib1WS2iO6vCA",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cambridge UK"
+    },
+    "description": "All Things Bitcoin",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Physical Bitcoins",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.physicalbitcoins.co.uk"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "PhysiBit",
+      "proof_url": "xD8Ts27eK9c51ouzC5zHib1WS2iO6vCA",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN physibit.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/physibit.id\"\n"
 }

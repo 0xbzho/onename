@@ -1,6 +1,29 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1NW5mZCbHxQHPFCEe8yErgum8u3C7WXN6z",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1badf3aaeb25df224c81416b5d4ef6971c00c745",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Art_Geek_Design/status/759600571116613633",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/umarenterprise",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/umarenterprise",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN umarenterprise.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/umarenterprise.id\"\n"
 }

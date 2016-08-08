@@ -1,6 +1,66 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1BKqDsbRMZHg5s97rip1DAd9wde9LnC94X",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "13PbhnZNCioPRi7613DqETs69wM7hDHYnh",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hansx_",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/hansx_/status/749045584619790336",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hhansx",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/hhansx/01f14fc6c9e95beb82eabfd8282bda82",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Norway"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hansx_",
+        "name": "avatar"
+      }
+    ],
+    "name": "Hsx",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://han.sx"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "hansx_",
+      "proof_url": "https://twitter.com/hansx_/status/749045584619790336",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "hhansx",
+      "proof_url": "https://gist.github.com/hhansx/01f14fc6c9e95beb82eabfd8282bda82",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN hansx_.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hansx_.id\"\n"
 }

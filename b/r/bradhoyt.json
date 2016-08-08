@@ -1,6 +1,44 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "18phkJ28T5zQofKY3H8wnSeNMFzen44TS",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "badhoy",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/badhoy/status/758759353679683584",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bhoyt",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bhoyt/posts/10155247954040200",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "badhoy",
+      "proof_url": "https://twitter.com/badhoy/status/758759353679683584",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bhoyt",
+      "proof_url": "https://www.facebook.com/bhoyt/posts/10155247954040200",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN bradhoyt.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bradhoyt.id\"\n"
 }

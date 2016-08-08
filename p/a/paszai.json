@@ -1,6 +1,32 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1MeoPdJJVmukD3BvWxRyMkrMWMV1EyYjSY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "pavlo.ignatusha.9",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/pavlo.ignatusha.9/posts/1326166237412266?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Pavlo Ignatusha"
+  },
+  "verifications": [
+    {
+      "identifier": "pavlo.ignatusha.9",
+      "proof_url": "https://www.facebook.com/pavlo.ignatusha.9/posts/1326166237412266?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN paszai.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/paszai.id\"\n"
 }

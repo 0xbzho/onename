@@ -1,6 +1,29 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1MvshtLMwKf3F3bQgpZpT688obWkorcc9e",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "18Q6A5y9ES3MQQvCJmVSgyWzcQ23ejJKD6",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "a2c3152f96aa11aaee04f51193958b88d60f3b94",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Matt"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN thezeetu.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/thezeetu.id\"\n"
 }

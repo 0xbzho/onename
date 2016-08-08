@@ -1,6 +1,37 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1912cbtdLpX1zuTachjuE6Jzh5Ru3KmbKB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "maroof.shk",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/v2.0/dialog/share?redirect_uri=https%3A%2F%2Fonename.com%2Fmaroof%23facebook&href=https%3A%2F%2Fonename.com%2Fmaroof&client_id=548488045273230&ret=login&ext=1469368894&hash=AebyaKg1HJI2nALa",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Pune- India"
+    },
+    "description": "Junior Tester in one of the leading Gaming Organizations",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Maroof Javed Husain Shaikhji"
+  },
+  "verifications": [
+    {
+      "identifier": "maroof.shk",
+      "proof_url": "https://www.facebook.com/v2.0/dialog/share?redirect_uri=https%3A%2F%2Fonename.com%2Fmaroof%23facebook&href=https%3A%2F%2Fonename.com%2Fmaroof&client_id=548488045273230&ret=login&ext=1469368894&hash=AebyaKg1HJI2nALa",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN maroof.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/maroof.id\"\n"
 }

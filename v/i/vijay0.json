@@ -1,6 +1,61 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "13Gh8PvEN6TPEjzqW7JsScGsZ4WWRMPbhC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "_vjy",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/_vjy/status/740752026603134976",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "vijay0",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/vijay0/62d88d87888e30ce68e2120fdbee8766",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1BotM5TgnUK4RdwNpBUWQGC4DDWXpVWoev",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Singapore"
+    },
+    "description": "Following Bitcoin, since the reward was 50 BTC",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/vijay0",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/vijay0",
+        "name": "cover"
+      }
+    ],
+    "name": "Vijayakumar Subburaj"
+  },
+  "verifications": [
+    {
+      "identifier": "_vjy",
+      "proof_url": "https://twitter.com/_vjy/status/740752026603134976",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "vijay0",
+      "proof_url": "https://gist.github.com/vijay0/62d88d87888e30ce68e2120fdbee8766",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN vijay0.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vijay0.id\"\n"
 }

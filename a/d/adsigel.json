@@ -1,6 +1,49 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "17rw8R3bbFJzvCNTum3gXapsW75y35Wt3A",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "adsigel",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/adsigel/51d29d8506d28e0dd1ff6e8434b731af",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "adamsigel",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/adamsigel/status/760902987535552513",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/adsigel",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "adsigel",
+      "proof_url": "https://gist.github.com/adsigel/51d29d8506d28e0dd1ff6e8434b731af",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "adamsigel",
+      "proof_url": "https://twitter.com/adamsigel/status/760902987535552513",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN adsigel.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/adsigel.id\"\n"
 }

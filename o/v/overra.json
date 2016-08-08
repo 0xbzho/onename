@@ -1,6 +1,72 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1JHbFCJuwj9jUiMfJaLe2P84M7RcWD5aCo",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1AJ1tHR84dKztgTazx34YyvfZHCcNzSnMM",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "8a461bfe1fb87647ce71ea85c847b1e432d8b20b",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "overra",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/overra/status/746815908098695168",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "overra",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/overra/30d2a41a5721f4a283e95a47afc0aa33",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Longview, TX"
+    },
+    "description": "JavaScript developer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/overra",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/overra",
+        "name": "cover"
+      }
+    ],
+    "name": "Adam Snodgrass",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://overra.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "overra",
+      "proof_url": "https://twitter.com/overra/status/746815908098695168",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "overra",
+      "proof_url": "https://gist.github.com/overra/30d2a41a5721f4a283e95a47afc0aa33",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN overra.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/overra.id\"\n"
 }

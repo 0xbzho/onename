@@ -1,6 +1,57 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1CwW8EpPGX9sshnNwPXxkFJudTP3sj6yMh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "code_energy",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/code_energy/status/761457502152224768",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "code.energy",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/code.energy",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "058e202bb4f482259eb9b497cabf5fe25279c3a7",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/devin.venable1/posts/1128777963834920",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/code_energy",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/code_energy",
+        "name": "cover"
+      }
+    ],
+    "name": "Code Energy"
+  },
+  "verifications": [
+    {
+      "identifier": "code_energy",
+      "proof_url": "https://twitter.com/code_energy/status/761457502152224768",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "code.energy",
+      "proof_url": "https://facebook.com/code.energy",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN code_energy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/code_energy.id\"\n"
 }

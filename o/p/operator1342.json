@@ -1,6 +1,54 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "16STdNVcq5PrWxsQ5Ys6iHsodTkhL2aYEX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "BlueOutpost",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BlueOutpost/status/748818725613150208",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gnosi",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/Gnosi/posts/1196200753734045",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Melbourne"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/operator1342",
+        "name": "avatar"
+      }
+    ],
+    "name": "James Rickard"
+  },
+  "verifications": [
+    {
+      "identifier": "BlueOutpost",
+      "proof_url": "https://twitter.com/BlueOutpost/status/748818725613150208",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "gnosi",
+      "proof_url": "https://www.facebook.com/Gnosi/posts/1196200753734045",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN operator1342.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/operator1342.id\"\n"
 }

@@ -1,6 +1,58 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1PhG4erPWPt3ANScx6h615qoq4kzusGLch",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bertrandhe",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bertrandhe/86dc3cf1945de1d57dfb872f2b95a3d1",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Bertrand_He",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Bertrand_He/status/758331614657216512",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "herisson.bertrand",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/herisson.bertrand/posts/10209671782778925",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Bertrand Hérisson"
+  },
+  "verifications": [
+    {
+      "identifier": "bertrandhe",
+      "proof_url": "https://gist.github.com/bertrandhe/86dc3cf1945de1d57dfb872f2b95a3d1",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "Bertrand_He",
+      "proof_url": "https://twitter.com/Bertrand_He/status/758331614657216512",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "herisson.bertrand",
+      "proof_url": "https://www.facebook.com/herisson.bertrand/posts/10209671782778925",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN bertrandhe.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bertrandhe.id\"\n"
 }

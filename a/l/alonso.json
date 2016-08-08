@@ -1,6 +1,67 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1DnLN1FVkmMjpd8Eod4jAMy4HWEWBwAbBu",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "16qQGMdESLFvwQmmzW7zpds2DubukpNdtb",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "djcrawleravp",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/djcrawleravp/status/740338278079942656",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "djcrawler",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/djcrawler/posts/10154068425341041?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "La Plata, Buenos Aires"
+    },
+    "description": "En realidad soy un ratón de laboratorio que quiere conquistar el mundo...",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/alonso",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Alonso Vaca Pereira Rocha",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://vineaestudiar.blogspot.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "djcrawleravp",
+      "proof_url": "https://twitter.com/djcrawleravp/status/740338278079942656",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "djcrawler",
+      "proof_url": "https://www.facebook.com/djcrawler/posts/10154068425341041?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN alonso.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alonso.id\"\n"
 }

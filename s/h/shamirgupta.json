@@ -1,0 +1,54 @@
+{
+  "owner_address": "1LVW8y4KxW3b3nWMypLCcqS6m5Lifr4JnT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "shamirgupta",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ShamirGupta/status/761796271036178432",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "shamir.gupta",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/shamir.gupta/posts/10154988852456002?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sydney"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/shamirgupta",
+        "name": "avatar"
+      }
+    ],
+    "name": "Shamir Gupta"
+  },
+  "verifications": [
+    {
+      "identifier": "shamirgupta",
+      "proof_url": "https://twitter.com/ShamirGupta/status/761796271036178432",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "shamir.gupta",
+      "proof_url": "https://www.facebook.com/shamir.gupta/posts/10154988852456002?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN shamirgupta.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/shamirgupta.id\"\n"
+}

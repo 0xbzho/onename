@@ -1,6 +1,72 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "18XgXE9p3Ne2bKXTDW2rs6XXS4jt4CjXDg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1CE2WQ71sx3VS6aiM2k4HdXko3KoWEe6z3",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "848ec58565b69c9ab3645802b736db5439295ccd",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cryptonation.soy",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/cryptonation.soy/posts/591556667671286",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cryptonationsoy",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cryptonationsoy/status/747034344141819904",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "São Paulo, Brasil"
+    },
+    "description": "We create genuine and verifiable products in Bitcoin Blockchain that promote the Bitcoin culture and the internet of money.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cryptonation",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/cryptonation",
+        "name": "cover"
+      }
+    ],
+    "name": "Cryptonation",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://cryptonation.soy"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "cryptonation.soy",
+      "proof_url": "https://www.facebook.com/cryptonation.soy/posts/591556667671286",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "cryptonationsoy",
+      "proof_url": "https://twitter.com/cryptonationsoy/status/747034344141819904",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN cryptonation.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cryptonation.id\"\n"
 }

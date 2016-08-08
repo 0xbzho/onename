@@ -1,6 +1,49 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1JR3qFSc9WDYbjxppGN6sHeohVj5ec5Mg5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bramalkema",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bramalkema/status/752491421362450432",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "BramAlkema",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/BramAlkema/e22607d238d334146aff7d8935d14237",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Leiden"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Bram Alkema"
+  },
+  "verifications": [
+    {
+      "identifier": "bramalkema",
+      "proof_url": "https://twitter.com/bramalkema/status/752491421362450432",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "BramAlkema",
+      "proof_url": "https://gist.github.com/BramAlkema/e22607d238d334146aff7d8935d14237",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bram_alkema.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bram_alkema.id\"\n"
 }

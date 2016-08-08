@@ -1,6 +1,74 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1Ga9gijkc6v69WPCmUjXe2RMJpf8LG2Hpk",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "12nzi8s6aDmCJU7mSFz44hNsEBCqJuBTHo",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "wsyumanjaya",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/wsyumanjaya/status/752725698909839361",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "warsimansyumanjaya",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/warsimansyumanjaya/posts/268017100239765?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "imansyu",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/imansyu/3a52e6af8b35b30c784d7cb66c3c4062",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Jakarta"
+    },
+    "description": "easy going, romantic.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/imansyu",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/imansyu",
+        "name": "cover"
+      }
+    ],
+    "name": "Warsiman Syumanjaya"
+  },
+  "verifications": [
+    {
+      "identifier": "wsyumanjaya",
+      "proof_url": "https://twitter.com/wsyumanjaya/status/752725698909839361",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "warsimansyumanjaya",
+      "proof_url": "https://www.facebook.com/warsimansyumanjaya/posts/268017100239765?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "imansyu",
+      "proof_url": "https://gist.github.com/imansyu/3a52e6af8b35b30c784d7cb66c3c4062",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN imansyu.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/imansyu.id\"\n"
 }

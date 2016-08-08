@@ -1,6 +1,49 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "17saWSEgHA9RbwSaZrTXFSQSVMUQseN8oH",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "wesseldupreez",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/wesseldupreez/status/740689063599034369",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "wdpreez1",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/wdpreez1/921216d1364a38a36d5c9ab92e864998",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London, UK"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Wessel du Preez"
+  },
+  "verifications": [
+    {
+      "identifier": "wesseldupreez",
+      "proof_url": "https://twitter.com/wesseldupreez/status/740689063599034369",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "wdpreez1",
+      "proof_url": "https://gist.github.com/wdpreez1/921216d1364a38a36d5c9ab92e864998",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN wessel.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wessel.id\"\n"
 }

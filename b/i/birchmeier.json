@@ -1,6 +1,67 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "15KVDtiCdyec3y15aT1RejgGtcUv4cqNjK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rootforce",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rootforce/53803c03e29529eba82a28f6e3c9b980",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "patrik.birchmeier",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/patrik.birchmeier/posts/10210059833959458?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "pbirchmeier",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/pbirchmeier/status/750650737462501376",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Switzerland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/birchmeier",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/birchmeier",
+        "name": "cover"
+      }
+    ],
+    "name": "Patrik Birchmeier"
+  },
+  "verifications": [
+    {
+      "identifier": "rootforce",
+      "proof_url": "https://gist.github.com/rootforce/53803c03e29529eba82a28f6e3c9b980",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "patrik.birchmeier",
+      "proof_url": "https://www.facebook.com/patrik.birchmeier/posts/10210059833959458?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "pbirchmeier",
+      "proof_url": "https://twitter.com/pbirchmeier/status/750650737462501376",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN birchmeier.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/birchmeier.id\"\n"
 }

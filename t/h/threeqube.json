@@ -1,6 +1,31 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "19T1rszh2uCiNrvXFTcjjTFm1sGw2keyam",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "threeqube",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/threeqube/6f5bf69ccfa7af1c42d73b5c4fa97a84",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "threeqube",
+      "proof_url": "https://gist.github.com/threeqube/6f5bf69ccfa7af1c42d73b5c4fa97a84",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN threeqube.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/threeqube.id\"\n"
 }

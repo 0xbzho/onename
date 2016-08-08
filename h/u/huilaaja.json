@@ -1,6 +1,63 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "18JftnUzKz3HbYqXbsKz7q5pko56oRwqhL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "huilaaja",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Huilaaja/status/751028805658087425",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "huilaaja",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/huilaaja/671ca3ae79e5f4814eaa8abbdf59f3e9",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "huilaaja",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/huilaaja/posts/10209955975274602",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/huilaaja",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/huilaaja",
+        "name": "avatar"
+      }
+    ],
+    "name": "Mikko Huilaja"
+  },
+  "verifications": [
+    {
+      "identifier": "huilaaja",
+      "proof_url": "https://twitter.com/Huilaaja/status/751028805658087425",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "huilaaja",
+      "proof_url": "https://gist.github.com/huilaaja/671ca3ae79e5f4814eaa8abbdf59f3e9",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "huilaaja",
+      "proof_url": "https://www.facebook.com/huilaaja/posts/10209955975274602",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN huilaaja.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/huilaaja.id\"\n"
 }

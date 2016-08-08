@@ -1,6 +1,73 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1L5xBFKxnQ8aHDMfvQTm71bf16gNjNBmoL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "docdailey",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/docdailey/status/756098598165622784",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Billdaileymd",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/Billdaileymd/posts/10154226983100390",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "docdailey",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/docdailey/fad63b22b4953f4cc0230d95da00b6c0#file-blockchain",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Clinton, MO"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/docdailey",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/docdailey",
+        "name": "cover"
+      }
+    ],
+    "name": "William Dailey, MD, MSEng, MSMI",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://docdailey.weebly.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "docdailey",
+      "proof_url": "https://twitter.com/docdailey/status/756098598165622784",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Billdaileymd",
+      "proof_url": "https://www.facebook.com/Billdaileymd/posts/10154226983100390",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "docdailey",
+      "proof_url": "https://gist.github.com/docdailey/fad63b22b4953f4cc0230d95da00b6c0#file-blockchain",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN docdailey.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/docdailey.id\"\n"
 }

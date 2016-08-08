@@ -1,6 +1,60 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "18jjZVfL8kPQKDvXU8PReuWCJnXDe5gmvD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "thierryk",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/thierryk/a2c9904d3e63d0e57fb518fcfd3e714d#file-onename",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "thierrykoblentz",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/thierrykoblentz/status/741079083744776192",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sausalito, California USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/thierrykoblentz",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/thierrykoblentz",
+        "name": "cover"
+      }
+    ],
+    "name": "Thierry Koblentz",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://cssmojo.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "thierryk",
+      "proof_url": "https://gist.github.com/thierryk/a2c9904d3e63d0e57fb518fcfd3e714d#file-onename",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "thierrykoblentz",
+      "proof_url": "https://twitter.com/thierrykoblentz/status/741079083744776192",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN thierrykoblentz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/thierrykoblentz.id\"\n"
 }

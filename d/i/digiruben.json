@@ -1,6 +1,50 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1Bfh3YEjGWPAoiTaHg8CDiqPushi9Apmse",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "DIGIRUBEN",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/digiruben/status/750165650761478149",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1GJ1L8qyN3nHjrNFhfm7QRddstTkQ7MYXW",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "digiruben",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/digiruben/ea5939c04dfaf9e78738baa01ef36c04#file-onename-verify",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "DIGIRUBEN",
+      "proof_url": "https://twitter.com/digiruben/status/750165650761478149",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "digiruben",
+      "proof_url": "https://gist.github.com/digiruben/ea5939c04dfaf9e78738baa01ef36c04#file-onename-verify",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN digiruben.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/digiruben.id\"\n"
 }

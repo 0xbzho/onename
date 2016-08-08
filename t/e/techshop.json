@@ -1,6 +1,50 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1BvFMB3PT7pGPEjgFaNZfh5g9SjgTYxWqi",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jkrobles",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jkrobles/65d318985f75ff70eed498856c92a845",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "TidusAndronicus",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TidusAndronicus/status/746933830343352320",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "16MPB7Nr44MuJXdyUoUi4jgrXtuAincnna",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jkrobles",
+      "proof_url": "https://gist.github.com/jkrobles/65d318985f75ff70eed498856c92a845",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "TidusAndronicus",
+      "proof_url": "https://twitter.com/TidusAndronicus/status/746933830343352320",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN techshop.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/techshop.id\"\n"
 }

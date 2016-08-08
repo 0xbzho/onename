@@ -1,0 +1,53 @@
+{
+  "owner_address": "1C4o1CNkFrdgULKpvws5dBWvoc7WaqWhVQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1LhKZ8Ds7qx6dE6b19kQcPwRbLJZdDzNNw",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "marian.tomlak",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmarian.tomlak%2Fposts%2F1389057947774571",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/mariantomlak",
+        "identifier": "B86A61A80B65105945ECF208B0B5308FD5383BFE",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Europe"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mariantomlak",
+        "name": "avatar"
+      }
+    ],
+    "name": "Marian Tomlak"
+  },
+  "verifications": [
+    {
+      "identifier": "marian.tomlak",
+      "proof_url": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmarian.tomlak%2Fposts%2F1389057947774571",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mariantomlak.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mariantomlak.id\"\n"
+}

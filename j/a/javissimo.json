@@ -1,6 +1,27 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "16UERgbwxq7R26f3RNc7zQk1eCcZZsTbEE",
+  "profile": {
+    "@type": "Person",
+    "account": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Madrid"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Javier",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://javier.gitlab.io"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN javissimo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/javissimo.id\"\n"
 }

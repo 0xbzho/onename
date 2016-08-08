@@ -1,6 +1,74 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1MPocDA6S5oaDPzJ89nQKcksM2gqrzuVr",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "wiobyrne",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/wiobyrne/status/748981822466514944",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "wiobyrne",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/wiobyrne/posts/10206718062127045",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "wiobyrne",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/wiobyrne/2c204b8026b52eb785a61b7925cca7e5",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Southeast USA"
+    },
+    "description": "Father. Husband. Educator, researcher, speaker, & learner. Co-founder @BadgeChain",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/wiobyrne",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/wiobyrne",
+        "name": "cover"
+      }
+    ],
+    "name": "William Ian O'Byrne",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://wiobyrne.com/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "wiobyrne",
+      "proof_url": "https://twitter.com/wiobyrne/status/748981822466514944",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "wiobyrne",
+      "proof_url": "https://www.facebook.com/wiobyrne/posts/10206718062127045",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "wiobyrne",
+      "proof_url": "https://gist.github.com/wiobyrne/2c204b8026b52eb785a61b7925cca7e5",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN wiobyrne.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wiobyrne.id\"\n"
 }

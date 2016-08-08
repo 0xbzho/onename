@@ -1,6 +1,36 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1CjbPLi2J9W8KdyTEfFPM8cRst1TDoP9gU",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "EdBilliot",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/EdBilliot/9bc2bf35b268b8debe316a6f2a77c9fa",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/onclickads",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "EdBilliot",
+      "proof_url": "https://gist.github.com/EdBilliot/9bc2bf35b268b8debe316a6f2a77c9fa",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN onclickads.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/onclickads.id\"\n"
 }

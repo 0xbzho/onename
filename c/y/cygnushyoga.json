@@ -1,6 +1,48 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "18WYo4vP4BJt23XyS8ZQnJt5cGjfdYSMb4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1CNfMuSUoC74xJwJQWtBdEUXNWhCT4TvVk",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "703940abfaaf5cbf461c681c94ffb7986b205a54",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "profile.php?id=100012710116995",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/profile.php?id=100012710116995",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cygnushyoga",
+        "name": "avatar"
+      }
+    ],
+    "name": "Cygnus Hyōga"
+  },
+  "verifications": [
+    {
+      "identifier": "profile.php?id=100012710116995",
+      "proof_url": "https://www.facebook.com/profile.php?id=100012710116995",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN cygnushyoga.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cygnushyoga.id\"\n"
 }

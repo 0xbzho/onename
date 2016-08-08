@@ -1,6 +1,57 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1KWKfksuC1nXoo5AzQsRnnsiqf9BBswGGA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "c43a25939599d626c44874708726b34762aa501a",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/thomas.lauritsen/posts/10209475886671027",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "joshburt",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/joshburt/53cd53fadd29e7a51903c8aabad3603d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "joshua.c.burt",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/joshua.c.burt/posts/10154521386571435",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boise, ID"
+    },
+    "description": "Senior Development Operations Engineer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Joshua C. Burt"
+  },
+  "verifications": [
+    {
+      "identifier": "joshburt",
+      "proof_url": "https://gist.github.com/joshburt/53cd53fadd29e7a51903c8aabad3603d",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "joshua.c.burt",
+      "proof_url": "https://www.facebook.com/joshua.c.burt/posts/10154521386571435",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN joshburt.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/joshburt.id\"\n"
 }

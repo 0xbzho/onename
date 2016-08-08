@@ -1,6 +1,69 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "15gFy6MRR7HBv4NMEzZ9vPehJEb8GeLHtB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1Q6DgsqXh9m5kNfAyHo96jkP53yGKMEsWv",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "abueesp",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/abueesp/a0ed6b872b19c31c9db1f687ca5c7016",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "abueesp",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/abueesp/status/739655214031110144",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pgp.mit.edu:11371/pks/lookup?op=get&search=0x70813A9276D1D99A",
+        "identifier": "ECF5901B69D07B23CD2EAAD548510D68669E4F4A",
+        "role": "key",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sevilla - Manaus - London - Lisbon"
+    },
+    "description": "Ƀe ℋuman, be κinđ, be ωise",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/abueesp",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/abueesp",
+        "name": "cover"
+      }
+    ],
+    "name": "Abueesp",
+    "website": []
+  },
+  "verifications": [
+    {
+      "identifier": "abueesp",
+      "proof_url": "https://gist.github.com/abueesp/a0ed6b872b19c31c9db1f687ca5c7016",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "abueesp",
+      "proof_url": "https://twitter.com/abueesp/status/739655214031110144",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN abueesp.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/abueesp.id\"\n"
 }

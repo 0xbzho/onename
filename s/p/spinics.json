@@ -1,6 +1,41 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1P4Qj7xb6fnrcUTBto7B5jYQBYeEmtfxph",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "spinics",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/spinics/status/752187931461386240",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "berlin.city",
+        "service": "instagram"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/spinics",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/spinics",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "spinics",
+      "proof_url": "https://twitter.com/spinics/status/752187931461386240",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN spinics.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/spinics.id\"\n"
 }

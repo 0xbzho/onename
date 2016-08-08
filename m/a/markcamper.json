@@ -1,6 +1,49 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1LmZE6XfEGXEHfeEzweA1qXc2bHvVJfvqo",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "markcamper",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/markcamper/status/758289246465564672",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "markcamper",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/markcamper/22d33374a332f2e76c41893d192198f5",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lexington, KY"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Mark Camper"
+  },
+  "verifications": [
+    {
+      "identifier": "markcamper",
+      "proof_url": "https://twitter.com/markcamper/status/758289246465564672",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "markcamper",
+      "proof_url": "https://gist.github.com/markcamper/22d33374a332f2e76c41893d192198f5",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN markcamper.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/markcamper.id\"\n"
 }

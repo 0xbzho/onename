@@ -1,6 +1,49 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1261AXohJYvWxgVJqpUEufhkUdgoHsEmCN",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dankins",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dankins/ae8a37a82ed0383abd5b917664b04881",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dankinsley",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dankinsley/status/746780037832118274",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boston, MA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Dan Kinsley"
+  },
+  "verifications": [
+    {
+      "identifier": "dankins",
+      "proof_url": "https://gist.github.com/dankins/ae8a37a82ed0383abd5b917664b04881",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "dankinsley",
+      "proof_url": "https://twitter.com/dankinsley/status/746780037832118274",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dankinsley.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dankinsley.id\"\n"
 }

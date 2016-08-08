@@ -1,6 +1,27 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1PdAVVEgTqUXQru5PBGvABFnido7SvUKo1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1f26367431959d76f8d0b96163319aaba5139389",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nashville"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jackson Taylor"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN jackson_taylor.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jackson_taylor.id\"\n"
 }

@@ -1,6 +1,83 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "12dMiCan6JKP3roYtYYvMcUn4BLGBhwH3C",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "malagent",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/malagent/status/743997717462953984",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "malagent",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/malagent/posts/10153733908106194",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "malagent",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/malagent/5d514672489c62cc2ca07ec419f9a482",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1Roman9Ajr3htqKedDCgyCjCB3DAKHCb4",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kansas, USA"
+    },
+    "description": "Former Cop,  CEO & Private Police Commander. Chronic Migrainuer, Hemiplegic Migraine, NDPH. A visionary without direction. Technology, Cryptocurrency, and US Constitutional Law enthusiast",
+    "graph": {
+      "url": "https://s3.amazonaws.com/grph/malagent"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/malagent",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/malagent",
+        "name": "cover"
+      }
+    ],
+    "name": "RC Smith",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://fb.me/Synthetic.World"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "malagent",
+      "proof_url": "https://twitter.com/malagent/status/743997717462953984",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "malagent",
+      "proof_url": "https://www.facebook.com/malagent/posts/10153733908106194",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "malagent",
+      "proof_url": "https://gist.github.com/malagent/5d514672489c62cc2ca07ec419f9a482",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN malagent.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/malagent.id\"\n"
 }

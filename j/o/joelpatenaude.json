@@ -1,6 +1,74 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1HJef4ZS6BVDu84UnfFZqwAETdZrLwmrpS",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "J2Partners",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/J2Partners/status/750794976578109440",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "joel.patenaude.58",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/joel.patenaude.58/posts/1024803494254156?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "joelpatenaude",
+        "proofType": "http",
+        "proofUrl": "joelpatenaude/gist:e7069422185e7c27e36fecaec4f98d8d",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New Jersey"
+    },
+    "description": "Mobile Financial Services, Identity & Trust in Emerging Markets",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/joelpatenaude",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/joelpatenaude",
+        "name": "cover"
+      }
+    ],
+    "name": "Joel@J2 Partners",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://twitter.com/J2Partners"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "J2Partners",
+      "proof_url": "https://twitter.com/J2Partners/status/750794976578109440",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "joel.patenaude.58",
+      "proof_url": "https://www.facebook.com/joel.patenaude.58/posts/1024803494254156?pnref=story",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "joelpatenaude",
+      "proof_url": "joelpatenaude/gist:e7069422185e7c27e36fecaec4f98d8d",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN joelpatenaude.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/joelpatenaude.id\"\n"
 }

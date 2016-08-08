@@ -1,6 +1,31 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1KsdvmN9TXXxyziB3kh29QsDxfw1msyFDz",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "5e12dca4b877dc9a231cbbc70c69dd25a48c692e",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/NurayG/status/731561435923382272",
+        "service": "acceptbitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "5e12dca4b877dc9a231cbbc70c69dd25a48c692e",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ganczar/posts/1271738146188442",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN acceptbitcoin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/acceptbitcoin.id\"\n"
 }

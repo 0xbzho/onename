@@ -1,6 +1,68 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1Gii1tTDhh2Qbxb9aJ3a4pmb6w58T9cni4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "josusanmartin",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/josusanmartin/c2815c92dc3f131a474ac257a2a2308e",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "josusanmartin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/josusanmartin/status/755929795733561344",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1GoEDXfJzdUvBd4h9X41tsDmQK53BqTC1W",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "josusanmartin",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/josusanmartin/posts/10153843878413727",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/josusanmartin",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "josusanmartin",
+      "proof_url": "https://gist.github.com/josusanmartin/c2815c92dc3f131a474ac257a2a2308e",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "josusanmartin",
+      "proof_url": "https://twitter.com/josusanmartin/status/755929795733561344",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "josusanmartin",
+      "proof_url": "https://www.facebook.com/josusanmartin/posts/10153843878413727",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN josusanmartin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/josusanmartin.id\"\n"
 }

@@ -1,6 +1,36 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1P31fSQBiajjVmjSH8qDVsuYwd658QqbrQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "https:",
+        "proofType": "http",
+        "proofUrl": "https://gist.githubusercontent.com/Chillli/7492b59f0faacada4439106a6ed5958f/raw/2b635b37ee3beac398872e47607506ccc170136e/gistfile1.txt",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Li"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Kangqi"
+  },
+  "verifications": [
+    {
+      "identifier": "https:",
+      "proof_url": "https://gist.githubusercontent.com/Chillli/7492b59f0faacada4439106a6ed5958f/raw/2b635b37ee3beac398872e47607506ccc170136e/gistfile1.txt",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN kangqi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kangqi.id\"\n"
 }

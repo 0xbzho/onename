@@ -1,6 +1,66 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1LNwBamAEZm42CgsEC9Sitggntvj761fxt",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "robbertvanos",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "robbertvanos",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "15aF343UVYUdRrfrBYUgSUupx2Z5nQBQy6",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "robbertvanos",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gamerhero/status/500664943968935937",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Utrecht, Netherlands"
+    },
+    "description": "Developer Advocate on HTML5 | Cross platform | Entrepreneur | Technology | Solving problems through code | Games | Innovation @ Spil Games",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/robbert",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/robbert",
+        "name": "cover"
+      }
+    ],
+    "name": "Robbert van Os",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.spilgames.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "robbertvanos",
+      "proof_url": "https://twitter.com/gamerhero/status/500664943968935937",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN robbert.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/robbert.id\"\n"
 }

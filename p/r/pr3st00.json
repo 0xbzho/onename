@@ -1,6 +1,32 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1PWfjiHLXG827ZBkjRA4HJfSFZmHPs8RyM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "pr3st00",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/pr3st00/status/760809844987355137",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Fernando Costa de Almeida"
+  },
+  "verifications": [
+    {
+      "identifier": "pr3st00",
+      "proof_url": "https://twitter.com/pr3st00/status/760809844987355137",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN pr3st00.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pr3st00.id\"\n"
 }

@@ -1,6 +1,37 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "166mFsmy3xQcXKBWXMXxFGr43d7SMuPC68",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "vvegener",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/vvegener/status/745924037256318977?lang=de",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/vvegener",
+        "name": "avatar"
+      }
+    ],
+    "name": "Christoph Wegener"
+  },
+  "verifications": [
+    {
+      "identifier": "vvegener",
+      "proof_url": "https://twitter.com/vvegener/status/745924037256318977?lang=de",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN vvegener.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vvegener.id\"\n"
 }

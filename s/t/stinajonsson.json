@@ -1,6 +1,26 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1B5mCgd6xXiqJDrKfriPSR33mbK6yrSuWx",
+  "profile": {
+    "@type": "Person",
+    "account": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/stinajonsson",
+        "name": "avatar"
+      }
+    ],
+    "name": "Stina Jonsson"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN stinajonsson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stinajonsson.id\"\n"
 }

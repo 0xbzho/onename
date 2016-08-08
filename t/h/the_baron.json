@@ -1,6 +1,68 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1DTxr5AcskWYmb25G4UydAFSqx3nSGtaVa",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "TaoofSubversion",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TaoofSubversion/status/738148412055375876",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Fooism",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Fooism/2f9364105bc6c609358b990b9945c1cb",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "VonStormhaven",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/the_baron",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Las Vegas, NV"
+    },
+    "description": "Agorist, Asatru, Linux, Bitcoin, Beautiful Women",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/the_baron",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/the_baron",
+        "name": "avatar"
+      }
+    ],
+    "name": "Brandon von Stormhaven"
+  },
+  "verifications": [
+    {
+      "identifier": "TaoofSubversion",
+      "proof_url": "https://twitter.com/TaoofSubversion/status/738148412055375876",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Fooism",
+      "proof_url": "https://gist.github.com/Fooism/2f9364105bc6c609358b990b9945c1cb",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "VonStormhaven",
+      "proof_url": "https://onename.com/the_baron",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN the_baron.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/the_baron.id\"\n"
 }

@@ -1,6 +1,74 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "19ikJW3dc2ZjgdvUUksuoVFQR4aePuwHiL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "andy.brunner",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/andy.brunner/posts/10153797839618763",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "brunnerandy",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BrunnerAndy/status/748852738424012801",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "AndyBrunner",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/AndyBrunner/de561ea2c74b268c089f565d60f1c49d",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Zürich, Switzerland"
+    },
+    "description": "http://abdata.ch/ueber-mich/",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/andybrunner",
+        "name": "avatar"
+      }
+    ],
+    "name": "Andy Brunner",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://abdata.ch"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "andy.brunner",
+      "proof_url": "https://www.facebook.com/andy.brunner/posts/10153797839618763",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "brunnerandy",
+      "proof_url": "https://twitter.com/BrunnerAndy/status/748852738424012801",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "AndyBrunner",
+      "proof_url": "https://gist.github.com/AndyBrunner/de561ea2c74b268c089f565d60f1c49d",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN andybrunner.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/andybrunner.id\"\n"
 }

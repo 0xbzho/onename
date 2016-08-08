@@ -1,6 +1,62 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1CNVNcmLqxdgPnGpQiU6rxkydKHCpLvoh4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rolanddegoeij",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bitcoinspot/status/741604163977678848",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "17LzrK222aen7ckuGg1eRwc5NEoH7hqL89",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "roland.degoeij",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/roland.degoeij/posts/1283333345011928?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/web-gray.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rolanddegoeij",
+        "name": "avatar"
+      }
+    ],
+    "name": "Roland de Goeij",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": ""
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "rolanddegoeij",
+      "proof_url": "https://twitter.com/bitcoinspot/status/741604163977678848",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "roland.degoeij",
+      "proof_url": "https://www.facebook.com/roland.degoeij/posts/1283333345011928?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rolanddegoeij.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rolanddegoeij.id\"\n"
 }

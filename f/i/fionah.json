@@ -1,6 +1,48 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "13qn15XndBrgn1nscuH2c9mzzyr83FisKn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "fionajharvey",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/fionajharvey/status/751401836217794560?lang=en-gb",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "United Kingdom"
+    },
+    "description": "Innovation in Technology Enhanced Education Developer and Student Digital Life Tzar",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/fionah",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/fionah",
+        "name": "cover"
+      }
+    ],
+    "name": "Fiona Harvey",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.fionajharvey.co.uk"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "fionajharvey",
+      "proof_url": "https://twitter.com/fionajharvey/status/751401836217794560?lang=en-gb",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN fionah.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fionah.id\"\n"
 }

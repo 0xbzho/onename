@@ -1,6 +1,63 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1ZNP1zDDSaWdqsAxAb3uqPnMPRAxELV1F",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "almeidamarcell",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/almeidamarcell/status/750140710385573889",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "almeidamarcell",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/almeidamarcell/3d3f7a4a2732002f93a85e9c1021aca3",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "almeidamarcell",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/almeidamarcell/posts/10210209924989986",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/almeida",
+        "name": "avatar"
+      }
+    ],
+    "name": "Marcell Almeida"
+  },
+  "verifications": [
+    {
+      "identifier": "almeidamarcell",
+      "proof_url": "https://twitter.com/almeidamarcell/status/750140710385573889",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "almeidamarcell",
+      "proof_url": "https://gist.github.com/almeidamarcell/3d3f7a4a2732002f93a85e9c1021aca3",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "almeidamarcell",
+      "proof_url": "https://www.facebook.com/almeidamarcell/posts/10210209924989986",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN almeida.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/almeida.id\"\n"
 }

@@ -1,6 +1,34 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1GP1smYAjCpE5L3SSaYGRHAY6CiYnFGDse",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "3Dmg7bVLrkqo4dCQDJj11ekobSBaQgcRwb",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Philippines"
+    },
+    "description": "no",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/marinel",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/marinel",
+        "name": "cover"
+      }
+    ],
+    "name": "Marinel Bondoc"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN marinel.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/marinel.id\"\n"
 }

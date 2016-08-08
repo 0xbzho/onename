@@ -1,6 +1,79 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "19UrV5XAShnc9kv8mRQpEiJuPqvvYD7zsc",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ThibautLeCorre",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ThibautLeCorre/status/750790881247199232",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "thibaut.lecorre",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/thibaut.lecorre/posts/10208784710708896",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lecorre-t",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/lecorre-t/6d4670b5ea3c14d8de88c3036eaf1b06",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/thibautlecorre",
+        "identifier": "0x252dbd0990496112",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Digne-les-Bains, Alpes de Haute Provence, Provence Alpes Côte d'Azur, France"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/thibautlecorre",
+        "name": "avatar"
+      }
+    ],
+    "name": "Thibaut Le Corre",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://veillepolitique.blogspot.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ThibautLeCorre",
+      "proof_url": "https://twitter.com/ThibautLeCorre/status/750790881247199232",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "thibaut.lecorre",
+      "proof_url": "https://www.facebook.com/thibaut.lecorre/posts/10208784710708896",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "lecorre-t",
+      "proof_url": "https://gist.github.com/lecorre-t/6d4670b5ea3c14d8de88c3036eaf1b06",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN thibautlecorre.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/thibautlecorre.id\"\n"
 }

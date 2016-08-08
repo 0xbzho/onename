@@ -1,6 +1,36 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1Knkm6NTEV38okdiuzCtfaGnCcsYjRwgkK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "melterstees",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/melterstees/status/748491180413849600",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "6aeafc4100267c7ae5d21d3dd0a29b5a878d860a",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "melterstees",
+      "proof_url": "https://twitter.com/melterstees/status/748491180413849600",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN melterstees.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/melterstees.id\"\n"
 }

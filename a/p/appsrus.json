@@ -1,6 +1,27 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1HbtzuV82bbzVCDLS18aE6euXfUtxFyKGJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ab7cf023d871a1dafb3e266442a0919a7c894cdd",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Johanesburg"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Gareth Williams-Wynn"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN appsrus.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/appsrus.id\"\n"
 }

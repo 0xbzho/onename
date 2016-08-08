@@ -1,6 +1,39 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1SXDpVxCdYFZGjAnfP4nrtcBNCA2YW3mM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "7851c1f7fea6422a5910b96d70cd4df974ad377e",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/zeronotion",
+        "identifier": "38B5B8B9AE1D5BC7ED1675821C968DC9F447CB31",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "16WsBmHwpmeM4bQxabY99MpdboZAZv74ad",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/zeronotion",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/zeronotion",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN zeronotion.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/zeronotion.id\"\n"
 }

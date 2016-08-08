@@ -1,6 +1,22 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1Mbzjkq9WQinAYPgxpg81TczvRBdHDdDLP",
+  "profile": {
+    "@type": "Person",
+    "account": [],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/elinor",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/elinor",
+        "name": "cover"
+      }
+    ],
+    "name": "Elinor Samuelsson"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN elinor.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/elinor.id\"\n"
 }

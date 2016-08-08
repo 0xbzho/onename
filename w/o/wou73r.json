@@ -1,6 +1,73 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1MfxZF9mUEP2B6QVZdAGfx75M57pzfJy5B",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Wouter_Yvo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Wouter_Yvo/status/745479204515389441",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "wouteryvo",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/wouteryvo/posts/1106761802731753?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "wou73r",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/wou73r/6f3593d08679219d516244c3836a37e7",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1CLmWUGkFFDTVaQNRXc86UmpgiQDDzn6r2",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Netherlands"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/wou73r",
+        "name": "avatar"
+      }
+    ],
+    "name": "Wouter-Yvo de Jongh"
+  },
+  "verifications": [
+    {
+      "identifier": "Wouter_Yvo",
+      "proof_url": "https://twitter.com/Wouter_Yvo/status/745479204515389441",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "wouteryvo",
+      "proof_url": "https://www.facebook.com/wouteryvo/posts/1106761802731753?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "wou73r",
+      "proof_url": "https://gist.github.com/wou73r/6f3593d08679219d516244c3836a37e7",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN wou73r.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wou73r.id\"\n"
 }

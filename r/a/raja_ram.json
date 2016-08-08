@@ -1,6 +1,44 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1GVAKcaMs8xryyKbvqZb9gw5iu4esThw8S",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rbhaswapathri",
+        "proofType": "http",
+        "proofUrl": "https://t.co/ggAUNJsgGf",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https:",
+        "proofType": "http",
+        "proofUrl": "https://github.com/rbhaswapathri",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "rbhaswapathri",
+      "proof_url": "https://t.co/ggAUNJsgGf",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "https:",
+      "proof_url": "https://github.com/rbhaswapathri",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN raja_ram.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/raja_ram.id\"\n"
 }

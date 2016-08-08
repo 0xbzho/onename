@@ -1,6 +1,60 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1KUxdBNp8v2JNSvMg35oRTXr6QwAokYKaj",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "FrisbeeProfil",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/FrisbeeProfil/status/755871241710473218",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/12d7c58540dda297c085f756b41ee405",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "BOULOGNE-BILLANCOURT"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/frisbeeprofiling",
+        "name": "avatar"
+      }
+    ],
+    "name": "Frisbee Profiling",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.frisbee-profiling.fr"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "FrisbeeProfil",
+      "proof_url": "https://twitter.com/FrisbeeProfil/status/755871241710473218",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/12d7c58540dda297c085f756b41ee405",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN frisbeeprofiling.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/frisbeeprofiling.id\"\n"
 }
