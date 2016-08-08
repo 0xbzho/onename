@@ -1,6 +1,43 @@
 {
-  "owner_address": "1L9qgkHGqR6eY4kBVBvJHiL8d3iuY3Py9P",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "15whfrRMKML8TEAb8PZ5JzDcTWGXQYQPfD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "adrian92103",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/adrian92103/posts/546713442206177?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1JkkRpKaC34KPCTDLJ2rhGnMUwejC9N74u",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/adrianoch",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/adrianoch",
+        "name": "cover"
+      }
+    ],
+    "name": "Adrian Grzelak"
+  },
+  "verifications": [
+    {
+      "identifier": "adrian92103",
+      "proof_url": "https://www.facebook.com/adrian92103/posts/546713442206177?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN adrianoch.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/adrianoch.id\"\n"
 }
