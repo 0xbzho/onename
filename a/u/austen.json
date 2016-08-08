@@ -1,61 +1,6 @@
 {
-  "owner_address": "1Mf5WoWrr7cjtVZy2umAQr24xqusJ1WQk5",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "146cpSM49Gy12pG3wpYXxwVFoCLi6VPaB2",
-        "role": "payment",
-        "service": "bitcoin"
-      },
-      {
-        "@type": "Account",
-        "identifier": "AustenKenzie",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/AustenKenzie/status/498257751538036736",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "austenk",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/austenk/posts/10154066254157040?pnref=story",
-        "service": "facebook"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Victoria, BC"
-    },
-    "description": "Knowledge zealot.",
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/dx3/austen",
-        "name": "cover"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/austen",
-        "name": "avatar"
-      }
-    ],
-    "name": "Austen Kenzie"
-  },
-  "verifications": [
-    {
-      "identifier": "AustenKenzie",
-      "proof_url": "https://twitter.com/AustenKenzie/status/498257751538036736",
-      "service": "twitter",
-      "valid": false
-    },
-    {
-      "identifier": "austenk",
-      "proof_url": "https://www.facebook.com/austenk/posts/10154066254157040?pnref=story",
-      "service": "facebook",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN austen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/austen.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

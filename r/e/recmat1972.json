@@ -1,41 +1,6 @@
 {
-  "owner_address": "14Fk9cbiaf3HcRytXErrMuSHzJF65Sowdf",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "recmat",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/recmat/status/748206112760041472",
-        "service": "twitter"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Haarlem"
-    },
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/recmat1972",
-        "name": "avatar"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/dx3/recmat1972",
-        "name": "cover"
-      }
-    ],
-    "name": "Matteo M Recalcati"
-  },
-  "verifications": [
-    {
-      "identifier": "recmat",
-      "proof_url": "https://twitter.com/recmat/status/748206112760041472",
-      "service": "twitter",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN recmat1972.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/recmat1972.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

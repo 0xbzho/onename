@@ -1,49 +1,6 @@
 {
-  "owner_address": "17vkreaWGekpVVtEVE1jgQn6kmrJAYkRy1",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "varadhjain",
-        "proofType": "http",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
-        "identifier": "VaradhJain",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/varadhjain/status/740919318083342336",
-        "service": "twitter"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
-        "name": "cover"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/varadh",
-        "name": "avatar"
-      }
-    ],
-    "name": "Varadh Jain",
-    "website": [
-      {
-        "@type": "WebSite",
-        "url": "http://varadhja.in"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "VaradhJain",
-      "proof_url": "https://twitter.com/varadhjain/status/740919318083342336",
-      "service": "twitter",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN varadh.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/varadh.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

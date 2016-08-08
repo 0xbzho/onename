@@ -1,42 +1,6 @@
 {
-  "owner_address": "14dKeTMvJd3H7ebMwzSPN11abtYHwVBr24",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "peetonn",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/peetonn/155863a99e9e36a83d015e477e3b69f6",
-        "service": "github"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Los Angeles"
-    },
-    "description": "future internet",
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/peetonn",
-        "name": "avatar"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/dx3/peetonn",
-        "name": "cover"
-      }
-    ],
-    "name": "Peter Gusev"
-  },
-  "verifications": [
-    {
-      "identifier": "peetonn",
-      "proof_url": "https://gist.github.com/peetonn/155863a99e9e36a83d015e477e3b69f6",
-      "service": "github",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN peetonn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/peetonn.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

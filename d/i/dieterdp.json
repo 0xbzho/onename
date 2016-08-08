@@ -1,51 +1,6 @@
 {
-  "owner_address": "1PXdCtS9kVvCZa4VQFtsrkuyqWauiDd6fQ",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "dieterdp",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/dieterdp",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
-        "contentUrl": "https://pk9.s3.amazonaws.com/dieterdp",
-        "identifier": "9FF342CC6223FDF7E27003DF86365B890B1F6119",
-        "service": "pgp"
-      },
-      {
-        "@type": "Account",
-        "identifier": "9d09b6b3bc348d3c8279eae7d907a880d7709fed",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/docdailey/status/756098598165622784",
-        "service": "headshop-bremen"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
-        "name": "cover"
-      }
-    ],
-    "name": "dieterdp",
-    "website": [
-      {
-        "@type": "WebSite",
-        "url": "https://www.headshop-bremen.de"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "dieterdp",
-      "proof_url": "https://www.facebook.com/dieterdp",
-      "service": "facebook",
-      "valid": false
-    }
-  ],
-  "zone_file": "$ORIGIN dieterdp.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dieterdp.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

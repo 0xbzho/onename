@@ -1,51 +1,6 @@
 {
-  "owner_address": "1EgifzDiqCsTYjT8RNxYkQhsuugDWkTD7d",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "_willmorrison_",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/_WillMorrison_/status/744942178732957696",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "brothers-morrison",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/brothers-morrison/c36ac5c9e4ba38eba628d99e2948218a",
-        "service": "github"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
-        "name": "cover"
-      }
-    ],
-    "name": "Sir William Morrison",
-    "website": [
-      {
-        "@type": "WebSite",
-        "url": "http://m1m1k.com"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "_willmorrison_",
-      "proof_url": "https://twitter.com/_WillMorrison_/status/744942178732957696",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "brothers-morrison",
-      "proof_url": "https://gist.github.com/brothers-morrison/c36ac5c9e4ba38eba628d99e2948218a",
-      "service": "github",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN will_morrison.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/will_morrison.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

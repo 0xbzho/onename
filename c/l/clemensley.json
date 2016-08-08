@@ -1,55 +1,6 @@
 {
-  "owner_address": "12zW2ZEABAo1uNZ5HtQhSCzEt66XjHR1Nc",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "1M38JD2vC4HfrKrMMGyjMdX7Nyuvggdt5x",
-        "role": "payment",
-        "service": "bitcoin"
-      },
-      {
-        "@type": "Account",
-        "identifier": "clemensley",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/clemensley/status/740889944671944707",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "ClemensLey",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/ClemensLey/561a37902c7722767fd52f4a3b3f00c7",
-        "service": "github"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
-        "name": "cover"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/clemensley",
-        "name": "avatar"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "clemensley",
-      "proof_url": "https://twitter.com/clemensley/status/740889944671944707",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "ClemensLey",
-      "proof_url": "https://gist.github.com/ClemensLey/561a37902c7722767fd52f4a3b3f00c7",
-      "service": "github",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN clemensley.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/clemensley.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

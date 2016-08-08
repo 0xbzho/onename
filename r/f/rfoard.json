@@ -1,58 +1,6 @@
 {
-  "owner_address": "14BCMySNm4RCErCmPyFZ9wSdf1EHgjfKo6",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "rfoard",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/rfoard/a6a222ede05a43270274f80bb5ece8bb",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
-        "identifier": "rfoard",
-        "proofType": "http",
-        "proofUrl": "Verifying that +rfoard is my blockchain ID. https://onename.com/rfoard",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
-        "identifier": "rfoard",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/rfoard/status/750838481207918596",
-        "service": "twitter"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
-        "name": "cover"
-      }
-    ],
-    "name": "Ross Foard"
-  },
-  "verifications": [
-    {
-      "identifier": "rfoard",
-      "proof_url": "https://gist.github.com/rfoard/a6a222ede05a43270274f80bb5ece8bb",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "rfoard",
-      "proof_url": "Verifying that +rfoard is my blockchain ID. https://onename.com/rfoard",
-      "service": "facebook",
-      "valid": false
-    },
-    {
-      "identifier": "rfoard",
-      "proof_url": "https://twitter.com/rfoard/status/750838481207918596",
-      "service": "twitter",
-      "valid": false
-    }
-  ],
-  "zone_file": "$ORIGIN rfoard.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rfoard.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

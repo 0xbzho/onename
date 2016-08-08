@@ -1,37 +1,6 @@
 {
-  "owner_address": "1595b8E979GCXzCzDRwTJVXpjd9GrTgg4j",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "jmontagne",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/jmontagne/status/749659546155675649",
-        "service": "twitter"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
-        "name": "cover"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/jmontagne",
-        "name": "avatar"
-      }
-    ],
-    "name": "Julien Montagne"
-  },
-  "verifications": [
-    {
-      "identifier": "jmontagne",
-      "proof_url": "https://twitter.com/jmontagne/status/749659546155675649",
-      "service": "twitter",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN jmontagne.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jmontagne.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

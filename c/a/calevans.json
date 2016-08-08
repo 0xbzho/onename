@@ -1,60 +1,6 @@
 {
-  "owner_address": "1M2so2kbSDbBBJSnRjwNrRyL6e6CUTdVbe",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "calevans",
-        "proofType": "http",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "1MdXAX6jyDoAmEWZdpwngFYbbMr6EUN62n",
-        "role": "payment",
-        "service": "bitcoin"
-      },
-      {
-        "@type": "Account",
-        "identifier": "calevans",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/calevans/92aa6a1883094ca2742f7dcd97312023",
-        "service": "github"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Nashville, TN"
-    },
-    "description": "http://blog.calevans.com/epk",
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/calevans",
-        "name": "avatar"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/dx3/calevans",
-        "name": "cover"
-      }
-    ],
-    "name": "Cal Evans",
-    "website": [
-      {
-        "@type": "WebSite",
-        "url": "http://blog.calevans.com"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "calevans",
-      "proof_url": "https://gist.github.com/calevans/92aa6a1883094ca2742f7dcd97312023",
-      "service": "github",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN calevans.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/calevans.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

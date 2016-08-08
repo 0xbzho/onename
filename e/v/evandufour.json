@@ -1,40 +1,6 @@
 {
-  "owner_address": "19d5gWydTY1YKr5igAYzV8XZUbXkDGHi1k",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "12DbdqXhME4zVLQ6rQmmHdw1K4tMiYk3iY",
-        "role": "payment",
-        "service": "bitcoin"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "New York, NY"
-    },
-    "description": "Associate Producer",
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/evandufour",
-        "name": "avatar"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/dx3/evandufour",
-        "name": "cover"
-      }
-    ],
-    "name": "Evan",
-    "website": [
-      {
-        "@type": "WebSite",
-        "url": "http://www.evandufour.com"
-      }
-    ]
-  },
-  "verifications": [],
-  "zone_file": "$ORIGIN evandufour.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/evandufour.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

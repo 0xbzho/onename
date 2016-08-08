@@ -1,36 +1,6 @@
 {
-  "owner_address": "13Kvh7NkeuHJqAu4wXAwzZJFgrmgoxgJME",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "aleksandr_h",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/aleksandr_h/status/732294447329873921",
-        "service": "twitter"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
-        "name": "cover"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/aleksandr",
-        "name": "avatar"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "aleksandr_h",
-      "proof_url": "https://twitter.com/aleksandr_h/status/732294447329873921",
-      "service": "twitter",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN aleksandr.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/aleksandr.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

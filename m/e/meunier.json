@@ -1,44 +1,6 @@
 {
-  "owner_address": "1CJ8DBciY3nyiV1tLWSUv759txQAXpk2MG",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "meeunier",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/meeunier/status/746333647456854016",
-        "service": "twitter"
-      }
-    ],
-    "description": "Jacques of All Trades",
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/meunier",
-        "name": "avatar"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/dx3/meunier",
-        "name": "cover"
-      }
-    ],
-    "name": "Antoine Meunier",
-    "website": [
-      {
-        "@type": "WebSite",
-        "url": "http://meunier.co"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "meeunier",
-      "proof_url": "https://twitter.com/meeunier/status/746333647456854016",
-      "service": "twitter",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN meunier.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/meunier.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

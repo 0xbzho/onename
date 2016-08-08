@@ -1,62 +1,6 @@
 {
-  "owner_address": "1PLoXGary1z6XdAk34dhWsAEQYpjqTCDET",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "MarcMorin",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/MarcMorin/status/727856222058229760",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "canadianracer",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/canadianracer/853493b8b40bef603f3f99451ddd51c7",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
-        "identifier": "marc.morin.5",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/marc.morin.5/posts/1162108493841240",
-        "service": "facebook"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
-        "name": "cover"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/marcmorin",
-        "name": "avatar"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "MarcMorin",
-      "proof_url": "https://twitter.com/MarcMorin/status/727856222058229760",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "canadianracer",
-      "proof_url": "https://gist.github.com/canadianracer/853493b8b40bef603f3f99451ddd51c7",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "marc.morin.5",
-      "proof_url": "https://www.facebook.com/marc.morin.5/posts/1162108493841240",
-      "service": "facebook",
-      "valid": false
-    }
-  ],
-  "zone_file": "$ORIGIN marcmorin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/marcmorin.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

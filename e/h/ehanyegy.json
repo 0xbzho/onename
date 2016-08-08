@@ -1,6 +1,67 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1ErkcTyfvqbnzrYwj9kj4hJ3q3EncU3kEp",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ehanyegy",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ehanyegy/status/750679854429769728",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ehanyegy",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ehanyegy/db3dcdf19d76bf03da8a8223b57029b8",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hany.i.gerges",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/hany.i.gerges/posts/10153524869481666",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Doha"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ehanyegy",
+        "name": "avatar"
+      }
+    ],
+    "name": "Hany I. Gerges Makar"
+  },
+  "verifications": [
+    {
+      "identifier": "ehanyegy",
+      "proof_url": "https://twitter.com/ehanyegy/status/750679854429769728",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ehanyegy",
+      "proof_url": "https://gist.github.com/ehanyegy/db3dcdf19d76bf03da8a8223b57029b8",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "hany.i.gerges",
+      "proof_url": "https://www.facebook.com/hany.i.gerges/posts/10153524869481666",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ehanyegy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ehanyegy.id\"\n"
 }

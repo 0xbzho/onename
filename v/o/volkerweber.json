@@ -1,48 +1,6 @@
 {
-  "owner_address": "176hM92QkpttoK32YXKT1vMiMmzRYsgZ4q",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "vowe",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/vowe/status/744883337530122240",
-        "service": "twitter"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Darmstadt"
-    },
-    "description": "I explain difficult concepts in simple ways. For free, and for money. Clue procurement and bullshit detection.",
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/volkerweber",
-        "name": "avatar"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/dx3/volkerweber",
-        "name": "cover"
-      }
-    ],
-    "name": "Volker Weber",
-    "website": [
-      {
-        "@type": "WebSite",
-        "url": "http://vowe.net"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "vowe",
-      "proof_url": "https://twitter.com/vowe/status/744883337530122240",
-      "service": "twitter",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN volkerweber.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/volkerweber.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

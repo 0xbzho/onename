@@ -1,44 +1,6 @@
 {
-  "owner_address": "1HWBBroKsQ7wmS9FKgFV2H1MGT5SuWtuWy",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "santeriv",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/santeriv/status/758402643144441857",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "santeriv",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/santeriv/72e903c369b8897c977c7cda0d50f295",
-        "service": "github"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
-        "name": "cover"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "santeriv",
-      "proof_url": "https://twitter.com/santeriv/status/758402643144441857",
-      "service": "twitter",
-      "valid": false
-    },
-    {
-      "identifier": "santeriv",
-      "proof_url": "https://gist.github.com/santeriv/72e903c369b8897c977c7cda0d50f295",
-      "service": "github",
-      "valid": false
-    }
-  ],
-  "zone_file": "$ORIGIN santeriv.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/santeriv.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

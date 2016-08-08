@@ -1,52 +1,6 @@
 {
-  "owner_address": "1F6KKuMfQwyy4QuvgxFXmbtKQcqgY3a9EP",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "contentUrl": "http://pgp.mit.edu/pks/lookup?op=get&search=0x0C9D57B1AD6DE667",
-        "identifier": "0C9D57B1AD6DE667",
-        "role": "key",
-        "service": "pgp"
-      },
-      {
-        "@type": "Account",
-        "identifier": "hotzeplotz",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/hotzeplotz/68071d044d1f63c0f4b0f9c76ab4551b",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
-        "identifier": "hotzeplotz",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/hotzeplotz/status/743585037916979200",
-        "service": "twitter"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
-        "name": "cover"
-      }
-    ],
-    "name": "Hotzeplotz"
-  },
-  "verifications": [
-    {
-      "identifier": "hotzeplotz",
-      "proof_url": "https://gist.github.com/hotzeplotz/68071d044d1f63c0f4b0f9c76ab4551b",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "hotzeplotz",
-      "proof_url": "https://twitter.com/hotzeplotz/status/743585037916979200",
-      "service": "twitter",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN hotzeplotz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hotzeplotz.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

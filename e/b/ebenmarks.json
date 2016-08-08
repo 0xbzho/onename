@@ -5,12 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "1L8fU9ePQfipyBWnGCxgMhJPjNfgEPq3xp",
-        "role": "payment",
-        "service": "bitcoin"
-      },
-      {
-        "@type": "Account",
         "identifier": "ebenmarks",
         "proofType": "http",
         "proofUrl": "https://twitter.com/EbenMarks/status/759865760751562752",
@@ -22,6 +16,12 @@
         "proofType": "http",
         "proofUrl": "https://www.facebook.com/eben1/posts/10100344288342439?pnref=story",
         "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "role": "payment",
+        "service": "bitcoin"
       }
     ],
     "address": {
@@ -33,6 +33,11 @@
         "@type": "ImageObject",
         "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
         "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ebenmarks",
+        "name": "avatar"
       }
     ],
     "name": "Eben Marks"
@@ -42,7 +47,7 @@
       "identifier": "ebenmarks",
       "proof_url": "https://twitter.com/EbenMarks/status/759865760751562752",
       "service": "twitter",
-      "valid": true
+      "valid": false
     },
     {
       "identifier": "eben1",

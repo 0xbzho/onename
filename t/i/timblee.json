@@ -1,44 +1,6 @@
 {
-  "owner_address": "13AvwwGRtELUKHxC4rBweuU2FKJ8WpewCw",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "timbl",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/timbl/04e8ac7c81cd2dee2f51a5e8c672188d",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
-        "identifier": "timberners_lee",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/timberners_lee/status/740677355950080001",
-        "service": "twitter"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
-        "name": "cover"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "timbl",
-      "proof_url": "https://gist.github.com/timbl/04e8ac7c81cd2dee2f51a5e8c672188d",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "timberners_lee",
-      "proof_url": "https://twitter.com/timberners_lee/status/740677355950080001",
-      "service": "twitter",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN timblee.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/timblee.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

@@ -1,54 +1,6 @@
 {
-  "owner_address": "1MCRnne3kt282LWiS9N4FmdAfvVwKukifk",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "konratz",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/konratz/status/745249582129504256",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "konratz",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/konratz",
-        "service": "facebook"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Berlin, Germany"
-    },
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/konratz",
-        "name": "avatar"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/dx3/konratz",
-        "name": "cover"
-      }
-    ],
-    "name": "Konrad"
-  },
-  "verifications": [
-    {
-      "identifier": "konratz",
-      "proof_url": "https://twitter.com/konratz/status/745249582129504256",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "konratz",
-      "proof_url": "https://www.facebook.com/konratz",
-      "service": "facebook",
-      "valid": false
-    }
-  ],
-  "zone_file": "$ORIGIN konratz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/konratz.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

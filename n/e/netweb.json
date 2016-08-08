@@ -1,61 +1,6 @@
 {
-  "owner_address": "121FCRReaeXCQsu45o9tsp2hBiajRBSMpR",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "netweb",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/netweb/status/747985083533922304",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "ntwb",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/ntwb/229ebf9df1cda7287af21ca312f243f5",
-        "service": "github"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Melbourne, Victoria, Australia"
-    },
-    "description": "@bbPress @BuddyPress @WordPress @stylelint",
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
-        "name": "cover"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/netweb",
-        "name": "avatar"
-      }
-    ],
-    "name": "Stephen Edgar",
-    "website": [
-      {
-        "@type": "WebSite",
-        "url": "https://netweb.com.au"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "netweb",
-      "proof_url": "https://twitter.com/netweb/status/747985083533922304",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "ntwb",
-      "proof_url": "https://gist.github.com/ntwb/229ebf9df1cda7287af21ca312f243f5",
-      "service": "github",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN netweb.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/netweb.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

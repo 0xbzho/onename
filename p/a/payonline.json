@@ -1,45 +1,6 @@
 {
-  "owner_address": "1GDBhmVzuqRNNR3hy3Cxzq5GR1qjUaoPWM",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "3MXYUBLWNETa5HTewZp1xMTt7AW9kbFNqs",
-        "role": "payment",
-        "service": "bitcoin"
-      },
-      {
-        "@type": "Account",
-        "identifier": "e42b04e80859e09d651858caa0e4ce90e3f79a3d",
-        "service": "openbazaar"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Lyndell, Pa"
-    },
-    "description": "Mediated p2p Bitcoin / Dollar transactions",
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/payonline",
-        "name": "avatar"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/dx3/payonline",
-        "name": "cover"
-      }
-    ],
-    "name": "PayOnline",
-    "website": [
-      {
-        "@type": "WebSite",
-        "url": "http://www.payonline.com"
-      }
-    ]
-  },
-  "verifications": [],
-  "zone_file": "$ORIGIN payonline.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/payonline.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

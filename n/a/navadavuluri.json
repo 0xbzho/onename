@@ -1,42 +1,6 @@
 {
-  "owner_address": "17E97Nrei33fsHasVotYCAjgxCEBy4s668",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "navadavuluri",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/navadavuluri/posts/10154255550093726",
-        "service": "facebook"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Sunnyvale"
-    },
-    "description": "Software guy building products",
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
-        "name": "cover"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/navadavuluri",
-        "name": "avatar"
-      }
-    ],
-    "name": "Nava Davuluri"
-  },
-  "verifications": [
-    {
-      "identifier": "navadavuluri",
-      "proof_url": "https://www.facebook.com/navadavuluri/posts/10154255550093726",
-      "service": "facebook",
-      "valid": false
-    }
-  ],
-  "zone_file": "$ORIGIN navadavuluri.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/navadavuluri.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

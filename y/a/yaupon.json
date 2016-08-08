@@ -1,60 +1,6 @@
 {
-  "owner_address": "181KLQumnp9gmdxAADpXcMuztVMLse5kmf",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "LostPinesYaupon",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/LostPinesYaupon/status/738051482931466240",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "33c2ec679536e47adae089a59153f5714b20d9f6",
-        "service": "openbazaar"
-      },
-      {
-        "@type": "Account",
-        "identifier": "lostpinesyaupon",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/lostpinesyaupon/posts/501658520026690",
-        "service": "facebook"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Austin, Tx"
-    },
-    "description": "Yaupon (YO-pawn) is naturally caffeinated. It's also rich in the related stimulant theobromine (from Greek \"food of the gods\"), the pleasure molecule familiar to lovers of dark chocolate. While yaupon contains less caffeine than coffee or tea, it contains more theobromine. This more balanced ratio gives yaupon its focused, jitter-free buzz.",
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/yaupon",
-        "name": "avatar"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/dx3/yaupon",
-        "name": "cover"
-      }
-    ],
-    "name": "Lost Pines Yaupon Tea"
-  },
-  "verifications": [
-    {
-      "identifier": "LostPinesYaupon",
-      "proof_url": "https://twitter.com/LostPinesYaupon/status/738051482931466240",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "lostpinesyaupon",
-      "proof_url": "https://www.facebook.com/lostpinesyaupon/posts/501658520026690",
-      "service": "facebook",
-      "valid": false
-    }
-  ],
-  "zone_file": "$ORIGIN yaupon.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/yaupon.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

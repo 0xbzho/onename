@@ -1,60 +1,6 @@
 {
-  "owner_address": "1HyP2jtZ1447mURVJ3WHU7fn9SV7pUSQkF",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "5c2815fcf61fc6c14b5767c0bc88cb51ed85aca2",
-        "service": "openbazaar"
-      },
-      {
-        "@type": "Account",
-        "identifier": "1Ach9NbGM856fZMMjr7j9m88XbqPJ3sJ7D",
-        "role": "payment",
-        "service": "bitcoin"
-      },
-      {
-        "@type": "Account",
-        "identifier": "LogicObserver",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/LogicObserver/status/725906409687150592",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "Lasticko2",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/Lasticko2/posts/233668203661316?pnref=story",
-        "service": "facebook"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/logicobserver",
-        "name": "avatar"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/dx3/logicobserver",
-        "name": "cover"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "LogicObserver",
-      "proof_url": "https://twitter.com/LogicObserver/status/725906409687150592",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "Lasticko2",
-      "proof_url": "https://www.facebook.com/Lasticko2/posts/233668203661316?pnref=story",
-      "service": "facebook",
-      "valid": false
-    }
-  ],
-  "zone_file": "$ORIGIN logicobserver.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/logicobserver.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

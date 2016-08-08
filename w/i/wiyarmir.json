@@ -1,62 +1,6 @@
 {
-  "owner_address": "1E9UrZXgPk4q1iXwXtQCczgAWettKGSE1t",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "wiyarmir",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/wiyarmir/status/758682443452932096",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "wiyarmir",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/wiyarmir/f4a352b89c45fa260c4e17f088584f51",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
-        "identifier": "guillermoorellanaruiz",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/guillermoorellanaruiz/posts/10209231734722985?pnref=story",
-        "service": "facebook"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
-        "name": "cover"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/wiyarmir",
-        "name": "avatar"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "wiyarmir",
-      "proof_url": "https://twitter.com/wiyarmir/status/758682443452932096",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "wiyarmir",
-      "proof_url": "https://gist.github.com/wiyarmir/f4a352b89c45fa260c4e17f088584f51",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "guillermoorellanaruiz",
-      "proof_url": "https://www.facebook.com/guillermoorellanaruiz/posts/10209231734722985?pnref=story",
-      "service": "facebook",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN wiyarmir.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wiyarmir.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

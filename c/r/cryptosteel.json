@@ -1,65 +1,6 @@
 {
-  "owner_address": "1ADbeENdgoiWTwjzPMvZA1iZGze9yoyfnH",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "cryptosteel",
-        "proofType": "http",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "cryptosteel",
-        "proofType": "http",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
-        "identifier": "arbouss",
-        "proofType": "http",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
-        "contentUrl": "https://s3.amazonaws.com/pk9/cryptosteel",
-        "identifier": "9249140A",
-        "role": "key",
-        "service": "pgp"
-      },
-      {
-        "@type": "Account",
-        "identifier": "1CzsLibiv7fvUpW39oeTudfoGs9gBYAaoT",
-        "role": "payment",
-        "service": "bitcoin"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Poland"
-    },
-    "description": "The Ultimate Cold Storage",
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/cryptosteel",
-        "name": "avatar"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/dx3/cryptosteel",
-        "name": "cover"
-      }
-    ],
-    "name": "cryptosteel",
-    "website": [
-      {
-        "@type": "WebSite",
-        "url": "http://get.cryptosteel.com"
-      }
-    ]
-  },
-  "verifications": [],
-  "zone_file": "$ORIGIN cryptosteel.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cryptosteel.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

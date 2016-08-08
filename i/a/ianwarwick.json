@@ -1,59 +1,6 @@
 {
-  "owner_address": "1CPoXmpvSxQ7jbPdbgmcFcVo3T1aAx67Ap",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "ian_warwick",
-        "proofType": "http",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "IanWarwick",
-        "proofType": "http",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
-        "identifier": "1JjEK9Zk5i53xjXTSratxrekFPb7v42P3b",
-        "role": "payment",
-        "service": "bitcoin"
-      },
-      {
-        "@type": "Account",
-        "identifier": "iwarwick@hotmail.com",
-        "proofType": "http",
-        "proofUrl": "https://facebook.com/iwarwick@hotmail.com/posts/10152857680590499",
-        "service": "facebook"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "UK"
-    },
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/ianwarwick",
-        "name": "avatar"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
-        "name": "cover"
-      }
-    ],
-    "name": "Ian Warwick"
-  },
-  "verifications": [
-    {
-      "identifier": "iwarwick@hotmail.com",
-      "proof_url": "https://facebook.com/iwarwick@hotmail.com/posts/10152857680590499",
-      "service": "facebook",
-      "valid": false
-    }
-  ],
-  "zone_file": "$ORIGIN ianwarwick.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ianwarwick.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

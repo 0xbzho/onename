@@ -1,55 +1,6 @@
 {
-  "owner_address": "1NZpScEcVc6Aj57yLWWT3ZNU1myayNqRbh",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "ozzie",
-        "proofType": "http",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
-        "identifier": "rayozzie",
-        "proofType": "http",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
-        "identifier": "rozzie",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/rozzie/status/744833767525736448",
-        "service": "twitter"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": ""
-    },
-    "description": "CEO Talko Inc.",
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/rozzie",
-        "name": "avatar"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/dx3/rozzie",
-        "name": "cover"
-      }
-    ],
-    "name": "Ray Ozzie",
-    "website": []
-  },
-  "verifications": [
-    {
-      "identifier": "rozzie",
-      "proof_url": "https://twitter.com/rozzie/status/744833767525736448",
-      "service": "twitter",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN rozzie.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rozzie.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

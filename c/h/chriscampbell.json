@@ -1,61 +1,6 @@
 {
-  "owner_address": "182PSxTCWxKCewj4MsZU5ChkK4Hd5vyANP",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "1M257X1Xn9feQfZEuNLKXtTgfnd4aZp3Cs",
-        "role": "payment",
-        "service": "bitcoin"
-      },
-      {
-        "@type": "Account",
-        "identifier": "CampbellForLife",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/CampbellForLife/status/748380828925890560",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "campbellforlife",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/campbellforlife/posts/856971401100208?pnref=story",
-        "service": "facebook"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Earth"
-    },
-    "description": "I write about the decentralization of power.",
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/chriscampbell",
-        "name": "avatar"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/dx3/chriscampbell",
-        "name": "cover"
-      }
-    ],
-    "name": "Chris Campbell"
-  },
-  "verifications": [
-    {
-      "identifier": "CampbellForLife",
-      "proof_url": "https://twitter.com/CampbellForLife/status/748380828925890560",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "campbellforlife",
-      "proof_url": "https://www.facebook.com/campbellforlife/posts/856971401100208?pnref=story",
-      "service": "facebook",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN chriscampbell.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/chriscampbell.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

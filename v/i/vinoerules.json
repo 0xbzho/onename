@@ -1,62 +1,6 @@
 {
-  "owner_address": "1N9xsT4guGoe3Y9hbiBaynNf771TAFdnAS",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "vinoerules",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/vinoerules/status/744287883297755136",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "vinoerules",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/vinoerules/posts/1429714240387302?pnref=story",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
-        "identifier": "vinoerules",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/vinoerules/504885cf177defa9f922a4e9076848d8",
-        "service": "github"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Atlanta, Georgia, United States"
-    },
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
-        "name": "cover"
-      }
-    ],
-    "name": "Vinod Kumar Venkatesan"
-  },
-  "verifications": [
-    {
-      "identifier": "vinoerules",
-      "proof_url": "https://twitter.com/vinoerules/status/744287883297755136",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "vinoerules",
-      "proof_url": "https://www.facebook.com/vinoerules/posts/1429714240387302?pnref=story",
-      "service": "facebook",
-      "valid": true
-    },
-    {
-      "identifier": "vinoerules",
-      "proof_url": "https://gist.github.com/vinoerules/504885cf177defa9f922a4e9076848d8",
-      "service": "github",
-      "valid": false
-    }
-  ],
-  "zone_file": "$ORIGIN vinoerules.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vinoerules.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

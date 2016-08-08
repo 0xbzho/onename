@@ -1,44 +1,6 @@
 {
-  "owner_address": "1Kx9teweSuLQCXob3kUR6Rx2M7M76QWHYk",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "willmckim",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/willmckim/status/741124328796913664",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "willmckim",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/willmckim/posts/10101567903156706?pnref=story",
-        "service": "facebook"
-      }
-    ],
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
-        "name": "cover"
-      }
-    ]
-  },
-  "verifications": [
-    {
-      "identifier": "willmckim",
-      "proof_url": "https://twitter.com/willmckim/status/741124328796913664",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "willmckim",
-      "proof_url": "https://www.facebook.com/willmckim/posts/10101567903156706?pnref=story",
-      "service": "facebook",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN willmckim.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/willmckim.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

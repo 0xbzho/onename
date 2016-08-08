@@ -1,54 +1,6 @@
 {
-  "owner_address": "18S9xrHPsrFZmsyFPfeq3MVJXrMRFpTAtD",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "aaadamkk",
-        "proofType": "http",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
-        "identifier": "1NyMqVqnAFXZ1Q4MCjgtiCLyZsQ2MEFySs",
-        "role": "payment",
-        "service": "bitcoin"
-      },
-      {
-        "@type": "Account",
-        "identifier": "AAAdamKK",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/AAAdamKK/status/740824178849402880",
-        "service": "twitter"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "United Kingdom"
-    },
-    "description": "",
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/adam_fitzpatrick",
-        "name": "avatar"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/dx3/adam_fitzpatrick",
-        "name": "cover"
-      }
-    ],
-    "name": "Adam Fitzpatrick"
-  },
-  "verifications": [
-    {
-      "identifier": "AAAdamKK",
-      "proof_url": "https://twitter.com/AAAdamKK/status/740824178849402880",
-      "service": "twitter",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN adam_fitzpatrick.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/adam_fitzpatrick.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }

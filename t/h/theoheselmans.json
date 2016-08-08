@@ -1,41 +1,6 @@
 {
-  "owner_address": "1EyBqQ2S1ywKv47EYEXqcJquJmphQXZSZ3",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "theoheselmans",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/theoheselmans/status/744897176644493313",
-        "service": "twitter"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Olen, Belgium"
-    },
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/theoheselmans",
-        "name": "avatar"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/dx3/theoheselmans",
-        "name": "cover"
-      }
-    ],
-    "name": "Theo Heselmans"
-  },
-  "verifications": [
-    {
-      "identifier": "theoheselmans",
-      "proof_url": "https://twitter.com/theoheselmans/status/744897176644493313",
-      "service": "twitter",
-      "valid": true
-    }
-  ],
-  "zone_file": "$ORIGIN theoheselmans.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/theoheselmans.id\"\n"
+  "error": {
+    "message": "This username is not registered.",
+    "type": "username_not_registered"
+  }
 }
