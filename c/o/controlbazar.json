@@ -1,6 +1,63 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1CiYkEKp8ThCAsJcjZHyeX9fTN1Q8fDiEb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "19FjfizPG93ERyxZBwYb2cAX87GRwqGgx7",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "b4413896bfe09bfccab977d197fb920d8e8d9746",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/2deviant/posts/10103706412526408",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nupulse",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/nupulse/status/762223972293480448?lang=es",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nupulse",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/nupulse/33fda33a2925769756ea7bfb2aa75dc9",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/controlbazar",
+        "name": "avatar"
+      }
+    ],
+    "name": "Control"
+  },
+  "verifications": [
+    {
+      "identifier": "nupulse",
+      "proof_url": "https://twitter.com/nupulse/status/762223972293480448?lang=es",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "nupulse",
+      "proof_url": "https://gist.github.com/nupulse/33fda33a2925769756ea7bfb2aa75dc9",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN controlbazar.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/controlbazar.id\"\n"
 }

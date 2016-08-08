@@ -1,0 +1,55 @@
+{
+  "owner_address": "1HyN7WUEsJxU1ZmXs6Gm2Ao4Js4wRMbzQv",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Coruscite",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Coruscite/status/762212024994627584",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rowan.searle.7?sk=wall",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/rowan.searle.7/posts/880582145409098",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brighton"
+    },
+    "description": "He was the greatest samurai in the Empire",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rowansearle",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rowansearle",
+        "name": "cover"
+      }
+    ],
+    "name": "Rowan Searle"
+  },
+  "verifications": [
+    {
+      "identifier": "Coruscite",
+      "proof_url": "https://twitter.com/Coruscite/status/762212024994627584",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "rowan.searle.7?sk=wall",
+      "proof_url": "https://www.facebook.com/rowan.searle.7/posts/880582145409098",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN rowansearle.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rowansearle.id\"\n"
+}

@@ -1,37 +1,56 @@
 {
   "owner_address": "14dSfp8t2jEbiaU3dLFi9SZuEFJRSm1gy7",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/aspectron"
-    },
-    "bitcoin": {
-      "address": "1MCGLnX9JLFo8EhiHuk5HLT5kbsLH25qNF"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/aspectron"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/aspect/17a65374da532ecf4549"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1MCGLnX9JLFo8EhiHuk5HLT5kbsLH25qNF",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "aspect"
-    },
-    "name": {
-      "formatted": "Anton Yemelyanov"
-    },
-    "pgp": {
-      "fingerprint": "71B048849DA89DAA80270799BA36608718C370B4",
-      "url": "https://s3.amazonaws.com/pk9/aspectron"
-    },
-    "v": "0.2",
-    "website": "http://aspectron.com"
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/aspectron",
+        "identifier": "70FA37507765E402027E9A3D20B0E1840CA0E895",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "aspect",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/aspect/0ab7e75c78226bd63cec3e0034d44673",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/aspectron",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/aspectron",
+        "name": "cover"
+      }
+    ],
+    "name": "Anton Yemelyanov",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://aspectron.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "aspect",
-      "proof_url": "https://gist.github.com/aspect/17a65374da532ecf4549",
+      "proof_url": "https://gist.github.com/aspect/0ab7e75c78226bd63cec3e0034d44673",
       "service": "github",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN aspectron.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/aspectron.id\"\n"
 }

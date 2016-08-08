@@ -1,6 +1,37 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1BaKao9n9c3zEFvWKgvduV4FqAz7rCGCKp",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Yermouth",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Yermouth/1e5877eabdab7eb493ca066a94e9acfd",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hong Kong"
+    },
+    "description": "Computer Science Student",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Lai Sunny"
+  },
+  "verifications": [
+    {
+      "identifier": "Yermouth",
+      "proof_url": "https://gist.github.com/Yermouth/1e5877eabdab7eb493ca066a94e9acfd",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN laisunny.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/laisunny.id\"\n"
 }

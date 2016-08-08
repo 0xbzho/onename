@@ -1,58 +1,60 @@
 {
   "owner_address": "1LN8AgCY6bpppDi98X96vCpuQRJWm72dpG",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/nicolasgut"
-    },
-    "bio": "Groundbreaking projects Catalyst & designer",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/HHE.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/nicolasgut/posts/1073848285992157"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "NicolasGut",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "nicolasgut"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/NicolasGut/844b70fe19f0a9241405"
+      {
+        "@type": "Account",
+        "identifier": "NicolasGut",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "NicolasGut"
+      {
+        "@type": "Account",
+        "identifier": "nicolasgut",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/gutnicolas/posts/1156258947751090",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris"
     },
-    "location": {
-      "formatted": "Paris"
-    },
-    "name": {
-      "formatted": "Nicolas Gut"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/NicolasGut/status/714718838437314562"
+    "description": "Groundbreaking projects Catalyst & designer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nicolasgut",
+        "name": "avatar"
       },
-      "username": "NicolasGut"
-    },
-    "v": "0.2",
-    "website": "http://about.me/nicolasgut"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Nicolas Gut",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://about.me/nicolasgut"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "NicolasGut",
-      "proof_url": "https://gist.github.com/NicolasGut/844b70fe19f0a9241405",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "NicolasGut",
-      "proof_url": "https://twitter.com/NicolasGut/status/714718838437314562",
-      "service": "twitter",
-      "valid": true
-    },
-    {
       "identifier": "nicolasgut",
-      "proof_url": "https://facebook.com/nicolasgut/posts/1073848285992157",
+      "proof_url": "https://www.facebook.com/gutnicolas/posts/1156258947751090",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN nicolasgut.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nicolasgut.id\"\n"
 }

@@ -1,6 +1,62 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1FaBD4Pv933BhTzqED83Kyi6YZo33B8eEy",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "RatingsBooster",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/RatingsBooster/109057de0477154a40167b750c641bb1",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "RatingsBooster",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RatingsBooster/status/762147302450589697",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "4f92d9a961816cb77863859f39bd0da82beb5a20",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/gokhanonim/posts/113560362422806",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "The Internet"
+    },
+    "description": "I help your OpenBazaar ratings. :)",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ratingsbooster",
+        "name": "avatar"
+      }
+    ],
+    "name": "Ratings Booster"
+  },
+  "verifications": [
+    {
+      "identifier": "RatingsBooster",
+      "proof_url": "https://gist.github.com/RatingsBooster/109057de0477154a40167b750c641bb1",
+      "service": "github",
+      "valid": true
+    },
+    {
+      "identifier": "RatingsBooster",
+      "proof_url": "https://twitter.com/RatingsBooster/status/762147302450589697",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ratingsbooster.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ratingsbooster.id\"\n"
 }

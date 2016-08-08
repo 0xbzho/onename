@@ -1,72 +1,33 @@
 {
-  "owner_address": "1QF1sHa6qoyWvV8Lo3RPg88zuLRRUFcVtm",
+  "owner_address": "14u87oc3gHweg8CJZZC45reYfgqkJBW4xv",
   "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "1EgWjGKofTM8Cwzdc7shbxntrCK9wPu9uk",
-        "role": "payment",
-        "service": "bitcoin"
-      },
-      {
-        "@type": "Account",
-        "identifier": "The_Host_",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/The_Host_/status/734721452369313794",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "the.host.liveaboard",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/The.Host.Liveaboard/posts/10154073645583654",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
-        "identifier": "692bba9b5a195e786cd2ad37d8797afd2ca2d50e",
-        "service": "openbazaar"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Rio Duce, Guatemala, Central America"
+    "avatar": {
+      "url": "https://s3.amazonaws.com/kd4/madhav"
     },
-    "description": "Liveaboard @ Belize, Guatemala and Honduras",
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/the_host_",
-        "name": "avatar"
+    "bio": "We will always have Poland.",
+    "cover": {
+      "url": "https://s3.amazonaws.com/dx3/madhav"
+    },
+    "location": {
+      "formatted": ""
+    },
+    "name": {
+      "formatted": "Madhav"
+    },
+    "twitter": {
+      "proof": {
+        "url": "https://twitter.com/madhav/status/689691157886939136"
       },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/dx3/the_host_",
-        "name": "cover"
-      }
-    ],
-    "name": "The Host Liveaboard",
-    "website": [
-      {
-        "@type": "WebSite",
-        "url": "http://www.serviciosnavalesdelrio.blogspot.com"
-      }
-    ]
+      "username": "madhav"
+    },
+    "v": "0.2"
   },
   "verifications": [
     {
-      "identifier": "The_Host_",
-      "proof_url": "https://twitter.com/The_Host_/status/734721452369313794",
+      "identifier": "madhav",
+      "proof_url": "https://twitter.com/madhav/status/689691157886939136",
       "service": "twitter",
       "valid": true
-    },
-    {
-      "identifier": "the.host.liveaboard",
-      "proof_url": "https://www.facebook.com/The.Host.Liveaboard/posts/10154073645583654",
-      "service": "facebook",
-      "valid": true
     }
-  ],
-  "zone_file": "$ORIGIN the_host_.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/the_host_.id\"\n"
+  ]
 }

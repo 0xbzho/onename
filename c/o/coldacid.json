@@ -1,6 +1,78 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "12AFSc7WHeTyjyj9jpoEuNqALWMTUPLyXn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1LFrq9qNC3uaMnFKWn5A4SfNLADsVEEYuU",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ChrisCharabaruk",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ChrisCharabaruk/status/762108304722108416",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "coldacid",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/coldacid/e01a000b68417f3fb673900940cbb732",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/coldacid",
+        "identifier": "1F46838766ADA4DC15592584271ACFDBD2AB7708",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "coldacid",
+        "service": "sealion.club"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Pickering, Ontario, Canada"
+    },
+    "description": "Software developer and game designer.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/coldacid",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/coldacid",
+        "name": "cover"
+      }
+    ],
+    "name": "Chris Charabaruk",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://chris.charabaruk.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ChrisCharabaruk",
+      "proof_url": "https://twitter.com/ChrisCharabaruk/status/762108304722108416",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "coldacid",
+      "proof_url": "https://gist.github.com/coldacid/e01a000b68417f3fb673900940cbb732",
+      "service": "github",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN coldacid.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/coldacid.id\"\n"
 }

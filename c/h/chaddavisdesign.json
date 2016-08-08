@@ -1,17 +1,67 @@
 {
   "owner_address": "1HaYHsvtrqGUN89iXbxpj8yAMxvpPsHUMj",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/yId.jpg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mrchaddavis",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mrchaddavis/status/761297064030511104",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fb185381a76c5fd209b4ea112e738271b43a3695",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/minibizweb/status/761265430862426112",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "chaddavisdesign",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/chaddavis.design/posts/273334879703401",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Columbus, OH, USA"
     },
-    "location": {
-      "formatted": "Columbus, OH, USA"
-    },
-    "name": {
-      "formatted": "Chad Davis"
-    },
-    "v": "0.2",
-    "website": "http://chaddavis.design"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/chaddavisdesign",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/chaddavisdesign",
+        "name": "cover"
+      }
+    ],
+    "name": "Chad Davis",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://chaddavis.design"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "mrchaddavis",
+      "proof_url": "https://twitter.com/mrchaddavis/status/761297064030511104",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "chaddavisdesign",
+      "proof_url": "https://www.facebook.com/chaddavis.design/posts/273334879703401",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN chaddavisdesign.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/chaddavisdesign.id\"\n"
 }
