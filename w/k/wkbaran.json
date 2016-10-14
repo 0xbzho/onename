@@ -1,6 +1,49 @@
 {
-  "owner_address": "1E2vd1baZLrhNRgU6FPZv1zxxuRNhj4btG",
-  "profile": {},
+  "owner_address": "1Hekm7GsZeyun4QMJ6DaGgV38KruyBSLut",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Bill_Baran",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Bill_Baran/status/786730740839018500",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Sirkut",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/Sirkut/posts/10210862902190972",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "wkbaran",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/wkbaran/8c86ff8a0cc881685942067a1cd3796c",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "17DFsXDQxAdp5SpK8DHbW5vPKbzvU8uQdL",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/wkbaran",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/wkbaran",
+        "name": "cover"
+      }
+    ]
+  },
   "verifications": [],
   "zone_file": "$ORIGIN wkbaran.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wkbaran.id\"\n"
 }
