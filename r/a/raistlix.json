@@ -1,0 +1,67 @@
+{
+  "owner_address": "19S48E33fqnGAPDJ64ykiZjUnxtdGDHQ83",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "StevenHooper_US",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/StevenHooper_US/status/770602829031571456",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Raistlix",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Raistlix/fd3ea87ffef945f127a5701b0981e7f2",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "steven.hooper",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/steven.hooper/posts/10209601628973280",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "United States"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/raistlix",
+        "name": "avatar"
+      }
+    ],
+    "name": "Steven Hooper"
+  },
+  "verifications": [
+    {
+      "identifier": "StevenHooper_US",
+      "proof_url": "https://twitter.com/StevenHooper_US/status/770602829031571456",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Raistlix",
+      "proof_url": "https://gist.github.com/Raistlix/fd3ea87ffef945f127a5701b0981e7f2",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "steven.hooper",
+      "proof_url": "https://www.facebook.com/steven.hooper/posts/10209601628973280",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN raistlix.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/raistlix.id\"\n"
+}

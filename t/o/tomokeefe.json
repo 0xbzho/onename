@@ -1,63 +1,67 @@
 {
   "owner_address": "13AHR8Cq6EtmJHmNTUEQi8JxxaLhZTbMdn",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/tomokeefe"
-    },
-    "bio": "Tutor and writer",
-    "bitcoin": {
-      "address": "1ABxcJCTgU7gGpuCd67YQUozCzgM5Vxet"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/gQZ.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/Tom O'Keefe/posts/725286197556641"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "107cf0f3112d41b1a22f.git",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "Tom O'Keefe"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/107cf0f3112d41b1a22f.git"
+      {
+        "@type": "Account",
+        "identifier": "1ABxcJCTgU7gGpuCd67YQUozCzgM5Vxet",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "107cf0f3112d41b1a22f.git"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/tomokeefe"
-    },
-    "location": {
-      "formatted": "New York City"
-    },
-    "name": {
-      "formatted": "Tom O'Keefe"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/_TomOKeefe_/status/534369265751564289"
+      {
+        "@type": "Account",
+        "identifier": "Tom O'Keefe",
+        "proofType": "http",
+        "proofUrl": "Verifying that \"tomokeefe.id\" is my Blockstack ID. https://onename.com/tomokeefe",
+        "service": "facebook"
       },
-      "username": "_TomOKeefe_"
+      {
+        "@type": "Account",
+        "identifier": "_TomOKeefe_",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/_TomOKeefe_/status/534369265751564289",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York City"
     },
-    "v": "0.2"
+    "description": "Tutor and writer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tomokeefe",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Tom O'Keefe"
   },
   "verifications": [
     {
-      "identifier": "107cf0f3112d41b1a22f.git",
-      "proof_url": "https://gist.github.com/107cf0f3112d41b1a22f.git",
-      "service": "github",
-      "valid": true
+      "identifier": "Tom O'Keefe",
+      "proof_url": "Verifying that \"tomokeefe.id\" is my Blockstack ID. https://onename.com/tomokeefe",
+      "service": "facebook",
+      "valid": false
     },
     {
       "identifier": "_TomOKeefe_",
       "proof_url": "https://twitter.com/_TomOKeefe_/status/534369265751564289",
       "service": "twitter",
       "valid": false
-    },
-    {
-      "identifier": "Tom O'Keefe",
-      "proof_url": "https://facebook.com/Tom O'Keefe/posts/725286197556641",
-      "service": "facebook",
-      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN tomokeefe.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tomokeefe.id\"\n"
 }

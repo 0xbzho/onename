@@ -1,0 +1,57 @@
+{
+  "owner_address": "1AckTvjNhMFDkPi6QFVXQXwRJrLoSrvbp3",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "chiefgeek157",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/chiefgeek157/44dc1868ceea19639226c90c476c6898",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rogercass",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rogercass/status/780859466308870145",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "roger.cass",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/roger.cass/posts/10210166894108250",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "chiefgeek157",
+      "proof_url": "https://gist.github.com/chiefgeek157/44dc1868ceea19639226c90c476c6898",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "rogercass",
+      "proof_url": "https://twitter.com/rogercass/status/780859466308870145",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "roger.cass",
+      "proof_url": "https://www.facebook.com/roger.cass/posts/10210166894108250",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN chiefgeek157.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/chiefgeek157.id\"\n"
+}

@@ -1,52 +1,58 @@
 {
   "owner_address": "1CV6pNHo5pmqovsJPUXeTpiBp6sTkhdJ72",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/zsoltsandor"
-    },
-    "bitcoin": {
-      "address": "3GcdDdvigmu1sx5jnRLeg6caJ5tMmXZG4d"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/wkj.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/zsolt.sandor/posts/10205679004557645"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "zsolt.sandor",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "zsolt.sandor"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/zsoltsandor/855783d91c9837ecda62"
+      {
+        "@type": "Account",
+        "identifier": "zsoltsandor",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "zsoltsandor"
+      {
+        "@type": "Account",
+        "identifier": "1DpkYVBSXsPXj8Cp3m5m1oZqHz6FkSai17",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "http://zsoltsandor.me/zsoltsandor.me.asc",
+        "identifier": "AB4134AAD63A4664FAEB3FC70413CA2475A62E05",
+        "role": "key",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Budapest, Hungary"
     },
-    "location": {
-      "formatted": "Budapest, Hungary"
-    },
-    "name": {
-      "formatted": "Zsolt Sándor"
-    },
-    "pgp": {
-      "fingerprint": "48244A95923A5AC00E7BB1A81BBA44987A51C783",
-      "url": "http://zsoltsandor.me/zsoltsandor.me.asc"
-    },
-    "v": "0.2",
-    "website": "http://zsoltsandor.me"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/zsoltsandor",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Zsolt Sándor",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://zsoltsandor.me"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "zsoltsandor",
-      "proof_url": "https://gist.github.com/zsoltsandor/855783d91c9837ecda62",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "zsolt.sandor",
-      "proof_url": "https://facebook.com/zsolt.sandor/posts/10205679004557645",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN zsoltsandor.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/zsoltsandor.id\"\n"
 }

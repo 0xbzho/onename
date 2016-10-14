@@ -1,20 +1,68 @@
 {
   "owner_address": "1NeuVJVqDHzzhHukCaFzvpgLH6vF6ijVnu",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/damon0"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "12fa60b26efee6e30b4fe15efb0f663b398bc797",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "16QRBGNmYzWZCRV2SKUaQaibnYxXeEniMT",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "keybase.io/damon0/key.asc",
+        "identifier": "43F948F0B6A4FC9791EB9698EF70C826CC16265B",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "damon036389023",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/damon036389023/status/749542723112144896",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Pacific Northwest"
     },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/yvD.jpeg"
+    "description": "Samadhi",
+    "graph": {
+      "url": "https://s3.amazonaws.com/grph/damon0"
     },
-    "location": {
-      "formatted": "Pacific Northwest"
-    },
-    "name": {
-      "formatted": "Damon"
-    },
-    "v": "0.2",
-    "website": "https://www.minds.com/damon0"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/damon0",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Damon0",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://steemit.com/@damono"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "damon036389023",
+      "proof_url": "https://twitter.com/damon036389023/status/749542723112144896",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN damon0.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/damon0.id\"\n"
 }

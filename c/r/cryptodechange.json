@@ -1,0 +1,42 @@
+{
+  "owner_address": "1DyyTwKYa2Tsv9fMec3kXGPpQqkSgoveZ8",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cryptodechange",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cryptodechange/status/775480779119943680",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "United Kingdom"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Crypto de Change",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.cryptodechange.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "cryptodechange",
+      "proof_url": "https://twitter.com/cryptodechange/status/775480779119943680",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN cryptodechange.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cryptodechange.id\"\n"
+}

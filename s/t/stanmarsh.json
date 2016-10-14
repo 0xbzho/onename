@@ -1,0 +1,33 @@
+{
+  "owner_address": "1JUebEt7zSfdjKFKydvF5fgE8zm1pu8QKm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/stanmarsh",
+        "identifier": "8CBFD98DBB7DCA8483FACB69C925E4A79FE19C18",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Spain"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/stanmarsh",
+        "name": "avatar"
+      }
+    ],
+    "name": "Stan Marsh"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN stanmarsh.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stanmarsh.id\"\n"
+}

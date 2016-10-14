@@ -1,0 +1,74 @@
+{
+  "owner_address": "1LbDfsedTS16zVKpbPBbQ6WSurDz8ZVa53",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "JohnApps",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/JohnApps/8f35fbc9c0cc3f4f3d47424b0eef6ea5",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "johnapps",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JohnApps/status/767646462247313408",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "john.apps",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/john.apps/posts/1107364976014216",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Trelex, Switzerland"
+    },
+    "description": "Retired IT consultant",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/johnapps",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/johnapps",
+        "name": "cover"
+      }
+    ],
+    "name": "John Apps",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://johndapps.com/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "JohnApps",
+      "proof_url": "https://gist.github.com/JohnApps/8f35fbc9c0cc3f4f3d47424b0eef6ea5",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "johnapps",
+      "proof_url": "https://twitter.com/JohnApps/status/767646462247313408",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "john.apps",
+      "proof_url": "https://www.facebook.com/john.apps/posts/1107364976014216",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN johnapps.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/johnapps.id\"\n"
+}

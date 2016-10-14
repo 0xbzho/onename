@@ -1,49 +1,61 @@
 {
   "owner_address": "1FmJiJq84L81ApeECqSFAjqXcSDS2T6yUb",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/jmleclercq"
-    },
-    "bio": "Photographer",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/jmleclercq"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/jmleclercq/posts/10154007745033586"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jmleclercq",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jmleclercq/status/769104735907569664",
+        "service": "twitter"
       },
-      "username": "jmleclercq"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/jmleclercq/8f3a77a4524de3867674#file-gistfile1-txt"
+      {
+        "@type": "Account",
+        "identifier": "jmleclercq",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jmleclercq/posts/10154584599868586",
+        "service": "facebook"
       },
-      "username": "jmleclercq"
+      {
+        "@type": "Account",
+        "identifier": "jmleclercq",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jmleclercq/cc105e2e5cb52885ba741a34fc9c6c4d",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris - France"
     },
-    "location": {
-      "formatted": "Paris - France"
-    },
-    "name": {
-      "formatted": "Jean-Michel Leclercq"
-    },
-    "pgp": {
-      "url": "https://s3.amazonaws.com/pk9/jmleclercq"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/jmleclercq/status/695913145446068224"
+    "description": "Photographer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jmleclercq",
+        "name": "cover"
       },
-      "username": "jmleclercq"
-    },
-    "v": "0.2",
-    "website": "http://photos.jmleclercq.com/"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jmleclercq",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jean-Michel Leclercq",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://photos.jmleclercq.com/"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "jmleclercq",
       "proof_url": "https://gist.github.com/jmleclercq/8f3a77a4524de3867674#file-gistfile1-txt",
       "service": "github",
-      "valid": true
+      "valid": false
     },
     {
       "identifier": "jmleclercq",
@@ -57,5 +69,6 @@
       "service": "facebook",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN jmleclercq.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jmleclercq.id\"\n"
 }

@@ -1,0 +1,73 @@
+{
+  "owner_address": "1MHegqMvqzHXrNiSEkGfye9BRafLSRd2DC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jschoes1994",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jschoes1994/444833aa891fdb4d3d0f07111e178ddf",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jschoes1994",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jschoes1994/status/766624290825469952",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "james.schuler.98",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/james.schuler.98/posts/10209299925831595",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1KMSxLFFHT1XrZKrdCs5PUJV1862jVErXt",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jschoes1994",
+        "name": "avatar"
+      }
+    ],
+    "name": "James Schuler"
+  },
+  "verifications": [
+    {
+      "identifier": "jschoes1994",
+      "proof_url": "https://gist.github.com/jschoes1994/444833aa891fdb4d3d0f07111e178ddf",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "jschoes1994",
+      "proof_url": "https://twitter.com/jschoes1994/status/766624290825469952",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "james.schuler.98",
+      "proof_url": "https://www.facebook.com/james.schuler.98/posts/10209299925831595",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jschoes1994.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jschoes1994.id\"\n"
+}

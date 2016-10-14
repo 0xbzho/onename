@@ -1,0 +1,45 @@
+{
+  "owner_address": "1A99gfy738Qc9Cm12McjbB5Puaomz8dT8h",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Jan_Koopmans",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Jan_Koopmans/status/765822169267994624",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Janov911",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Janov911/cd31e01df5b10a6da0789e0f1486458d",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jan Koopmans"
+  },
+  "verifications": [
+    {
+      "identifier": "Jan_Koopmans",
+      "proof_url": "https://twitter.com/Jan_Koopmans/status/765822169267994624",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Janov911",
+      "proof_url": "https://gist.github.com/Janov911/cd31e01df5b10a6da0789e0f1486458d",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jkoopmans.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jkoopmans.id\"\n"
+}

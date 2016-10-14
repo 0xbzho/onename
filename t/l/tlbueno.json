@@ -1,6 +1,36 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1M8RaoDLyseQaJAw751k2qL749niuSELcT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tlbueno",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tlbueno/status/760971294200500224?s=09",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Vinhedo, SP, Brazil"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Tiago Bueno"
+  },
+  "verifications": [
+    {
+      "identifier": "tlbueno",
+      "proof_url": "https://twitter.com/tlbueno/status/760971294200500224?s=09",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tlbueno.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tlbueno.id\"\n"
 }

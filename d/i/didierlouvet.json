@@ -1,0 +1,42 @@
+{
+  "owner_address": "187hVVHctu1JgNgasfSxFee5CmYbeMPTxP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "DLouvet",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dLOUVET/status/765964971167588352",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Suresnes"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Didier LOUVET",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.bsconvergence.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "DLouvet",
+      "proof_url": "https://twitter.com/dLOUVET/status/765964971167588352",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN didierlouvet.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/didierlouvet.id\"\n"
+}

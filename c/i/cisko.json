@@ -1,13 +1,36 @@
 {
   "owner_address": "17tFEAQAemLqjvzCtQU9aNo3s4D3M2CgAw",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/cisko"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/rVv.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Cisko_Rijken",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Cisko_Rijken/status/774706512455426048",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cisko",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "Cisko_Rijken",
+      "proof_url": "https://twitter.com/Cisko_Rijken/status/774706512455426048",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN cisko.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cisko.id\"\n"
 }

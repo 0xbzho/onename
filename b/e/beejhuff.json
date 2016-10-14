@@ -1,52 +1,67 @@
 {
   "owner_address": "15UesHPXRP9qfhQ9XenLDPyCLVepzzxfUz",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/beejhuff"
-    },
-    "bio": "BJ Hoffpauir #InfoSec #php #DevOps #AWS #Magento #SocialMedia #Cloud #InformationSecurity @Zend @awscloud @Magento #RealMagento #CyberSecurity",
-    "bitcoin": {
-      "address": "1KTQ7Y21U8LPySvPXNgcDDFngmYVJvAR2M"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/beejhuff"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/beejhuff/posts/10153392078597183"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1KTQ7Y21U8LPySvPXNgcDDFngmYVJvAR2M",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "beejhuff"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/beejhuff/e2b85f9b65bdd2f95be0"
+      {
+        "@type": "Account",
+        "identifier": "beejhuff",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/beejhuff/status/786461070512623618",
+        "service": "twitter"
       },
-      "username": "beejhuff"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/beejhuff"
-    },
-    "location": {
-      "formatted": "Lafayette, LA"
-    },
-    "name": {
-      "formatted": "Bryan (BJ) Hoffpauir"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/beejhuff/status/686586637527154688"
+      {
+        "@type": "Account",
+        "identifier": "beejhuff",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/beejhuff/posts/10154042758977183",
+        "service": "facebook"
       },
-      "username": "beejhuff"
+      {
+        "@type": "Account",
+        "identifier": "beejhuff",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/beejhuff/44e783f67c006e1d4d329ab24b8b80ef",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lafayette, LA"
     },
-    "v": "0.2",
-    "website": "http://innovez.blogspot.com"
+    "description": "BJ Hoffpauir #eCommerce Veteran #DevOps Evangelist #InfoSec Champion Sr. Technical Project Manager #ProjectManager at @aoepeople | supports @magento @magiumlib @magestackday @magetalk @commercefuture #RealMagento",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/beejhuff",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/beejhuff",
+        "name": "cover"
+      }
+    ],
+    "name": "Bryan (BJ) Hoffpauir",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://innovez.blogspot.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "beejhuff",
       "proof_url": "https://gist.github.com/beejhuff/e2b85f9b65bdd2f95be0",
       "service": "github",
-      "valid": true
+      "valid": false
     },
     {
       "identifier": "beejhuff",
@@ -60,5 +75,6 @@
       "service": "facebook",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN beejhuff.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/beejhuff.id\"\n"
 }

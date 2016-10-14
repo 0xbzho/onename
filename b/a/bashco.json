@@ -1,48 +1,63 @@
 {
   "owner_address": "14TWeo9gDpjzm2MWiVqZLHC91fqKFHm5m6",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/bashco"
-    },
-    "bitcoin": {
-      "address": "1BashCosDvcRMZ6TGSVRFj24wUDP2oQ4ks"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/bashco"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/BashCo/adc47256fcedf407dbb9"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/bashco",
+        "identifier": "58113E5B891A5ECC760E79AB0BE7A317D142A4C5",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "BashCo"
-    },
-    "name": {
-      "formatted": "BashCo"
-    },
-    "pgp": {
-      "fingerprint": "58113E5B891A5ECC760E79AB0BE7A317D142A4C5",
-      "url": "https://s3.amazonaws.com/pk9/bashco"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/BashCo_/status/498570950275633152"
+      {
+        "@type": "Account",
+        "identifier": "1NJW1nfrwhprt4T1oUC9G5hugVRhixtThw",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "BashCo_"
-    },
-    "v": "0.2"
+      {
+        "@type": "Account",
+        "identifier": "BashCo_",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BashCo_/status/761341498701021185",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "BashCo",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/BashCo/8f82b505c9de438f86dadf0cbe626e9f",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bashco",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bashco",
+        "name": "cover"
+      }
+    ],
+    "name": "BashCo"
   },
   "verifications": [
     {
-      "identifier": "BashCo",
-      "proof_url": "https://gist.github.com/BashCo/adc47256fcedf407dbb9",
-      "service": "github",
+      "identifier": "BashCo_",
+      "proof_url": "https://twitter.com/BashCo_/status/761341498701021185",
+      "service": "twitter",
       "valid": true
     },
     {
-      "identifier": "BashCo_",
-      "proof_url": "https://twitter.com/BashCo_/status/498570950275633152",
-      "service": "twitter",
-      "valid": true
+      "identifier": "BashCo",
+      "proof_url": "https://gist.github.com/BashCo/8f82b505c9de438f86dadf0cbe626e9f",
+      "service": "github",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN bashco.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bashco.id\"\n"
 }

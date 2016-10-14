@@ -5,12 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "DoctorLex",
-        "proofType": "http",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
         "identifier": "lech.wilczynski",
         "proofType": "http",
         "service": "facebook"
@@ -26,6 +20,13 @@
         "identifier": "15vS3jJCpfwaGu1EvJJHVJKbPWtrgVGt6i",
         "role": "payment",
         "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "DoctorLex",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/DoctorLex/status/766244315131744256",
+        "service": "twitter"
       }
     ],
     "address": {
@@ -53,6 +54,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "DoctorLex",
+      "proof_url": "https://twitter.com/DoctorLex/status/766244315131744256",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN opengrid.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/opengrid.id\"\n"
 }

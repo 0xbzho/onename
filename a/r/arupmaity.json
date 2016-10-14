@@ -1,0 +1,49 @@
+{
+  "owner_address": "1JchfPrCGaiFNqtqKTBQyMmdKwLjtyAVfF",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "arup.maity",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/arupmaity",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "arupmaity",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/arupmaity",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/arupmaity",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "arup.maity",
+      "proof_url": "https://onename.com/arupmaity",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "arupmaity",
+      "proof_url": "https://onename.com/arupmaity",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN arupmaity.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/arupmaity.id\"\n"
+}

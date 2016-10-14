@@ -1,0 +1,62 @@
+{
+  "owner_address": "18H2kagNiFPjHn9bc2v7ovroeQTecp4kK2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "areyouok",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/areyouok/status/765118972895174656",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "huangli1980",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/huangli1980/posts/10154015323423208?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "areyouok",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/areyouok/789d09a016333d4fe1605551fe2a53c2",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/areyouok",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "areyouok",
+      "proof_url": "https://twitter.com/areyouok/status/765118972895174656",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "huangli1980",
+      "proof_url": "https://www.facebook.com/huangli1980/posts/10154015323423208?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "areyouok",
+      "proof_url": "https://gist.github.com/areyouok/789d09a016333d4fe1605551fe2a53c2",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN areyouok.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/areyouok.id\"\n"
+}

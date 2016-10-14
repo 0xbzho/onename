@@ -1,0 +1,45 @@
+{
+  "owner_address": "1JUtMUPfe3atssgCDC4M219S6w6MapzKYB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "docowenshow",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/DocOwenShow/status/784716772611985408",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "richardmaysowen",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/richardmaysowen/posts/1790201677887041?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "docowenshow",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/docowenshow/cb7650943fac2d387a1a8675f5e6bb62",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "docowenshow",
+      "proof_url": "https://onename.com/docowenshow",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN docowenshow.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/docowenshow.id\"\n"
+}

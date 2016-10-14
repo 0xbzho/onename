@@ -1,0 +1,62 @@
+{
+  "owner_address": "1DTMcsKdBKaCjgKaToSCquS5HtVs6Z2vAS",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "lancemichalson",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/lancemichalson/status/778189606156066816",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lance.michalson",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/lance.michalson/posts/10153691531562522",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/412f35d84b08daba6ea4adfe3c9b0af4",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sydney, Australia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Lance Michalson"
+  },
+  "verifications": [
+    {
+      "identifier": "lancemichalson",
+      "proof_url": "https://twitter.com/lancemichalson/status/778189606156066816",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "lance.michalson",
+      "proof_url": "https://www.facebook.com/lance.michalson/posts/10153691531562522",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/412f35d84b08daba6ea4adfe3c9b0af4",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN lancem.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lancem.id\"\n"
+}

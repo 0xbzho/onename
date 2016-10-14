@@ -1,6 +1,60 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1Awk6oWesRKGwy6V9SfxQWHbys3P35Gijm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "CoachSteff",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/CoachSteff/status/760766342282838016",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "stephan.vanhaverbeke.9",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/stephan.vanhaverbeke.9/posts/10157124047080562",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Oosterzele, Belgium"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/coachsteff",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/coachsteff",
+        "name": "cover"
+      }
+    ],
+    "name": "Stephan Vanhaverbeke",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.stephanvanhaverbeke.be"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "CoachSteff",
+      "proof_url": "https://twitter.com/CoachSteff/status/760766342282838016",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "stephan.vanhaverbeke.9",
+      "proof_url": "https://www.facebook.com/stephan.vanhaverbeke.9/posts/10157124047080562",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN coachsteff.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/coachsteff.id\"\n"
 }

@@ -1,0 +1,62 @@
+{
+  "owner_address": "1JbLd1WSEa5TyQwYmPdCiwY5joPx5Bx8sV",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "stormlrd",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/stormlrd/eceee33c01446c1bff8869043b1209a9",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "pauldunlopnz",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/PaulDunlopNZ/status/782480356943417344",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "palo.tyre",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/palo.tyre/posts/1320604131303397",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/stormlrd",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/stormlrd",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "stormlrd",
+      "proof_url": "https://gist.github.com/stormlrd/eceee33c01446c1bff8869043b1209a9",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "pauldunlopnz",
+      "proof_url": "https://twitter.com/PaulDunlopNZ/status/782480356943417344",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "palo.tyre",
+      "proof_url": "https://www.facebook.com/palo.tyre/posts/1320604131303397",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN stormlrd.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stormlrd.id\"\n"
+}

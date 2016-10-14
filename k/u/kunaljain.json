@@ -1,0 +1,49 @@
+{
+  "owner_address": "1GJ342Rq4WyqQJg1CEqbMcS3TdVny6Q9Mx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kunalj101",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/kunalj101/4831a3827a4398d40d42997e694667ff",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jainkunal",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jainkunal/status/765076059498881024",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kunaljain",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "kunalj101",
+      "proof_url": "https://gist.github.com/kunalj101/4831a3827a4398d40d42997e694667ff",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "jainkunal",
+      "proof_url": "https://twitter.com/jainkunal/status/765076059498881024",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kunaljain.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kunaljain.id\"\n"
+}

@@ -1,0 +1,41 @@
+{
+  "owner_address": "1KEiLiQHBvfVab1fDjdPcv923kKCBNLSYq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dan_mackie",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dan_mackie/status/773536382358843392",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London, UK"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dan_mackie",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/dan_mackie",
+        "name": "cover"
+      }
+    ],
+    "name": "Dan Mackie"
+  },
+  "verifications": [
+    {
+      "identifier": "dan_mackie",
+      "proof_url": "https://twitter.com/dan_mackie/status/773536382358843392",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN dan_mackie.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dan_mackie.id\"\n"
+}

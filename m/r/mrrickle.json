@@ -1,0 +1,84 @@
+{
+  "owner_address": "1DQFxnPsoFqhAaGjXUUZdPpZbC6x7a1xDc",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1PdRuCQfVK4xz5h6xghiCczQxeTFdaRdPZ",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "MrRickle",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MrRickle/status/773330102415425537",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "MrRickle",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/MrRickle/posts/10208829900018350?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "MrRickle",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/MrRickle/dbfed40bde5167c8f93eaf42d1c74bbc",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "6a43ac7e1f8e79aac696f64510bc4677d21aa8e0",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Wisconsin"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mrrickle",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mrrickle",
+        "name": "cover"
+      }
+    ],
+    "name": "Rick Hallock",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.hallocks.us"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "MrRickle",
+      "proof_url": "https://twitter.com/MrRickle/status/773330102415425537",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "MrRickle",
+      "proof_url": "https://www.facebook.com/MrRickle/posts/10208829900018350?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "MrRickle",
+      "proof_url": "https://gist.github.com/MrRickle/dbfed40bde5167c8f93eaf42d1c74bbc",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mrrickle.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mrrickle.id\"\n"
+}

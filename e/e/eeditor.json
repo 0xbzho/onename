@@ -1,0 +1,36 @@
+{
+  "owner_address": "15BuGssiYrgyr8TFjk5m44XLZRBPwRm9r4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "eEditor",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/eEditor/status/781878330836385792",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/eeditor",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "eEditor",
+      "proof_url": "https://twitter.com/eEditor/status/781878330836385792",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN eeditor.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/eeditor.id\"\n"
+}

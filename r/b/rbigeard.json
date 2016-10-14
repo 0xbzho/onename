@@ -1,0 +1,57 @@
+{
+  "owner_address": "1LHr6Htegqkvh4nbGH99EAXFZVX5MxhnuW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rbigeard",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rbigeard/2a5dd0ecd9fd8677670ab37ea7c4457a",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "guitartoneoverl",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/GuitarToneOverl/status/770508603358715904",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "romain.bigeard",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/romain.bigeard/posts/10155153301688332",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "rbigeard",
+      "proof_url": "https://gist.github.com/rbigeard/2a5dd0ecd9fd8677670ab37ea7c4457a",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "guitartoneoverl",
+      "proof_url": "https://twitter.com/GuitarToneOverl/status/770508603358715904",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "romain.bigeard",
+      "proof_url": "https://www.facebook.com/romain.bigeard/posts/10155153301688332",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rbigeard.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rbigeard.id\"\n"
+}

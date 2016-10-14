@@ -1,0 +1,59 @@
+{
+  "owner_address": "1B5DxvSp3JqrM2CfEfVBeu38wintbHJ9RC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "raschle",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/raschle/72c3dd8ada279f6ab81562968971c833",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/raschle/key.asc",
+        "identifier": "1F202151CEFE660C0063D19822CC3EBC9A946151",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1HvyeCBwzwVfpSPAAHBxMdCDnjfvVJWjEf",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Switzerland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/raschle",
+        "name": "avatar"
+      }
+    ],
+    "name": "Nico Raschle",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.raschle.org"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "raschle",
+      "proof_url": "https://gist.github.com/raschle/72c3dd8ada279f6ab81562968971c833",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN raschle.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/raschle.id\"\n"
+}

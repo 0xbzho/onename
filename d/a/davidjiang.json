@@ -1,6 +1,31 @@
 {
-  "owner_address": "1KXL6Tfw852ZDDVfjuvB5S6BMScm7W27LZ",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "18u3C1FuWxMD8rKakQ6xWPq7LE9S4zCD62",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "david.jiang@gmail.com",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dingniu/status/760427174994120704",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "david.jiang@gmail.com",
+      "proof_url": "https://twitter.com/dingniu/status/760427174994120704",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN davidjiang.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/davidjiang.id\"\n"
 }

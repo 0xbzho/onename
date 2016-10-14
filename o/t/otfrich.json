@@ -1,0 +1,36 @@
+{
+  "owner_address": "19njFGwsMHk7mPw2D7bUCxv5zXaXd3YFDU",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "otfrich",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/otfrich/posts/10154323465311357",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/otfrich",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "otfrich",
+      "proof_url": "https://www.facebook.com/otfrich/posts/10154323465311357",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN otfrich.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/otfrich.id\"\n"
+}

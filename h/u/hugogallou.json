@@ -1,0 +1,36 @@
+{
+  "owner_address": "1GWVmwtbgFsS77fT999cPe5fBe2mpGKuLM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "hugogallou",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/HugoGallou/status/785534365816217600",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Hugo Gallou"
+  },
+  "verifications": [
+    {
+      "identifier": "hugogallou",
+      "proof_url": "https://twitter.com/HugoGallou/status/785534365816217600",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN hugogallou.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hugogallou.id\"\n"
+}

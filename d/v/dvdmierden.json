@@ -1,57 +1,54 @@
 {
   "owner_address": "1Fq6fvWA23Gq6Pnwy4tdtdorcixq1FWN2F",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/dvdmierden"
-    },
-    "bio": "E-commerce Project manager, Internet Entrepreneur'ish, I Tweet about various topics: from gadgets to snooker, from science to stupid  http://t.co/VlXMevPSWR",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/dvdmierden"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/daniel.van.der.m/posts/10206600881171033"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dvdmierden",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "daniel.van.der.m"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/dvdmierden/3e85fd74058ce890d72a"
+      {
+        "@type": "Account",
+        "identifier": "daniel.van.der.m",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "dvdmierden"
+      {
+        "@type": "Account",
+        "identifier": "dvdmierden",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dvdmierden/b629f8fc6fee4c2728d00304aa8203be",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Leidschenveen, Netherlands"
     },
-    "location": {
-      "formatted": "Leidschenveen, Netherlands"
-    },
-    "name": {
-      "formatted": "Daniel"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/dvdmierden/status/599980528654254081"
+    "description": "E-commerce Project manager, Internet Entrepreneur'ish, I Tweet about various topics: from gadgets to snooker, from science to stupid  http://t.co/VlXMevPSWR",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dvdmierden",
+        "name": "avatar"
       },
-      "username": "dvdmierden"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/dvdmierden",
+        "name": "cover"
+      }
+    ],
+    "name": "Daniel"
   },
   "verifications": [
     {
       "identifier": "dvdmierden",
-      "proof_url": "https://gist.github.com/dvdmierden/3e85fd74058ce890d72a",
+      "proof_url": "https://gist.github.com/dvdmierden/b629f8fc6fee4c2728d00304aa8203be",
       "service": "github",
       "valid": false
-    },
-    {
-      "identifier": "dvdmierden",
-      "proof_url": "https://twitter.com/dvdmierden/status/599980528654254081",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "daniel.van.der.m",
-      "proof_url": "https://facebook.com/daniel.van.der.m/posts/10206600881171033",
-      "service": "facebook",
-      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN dvdmierden.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dvdmierden.id\"\n"
 }

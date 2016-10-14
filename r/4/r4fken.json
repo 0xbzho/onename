@@ -1,0 +1,69 @@
+{
+  "owner_address": "17ovik2qs2yEpH96eJ3AUV5y7XxLYq8LxZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rafvantongerloo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rafvantongerloo/status/771834152769490945",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "raf.vantongerloo",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/raf.vantongerloo/posts/10209428618906221",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "R4FKEN",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/R4FKEN/6379a4f0a6e351859dae58d2bc4fab9d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "730152489684ca65b45d1102624abfd9c8e73d1b",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/s1lvrFoX/a063e7ce33ec59e0a78667512d4e81db",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Belgium"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/r4fken",
+        "name": "cover"
+      }
+    ],
+    "name": "Raf Vantongerloo"
+  },
+  "verifications": [
+    {
+      "identifier": "rafvantongerloo",
+      "proof_url": "https://twitter.com/rafvantongerloo/status/771834152769490945",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "raf.vantongerloo",
+      "proof_url": "https://www.facebook.com/raf.vantongerloo/posts/10209428618906221",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "R4FKEN",
+      "proof_url": "https://gist.github.com/R4FKEN/6379a4f0a6e351859dae58d2bc4fab9d",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN r4fken.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/r4fken.id\"\n"
+}

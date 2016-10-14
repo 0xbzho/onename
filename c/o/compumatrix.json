@@ -1,0 +1,80 @@
+{
+  "owner_address": "1HjxPeh7rE2xuwmrFBjTVX1QssFUwvTh1X",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "compumatrix",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/CompumatrixUS/status/766862449437925376",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hjbanayat",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/hjbanayat/posts/10153747898220079",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "compumatrix",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/compumatrix/e23272620fc12f19813f5086c2754713",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1G7HyeueRqdFQVZR1T76pH5Akacgj9hxZR",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Worldwide"
+    },
+    "description": "Founder, Compumatrix",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/compumatrix",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/compumatrix",
+        "name": "cover"
+      }
+    ],
+    "name": "Henry James Banayat",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.compumatrix.us.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "compumatrix",
+      "proof_url": "https://twitter.com/CompumatrixUS/status/766862449437925376",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "hjbanayat",
+      "proof_url": "https://www.facebook.com/hjbanayat/posts/10153747898220079",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "compumatrix",
+      "proof_url": "https://gist.github.com/compumatrix/e23272620fc12f19813f5086c2754713",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN compumatrix.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/compumatrix.id\"\n"
+}

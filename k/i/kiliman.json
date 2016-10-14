@@ -1,0 +1,49 @@
+{
+  "owner_address": "1PLF57ky6dqoy7zVhsfG5pzduyeDAWJpwE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kiliman",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kiliman/status/781505817199738880",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kiliman",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/kiliman/0be7b26d827c63cb5a95846c6a5a36c7",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kiliman",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "kiliman",
+      "proof_url": "https://twitter.com/kiliman/status/781505817199738880",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "kiliman",
+      "proof_url": "https://gist.github.com/kiliman/0be7b26d827c63cb5a95846c6a5a36c7",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN kiliman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kiliman.id\"\n"
+}

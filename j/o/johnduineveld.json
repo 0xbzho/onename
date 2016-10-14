@@ -1,0 +1,36 @@
+{
+  "owner_address": "1BFHNXPqYWUvtX6s7oSYnXteojRFMLgFkB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "johnduineveld",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/johnduineveld/status/773402731792961536",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/johnduineveld",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "johnduineveld",
+      "proof_url": "https://twitter.com/johnduineveld/status/773402731792961536",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN johnduineveld.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/johnduineveld.id\"\n"
+}

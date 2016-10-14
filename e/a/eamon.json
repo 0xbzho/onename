@@ -1,31 +1,60 @@
 {
   "owner_address": "13vr6wcZDmaPxJUbskiuzNHFCFrveXQcSi",
   "profile": {
-    "avatar": {
-      "url": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1/c13.12.154.154/1970394_732127606808839_227110945_a.jpg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "eamono",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1JSKVLctgPQ4YCU2RzEzSoNpKMPj6VGLnL",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "eamon",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/eamon/status/775797785253781504",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Rome, GA"
     },
-    "bio": "Social Worker",
-    "bitcoin": {
-      "address": "1JSKVLctgPQ4YCU2RzEzSoNpKMPj6VGLnL"
-    },
-    "cover": {
-      "url": "http://d13pix9kaak6wt.cloudfront.net/background/eamondowling_1309894409_75.jpg"
-    },
-    "facebook": {
-      "username": "eamono"
-    },
-    "location": {
-      "formatted": "Baltimore, MD"
-    },
-    "name": {
-      "formatted": "Eamon Dowling"
-    },
-    "twitter": {
-      "username": "eamon"
-    },
-    "v": "0.2",
-    "website": "http://eamondowling.com/"
+    "description": "Cartoon",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1/c13.12.154.154/1970394_732127606808839_227110945_a.jpg",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "http://d13pix9kaak6wt.cloudfront.net/background/eamondowling_1309894409_75.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Eamon Dowling",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://eamon.com/"
+      }
+    ]
   },
-  "verifications": [],
-  "zone_file": {}
+  "verifications": [
+    {
+      "identifier": "eamon",
+      "proof_url": "https://twitter.com/eamon/status/775797785253781504",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN eamon.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/eamon.id\"\n"
 }

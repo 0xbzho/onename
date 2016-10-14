@@ -1,0 +1,62 @@
+{
+  "owner_address": "19rc6UL32WwJFWqvV37GkfLzHJqCPgSPdy",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "andremichelle",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/andremichelle/status/764388579409821696",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "andremichelle",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/andremichelle/fe1f7c12da341ead4b8601e91cb51914",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "andremichelle",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/AndreMichelle/posts/10157215601170265",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/andremichelle",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/andremichelle",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "andremichelle",
+      "proof_url": "https://twitter.com/andremichelle/status/764388579409821696",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "andremichelle",
+      "proof_url": "https://gist.github.com/andremichelle/fe1f7c12da341ead4b8601e91cb51914",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "andremichelle",
+      "proof_url": "https://www.facebook.com/AndreMichelle/posts/10157215601170265",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN andremichelle.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/andremichelle.id\"\n"
+}

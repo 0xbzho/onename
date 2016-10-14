@@ -1,0 +1,37 @@
+{
+  "owner_address": "1DGdyVyCakzRNJMtHmBpvFd1gLZ6xFoz4W",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "easyellis",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/easyellis/status/777996721997524992",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Austin"
+    },
+    "description": "yep",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Elijah Flowers"
+  },
+  "verifications": [
+    {
+      "identifier": "easyellis",
+      "proof_url": "https://twitter.com/easyellis/status/777996721997524992",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN easyellis.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/easyellis.id\"\n"
+}

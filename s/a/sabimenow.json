@@ -1,0 +1,68 @@
+{
+  "owner_address": "1Bd8DNWrZ85waTESazxG9eM8pzVALhK6HT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sabimenow",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/sabimenow&redirect_uri=https://onename.com/sabimenow%23facebook",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sabimenow",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/sabimenow/ed908c6f1a4e05ea13796a215992e5c3",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sabimenow",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sabimenow",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "15MrPqJxzikz456r9jsReLqAjMPeQ9hQ3f",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sabimenow",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/sabimenow",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "sabimenow",
+      "proof_url": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/sabimenow&redirect_uri=https://onename.com/sabimenow%23facebook",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "sabimenow",
+      "proof_url": "https://gist.github.com/sabimenow/ed908c6f1a4e05ea13796a215992e5c3",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "sabimenow",
+      "proof_url": "https://twitter.com/sabimenow",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN sabimenow.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sabimenow.id\"\n"
+}

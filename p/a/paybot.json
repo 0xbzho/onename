@@ -1,0 +1,38 @@
+{
+  "owner_address": "1PCS92yiJPVwzxEmiaYHkggHwYrdRzdGq4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "supo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/supo/status/769938225704017921",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "e08e0f42fc7252f1668af8a7e70932b42c2276c3",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/JonnyBGod/af5d60b7bb32e584ae5b4414ae2d8f62",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "supo",
+      "proof_url": "https://twitter.com/supo/status/769938225704017921",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN paybot.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/paybot.id\"\n"
+}

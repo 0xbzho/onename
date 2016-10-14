@@ -1,58 +1,67 @@
 {
   "owner_address": "15rPCmv3za9u8rBByDzJxpRnuBM1b3kXsJ",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/harkoprinssen"
-    },
-    "bio": "Strategic Geek",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/harkoprinssen"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/harkoprinssen/posts/1087820057917352"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gist:29b3b0c668377f8be56e",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "harkoprinssen"
-    },
-    "github": {
-      "proof": {
-        "url": "gist:29b3b0c668377f8be56e"
+      {
+        "@type": "Account",
+        "identifier": "harkoprinssen",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/harkoprinssen/posts/1258269180872438",
+        "service": "facebook"
       },
-      "username": "gist:29b3b0c668377f8be56e"
+      {
+        "@type": "Account",
+        "identifier": "harkoprinssen",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/harkoprinssen/status/772809434175250432",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Tilburg"
     },
-    "location": {
-      "formatted": "Tilburg"
-    },
-    "name": {
-      "formatted": "Harko Prinssen"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/harkoprinssen/status/684289768843276289"
+    "description": "Strategic Geek",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/harkoprinssen",
+        "name": "avatar"
       },
-      "username": "harkoprinssen"
-    },
-    "v": "0.2",
-    "website": "https://www.linkedin.com/in/harkoprinssen"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/harkoprinssen",
+        "name": "cover"
+      }
+    ],
+    "name": "Harko Prinssen",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.linkedin.com/in/harkoprinssen"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "gist:29b3b0c668377f8be56e",
-      "proof_url": "gist:29b3b0c668377f8be56e",
-      "service": "github",
-      "valid": false
-    },
-    {
       "identifier": "harkoprinssen",
-      "proof_url": "https://twitter.com/harkoprinssen/status/684289768843276289",
-      "service": "twitter",
-      "valid": false
-    },
-    {
-      "identifier": "harkoprinssen",
-      "proof_url": "https://facebook.com/harkoprinssen/posts/1087820057917352",
+      "proof_url": "https://facebook.com/harkoprinssen/posts/1258269180872438",
       "service": "facebook",
-      "valid": false
+      "valid": true
+    },
+    {
+      "identifier": "harkoprinssen",
+      "proof_url": "https://twitter.com/harkoprinssen/status/772809434175250432",
+      "service": "twitter",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN harkoprinssen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/harkoprinssen.id\"\n"
 }

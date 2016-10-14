@@ -1,0 +1,41 @@
+{
+  "owner_address": "1Dtcruuj7154iUFprDZhrpVRef4zD9qQGY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "twynirope",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/twynirope/posts/1321098011247763",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "833e73d589d2c6906d2c19aaf556a5ac8e337f50",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/twyniropeco",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "twynirope",
+      "proof_url": "https://www.facebook.com/twynirope/posts/1321098011247763",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN twyniropeco.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/twyniropeco.id\"\n"
+}

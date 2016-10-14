@@ -1,35 +1,35 @@
 {
   "owner_address": "1K3bKcsFDNbbiyrBw1Hr7LyYanU6HxLjJX",
   "profile": {
-    "bitcoin": {
-      "address": "1NDaaUNFbBaQLiQMYmEf6pHEcZkiJjiH5E"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/gertjanvanderwel/db5b909cef5dccbc1528"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "hertog",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "gertjanvanderwel"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/hertog/status/486482730922672128"
+      {
+        "@type": "Account",
+        "identifier": "gertjanvanderwel",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "hertog"
-    },
-    "v": "0.2"
+      {
+        "@type": "Account",
+        "identifier": "1NDaaUNFbBaQLiQMYmEf6pHEcZkiJjiH5E",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hertog",
+        "name": "avatar"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "hertog",
-      "proof_url": "https://twitter.com/hertog/status/486482730922672128",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "gertjanvanderwel",
-      "proof_url": "https://gist.github.com/gertjanvanderwel/db5b909cef5dccbc1528",
-      "service": "github",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN hertog.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hertog.id\"\n"
 }

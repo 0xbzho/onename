@@ -16,6 +16,12 @@
         "proofType": "http",
         "proofUrl": "https://gist.github.com/angelgarrido/69f0a8f29799a3ef513a849588000d96#file-blockchainid",
         "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1HCXdsLkdMAtEJZmNjEAnmq4rFpGY2Zjr6",
+        "role": "payment",
+        "service": "bitcoin"
       }
     ],
     "address": {
@@ -53,7 +59,7 @@
       "identifier": "angelgarrido",
       "proof_url": "https://gist.github.com/angelgarrido/69f0a8f29799a3ef513a849588000d96#file-blockchainid",
       "service": "github",
-      "valid": true
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN angelgarrido.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/angelgarrido.id\"\n"

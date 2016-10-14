@@ -1,0 +1,60 @@
+{
+  "owner_address": "1vyjMNUfwEmL3ogUKjAsAD6RAe3rvaQT3",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1Ea4oWwYJJsMj4VkhZPmRmGB5ACVdJChjV",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Alterprop",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Alterprop/45478f8fe641518a0e996c208225030b",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "e57ad9d82fcc964af9c7faeb3210b0a318cd70dc",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "vooque",
+        "proofType": "http",
+        "proofUrl": "<iframe src=\"https://www.faceboohttps%3A%2F%2Fwww.facebook.com%2Fvooque%2Fposts%2F1311778918841954",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/vooque",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Alterprop",
+      "proof_url": "https://gist.github.com/Alterprop/45478f8fe641518a0e996c208225030b",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "vooque",
+      "proof_url": "<iframe src=\"https://www.faceboohttps%3A%2F%2Fwww.facebook.com%2Fvooque%2Fposts%2F1311778918841954",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN vooque.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vooque.id\"\n"
+}

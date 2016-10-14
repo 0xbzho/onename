@@ -1,0 +1,63 @@
+{
+  "owner_address": "1Q5ZMF2qwzQepsutdDbJTicS25MZvtw4n1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jrashtian",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jrashtian/status/773061748899192832",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jrashtian",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jrashtian/3b11ae3e2832fb0cea7b45f5f808ee38",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jguy46",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jguy46/posts/10210766659831583",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Los Angeles, CA"
+    },
+    "description": "Industrial and Systems Engineering, USC '18",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jonathan Rashtian"
+  },
+  "verifications": [
+    {
+      "identifier": "jrashtian",
+      "proof_url": "https://twitter.com/jrashtian/status/773061748899192832",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jrashtian",
+      "proof_url": "https://gist.github.com/jrashtian/3b11ae3e2832fb0cea7b45f5f808ee38",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "jguy46",
+      "proof_url": "https://www.facebook.com/jguy46/posts/10210766659831583",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jrashtian.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jrashtian.id\"\n"
+}

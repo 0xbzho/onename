@@ -1,0 +1,36 @@
+{
+  "owner_address": "1CvRdGUzfHWJd3U3j224p3hLEgtYMsdJyD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Wergtuk",
+        "proofType": "http",
+        "proofUrl": "https://m.facebook.com/story.php?story_fbid=10157659974440454&id=799820453",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mcrane",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Wergtuk",
+      "proof_url": "https://m.facebook.com/story.php?story_fbid=10157659974440454&id=799820453",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mcrane.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mcrane.id\"\n"
+}

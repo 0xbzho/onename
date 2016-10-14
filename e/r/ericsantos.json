@@ -1,6 +1,58 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1KfmT5ppXdiKF8hEp4P2w8NwmrjMcGeGVM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ericsantos",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ericsantos.net",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ericsantos",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1MxqCAubVxy4L8Z52NZi6fu5cTK1t6pE4H",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "São Paulo, Brasil"
+    },
+    "description": "Empreendedor em tecnologia, internet e plataformas sociais.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ericsantos",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ericsantos",
+        "name": "cover"
+      }
+    ],
+    "name": "Eric Santos",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://beerorcoffee.com"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN ericsantos.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ericsantos.id\"\n"
 }

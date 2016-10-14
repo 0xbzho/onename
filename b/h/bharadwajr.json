@@ -1,0 +1,42 @@
+{
+  "owner_address": "16hqvipQUe55uLS3daXRZembdJBUmBAYNP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/bharadwajr",
+        "identifier": null,
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "aaju",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/aaju/status/763581932391104513",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bangalore"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Bharadwaj Raghuraman"
+  },
+  "verifications": [
+    {
+      "identifier": "aaju",
+      "proof_url": "https://twitter.com/aaju/status/763581932391104513",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bharadwajr.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bharadwajr.id\"\n"
+}

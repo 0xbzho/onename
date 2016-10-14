@@ -1,10 +1,31 @@
 {
   "owner_address": "1KdwbCiJ9SWvgRBfWDretXDdgJVEmcnvN8",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/n6r.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "BijuJoy11",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BijuJoy11/status/773385006206988288",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "BijuJoy11",
+      "proof_url": "https://twitter.com/BijuJoy11/status/773385006206988288",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN icecream.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/icecream.id\"\n"
 }

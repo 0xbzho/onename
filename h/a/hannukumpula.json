@@ -1,0 +1,62 @@
+{
+  "owner_address": "14Cqj3qhZRiHR6tJLtgMx73zv64ofQhNZP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "hannukumpula",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/hannukumpula/status/781541969877168128",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Hooace",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Hooace/f5139c5fef131f06f56b6a890edfc805",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kumpula",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/kumpula/posts/10209332462041900?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hannukumpula",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "hannukumpula",
+      "proof_url": "https://twitter.com/hannukumpula/status/781541969877168128",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Hooace",
+      "proof_url": "https://gist.github.com/Hooace/f5139c5fef131f06f56b6a890edfc805",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "kumpula",
+      "proof_url": "https://www.facebook.com/kumpula/posts/10209332462041900?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN hannukumpula.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hannukumpula.id\"\n"
+}

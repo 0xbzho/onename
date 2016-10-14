@@ -1,0 +1,40 @@
+{
+  "owner_address": "18zUJiZaJg2sQ3DJR1pgPnek6inziPteGH",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/bitcoincore",
+        "identifier": "01EA5486DE18A882D4C2684590C8019E36C2E964",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "The Blockchain"
+    },
+    "description": "[DEMO] Bitcoin Core 0.12.1 SHA256SUMS.asc SHA1: d120a143d23af9309bb2d294ba08fc98f0324b2a",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bitcoincore",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bitcoincore",
+        "name": "cover"
+      }
+    ],
+    "name": "Bitcoin Core",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://bitcoincore.org"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN bitcoincore.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bitcoincore.id\"\n"
+}

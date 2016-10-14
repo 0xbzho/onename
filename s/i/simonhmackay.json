@@ -1,0 +1,57 @@
+{
+  "owner_address": "122fmGhuuHSgy3AzmY3zck5UAjZArS6nXR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "unicorn_rising",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Unicorn_Rising/status/769485469323292672",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "simonhmackay",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/simonhmackay/e7b90b39ca5e67be338b17ce1a61a8e1",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "simonhmackay",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/saved/?notif_id=1472295083345639&cref=52&notif_t=saved_off_fb",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "unicorn_rising",
+      "proof_url": "https://twitter.com/Unicorn_Rising/status/769485469323292672",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "simonhmackay",
+      "proof_url": "https://gist.github.com/simonhmackay/e7b90b39ca5e67be338b17ce1a61a8e1",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "simonhmackay",
+      "proof_url": "https://www.facebook.com/saved/?notif_id=1472295083345639&cref=52&notif_t=saved_off_fb",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN simonhmackay.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/simonhmackay.id\"\n"
+}

@@ -1,0 +1,36 @@
+{
+  "owner_address": "1FbTVVp2mjYcnqEomNW6Tv8JwWqbw5BHeN",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "crievino",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/crievino/status/775693880960356352",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/iefcrm",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "crievino",
+      "proof_url": "https://twitter.com/crievino/status/775693880960356352",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN iefcrm.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/iefcrm.id\"\n"
+}

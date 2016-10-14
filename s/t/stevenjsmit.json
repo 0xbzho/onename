@@ -1,46 +1,54 @@
 {
   "owner_address": "15A9w6KveJpERVbePsTsvRPCEp8xCkKKmn",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/stevenjsmit"
-    },
-    "bio": "Hotels | Real Estate | Technology | Colliers | Long term thinking wins | Mountains rock my world",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/stevenjsmit"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/smit.steven/posts/10156383192035223"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "stevenjsmit",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "smit.steven"
+      {
+        "@type": "Account",
+        "identifier": "smit.steven",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/stevenjsmit",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Amsterdam, North Holland"
     },
-    "location": {
-      "formatted": "Amsterdam, North Holland"
-    },
-    "name": {
-      "formatted": "Steven Smit"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/stevenjsmit/status/686174481409257474"
+    "description": "Hotels | Real Estate | Technology | Long term thinking wins | Mountains are my metaphor to life",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/stevenjsmit",
+        "name": "avatar"
       },
-      "username": "stevenjsmit"
-    },
-    "v": "0.2",
-    "website": "https://nl.linkedin.com/in/stevensmit"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/stevenjsmit",
+        "name": "cover"
+      }
+    ],
+    "name": "Steven Smit",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://nl.linkedin.com/in/stevensmit"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "stevenjsmit",
-      "proof_url": "https://twitter.com/stevenjsmit/status/686174481409257474",
-      "service": "twitter",
-      "valid": true
-    },
-    {
       "identifier": "smit.steven",
-      "proof_url": "https://facebook.com/smit.steven/posts/10156383192035223",
+      "proof_url": "https://onename.com/stevenjsmit",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN stevenjsmit.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stevenjsmit.id\"\n"
 }

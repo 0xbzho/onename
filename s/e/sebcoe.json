@@ -1,34 +1,45 @@
 {
   "owner_address": "175mHE4GmxCJGifucMkCUQKa4cAkmfzcds",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/sebcoe"
-    },
-    "bio": "",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/2wu.jpeg"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Sebastian Coe"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/srooster1/status/684746713102446592"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "srooster1",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "srooster1"
+      {
+        "@type": "Account",
+        "identifier": "b7b3496f0c8d5080ab6190c59635d0714d188635",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "v": "0.2",
-    "website": "http://www.srooster.com"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sebcoe",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Sebastian Coe",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.srooster.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "srooster1",
-      "proof_url": "https://twitter.com/srooster1/status/684746713102446592",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN sebcoe.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sebcoe.id\"\n"
 }

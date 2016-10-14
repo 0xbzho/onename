@@ -1,0 +1,34 @@
+{
+  "owner_address": "114FNCgiJg1j2uCZJZC2WZd5QXoTHdyciW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1GcL1XxoocMjX7ukbNLkPUJbcVxb7rNpEA",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/anonionman",
+        "identifier": "82302993531E16B6E42E196E0129483958E2AB87",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "void"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Anonionman"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN anonionman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/anonionman.id\"\n"
+}

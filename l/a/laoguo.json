@@ -1,0 +1,68 @@
+{
+  "owner_address": "1BQmoLC1TG94Hr8kFtBWDsVd8Fu9eG6CQK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cn_guo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cn_guo/status/775602963427590144",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "guoqichao",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/guoqichao/0a2e197ae0bbdb278bbd15abcae71c71",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "qichao.guo",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/qichao.guo/posts/102003670261391",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Beijing"
+    },
+    "description": "21vianet",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/laoguo",
+        "name": "avatar"
+      }
+    ],
+    "name": "Guo Qichao"
+  },
+  "verifications": [
+    {
+      "identifier": "cn_guo",
+      "proof_url": "https://twitter.com/cn_guo/status/775602963427590144",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "guoqichao",
+      "proof_url": "https://gist.github.com/guoqichao/0a2e197ae0bbdb278bbd15abcae71c71",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "qichao.guo",
+      "proof_url": "https://www.facebook.com/qichao.guo/posts/102003670261391",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN laoguo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/laoguo.id\"\n"
+}

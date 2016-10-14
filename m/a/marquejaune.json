@@ -1,46 +1,60 @@
 {
   "owner_address": "18EAxhUPqNeDEGbuvKYCVJaKYVKbYuUGiR",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/marquejaune"
-    },
-    "bio": "",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/marquejaune"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/MarqueJaune/7226d92181f3afe7c1ec"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "marque_jaune",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "MarqueJaune"
-    },
-    "location": {
-      "formatted": "LisboaBoa"
-    },
-    "name": {
-      "formatted": "Miguel Esteves"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/marque_jaune/status/683437277163433985"
+      {
+        "@type": "Account",
+        "identifier": "MarqueJaune",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/MarqueJaune/7226d92181f3afe7c1ec",
+        "service": "github"
       },
-      "username": "marque_jaune"
+      {
+        "@type": "Account",
+        "identifier": "13P1CdTPygCcXBRxKDXhNHUaE3soutyXpN",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "LisboaBoa"
     },
-    "v": "0.2"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/marquejaune",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/marquejaune",
+        "name": "cover"
+      }
+    ],
+    "name": "Miguel Esteves",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://curiouspeck.wordpress.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "MarqueJaune",
       "proof_url": "https://gist.github.com/MarqueJaune/7226d92181f3afe7c1ec",
       "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "marque_jaune",
-      "proof_url": "https://twitter.com/marque_jaune/status/683437277163433985",
-      "service": "twitter",
-      "valid": true
+      "valid": false
     }
   ],
-  "zone_file": {}
+  "zone_file": "$ORIGIN marquejaune.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/marquejaune.id\"\n"
 }

@@ -1,0 +1,44 @@
+{
+  "owner_address": "1C17kCE42xto6KXk9rHVHwUd3G1dUf2Zmy",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kentos",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/kentos/fdfe63724135ecc46c2d7f50200679e3",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kentos",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kentos/status/763986010254422016",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "kentos",
+      "proof_url": "https://gist.github.com/kentos/fdfe63724135ecc46c2d7f50200679e3",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "kentos",
+      "proof_url": "https://twitter.com/kentos/status/763986010254422016",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kentos.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kentos.id\"\n"
+}

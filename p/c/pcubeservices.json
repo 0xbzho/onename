@@ -1,0 +1,72 @@
+{
+  "owner_address": "18a2CHYyMT79rr1zis2baWHjaWytiGxXjN",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "pcubeservices",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/PCubeServices/status/770382348034596864",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lydia.lao.9",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/lydia.lao.9/posts/10209135239850561?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "pcubeservices",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/pcubeservices/e51a446805b4bbef8c0430beff5f51de",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "6fdcbc2453d0ea7e6e829b8e2d620d714ed4e38d",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Toronto"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/pcubeservices",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/pcubeservices",
+        "name": "cover"
+      }
+    ],
+    "name": "lydia lao"
+  },
+  "verifications": [
+    {
+      "identifier": "pcubeservices",
+      "proof_url": "https://twitter.com/PCubeServices/status/770382348034596864",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "lydia.lao.9",
+      "proof_url": "https://www.facebook.com/lydia.lao.9/posts/10209135239850561?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "pcubeservices",
+      "proof_url": "https://gist.github.com/pcubeservices/e51a446805b4bbef8c0430beff5f51de",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN pcubeservices.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pcubeservices.id\"\n"
+}

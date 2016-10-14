@@ -29,6 +29,12 @@
         "proofType": "http",
         "proofUrl": "https://gist.github.com/alinush/56fabfbded1623abb1f8",
         "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1FJeq1PY7iZCXs7MDYabEPK3rQ6SgTekP5",
+        "role": "payment",
+        "service": "bitcoin"
       }
     ],
     "address": {
@@ -72,7 +78,7 @@
       "identifier": "alinush",
       "proof_url": "https://gist.github.com/alinush/56fabfbded1623abb1f8",
       "service": "github",
-      "valid": true
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN alinush.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alinush.id\"\n"

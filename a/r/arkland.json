@@ -1,0 +1,44 @@
+{
+  "owner_address": "1A1yzwB2vUSVxHLvrxK8j2vU6XTKmZ9mvD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "larslundqvist2",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/lars.lundqvist2/posts/10155053980033998",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "arkland_swe",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/arkland_swe/status/764343507637198848",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "larslundqvist2",
+      "proof_url": "https://www.facebook.com/lars.lundqvist2/posts/10155053980033998",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "arkland_swe",
+      "proof_url": "https://twitter.com/arkland_swe/status/764343507637198848",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN arkland.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/arkland.id\"\n"
+}

@@ -1,0 +1,53 @@
+{
+  "owner_address": "13v7LHc3wJygUNabYQKvZVz8y47cDbfrtb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "keith.ammon.7",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/keith.ammon.7/posts/1686045091714123",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/kammon",
+        "identifier": null,
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1C64p6P8xu3tDykA2VoPL4AdiTrnMMcevo",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New Hampshire"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kammon",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/kammon",
+        "name": "cover"
+      }
+    ],
+    "name": "Keith Ammon"
+  },
+  "verifications": [
+    {
+      "identifier": "keith.ammon.7",
+      "proof_url": "https://www.facebook.com/keith.ammon.7/posts/1686045091714123",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN kammon.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kammon.id\"\n"
+}

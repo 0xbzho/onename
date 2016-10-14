@@ -1,68 +1,79 @@
 {
   "owner_address": "1LG9UNmz3HxGaVdNPzoxKSJtPYW7Zi1XGF",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/freeburg"
-    },
-    "bitcoin": {
-      "address": "3QQzNr6wrRoATVBxcDS1GrkbKDn7RuhyCa"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/freeburg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/emfreeburg/posts/10103687771538173"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "emfreeburg",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "emfreeburg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/Er-c/f5dffc7a22bf873bf9aa"
+      {
+        "@type": "Account",
+        "identifier": "3QQzNr6wrRoATVBxcDS1GrkbKDn7RuhyCa",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "Er-c"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/freeburg"
-    },
-    "location": {
-      "formatted": "Greater NYC"
-    },
-    "name": {
-      "formatted": "Eric Freeburg"
-    },
-    "pgp": {
-      "fingerprint": "26E004E109F1AF110B508413523BF9756D390B52",
-      "url": "https://s3.amazonaws.com/pk9/freeburg"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/Er___c/status/684543452411895808"
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/freeburg",
+        "identifier": "26E004E109F1AF110B508413523BF9756D390B52",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "Er___c"
+      {
+        "@type": "Account",
+        "identifier": "Er45c",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Er45c/status/767162499758186496",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Er-c",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Er-c/45b5ea26b0292f10e82ef2b47a0de325",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Greater NYC"
     },
-    "v": "0.2",
-    "website": "http://ericfreeburg.com"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/freeburg",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/freeburg",
+        "name": "cover"
+      }
+    ],
+    "name": "Eric Freeburg",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://ericfreeburg.com"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "Er-c",
-      "proof_url": "https://gist.github.com/Er-c/f5dffc7a22bf873bf9aa",
-      "service": "github",
+      "identifier": "Er45c",
+      "proof_url": "https://twitter.com/Er45c/status/767162499758186496",
+      "service": "twitter",
       "valid": true
     },
     {
-      "identifier": "Er___c",
-      "proof_url": "https://twitter.com/Er___c/status/684543452411895808",
-      "service": "twitter",
-      "valid": false
-    },
-    {
-      "identifier": "emfreeburg",
-      "proof_url": "https://facebook.com/emfreeburg/posts/10103687771538173",
-      "service": "facebook",
+      "identifier": "Er-c",
+      "proof_url": "https://gist.github.com/Er-c/45b5ea26b0292f10e82ef2b47a0de325",
+      "service": "github",
       "valid": false
     }
   ],
-  "zone_file": {}
+  "zone_file": "$ORIGIN freeburg.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/freeburg.id\"\n"
 }

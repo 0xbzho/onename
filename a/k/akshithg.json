@@ -1,61 +1,65 @@
 {
   "owner_address": "1AC3hPUmSQHRhkkKL8qEHGr2WJBT9gLwKi",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/akshithg"
-    },
-    "bio": "I Hack.",
-    "bitcoin": {
-      "address": "13tjyntpw85Z9k848h9a1q9X1iiyw9DUjJ"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/F9g.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/akshithg/posts/987021787984146"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "akshith_g",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "akshithg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/akshithg/24f9bf386f2746b074f0"
+      {
+        "@type": "Account",
+        "identifier": "akshithg",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "akshithg"
-    },
-    "location": {
-      "formatted": "Mumbai, Maharashtra"
-    },
-    "name": {
-      "formatted": "Akshith"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/akshith_g/status/645547366687240193"
+      {
+        "@type": "Account",
+        "identifier": "13tjyntpw85Z9k848h9a1q9X1iiyw9DUjJ",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "akshith_g"
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/_/api/1.0/sig/get.json?sig_id=ae347622d326472f97b5baab588974a12ee254ead80f3c611d42c4e3390eae980f",
+        "identifier": "67A2A69121B973ADD2B9B29A5206E3FA9AE0CBA4",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "akshithg",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/akshithg/d00023031b7fa8bcef5035f4f32f36b2",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mumbai, Maharashtra"
     },
-    "v": "0.2",
-    "website": "http://in.linkedin.com/in/akshithg"
+    "description": "I Hack.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/akshithg",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Akshith",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://in.linkedin.com/in/akshithg"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "akshithg",
-      "proof_url": "https://gist.github.com/akshithg/24f9bf386f2746b074f0",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "akshith_g",
-      "proof_url": "https://twitter.com/akshith_g/status/645547366687240193",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "akshithg",
-      "proof_url": "https://facebook.com/akshithg/posts/987021787984146",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN akshithg.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/akshithg.id\"\n"
 }

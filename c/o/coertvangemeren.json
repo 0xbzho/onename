@@ -1,24 +1,80 @@
 {
   "owner_address": "133pQD67u7LMhXS8okLxJ76XHNiLyY658y",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/coertvangemeren"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "coertvangemeren",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/coertvangemeren/status/773866194495496192",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "coert",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/coert/002f9d586b22c37c0bf44fddaa6a57fd",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "13eQ7rrMEJmrrupmK7P6LoP3TWUkQeADSe",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "coertvangemeren",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/coertvangemeren/posts/10205825886441008?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Utrecht, The Netherlands"
     },
-    "bio": "PhD student in Computer Vision, I ❤ Techno, I ❤ Science",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/coertvangemeren"
-    },
-    "location": {
-      "formatted": "Utrecht, The Netherlands"
-    },
-    "name": {
-      "formatted": "Coert van Gemeren"
-    },
-    "twitter": {
-      "username": "coertvangemeren"
-    },
-    "v": "0.2",
-    "website": "http://www.facebook.com/coert.vangemeren"
+    "description": "Student of Computer Vision & Electronic Music",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/coertvangemeren",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/coertvangemeren",
+        "name": "cover"
+      }
+    ],
+    "name": "Coert van Gemeren",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.facebook.com/coert.vangemeren"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "coertvangemeren",
+      "proof_url": "https://twitter.com/coertvangemeren/status/773866194495496192",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "coert",
+      "proof_url": "https://gist.github.com/coert/002f9d586b22c37c0bf44fddaa6a57fd",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "coertvangemeren",
+      "proof_url": "https://www.facebook.com/coertvangemeren/posts/10205825886441008?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN coertvangemeren.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/coertvangemeren.id\"\n"
 }

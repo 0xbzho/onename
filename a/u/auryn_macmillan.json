@@ -1,65 +1,75 @@
 {
   "owner_address": "1MsX4Fu6xczetgwqxrxFccZWnBJ1kbFYjq",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/auryn_macmillan"
-    },
-    "bio": "Vegan - Pro Basketball Player - Bachelor of Science (Psych) - Blockchain Expert - Aspiring Entrepreneur - Bitcoin Enthusiast - Casual Gamer - Twitch Streamer - Infrequent Blogger",
-    "bitcoin": {
-      "address": "1EcC6NcFP4ZzgGDTnX1jEctDkQwV6hJuWK"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/auryn_macmillan"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/auryn.macmillan//posts/898806647843"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1EcC6NcFP4ZzgGDTnX1jEctDkQwV6hJuWK",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "auryn.macmillan/"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/auryn-macmillan/6ac68a1ece676fcc8ff5"
+      {
+        "@type": "Account",
+        "identifier": "auryn_macmillan",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/auryn_macmillan/status/777246436366974976",
+        "service": "twitter"
       },
-      "username": "auryn-macmillan"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/auryn_macmillan"
-    },
-    "location": {
-      "formatted": "Melbourne"
-    },
-    "name": {
-      "formatted": "Auryn Macmillan"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/auryn_macmillan/status/705560620456812544"
+      {
+        "@type": "Account",
+        "identifier": "auryn-macmillan",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/auryn-macmillan/28222700d1632efa257e23fbcbd33337",
+        "service": "github"
       },
-      "username": "auryn_macmillan"
+      {
+        "@type": "Account",
+        "identifier": "auryn.macmillan/",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/auryn.macmillan/posts/10153747392565685",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Melbourne"
     },
-    "v": "0.2",
-    "website": "http://hoopeatgame.weebly.com"
+    "description": "Vegan - Pro Basketball Player - MSc Psychological Research Methods - Blockchain Expert (Ethereum & Bitcon) - Aspiring Entrepreneur - Casual Gamer - Twitch Streamer - Infrequent Blogger",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/auryn_macmillan",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/auryn_macmillan",
+        "name": "cover"
+      }
+    ],
+    "name": "Auryn Macmillan",
+    "website": []
   },
   "verifications": [
     {
-      "identifier": "auryn-macmillan",
-      "proof_url": "https://gist.github.com/auryn-macmillan/6ac68a1ece676fcc8ff5",
-      "service": "github",
-      "valid": true
-    },
-    {
       "identifier": "auryn_macmillan",
-      "proof_url": "https://twitter.com/auryn_macmillan/status/705560620456812544",
+      "proof_url": "https://twitter.com/auryn_macmillan/status/777246436366974976",
       "service": "twitter",
       "valid": true
     },
     {
-      "identifier": "auryn.macmillan/",
-      "proof_url": "https://facebook.com/auryn.macmillan//posts/898806647843",
-      "service": "facebook",
+      "identifier": "auryn-macmillan",
+      "proof_url": "https://gist.github.com/auryn-macmillan/28222700d1632efa257e23fbcbd33337",
+      "service": "github",
       "valid": false
+    },
+    {
+      "identifier": "auryn.macmillan/",
+      "proof_url": "https://www.facebook.com/auryn.macmillan/posts/10153747392565685",
+      "service": "facebook",
+      "valid": true
     }
   ],
-  "zone_file": {}
+  "zone_file": "$ORIGIN auryn_macmillan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/auryn_macmillan.id\"\n"
 }

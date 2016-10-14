@@ -1,0 +1,62 @@
+{
+  "owner_address": "1FeA1459mYChSqmV3wAByoRS3BrPNGkK9B",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jissereitsma",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jissereitsma/status/773400464666820609",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jissereitsma",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jisse.reitsma?hc_ref=NEWSFEED&fref=nf",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jissereitsma",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jissereitsma/ebc86e4d66b664102fa8e7cfda87527d",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jissereitsma",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jissereitsma",
+      "proof_url": "https://twitter.com/jissereitsma/status/773400464666820609",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "jissereitsma",
+      "proof_url": "https://www.facebook.com/jisse.reitsma?hc_ref=NEWSFEED&fref=nf",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "jissereitsma",
+      "proof_url": "https://gist.github.com/jissereitsma/ebc86e4d66b664102fa8e7cfda87527d",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jissereitsma.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jissereitsma.id\"\n"
+}

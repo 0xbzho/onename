@@ -1,10 +1,50 @@
 {
   "owner_address": "1Hnx3mq31pn62XiBaQvUNncKyRiChF1Hz5",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/ikZ.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sharadv",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sharadv/status/761690499019313152",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sharad.venkat",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/l.php?u=https%3A%2F%2Fonename.com%2Fsharadv&h=5AQHfcf1K&s=1",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sharadv",
+        "name": "avatar"
+      }
+    ],
+    "name": "Sharad Venkat"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "sharadv",
+      "proof_url": "https://twitter.com/sharadv/status/761690499019313152",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "sharad.venkat",
+      "proof_url": "https://www.facebook.com/l.php?u=https%3A%2F%2Fonename.com%2Fsharadv&h=5AQHfcf1K&s=1",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN sharadv.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sharadv.id\"\n"
 }

@@ -2,12 +2,29 @@
   "owner_address": "1Da7pX5oYnvCLHHXNyUBAG16e97sy4BxMC",
   "profile": {
     "@type": "Person",
-    "account": [],
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1GPLF4EAWb59WA4ps6xPZvh4LmJFeKTuWx",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "a912dfb2d1a584ca58ec244aa8784bce986a1cdc",
+        "service": "openbazaar"
+      }
+    ],
     "image": [
       {
         "@type": "ImageObject",
         "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
         "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/chinchillin",
+        "name": "avatar"
       }
     ],
     "name": "Joseph Chinn"

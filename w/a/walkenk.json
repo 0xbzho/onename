@@ -1,0 +1,57 @@
+{
+  "owner_address": "1LhzL67rGeZLdj9FknW2JUoENSe2kYYKtM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "fabiankunturflight",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/walkenk&redirect_uri=https://onename.com/walkenk%23facebook",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https:",
+        "proofType": "http",
+        "proofUrl": "https://github.com/Walkenk/klubgreen",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kuntur_flite",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Bwalkenk%20is%20my%20blockchain%20ID.%20https://onename.com/walkenk",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "fabiankunturflight",
+      "proof_url": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/walkenk&redirect_uri=https://onename.com/walkenk%23facebook",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "https:",
+      "proof_url": "https://github.com/Walkenk/klubgreen",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "kuntur_flite",
+      "proof_url": "https://twitter.com/intent/tweet?text=Verifying%20that%20%2Bwalkenk%20is%20my%20blockchain%20ID.%20https://onename.com/walkenk",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN walkenk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/walkenk.id\"\n"
+}

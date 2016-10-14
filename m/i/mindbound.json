@@ -12,19 +12,6 @@
       },
       {
         "@type": "Account",
-        "identifier": "mindbound",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/mindbound/9844325b7b0f8c8dab59d9cd5b779d59",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
-        "identifier": "1Q2FR8dM19t4xDTqpsjd6VzuModn96qJLy",
-        "role": "payment",
-        "service": "bitcoin"
-      },
-      {
-        "@type": "Account",
         "contentUrl": "http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x01b7d948a0542c99",
         "identifier": "0x01b7d948a0542c99",
         "service": "pgp"
@@ -35,6 +22,19 @@
         "proofType": "http",
         "proofUrl": "https://www.facebook.com/mindbound/posts/1295660240461565",
         "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mindbound",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mindbound/9844325b7b0f8c8dab59d9cd5b779d59",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1F3QgJVTorjmSLb3awCyPUXL6peYqcA6Jq",
+        "role": "payment",
+        "service": "bitcoin"
       }
     ],
     "address": {
@@ -71,15 +71,15 @@
     },
     {
       "identifier": "mindbound",
-      "proof_url": "https://gist.github.com/mindbound/9844325b7b0f8c8dab59d9cd5b779d59",
-      "service": "github",
+      "proof_url": "https://www.facebook.com/mindbound/posts/1295660240461565",
+      "service": "facebook",
       "valid": true
     },
     {
       "identifier": "mindbound",
-      "proof_url": "https://www.facebook.com/mindbound/posts/1295660240461565",
-      "service": "facebook",
-      "valid": true
+      "proof_url": "https://gist.github.com/mindbound/9844325b7b0f8c8dab59d9cd5b779d59",
+      "service": "github",
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN mindbound.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mindbound.id\"\n"

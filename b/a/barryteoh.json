@@ -18,13 +18,6 @@
       },
       {
         "@type": "Account",
-        "identifier": "barry.teoh",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/barry.teoh/posts/10153507006385718",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
         "identifier": "nolim1t",
         "proofType": "http",
         "proofUrl": "https://twitter.com/nolim1t/status/736044418025721860",
@@ -46,6 +39,13 @@
         "@type": "Account",
         "identifier": "4a0324046bbf5df9507ab78fc7047681a4200eb0",
         "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "barry.teoh",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/barry.teoh/posts/10153507006385718",
+        "service": "facebook"
       }
     ],
     "address": {
@@ -78,18 +78,18 @@
       "identifier": "nolim1t",
       "proof_url": "https://gist.github.com/nolim1t/c0c146f696169e26eb33",
       "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "barry.teoh",
-      "proof_url": "https://www.facebook.com/barry.teoh/posts/10153507006385718",
-      "service": "facebook",
       "valid": false
     },
     {
       "identifier": "nolim1t",
       "proof_url": "https://twitter.com/nolim1t/status/736044418025721860",
       "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "barry.teoh",
+      "proof_url": "https://www.facebook.com/barry.teoh/posts/10153507006385718",
+      "service": "facebook",
       "valid": true
     }
   ],

@@ -1,0 +1,62 @@
+{
+  "owner_address": "1fpLAkL5posiax8UxYXtMoWs4xKvvq9Ng",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "xiaofeng_metis",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/xiaofeng_metis/status/767069437128085504",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "xiaofeng.metis",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/xiaofeng.metis/posts/10205462092430235",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "yelcat",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/yelcat/9e3f669ed413c61f4416004f961437b5",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "china"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "xiaofeng wang"
+  },
+  "verifications": [
+    {
+      "identifier": "xiaofeng_metis",
+      "proof_url": "https://twitter.com/xiaofeng_metis/status/767069437128085504",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "xiaofeng.metis",
+      "proof_url": "https://www.facebook.com/xiaofeng.metis/posts/10205462092430235",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "yelcat",
+      "proof_url": "https://gist.github.com/yelcat/9e3f669ed413c61f4416004f961437b5",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN xiaofeng.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/xiaofeng.id\"\n"
+}

@@ -1,0 +1,68 @@
+{
+  "owner_address": "1PeYzP7GUvZTyFyRZFjjuc5jib44TM3uUP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jay_douzi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Jay_Douzi/status/778342456001597440",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "j.douzi",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/j.douzi/posts/10209663421477614",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jaydouzi",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jaydouzi/8b937c3e207be84c1944b1b2c38d3aaf",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "18YuhHg9YAdoWFKbTrQPtaSLUjZHuYFPmL",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jaydouzi",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jaydouzi",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jay_douzi",
+      "proof_url": "https://twitter.com/Jay_Douzi/status/778342456001597440",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "j.douzi",
+      "proof_url": "https://www.facebook.com/j.douzi/posts/10209663421477614",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "jaydouzi",
+      "proof_url": "https://gist.github.com/jaydouzi/8b937c3e207be84c1944b1b2c38d3aaf",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jaydouzi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jaydouzi.id\"\n"
+}

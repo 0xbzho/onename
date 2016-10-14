@@ -1,0 +1,54 @@
+{
+  "owner_address": "1BbLVbExg1cAxpU8vmycFnvf2sAPPL6LkW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cinemich",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/cinemich?post_id=10210197256705335_10210197258945391#/facebook",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cinemich",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cinemich/status/762760240521707520",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Rive d'Arcano (UD) Italy"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cinemich",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/cinemich",
+        "name": "cover"
+      }
+    ],
+    "name": "Michele Federico"
+  },
+  "verifications": [
+    {
+      "identifier": "cinemich",
+      "proof_url": "https://onename.com/cinemich?post_id=10210197256705335_10210197258945391#/facebook",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "cinemich",
+      "proof_url": "https://twitter.com/cinemich/status/762760240521707520",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN cinemich.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cinemich.id\"\n"
+}

@@ -1,0 +1,79 @@
+{
+  "owner_address": "128RfhP6me5B7YXiAR9ZBgRRBn4CFSnxkw",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "alex_cox",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/alex_cox/status/769641027158159361",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "alex-cox",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/alex-cox/7b60740c175185b9d5bca425d0313437",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lalexcox",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/lalexcox/posts/10153766447968038",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/alexcox",
+        "identifier": "A9D63EC9E18DED36D0C9EAF86110AFB5E06492",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "15v5MG3vzTx9tugiHbzCuoqmvtZ9aDUsn3",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Jose, CA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/alexcox",
+        "name": "avatar"
+      }
+    ],
+    "name": "L. Alex Cox"
+  },
+  "verifications": [
+    {
+      "identifier": "alex_cox",
+      "proof_url": "https://twitter.com/alex_cox/status/769641027158159361",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "alex-cox",
+      "proof_url": "https://gist.github.com/alex-cox/7b60740c175185b9d5bca425d0313437",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "lalexcox",
+      "proof_url": "https://www.facebook.com/lalexcox/posts/10153766447968038",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN alexcox.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alexcox.id\"\n"
+}

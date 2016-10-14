@@ -1,0 +1,57 @@
+{
+  "owner_address": "16yuG5Wj6Qja8Ni49QiNikgpnkqdxUkJxc",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "thelavaflowpod",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TheLAVAFlowPod/status/773520361958805504",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rodgerpaxton",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/rodgerpaxton/posts/10208068421603152?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rodgerpaxton",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rodgerpaxton/bbf9083cbe69de0389bb50f9c46ae78e",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "thelavaflowpod",
+      "proof_url": "https://twitter.com/TheLAVAFlowPod/status/773520361958805504",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "rodgerpaxton",
+      "proof_url": "https://www.facebook.com/rodgerpaxton/posts/10208068421603152?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "rodgerpaxton",
+      "proof_url": "https://gist.github.com/rodgerpaxton/bbf9083cbe69de0389bb50f9c46ae78e",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN rodgerpaxton.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rodgerpaxton.id\"\n"
+}

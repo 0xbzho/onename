@@ -1,60 +1,80 @@
 {
   "owner_address": "1JcuwzC8N7ao3ea8EVN1DpH2XHpiHtQbfY",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/robertwilliamallen"
-    },
-    "bio": "",
-    "bitcoin": {
-      "address": "1DaTcCRxaFEECnq5y4eXWMw5Q94YwcrW5G"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/yId.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/RobertWilliamAllen/posts/10152548475471329"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1DaTcCRxaFEECnq5y4eXWMw5Q94YwcrW5G",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "RobertWilliamAllen"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/robertwilliamallen/25626bec4520aafbc7a4"
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/robertwilliamallen",
+        "identifier": "F5B3F222D3CF2740CC62C9A6D3CF00A6AD5C3C99",
+        "service": "pgp"
       },
-      "username": "robertwilliamallen"
-    },
-    "location": {
-      "formatted": "New York, New York"
-    },
-    "name": {
-      "formatted": "Robert Allen"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/BTC1982/status/500262072995692544"
+      {
+        "@type": "Account",
+        "identifier": "BTC1982",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BTC1982/status/779329663751614464",
+        "service": "twitter"
       },
-      "username": "BTC1982"
+      {
+        "@type": "Account",
+        "identifier": "robertwilliamallen",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/robertwilliamallen/2e13ea233b74fc14e691704a1ab7475a",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "RobertWilliamAllen",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/robertwilliamallen/posts/10154292269106329?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York, New York"
     },
-    "v": "0.2"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/robertwilliamallen",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Robert Allen"
   },
   "verifications": [
     {
-      "identifier": "robertwilliamallen",
-      "proof_url": "https://gist.github.com/robertwilliamallen/25626bec4520aafbc7a4",
-      "service": "github",
-      "valid": true
-    },
-    {
       "identifier": "BTC1982",
-      "proof_url": "https://twitter.com/BTC1982/status/500262072995692544",
+      "proof_url": "https://twitter.com/BTC1982/status/779329663751614464",
       "service": "twitter",
       "valid": true
     },
     {
+      "identifier": "robertwilliamallen",
+      "proof_url": "https://gist.github.com/robertwilliamallen/2e13ea233b74fc14e691704a1ab7475a",
+      "service": "github",
+      "valid": false
+    },
+    {
       "identifier": "RobertWilliamAllen",
-      "proof_url": "https://facebook.com/RobertWilliamAllen/posts/10152548475471329",
+      "proof_url": "https://www.facebook.com/robertwilliamallen/posts/10154292269106329?pnref=story",
       "service": "facebook",
-      "valid": true
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN robertwilliamallen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/robertwilliamallen.id\"\n"
 }

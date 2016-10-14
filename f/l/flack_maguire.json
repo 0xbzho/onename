@@ -1,0 +1,68 @@
+{
+  "owner_address": "1JiCQXwM2XfJ38yVWUkanJifqpNteg5yLT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "FlackMaguire",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/FlackMaguire/status/779410416631844864",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "FDMaguire",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/FDMaguire/433c647466809f6e8fe3a014dea9274d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "flack.maguire",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/flack.maguire/posts/10154388100055516",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Diego, CA"
+    },
+    "description": "Focused on the intersection of communities, learning, and technology.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/flack_maguire",
+        "name": "avatar"
+      }
+    ],
+    "name": "Flack Maguire"
+  },
+  "verifications": [
+    {
+      "identifier": "FlackMaguire",
+      "proof_url": "https://twitter.com/FlackMaguire/status/779410416631844864",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "FDMaguire",
+      "proof_url": "https://gist.github.com/FDMaguire/433c647466809f6e8fe3a014dea9274d",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "flack.maguire",
+      "proof_url": "https://www.facebook.com/flack.maguire/posts/10154388100055516",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN flack_maguire.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/flack_maguire.id\"\n"
+}

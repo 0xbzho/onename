@@ -1,6 +1,67 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1814JR1EyQKyBapdbG2BcJeKk85hpsSJ7M",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "piguysofficial",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/piguysofficial/status/785363936749219840",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ff8c889a9bbc2dd736df61d8d0c9c3d138874535",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "piguysofficial",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/piguysofficial/posts/1798133393743523",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "thepiguys",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/thepiguys/50e7856111c64fc09fbf24cc860cd40d",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/piguys",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "piguysofficial",
+      "proof_url": "https://twitter.com/piguysofficial/status/785363936749219840",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "piguysofficial",
+      "proof_url": "https://www.facebook.com/piguysofficial/posts/1798133393743523",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "thepiguys",
+      "proof_url": "https://gist.github.com/thepiguys/50e7856111c64fc09fbf24cc860cd40d",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN piguys.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/piguys.id\"\n"
 }

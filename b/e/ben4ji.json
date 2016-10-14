@@ -1,0 +1,44 @@
+{
+  "owner_address": "1H3bT2RyBXTM72nP9QWKraR7iL4SMSLPnc",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ben.ji.11111",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ben.ji.11111/posts/1171289242929501",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Benji4",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Benji4/a54d91b068c434ba78c1c3b5ee37a280",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ben.ji.11111",
+      "proof_url": "https://www.facebook.com/ben.ji.11111/posts/1171289242929501",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "Benji4",
+      "proof_url": "https://gist.github.com/Benji4/a54d91b068c434ba78c1c3b5ee37a280",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ben4ji.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ben4ji.id\"\n"
+}

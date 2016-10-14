@@ -1,63 +1,52 @@
 {
   "owner_address": "1FJo4gi3JfJaHuXvtS3rNQX4be6htK8v33",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/hopitas"
-    },
-    "bio": "",
-    "bitcoin": {
-      "address": "1833RBcctD5shUb3s17poMvAn7NNYmPaXi"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/yId.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/hopitas/posts/10153244348594724"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "h0p1t4s",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "hopitas"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/hopitas/e71a7480d4f2ba261abd"
+      {
+        "@type": "Account",
+        "identifier": "hopitas",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "hopitas"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Tero Toivola"
-    },
-    "pgp": {
-      "url": "https://s3.amazonaws.com/pk9/hopitas"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/h0p1t4s/status/534601363129253888"
+      {
+        "@type": "Account",
+        "identifier": "hopitas",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "h0p1t4s"
+      {
+        "@type": "Account",
+        "identifier": "1N7QGiqJKtuLSBbEfAH8c6KStbyT9UXDnb",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "v": "0.2"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hopitas",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Tero Toivola"
   },
-  "verifications": [
-    {
-      "identifier": "hopitas",
-      "proof_url": "https://gist.github.com/hopitas/e71a7480d4f2ba261abd",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "h0p1t4s",
-      "proof_url": "https://twitter.com/h0p1t4s/status/534601363129253888",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "hopitas",
-      "proof_url": "https://facebook.com/hopitas/posts/10153244348594724",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN hopitas.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hopitas.id\"\n"
 }

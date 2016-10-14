@@ -1,0 +1,61 @@
+{
+  "owner_address": "1ABEpFCT8EC1CYDm4TVB95KqTNHUMpuc9p",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Roksivante",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RokSivante/status/784763355370098688",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sivante",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/sivante/ec2a8c301db64dc6eb4a7eaa3364f95e",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1JzbrSdfy2rQZpiVNAdipukmQe6KFgiLb",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bali"
+    },
+    "description": "Vision. Insight. Blockchain. Strategic Development. Alchemy. Music. Communications. Wealth Dynamics. Multi-Dimensional Evolution...",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/roksivante",
+        "name": "avatar"
+      }
+    ],
+    "name": "Rok Sivante"
+  },
+  "verifications": [
+    {
+      "identifier": "Roksivante",
+      "proof_url": "https://twitter.com/RokSivante/status/784763355370098688",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "sivante",
+      "proof_url": "https://gist.github.com/sivante/ec2a8c301db64dc6eb4a7eaa3364f95e",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN roksivante.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/roksivante.id\"\n"
+}

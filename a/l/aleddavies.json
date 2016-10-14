@@ -1,45 +1,53 @@
 {
   "owner_address": "13r1LttqP7f87jCoFx4foE6UAadorSDRrp",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/aleddavies"
-    },
-    "bio": "Bay Area based Software Engineer",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/aleddavies"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/AledDaviesSF/posts/10154090823348493"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "AledDaviesSF",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "AledDaviesSF"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/AledDavies/cffd8a3f8cac671358cc"
+      {
+        "@type": "Account",
+        "identifier": "AledDaviesSF",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "AledDavies"
+      {
+        "@type": "Account",
+        "identifier": "AledDavies",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/AledDavies/cffd8a3f8cac671358cc",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco"
     },
-    "location": {
-      "formatted": "San Francisco"
-    },
-    "name": {
-      "formatted": "Aled Davies"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/AledDaviesSF/status/706618900201545728"
+    "description": "Bay Area based Software Engineer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/aleddavies",
+        "name": "avatar"
       },
-      "username": "AledDaviesSF"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/aleddavies",
+        "name": "cover"
+      }
+    ],
+    "name": "Aled Davies"
   },
   "verifications": [
     {
       "identifier": "AledDavies",
       "proof_url": "https://gist.github.com/AledDavies/cffd8a3f8cac671358cc",
       "service": "github",
-      "valid": true
+      "valid": false
     },
     {
       "identifier": "AledDaviesSF",
@@ -53,5 +61,6 @@
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN aleddavies.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/aleddavies.id\"\n"
 }

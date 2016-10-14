@@ -1,0 +1,49 @@
+{
+  "owner_address": "1LLWEBUVQEdg8RN7tj9bxmTApDmjnF6A9i",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mrfadlinjohan",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mrfadlinjohan/posts/1753116778310322",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "TheEmpty5",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TheEmpty5/status/773511939976749056",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/fadlinjohan",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/fadlinjohan",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mrfadlinjohan",
+      "proof_url": "https://www.facebook.com/mrfadlinjohan/posts/1753116778310322",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "TheEmpty5",
+      "proof_url": "https://twitter.com/TheEmpty5/status/773511939976749056",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN fadlinjohan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fadlinjohan.id\"\n"
+}

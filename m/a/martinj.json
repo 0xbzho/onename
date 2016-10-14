@@ -1,0 +1,68 @@
+{
+  "owner_address": "1G8Gu8kLYFDApQUp8dE5dBhfoXCcins9Tj",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ernstmartinj",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ernstmartinj/posts/10154560541130962?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ifablernas",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ifablernas/status/769778941989183488",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ernstmartinj",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ernstmartinj/b09612545b067694efb168a147d85374",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1AbrpE2TgELXcYsDA16QcfxgNygAhvU8CQ",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/martinj",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/martinj",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ernstmartinj",
+      "proof_url": "https://www.facebook.com/ernstmartinj/posts/10154560541130962?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "ifablernas",
+      "proof_url": "https://twitter.com/ifablernas/status/769778941989183488",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ernstmartinj",
+      "proof_url": "https://gist.github.com/ernstmartinj/b09612545b067694efb168a147d85374",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN martinj.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/martinj.id\"\n"
+}

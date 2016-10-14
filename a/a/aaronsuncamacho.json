@@ -1,36 +1,61 @@
 {
   "owner_address": "19HLADeVJLZ3Tvs5JxzZBkjVdh3VLu5Nve",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/aaronsuncamacho"
-    },
-    "bio": "I Am",
-    "bitcoin": {
-      "address": "1KwGQ4UZNHKQB2AtxzxPVit2n1Zh7FVgcm"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/aaronsuncamacho"
-    },
-    "location": {
-      "formatted": "Nevada City, CA"
-    },
-    "name": {
-      "formatted": "Aaron Sun Camacho"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/aaronsuncamacho/status/487435415310172160"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1KwGQ4UZNHKQB2AtxzxPVit2n1Zh7FVgcm",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "aaronsuncamacho"
+      {
+        "@type": "Account",
+        "identifier": "aaronsuncamacho",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/aaronsuncamacho/posts/10209541364025981",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "aaronsuncamacho",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/aaronsuncamacho/status/763183082170003456",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nevada City, CA"
     },
-    "v": "0.2"
+    "description": "I Am",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/aaronsuncamacho",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/aaronsuncamacho",
+        "name": "cover"
+      }
+    ],
+    "name": "Aaron Sun Camacho"
   },
   "verifications": [
     {
       "identifier": "aaronsuncamacho",
-      "proof_url": "https://twitter.com/aaronsuncamacho/status/487435415310172160",
+      "proof_url": "https://www.facebook.com/aaronsuncamacho/posts/10209541364025981",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "aaronsuncamacho",
+      "proof_url": "https://twitter.com/aaronsuncamacho/status/763183082170003456",
       "service": "twitter",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN aaronsuncamacho.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/aaronsuncamacho.id\"\n"
 }

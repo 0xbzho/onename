@@ -1,0 +1,44 @@
+{
+  "owner_address": "1FjNkDH5t34QrvcZhHzMcGSKnw7BHamLN3",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "deepalinangia",
+        "proofType": "http",
+        "proofUrl": "Verifying that \"deepalinangia.id\" is my Blockstack ID.",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "deepalinangia",
+        "proofType": "http",
+        "proofUrl": "Verifying that \"deepalinangia.id\" is my Blockstack ID.",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "deepalinangia",
+      "proof_url": "Verifying that \"deepalinangia.id\" is my Blockstack ID.",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "deepalinangia",
+      "proof_url": "Verifying that \"deepalinangia.id\" is my Blockstack ID.",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN deepalinangia.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/deepalinangia.id\"\n"
+}

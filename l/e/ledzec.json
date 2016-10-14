@@ -1,0 +1,49 @@
+{
+  "owner_address": "12mx7zKwaVgzngSKUQUx2F78L9k5H3dFhp",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ledzec",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ledzec/status/772824501272707072",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mark zoeckler",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mark.zoeckler",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ledzec",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ledzec",
+      "proof_url": "https://twitter.com/ledzec/status/772824501272707072",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mark zoeckler",
+      "proof_url": "https://www.facebook.com/mark.zoeckler",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ledzec.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ledzec.id\"\n"
+}

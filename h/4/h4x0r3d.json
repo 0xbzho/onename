@@ -1,65 +1,87 @@
 {
   "owner_address": "1ALm6TdUPkkAUpP3P6B4PAUi1XHgmABLy6",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/h4x0r3d"
-    },
-    "bio": ".:[ #Anonymous | #AnonyMISS | #OpESR | #OWS | #Hacktivist | #Hacktivism | #Shamanism | #Junglist ]:. _\n.:[ my theme music: http://t.co/BfUiNPn3Lm ]:.",
-    "bitcoin": {
-      "address": "1E4kQNwzan2UmefWDkPTtUDRp1btCCTHvG"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/h4x0r3d"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/haxtheplanet/posts/906480362765413"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1HJLYpnL41uQrEYQGd4XncXZvrBnXg62VC",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "haxtheplanet"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/h4x0r3dTheOriginal/a8e0c36300f543c8d979"
+      {
+        "@type": "Account",
+        "identifier": "h4x0r3d",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/h4x0r3d/status/778109810592145408",
+        "service": "twitter"
       },
-      "username": "h4x0r3dTheOriginal"
-    },
-    "location": {
-      "formatted": "Agartha"
-    },
-    "name": {
-      "formatted": "h4x0r3d The Original"
-    },
-    "pgp": {
-      "fingerprint": "ringboltWyomingwoodlarkmidsummeroffloadconformistconcertpocketfulchopperdisbeliefrhythmdesigningsnaplinephotographspanielunifydwellingresistorobtuseinferno",
-      "url": "https://s3.amazonaws.com/pk9/h4x0r3d"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/h4x0r3d/status/632261114319925248"
+      {
+        "@type": "Account",
+        "identifier": "haxtheplanet",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/haxtheplanet/posts/1156793907734056",
+        "service": "facebook"
       },
-      "username": "h4x0r3d"
+      {
+        "@type": "Account",
+        "identifier": "h4x0r3dTheOriginal",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/h4x0r3dTheOriginal/6d814040fba5b9f7868352a505c0c7bd",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/h4x0r3d",
+        "identifier": "203BC8EEEF5DA10183B9474826E8CDC2071F58B7",
+        "role": "key",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "intarnetzwebcloudtubez"
     },
-    "v": "0.2",
-    "website": "http://www.Hackerzlair.org/"
+    "description": ".:[ #Anonymous | #AnonyMISS | #OpESR | #OWS | #Hacktivist | #Hacktivism | #Shamanism | #Junglist ]:. .:[ my theme music: http://bit.do/hax-tha-power ]:.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/h4x0r3d",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/h4x0r3d",
+        "name": "cover"
+      }
+    ],
+    "name": "h4x0r3d The Original",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://keybase.io/h4x0r3d"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "h4x0r3dTheOriginal",
-      "proof_url": "https://gist.github.com/h4x0r3dTheOriginal/a8e0c36300f543c8d979",
-      "service": "github",
-      "valid": true
-    },
-    {
       "identifier": "h4x0r3d",
-      "proof_url": "https://twitter.com/h4x0r3d/status/632261114319925248",
+      "proof_url": "https://twitter.com/h4x0r3d/status/778109810592145408",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "haxtheplanet",
-      "proof_url": "https://facebook.com/haxtheplanet/posts/906480362765413",
+      "proof_url": "https://www.facebook.com/haxtheplanet/posts/1156793907734056",
       "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "h4x0r3dTheOriginal",
+      "proof_url": "https://gist.github.com/h4x0r3dTheOriginal/6d814040fba5b9f7868352a505c0c7bd",
+      "service": "github",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN h4x0r3d.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/h4x0r3d.id\"\n"
 }

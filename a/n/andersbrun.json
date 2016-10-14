@@ -1,0 +1,36 @@
+{
+  "owner_address": "1JJ2oVRziqTKfd3pnA8wasrN1pJLmL2qey",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anders.brun",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/anders.brun/posts/10153855849249562",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sweden"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Anders Brun"
+  },
+  "verifications": [
+    {
+      "identifier": "anders.brun",
+      "proof_url": "https://www.facebook.com/anders.brun/posts/10153855849249562",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN andersbrun.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/andersbrun.id\"\n"
+}

@@ -1,0 +1,67 @@
+{
+  "owner_address": "1K4vkETNNvPJkdML2Xn4CwHGKZcv2q548K",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "lemonad",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/lemonad/b4f91a4d9ad87511b4315c4705a4c333",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lemonad",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/lemonad/status/763837512330731520",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lemonad",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/lemonad/posts/10154380945436798",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nynäs Slott"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/lemonad",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/lemonad",
+        "name": "cover"
+      }
+    ],
+    "name": "Jonas Nockert"
+  },
+  "verifications": [
+    {
+      "identifier": "lemonad",
+      "proof_url": "https://gist.github.com/lemonad/b4f91a4d9ad87511b4315c4705a4c333",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "lemonad",
+      "proof_url": "https://twitter.com/lemonad/status/763837512330731520",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "lemonad",
+      "proof_url": "https://www.facebook.com/lemonad/posts/10154380945436798",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN lemonad.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lemonad.id\"\n"
+}

@@ -1,0 +1,36 @@
+{
+  "owner_address": "1PJZZhVRja2WW2RZRi2G5Scbw8jbNQMoGy",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "StErMi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/StErMi/status/766626108099948544",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lucca, Italy"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Emanuele Ricci"
+  },
+  "verifications": [
+    {
+      "identifier": "StErMi",
+      "proof_url": "https://twitter.com/StErMi/status/766626108099948544",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ericci.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ericci.id\"\n"
+}

@@ -1,0 +1,47 @@
+{
+  "owner_address": "17kycrkZNtuFhsH7GMJsGjbnh1TrZjjwZL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "coincenter",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/coincenter/status/763439818978230272",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "211fc791cfe7f050b06a65164f1a470b4adb9fad",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Washington, DC"
+    },
+    "description": "Keeping blockchain networks like Bitcoin free and open",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/coincenter",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/coincenter",
+        "name": "cover"
+      }
+    ],
+    "name": "Coin Center"
+  },
+  "verifications": [
+    {
+      "identifier": "coincenter",
+      "proof_url": "https://twitter.com/coincenter/status/763439818978230272",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN coincenter.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/coincenter.id\"\n"
+}

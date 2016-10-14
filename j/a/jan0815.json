@@ -1,0 +1,60 @@
+{
+  "owner_address": "19tWCEwkXhUbtg34Ha2YUCDRw9DstKBX2s",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jwildeboer",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jwildeboer/status/764866436938489856",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jwildeboer",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jwildeboer/500cca849f5d9cccea12272f411e82f3",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Munich, Germany"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jan0815",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jan Wildeboer",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://jan.wildeboer.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jwildeboer",
+      "proof_url": "https://twitter.com/jwildeboer/status/764866436938489856",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jwildeboer",
+      "proof_url": "https://gist.github.com/jwildeboer/500cca849f5d9cccea12272f411e82f3",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jan0815.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jan0815.id\"\n"
+}

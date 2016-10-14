@@ -1,0 +1,61 @@
+{
+  "owner_address": "18uwsH1Re7mNAa6oQaPBBpkeNhTVUEV5Hg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "shikhi7",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/shikhi7/posts/10210443396469599",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "shikhi7",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/shikhi7/78d89066c04d2f1057b5782a3acc388c",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "IIT KANPUR, INDIA"
+    },
+    "description": "Undergraduate in Computer Science Deptt. IIT Kanpur",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/shikhi7",
+        "name": "avatar"
+      }
+    ],
+    "name": "Shikhar Mahajan",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://in.linkedin.com/in/shikhar-mahajan-51429411a"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "shikhi7",
+      "proof_url": "https://www.facebook.com/shikhi7/posts/10210443396469599",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "shikhi7",
+      "proof_url": "https://gist.github.com/shikhi7/78d89066c04d2f1057b5782a3acc388c",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN shikhi7.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/shikhi7.id\"\n"
+}

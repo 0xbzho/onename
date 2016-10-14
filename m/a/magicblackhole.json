@@ -1,0 +1,79 @@
+{
+  "owner_address": "189cPo7cg7y3FDeC8HxpsUk2qxQZKjMSBf",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "magicblackhole",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/magicblackhole/status/781031475412103168",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "magicblackhole",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/magicblackhole/posts/1583757908597275",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1Cosj3orUYLPAZwKrAdkRTSKezwMPJqaCt",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "magicblackhole",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/magicblackhole/c9ab44abfdf6c0d1e78c39777e71ec8b",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Coinland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/magicblackhole",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/magicblackhole",
+        "name": "cover"
+      }
+    ],
+    "name": "magicblackhole.com",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://magicblackhole.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "magicblackhole",
+      "proof_url": "https://twitter.com/magicblackhole/status/781031475412103168",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "magicblackhole",
+      "proof_url": "https://www.facebook.com/magicblackhole/posts/1583757908597275",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "magicblackhole",
+      "proof_url": "https://gist.github.com/magicblackhole/c9ab44abfdf6c0d1e78c39777e71ec8b",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN magicblackhole.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/magicblackhole.id\"\n"
+}

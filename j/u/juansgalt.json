@@ -1,64 +1,80 @@
 {
   "owner_address": "14vKypQtNvjcqpyCYH59hx8Pm7miZPLJHr",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/juansgalt"
-    },
-    "bio": "Autodidact Student of Philosophy, Psychology, Economics, Blockchain tech. Bitcoin 2.0 Journalist",
-    "bitcoin": {
-      "address": "1DApoih5Jr67iSYzNKcELcFwH3Vw4uSJna"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/juansgalt"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/eljuangalt/posts/10203573892741767"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "juansgalt",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JuanSGalt/status/769008702116335617",
+        "service": "twitter"
       },
-      "username": "eljuangalt"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/jsgalt/851d7f999439ea4a39a4"
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/juansgalt",
+        "identifier": null,
+        "service": "pgp"
       },
-      "username": "jsgalt"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/juansgalt"
-    },
-    "location": {
-      "formatted": "Toronto"
-    },
-    "name": {
-      "formatted": "Juan S. Galt"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/juansgalt/status/581184727056515073"
+      {
+        "@type": "Account",
+        "identifier": "eljuangalt",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ElJuanGalt/posts/10208495862547936",
+        "service": "facebook"
       },
-      "username": "juansgalt"
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/c3c9a62d6b248c0db474d49fd3057feb#file-gistfile1-txt",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1CrjZ14gs7F3SsTSDdPwNSMnjYD5NuXEdk",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Toronto"
     },
-    "v": "0.2"
+    "description": "Autodidact Student of Philosophy, Psychology, Economics, Blockchain tech. Bitcoin 2.0 Journalist",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/juansgalt",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/juansgalt",
+        "name": "avatar"
+      }
+    ],
+    "name": "Juan S. Galt"
   },
   "verifications": [
     {
-      "identifier": "jsgalt",
-      "proof_url": "https://gist.github.com/jsgalt/851d7f999439ea4a39a4",
-      "service": "github",
-      "valid": true
-    },
-    {
       "identifier": "juansgalt",
-      "proof_url": "https://twitter.com/juansgalt/status/581184727056515073",
+      "proof_url": "https://twitter.com/JuanSGalt/status/769008702116335617",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "eljuangalt",
-      "proof_url": "https://facebook.com/eljuangalt/posts/10203573892741767",
+      "proof_url": "https://www.facebook.com/ElJuanGalt/posts/10208495862547936",
       "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/c3c9a62d6b248c0db474d49fd3057feb#file-gistfile1-txt",
+      "service": "github",
       "valid": false
     }
   ],
-  "zone_file": {}
+  "zone_file": "$ORIGIN juansgalt.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/juansgalt.id\"\n"
 }

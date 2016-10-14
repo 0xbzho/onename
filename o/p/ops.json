@@ -1,56 +1,80 @@
 {
   "owner_address": "1JBKmC2156PMHgNoCETzZvK2XxEEHZZxto",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/ops"
-    },
-    "bio": "Love is all I see, and all I am.",
-    "bitcoin": {
-      "address": "1QC2gzmcURxCbCoJzsH7Pg2PW7jVugcH19"
-    },
-    "cover": {
-      "url": "http://i.imgur.com/4Bp5hdA.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/oliver.schimmel/posts/10153256467416997"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1QC2gzmcURxCbCoJzsH7Pg2PW7jVugcH19",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "oliver.schimmel"
-    },
-    "instagram": {
-      "username": "revilooliver"
-    },
-    "linkedin": {
-      "url": "https://www.linkedin.com/pub/oliver-schimmel/b/a56/541"
-    },
-    "location": {
-      "formatted": "Los Angeles"
-    },
-    "name": {
-      "formatted": "Oliver Patrick Schimmel"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/OliverSchimmel/status/619302306052333568"
+      {
+        "@type": "Account",
+        "identifier": "OliverSchimmel",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/OliverSchimmel/status/763808027812237319",
+        "service": "twitter"
       },
-      "username": "OliverSchimmel"
+      {
+        "@type": "Account",
+        "identifier": "oliver.schimmel",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/oliver.schimmel/posts/10154113528571997?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/eab6cb7f804c6503dc8e73cf60cbe58b",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Los Angeles"
     },
-    "v": "0.2",
-    "website": "http://www.imdb.com/name/nm1320051/"
+    "description": "Love is all I see, and all I am.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ops",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "http://i.imgur.com/4Bp5hdA.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Oliver Patrick Schimmel",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.imdb.com/name/nm1320051/"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "OliverSchimmel",
-      "proof_url": "https://twitter.com/OliverSchimmel/status/619302306052333568",
+      "proof_url": "https://twitter.com/OliverSchimmel/status/763808027812237319",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "oliver.schimmel",
-      "proof_url": "https://facebook.com/oliver.schimmel/posts/10153256467416997",
+      "proof_url": "https://www.facebook.com/oliver.schimmel/posts/10154113528571997?pnref=story",
       "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/eab6cb7f804c6503dc8e73cf60cbe58b",
+      "service": "github",
       "valid": false
     }
   ],
-  "zone_file": {}
+  "zone_file": "$ORIGIN ops.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ops.id\"\n"
 }

@@ -1,20 +1,69 @@
 {
   "owner_address": "1CDG5PyyG5SmVm3SQMSpEyP5q3591BncWE",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "bc75a7df3d70f6d04eafd0524264bbe727542a4a",
+        "identifier": "gokhanonim",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gokhanonim/status/762142440593747968",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gokhanerdem",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/gokhanerdem/aec2426f575c8d0a54c362a6cce696fd#file-gokhan-txt",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gokhanonim",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/gokhanonim/posts/113560362422806",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "17rE8KQtGsFhrhWhG9Dt2Jep59noPdhzTq",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fef20a0322d8242d1c6ff85a028c2ac43f94085f",
         "service": "openbazaar"
       }
     ],
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/lUU.jpeg"
-    },
-    "name": {
-      "formatted": "Gökhan Erdem"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Gökhan Erdem"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "gokhanonim",
+      "proof_url": "https://twitter.com/gokhanonim/status/762142440593747968",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "gokhanerdem",
+      "proof_url": "https://gist.github.com/gokhanerdem/aec2426f575c8d0a54c362a6cce696fd#file-gokhan-txt",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "gokhanonim",
+      "proof_url": "https://www.facebook.com/gokhanonim/posts/113560362422806",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN anonim.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/anonim.id\"\n"
 }

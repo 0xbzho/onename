@@ -1,38 +1,54 @@
 {
   "owner_address": "1HBBiGQozhuWJ8ta2B1sfujsrg4fBMPyYG",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/meidans"
-    },
-    "bio": "Ugh. Just find me on Twister. ...",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/meidans"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/meirad/0371a19b37dc04b223bc"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "meirad",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "meirad"
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/meidans",
+        "identifier": "AC704FA1625268F79C1A9FBAA24A63BC538B52C8",
+        "role": "key",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "USA"
     },
-    "location": {
-      "formatted": "USA"
-    },
-    "name": {
-      "formatted": "meidan"
-    },
-    "pgp": {
-      "fingerprint": "AC704FA1625268F79C1A9FBAA24A63BC538B52C8",
-      "url": "https://s3.amazonaws.com/pk9/meidans"
-    },
-    "v": "0.2"
+    "description": "I'm on ZeroNet if  you want to chat.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/meidans",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/meidans",
+        "name": "avatar"
+      }
+    ],
+    "name": "meidan",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://127.0.0.1:43110/1N6DUdTFqjq6qmahi1SviEQV8nnhJ2wrTq/?Home"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "meirad",
       "proof_url": "https://gist.github.com/meirad/0371a19b37dc04b223bc",
       "service": "github",
-      "valid": true
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN meidans.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/meidans.id\"\n"
 }

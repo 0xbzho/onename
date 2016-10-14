@@ -5,28 +5,31 @@
     "account": [
       {
         "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/geekishmatt",
+        "identifier": null,
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
         "identifier": "geekishmatt",
         "proofType": "http",
+        "proofUrl": "https://twitter.com/geekishmatt/status/762957828424343552",
         "service": "twitter"
       },
       {
         "@type": "Account",
         "identifier": "geekishmatt",
         "proofType": "http",
-        "service": "facebook"
+        "proofUrl": "https://gist.github.com/geekishmatt/0e1f243708262c8067f8133704d4ebd9",
+        "service": "github"
       },
       {
         "@type": "Account",
         "identifier": "geekishmatt",
         "proofType": "http",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
-        "contentUrl": "https://s3.amazonaws.com/pk9/geekishmatt",
-        "identifier": null,
-        "role": "key",
-        "service": "pgp"
+        "proofUrl": "https://www.facebook.com/geekishmatt/posts/1574404012864139",
+        "service": "facebook"
       }
     ],
     "address": {
@@ -36,13 +39,13 @@
     "image": [
       {
         "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/geekishmatt",
-        "name": "avatar"
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
       },
       {
         "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
-        "name": "cover"
+        "contentUrl": "https://s3.amazonaws.com/kd4/geekishmatt",
+        "name": "avatar"
       }
     ],
     "name": "Matthäus Müller",
@@ -53,6 +56,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "geekishmatt",
+      "proof_url": "https://twitter.com/geekishmatt/status/762957828424343552",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "geekishmatt",
+      "proof_url": "https://gist.github.com/geekishmatt/0e1f243708262c8067f8133704d4ebd9",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "geekishmatt",
+      "proof_url": "https://www.facebook.com/geekishmatt/posts/1574404012864139",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN geekishmatt.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/geekishmatt.id\"\n"
 }

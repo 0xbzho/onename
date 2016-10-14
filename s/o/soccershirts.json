@@ -1,0 +1,49 @@
+{
+  "owner_address": "1HqMF9uPxJ2p8heNH3WoGsmXJGuKLsbo47",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ce77c1aa83e4e639761f4d5c9c63c8dd47a479f9",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "soccershirts",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/soccershirts/status/776039039199698944",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "SoccerShirtsOnline",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/SoccerShirtsOnline/posts/1108449309248088",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "soccershirts",
+      "proof_url": "https://twitter.com/soccershirts/status/776039039199698944",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "SoccerShirtsOnline",
+      "proof_url": "https://www.facebook.com/SoccerShirtsOnline/posts/1108449309248088",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN soccershirts.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/soccershirts.id\"\n"
+}

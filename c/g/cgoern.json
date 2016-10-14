@@ -1,0 +1,49 @@
+{
+  "owner_address": "1Ha7dn1ehugrb3SoFPc27VjJzHPcSdLeFk",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "goern",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/goern/status/766350359824596993",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "goern",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/goern/29825024a83746c3b94958a7f92ff0bf",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cgoern",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "goern",
+      "proof_url": "https://twitter.com/goern/status/766350359824596993",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "goern",
+      "proof_url": "https://gist.github.com/goern/29825024a83746c3b94958a7f92ff0bf",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN cgoern.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cgoern.id\"\n"
+}

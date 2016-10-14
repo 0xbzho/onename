@@ -1,0 +1,67 @@
+{
+  "owner_address": "16eoPGtHku6MuzUAita7L3vy296zZv45yR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rescher",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rescher/f98e501e607f215fcaf8fe35a35b552a",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rescher",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rescher",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rick.escher",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/rick.escher",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ottawa, Canada"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rescher",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rescher",
+        "name": "cover"
+      }
+    ],
+    "name": "Rick Escher"
+  },
+  "verifications": [
+    {
+      "identifier": "rescher",
+      "proof_url": "https://gist.github.com/rescher/f98e501e607f215fcaf8fe35a35b552a",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "rescher",
+      "proof_url": "https://twitter.com/rescher",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "rick.escher",
+      "proof_url": "https://www.facebook.com/rick.escher",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN rescher.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rescher.id\"\n"
+}

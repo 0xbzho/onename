@@ -1,64 +1,80 @@
 {
   "owner_address": "13aW7W4i9XnZDTjiYu7dLsMzqEw946P9Xa",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/internetmusic"
-    },
-    "bio": "Rebooting the online music industry...",
-    "bitcoin": {
-      "address": "1JDpofb4wXqpUBzrJukrLmm34w8JJCimXV"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/internetmusic"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/internetmusic/posts/860255114005061"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1JDpofb4wXqpUBzrJukrLmm34w8JJCimXV",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "internetmusic"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/internetmusic/c0b2685f4d387f74a6b0"
+      {
+        "@type": "Account",
+        "identifier": "internetmusic",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/internetmusic/posts/1227413050622597",
+        "service": "facebook"
       },
-      "username": "internetmusic"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/internetmusic"
-    },
-    "location": {
-      "formatted": "London, UK"
-    },
-    "name": {
-      "formatted": "Internet Music"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/internet_music/status/537983025842094081"
+      {
+        "@type": "Account",
+        "identifier": "internet_music",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/internet_music/status/766201070179737600",
+        "service": "twitter"
       },
-      "username": "internet_music"
+      {
+        "@type": "Account",
+        "identifier": "internetmusic",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/internetmusic/769544a3cd041327ad5f8dece7b1ef02",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London, UK"
     },
-    "v": "0.2",
-    "website": "http://internetmusicnow.com"
+    "description": "Rebooting the online music industry...",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/internetmusic",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/internetmusic",
+        "name": "cover"
+      }
+    ],
+    "name": "Internet Music",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://internetmusicnow.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "internetmusic",
-      "proof_url": "https://gist.github.com/internetmusic/c0b2685f4d387f74a6b0",
-      "service": "github",
+      "proof_url": "https://www.facebook.com/internetmusic/posts/1227413050622597",
+      "service": "facebook",
       "valid": true
     },
     {
       "identifier": "internet_music",
-      "proof_url": "https://twitter.com/internet_music/status/537983025842094081",
+      "proof_url": "https://twitter.com/internet_music/status/766201070179737600",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "internetmusic",
-      "proof_url": "https://facebook.com/internetmusic/posts/860255114005061",
-      "service": "facebook",
+      "proof_url": "https://gist.github.com/internetmusic/769544a3cd041327ad5f8dece7b1ef02",
+      "service": "github",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN internetmusic.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/internetmusic.id\"\n"
 }

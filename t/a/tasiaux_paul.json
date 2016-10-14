@@ -1,0 +1,42 @@
+{
+  "owner_address": "1KBgAVa5PdASXbwFGaPNC7aGGjGtrhTfN1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ptasiaux",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ptasiaux/status/786219496931373056",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1CpuqzRXChEyscnEpqp5Mbk292v1hvkqug",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tasiaux.paul",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/tasiaux.paul/posts/10154622302395439",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brussels"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Paul-Emmanuel Tasiaux"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN tasiaux_paul.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tasiaux_paul.id\"\n"
+}

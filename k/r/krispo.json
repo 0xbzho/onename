@@ -1,0 +1,55 @@
+{
+  "owner_address": "15i17VJCciYRMNw4PYSMXAYKPZeChGh4Z6",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Ksporsheim",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/KSporsheim/status/783955703446835200",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Sporsk",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Sporsk/eaed74454664504caf20fb748a967c45",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Trondheim"
+    },
+    "description": "I like ice",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/krispo",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/krispo",
+        "name": "cover"
+      }
+    ],
+    "name": "Kristian Sporsheim"
+  },
+  "verifications": [
+    {
+      "identifier": "Ksporsheim",
+      "proof_url": "https://twitter.com/KSporsheim/status/783955703446835200",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Sporsk",
+      "proof_url": "https://gist.github.com/Sporsk/eaed74454664504caf20fb748a967c45",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN krispo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/krispo.id\"\n"
+}

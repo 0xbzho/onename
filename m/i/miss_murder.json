@@ -1,0 +1,36 @@
+{
+  "owner_address": "14pLEQsio5q9wJZefDP9jK2Q7qezcTmtm1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "MissMurder_Mohr",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MissMurder_Mohr",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/miss_murder",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/miss_murder",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "MissMurder_Mohr",
+      "proof_url": "https://twitter.com/MissMurder_Mohr",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN miss_murder.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/miss_murder.id\"\n"
+}

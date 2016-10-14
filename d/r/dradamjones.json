@@ -1,0 +1,66 @@
+{
+  "owner_address": "13D74xbFbEsWnB33CaJHcbi4zCKuMMngHR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dradamjones",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/DrAdamJones/status/740814072577429504",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1M3RmCnR21gk2q4mRsrCXFZSb1oSXUyKAx",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "adamdjones",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/adamdjones/posts/10101525545971053",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "England"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dradamjones",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/dradamjones",
+        "name": "cover"
+      }
+    ],
+    "name": "Adam Jones",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.dradamjones.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dradamjones",
+      "proof_url": "https://twitter.com/DrAdamJones/status/740814072577429504",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "adamdjones",
+      "proof_url": "https://www.facebook.com/adamdjones/posts/10101525545971053",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN dradamjones.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dradamjones.id\"\n"
+}

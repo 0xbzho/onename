@@ -1,0 +1,73 @@
+{
+  "owner_address": "13gVvogoo3C9TP7jV8Rc3SiSNGEMD8RYFZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "eilko",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/eilko/d59769015e94b377b6d8c94529d3e02e",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "eilko",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/eilko/posts/10154457168344530",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "eilko",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/eilko/status/768043116439961600",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Enschede"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/eilkobronsema",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/eilkobronsema",
+        "name": "cover"
+      }
+    ],
+    "name": "Eilko Bronsema",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.qqleq.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "eilko",
+      "proof_url": "https://gist.github.com/eilko/d59769015e94b377b6d8c94529d3e02e",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "eilko",
+      "proof_url": "https://www.facebook.com/eilko/posts/10154457168344530",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "eilko",
+      "proof_url": "https://twitter.com/eilko/status/768043116439961600",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN eilkobronsema.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/eilkobronsema.id\"\n"
+}

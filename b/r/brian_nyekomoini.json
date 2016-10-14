@@ -1,0 +1,48 @@
+{
+  "owner_address": "19GRmbJ9waLFXGmcqqevdmPNQDB26jB1Zm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "briannyeko",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BrianNyeko/status/776044549668036608",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "briannyeko",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/briannyeko/34a9e3e6edd48d0125e7d1e8cf840657",
+        "service": "github"
+      }
+    ],
+    "graph": {
+      "url": "https://s3.amazonaws.com/grph/brian_nyekomoini"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Brian Nyeko"
+  },
+  "verifications": [
+    {
+      "identifier": "briannyeko",
+      "proof_url": "https://twitter.com/BrianNyeko/status/776044549668036608",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "briannyeko",
+      "proof_url": "https://gist.github.com/briannyeko/34a9e3e6edd48d0125e7d1e8cf840657",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN brian_nyekomoini.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/brian_nyekomoini.id\"\n"
+}

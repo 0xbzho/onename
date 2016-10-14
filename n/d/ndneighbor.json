@@ -1,0 +1,62 @@
+{
+  "owner_address": "1FqvsBF3LMVJcJEsXMupFNJAi2dtv4NXyb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "aesaraceno",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/aesaraceno/posts/1146579542044394",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ndneighbor",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ndneighbor/status/772514013099859968",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ndneighbor",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ndneighbor/b801e9962cee00bdd0e102bcfbc3734a",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ndneighbor",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "aesaraceno",
+      "proof_url": "https://www.facebook.com/aesaraceno/posts/1146579542044394",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "ndneighbor",
+      "proof_url": "https://twitter.com/ndneighbor/status/772514013099859968",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ndneighbor",
+      "proof_url": "https://gist.github.com/ndneighbor/b801e9962cee00bdd0e102bcfbc3734a",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ndneighbor.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ndneighbor.id\"\n"
+}

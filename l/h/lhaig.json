@@ -5,12 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "lhaig",
-        "proofType": "http",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
         "identifier": "13TeYRkR7pKvZ7uoV2Wgm68oQ1pTFViXZT",
         "role": "payment",
         "service": "bitcoin"
@@ -21,6 +15,13 @@
         "proofType": "http",
         "proofUrl": "https://twitter.com/lhaig/status/732190279420248064",
         "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lhaig",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/lhaig/c7c2f325bd862f540999",
+        "service": "github"
       }
     ],
     "address": {
@@ -54,6 +55,12 @@
       "proof_url": "https://twitter.com/lhaig/status/732190279420248064",
       "service": "twitter",
       "valid": true
+    },
+    {
+      "identifier": "lhaig",
+      "proof_url": "https://gist.github.com/lhaig/c7c2f325bd862f540999",
+      "service": "github",
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN lhaig.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lhaig.id\"\n"

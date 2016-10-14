@@ -1,0 +1,31 @@
+{
+  "owner_address": "1623CopH8vQUQibS3XshcJD4hC9zTzTkZn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "amwassil",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/michael.wassil",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "amwassil",
+      "proof_url": "https://www.facebook.com/michael.wassil",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN amwassil.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/amwassil.id\"\n"
+}

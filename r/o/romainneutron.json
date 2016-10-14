@@ -1,6 +1,58 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1KhfFomA8zHPdCAAib3wJX5ztYWF7iBkMb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "romainneutron",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "romainneutron",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "romainneutron",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/romainneutron",
+        "identifier": "B1756AD55FB5E6288DBC1770201FC7CF9F0CA3ED",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "paris"
+    },
+    "description": "climber, yogi, cats sorter. I love computers. Developer at @blackfireio",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/romainneutron",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Romain N",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://github.com/romainneutron"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN romainneutron.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/romainneutron.id\"\n"
 }

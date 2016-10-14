@@ -1,0 +1,57 @@
+{
+  "owner_address": "13b7ppKy61AP9fqLeD14uoPL7i2mQG6oaQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rbialek",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rbialek/status/781440881001914368",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rbialek",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rbialek/093d64758d4d2f05f48feae6a22bbdfb",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bialekrobert",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bialekrobert/posts/10154169495688347",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "rbialek",
+      "proof_url": "https://twitter.com/rbialek/status/781440881001914368",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "rbialek",
+      "proof_url": "https://gist.github.com/rbialek/093d64758d4d2f05f48feae6a22bbdfb",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "bialekrobert",
+      "proof_url": "https://www.facebook.com/bialekrobert/posts/10154169495688347",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rbialek.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rbialek.id\"\n"
+}

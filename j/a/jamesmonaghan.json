@@ -1,0 +1,49 @@
+{
+  "owner_address": "1PsLzSSDFF3JiPCf1TeCAm2T8mkp8Zg9fR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "james_monaghan",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/james_monaghan/status/770955598196273152",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jamesmonaghan",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jamesmonaghan/2668030b07bc4ab230f6053fe5e0597c",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jamesmonaghan",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "james_monaghan",
+      "proof_url": "https://twitter.com/james_monaghan/status/770955598196273152",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jamesmonaghan",
+      "proof_url": "https://gist.github.com/jamesmonaghan/2668030b07bc4ab230f6053fe5e0597c",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jamesmonaghan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jamesmonaghan.id\"\n"
+}

@@ -1,0 +1,41 @@
+{
+  "owner_address": "1N3c5K7nx5vMhQqvZ9KGDXxU8i8RqAkv1K",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gleuto",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/rasmuslmc&redirect_uri=https://onename.com/rasmuslmc%23facebook",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sydney"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gleuto",
+        "name": "avatar"
+      }
+    ],
+    "name": "Gleuto Serafim PhD"
+  },
+  "verifications": [
+    {
+      "identifier": "gleuto",
+      "proof_url": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/rasmuslmc&redirect_uri=https://onename.com/rasmuslmc%23facebook",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN gleuto.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gleuto.id\"\n"
+}

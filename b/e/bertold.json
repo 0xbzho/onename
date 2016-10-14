@@ -1,0 +1,73 @@
+{
+  "owner_address": "1KrU7XqewW1511CuoHnJJjaJBPvvyvX5og",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bkolics",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bkolics/status/772100360785711104",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bertold",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bertold/8a307f5f7982ba60fdaa6d66029569b4",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bertold.kolics",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bertold.kolics/posts/10154055405088897?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Austin, TX"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bertold",
+        "name": "avatar"
+      }
+    ],
+    "name": "Bertold Kolics",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://bertold.kolics.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bkolics",
+      "proof_url": "https://twitter.com/bkolics/status/772100360785711104",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "bertold",
+      "proof_url": "https://gist.github.com/bertold/8a307f5f7982ba60fdaa6d66029569b4",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "bertold.kolics",
+      "proof_url": "https://www.facebook.com/bertold.kolics/posts/10154055405088897?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bertold.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bertold.id\"\n"
+}

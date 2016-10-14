@@ -1,0 +1,36 @@
+{
+  "owner_address": "1A9GvcSC7GYKtBBupo7hPyVjMauy2n8HRW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "popurax",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/popurax/aa50ae1ec247bbcdb6720def05f1dbb0",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "aa"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "aa"
+  },
+  "verifications": [
+    {
+      "identifier": "popurax",
+      "proof_url": "https://gist.github.com/popurax/aa50ae1ec247bbcdb6720def05f1dbb0",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN popurax.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/popurax.id\"\n"
+}

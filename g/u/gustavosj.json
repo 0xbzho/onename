@@ -1,0 +1,80 @@
+{
+  "owner_address": "1LBcyGiXhduZv87z6mhYU63bfKnTAwRNod",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gjs_sj",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gjs_sj/status/779357301408985088",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gustavo.sj",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/gustavo.sj/posts/10209221685475762",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gussj",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/gussj/359c4b9183c4ae7073ec717d43d9b12c",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1PKtorVvRWvcHhRTc1bb7Q716JH58eoWok",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Speranza"
+    },
+    "description": "Root/toor",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gustavosj",
+        "name": "avatar"
+      }
+    ],
+    "name": "Gustavo",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.0dayroot.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "gjs_sj",
+      "proof_url": "https://twitter.com/gjs_sj/status/779357301408985088",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "gustavo.sj",
+      "proof_url": "https://www.facebook.com/gustavo.sj/posts/10209221685475762",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "gussj",
+      "proof_url": "https://gist.github.com/gussj/359c4b9183c4ae7073ec717d43d9b12c",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN gustavosj.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gustavosj.id\"\n"
+}

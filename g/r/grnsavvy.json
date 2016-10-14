@@ -1,6 +1,31 @@
 {
-  "owner_address": "17MkzguQnVn7nMhEZkadvL51naFCvPCTmK",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1P6EQZzGm1TQ4bsCe99CwhThaNYTQ74Hfv",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "grnsavvy",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/grnsavvy/status/762403189987606528",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "grnsavvy",
+      "proof_url": "https://twitter.com/grnsavvy/status/762403189987606528",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN grnsavvy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/grnsavvy.id\"\n"
 }

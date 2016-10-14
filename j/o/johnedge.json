@@ -1,37 +1,54 @@
 {
   "owner_address": "1DVDYr6oVstVRRuHgErN5Uaa7LsBdZuu1w",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/johnedge"
-    },
-    "bio": "Live with purpose. Shaping serendipity  in the Digital Economy and Disruptive Innovation in Financial Services",
-    "bitcoin": {
-      "address": "1L4BcRYN4UcKPAS2wVd4nvRU1NPoRsXcrX"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/johnedge"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "John Edge"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/JohnEdgeDSV/status/534699319559876609"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1L4BcRYN4UcKPAS2wVd4nvRU1NPoRsXcrX",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "JohnEdgeDSV"
+      {
+        "@type": "Account",
+        "identifier": "JohnEdgex",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JohnEdgex/status/778350426030743554",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "v": "0.2",
-    "website": "http://about.me/johnedge"
+    "description": "Live with purpose. Shaping serendipity  in the Digital Economy and Disruptive Innovation in Financial Services",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/johnedge",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/johnedge",
+        "name": "cover"
+      }
+    ],
+    "name": "John Edge",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.johnedge.me"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "JohnEdgeDSV",
-      "proof_url": "https://twitter.com/JohnEdgeDSV/status/534699319559876609",
+      "identifier": "JohnEdgex",
+      "proof_url": "https://twitter.com/JohnEdgex/status/778350426030743554",
       "service": "twitter",
-      "valid": false
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN johnedge.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/johnedge.id\"\n"
 }

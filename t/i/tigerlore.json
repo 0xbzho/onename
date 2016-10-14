@@ -1,0 +1,57 @@
+{
+  "owner_address": "1CKhAhzdUz8mEQWkPjzuM66sffwNyg4Lyn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "foxanthony1",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/foxanthony1/037ae48762eef3cc8ba4669394b5fda2",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Tigerlore88",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Tigerlore88/status/763584811608920064",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anthony.fox.5205",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/anthony.fox.5205/posts/840451866097909",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "foxanthony1",
+      "proof_url": "https://gist.github.com/foxanthony1/037ae48762eef3cc8ba4669394b5fda2",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "Tigerlore88",
+      "proof_url": "https://twitter.com/Tigerlore88/status/763584811608920064",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "anthony.fox.5205",
+      "proof_url": "https://www.facebook.com/anthony.fox.5205/posts/840451866097909",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tigerlore.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tigerlore.id\"\n"
+}

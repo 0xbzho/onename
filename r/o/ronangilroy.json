@@ -1,0 +1,36 @@
+{
+  "owner_address": "1JSobvZLZHJU7SXtQkTocrz5nv4a7K9e6Q",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "RonanGilroy",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RonanGilroy/status/772800888004108288",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ronangilroy",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ronangilroy",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "RonanGilroy",
+      "proof_url": "https://twitter.com/RonanGilroy/status/772800888004108288",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ronangilroy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ronangilroy.id\"\n"
+}

@@ -1,6 +1,70 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1KEuqC6ayQgJTgYB7yLrjyEfjguBzpEBKU",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1B1Gfrwg46fWk9pDiWVuvGfxMP1FV82QWC",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "zaudo",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/zaudo/a27325395926552cd445e696992d41aa",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "w_riches",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/w_riches/status/688758417327042561",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "wriches",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/wriches/posts/1673212682951359",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Will Riches",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://will.riches.im"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "zaudo",
+      "proof_url": "https://gist.github.com/zaudo/a27325395926552cd445e696992d41aa",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "w_riches",
+      "proof_url": "https://twitter.com/w_riches/status/688758417327042561",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "wriches",
+      "proof_url": "https://www.facebook.com/wriches/posts/1673212682951359",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN riches.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/riches.id\"\n"
 }

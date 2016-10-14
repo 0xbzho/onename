@@ -1,0 +1,72 @@
+{
+  "owner_address": "124fnkd5BytJRu5WQJXBEe3onvqtidbgr8",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "scottshelby",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ScottShelby/status/778344156536180769",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1HQ7aDYps4T3YrgeuW513KjND3SQeTvuii",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sfaculak",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/sfaculak/posts/10209668693861762",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/scottshelby",
+        "identifier": "A3D5C8734898B15E83C03CAA4344ABFF50990996",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Michigan, USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/scottshelby",
+        "name": "avatar"
+      }
+    ],
+    "name": "Scott Faculak",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.linkedin.com/in/scottfaculak"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "scottshelby",
+      "proof_url": "https://twitter.com/ScottShelby/status/778344156536180769",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "sfaculak",
+      "proof_url": "https://www.facebook.com/sfaculak/posts/10209668693861762",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN scottshelby.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/scottshelby.id\"\n"
+}

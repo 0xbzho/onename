@@ -1,56 +1,72 @@
 {
   "owner_address": "18bMchdqEvf4UKQbsJ4LgyX88YDL7Dr32U",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/solhuebner"
-    },
-    "bio": "SmartITSecurity community creator / CEH / CNDA / Security+ / EDRP / ECIH / CCNP R&S / MCTS",
-    "bitcoin": {
-      "address": "1GBxAWRYLNwiQ9MCJuVJcE3rPVxwQDe3nY"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/solhuebner"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/solhuebner/posts/886262401413007"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Sol_Huebner",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "solhuebner"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/solhuebner/1bff81db93ac6fc44891"
+      {
+        "@type": "Account",
+        "identifier": "solhuebner",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "solhuebner"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/solhuebner"
-    },
-    "location": {
-      "formatted": "Malta"
-    },
-    "name": {
-      "formatted": "Sol Huebner"
-    },
-    "pgp": {
-      "fingerprint": "0F787D78C8CC31A0C0E58F684AE6C10D609E7069",
-      "url": "https://s3.amazonaws.com/pk9/solhuebner"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/Sol_Huebner/status/611998658888867841"
+      {
+        "@type": "Account",
+        "identifier": "1GBxAWRYLNwiQ9MCJuVJcE3rPVxwQDe3nY",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "Sol_Huebner"
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/solhuebner",
+        "identifier": "0F787D78C8CC31A0C0E58F684AE6C10D609E7069",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "solhuebner",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/solhuebner/b63b886412ae8acaeb1589ab5b30e43d",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Malta"
     },
-    "v": "0.2",
-    "website": "http://www.SmartITSecurity.com"
+    "description": "SmartITSecurity community creator / CEH / CNDA / Security+ / EDRP / ECIH / CCNP R&S / MCTS",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/solhuebner",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/solhuebner",
+        "name": "cover"
+      }
+    ],
+    "name": "Sol Huebner",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.SmartITSecurity.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "solhuebner",
       "proof_url": "https://gist.github.com/solhuebner/1bff81db93ac6fc44891",
       "service": "github",
-      "valid": true
+      "valid": false
     },
     {
       "identifier": "Sol_Huebner",
@@ -64,5 +80,6 @@
       "service": "facebook",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN solhuebner.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/solhuebner.id\"\n"
 }

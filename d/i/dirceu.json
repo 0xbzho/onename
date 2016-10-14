@@ -1,58 +1,74 @@
 {
   "owner_address": "19RQnrjBwkjzWWm8PUE2zUwe2NJAYthP7V",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/dirceu"
-    },
-    "bio": "Ni!",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/wdX.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/dirceutiegs/posts/10154317135657786"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dirceu",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dirceu/status/765950965111517184",
+        "service": "twitter"
       },
-      "username": "dirceutiegs"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/dirceu/8f72b13e9ba2347a88fb"
+      {
+        "@type": "Account",
+        "identifier": "dirceu",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dirceu/fd29b6d0218929d935c4ea5783df5216",
+        "service": "github"
       },
-      "username": "dirceu"
+      {
+        "@type": "Account",
+        "identifier": "dirceutiegs",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dirceutiegs/posts/10155091603617786",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Florianópolis, SC, Brasil"
     },
-    "location": {
-      "formatted": "Florianópolis, SC, Brasil"
-    },
-    "name": {
-      "formatted": "Dirceu Pereira Tiegs"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/dirceu/status/664106309214695424"
+    "description": "Ni!",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dirceu",
+        "name": "avatar"
       },
-      "username": "dirceu"
-    },
-    "v": "0.2",
-    "website": "http://dirceu.info"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Dirceu Pereira Tiegs",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://dirceu.info"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "dirceu",
-      "proof_url": "https://gist.github.com/dirceu/8f72b13e9ba2347a88fb",
-      "service": "github",
+      "proof_url": "https://twitter.com/dirceu/status/765950965111517184",
+      "service": "twitter",
       "valid": true
     },
     {
       "identifier": "dirceu",
-      "proof_url": "https://twitter.com/dirceu/status/664106309214695424",
-      "service": "twitter",
+      "proof_url": "https://gist.github.com/dirceu/fd29b6d0218929d935c4ea5783df5216",
+      "service": "github",
       "valid": false
     },
     {
       "identifier": "dirceutiegs",
-      "proof_url": "https://facebook.com/dirceutiegs/posts/10154317135657786",
+      "proof_url": "https://www.facebook.com/dirceutiegs/posts/10155091603617786",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN dirceu.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dirceu.id\"\n"
 }

@@ -1,0 +1,62 @@
+{
+  "owner_address": "19m5Xsto3K9JgGoKEYrn1qnADxLeQhDg4F",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "geocliptic",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/geocliptic/status/784806557582106624",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ron.phillips.549668",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ron.phillips.549668/posts/667975073361760?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "geocliptic",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/geocliptic/e3f57308c62e6d9f459f427b330ad6c6",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/geocliptic",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/geocliptic",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "geocliptic",
+      "proof_url": "https://twitter.com/geocliptic/status/784806557582106624",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ron.phillips.549668",
+      "proof_url": "https://www.facebook.com/ron.phillips.549668/posts/667975073361760?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "geocliptic",
+      "proof_url": "https://gist.github.com/geocliptic/e3f57308c62e6d9f459f427b330ad6c6",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN geocliptic.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/geocliptic.id\"\n"
+}

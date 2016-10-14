@@ -1,0 +1,36 @@
+{
+  "owner_address": "16vehaK1cZajAZiXhDCkq14eoFvKSyYgZ7",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "RicardoSchluter",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ricardoschluter/status/765487873000869888",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ricardoschluter",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "RicardoSchluter",
+      "proof_url": "https://twitter.com/ricardoschluter/status/765487873000869888",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ricardoschluter.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ricardoschluter.id\"\n"
+}

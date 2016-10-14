@@ -1,0 +1,48 @@
+{
+  "owner_address": "12dqvUbmZ4C9u7swA4HyLdHDo2dremdvrr",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ilpropheta",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ilpropheta/2f5f0f867d3eb6dd72bb385d8b6cff0d",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Italy"
+    },
+    "description": "Software Engineer influencing the C++ ecosystem",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/marena",
+        "name": "avatar"
+      }
+    ],
+    "name": "Marco Arena",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://marcoarena.wordpress.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ilpropheta",
+      "proof_url": "https://gist.github.com/ilpropheta/2f5f0f867d3eb6dd72bb385d8b6cff0d",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN marena.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/marena.id\"\n"
+}

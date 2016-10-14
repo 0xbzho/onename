@@ -19,16 +19,16 @@
       },
       {
         "@type": "Account",
-        "identifier": "aaronstoddard",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/aaronstoddard/d2dd41cd4aeb37ef514ae2c2cf7211b1",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
         "identifier": "1561g8F8ayKnwKLEFV5yLhFEn8hpCGvAqa",
         "role": "payment",
         "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "aaronstoddard",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/aaronstoddard/6c9f751c2dceab586eb6fe26c7867c55",
+        "service": "github"
       }
     ],
     "address": {
@@ -66,7 +66,7 @@
       "identifier": "aaronstoddard",
       "proof_url": "https://gist.github.com/aaronstoddard/d2dd41cd4aeb37ef514ae2c2cf7211b1",
       "service": "github",
-      "valid": true
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN aaronstoddard.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/aaronstoddard.id\"\n"

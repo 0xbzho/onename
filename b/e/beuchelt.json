@@ -1,0 +1,70 @@
+{
+  "owner_address": "1JWyP4M7qG5ap8fbTrbfUGr5WaAXbueFSB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "beuchelt",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/beuchelt/status/772095232368340992",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "beuchelt",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/beuchelt/1da394191bc2e12218dfe6011e1131d3",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "beuchelt",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/beuchelt/posts/10154462826549808",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/beuchelt/key.asc",
+        "identifier": "16A50AFCB2627680823EFB9661CB20D16824C6BC",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Gerald Beuchelt",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://beuchelt.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "beuchelt",
+      "proof_url": "https://twitter.com/beuchelt/status/772095232368340992",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "beuchelt",
+      "proof_url": "https://gist.github.com/beuchelt/1da394191bc2e12218dfe6011e1131d3",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "beuchelt",
+      "proof_url": "https://www.facebook.com/beuchelt/posts/10154462826549808",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN beuchelt.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/beuchelt.id\"\n"
+}

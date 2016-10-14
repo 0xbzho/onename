@@ -1,0 +1,56 @@
+{
+  "owner_address": "185y5X5qtBZB5SnfqEcojP8UKvrqCk3wk5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tahins",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tahins/status/765078526336831488",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tahins",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tahins/09763a55fa615ecfe93bf880d9aef0db",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tahins",
+        "name": "avatar"
+      }
+    ],
+    "name": "Tahin Rahman",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.tahins.me"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tahins",
+      "proof_url": "https://twitter.com/tahins/status/765078526336831488",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "tahins",
+      "proof_url": "https://gist.github.com/tahins/09763a55fa615ecfe93bf880d9aef0db",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tahins.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tahins.id\"\n"
+}

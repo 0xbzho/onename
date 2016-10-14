@@ -1,0 +1,67 @@
+{
+  "owner_address": "16Gz2FCRyjW6fkSKrcNykdC4ywa3M9vjMz",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "danielgdosen",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/DanielGDosen/status/768894372620271616",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "daniel.dosen",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/daniel.dosen/posts/10153881090996569",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dgdosen",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dgdosen/6cb2c145d9786b084f8b1fe2a84eae16",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seattle"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/danielgdosen",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/danielgdosen",
+        "name": "cover"
+      }
+    ],
+    "name": "Daniel G Dosen"
+  },
+  "verifications": [
+    {
+      "identifier": "danielgdosen",
+      "proof_url": "https://twitter.com/DanielGDosen/status/768894372620271616",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "daniel.dosen",
+      "proof_url": "https://www.facebook.com/daniel.dosen/posts/10153881090996569",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "dgdosen",
+      "proof_url": "https://gist.github.com/dgdosen/6cb2c145d9786b084f8b1fe2a84eae16",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN danielgdosen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/danielgdosen.id\"\n"
+}

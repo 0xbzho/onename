@@ -1,0 +1,31 @@
+{
+  "owner_address": "16qQtHrTRVAEroyXfC2Ze14QFwEfUbn5xG",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Yau_Mok",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/intent/tweet?text=Verifying%20that%20%22yaumok%2Eid%22%20is%20my%20Blockstack%20ID.%20https://onename.com/yaumok",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Yau_Mok",
+      "proof_url": "https://twitter.com/intent/tweet?text=Verifying%20that%20%22yaumok%2Eid%22%20is%20my%20Blockstack%20ID.%20https://onename.com/yaumok",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN yaumok.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/yaumok.id\"\n"
+}

@@ -1,0 +1,44 @@
+{
+  "owner_address": "1ABD6RaUahwTan9wP91poR8hvda3JgXdUE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "lancehunt",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/lancehunt/status/763855425196462080",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lancehunt",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/lancehunt/2ac22cb1f50fe61e71eedcbe4799af63",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "lancehunt",
+      "proof_url": "https://twitter.com/lancehunt/status/763855425196462080",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "lancehunt",
+      "proof_url": "https://gist.github.com/lancehunt/2ac22cb1f50fe61e71eedcbe4799af63",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN lancehunt.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lancehunt.id\"\n"
+}

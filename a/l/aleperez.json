@@ -1,0 +1,41 @@
+{
+  "owner_address": "1FaESbSeRJWZzdcsvZ3C5PeH3ZwLndN3AW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "agplaw",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/agplaw/status/763759325697413120",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Zug, Switzerland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/aleperez",
+        "name": "avatar"
+      }
+    ],
+    "name": "Alejandro Pérez"
+  },
+  "verifications": [
+    {
+      "identifier": "agplaw",
+      "proof_url": "https://twitter.com/agplaw/status/763759325697413120",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN aleperez.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/aleperez.id\"\n"
+}

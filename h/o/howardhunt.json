@@ -1,0 +1,36 @@
+{
+  "owner_address": "1FLaK2Y5JAXYStVAGGdwPC1t7o88741PTh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "howardhunt",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/howardhunt/status/782715679539683328",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/howardhunt",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "howardhunt",
+      "proof_url": "https://twitter.com/howardhunt/status/782715679539683328",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN howardhunt.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/howardhunt.id\"\n"
+}

@@ -1,0 +1,44 @@
+{
+  "owner_address": "16jTzvkTuwVW9TRUBe17ZYG9njyneypKjH",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "niklasdahlqvist",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/NiklasDahlqvist/status/763954642631786496",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "niklasdahlqvist",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/niklasdahlqvist/posts/10153937276994436",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "niklasdahlqvist",
+      "proof_url": "https://twitter.com/NiklasDahlqvist/status/763954642631786496",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "niklasdahlqvist",
+      "proof_url": "https://www.facebook.com/niklasdahlqvist/posts/10153937276994436",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN niklasdahlqvist.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/niklasdahlqvist.id\"\n"
+}

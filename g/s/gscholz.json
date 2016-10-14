@@ -1,0 +1,48 @@
+{
+  "owner_address": "1NdyZ3vni8Dct7uLAgbNQkAZpSApQHqg1F",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "164A7uYpfrSGj6Y9dyRjR4GRPHmQvTR2n7",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "le.schorsch.5",
+        "proofType": "http",
+        "proofUrl": "https://www.youtube.com/watch?v=NUN0QxRB7e0&feature=youtu.be",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/gscholz",
+        "identifier": null,
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gscholz",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/gscholz",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "le.schorsch.5",
+      "proof_url": "https://www.youtube.com/watch?v=NUN0QxRB7e0&feature=youtu.be",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN gscholz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gscholz.id\"\n"
+}

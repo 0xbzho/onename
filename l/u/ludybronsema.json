@@ -1,0 +1,49 @@
+{
+  "owner_address": "1Enpro86yctFnDxwag1UMt7SzD7UELad4c",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "LudyBronsema",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/LudyBronsema/status/767821694354481153",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ludybronsema",
+        "proofType": "http",
+        "proofUrl": "http://www.facebook.com/ludy.bronsema/posts/1023824271065604",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ludybronsema",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "LudyBronsema",
+      "proof_url": "https://twitter.com/LudyBronsema/status/767821694354481153",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ludybronsema",
+      "proof_url": "http://www.facebook.com/ludy.bronsema/posts/1023824271065604",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ludybronsema.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ludybronsema.id\"\n"
+}

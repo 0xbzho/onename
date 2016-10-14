@@ -1,6 +1,87 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "19MSwimKNNk2KRMQA6R4LkCPE2xEJbG4N5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1L4oD24atkyFmLE2i7Hb5dibsiSpsw9KZn",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/dragonbe/key.asc",
+        "identifier": "2FADDAA1D05E185E54BF49A185BF2A2BCDE464C3",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "DragonBe",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/DragonBe/status/685413627009056768",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "DragonBe",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/DragonBe/posts/10155700294213644",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "DragonBe",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/DragonBe/3aedb6deff70be4a480b",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Third bit from a byte"
+    },
+    "description": "I'm a senior #php architect, co-founder and #ceo of @in2itvof, #community leader at @phpbenelux, board member at @dutchweballianc, #globetrotter, likes #coffee.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dragonbe",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/dragonbe",
+        "name": "cover"
+      }
+    ],
+    "name": "Michelangelo van Dam",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.dragonbe.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "DragonBe",
+      "proof_url": "https://twitter.com/DragonBe/status/685413627009056768",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "DragonBe",
+      "proof_url": "https://www.facebook.com/DragonBe/posts/10155700294213644",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "DragonBe",
+      "proof_url": "https://gist.github.com/DragonBe/3aedb6deff70be4a480b",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN dragonbe.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dragonbe.id\"\n"
 }

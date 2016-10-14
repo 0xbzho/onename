@@ -1,10 +1,27 @@
 {
   "owner_address": "1Ao5tWG943hKudFYKdQnmuNLfrfkopte8L",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/4AL.jpeg"
+    "@type": "Person",
+    "account": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "France"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Honey France",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://duosear.ch/8c04950bce5dfbaf6d9c0920a6d2b550bc28937f"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN honey_.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/honey_.id\"\n"
 }

@@ -1,0 +1,67 @@
+{
+  "owner_address": "13kkbnnnuiJ9bMspBCgpgnvG7LAnadxC5o",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "vada",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/vada/status/765320759946321920",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "vadadean",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/vadadean/posts/10153711031116434",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "vada",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/vada/a42ba9426a3a048dae1be5b1fdbcee76",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Silicon Valley, CA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/vadadean",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/vadadean",
+        "name": "cover"
+      }
+    ],
+    "name": "Vada Wendell Dean"
+  },
+  "verifications": [
+    {
+      "identifier": "vada",
+      "proof_url": "https://twitter.com/vada/status/765320759946321920",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "vadadean",
+      "proof_url": "https://www.facebook.com/vadadean/posts/10153711031116434",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "vada",
+      "proof_url": "https://gist.github.com/vada/a42ba9426a3a048dae1be5b1fdbcee76",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN vadadean.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vadadean.id\"\n"
+}

@@ -1,0 +1,68 @@
+{
+  "owner_address": "1K6turbbf1V3cK21BffbfhMqodseE3gYZK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "peterwang1127",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/peterwang1127/8000cdc57d42b91cf93371ba54e37ada",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "peterwang1127",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/peterwang1127/status/783659939461947393",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "peter.wang.1276487",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/peter.wang.1276487/posts/10155280321374746?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "393NPyyagw8FUtUuD4shD8bX2HpyBUZ1cT",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/peterwang",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "peterwang1127",
+      "proof_url": "https://gist.github.com/peterwang1127/8000cdc57d42b91cf93371ba54e37ada",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "peterwang1127",
+      "proof_url": "https://twitter.com/peterwang1127/status/783659939461947393",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "peter.wang.1276487",
+      "proof_url": "https://www.facebook.com/peter.wang.1276487/posts/10155280321374746?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN peterwang.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/peterwang.id\"\n"
+}

@@ -1,0 +1,56 @@
+{
+  "owner_address": "1QGyDCiqLdRCRxhwNAxpeqvdSDb17XYSLq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "deeje",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/deeje/status/763104963815874560",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "deeje",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/deeje/posts/10154323048704484",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "SF, CA"
+    },
+    "description": "cool frood who knows where his towel is",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "deeje",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://deeje.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "deeje",
+      "proof_url": "https://twitter.com/deeje/status/763104963815874560",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "deeje",
+      "proof_url": "https://www.facebook.com/deeje/posts/10154323048704484",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN deejecooley.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/deejecooley.id\"\n"
+}

@@ -1,0 +1,45 @@
+{
+  "owner_address": "15XpZDWCAPKMPzcKLwjo5Za5UYAeUBhDEm",
+  "profile": {
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "arimnazir",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/arimnazir",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "0xaddd28b378a7c8ca86901783765ebae14eb0e219",
+        "proofMessage": "Verifying that anazir1.id is my blockchain ID.",
+        "proofSignature": "ari m nazir",
+        "proofType": "signature",
+        "service": "ethereum"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress"
+    },
+    "familyName": "nazir",
+    "givenName": "ari",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://pbs.twimg.com/profile_images/728771277566021632/jntULRJh.jpg",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "arimnazir",
+      "proof_url": "https://twitter.com/arimnazir",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN anazir1.id\n\t$TTL 3600\n\t_http._tcp\tIN\tURI\t10\t1\t\"https://blockstack.s3-us-west-1.amazonaws.com/staging/anazir1.id.json\"\n\n\t"
+}

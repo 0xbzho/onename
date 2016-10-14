@@ -1,0 +1,36 @@
+{
+  "owner_address": "1ae9tRRKJdiTMNdWJVhBFohpUfvuX9tut",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "leonel_escriba",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Leonel_Escriba/status/763065945531248640",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Curitiba, Brazil"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Leonel"
+  },
+  "verifications": [
+    {
+      "identifier": "leonel_escriba",
+      "proof_url": "https://twitter.com/Leonel_Escriba/status/763065945531248640",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN leoneldk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/leoneldk.id\"\n"
+}

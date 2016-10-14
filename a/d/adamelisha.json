@@ -1,0 +1,60 @@
+{
+  "owner_address": "15KKov2YzMUsFeYDmHsfzaR1JqdcQ5qiFi",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/adamelisha",
+        "identifier": null,
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "18qqUbox3cVfmrHZcY6oKJz2gUjWGthJBx",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "AdamElishaDO",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/AdamElishaDO/posts/10104393828694152",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Spokane, WA"
+    },
+    "description": "Adam Elisha, D.O. is an internal medicine resident physician in Spokane, WA.  Dr. Elisha is passionate about preventative health care and assisting his patients achieve both short and long term optimization of their health and well-being.  Dr. Adam Elisha recently received member-elect status in the American College of Rheumatology and looks forward to pursuing a fellowship in rheumatology.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/adamelisha",
+        "name": "avatar"
+      }
+    ],
+    "name": "Adam Elisha",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://DrAdamElisha.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "AdamElishaDO",
+      "proof_url": "https://www.facebook.com/AdamElishaDO/posts/10104393828694152",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN adamelisha.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/adamelisha.id\"\n"
+}

@@ -1,0 +1,46 @@
+{
+  "owner_address": "128f1egYrwjvfzgffSv1MASenUDWEvjQHH",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "wildharevintage",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/wildharevintage/status/770304871899684864",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1dcf4cb860316f7d5a009713e7295b0cd67c0615",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/wildharevintage",
+        "name": "avatar"
+      }
+    ],
+    "name": "Joey MacArthur"
+  },
+  "verifications": [
+    {
+      "identifier": "wildharevintage",
+      "proof_url": "https://twitter.com/wildharevintage/status/770304871899684864",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN wildharevintage.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wildharevintage.id\"\n"
+}

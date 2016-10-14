@@ -1,0 +1,37 @@
+{
+  "owner_address": "13ma1VH27JvKgnr8GCVsdWxawtkWEifjTa",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "piantizko",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/piantizko/status/768472707046531072",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ecuador."
+    },
+    "description": "Egresado de Ing en sistemas, entrepreneur, creative.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Francisco Barragan"
+  },
+  "verifications": [
+    {
+      "identifier": "piantizko",
+      "proof_url": "https://twitter.com/piantizko/status/768472707046531072",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN piantizko.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/piantizko.id\"\n"
+}

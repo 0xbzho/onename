@@ -1,23 +1,57 @@
 {
   "owner_address": "15V44KLmNvuqFjUCsYmZzugeYBpwMxLK5f",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/rv1.jpeg"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/cstilinr/status/659127789304610816"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cstilinr",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cstilinr/status/765023580040101888",
+        "service": "twitter"
       },
-      "username": "cstilinr"
-    },
-    "v": "0.2"
+      {
+        "@type": "Account",
+        "identifier": "prhana",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/prhana/79bd36cbe4f2bcb040e4ce609e2b1096",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "caitlin.stilinrooney",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/caitlin.stilinrooney/posts/741874582619843?notif_t=like&notif_id=1472052642089004",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "cstilinr",
-      "proof_url": "https://twitter.com/cstilinr/status/659127789304610816",
+      "proof_url": "https://twitter.com/cstilinr/status/765023580040101888",
       "service": "twitter",
       "valid": true
+    },
+    {
+      "identifier": "prhana",
+      "proof_url": "https://gist.github.com/prhana/79bd36cbe4f2bcb040e4ce609e2b1096",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "caitlin.stilinrooney",
+      "proof_url": "https://www.facebook.com/caitlin.stilinrooney/posts/741874582619843?notif_t=like&notif_id=1472052642089004",
+      "service": "facebook",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN cstilinr.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cstilinr.id\"\n"
 }

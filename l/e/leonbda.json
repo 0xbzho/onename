@@ -1,45 +1,38 @@
 {
   "owner_address": "1QLC9vVZYy7QFD9EtbwHX33zUEESSvHaGw",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "32070b49aa41e068639e9e25742d3fe163aa2f19",
-        "service": "openbazaar"
+        "identifier": "leonbda",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1LGvS3DveqWR5Gmf1pBRj2c5mo6KtTr9QC",
+        "role": "payment",
+        "service": "bitcoin"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/leonbda"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Zagreb, Croatia"
     },
-    "bitcoin": {
-      "address": "1LGvS3DveqWR5Gmf1pBRj2c5mo6KtTr9QC"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/F9g.jpg"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/leonbda"
-    },
-    "location": {
-      "formatted": "Zagreb, Croatia"
-    },
-    "name": {
-      "formatted": "Leon Badurina"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/leonbda/status/719859276441903104"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/leonbda",
+        "name": "avatar"
       },
-      "username": "leonbda"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "leonbda",
-      "proof_url": "https://twitter.com/leonbda/status/719859276441903104",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN leonbda.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/leonbda.id\"\n"
 }

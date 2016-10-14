@@ -1,6 +1,67 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "18vYoXHxSWqREvQmUM2U743Uh9kXyZoSFv",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "yagizakdil",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/yagizakdil/posts/10154501643847164?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1PJ64jppzkm2JBAdZoDSNCAfACY2NL7ec4",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "@yagizakdil",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/yagizakdil/status/761195501614227456",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Istanbul, Turkey"
+    },
+    "description": "ITU Industrial Engineering - #Beşiktaş - #LeagueOfLegends - #Bitcoin Enthusiast | @Coinkolik, @BitHackIstanbul",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/yagizakdil",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/yagizakdil",
+        "name": "cover"
+      }
+    ],
+    "name": "Kartal Yağız Akdil",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.coinkolik.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "yagizakdil",
+      "proof_url": "https://www.facebook.com/yagizakdil/posts/10154501643847164?pnref=story",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "@yagizakdil",
+      "proof_url": "https://twitter.com/yagizakdil/status/761195501614227456",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN yagizakdil.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/yagizakdil.id\"\n"
 }

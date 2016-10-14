@@ -1,58 +1,80 @@
 {
   "owner_address": "1HYac6Qb3pNTY9q14Tmw5D1UyAoT52HtSK",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/michaeltlombardi"
-    },
-    "bio": "Sysadmin with a focus in Powershell just trying to automate myself out of a job.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/michaeltlombardi"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/profile.php?id=789491788/posts/10153901381716789"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "barbariankb",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/barbariankb/status/777922392693669888",
+        "service": "twitter"
       },
-      "username": "profile.php?id=789491788"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/michaeltlombardi/08e31dd377af457938b5"
+      {
+        "@type": "Account",
+        "identifier": "michaeltlombardi",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/michaeltlombardi/86a0371b254c6c0885fc5e85543f79f0",
+        "service": "github"
       },
-      "username": "michaeltlombardi"
-    },
-    "location": {
-      "formatted": "St Louis, MO"
-    },
-    "name": {
-      "formatted": "Michael T Lombardi"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/barbariankb/status/684520193217789953"
+      {
+        "@type": "Account",
+        "identifier": "michaeltlombardi",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/michaeltlombardi/posts/10154598068541789",
+        "service": "facebook"
       },
-      "username": "barbariankb"
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/michaeltlombardi",
+        "identifier": "58DF54933668871B",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "St Louis, MO"
     },
-    "v": "0.2",
-    "website": "http://michaeltlombardi.github.io/"
+    "description": "Sysadmin with a focus in Powershell just trying to automate myself out of a job.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/michaeltlombardi",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/michaeltlombardi",
+        "name": "cover"
+      }
+    ],
+    "name": "Michael T Lombardi",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://michaeltlombardi.github.io/"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "michaeltlombardi",
-      "proof_url": "https://gist.github.com/michaeltlombardi/08e31dd377af457938b5",
-      "service": "github",
-      "valid": true
-    },
-    {
       "identifier": "barbariankb",
-      "proof_url": "https://twitter.com/barbariankb/status/684520193217789953",
+      "proof_url": "https://twitter.com/barbariankb/status/777922392693669888",
       "service": "twitter",
       "valid": true
     },
     {
-      "identifier": "profile.php?id=789491788",
-      "proof_url": "https://facebook.com/profile.php?id=789491788/posts/10153901381716789",
-      "service": "facebook",
+      "identifier": "michaeltlombardi",
+      "proof_url": "https://gist.github.com/michaeltlombardi/86a0371b254c6c0885fc5e85543f79f0",
+      "service": "github",
       "valid": false
+    },
+    {
+      "identifier": "michaeltlombardi",
+      "proof_url": "https://www.facebook.com/michaeltlombardi/posts/10154598068541789",
+      "service": "facebook",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN michaeltlombardi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/michaeltlombardi.id\"\n"
 }

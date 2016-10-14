@@ -1,0 +1,49 @@
+{
+  "owner_address": "1QE126FbqNh9J3pqqaxUF97hma2pgwySPq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Jimepstein",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jimepstein/status/782272139852480512",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Jim.epstein1",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jim.epstein1/posts/10100308995492393",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brooklyn, NY"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jim Epstein"
+  },
+  "verifications": [
+    {
+      "identifier": "Jimepstein",
+      "proof_url": "https://twitter.com/jimepstein/status/782272139852480512",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Jim.epstein1",
+      "proof_url": "https://www.facebook.com/jim.epstein1/posts/10100308995492393",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jimepstein.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jimepstein.id\"\n"
+}

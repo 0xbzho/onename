@@ -1,24 +1,60 @@
 {
   "owner_address": "1uaaDD4PRQCvJ1JNLmR3SrJrrm2jCXaFr",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/tomschenkenberg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tomschenkenberg",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tomschenkenberg",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tomschenkenberg/e6a0710232bfd5021a41cdd1a895b321",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/tomschenkenberg",
+        "identifier": "FFBAD710D8C9909466FC50962C64AA4C7ECDC9CD",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Utrecht Area, The Netherlands"
     },
-    "bio": "Co-founder @Ibuildings",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/tomschenkenberg"
-    },
-    "location": {
-      "formatted": "Utrecht Area, The Netherlands"
-    },
-    "name": {
-      "formatted": "Tom M. Schenkenberg"
-    },
-    "twitter": {
-      "username": "tomschenkenberg"
-    },
-    "v": "0.2",
-    "website": "http://www.schenkenberg.nl"
+    "description": "Co-founder @Ibuildings",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tomschenkenberg",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/tomschenkenberg",
+        "name": "cover"
+      }
+    ],
+    "name": "Tom M. Schenkenberg",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.schenkenberg.nl"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "tomschenkenberg",
+      "proof_url": "https://gist.github.com/tomschenkenberg/e6a0710232bfd5021a41cdd1a895b321",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tomschenkenberg.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tomschenkenberg.id\"\n"
 }

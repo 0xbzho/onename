@@ -1,0 +1,43 @@
+{
+  "owner_address": "1FryK4hBkuUhsdfaMSbN7QYWcBx8fdBjy6",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/0cda1db29596abaf61db2a3744cc028f",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/krevelen",
+        "name": "avatar"
+      }
+    ],
+    "name": "Rick van Krevelen",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.linkedin.com/in/krevelen"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/0cda1db29596abaf61db2a3744cc028f",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN krevelen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/krevelen.id\"\n"
+}

@@ -1,0 +1,31 @@
+{
+  "owner_address": "1NfeiCQfV5ZkQ5PgFZ9cfAkqseGfFRYZxT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "scoobyfoo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/scoobyfoo/status/786431759759978496",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "scoobyfoo",
+      "proof_url": "https://twitter.com/scoobyfoo/status/786431759759978496",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN davechiu.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/davechiu.id\"\n"
+}

@@ -1,0 +1,42 @@
+{
+  "owner_address": "15MYNijWkLQk66sBshyxH5xAENa3K3uNTX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "18464yBZJ4KgtwMUeP37zY4oPPDPYuKLCA",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "alanbf",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/marcusosterberg/6604a89d87e992648968de3318eb48ba#file-dfsf",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ventura County, CA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Alan B. Forsythe"
+  },
+  "verifications": [
+    {
+      "identifier": "alanbf",
+      "proof_url": "https://gist.github.com/marcusosterberg/6604a89d87e992648968de3318eb48ba#file-dfsf",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN alanbf.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alanbf.id\"\n"
+}

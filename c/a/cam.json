@@ -1,72 +1,87 @@
 {
   "owner_address": "189qiW654uici2eiWpmLUZm59edDD7nMr6",
   "profile": {
-    "angellist": {
-      "username": "kitsboy"
-    },
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/cam"
-    },
-    "bio": "Travel Fool / Thinker / Geo-Political Analyst / giveabit.ca",
-    "bitcoin": {
-      "address": "15K9XdzsTHxTn1aM7HHmGipwS1QrYNn2pP"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/cam"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/kitsboy/posts/10153067718846067"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/cam",
+        "identifier": "1CA6E4D22E6D588DFB2622796EF7AB600B3965B6",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "kitsboy"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/kitsboy/2fd1d98c01bde995756f"
+      {
+        "@type": "Account",
+        "identifier": "Camadamus",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Camadamus/status/505104102922014721",
+        "service": "twitter"
       },
-      "username": "kitsboy"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/cam"
-    },
-    "location": {
-      "formatted": "Vancouver"
-    },
-    "name": {
-      "formatted": "Cameron Taylor"
-    },
-    "pgp": {
-      "fingerprint": "1CA6E4D22E6D588DFB2622796EF7AB600B3965B6",
-      "url": "https://s3.amazonaws.com/pk9/cam"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/Camadamus/status/654362006884065280"
+      {
+        "@type": "Account",
+        "identifier": "16TmXw95C8yes3FntZuDfKcYDMwMBL2Gir",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "Camadamus"
+      {
+        "@type": "Account",
+        "identifier": "kitsboy",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/kitsboy/posts/10154514085786067",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kitsboy",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/kitsboy/9b987f12ce87edbe0576238c168ba552",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Vancouver"
     },
-    "v": "0.2",
-    "website": "http://camtaylor.ca"
+    "description": "Travel Fool / Thinker / Geo-Political Analyst / giveabit.ca",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/cam",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cam",
+        "name": "avatar"
+      }
+    ],
+    "name": "Cameron Taylor",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://camtaylor.ca"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "kitsboy",
-      "proof_url": "https://gist.github.com/kitsboy/2fd1d98c01bde995756f",
-      "service": "github",
-      "valid": true
-    },
-    {
       "identifier": "Camadamus",
-      "proof_url": "https://twitter.com/Camadamus/status/654362006884065280",
+      "proof_url": "https://twitter.com/Camadamus/status/505104102922014721",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "kitsboy",
-      "proof_url": "https://facebook.com/kitsboy/posts/10153067718846067",
+      "proof_url": "https://gist.github.com/kitsboy/9b987f12ce87edbe0576238c168ba552",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "kitsboy",
+      "proof_url": "https://www.facebook.com/kitsboy/posts/10154351413976067",
       "service": "facebook",
       "valid": false
     }
   ],
-  "zone_file": {}
+  "zone_file": "$ORIGIN cam.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cam.id\"\n"
 }

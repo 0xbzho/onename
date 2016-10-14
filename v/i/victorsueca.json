@@ -1,0 +1,41 @@
+{
+  "owner_address": "19Lbfvf1nFjQtPudfk3b1oUg8xMD78NJLj",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1VictorTyRNXY3dc11itP8vKtxA96EyQV",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/victorsueca",
+        "identifier": "A0CCB3D7A0143108",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/victorsueca",
+        "name": "avatar"
+      }
+    ],
+    "name": "Victor Oliver",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://softnet.homenet.org/"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN victorsueca.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/victorsueca.id\"\n"
+}

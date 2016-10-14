@@ -1,0 +1,31 @@
+{
+  "owner_address": "123yFxuJCkxh7kUQ25Wc18xy8fuAvnJdZA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "yrabl",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/y_rabl",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "yrabl",
+      "proof_url": "https://onename.com/y_rabl",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN y_rabl.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/y_rabl.id\"\n"
+}

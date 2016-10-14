@@ -1,0 +1,55 @@
+{
+  "owner_address": "1EE2sLyuFQxzhRvzabrmvFwijQkbsP12ru",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "john.isaac.owen",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/john.isaac.owen/posts/10153629398561442",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "@jiowen",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jiowen/status/777611153488814080",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Auckland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "John Owen",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://cyma.co.nz"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "john.isaac.owen",
+      "proof_url": "https://www.facebook.com/john.isaac.owen/posts/10153629398561442",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "@jiowen",
+      "proof_url": "https://twitter.com/jiowen/status/777611153488814080",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN johnowen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/johnowen.id\"\n"
+}

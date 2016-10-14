@@ -1,38 +1,46 @@
 {
   "owner_address": "1F2FfgbxkeuVY877BBd45JVn8t8RfZo8mZ",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/rouslan"
-    },
-    "bio": "",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/rouslan"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/thiswontgiveyoumyrealusername/posts/10153529386524209"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rouslanvonjen",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "thiswontgiveyoumyrealusername"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/rouslanovitch/6c85391ae0a3712d742b"
+      {
+        "@type": "Account",
+        "identifier": "thiswontgiveyoumyrealusername",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "rouslanovitch"
+      {
+        "@type": "Account",
+        "identifier": "rouslanovitch",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rouslanovitch/6c85391ae0a3712d742b",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris"
     },
-    "location": {
-      "formatted": "Paris"
-    },
-    "name": {
-      "formatted": "Rouslan"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/rouslanvonjen/status/694953952572530688"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rouslan",
+        "name": "cover"
       },
-      "username": "rouslanvonjen"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rouslan",
+        "name": "avatar"
+      }
+    ],
+    "name": "Rouslan"
   },
   "verifications": [
     {
@@ -40,18 +48,7 @@
       "proof_url": "https://gist.github.com/rouslanovitch/6c85391ae0a3712d742b",
       "service": "github",
       "valid": false
-    },
-    {
-      "identifier": "rouslanvonjen",
-      "proof_url": "https://twitter.com/rouslanvonjen/status/694953952572530688",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "thiswontgiveyoumyrealusername",
-      "proof_url": "https://facebook.com/thiswontgiveyoumyrealusername/posts/10153529386524209",
-      "service": "facebook",
-      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN rouslan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rouslan.id\"\n"
 }

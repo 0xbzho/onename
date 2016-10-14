@@ -1,0 +1,58 @@
+{
+  "owner_address": "16auVH7ad86qwzMWYcd1DK31LDLuG8qAUL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "georg_ringer",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/georg_ringer/status/765810905905061888",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "georgringer",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/georgringer/fd14e3090eb77671cbcb49bf59d7b7bb",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "georg.ringer",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/georg.ringer/posts/10209970228592520",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Georg Ringer"
+  },
+  "verifications": [
+    {
+      "identifier": "georg_ringer",
+      "proof_url": "https://twitter.com/georg_ringer/status/765810905905061888",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "georgringer",
+      "proof_url": "https://gist.github.com/georgringer/fd14e3090eb77671cbcb49bf59d7b7bb",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "georg.ringer",
+      "proof_url": "https://www.facebook.com/georg.ringer/posts/10209970228592520",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN georgringer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/georgringer.id\"\n"
+}

@@ -1,0 +1,80 @@
+{
+  "owner_address": "1A42o6SwduwAD23gqWHriXoKDbB3sgkUQp",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bodomenke",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bodomenke/status/764450799711883265",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bodomenke",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bodomenke/49ab0d16fae7e0c1a9d63c8c78bd204a",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bodo.menke",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bodo.menke/posts/1208191509212486",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "hkps://hkps.pool.sks-keyservers.net",
+        "identifier": null,
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Darmstadt, Germany"
+    },
+    "description": "Managing Maus, Man and Machine",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bodomenke",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bodomenke",
+        "name": "cover"
+      }
+    ],
+    "name": "Bodo Menke",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://bodomenke.de"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bodomenke",
+      "proof_url": "https://twitter.com/bodomenke/status/764450799711883265",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bodomenke",
+      "proof_url": "https://gist.github.com/bodomenke/49ab0d16fae7e0c1a9d63c8c78bd204a",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "bodo.menke",
+      "proof_url": "https://www.facebook.com/bodo.menke/posts/1208191509212486",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bodomenke.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bodomenke.id\"\n"
+}

@@ -1,0 +1,51 @@
+{
+  "owner_address": "1Q4VR4ZVeVuu5hw6dg3cchZhLFUggzQ3fa",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "the_street_ch",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/the_street_ch/status/769874451760570368",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "manuel.aeberli",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/shares/view?id=10154468046231882",
+        "service": "facebook"
+      }
+    ],
+    "description": "Banking is digital - Chief Communication Officer @wintiwarriors",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/aeberli",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/aeberli",
+        "name": "cover"
+      }
+    ],
+    "name": "Manuel Aeberli"
+  },
+  "verifications": [
+    {
+      "identifier": "the_street_ch",
+      "proof_url": "https://twitter.com/the_street_ch/status/769874451760570368",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "manuel.aeberli",
+      "proof_url": "https://www.facebook.com/shares/view?id=10154468046231882",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN aeberli.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/aeberli.id\"\n"
+}

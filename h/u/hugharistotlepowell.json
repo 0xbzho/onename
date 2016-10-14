@@ -1,0 +1,58 @@
+{
+  "owner_address": "16caihbCfVdmYEuPcPHeDT63N7Gjgg4wE2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "AristotlePowell",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/AristotlePowell/status/767794923412262912",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "powdergeek",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/powdergeek/posts/10101762038942241",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "HughPowell",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/HughPowell/ed2dfb5dcb100acef24be150fa971aa6",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Hugh Powell"
+  },
+  "verifications": [
+    {
+      "identifier": "AristotlePowell",
+      "proof_url": "https://twitter.com/AristotlePowell/status/767794923412262912",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "powdergeek",
+      "proof_url": "https://www.facebook.com/powdergeek/posts/10101762038942241",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "HughPowell",
+      "proof_url": "https://gist.github.com/HughPowell/ed2dfb5dcb100acef24be150fa971aa6",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN hugharistotlepowell.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hugharistotlepowell.id\"\n"
+}

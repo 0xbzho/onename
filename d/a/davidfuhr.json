@@ -1,28 +1,61 @@
 {
   "owner_address": "1AmKw5CSNfN9W7nY2sdjnUo4Z7iYBvnp7C",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/davidfuhr"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "DavidFuhr",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/davidfuhr",
+        "identifier": "99B57959",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "davidfuhr",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/davidfuhr/d143ba572db128ba5e7468b2a5a0bf34",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Karlsruhe, Germany"
     },
-    "bio": "software developer architect requirements engineer devops php symfony guy",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/OSA.jpeg"
-    },
-    "location": {
-      "formatted": "Karlsruhe, Germany"
-    },
-    "name": {
-      "formatted": "David Fuhr"
-    },
-    "pgp": {
-      "fingerprint": "99B57959",
-      "url": "https://s3.amazonaws.com/pk9/davidfuhr"
-    },
-    "twitter": {
-      "username": "DavidFuhr"
-    },
-    "v": "0.2",
-    "website": "http://www.davidfuhr.de"
+    "description": "software developer architect requirements engineer devops php symfony guy",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/davidfuhr",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "David Fuhr",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.davidfuhr.de"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "davidfuhr",
+      "proof_url": "https://gist.github.com/davidfuhr/d143ba572db128ba5e7468b2a5a0bf34",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN davidfuhr.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/davidfuhr.id\"\n"
 }

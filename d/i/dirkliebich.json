@@ -1,0 +1,73 @@
+{
+  "owner_address": "1Hv4rbJN5NyLF3NbUw7ziitJXBHg7AoZQx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dirk_liebich",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Dirk_Liebich/status/781608469564682241",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "DirkLiebich",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/DirkLiebich/c1979e07caeb3d705438eb3f762f90c6",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dirk.liebich",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dirk.liebich/posts/1409908149038953",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Germany"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dirkliebich",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/dirkliebich",
+        "name": "cover"
+      }
+    ],
+    "name": "Dirk Liebich",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://dirkliebich.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dirk_liebich",
+      "proof_url": "https://twitter.com/Dirk_Liebich/status/781608469564682241",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "DirkLiebich",
+      "proof_url": "https://gist.github.com/DirkLiebich/c1979e07caeb3d705438eb3f762f90c6",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "dirk.liebich",
+      "proof_url": "https://www.facebook.com/dirk.liebich/posts/1409908149038953",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dirkliebich.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dirkliebich.id\"\n"
+}

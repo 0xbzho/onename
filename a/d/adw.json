@@ -1,50 +1,71 @@
 {
   "owner_address": "1PEo2B8MiD4aodb7Dfj6RHtsYhKYv4xi4E",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/adw"
-    },
-    "bitcoin": {
-      "address": "1e7qz7aAwhxHLLdXMFX12GVFs5gmyKZL9"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/adw"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/andrewdavidwong.adw/posts/163324760676314"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1e7qz7aAwhxHLLdXMFX12GVFs5gmyKZL9",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "andrewdavidwong.adw"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/andrewdavidwong/5d9c980be52ca610b7bf"
+      {
+        "@type": "Account",
+        "contentUrl": "https://andrewdavidwong.com/adw.asc",
+        "identifier": "BBAF910D1BC9DDF41043629FBC211FCEE9C54C53",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "andrewdavidwong"
-    },
-    "location": {
-      "formatted": "San Diego, CA"
-    },
-    "name": {
-      "formatted": "Andrew David Wong"
-    },
-    "pgp": {
-      "fingerprint": "BBAF910D1BC9DDF41043629FBC211FCEE9C54C53",
-      "url": "https://andrewdavidwong.com/adw.asc"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/andrewdavidwong/status/644070028711608320"
+      {
+        "@type": "Account",
+        "identifier": "andrewdavidwong",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/andrewdavidwong/3a413e65e3176f8da72b1ab6cae6b0c2",
+        "service": "github"
       },
-      "username": "andrewdavidwong"
+      {
+        "@type": "Account",
+        "identifier": "andrewdavidwong",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/andrewdavidwong/status/644070028711608320",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "andrewdavidwong.adw",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/andrewdavidwong.adw/posts/163324760676314",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Diego, CA"
     },
-    "v": "0.2",
-    "website": "https://andrewdavidwong.com"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/adw",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/adw",
+        "name": "avatar"
+      }
+    ],
+    "name": "Andrew David Wong",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://andrewdavidwong.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "andrewdavidwong",
-      "proof_url": "https://gist.github.com/andrewdavidwong/5d9c980be52ca610b7bf",
+      "proof_url": "https://gist.github.com/andrewdavidwong/3a413e65e3176f8da72b1ab6cae6b0c2",
       "service": "github",
       "valid": false
     },
@@ -56,9 +77,10 @@
     },
     {
       "identifier": "andrewdavidwong.adw",
-      "proof_url": "https://facebook.com/andrewdavidwong.adw/posts/163324760676314",
+      "proof_url": "https://www.facebook.com/andrewdavidwong.adw/posts/163324760676314",
       "service": "facebook",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN adw.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/adw.id\"\n"
 }

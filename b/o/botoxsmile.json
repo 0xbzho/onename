@@ -1,6 +1,62 @@
 {
-  "owner_address": "16vSvL9KqKhXwCT5s2nY2FUtAHnRwUL4Rc",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "19YTfnW6AHAU2WzRf1ePdyM7JezeoSGxMo",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "botoxsmile",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/botoxsmile/554aa48aa89bb33bde4887ee96dc63d0",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "maurice.dugenou.12",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/maurice.dugenou.12/posts/1787012671544838",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "botoxsmile",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/botoxsmile/status/762667141808218112",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/botoxsmile",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "botoxsmile",
+      "proof_url": "https://gist.github.com/botoxsmile/554aa48aa89bb33bde4887ee96dc63d0",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "maurice.dugenou.12",
+      "proof_url": "https://www.facebook.com/maurice.dugenou.12/posts/1787012671544838",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "botoxsmile",
+      "proof_url": "https://twitter.com/botoxsmile/status/762667141808218112",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN botoxsmile.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/botoxsmile.id\"\n"
 }

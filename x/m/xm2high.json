@@ -1,11 +1,16 @@
 {
   "owner_address": "1BHgvQWu8JjjSTCYDAyAKG1t7Vyg6SM5MJ",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/IHL.jpg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ]
   },
   "verifications": [],
-  "zone_file": {}
+  "zone_file": "$ORIGIN xm2high.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/xm2high.id\"\n"
 }

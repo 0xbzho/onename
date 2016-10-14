@@ -1,0 +1,57 @@
+{
+  "owner_address": "1LTdTSxXDkTjsssyQnaLu2E5BByFkhRk54",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sbirfan",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sbirfan/status/772427038397313025",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "syed.irfan.90",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/syed.irfan.90/posts/10209254271407063",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sbirfan",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/sbirfan/5c32428cf75b038f05db7f671fa82e52.js",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "sbirfan",
+      "proof_url": "https://twitter.com/sbirfan/status/772427038397313025",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "syed.irfan.90",
+      "proof_url": "https://www.facebook.com/syed.irfan.90/posts/10209254271407063",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "sbirfan",
+      "proof_url": "https://gist.github.com/sbirfan/5c32428cf75b038f05db7f671fa82e52.js",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN sirfan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sirfan.id\"\n"
+}

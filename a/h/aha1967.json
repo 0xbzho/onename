@@ -1,0 +1,49 @@
+{
+  "owner_address": "1N6L3qtYozzK1tcXkfksCWcWc7QfychMtZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "andreashaeuptli",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/andreashaeuptli/status/783318374931652608",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "andreashaeuptli",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/andreashaeuptli/posts/10154903418644415",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/aha1967",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/aha1967",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "andreashaeuptli",
+      "proof_url": "https://twitter.com/andreashaeuptli/status/783318374931652608",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "andreashaeuptli",
+      "proof_url": "https://www.facebook.com/andreashaeuptli/posts/10154903418644415",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN aha1967.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/aha1967.id\"\n"
+}

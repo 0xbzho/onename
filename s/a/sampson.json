@@ -1,6 +1,26 @@
 {
-  "owner_address": "13wAvxFEGSxi8uBSwGtU4raCtyJbfQkNdp",
-  "profile": {},
+  "owner_address": "16D3FVXTvxSoPNpb1xLwts8o8US4Xcrh92",
+  "profile": {
+    "@type": "Person",
+    "account": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Toronto"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sampson",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/sampson",
+        "name": "cover"
+      }
+    ],
+    "name": "Sampson Chan"
+  },
   "verifications": [],
   "zone_file": "$ORIGIN sampson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sampson.id\"\n"
 }

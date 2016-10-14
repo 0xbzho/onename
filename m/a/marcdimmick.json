@@ -1,0 +1,49 @@
+{
+  "owner_address": "1NTYjpBZCLcUvpYXa45Hr116AsCMggNBcU",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "marc_dimmick",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/marc_dimmick/status/774031702020661248",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "marc.dimmick",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/marc.dimmick/posts/10154520829368708?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/marcdimmick",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/marcdimmick",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "marc_dimmick",
+      "proof_url": "https://twitter.com/marc_dimmick/status/774031702020661248",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "marc.dimmick",
+      "proof_url": "https://www.facebook.com/marc.dimmick/posts/10154520829368708?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN marcdimmick.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/marcdimmick.id\"\n"
+}

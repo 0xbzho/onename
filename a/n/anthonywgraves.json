@@ -1,0 +1,63 @@
+{
+  "owner_address": "16VhaUcG9WAbnngFEYa6a5dxW4YM2fQkPK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anthonywgraves",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/anthonywgraves/status/782081232070963201",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anthony.graves.1690",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/anthony.graves.1690/posts/1855631464658000",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "AnthonyGraves",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/AnthonyGraves/989214d5c74eb668376506939310ade9#file-onename",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/anthonywgraves",
+        "name": "avatar"
+      }
+    ],
+    "name": "Anthony Graves"
+  },
+  "verifications": [
+    {
+      "identifier": "anthonywgraves",
+      "proof_url": "https://twitter.com/anthonywgraves/status/782081232070963201",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "anthony.graves.1690",
+      "proof_url": "https://www.facebook.com/anthony.graves.1690/posts/1855631464658000",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "AnthonyGraves",
+      "proof_url": "https://gist.github.com/AnthonyGraves/989214d5c74eb668376506939310ade9#file-onename",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN anthonywgraves.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/anthonywgraves.id\"\n"
+}

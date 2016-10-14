@@ -19,10 +19,16 @@
       },
       {
         "@type": "Account",
-        "identifier": "jeremykendall",
+        "identifier": "jeremy.kendall",
         "proofType": "http",
-        "proofUrl": "https://www.facebook.com/jeremy.kendall/posts/10154267291583408",
+        "proofUrl": "https://www.facebook.com/jeremy.kendall/posts/10154456352283408",
         "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/jeremykendall/key.asc",
+        "identifier": null,
+        "service": "pgp"
       }
     ],
     "address": {
@@ -60,13 +66,13 @@
       "identifier": "jeremykendall",
       "proof_url": "https://gist.github.com/jeremykendall/8cdc7a6f7a52555ad120f5d0ca15f143",
       "service": "github",
-      "valid": true
+      "valid": false
     },
     {
-      "identifier": "jeremykendall",
-      "proof_url": "https://www.facebook.com/jeremy.kendall/posts/10154267291583408",
+      "identifier": "jeremy.kendall",
+      "proof_url": "https://www.facebook.com/jeremy.kendall/posts/10154456352283408",
       "service": "facebook",
-      "valid": false
+      "valid": true
     }
   ],
   "zone_file": "$ORIGIN jeremykendall.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jeremykendall.id\"\n"

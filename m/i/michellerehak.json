@@ -1,0 +1,36 @@
+{
+  "owner_address": "1Ceavvp325ffjoynFUBsh8UbSBint3buai",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "michelle_rehak",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/michelle_rehak",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/michellerehak",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "michelle_rehak",
+      "proof_url": "https://twitter.com/michelle_rehak",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN michellerehak.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/michellerehak.id\"\n"
+}

@@ -18,13 +18,6 @@
       },
       {
         "@type": "Account",
-        "identifier": "kurtopia",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/Kurtopia/posts/10206473049973678",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
         "identifier": "kurthamm",
         "proofType": "http",
         "proofUrl": "https://gist.github.com/kurthamm/5bf4044e1d35c67b2340ddf29f511d8b",
@@ -35,6 +28,13 @@
         "contentUrl": "https://keybase.io/kurthamm/key.asc",
         "identifier": "E79A7CCD16121F62D66AFD9AE3EF322409FC03E9",
         "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/Kurtopia/posts/10206473049973678",
+        "service": "facebook"
       }
     ],
     "address": {
@@ -69,16 +69,16 @@
       "valid": true
     },
     {
-      "identifier": "kurtopia",
-      "proof_url": "https://www.facebook.com/Kurtopia/posts/10206473049973678",
-      "service": "facebook",
-      "valid": true
-    },
-    {
       "identifier": "kurthamm",
       "proof_url": "https://gist.github.com/kurthamm/5bf4044e1d35c67b2340ddf29f511d8b",
       "service": "github",
-      "valid": true
+      "valid": false
+    },
+    {
+      "identifier": "",
+      "proof_url": "https://www.facebook.com/Kurtopia/posts/10206473049973678",
+      "service": "facebook",
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN kurthamm.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kurthamm.id\"\n"

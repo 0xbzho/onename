@@ -1,0 +1,49 @@
+{
+  "owner_address": "1HT21URWVtxfq14qAGDJHVmWPvbSwhK3PF",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "4295e0c966bb6d6a0862efd0aca90fc16c343e7c",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "SlowDeepBreath",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SlowDeepBreath/status/777489337747251200",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "SlowDeepBreath",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/SlowDeepBreath/posts/693737994112847",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "SlowDeepBreath",
+      "proof_url": "https://twitter.com/SlowDeepBreath/status/777489337747251200",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "SlowDeepBreath",
+      "proof_url": "https://www.facebook.com/SlowDeepBreath/posts/693737994112847",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN slowdeepbreath.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/slowdeepbreath.id\"\n"
+}

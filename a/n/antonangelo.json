@@ -5,12 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "idontusetwitteranymore",
-        "proofType": "http",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
         "identifier": "anton-dema",
         "proofType": "http",
         "service": "github"
@@ -28,6 +22,13 @@
         "proofType": "http",
         "proofUrl": "https://facebook.com/antonangelo/posts/10153324333626175",
         "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "f",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/intent/twee",
+        "service": "twitter"
       }
     ],
     "address": {
@@ -60,6 +61,12 @@
       "identifier": "",
       "proof_url": "https://facebook.com/antonangelo/posts/10153324333626175",
       "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "f",
+      "proof_url": "https://twitter.com/intent/twee",
+      "service": "twitter",
       "valid": false
     }
   ],

@@ -1,0 +1,36 @@
+{
+  "owner_address": "1LKG1NYTSQkJXWdZvE7Q1S9XvNy7nvyTiN",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "becky.berry.104",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/becky.berry.104/posts/10206938525812931",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/becky_",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "becky.berry.104",
+      "proof_url": "https://www.facebook.com/becky.berry.104/posts/10206938525812931",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN becky_.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/becky_.id\"\n"
+}

@@ -1,0 +1,41 @@
+{
+  "owner_address": "1HkaBie9KMNyA78tYDZvRxdBGdU5aaAT1c",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "marcelo.jarretta",
+        "proofType": "http",
+        "proofUrl": "www.facebook.com/marcelo.jarretta",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brasil"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/icefox",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/icefox",
+        "name": "cover"
+      }
+    ],
+    "name": "Marcelo Jarretta"
+  },
+  "verifications": [
+    {
+      "identifier": "marcelo.jarretta",
+      "proof_url": "www.facebook.com/marcelo.jarretta",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN icefox.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/icefox.id\"\n"
+}

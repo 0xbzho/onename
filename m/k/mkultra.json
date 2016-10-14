@@ -1,50 +1,67 @@
 {
   "owner_address": "1JM1EcVGPGNFoDWNdVs2ettbUJ61QhvVf1",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/mkultra"
-    },
-    "bio": "Создание сайтов на заказ. Размещение сайтов в сети интернет. Создание утилит.",
-    "bitcoin": {
-      "address": "1D3Q88cMNGbBdad8meR269sxBicHdLVXst"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/mkultra"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/belash333/posts/415008762020929"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1FMijJoPx1mTygEu981Pk3FDXcyXnkDfy1",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "belash333"
-    },
-    "location": {
-      "formatted": "Витебск"
-    },
-    "name": {
-      "formatted": "Dmitrij Xy"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/DmitrProg/status/648759984461901824"
+      {
+        "@type": "Account",
+        "identifier": "DmitrProg",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/DmitrProg/status/778852900755955712",
+        "service": "twitter"
       },
-      "username": "DmitrProg"
+      {
+        "@type": "Account",
+        "identifier": "belash333",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/belash333/posts/552904368231367",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Витебск"
     },
-    "v": "0.2",
-    "website": "http://dmitrij.xyz/"
+    "description": "Создание сайтов на заказ. Размещение сайтов в сети интернет. Создание утилит.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mkultra",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mkultra",
+        "name": "cover"
+      }
+    ],
+    "name": "Dmitrij Xy",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://dmitrij.xyz/"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "DmitrProg",
-      "proof_url": "https://twitter.com/DmitrProg/status/648759984461901824",
+      "proof_url": "https://twitter.com/DmitrProg/status/778852900755955712",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "belash333",
-      "proof_url": "https://facebook.com/belash333/posts/415008762020929",
+      "proof_url": "https://www.facebook.com/belash333/posts/552904368231367",
       "service": "facebook",
-      "valid": false
+      "valid": true
     }
   ],
-  "zone_file": {}
+  "zone_file": "$ORIGIN mkultra.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mkultra.id\"\n"
 }

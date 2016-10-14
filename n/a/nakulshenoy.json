@@ -1,0 +1,61 @@
+{
+  "owner_address": "16ZiBHtuq9Zsc2maRyKwD33wYroF7iMG5r",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nakulshenoy",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/NakulShenoy/status/769075063618404352",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "indimagi",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/indimagi/posts/283576165331841",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bangalore"
+    },
+    "description": "The Mind Reader. Mentalist. Magician. UXer. Teaholic. Bibliophile. Author: Smart Course In Magic (HarperCollins)",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nakulshenoy",
+        "name": "avatar"
+      }
+    ],
+    "name": "Nakul Shenoy",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.nakulshenoy.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "nakulshenoy",
+      "proof_url": "https://twitter.com/NakulShenoy/status/769075063618404352",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "indimagi",
+      "proof_url": "https://www.facebook.com/indimagi/posts/283576165331841",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN nakulshenoy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nakulshenoy.id\"\n"
+}

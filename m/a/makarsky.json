@@ -1,0 +1,31 @@
+{
+  "owner_address": "15tW3foNyRWUvGYhYfT8BsMBgQH6UyCwa2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cmak",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/cmak/8825cb2cb7d61de60eb95ae5f62c220e",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "cmak",
+      "proof_url": "https://gist.github.com/cmak/8825cb2cb7d61de60eb95ae5f62c220e",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN makarsky.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/makarsky.id\"\n"
+}

@@ -1,0 +1,42 @@
+{
+  "owner_address": "1HVqFNbmNmwSA83fNyH8ZDLH1w1ievnUQE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "BradyDale",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BradyDale/status/777999966853890052",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brooklyn"
+    },
+    "description": "Reporter.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bradydale",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bradydale",
+        "name": "cover"
+      }
+    ],
+    "name": "Brady Dale"
+  },
+  "verifications": [
+    {
+      "identifier": "BradyDale",
+      "proof_url": "https://twitter.com/BradyDale/status/777999966853890052",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bradydale.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bradydale.id\"\n"
+}

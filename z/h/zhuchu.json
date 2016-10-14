@@ -1,0 +1,74 @@
+{
+  "owner_address": "15Ktehi8ushaELmAKmRMv2CSuEaaZb5h4E",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "zhuchu9605",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/zhuchu9605/280ec6fae8a31c5b8abcbd78056afbdb",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "zhu.chu",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/zhu.chu/posts/10154033400753262",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "zhuchu9605",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/zhuchu9605/status/783694442943381504",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Stockholm, Sweden"
+    },
+    "description": "CPO/CTO @ Sqore",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/zhuchu",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/zhuchu",
+        "name": "cover"
+      }
+    ],
+    "name": "Chu Zhu",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://sqore.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "zhuchu9605",
+      "proof_url": "https://gist.github.com/zhuchu9605/280ec6fae8a31c5b8abcbd78056afbdb",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "zhu.chu",
+      "proof_url": "https://www.facebook.com/zhu.chu/posts/10154033400753262",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "zhuchu9605",
+      "proof_url": "https://twitter.com/zhuchu9605/status/783694442943381504",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN zhuchu.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/zhuchu.id\"\n"
+}

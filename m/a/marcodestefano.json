@@ -1,0 +1,58 @@
+{
+  "owner_address": "1NJ3AosUApbBkyr8SHyaMbDwyXQdbfZvhC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "marcodestefano",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/marcodestefano/status/766627956269649920",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "marcodestefano",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/marcodestefano/posts/10154401526293810",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "marcodestefano",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/marcodestefano/54858ddae796ab957be1639fa167c011",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Marco De Stefano"
+  },
+  "verifications": [
+    {
+      "identifier": "marcodestefano",
+      "proof_url": "https://twitter.com/marcodestefano/status/766627956269649920",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "marcodestefano",
+      "proof_url": "https://www.facebook.com/marcodestefano/posts/10154401526293810",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "marcodestefano",
+      "proof_url": "https://gist.github.com/marcodestefano/54858ddae796ab957be1639fa167c011",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN marcodestefano.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/marcodestefano.id\"\n"
+}

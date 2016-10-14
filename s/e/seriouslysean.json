@@ -1,47 +1,61 @@
 {
   "owner_address": "18pm3H6d4NnHBseJCpXz1KPMMhaezf6ct1",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/seriouslysean"
-    },
-    "bio": "I'm just your friendly neighborhood web developer!",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/seriouslysean"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/seriouslysean/posts/10152499093848354"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "seriouslysean",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/seriouslysean/posts/10153967559023354",
+        "service": "facebook"
       },
-      "username": "seriouslysean"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/anonymous/a5532d4baa8da96f9c95"
+      {
+        "@type": "Account",
+        "identifier": "seriouslysean",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/seriouslysean/status/786271985999360001",
+        "service": "twitter"
       },
-      "username": "anonymous"
+      {
+        "@type": "Account",
+        "identifier": "seriouslysean",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/seriouslysean/f5e2dd096dc3b4a3bac6abf3d4170e17",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Philadelphia"
     },
-    "location": {
-      "formatted": "Philadelphia"
-    },
-    "name": {
-      "formatted": "Sean Kennedy"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/seriouslysean/status/534385223606083584"
+    "description": "I'm just your friendly neighborhood web developer!",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/seriouslysean",
+        "name": "avatar"
       },
-      "username": "seriouslysean"
-    },
-    "v": "0.2",
-    "website": "http://codeserio.us"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/seriouslysean",
+        "name": "cover"
+      }
+    ],
+    "name": "Sean Kennedy",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.codeserious.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "anonymous",
       "proof_url": "https://gist.github.com/anonymous/a5532d4baa8da96f9c95",
       "service": "github",
-      "valid": true
+      "valid": false
     },
     {
       "identifier": "seriouslysean",
@@ -55,5 +69,6 @@
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN seriouslysean.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/seriouslysean.id\"\n"
 }

@@ -1,17 +1,38 @@
 {
   "owner_address": "179hfZmJbwoJGVWqyLWbJ1wBmy2pKKFcNv",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "d8e6d67cdc842a9e378bcf65d1071bfb864706a0",
+        "identifier": "8f31b83769d16567755613d6c746c8b6594d14e0",
         "service": "openbazaar"
       }
     ],
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/yId.jpg"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ohio"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/who8mypnuts",
+        "name": "avatar"
+      }
+    ],
+    "name": "Stan Ragets",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://StanRagetsArt.com"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN who8mypnuts.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/who8mypnuts.id\"\n"
 }

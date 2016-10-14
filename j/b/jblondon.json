@@ -1,0 +1,36 @@
+{
+  "owner_address": "19ZJBpbSzZiupfv9M8583z9TmWhFXBVuVn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "66d37ea0a7c51ed155927d29a342355752f00a8b",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "joshbrayman",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/joshbrayman/978919d3f4afd295a4f2af061289d4e7",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "joshbrayman",
+      "proof_url": "https://gist.github.com/joshbrayman/978919d3f4afd295a4f2af061289d4e7",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jblondon.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jblondon.id\"\n"
+}

@@ -1,0 +1,36 @@
+{
+  "owner_address": "1LCBvQJiX71A9oj3fx2P85jH2d6iZnk7uk",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bc41849dc4750f62d41044a04ecffa25c004f305",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "foodstore_uk",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/foodstore_uk/status/767984395793891328",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "foodstore_uk",
+      "proof_url": "https://twitter.com/foodstore_uk/status/767984395793891328",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN foodstore.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/foodstore.id\"\n"
+}

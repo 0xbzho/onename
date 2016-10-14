@@ -1,0 +1,36 @@
+{
+  "owner_address": "124rXVgzeQsL3BEUN6hgWxfGoQSJpCZnMq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "licx",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/licx/status/766674984865505281",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/licciardi",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "licx",
+      "proof_url": "https://twitter.com/licx/status/766674984865505281",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN licciardi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/licciardi.id\"\n"
+}

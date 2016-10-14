@@ -1,0 +1,50 @@
+{
+  "owner_address": "1LaQvJEbHhYwxts4CWUS2qPyMtZFG1Lgw4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "trabimechanic",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TrabiMechanic/status/762970714538405888",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "trabimechanic",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/trabimechanic/ee8de7b0fa74e5a3e7d8396910c484a9",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/trabimechanic",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/trabimechanic",
+        "name": "cover"
+      }
+    ],
+    "name": "Trabi Mechanic"
+  },
+  "verifications": [
+    {
+      "identifier": "trabimechanic",
+      "proof_url": "https://twitter.com/TrabiMechanic/status/762970714538405888",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "trabimechanic",
+      "proof_url": "https://gist.github.com/trabimechanic/ee8de7b0fa74e5a3e7d8396910c484a9",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN trabimechanic.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/trabimechanic.id\"\n"
+}

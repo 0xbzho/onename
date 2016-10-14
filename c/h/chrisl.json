@@ -1,64 +1,81 @@
 {
   "owner_address": "1NxDPfW6grSeUTCLfGZMFBmRoPatk5HFiL",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/chrisl"
-    },
-    "bio": "i like Cadillacs, Bimmers, puters and bitcoin. @miwestgermany @BigBarkozSS",
-    "bitcoin": {
-      "address": "155guDxqkXGUrK9HvrNbPgDYEz5UF188g5"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/chrisl"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/chris325i/posts/10206129257324147"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "155guDxqkXGUrK9HvrNbPgDYEz5UF188g5",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "chris325i"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/e30chris/65a9ca54aae65bd22cd8"
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/e30chris/key.asc",
+        "identifier": "1A98F7CBDB3DFE486C3AE5FC46003AEE0AB03A82",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "e30chris"
-    },
-    "location": {
-      "formatted": "snohomish, wa"
-    },
-    "name": {
-      "formatted": "chrisL"
-    },
-    "pgp": {
-      "fingerprint": "1A98F7CBDB3DFE486C3AE5FC46003AEE0AB03A82",
-      "url": "https://keybase.io/e30chris/key.asc"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/e30chris/status/604332219977490433"
+      {
+        "@type": "Account",
+        "identifier": "chris325i",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/e30chris/posts/10209447412315948",
+        "service": "facebook"
       },
-      "username": "e30chris"
+      {
+        "@type": "Account",
+        "identifier": "e30chris",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/e30chris/status/771832138463195136",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https:",
+        "proofType": "http",
+        "proofUrl": "https://gist.githubusercontent.com/e30chris/d8b3782bb4ccac7242176495c666f569/raw/00f8bd7335a11ec6743e8a278d7d4c355f8263fe/onename.md",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "snohomish, wa"
     },
-    "v": "0.2"
+    "description": "i like Cadillacs, Bimmers, puters and bitcoin. @miwestgermany @BigBarkozSS",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/chrisl",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/chrisl",
+        "name": "cover"
+      }
+    ],
+    "name": "chrisL"
   },
   "verifications": [
     {
-      "identifier": "e30chris",
-      "proof_url": "https://gist.github.com/e30chris/65a9ca54aae65bd22cd8",
-      "service": "github",
-      "valid": true
+      "identifier": "chris325i",
+      "proof_url": "https://www.facebook.com/e30chris/posts/10209447412315948",
+      "service": "facebook",
+      "valid": false
     },
     {
       "identifier": "e30chris",
-      "proof_url": "https://twitter.com/e30chris/status/604332219977490433",
+      "proof_url": "https://twitter.com/e30chris/status/771832138463195136",
       "service": "twitter",
       "valid": true
     },
     {
-      "identifier": "chris325i",
-      "proof_url": "https://facebook.com/chris325i/posts/10206129257324147",
-      "service": "facebook",
+      "identifier": "https:",
+      "proof_url": "https://gist.githubusercontent.com/e30chris/d8b3782bb4ccac7242176495c666f569/raw/00f8bd7335a11ec6743e8a278d7d4c355f8263fe/onename.md",
+      "service": "github",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN chrisl.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/chrisl.id\"\n"
 }

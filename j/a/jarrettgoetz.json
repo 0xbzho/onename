@@ -1,61 +1,58 @@
 {
   "owner_address": "1Aqsr5g6LphSLmzpTLX7pVqYVXDp5QxBQ",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/jarrettgoetz"
-    },
-    "bio": "Startup lover. Tech/ops/strategy entrepreneur. Space & @NASA enthusiast. Serial volunteer. Adventure seeker. @MIT Sloan & @Harvard alum. VP Product @ OpenMobile.",
-    "bitcoin": {
-      "address": "Coinbase@JarrettGoetz.com"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/jarrettgoetz"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/JarrettGoetz/posts/10100461260152758"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "JarrettGoetz",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "JarrettGoetz"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/JarrettGoetz/4febcb4193fb63e3dfc8#file-gistfile1-txt"
+      {
+        "@type": "Account",
+        "identifier": "JarrettGoetz",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "JarrettGoetz"
-    },
-    "location": {
-      "formatted": "Boston / NYC / Up In The Air"
-    },
-    "name": {
-      "formatted": "Jarrett Goetz"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/JarrettGoetz/status/560071255119130624"
+      {
+        "@type": "Account",
+        "identifier": "JarrettGoetz",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "JarrettGoetz"
+      {
+        "@type": "Account",
+        "identifier": "Coinbase@JarrettGoetz.com",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boston / NYC / Up In The Air"
     },
-    "v": "0.2",
-    "website": "http://linkedin.com/in/JarrettGoetz"
+    "description": "Startup & arts lover. Tech/ops/strategy/product entrepreneur. Space & NASA enthusiast. Experiences, not things. Aspiring minimalist. @MIT Sloan & @Harvard alum.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jarrettgoetz",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jarrettgoetz",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jarrett Goetz",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://linkedin.com/in/JarrettGoetz"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "JarrettGoetz",
-      "proof_url": "https://gist.github.com/JarrettGoetz/4febcb4193fb63e3dfc8#file-gistfile1-txt",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "JarrettGoetz",
-      "proof_url": "https://twitter.com/JarrettGoetz/status/560071255119130624",
-      "service": "twitter",
-      "valid": false
-    },
-    {
-      "identifier": "JarrettGoetz",
-      "proof_url": "https://facebook.com/JarrettGoetz/posts/10100461260152758",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN jarrettgoetz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jarrettgoetz.id\"\n"
 }

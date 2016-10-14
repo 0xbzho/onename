@@ -1,0 +1,57 @@
+{
+  "owner_address": "16ZRX84nMVqYRrVjCA71vzVtkwMiSLEHhi",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sebykrueger",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sebykrueger/status/782321058158288896",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sebykrueger",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/sebykrueger/bf0f362cb282abe8a123cf31691e246b",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sebykrueger",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/sebykrueger/posts/10154472169226132",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "sebykrueger",
+      "proof_url": "https://twitter.com/sebykrueger/status/782321058158288896",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "sebykrueger",
+      "proof_url": "https://gist.github.com/sebykrueger/bf0f362cb282abe8a123cf31691e246b",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "sebykrueger",
+      "proof_url": "https://www.facebook.com/sebykrueger/posts/10154472169226132",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN sebykrueger.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sebykrueger.id\"\n"
+}

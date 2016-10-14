@@ -1,31 +1,29 @@
 {
   "owner_address": "16LgA6QKPxr3Duz66U9vzXgtJ1fsmosxfW",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/sapanbhuta"
-    },
-    "bio": "medical student + software engineer",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/sapanbhuta"
-    },
-    "name": {
-      "formatted": "Sapan Bhuta"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/SapanBhuta/status/526008207483736066"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "SapanBhuta",
+        "proofType": "http",
+        "service": "twitter"
+      }
+    ],
+    "description": "medical student + software engineer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/sapanbhuta",
+        "name": "cover"
       },
-      "username": "SapanBhuta"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sapanbhuta",
+        "name": "avatar"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "SapanBhuta",
-      "proof_url": "https://twitter.com/SapanBhuta/status/526008207483736066",
-      "service": "twitter",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN sapanbhuta.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sapanbhuta.id\"\n"
 }

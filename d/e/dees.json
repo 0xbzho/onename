@@ -1,61 +1,59 @@
 {
   "owner_address": "1JgoDj9cKpGQqs945ymWxSBT5CFchyfRyz",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/dees"
-    },
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/dees"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/deesplease/posts/10153062031704674"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "brandondees",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "deesplease"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/brandondees/89e1bd5b83d16541bc68"
+      {
+        "@type": "Account",
+        "identifier": "deesplease",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "brandondees"
+      {
+        "@type": "Account",
+        "identifier": "brandondees",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/brandondees/31769d715e69ea6a7a84ddb7397e5e65",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nashville, TN"
     },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/dees"
-    },
-    "location": {
-      "formatted": "Nashville, TN"
-    },
-    "name": {
-      "formatted": "Brandon Dees"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/brandondees/status/560272598102474752"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dees",
+        "name": "avatar"
       },
-      "username": "brandondees"
-    },
-    "v": "0.2",
-    "website": "https://brandondees.info/"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/dees",
+        "name": "cover"
+      }
+    ],
+    "name": "Brandon Dees",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://brandondees.info/"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "brandondees",
-      "proof_url": "https://gist.github.com/brandondees/89e1bd5b83d16541bc68",
+      "proof_url": "https://gist.github.com/brandondees/31769d715e69ea6a7a84ddb7397e5e65",
       "service": "github",
       "valid": false
-    },
-    {
-      "identifier": "brandondees",
-      "proof_url": "https://twitter.com/brandondees/status/560272598102474752",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "deesplease",
-      "proof_url": "https://facebook.com/deesplease/posts/10153062031704674",
-      "service": "facebook",
-      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN dees.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dees.id\"\n"
 }

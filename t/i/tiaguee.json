@@ -1,26 +1,46 @@
 {
   "owner_address": "15ApaFxiZFsUo9SVfqotXBt1mWAkvyNUwj",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/tiaguee"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tiaguee",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tiAGueE",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "39E35oGYBmmEMuDM6jE6mo3TSrBzcRk7M7",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "bio": "",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/OSA.jpeg"
-    },
-    "facebook": {
-      "username": "tiaguee"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Tiago Vaz"
-    },
-    "twitter": {
-      "username": "tiAGueE"
-    },
-    "v": "0.2"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tiaguee",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Tiago Vaz"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN tiaguee.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tiaguee.id\"\n"
 }

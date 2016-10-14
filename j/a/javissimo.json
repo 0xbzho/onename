@@ -2,7 +2,15 @@
   "owner_address": "16UERgbwxq7R26f3RNc7zQk1eCcZZsTbEE",
   "profile": {
     "@type": "Person",
-    "account": [],
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "javissimo",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/javissimo/a561d7694c1d24157601e7dba7f259ba",
+        "service": "github"
+      }
+    ],
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Madrid"
@@ -22,6 +30,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "javissimo",
+      "proof_url": "https://gist.github.com/javissimo/a561d7694c1d24157601e7dba7f259ba",
+      "service": "github",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN javissimo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/javissimo.id\"\n"
 }

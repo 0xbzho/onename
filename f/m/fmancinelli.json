@@ -1,0 +1,45 @@
+{
+  "owner_address": "16ExF8zudfbfws2DRHWLqic64fP6Wym5HD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "fmancinelli",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/fmancinelli/status/766629614131306498",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fmancinelli",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/fmancinelli/95863227f28a5ef6a87deb77bb7d9330",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Fabio Mancinelli"
+  },
+  "verifications": [
+    {
+      "identifier": "fmancinelli",
+      "proof_url": "https://twitter.com/fmancinelli/status/766629614131306498",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "fmancinelli",
+      "proof_url": "https://gist.github.com/fmancinelli/95863227f28a5ef6a87deb77bb7d9330",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN fmancinelli.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fmancinelli.id\"\n"
+}

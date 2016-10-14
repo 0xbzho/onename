@@ -1,0 +1,44 @@
+{
+  "owner_address": "16QnpT8y8rtPJ8LryA3Z9tcvHjRPU7MsBi",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "grotedirk",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/grotedirk/status/785719769005563904",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dirkhus",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dirkhus/posts/1481639468529188",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "grotedirk",
+      "proof_url": "https://twitter.com/grotedirk/status/785719769005563904",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "dirkhus",
+      "proof_url": "https://www.facebook.com/dirkhus/posts/1481639468529188",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bigdirk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bigdirk.id\"\n"
+}

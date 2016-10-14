@@ -1,42 +1,66 @@
 {
   "owner_address": "1KdEJh1YisUn7SLS89vRxZEtaqoTyVZTdN",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/eatmerestaurant"
-    },
-    "bitcoin": {
-      "address": "1CZ9HR9YB4orNkrgm8tiJ3KpQoKdWLJtYA"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/eatmerestaurant"
-    },
-    "facebook": {
-      "username": "eatmerestaurant"
-    },
-    "location": {
-      "formatted": "20 metres off Convent Rd, (in Soi Pipat 2), Silom, Bangkok, Thailand"
-    },
-    "name": {
-      "formatted": "Eat Me Restaurant"
-    },
-    "pgp": {
-      "url": "https://s3.amazonaws.com/pk9/eatmerestaurant"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/eatmerestaurant/status/610214284191072257"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1CZ9HR9YB4orNkrgm8tiJ3KpQoKdWLJtYA",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "eatmerestaurant"
+      {
+        "@type": "Account",
+        "identifier": "eatmerestaurant",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/eatmerestaurant?post_id=10201673430514570_10201673433354641#/facebook",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "eatmerestaurant",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/eatmerestaurant/status/762738941111914496",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "20 metres off Convent Rd, (in Soi Pipat 2), Silom, Bangkok, Thailand"
     },
-    "v": "0.2",
-    "website": "http://www.eatmerestaurant.com"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/eatmerestaurant",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/eatmerestaurant",
+        "name": "cover"
+      }
+    ],
+    "name": "Eat Me Restaurant",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.eatmerestaurant.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "eatmerestaurant",
-      "proof_url": "https://twitter.com/eatmerestaurant/status/610214284191072257",
+      "proof_url": "https://onename.com/eatmerestaurant?post_id=10201673430514570_10201673433354641#/facebook",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "eatmerestaurant",
+      "proof_url": "https://twitter.com/eatmerestaurant/status/762738941111914496",
       "service": "twitter",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN eatmerestaurant.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/eatmerestaurant.id\"\n"
 }

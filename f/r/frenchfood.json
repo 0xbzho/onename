@@ -1,0 +1,26 @@
+{
+  "owner_address": "1HvZYc7ysGbdsYqhKE5QRfSFj79MeLnCpw",
+  "profile": {
+    "@type": "Person",
+    "account": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "france"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/frenchfood",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/frenchfood",
+        "name": "avatar"
+      }
+    ],
+    "name": "julia"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN frenchfood.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/frenchfood.id\"\n"
+}

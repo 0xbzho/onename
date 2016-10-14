@@ -1,0 +1,44 @@
+{
+  "owner_address": "133Ruz4pqJ6cnrBzoctinTmwppUcbYygeA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "AhamedAC",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/AhamedAC",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "AACader",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/AACader",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "AhamedAC",
+      "proof_url": "https://gist.github.com/AhamedAC",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "AACader",
+      "proof_url": "https://twitter.com/AACader",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ahamedac.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ahamedac.id\"\n"
+}

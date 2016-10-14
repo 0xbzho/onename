@@ -1,0 +1,46 @@
+{
+  "owner_address": "15zENggtDDF5Rz67bb4nEEd4kvaY7Et9Kx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1P2oXtKRsk82HXgGymUsXjaVTyYcnujiSV",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/cristianbeso",
+        "identifier": null,
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Netherlands"
+    },
+    "description": "...",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cristianbeso",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/cristianbeso",
+        "name": "cover"
+      }
+    ],
+    "name": "Cristian Beso",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.cristianbeso.com/"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN cristianbeso.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cristianbeso.id\"\n"
+}

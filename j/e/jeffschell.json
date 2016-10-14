@@ -1,13 +1,62 @@
 {
   "owner_address": "15RiFxoEwK5CYZej9wV1P8eT8cCJq6QhTi",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/lUU.jpeg"
-    },
-    "twitter": {
-      "username": "jschell"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jschell",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jschell/status/761274571307745280",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jjschell",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jjschell/posts/10154089837767123",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jeffreyschell",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jeffreyschell/f6560ddedf09826648dcb259ce86b6bb",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jeffschell",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jeffschell",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "jschell",
+      "proof_url": "https://twitter.com/jschell/status/761274571307745280",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jjschell",
+      "proof_url": "https://www.facebook.com/jjschell/posts/10154089837767123",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "jeffreyschell",
+      "proof_url": "https://gist.github.com/jeffreyschell/f6560ddedf09826648dcb259ce86b6bb",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jeffschell.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jeffschell.id\"\n"
 }

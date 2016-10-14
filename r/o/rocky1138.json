@@ -1,0 +1,55 @@
+{
+  "owner_address": "16EQ8GtfiQijWAiJACUgxHG8oX7k5CEQLP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rocky1138",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Rocky1138/status/782648054864351233",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "webprogrammer",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/webprogrammer/posts/10153746410976428?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "13kycZsyftffew5ncvjw4JbcfHoGmgAYST",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rocky1138",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rocky1138",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "rocky1138",
+      "proof_url": "https://twitter.com/Rocky1138/status/782648054864351233",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "webprogrammer",
+      "proof_url": "https://www.facebook.com/webprogrammer/posts/10153746410976428?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN rocky1138.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rocky1138.id\"\n"
+}

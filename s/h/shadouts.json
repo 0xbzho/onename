@@ -1,58 +1,69 @@
 {
   "owner_address": "137TGXGnAKtmEV1RQJ24wD69LeEbHKNzCw",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "",
-        "service": ""
+        "identifier": "jack.degenstein",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "19k5kY7zUBgoM2qxvtYmggU6H6sZ3Eoh9e",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pgp.mit.edu/pks/lookup?op=get&search=0xF0F78016513E882A",
+        "identifier": "0xf0f78016513e882a",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "shadouts",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/shadouts/status/780098498247086081",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Shadouts",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Shadouts/226067cf9d60622ecb51760624625fba",
+        "service": "github"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/shadouts"
-    },
-    "bitcoin": {
-      "address": "19k5kY7zUBgoM2qxvtYmggU6H6sZ3Eoh9e"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/shadouts"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/jack.degenstein/posts/1085798114775360"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/shadouts",
+        "name": "avatar"
       },
-      "username": "jack.degenstein"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/Shadouts/05d21e69344fe8219e44"
-      },
-      "username": "Shadouts"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/shadouts"
-    },
-    "name": {
-      "formatted": "Jack Degenstein"
-    },
-    "pgp": {
-      "fingerprint": "0xf0f78016513e882a",
-      "url": "https://pgp.mit.edu/pks/lookup?op=get&search=0xF0F78016513E882A"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/shadouts",
+        "name": "cover"
+      }
+    ],
+    "name": "Jack Degenstein"
   },
   "verifications": [
     {
-      "identifier": "Shadouts",
-      "proof_url": "https://gist.github.com/Shadouts/05d21e69344fe8219e44",
-      "service": "github",
-      "valid": false
+      "identifier": "shadouts",
+      "proof_url": "https://twitter.com/shadouts/status/780098498247086081",
+      "service": "twitter",
+      "valid": true
     },
     {
-      "identifier": "jack.degenstein",
-      "proof_url": "https://facebook.com/jack.degenstein/posts/1085798114775360",
-      "service": "facebook",
+      "identifier": "Shadouts",
+      "proof_url": "https://gist.github.com/Shadouts/226067cf9d60622ecb51760624625fba",
+      "service": "github",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN shadouts.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/shadouts.id\"\n"
 }

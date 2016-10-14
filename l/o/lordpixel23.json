@@ -1,6 +1,67 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "13vinWrMboAgjtZdVBjKEmPsrwbek6gpgh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "lordpixel23",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/lordpixel23/676170f90ef49f76a04695891ca6cb37",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lordpixel23",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/lordpixel23/status/741848547906195456",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "andrew.thompson.79230",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/andrew.thompson.79230/posts/10153478729411890",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brooklyn, NY"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/lordpixel23",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/lordpixel23",
+        "name": "cover"
+      }
+    ],
+    "name": "Andrew Thompson"
+  },
+  "verifications": [
+    {
+      "identifier": "lordpixel23",
+      "proof_url": "https://gist.github.com/lordpixel23/676170f90ef49f76a04695891ca6cb37",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "lordpixel23",
+      "proof_url": "https://twitter.com/lordpixel23/status/741848547906195456",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "andrew.thompson.79230",
+      "proof_url": "https://www.facebook.com/andrew.thompson.79230/posts/10153478729411890",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN lordpixel23.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lordpixel23.id\"\n"
 }

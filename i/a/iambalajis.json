@@ -1,0 +1,62 @@
+{
+  "owner_address": "137ASVTbyi56s25ru7QmRdGJXEMus7Sebe",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "iambalajisundar",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/iambalajisundar/status/771678787184521216",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "iamBalajiSundar",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/iamBalajiSundar/c3127c2ac4b552abaf4c7c63fae0995d#file-gistfile1-txt",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "profile.php?id=100001260954186",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/permalink.php?story_fbid=1193414974043856&id=100001260954186&pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/iambalajis",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "iambalajisundar",
+      "proof_url": "https://twitter.com/iambalajisundar/status/771678787184521216",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "iamBalajiSundar",
+      "proof_url": "https://gist.github.com/iamBalajiSundar/c3127c2ac4b552abaf4c7c63fae0995d#file-gistfile1-txt",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "profile.php?id=100001260954186",
+      "proof_url": "https://www.facebook.com/permalink.php?story_fbid=1193414974043856&id=100001260954186&pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN iambalajis.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/iambalajis.id\"\n"
+}

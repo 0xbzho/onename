@@ -1,0 +1,79 @@
+{
+  "owner_address": "173RNSUxbDsA2DbHMUE5X8NSA57Zgbksq1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "zakburki",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/zakburki/status/769560968535822336",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "zakir2k",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/zakir2k/e44f4b7dcbdb253558345da2683c7a82",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "zakburki",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/zakburki/posts/10157392219295437",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/zakir2k",
+        "identifier": null,
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1LSmMfby9pUwgmTwfxkCVBAPvWTTRi2G9e",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hong Kong"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/zakir2k",
+        "name": "avatar"
+      }
+    ],
+    "name": "Zak Burki"
+  },
+  "verifications": [
+    {
+      "identifier": "zakburki",
+      "proof_url": "https://twitter.com/zakburki/status/769560968535822336",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "zakir2k",
+      "proof_url": "https://gist.github.com/zakir2k/e44f4b7dcbdb253558345da2683c7a82",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "zakburki",
+      "proof_url": "https://www.facebook.com/zakburki/posts/10157392219295437",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN zakir2k.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/zakir2k.id\"\n"
+}

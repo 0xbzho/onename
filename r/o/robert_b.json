@@ -1,39 +1,65 @@
 {
   "owner_address": "13T6veCv4mvrJTGPauQ2rmdXdTCp6qMGww",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/robert_b"
-    },
-    "bitcoin": {
-      "address": "195JafmpzjAT8L4FAVnHALp9Bsn26i6xGJ"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/yvD.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/soundslike_post@hotmail.com/posts/10153981499428206"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "soundslike_post@hotmail.com",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "soundslike_post@hotmail.com"
+      {
+        "@type": "Account",
+        "identifier": "195JafmpzjAT8L4FAVnHALp9Bsn26i6xGJ",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/robert_b",
+        "identifier": "4BAF120C256CF62923AC92404D647339AE0F815F",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cab06481ba7b3027628538a2a446bad592b8b68c",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Sounds-Like",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Sounds-Like/294de41d68a4852f869963a078ae3920",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Visby"
     },
-    "location": {
-      "formatted": "Visby"
-    },
-    "name": {
-      "formatted": "Robert Björkqvist"
-    },
-    "pgp": {
-      "fingerprint": "4BAF120C256CF62923AC92404D647339AE0F815F",
-      "url": "https://s3.amazonaws.com/pk9/robert_b"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/robert_b",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Robert Björkqvist"
   },
   "verifications": [
     {
-      "identifier": "soundslike_post@hotmail.com",
-      "proof_url": "https://facebook.com/soundslike_post@hotmail.com/posts/10153981499428206",
-      "service": "facebook",
+      "identifier": "Sounds-Like",
+      "proof_url": "https://gist.github.com/Sounds-Like/294de41d68a4852f869963a078ae3920",
+      "service": "github",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN robert_b.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/robert_b.id\"\n"
 }

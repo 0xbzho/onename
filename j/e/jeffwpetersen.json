@@ -1,0 +1,48 @@
+{
+  "owner_address": "1PutYPH6naqE14fJr22v91BR3GcWrcpmQx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jeffwpetersen",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jeffwpetersen/f954d6822c9a308e80ea89c77f57e68e.js",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Spring Hill Kansas"
+    },
+    "description": "I am alive.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jeffwpetersen",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jeffwpetersen",
+        "name": "cover"
+      }
+    ],
+    "name": "Jeffrey William Petersen",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://juniperstudio.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jeffwpetersen",
+      "proof_url": "https://gist.github.com/jeffwpetersen/f954d6822c9a308e80ea89c77f57e68e.js",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jeffwpetersen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jeffwpetersen.id\"\n"
+}

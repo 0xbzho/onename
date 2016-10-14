@@ -1,0 +1,62 @@
+{
+  "owner_address": "13Khry7bYMaya17fykgCEcwxes2ScFBwW2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "giorgio-zamparelli",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/giorgio-zamparelli/2402768d92611c23d94f1b04b4185ef1",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "giorgio_zampa",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/giorgio_zampa/status/766939210381074432",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "giorgio.zamparelli",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/giorgio.zamparelli/posts/10157232881500543",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/giorgio_zamparelli",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "giorgio-zamparelli",
+      "proof_url": "https://gist.github.com/giorgio-zamparelli/2402768d92611c23d94f1b04b4185ef1",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "giorgio_zampa",
+      "proof_url": "https://twitter.com/giorgio_zampa/status/766939210381074432",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "giorgio.zamparelli",
+      "proof_url": "https://www.facebook.com/giorgio.zamparelli/posts/10157232881500543",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN giorgio_zamparelli.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/giorgio_zamparelli.id\"\n"
+}

@@ -1,50 +1,67 @@
 {
   "owner_address": "14tbC9aPRwq2fsEbEF4AVKAE1QEKeZAzLi",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/zariok"
-    },
-    "bio": "I code, therefor I am.",
-    "bitcoin": {
-      "address": "17EQHeZetEPmwK9Uu5fnHscTB3UrbXyP7s"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/4AL.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/zariok/posts/10156539939765394"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "17EQHeZetEPmwK9Uu5fnHscTB3UrbXyP7s",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "zariok"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/zariok/66093402d84f505eac85"
+      {
+        "@type": "Account",
+        "identifier": "1a5ad85e2125dc9577950771d2d609659e18fd28",
+        "service": "openbazaar"
       },
-      "username": "zariok"
-    },
-    "location": {
-      "formatted": "St. Louis, MO"
-    },
-    "name": {
-      "formatted": "John Draughn"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/zariok/status/705944191390461952"
+      {
+        "@type": "Account",
+        "identifier": "zariok",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/zariok/status/705944191390461952",
+        "service": "twitter"
       },
-      "username": "zariok"
+      {
+        "@type": "Account",
+        "identifier": "zariok",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/zariok/posts/10156539939765394",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "zariok",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/zariok/a8d5f7c05a3ae2b01522",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "St. Louis, MO"
     },
-    "v": "0.2",
-    "website": "http://zariok.com/"
+    "description": "I code, therefor I am.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/zariok",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "John Draughn",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://zariok.com/"
+      }
+    ]
   },
   "verifications": [
-    {
-      "identifier": "zariok",
-      "proof_url": "https://gist.github.com/zariok/66093402d84f505eac85",
-      "service": "github",
-      "valid": true
-    },
     {
       "identifier": "zariok",
       "proof_url": "https://twitter.com/zariok/status/705944191390461952",
@@ -53,9 +70,16 @@
     },
     {
       "identifier": "zariok",
-      "proof_url": "https://facebook.com/zariok/posts/10156539939765394",
+      "proof_url": "https://www.facebook.com/zariok/posts/10156539939765394",
       "service": "facebook",
       "valid": true
+    },
+    {
+      "identifier": "zariok",
+      "proof_url": "https://gist.github.com/zariok/a8d5f7c05a3ae2b01522",
+      "service": "github",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN zariok.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/zariok.id\"\n"
 }

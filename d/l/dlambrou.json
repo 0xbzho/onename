@@ -1,13 +1,37 @@
 {
   "owner_address": "1JjdtjUTA7x4QmNrMQB4yx7uBorFUobq8z",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/ic1.jpeg"
-    },
-    "name": {
-      "formatted": "Dimitris Lambrou"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "https:",
+        "proofType": "http",
+        "proofUrl": "https://gist.githubusercontent.com/dlambrou/ecc0c7cfa1e39e884576dad560462931/raw/642a667a09afac799a7fcc09608912256f433cf8/gistfile1.txt",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dlambrou",
+        "name": "avatar"
+      }
+    ],
+    "name": "Dimitris Lambrou"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "https:",
+      "proof_url": "https://gist.githubusercontent.com/dlambrou/ecc0c7cfa1e39e884576dad560462931/raw/642a667a09afac799a7fcc09608912256f433cf8/gistfile1.txt",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN dlambrou.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dlambrou.id\"\n"
 }

@@ -1,0 +1,56 @@
+{
+  "owner_address": "1MpG5WfVLBLThVLC5Aj6eCH8npP2D69CZz",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "f193ccbed6056f175aa8554542ebf815a0e7509c",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/heydonovan/13955098f90e410a37d3233bbf1e4b8c",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Strattonberg",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Strattonberg/status/777987724989046785",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "micah.spiller",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/accesswealth&redirect_uri=https://onename.com/accesswealth%23facebook",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/accesswealth",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/accesswealth",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Strattonberg",
+      "proof_url": "https://twitter.com/Strattonberg/status/777987724989046785",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "micah.spiller",
+      "proof_url": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/accesswealth&redirect_uri=https://onename.com/accesswealth%23facebook",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN accesswealth.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/accesswealth.id\"\n"
+}

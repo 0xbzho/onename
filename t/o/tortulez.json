@@ -1,0 +1,31 @@
+{
+  "owner_address": "1SVDyTiLjt6zmxYDU5JxTLT1ZYUGScAty",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tortulez",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tortulez/858c8f35f7a63ab33c91fc6884974017",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tortulez",
+      "proof_url": "https://gist.github.com/tortulez/858c8f35f7a63ab33c91fc6884974017",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tortulez.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tortulez.id\"\n"
+}

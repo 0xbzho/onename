@@ -1,0 +1,62 @@
+{
+  "owner_address": "1E7RH3sVx5JTZFLFH9pTJXfK3dQtQ7vTmT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "meosen",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/meosen/status/775871129734963200",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "meosen",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/meosen/a83ddb532259b9ad382e6d20d43dadbc#file-verifying-meosen-id",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "aaron.j.everhart",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/aaron.j.everhart/posts/601710426657441",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/meosen",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "meosen",
+      "proof_url": "https://twitter.com/meosen/status/775871129734963200",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "meosen",
+      "proof_url": "https://gist.github.com/meosen/a83ddb532259b9ad382e6d20d43dadbc#file-verifying-meosen-id",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "aaron.j.everhart",
+      "proof_url": "https://www.facebook.com/aaron.j.everhart/posts/601710426657441",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN meosen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/meosen.id\"\n"
+}

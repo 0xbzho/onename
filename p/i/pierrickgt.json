@@ -1,0 +1,73 @@
+{
+  "owner_address": "1EmxKfie4oUmCpHZukXarvnkmuEEu5cGc4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "PierrickGT",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/PierrickGT/status/777499384426749952",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "turelier.pierrick",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/turelier.pierrick/posts/10154568118779264",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "PierrickGT",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/PierrickGT/f9e916f260cd3bcd844316599d2ff251",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "36kqEG9GtEcCrDj1Yv2e5ZFb3hJ9sAV88R",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/pierrickgt",
+        "name": "avatar"
+      }
+    ],
+    "name": "Pierrick Turelier"
+  },
+  "verifications": [
+    {
+      "identifier": "PierrickGT",
+      "proof_url": "https://twitter.com/PierrickGT/status/777499384426749952",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "turelier.pierrick",
+      "proof_url": "https://www.facebook.com/turelier.pierrick/posts/10154568118779264",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "PierrickGT",
+      "proof_url": "https://gist.github.com/PierrickGT/f9e916f260cd3bcd844316599d2ff251",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN pierrickgt.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pierrickgt.id\"\n"
+}

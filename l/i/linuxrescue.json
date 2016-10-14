@@ -1,0 +1,39 @@
+{
+  "owner_address": "1FqeopsiARDGF3DowwnzTQ2MEnvmKPagkQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1MgUEZgmGNBjmJyiUhEU4HWKSq1ereEraQ",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Canada"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/linuxrescue",
+        "name": "avatar"
+      }
+    ],
+    "name": "Linux Rescue",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.nesbitt.ca"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN linuxrescue.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/linuxrescue.id\"\n"
+}

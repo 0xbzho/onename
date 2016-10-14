@@ -1,36 +1,48 @@
 {
   "owner_address": "17xxhN2tdUcHywkuaabUGp69kZs4Z1B1Fz",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/sambiohazard"
-    },
-    "bio": "Cryptocurrency Beginner learning and sharing about cryptocurrency. I accept Blackcoin if you r feeling generous. BPBR1PcXbweMkhp8R5xwBiGg1gjXagyDJz",
-    "bitcoin": {
-      "address": "14FLM5yQhVNzrW9BzWa3oDMT2fuqrPcUVB"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/sambiohazard"
-    },
-    "location": {
-      "formatted": "India"
-    },
-    "name": {
-      "formatted": "Soumitra Mandhata"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/sambiohazard/status/537059180692004865"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "14FLM5yQhVNzrW9BzWa3oDMT2fuqrPcUVB",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "sambiohazard"
+      {
+        "@type": "Account",
+        "identifier": "sambiohazard",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sambiohazard/status/767009064505053185",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "India"
     },
-    "v": "0.2"
+    "description": "Cryptocurrency Beginner learning and sharing about cryptocurrency. I accept Blackcoin if you r feeling generous. BPBR1PcXbweMkhp8R5xwBiGg1gjXagyDJz",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/sambiohazard",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sambiohazard",
+        "name": "avatar"
+      }
+    ],
+    "name": "Soumitra Mandhata"
   },
   "verifications": [
     {
       "identifier": "sambiohazard",
-      "proof_url": "https://twitter.com/sambiohazard/status/537059180692004865",
+      "proof_url": "https://twitter.com/sambiohazard/status/767009064505053185",
       "service": "twitter",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN sambiohazard.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sambiohazard.id\"\n"
 }

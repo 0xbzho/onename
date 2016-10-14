@@ -1,0 +1,36 @@
+{
+  "owner_address": "1GdTFtbJ5fdKLXjdB7PJftmvkiGtmGzVrx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "billythebutcher",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/billythebutcher/status/775700063045681152",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/butcherbilly",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/butcherbilly",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "billythebutcher",
+      "proof_url": "https://twitter.com/billythebutcher/status/775700063045681152",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN butcherbilly.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/butcherbilly.id\"\n"
+}

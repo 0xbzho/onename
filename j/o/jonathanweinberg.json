@@ -1,39 +1,55 @@
 {
   "owner_address": "1CQPdHss5UgSdsq2dVL2Df3b9LGuuDSzFJ",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/jonathanweinberg"
-    },
-    "bio": "ConfigMgr Centric SysAdmin",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/rv1.jpeg"
-    },
-    "facebook": {
-      "username": "jonathandavidweinberg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/jonathanweinberg/666b580b72c91a96afdb"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/jonathanweinberg",
+        "identifier": "5D783EF32A974C3908C20E12E3B43DE4F781EE72",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "jonathanweinberg"
-    },
-    "location": {
-      "formatted": "Albany, New York"
-    },
-    "name": {
-      "formatted": "Jonathan Weinberg"
-    },
-    "pgp": {
-      "fingerprint": "5D783EF32A974C3908C20E12E3B43DE4F781EE72",
-      "url": "https://s3.amazonaws.com/pk9/jonathanweinberg"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/slippyfox/status/686731099020640256"
+      {
+        "@type": "Account",
+        "identifier": "slippyfox",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/slippyfox/status/771188951784706049",
+        "service": "twitter"
       },
-      "username": "slippyfox"
+      {
+        "@type": "Account",
+        "identifier": "jonathanweinberg",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jonathanweinberg/666b580b72c91a96afdb",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jonathandavidweinberg",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jonathandavidweinberg/posts/10157580401385026",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Albany, New York"
     },
-    "v": "0.2"
+    "description": "ConfigMgr Centric SysAdmin",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jonathanweinberg",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jonathan Weinberg"
   },
   "verifications": [
     {
@@ -49,5 +65,5 @@
       "valid": true
     }
   ],
-  "zone_file": {}
+  "zone_file": "$ORIGIN jonathanweinberg.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jonathanweinberg.id\"\n"
 }

@@ -1,0 +1,57 @@
+{
+  "owner_address": "1G7gPVCFsfKu94NPVE3x4BmCwcP6YkTGQJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "klaushubben",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/klaushubben/status/764209515906600961",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "klaushubben",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/klaushubben/c05de91f743e65e25346a2f6d0476ef7",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "klaushaus",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/klaushaus/posts/10154362825863396",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "klaushubben",
+      "proof_url": "https://twitter.com/klaushubben/status/764209515906600961",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "klaushubben",
+      "proof_url": "https://gist.github.com/klaushubben/c05de91f743e65e25346a2f6d0476ef7",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "klaushaus",
+      "proof_url": "https://www.facebook.com/klaushaus/posts/10154362825863396",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN nickhubben.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nickhubben.id\"\n"
+}

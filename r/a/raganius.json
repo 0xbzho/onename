@@ -1,68 +1,80 @@
 {
   "owner_address": "12SmGHhwuwmpcxQJNm32VXGBbReuo5ec3f",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/raganius"
-    },
-    "bio": "DASHpag.com",
-    "bitcoin": {
-      "address": "1H3wwKe14JqgNokrs8msPt1LovEzd5E78X"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/raganius"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/raganius.ivan/posts/1580261798860753"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "raganius.ivan",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "raganius.ivan"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/Raganius/4599da49d7d6b94a1825"
+      {
+        "@type": "Account",
+        "contentUrl": "https://pgp.mit.edu/pks/lookup?op=get&search=0xF172A03F39526D6B",
+        "identifier": "7DE2EE9A164BB9D75EF3A7D9F172A03F39526D6B",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "Raganius"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/raganius"
-    },
-    "location": {
-      "formatted": "Brazil"
-    },
-    "name": {
-      "formatted": "Raganius"
-    },
-    "pgp": {
-      "fingerprint": "7DE2EE9A164BB9D75EF3A7D9F172A03F39526D6B",
-      "url": "https://pgp.mit.edu/pks/lookup?op=get&search=0xF172A03F39526D6B"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/cryptoRaganius/status/704423738654257154"
+      {
+        "@type": "Account",
+        "identifier": "1KxYgihYW6eV2AAsLdd27JMVAtspNu4wKS",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "cryptoRaganius"
+      {
+        "@type": "Account",
+        "identifier": "cryptoRaganius",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cryptoRaganius/status/763887013489700865",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Raganius",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Raganius/12a9262086fd6449a4cc137fc6fe0b63",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brazil"
     },
-    "v": "0.2",
-    "website": "http://www.dashpag.com"
+    "description": "cryptoPag.com, serviços de consultoria empresarial para adoção de criptomoedas.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/raganius",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/raganius",
+        "name": "cover"
+      }
+    ],
+    "name": "Ivan T. Liborio",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.cryptopag.com"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "Raganius",
-      "proof_url": "https://gist.github.com/Raganius/4599da49d7d6b94a1825",
-      "service": "github",
-      "valid": true
-    },
-    {
       "identifier": "cryptoRaganius",
-      "proof_url": "https://twitter.com/cryptoRaganius/status/704423738654257154",
+      "proof_url": "https://twitter.com/cryptoRaganius/status/763887013489700865",
       "service": "twitter",
       "valid": true
     },
     {
-      "identifier": "raganius.ivan",
-      "proof_url": "https://facebook.com/raganius.ivan/posts/1580261798860753",
-      "service": "facebook",
-      "valid": true
+      "identifier": "Raganius",
+      "proof_url": "https://gist.github.com/Raganius/12a9262086fd6449a4cc137fc6fe0b63",
+      "service": "github",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN raganius.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/raganius.id\"\n"
 }

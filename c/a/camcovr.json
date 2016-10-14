@@ -1,0 +1,42 @@
+{
+  "owner_address": "1NZ2AGjMKoVZ7kxC2JoCvL2avf8yXQxFCt",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1N1SUqyz5aKaxZni9UeetywvHP55x4YwTF",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "3973fc091fb848dd27d66e8efd7613af559a68fa",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/iansheridan/fd9b1caa5f6724e6743bebb20faeb880",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/camcovr",
+        "name": "avatar"
+      }
+    ],
+    "name": "CAMCOVR. Cover Your Webcam. Protect Your Privacy.",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.camcovr.com"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN camcovr.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/camcovr.id\"\n"
+}

@@ -1,6 +1,39 @@
 {
-  "owner_address": "1occgbip7tFDXX9MvzQhcnTUUjcVX2dYK",
-  "profile": {},
+  "owner_address": "1KGjmAbAYX1w8qwDMKthqSw3Zt4y21cwMn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "17DU9QKz424JkVC5vmgLcN8ohC3YeJ3zFY",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "11b75dad4331044389fc414755eaf01be0e3cb11",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London, UK"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/artiomchilaru",
+        "name": "cover"
+      }
+    ],
+    "name": "Artiom Chilaru",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.flexlabs.org"
+      }
+    ]
+  },
   "verifications": [],
   "zone_file": "$ORIGIN artiomchilaru.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/artiomchilaru.id\"\n"
 }

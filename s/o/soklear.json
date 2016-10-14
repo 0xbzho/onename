@@ -1,34 +1,40 @@
 {
   "owner_address": "1L5mJXqwz4ua5WLbmNDatcPTtsEdLLFBdY",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/soklear"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "iamsoklear",
+        "proofType": "http",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "bio": "Photographer | Creator | Art Student at KABK",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/soklear"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "soklear"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/iamsoklear/status/719293208895885313"
+    "description": "Photographer | Creator | Art Student at KABK",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/soklear",
+        "name": "avatar"
       },
-      "username": "iamsoklear"
-    },
-    "v": "0.2",
-    "website": "http://blog.soklear.com"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/soklear",
+        "name": "cover"
+      }
+    ],
+    "name": "SKLR",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://blog.soklear.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "iamsoklear",
-      "proof_url": "https://twitter.com/iamsoklear/status/719293208895885313",
-      "service": "twitter",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN soklear.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/soklear.id\"\n"
 }

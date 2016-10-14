@@ -1,0 +1,51 @@
+{
+  "owner_address": "1BJ3qGtTZHTP4WuK3vWCUTP5LKw8XvrxkW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "67d67cb786d0b4a6ce4f4a3328bebd5ea0621abd",
+        "service": "openbazzar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https://www.facebook.com/teresa.szerencses",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "TereF82",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TereF82",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Italy"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/healthbazaar",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/healthbazaar",
+        "name": "cover"
+      }
+    ],
+    "name": "Herbal -Bazaar"
+  },
+  "verifications": [
+    {
+      "identifier": "TereF82",
+      "proof_url": "https://twitter.com/TereF82",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN healthbazaar.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/healthbazaar.id\"\n"
+}

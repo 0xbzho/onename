@@ -1,0 +1,62 @@
+{
+  "owner_address": "13oyZyJzGVts9h38JVEE6nRnKPckck97tr",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "majnun1337",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/majnun1337/0918869d8693452479572276ee0aa2d5",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "manoj_sahukar",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/manoj_sahukar/status/777523958677635072",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "manoj.sahukar",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/manoj.sahukar/posts/1117687761612149",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/majnun1337",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "majnun1337",
+      "proof_url": "https://gist.github.com/majnun1337/0918869d8693452479572276ee0aa2d5",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "manoj_sahukar",
+      "proof_url": "https://twitter.com/manoj_sahukar/status/777523958677635072",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "manoj.sahukar",
+      "proof_url": "https://www.facebook.com/manoj.sahukar/posts/1117687761612149",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN majnun1337.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/majnun1337.id\"\n"
+}

@@ -1,0 +1,58 @@
+{
+  "owner_address": "1PUzXRxA8KgPhqH8ZQU4ixYY7TsqxERddW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "danielcolonnese",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/danielcolonnese/status/763825625727692801",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dcolonn",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dcolonn/eaf08dd678799d25cfc85bd69028259a",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "danielcolonnese",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/daniel_colonnese",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Daniel Colonnese"
+  },
+  "verifications": [
+    {
+      "identifier": "danielcolonnese",
+      "proof_url": "https://twitter.com/danielcolonnese/status/763825625727692801",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "dcolonn",
+      "proof_url": "https://gist.github.com/dcolonn/eaf08dd678799d25cfc85bd69028259a",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "danielcolonnese",
+      "proof_url": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/daniel_colonnese",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN daniel_colonnese.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/daniel_colonnese.id\"\n"
+}

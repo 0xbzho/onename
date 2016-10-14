@@ -1,0 +1,36 @@
+{
+  "owner_address": "1FDfEETmts61uPcs2K6gYaXTivZRXT54sL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "LifelineNutrients",
+        "proofType": "http",
+        "proofUrl": "https://lifelinenutrients.com",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/lifelinenutrients",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/lifelinenutrients",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "LifelineNutrients",
+      "proof_url": "https://lifelinenutrients.com",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN lifelinenutrients.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lifelinenutrients.id\"\n"
+}

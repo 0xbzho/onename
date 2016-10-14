@@ -1,61 +1,66 @@
 {
   "owner_address": "18SdAjPhWx4AbFZcz13CHz4E32Hr95789y",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/darioduran"
-    },
-    "bio": "Getting my head around Crypto-Things in 2016",
-    "bitcoin": {
-      "address": "15ETjxYhK9oVGWbMEe4HYrdX1ScSgAeDUe"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/darioduran"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/dariotepotec/posts/580216565487692"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dariotepotec",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "dariotepotec"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/mytwocentimes/367d215a07db3807e8d2"
+      {
+        "@type": "Account",
+        "identifier": "mytwocentimes",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "mytwocentimes"
-    },
-    "location": {
-      "formatted": "Switzerland"
-    },
-    "name": {
-      "formatted": "Dario Duran"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/dariotepotec/status/683033278295748609"
+      {
+        "@type": "Account",
+        "identifier": "15ETjxYhK9oVGWbMEe4HYrdX1ScSgAeDUe",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "dariotepotec"
+      {
+        "@type": "Account",
+        "identifier": "dariotepotec",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/DarioTepoTec/status/776390475787931648",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Switzerland"
     },
-    "v": "0.2"
+    "description": "Getting my head around Crypto-Things in 2016",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/darioduran",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/darioduran",
+        "name": "cover"
+      }
+    ],
+    "name": "Dario Duran",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.tepotec.com"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "mytwocentimes",
-      "proof_url": "https://gist.github.com/mytwocentimes/367d215a07db3807e8d2",
-      "service": "github",
-      "valid": true
-    },
-    {
       "identifier": "dariotepotec",
-      "proof_url": "https://twitter.com/dariotepotec/status/683033278295748609",
+      "proof_url": "https://twitter.com/DarioTepoTec/status/776390475787931648",
       "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "dariotepotec",
-      "proof_url": "https://facebook.com/dariotepotec/posts/580216565487692",
-      "service": "facebook",
       "valid": true
     }
   ],
-  "zone_file": {}
+  "zone_file": "$ORIGIN darioduran.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/darioduran.id\"\n"
 }

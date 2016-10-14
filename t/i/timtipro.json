@@ -1,30 +1,46 @@
 {
   "owner_address": "17HWgXT7SGUtUMFAF6mmss6Cwqmad8dqaM",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/timtipro"
-    },
-    "bio": "",
-    "bitcoin": {
-      "address": "15dyaXnyq4KDua8SdeFPn75NTF68c9hj6p"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/wdX.jpeg"
-    },
-    "location": {
-      "formatted": "Ostsee"
-    },
-    "name": {
-      "formatted": "Tim Schulenburg"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/TimtiPRO/status/718440311731699712"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "15dyaXnyq4KDua8SdeFPn75NTF68c9hj6p",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "TimtiPRO"
+      {
+        "@type": "Account",
+        "identifier": "TimtiPRO",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TimtiPRO/status/718440311731699712",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ostsee"
     },
-    "v": "0.2",
-    "website": "http://timtipro.de"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/timtipro",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Tim Schulenburg",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://timtipro.de"
+      }
+    ]
   },
   "verifications": [
     {
@@ -33,5 +49,6 @@
       "service": "twitter",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN timtipro.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/timtipro.id\"\n"
 }

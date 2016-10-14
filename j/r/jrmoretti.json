@@ -1,0 +1,62 @@
+{
+  "owner_address": "1NbNxEPgFvurE69dqaHuym41FiXvU1h9b3",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jaymoretti",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JayMoretti/status/764453054343184384",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jrmoretti",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jrmoretti/3ffcc4ea2337c83305db8f5d9b6d68b9",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jrmoretti",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jrmoretti/posts/10154457671149510",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jrmoretti",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jrmoretti",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jaymoretti",
+      "proof_url": "https://twitter.com/JayMoretti/status/764453054343184384",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jrmoretti",
+      "proof_url": "https://gist.github.com/jrmoretti/3ffcc4ea2337c83305db8f5d9b6d68b9",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "jrmoretti",
+      "proof_url": "https://www.facebook.com/jrmoretti/posts/10154457671149510",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jrmoretti.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jrmoretti.id\"\n"
+}

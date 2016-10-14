@@ -1,0 +1,35 @@
+{
+  "owner_address": "16JXM3vg7W6U3K1DcXgcqkMP2w9DsbVCqb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "hoo_notanowl",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/hoo_notanowl/status/763054919184158720",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Prague"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "hoo_notanowl",
+      "proof_url": "https://twitter.com/hoo_notanowl/status/763054919184158720",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN notanowl.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/notanowl.id\"\n"
+}

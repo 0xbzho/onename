@@ -1,50 +1,73 @@
 {
   "owner_address": "1JcRYZ6MtnHv7zYiJpC2tqZ2j1h1ZMmsjr",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/ronaldrosenberg"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/IHL.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/rosenberg.ronald/posts/10205636853856861"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "http://pgp.mit.edu/pks/lookup?op=get&search=0x0DA407332B5875E0",
+        "identifier": "32C0E023A913087F4BA1FC9C0DA407332B5875E0",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "rosenberg.ronald"
-    },
-    "location": {
-      "formatted": "Tallinn Estonia"
-    },
-    "name": {
-      "formatted": "Ronald Rosenberg"
-    },
-    "pgp": {
-      "fingerprint": "32C0E023A913087F4BA1FC9C0DA407332B5875E0",
-      "url": "http://pgp.mit.edu/pks/lookup?op=get&search=0x0DA407332B5875E0"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/rontz81/status/714808579778285568"
+      {
+        "@type": "Account",
+        "identifier": "13Lmq3QQ1ayyDJDZsa2nHxem6XcH1eCrSs",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "rontz81"
+      {
+        "@type": "Account",
+        "identifier": "rosenberg.ronald",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/rosenberg.ronald/posts/10205636853856861?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rontz81",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rontz81/status/714808579778285568",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Tallinn Estonia"
     },
-    "v": "0.2",
-    "website": "https://www.facebook.com/rosenberg.ronald"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ronaldrosenberg",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ronald Rosenberg",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.facebook.com/rosenberg.ronald"
+      }
+    ]
   },
   "verifications": [
+    {
+      "identifier": "rosenberg.ronald",
+      "proof_url": "https://www.facebook.com/rosenberg.ronald/posts/10205636853856861?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
     {
       "identifier": "rontz81",
       "proof_url": "https://twitter.com/rontz81/status/714808579778285568",
       "service": "twitter",
       "valid": true
-    },
-    {
-      "identifier": "rosenberg.ronald",
-      "proof_url": "https://facebook.com/rosenberg.ronald/posts/10205636853856861",
-      "service": "facebook",
-      "valid": true
     }
   ],
-  "zone_file": {}
+  "zone_file": "$ORIGIN ronaldrosenberg.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ronaldrosenberg.id\"\n"
 }

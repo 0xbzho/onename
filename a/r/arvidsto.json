@@ -1,0 +1,44 @@
+{
+  "owner_address": "1ByanFDY5XLaHE8ycx4gNABXQcEQYzYy3F",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "arvidsto",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/arvidsto/status/784291968201338880",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "arvidsto",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/arvidsto/0f179c4bdd8b232d2e9a32613ffba76c",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "arvidsto",
+      "proof_url": "https://twitter.com/arvidsto/status/784291968201338880",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "arvidsto",
+      "proof_url": "https://gist.github.com/arvidsto/0f179c4bdd8b232d2e9a32613ffba76c",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN arvidsto.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/arvidsto.id\"\n"
+}

@@ -35,13 +35,18 @@
         "proofType": "http",
         "proofUrl": "https://gist.github.com/m8urnett/882bba1c33b3eed83ecffb481f46bb67",
         "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "m8urnett",
+        "service": "disqus"
       }
     ],
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "UT"
     },
-    "description": "Independent IT security analyst and author.   https://keybase.io/m8urnett",
+    "description": "IT security analyst and author  |  South Weber, Utah",
     "image": [
       {
         "@type": "ImageObject",
@@ -73,7 +78,7 @@
       "identifier": "m8urnett",
       "proof_url": "https://gist.github.com/m8urnett/882bba1c33b3eed83ecffb481f46bb67",
       "service": "github",
-      "valid": true
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN m8urnett.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/m8urnett.id\"\n"

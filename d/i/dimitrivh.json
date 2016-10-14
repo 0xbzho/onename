@@ -1,0 +1,62 @@
+{
+  "owner_address": "1BReeZ1oB4fBHSpwTeBr9JYJnRxpYvFTmQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dimitrivh",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dimitrivh/status/778874704270622720",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dimitrivh",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dimitrivh/posts/10209598128962923",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dimitrivh",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dimitrivh/508d96b954b3ff89f94fa5c84d25117c",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dimitrivh",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dimitrivh",
+      "proof_url": "https://twitter.com/dimitrivh/status/778874704270622720",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "dimitrivh",
+      "proof_url": "https://www.facebook.com/dimitrivh/posts/10209598128962923",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "dimitrivh",
+      "proof_url": "https://gist.github.com/dimitrivh/508d96b954b3ff89f94fa5c84d25117c",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN dimitrivh.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dimitrivh.id\"\n"
+}

@@ -1,0 +1,79 @@
+{
+  "owner_address": "18yPVwyJCE4afkpb3gZpxvv7ixygT6TxZX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "krzysztof_piech",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/krzysztof_piech/status/772730647433580544",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "krzysztofpiech",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/krzysztofpiech/67a20f2e50e684258d3fcd8b3d23fa9a",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pgp.mit.edu/pks/lookup?op=get&search=0x57CFFB3A737BFBC9",
+        "identifier": "mQENBFM/SAkBCACTSLA43rnw92idQVQIanmvWQIZH2xI6OFazI8VgvN2PIb7VqTlqv9bLmiM4LIZjPCCbbRZqbiUbN6ZuJMFm9lSjJAncYN3peV7V7rKaT9Ad8p+vodeePmR6Qm/DViogHNvyAVxB/VAauf0iNO2DH1EJ0PN2UiLBxqJczqlhfSluPU7SrMRMZODREMNjvoP32OsTm6THHoPZjZ4JZ+udPxHE3mvh+yOtqp1hkTawWzmEAkKpFHJhqRzU27tHup23JtdZ9qMtkjUowilNPCDOKDt4YN3+V/2M4wb/9Iy5cBQImr2cJnCC79nRbqA1nEwOX77e9ycZjy1np2Pbc/n6lsrABEBAAG0L0tyenlzenRvZiBQaWVjaCA8a3J6eXN6dG9mLnBpZWNoQGluc3R5dHV0LmluZm8+iQEcBBABCAAQBQJTP0gNCRBXz/s6c3v7yQAA+/sH/jCvOIgLQdGCzOZiT1KzpsZloyQDgqEFj0KUQ9Atb7YLD+N2/Bll0Ynud/RflsN3/AkTbMWk8NfktJUYAGnGIlhbTMa1r2421WmqWhDfj31OcztnmogqSfzZQiXneoXLJVRFYOfvdkxq/u5Cb1u1tl2NMbKiQxIV8I++L1y/2S2/pX1yspQOhYFwjc3jPezs4KWtl7xox3ut/2khaKU+tG1dfZzMMFX2ca93VFQSVxIRCNqBseX/OcHsjRgSHUuAaJrZhO/g8OL5v+hjit5nucRiqb5v6C9G3uJVz7FNnYFV86fxrJhESnck6zF3PzTjm5s0DiQqopIwHMmK9UGGVfE==X74K",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "krzysztofpiech.info",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/krzysztofpiech.info/posts/10154264925904733",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Warsaw"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kpiech",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/kpiech",
+        "name": "cover"
+      }
+    ],
+    "name": "Krzysztof Piech",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://about.me/kpiech"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "krzysztof_piech",
+      "proof_url": "https://twitter.com/krzysztof_piech/status/772730647433580544",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "krzysztofpiech",
+      "proof_url": "https://gist.github.com/krzysztofpiech/67a20f2e50e684258d3fcd8b3d23fa9a",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "krzysztofpiech.info",
+      "proof_url": "https://www.facebook.com/krzysztofpiech.info/posts/10154264925904733",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN kpiech.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kpiech.id\"\n"
+}

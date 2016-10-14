@@ -1,0 +1,73 @@
+{
+  "owner_address": "14aeLS13iPhVdA7wKrpF5d1sjnJgaZuzfq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "guidomarangoni",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/GuidoMarangoni/status/766651779538976768",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "guido.marangoni",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/guido.marangoni/posts/10154377333224454",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "guidomarangoni",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/guidomarangoni/7ea8f9e068586ae6994c0a77b76428e3",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Italy"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/guidomarangoni",
+        "name": "avatar"
+      }
+    ],
+    "name": "Guido Marangoni",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.guidomarangoni.it"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "guidomarangoni",
+      "proof_url": "https://twitter.com/GuidoMarangoni/status/766651779538976768",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "guido.marangoni",
+      "proof_url": "https://www.facebook.com/guido.marangoni/posts/10154377333224454",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "guidomarangoni",
+      "proof_url": "https://gist.github.com/guidomarangoni/7ea8f9e068586ae6994c0a77b76428e3",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN guidomarangoni.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/guidomarangoni.id\"\n"
+}

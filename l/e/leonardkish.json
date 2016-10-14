@@ -1,50 +1,67 @@
 {
   "owner_address": "1BJiG8h4P5NqpiHAsJTdqrUL6957a5D4Ha",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/leonardkish"
-    },
-    "bio": "Exploring how networks affect health, wealth and wisdom | Principal @VivaPhi | patient engagment eBook author http://bit.ly/1DJiBo7  | MBA/MSIS/MS neuroscience",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/leonardkish"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/leonardkish/posts/10205533452749203"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "leonardkish",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/leonardkish/status/786261539217027072",
+        "service": "twitter"
       },
-      "username": "leonardkish"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/leokold/2e5065a9c728c13b7c86"
+      {
+        "@type": "Account",
+        "identifier": "leonardkish",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/leonardkish/posts/10209984492142406",
+        "service": "facebook"
       },
-      "username": "leokold"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/leonardkish"
-    },
-    "location": {
-      "formatted": "Colorado"
-    },
-    "name": {
-      "formatted": "Leonard Kish"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/leonardkish/status/569245247051468801"
+      {
+        "@type": "Account",
+        "identifier": "1Lof57eJYUrhqJ5H8VypQntTS6k6sz4CxV",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "leonardkish"
+      {
+        "@type": "Account",
+        "identifier": "leokold",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/leokold/2e5065a9c728c13b7c86",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Colorado"
     },
-    "v": "0.2",
-    "website": "http://www.hl7standards.com/blog/author/leonard-kish/"
+    "description": "Exploring how networks affect health, wealth and wisdom | Principal @VivaPhi | patient engagment eBook author http://bit.ly/1DJiBo7  | MBA/MSIS/MS neuroscience",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/leonardkish",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/leonardkish",
+        "name": "cover"
+      }
+    ],
+    "name": "Leonard Kish",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.hl7standards.com/blog/author/leonard-kish/"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "leokold",
       "proof_url": "https://gist.github.com/leokold/2e5065a9c728c13b7c86",
       "service": "github",
-      "valid": true
+      "valid": false
     },
     {
       "identifier": "leonardkish",
@@ -58,5 +75,6 @@
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN leonardkish.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/leonardkish.id\"\n"
 }

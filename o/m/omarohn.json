@@ -1,0 +1,57 @@
+{
+  "owner_address": "1FYgCCL48Tcbzr1fGqa3gfY6uuFDqf7cEn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "OMarohn",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/OMarohn/status/786169880022102017",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "omarohn",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/omarohn/posts/1195571080514878",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "OMarohn",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/OMarohn/eb78bb2b9568281b9bc66b1eb5d70797",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "OMarohn",
+      "proof_url": "https://twitter.com/OMarohn/status/786169880022102017",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "omarohn",
+      "proof_url": "https://www.facebook.com/omarohn/posts/1195571080514878",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "OMarohn",
+      "proof_url": "https://gist.github.com/OMarohn/eb78bb2b9568281b9bc66b1eb5d70797",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN omarohn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/omarohn.id\"\n"
+}

@@ -1,68 +1,66 @@
 {
   "owner_address": "1DzPhjrSDNn6PaCvqegzQdGhtKwydM29J5",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "47c5d5e8c09e3b425b874a6a0a0fc66535f414a8",
-        "service": "openbazaar"
+        "identifier": "ReedRosenbluth",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "reedrosenbluth",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1MUFBbLAoFEBPiqbRCk9ABa3nJbVKPtfwF",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ReedRosenbluth",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/reedrosenbluth/status/776092450016399360",
+        "service": "twitter"
       }
     ],
-    "avatar": {
-      "url": "https://pbs.twimg.com/profile_images/1867446205/Reed.jpg"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York"
     },
-    "bio": "student at UPenn. interested in code, music, and bitcoin. intern at eBay NYC during the summer.",
-    "bitcoin": {
-      "address": "1MUFBbLAoFEBPiqbRCk9ABa3nJbVKPtfwF"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/reed"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/ReedRosenbluth/posts/10203228358103658"
+    "description": "student at UPenn. interested in code, music, and bitcoin. intern at eBay NYC during the summer.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/reed",
+        "name": "cover"
       },
-      "username": "ReedRosenbluth"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/reedrosenbluth/279929a0977ae32316c97665d05a3305"
-      },
-      "username": "reedrosenbluth"
-    },
-    "location": {
-      "formatted": "New York"
-    },
-    "name": {
-      "formatted": "Reed Rosenbluth"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/ReedRosenbluth/status/584382686489399298"
-      },
-      "username": "ReedRosenbluth"
-    },
-    "v": "0.2",
-    "website": "http://reedrosenbluth.com"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/reed",
+        "name": "avatar"
+      }
+    ],
+    "name": "Reed Rosenbluth",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://reedrosenbluth.com"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "reedrosenbluth",
-      "proof_url": "https://gist.github.com/reedrosenbluth/279929a0977ae32316c97665d05a3305",
-      "service": "github",
-      "valid": true
-    },
-    {
       "identifier": "ReedRosenbluth",
-      "proof_url": "https://twitter.com/ReedRosenbluth/status/584382686489399298",
+      "proof_url": "https://twitter.com/reedrosenbluth/status/776092450016399360",
       "service": "twitter",
       "valid": true
-    },
-    {
-      "identifier": "ReedRosenbluth",
-      "proof_url": "https://facebook.com/ReedRosenbluth/posts/10203228358103658",
-      "service": "facebook",
-      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN reed.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/reed.id\"\n"
 }

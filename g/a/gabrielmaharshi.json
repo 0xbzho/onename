@@ -1,0 +1,73 @@
+{
+  "owner_address": "1JqtDuhQAnQph3p5NHJsNxUPdvc5BwbLns",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "GabrielMaharshi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/GabrielMaharshi/status/778318160671809536",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "maharshigabriel",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/maharshigabriel/posts/1658964437752265",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ec7be7614e9f4c1c77c2a31a8e7728ed41d5c5aa",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gabrielmaharshi",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/gabrielmaharshi/f57d68e31590e77fb1e10318ded858de#file-onename",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1NTtmtboc8c41JE3x8N8hhLnjuNKid4ZPv",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gabrielmaharshi",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "GabrielMaharshi",
+      "proof_url": "https://twitter.com/GabrielMaharshi/status/778318160671809536",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "maharshigabriel",
+      "proof_url": "https://www.facebook.com/maharshigabriel/posts/1658964437752265",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "gabrielmaharshi",
+      "proof_url": "https://gist.github.com/gabrielmaharshi/f57d68e31590e77fb1e10318ded858de#file-onename",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN gabrielmaharshi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gabrielmaharshi.id\"\n"
+}

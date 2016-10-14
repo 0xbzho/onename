@@ -1,0 +1,42 @@
+{
+  "owner_address": "1JJaDa1ssFrLX4nQYmHneZYfR17onae8kZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bjarnebare",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bjarnebare/status/769286286079254528",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Los Angeles / Oslo"
+    },
+    "description": "Artist etc. with an emphasis on photography – founder of MELK galleri & Cornerkiosk press",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bjarnebare",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bjarnebare",
+        "name": "avatar"
+      }
+    ],
+    "name": "Bjarne Bare"
+  },
+  "verifications": [
+    {
+      "identifier": "bjarnebare",
+      "proof_url": "https://twitter.com/bjarnebare/status/769286286079254528",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bjarnebare.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bjarnebare.id\"\n"
+}

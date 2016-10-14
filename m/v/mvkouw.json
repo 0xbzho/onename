@@ -1,0 +1,73 @@
+{
+  "owner_address": "1BrHc6nKSSLjH6wCAcR85KA3gk2ovirkW5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mvkouw",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mvkouw/status/773823088190447616",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "WilleZurMacht",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/WilleZurMacht/38b7c47bc23cd1928ebe5b4d57a7ca96",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "matthijs.kouw",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/matthijs.kouw/posts/1293914250627522",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Netherlands"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mvkouw",
+        "name": "avatar"
+      }
+    ],
+    "name": "Matthijs Kouw",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.matthijskouw.nl"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mvkouw",
+      "proof_url": "https://twitter.com/mvkouw/status/773823088190447616",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "WilleZurMacht",
+      "proof_url": "https://gist.github.com/WilleZurMacht/38b7c47bc23cd1928ebe5b4d57a7ca96",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "matthijs.kouw",
+      "proof_url": "https://www.facebook.com/matthijs.kouw/posts/1293914250627522",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mvkouw.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mvkouw.id\"\n"
+}

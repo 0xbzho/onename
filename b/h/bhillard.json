@@ -1,0 +1,62 @@
+{
+  "owner_address": "1KtRCCig6QErhdEGdRB82SGbnvwvxhBt98",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ben_hillard",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ben_hillard/status/780093815008948224",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bhillard",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bhillard/2f2c91e92c08e336eecde21b80ff5240#file-blockstack-id",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ben.hillard.35",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ben.hillard.35/posts/1157247074334086?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Allegan, Michigan 49010"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Benjamyn Hillard"
+  },
+  "verifications": [
+    {
+      "identifier": "ben_hillard",
+      "proof_url": "https://twitter.com/ben_hillard/status/780093815008948224",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bhillard",
+      "proof_url": "https://gist.github.com/bhillard/2f2c91e92c08e336eecde21b80ff5240#file-blockstack-id",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "ben.hillard.35",
+      "proof_url": "https://www.facebook.com/ben.hillard.35/posts/1157247074334086?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bhillard.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bhillard.id\"\n"
+}

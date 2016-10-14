@@ -29,6 +29,11 @@
         "proofType": "http",
         "proofUrl": "https://gist.github.com/aasmakov/de1e7014cbcb05a7fa4394aa5ec99a77",
         "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "5b21aefcf6576dc88d432c1c16575de9ce19b2f8",
+        "service": "openbazaar"
       }
     ],
     "address": {
@@ -39,13 +44,13 @@
     "image": [
       {
         "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/mcandrews",
-        "name": "avatar"
+        "contentUrl": "https://s3.amazonaws.com/dx3/mcandrews",
+        "name": "cover"
       },
       {
         "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/dx3/mcandrews",
-        "name": "cover"
+        "contentUrl": "https://s3.amazonaws.com/kd4/mcandrews",
+        "name": "avatar"
       }
     ],
     "name": "Andrew Asmakov",
@@ -73,7 +78,7 @@
       "identifier": "aasmakov",
       "proof_url": "https://gist.github.com/aasmakov/de1e7014cbcb05a7fa4394aa5ec99a77",
       "service": "github",
-      "valid": true
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN mcandrews.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mcandrews.id\"\n"

@@ -1,22 +1,41 @@
 {
   "owner_address": "1G95519hFpyHsxVSfLLFywdkV3NNN9JU1U",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/ytoulemonde"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "yann.toulemonde",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/yann.toulemonde/posts/10153820778008805",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "yann"
     },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/lUU.jpeg"
-    },
-    "facebook": {
-      "username": "yann.toulemonde"
-    },
-    "location": {
-      "formatted": "yann"
-    },
-    "name": {
-      "formatted": "Toulemonde"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ytoulemonde",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Toulemonde"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "yann.toulemonde",
+      "proof_url": "https://www.facebook.com/yann.toulemonde/posts/10153820778008805",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ytoulemonde.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ytoulemonde.id\"\n"
 }

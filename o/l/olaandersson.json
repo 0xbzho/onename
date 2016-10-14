@@ -1,0 +1,45 @@
+{
+  "owner_address": "1B3UHAt5SeD2U8c57hR4V4cnZcTdGsGBxe",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "discola",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/discola/status/764166720210755584",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dscola",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dscola/posts/10154407294769028?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ola Andersson"
+  },
+  "verifications": [
+    {
+      "identifier": "discola",
+      "proof_url": "https://twitter.com/discola/status/764166720210755584",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "dscola",
+      "proof_url": "https://www.facebook.com/dscola/posts/10154407294769028?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN olaandersson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/olaandersson.id\"\n"
+}

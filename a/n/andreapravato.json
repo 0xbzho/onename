@@ -1,0 +1,73 @@
+{
+  "owner_address": "1JH18kUFzh8FXXR7VuK6iXu3yxwbDgF1bA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "pravatoandrea",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/pravatoandrea/status/777538085085122560",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "AndreaPravato",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/AndreaPravato/a9fa481a27f2f4588a53daf3a7aeed43",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "andrea.pravato",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/andrea.pravato/posts/10153925120981593?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1KuXyTyqbSwJjqqqfacvCStWixwm4UQtbV",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Rovereto, Italy"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/andreapravato",
+        "name": "avatar"
+      }
+    ],
+    "name": "Andrea Pravato"
+  },
+  "verifications": [
+    {
+      "identifier": "pravatoandrea",
+      "proof_url": "https://twitter.com/pravatoandrea/status/777538085085122560",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "AndreaPravato",
+      "proof_url": "https://gist.github.com/AndreaPravato/a9fa481a27f2f4588a53daf3a7aeed43",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "andrea.pravato",
+      "proof_url": "https://www.facebook.com/andrea.pravato/posts/10153925120981593?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN andreapravato.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/andreapravato.id\"\n"
+}

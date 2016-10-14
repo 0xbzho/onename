@@ -1,0 +1,49 @@
+{
+  "owner_address": "1K8tziHQpCsyLaXDc1Lnp8xVq8K1uMkLip",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sergejspomer",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SergejSpomer/status/774573984876630017",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sergej.spomer1",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/sergej.spomer1/posts/10209646017294720",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sergejspomer",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "sergejspomer",
+      "proof_url": "https://twitter.com/SergejSpomer/status/774573984876630017",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "sergej.spomer1",
+      "proof_url": "https://www.facebook.com/sergej.spomer1/posts/10209646017294720",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN sergejspomer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sergejspomer.id\"\n"
+}

@@ -1,0 +1,63 @@
+{
+  "owner_address": "1MNbHEJax3xwCTyB97oL71NoF2B8H7caJe",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tobbe.sve",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/tobbe.sve/posts/10154359134799882",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "spiddeer",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/spiddeer/status/763779717652701184",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/937268a3991fc4eb527e056c4a21ac93",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/spiddeer",
+        "name": "avatar"
+      }
+    ],
+    "name": "Tobias Svensson"
+  },
+  "verifications": [
+    {
+      "identifier": "tobbe.sve",
+      "proof_url": "https://www.facebook.com/tobbe.sve/posts/10154359134799882",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "spiddeer",
+      "proof_url": "https://twitter.com/spiddeer/status/763779717652701184",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/937268a3991fc4eb527e056c4a21ac93",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN spiddeer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/spiddeer.id\"\n"
+}

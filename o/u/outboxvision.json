@@ -1,0 +1,48 @@
+{
+  "owner_address": "1HxiFvUThT2wWQbaJqUxz5QMoWcYWRCZGK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "DanielCojocaru",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/DanielCojocaru/status/772854307649626112",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1Hp9L6zjCNtztzifmfHpydkU6DNesxPj8",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bucharest"
+    },
+    "description": "Business Designer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/outboxvision",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/outboxvision",
+        "name": "cover"
+      }
+    ],
+    "name": "Daniel Cojocaru"
+  },
+  "verifications": [
+    {
+      "identifier": "DanielCojocaru",
+      "proof_url": "https://twitter.com/DanielCojocaru/status/772854307649626112",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN outboxvision.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/outboxvision.id\"\n"
+}

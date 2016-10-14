@@ -25,17 +25,22 @@
       },
       {
         "@type": "Account",
-        "identifier": "https://www.facebook.com/vincent.vilquin.44680",
+        "identifier": "",
         "proofType": "http",
         "proofUrl": "https://www.facebook.com/vincent.vilquin.44680/posts/1724606077794375?pnref=story",
         "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "7a0b942a30843d11b7b1f3ceb4203fc322c97109",
+        "service": "openbazaar"
       }
     ],
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "France"
     },
-    "description": "Ancien YouTuber et ancien Trader, je me spécialise dans la blockchain, plus précisément dans les crypto-currency.",
+    "description": "Ancien YouTuber et Trader, je me suis spécialisé dans la Blockchain avec crypto-currency en pensant qu'une économie plus juste pourrait être crée.",
     "image": [
       {
         "@type": "ImageObject",
@@ -61,7 +66,7 @@
       "identifier": "Blysards",
       "proof_url": "https://gist.github.com/Blysards/6eba742b2ad92f0f1eceb22db3a1ccff#file-gistfile1-txt",
       "service": "github",
-      "valid": true
+      "valid": false
     },
     {
       "identifier": "vincentvilquin",
@@ -70,10 +75,10 @@
       "valid": true
     },
     {
-      "identifier": "https://www.facebook.com/vincent.vilquin.44680",
+      "identifier": "",
       "proof_url": "https://www.facebook.com/vincent.vilquin.44680/posts/1724606077794375?pnref=story",
       "service": "facebook",
-      "valid": false
+      "valid": true
     }
   ],
   "zone_file": "$ORIGIN blysards.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/blysards.id\"\n"

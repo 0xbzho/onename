@@ -1,0 +1,38 @@
+{
+  "owner_address": "17gqFUK4DtSRK1ujWoRWvHxQtg2SFRgaJa",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "brett",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chicago"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bjackson",
+        "name": "avatar"
+      }
+    ],
+    "name": "Brett Jackson",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://brettjackson.org"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN bjackson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bjackson.id\"\n"
+}

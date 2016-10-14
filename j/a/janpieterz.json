@@ -1,45 +1,68 @@
 {
   "owner_address": "1NNfh4RZm9VscWhGJSE24XXcRMH65r6nBZ",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/janpieterz"
-    },
-    "bio": "Developer with a passion for philosophy.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/L2N.jpeg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/janpieterz/6573f36671d778300b9d"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "janpieter_z",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/janpieter_z/status/598148714348335104",
+        "service": "twitter"
       },
-      "username": "janpieterz"
-    },
-    "location": {
-      "formatted": "Rotterdam"
-    },
-    "name": {
-      "formatted": "Jan-Pieter"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/janpieter_z/status/598148714348335104"
+      {
+        "@type": "Account",
+        "identifier": "janpieterz",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/janpieterz/6573f36671d778300b9d",
+        "service": "github"
       },
-      "username": "janpieter_z"
+      {
+        "@type": "Account",
+        "identifier": "janpieterz",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/janpieterz/posts/1265742533449551",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Rotterdam"
     },
-    "v": "0.2"
+    "description": "Developer with a passion for philosophy.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/janpieterz",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jan-Pieter"
   },
   "verifications": [
-    {
-      "identifier": "janpieterz",
-      "proof_url": "https://gist.github.com/janpieterz/6573f36671d778300b9d",
-      "service": "github",
-      "valid": true
-    },
     {
       "identifier": "janpieter_z",
       "proof_url": "https://twitter.com/janpieter_z/status/598148714348335104",
       "service": "twitter",
       "valid": true
+    },
+    {
+      "identifier": "janpieterz",
+      "proof_url": "https://gist.github.com/janpieterz/6573f36671d778300b9d",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "janpieterz",
+      "proof_url": "https://www.facebook.com/janpieterz/posts/1265742533449551",
+      "service": "facebook",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN janpieterz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/janpieterz.id\"\n"
 }

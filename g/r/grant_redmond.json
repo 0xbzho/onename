@@ -1,0 +1,74 @@
+{
+  "owner_address": "1677LS2qkdWsyMNW4mmGuBKCHJ3i3Ethf2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sitezwebdesign",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SITEZwebdesign/status/770049834522906628",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "grant.redmond",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/grant.redmond/posts/10210227581591190",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Grant-Redmond",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Grant-Redmond/7fe41064c718c93ca7b4d518a0ddbf3f",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1H3knmx4rZy9PyfxSBVrs2Vi8WqopQB7Gr",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Henderson, NV"
+    },
+    "description": "Founder/CEO @ SITEZ Web Design - Founder/CTO @ Sierra High Infusions - Blockchain/Bitcoin Enthusiast & Entrepreneur",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/grant_redmond",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/grant_redmond",
+        "name": "cover"
+      }
+    ],
+    "name": "Grant Redmond"
+  },
+  "verifications": [
+    {
+      "identifier": "sitezwebdesign",
+      "proof_url": "https://twitter.com/SITEZwebdesign/status/770049834522906628",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "grant.redmond",
+      "proof_url": "https://www.facebook.com/grant.redmond/posts/10210227581591190",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "Grant-Redmond",
+      "proof_url": "https://gist.github.com/Grant-Redmond/7fe41064c718c93ca7b4d518a0ddbf3f",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN grant_redmond.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/grant_redmond.id\"\n"
+}

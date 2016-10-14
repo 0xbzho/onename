@@ -23,6 +23,18 @@
         "proofType": "http",
         "proofUrl": "https://gist.github.com/firemound/0e3d433d985f6723102164439716559b",
         "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/brendanboyd",
+        "identifier": "B8702C0FB8E234657E6CE68A093EB24FC607E659",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1HZrBxtNycUmdFG13xg5Q8BriFu2vBgJSB",
+        "role": "payment",
+        "service": "bitcoin"
       }
     ],
     "address": {
@@ -60,7 +72,7 @@
       "identifier": "firemound",
       "proof_url": "https://gist.github.com/firemound/0e3d433d985f6723102164439716559b",
       "service": "github",
-      "valid": true
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN brendanboyd.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/brendanboyd.id\"\n"

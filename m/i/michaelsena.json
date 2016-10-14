@@ -27,28 +27,23 @@
     ],
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "San Francisco, CA"
+      "addressLocality": "Brooklyn, NY"
     },
-    "description": "product management consulting @jumpassociates, formerly @barclays, @princeton",
+    "description": "Blockchain product manager",
     "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/michaelsena",
-        "name": "avatar"
-      },
       {
         "@type": "ImageObject",
         "contentUrl": "https://s3.amazonaws.com/dx3/michaelsena",
         "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/michaelsena",
+        "name": "avatar"
       }
     ],
     "name": "Michael Sena",
-    "website": [
-      {
-        "@type": "WebSite",
-        "url": "http://www.strategymic.com"
-      }
-    ]
+    "website": []
   },
   "verifications": [
     {
@@ -67,7 +62,7 @@
       "identifier": "miksen22",
       "proof_url": "https://gist.github.com/miksen22/d1e465fe8ba999794e961f630fac0b99#file-gistfile1-txt",
       "service": "github",
-      "valid": true
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN michaelsena.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/michaelsena.id\"\n"

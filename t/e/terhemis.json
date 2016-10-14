@@ -1,24 +1,48 @@
 {
   "owner_address": "1DVjKXVGQKyHrvhAu4T1v9iJdyTp9gKziC",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/terhemis"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "terhemis",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/terhemis/status/776320445507334144",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "France"
     },
-    "bio": "Navigue sur les flux, répercute en mots.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/terhemis"
-    },
-    "location": {
-      "formatted": "France"
-    },
-    "name": {
-      "formatted": "terhemis"
-    },
-    "twitter": {
-      "username": "terhemis"
-    },
-    "v": "0.2",
-    "website": "http://realitesfictions.wordpress.com"
+    "description": "Navigue sur les flux, répercute en mots.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/terhemis",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/terhemis",
+        "name": "cover"
+      }
+    ],
+    "name": "terhemis",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://realitesfictions.wordpress.com"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "terhemis",
+      "proof_url": "https://twitter.com/terhemis/status/776320445507334144",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN terhemis.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/terhemis.id\"\n"
 }

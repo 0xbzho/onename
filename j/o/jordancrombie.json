@@ -1,58 +1,68 @@
 {
   "owner_address": "15B2ditt8rsgzxFQhTBkBegwRMah1WzvQw",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/jordancrombie"
-    },
-    "bio": "Interac / OG CertaPay",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/jordancrombie"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/jordancrombie/posts/666672726768676"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jordancrombie",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jordancrombie/posts/733349283434353",
+        "service": "facebook"
       },
-      "username": "jordancrombie"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/jordancrombie/1a15f4664ce810efe2ca"
+      {
+        "@type": "Account",
+        "identifier": "jordancrombie",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jordancrombie/status/763015538679439360",
+        "service": "twitter"
       },
-      "username": "jordancrombie"
+      {
+        "@type": "Account",
+        "identifier": "jordancrombie",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jordancrombie/d547812d1cd766a56609b065c73a4146",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Toronto, Ontario"
     },
-    "location": {
-      "formatted": "Toronto, Ontario"
-    },
-    "name": {
-      "formatted": "Jordan Crombie"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/jordancrombie/status/708122930111066112"
+    "description": "Interac / OG CertaPay",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jordancrombie",
+        "name": "avatar"
       },
-      "username": "jordancrombie"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jordancrombie",
+        "name": "cover"
+      }
+    ],
+    "name": "Jordan Crombie"
   },
   "verifications": [
     {
       "identifier": "jordancrombie",
-      "proof_url": "https://gist.github.com/jordancrombie/1a15f4664ce810efe2ca",
-      "service": "github",
+      "proof_url": "https://www.facebook.com/jordancrombie/posts/733349283434353",
+      "service": "facebook",
       "valid": true
     },
     {
       "identifier": "jordancrombie",
-      "proof_url": "https://twitter.com/jordancrombie/status/708122930111066112",
+      "proof_url": "https://twitter.com/jordancrombie/status/763015538679439360",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "jordancrombie",
-      "proof_url": "https://facebook.com/jordancrombie/posts/666672726768676",
-      "service": "facebook",
+      "proof_url": "https://gist.github.com/jordancrombie/d547812d1cd766a56609b065c73a4146",
+      "service": "github",
       "valid": false
     }
   ],
-  "zone_file": {}
+  "zone_file": "$ORIGIN jordancrombie.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jordancrombie.id\"\n"
 }

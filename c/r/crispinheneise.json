@@ -1,0 +1,57 @@
+{
+  "owner_address": "1GXuR82UAjNqjLLdeYZ8ERshNcLPtB8n2J",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Crispinheneise",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/CrispinHeneise/status/769762617418063873",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mysmallidea",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mysmallidea/04518d34a0d6fd44a5168c7eb274c809",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ryan.crispin.heneise",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ryan.crispin.heneise/posts/330730807266875?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Crispinheneise",
+      "proof_url": "https://twitter.com/CrispinHeneise/status/769762617418063873",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mysmallidea",
+      "proof_url": "https://gist.github.com/mysmallidea/04518d34a0d6fd44a5168c7eb274c809",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "ryan.crispin.heneise",
+      "proof_url": "https://www.facebook.com/ryan.crispin.heneise/posts/330730807266875?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN crispinheneise.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/crispinheneise.id\"\n"
+}

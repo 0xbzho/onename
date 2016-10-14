@@ -1,0 +1,41 @@
+{
+  "owner_address": "1MXhXBLtR3gfHYF3YgNihtpgRgBsj9xehx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "woodyvanolffen",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/woody.vanolffen/posts/10202438642484091",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Woeden, The Netherlands"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/woodyvanolffen",
+        "name": "avatar"
+      }
+    ],
+    "name": "Woody van Olffen"
+  },
+  "verifications": [
+    {
+      "identifier": "woodyvanolffen",
+      "proof_url": "https://www.facebook.com/woody.vanolffen/posts/10202438642484091",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN woodyvanolffen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/woodyvanolffen.id\"\n"
+}

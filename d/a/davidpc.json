@@ -1,0 +1,50 @@
+{
+  "owner_address": "1Apj2vRCJBT9DtF4Y2R5gzd7ecQ3N9HaiP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "davidpc",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/davidpc/72245ee0ed5dd7547e9bc654e2cd08d3",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "thisisdavidpc",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/thisisdavidpc/status/773959330001461248",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/davidpc",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/davidpc",
+        "name": "avatar"
+      }
+    ],
+    "name": "David Perez"
+  },
+  "verifications": [
+    {
+      "identifier": "davidpc",
+      "proof_url": "https://gist.github.com/davidpc/72245ee0ed5dd7547e9bc654e2cd08d3",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "thisisdavidpc",
+      "proof_url": "https://twitter.com/thisisdavidpc/status/773959330001461248",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN davidpc.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/davidpc.id\"\n"
+}

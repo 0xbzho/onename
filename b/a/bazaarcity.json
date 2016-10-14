@@ -23,13 +23,29 @@
         "proofType": "http",
         "proofUrl": "https://gist.github.com/benvhool/cdd75855c8a57fe5826a5607f4882800",
         "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "948923d1e92c3e956cecfb7536fe5969f37cfcfb",
+        "service": "openbazaar"
       }
     ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Worldwide"
+    },
     "image": [
       {
         "@type": "ImageObject",
         "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
         "name": "cover"
+      }
+    ],
+    "name": "BazaarCity",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://bazaarcity.io"
       }
     ]
   },
@@ -50,7 +66,7 @@
       "identifier": "benvhool",
       "proof_url": "https://gist.github.com/benvhool/cdd75855c8a57fe5826a5607f4882800",
       "service": "github",
-      "valid": true
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN bazaarcity.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bazaarcity.id\"\n"

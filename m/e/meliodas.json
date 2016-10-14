@@ -1,0 +1,51 @@
+{
+  "owner_address": "1MsA1BLG6qDxgiA1B43S81iMx2RinwXBfH",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "maxbyck",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Maxbyck/status/781565297484369920",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "max.byck.7/",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/max.byck.7/posts/1243347182383231?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "description": "King Of The Pirates",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/meliodas",
+        "name": "avatar"
+      }
+    ],
+    "name": "Meliodas"
+  },
+  "verifications": [
+    {
+      "identifier": "maxbyck",
+      "proof_url": "https://twitter.com/Maxbyck/status/781565297484369920",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "max.byck.7/",
+      "proof_url": "https://www.facebook.com/max.byck.7/posts/1243347182383231?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN meliodas.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/meliodas.id\"\n"
+}

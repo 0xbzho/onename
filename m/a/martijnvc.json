@@ -1,0 +1,54 @@
+{
+  "owner_address": "1DcSGJag9R9ptiMKh8KQYh2iCb2zDkp4Zb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "@Mvancalsteren",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MvanCalsteren/status/780388851768500224?lang=en",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mvancalsteren",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mvancalsteren?fref=nf&pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "United Kingdom"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/martijnvc",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/martijnvc",
+        "name": "cover"
+      }
+    ],
+    "name": "Martyn van Calsteren"
+  },
+  "verifications": [
+    {
+      "identifier": "@Mvancalsteren",
+      "proof_url": "https://twitter.com/MvanCalsteren/status/780388851768500224?lang=en",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "mvancalsteren",
+      "proof_url": "https://www.facebook.com/mvancalsteren?fref=nf&pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN martijnvc.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/martijnvc.id\"\n"
+}

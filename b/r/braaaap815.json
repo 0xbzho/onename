@@ -1,0 +1,43 @@
+{
+  "owner_address": "1EXEibLYncL5Kt75dYV78tJHHfhrc8uPWc",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "phojipsillex",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/PhojipsilleX/status/781980042968469508",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mycoinz",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/braaaap815",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/braaaap815",
+        "name": "cover"
+      }
+    ],
+    "name": "Deplorable Joe"
+  },
+  "verifications": [
+    {
+      "identifier": "phojipsillex",
+      "proof_url": "https://twitter.com/PhojipsilleX/status/781980042968469508",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN braaaap815.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/braaaap815.id\"\n"
+}

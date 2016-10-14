@@ -1,0 +1,32 @@
+{
+  "owner_address": "1DcVMabYJH4zHzibDYCDUnG9iAFY7fNwxg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "zomtact",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/zomtact/status/781300025641033728",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Zombie Tactical"
+  },
+  "verifications": [
+    {
+      "identifier": "zomtact",
+      "proof_url": "https://twitter.com/zomtact/status/781300025641033728",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN zomtact.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/zomtact.id\"\n"
+}

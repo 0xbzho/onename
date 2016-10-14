@@ -1,0 +1,38 @@
+{
+  "owner_address": "1JDCebsVTMqXXFH3aisMe7dHeiRqfZS5ob",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "langlotzmedia",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Braunschweig"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/langlotzmedia",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/langlotzmedia",
+        "name": "cover"
+      }
+    ],
+    "name": "Niels Langlotz",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.langlotz-media.de"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN langlotzmedia.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/langlotzmedia.id\"\n"
+}

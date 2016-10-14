@@ -1,0 +1,57 @@
+{
+  "owner_address": "1H3jekpF8mituVS5jsc8KBrS6pqJrF7WUg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dniklaus",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dniklaus/status/769534725400760320",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dnikl",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dnikl/9e9246769a610cae74c3295425e0b3f4",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dniklaus",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dniklaus/posts/10209919565043758",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dniklaus",
+      "proof_url": "https://twitter.com/dniklaus/status/769534725400760320",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "dnikl",
+      "proof_url": "https://gist.github.com/dnikl/9e9246769a610cae74c3295425e0b3f4",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "dniklaus",
+      "proof_url": "https://www.facebook.com/dniklaus/posts/10209919565043758",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN dniklaus.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dniklaus.id\"\n"
+}

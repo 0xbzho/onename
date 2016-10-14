@@ -1,64 +1,52 @@
 {
   "owner_address": "1HmbPDi8LwK8DASQRpeHwBdEzuqgZgSvFP",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/radent"
-    },
-    "bio": "Simple Man, Simple Life, Simple Think..",
-    "bitcoin": {
-      "address": "1PrghbfMBPgGWHDQ2zD9mzEPLvtmB2oKP6"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/HHE.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/kangmas.mamad/posts/1493849270865219"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "radent_mamad",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "kangmas.mamad"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/RadentMamad/a911343610d4b181732e"
+      {
+        "@type": "Account",
+        "identifier": "kangmas.mamad",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "RadentMamad"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/radent"
-    },
-    "location": {
-      "formatted": "Indonesia"
-    },
-    "name": {
-      "formatted": "Radent Mamad"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/radent_mamad/status/519604661574045698"
+      {
+        "@type": "Account",
+        "identifier": "RadentMamad",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "radent_mamad"
+      {
+        "@type": "Account",
+        "identifier": "3JApsDzX7KDYLg6SkqqghxdUSW9hfReUny",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Indonesia"
     },
-    "v": "0.2"
+    "description": "Simple Man, Simple Life, Simple Think..",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/radent",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Radent Mamad"
   },
-  "verifications": [
-    {
-      "identifier": "RadentMamad",
-      "proof_url": "https://gist.github.com/RadentMamad/a911343610d4b181732e",
-      "service": "github",
-      "valid": false
-    },
-    {
-      "identifier": "radent_mamad",
-      "proof_url": "https://twitter.com/radent_mamad/status/519604661574045698",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "kangmas.mamad",
-      "proof_url": "https://facebook.com/kangmas.mamad/posts/1493849270865219",
-      "service": "facebook",
-      "valid": true
-    }
-  ],
-  "zone_file": {}
+  "verifications": [],
+  "zone_file": "$ORIGIN radent.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/radent.id\"\n"
 }

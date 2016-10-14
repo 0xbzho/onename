@@ -1,24 +1,44 @@
 {
   "owner_address": "19JdBiJ57AsKyLw4nEnMpNYU1vsUxeCRYJ",
   "profile": {
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/rv1.jpeg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/dustynus/64cfa6dff943613552ab#file-gistfile1-txt"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1NwPWSRfsNjUUQB72vzN9omxiQk8iScUJE",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "dustynus"
-    },
-    "v": "0.2"
+      {
+        "@type": "Account",
+        "identifier": "protocy1",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/protocy1/status/784865114813968384",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1proto1",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/1proto1/9599728375a56b0d740d02c45fe641d9",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "dustynus",
       "proof_url": "https://gist.github.com/dustynus/64cfa6dff943613552ab#file-gistfile1-txt",
       "service": "github",
-      "valid": true
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN mikes.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mikes.id\"\n"
 }

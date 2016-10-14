@@ -1,0 +1,44 @@
+{
+  "owner_address": "1HnX5wphjbk6CJGiJYVyvw6ujchsk2StTf",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jcleonv",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JCLeonV/status/777899197160828928",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jcleon95",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jcleon95/posts/10157527363530014",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jcleonv",
+      "proof_url": "https://twitter.com/JCLeonV/status/777899197160828928",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jcleon95",
+      "proof_url": "https://www.facebook.com/jcleon95/posts/10157527363530014",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jcleon.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jcleon.id\"\n"
+}

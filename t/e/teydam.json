@@ -1,0 +1,42 @@
+{
+  "owner_address": "1KNnyCeuyGZ6xEYK89tJZanM3xmQBAxE6T",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Lincolon",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Lincolon/status/771412027298447360",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Central CA"
+    },
+    "description": "Traveler, activist",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/teydam",
+        "name": "avatar"
+      }
+    ],
+    "name": "Lincoln Bohn"
+  },
+  "verifications": [
+    {
+      "identifier": "Lincolon",
+      "proof_url": "https://twitter.com/Lincolon/status/771412027298447360",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN teydam.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/teydam.id\"\n"
+}

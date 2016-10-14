@@ -1,0 +1,55 @@
+{
+  "owner_address": "1DxuJ2hRSxWxquHAY7NNR1R21a7QtsWHqb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "robertsimoes",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RobertSimoes/status/767027630545768451",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "robertsimoes",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/robertsimoes/8c77a382869d80257f7210758647cc28",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1A3coN4RnuwvyDUheNW79mhYVc5u9nSaMK",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/robertsimoes",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/robertsimoes",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "robertsimoes",
+      "proof_url": "https://twitter.com/RobertSimoes/status/767027630545768451",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "robertsimoes",
+      "proof_url": "https://gist.github.com/robertsimoes/8c77a382869d80257f7210758647cc28",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN robertsimoes.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/robertsimoes.id\"\n"
+}

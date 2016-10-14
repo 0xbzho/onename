@@ -1,6 +1,63 @@
 {
-  "owner_address": "1JpPbpMpWxgknR3w9nePZre1MJoU1ARzFE",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1MKjyHDVvJRA9vogJE152RyMs4r3PLnj3Q",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Lucapiras",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/LucaPiras/status/760844201667866624",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https://www.facebook.com/glucapi",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/glucapi/posts/10153741869074327",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "<script src=\"LucaPi",
+        "proofType": "http",
+        "proofUrl": "<script src=\"https://gist.github.com/LucaPi/77a8a254624b25929d0e1a77d844ff50.js\"></script>",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "17TY9YfUPjUCc2q5uighqwLyCwDQwjqG7s",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Lucapiras",
+      "proof_url": "https://twitter.com/LucaPiras/status/760844201667866624",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "https://www.facebook.com/glucapi",
+      "proof_url": "https://www.facebook.com/glucapi/posts/10153741869074327",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "<script src=\"LucaPi",
+      "proof_url": "<script src=\"https://gist.github.com/LucaPi/77a8a254624b25929d0e1a77d844ff50.js\"></script>",
+      "service": "github",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN lucaprs.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lucaprs.id\"\n"
 }

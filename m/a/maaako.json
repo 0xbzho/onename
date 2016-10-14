@@ -1,36 +1,40 @@
 {
   "owner_address": "1EkLQZRTp84zh4BEpYVAyNpUyd1bcMUQd8",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/maaako"
-    },
-    "bio": "IT Professional: husband , father , brother , son",
-    "bitcoin": {
-      "address": "16dZNAcE3Hd79NEtHabAsmjGURxhkmnQ44"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/L2N.jpeg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/Maaako/ec6d6ed700cc9059842e"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Maaako",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "Maaako"
+      {
+        "@type": "Account",
+        "identifier": "16dZNAcE3Hd79NEtHabAsmjGURxhkmnQ44",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New Jerusalam"
     },
-    "location": {
-      "formatted": "New Zealand"
-    },
-    "name": {
-      "formatted": "Mark Arana Solomon"
-    },
-    "v": "0.2"
+    "description": "King Lord Majesty Wisdom Royal Anointed",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/maaako",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "King Solomon's Mine"
   },
-  "verifications": [
-    {
-      "identifier": "Maaako",
-      "proof_url": "https://gist.github.com/Maaako/ec6d6ed700cc9059842e",
-      "service": "github",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN maaako.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/maaako.id\"\n"
 }

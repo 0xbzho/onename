@@ -1,40 +1,61 @@
 {
   "owner_address": "12hLonk7C39deyUuorvw2xsApymhWQxiKr",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/ppcunha"
-    },
-    "bio": "Tecnologia, mergulho, fotografia, viagens, humor, cotidiano...",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/n6r.jpeg"
-    },
-    "facebook": {
-      "username": "ppcunha"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/ppcunha/4931484f2dbfc929ddef"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ppcunha",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "ppcunha"
+      {
+        "@type": "Account",
+        "identifier": "ppcunha",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fppcunha%2Fposts%2F10153681311002854",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ppcunha",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ppcunha/status/767745625932849152",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "São Paulo, Brazil"
     },
-    "location": {
-      "formatted": "São Paulo, Brazil"
-    },
-    "name": {
-      "formatted": "Pedro Paulo de Almeida Carneiro da Cunha"
-    },
-    "twitter": {
-      "username": "ppcunha"
-    },
-    "v": "0.2"
+    "description": "Tecnologia, mergulho, fotografia, viagens, humor, cotidiano...",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ppcunha",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Pedro Paulo de Almeida Carneiro da Cunha"
   },
   "verifications": [
     {
       "identifier": "ppcunha",
-      "proof_url": "https://gist.github.com/ppcunha/4931484f2dbfc929ddef",
-      "service": "github",
-      "valid": true
+      "proof_url": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fppcunha%2Fposts%2F10153681311002854",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "ppcunha",
+      "proof_url": "https://twitter.com/ppcunha/status/767745625932849152",
+      "service": "twitter",
+      "valid": false
     }
   ],
-  "zone_file": {}
+  "zone_file": "$ORIGIN ppcunha.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ppcunha.id\"\n"
 }

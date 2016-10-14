@@ -1,6 +1,85 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1N6yjENCXWxr7F8YXKTojb6Lpdvrrmma61",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/johnsockwell",
+        "identifier": "EFBC988FF5EED40B17B7B77088B7A605EE9560B1",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "johnsockwell",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/JohnSockwell/posts/10153805487360936",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "johnsockwell",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JohnSockwell/status/777691899192901637",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "18twR4Uzpts9rxSGTDb8ZByvQMCE2GxPKw",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "johnsockwell",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/johnsockwell/8c40eef25179de614acd677fefe9f74e",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "NYC"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/johnsockwell",
+        "name": "avatar"
+      }
+    ],
+    "name": "John Christopher Sockwell",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://john.sockwell.nyc"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "johnsockwell",
+      "proof_url": "https://www.facebook.com/JohnSockwell/posts/10153805487360936",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "johnsockwell",
+      "proof_url": "https://twitter.com/JohnSockwell/status/777691899192901637",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "johnsockwell",
+      "proof_url": "https://gist.github.com/johnsockwell/8c40eef25179de614acd677fefe9f74e",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN johnsockwell.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/johnsockwell.id\"\n"
 }

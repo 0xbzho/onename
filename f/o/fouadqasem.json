@@ -1,0 +1,54 @@
+{
+  "owner_address": "1KSKGZi1moLYr4WXPC9WTyJNDBYf3NCy8M",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "fouadqasem",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/fouadqasem/status/771235067838369793",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fouadqasem",
+        "proofType": "http",
+        "proofUrl": "www.facebook.com/fouadqasem/posts/10154416102893638&width=500",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "United Arab Emirates"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/fouadqasem",
+        "name": "avatar"
+      }
+    ],
+    "name": "Fuad Al Qasem"
+  },
+  "verifications": [
+    {
+      "identifier": "fouadqasem",
+      "proof_url": "https://twitter.com/fouadqasem/status/771235067838369793",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "fouadqasem",
+      "proof_url": "www.facebook.com/fouadqasem/posts/10154416102893638&width=500",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN fouadqasem.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fouadqasem.id\"\n"
+}

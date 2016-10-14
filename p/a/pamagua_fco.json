@@ -1,0 +1,49 @@
+{
+  "owner_address": "1ARuKQ3WKsJYikFBv2dmWExqNgKTUcJsKB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "fc_outfitters",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/fc_outfitters/status/767911557414154240",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "walter.skrzypekiii",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/walter.skrzypekiii/posts/10210689853827562",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/pamagua_fco",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/pamagua_fco",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "fc_outfitters",
+      "proof_url": "https://twitter.com/fc_outfitters/status/767911557414154240",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "walter.skrzypekiii",
+      "proof_url": "https://www.facebook.com/walter.skrzypekiii/posts/10210689853827562",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN pamagua_fco.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pamagua_fco.id\"\n"
+}

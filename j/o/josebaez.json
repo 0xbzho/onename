@@ -18,11 +18,6 @@
       {
         "@type": "Account",
         "identifier": "josebaezbarranco",
-        "service": "profile.linkedin.url"
-      },
-      {
-        "@type": "Account",
-        "identifier": "josebaezbarranco",
         "proofType": "http",
         "proofUrl": "https://www.facebook.com/mbaas/posts/10154876272186124",
         "service": "linkedin"
@@ -33,6 +28,11 @@
         "proofType": "http",
         "proofUrl": "https://gist.github.com/josebaez79/8e784ca7fcb6a5aa119baea6c2c746e1",
         "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "josebaezbarranco",
+        "service": "profile.linkedin.url"
       }
     ],
     "address": {
@@ -71,7 +71,7 @@
       "identifier": "josebaez79",
       "proof_url": "https://gist.github.com/josebaez79/8e784ca7fcb6a5aa119baea6c2c746e1",
       "service": "github",
-      "valid": true
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN josebaez.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/josebaez.id\"\n"

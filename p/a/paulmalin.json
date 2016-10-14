@@ -1,0 +1,49 @@
+{
+  "owner_address": "18rjxNYBxo7uU6AtzyWuntdyaV7JRAoe9d",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "malinpaul",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/malinpaul/status/786021725846642688",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "paul.malin",
+        "proofType": "http",
+        "proofUrl": "Verifying that \"paulmalin.id\" is my Blockstack ID. https://onename.com/paulmalin",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/paulmalin",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/paulmalin",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "malinpaul",
+      "proof_url": "https://twitter.com/malinpaul/status/786021725846642688",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "paul.malin",
+      "proof_url": "Verifying that \"paulmalin.id\" is my Blockstack ID. https://onename.com/paulmalin",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN paulmalin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/paulmalin.id\"\n"
+}

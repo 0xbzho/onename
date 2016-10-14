@@ -1,0 +1,49 @@
+{
+  "owner_address": "16wUt6rZwoWzTvCyH5ZVDNMrM1bjGhk1Es",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "barret_china",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Barret_China/status/773910891355975680",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "barretlee",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/barretlee/4f1cb1d58aba9c7fa05bec6db53c810a#file-gistfile1-txt",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/barretlee",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "barret_china",
+      "proof_url": "https://twitter.com/Barret_China/status/773910891355975680",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "barretlee",
+      "proof_url": "https://gist.github.com/barretlee/4f1cb1d58aba9c7fa05bec6db53c810a#file-gistfile1-txt",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN barretlee.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/barretlee.id\"\n"
+}

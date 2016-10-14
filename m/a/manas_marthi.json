@@ -1,0 +1,49 @@
+{
+  "owner_address": "1L5gw1cvKYk2bZrx8Bo2Ecv75nX76jQohA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "pikeview",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/pikeview/cb086fd1035de5b0ba43bfa1a9d1487e",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Manas_marthi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Manas_marthi/status/767771885119602692",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/manas_marthi",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "pikeview",
+      "proof_url": "https://gist.github.com/pikeview/cb086fd1035de5b0ba43bfa1a9d1487e",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "Manas_marthi",
+      "proof_url": "https://twitter.com/Manas_marthi/status/767771885119602692",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN manas_marthi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/manas_marthi.id\"\n"
+}

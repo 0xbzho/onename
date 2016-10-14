@@ -1,0 +1,36 @@
+{
+  "owner_address": "1HDGHYARzgNpkMnyQe6dBQpsubvryDmMVp",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "therimer",
+        "proofType": "http",
+        "proofUrl": "https://mobile.twitter.com/therimer/status/779951723469242368",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nathansavage",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/nathansavage",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "therimer",
+      "proof_url": "https://mobile.twitter.com/therimer/status/779951723469242368",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN nathansavage.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nathansavage.id\"\n"
+}

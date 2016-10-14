@@ -1,61 +1,79 @@
 {
   "owner_address": "1CM6wZcZGt4j4owLg4de6tFke3WVArJdj2",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/moyaja"
-    },
-    "bitcoin": {
-      "address": "122bnhgr7AdvYY5P8mJdZcekNNFAeJcjZx"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/moyaja"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/moyaja/posts/10203826421335217"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "122bnhgr7AdvYY5P8mJdZcekNNFAeJcjZx",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "moyaja"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/moyaja/e8393a8bc7ee98938e96"
+      {
+        "@type": "Account",
+        "identifier": "moyaja",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/moyaja/posts/10209577052657406",
+        "service": "facebook"
       },
-      "username": "moyaja"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Mohammed Yassine JAYA"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/moyaja/status/498676611344896001"
+      {
+        "@type": "Account",
+        "identifier": "moyaja",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/moyaja/236480bd8b7baa27fd0e89b96c8596a5",
+        "service": "github"
       },
-      "username": "moyaja"
+      {
+        "@type": "Account",
+        "identifier": "moyaja",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/moyaja/status/498676611344896001",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "v": "0.2",
-    "website": "http://jaya.ma"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/moyaja",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/moyaja",
+        "name": "cover"
+      }
+    ],
+    "name": "Mohammed Yassine JAYA",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://jaya.ma"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "moyaja",
-      "proof_url": "https://gist.github.com/moyaja/e8393a8bc7ee98938e96",
-      "service": "github",
+      "proof_url": "https://www.facebook.com/moyaja/posts/10209577052657406",
+      "service": "facebook",
       "valid": true
+    },
+    {
+      "identifier": "moyaja",
+      "proof_url": "https://gist.github.com/moyaja/236480bd8b7baa27fd0e89b96c8596a5",
+      "service": "github",
+      "valid": false
     },
     {
       "identifier": "moyaja",
       "proof_url": "https://twitter.com/moyaja/status/498676611344896001",
       "service": "twitter",
       "valid": true
-    },
-    {
-      "identifier": "moyaja",
-      "proof_url": "https://facebook.com/moyaja/posts/10203826421335217",
-      "service": "facebook",
-      "valid": false
     }
   ],
-  "zone_file": {}
+  "zone_file": "$ORIGIN moyaja.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/moyaja.id\"\n"
 }

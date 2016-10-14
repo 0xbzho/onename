@@ -25,15 +25,15 @@
       },
       {
         "@type": "Account",
-        "identifier": "nrobinson2000",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/nrobinson2000/3c3a39d28b1c04aaee33",
-        "service": "github"
+        "identifier": "eb0ae6ecb1b80fa1151baf740d5b393be18bcdc7",
+        "service": "openbazaar"
       },
       {
         "@type": "Account",
-        "identifier": "eb0ae6ecb1b80fa1151baf740d5b393be18bcdc7",
-        "service": "openbazaar"
+        "identifier": "nrobinson2000",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/nrobinson2000/d32d99b3e719ead5699e49f76dc40f28",
+        "service": "github"
       }
     ],
     "address": {
@@ -76,9 +76,9 @@
     },
     {
       "identifier": "nrobinson2000",
-      "proof_url": "https://gist.github.com/nrobinson2000/3c3a39d28b1c04aaee33",
+      "proof_url": "https://gist.github.com/nrobinson2000/d32d99b3e719ead5699e49f76dc40f28",
       "service": "github",
-      "valid": true
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN nrobinson2000.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nrobinson2000.id\"\n"

@@ -1,0 +1,54 @@
+{
+  "owner_address": "15MZgkf3MttQkV4Do5aQQupK94TVF4iitv",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dantheman777",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dantheman777/status/781877282944278532",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "danthemanbaxter",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/danthemanbaxter/posts/10210802576880877",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cape Coral, FL"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/danbaxter",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/danbaxter",
+        "name": "cover"
+      }
+    ],
+    "name": "Dan Baxter"
+  },
+  "verifications": [
+    {
+      "identifier": "dantheman777",
+      "proof_url": "https://twitter.com/dantheman777/status/781877282944278532",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "danthemanbaxter",
+      "proof_url": "https://www.facebook.com/danthemanbaxter/posts/10210802576880877",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN danbaxter.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/danbaxter.id\"\n"
+}

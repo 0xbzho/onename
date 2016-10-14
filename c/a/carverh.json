@@ -1,0 +1,41 @@
+{
+  "owner_address": "17e5U4bbGEQYsi3ncLYcVSZMAnV1ioJfsN",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "carverh",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/carverh/fe0629f75030ea0e689f26366fa5863f",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "12YJ7VpawpojEMtF4piPbLFni3Gn5ZVDNu",
+        "service": "browser"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/carverh",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "carverh",
+      "proof_url": "https://gist.github.com/carverh/fe0629f75030ea0e689f26366fa5863f",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN carverh.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/carverh.id\"\n"
+}

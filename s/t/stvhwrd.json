@@ -1,0 +1,44 @@
+{
+  "owner_address": "1AwV4mdSbzqgtNBDudzdXKbveLmKpcW1sr",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "stvhwrd",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/stvhwrd/status/785639648794075136",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "stvhwrd",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/stvhwrd/a29151a58debf145e60426888651c0a4",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "stvhwrd",
+      "proof_url": "https://twitter.com/stvhwrd/status/785639648794075136",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "stvhwrd",
+      "proof_url": "https://gist.github.com/stvhwrd/a29151a58debf145e60426888651c0a4",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN stvhwrd.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stvhwrd.id\"\n"
+}

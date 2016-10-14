@@ -1,0 +1,73 @@
+{
+  "owner_address": "15LzAjhjTmaEZJNuLeHXj7zPqoUyBwkeXg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "12Y5uXdCqFyeqpV1XiN3zfB4MLpYpig95A",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "eagle4life69",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/eagle4life69/status/763913468437078016",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "eagle4life69",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/eagle4life69/posts/628499460658260",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "eagle4life69",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/eagle4life69/2d3e16d229bbfbe4c75f10ecb710f4aa",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1794c949622878d8b7bf34a4cf612dae95af2d52",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/eagle4lfe69",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "eagle4life69",
+      "proof_url": "https://twitter.com/eagle4life69/status/763913468437078016",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "eagle4life69",
+      "proof_url": "https://www.facebook.com/eagle4life69/posts/628499460658260",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "eagle4life69",
+      "proof_url": "https://gist.github.com/eagle4life69/2d3e16d229bbfbe4c75f10ecb710f4aa",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN eagle4lfe69.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/eagle4lfe69.id\"\n"
+}

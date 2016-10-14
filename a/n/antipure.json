@@ -1,0 +1,56 @@
+{
+  "owner_address": "1MTm8FGtfBRmqhThdMzhpePyU4qPhZphGA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "chaosnomad",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/chaosnomad/status/786166256160215040",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "louisfoster",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/louisfoster/4c013c6629077713a5309a702438ffe0",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "9ec4aabbdba68fa4dcd8451caf988ebfd14c2a17",
+        "service": "openbazaar"
+      }
+    ],
+    "description": "aka Chaos Nomad aka Antipure aka Sludge The Omnificent",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/antipure",
+        "name": "avatar"
+      }
+    ],
+    "name": "Louis Foster"
+  },
+  "verifications": [
+    {
+      "identifier": "chaosnomad",
+      "proof_url": "https://twitter.com/chaosnomad/status/786166256160215040",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "louisfoster",
+      "proof_url": "https://gist.github.com/louisfoster/4c013c6629077713a5309a702438ffe0",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN antipure.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/antipure.id\"\n"
+}

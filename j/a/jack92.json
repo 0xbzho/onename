@@ -1,0 +1,54 @@
+{
+  "owner_address": "1ApA1KrDJ5AKYoe53bftJHLeeLKwjFUbnY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "giacomo.torricelli",
+        "proofType": "http",
+        "proofUrl": "https://m.facebook.com/story.php?story_fbid=10210320667876199&id=1326785868&ref=bookmarks",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gtorre92",
+        "proofType": "http",
+        "proofUrl": "Dai un'occhiata al Tweet di @GTorre92: https://twitter.com/GTorre92/status/766611329159426048?s=09",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Modena, IT"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jack92",
+        "name": "avatar"
+      }
+    ],
+    "name": "Giacomo Torricelli"
+  },
+  "verifications": [
+    {
+      "identifier": "giacomo.torricelli",
+      "proof_url": "https://m.facebook.com/story.php?story_fbid=10210320667876199&id=1326785868&ref=bookmarks",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "gtorre92",
+      "proof_url": "Dai un'occhiata al Tweet di @GTorre92: https://twitter.com/GTorre92/status/766611329159426048?s=09",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jack92.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jack92.id\"\n"
+}

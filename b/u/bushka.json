@@ -1,29 +1,33 @@
 {
   "owner_address": "1BH488S2zWpazAjbRaQfntKsVwKmh4Zuuk",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/yvD.jpeg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "vladimir.bushel",
+        "proofType": "http",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cary, NC"
     },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/vladimir.bushel/posts/10206549618293463"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bushka",
+        "name": "avatar"
       },
-      "username": "vladimir.bushel"
-    },
-    "location": {
-      "formatted": "Cary, NC"
-    },
-    "name": {
-      "formatted": "Vladimir Bushel"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bushka",
+        "name": "cover"
+      }
+    ],
+    "name": "Vladimir Bushel"
   },
-  "verifications": [
-    {
-      "identifier": "vladimir.bushel",
-      "proof_url": "https://facebook.com/vladimir.bushel/posts/10206549618293463",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN bushka.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bushka.id\"\n"
 }

@@ -1,0 +1,74 @@
+{
+  "owner_address": "16QpVi3oq4wg3CaynGxmbPSHhKmXcNrNuz",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "benramirez",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/benramirez/status/766704426694303744",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "masterofeverything",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/masterofeverything/posts/10153912343558553",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "benramirez",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/benramirez/76a82bec8c3be7c6797f20acc7a9435b",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco, CA"
+    },
+    "description": "Head of design for startups and life.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/benramirez",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/benramirez",
+        "name": "cover"
+      }
+    ],
+    "name": "Ben Ramirez",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.benramirez.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "benramirez",
+      "proof_url": "https://twitter.com/benramirez/status/766704426694303744",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "masterofeverything",
+      "proof_url": "https://www.facebook.com/masterofeverything/posts/10153912343558553",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "benramirez",
+      "proof_url": "https://gist.github.com/benramirez/76a82bec8c3be7c6797f20acc7a9435b",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN benramirez.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/benramirez.id\"\n"
+}

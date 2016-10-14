@@ -1,0 +1,44 @@
+{
+  "owner_address": "19HoW6U1RnQyV25VKxiZoWCpMjbbHhNtpD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "irvwilson",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/irvwilson/status/772124429849505793",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "irvwilson",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/irvwilson/posts/10209116141433022?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "irvwilson",
+      "proof_url": "https://twitter.com/irvwilson/status/772124429849505793",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "irvwilson",
+      "proof_url": "https://www.facebook.com/irvwilson/posts/10209116141433022?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN irvirv.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/irvirv.id\"\n"
+}

@@ -1,0 +1,62 @@
+{
+  "owner_address": "1zzd2UvERmdzenTM6a3QAWWkrM12k81in",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "OddrDragoWulf",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/OddrDragoWulf/status/762893726037348352",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dragowulf",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dragowulf/1432e0e60967b1a653b3e33c32c49412",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "OddrDragoWulf",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/OddrDragoWulf/posts/1750944928521984",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Antonio, TX"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Drago Gunnar Wulf"
+  },
+  "verifications": [
+    {
+      "identifier": "OddrDragoWulf",
+      "proof_url": "https://twitter.com/OddrDragoWulf/status/762893726037348352",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "dragowulf",
+      "proof_url": "https://gist.github.com/dragowulf/1432e0e60967b1a653b3e33c32c49412",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "OddrDragoWulf",
+      "proof_url": "https://www.facebook.com/OddrDragoWulf/posts/1750944928521984",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN dragowulf.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dragowulf.id\"\n"
+}

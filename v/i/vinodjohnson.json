@@ -1,0 +1,44 @@
+{
+  "owner_address": "1G3imQLesmdz1yUb3Hv2AkDsXdwVkZiT5U",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "vinodjohnson",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/vinodjohnson/status/785911574942789633",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "vinodjohnson",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/vinodjohnson/0219b0b356d81ba14b85613fb803654c",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "vinodjohnson",
+      "proof_url": "https://twitter.com/vinodjohnson/status/785911574942789633",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "vinodjohnson",
+      "proof_url": "https://gist.github.com/vinodjohnson/616baf325a755eb2e5ed9ec80393dd45",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN vinodjohnson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vinodjohnson.id\"\n"
+}

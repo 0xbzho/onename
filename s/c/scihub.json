@@ -1,0 +1,40 @@
+{
+  "owner_address": "1KSTNAKpfPnLiYsevBe1dp3oNEmu7hn6dW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1K4t2vSBSS2xFjZ6PofYnbgZewjeqbG1TM",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "http://scihub22266oqcxt.onion"
+    },
+    "description": "Breaking through academic paywalls since 2011. Open Access and Open Science.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/scihub",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/scihub",
+        "name": "cover"
+      }
+    ],
+    "name": "Sci-Hub",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://31.184.194.81"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN scihub.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/scihub.id\"\n"
+}

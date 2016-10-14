@@ -1,6 +1,36 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1Nk3sjJpx654CmLM47mXrzUVHWUdwLvcEA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "shanelennox",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/shanelennox/status/760157963202007040",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London, UK"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Shane Lennox"
+  },
+  "verifications": [
+    {
+      "identifier": "shanelennox",
+      "proof_url": "https://twitter.com/shanelennox/status/760157963202007040",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN shanelennox.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/shanelennox.id\"\n"
 }

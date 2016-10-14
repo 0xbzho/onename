@@ -1,6 +1,49 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1BqZnW9pK1nWsvujSgTfQggPvHYLpQbkRe",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "orbinary",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/orbinary/1baf825642478d8e88e6e9f8cb6c8dcc#file-gistfile1-txt",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "orbinary",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/orbinary/status/760236376231030784",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/orbinary",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "orbinary",
+      "proof_url": "https://gist.github.com/orbinary/1baf825642478d8e88e6e9f8cb6c8dcc#file-gistfile1-txt",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "orbinary",
+      "proof_url": "https://twitter.com/orbinary/status/760236376231030784",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN orbinary.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/orbinary.id\"\n"
 }

@@ -1,24 +1,40 @@
 {
   "owner_address": "1M1QnpjAhpMTHqdVKo8LsT3MpZ4BVLTkpD",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/spair"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "spair",
+        "proofType": "http",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Atlanta"
     },
-    "bio": "Co-Founder & CEO @bitpay - Bitcoin Merchant Services",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/spair"
-    },
-    "location": {
-      "formatted": "Atlanta"
-    },
-    "name": {
-      "formatted": "Stephen Pair"
-    },
-    "twitter": {
-      "username": "spair"
-    },
-    "v": "0.2",
-    "website": "http://bitpay.com"
+    "description": "Co-Founder & CEO @bitpay - Bitcoin Payments",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/spair",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/spair",
+        "name": "cover"
+      }
+    ],
+    "name": "Stephen Pair",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://bitpay.com"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN spair.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/spair.id\"\n"
 }

@@ -5,20 +5,8 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "1HbqfM1PW3K7zqcNonmL6dUuLWTpqJe5Dc",
-        "role": "payment",
-        "service": "bitcoin"
-      },
-      {
-        "@type": "Account",
         "identifier": "0ce802be68310b63f1b68c2522671312df03b3dc",
         "service": "openbazaar"
-      },
-      {
-        "@type": "Account",
-        "contentUrl": "https://pk9.s3.amazonaws.com/delevrything",
-        "identifier": null,
-        "service": "pgp"
       },
       {
         "@type": "Account",
@@ -33,13 +21,25 @@
         "proofType": "http",
         "proofUrl": "https://twitter.com/delevrything/status/728354763679608832",
         "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1BkCpe1h9tuR6c2kVayLeX193ZvntM8A5Z",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/delevrything",
+        "identifier": null,
+        "service": "pgp"
       }
     ],
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Email: aediot@protonmail.ch"
     },
-    "description": "Love is a virtue. Да здравствует атакующему. Moderator and seller on @openbazaar. Ваша любовь наполняет вас с определением.         One who dwells with crypto.",
+    "description": "Love is a virtue. Да здравствует атакующему. Moderator and seller on @openbazaar. Aşkınız sizi kararlılıkla doldurur. One who dwells with crypto.",
     "graph": {
       "url": "https://s3.amazonaws.com/grph/delevrything"
     },
@@ -55,14 +55,20 @@
         "name": "avatar"
       }
     ],
-    "name": "aediot@★彡:~$"
+    "name": "ædiot ★彡",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://encyclopediadramatica.se/User:Pæperclip/Logs"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "delevrything",
       "proof_url": "https://gist.github.com/delevrything/3a99c570e72257d1abadb4922191c270",
       "service": "github",
-      "valid": true
+      "valid": false
     },
     {
       "identifier": "delevrything",

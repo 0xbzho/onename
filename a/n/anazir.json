@@ -1,34 +1,81 @@
 {
   "owner_address": "1A3FQRqRwnpz52HJaGmSTa6D5tjJKMdTeS",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/anazir"
-    },
-    "bio": "First they ignore you, then they ridicule you, then they fight you, then you win. Consistently. Aspiring #Yogi; #TeamMalala; #GoBlue",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/anazir"
-    },
-    "location": {
-      "formatted": "Detroit, MI"
-    },
-    "name": {
-      "formatted": "Ari M Nazir"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/AriMNazir/status/724002547720032256"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "arimnazir",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/arimnazir/50926efd1620cd8757c1039363f87678",
+        "service": "github"
       },
-      "username": "AriMNazir"
+      {
+        "@type": "Account",
+        "identifier": "arijwa",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/anazir",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "AriMNazir",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/AriMNazir/status/773987119987625984",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "15XpZDWCAPKMPzcKLwjo5Za5UYAeUBhDEm",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/RPJames/b2de31bd76f3c82555e97e45d8d6d9b2",
+        "service": "blockstack browser"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Detroit, MI"
     },
-    "v": "0.2",
-    "website": "https://www.linkedin.com/in/arijnazir"
+    "description": "First they ignore you, then they ridicule you, then they fight you, then you win. Consistently. Aspiring #Yogi; #TeamMalala; #GoBlue",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/anazir",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/anazir",
+        "name": "cover"
+      }
+    ],
+    "name": "Ari M Nazir",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.linkedin.com/in/arimnazir"
+      }
+    ]
   },
   "verifications": [
     {
+      "identifier": "arimnazir",
+      "proof_url": "https://gist.github.com/arimnazir/50926efd1620cd8757c1039363f87678",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "arijwa",
+      "proof_url": "https://onename.com/anazir",
+      "service": "facebook",
+      "valid": false
+    },
+    {
       "identifier": "AriMNazir",
-      "proof_url": "https://twitter.com/AriMNazir/status/724002547720032256",
+      "proof_url": "https://twitter.com/AriMNazir/status/773987119987625984",
       "service": "twitter",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN anazir.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/anazir.id\"\n"
 }

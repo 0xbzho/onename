@@ -1,0 +1,44 @@
+{
+  "owner_address": "1C5nHaF6iRm7xSsB8ggD724XRcGqMGQuo2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jacomuller",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jacomuller/status/778560850424655872",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jm789",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jm789/b80387a96e0ab7179ee81dca658b785c",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jacomuller",
+      "proof_url": "https://twitter.com/jacomuller/status/778560850424655872",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jm789",
+      "proof_url": "https://gist.github.com/jm789/b80387a96e0ab7179ee81dca658b785c",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jacomuller.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jacomuller.id\"\n"
+}

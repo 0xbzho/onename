@@ -1,0 +1,86 @@
+{
+  "owner_address": "1H1Jnx3CaiGBh9r42SwmkJsAT43tth5PzR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1LaTAKeRgJrDmc2LjRLYaRK4Ea9T8nHMfG",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Marte2007",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Marte2007/614d25fa2af9f2dfde16a2c36494eadb",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ID",
+        "service": "name"
+      },
+      {
+        "@type": "Account",
+        "identifier": "marte2007",
+        "proofType": "http",
+        "proofUrl": "http://www.facebook.com/marte2007",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Lord_Spectre",
+        "proofType": "http",
+        "proofUrl": "http://twitter.com/Lord_Spectre",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://dl.dropboxusercontent.com/u/9287758/marte2007.public.asc",
+        "identifier": "52152417FEE111DAF6DADFC07A58E320E238D01E",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/marte2007",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/marte2007",
+        "name": "cover"
+      }
+    ],
+    "name": "Lord Spectre",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://marte2007.no-ip.org"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Marte2007",
+      "proof_url": "https://gist.github.com/Marte2007/614d25fa2af9f2dfde16a2c36494eadb",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "marte2007",
+      "proof_url": "http://www.facebook.com/marte2007",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "Lord_Spectre",
+      "proof_url": "http://twitter.com/Lord_Spectre",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN marte2007.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/marte2007.id\"\n"
+}

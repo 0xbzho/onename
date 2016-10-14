@@ -1,6 +1,61 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "18XSj32BYPaJsDAL6H81HEtNHNcY3PvTMr",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "TheOneTheOnlyDB",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TheOneTheOnlyDB/status/730561727184654336",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "TheOneTheOnlyDavidBrown",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/TheOneTheOnlyDavidBrown/0e6e35000f74f0b7645359189f4c3657",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
+    },
+    "description": "Software engineer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/davidbrown",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/davidbrown",
+        "name": "cover"
+      }
+    ],
+    "name": "David Brown",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://bit.ly/lndbtw"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "TheOneTheOnlyDB",
+      "proof_url": "https://twitter.com/TheOneTheOnlyDB/status/730561727184654336",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "TheOneTheOnlyDavidBrown",
+      "proof_url": "https://gist.github.com/TheOneTheOnlyDavidBrown/0e6e35000f74f0b7645359189f4c3657",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN davidbrown.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/davidbrown.id\"\n"
 }

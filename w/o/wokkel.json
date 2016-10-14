@@ -1,0 +1,40 @@
+{
+  "owner_address": "17qi4uZ2nrq5DsBDCXHRUY8QkoVfVtfa6v",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1MZmpZJWjWcdH74wJBQgFyjQy9rv7vopf2",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Netherlands"
+    },
+    "description": "Male, 42",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/wokkel",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/wokkel",
+        "name": "cover"
+      }
+    ],
+    "name": "Ricardo Garcia",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.wokkel.eu"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN wokkel.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wokkel.id\"\n"
+}

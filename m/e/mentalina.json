@@ -1,6 +1,55 @@
 {
-  "owner_address": "1EFmYsaSaQ23E8NnL8ozGZVk3GrWsnS53",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1Kt8mtqUqByqs3FGVR8RCpoyKH5iEWuLpC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mentalina",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mentalina/status/760675618711142400",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https://www.facebook.com/elastigirl",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/elastigirl/posts/10154290328428592?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "United States"
+    },
+    "description": "Trollbox anthropologist, maker of pretty/useful things, professional do-gooder, and seer of possibilities...",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mentalina",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mentalina",
+        "name": "cover"
+      }
+    ],
+    "name": "Stephanie Teten Hardesty"
+  },
+  "verifications": [
+    {
+      "identifier": "mentalina",
+      "proof_url": "https://twitter.com/mentalina/status/760675618711142400",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "https://www.facebook.com/elastigirl",
+      "proof_url": "https://www.facebook.com/elastigirl/posts/10154290328428592?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN mentalina.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mentalina.id\"\n"
 }

@@ -1,0 +1,67 @@
+{
+  "owner_address": "12Jyzidg286Bbo3BbdQb3PAV1KKvedkNYF",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Benoit_Bm",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Benoit_Bm/status/783680739925757952",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "benoit.maujean",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/benoit.maujean/posts/10210315761231676",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bmaujean",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bmaujean/d7295613aa644533b8a1a88f2afcc8a0",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris 75011"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/benoit75",
+        "name": "avatar"
+      }
+    ],
+    "name": "Benoit MAUJEAN"
+  },
+  "verifications": [
+    {
+      "identifier": "Benoit_Bm",
+      "proof_url": "https://twitter.com/Benoit_Bm/status/783680739925757952",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "benoit.maujean",
+      "proof_url": "https://www.facebook.com/benoit.maujean/posts/10210315761231676",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "bmaujean",
+      "proof_url": "https://gist.github.com/bmaujean/d7295613aa644533b8a1a88f2afcc8a0",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN benoit75.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/benoit75.id\"\n"
+}

@@ -1,64 +1,73 @@
 {
   "owner_address": "1Ft6sfvRiGjSB93TanxsYwzrBtEUnZx6nf",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "7a0c4f2cfbd10d53fb04b0c9fb85126b45c73bd0",
+        "identifier": "andysavage",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1Edda9vCnn3jinBiVUTmVD92UJYudwhkJz",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "68100e942f4d3597e221d23650572fd3e8e96535",
         "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tradedirectorg",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TradedirectOrg/status/783432618482208768",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tradedirectorg",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/tradedirectorg/?view_public_for=1535747133393076",
+        "service": "facebook"
       }
     ],
-    "bitcoin": {
-      "address": "1Edda9vCnn3jinBiVUTmVD92UJYudwhkJz"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ireland"
     },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/2wu.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/tradedirectorg/posts/1112833215401913"
-      },
-      "username": "tradedirectorg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/andysavage/2563b8462a8aa7ab8dc5#file-tradedirect-gist"
-      },
-      "username": "andysavage"
-    },
-    "location": {
-      "formatted": "Ireland"
-    },
-    "name": {
-      "formatted": "Trade Direct"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/tradedirectorg/status/711584552452562944"
-      },
-      "username": "tradedirectorg"
-    },
-    "v": "0.2",
-    "website": "http://tradedirect.org"
+    "description": "Direct Trade for all",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Trade Direct",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://tradedirect.org"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "andysavage",
-      "proof_url": "https://gist.github.com/andysavage/2563b8462a8aa7ab8dc5#file-tradedirect-gist",
-      "service": "github",
-      "valid": true
-    },
-    {
       "identifier": "tradedirectorg",
-      "proof_url": "https://twitter.com/tradedirectorg/status/711584552452562944",
+      "proof_url": "https://twitter.com/TradedirectOrg/status/783432618482208768",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "tradedirectorg",
-      "proof_url": "https://facebook.com/tradedirectorg/posts/1112833215401913",
+      "proof_url": "https://www.facebook.com/tradedirectorg/?view_public_for=1535747133393076",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN tradedirect.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tradedirect.id\"\n"
 }

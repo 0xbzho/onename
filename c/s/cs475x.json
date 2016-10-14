@@ -1,54 +1,69 @@
 {
   "owner_address": "1GmRaG5DNZwd84Js7uvWoJrPNRzpTiBz9C",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/cs475x"
-    },
-    "bio": "I play games, I make programs & websites, I listen to music, I watch movies, I shoot guns, and I generally dick around.",
-    "bitcoin": {
-      "address": "19qjJEPR548jXygEQurGYPZVDdSZPjDVrx"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/cs475x"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/cs475x/b08849d8a7ac99124962"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "19qjJEPR548jXygEQurGYPZVDdSZPjDVrx",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "cs475x"
-    },
-    "location": {
-      "formatted": "Oregon"
-    },
-    "name": {
-      "formatted": "Cody"
-    },
-    "pgp": {
-      "fingerprint": "8F62AA45F0D80A7D42496DC3DB9D5ABBDB9889E3",
-      "url": "https://s3.amazonaws.com/pk9/cs475x"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/cs475x/status/533389716805013504"
+      {
+        "@type": "Account",
+        "identifier": "cs475x",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/cs475x/b08849d8a7ac99124962",
+        "service": "github"
       },
-      "username": "cs475x"
+      {
+        "@type": "Account",
+        "identifier": "cs475x",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cs475x/status/533389716805013504",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/cs475x",
+        "identifier": "E4C632E3999EF4651B8D18D7350EB30CD10E00DA",
+        "role": "key",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Oregon, USA"
     },
-    "v": "0.2",
-    "website": "https://keybase.io/cs475x"
+    "description": "I play games, I make websites & applications, I listen to music, I watch movies, I shoot guns, and I generally dick around.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cs475x",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/cs475x",
+        "name": "cover"
+      }
+    ],
+    "name": "Cody Scott",
+    "website": []
   },
   "verifications": [
     {
       "identifier": "cs475x",
       "proof_url": "https://gist.github.com/cs475x/b08849d8a7ac99124962",
       "service": "github",
-      "valid": true
+      "valid": false
     },
     {
       "identifier": "cs475x",
       "proof_url": "https://twitter.com/cs475x/status/533389716805013504",
       "service": "twitter",
-      "valid": true
+      "valid": false
     }
   ],
-  "zone_file": {}
+  "zone_file": "$ORIGIN cs475x.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cs475x.id\"\n"
 }

@@ -1,0 +1,44 @@
+{
+  "owner_address": "1JuaKCk65iDHoF9ZMzZ8PEEgNskKiMKSBm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "JasoonSmythe",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JasoonSmythe/status/769590598357639168",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "JasoonS",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/JasoonS/f5db4f8c0937108e20b224301d509fe3",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "JasoonSmythe",
+      "proof_url": "https://twitter.com/JasoonSmythe/status/769590598357639168",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "JasoonS",
+      "proof_url": "https://gist.github.com/JasoonS/f5db4f8c0937108e20b224301d509fe3",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jasoons.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jasoons.id\"\n"
+}

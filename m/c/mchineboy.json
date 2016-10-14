@@ -1,0 +1,74 @@
+{
+  "owner_address": "1JYfTWBjyinnRC66bjTkZGt83VrfemHyVZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mchineboy",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mchineboy/status/781877383460642816",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mchineboy",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mchineboy/posts/10210889413536088",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mchineboy",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mchineboy/792df0f4d659b0fa02520f1bf00fad70",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bend, OR"
+    },
+    "description": "IT Strategist, Full Stack Developer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mchineboy",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mchineboy",
+        "name": "cover"
+      }
+    ],
+    "name": "Tyler Hardison",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://w.abundantia.co"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mchineboy",
+      "proof_url": "https://twitter.com/mchineboy/status/781877383460642816",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mchineboy",
+      "proof_url": "https://www.facebook.com/mchineboy/posts/10210889413536088",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "mchineboy",
+      "proof_url": "https://gist.github.com/mchineboy/792df0f4d659b0fa02520f1bf00fad70",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mchineboy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mchineboy.id\"\n"
+}

@@ -1,0 +1,50 @@
+{
+  "owner_address": "1D8o3BH1K4aYb7Ga3ErWKHP9zko3e94G9h",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "m-siva",
+        "proofType": "http",
+        "proofUrl": "m-siva/gist:d85190704303c04d1253b0eacd3366ac",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "m__siva",
+        "proofType": "http",
+        "proofUrl": "https://t.co/bJEV4uHu8l",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chennai"
+    },
+    "description": "Homo sapiens",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Sivakumar Mathivanan"
+  },
+  "verifications": [
+    {
+      "identifier": "m-siva",
+      "proof_url": "m-siva/gist:d85190704303c04d1253b0eacd3366ac",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "m__siva",
+      "proof_url": "https://t.co/bJEV4uHu8l",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN m_siva.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/m_siva.id\"\n"
+}

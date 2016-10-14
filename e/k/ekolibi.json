@@ -1,0 +1,41 @@
+{
+  "owner_address": "19Zn6jZV6ogMGHQxsMufgqefomYKT4fTWo",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ekolibi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Ekolibi/status/782577848573976576",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cf04fa7c64a3e06cbb817278cc3dbae5aace8c9c",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ekolibi",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ekolibi",
+      "proof_url": "https://twitter.com/Ekolibi/status/782577848573976576",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ekolibi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ekolibi.id\"\n"
+}

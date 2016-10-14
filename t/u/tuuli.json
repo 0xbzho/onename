@@ -1,56 +1,73 @@
 {
   "owner_address": "193C5rdXbJXGVj9eDgJXwTqjMXBSow2MvN",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/tuuli"
-    },
-    "bio": "If you need to know, ask Google.",
-    "bitcoin": {
-      "address": "1d5vXRLFqwsNj25492xF73idqczymaroj"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/rv1.jpeg"
-    },
-    "facebook": {
-      "username": "suvituuli.allan"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/tuuli/29b42fbfa2171a6750bd"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tuuli1",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "tuuli"
-    },
-    "location": {
-      "formatted": "Kokkola, Suomi"
-    },
-    "name": {
-      "formatted": "Suvi-Tuuli Allan"
-    },
-    "pgp": {
-      "fingerprint": "BF6F2704D996BA85F3A2753B258DAAA294594926",
-      "url": "https://tuuli.info/BF6F2704D996BA85F3A2753B258DAAA294594926.asc"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/tuuli1/status/524591814947262465"
+      {
+        "@type": "Account",
+        "identifier": "tuuli",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "tuuli1"
+      {
+        "@type": "Account",
+        "identifier": "1d5vXRLFqwsNj25492xF73idqczymaroj",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://tuuli.info/BF6F2704D996BA85F3A2753B258DAAA294594926.asc",
+        "identifier": "BF6F2704D996BA85F3A2753B258DAAA294594926",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "suvituuli.allan",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/suvituuli.allan/posts/1506961292884724",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Oulu, Suomi"
     },
-    "v": "0.2",
-    "website": "https://tuuli.info/"
+    "description": "A 30-something human-something doing something. Now, that's something.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tuuli",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Suvi-Tuuli Allan",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://tuuli.info/"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "tuuli",
-      "proof_url": "https://gist.github.com/tuuli/29b42fbfa2171a6750bd",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "tuuli1",
-      "proof_url": "https://twitter.com/tuuli1/status/524591814947262465",
-      "service": "twitter",
+      "identifier": "suvituuli.allan",
+      "proof_url": "https://www.facebook.com/suvituuli.allan/posts/1506961292884724",
+      "service": "facebook",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN tuuli.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tuuli.id\"\n"
 }

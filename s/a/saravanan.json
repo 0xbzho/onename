@@ -1,10 +1,21 @@
 {
   "owner_address": "1qpbWC6nZqPQzrq1FkTPVijBaecSjEpdV",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/KJy.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/saravanan",
+        "name": "avatar"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN saravanan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/saravanan.id\"\n"
 }

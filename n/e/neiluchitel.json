@@ -1,0 +1,49 @@
+{
+  "owner_address": "12Bb8z1coW4L3pf8utq8bqqRYrpkSixxeg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nuchitel",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/nuchitel/posts/10154022872102921",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "neiluchitel",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/neiluchitel/status/781961217157963776",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Los Angeles"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Neil Uchitel"
+  },
+  "verifications": [
+    {
+      "identifier": "nuchitel",
+      "proof_url": "https://www.facebook.com/nuchitel/posts/10154022872102921",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "neiluchitel",
+      "proof_url": "https://twitter.com/neiluchitel/status/781961217157963776",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN neiluchitel.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/neiluchitel.id\"\n"
+}

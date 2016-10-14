@@ -1,0 +1,48 @@
+{
+  "owner_address": "1DsbK6zHB29jBHxroY7QUoZvzFLw3VfUhV",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "icanbitcoin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/icanbitcoin/status/771066893558026240",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1AY8sNot2PSDc9xojPWh5Dk4A2BCY6BppY",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sydney, NS"
+    },
+    "description": "Bitcoin, Blockchain, Ethereum Enthusiast",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dereck",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/dereck",
+        "name": "cover"
+      }
+    ],
+    "name": "Dereck Melbourne"
+  },
+  "verifications": [
+    {
+      "identifier": "icanbitcoin",
+      "proof_url": "https://twitter.com/icanbitcoin/status/771066893558026240",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dereck.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dereck.id\"\n"
+}

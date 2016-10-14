@@ -1,46 +1,46 @@
 {
   "owner_address": "19Z5oGKqEswP92uXuxFNTbib7kTSki588b",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/ilpiac"
-    },
-    "bio": "Art director, graphic designer and illustrator. Typo lover, addicted to “pencil & paper”, letterpress and details. I love cooking too, but who cares...",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/ilpiac"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/ilpiac/posts/10207002393680980"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ilpiac",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "ilpiac"
+      {
+        "@type": "Account",
+        "identifier": "ilpiac",
+        "proofType": "http",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Milan"
     },
-    "location": {
-      "formatted": "Milan"
-    },
-    "name": {
-      "formatted": "Maurizio Piacenza"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/ilpiac/status/619370125507063808"
+    "description": "I design visual communication things / Co-organizer of Kerning conference / Organizer of Epilepsy? Cut it out! / Multipotentialite / Collecting & connecting the dots",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ilpiac",
+        "name": "avatar"
       },
-      "username": "ilpiac"
-    },
-    "v": "0.2",
-    "website": "http://www.ilpiac.com"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ilpiac",
+        "name": "cover"
+      }
+    ],
+    "name": "Maurizio Piacenza",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.ilpiac.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "ilpiac",
-      "proof_url": "https://twitter.com/ilpiac/status/619370125507063808",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "ilpiac",
-      "proof_url": "https://facebook.com/ilpiac/posts/10207002393680980",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN ilpiac.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ilpiac.id\"\n"
 }

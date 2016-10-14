@@ -1,0 +1,31 @@
+{
+  "owner_address": "1FUChU14Labc5hNwmYYh89c41bzg7t4WcD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jwalsh",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jwalsh/d8bd238a3049e9e3db1ea35515656a12",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jwalsh",
+      "proof_url": "https://gist.github.com/jwalsh/d8bd238a3049e9e3db1ea35515656a12",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jwalsh.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jwalsh.id\"\n"
+}

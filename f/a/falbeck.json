@@ -1,0 +1,50 @@
+{
+  "owner_address": "1GUXXzEa3HmVeTryWexmtA1q64guh7myVG",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "falbeck",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/falbeck/status/764003830400819200",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "falbeck",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/falbeck/posts/10209842733085207",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/falbeck",
+        "identifier": null,
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "falbeck",
+      "proof_url": "https://twitter.com/falbeck/status/764003830400819200",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "falbeck",
+      "proof_url": "https://www.facebook.com/falbeck/posts/10209842733085207",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN falbeck.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/falbeck.id\"\n"
+}

@@ -1,0 +1,62 @@
+{
+  "owner_address": "14586rNa1UwB8PFGjQhGLaJwkDwtnH9PNA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rajkishanm",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rajkishanm/status/781878318467469312",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "daltk",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/daltk/bcc2b04f05fc186e96f7653f29185e16",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rajeshwar.mothe.3",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/rajeshwar.mothe.3/posts/10154064306287525",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rajkishan",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rajkishan",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "rajkishanm",
+      "proof_url": "https://twitter.com/rajkishanm/status/781878318467469312",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "daltk",
+      "proof_url": "https://gist.github.com/daltk/bcc2b04f05fc186e96f7653f29185e16",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "rajeshwar.mothe.3",
+      "proof_url": "https://www.facebook.com/rajeshwar.mothe.3/posts/10154064306287525",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rajkishan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rajkishan.id\"\n"
+}

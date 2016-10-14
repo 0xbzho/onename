@@ -1,0 +1,49 @@
+{
+  "owner_address": "1GE6yNY6CedhryEqqW6WGbT4bjUbkFgy1L",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mintcointeam",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/poldo76/status/769611890460852224",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1G55efYtJ981ygtXgjF8LZjMGV5uddNjfV",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mintcoin",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mintcoin",
+        "name": "cover"
+      }
+    ],
+    "name": "mintcoin",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.mintcoinofficial.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mintcointeam",
+      "proof_url": "https://twitter.com/poldo76/status/769611890460852224",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mintcoin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mintcoin.id\"\n"
+}

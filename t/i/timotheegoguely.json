@@ -1,0 +1,74 @@
+{
+  "owner_address": "1GEaRBxqgpjrM76rRfB4yg7VHbaUd391Nb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "timotheegoguely",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TimotheeGoguely/status/779238837545345024",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "timothee.goguely",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/timothee.goguely/posts/10209838010534481",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "timotheegoguely",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/timotheegoguely/246f3f6407ccaa106aaaba9bdfba1109.js",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris, France"
+    },
+    "description": "UI/UX Designer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/timotheegoguely",
+        "name": "avatar"
+      }
+    ],
+    "name": "Timothée Goguely",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://timothee.goguely.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "timotheegoguely",
+      "proof_url": "https://twitter.com/TimotheeGoguely/status/779238837545345024",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "timothee.goguely",
+      "proof_url": "https://www.facebook.com/timothee.goguely/posts/10209838010534481",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "timotheegoguely",
+      "proof_url": "https://gist.github.com/timotheegoguely/246f3f6407ccaa106aaaba9bdfba1109#file-gistfile1-txt",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN timotheegoguely.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/timotheegoguely.id\"\n"
+}

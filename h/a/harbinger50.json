@@ -1,0 +1,49 @@
+{
+  "owner_address": "13SqXnct1kFCZAuknqxA7cmvJnkxQ7QsqS",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Harbinger50",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Harbinger50/status/782047458943721472",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Rudy50Dragon",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/harbinger50",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/harbinger50",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/harbinger50",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Harbinger50",
+      "proof_url": "https://twitter.com/Harbinger50/status/782047458943721472",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Rudy50Dragon",
+      "proof_url": "https://onename.com/harbinger50",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN harbinger50.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/harbinger50.id\"\n"
+}

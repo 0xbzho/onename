@@ -1,0 +1,41 @@
+{
+  "owner_address": "1QH6aN5nboiB97weGJpchFZZqMg1z4K6if",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "vanwyn",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/vanwyn/status/776419412291178496",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "The Hague, The Netherlands"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kevanw",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/kevanw",
+        "name": "cover"
+      }
+    ],
+    "name": "Korstiaan E van Wyngaarden"
+  },
+  "verifications": [
+    {
+      "identifier": "vanwyn",
+      "proof_url": "https://twitter.com/vanwyn/status/776419412291178496",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kevanw.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kevanw.id\"\n"
+}

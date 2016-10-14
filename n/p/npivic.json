@@ -1,0 +1,49 @@
+{
+  "owner_address": "1Hc5aTrmZF1RbuX5iaJJy6UL9pEg8qKsPo",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "pivic",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/pivic/posts/10154289670386236",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "pivic",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/pivic/status/764009208899436545",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/npivic",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "pivic",
+      "proof_url": "https://www.facebook.com/pivic/posts/10154289670386236",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "pivic",
+      "proof_url": "https://twitter.com/pivic/status/764009208899436545",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN npivic.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/npivic.id\"\n"
+}

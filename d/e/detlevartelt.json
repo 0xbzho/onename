@@ -1,0 +1,31 @@
+{
+  "owner_address": "15dUbEEtv8sCpLFJ2ha7bnt4tdYTw3dX4W",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Detlevartelt",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/detlevartelt/status/777986880516288512",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Detlevartelt",
+      "proof_url": "https://twitter.com/detlevartelt/status/777986880516288512",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN detlevartelt.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/detlevartelt.id\"\n"
+}

@@ -1,6 +1,38 @@
 {
-  "owner_address": "1Ld29ps3xgnYmeVt9kiM6J7j7WRD4kruhQ",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1HYjtGH3DyiyeaJov78fW6s1pq34QDa3b2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mikebmott",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mikebmott/status/760471001356435456",
+        "service": "twitter"
+      }
+    ],
+    "description": "sysadmin",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mikebmott",
+        "name": "avatar"
+      }
+    ],
+    "name": "Mike"
+  },
+  "verifications": [
+    {
+      "identifier": "mikebmott",
+      "proof_url": "https://twitter.com/mikebmott/status/760471001356435456",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN mikebmott.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mikebmott.id\"\n"
 }

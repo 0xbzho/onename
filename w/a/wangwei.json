@@ -1,0 +1,42 @@
+{
+  "owner_address": "1FDLnjttZUSZUkDoYUHa7iyAQn8kn1kFja",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1AmsS27ZRFKcRHkB5yoWfR3LitTeZkQ2ok",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cgndxmg",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cgndxmg",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/wangwei",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/wangwei",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "cgndxmg",
+      "proof_url": "https://twitter.com/cgndxmg",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN wangwei.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wangwei.id\"\n"
+}

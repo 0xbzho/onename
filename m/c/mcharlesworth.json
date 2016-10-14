@@ -1,0 +1,75 @@
+{
+  "owner_address": "1DpTVJofdUgQhBEW4CrVTF4PnpudNTtUdG",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/mcharlesworth",
+        "identifier": "01EBA64E1706248E64D7924FDE14720BA80B18CB",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mcharlesworth",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mcharlesworth/status/770355633468084224",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "matthewcharlesworth",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/matthewcharlesworth/e192146de43b58f004f70c2d35b2917d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mcharlesworth",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mcharlesworth/posts/537793034382",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mcharlesworth",
+        "name": "avatar"
+      }
+    ],
+    "name": "Matthew Charlesworth",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://matthewcharlesworth.name"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mcharlesworth",
+      "proof_url": "https://twitter.com/mcharlesworth/status/770355633468084224",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "matthewcharlesworth",
+      "proof_url": "https://gist.github.com/matthewcharlesworth/e192146de43b58f004f70c2d35b2917d",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "mcharlesworth",
+      "proof_url": "https://www.facebook.com/mcharlesworth/posts/537793034382",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mcharlesworth.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mcharlesworth.id\"\n"
+}

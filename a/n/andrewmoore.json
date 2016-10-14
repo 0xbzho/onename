@@ -1,40 +1,52 @@
 {
   "owner_address": "19HEyZyrvxT8bvQAxhE1EaVCnZfF9kkN96",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/andrewmoore"
-    },
-    "bio": "Serial #Entrepreneur #Solar #Energy #Bitcoin #Biotech #Sunbitkit",
-    "bitcoin": {
-      "address": "1CzqT77vYJe84VsSXN7SHgATopTkBuj4AU"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/IHL.jpg"
-    },
-    "facebook": {
-      "username": "GetPaidForGoingSolar"
-    },
-    "location": {
-      "formatted": "USA"
-    },
-    "name": {
-      "formatted": "Andrew J Moore"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/GNr8Coins/status/667254542971609088"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "GNr8Coins",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "GNr8Coins"
+      {
+        "@type": "Account",
+        "identifier": "GetPaidForGoingSolar",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1CzqT77vYJe84VsSXN7SHgATopTkBuj4AU",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "USA"
     },
-    "v": "0.2",
-    "website": "http://AndrewJMoore.strikingly.com"
+    "description": "Serial #Entrepreneur #Solar #Energy #Bitcoin #Biotech #Sunbitkit",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/andrewmoore",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/andrewmoore",
+        "name": "avatar"
+      }
+    ],
+    "name": "Andrew J Moore",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://AndrewJMoore.strikingly.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "GNr8Coins",
-      "proof_url": "https://twitter.com/GNr8Coins/status/667254542971609088",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN andrewmoore.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/andrewmoore.id\"\n"
 }

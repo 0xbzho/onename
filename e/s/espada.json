@@ -1,0 +1,41 @@
+{
+  "owner_address": "1KxBAvUbWsVkuN1kam1ydF4AeQTGJZBAvu",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "GretchenSword",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/GretchenSword/status/783289341628022784",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "new york, ny"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/espada",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/espada",
+        "name": "cover"
+      }
+    ],
+    "name": "gretchen sword"
+  },
+  "verifications": [
+    {
+      "identifier": "GretchenSword",
+      "proof_url": "https://twitter.com/GretchenSword/status/783289341628022784",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN espada.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/espada.id\"\n"
+}

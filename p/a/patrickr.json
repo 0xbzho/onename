@@ -1,0 +1,32 @@
+{
+  "owner_address": "1DJZ91TCia4fFD3AZokyHDqPQCcRaQ51Xe",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "patrickr",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/patrickr/44da09841954dfb1037297c8156f7793",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Patrick Reames"
+  },
+  "verifications": [
+    {
+      "identifier": "patrickr",
+      "proof_url": "https://gist.github.com/patrickr/44da09841954dfb1037297c8156f7793",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN patrickr.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/patrickr.id\"\n"
+}

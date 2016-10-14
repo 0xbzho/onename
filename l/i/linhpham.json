@@ -1,0 +1,67 @@
+{
+  "owner_address": "141nNT2uakpLuvX9zLBeFDaz4wD9Rxz6E4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "linhpham888",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/permalink.php?story_fbid=10205936825579046&id=1811753025",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "linhpham24",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/linhpham24/status/784700175243771906",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "linhpham24",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/linhpham24/8fe7218996312f7269630efe78a6e623",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Remote"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/linhpham",
+        "name": "avatar"
+      }
+    ],
+    "name": "Linh Pham"
+  },
+  "verifications": [
+    {
+      "identifier": "linhpham888",
+      "proof_url": "https://www.facebook.com/permalink.php?story_fbid=10205936825579046&id=1811753025",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "linhpham24",
+      "proof_url": "https://twitter.com/linhpham24/status/784700175243771906",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "linhpham24",
+      "proof_url": "https://gist.github.com/linhpham24/8fe7218996312f7269630efe78a6e623",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN linhpham.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/linhpham.id\"\n"
+}

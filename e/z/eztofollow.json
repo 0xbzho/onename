@@ -1,0 +1,57 @@
+{
+  "owner_address": "19Q2CKomjbyexs3D2vkdeN4eXqG7eWLy9A",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ezsaidsomething",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ezsaidsomething/status/776839108257808384",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "eztofollow",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/eztofollow/0447eeb140d3cebcae31b50be5ce67ca",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "eztofollow",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/eztofollow/posts/10205598683206300",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ezsaidsomething",
+      "proof_url": "https://twitter.com/ezsaidsomething/status/776839108257808384",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "eztofollow",
+      "proof_url": "https://gist.github.com/eztofollow/0447eeb140d3cebcae31b50be5ce67ca",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "eztofollow",
+      "proof_url": "https://www.facebook.com/eztofollow/posts/10205598683206300",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN eztofollow.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/eztofollow.id\"\n"
+}

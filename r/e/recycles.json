@@ -1,47 +1,69 @@
 {
   "owner_address": "1JqUJ7zNqHo936vpw1RJvFZ9QjE1SBUocL",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/recycles"
-    },
-    "bitcoin": {
-      "address": "1LeUDQYjGY2bCF7HapZAGjn52rvdPvXEcy"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/recycles"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/nonprofit.recycling/posts/10208243415470364"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1LeUDQYjGY2bCF7HapZAGjn52rvdPvXEcy",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "nonprofit.recycling"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/hopiland/898091c6bfdd4454ed8b1b6c25b5ab2e"
+      {
+        "@type": "Account",
+        "identifier": "recycles_org",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Recycles_Org/status/775189786294300672",
+        "service": "twitter"
       },
-      "username": "hopiland"
-    },
-    "name": {
-      "formatted": "Recycles Org"
-    },
-    "twitter": {
-      "username": "recycles"
-    },
-    "v": "0.2"
+      {
+        "@type": "Account",
+        "identifier": "hopiland",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/hopiland/64714c432af27385be7f4a734d37b034",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nonprofit.recycling",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/nonprofit.recycling/posts/1244870252202023",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/recycles",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/recycles",
+        "name": "cover"
+      }
+    ],
+    "name": "Recycles Org"
   },
   "verifications": [
     {
-      "identifier": "hopiland",
-      "proof_url": "https://gist.github.com/hopiland/898091c6bfdd4454ed8b1b6c25b5ab2e",
-      "service": "github",
+      "identifier": "recycles_org",
+      "proof_url": "https://twitter.com/Recycles_Org/status/775189786294300672",
+      "service": "twitter",
       "valid": true
     },
     {
-      "identifier": "nonprofit.recycling",
-      "proof_url": "https://facebook.com/nonprofit.recycling/posts/10208243415470364",
-      "service": "facebook",
+      "identifier": "hopiland",
+      "proof_url": "https://gist.github.com/hopiland/64714c432af27385be7f4a734d37b034",
+      "service": "github",
       "valid": false
+    },
+    {
+      "identifier": "nonprofit.recycling",
+      "proof_url": "https://www.facebook.com/nonprofit.recycling/posts/1244870252202023",
+      "service": "facebook",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN recycles.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/recycles.id\"\n"
 }

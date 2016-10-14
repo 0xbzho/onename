@@ -1,58 +1,74 @@
 {
   "owner_address": "17TJFq4ACew63MQ5kaEpQ3Bgey1LwbWs6c",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/evanevox"
-    },
-    "bio": "[H]activist, Web Developer, IT Consultant.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/rVv.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/evanevox/posts/1613982315594421"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bluemystik",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bluemystik/fc0eeb2679184f20b7a45081a3fd7ee0",
+        "service": "github"
       },
-      "username": "evanevox"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/bluemystik/4a32a663f0eb2db5102d72096b43119c"
+      {
+        "@type": "Account",
+        "identifier": "evanevox",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/evanevox/status/782020967811969024",
+        "service": "twitter"
       },
-      "username": "bluemystik"
+      {
+        "@type": "Account",
+        "identifier": "evanevox",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/EVOX-1068371569951086/",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York"
     },
-    "location": {
-      "formatted": "Albany, New York"
-    },
-    "name": {
-      "formatted": "Evan Granito"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/evanevox/status/723826851081248769"
+    "description": "IT Consultant",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
       },
-      "username": "evanevox"
-    },
-    "v": "0.2",
-    "website": "http://ev0x.com"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/evanevox",
+        "name": "avatar"
+      }
+    ],
+    "name": "Evan",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.ev0x.com/"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "bluemystik",
-      "proof_url": "https://gist.github.com/bluemystik/4a32a663f0eb2db5102d72096b43119c",
+      "proof_url": "https://gist.github.com/bluemystik/fc0eeb2679184f20b7a45081a3fd7ee0",
       "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "evanevox",
+      "proof_url": "https://twitter.com/evanevox/status/782020967811969024",
+      "service": "twitter",
       "valid": true
     },
     {
       "identifier": "evanevox",
-      "proof_url": "https://twitter.com/evanevox/status/723826851081248769",
-      "service": "twitter",
-      "valid": false
-    },
-    {
-      "identifier": "evanevox",
-      "proof_url": "https://facebook.com/evanevox/posts/1613982315594421",
+      "proof_url": "https://www.facebook.com/EVOX-1068371569951086/",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN evanevox.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/evanevox.id\"\n"
 }

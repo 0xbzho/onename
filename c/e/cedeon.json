@@ -1,0 +1,67 @@
+{
+  "owner_address": "1EA8xKQpvc45yGj1eva5FeXpDusjGyYFD2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cedeon",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cedeon/status/775708471832510464",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "wculv",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/wculv/posts/10154528932669461?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cedeon",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/cedeon/a5986501bd8da6d95e9ba1ca30a5e71d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "2a14430274058050c365b785521a09bd7dc7d29a",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cedeon",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/cedeon",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "cedeon",
+      "proof_url": "https://twitter.com/cedeon/status/775708471832510464",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "wculv",
+      "proof_url": "https://www.facebook.com/wculv/posts/10154528932669461?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "cedeon",
+      "proof_url": "https://gist.github.com/cedeon/a5986501bd8da6d95e9ba1ca30a5e71d",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN cedeon.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cedeon.id\"\n"
+}

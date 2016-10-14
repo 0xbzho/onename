@@ -1,0 +1,49 @@
+{
+  "owner_address": "1DSaNXgNALZYTmNvnniEqAqsGVXuceTJcB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "GeekZone",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/GeekZone/status/770727536418586624",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "HiGeekZone",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/HiGeekZone/posts/1253122341399128",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/geekzone",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/geekzone",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "GeekZone",
+      "proof_url": "https://twitter.com/GeekZone/status/770727536418586624",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "HiGeekZone",
+      "proof_url": "https://www.facebook.com/HiGeekZone/posts/1253122341399128",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN geekzone.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/geekzone.id\"\n"
+}

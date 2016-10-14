@@ -1,0 +1,55 @@
+{
+  "owner_address": "1AL5dMCEpg4nN9gGva6wBqTQgqJZD5PSwK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nanningdejong",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/nanningdejong/status/772764627860131841",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nanningdejong",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/nanningdejong/posts/10154502980098792",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "The Hague, the Netherlands"
+    },
+    "description": "Blockchain expert @TymlezBV",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nanning",
+        "name": "avatar"
+      }
+    ],
+    "name": "Nanning de Jong"
+  },
+  "verifications": [
+    {
+      "identifier": "nanningdejong",
+      "proof_url": "https://twitter.com/nanningdejong/status/772764627860131841",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "nanningdejong",
+      "proof_url": "https://www.facebook.com/nanningdejong/posts/10154502980098792",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN nanning.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nanning.id\"\n"
+}

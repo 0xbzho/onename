@@ -1,6 +1,44 @@
 {
-  "owner_address": "1MZJ5eooEaEu2PAyDMXdGmkBxKbmBWx5GX",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1EopeHiSwDq8owk8wqZzFZH9mcvvmaxDUt",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "https://www.facebook.com/mcarozzi",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/mgc1962",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mariano62",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mariano62/status/762579807272140800",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "https://www.facebook.com/mcarozzi",
+      "proof_url": "https://onename.com/mgc1962",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "mariano62",
+      "proof_url": "https://twitter.com/mariano62/status/762579807272140800",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN mgc1962.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mgc1962.id\"\n"
 }

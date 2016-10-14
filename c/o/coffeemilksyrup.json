@@ -1,0 +1,79 @@
+{
+  "owner_address": "1MgfixhqqHxh991rMgTuUQm44oKRaNqyoz",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "prowdev",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/prowdev/5b811d4ebeee81a901304742e3a31474#file-obcofmlk",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "adanawashington",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/adanawashington/status/774366727035432960",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "adana.washington",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/adana.washington/posts/1192407320782664",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "d61b0312e6eb125367d0a3d7b9e51ef86b17c82c",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Dallas, Texas"
+    },
+    "description": "I make Coffee Syrup and write Books",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/coffeemilksyrup",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/coffeemilksyrup",
+        "name": "cover"
+      }
+    ],
+    "name": "Adana Washington",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://coffeemilksyrup.cf/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "prowdev",
+      "proof_url": "https://gist.github.com/prowdev/5b811d4ebeee81a901304742e3a31474#file-obcofmlk",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "adanawashington",
+      "proof_url": "https://twitter.com/adanawashington/status/774366727035432960",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "adana.washington",
+      "proof_url": "https://www.facebook.com/adana.washington/posts/1192407320782664",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN coffeemilksyrup.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/coffeemilksyrup.id\"\n"
+}

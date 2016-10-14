@@ -1,54 +1,60 @@
 {
   "owner_address": "1AvYXaJiyefZh1oBbkf9wq7YaggcJhq2N4",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "2f6a03959d78ee5d44a1772d4fc0f647e6136e54",
+        "identifier": "profile.php?id=100009289792176",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "MajorPaynei86",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1HJDVPjasA1MBNwH4uzXoMWq2rgiAz1Ecc",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/jacoblong",
+        "identifier": "846E1D7F4D95470224218C52EFCEAD77756C8ABA",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "794161d05b6af1d59a2dfe09e874daad2d3461fa",
         "service": "openbazaar"
       }
     ],
-    "bio": "Attorney, Blockchain Enthusiast, Voluntaryist",
-    "bitcoin": {
-      "address": "1HJDVPjasA1MBNwH4uzXoMWq2rgiAz1Ecc"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/jacoblong"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/profile.php?id=100009289792176/posts/1421741898145456"
+    "description": "Attorney, Blockchain Enthusiast, Voluntaryist",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jacoblong",
+        "name": "cover"
       },
-      "username": "profile.php?id=100009289792176"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/MajorPaynei86/df0e7d6e58acbc28ff48#file-gistfile1-txt"
-      },
-      "username": "MajorPaynei86"
-    },
-    "name": {
-      "formatted": "Jacob Ian Long"
-    },
-    "pgp": {
-      "fingerprint": "846E1D7F4D95470224218C52EFCEAD77756C8ABA",
-      "url": "https://s3.amazonaws.com/pk9/jacoblong"
-    },
-    "v": "0.2",
-    "website": "https://www.bitrated.com/jacobi86"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jacoblong",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jacob Ian Long",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.bitrated.com/jacobi86"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "MajorPaynei86",
-      "proof_url": "https://gist.github.com/MajorPaynei86/df0e7d6e58acbc28ff48#file-gistfile1-txt",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "profile.php?id=100009289792176",
-      "proof_url": "https://facebook.com/profile.php?id=100009289792176/posts/1421741898145456",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN jacoblong.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jacoblong.id\"\n"
 }

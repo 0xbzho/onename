@@ -1,0 +1,49 @@
+{
+  "owner_address": "1GGfUP9QS9spDFk4Y2XRd2TjGB4iecQCG6",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "aksenov007",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/aksenov007/status/770223774969032704",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "aksenov007",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/aksenov007/8e8dfb86831824dc6c0dd49c25443a10",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/s_aksenov",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "aksenov007",
+      "proof_url": "https://twitter.com/aksenov007/status/770223774969032704",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "aksenov007",
+      "proof_url": "https://gist.github.com/aksenov007/8e8dfb86831824dc6c0dd49c25443a10",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN s_aksenov.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/s_aksenov.id\"\n"
+}

@@ -1,0 +1,62 @@
+{
+  "owner_address": "1MExZ1q6ULG3YCVaKsEJxGzEZ6JtQd1Up3",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "marcogenovese",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MarcoGenovese/status/770824433661468672",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mjgenovese",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mjgenovese/posts/10209279993450785",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Antic5",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Antic5/4e73643051349f0272f460b2ddb0d8d0",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rucku5",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rucku5",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "marcogenovese",
+      "proof_url": "https://twitter.com/MarcoGenovese/status/770824433661468672",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mjgenovese",
+      "proof_url": "https://www.facebook.com/mjgenovese/posts/10209279993450785",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "Antic5",
+      "proof_url": "https://gist.github.com/Antic5/4e73643051349f0272f460b2ddb0d8d0",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN rucku5.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rucku5.id\"\n"
+}

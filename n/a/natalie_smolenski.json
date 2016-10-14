@@ -1,0 +1,57 @@
+{
+  "owner_address": "1LQTEh85PinKgmTiPvdSZ8vdRLsTAyUWhh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "NSmolenski",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/NSmolenski/status/778309747426533376",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "natalie.smolenski",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnatalie.smolenski%2Fposts%2F1102705799816665&",
+        "service": "facebook"
+      }
+    ],
+    "description": "Cultural Anthropologist and Dedicated Account Manager at Learning Machine",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/natalie_smolenski",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/natalie_smolenski",
+        "name": "cover"
+      }
+    ],
+    "name": "Natalie Smolenski",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://medium.com/@nsmolenski"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "NSmolenski",
+      "proof_url": "https://twitter.com/NSmolenski/status/778309747426533376",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "natalie.smolenski",
+      "proof_url": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnatalie.smolenski%2Fposts%2F1102705799816665&",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN natalie_smolenski.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/natalie_smolenski.id\"\n"
+}

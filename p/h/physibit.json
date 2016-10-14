@@ -7,8 +7,15 @@
         "@type": "Account",
         "identifier": "PhysiBit",
         "proofType": "http",
-        "proofUrl": "xD8Ts27eK9c51ouzC5zHib1WS2iO6vCA",
+        "proofUrl": "https://twitter.com/PhysiBit/status/764841952600854530",
         "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "8356001d6791301ec94d15b093f7d062dc1a3533",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/lonzo.sheffield/posts/10101922623614056&width=500",
+        "service": "openbazaar"
       }
     ],
     "address": {
@@ -19,7 +26,12 @@
     "image": [
       {
         "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "contentUrl": "https://s3.amazonaws.com/kd4/physibit",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/physibit",
         "name": "cover"
       }
     ],
@@ -34,9 +46,9 @@
   "verifications": [
     {
       "identifier": "PhysiBit",
-      "proof_url": "xD8Ts27eK9c51ouzC5zHib1WS2iO6vCA",
+      "proof_url": "https://twitter.com/PhysiBit/status/764841952600854530",
       "service": "twitter",
-      "valid": false
+      "valid": true
     }
   ],
   "zone_file": "$ORIGIN physibit.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/physibit.id\"\n"

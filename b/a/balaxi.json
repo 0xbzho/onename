@@ -1,0 +1,46 @@
+{
+  "owner_address": "1NeDLS14uGEwR3RJSqGq4wWnjC2CRwwb7d",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "BitcoinBazis",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BitcoinBazis/status/767114126934048768",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hungary"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/balaxi",
+        "name": "avatar"
+      }
+    ],
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.bitcoinbazis.hu/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "BitcoinBazis",
+      "proof_url": "https://twitter.com/BitcoinBazis/status/767114126934048768",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN balaxi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/balaxi.id\"\n"
+}

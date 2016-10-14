@@ -1,0 +1,69 @@
+{
+  "owner_address": "1DpjNP7xRKiMJQzGkgvoXmHeoHzH5XrY1c",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "riyaz",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/riyaz/status/778446698733461504",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "riyaz",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/riyaz/719920dcd978d06b0b2bda86c34f29e5",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "riyaz.mohammed.ibrahim",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/riyaz.mohammed.ibrahim/posts/10153820820262513?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/riyaz/key.asc",
+        "identifier": "6464EE923AC7E167D15E9EDA0DB058831FB2E2EC",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/riyazmd",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/riyazmd",
+        "name": "cover"
+      }
+    ],
+    "name": "Riyaz Mohammed Ibrahim"
+  },
+  "verifications": [
+    {
+      "identifier": "riyaz",
+      "proof_url": "https://twitter.com/riyaz/status/778446698733461504",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "riyaz",
+      "proof_url": "https://gist.github.com/riyaz/719920dcd978d06b0b2bda86c34f29e5",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "riyaz.mohammed.ibrahim",
+      "proof_url": "https://www.facebook.com/riyaz.mohammed.ibrahim/posts/10153820820262513?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN riyazmd.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/riyazmd.id\"\n"
+}

@@ -1,49 +1,54 @@
 {
   "owner_address": "14And9AGXzMnpKmhJX5nio2XsY1pvtKfv2",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/synapticfusion"
-    },
-    "bio": "Fusing Future Technology with Ancient Awareness",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/483.jpeg"
-    },
-    "facebook": {
-      "username": "synapticfusion"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/synfusion/a3615ec3c8158fc6e6c4"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "synapticfusion",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "synfusion"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "SFE"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/synapticfusion/status/718931347570606086"
+      {
+        "@type": "Account",
+        "identifier": "synfusion",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "synapticfusion"
+      {
+        "@type": "Account",
+        "identifier": "synapticfusion",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/synapticfusion/status/718931347570606086",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "v": "0.2"
+    "description": "Fusing Future Technology with Ancient Awareness",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/synapticfusion",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "SFE"
   },
   "verifications": [
-    {
-      "identifier": "synfusion",
-      "proof_url": "https://gist.github.com/synfusion/a3615ec3c8158fc6e6c4",
-      "service": "github",
-      "valid": true
-    },
     {
       "identifier": "synapticfusion",
       "proof_url": "https://twitter.com/synapticfusion/status/718931347570606086",
       "service": "twitter",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN synapticfusion.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/synapticfusion.id\"\n"
 }

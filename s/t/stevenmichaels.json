@@ -1,39 +1,50 @@
 {
   "owner_address": "1QH4gn8gm7NMuibPMw9f9BBSdpv1QZgAi5",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/stevenmichaels"
-    },
-    "bio": "Bitcoin Consultant",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/stevenmichaels"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Steven Michaels"
-    },
-    "pgp": {
-      "fingerprint": "",
-      "url": "http://bitcoinconsultant.net/wp-content/uploads/2013/12/5C507F23.asc"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/bitcoin_sm/status/483962174167986177"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "http://bitcoinconsultant.net/wp-content/uploads/2013/12/5C507F23.asc",
+        "identifier": null,
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "bitcoin_sm"
+      {
+        "@type": "Account",
+        "identifier": "unknow",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bitcoin_sm/status/780637123028389888",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "v": "0.2",
-    "website": "http://bitcoinconsultant.net"
+    "description": "Bitcoin Enthusiast",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/stevenmichaels",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/stevenmichaels",
+        "name": "cover"
+      }
+    ],
+    "name": "Steve",
+    "website": []
   },
   "verifications": [
     {
       "identifier": "bitcoin_sm",
-      "proof_url": "https://twitter.com/bitcoin_sm/status/483962174167986177",
+      "proof_url": "https://twitter.com/bitcoin_sm/status/780637123028389888",
       "service": "twitter",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN stevenmichaels.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stevenmichaels.id\"\n"
 }

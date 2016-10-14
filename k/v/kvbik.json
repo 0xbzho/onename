@@ -1,51 +1,61 @@
 {
   "owner_address": "1GBvWH9YYawRYw7GjVF715LfeqgDXsqD7x",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/kvbik"
-    },
-    "bio": "bikes and pythons",
-    "bitcoin": {
-      "address": "14PPd6JvKv2SMoGHQNQLrvirJwoXJzF15A"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/rv1.jpeg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/kvbik/a41c76f3a51076734cc7"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "14PPd6JvKv2SMoGHQNQLrvirJwoXJzF15A",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "kvbik"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/kvbik"
-    },
-    "location": {
-      "formatted": "Roudnice nad Labem"
-    },
-    "name": {
-      "formatted": "Jakub Vysoký"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/kvbik/status/502326697329295361"
+      {
+        "@type": "Account",
+        "identifier": "kvbik",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kvbik/status/784102261408538624",
+        "service": "twitter"
       },
-      "username": "kvbik"
+      {
+        "@type": "Account",
+        "identifier": "kvbik",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/kvbik/62272e936bd413d7a01d31da90d1c8a7",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Roudnice nad Labem"
     },
-    "v": "0.2"
+    "description": "bikes and pythons",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kvbik",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jakub Vysoký"
   },
   "verifications": [
     {
       "identifier": "kvbik",
-      "proof_url": "https://gist.github.com/kvbik/a41c76f3a51076734cc7",
-      "service": "github",
+      "proof_url": "https://twitter.com/kvbik/status/784102261408538624",
+      "service": "twitter",
       "valid": true
     },
     {
       "identifier": "kvbik",
-      "proof_url": "https://twitter.com/kvbik/status/502326697329295361",
-      "service": "twitter",
-      "valid": true
+      "proof_url": "https://gist.github.com/kvbik/62272e936bd413d7a01d31da90d1c8a7",
+      "service": "github",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN kvbik.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kvbik.id\"\n"
 }

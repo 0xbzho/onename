@@ -1,28 +1,60 @@
 {
   "owner_address": "1LBtv76jcfdzDxM1HajrrkZLyjW3vNC3fq",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/seansoe"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1HGhRRdpDQDJ3a827DjrbFX2j7nFNs8JhY",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ceci_sean",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ceci_sean/status/774160469942673408",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bo.su.54",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bo.su.54",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "China"
     },
-    "bitcoin": {
-      "address": "1HGhRRdpDQDJ3a827DjrbFX2j7nFNs8JhY"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/yvD.jpeg"
-    },
-    "facebook": {
-      "username": "seansoe"
-    },
-    "location": {
-      "formatted": "China"
-    },
-    "name": {
-      "formatted": "Su Bo"
-    },
-    "twitter": {
-      "username": "sean"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/seansoe",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Su Bo"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "ceci_sean",
+      "proof_url": "https://twitter.com/ceci_sean/status/774160469942673408",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bo.su.54",
+      "proof_url": "https://www.facebook.com/bo.su.54",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN seansoe.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/seansoe.id\"\n"
 }

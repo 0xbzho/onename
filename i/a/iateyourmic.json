@@ -1,0 +1,68 @@
+{
+  "owner_address": "15cnsfoVrUChQcaCD3RPKr5KnEDVAosgxX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "iateyourmic",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/iateyourmic/status/771618576264335360",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "iateyourmicrophone",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/iateyourmicrophone/posts/10157469331565374?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ditn",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ditn/6026de7a09b3bcaca5e7e988e0f64340",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1DP2HjhG1r1ejtmXn81eoSMRPYYx2GwcUp",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/iateyourmic",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "iateyourmic",
+      "proof_url": "https://twitter.com/iateyourmic/status/771618576264335360",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "iateyourmicrophone",
+      "proof_url": "https://www.facebook.com/iateyourmicrophone/posts/10157469331565374?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "ditn",
+      "proof_url": "https://gist.github.com/ditn/6026de7a09b3bcaca5e7e988e0f64340",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN iateyourmic.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/iateyourmic.id\"\n"
+}

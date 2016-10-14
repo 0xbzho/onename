@@ -1,6 +1,74 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "15yUQnDX9wUgSQMnXL1hNtD3nWXo4TdxfL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "foysalit",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/foysalit/a75f9bd7beeafccccb625638f9296ee7",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "foysalit",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/foysalit/status/685479303568560128",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ahmedfoysal",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/AhmedFoysal/posts/1074530429262484",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "turin, italy"
+    },
+    "description": "can't go a day without writting code. founder of bdgeeks, codes in php and javascript, born in bangladesh.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/foysalit",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/foysalit",
+        "name": "cover"
+      }
+    ],
+    "name": "foysal ahmed",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://foysal.it"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "foysalit",
+      "proof_url": "https://gist.github.com/foysalit/a75f9bd7beeafccccb625638f9296ee7",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "foysalit",
+      "proof_url": "https://twitter.com/foysalit/status/685479303568560128",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ahmedfoysal",
+      "proof_url": "https://www.facebook.com/AhmedFoysal/posts/1074530429262484",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN foysalit.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/foysalit.id\"\n"
 }

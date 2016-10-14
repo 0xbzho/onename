@@ -1,0 +1,44 @@
+{
+  "owner_address": "17CaukNxCJcrDpVnjWhW91ijqhG1M34wHs",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "magotsan",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/magotsan/status/777878242728566784",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mago.tsan",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mago.tsan",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "magotsan",
+      "proof_url": "https://twitter.com/magotsan/status/777878242728566784",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mago.tsan",
+      "proof_url": "https://www.facebook.com/mago.tsan",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN magush.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/magush.id\"\n"
+}

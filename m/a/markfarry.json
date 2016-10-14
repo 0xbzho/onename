@@ -1,0 +1,41 @@
+{
+  "owner_address": "19E9687m23bpec6YndDoUJrRtokY6GenJK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "markcfarry",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/markcfarry/posts/10209493200380372",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Portland, OR"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/markfarry",
+        "name": "avatar"
+      }
+    ],
+    "name": "Mark C. Farry"
+  },
+  "verifications": [
+    {
+      "identifier": "markcfarry",
+      "proof_url": "https://www.facebook.com/markcfarry/posts/10209493200380372",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN markfarry.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/markfarry.id\"\n"
+}

@@ -1,0 +1,54 @@
+{
+  "owner_address": "18EQWE9CyHcYVZVTRNHV1utur8C8HpAeex",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "MarcAntoine-Arnaud",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/MarcAntoine-Arnaud/ffd3023a1838fa85f16305a1e3da779b",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "arnaudmarcantoine",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/arnaudmarcantoine/posts/10154093883053031?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/marcantoinearnaud",
+        "name": "avatar"
+      }
+    ],
+    "name": "ARNAUD Marc-Antoine"
+  },
+  "verifications": [
+    {
+      "identifier": "MarcAntoine-Arnaud",
+      "proof_url": "https://gist.github.com/MarcAntoine-Arnaud/ffd3023a1838fa85f16305a1e3da779b",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "arnaudmarcantoine",
+      "proof_url": "https://www.facebook.com/arnaudmarcantoine/posts/10154093883053031?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN marcantoinearnaud.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/marcantoinearnaud.id\"\n"
+}

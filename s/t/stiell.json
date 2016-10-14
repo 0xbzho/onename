@@ -1,28 +1,45 @@
 {
   "owner_address": "12ay69R1xp7iG3kYHJooieWWZF4QTHq3hM",
   "profile": {
-    "bitcoin": {
-      "address": "1STieLL2qXnkWUzg94DTkJSuX7FHDQNhP"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sti__l",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "stiell",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1STieLL2qXnkWUzg94DTkJSuX7FHDQNhP",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "http://stiell.org/cfde6b1b.asc",
+        "identifier": "07633F4A67D10071E1C4D865318B2A0ECFDE6B1B",
+        "role": "key",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Norway"
     },
-    "bitmessage": {
-      "address": "BM-NBYGcXgbUAbUh5DCH4MT8Jmsrt9grbXZ"
-    },
-    "github": {
-      "username": "stiell"
-    },
-    "linkedin": {
-      "url": "https://www.linkedin.com/in/stianellingsen"
-    },
-    "name": {
-      "formatted": "Stian A. Ellingsen"
-    },
-    "pgp": {
-      "fingerprint": "07633F4A67D10071E1C4D865318B2A0ECFDE6B1B",
-      "url": "http://stiell.org/cfde6b1b.asc"
-    },
-    "v": "0.2",
-    "website": "http://stiell.org/"
+    "description": "Hacker wizard",
+    "name": "Stian Ellingsen",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://stiell.org/"
+      }
+    ]
   },
   "verifications": [],
-  "zone_file": "{\"bitcoin\": {\"address\": \"1STieLL2qXnkWUzg94DTkJSuX7FHDQNhP\"}, \"bitmessage\": {\"address\": \"BM-NBYGcXgbUAbUh5DCH4MT8Jmsrt9grbXZ\"}, \"github\": {\"username\": \"stiell\"}, \"linkedin\": {\"url\": \"https://www.linkedin.com/in/stianellingsen\"}, \"name\": {\"formatted\": \"Stian A. Ellingsen\"}, \"pgp\": {\"fingerprint\": \"07633F4A67D10071E1C4D865318B2A0ECFDE6B1B\", \"url\": \"http://stiell.org/cfde6b1b.asc\"}, \"v\": \"0.2\", \"website\": \"http://stiell.org/\"}"
+  "zone_file": "$ORIGIN stiell.id\n$TTL 3600\npubkey TXT \"pubkey:data:04a28c4db4bd4d40643d16b362754f4b167ab548cbccbdb8b40ee726e27a0d181285156b7df39e89aed9ced972e81bd765a99a2585177e18945f5bede1e221e3e3\"\n_file URI 10 1 \"file:///home/user/.blockstack/storage-disk/mutable/stiell.id\"\n_https._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stiell.id\"\n_http._tcp URI 10 1 \"http://node.blockstack.org:6264/RPC2#stiell.id\"\n_dht._udp URI 10 1 \"dht+udp://7fa7779c1636cbc58a38420859701ddcc60da294\"\n"
 }

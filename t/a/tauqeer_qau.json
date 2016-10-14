@@ -1,0 +1,49 @@
+{
+  "owner_address": "1hPsiU9yZefARf6dPfEkugUx5nvE6tmhG",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tauqeer.ulhassan.96",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/tauqeer_qau?post_id=1190063014347158_1190064174347042#/facebook",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tauqeer_qau",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tauqeer_qau/status/780665215620907008",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/tauqeer_qau",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tauqeer_qau",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tauqeer.ulhassan.96",
+      "proof_url": "https://onename.com/tauqeer_qau?post_id=1190063014347158_1190064174347042#/facebook",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "tauqeer_qau",
+      "proof_url": "https://twitter.com/tauqeer_qau/status/780665215620907008",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tauqeer_qau.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tauqeer_qau.id\"\n"
+}

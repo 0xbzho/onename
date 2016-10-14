@@ -1,0 +1,55 @@
+{
+  "owner_address": "17sjxY3aoWLZxrDVAq7KV874e2P7zWMvdx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kal.strom",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/kal.strom/posts/10153567302096580",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kalstrom",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kalstrom/status/763741481672777729",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sweden"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Kal Ström",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://kalstrom.se"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "kal.strom",
+      "proof_url": "https://www.facebook.com/kal.strom/posts/10153567302096580",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "kalstrom",
+      "proof_url": "https://twitter.com/kalstrom/status/763741481672777729",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kalstrom.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kalstrom.id\"\n"
+}

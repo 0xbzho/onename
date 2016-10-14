@@ -1,60 +1,52 @@
 {
-  "owner_address": "14yUrjxQ7fPfjodAnq1XbCAHZCEbpM1jTm",
+  "owner_address": "12NkuVmhYjwSdWqGXZ8QRYefrRVxzAcfHQ",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/yondonfu"
-    },
-    "bio": "@Dartmouth '17. NYC native",
-    "bitcoin": {
-      "address": "19S2pGLiT23VL2bi3mkazPYmGWeKNGBdjx"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/yondonfu"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/yondonfu/posts/10207634500081744"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "YondonFu",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "yondonfu"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/yondonfu/54f97da7f4198fb07c78"
+      {
+        "@type": "Account",
+        "identifier": "yondonfu",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "yondonfu"
-    },
-    "location": {
-      "formatted": "NYC - SF"
-    },
-    "name": {
-      "formatted": "Yondon Fu"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/YondonFu/status/653115961617203200"
+      {
+        "@type": "Account",
+        "identifier": "yondonfu",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "YondonFu"
+      {
+        "@type": "Account",
+        "identifier": "19S2pGLiT23VL2bi3mkazPYmGWeKNGBdjx",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "NYC - SF"
     },
-    "v": "0.2"
+    "description": "@Dartmouth '17. NYC native",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/yondonfu",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/yondonfu",
+        "name": "cover"
+      }
+    ],
+    "name": "Yondon Fu"
   },
-  "verifications": [
-    {
-      "identifier": "yondonfu",
-      "proof_url": "https://gist.github.com/yondonfu/54f97da7f4198fb07c78",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "YondonFu",
-      "proof_url": "https://twitter.com/YondonFu/status/653115961617203200",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "yondonfu",
-      "proof_url": "https://facebook.com/yondonfu/posts/10207634500081744",
-      "service": "facebook",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN yondonfu.id\n$TTL 3600\npubkey TXT \"pubkey:data:024572f84d32771209f9fae3febf6ab86a5f53a0e4c9ac9b9e0099c1f442fb2f26\"\n_file URI 10 1 \"file:///Users/yondonfu/.blockstack/storage-disk/mutable/yondonfu.id\"\n_https._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/yondonfu.id\"\n_http._tcp URI 10 1 \"http://node.blockstack.org:6264/RPC2#yondonfu.id\"\n_dht._udp URI 10 1 \"dht+udp://da5931b3cf266633ab26e1a02f02b3b4043bd3e4\"\n"
 }

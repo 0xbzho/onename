@@ -1,26 +1,48 @@
 {
   "owner_address": "1CFeTHCSSNAmC4y43D6aAc8HvxiHufAi62",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/aqeel"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1GM761yo5fVHttUsiNnWzcbc31NxTRh96W",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "aq_aslam",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/aq_aslam/status/771441637125976069",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Pakistan"
     },
-    "bio": "A software developer, tech geek, food lover",
-    "bitcoin": {
-      "address": "1GM761yo5fVHttUsiNnWzcbc31NxTRh96W"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/vsS.jpeg"
-    },
-    "location": {
-      "formatted": "Pakistan"
-    },
-    "name": {
-      "formatted": "Aqeel Aslam"
-    },
-    "twitter": {
-      "username": "aq_aslam"
-    },
-    "v": "0.2"
+    "description": "A software developer, tech geek, food lover",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/aqeel",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Aqeel Aslam"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "aq_aslam",
+      "proof_url": "https://twitter.com/aq_aslam/status/771441637125976069",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN aqeel.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/aqeel.id\"\n"
 }

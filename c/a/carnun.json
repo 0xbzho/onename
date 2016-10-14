@@ -1,0 +1,75 @@
+{
+  "owner_address": "1GmYJ8HmpqhXtGf45oSC6iTBsNVFeTcoRs",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "carnun",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/carnun/status/763649059542433792",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "carnun",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/carnun/posts/10154257759300977",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "carnun",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/carnun/796163e03559e4364729889214e86a1d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/carnun",
+        "identifier": "65D7418CF498BCFAB4AD9A014337CB739EA77590",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/carnun",
+        "name": "avatar"
+      }
+    ],
+    "name": "Hendrik Jacobus Schalekamp",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://sudo.org.za"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "carnun",
+      "proof_url": "https://twitter.com/carnun/status/763649059542433792",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "carnun",
+      "proof_url": "https://www.facebook.com/carnun/posts/10154257759300977",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "carnun",
+      "proof_url": "https://gist.github.com/carnun/796163e03559e4364729889214e86a1d",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN carnun.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/carnun.id\"\n"
+}

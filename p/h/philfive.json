@@ -1,0 +1,31 @@
+{
+  "owner_address": "12rrjzgUr2kg8j8zYL4aBAmrnGC8x51ZnQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "philfive1234",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/philfive1234/status/767775714850537472",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "philfive1234",
+      "proof_url": "https://twitter.com/philfive1234/status/767775714850537472",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN philfive.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/philfive.id\"\n"
+}

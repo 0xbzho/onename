@@ -1,0 +1,54 @@
+{
+  "owner_address": "1KnkAZvJrQdjjhVBQrMEHkMA3WeAXo9kb9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "8c04950bce5dfbaf6d9c0920a6d2b550bc28937f",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/412f35d84b08daba6ea4adfe3c9b0af4",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "honey_france",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Honey_France/status/778201873643954176",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ardèche, France"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/honey_france",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/honey_france",
+        "name": "cover"
+      }
+    ],
+    "name": "Honey from France",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://duosear.ch/8c04950bce5dfbaf6d9c0920a6d2b550bc28937f"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "honey_france",
+      "proof_url": "https://twitter.com/Honey_France/status/778201873643954176",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN honey_france.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/honey_france.id\"\n"
+}

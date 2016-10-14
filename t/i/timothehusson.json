@@ -1,0 +1,31 @@
+{
+  "owner_address": "1Em8jBkniQ7VVSsEYukrtgqHMpEinmvPMC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "https:",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "https:",
+      "proof_url": "https://gist.github.com",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN timothehusson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/timothehusson.id\"\n"
+}

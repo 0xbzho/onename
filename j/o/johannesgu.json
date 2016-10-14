@@ -1,0 +1,74 @@
+{
+  "owner_address": "1BWRUMeL1idhZL1F3wQXdkR3WfTuqLfuSX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "johannesgu",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/johannesgu/status/769911191892295680",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "johannesgu",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/johannesgu/posts/10154034353269613",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "johannesg",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/johannesg/aae8a1c435d7aeb759e06616745eba87",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1mNjxDWmyuYLcaY8vib2RknujjUd3ohEK",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/johannesgu",
+        "identifier": "D27AB654D015F323568AE8CBEC44092EB018297B",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/johannesgu",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "johannesgu",
+      "proof_url": "https://twitter.com/johannesgu/status/769911191892295680",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "johannesgu",
+      "proof_url": "https://www.facebook.com/johannesgu/posts/10154034353269613",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "johannesg",
+      "proof_url": "https://gist.github.com/johannesg/aae8a1c435d7aeb759e06616745eba87",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN johannesgu.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/johannesgu.id\"\n"
+}

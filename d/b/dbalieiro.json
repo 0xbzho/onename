@@ -1,0 +1,74 @@
+{
+  "owner_address": "1z6gdiEH7CqdmNZubpzZyfRRCKjxYxz13",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dbalieiro",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dbalieiro/status/784201462310117377",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dbalieiro",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dbalieiro/posts/10155298593540968",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1E8114D3BhePqjW4QbR9Lzjw4YR2MdhEq5",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dbalieiro",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dbalieiro/98a7b05e0a3696103bde43915cb74a17#file-blockstack-id",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Gaia"
+    },
+    "description": "FullTime Gaia's Agent : #WikiRevolution : #WikiSmile #MayaLink @dbalieiroNET : http://about.me/dbalieiro : #FollowingTheWind °(#WebSurf Share @dbMayaHyperLink)",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dbalieiro",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/dbalieiro",
+        "name": "cover"
+      }
+    ],
+    "name": "Daniel Cardoso Balieiro"
+  },
+  "verifications": [
+    {
+      "identifier": "dbalieiro",
+      "proof_url": "https://twitter.com/dbalieiro/status/784201462310117377",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "dbalieiro",
+      "proof_url": "https://www.facebook.com/dbalieiro/posts/10155298593540968",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "dbalieiro",
+      "proof_url": "https://gist.github.com/dbalieiro/98a7b05e0a3696103bde43915cb74a17",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN dbalieiro.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dbalieiro.id\"\n"
+}

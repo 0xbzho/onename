@@ -1,49 +1,67 @@
 {
   "owner_address": "19Tg5AX912PpAMsA3r5xSNM7d64EBUFHSZ",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/zefareu"
-    },
-    "bio": "Update to bio.",
-    "bitcoin": {
-      "address": "1JnE47XFAKwX5gbDXZcKrLApdzxy64LLzS"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/n6r.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/daniel.shamblin.foster/posts/1647191568830171"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1JnE47XFAKwX5gbDXZcKrLApdzxy64LLzS",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "daniel.shamblin.foster"
-    },
-    "location": {
-      "formatted": "Boise, Idaho, USA"
-    },
-    "name": {
-      "formatted": "Daniel A. Z. Foster"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/mitchslam/status/610850405107367937"
+      {
+        "@type": "Account",
+        "identifier": "zefareu",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Zefareu/status/766625749818146817",
+        "service": "twitter"
       },
-      "username": "mitchslam"
+      {
+        "@type": "Account",
+        "identifier": "zefareu",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/zefareu/posts/337125746636785",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boise, Idaho, USA"
     },
-    "v": "0.2",
-    "website": "http://plop.science"
+    "description": "Sandwiches, whistling, ocean, Kubb, solitude, Oxford commas, not wearing shoes, incorrectly tagging photo locations, and rude balloon art.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/zefareu",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Daniel A. Z. Foster",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://zefareu.com"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "mitchslam",
-      "proof_url": "https://twitter.com/mitchslam/status/610850405107367937",
+      "identifier": "zefareu",
+      "proof_url": "https://twitter.com/Zefareu/status/766625749818146817",
       "service": "twitter",
       "valid": false
     },
     {
-      "identifier": "daniel.shamblin.foster",
-      "proof_url": "https://facebook.com/daniel.shamblin.foster/posts/1647191568830171",
+      "identifier": "zefareu",
+      "proof_url": "https://www.facebook.com/zefareu/posts/337125746636785",
       "service": "facebook",
-      "valid": false
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN zefareu.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/zefareu.id\"\n"
 }

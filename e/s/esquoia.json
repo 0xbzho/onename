@@ -1,0 +1,46 @@
+{
+  "owner_address": "12TEkg5qBszqRxmqgEdmXKaWGs6BhfLVBx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "4740d861d48ae74c2ea3d9bdb073d28ccd4a9017",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Esquoia",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "esquoia",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Esquoia/status/773091053763194880",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/esquoia",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/esquoia",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "esquoia",
+      "proof_url": "https://twitter.com/Esquoia/status/773091053763194880",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN esquoia.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/esquoia.id\"\n"
+}

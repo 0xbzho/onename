@@ -1,6 +1,45 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1H9Dsc4Tzoyk372yibVxmPpcp3aNtf6p2J",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dexjen23",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dexjen23/status/777328979099344896",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "marksantos",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/marksantos/5c9d3b7ef9bda8eebe6d#file-gistfile1-txt",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Mark Santos"
+  },
+  "verifications": [
+    {
+      "identifier": "dexjen23",
+      "proof_url": "https://twitter.com/dexjen23/status/777328979099344896",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "marksantos",
+      "proof_url": "https://gist.github.com/marksantos/5c9d3b7ef9bda8eebe6d#file-gistfile1-txt",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN static.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/static.id\"\n"
 }

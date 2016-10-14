@@ -1,6 +1,21 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "19wjVowWVvKXcEeodRymB4JeYa7yTbNi9t",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "contentUrl": "imod.io",
+        "identifier": "2c846713a511537bf8bf6b4245a7feb73d63f99c",
+        "service": "openbazaar"
+      },
+      {
+        "contentUrl": "http://example.com",
+        "identifier": "test_account_id",
+        "service": "test_account"
+      }
+    ],
+    "accounts": []
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN imod.id\n$TTL 3600\npubkey TXT \"pubkey:data:02bdc0ebd9e83f0db8b14957ca6bef50219db3420f601056342aeaa634ffe14221\"\n_file URI 10 1 \"file:///home/hugh/.blockstack/storage-disk/mutable/imod.id\"\n_https._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/imod.id\"\n_http._tcp URI 10 1 \"http://node.blockstack.org:6264/RPC2#imod.id\"\n_dht._udp URI 10 1 \"dht+udp://2186608dc0f4538a4914ff9972a97290ba467665\"\n"
 }

@@ -1,43 +1,58 @@
 {
   "owner_address": "13Bk8t8wza6w54hMAMWYRpiVW3YLoP4RfZ",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/nilnilnil"
-    },
-    "bio": "CTO @DuckDuckGo",
-    "bitcoin": {
-      "address": "15ihXxV3rg21tsBx7wEYfk7Ut3eUVoRyio"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/nilnilnil"
-    },
-    "facebook": {
-      "username": "cainetighe"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/nilnilnil/5de0104ea392bf43edf5"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "__nil",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "nilnilnil"
+      {
+        "@type": "Account",
+        "identifier": "nilnilnil",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "15ihXxV3rg21tsBx7wEYfk7Ut3eUVoRyio",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "philadelphia"
     },
-    "location": {
-      "formatted": "philadelphia"
-    },
-    "name": {
-      "formatted": "Caine Tighe"
-    },
-    "twitter": {
-      "username": "__nil"
-    },
-    "v": "0.2",
-    "website": "http://cainetighe.com"
+    "description": "CTO @DuckDuckGo",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nilnilnil",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/nilnilnil",
+        "name": "cover"
+      }
+    ],
+    "name": "Caine Tighe",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://cainetighe.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "nilnilnil",
-      "proof_url": "https://gist.github.com/nilnilnil/5de0104ea392bf43edf5",
-      "service": "github",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN nilnilnil.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nilnilnil.id\"\n"
 }

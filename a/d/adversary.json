@@ -1,0 +1,80 @@
+{
+  "owner_address": "1RG4EzAkCtidkh2H7tAADFv4MC5ZGP3Xx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "18WuhjT2scH8sBJL4gJPiEqD2yvkbMF4yQ",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Hasimir",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Hasimir/567f6d0671b45eeb5a7673d7e353119f",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "AdversaryPub",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/AdversaryPub/status/767840683612712960",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "70a227dbe2766ed1d7de277058a1926afdd16793",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/heretakis/status/767984014540075008",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "http://www.adversary.org/ben-key.asc",
+        "identifier": "DB4724E6FA4286C92B4E55C4321E4E2373590E5D",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Australia"
+    },
+    "description": "OpenPGP key: 0x321E4E2373590E5D; see the keybase URL for additional verifiable pages.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/adversary",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/adversary",
+        "name": "cover"
+      }
+    ],
+    "name": "Ben McGinnes",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://keybase.io/adversary"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Hasimir",
+      "proof_url": "https://gist.github.com/Hasimir/567f6d0671b45eeb5a7673d7e353119f",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "AdversaryPub",
+      "proof_url": "https://twitter.com/AdversaryPub/status/767840683612712960",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN adversary.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/adversary.id\"\n"
+}

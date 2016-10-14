@@ -1,0 +1,62 @@
+{
+  "owner_address": "1GXUx56w9KAnDTv647bkEVD3jS7x51nomR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "aaronburke6",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/aaronburke6/status/783370456988389376",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "aaronburke6",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/aaronburke6/posts/10157455268835858",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "aaronburke6",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/aaronburke6/cd18b8460dfc69a4248d112f23dbda43",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/aaronburke6",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/aaronburke6",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "aaronburke6",
+      "proof_url": "https://twitter.com/aaronburke6/status/783370456988389376",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "aaronburke6",
+      "proof_url": "https://www.facebook.com/aaronburke6/posts/10157455268835858",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "aaronburke6",
+      "proof_url": "https://gist.github.com/aaronburke6/cd18b8460dfc69a4248d112f23dbda43",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN aaronburke6.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/aaronburke6.id\"\n"
+}

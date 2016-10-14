@@ -1,27 +1,54 @@
 {
   "owner_address": "13Q4UeFxGkyB2hnWYsYrkLKP7eqEAbiQfu",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/lionelbr"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "BruelLionel",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "absara",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/absara/status/761473753817559040",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "France"
     },
-    "bio": "Healthcare Strategist, Integrated Care Pathways Specialist, Patients Satisfaction & Loyalty Expert • French, geek & coffee lover",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/lionelbr"
-    },
-    "facebook": {
-      "username": "BruelLionel"
-    },
-    "location": {
-      "formatted": "France"
-    },
-    "name": {
-      "formatted": "Lionel Bruel"
-    },
-    "twitter": {
-      "username": "absara"
-    },
-    "v": "0.2",
-    "website": "http://facebook.com/BruelLionel"
+    "description": "Healthcare Strategist, Care Pathways Specialist, Patients Satisfaction, Sales & Loyalty Expert • French, geek & coffee lover",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/lionelbr",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/lionelbr",
+        "name": "cover"
+      }
+    ],
+    "name": "Lionel Bruel",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://facebook.com/BruelLionel"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "absara",
+      "proof_url": "https://twitter.com/absara/status/761473753817559040",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN lionelbr.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lionelbr.id\"\n"
 }

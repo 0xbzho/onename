@@ -1,0 +1,68 @@
+{
+  "owner_address": "12qsAHozLDwJLnNXLHsbFFfMeDVuQip8GF",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "paul.ziebart",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/profile.php?id=100013435930076&sk=timeline",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https:",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/we4you",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "paule4life",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/paule4life",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "3BLigibbJkXPFW8NMzA8WTFH1c6Xp7iqUV",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/we4you",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/we4you",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "paule4life",
+      "proof_url": "https://twitter.com/paule4life",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "paul.ziebart",
+      "proof_url": "https://www.facebook.com/profile.php?id=100013435930076&sk=timeline",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "https:",
+      "proof_url": "https://onename.com/we4you",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN we4you.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/we4you.id\"\n"
+}

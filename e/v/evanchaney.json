@@ -1,0 +1,38 @@
+{
+  "owner_address": "12XriWoBVdHYfu9P7h36QVmdGXp6g2L6pT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "evanchaney",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/evanchaney/91c0aef709f0a5631d4744abeee21e14",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/evanchaney",
+        "identifier": "27DC73B70EFED412D0B8004D3DA1C43638ABBC6A",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Evan Chaney"
+  },
+  "verifications": [
+    {
+      "identifier": "evanchaney",
+      "proof_url": "https://gist.github.com/evanchaney/91c0aef709f0a5631d4744abeee21e14",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN evanchaney.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/evanchaney.id\"\n"
+}

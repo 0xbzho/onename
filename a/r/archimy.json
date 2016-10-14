@@ -1,0 +1,67 @@
+{
+  "owner_address": "125hsEE6Xrxv7smoyPJNNwJTKA8pc4At9Q",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nels.long",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/nels.long/posts/10207096039501309",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "archimy",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/archimy/bbd7f9d41908c34259393109a6d78ef6",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nlong1418",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/nlong1418/status/763135610395635712",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Los Angeles"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/archimy",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/archimy",
+        "name": "cover"
+      }
+    ],
+    "name": "Nels Long"
+  },
+  "verifications": [
+    {
+      "identifier": "nels.long",
+      "proof_url": "https://www.facebook.com/nels.long/posts/10207096039501309",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "archimy",
+      "proof_url": "https://gist.github.com/archimy/bbd7f9d41908c34259393109a6d78ef6",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "nlong1418",
+      "proof_url": "https://twitter.com/nlong1418/status/763135610395635712",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN archimy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/archimy.id\"\n"
+}

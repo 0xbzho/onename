@@ -1,0 +1,44 @@
+{
+  "owner_address": "1FUeVf5JgHvXcM6zAU5j3ekNu4RWXo88zA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "farhanlalji",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/farhanlalji/status/785795163104751616",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "farhanlalji",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/l.php?u=https%3A%2F%2Fonename.com%2Ffarhanlalji&h=uAQEyQA8U&s=1",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "farhanlalji",
+      "proof_url": "https://twitter.com/farhanlalji/status/785795163104751616",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "farhanlalji",
+      "proof_url": "https://www.facebook.com/l.php?u=https%3A%2F%2Fonename.com%2Ffarhanlalji&h=uAQEyQA8U&s=1",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN farhanlalji.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/farhanlalji.id\"\n"
+}

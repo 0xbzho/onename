@@ -1,0 +1,68 @@
+{
+  "owner_address": "1KR7GdSowSBcRh14k8x35ZvvN5LAymgUig",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "myclaudiu",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/myclaudiu/status/783491469017513984",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "myclaudiu",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/myclaudiu/1de430b624d48299dbe52f6f5951682e",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "17X61zW2bJh6Gwsr4QmCMCorCXEbCFTfSm",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "CopyratulRoman",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/CopyratulRoman/posts/1158118367588269",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/claudium",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/claudium",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "myclaudiu",
+      "proof_url": "https://twitter.com/myclaudiu/status/783491469017513984",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "myclaudiu",
+      "proof_url": "https://gist.github.com/myclaudiu/1de430b624d48299dbe52f6f5951682e",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "CopyratulRoman",
+      "proof_url": "https://www.facebook.com/CopyratulRoman/posts/1158118367588269",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN claudium.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/claudium.id\"\n"
+}

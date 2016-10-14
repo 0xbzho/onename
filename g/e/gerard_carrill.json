@@ -1,19 +1,28 @@
 {
   "owner_address": "1KgQRk5syJX56h4oWCRHxysQkSG35Viu6m",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/IKM.jpeg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gerard_carrill",
+        "proofType": "http",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "México"
     },
-    "location": {
-      "formatted": "México"
-    },
-    "name": {
-      "formatted": "Gerardo Carrillo"
-    },
-    "twitter": {
-      "username": "carrill_gerard"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Gerardo Carrillo"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN gerard_carrill.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gerard_carrill.id\"\n"
 }

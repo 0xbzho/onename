@@ -1,0 +1,61 @@
+{
+  "owner_address": "198D5L82MZBytzKn1DCbKj8UFa9dKyZ2RP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "twtnaveen",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/twtnaveen/status/772402216674078720",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rockjongleur",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/rockjongleur/posts/10211044807622573",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1BiQfVn9ABRmaak7UcgaEumDD1RUjRUtN3",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chemencheri, Chennai, INDIA"
+    },
+    "description": "Director at HLC International school",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/onlynavs",
+        "name": "avatar"
+      }
+    ],
+    "name": "Naveen Mahesh"
+  },
+  "verifications": [
+    {
+      "identifier": "twtnaveen",
+      "proof_url": "https://twitter.com/twtnaveen/status/772402216674078720",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "rockjongleur",
+      "proof_url": "https://www.facebook.com/rockjongleur/posts/10211044807622573",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN onlynavs.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/onlynavs.id\"\n"
+}

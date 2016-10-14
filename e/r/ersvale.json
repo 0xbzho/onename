@@ -1,0 +1,41 @@
+{
+  "owner_address": "1BcAd5kGDq4QEh2MJRiu3kNfohDUYkPN9J",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ersvale",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ersvale/posts/10153748429862085",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Norway"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ersvale",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ersvale",
+        "name": "cover"
+      }
+    ],
+    "name": "Erik Svaleng"
+  },
+  "verifications": [
+    {
+      "identifier": "ersvale",
+      "proof_url": "https://www.facebook.com/ersvale/posts/10153748429862085",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ersvale.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ersvale.id\"\n"
+}

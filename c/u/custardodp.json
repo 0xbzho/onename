@@ -1,0 +1,55 @@
+{
+  "owner_address": "1BP4QPiHu5otqnyAHUqxVDxtkQwKkBLofU",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1HG7DHGMydtfHqkmhqJJZyq8jrR5KDMgWG",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tuckistuck",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tuckistuck/status/770739432173469697",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "custardodp",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/custardodp/posts/10207304999839575?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/custardodp",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tuckistuck",
+      "proof_url": "https://twitter.com/tuckistuck/status/770739432173469697",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "custardodp",
+      "proof_url": "https://www.facebook.com/custardodp/posts/10207304999839575?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN custardodp.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/custardodp.id\"\n"
+}

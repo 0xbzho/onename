@@ -1,0 +1,50 @@
+{
+  "owner_address": "16KVKx2vq1SebendFvX5aTBktyPjb9Rm3D",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "draconis",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Draconis/status/782115829722656768",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Draconis0868",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Draconis0868/49ca95f4e8fc67eb80f98a76c10e9155",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/stevethedragon",
+        "name": "avatar"
+      }
+    ],
+    "name": "Steve Macintyre"
+  },
+  "verifications": [
+    {
+      "identifier": "draconis",
+      "proof_url": "https://twitter.com/Draconis/status/782115829722656768",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Draconis0868",
+      "proof_url": "https://gist.github.com/Draconis0868/49ca95f4e8fc67eb80f98a76c10e9155",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN stevethedragon.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stevethedragon.id\"\n"
+}

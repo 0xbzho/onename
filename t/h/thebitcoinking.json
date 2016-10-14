@@ -5,12 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "mcvillan",
-        "proofType": "http",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
         "identifier": "17Rr3z8qPVZWXcZUrn5YNmFm6t6gibQbjX",
         "role": "payment",
         "service": "bitcoin"
@@ -21,6 +15,19 @@
         "proofType": "http",
         "proofUrl": "https://twitter.com/TheBitcoinKing/status/731200026152734720",
         "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/thebitcoinking",
+        "identifier": null,
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mcvillan",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/McVillanUK/posts/1056045001176424",
+        "service": "facebook"
       }
     ],
     "address": {
@@ -54,6 +61,12 @@
       "proof_url": "https://twitter.com/TheBitcoinKing/status/731200026152734720",
       "service": "twitter",
       "valid": true
+    },
+    {
+      "identifier": "mcvillan",
+      "proof_url": "https://www.facebook.com/McVillanUK/posts/1056045001176424",
+      "service": "facebook",
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN thebitcoinking.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/thebitcoinking.id\"\n"

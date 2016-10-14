@@ -1,0 +1,68 @@
+{
+  "owner_address": "17sELBjzeGwmZRdzrnrS2w4xgQbUB3sdio",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "pmr_janes",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/pmr_janes/status/768526889946275840",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "janesp",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/janesp/5d159c7a6838e9d78ea3bbcaa55eb30b",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "peter.m.janes",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/peter.m.janes/posts/10155315562718975",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Switzerland"
+    },
+    "description": "Partner and Owner Santis AG, Founder Abdagon AG, Executive MBA HSG, PhD Computer Science ETHZ, MSc Electrical Engineering ETHZ",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/janes_p",
+        "name": "avatar"
+      }
+    ],
+    "name": "Peter Janes"
+  },
+  "verifications": [
+    {
+      "identifier": "pmr_janes",
+      "proof_url": "https://twitter.com/pmr_janes/status/768526889946275840",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "janesp",
+      "proof_url": "https://gist.github.com/janesp/5d159c7a6838e9d78ea3bbcaa55eb30b",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "peter.m.janes",
+      "proof_url": "https://www.facebook.com/peter.m.janes/posts/10155315562718975",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN janes_p.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/janes_p.id\"\n"
+}

@@ -1,0 +1,54 @@
+{
+  "owner_address": "19jkw8D6yZLBGcAHZSikftYRCKM94dK1H",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/kwatson",
+        "identifier": "EEA19C550B3AEEAC02561BFBB6494C081D5972",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dff4a4d84b23ff6af434dc039c4ab9477d15dd14",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/happycamelwool/posts/1772231519725582",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kwatson",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/kwatson/15b286a1d7381259e09c5b641e61a0b5",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Portland, OR"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kwatson",
+        "name": "avatar"
+      }
+    ],
+    "name": "Kris"
+  },
+  "verifications": [
+    {
+      "identifier": "kwatson",
+      "proof_url": "https://gist.github.com/kwatson/15b286a1d7381259e09c5b641e61a0b5",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN kwatson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kwatson.id\"\n"
+}

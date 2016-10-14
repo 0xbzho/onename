@@ -11,12 +11,6 @@
       },
       {
         "@type": "Account",
-        "identifier": "adsouza",
-        "proofType": "http",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
         "identifier": "1FaPUwsEFNkLCA7nyCmhraqb6ob2RPJ54W",
         "role": "payment",
         "service": "bitcoin"
@@ -27,6 +21,13 @@
         "proofType": "http",
         "proofUrl": "https://facebook.com/antonio.dsouza/posts/10101587142731267",
         "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "adsouza",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/adsouza/f8192164745ae7a661c449ce877471ed",
+        "service": "github"
       }
     ],
     "address": {
@@ -59,6 +60,12 @@
       "identifier": "antonio.dsouza",
       "proof_url": "https://facebook.com/antonio.dsouza/posts/10101587142731267",
       "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "adsouza",
+      "proof_url": "https://gist.github.com/adsouza/f8192164745ae7a661c449ce877471ed",
+      "service": "github",
       "valid": false
     }
   ],

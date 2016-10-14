@@ -1,32 +1,42 @@
 {
   "owner_address": "1MYUKHfPfnWu66cpY3CRedMMw1kemnZJn3",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/483.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/cedricchen70/posts/10208855697019427"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cedricchen70",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "cedricchen70"
+      {
+        "@type": "Account",
+        "identifier": "cedricchen70",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cedricchen70/status/765828377987211264",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris"
     },
-    "location": {
-      "formatted": "Paris"
-    },
-    "name": {
-      "formatted": "Cedric CHEN"
-    },
-    "twitter": {
-      "username": "cedricchen70"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Cedric CHEN"
   },
   "verifications": [
     {
       "identifier": "cedricchen70",
-      "proof_url": "https://facebook.com/cedricchen70/posts/10208855697019427",
-      "service": "facebook",
-      "valid": true
+      "proof_url": "https://twitter.com/cedricchen70/status/765828377987211264",
+      "service": "twitter",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN cedricchen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cedricchen.id\"\n"
 }

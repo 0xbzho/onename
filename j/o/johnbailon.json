@@ -1,64 +1,73 @@
 {
   "owner_address": "1528KPXpofXHfaM6at2jWubqydCG6GDJQM",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/johnbailon"
-    },
-    "bio": "Co-founder and CEO of Satoshi Citadel Industries",
-    "bitcoin": {
-      "address": "1JohnxNT6jRzhu3H1wgVFbSGKmHP4EUjUV"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/johnbailon"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/johnbailon/posts/10153308123073526"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "johnbailon",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "johnbailon"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/johnbailon/e3f2f7fe87c645ddb941"
+      {
+        "@type": "Account",
+        "identifier": "1JohnxNT6jRzhu3H1wgVFbSGKmHP4EUjUV",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "johnbailon"
-    },
-    "location": {
-      "formatted": "Philippines"
-    },
-    "name": {
-      "formatted": "John Bailon"
-    },
-    "pgp": {
-      "url": "https://s3.amazonaws.com/pk9/johnbailon"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/johnbailon/status/673792771048673280"
+      {
+        "@type": "Account",
+        "identifier": "johnbailon",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/johnbailon/posts/10153308123073526",
+        "service": "facebook"
       },
-      "username": "johnbailon"
+      {
+        "@type": "Account",
+        "identifier": "johnbailon",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/johnbailon/status/780339286688137216",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Philippines"
     },
-    "v": "0.2",
-    "website": "https://sci.ph"
+    "description": "Co-founder and CEO of Satoshi Citadel Industries",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/johnbailon",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/johnbailon",
+        "name": "avatar"
+      }
+    ],
+    "name": "John Bailon",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://sci.ph"
+      }
+    ]
   },
   "verifications": [
-    {
-      "identifier": "johnbailon",
-      "proof_url": "https://gist.github.com/johnbailon/e3f2f7fe87c645ddb941",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "johnbailon",
-      "proof_url": "https://twitter.com/johnbailon/status/673792771048673280",
-      "service": "twitter",
-      "valid": true
-    },
     {
       "identifier": "johnbailon",
       "proof_url": "https://facebook.com/johnbailon/posts/10153308123073526",
       "service": "facebook",
       "valid": false
+    },
+    {
+      "identifier": "johnbailon",
+      "proof_url": "https://twitter.com/johnbailon/status/780339286688137216",
+      "service": "twitter",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN johnbailon.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/johnbailon.id\"\n"
 }

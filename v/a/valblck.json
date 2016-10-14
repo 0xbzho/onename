@@ -1,0 +1,44 @@
+{
+  "owner_address": "18HKNyTpztB3wcRQR1qYQ4gyCBmtHu2vok",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Valblck",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/VLombardiBCKHN/status/775617476080070656",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "valentin.lombardi.1/posts/10210108175718268",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/valentin.lombardi.1/posts/10210108175718268",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Valblck",
+      "proof_url": "https://twitter.com/VLombardiBCKHN/status/775617476080070656",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "valentin.lombardi.1/posts/10210108175718268",
+      "proof_url": "https://www.facebook.com/valentin.lombardi.1/posts/10210108175718268",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN valblck.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/valblck.id\"\n"
+}

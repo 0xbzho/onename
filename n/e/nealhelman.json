@@ -7,23 +7,59 @@
         "@type": "Account",
         "identifier": "NealHelman",
         "proofType": "http",
-        "proofUrl": "https://www.facebook.com/neal.helman/posts/10209825556546331",
+        "proofUrl": "https://twitter.com/NealHelman/status/777242441917276160",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Neal.Helman",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/neal.helman/posts/10210490728295209",
         "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "NealHelman",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/NealHelman/3dbaae8f7c83ea33997494b3d8e6c93c#file-gist-txt",
+        "service": "github"
       }
     ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Columbia, SC, US"
+    },
     "image": [
       {
         "@type": "ImageObject",
         "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
         "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nealhelman",
+        "name": "avatar"
       }
-    ]
+    ],
+    "name": "Neal Helman"
   },
   "verifications": [
     {
       "identifier": "NealHelman",
-      "proof_url": "https://www.facebook.com/neal.helman/posts/10209825556546331",
+      "proof_url": "https://twitter.com/NealHelman/status/777242441917276160",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Neal.Helman",
+      "proof_url": "https://www.facebook.com/neal.helman/posts/10210490728295209",
       "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "NealHelman",
+      "proof_url": "https://gist.github.com/NealHelman/3dbaae8f7c83ea33997494b3d8e6c93c#file-gist-txt",
+      "service": "github",
       "valid": false
     }
   ],

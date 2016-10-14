@@ -1,51 +1,57 @@
 {
   "owner_address": "1HmVFRNxqgtCc1rgHy6cSwqLxyNbiZHsog",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/ravinggenius"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/lUU.jpeg"
-    },
-    "facebook": {
-      "username": "ravinggenius"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/ravinggenius/360024af69338b934c52"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ravinggenius",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "ravinggenius"
-    },
-    "location": {
-      "formatted": "Apex, NC, USA"
-    },
-    "name": {
-      "formatted": "Thomas Ingram"
-    },
-    "pgp": {
-      "fingerprint": "71D5A3244D7D3154C739DE3FEB950C85C1604EAB",
-      "url": "https://keybase.io/ravinggenius/key.asc"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/ravinggenius/status/658418158672457729"
+      {
+        "@type": "Account",
+        "identifier": "ravinggenius",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "ravinggenius"
+      {
+        "@type": "Account",
+        "identifier": "ravinggenius",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/ravinggenius/key.asc",
+        "identifier": "71D5A3244D7D3154C739DE3FEB950C85C1604EAB",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "255f40cdba4d7fd513d8c192ad2952bd28aef618",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Apex, NC, USA"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ravinggenius",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Thomas Ingram"
   },
-  "verifications": [
-    {
-      "identifier": "ravinggenius",
-      "proof_url": "https://gist.github.com/ravinggenius/360024af69338b934c52",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "ravinggenius",
-      "proof_url": "https://twitter.com/ravinggenius/status/658418158672457729",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN ravinggenius.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ravinggenius.id\"\n"
 }

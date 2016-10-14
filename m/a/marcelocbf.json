@@ -1,48 +1,53 @@
 {
   "owner_address": "1EPjDPNAX7SjcLoPwqZKTkiCdj2YQudijF",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/marcelocbf"
-    },
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/gQZ.jpg"
-    },
-    "facebook": {
-      "username": "marcelocbf"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/marcelocbf/a6b0a72da8aa10940530"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "marcelocbf",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "marcelocbf"
-    },
-    "location": {
-      "formatted": "Somerville, MA"
-    },
-    "name": {
-      "formatted": "Marcelo Freitas"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/marcelocbf/status/534049414457737216"
+      {
+        "@type": "Account",
+        "identifier": "marcelocbf",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "marcelocbf"
+      {
+        "@type": "Account",
+        "identifier": "marcelocbf",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/marcelocbf/status/534049414457737216",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Somerville, MA"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/marcelocbf",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Marcelo Freitas"
   },
   "verifications": [
-    {
-      "identifier": "marcelocbf",
-      "proof_url": "https://gist.github.com/marcelocbf/a6b0a72da8aa10940530",
-      "service": "github",
-      "valid": false
-    },
     {
       "identifier": "marcelocbf",
       "proof_url": "https://twitter.com/marcelocbf/status/534049414457737216",
       "service": "twitter",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN marcelocbf.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/marcelocbf.id\"\n"
 }

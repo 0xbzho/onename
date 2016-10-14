@@ -1,0 +1,48 @@
+{
+  "owner_address": "17Aa1pZWJkfTitQ7XK9KssXUt3BuChT5jJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jeevak",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jeevak/status/777287765318770688",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Jose"
+    },
+    "description": "FinTech Product Manager",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jeevak",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jeevak Kasarkod",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.shapeinnovation.co"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jeevak",
+      "proof_url": "https://twitter.com/jeevak/status/777287765318770688",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jeevak.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jeevak.id\"\n"
+}

@@ -1,0 +1,44 @@
+{
+  "owner_address": "1QPoCuNEKsM33QuGvaBRKBAvV3NgoqBKA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/6c96f0387cf66b8fac498be1adfef931",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "frachop",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/frachop/status/783709909351268353",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/6c96f0387cf66b8fac498be1adfef931",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "frachop",
+      "proof_url": "https://twitter.com/frachop/status/783709909351268353",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN frachop.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/frachop.id\"\n"
+}

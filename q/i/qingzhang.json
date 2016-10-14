@@ -1,0 +1,75 @@
+{
+  "owner_address": "17QGqGg2DtRN7Yyj8h9ZmKicAGzJo9GCYa",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "qingzhang1987",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Qingzhang1987/status/781897800292241408",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "qingzhang1987",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/qingzhang1987/6ca7e070e7234217526b0d17e0f83cfb",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "QingEcho",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/QingEcho/posts/1101173903301307?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "c7b00306359b0c95581450fa80d4873c0c87c2bc",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/unipheus/status/781883154697117696",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chengdu, Sichuan, China"
+    },
+    "description": "My name is Qing.I am 29 years .Now I am  living in China with my family .",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/qingzhang",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/qingzhang",
+        "name": "cover"
+      }
+    ],
+    "name": "Zhang Yan Qing"
+  },
+  "verifications": [
+    {
+      "identifier": "qingzhang1987",
+      "proof_url": "https://twitter.com/Qingzhang1987/status/781897800292241408",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "qingzhang1987",
+      "proof_url": "https://gist.github.com/qingzhang1987/6ca7e070e7234217526b0d17e0f83cfb",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "QingEcho",
+      "proof_url": "https://www.facebook.com/QingEcho/posts/1101173903301307?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN qingzhang.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/qingzhang.id\"\n"
+}

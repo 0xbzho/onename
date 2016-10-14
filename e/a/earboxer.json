@@ -1,0 +1,49 @@
+{
+  "owner_address": "1NoE9cdmJQGc9WvvFRPeS1nACUfdmHPtwa",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "earboxer",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/earboxer/4b5f4853918a75294158063ac6dd77f6",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "earboxer",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/earboxer/status/768157586826924032",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "f7199262d942d995359c146a353251cc177a5424",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "earboxer",
+      "proof_url": "https://gist.github.com/earboxer/4b5f4853918a75294158063ac6dd77f6",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "earboxer",
+      "proof_url": "https://twitter.com/earboxer/status/768157586826924032",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN earboxer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/earboxer.id\"\n"
+}

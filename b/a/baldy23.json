@@ -1,0 +1,41 @@
+{
+  "owner_address": "1Fp5hwkYYakj9cdZksCb9UUGTQUjWqtNvg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "wabaldwin",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "@andrew23baldwin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/andrew23baldwin/status/778955481175957504",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/baldy23",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/baldy23",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "@andrew23baldwin",
+      "proof_url": "https://twitter.com/andrew23baldwin/status/778955481175957504",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN baldy23.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/baldy23.id\"\n"
+}

@@ -1,0 +1,62 @@
+{
+  "owner_address": "1JEbWXAfqfCNoykoW6pSCbSeXYbLfkLNpd",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Kuba_",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Kuba_/status/769135748889141250",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jakub.broukal",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jakub.broukal/posts/10153930134752775",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "doctorbuffer",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/doctorbuffer/d7eadd89f38207fd29fd5e0cdaa59fbb#file-gistfile1-txt",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Czech Republic"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jakub Broukal"
+  },
+  "verifications": [
+    {
+      "identifier": "Kuba_",
+      "proof_url": "https://twitter.com/Kuba_/status/769135748889141250",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jakub.broukal",
+      "proof_url": "https://www.facebook.com/jakub.broukal/posts/10153930134752775",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "doctorbuffer",
+      "proof_url": "https://gist.github.com/doctorbuffer/d7eadd89f38207fd29fd5e0cdaa59fbb#file-gistfile1-txt",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jakub_broukal.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jakub_broukal.id\"\n"
+}

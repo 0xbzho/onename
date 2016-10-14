@@ -1,0 +1,68 @@
+{
+  "owner_address": "1KGAnnwiKm959mbGqWXzas8yXn2LpwgsCu",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "badsmiley",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BadSmiley/status/783401224381030400",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "badsmiley",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/badsmiley/6369f22405bae841aedc8ef22de158fd",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "osomin",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/osomin/posts/10155092957290400",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Vilnius"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Oleg Somin",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://olegsomin.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "badsmiley",
+      "proof_url": "https://twitter.com/BadSmiley/status/783401224381030400",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "badsmiley",
+      "proof_url": "https://gist.github.com/badsmiley/6369f22405bae841aedc8ef22de158fd",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "osomin",
+      "proof_url": "https://www.facebook.com/osomin/posts/10155092957290400",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN badsmiley.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/badsmiley.id\"\n"
+}

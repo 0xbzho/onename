@@ -1,20 +1,56 @@
 {
   "owner_address": "14rjQV34vyxaBdum8RVn8nDsMXuJu6vfw7",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/hrabbey"
-    },
-    "bitcoin": {
-      "address": "1BU4r1KN3sux2Y8anWAz2CiHy32SwdTgHS"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/IKM.jpeg"
-    },
-    "pgp": {
-      "fingerprint": "B7EB5E678D3DE4403EF49B5CC0484CAEF40DCB9C",
-      "url": "http://keyserver.ubuntu.com:11371/pks/lookup?op=get&search=0xC0484CAEF40DCB9C"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1BU4r1KN3sux2Y8anWAz2CiHy32SwdTgHS",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "http://keyserver.ubuntu.com:11371/pks/lookup?op=get&search=0xC0484CAEF40DCB9C",
+        "identifier": "B7EB5E678D3DE4403EF49B5CC0484CAEF40DCB9C",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hrabbey",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/hrabbey/03c3775c74dc89fe28b0ffdf21258a34",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hrabbey",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Howard Abbey",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://hrabbey.sytes.net"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "hrabbey",
+      "proof_url": "https://gist.github.com/hrabbey/03c3775c74dc89fe28b0ffdf21258a34",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN hrabbey.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hrabbey.id\"\n"
 }

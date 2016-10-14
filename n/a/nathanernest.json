@@ -1,0 +1,74 @@
+{
+  "owner_address": "1DJtZr8H1bV7gokF32xfaJQNZUEytA6bBa",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nathanernest",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/nathanernest/status/781659543919001601",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nathanernest",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/nathanernest/posts/10154092535871379",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nathanernest",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/nathanernest/d93e5b45022c2f9cc50f4b3df5288bc8",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Australia"
+    },
+    "description": "Architect and Technologist",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nathanernest",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/nathanernest",
+        "name": "cover"
+      }
+    ],
+    "name": "Nathan Ernest",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://au.linkedin.com/in/nathanernest"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "nathanernest",
+      "proof_url": "https://twitter.com/nathanernest/status/781659543919001601",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "nathanernest",
+      "proof_url": "https://www.facebook.com/nathanernest/posts/10154092535871379",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "nathanernest",
+      "proof_url": "https://gist.github.com/nathanernest/d93e5b45022c2f9cc50f4b3df5288bc8",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN nathanernest.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nathanernest.id\"\n"
+}

@@ -1,0 +1,62 @@
+{
+  "owner_address": "1B9MAceMfP1CqEyf4p9kYJMSJ5ieZxnRTm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "stevenlayne12",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/stevenlayne12/status/780768167719268352",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "t3rror23",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/t3rror23/20fce8f99a27c772228460ff8c4c2ce6",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "steven.layne12",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/steven.layne12/posts/1192230227507962",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/stevenlayne",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "stevenlayne12",
+      "proof_url": "https://twitter.com/stevenlayne12/status/780768167719268352",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "t3rror23",
+      "proof_url": "https://gist.github.com/t3rror23/20fce8f99a27c772228460ff8c4c2ce6",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "steven.layne12",
+      "proof_url": "https://www.facebook.com/steven.layne12/posts/1192230227507962",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN stevenlayne.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stevenlayne.id\"\n"
+}

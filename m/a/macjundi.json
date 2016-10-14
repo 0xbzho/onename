@@ -1,0 +1,54 @@
+{
+  "owner_address": "1JG3icLK2tpiALLvxLjCbte5aPXTTrwgPm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "macjundi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/macjundi/status/776029689810853892",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "djundi",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/djundi/posts/10154564714014490",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Jakarta / Dallas"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/macjundi",
+        "name": "avatar"
+      }
+    ],
+    "name": "Djundi Karjadi"
+  },
+  "verifications": [
+    {
+      "identifier": "macjundi",
+      "proof_url": "https://twitter.com/macjundi/status/776029689810853892",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "djundi",
+      "proof_url": "https://www.facebook.com/djundi/posts/10154564714014490",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN macjundi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/macjundi.id\"\n"
+}

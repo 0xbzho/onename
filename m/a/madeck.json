@@ -1,0 +1,61 @@
+{
+  "owner_address": "1AZKmFW3tygv4J3VhDyvMJy229q2VbL99e",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "madeck",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Madeck/status/781793261312577536",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "madeck",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/madeck/posts/10157469602090058",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Montréal - Tōkyō"
+    },
+    "description": "Designer operating at the intersection of the tangible and the digital.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/madeck",
+        "name": "avatar"
+      }
+    ],
+    "name": "Maxime Madeck",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://madeck.com/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "madeck",
+      "proof_url": "https://twitter.com/Madeck/status/781793261312577536",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "madeck",
+      "proof_url": "https://www.facebook.com/madeck/posts/10157469602090058",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN madeck.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/madeck.id\"\n"
+}

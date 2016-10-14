@@ -1,0 +1,55 @@
+{
+  "owner_address": "16nNasFDUcZDWhYaAvuGJJ3JWVvn2SHa3v",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "SteffiFeldmann",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SteffiFeldmann/status/770309177625501696",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "steffi.feldmann",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/steffi.feldmann/posts/10154103093427600",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "13GTPjYKBd4gWCLJtEQoYRFwFzEbTc4wKN",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/steffi",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/steffi",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "SteffiFeldmann",
+      "proof_url": "https://twitter.com/SteffiFeldmann/status/770309177625501696",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "steffi.feldmann",
+      "proof_url": "https://www.facebook.com/steffi.feldmann/posts/10154103093427600",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN steffi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/steffi.id\"\n"
+}

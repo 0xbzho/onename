@@ -1,0 +1,57 @@
+{
+  "owner_address": "1FSWLLWkX9fuXSQzj6CkTg5pwDWmgWh4bk",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "usernamepun",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/usernamepun/status/774251705928192000",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bseb",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bseb/50f845747ec8738ca43bec4ff9d1e189",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ben.sebastian.5",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ben.sebastian.5/posts/10211023933385045?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "usernamepun",
+      "proof_url": "https://twitter.com/usernamepun/status/774251705928192000",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bseb",
+      "proof_url": "https://gist.github.com/bseb/50f845747ec8738ca43bec4ff9d1e189",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "ben.sebastian.5",
+      "proof_url": "https://www.facebook.com/ben.sebastian.5/posts/10211023933385045?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bsebastian.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bsebastian.id\"\n"
+}

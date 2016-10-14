@@ -1,61 +1,69 @@
 {
   "owner_address": "1ADiv4DTmHLSTeuaB3Vw74HCBAeCL2nDie",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "a93b4569ebb85ef563f455dfa9f4f263a662e419",
-        "service": "openbazaar"
+        "identifier": "1168feF1zwvyVvrQT2UVxNmjf6Lqv8jERN",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "http://pgp.mit.edu/pks/lookup?op=get&search=0x4E99E8C2094C93EC",
+        "identifier": "65CE4E83FE5E476DF0598CB64E99E8C2094C93EC",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "williamsantiago",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/WilliamSantiago/status/562424211227291648",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "wksantiago",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/wksantiago/posts/10153955529842737?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "wksantiago",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/wksantiago/127f8bf474dec17de9a41945f9995fda",
+        "service": "github"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/williamsantiago"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "bio": "Advisory IT Specialist, cybersecurity, cryptocurrency",
-    "bitcoin": {
-      "address": "1168feF1zwvyVvrQT2UVxNmjf6Lqv8jERN"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/williamsantiago"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/wksantiago/posts/10153611551607737"
+    "description": "Advisory IT Specialist, cybersecurity, cryptocurrency",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/williamsantiago",
+        "name": "avatar"
       },
-      "username": "wksantiago"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/wksantiago/4f38124bf1b7cbe53d05"
-      },
-      "username": "wksantiago"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "William K. Santiago"
-    },
-    "pgp": {
-      "fingerprint": "65CE4E83FE5E476DF0598CB64E99E8C2094C93EC",
-      "url": "http://pgp.mit.edu/pks/lookup?op=get&search=0x4E99E8C2094C93EC"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/WilliamSantiago/status/562424211227291648"
-      },
-      "username": "williamsantiago"
-    },
-    "v": "0.2",
-    "website": "https://www.linkedin.com/in/wksantiago"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/williamsantiago",
+        "name": "cover"
+      }
+    ],
+    "name": "William K. Santiago",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.linkedin.com/in/wksantiago"
+      }
+    ]
   },
   "verifications": [
-    {
-      "identifier": "wksantiago",
-      "proof_url": "https://gist.github.com/wksantiago/4f38124bf1b7cbe53d05",
-      "service": "github",
-      "valid": true
-    },
     {
       "identifier": "williamsantiago",
       "proof_url": "https://twitter.com/WilliamSantiago/status/562424211227291648",
@@ -64,10 +72,16 @@
     },
     {
       "identifier": "wksantiago",
-      "proof_url": "https://facebook.com/wksantiago/posts/10153611551607737",
+      "proof_url": "https://www.facebook.com/wksantiago/posts/10153955529842737?pnref=story",
       "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "wksantiago",
+      "proof_url": "https://gist.github.com/wksantiago/127f8bf474dec17de9a41945f9995fda",
+      "service": "github",
       "valid": false
     }
   ],
-  "zone_file": {}
+  "zone_file": "$ORIGIN williamsantiago.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/williamsantiago.id\"\n"
 }

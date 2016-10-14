@@ -1,0 +1,31 @@
+{
+  "owner_address": "1GDqTq6K4osDyGKMMWdU1kypGv7cCwkAKh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "angusm",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/angusm/status/762958292196945920",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "angusm",
+      "proof_url": "https://twitter.com/angusm/status/762958292196945920",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN angusm.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/angusm.id\"\n"
+}

@@ -1,6 +1,60 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "17V3QyH7tAg57dWgTr4PqA2iwBMPBTkKfE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gregoire.paris1",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "greg0ire",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "greg0ire",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ggreg0ire/status/685460667462225920",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Puteaux"
+    },
+    "description": "J'ai plus d'une corde à ma harpe.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/greg0ire",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Grégoire Paris",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://github.com/greg0ire"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "greg0ire",
+      "proof_url": "https://twitter.com/ggreg0ire/status/685460667462225920",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN greg0ire.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/greg0ire.id\"\n"
 }

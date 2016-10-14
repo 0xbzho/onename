@@ -1,0 +1,61 @@
+{
+  "owner_address": "1JuHJR4FTWfFVDTBSw7M8qwTnpAx1EAd4k",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dincatic",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dincatic/posts/10154101942092736?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dincatic",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dincatic/status/785168544396902402",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London"
+    },
+    "description": "MSc @UoLondon BSc @UCLA",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dincatic",
+        "name": "avatar"
+      }
+    ],
+    "name": "Din Ćatić",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://lnkdin.me/din"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dincatic",
+      "proof_url": "https://www.facebook.com/dincatic/posts/10154101942092736?pnref=story",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "dincatic",
+      "proof_url": "https://twitter.com/dincatic/status/785168544396902402",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dincatic.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dincatic.id\"\n"
+}

@@ -1,0 +1,44 @@
+{
+  "owner_address": "18TZdGDpE5FwkDkSQY1SoUzFUL4G7khH1w",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dave.t.fields",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dave.t.fields/posts/10100951472687930",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "davetfields",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/davetfields/status/781275815266910208",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dave.t.fields",
+      "proof_url": "https://www.facebook.com/dave.t.fields/posts/10100951472687930",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "davetfields",
+      "proof_url": "https://twitter.com/davetfields/status/781275815266910208",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN davetfields.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/davetfields.id\"\n"
+}

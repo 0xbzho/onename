@@ -1,0 +1,56 @@
+{
+  "owner_address": "16yLF3wa8nENYqmQM5jC9KnggFPAJybYWb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tibor",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tibor/status/783566166207897600",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tibor",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tibor/b9dee44467eab18c62b5f05259d90e31",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tmartini",
+        "name": "avatar"
+      }
+    ],
+    "name": "Tibor Martini",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://tibormartini.de"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tibor",
+      "proof_url": "https://twitter.com/tibor/status/783566166207897600",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "tibor",
+      "proof_url": "https://gist.github.com/tibor/b9dee44467eab18c62b5f05259d90e31",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tmartini.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tmartini.id\"\n"
+}

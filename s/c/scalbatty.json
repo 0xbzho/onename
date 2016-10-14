@@ -1,46 +1,54 @@
 {
   "owner_address": "12EhYiaN5MVhKqE1JRJ1iKRjJwPQFivhxz",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/scalbatty"
-    },
-    "bio": "I solve problems. I manage the idle. I play too much. Pardon my french.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/scalbatty"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/scalbatty/5baed46708d56a05ed51"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "scalbatty",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "scalbatty"
+      {
+        "@type": "Account",
+        "identifier": "scalbatty",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/scalbatty/71bacbbd3fa3f0303551e867f35ce40c",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris, France"
     },
-    "location": {
-      "formatted": "Paris, France"
-    },
-    "name": {
-      "formatted": "Pascal Batty"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/scalbatty/status/694451995126689792"
+    "description": "I solve problems. I manage the idle. I play too much. Pardon my french.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/scalbatty",
+        "name": "avatar"
       },
-      "username": "scalbatty"
-    },
-    "v": "0.2",
-    "website": "http://scalbatty.com"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/scalbatty",
+        "name": "cover"
+      }
+    ],
+    "name": "Pascal Batty",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://scalbatty.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "scalbatty",
-      "proof_url": "https://gist.github.com/scalbatty/5baed46708d56a05ed51",
+      "proof_url": "https://gist.github.com/scalbatty/71bacbbd3fa3f0303551e867f35ce40c",
       "service": "github",
       "valid": false
-    },
-    {
-      "identifier": "scalbatty",
-      "proof_url": "https://twitter.com/scalbatty/status/694451995126689792",
-      "service": "twitter",
-      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN scalbatty.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/scalbatty.id\"\n"
 }

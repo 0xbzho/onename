@@ -1,0 +1,36 @@
+{
+  "owner_address": "17kCE4UqAGABmU1nLCnkxN7qpXZ5H8ktT8",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "revcljr",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "revcljr",
+        "proofType": "http",
+        "proofUrl": "s://onename.com/revcljr?post_id=151344138614868_209447726137842#/facebook",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "revcljr",
+      "proof_url": "s://onename.com/revcljr?post_id=151344138614868_209447726137842#/facebook",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN revcljr.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/revcljr.id\"\n"
+}

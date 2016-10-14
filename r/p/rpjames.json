@@ -1,0 +1,62 @@
+{
+  "owner_address": "1KCi7HDSnQXkQkKvrMBrs7Qxo2vat1nj6C",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "aczpublishing",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/aczpublishing/status/773935897687490560",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "RPJames",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/RPJames/b2de31bd76f3c82555e97e45d8d6d9b2",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "R.P. James",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/RP-James-1635588900014487/?hc_ref=NEWSFEED&fref=nf",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rpjames",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rpjames",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "aczpublishing",
+      "proof_url": "https://twitter.com/aczpublishing/status/773935897687490560",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "RPJames",
+      "proof_url": "https://gist.github.com/RPJames/b2de31bd76f3c82555e97e45d8d6d9b2",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "R.P. James",
+      "proof_url": "https://www.facebook.com/RP-James-1635588900014487/?hc_ref=NEWSFEED&fref=nf",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN rpjames.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rpjames.id\"\n"
+}

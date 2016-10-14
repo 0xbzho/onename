@@ -1,0 +1,54 @@
+{
+  "owner_address": "1ATReMwqRyb7Ummhkb4pyYSsEUYKTWWYbs",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "peteloco",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/peteloco/status/781177161491283968",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bartroorda/status/781144952906604544",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Poland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/peteloco",
+        "name": "avatar"
+      }
+    ],
+    "name": "Piotr Boczoń"
+  },
+  "verifications": [
+    {
+      "identifier": "peteloco",
+      "proof_url": "https://twitter.com/peteloco/status/781177161491283968",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "",
+      "proof_url": "https://twitter.com/bartroorda/status/781144952906604544",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN peteloco.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/peteloco.id\"\n"
+}

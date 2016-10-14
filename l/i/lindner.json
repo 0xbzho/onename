@@ -12,6 +12,12 @@
       },
       {
         "@type": "Account",
+        "identifier": "1Q75Ph35SGkiy7zqMpjvpe1bL5YhixSk5d",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
         "identifier": "anonymous",
         "proofType": "http",
         "proofUrl": "https://gist.github.com/anonymous/5bddb521b59d5bd17f029dad0e472971",
@@ -27,6 +33,11 @@
         "@type": "ImageObject",
         "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
         "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/lindner",
+        "name": "avatar"
       }
     ],
     "name": "Paul Lindner"
@@ -42,7 +53,7 @@
       "identifier": "anonymous",
       "proof_url": "https://gist.github.com/anonymous/5bddb521b59d5bd17f029dad0e472971",
       "service": "github",
-      "valid": true
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN lindner.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lindner.id\"\n"

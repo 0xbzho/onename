@@ -35,17 +35,17 @@
       "@type": "PostalAddress",
       "addressLocality": "Belgium"
     },
-    "description": "I'm a passionate marketing strategist working and living in Belgium.",
+    "description": "I'm a passionate marketing strategist from Belgium. I work at LDV United, an advertising agency based in the beautiful city of Antwerp.",
     "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/dx3/wittevrongel",
-        "name": "cover"
-      },
       {
         "@type": "ImageObject",
         "contentUrl": "https://s3.amazonaws.com/kd4/wittevrongel",
         "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/wittevrongel",
+        "name": "cover"
       }
     ],
     "name": "Kevin Wittevrongel",
@@ -73,7 +73,7 @@
       "identifier": "Wittevrongel",
       "proof_url": "https://gist.github.com/Wittevrongel/29c788bc8286488de4ae3f34a037d120",
       "service": "github",
-      "valid": true
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN wittevrongel.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wittevrongel.id\"\n"

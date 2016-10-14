@@ -1,19 +1,34 @@
 {
   "owner_address": "1K7qNN2Mv31L3wQWqYwnBJDzVuXD9gNrwM",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/nescafe"
-    },
-    "bitcoin": {
-      "address": "1HiAnacMJL3xfrkFPqrvPeG3r41ojzivWz"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/nescafe"
-    },
-    "name": {
-      "formatted": "NESCAFÉ"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1HiAnacMJL3xfrkFPqrvPeG3r41ojzivWz",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "eldeniz.rajabov",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nescafe",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/nescafe",
+        "name": "cover"
+      }
+    ],
+    "name": "NESCAFÉ"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN nescafe.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nescafe.id\"\n"
 }

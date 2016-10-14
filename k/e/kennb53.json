@@ -1,0 +1,74 @@
+{
+  "owner_address": "1GJUwhxaa9MLqZixjAygXQWbthzsieiwhX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kennb",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/kennb/c65d1da3af1847679ed2b4b7ec871f66",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "wpkennedy",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/wpkennedy/posts/10154350725663162",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "oldGristle",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/oldGristle/status/767494842217660416",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/kennb53",
+        "identifier": "AB1C4ADB09C2B392EEB409BAA5B7EB305210926F",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sydney, Australia"
+    },
+    "description": "Data Architect",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kennb53",
+        "name": "avatar"
+      }
+    ],
+    "name": "William Kennedy"
+  },
+  "verifications": [
+    {
+      "identifier": "kennb",
+      "proof_url": "https://gist.github.com/kennb/c65d1da3af1847679ed2b4b7ec871f66",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "wpkennedy",
+      "proof_url": "https://www.facebook.com/wpkennedy/posts/10154350725663162",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "oldGristle",
+      "proof_url": "https://twitter.com/oldGristle/status/767494842217660416",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kennb53.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kennb53.id\"\n"
+}

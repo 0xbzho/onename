@@ -1,0 +1,65 @@
+{
+  "owner_address": "1ABiBHu2VEU27ijzKDdyFN1xzq6LtUa57V",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "richarddavey",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/richarddavey/status/764392014439931904",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "richarddavey",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "richarddavey",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/richarddavey/c43d1c49544b5b1151b3e47480ec4d28",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Plymouth, UK"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/richarddavey",
+        "name": "avatar"
+      }
+    ],
+    "name": "Richard Davey",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.richarddavey.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "richarddavey",
+      "proof_url": "https://twitter.com/richarddavey/status/764392014439931904",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "richarddavey",
+      "proof_url": "https://gist.github.com/richarddavey/c43d1c49544b5b1151b3e47480ec4d28",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN richarddavey.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/richarddavey.id\"\n"
+}

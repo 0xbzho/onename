@@ -12,15 +12,26 @@
       },
       {
         "@type": "Account",
-        "identifier": "17ovpRmagg7TFiGaYw4PMHUUKe8MNwBwkc",
+        "identifier": "14SkkuPr2tDYdXH5HnG7bDWwA1pUrv9TB5",
         "role": "payment",
         "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/lyoshenka/key.asc",
+        "identifier": "DC91BD1E06C401D7AA368ADFE78FF0162B0D303D",
+        "service": "pgp"
       }
     ],
     "image": [
       {
         "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "contentUrl": "https://s3.amazonaws.com/kd4/alexgrin",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/alexgrin",
         "name": "cover"
       }
     ],
@@ -37,7 +48,7 @@
       "identifier": "lyoshenka",
       "proof_url": "https://gist.github.com/lyoshenka/8aa99bf6c2690c1c41647a20b14e1d3e",
       "service": "github",
-      "valid": true
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN alexgrin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alexgrin.id\"\n"

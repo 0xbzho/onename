@@ -1,0 +1,62 @@
+{
+  "owner_address": "13yHHucCG43QL1tiZF6YirUs6sPsmMjnn7",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Eclectiqus",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/eclectiqus/status/770609370140860416",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "eclectiqus",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/eclectiqus/85b1ac2cbcc0ae536ecda128043d8767",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Eclectiqus",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/eclectiqus/posts/10154529597252174",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/eclectiqus",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Eclectiqus",
+      "proof_url": "https://twitter.com/eclectiqus/status/770609370140860416",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "eclectiqus",
+      "proof_url": "https://gist.github.com/eclectiqus/85b1ac2cbcc0ae536ecda128043d8767",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "Eclectiqus",
+      "proof_url": "https://www.facebook.com/eclectiqus/posts/10154529597252174",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN eclectiqus.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/eclectiqus.id\"\n"
+}

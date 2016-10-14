@@ -1,0 +1,44 @@
+{
+  "owner_address": "18FXKvegSp4nS4SHUTGpUyG3zZqS1WzVCT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "doubleEmms",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/doubleEmms/status/785271588048338944",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "matt-morris",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/matt-morris/001bebed2bd6db41b7f5e31152d7376f",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "doubleEmms",
+      "proof_url": "https://twitter.com/doubleEmms/status/785271588048338944",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "matt-morris",
+      "proof_url": "https://gist.github.com/matt-morris/001bebed2bd6db41b7f5e31152d7376f",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN doubleemms.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/doubleemms.id\"\n"
+}

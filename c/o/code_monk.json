@@ -1,0 +1,91 @@
+{
+  "owner_address": "1CAbANi4mUA8qWmmnSokru1qDyYf6pvLzT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "783e1f8ba9095bd35ba2cecb9464f78fd1c09d75",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/code_monk/key.asc",
+        "identifier": "B526710CC2735665E7EF655A455B20A97C6B0A7F",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "code_monk",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/code_monk/status/772093541631733760",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sean9999",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/sean9999/6edce66f6a60ae0cc52cb92854bdd600",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sean.r.macdonald",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/sean.r.macdonald/posts/10157475612210002",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "17J9wHPadWGFrdkjby1Kq7s5y4mPbGeRR1",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Toronto, Canada"
+    },
+    "description": "makes www, likes cats",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/code_monk",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/code_monk",
+        "name": "cover"
+      }
+    ],
+    "name": "Sean Macdonald",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.seanmacdonald.ca"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "code_monk",
+      "proof_url": "https://twitter.com/code_monk/status/772093541631733760",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "sean9999",
+      "proof_url": "https://gist.github.com/sean9999/6edce66f6a60ae0cc52cb92854bdd600",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "sean.r.macdonald",
+      "proof_url": "https://www.facebook.com/sean.r.macdonald/posts/10157475612210002",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN code_monk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/code_monk.id\"\n"
+}

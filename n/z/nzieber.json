@@ -1,6 +1,67 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1PJ2kaqPYAgo8r8jhAfdnaGUmB6Phom7xY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nzieber",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nzieber",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/nzieber/status/724818101880131587",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nickzieber",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/nickzieber/posts/10102329424187166",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Consultant at Xpand Hong Kong "
+    },
+    "description": "Learn by going. Have a healthy disregard for the impossible. Recruiting tech folks. Leading @ProductHunt community Hong Kong. @Univ_Of_Oregon alum",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nzieber",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/nzieber",
+        "name": "cover"
+      }
+    ],
+    "name": "Nick Zieber",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.xpand.com.hk"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "nzieber",
+      "proof_url": "https://twitter.com/nzieber/status/724818101880131587",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "nickzieber",
+      "proof_url": "https://www.facebook.com/nickzieber/posts/10102329424187166",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN nzieber.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nzieber.id\"\n"
 }

@@ -1,0 +1,73 @@
+{
+  "owner_address": "13L1wtgRx4FKkkcgNQBfnqJ1hCv56EqQgb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bizworld",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bizworld/status/773329713037209600",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bizworld",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bizworld/ea16c2db954fbc4fd1cf8b07e34e957c",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bizworld",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jisse.reitsma?hc_ref=NEWSFEED&fref=nf",
+        "service": "bizworld"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bizworld",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "USA"
+    },
+    "description": "Student, open web advocate, natural solutions fan",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bizworld",
+        "name": "avatar"
+      }
+    ],
+    "name": "biz man",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://j.mp/wapbw"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bizworld",
+      "proof_url": "https://twitter.com/bizworld/status/773329713037209600",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bizworld",
+      "proof_url": "https://gist.github.com/bizworld/ea16c2db954fbc4fd1cf8b07e34e957c",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN bizworld.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bizworld.id\"\n"
+}

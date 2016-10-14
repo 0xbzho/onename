@@ -1,6 +1,75 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1K3793zikFHgkN8wDik87EHygu67Rut1hK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "http://www.arnedebree.nl/pubkey.asc",
+        "identifier": "BAB3A1F15E2D7BB6D6CAA8DA2CF54D4A790B93AC",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "adebree",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/adebree/status/685593203039465472",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "adebree",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/adebree/53cd76b5f4ba6cac54cf",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "arnedebree",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/arnedebree/posts/914084711994996",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "The Netherlands"
+    },
+    "description": "Enthousiastic self-employed software engineer! AWWWWWW YEAAAAAAH!",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/arnedebree",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Arne de Bree"
+  },
+  "verifications": [
+    {
+      "identifier": "adebree",
+      "proof_url": "https://twitter.com/adebree/status/685593203039465472",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "adebree",
+      "proof_url": "https://gist.github.com/adebree/53cd76b5f4ba6cac54cf",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "arnedebree",
+      "proof_url": "https://www.facebook.com/arnedebree/posts/914084711994996",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN arnedebree.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/arnedebree.id\"\n"
 }

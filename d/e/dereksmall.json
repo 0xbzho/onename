@@ -16,6 +16,20 @@
         "proofType": "http",
         "proofUrl": "https://gist.github.com/romefort/3d36efc6d33a1d7c2bb3d41f5027e3fe",
         "service": "personal gmail"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Derek-Small",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Derek-Small/c2af396e7d2f6c8a623dac24da656216",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "small.derek",
+        "proofType": "http",
+        "proofUrl": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsmall.derek%2Fposts%2F10208228338839720&width=500\" width=\"500\" height=\"483\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\"></iframe>",
+        "service": "facebook"
       }
     ],
     "address": {
@@ -42,6 +56,18 @@
       "proof_url": "https://twitter.com/smallderek/status/730482499063709696",
       "service": "twitter",
       "valid": true
+    },
+    {
+      "identifier": "Derek-Small",
+      "proof_url": "https://gist.github.com/Derek-Small/c2af396e7d2f6c8a623dac24da656216",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "small.derek",
+      "proof_url": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsmall.derek%2Fposts%2F10208228338839720&width=500\" width=\"500\" height=\"483\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\"></iframe>",
+      "service": "facebook",
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN dereksmall.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dereksmall.id\"\n"

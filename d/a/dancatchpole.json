@@ -1,0 +1,85 @@
+{
+  "owner_address": "16YFAc5tt6bQcFfa7yUvjmKJKA3uCu3vdT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dancatchpole",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dancatchpole/status/769551292456964096",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dancatchpole",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dancatchpole/posts/10157356101700158",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1AaxDqg9kwe3dR9qf3KVP6FpfnzCCMsVd3",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "keybase.io/dancatchpole/key.asc",
+        "identifier": "5284DB5F1B6A717BB6EE008892203033E54019A8",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "smarthero",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/smarthero/a3691b2f7aae3d268837337e531509aa",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Orlando, FL"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dancatchpole",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/dancatchpole",
+        "name": "cover"
+      }
+    ],
+    "name": "Dan Catchpole",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.dancatchpole.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dancatchpole",
+      "proof_url": "https://twitter.com/dancatchpole/status/769551292456964096",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "dancatchpole",
+      "proof_url": "https://www.facebook.com/dancatchpole/posts/10157356101700158",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "smarthero",
+      "proof_url": "https://gist.github.com/smarthero/a3691b2f7aae3d268837337e531509aa",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN dancatchpole.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dancatchpole.id\"\n"
+}

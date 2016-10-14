@@ -1,6 +1,59 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1PC9z72CPDUKREcLJCEu8Rd9s3o3ts1CNK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bitcoin22",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mshomam",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1MWwihJ88Puk8GjTkYyLwuEdx35ekECA6M",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/mshomam",
+        "identifier": "D98DE49A23B17E75D6DF3D117BBA88B89717A0B9",
+        "role": "key",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Makkah Al Mukarrama"
+    },
+    "description": "1",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mshomam",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Syed Mohammed Shomam Fasih",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://ilmpedia.com"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN mshomam.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mshomam.id\"\n"
 }

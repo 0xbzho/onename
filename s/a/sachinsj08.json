@@ -1,10 +1,31 @@
 {
   "owner_address": "1CHdGS4n5bhdJgYBqGqpXQ3DwPmhEC5ssy",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/QAd.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sachinsj08",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sachinsj08/status/780669284553031681",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "sachinsj08",
+      "proof_url": "https://twitter.com/sachinsj08/status/780669284553031681",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN sachinsj08.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sachinsj08.id\"\n"
 }

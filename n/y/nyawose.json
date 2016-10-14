@@ -1,0 +1,47 @@
+{
+  "owner_address": "178X4Q9XAFuwDBQcLQwN9kskEZzvPkCQYK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Durban"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/nyawose",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nyawose",
+        "name": "avatar"
+      }
+    ],
+    "name": "Monde Nyawose",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://monde.azurewebsites.net/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "",
+      "proof_url": "https://gist.github.com/",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN nyawose.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nyawose.id\"\n"
+}

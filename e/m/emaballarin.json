@@ -5,13 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "contentUrl": "https://s3.amazonaws.com/pk9/emaballarin",
-        "identifier": "93179FC88D5244F2EB4E695702B61E2BD9D54AA7",
-        "role": "key",
-        "service": "pgp"
-      },
-      {
-        "@type": "Account",
         "identifier": "39rd4ocHygFbGuPcQ6Z9BD6Q6LhDUGXaK9",
         "role": "payment",
         "service": "bitcoin"
@@ -36,6 +29,18 @@
         "proofType": "http",
         "proofUrl": "https://www.facebook.com/ehteqx/posts/1156541274396046",
         "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ff624d3c3e29830f2d21ded9223a4df4a3e01f7d",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/emaballarin",
+        "identifier": "53F7C0FFEDA9ADCAC4718CEA664203CFA8362289",
+        "role": "key",
+        "service": "pgp"
       }
     ],
     "address": {
@@ -74,7 +79,7 @@
       "identifier": "ehteqx",
       "proof_url": "https://gist.github.com/ehteqx/f244fbbd05c0dc8a1c3247c7ba33599b",
       "service": "github",
-      "valid": true
+      "valid": false
     },
     {
       "identifier": "ehteqx",

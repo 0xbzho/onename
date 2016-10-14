@@ -1,6 +1,16 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1DUngJpfuGCvx9GLqiZdDcCvBQhbHQimk8",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "contentUrl": "hearingthings.com.au",
+        "identifier": "f573cf2928a82d86a0e66687da0bb0646149fb0c",
+        "service": "openbazaar"
+      }
+    ],
+    "accounts": []
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN hearingthings.id\n$TTL 3600\npubkey TXT \"pubkey:data:0334fc60478001a00683b90a2bab147019ba3601fc09b9c66a5c7bed2aa088c241\"\n_file URI 10 1 \"file:///Users/ruxton/.blockstack/storage-disk/mutable/hearingthings.id\"\n_https._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hearingthings.id\"\n_http._tcp URI 10 1 \"http://node.blockstack.org:6264/RPC2#hearingthings.id\"\n_dht._udp URI 10 1 \"dht+udp://c996177ff3107a2a7bcfb122a8b39889d94f896f\"\n"
 }

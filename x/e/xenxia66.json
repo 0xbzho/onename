@@ -1,13 +1,49 @@
 {
   "owner_address": "1BBgG3SFe3tpC6hVKNbshQ2kR79JCDGow",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/xenxia66"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/L2N.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "xain661",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/intent/tweet",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "xain66",
+        "proofType": "http",
+        "proofUrl": "xain66/gist:020992def47895c91a7d9a28c1846b5e",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/xenxia66",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "xain661",
+      "proof_url": "https://twitter.com/intent/tweet",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "xain66",
+      "proof_url": "xain66/gist:020992def47895c91a7d9a28c1846b5e",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN xenxia66.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/xenxia66.id\"\n"
 }

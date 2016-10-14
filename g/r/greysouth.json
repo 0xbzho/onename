@@ -1,59 +1,74 @@
 {
   "owner_address": "1Nzf4engK2gDnAXoX5bVtAmYFYgYYchLW1",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/greysouth"
-    },
-    "bio": "technical consultancy",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/greysouth"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/greysouth/posts/1000718523349797"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "greysouth",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/greysouth/status/778407354077442048",
+        "service": "twitter"
       },
-      "username": "greysouth"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/greysouth/72eb328219b6366f93d8"
+      {
+        "@type": "Account",
+        "identifier": "greysouth",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/greysouth/posts/1231127806957625",
+        "service": "facebook"
       },
-      "username": "greysouth"
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/fd1423ef10bfce983a2aae8c30d80e8f",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York"
     },
-    "location": {
-      "formatted": "New York"
-    },
-    "name": {
-      "formatted": "GreySouth"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/greysouth/status/565337611766861824"
+    "description": "technical consultancy",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/greysouth",
+        "name": "avatar"
       },
-      "username": "greysouth"
-    },
-    "v": "0.2",
-    "website": "http://greysouth.com"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/greysouth",
+        "name": "cover"
+      }
+    ],
+    "name": "GreySouth",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://greysouth.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "greysouth",
-      "proof_url": "https://gist.github.com/greysouth/72eb328219b6366f93d8",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "greysouth",
-      "proof_url": "https://twitter.com/greysouth/status/565337611766861824",
+      "proof_url": "https://twitter.com/greysouth/status/778407354077442048",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "greysouth",
-      "proof_url": "https://facebook.com/greysouth/posts/1000718523349797",
+      "proof_url": "https://www.facebook.com/greysouth/posts/1231127806957625",
       "service": "facebook",
       "valid": false
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/fd1423ef10bfce983a2aae8c30d80e8f",
+      "service": "github",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN greysouth.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/greysouth.id\"\n"
 }

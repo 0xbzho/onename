@@ -1,20 +1,31 @@
 {
   "owner_address": "1FSRQzzk1nwwdjZdiJWcGNZiYVxUXqa3U9",
   "profile": {
-    "bitcoin": {
-      "address": "1NV5GhhpfV5a4WUF3y8NYJvZHVyA4cWrso"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/gQZ.jpg"
-    },
-    "name": {
-      "formatted": "EnnE"
-    },
-    "pgp": {
-      "fingerprint": "8E7F961771CB1AD4D45505E5F3BBF37FF7DD831E",
-      "url": "https://s3.amazonaws.com/pk9/enne"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/enne",
+        "identifier": "8E7F961771CB1AD4D45505E5F3BBF37FF7DD831E",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1P54tF1y7xLXZU944JvStsZqkZwkfczEUn",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "EnnE"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN enne.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/enne.id\"\n"
 }

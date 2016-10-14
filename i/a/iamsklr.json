@@ -1,0 +1,43 @@
+{
+  "owner_address": "144f4fizKh3px2bwnHexTLMosH4YatVdGM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "iamsklr",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/iamsklr/status/767151023341334532",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/iamsklr",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/iamsklr",
+        "name": "cover"
+      }
+    ],
+    "name": "SKLR",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://instagram.com/iamsklr"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "iamsklr",
+      "proof_url": "https://twitter.com/iamsklr/status/767151023341334532",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN iamsklr.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/iamsklr.id\"\n"
+}

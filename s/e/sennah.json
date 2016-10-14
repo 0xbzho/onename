@@ -1,68 +1,80 @@
 {
   "owner_address": "1NkJhgHYAFCCNCmaa4zzGfnXyJP8aCGDky",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "75461cf5571885b10d52b992cb658530674c4b84",
-        "service": "hannesjordaan"
+        "identifier": "19RwjfVgpK2Y7gHSkxKAuFFUukwvipKgU8",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hannesjordaan",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/hannesjordaan/status/763741763878187008",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "youronlinebusinesscoach",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/youronlinebusinesscoach/posts/10208063996096824",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hannesjordaan",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/hannesjordaan/65cde1019abe1a910111f0dc92c17e0d",
+        "service": "github"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/sennah"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "South Africa"
     },
-    "bio": "Online Marketing Specialist",
-    "bitcoin": {
-      "address": "19RwjfVgpK2Y7gHSkxKAuFFUukwvipKgU8"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/IKM.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/youronlinebusinesscoach/posts/10207155398902462"
+    "description": "Online Marketing Specialist",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sennah",
+        "name": "avatar"
       },
-      "username": "youronlinebusinesscoach"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/hannesjordaan/39858cfb1beb67dea204b1d6ae9f325b"
-      },
-      "username": "hannesjordaan"
-    },
-    "location": {
-      "formatted": "South Africa"
-    },
-    "name": {
-      "formatted": "Hannes Jordaan"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/hannesjordaan/status/717308445712637952"
-      },
-      "username": "hannesjordaan"
-    },
-    "v": "0.2",
-    "website": "http://bit.do/superpeople"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Hannes Jordaan",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.zarfund.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "hannesjordaan",
-      "proof_url": "https://gist.github.com/hannesjordaan/39858cfb1beb67dea204b1d6ae9f325b",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "hannesjordaan",
-      "proof_url": "https://twitter.com/hannesjordaan/status/717308445712637952",
+      "proof_url": "https://twitter.com/hannesjordaan/status/763741763878187008",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "youronlinebusinesscoach",
-      "proof_url": "https://facebook.com/youronlinebusinesscoach/posts/10207155398902462",
+      "proof_url": "https://www.facebook.com/youronlinebusinesscoach/posts/10208063996096824",
       "service": "facebook",
       "valid": true
+    },
+    {
+      "identifier": "hannesjordaan",
+      "proof_url": "https://gist.github.com/hannesjordaan/65cde1019abe1a910111f0dc92c17e0d",
+      "service": "github",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN sennah.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sennah.id\"\n"
 }

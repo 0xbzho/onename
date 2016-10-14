@@ -1,10 +1,42 @@
 {
   "owner_address": "1HCrWRX6koPAAwjkZFqbVRQunv9yHgh9fi",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/n6r.jpeg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "19rMc9hTDvL9Xt1mBNu1W1jWsES7vP1wJU",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ezen.plaf",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/story.php?story_fbid=1219137834792405&id=100000885991532",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Argentina"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ezequiel Lafferriere"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "ezen.plaf",
+      "proof_url": "https://facebook.com/story.php?story_fbid=1219137834792405&id=100000885991532",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ezelaf.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ezelaf.id\"\n"
 }

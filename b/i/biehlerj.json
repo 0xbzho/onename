@@ -1,0 +1,80 @@
+{
+  "owner_address": "1ArSVJuWR5nYuCMubL4E8vegyUEx7J1Wpc",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "a4b8871620224a317a04a0499733ebe7bcf369cc",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Biehlerj",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Biehlerj/status/776613677906538496",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "biehlerj",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/biehlerj/posts/10211105029598644?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "biehlerj",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/biehlerj/a25c45e48b9e77a3cf02f78852594b92",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1B5QTxHPhJyk8GYsGcrY6NqoGKZ1pRZjaw",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "United States of America"
+    },
+    "description": "Champion of free trade & free markets",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jacob Biehler",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://twitter.com/Biehlerj"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Biehlerj",
+      "proof_url": "https://twitter.com/Biehlerj/status/776613677906538496",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "biehlerj",
+      "proof_url": "https://www.facebook.com/biehlerj/posts/10211105029598644?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "biehlerj",
+      "proof_url": "https://gist.github.com/biehlerj/a25c45e48b9e77a3cf02f78852594b92",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN biehlerj.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/biehlerj.id\"\n"
+}

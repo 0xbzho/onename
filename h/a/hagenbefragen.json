@@ -1,0 +1,49 @@
+{
+  "owner_address": "1FQrE9HmpuguziikzYX45UA5cJiDr2aHjg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Hagenbefragen",
+        "proofType": "http",
+        "proofUrl": "https://t.co/MdP5LH26Co",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Hagenbefragen",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhagenbefragen%2Fposts%2F10154665205404189",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hagenbefragen",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/hagenbefragen",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Hagenbefragen",
+      "proof_url": "https://t.co/MdP5LH26Co",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "Hagenbefragen",
+      "proof_url": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhagenbefragen%2Fposts%2F10154665205404189",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN hagenbefragen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hagenbefragen.id\"\n"
+}

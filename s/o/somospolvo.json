@@ -1,61 +1,73 @@
 {
   "owner_address": "17VcY21eUXEGtx4sTxKB5mNwBu2Up3pmbb",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/somospolvo"
-    },
-    "bio": "Estudiante de Ciencias Audiovisuales y Artes Fotograficas. Escritor en formacion, bloguero y afecto a nuevas tecnologias como Bitcoin y criptomonedas.",
-    "bitcoin": {
-      "address": "1H3rUXQN6P37SVtzjfEbgJbevosg9ERQx"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/somospolvo"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/SomosPolvo/posts/872015366143230"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "SomosPolvo",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "SomosPolvo"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/SomosPolvo/ae98fbd7bbb6c276d063"
+      {
+        "@type": "Account",
+        "identifier": "1H3rUXQN6P37SVtzjfEbgJbevosg9ERQx",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "SomosPolvo"
-    },
-    "location": {
-      "formatted": "Barcelona, Venezuela"
-    },
-    "name": {
-      "formatted": "Luis Rodriguez"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/Somospolvo/status/509371785872027648"
+      {
+        "@type": "Account",
+        "identifier": "Somospolvo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Somospolvo/status/775047759615422464",
+        "service": "twitter"
       },
-      "username": "Somospolvo"
+      {
+        "@type": "Account",
+        "identifier": "somospolvo",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/SomosPolvo/posts/1306482926029803",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Barcelona, Venezuela"
     },
-    "v": "0.2",
-    "website": "http://www.somospolvo.com.ve"
+    "description": "Bloguero desde los 12, Poeta desde 2011, Agnostico, Bitcoiner y Anarcocapitalista.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/somospolvo",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/somospolvo",
+        "name": "avatar"
+      }
+    ],
+    "name": "Luis Rodriguez",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://notasdelibertad.tumblr.com/"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "SomosPolvo",
-      "proof_url": "https://gist.github.com/SomosPolvo/ae98fbd7bbb6c276d063",
-      "service": "github",
-      "valid": true
-    },
-    {
       "identifier": "Somospolvo",
-      "proof_url": "https://twitter.com/Somospolvo/status/509371785872027648",
+      "proof_url": "https://twitter.com/Somospolvo/status/775047759615422464",
       "service": "twitter",
-      "valid": true
+      "valid": false
     },
     {
-      "identifier": "SomosPolvo",
-      "proof_url": "https://facebook.com/SomosPolvo/posts/872015366143230",
+      "identifier": "somospolvo",
+      "proof_url": "https://www.facebook.com/SomosPolvo/posts/1306482926029803",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN somospolvo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/somospolvo.id\"\n"
 }

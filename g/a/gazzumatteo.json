@@ -1,0 +1,57 @@
+{
+  "owner_address": "1N5auL8JGPs4ZKxhSRrVs2RownHcrRhdvZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gazzumatteo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gazzumatteo/status/766624952040783872",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gazzumatteo",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/gazzumatteo/2640fa2dfd442825cd45af7a9956980d",
+        "service": "github"
+      }
+    ],
+    "description": "Technology enthusiast & Entrepreneur",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gazzumatteo",
+        "name": "avatar"
+      }
+    ],
+    "name": "Matteo Gazzurelli",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://duckma.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "gazzumatteo",
+      "proof_url": "https://twitter.com/gazzumatteo/status/766624952040783872",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "gazzumatteo",
+      "proof_url": "https://gist.github.com/gazzumatteo/2640fa2dfd442825cd45af7a9956980d",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN gazzumatteo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gazzumatteo.id\"\n"
+}

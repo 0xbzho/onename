@@ -1,0 +1,41 @@
+{
+  "owner_address": "149nybwCtebqLMDL2GQxi28bZNtVuxi7Pr",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jtooker",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jtooker/591492e6e24d8339fc0135379e7a2760",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ca118e3f8f909936d61661bd62d4e1f421b1acbb",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jtooker",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jtooker",
+      "proof_url": "https://gist.github.com/jtooker/591492e6e24d8339fc0135379e7a2760",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jtooker.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jtooker.id\"\n"
+}

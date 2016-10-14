@@ -1,0 +1,68 @@
+{
+  "owner_address": "16W8NE7RxD7zBLCpVq4U3GX3ANQ1jC3EyG",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tforster",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tforster/status/772201441033228288",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tforster",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tforster/355894e26dcdbe3cb233ea70838ab3bd",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "troy.forster",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ajax/sharer/?parent_fbid=10157482867680457&s=99&appid=2309869772&id=10157482867675457&p[0]=786440456&p[1]=10157482867675457&share_source_type=unknown&feedback_source=21&av=786440456&feedback_referrer=%2F",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://github.com/settings/keys",
+        "identifier": null,
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tforster",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tforster",
+      "proof_url": "https://twitter.com/tforster/status/772201441033228288",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "tforster",
+      "proof_url": "https://gist.github.com/tforster/355894e26dcdbe3cb233ea70838ab3bd",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "troy.forster",
+      "proof_url": "https://www.facebook.com/ajax/sharer/?parent_fbid=10157482867680457&s=99&appid=2309869772&id=10157482867675457&p[0]=786440456&p[1]=10157482867675457&share_source_type=unknown&feedback_source=21&av=786440456&feedback_referrer=%2F",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tforster.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tforster.id\"\n"
+}

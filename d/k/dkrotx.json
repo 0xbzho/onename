@@ -1,0 +1,67 @@
+{
+  "owner_address": "14LwzrNWkaqrLtpzmGdJNNkD9DfkYogs67",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dkrotx",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dkrotx/fe25c7d38b6f413e78d547922d9a2183",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jdkrot",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jdkrot/status/771725475207114753",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jan.kisel",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jan.kisel/posts/1091470507608463?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Krasnogorsk, Russia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dkrotx",
+        "name": "avatar"
+      }
+    ],
+    "name": "Kisel Jan"
+  },
+  "verifications": [
+    {
+      "identifier": "dkrotx",
+      "proof_url": "https://gist.github.com/dkrotx/fe25c7d38b6f413e78d547922d9a2183",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "jdkrot",
+      "proof_url": "https://twitter.com/jdkrot/status/771725475207114753",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jan.kisel",
+      "proof_url": "https://www.facebook.com/jan.kisel/posts/1091470507608463?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN dkrotx.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dkrotx.id\"\n"
+}

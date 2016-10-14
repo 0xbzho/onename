@@ -1,0 +1,36 @@
+{
+  "owner_address": "17jdLM7Pcp9rAzWbmqBtHNfLpRcpcRdjSk",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "fergalaz",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/fergalaz/posts/10157344448620137",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Eindhoven, NL"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Luis Fernando Galaz Garcia"
+  },
+  "verifications": [
+    {
+      "identifier": "fergalaz",
+      "proof_url": "https://www.facebook.com/fergalaz/posts/10157344448620137",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN galazg.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/galazg.id\"\n"
+}

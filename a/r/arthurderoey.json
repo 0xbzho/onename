@@ -1,0 +1,54 @@
+{
+  "owner_address": "16q79HhohKdVVJVGoJYrH4qNAS7QHhZhQw",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "askdrarthur",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/AskDrArthur/status/777256493364158464",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ArthurDeRoey",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ArthurDeRoey/dbc220b29a0ea451143d3fd48ae415ef",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Copenhagen Denmark"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/arthurderoey",
+        "name": "avatar"
+      }
+    ],
+    "name": "Arthur De Roey"
+  },
+  "verifications": [
+    {
+      "identifier": "askdrarthur",
+      "proof_url": "https://twitter.com/AskDrArthur/status/777256493364158464",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ArthurDeRoey",
+      "proof_url": "https://gist.github.com/ArthurDeRoey/dbc220b29a0ea451143d3fd48ae415ef",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN arthurderoey.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/arthurderoey.id\"\n"
+}

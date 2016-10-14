@@ -1,0 +1,73 @@
+{
+  "owner_address": "1DrY2b8eUWpuhGeXhVUDL22So4QkVgKMPD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ianvalentine",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ianvalentine/status/786300872598761472",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ivalentine",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ivalentine/posts/994476266429",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ivalentine",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ivalentine/b144ad4d9b9d3c37debeb175c0602b9e",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brooklyn, NY"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ivalentine",
+        "name": "avatar"
+      }
+    ],
+    "name": "Ian Valentine",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://ivalentine.net/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ianvalentine",
+      "proof_url": "https://twitter.com/ianvalentine/status/786300872598761472",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ivalentine",
+      "proof_url": "https://www.facebook.com/ivalentine/posts/994476266429",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "ivalentine",
+      "proof_url": "https://gist.github.com/ivalentine/b144ad4d9b9d3c37debeb175c0602b9e",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ivalentine.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ivalentine.id\"\n"
+}

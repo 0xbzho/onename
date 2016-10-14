@@ -1,0 +1,67 @@
+{
+  "owner_address": "1BRnfvJ8C9moPw2Lzp8Sg5jQBanhrtyzjh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tomski999",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tomski999/status/768927978336227328",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "matt.thomson.9275",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/matt.thomson.9275/posts/10154503752851942",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tomo999",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tomo999/4743bad23e368644909d2764d1a67fce",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Yorkshire, United Kingdom"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tomo999",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/tomo999",
+        "name": "cover"
+      }
+    ],
+    "name": "Matt Thomson"
+  },
+  "verifications": [
+    {
+      "identifier": "tomski999",
+      "proof_url": "https://twitter.com/tomski999/status/768927978336227328",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "matt.thomson.9275",
+      "proof_url": "https://www.facebook.com/matt.thomson.9275/posts/10154503752851942",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "tomo999",
+      "proof_url": "https://gist.github.com/tomo999/4743bad23e368644909d2764d1a67fce",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tomo999.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tomo999.id\"\n"
+}

@@ -1,6 +1,57 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1JWQK7dDENs4RS3yC5aqgCcDG65WEwiXGY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "2deviant",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/2deviant/status/762153486863577088",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "2deviant",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/2deviant/cef61ae9a8854ed1f1240b51f3ad3202",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "2deviant",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/2deviant/posts/10103706412526408",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "2deviant",
+      "proof_url": "https://twitter.com/2deviant/status/762153486863577088",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "2deviant",
+      "proof_url": "https://gist.github.com/2deviant/cef61ae9a8854ed1f1240b51f3ad3202",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "2deviant",
+      "proof_url": "https://www.facebook.com/2deviant/posts/10103706412526408",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN 2deviant.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/2deviant.id\"\n"
 }

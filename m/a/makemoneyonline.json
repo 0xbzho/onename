@@ -1,11 +1,27 @@
 {
   "owner_address": "14ZB2htJRo7gSxpovJ5aYnC1954X6n6iy2",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/L2N.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "91d86b1b8868e8573e18795a7dfa3d50ab913092",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/makemoneyonline",
+        "name": "avatar"
+      }
+    ]
   },
   "verifications": [],
-  "zone_file": {}
+  "zone_file": "$ORIGIN makemoneyonline.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/makemoneyonline.id\"\n"
 }

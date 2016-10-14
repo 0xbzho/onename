@@ -1,0 +1,31 @@
+{
+  "owner_address": "1BEmdNYei13oQ2AMawFJ41pJpA5Gf5KF56",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "johnkellden",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/johnkellden/status/771314202656899072",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "johnkellden",
+      "proof_url": "https://twitter.com/johnkellden/status/771314202656899072",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN johnkellden.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/johnkellden.id\"\n"
+}

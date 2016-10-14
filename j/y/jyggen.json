@@ -1,6 +1,60 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "14LSoW18ZooYJH9w7XJsbfR5MdhW9y3Hif",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jyggen",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/jyggen/key.asc",
+        "identifier": "5E076E5A7C1216B41418A25E1D30DF9048C658F5",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jyggen",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jyggen/d1d55d0d4db63a51e497",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Uppsala, Sweden"
+    },
+    "description": "I’m something called a douchebag. I play guitar when everybody just wants to hang out, and I make weird covers of Disney songs… who does that?",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jyggen",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jonas Stendahl",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://jyggen.com/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jyggen",
+      "proof_url": "https://gist.github.com/jyggen/d1d55d0d4db63a51e497",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jyggen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jyggen.id\"\n"
 }

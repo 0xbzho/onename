@@ -1,10 +1,38 @@
 {
   "owner_address": "1iQUCgUJTnnCUqNboW4yPRsrXG7QpH9g1",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/IHL.jpg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "f13965efec893c3210ab6d219a37b51fa5ab334f",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Evanito/41a3355981df5b34a971b4ac95632556",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "IVXCVI",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/IVXCVI/c5dd78c96d889711f4358abfaaeac8e0#file-onename-txt",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "IVXCVI",
+      "proof_url": "https://gist.github.com/IVXCVI/c5dd78c96d889711f4358abfaaeac8e0#file-onename-txt",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ivxcix.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ivxcix.id\"\n"
 }

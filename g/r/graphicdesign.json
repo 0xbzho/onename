@@ -1,10 +1,17 @@
 {
   "owner_address": "1EV9XswNgza6zc9WDSkgNZP4PVM7CDRqxr",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/OSA.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "graphics girl"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN graphicdesign.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/graphicdesign.id\"\n"
 }

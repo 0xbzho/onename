@@ -1,10 +1,65 @@
 {
   "owner_address": "1DpcusukbutY5w6owH1TKV1LfZurVFwFFe",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/QAd.jpeg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "plindberg",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/plindberg/eddae68cb37551c5b3fe648b553f4f80",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "plindberg",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/plindberg/status/763815373204488192",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "plindberg",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/plindberg/posts/10153805943363317",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Stockholm, Sweden"
     },
-    "v": "0.2"
+    "graph": {
+      "url": "https://s3.amazonaws.com/grph/plindberg"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Peter Lindberg"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "plindberg",
+      "proof_url": "https://gist.github.com/plindberg/eddae68cb37551c5b3fe648b553f4f80",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "plindberg",
+      "proof_url": "https://twitter.com/plindberg/status/763815373204488192",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "plindberg",
+      "proof_url": "https://www.facebook.com/plindberg/posts/10153805943363317",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN plindberg.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/plindberg.id\"\n"
 }

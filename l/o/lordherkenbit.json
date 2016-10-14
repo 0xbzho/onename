@@ -1,0 +1,39 @@
+{
+  "owner_address": "14fVqQATsfbarDPdYsy5UeTkyF519WV4xG",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1NKDW2x9m9surhgK2RHxx42UnTE36tsyu1",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "27650e7fc35916e23288a1d23e3437a0681c6056",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brazil"
+    },
+    "description": "Entusiasta da Liberdade.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/lordherkenbit",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/lordherkenbit",
+        "name": "cover"
+      }
+    ],
+    "name": "Lord Herkenbit"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN lordherkenbit.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lordherkenbit.id\"\n"
+}

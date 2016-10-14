@@ -1,0 +1,80 @@
+{
+  "owner_address": "134JAJENNved3At4cjapwjM2LgJZSbWxHY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "HappyCamelWool",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/HappyCamelWool/status/766028611983769600",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "happycamelwool",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/happycamelwool/posts/1772231519725582",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "HappyCamelWool",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/HappyCamelWool/81e64a28fc18aefb04cc9d2945c139c0",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "24ba4d7699a5dd2a2b005977709bb8b20d174d43",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/HappyCamelWool/status/766028611983769600",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Portland, Oregon"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/happycamel",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/happycamel",
+        "name": "cover"
+      }
+    ],
+    "name": "Happy Camel Wool",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.happycamelwool.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "HappyCamelWool",
+      "proof_url": "https://twitter.com/HappyCamelWool/status/766028611983769600",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "happycamelwool",
+      "proof_url": "https://www.facebook.com/happycamelwool/posts/1772231519725582",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "HappyCamelWool",
+      "proof_url": "https://gist.github.com/HappyCamelWool/81e64a28fc18aefb04cc9d2945c139c0",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN happycamel.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/happycamel.id\"\n"
+}

@@ -1,0 +1,50 @@
+{
+  "owner_address": "16tL6CifUk8zfVG7QRqMWhupv3yHayXkzt",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "StephenHarrington",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/StephenHarrington/3163049d82d876e1501b3c3fc616075a",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ST_Harrington",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ST_Harrington/status/777135869639688192",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boston, MA"
+    },
+    "description": "Physicist, investor, technologist",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Stephen Harrington"
+  },
+  "verifications": [
+    {
+      "identifier": "StephenHarrington",
+      "proof_url": "https://gist.github.com/StephenHarrington/3163049d82d876e1501b3c3fc616075a",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "ST_Harrington",
+      "proof_url": "https://twitter.com/ST_Harrington/status/777135869639688192",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN stephenharrington.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stephenharrington.id\"\n"
+}

@@ -1,0 +1,55 @@
+{
+  "owner_address": "1HPbA5swm4Rbd2iPafuH3EPgF7TnkqTFCc",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "albertoppunto",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/albertoppunto/status/769531385354805248",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "alberto.pascualotero",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/alberto.pascualotero/posts/10210295342730692",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London"
+    },
+    "description": "I'm a video editor and television director interested in music, arts, history and entertainment. Iwas born in Madrid, Spain but I'm currently living in London. I;ve worked in opera, classical music and television production. I'm always open to new ideas, new projects and learning new things.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/albertoppunto",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/albertoppunto",
+        "name": "cover"
+      }
+    ],
+    "name": "Alberto Pascual Otero"
+  },
+  "verifications": [
+    {
+      "identifier": "albertoppunto",
+      "proof_url": "https://twitter.com/albertoppunto/status/769531385354805248",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "alberto.pascualotero",
+      "proof_url": "https://www.facebook.com/alberto.pascualotero/posts/10210295342730692",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN albertoppunto.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/albertoppunto.id\"\n"
+}

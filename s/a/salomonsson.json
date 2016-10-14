@@ -1,0 +1,33 @@
+{
+  "owner_address": "1Lv1ERmXqtCDkqarHrihBZFmrmmUe4McUm",
+  "profile": {
+    "@type": "Person",
+    "account": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Copenhagen, Denmark"
+    },
+    "description": "Hej, mit navn er Simon Salomonsson og det her er min One Name profil.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/salomonsson",
+        "name": "avatar"
+      }
+    ],
+    "name": "Simon Salomonsson",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://simonsalomonsson.com"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN salomonsson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/salomonsson.id\"\n"
+}

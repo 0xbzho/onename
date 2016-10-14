@@ -1,0 +1,54 @@
+{
+  "owner_address": "1D7hEJWzhMZF18uTvYGZsYuLAuTGUSfDXr",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "keelerh",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/keelerh/773bfb2eb95112fcc5d7876ddc51da32",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "keeley.erhardt",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/keeley.erhardt/posts/10209362219366333?notif_t=like&notif_id=1473892565954882",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boston, MA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/keeley",
+        "name": "avatar"
+      }
+    ],
+    "name": "Keeley Erhardt"
+  },
+  "verifications": [
+    {
+      "identifier": "keelerh",
+      "proof_url": "https://gist.github.com/keelerh/773bfb2eb95112fcc5d7876ddc51da32",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "keeley.erhardt",
+      "proof_url": "https://www.facebook.com/keeley.erhardt/posts/10209362219366333?notif_t=like&notif_id=1473892565954882",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN keeley.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/keeley.id\"\n"
+}

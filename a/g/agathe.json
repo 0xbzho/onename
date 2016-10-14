@@ -1,10 +1,44 @@
 {
   "owner_address": "1BDUjHyBGTMcfejf6ExA1pvjCRoumR8F6r",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/yId.jpg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "agatheb",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/agatheb/status/782305429128749056",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "agathe",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/agathe/2d6e195973a1ec3ed11faaa56a06904c",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "agatheb",
+      "proof_url": "https://twitter.com/agatheb/status/782305429128749056",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "agathe",
+      "proof_url": "https://gist.github.com/agathe/2d6e195973a1ec3ed11faaa56a06904c",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN agathe.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/agathe.id\"\n"
 }

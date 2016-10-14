@@ -55,19 +55,19 @@
       "identifier": "marcnext",
       "proof_url": "https://twitter.com/marcnext/status/745327322442698758",
       "service": "twitter",
-      "valid": false
+      "valid": true
     },
     {
       "identifier": "marcnext",
       "proof_url": "https://gist.github.com/marcnext/346fdbd9342967f6cb7c826c1e0a96b1#file-onename",
       "service": "github",
-      "valid": true
+      "valid": false
     },
     {
       "identifier": "",
       "proof_url": "https://www.facebook.com/marcnext/posts/10153589425800334",
       "service": "facebook",
-      "valid": true
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN marcnext.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/marcnext.id\"\n"

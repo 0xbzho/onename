@@ -1,0 +1,50 @@
+{
+  "owner_address": "1HMTw6UmjbQCr86ypXKQuKmJNwu4XUEQKF",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "a_knip",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/a_knip/status/767047436275777538",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "aknip",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/aknip/85afd6cdf19bc291bf7fe0b8f7c4de81",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/a_knip",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/a_knip",
+        "name": "cover"
+      }
+    ],
+    "name": "Ansgar Knipschild"
+  },
+  "verifications": [
+    {
+      "identifier": "a_knip",
+      "proof_url": "https://twitter.com/a_knip/status/767047436275777538",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "aknip",
+      "proof_url": "https://gist.github.com/aknip/85afd6cdf19bc291bf7fe0b8f7c4de81",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN a_knip.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/a_knip.id\"\n"
+}

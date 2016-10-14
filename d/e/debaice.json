@@ -1,0 +1,62 @@
+{
+  "owner_address": "16dwbDQwPCc3pWDbCDpSAfT5cGyjNYzLCP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "debaagn",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/debaagn/status/762913401626501121",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "debaice",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/debaice/58137936998f11512bbd514fa3dac2af",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "debanjan.tifr",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/debanjan.tifr/posts/10154360437273774?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/debaice",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/debaice",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "debaagn",
+      "proof_url": "https://twitter.com/debaagn/status/762913401626501121",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "debaice",
+      "proof_url": "https://gist.github.com/debaice/58137936998f11512bbd514fa3dac2af",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "debanjan.tifr",
+      "proof_url": "https://www.facebook.com/debanjan.tifr/posts/10154360437273774?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN debaice.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/debaice.id\"\n"
+}

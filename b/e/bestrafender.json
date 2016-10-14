@@ -1,0 +1,62 @@
+{
+  "owner_address": "1A9coHLGDRUMHTNDT5XEQPjdVs7JxpPLpF",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bestrafender",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Bestrafender/status/769734118347313152",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Bestrafender",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Bestrafender/ae6f905c08ebc47fbed1d02ead0ae53f",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bestrafender",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bestrafender/posts/1416720911690375",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bestrafender",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bestrafender",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bestrafender",
+      "proof_url": "https://twitter.com/Bestrafender/status/769734118347313152",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Bestrafender",
+      "proof_url": "https://gist.github.com/Bestrafender/ae6f905c08ebc47fbed1d02ead0ae53f",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "bestrafender",
+      "proof_url": "https://www.facebook.com/bestrafender/posts/1416720911690375",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN bestrafender.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bestrafender.id\"\n"
+}

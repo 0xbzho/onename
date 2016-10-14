@@ -1,0 +1,49 @@
+{
+  "owner_address": "152PFiRhpEXTmHUKdnXyu56AKAbrpszfDk",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dundiagh",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dundiagh/status/779325152001527808",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dundiagh",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dundiagh/posts/10153744486641039?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ulaanbaatar, Mongolia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Tulga Tsendorj"
+  },
+  "verifications": [
+    {
+      "identifier": "dundiagh",
+      "proof_url": "https://twitter.com/dundiagh/status/779325152001527808",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "dundiagh",
+      "proof_url": "https://www.facebook.com/dundiagh/posts/10153744486641039?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN dundiagh.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dundiagh.id\"\n"
+}

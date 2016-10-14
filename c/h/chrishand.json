@@ -1,0 +1,44 @@
+{
+  "owner_address": "1148mUZ6foHWHTeMphmWV9ufKnMV4W5XCv",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "chrishandone",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ChrisHandOne/status/767909947291996160",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ChrisHandOne",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ChrisHandOne/5da57f21794e59ec5647419445c5ebe3",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "chrishandone",
+      "proof_url": "https://twitter.com/ChrisHandOne/status/767909947291996160",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "ChrisHandOne",
+      "proof_url": "https://gist.github.com/ChrisHandOne/5da57f21794e59ec5647419445c5ebe3",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN chrishand.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/chrishand.id\"\n"
+}

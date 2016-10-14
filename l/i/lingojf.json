@@ -1,0 +1,44 @@
+{
+  "owner_address": "1FNwyfWwxjqbKtFCmFWSdcyL1spEqPFrZB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "johnlingo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/johnlingo/status/778773113261658112",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "johnlingo",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/johnlingo/ed8739e58984387c5abc29c1c3f3ab41",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "johnlingo",
+      "proof_url": "https://twitter.com/johnlingo/status/778773113261658112",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "johnlingo",
+      "proof_url": "https://gist.github.com/johnlingo/ed8739e58984387c5abc29c1c3f3ab41",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN lingojf.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lingojf.id\"\n"
+}

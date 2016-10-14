@@ -1,0 +1,63 @@
+{
+  "owner_address": "1PCijpSvEdB94CHSEkJC6ihQ4F4CJ66HvW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "larrra",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/larrra/status/770642672533041152",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "l-a-r-a",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/l-a-r-a/a22fe7a32cbb70d21afe5bd3561a2099",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "larrra",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/larrra/posts/10153806155380770",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/larrra",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/larrra",
+        "name": "cover"
+      }
+    ],
+    "name": "Lara"
+  },
+  "verifications": [
+    {
+      "identifier": "larrra",
+      "proof_url": "https://twitter.com/larrra/status/770642672533041152",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "l-a-r-a",
+      "proof_url": "https://gist.github.com/l-a-r-a/a22fe7a32cbb70d21afe5bd3561a2099",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "larrra",
+      "proof_url": "https://www.facebook.com/larrra/posts/10153806155380770",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN larrra.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/larrra.id\"\n"
+}

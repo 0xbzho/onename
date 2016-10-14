@@ -1,49 +1,67 @@
 {
   "owner_address": "13kVSKW3ssxmZTpDi5VgfLFQ6NiLMGvyfT",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/russler"
-    },
-    "bio": "",
-    "bitcoin": {
-      "address": "19gi1954wBXisQsPH1T1gQhHQWDXpzB9hC"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/russler"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/367bb4ef4392aecfc4b1.git"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "19gi1954wBXisQsPH1T1gQhHQWDXpzB9hC",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "367bb4ef4392aecfc4b1.git"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Anthony Russell"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/russler/status/571816449934696449"
+      {
+        "@type": "Account",
+        "identifier": "russler",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/russler/ea77932ba4558a0760ac7482c27c4072#file-verify-onename",
+        "service": "github"
       },
-      "username": "russler"
+      {
+        "@type": "Account",
+        "identifier": "russler",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/russler/status/783637847467290624",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "v": "0.2",
-    "website": "http://about.me/anthonyrussell"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/russler",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/russler",
+        "name": "avatar"
+      }
+    ],
+    "name": "Anthony Russell",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://about.me/anthonyrussell"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "367bb4ef4392aecfc4b1.git",
-      "proof_url": "https://gist.github.com/367bb4ef4392aecfc4b1.git",
+      "identifier": "russler",
+      "proof_url": "https://gist.github.com/russler/ea77932ba4558a0760ac7482c27c4072#file-verify-onename",
       "service": "github",
-      "valid": true
+      "valid": false
     },
     {
       "identifier": "russler",
-      "proof_url": "https://twitter.com/russler/status/571816449934696449",
+      "proof_url": "https://twitter.com/russler/status/783637847467290624",
       "service": "twitter",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN russler.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/russler.id\"\n"
 }

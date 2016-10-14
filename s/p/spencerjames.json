@@ -1,0 +1,31 @@
+{
+  "owner_address": "1HmnwA32m5cQ4stAqCyCcssrkxqrsPxZZf",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "spencj",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/spencj/bb44c63e65253291bee71d95f76b0000",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "spencj",
+      "proof_url": "https://gist.github.com/spencj/bb44c63e65253291bee71d95f76b0000",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN spencerjames.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/spencerjames.id\"\n"
+}

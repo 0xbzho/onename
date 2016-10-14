@@ -1,0 +1,54 @@
+{
+  "owner_address": "1BR1MgbXtKAV2MNtDaLdbr8XEu2wJmop3",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "wizardofwhere",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/WizardofWhere/status/768562682282713088",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "d99dccc35d52c16b8b1d438db701569702e83b59",
+        "service": "open bazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "<script src=\"wizardofwhere",
+        "proofType": "http",
+        "proofUrl": "<script src=\"https://gist.github.com/wizardofwhere/2a437a5c35e31ef04a52c7acdebfdaeb.js\"></script>",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/wizardofwhere",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "wizardofwhere",
+      "proof_url": "https://twitter.com/WizardofWhere/status/768562682282713088",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "<script src=\"wizardofwhere",
+      "proof_url": "<script src=\"https://gist.github.com/wizardofwhere/2a437a5c35e31ef04a52c7acdebfdaeb.js\"></script>",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN wizardofwhere.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wizardofwhere.id\"\n"
+}

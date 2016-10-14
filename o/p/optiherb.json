@@ -1,0 +1,80 @@
+{
+  "owner_address": "1DxpCSY7mVdditesWAPveAL1Wvi24bSPZi",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1GsvWKo7oNtwET1segSQ8ahDKMajaxbs8E",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "PaulThailand",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/PaulThailand/status/774322577707720704",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "paul bond",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/paul.bond.526",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/3094c78a1904f314a6aeabfb0e00ea78",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Thailand"
+    },
+    "description": "n/a",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/optiherb",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/optiherb",
+        "name": "cover"
+      }
+    ],
+    "name": "Paul Bond",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://optiherb.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "PaulThailand",
+      "proof_url": "https://twitter.com/PaulThailand/status/774322577707720704",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "paul bond",
+      "proof_url": "https://www.facebook.com/paul.bond.526",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/3094c78a1904f314a6aeabfb0e00ea78",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN optiherb.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/optiherb.id\"\n"
+}

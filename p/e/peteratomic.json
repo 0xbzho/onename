@@ -1,0 +1,69 @@
+{
+  "owner_address": "19GM1zh4g3JH6aiEVKVbTe4xbowbLtDqMV",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "peteratomic",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/peteratomic/status/779029758709493762",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "peteratomic",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/peteratomic/posts/10157481635635440",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "peteratomic",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/peteratomic/cf754851f2f9a8d6d1a6e8ebb21b44b1",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Berlin"
+    },
+    "description": "http://resonate.is/profile/1/",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Peter Harris",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://resonate.is"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "peteratomic",
+      "proof_url": "https://twitter.com/peteratomic/status/779029758709493762",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "peteratomic",
+      "proof_url": "https://www.facebook.com/peteratomic/posts/10157481635635440",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "peteratomic",
+      "proof_url": "https://gist.github.com/peteratomic/cf754851f2f9a8d6d1a6e8ebb21b44b1",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN peteratomic.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/peteratomic.id\"\n"
+}

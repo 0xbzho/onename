@@ -1,0 +1,50 @@
+{
+  "owner_address": "1KJdFqUWpatBM56aRXq5e86XzDgnGTSu56",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gmoyanollc",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/gmoyanollc/0d8128862071b4e2d109a4eee5383098",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "george_moyano",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/george_moyano/status/765228103064965122",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Oceanside California United States of America"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "George Moyano",
+    "website": []
+  },
+  "verifications": [
+    {
+      "identifier": "gmoyanollc",
+      "proof_url": "https://gist.github.com/gmoyanollc/0d8128862071b4e2d109a4eee5383098",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "george_moyano",
+      "proof_url": "https://twitter.com/george_moyano/status/765228103064965122",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN gmoyano.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gmoyano.id\"\n"
+}

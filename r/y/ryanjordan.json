@@ -5,27 +5,9 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "theryanjordan",
-        "proofType": "http",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
         "identifier": "none",
         "proofType": "http",
         "service": "facebook"
-      },
-      {
-        "@type": "Account",
-        "identifier": "theryanjordan",
-        "proofType": "http",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
-        "identifier": "1FQ3xhSMbD3wF4PmFn6usHCY3kbzGz9Fda",
-        "role": "payment",
-        "service": "bitcoin"
       },
       {
         "@type": "Account",
@@ -38,13 +20,33 @@
         "@type": "Account",
         "identifier": "56c4e27acd50c0cf9a0de2ae4a31534aba052d8b",
         "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "theryanjordan",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/theryanjordan/status/763448055840464896",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "theryanjordan",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/theryanjordan/86de8d991e2c49a64a2a457f168c77cb#file-onename",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1CCffxgLi3aZDN5yr5LoVddhmTDCLgaUZE",
+        "role": "payment",
+        "service": "bitcoin"
       }
     ],
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "San Diego, CA"
     },
-    "description": "The Decentralized Library of Alexandria",
+    "description": "Designer, Maker, Bread Baker, Voluntaryist, Eagle Scout & Co-founder of The Decentralized Library of Alexandria.",
     "image": [
       {
         "@type": "ImageObject",
@@ -59,6 +61,19 @@
     ],
     "name": "Ryan Jordan"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "theryanjordan",
+      "proof_url": "https://twitter.com/theryanjordan/status/763448055840464896",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "theryanjordan",
+      "proof_url": "https://gist.github.com/theryanjordan/86de8d991e2c49a64a2a457f168c77cb#file-onename",
+      "service": "github",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN ryanjordan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ryanjordan.id\"\n"
 }

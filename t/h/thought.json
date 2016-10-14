@@ -1,10 +1,40 @@
 {
   "owner_address": "1KPYp7rCBAvWCu86S4Qyy99rooqAXvxDN3",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/4AL.jpeg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "please don't send me any",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Newcastle upon Tyne, UK"
     },
-    "v": "0.2"
+    "description": "Stress-release consultant. Since 2006, PaulsRobot delivers 24/7 free fully-personalized stress-release sessions to normal people. Main ID: +pauladams",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/thought",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/thought",
+        "name": "cover"
+      }
+    ],
+    "name": "Paul Adams",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://paulsrobot.com"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN thought.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/thought.id\"\n"
 }

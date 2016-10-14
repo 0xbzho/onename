@@ -1,27 +1,54 @@
 {
   "owner_address": "13o4Gc64w8zGxQDKtjEPKXJZ9UAxKCjASQ",
   "profile": {
-    "avatar": {
-      "url": "https://pbs.twimg.com/profile_images/378800000550073492/bfd77434fd2989223dc9bae6f2083cd5.jpeg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "17cmhEoib1eHFTog4vzsKYyyRUcmDTicb1",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "duplacer",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/duplacer/status/783668157504512001",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "∞"
     },
-    "bio": "Lord Hatton · JRT",
-    "bitcoin": {
-      "address": "17cmhEoib1eHFTog4vzsKYyyRUcmDTicb1"
-    },
-    "cover": {
-      "url": "https://pbs.twimg.com/profile_banners/20211955/1380943244/web_retina"
-    },
-    "location": {
-      "formatted": "∞"
-    },
-    "name": {
-      "formatted": "Jacek Rafal Tatko"
-    },
-    "twitter": {
-      "username": "duplacer"
-    },
-    "v": "0.2",
-    "website": "http://about.me/ooo"
+    "description": "Lord Hatton · JRT",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://pbs.twimg.com/profile_images/378800000550073492/bfd77434fd2989223dc9bae6f2083cd5.jpeg",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://pbs.twimg.com/profile_banners/20211955/1380943244/web_retina",
+        "name": "cover"
+      }
+    ],
+    "name": "Jacek Rafal Tatko",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://about.me/ooo"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "duplacer",
+      "proof_url": "https://twitter.com/duplacer/status/783668157504512001",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN divine.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/divine.id\"\n"
 }

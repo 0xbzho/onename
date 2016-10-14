@@ -1,13 +1,29 @@
 {
   "owner_address": "1DtMfNhHRbyEYjmeFDZmKwoePu9RBKAgoU",
   "profile": {
-    "bitcoin": {
-      "address": "1HDmyTritVT3aNckKsfukLw9uRizSRB5St"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/lUU.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1HDmyTritVT3aNckKsfukLw9uRizSRB5St",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/benjikiss",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/benjikiss",
+        "name": "avatar"
+      }
+    ],
+    "name": "Benji Kisscool"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN benjikiss.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/benjikiss.id\"\n"
 }

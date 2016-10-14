@@ -1,6 +1,69 @@
 {
-  "owner_address": "19de7CVFvNwzApDcRL1fr8pzDxDoLiRHrB",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "16t1pn9ZA7saZcAr54po3HEHrQtGb43ffL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "remilm",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/remilm/status/760419684697120768",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "15mrHHZYq5RKACjz9WM7fm2DELJnsuYhyv",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "remilm",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/remilm/eedb67ce0d5f577acab3d0c64d3a4d91",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "remi.foult",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/remi.foult/posts/10154478452632932",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/remilm",
+        "name": "avatar"
+      }
+    ],
+    "name": "Rémi Foult"
+  },
+  "verifications": [
+    {
+      "identifier": "remilm",
+      "proof_url": "https://twitter.com/remilm/status/760419684697120768",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "remilm",
+      "proof_url": "https://gist.github.com/remilm/eedb67ce0d5f577acab3d0c64d3a4d91",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "remi.foult",
+      "proof_url": "https://www.facebook.com/remi.foult/posts/10154478452632932",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN remilm.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/remilm.id\"\n"
 }

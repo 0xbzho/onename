@@ -1,6 +1,69 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1JdXRHhrxL7CDdFynN3Yk3vHuMxxNJqeRA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "fmurialdo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/fmurialdo/status/761669859302252544",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fmurialdo",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/fmurialdo/2b7f44e10845ab9447e4f5330ccc0270",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "franck.murialdo",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/franck.murialdo/posts/10154419161274776",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1861NHab7kBMzN7L3mHnaWyTLUAkBVZgam",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/fmurialdo",
+        "name": "avatar"
+      }
+    ],
+    "name": "Franck Murialdo"
+  },
+  "verifications": [
+    {
+      "identifier": "fmurialdo",
+      "proof_url": "https://twitter.com/fmurialdo/status/761669859302252544",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "fmurialdo",
+      "proof_url": "https://gist.github.com/fmurialdo/2b7f44e10845ab9447e4f5330ccc0270",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "franck.murialdo",
+      "proof_url": "https://www.facebook.com/franck.murialdo/posts/10154419161274776",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN fmurialdo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fmurialdo.id\"\n"
 }

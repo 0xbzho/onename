@@ -1,23 +1,33 @@
 {
   "owner_address": "17DTSt6p1PQhnmYu2WToeru9CVyp92Wz32",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "277772722b372c35a889c219f7acc7a19e3cf172",
+        "identifier": "d6157f5fb01ba847d4706be8177aa20bba016314",
         "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1NEiS8vdzJKLsbfLmUPw8hUgQtMiQ1tbfN",
+        "role": "payment",
+        "service": "bitcoin"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/dynametrus"
-    },
-    "bitcoin": {
-      "address": "17Dz6eUfv89WFZznk4a5AYKqmdkvDjZGVh"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/OSA.jpeg"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dynametrus",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN dynametrus.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dynametrus.id\"\n"
 }

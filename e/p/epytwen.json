@@ -1,0 +1,50 @@
+{
+  "owner_address": "16MWVwLhTb3rRwCkmtY99UF2pVrkUcYbZh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "epytwen",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/epytwen/status/782802742804779009",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "epytwen",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/epytwen/e029a1317426e4a2b2c2870b20654d21",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/epytwen",
+        "name": "avatar"
+      }
+    ],
+    "name": "Masaaki Tanaka"
+  },
+  "verifications": [
+    {
+      "identifier": "epytwen",
+      "proof_url": "https://twitter.com/epytwen/status/782802742804779009",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "epytwen",
+      "proof_url": "https://gist.github.com/epytwen/e029a1317426e4a2b2c2870b20654d21",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN epytwen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/epytwen.id\"\n"
+}

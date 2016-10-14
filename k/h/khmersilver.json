@@ -1,0 +1,62 @@
+{
+  "owner_address": "16r9dnwqYtrG5EbNc5uALxnzKmBv2DCA3w",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "khmersilver",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/khmersilver/0c41f6343b6049549a49eb93ecb51ae5",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "khmersilver",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/khmersilver/status/775184899279953920",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "khmersilver",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/khmersilver/posts/1114274788643091",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/khmersilver",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/khmersilver",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "khmersilver",
+      "proof_url": "https://gist.github.com/khmersilver/0c41f6343b6049549a49eb93ecb51ae5",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "khmersilver",
+      "proof_url": "https://twitter.com/khmersilver/status/775184899279953920",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "khmersilver",
+      "proof_url": "https://www.facebook.com/khmersilver/posts/1114274788643091",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN khmersilver.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/khmersilver.id\"\n"
+}

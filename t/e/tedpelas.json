@@ -1,0 +1,74 @@
+{
+  "owner_address": "1EHoQasSivg3ryWyGBgmZthH4puF4LmKDF",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tedpelas",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tedpelas/status/784716251918655489",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tedpelas",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/tedpelas/posts/10153779575871039",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tedpelas",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tedpelas/ff65a4102c8e0f8c12646d322917f45f",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/tedpelas/key.asc",
+        "identifier": null,
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Stockholm, Sweden"
+    },
+    "description": "Senior IP Network Engineer at Tele2 Group",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tedpelas",
+        "name": "avatar"
+      }
+    ],
+    "name": "Ted Pelas Johansson"
+  },
+  "verifications": [
+    {
+      "identifier": "tedpelas",
+      "proof_url": "https://twitter.com/tedpelas/status/784716251918655489",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "tedpelas",
+      "proof_url": "https://www.facebook.com/tedpelas/posts/10153779575871039",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "tedpelas",
+      "proof_url": "https://gist.github.com/tedpelas/ff65a4102c8e0f8c12646d322917f45f",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tedpelas.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tedpelas.id\"\n"
+}

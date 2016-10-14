@@ -1,37 +1,54 @@
 {
   "owner_address": "1DEGg2yFkf5fxNqB14NhFpLCaXtjactaLt",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/adamschwartz"
-    },
-    "bio": "Co-founder of Eager (http://eager.io)",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/adamschwartz"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/adamschwartz/e88d4152ef4845810f7a"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "adamfschwartz",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "adamschwartz"
+      {
+        "@type": "Account",
+        "identifier": "adamschwartz",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/adamschwartz/e88d4152ef4845810f7a",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cambridge, MA"
     },
-    "location": {
-      "formatted": "Cambridge, MA"
-    },
-    "name": {
-      "formatted": "Adam Schwartz"
-    },
-    "twitter": {
-      "username": "adamfschwartz"
-    },
-    "v": "0.2",
-    "website": "http://adamschwartz.co"
+    "description": "Co-founder of Eager (http://eager.io)",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/adamschwartz",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/adamschwartz",
+        "name": "cover"
+      }
+    ],
+    "name": "Adam Schwartz",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://adamschwartz.co"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "adamschwartz",
       "proof_url": "https://gist.github.com/adamschwartz/e88d4152ef4845810f7a",
       "service": "github",
-      "valid": true
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN adamschwartz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/adamschwartz.id\"\n"
 }

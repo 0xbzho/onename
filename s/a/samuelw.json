@@ -1,6 +1,49 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1D5BvK81JgoyNkHLYwueDdNGmfJZVPgUei",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "samuel.wurster.37",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/samuel.wurster.37/posts/10153847249203660?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sam1oo0",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sam1oo0/status/761195537676640256",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Berlin"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Samuel Wurster"
+  },
+  "verifications": [
+    {
+      "identifier": "samuel.wurster.37",
+      "proof_url": "https://www.facebook.com/samuel.wurster.37/posts/10153847249203660?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "sam1oo0",
+      "proof_url": "https://twitter.com/sam1oo0/status/761195537676640256",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN samuelw.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/samuelw.id\"\n"
 }

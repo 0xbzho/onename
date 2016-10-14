@@ -1,0 +1,44 @@
+{
+  "owner_address": "14xqJMdnB2RwtjkVnGZvAmEarzbtWa1PCn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gitta",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gitta/status/763846053934276608",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gitta",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/gitta/posts/10153614061557511",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "gitta",
+      "proof_url": "https://twitter.com/gitta/status/763846053934276608",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "gitta",
+      "proof_url": "https://www.facebook.com/gitta/posts/10153614061557511",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN gittagitta.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gittagitta.id\"\n"
+}

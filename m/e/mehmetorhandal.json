@@ -1,0 +1,62 @@
+{
+  "owner_address": "1HsSywGCEeD5b1CExAALxXDftoXpo8gbQx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mehmetorhandal",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MehmetOrhanDal/status/776704354304847872",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mehmetorhandal",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mehmetorhandal/posts/10154565123813149",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mehmetorhandal",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mehmetorhandal/b56568e7ee304eb55329a751fa5f4349",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mehmetorhandal",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mehmetorhandal",
+      "proof_url": "https://twitter.com/MehmetOrhanDal/status/776704354304847872",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mehmetorhandal",
+      "proof_url": "https://www.facebook.com/mehmetorhandal/posts/10154565123813149",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "mehmetorhandal",
+      "proof_url": "https://gist.github.com/mehmetorhandal/b56568e7ee304eb55329a751fa5f4349",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mehmetorhandal.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mehmetorhandal.id\"\n"
+}

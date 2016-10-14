@@ -1,6 +1,81 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "13WdGcYwyFMdUirauxKQYh5ZKXAwahCF2i",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/jheuing",
+        "identifier": "6BC8FABB98E300E7A25EBD242EA6172737F9C2F5",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jheuing",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jheuing/status/734640658099638272",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jheuing",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jheuing/79c44aa2f0d5b1d64a58",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jheuing",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jheuing/posts/10153602649551577?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Berlin, Germany"
+    },
+    "description": "Certified Scrum Professional, Agile Consultant, Coach, Developer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jheuing",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jan-Hendrik Heuing",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://heuing.io"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jheuing",
+      "proof_url": "https://twitter.com/jheuing/status/734640658099638272",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jheuing",
+      "proof_url": "https://gist.github.com/jheuing/79c44aa2f0d5b1d64a58",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "jheuing",
+      "proof_url": "https://www.facebook.com/jheuing/posts/10153602649551577?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jheuing.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jheuing.id\"\n"
 }

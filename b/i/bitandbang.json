@@ -1,0 +1,60 @@
+{
+  "owner_address": "13TmLyHGzAWyVc41fjkUZDLyrAEdCoGeWV",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bitandbang",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bitandbang/status/766630176470011904",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bnb",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bnb/636ec4f1ce73b8855d7e4d9d6a0177fd",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Little Falls, NY"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bitandbang",
+        "name": "avatar"
+      }
+    ],
+    "name": "Tierney Coren",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://bnb.im"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bitandbang",
+      "proof_url": "https://twitter.com/bitandbang/status/766630176470011904",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bnb",
+      "proof_url": "https://gist.github.com/bnb/636ec4f1ce73b8855d7e4d9d6a0177fd",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN bitandbang.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bitandbang.id\"\n"
+}

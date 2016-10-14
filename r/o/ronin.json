@@ -1,16 +1,30 @@
 {
   "owner_address": "13RKzeQEV6u9pxdCh5ikj3uzbeePbvoZ7B",
   "profile": {
-    "bitcoin": {
-      "address": "18utBvoenSG4N4NJ9ZjtEBGeUpxgUkwQ8x"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/IKM.jpeg"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/ronin"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "18utBvoenSG4N4NJ9ZjtEBGeUpxgUkwQ8x",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "e41ed5d4b63cec2dfd203a73801df2fb8467afbe",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/hrabbey/03c3775c74dc89fe28b0ffdf21258a34",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN ronin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ronin.id\"\n"
 }

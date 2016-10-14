@@ -1,6 +1,55 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1Ps8oZ7vkoJ8dWUPZGiYcj5XHuwZsFxore",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "peterrehm",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/peterrehm/status/770851471080423425",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "peterrehm",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/peterrehm/7a1e98bb7905708b0a70cb451a6121bc",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
+    },
+    "description": "Human being.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/peterrehm",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Peter Rehm"
+  },
+  "verifications": [
+    {
+      "identifier": "peterrehm",
+      "proof_url": "https://twitter.com/peterrehm/status/770851471080423425",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "peterrehm",
+      "proof_url": "https://gist.github.com/peterrehm/7a1e98bb7905708b0a70cb451a6121bc",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN peterrehm.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/peterrehm.id\"\n"
 }

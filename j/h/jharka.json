@@ -1,0 +1,36 @@
+{
+  "owner_address": "19AqWRZfvAUKue4KyyM1EenjUqxEVuMPm6",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bodhi_joshu",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bodhi_joshu/status/783820115078807552",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "joshua.h.harka",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bodhi_joshu",
+      "proof_url": "https://twitter.com/bodhi_joshu/status/783820115078807552",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jharka.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jharka.id\"\n"
+}

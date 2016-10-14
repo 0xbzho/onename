@@ -1,0 +1,62 @@
+{
+  "owner_address": "1HLRpEr6vu7Yy7U1hRL2KQ4Q7zzcxAzEEc",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "henk.kuipers",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/henk.kuipers/posts/10205433360791887",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "henkbb36org",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/henkbb36org/5f1c319956ba21e8425bc092ee1c945d#file-onename-gist",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "henkbb36org",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bb36org/status/776896421882658816",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/henk_kuipers",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "henk.kuipers",
+      "proof_url": "https://www.facebook.com/henk.kuipers/posts/10205433360791887",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "henkbb36org",
+      "proof_url": "https://gist.github.com/henkbb36org/5f1c319956ba21e8425bc092ee1c945d#file-onename-gist",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "henkbb36org",
+      "proof_url": "https://twitter.com/bb36org/status/776896421882658816",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN henk_kuipers.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/henk_kuipers.id\"\n"
+}

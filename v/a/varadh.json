@@ -5,16 +5,30 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "varadhjain",
-        "proofType": "http",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
         "identifier": "VaradhJain",
         "proofType": "http",
         "proofUrl": "https://twitter.com/varadhjain/status/740919318083342336",
         "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/varadh/key.asc",
+        "identifier": "66DE736162AA7A83D4162A91B67A2005A61F9C1F",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "varadhjain",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/varadhjain/9df0f79ccf4897855878",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "varadhjain",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/varadhjain/posts/10154706025914406",
+        "service": "facebook"
       }
     ],
     "image": [
@@ -42,7 +56,19 @@
       "identifier": "VaradhJain",
       "proof_url": "https://twitter.com/varadhjain/status/740919318083342336",
       "service": "twitter",
-      "valid": true
+      "valid": false
+    },
+    {
+      "identifier": "varadhjain",
+      "proof_url": "https://gist.github.com/varadhjain/9df0f79ccf4897855878",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "varadhjain",
+      "proof_url": "https://www.facebook.com/varadhjain/posts/10154706025914406",
+      "service": "facebook",
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN varadh.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/varadh.id\"\n"

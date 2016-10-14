@@ -1,0 +1,68 @@
+{
+  "owner_address": "1BAKxghEDmdNACrNwEKKtkspX5tUF99KzH",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "leonardoangelini",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/leonardoangelini/48334e139b2e9f10849907da1c1fffd8",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "poldo76",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/poldo76/status/770023735965413376",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "leonardo.angelini",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/leonardo.angelini/posts/10209535992490397",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1JcpyD2iNoG3QELX54Z3AzkhVtwR7qKgz9",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/leonardoangelini",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "leonardoangelini",
+      "proof_url": "https://gist.github.com/leonardoangelini/48334e139b2e9f10849907da1c1fffd8",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "poldo76",
+      "proof_url": "https://twitter.com/poldo76/status/770023735965413376",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "leonardo.angelini",
+      "proof_url": "https://www.facebook.com/leonardo.angelini/posts/10209535992490397",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN leonardoangelini.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/leonardoangelini.id\"\n"
+}

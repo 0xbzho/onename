@@ -1,0 +1,50 @@
+{
+  "owner_address": "1C13Xt85zj1s9AbE6apKFsiCcfusaoLD8h",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mistrikushal",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mistrikushal/e54a83a7c77aa06cc44b54f6b5ceecd8",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kushalmistri",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kushalmistri/status/772821977723568128",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ahmedabad"
+    },
+    "description": "Ruby on Rails Developer | Freelancer in India",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Kushal Mistry"
+  },
+  "verifications": [
+    {
+      "identifier": "mistrikushal",
+      "proof_url": "https://gist.github.com/mistrikushal/e54a83a7c77aa06cc44b54f6b5ceecd8",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "kushalmistri",
+      "proof_url": "https://twitter.com/kushalmistri/status/772821977723568128",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kushalmistri.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kushalmistri.id\"\n"
+}

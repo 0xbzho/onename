@@ -1,0 +1,50 @@
+{
+  "owner_address": "1DdNy5d4WpT79BRuc5BdXKUdMRD6jsKZ2w",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "chuycepeda",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/chuycepeda/status/764366040012730368",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "chuycepeda",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/chuycepeda/7c60e0e9383d44ac9d79101baf60cea8",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "13fW3wvsbPomP4kVEB6sdJgxZDYngMPjJw",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "chuycepeda",
+      "proof_url": "https://twitter.com/chuycepeda/status/764366040012730368",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "chuycepeda",
+      "proof_url": "https://gist.github.com/chuycepeda/7c60e0e9383d44ac9d79101baf60cea8",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN chuycepeda.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/chuycepeda.id\"\n"
+}

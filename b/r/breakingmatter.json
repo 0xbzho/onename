@@ -1,0 +1,64 @@
+{
+  "owner_address": "14iHxwzwLDYxpWVMqa2KvibVcptwLtCDiN",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "zmingee",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/zmingee/560ea025e00e65ef3d4e59c8aa15b65d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "breakingmatter",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/breakingmatter/status/766444013943595009",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "zmingee",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/zmingee/posts/10157359383690271",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "85ad4ae6e92a9c1a187179e386ddaa726b904860",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/zmingee/posts/10157359383690271",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "zmingee",
+      "proof_url": "https://gist.github.com/zmingee/560ea025e00e65ef3d4e59c8aa15b65d",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "breakingmatter",
+      "proof_url": "https://twitter.com/breakingmatter/status/766444013943595009",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "zmingee",
+      "proof_url": "https://www.facebook.com/zmingee/posts/10157359383690271",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN breakingmatter.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/breakingmatter.id\"\n"
+}

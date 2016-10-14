@@ -1,0 +1,50 @@
+{
+  "owner_address": "1MMCqSfKj7bsdkDEMwX5QHeA6s5afGGGmE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gxuxu",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gxuxu/status/785204307511705600",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "giullianoi",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/giullianoi",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Curitiba"
+    },
+    "description": "blockchain enthusiast",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Giulliano Ivankiw"
+  },
+  "verifications": [
+    {
+      "identifier": "gxuxu",
+      "proof_url": "https://twitter.com/gxuxu/status/785204307511705600",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "giullianoi",
+      "proof_url": "https://www.facebook.com/giullianoi",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN giulliano.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/giulliano.id\"\n"
+}

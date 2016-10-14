@@ -1,0 +1,49 @@
+{
+  "owner_address": "1QGffzbtq88wDTMbj52KJQnaKbwcXRsM6a",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "stevegreig",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/stevegreig/eee6ab4e5f0c997430f739941eedf6d4",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "stevegreig",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/stevegreig/status/766221029907791872",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Jersey City, NJ"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Steve Greig"
+  },
+  "verifications": [
+    {
+      "identifier": "stevegreig",
+      "proof_url": "https://gist.github.com/stevegreig/eee6ab4e5f0c997430f739941eedf6d4",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "stevegreig",
+      "proof_url": "https://twitter.com/stevegreig/status/766221029907791872",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN stevegreig.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stevegreig.id\"\n"
+}

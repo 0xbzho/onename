@@ -1,0 +1,36 @@
+{
+  "owner_address": "15RCNP3mtWh5gjixd5iHWLBR3XTFVoUboR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "garrymccarron",
+        "proofType": "http",
+        "proofUrl": "Verifying that \"garrymccarron.id\" is my Blockstack ID. https://onename.com/garrymccarron",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/garrymccarron",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "garrymccarron",
+      "proof_url": "Verifying that \"garrymccarron.id\" is my Blockstack ID. https://onename.com/garrymccarron",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN garrymccarron.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/garrymccarron.id\"\n"
+}

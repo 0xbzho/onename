@@ -1,0 +1,37 @@
+{
+  "owner_address": "1J5gWGFSMQzE7b2JRUrADJgoqCctwWzjch",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "supercontra",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/supercontra/status/771336252608147456",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "ColombIA"
+    },
+    "description": "one man army",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Alejandro Feged"
+  },
+  "verifications": [
+    {
+      "identifier": "supercontra",
+      "proof_url": "https://twitter.com/supercontra/status/771336252608147456",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN supercontra.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/supercontra.id\"\n"
+}

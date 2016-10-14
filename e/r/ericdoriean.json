@@ -1,13 +1,69 @@
 {
   "owner_address": "15DB5Ewz9TAdeKgj7fGktsQwuQQVXNWDRF",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/F9g.jpg"
-    },
-    "twitter": {
-      "username": "ericdoriean"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ericdoriean",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/EricDoriean/status/765409080550666241",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "eric.doriean",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/eric.doriean/posts/10153622603412251?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ericmosaic",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ericmosaic/d215d7756563bb395498ed59deac56c9",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1q8uEM5YZuVjZVuYfREgfWpMdnYVrUzYp",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ericdoriean",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ericdoriean",
+        "name": "cover"
+      }
+    ],
+    "name": "Eric Doriean"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "ericdoriean",
+      "proof_url": "https://twitter.com/EricDoriean/status/765409080550666241",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "eric.doriean",
+      "proof_url": "https://www.facebook.com/eric.doriean/posts/10153622603412251?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "ericmosaic",
+      "proof_url": "https://gist.github.com/ericmosaic/d215d7756563bb395498ed59deac56c9",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ericdoriean.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ericdoriean.id\"\n"
 }

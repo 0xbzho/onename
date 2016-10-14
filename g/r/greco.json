@@ -1,49 +1,61 @@
 {
   "owner_address": "19VkaoBJ45cqBRkKiBkXywbwo1biJwd48S",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/greco"
-    },
-    "bitcoin": {
-      "address": "1PgdCn4qXWaogeRFSqHtYGTKFNuULnWFPt"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/4AL.jpeg"
-    },
-    "facebook": {
-      "username": "nicolagreco"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/nicola/7170cc5102a99314e1f2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nicolagreco",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "nicola"
-    },
-    "name": {
-      "formatted": "Nicola Greco"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/nicolagreco/status/500593424349659137"
+      {
+        "@type": "Account",
+        "identifier": "nicolagreco",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "nicolagreco"
-    },
-    "v": "0.2",
-    "website": "http://nicolagreco.com"
+      {
+        "@type": "Account",
+        "identifier": "1PgdCn4qXWaogeRFSqHtYGTKFNuULnWFPt",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nicola",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/nicola/dd0bce3adce923dbe6d02ae8d054d376",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/greco",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Nicola Greco",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://nicolagreco.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "nicola",
-      "proof_url": "https://gist.github.com/nicola/7170cc5102a99314e1f2",
+      "proof_url": "https://gist.github.com/nicola/dd0bce3adce923dbe6d02ae8d054d376",
       "service": "github",
       "valid": false
-    },
-    {
-      "identifier": "nicolagreco",
-      "proof_url": "https://twitter.com/nicolagreco/status/500593424349659137",
-      "service": "twitter",
-      "valid": true
     }
   ],
-  "zone_file": {}
+  "zone_file": "$ORIGIN greco.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/greco.id\"\n"
 }

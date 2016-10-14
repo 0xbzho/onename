@@ -5,12 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "leijurv",
-        "proofType": "http",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
         "identifier": "1Leijurv3DWTrGAfmmiTphjhXLvQiHg7K2",
         "role": "payment",
         "service": "bitcoin"
@@ -20,6 +14,27 @@
         "contentUrl": "https://pk9.s3.amazonaws.com/leijurv",
         "identifier": "30AE187C",
         "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "leijurv",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/leijurv/8c1a835b360e0bdea9adbb891e8f3a3e",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "leijurv",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/leijurv/status/760681505706258432",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "leijurv",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/leijurv/posts/109197092858686",
+        "service": "facebook"
       }
     ],
     "image": [
@@ -31,6 +46,25 @@
     ],
     "name": "leijurv"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "leijurv",
+      "proof_url": "https://gist.github.com/leijurv/8c1a835b360e0bdea9adbb891e8f3a3e",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "leijurv",
+      "proof_url": "https://twitter.com/leijurv/status/760681505706258432",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "leijurv",
+      "proof_url": "https://www.facebook.com/leijurv/posts/109197092858686",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN leijurv.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/leijurv.id\"\n"
 }

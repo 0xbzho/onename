@@ -1,0 +1,51 @@
+{
+  "owner_address": "1GiMVf5TfN4A7CzQpbPxxSU7BR7aop1ciG",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "unicornhacker",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/unicornhacker/db457ac4e28b5cc1cc0be5e75388a04e",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "wmecole",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/wmecole/status/781624678070702080",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "William Cole",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://UnicornHacker.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "unicornhacker",
+      "proof_url": "https://gist.github.com/unicornhacker/db457ac4e28b5cc1cc0be5e75388a04e",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "wmecole",
+      "proof_url": "https://twitter.com/wmecole/status/781624678070702080",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN williamcole.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/williamcole.id\"\n"
+}

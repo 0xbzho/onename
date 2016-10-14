@@ -1,73 +1,65 @@
 {
   "owner_address": "1KccvWTvF2NmEuxkPN6iPdAu3GFd913p7P",
   "profile": {
-    "auth": [
+    "@type": "Person",
+    "account": [
       {
-        "publicKeychain": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCqfkut37+KUot4iLfcyzyfzRYWuMe7k2YVFbDXxLXZMYgGC1rUjPru/41Jw1n2a8wZS1dnguDgxSzclmvgaEjstcG1j695F3ddmjO0TbtxTMzCAlRfKRVGTgTqG2UbntmKAyqfDsmvi8gnjCEBG86E+wOfGWlWXokwgXxjKtKae1yChh3+WIJWk53Q1gmngZVT4PFOWoANnWdvQWYF3c2G2l+tx8hlnLrA5uCRmn941q2PDThUFL4l5RJk5IeryNcjqb87ncvDFkgA/5LvEwjWZcMq+DHFwBvjG/WxepRlzNvLDcGI/YMcD06UD+XnHIpceH8qucw251j9wVB8AM3T michele@spagnuolo.me"
+        "@type": "Account",
+        "identifier": "mikispag",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Michele.Spagnuolo",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mikispag",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1MikiMikimiiBKLk7jarESDotS4LGvCsPF",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pgp.mit.edu/pks/lookup?op=get&search=0x2D0B62DD6A0C077D",
+        "identifier": "0x6FF21F182146B7F8140067860346F92DAD193654",
+        "role": "key",
+        "service": "pgp"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/mikispag"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Zürich"
     },
-    "bio": "Information Security Engineer at Google. Wrote BitIodine. Broke the Internet with Rosetta Flash.\nOpinions are my own, unless hacked. In that case, hacker's.",
-    "bitcoin": {
-      "address": "1MikiMikimiiBKLk7jarESDotS4LGvCsPF"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/mikispag"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/Michele.Spagnuolo/posts/10204119394252362"
+    "description": "Information Security Engineer at Google. Wrote BitIodine. Broke the Internet with Rosetta Flash.\nOpinions are my own, unless hacked. In that case, hacker's.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mikispag",
+        "name": "avatar"
       },
-      "username": "Michele.Spagnuolo"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/mikispag/26f54bc37ee48be8687f"
-      },
-      "username": "mikispag"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/mikispag"
-    },
-    "location": {
-      "formatted": "Zürich"
-    },
-    "name": {
-      "formatted": "Michele Spagnuolo"
-    },
-    "pgp": {
-      "fingerprint": "0x2D0B62DD6A0C077D",
-      "url": "https://pgp.mit.edu/pks/lookup?op=get&search=0x2D0B62DD6A0C077D"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/mikispag/status/503662509069303809"
-      },
-      "username": "mikispag"
-    },
-    "v": "0.2",
-    "website": "https://miki.it"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mikispag",
+        "name": "cover"
+      }
+    ],
+    "name": "Michele Spagnuolo",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://miki.it"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "mikispag",
-      "proof_url": "https://gist.github.com/mikispag/26f54bc37ee48be8687f",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "mikispag",
-      "proof_url": "https://twitter.com/mikispag/status/503662509069303809",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "Michele.Spagnuolo",
-      "proof_url": "https://facebook.com/Michele.Spagnuolo/posts/10204119394252362",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN mikispag.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mikispag.id\"\n"
 }

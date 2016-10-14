@@ -1,0 +1,62 @@
+{
+  "owner_address": "1NoGtxduwxRN3q1pvG91z6iwaFNcfaTDYZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "BretAMorris",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BretAMorris/status/776580891267043328",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bret.morris.906",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/bretmorris?post_id=170218450049860_170218500049855#/facebook",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "BretAMorris",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/BretAMorris/1bc70354904ec793594e3409de2e27e6",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bretmorris",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "BretAMorris",
+      "proof_url": "https://twitter.com/BretAMorris/status/776580891267043328",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bret.morris.906",
+      "proof_url": "https://onename.com/bretmorris?post_id=170218450049860_170218500049855#/facebook",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "BretAMorris",
+      "proof_url": "https://gist.github.com/BretAMorris/1bc70354904ec793594e3409de2e27e6",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN bretmorris.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bretmorris.id\"\n"
+}

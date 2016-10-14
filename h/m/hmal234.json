@@ -1,10 +1,48 @@
 {
   "owner_address": "1A5Dd4ACJntqB5ke35GVFYyWV7ySNdPXEE",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/rv1.jpeg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "hmalviya9",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/hmalviya9/status/785445101271080960",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hitesh.malviya.1238",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/hmal234?post_id=1229083030467231_1229083970467137#/facebook",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "3L7xwaXKGzD57akoc365ayYHQU2nvaUVn8",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mumbai"
     },
-    "v": "0.2"
+    "description": "An information security consultant, A Blockchain expert, An Innovator & Entrepreneur",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hmal234",
+        "name": "avatar"
+      }
+    ],
+    "name": "Hitesh Malviya"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN hmal234.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hmal234.id\"\n"
 }

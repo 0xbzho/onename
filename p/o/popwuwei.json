@@ -1,0 +1,36 @@
+{
+  "owner_address": "1A7J1aBZUT5S9mqSYKV13JwRiJMLMEbW2e",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "popwu",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/popwu/status/786559974541369344",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "popwu",
+      "proof_url": "https://twitter.com/popwu/status/786559974541369344",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN popwuwei.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/popwuwei.id\"\n"
+}

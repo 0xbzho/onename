@@ -5,27 +5,30 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "rickartblunck",
-        "proofType": "http",
-        "service": "twitter"
+        "identifier": "1Mv886AWdNv149AxyEvqSvXcocs7SJ7tsn",
+        "role": "payment",
+        "service": "bitcoin"
       },
       {
         "@type": "Account",
-        "identifier": "rblunck84",
+        "identifier": "twofogs",
         "proofType": "http",
+        "proofUrl": "https://www.facebook.com/twofogs/posts/100269367104435",
         "service": "facebook"
       },
       {
         "@type": "Account",
-        "identifier": "rblunck84",
+        "identifier": "twofogs",
         "proofType": "http",
-        "service": "github"
+        "proofUrl": "https://twitter.com/twofogs/status/778075567090302976",
+        "service": "twitter"
       },
       {
         "@type": "Account",
-        "identifier": "1Mv886AWdNv149AxyEvqSvXcocs7SJ7tsn",
-        "role": "payment",
-        "service": "bitcoin"
+        "identifier": "twofogs",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/twofogs/a96702811d258c7f55f0602391d1c632",
+        "service": "github"
       }
     ],
     "address": {
@@ -47,6 +50,25 @@
     ],
     "name": "Rikart Blunck"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "twofogs",
+      "proof_url": "https://www.facebook.com/twofogs/posts/100269367104435",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "twofogs",
+      "proof_url": "https://twitter.com/twofogs/status/778075567090302976",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "twofogs",
+      "proof_url": "https://gist.github.com/twofogs/a96702811d258c7f55f0602391d1c632",
+      "service": "github",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN rikart.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rikart.id\"\n"
 }

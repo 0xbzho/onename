@@ -1,0 +1,79 @@
+{
+  "owner_address": "1P1uEfXa5e3bt46tZRPBYQGapLMY4ZqbaP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cyruselworth",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cyruselworth/status/780374739357270017",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cyrus.elworth",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/cyrus.elworth/posts/10154404161456071",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cyruselworth",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/cyruselworth/2324cefa316e77e8ecffc6b0df57914d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1HD9yy6mHdBBFn6UWLkSUNYQAfTfVuicAB",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mesa, AZ"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cyruselworth",
+        "name": "avatar"
+      }
+    ],
+    "name": "Cyrus Elworth",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://cyruselworth.wordpress.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "cyruselworth",
+      "proof_url": "https://twitter.com/cyruselworth/status/780374739357270017",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "cyrus.elworth",
+      "proof_url": "https://www.facebook.com/cyrus.elworth/posts/10154404161456071",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "cyruselworth",
+      "proof_url": "https://gist.github.com/cyruselworth/2324cefa316e77e8ecffc6b0df57914d",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN cyruselworth.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cyruselworth.id\"\n"
+}

@@ -1,0 +1,57 @@
+{
+  "owner_address": "1Fgi8nPaZqm7V5MeyBSKPQS7Pf2bnGQwKX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gordonfowler",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gordonfowler/status/782326577677737984",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gordonfowler",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/gordonfowler/06ae418a89f719ee53fff22d23ce1408",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gordonsfowler",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/gordonsfowler/posts/10154563337470419?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "gordonfowler",
+      "proof_url": "https://twitter.com/gordonfowler/status/782326577677737984",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "gordonfowler",
+      "proof_url": "https://gist.github.com/gordonfowler/06ae418a89f719ee53fff22d23ce1408",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "gordonsfowler",
+      "proof_url": "https://www.facebook.com/gordonsfowler/posts/10154563337470419?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN gordonfowler.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gordonfowler.id\"\n"
+}

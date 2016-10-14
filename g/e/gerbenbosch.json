@@ -1,37 +1,54 @@
 {
   "owner_address": "19PRYduEp2FAEbcBPavEyrmpYdoc8Ne7LX",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/gerbenbosch"
-    },
-    "bio": "Eigenaar van Alledaags ~ partner Lightcurb beacon platform ~ design lover ~ nachtjes doorweken is soms heel goed ~ pannenkoeken ~ innovatie ~ getrouwd & 3 kids",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/gerbenbosch"
-    },
-    "facebook": {
-      "username": "Gerbenbosch"
-    },
-    "location": {
-      "formatted": "Netherlands"
-    },
-    "name": {
-      "formatted": "Gerben Bosch"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/gerbenbosch/status/677130077415542784"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gerbenbosch",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "gerbenbosch"
+      {
+        "@type": "Account",
+        "identifier": "Gerbenbosch",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/Gerbenbosch/posts/1158490410841386",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Netherlands"
     },
-    "v": "0.2",
-    "website": "http://www.alledaags.nl"
+    "description": "Eigenaar van Alledaags ~ partner Lightcurb beacon platform ~ design lover ~ nachtjes doorweken is soms heel goed ~ pannenkoeken ~ innovatie ~ getrouwd & 3 kids",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gerbenbosch",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/gerbenbosch",
+        "name": "cover"
+      }
+    ],
+    "name": "Gerben Bosch",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.alledaags.nl"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "gerbenbosch",
-      "proof_url": "https://twitter.com/gerbenbosch/status/677130077415542784",
-      "service": "twitter",
-      "valid": true
+      "identifier": "Gerbenbosch",
+      "proof_url": "https://facebook.com/Gerbenbosch/posts/1158490410841386",
+      "service": "facebook",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN gerbenbosch.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gerbenbosch.id\"\n"
 }

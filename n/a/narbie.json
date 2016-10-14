@@ -1,53 +1,76 @@
 {
   "owner_address": "1Frfn1VgK9k6ugQAawyPVdh6tLhYnqUKiz",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/narbie"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/KJy.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/jmgaspar/posts/10155568292000531"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "iamjmgx",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/iamjmgx/status/766783782862987264",
+        "service": "twitter"
       },
-      "username": "jmgaspar"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/narbie/220788606eac35248acf"
+      {
+        "@type": "Account",
+        "identifier": "jmgaspar",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jmgaspar/posts/10157356813035531",
+        "service": "facebook"
       },
-      "username": "narbie"
-    },
-    "name": {
-      "formatted": "Jose M. Gaspar"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/iamjmgx/status/599086748925169664"
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/7dd0bc5949f8baa4a1ba49e79fa502f5",
+        "service": "github"
       },
-      "username": "iamjmgx"
-    },
-    "v": "0.2"
+      {
+        "@type": "Account",
+        "identifier": "c8921d5f1a443c583b5e071d6bb7b2859a99787f",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/marcodestefano/54858ddae796ab957be1639fa167c011",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1H2M81kECbfUhqgCrBigYb9euj1wwPKNTm",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/narbie",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jose M. Gaspar"
   },
   "verifications": [
     {
-      "identifier": "narbie",
-      "proof_url": "https://gist.github.com/narbie/220788606eac35248acf",
-      "service": "github",
-      "valid": true
-    },
-    {
       "identifier": "iamjmgx",
-      "proof_url": "https://twitter.com/iamjmgx/status/599086748925169664",
+      "proof_url": "https://twitter.com/iamjmgx/status/766783782862987264",
       "service": "twitter",
-      "valid": false
+      "valid": true
     },
     {
       "identifier": "jmgaspar",
-      "proof_url": "https://facebook.com/jmgaspar/posts/10155568292000531",
+      "proof_url": "https://www.facebook.com/jmgaspar/posts/10157356813035531",
       "service": "facebook",
       "valid": true
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/7dd0bc5949f8baa4a1ba49e79fa502f5",
+      "service": "github",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN narbie.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/narbie.id\"\n"
 }

@@ -1,0 +1,81 @@
+{
+  "owner_address": "18pdtYrywHeUA6HXieYxSt2tWv8YGq1rx8",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gbraad",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/gbraad/fd5058aa2ed9b8b2c8a97602b1ba7b5a",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gbraad",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gbraad/status/765180153701859330",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gbraad",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/gbraad/posts/10157322391970154",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1JwJcYSA1KqhcNTE3XAwtHskd8RPvoLWS5",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/gbraad",
+        "identifier": "42CCB40633AF71B78A021445D4B4003D16997C1D",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gbraad",
+        "name": "avatar"
+      }
+    ],
+    "name": "Gerard Braad",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://gbraad.nl"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "gbraad",
+      "proof_url": "https://gist.github.com/gbraad/fd5058aa2ed9b8b2c8a97602b1ba7b5a",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "gbraad",
+      "proof_url": "https://twitter.com/gbraad/status/765180153701859330",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "gbraad",
+      "proof_url": "https://www.facebook.com/gbraad/posts/10157322391970154",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN gbraad.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gbraad.id\"\n"
+}

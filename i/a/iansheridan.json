@@ -1,0 +1,73 @@
+{
+  "owner_address": "15t7xGWZfTjhE5hpCZCNPRQttFdXYFWAPm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "iansheridan",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/iansheridan/status/777944355776688128",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "iansheridan",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/iansheridan/42c4c7be6477a4b80dd26fc46d589dda",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "isheridan",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/isheridan/posts/10154539332428343",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "NYC"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/iansheridan",
+        "name": "avatar"
+      }
+    ],
+    "name": "Ian Sheridan",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.savagevines.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "iansheridan",
+      "proof_url": "https://twitter.com/iansheridan/status/777944355776688128",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "iansheridan",
+      "proof_url": "https://gist.github.com/iansheridan/42c4c7be6477a4b80dd26fc46d589dda",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "isheridan",
+      "proof_url": "https://www.facebook.com/isheridan/posts/10154539332428343",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN iansheridan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/iansheridan.id\"\n"
+}

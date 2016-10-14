@@ -1,0 +1,47 @@
+{
+  "owner_address": "155V9hdVqnBWYybqyA6cBaApnHevymdEgt",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Phoenix616",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Phoenix616/f4d069dd307203e12e53dbe074b7ebbd",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ed1669e3ad09f9a6e3442b59ca01db3b17207b8c",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1LEA2Q4Z2RVFx37t29vjzh1Y7DqibwT5es",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/phoenix616",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Phoenix616",
+      "proof_url": "https://gist.github.com/Phoenix616/f4d069dd307203e12e53dbe074b7ebbd",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN phoenix616.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/phoenix616.id\"\n"
+}

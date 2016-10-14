@@ -1,0 +1,39 @@
+{
+  "owner_address": "1Kce2HkVfJDGKqoA61ACdTShPCdxbahn1E",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "moskowitz",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Fort Lauderdale, FL"
+    },
+    "description": "steganographic cipher",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/moskowitz",
+        "name": "avatar"
+      }
+    ],
+    "name": "Scott Moskowitz",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.bluespike.com/"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN moskowitz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/moskowitz.id\"\n"
+}

@@ -1,0 +1,54 @@
+{
+  "owner_address": "1NZGPKGgH9U4oeKXEueXrN1ehajUeAtcPc",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Alex_E90",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Alex_E90/status/765835067314860032",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "7e2a86bb20ea9b4bc60a9e0e348875049ae81c79",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/XelaZnarf/status/765797231144398848",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Germany"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/alexand",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/alexand",
+        "name": "cover"
+      }
+    ],
+    "name": "Alexander Ebeling"
+  },
+  "verifications": [
+    {
+      "identifier": "Alex_E90",
+      "proof_url": "https://twitter.com/Alex_E90/status/765835067314860032",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN alexand.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alexand.id\"\n"
+}

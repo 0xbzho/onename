@@ -1,0 +1,60 @@
+{
+  "owner_address": "1CE6xYGpGexDBZmgySAeXzLms6Qz6vFhyh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cooperdjm",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cooperdjm/status/781635487706456064",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cooperdjm",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/cooperdjm/posts/10153738742386761",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Santa Monica"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/cooperdjm",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cooperdjm",
+        "name": "avatar"
+      }
+    ],
+    "name": "Daniel Cooper",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://dancooper.tech"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "cooperdjm",
+      "proof_url": "https://twitter.com/cooperdjm/status/781635487706456064",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "cooperdjm",
+      "proof_url": "https://www.facebook.com/cooperdjm/posts/10153738742386761",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN cooperdjm.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cooperdjm.id\"\n"
+}

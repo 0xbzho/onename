@@ -1,0 +1,31 @@
+{
+  "owner_address": "12GF7GLqttpcxPV286WqaoCf3zUEJcTxnY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Andrew Cheng",
+        "proofType": "http",
+        "proofUrl": "Verifying that \"acspm2.id\" is my Blockstack ID. https://onename.com/acspm2",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Andrew Cheng",
+      "proof_url": "Verifying that \"acspm2.id\" is my Blockstack ID. https://onename.com/acspm2",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN acspm2.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/acspm2.id\"\n"
+}

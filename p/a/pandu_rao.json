@@ -1,0 +1,42 @@
+{
+  "owner_address": "1HotqC323Z2T9LXs1mmbvJe85KQ1ftaQpH",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "pandu-rao",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/pandu-rao/0403d29d812cc86ce1c301b7d9e8d993",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/pandu_rao",
+        "identifier": "8E676575C3F21DF8929780179B60FEBA237B3BAC",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Redmond, WA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Pandu Rao"
+  },
+  "verifications": [
+    {
+      "identifier": "pandu-rao",
+      "proof_url": "https://gist.github.com/pandu-rao/0403d29d812cc86ce1c301b7d9e8d993",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN pandu_rao.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pandu_rao.id\"\n"
+}

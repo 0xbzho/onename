@@ -1,0 +1,39 @@
+{
+  "owner_address": "195LPyBgVsNp1kpfwoq5UvvLnauKqchazK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1MgUEZgmGNBjmJyiUhEU4HWKSq1ereEraQ",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Canada"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/linuxmagic",
+        "name": "avatar"
+      }
+    ],
+    "name": "Linux Magic",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.nesbitt.ca"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN linuxmagic.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/linuxmagic.id\"\n"
+}

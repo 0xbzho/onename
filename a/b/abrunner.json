@@ -1,0 +1,67 @@
+{
+  "owner_address": "1PUtHPTuAzQ2i2SAtQTcuMGoh7xc7hu4vt",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "AndreInZurich",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/AndreInZurich/status/773215105735593985",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "andre.brunner",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/andre.brunner/posts/10154481204499509",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Wetalkwithyou",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Wetalkwithyou/6afa5d9c88c28005619eb28a8d275142",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Zurich"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/abrunner",
+        "name": "avatar"
+      }
+    ],
+    "name": "Andre Brunner"
+  },
+  "verifications": [
+    {
+      "identifier": "AndreInZurich",
+      "proof_url": "https://twitter.com/AndreInZurich/status/773215105735593985",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "andre.brunner",
+      "proof_url": "https://www.facebook.com/andre.brunner/posts/10154481204499509",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "Wetalkwithyou",
+      "proof_url": "https://gist.github.com/Wetalkwithyou/6afa5d9c88c28005619eb28a8d275142",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN abrunner.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/abrunner.id\"\n"
+}

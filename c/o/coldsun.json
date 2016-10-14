@@ -1,46 +1,61 @@
 {
   "owner_address": "1FoB2JTf1iF2Ahw6GHEc1XDfXYp1jmof9B",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/coldsun"
-    },
-    "bio": "Game Engine Developer, Web Developer, Psychology Grad , Dad",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/wdX.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/coldsun/posts/10153377084365017"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "coldsun",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ColdSun/posts/10154034663085017",
+        "service": "facebook"
       },
-      "username": "coldsun"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/SGColdSun/566a4b09d203c4c29948"
+      {
+        "@type": "Account",
+        "identifier": "SGColdSun",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SGColdSun/status/784882439805992960",
+        "service": "twitter"
       },
-      "username": "SGColdSun"
+      {
+        "@type": "Account",
+        "identifier": "SGColdSun",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/SGColdSun/dd4d92c53ae229c2997fa8dd7f9724b3",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Malibu, CA"
     },
-    "location": {
-      "formatted": "Malibu, CA"
-    },
-    "name": {
-      "formatted": "Logan Mathews"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/SGColdSun/status/682748503928406016"
+    "description": "Web Developer, Psychology Grad , Dad",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/coldsun",
+        "name": "avatar"
       },
-      "username": "SGColdSun"
-    },
-    "v": "0.2",
-    "website": "https://ego.ninja"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Logan Mathews",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://ego.ninja"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "SGColdSun",
       "proof_url": "https://gist.github.com/SGColdSun/566a4b09d203c4c29948",
       "service": "github",
-      "valid": true
+      "valid": false
     },
     {
       "identifier": "SGColdSun",
@@ -54,5 +69,6 @@
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN coldsun.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/coldsun.id\"\n"
 }

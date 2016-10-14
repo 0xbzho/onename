@@ -1,0 +1,44 @@
+{
+  "owner_address": "1JERPrsuVtpUB7xAxESw7L7LB6D6ZE5y2o",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "creed444",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/creed444/status/764796001978757120",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "creed444",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/taehoon.roh.7/posts/1290344857676419?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "creed444",
+      "proof_url": "https://twitter.com/creed444/status/764796001978757120",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "creed444",
+      "proof_url": "https://www.facebook.com/taehoon.roh.7/posts/1290344857676419?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN creed444.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/creed444.id\"\n"
+}

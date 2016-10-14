@@ -1,0 +1,36 @@
+{
+  "owner_address": "1MmnTmfrv9asHZ7DdAHhcyVKZ5JBYoEFps",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "hypnocyst",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Hypnocyst/status/772717185160638464",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/wyldstallyns",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "hypnocyst",
+      "proof_url": "https://twitter.com/Hypnocyst/status/772717185160638464",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN wyldstallyns.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wyldstallyns.id\"\n"
+}

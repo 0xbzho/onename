@@ -1,51 +1,61 @@
 {
   "owner_address": "1MRDDDMTeTstCL9v219wJ16XvePxuMfdS7",
   "profile": {
-    "auth": [
-      {}
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/sebastientripier",
+        "identifier": "4F1D5E977A675C83826C8520FDCB840DF4478DBB",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Denbrea",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Denbrea/status/785213018489679876",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sebastien.tripier",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/sebastien.tripier/posts/10210744910484354",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Denbrea",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Denbrea/0733a0848250f5694d14#file-onename-txt",
+        "service": "github"
+      }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/sebastientripier"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "France"
     },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/sebastientripier"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/sebastien.tripier/posts/10208780529456056"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sebastientripier",
+        "name": "avatar"
       },
-      "username": "sebastien.tripier"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/Denbrea/0733a0848250f5694d14#file-gistfile1-txt"
-      },
-      "username": "Denbrea"
-    },
-    "location": {
-      "formatted": "France"
-    },
-    "name": {
-      "formatted": "Sébastien TRIPIER"
-    },
-    "pgp": {
-      "fingerprint": "4F1D5E977A675C83826C8520FDCB840DF4478DBB",
-      "url": "https://s3.amazonaws.com/pk9/sebastientripier"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/Denbrea/status/694164182544060418"
-      },
-      "username": "Denbrea"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/sebastientripier",
+        "name": "cover"
+      }
+    ],
+    "name": "Sébastien TRIPIER"
   },
   "verifications": [
     {
       "identifier": "Denbrea",
       "proof_url": "https://gist.github.com/Denbrea/0733a0848250f5694d14#file-gistfile1-txt",
       "service": "github",
-      "valid": true
+      "valid": false
     },
     {
       "identifier": "Denbrea",
@@ -59,5 +69,6 @@
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN sebastientripier.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sebastientripier.id\"\n"
 }

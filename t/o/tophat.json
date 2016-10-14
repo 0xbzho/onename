@@ -1,0 +1,36 @@
+{
+  "owner_address": "1G59zmUxzTnsSsqKC6GPjSSEzgHZsWw11i",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "CORRI_LOSCHUK",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Corri_Loschuk/status/776280213772611584",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tophat",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/tophat",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "CORRI_LOSCHUK",
+      "proof_url": "https://twitter.com/Corri_Loschuk/status/776280213772611584",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tophat.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tophat.id\"\n"
+}

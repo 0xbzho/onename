@@ -1,0 +1,41 @@
+{
+  "owner_address": "12frvLJpJ1dEDrDwi7M5Y2naBAuEVrGTX4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dave.bradford1@gmail.com",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/bikerbrad",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Arizona"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bikerbrad",
+        "name": "avatar"
+      }
+    ],
+    "name": "David Bradford"
+  },
+  "verifications": [
+    {
+      "identifier": "dave.bradford1@gmail.com",
+      "proof_url": "https://onename.com/bikerbrad",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN bikerbrad.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bikerbrad.id\"\n"
+}

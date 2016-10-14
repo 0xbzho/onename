@@ -1,48 +1,55 @@
 {
   "owner_address": "1JFWETf6Jjo5tBUpyUD1RY8wnncueRXpXZ",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/sclavier"
-    },
-    "bio": "Passionné de nouvelles technologies, #innovation #marketing #ux #management # économie #finance ainsi que la #photos. Mes tweets n'engagent que moi",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/sclavier"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/Clav2001/posts/10153377073214149"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "s_clavier",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/s_clavier/status/778577542026584064",
+        "service": "twitter"
       },
-      "username": "Clav2001"
+      {
+        "@type": "Account",
+        "identifier": "clav2001",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/clav2001/posts/10153852281504149?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "#paris #france"
     },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/sclavier"
-    },
-    "location": {
-      "formatted": "#paris #france"
-    },
-    "name": {
-      "formatted": "sclavier"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/s_clavier/status/723959109993795584"
+    "description": "Passionné de nouvelles technologies, #innovation #marketing #ux #management # économie #finance ainsi que la #photos. Mes tweets n'engagent que moi",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sclavier",
+        "name": "avatar"
       },
-      "username": "s_clavier"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/sclavier",
+        "name": "cover"
+      }
+    ],
+    "name": "sclavier"
   },
   "verifications": [
     {
       "identifier": "s_clavier",
-      "proof_url": "https://twitter.com/s_clavier/status/723959109993795584",
+      "proof_url": "https://twitter.com/s_clavier/status/778577542026584064",
       "service": "twitter",
       "valid": true
     },
     {
-      "identifier": "Clav2001",
-      "proof_url": "https://facebook.com/Clav2001/posts/10153377073214149",
+      "identifier": "clav2001",
+      "proof_url": "https://www.facebook.com/clav2001/posts/10153852281504149?pnref=story",
       "service": "facebook",
-      "valid": false
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN sclavier.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sclavier.id\"\n"
 }

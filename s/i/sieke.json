@@ -1,52 +1,67 @@
 {
   "owner_address": "1Nydy4FArfyHuhft8NtahV63LJqasJ9kTC",
   "profile": {
-    "avatar": {
-      "url": "https://s3-us-west-2.amazonaws.com/alexsieke.com/profile.png"
-    },
-    "bio": "",
-    "bitcoin": {
-      "address": "1ApkBA6z7jvWWvkuCqosx4Mt4qR9oruhfr"
-    },
-    "cover": {
-      "url": "https://s3-us-west-2.amazonaws.com/alexsieke.com/backgrounds/tree.jpeg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/asieke/fb15b0665eb4e3c044e6"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1ApkBA6z7jvWWvkuCqosx4Mt4qR9oruhfr",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "asieke"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/sieke"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Alex Sieke"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/asieke/status/619194333695242240"
+      {
+        "@type": "Account",
+        "identifier": "asieke",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/asieke/status/761963487274807296",
+        "service": "twitter"
       },
-      "username": "asieke"
+      {
+        "@type": "Account",
+        "identifier": "asieke",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/asieke/1d7979cca8ff0cede9207a03624dfc5b",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "v": "0.2",
-    "website": "http://www.alexsieke.com"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3-us-west-2.amazonaws.com/alexsieke.com/profile.png",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3-us-west-2.amazonaws.com/alexsieke.com/backgrounds/tree.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Alex Sieke",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.alexsieke.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "asieke",
-      "proof_url": "https://gist.github.com/asieke/fb15b0665eb4e3c044e6",
-      "service": "github",
+      "proof_url": "https://twitter.com/asieke/status/761963487274807296",
+      "service": "twitter",
       "valid": true
     },
     {
       "identifier": "asieke",
-      "proof_url": "https://twitter.com/asieke/status/619194333695242240",
-      "service": "twitter",
+      "proof_url": "https://gist.github.com/asieke/1d7979cca8ff0cede9207a03624dfc5b",
+      "service": "github",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN sieke.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sieke.id\"\n"
 }

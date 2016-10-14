@@ -1,0 +1,34 @@
+{
+  "owner_address": "1BzrdWKjcJ3PFKSwmgMbbCYs5xZ5wQj8AP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "test",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Taiwan"
+    },
+    "description": "hello world",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hwwang",
+        "name": "avatar"
+      }
+    ],
+    "name": "Hsiao-Wei Wang"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN hwwang.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hwwang.id\"\n"
+}

@@ -1,0 +1,49 @@
+{
+  "owner_address": "1L5Rs3tYDsgXtww891f6TenZiYxhHqQ7sD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "77715b2f0254b2d7e30015338914e75703559ffc",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/papayyasastrychalla&redirect_uri=https://onename.com/papayyasastrychalla%23facebook",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "workout15",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/workout15/status/784032604823560192",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "18hhRT976nmPV3KfE9eM7nwukxiWFcnWrs",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mikez4",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "workout15",
+      "proof_url": "https://twitter.com/workout15/status/784032604823560192",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mikez4.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mikez4.id\"\n"
+}

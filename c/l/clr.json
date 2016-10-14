@@ -1,67 +1,57 @@
 {
   "owner_address": "1BUjsFHrm5RCwnV2jZuyLfaH6At5D1wj3P",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/clr"
-    },
-    "bitcoin": {
-      "address": "1KvRdXtmvbQGJ9rW35zd1hFmhREYnCq3gw"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/web-purple.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/carlos.lizarraga/posts/10152324393918041"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "carlosliza",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "carlos.lizarraga"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/carlosliza/c8eb34aab5d4825f8c7f"
+      {
+        "@type": "Account",
+        "identifier": "carlos.lizarraga",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "carlosliza"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/clr"
-    },
-    "linkedin": {
-      "url": "https://www.linkedin.com/in/carloslizarragarodrigo"
-    },
-    "location": {
-      "formatted": "Barcelona, Spain"
-    },
-    "name": {
-      "formatted": "Carlos Lizarraga Rodrigo"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/carlosliza/statuses/488125855445438464"
+      {
+        "@type": "Account",
+        "identifier": "carlosliza",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "carlosliza"
+      {
+        "@type": "Account",
+        "identifier": "1KvRdXtmvbQGJ9rW35zd1hFmhREYnCq3gw",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Barcelona, Spain"
     },
-    "v": "0.2",
-    "website": "http://clr.to"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/clr",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/clr",
+        "name": "cover"
+      }
+    ],
+    "name": "Carlos Lizarraga Rodrigo",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://clr.to"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "carlosliza",
-      "proof_url": "https://gist.github.com/carlosliza/c8eb34aab5d4825f8c7f",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "carlosliza",
-      "proof_url": "https://twitter.com/carlosliza/statuses/488125855445438464",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "carlos.lizarraga",
-      "proof_url": "https://facebook.com/carlos.lizarraga/posts/10152324393918041",
-      "service": "facebook",
-      "valid": true
-    }
-  ],
-  "zone_file": {}
+  "verifications": [],
+  "zone_file": "$ORIGIN clr.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/clr.id\"\n"
 }

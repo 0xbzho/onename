@@ -1,0 +1,49 @@
+{
+  "owner_address": "1C1K4rj5a7QixkbBj7b6nSvJoeyqhh5hJ9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bkawk",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bkawk/status/786045636961443843",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bkawk",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bkawk/b7a0872167e0e8dfe4af66ba0cf05fdb",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/will_in_china",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bkawk",
+      "proof_url": "https://twitter.com/bkawk/status/786045636961443843",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bkawk",
+      "proof_url": "https://gist.github.com/bkawk/b7a0872167e0e8dfe4af66ba0cf05fdb",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN will_in_china.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/will_in_china.id\"\n"
+}

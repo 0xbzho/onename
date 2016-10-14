@@ -1,0 +1,49 @@
+{
+  "owner_address": "1DrCkFgNPfsnnq9pCN1qTVcuVJqL7ehCLG",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rolitr0n",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rolitr0n/status/782847980458110976?lang=en",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "denislev",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/denislev?hc_ref=NEWSFEED&fref=nf",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Budapest"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Denis Lev"
+  },
+  "verifications": [
+    {
+      "identifier": "rolitr0n",
+      "proof_url": "https://twitter.com/rolitr0n/status/782847980458110976?lang=en",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "denislev",
+      "proof_url": "https://www.facebook.com/denislev?hc_ref=NEWSFEED&fref=nf",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN denislev.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/denislev.id\"\n"
+}

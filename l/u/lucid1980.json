@@ -1,10 +1,21 @@
 {
   "owner_address": "14UfYe4utkJqkzUT4WFvY6DvpoyLHJh23i",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/wdX.jpeg"
+    "@type": "Person",
+    "account": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "guang'an"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "lucid"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN lucid1980.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lucid1980.id\"\n"
 }

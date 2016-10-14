@@ -7,13 +7,6 @@
         "@type": "Account",
         "identifier": "duosearch",
         "proofType": "http",
-        "proofUrl": "https://www.facebook.com/duosearch",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
-        "identifier": "duosearch",
-        "proofType": "http",
         "proofUrl": "https://twitter.com/duosearch/status/741197115389546496",
         "service": "twitter"
       },
@@ -21,6 +14,20 @@
         "@type": "Account",
         "identifier": "ad8a93b524ad02de23ddd7760e49a34bc55f9b19",
         "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "duosearch",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/duosearch/posts/300308963635002",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "duosearch",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/duosearch/c7573ef0dd0caaba805f63bcc0e012de",
+        "service": "github"
       }
     ],
     "address": {
@@ -46,15 +53,21 @@
   "verifications": [
     {
       "identifier": "duosearch",
-      "proof_url": "https://www.facebook.com/duosearch",
-      "service": "facebook",
-      "valid": false
-    },
-    {
-      "identifier": "duosearch",
       "proof_url": "https://twitter.com/duosearch/status/741197115389546496",
       "service": "twitter",
       "valid": true
+    },
+    {
+      "identifier": "duosearch",
+      "proof_url": "https://www.facebook.com/duosearch/posts/300308963635002",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "duosearch",
+      "proof_url": "https://gist.github.com/duosearch/c7573ef0dd0caaba805f63bcc0e012de",
+      "service": "github",
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN duosearch.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/duosearch.id\"\n"

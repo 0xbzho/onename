@@ -5,12 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "matthewgoetz",
-        "proofType": "http",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
         "identifier": "14cfedb2b2716381dfe6.git",
         "proofType": "http",
         "service": "github"
@@ -27,6 +21,13 @@
         "proofType": "http",
         "proofUrl": "https://facebook.com/mhgoetz/posts/10104337327417900",
         "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "matthewgoetz",
+        "proofType": "http",
+        "proofUrl": "https://mobile.twitter.com/matthewgoetz/status/529736847748911104",
+        "service": "twitter"
       }
     ],
     "address": {
@@ -34,6 +35,9 @@
       "addressLocality": "New York"
     },
     "description": "",
+    "graph": {
+      "url": "https://s3.amazonaws.com/grph/matthewgoetz"
+    },
     "image": [
       {
         "@type": "ImageObject",
@@ -53,6 +57,12 @@
       "identifier": "mhgoetz",
       "proof_url": "https://facebook.com/mhgoetz/posts/10104337327417900",
       "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "matthewgoetz",
+      "proof_url": "https://mobile.twitter.com/matthewgoetz/status/529736847748911104",
+      "service": "twitter",
       "valid": false
     }
   ],

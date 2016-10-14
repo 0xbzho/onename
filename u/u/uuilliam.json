@@ -1,58 +1,80 @@
 {
   "owner_address": "1GqVibyMB8QVfVxgRAa8agvYs3RSrxyZby",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/uuilliam"
-    },
-    "bio": "Chief Starving ARtiste at VirtURL Productions",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/uuilliam"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/uuill/posts/10153748669837909"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "uuill",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/uuill/posts/10154059063767909",
+        "service": "facebook"
       },
-      "username": "uuill"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/uuill/aca0a87dc21253626fdc4eca6e063a2e"
+      {
+        "@type": "Account",
+        "identifier": "uuill",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/uuill/7b6da2384bbdd80d3e17dbf44e31ec5b",
+        "service": "github"
       },
-      "username": "uuill"
-    },
-    "location": {
-      "formatted": "Columbus, OH"
-    },
-    "name": {
-      "formatted": "Will Cowman"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/uuill/status/717186704033976324"
+      {
+        "@type": "Account",
+        "identifier": "uuill",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/uuill/status/765936612140208130",
+        "service": "twitter"
       },
-      "username": "uuill"
+      {
+        "@type": "Account",
+        "identifier": "1EtrPiBtUE7iaAJ7EHPRArwmqVmjHkvEPT",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Columbus, OH"
     },
-    "v": "0.2",
-    "website": "http://uuill.com/"
+    "description": "Chief Starving ARtiste at VirtURL Productions",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/uuilliam",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/uuilliam",
+        "name": "cover"
+      }
+    ],
+    "name": "Will Cowman",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://keybase.io/uuill"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "uuill",
-      "proof_url": "https://gist.github.com/uuill/aca0a87dc21253626fdc4eca6e063a2e",
-      "service": "github",
+      "proof_url": "https://www.facebook.com/uuill/posts/10154059063767909",
+      "service": "facebook",
       "valid": true
     },
     {
       "identifier": "uuill",
-      "proof_url": "https://twitter.com/uuill/status/717186704033976324",
+      "proof_url": "https://gist.github.com/uuill/7b6da2384bbdd80d3e17dbf44e31ec5b",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "uuill",
+      "proof_url": "https://twitter.com/uuill/status/765936612140208130",
       "service": "twitter",
       "valid": true
-    },
-    {
-      "identifier": "uuill",
-      "proof_url": "https://facebook.com/uuill/posts/10153748669837909",
-      "service": "facebook",
-      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN uuilliam.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/uuilliam.id\"\n"
 }

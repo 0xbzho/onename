@@ -1,0 +1,44 @@
+{
+  "owner_address": "1KaTsVXXg5TTykPh7poX3tnghiWdDfWsHM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Mercosity",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Mercosity/8e43764994bf401942c04f0162290801",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Mercosity",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/profile.php?id=100013435930076",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Mercosity",
+      "proof_url": "https://gist.github.com/Mercosity/8e43764994bf401942c04f0162290801",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "Mercosity",
+      "proof_url": "https://www.facebook.com/profile.php?id=100013435930076",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mercosity.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mercosity.id\"\n"
+}

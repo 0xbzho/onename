@@ -1,0 +1,31 @@
+{
+  "owner_address": "12k1PjKzr5gXnaWaXmUbQt4Xj4rVkgzGuL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sonarsound",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sonarsound/status/768393704251895808?lang=de",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "sonarsound",
+      "proof_url": "https://twitter.com/sonarsound/status/768393704251895808?lang=de",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN sonarsound.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sonarsound.id\"\n"
+}

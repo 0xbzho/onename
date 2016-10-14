@@ -1,0 +1,39 @@
+{
+  "owner_address": "1DkhnL64gEj3GB46hPfpw1W3K1H6YyFuqP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "3MCh3fxsJztre8oL5ZPy6d2EfgPTFQ7zzS",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "UK"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/satoshigallery2008",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/satoshigallery2008",
+        "name": "cover"
+      }
+    ],
+    "name": "Satoshi Gallery",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.satoshigallery.com/"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN satoshigallery2008.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/satoshigallery2008.id\"\n"
+}

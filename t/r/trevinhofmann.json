@@ -1,48 +1,51 @@
 {
   "owner_address": "163CsCwFPEwapb21zU8cQKkk8maFBEguxb",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/trevinhofmann"
-    },
-    "bitcoin": {
-      "address": "3M4ygCsdne75He4vogNcCH9YgNuCqP7sLp"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/IHL.jpg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/thofmann/6613441ab7eeab9b0055"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "trevinhofmann",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "thofmann"
-    },
-    "location": {
-      "formatted": "Wisconsin, US"
-    },
-    "name": {
-      "formatted": "Trevin Hofmann"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/trevinhofmann/status/494173982346600448"
+      {
+        "@type": "Account",
+        "identifier": "thofmann",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "trevinhofmann"
+      {
+        "@type": "Account",
+        "identifier": "3M4ygCsdne75He4vogNcCH9YgNuCqP7sLp",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Wisconsin, US"
     },
-    "v": "0.2",
-    "website": "http://trevinhofmann.com"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/trevinhofmann",
+        "name": "avatar"
+      }
+    ],
+    "name": "Trevin Hofmann",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://trevinhofmann.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "thofmann",
-      "proof_url": "https://gist.github.com/thofmann/6613441ab7eeab9b0055",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "trevinhofmann",
-      "proof_url": "https://twitter.com/trevinhofmann/status/494173982346600448",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN trevinhofmann.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/trevinhofmann.id\"\n"
 }

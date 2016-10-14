@@ -1,27 +1,33 @@
 {
   "owner_address": "1DNfCPrJaFXxi6sTZrz2JuEcCryzaYXHVm",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/cankisagun"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kisaguncan",
+        "proofType": "http",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boston, MA"
     },
-    "bio": "Founder @streetdustapp, MBA Candidate @MITSloan, Northwestern Alumni, urban explorer, curious, @bitcoin enthusiast, burner,  #streetdustapp",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/cankisagun"
-    },
-    "location": {
-      "formatted": "Boston, MA"
-    },
-    "name": {
-      "formatted": "Can Kisagun"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/kisaguncan/status/593796259623751681"
+    "description": "Founder @Eximchain, MIT Sloan MBA, Northwestern Alumni, urban explorer, curious, @bitcoin enthusiast, burner,  #streetdustapp",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cankisagun",
+        "name": "avatar"
       },
-      "username": "kisaguncan"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/cankisagun",
+        "name": "cover"
+      }
+    ],
+    "name": "Can Kisagun"
   },
   "verifications": [
     {
@@ -31,5 +37,5 @@
       "valid": true
     }
   ],
-  "zone_file": {}
+  "zone_file": "$ORIGIN cankisagun.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cankisagun.id\"\n"
 }

@@ -1,0 +1,50 @@
+{
+  "owner_address": "1KZdZM3r53Ascu26rxSnyikXtqct67UW4W",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sjttocs",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sjttocs/status/776544202318643200",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sjschwaitzberg",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/sjschwaitzberg/posts/10108174756259800",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York City"
+    },
+    "description": "TBD",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Scott Schwaitzberg"
+  },
+  "verifications": [
+    {
+      "identifier": "sjttocs",
+      "proof_url": "https://twitter.com/sjttocs/status/776544202318643200",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "sjschwaitzberg",
+      "proof_url": "https://www.facebook.com/sjschwaitzberg/posts/10108174756259800",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN sjschwaitzberg.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sjschwaitzberg.id\"\n"
+}

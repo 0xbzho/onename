@@ -1,0 +1,41 @@
+{
+  "owner_address": "14USaY8dgibe5TAZizpbREa1w36yx4Binz",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "alearbo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/alearbo/status/767986467218001920",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Tollegno"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/alearbo",
+        "name": "avatar"
+      }
+    ],
+    "name": "Alessandro Arbia"
+  },
+  "verifications": [
+    {
+      "identifier": "alearbo",
+      "proof_url": "https://twitter.com/alearbo/status/767986467218001920",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN alearbo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alearbo.id\"\n"
+}

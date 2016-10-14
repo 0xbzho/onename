@@ -1,0 +1,39 @@
+{
+  "owner_address": "12aVA4T9U5EDQqUdSTbDyAWFMZTAm9YMVJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "12r5xZSSFsGRcDuYu1Xg2zYELRtTY4kbKx",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nottingham, UK"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hamsters",
+        "name": "avatar"
+      }
+    ],
+    "name": "HamsterCheeks",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://hamster-cheeks.co.uk"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN hamsters.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hamsters.id\"\n"
+}

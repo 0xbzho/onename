@@ -1,0 +1,31 @@
+{
+  "owner_address": "17AnZGW8NQUswhNwPDMfodTXvwDPUi8gS1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "avi_bisram",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/intent/tweet?text=Verifying%20that%20%22avibisram%2Eid%22%20is%20my%20Blockstack%20ID.%20https://onename.com/avibisram",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "avi_bisram",
+      "proof_url": "https://twitter.com/intent/tweet?text=Verifying%20that%20%22avibisram%2Eid%22%20is%20my%20Blockstack%20ID.%20https://onename.com/avibisram",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN avibisram.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/avibisram.id\"\n"
+}

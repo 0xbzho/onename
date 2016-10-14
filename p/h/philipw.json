@@ -1,63 +1,76 @@
 {
   "owner_address": "19Svyj95sxQsdtKHRuNA3PWDm6sRwACZBB",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/philipw"
-    },
-    "bitcoin": {
-      "address": "1CuXYK57LqpFBAr3vfdSBZRYPuXmvKyDMn"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/philipw"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/phil.werlau/posts/10205128039580948"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/philipw",
+        "identifier": "ED8DA54CB00CAA21CD0765A9E2907EE8B45F507C",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "phil.werlau"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/PhilipWerlau/a92dd0f89515c243bc1e"
+      {
+        "@type": "Account",
+        "identifier": "1Ho87ztNZiDLwJ2dvR7YRQHEZunBFQXdvN",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "PhilipWerlau"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/philipw"
-    },
-    "name": {
-      "formatted": "Philip Werlau"
-    },
-    "pgp": {
-      "fingerprint": "ED8DA54CB00CAA21CD0765A9E2907EE8B45F507C",
-      "url": "https://s3.amazonaws.com/pk9/philipw"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/philipwerlau/status/657385242857197568"
+      {
+        "@type": "Account",
+        "identifier": "PhilipWerlau",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/PhilipWerlau/a92dd0f89515c243bc1e",
+        "service": "github"
       },
-      "username": "philipwerlau"
-    },
-    "v": "0.2"
+      {
+        "@type": "Account",
+        "identifier": "phil.werlau",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/phil.werlau/posts/10205128039580948",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "philipwerlau",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/PhilipWerlau/status/657385242857197568",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/philipw",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/philipw",
+        "name": "cover"
+      }
+    ],
+    "name": "Philip Werlau"
   },
   "verifications": [
     {
       "identifier": "PhilipWerlau",
       "proof_url": "https://gist.github.com/PhilipWerlau/a92dd0f89515c243bc1e",
       "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "phil.werlau",
+      "proof_url": "https://www.facebook.com/phil.werlau/posts/10205128039580948",
+      "service": "facebook",
       "valid": true
     },
     {
       "identifier": "philipwerlau",
-      "proof_url": "https://twitter.com/philipwerlau/status/657385242857197568",
+      "proof_url": "https://twitter.com/PhilipWerlau/status/657385242857197568",
       "service": "twitter",
       "valid": true
-    },
-    {
-      "identifier": "phil.werlau",
-      "proof_url": "https://facebook.com/phil.werlau/posts/10205128039580948",
-      "service": "facebook",
-      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN philipw.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/philipw.id\"\n"
 }

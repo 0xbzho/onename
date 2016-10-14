@@ -1,0 +1,36 @@
+{
+  "owner_address": "1MEVC1jagw2nbc9nxLBQkU3cNDyoS66dcY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "leoexter",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/leoexter/status/782695818964901888",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/leoexter",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/leoexter",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "leoexter",
+      "proof_url": "https://twitter.com/leoexter/status/782695818964901888",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN leoexter.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/leoexter.id\"\n"
+}

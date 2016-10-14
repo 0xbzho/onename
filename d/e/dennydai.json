@@ -1,0 +1,86 @@
+{
+  "owner_address": "113s14YQWKufSuzbFG5uDgn5MBboZcz3vT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cndaihan",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cndaihan/status/764066256911634433",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "DennyDai",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/DennyDai/ae47d615c50dd1c99a91a47d230cec0d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dennydai10",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dennydai10/posts/1832230883674007",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/dennydai",
+        "identifier": "0E67E5A54D5F5ECE257EAAD517F8ACF0030FFA1A",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1PWWQbGgpspn7Sawn5STvx1vtG5yfa4u3J",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Beijing"
+    },
+    "description": "国内高三 / 看头像认人 / 什么都不会 / 吃书狂魔",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dennydai",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/dennydai",
+        "name": "cover"
+      }
+    ],
+    "name": "Denny Dai",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://daihan.cn"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "cndaihan",
+      "proof_url": "https://twitter.com/cndaihan/status/764066256911634433",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "DennyDai",
+      "proof_url": "https://gist.github.com/DennyDai/ae47d615c50dd1c99a91a47d230cec0d",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "dennydai10",
+      "proof_url": "https://www.facebook.com/dennydai10/posts/1832230883674007",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dennydai.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dennydai.id\"\n"
+}

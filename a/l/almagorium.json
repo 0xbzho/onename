@@ -1,0 +1,41 @@
+{
+  "owner_address": "17QWc3xPBEKSb3hKwL7WL1ka7Lyt9roMFW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "almagorium",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/almagorium/status/772900717527007236",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Tel Aviv, Israel"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/almagorium",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/almagorium",
+        "name": "cover"
+      }
+    ],
+    "name": "Yossi Almagor"
+  },
+  "verifications": [
+    {
+      "identifier": "almagorium",
+      "proof_url": "https://twitter.com/almagorium/status/772900717527007236",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN almagorium.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/almagorium.id\"\n"
+}

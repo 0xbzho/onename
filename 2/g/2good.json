@@ -1,29 +1,38 @@
 {
   "owner_address": "19jcisd5ViziPdAJB9CSP4B63cVRs7nfe4",
   "profile": {
-    "bitcoin": {
-      "address": "12goodMy3vW4NzptphdLajna4x9a8sVPmC"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/vsS.jpeg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/2GOOD/bac07c7ed4ba20d16db6"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "2GOOD",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "2GOOD"
+      {
+        "@type": "Account",
+        "identifier": "12goodMy3vW4NzptphdLajna4x9a8sVPmC",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1e4cb1292d5dacae9b27691494a75f871ffab953",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "BG"
     },
-    "location": {
-      "formatted": "BG"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "2GOOD",
-      "proof_url": "https://gist.github.com/2GOOD/bac07c7ed4ba20d16db6",
-      "service": "github",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN 2good.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/2good.id\"\n"
 }

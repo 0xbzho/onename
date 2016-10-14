@@ -1,48 +1,51 @@
 {
   "owner_address": "1GR7EquCHrJ9CsozzLC8A7yvzSRMKBM2A",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/crlssn"
-    },
-    "bitcoin": {
-      "address": "1HjvWppHWnTKVSrXBkvV7xcACDorEGGh64"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/Ov8.jpg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/crlssn/5dd69bc7a750293ddccc"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "crlssn",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "crlssn"
-    },
-    "location": {
-      "formatted": "Uppsala, Sweden"
-    },
-    "name": {
-      "formatted": "Christian Carlsson"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/crlssn/status/488791147662172160"
+      {
+        "@type": "Account",
+        "identifier": "crlssn",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "crlssn"
+      {
+        "@type": "Account",
+        "identifier": "1HjvWppHWnTKVSrXBkvV7xcACDorEGGh64",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Uppsala, Sweden"
     },
-    "v": "0.2",
-    "website": "https://mtdb.se"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/crlssn",
+        "name": "avatar"
+      }
+    ],
+    "name": "Christian Carlsson",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://mtdb.se"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "crlssn",
-      "proof_url": "https://gist.github.com/crlssn/5dd69bc7a750293ddccc",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "crlssn",
-      "proof_url": "https://twitter.com/crlssn/status/488791147662172160",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN crlssn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/crlssn.id\"\n"
 }

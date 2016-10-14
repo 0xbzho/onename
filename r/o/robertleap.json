@@ -1,0 +1,54 @@
+{
+  "owner_address": "1MJXQay9pqrpXouD87BenvZuTyA5z7qTcp",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rleap",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rleap/d2f763d6b63811d052ff7b49ef0d95f3",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rleap",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/rleap/posts/10210592305784996?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Portland OR"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/robertleap",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/robertleap",
+        "name": "cover"
+      }
+    ],
+    "name": "Robert Leap"
+  },
+  "verifications": [
+    {
+      "identifier": "rleap",
+      "proof_url": "https://gist.github.com/rleap/d2f763d6b63811d052ff7b49ef0d95f3",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "rleap",
+      "proof_url": "https://www.facebook.com/rleap/posts/10210592305784996?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN robertleap.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/robertleap.id\"\n"
+}

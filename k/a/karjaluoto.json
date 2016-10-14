@@ -1,0 +1,31 @@
+{
+  "owner_address": "17h2VyMgwKqGHLRh8rprb9zrjp1FX9Thab",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "karj",
+        "proofType": "http",
+        "proofUrl": "Verifying that \"karjaluoto.id\" is my Blockstack ID.",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "karj",
+      "proof_url": "Verifying that \"karjaluoto.id\" is my Blockstack ID.",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN karjaluoto.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/karjaluoto.id\"\n"
+}

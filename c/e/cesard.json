@@ -1,0 +1,45 @@
+{
+  "owner_address": "1HS4mgz5MQi5mLMFUkkEPtqUCfg6EnYCnE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cduranm",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cduranm/status/765173624315740160",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cesarduranm",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/cesarduranm/posts/10208939098887794",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "César Durán"
+  },
+  "verifications": [
+    {
+      "identifier": "cduranm",
+      "proof_url": "https://twitter.com/cduranm/status/765173624315740160",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "cesarduranm",
+      "proof_url": "https://www.facebook.com/cesarduranm/posts/10208939098887794",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN cesard.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cesard.id\"\n"
+}

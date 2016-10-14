@@ -1,0 +1,49 @@
+{
+  "owner_address": "1PwgjPseF7vqizVojtpgxeub67Jhx5b9rF",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Sakeeb91",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Sakeeb91/status/774911420768980992",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rahman.sakeeb",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/rahman.sakeeb/posts/10154845948024453?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sakeeb",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Sakeeb91",
+      "proof_url": "https://twitter.com/Sakeeb91/status/774911420768980992",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "rahman.sakeeb",
+      "proof_url": "https://www.facebook.com/rahman.sakeeb/posts/10154845948024453?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN sakeeb.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sakeeb.id\"\n"
+}

@@ -1,58 +1,74 @@
 {
   "owner_address": "173kRo6SmzesrUmmhB8meoFqTxe98HjRgj",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/katsouros"
-    },
-    "bio": "Devoted husband and father, ethical vegetarian, runner, cycling fan, hack musician, and Director of Network Planning & Integration at Penn State University.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/katsouros"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/katsouros/posts/10153033605251053"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "katsouros",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/katsouros/status/769279234938380288",
+        "service": "twitter"
       },
-      "username": "katsouros"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/katsouros/2a54dd8e4f5ce74cfdf7"
+      {
+        "@type": "Account",
+        "identifier": "katsouros",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/katsouros/posts/10153748239611053",
+        "service": "facebook"
       },
-      "username": "katsouros"
+      {
+        "@type": "Account",
+        "identifier": "katsouros",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/katsouros/acec93e238e73298f107c7530ca7f5e9",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "State College, PA"
     },
-    "location": {
-      "formatted": "State College, PA"
-    },
-    "name": {
-      "formatted": "Mark Katsouros"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/katsouros/status/634824558692954114"
+    "description": "Devoted husband and father, dog/animal lover, ethical vegetarian, runner, cyclist, hack musician, composer/songwriter, visual/graphic artist, audiophile, cinephile, foodie, techie, traveler, entrepreneur, occasional blogger, and Director of Service Design & Development at Penn State University.  Oh, I also have a thing for listening to film scores.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/katsouros",
+        "name": "cover"
       },
-      "username": "katsouros"
-    },
-    "v": "0.2",
-    "website": "http://katsouros.com"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/katsouros",
+        "name": "avatar"
+      }
+    ],
+    "name": "Mark Katsouros",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://katsouros.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "katsouros",
-      "proof_url": "https://gist.github.com/katsouros/2a54dd8e4f5ce74cfdf7",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "katsouros",
-      "proof_url": "https://twitter.com/katsouros/status/634824558692954114",
+      "proof_url": "https://twitter.com/katsouros/status/769279234938380288",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "katsouros",
-      "proof_url": "https://facebook.com/katsouros/posts/10153033605251053",
+      "proof_url": "https://www.facebook.com/katsouros/posts/10153748239611053",
       "service": "facebook",
       "valid": true
+    },
+    {
+      "identifier": "katsouros",
+      "proof_url": "https://gist.github.com/katsouros/acec93e238e73298f107c7530ca7f5e9",
+      "service": "github",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN katsouros.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/katsouros.id\"\n"
 }

@@ -1,0 +1,55 @@
+{
+  "owner_address": "1GMTuj5w2jbavBtG81vXZdqEgaa3BULUdK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ste_azza",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ste_azza/status/767668608331837440",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "stefano.azzalin.3",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/stefano.azzalin.3/posts/1193654924019643",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Biella"
+    },
+    "description": "Always enthusiastic / Innovator / Director /",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/stefanoazzalin",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/stefanoazzalin",
+        "name": "cover"
+      }
+    ],
+    "name": "Stefano Azzalin"
+  },
+  "verifications": [
+    {
+      "identifier": "ste_azza",
+      "proof_url": "https://twitter.com/ste_azza/status/767668608331837440",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "stefano.azzalin.3",
+      "proof_url": "https://www.facebook.com/stefano.azzalin.3/posts/1193654924019643",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN stefanoazzalin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stefanoazzalin.id\"\n"
+}

@@ -1,62 +1,66 @@
 {
   "owner_address": "19BWhgEgHVevEKj7Bimzoq4GGUc2ocAxcE",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/ambientgroove"
-    },
-    "bio": "Selekta of Music for Yoga, Trancedance, & Meditation",
-    "bitcoin": {
-      "address": "1Di5NQaT8rrqG63UedmCZc6ZyxMnN7T5tU"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/yvD.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/ambientgroove/posts/748021748584961"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ambientgroove",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "ambientgroove"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/ambientgroove/af9b9129fdb928c19181"
+      {
+        "@type": "Account",
+        "identifier": "ambientgroove",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "ambientgroove"
-    },
-    "location": {
-      "formatted": "New York"
-    },
-    "name": {
-      "formatted": "Ambient Groove"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/ambientgroove/status/718926493942988800"
+      {
+        "@type": "Account",
+        "identifier": "1Di5NQaT8rrqG63UedmCZc6ZyxMnN7T5tU",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "ambientgroove"
+      {
+        "@type": "Account",
+        "identifier": "ambientgroove",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ambientgroove/status/718926493942988800",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York"
     },
-    "v": "0.2",
-    "website": "http://ambientgroove.com"
+    "description": "Selekta of Music for Yoga, Trancedance, & Meditation",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ambientgroove",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ambient Groove",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://ambientgroove.com"
+      }
+    ]
   },
   "verifications": [
-    {
-      "identifier": "ambientgroove",
-      "proof_url": "https://gist.github.com/ambientgroove/af9b9129fdb928c19181",
-      "service": "github",
-      "valid": true
-    },
     {
       "identifier": "ambientgroove",
       "proof_url": "https://twitter.com/ambientgroove/status/718926493942988800",
       "service": "twitter",
       "valid": false
-    },
-    {
-      "identifier": "ambientgroove",
-      "proof_url": "https://facebook.com/ambientgroove/posts/748021748584961",
-      "service": "facebook",
-      "valid": false
     }
   ],
-  "zone_file": {}
+  "zone_file": "$ORIGIN ambientgroove.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ambientgroove.id\"\n"
 }

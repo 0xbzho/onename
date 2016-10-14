@@ -1,0 +1,67 @@
+{
+  "owner_address": "1G8sPvzLjNC3Vom5f9cL3rQgmYJGcBnUdo",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dannyzlo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dannyzlo/status/762991168498110464",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dannyzlobinsky",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dannyzlobinsky/posts/3295258345282",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dzlobin",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dzlobin/227d4c8ffa1b49702172c736015de020",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York, NY"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dannyzlo",
+        "name": "avatar"
+      }
+    ],
+    "name": "Danny Zlobinsky"
+  },
+  "verifications": [
+    {
+      "identifier": "dannyzlo",
+      "proof_url": "https://twitter.com/dannyzlo/status/762991168498110464",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "dannyzlobinsky",
+      "proof_url": "https://www.facebook.com/dannyzlobinsky/posts/3295258345282",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "dzlobin",
+      "proof_url": "https://gist.github.com/dzlobin/227d4c8ffa1b49702172c736015de020",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN dannyzlo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dannyzlo.id\"\n"
+}

@@ -1,6 +1,24 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "13dUeJtcRRCQyDSQUCCLHswbEQHCprDJSu",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "acc3971d5ece22cca0549e1cee5aa15863af1c72",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/86c2f8b7b4cf73ff47b8abd2551131ad",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN softwarestore.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/softwarestore.id\"\n"
 }

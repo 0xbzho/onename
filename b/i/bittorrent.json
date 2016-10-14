@@ -1,0 +1,46 @@
+{
+  "owner_address": "1GEjWgon32xbBdsVvGXxP9n2763SyVFSzD",
+  "profile": {
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofMessage": "Verifying that bittorrent.id is my blockchain ID.",
+        "proofSignature": "",
+        "proofType": "signature",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofMessage": "Verifying that bittorrent.id is my blockchain ID.",
+        "proofSignature": "",
+        "proofType": "signature",
+        "service": "ethereum"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofMessage": "Verifying that bittorrent.id is my blockchain ID.",
+        "proofSignature": "",
+        "proofType": "signature",
+        "service": "ethereum"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofMessage": "Verifying that bittorrent.id is my blockchain ID.",
+        "proofSignature": "",
+        "proofType": "signature",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress"
+    }
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN bittorrent.id\n\t$TTL 3600\n\t_http._tcp\tIN\tURI\t10\t1\t\"https://blockstack.s3-us-west-1.amazonaws.com/staging/bittorrent.id.json\"\n\n\t"
+}

@@ -1,0 +1,54 @@
+{
+  "owner_address": "1DPNhr1zeNeXN4Ejfaqwq8kMLLofT5cNbb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1MenB7Fb2M9qzozMLjFYHUPyEwPCpC1jbD",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "liumiao",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/liumiao/status/768118749543141376",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Shanghai, China"
+    },
+    "description": "A writer.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/liumiao",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/liumiao",
+        "name": "cover"
+      }
+    ],
+    "name": "Liu Miao",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://liumiao.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "liumiao",
+      "proof_url": "https://twitter.com/liumiao/status/768118749543141376",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN liumiao.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/liumiao.id\"\n"
+}

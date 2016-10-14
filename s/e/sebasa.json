@@ -15,6 +15,12 @@
         "contentUrl": "https://pk9.s3.amazonaws.com/sebasa",
         "identifier": null,
         "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1SebasaERd1uedHJ1oTaB9M9RnjXBQLwa",
+        "role": "payment",
+        "service": "bitcoin"
       }
     ],
     "address": {
@@ -40,7 +46,7 @@
       "identifier": "sebasa",
       "proof_url": "https://gist.github.com/sebasa/54e09846bc58672e648521b15fcd31a1#file-gistfile1-txt",
       "service": "github",
-      "valid": true
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN sebasa.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sebasa.id\"\n"

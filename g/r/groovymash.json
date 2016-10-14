@@ -1,11 +1,22 @@
 {
   "owner_address": "15ewzdeaTXczmpw4e7QcBbYhwfRpgjwYiX",
   "profile": {
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/4AL.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "72abca2a5eec23da39ceb3c8be71313604fa54fa",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN groovymash.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/groovymash.id\"\n"
 }

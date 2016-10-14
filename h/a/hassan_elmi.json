@@ -1,0 +1,55 @@
+{
+  "owner_address": "19UPKhx3JoTgxmQg4YpdX4UJ3aU53pjiEp",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "hassanabi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/hassanabi/status/773594284356411393",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hasano",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/hasano/posts/10154128134173791",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nairobi, Kenya"
+    },
+    "description": "Software designer, technology enthusiast, businessman",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hassan_elmi",
+        "name": "avatar"
+      }
+    ],
+    "name": "Hassan Abi Elmi"
+  },
+  "verifications": [
+    {
+      "identifier": "hassanabi",
+      "proof_url": "https://twitter.com/hassanabi/status/773594284356411393",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "hasano",
+      "proof_url": "https://www.facebook.com/hasano/posts/10154128134173791",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN hassan_elmi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hassan_elmi.id\"\n"
+}

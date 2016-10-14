@@ -1,0 +1,41 @@
+{
+  "owner_address": "1DDdHNAeYrb4TsAGkGxsTbwErn27v94aZ7",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "awafula",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/awafula/status/782296210501693440",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nairobi"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/awafula",
+        "name": "avatar"
+      }
+    ],
+    "name": "Andrew Wafula Wapakala"
+  },
+  "verifications": [
+    {
+      "identifier": "awafula",
+      "proof_url": "https://twitter.com/awafula/status/782296210501693440",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN awafula.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/awafula.id\"\n"
+}

@@ -1,0 +1,62 @@
+{
+  "owner_address": "1M6xTctrzbHZYEqFcNZ9JTAp7D4Yqtdwg7",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "raypodder",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/raypodder/status/770374452420878336",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "raypodder",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/raypodder/29d705c3f49aff163cdbd53b11fc95ad",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "raypodder",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/raypodder/posts/10154265964591154",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/raypodder",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/raypodder",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "raypodder",
+      "proof_url": "https://twitter.com/raypodder/status/770374452420878336",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "raypodder",
+      "proof_url": "https://gist.github.com/raypodder/29d705c3f49aff163cdbd53b11fc95ad",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "raypodder",
+      "proof_url": "https://www.facebook.com/raypodder/posts/10154265964591154",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN raypodder.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/raypodder.id\"\n"
+}

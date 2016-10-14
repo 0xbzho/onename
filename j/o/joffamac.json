@@ -46,13 +46,13 @@
     "image": [
       {
         "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/joffamac",
-        "name": "avatar"
+        "contentUrl": "https://s3.amazonaws.com/dx3/joffamac",
+        "name": "cover"
       },
       {
         "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/dx3/joffamac",
-        "name": "cover"
+        "contentUrl": "https://s3.amazonaws.com/kd4/joffamac",
+        "name": "avatar"
       }
     ],
     "name": "Geoffrey William Maclean"
@@ -74,7 +74,7 @@
       "identifier": "joffaMac",
       "proof_url": "https://gist.github.com/joffaMac/90c16029d58c1d2c04a41053cc5b7702",
       "service": "github",
-      "valid": true
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN joffamac.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/joffamac.id\"\n"

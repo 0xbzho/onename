@@ -1,6 +1,36 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "17uuppTNLdPKRHVd9NGp1iTs1BM3VYnj9V",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "andreypl",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/andreypl/status/761522389490470917",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Israel"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Andrey Plaksin"
+  },
+  "verifications": [
+    {
+      "identifier": "andreypl",
+      "proof_url": "https://twitter.com/andreypl/status/761522389490470917",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN andreyplaksin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/andreyplaksin.id\"\n"
 }

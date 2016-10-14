@@ -1,0 +1,60 @@
+{
+  "owner_address": "1L6HRz27UeRRrJdJpSgdn257TSj1xRhG16",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rkang",
+        "proofType": "http",
+        "proofUrl": "https://t.co/F1j5q6U8Sc",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Richard C. Kang",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/michelle_rehak",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Canada"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rkang1",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rkang1",
+        "name": "cover"
+      }
+    ],
+    "name": "Richard Kang",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://ca.linkedin.com/in/rkang1"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "rkang",
+      "proof_url": "https://t.co/F1j5q6U8Sc",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "Richard C. Kang",
+      "proof_url": "https://twitter.com/michelle_rehak",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN rkang1.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rkang1.id\"\n"
+}

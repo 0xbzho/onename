@@ -1,0 +1,42 @@
+{
+  "owner_address": "19omokoaZjkhQLSSMhcdzDV8ycLhWxFFne",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tom.sambdman",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/blanchfield",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Atlanta, GA"
+    },
+    "description": "Husband, Father of two boys, Entrepreneur, and chef",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/blanchfield",
+        "name": "avatar"
+      }
+    ],
+    "name": "Thomas Sambdman"
+  },
+  "verifications": [
+    {
+      "identifier": "tom.sambdman",
+      "proof_url": "https://onename.com/blanchfield",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN blanchfield.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/blanchfield.id\"\n"
+}

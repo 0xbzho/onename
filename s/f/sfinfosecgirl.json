@@ -1,6 +1,48 @@
 {
-  "owner_address": "1E2vd1baZLrhNRgU6FPZv1zxxuRNhj4btG",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1PFfk4ifMKWZwaPRDaKfawUufkcvUg8DVB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "SFinfosecGirl",
+        "proofType": "http",
+        "proofUrl": "Verifying that +sfinfosecgirl is my blockchain ID. https://onename.com/sfinfosecgirl",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1JPXoN3o7sPXY7yaeN2ehVmdjY3sL7ykWW",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco, CA"
+    },
+    "description": "Just another dev girl in SF #OpSec #Secruity #Bitcoin #Puppies",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sfinfosecgirl",
+        "name": "avatar"
+      }
+    ],
+    "name": "SFinfosecGirl"
+  },
+  "verifications": [
+    {
+      "identifier": "SFinfosecGirl",
+      "proof_url": "Verifying that +sfinfosecgirl is my blockchain ID. https://onename.com/sfinfosecgirl",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN sfinfosecgirl.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sfinfosecgirl.id\"\n"
 }

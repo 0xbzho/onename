@@ -1,45 +1,49 @@
 {
   "owner_address": "19dP7Z6Ry4FxXDeK5dCLn9AQhJ8p4bDpPB",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/nurdan"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/nurdan"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/nurdanucer/posts/10153606599153544"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nurdanucer",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/nurdanucer/status/650918615466774529",
+        "service": "twitter"
       },
-      "username": "nurdanucer"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/nurdanucer/c81aa3c6ecf041d225aa"
+      {
+        "@type": "Account",
+        "identifier": "nurdanucer",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/nurdanucer/dbdca10fbf4d0ffa590beb197bfcbe11",
+        "service": "github"
       },
-      "username": "nurdanucer"
+      {
+        "@type": "Account",
+        "identifier": "nurdanucer",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/nurdanucer/posts/10153606599153544",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Istanbul, Athens"
     },
-    "location": {
-      "formatted": "Istanbul, Athens"
-    },
-    "name": {
-      "formatted": "Nurdan Ucer"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/nurdanucer/status/650918615466774529"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/nurdan",
+        "name": "cover"
       },
-      "username": "nurdanucer"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nurdan",
+        "name": "avatar"
+      }
+    ],
+    "name": "Nurdan Ucer"
   },
   "verifications": [
-    {
-      "identifier": "nurdanucer",
-      "proof_url": "https://gist.github.com/nurdanucer/c81aa3c6ecf041d225aa",
-      "service": "github",
-      "valid": false
-    },
     {
       "identifier": "nurdanucer",
       "proof_url": "https://twitter.com/nurdanucer/status/650918615466774529",
@@ -48,9 +52,16 @@
     },
     {
       "identifier": "nurdanucer",
-      "proof_url": "https://facebook.com/nurdanucer/posts/10153606599153544",
+      "proof_url": "https://gist.github.com/nurdanucer/dbdca10fbf4d0ffa590beb197bfcbe11",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "nurdanucer",
+      "proof_url": "https://www.facebook.com/nurdanucer/posts/10153606599153544",
       "service": "facebook",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN nurdan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nurdan.id\"\n"
 }

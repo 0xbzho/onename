@@ -1,0 +1,34 @@
+{
+  "owner_address": "17GXgTuib8d2Tb8K4GuzQHEa2cw4w78FLW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1A53oBULSFpVf44hKRJiTzFCXNFNtQyUQB",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "a"
+    },
+    "description": "a",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/apocalipse",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/apocalipse",
+        "name": "avatar"
+      }
+    ],
+    "name": "apocalipse"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN apocalipse.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/apocalipse.id\"\n"
+}

@@ -1,61 +1,66 @@
 {
   "owner_address": "17PikVDygce7B4P1HgKyhy7cFzKurMEpZ7",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/romancat"
-    },
-    "bio": "Strategist, Internet Security, MultiFactor Authentication, Digital Signage,  Social Marketing, Branding, GSA Contracts",
-    "bitcoin": {
-      "address": "15RvnfYDDXBAFmTWZSxZGTmMShcc58VEeN"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/romancat"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/romancat/posts/10153504588538033"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "romancat",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "romancat"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/romancat/3931854dcc148723bcdf"
+      {
+        "@type": "Account",
+        "identifier": "romancat",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "romancat"
-    },
-    "location": {
-      "formatted": "Springfield, NJ"
-    },
-    "name": {
-      "formatted": "Roman Anderson"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/romancat/status/573676902940016640"
+      {
+        "@type": "Account",
+        "identifier": "15RvnfYDDXBAFmTWZSxZGTmMShcc58VEeN",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "romancat"
+      {
+        "@type": "Account",
+        "identifier": "romancat",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/romancat/status/772646186620682240",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Springfield, NJ"
     },
-    "v": "0.2",
-    "website": "http://RomanCAT.com"
+    "description": "Entrepreneur, Strategist, TeamBuilder. Privacy First, Strong Identity, Extreme Cyber-Security & FreeTrust. GSA Contracts, BlockChain, DARPA, MFA Risk Mitigation",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/romancat",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/romancat",
+        "name": "cover"
+      }
+    ],
+    "name": "Roman Anderson",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://RomanCAT.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "romancat",
-      "proof_url": "https://gist.github.com/romancat/3931854dcc148723bcdf",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "romancat",
-      "proof_url": "https://twitter.com/romancat/status/573676902940016640",
+      "proof_url": "https://twitter.com/romancat/status/772646186620682240",
       "service": "twitter",
       "valid": true
-    },
-    {
-      "identifier": "romancat",
-      "proof_url": "https://facebook.com/romancat/posts/10153504588538033",
-      "service": "facebook",
-      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN romancat.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/romancat.id\"\n"
 }

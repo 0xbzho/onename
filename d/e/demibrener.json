@@ -1,0 +1,47 @@
+{
+  "owner_address": "1LdSmNDbcxNREwei8p4JcXSTA2ibbQvmpp",
+  "profile": {
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "demibrener",
+        "proofType": "http",
+        "proofUrl": "onename.com/demibrener",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "proofUrl": "",
+        "service": "twitter"
+      }
+    ],
+    "familyName": "Brener",
+    "givenName": "Demian",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "http://i.imgur.com/6GfhNRs.png",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "demibrener",
+      "proof_url": "onename.com/demibrener",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "",
+      "proof_url": "",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN demibrener.id\n\t$TTL 3600\n\t_http._tcp\tIN\tURI\t10\t1\t\"https://blockstack.s3-us-west-1.amazonaws.com/staging/demibrener.id.json\"\n\n\t"
+}

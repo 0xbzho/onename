@@ -5,24 +5,77 @@
     "account": [
       {
         "@type": "Account",
+        "identifier": "19HVo2wXvixsizLCBfLkrtw7VkoQf8NqWy",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nvtv15",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/nvtv15/f5ad101a89b5b2beb6a200521d8f8891",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "7b7b5aba2e0042af9a846d9dcfbc7cd9437d70f4",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Ponudabiz",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Ponudabiz/status/761747868357189633",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
         "identifier": "ponudapotraznjabiz1",
         "proofType": "http",
-        "proofUrl": "https://web.facebook.com/ponudapotraznjabiz1/posts/203783363353261",
+        "proofUrl": "https://web.facebook.com/ponudapotraznjabiz1/posts/213149435749987",
         "service": "facebook"
       }
     ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Croatia"
+    },
     "image": [
       {
         "@type": "ImageObject",
         "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
         "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nvtv15",
+        "name": "avatar"
+      }
+    ],
+    "name": "Dado",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.ponuda.tk"
       }
     ]
   },
   "verifications": [
     {
+      "identifier": "nvtv15",
+      "proof_url": "https://gist.github.com/nvtv15/f5ad101a89b5b2beb6a200521d8f8891",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "Ponudabiz",
+      "proof_url": "https://twitter.com/Ponudabiz/status/761747868357189633",
+      "service": "twitter",
+      "valid": true
+    },
+    {
       "identifier": "ponudapotraznjabiz1",
-      "proof_url": "https://web.facebook.com/ponudapotraznjabiz1/posts/203783363353261",
+      "proof_url": "https://web.facebook.com/ponudapotraznjabiz1/posts/213149435749987",
       "service": "facebook",
       "valid": false
     }

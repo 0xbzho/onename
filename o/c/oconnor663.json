@@ -1,0 +1,62 @@
+{
+  "owner_address": "1MdbXDCy4He5o5yVWmRiie6LVaHpxtepNL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "oconnor663",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/oconnor663/posts/10101294505472454?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "oconnor663",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/oconnor663/status/771025324486356994",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "oconnor663",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/oconnor663/5646c1d8281d3f6767538d9ef28d24e8",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/oconnor663",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "oconnor663",
+      "proof_url": "https://www.facebook.com/oconnor663/posts/10101294505472454?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "oconnor663",
+      "proof_url": "https://twitter.com/oconnor663/status/771025324486356994",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "oconnor663",
+      "proof_url": "https://gist.github.com/oconnor663/5646c1d8281d3f6767538d9ef28d24e8",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN oconnor663.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/oconnor663.id\"\n"
+}

@@ -1,0 +1,44 @@
+{
+  "owner_address": "1NYsDex9U3XuaT7HmhtWiaVta3idHttA6q",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "@globetechlab",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/GlobeTechLab/status/780797032495718401",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hiawathabray",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/hiawathabray?hc_ref=NEWSFEED#",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "@globetechlab",
+      "proof_url": "https://twitter.com/GlobeTechLab/status/780797032495718401",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "hiawathabray",
+      "proof_url": "https://www.facebook.com/hiawathabray?hc_ref=NEWSFEED#",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN watha2020.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/watha2020.id\"\n"
+}

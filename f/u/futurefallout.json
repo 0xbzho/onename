@@ -33,11 +33,6 @@
       {
         "@type": "Account",
         "identifier": "e8d71b78e94c8e38c45d7e9ed058e1b47f27f1ee",
-        "service": "open bazaar"
-      },
-      {
-        "@type": "Account",
-        "identifier": "e8d71b78e94c8e38c45d7e9ed058e1b47f27f1ee",
         "proofType": "http",
         "proofUrl": "https://twitter.com/endressb/status/733820296218562560",
         "service": "openbazaar"
@@ -48,6 +43,11 @@
         "identifier": "DEF9D45E136E20B6BCCE52717155C613754B13D9",
         "role": "key",
         "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "35ee0130c3700d4ec87c309635aa068488066a8b",
+        "service": "open bazaar"
       }
     ],
     "address": {
@@ -95,7 +95,7 @@
       "identifier": "futurefallout",
       "proof_url": "https://gist.github.com/futurefallout/2e75e455906c7143d3a3",
       "service": "github",
-      "valid": true
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN futurefallout.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/futurefallout.id\"\n"

@@ -1,0 +1,32 @@
+{
+  "owner_address": "1NRkS9Fn8TJ12XNQhaNEQUKZbYvp3nZfDA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tvteevee",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tvteevee/status/778069883494002689",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Comedy"
+  },
+  "verifications": [
+    {
+      "identifier": "tvteevee",
+      "proof_url": "https://twitter.com/tvteevee/status/778069883494002689",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN comedy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/comedy.id\"\n"
+}

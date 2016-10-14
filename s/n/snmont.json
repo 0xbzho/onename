@@ -1,0 +1,48 @@
+{
+  "owner_address": "19wfXxmGNqd6wF8Ej95MvPSUd1BUvXz17p",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "montspencer",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/montspencer/status/784176455781494784",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1P84cYs1rTMdGkaNzPmgUwadnZjP4drLCa",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco"
+    },
+    "description": "Husband, golfer, learner, futuristic, and competitive",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/snmont",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/snmont",
+        "name": "cover"
+      }
+    ],
+    "name": "Spencer Montgomery"
+  },
+  "verifications": [
+    {
+      "identifier": "montspencer",
+      "proof_url": "https://twitter.com/montspencer/status/784176455781494784",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN snmont.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/snmont.id\"\n"
+}

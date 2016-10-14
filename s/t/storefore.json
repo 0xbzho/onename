@@ -1,17 +1,79 @@
 {
   "owner_address": "1JrUbD9Q9cowg4iDYSNvfaywGuHHR1DA37",
   "profile": {
-    "bio": "I host Open Bazaar Servers So You Don't Have To",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/L2N.jpeg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "spacefore_com",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/spacefore_com/status/772124557402578944",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "spaceforecommerce",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/spaceforecommerce/posts/178094699281947",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bdunbar",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bdunbar/629591182c57635c0a3ea9751ab12a34",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "6839fa37dfb6365de70cef32c4d58797595b1c5a",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Tennessee, USA"
     },
-    "location": {
-      "formatted": "Goodlettsvile, TN"
-    },
-    "name": {
-      "formatted": "Brian Dunbar"
-    },
-    "v": "0.2"
+    "description": "We host Open Bazaar Servers So You Don't Have To",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/storefore",
+        "name": "avatar"
+      }
+    ],
+    "name": "Brian Dunbar DBA Space for eCommerce",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://spacefore.com/"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "spacefore_com",
+      "proof_url": "https://twitter.com/spacefore_com/status/772124557402578944",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "spaceforecommerce",
+      "proof_url": "https://www.facebook.com/spaceforecommerce/posts/178094699281947",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "bdunbar",
+      "proof_url": "https://gist.github.com/bdunbar/629591182c57635c0a3ea9751ab12a34",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN storefore.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/storefore.id\"\n"
 }

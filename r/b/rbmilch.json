@@ -1,0 +1,60 @@
+{
+  "owner_address": "1AAEwNsTQZbKdQZ1YGpXFHUgLMFW2nZGkg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "RBMilch",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RBMilch/status/776122623910678528",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rbmilch",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rbmilch/2089f117d5c22f6419de1a059a75728a",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Germany, Essen"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rbmilch",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rbmilch",
+        "name": "cover"
+      }
+    ],
+    "name": "Daniel",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://smartprodukttest.blogspot.de/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "RBMilch",
+      "proof_url": "https://twitter.com/RBMilch/status/776122623910678528",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "rbmilch",
+      "proof_url": "https://gist.github.com/rbmilch/2089f117d5c22f6419de1a059a75728a",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN rbmilch.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rbmilch.id\"\n"
+}

@@ -1,0 +1,67 @@
+{
+  "owner_address": "1HUwMZ6aj2YwPiAVFiEbbAdFt9SpHUtgzZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "betsythefc",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/betsythefc/597e1b763974420d74524f06f79891c2",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bryce.mcnab",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bryce.mcnab/posts/1072824089501682",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bmcnab80",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bmcnab80/status/775460253529804801",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bay Area, CA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/billssieve",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/billssieve",
+        "name": "cover"
+      }
+    ],
+    "name": "Bryce McNab"
+  },
+  "verifications": [
+    {
+      "identifier": "betsythefc",
+      "proof_url": "https://gist.github.com/betsythefc/597e1b763974420d74524f06f79891c2",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "bryce.mcnab",
+      "proof_url": "https://www.facebook.com/bryce.mcnab/posts/1072824089501682",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "bmcnab80",
+      "proof_url": "https://twitter.com/bmcnab80/status/775460253529804801",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN billssieve.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/billssieve.id\"\n"
+}

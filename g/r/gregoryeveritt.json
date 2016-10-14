@@ -1,0 +1,50 @@
+{
+  "owner_address": "19J7pSfMMPgJLFkh3qxb8iMzB7Nv9yN8pa",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "AmateurAssassin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/AmateurAssassin/status/786252319134363649",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "airwaterearthfire",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/airwaterearthfire/posts/10154749844942573?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "greveritt",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/greveritt/c83bf0bc3669dd1d8e28aa6cffc98b2f",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gregoryeveritt",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "greveritt",
+      "proof_url": "https://gist.github.com/greveritt/35ceccaf32557bb16a6db6417893b788",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN gregoryeveritt.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gregoryeveritt.id\"\n"
+}

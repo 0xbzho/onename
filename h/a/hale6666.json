@@ -1,14 +1,58 @@
 {
   "owner_address": "1GHmomXnYZg783rRMjCirrd3U3xUaaUYvr",
   "profile": {
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/4AL.jpeg"
-    },
-    "name": {
-      "formatted": "Hale Knox"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "hale6666",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/hale6666/f8746ac168e319c931ac41cacbd5bcbd",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hale6666",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/hale6666/status/761312202389270528",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "12LWSGKi5EERJ2UMXpXQt6uHjmHH5xc2wD",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "e6d4445937f515e3e0cd9041d39b1bd310f99d82",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/hale6666/f8746ac168e319c931ac41cacbd5bcbd",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Hale Knox"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "hale6666",
+      "proof_url": "https://gist.github.com/hale6666/f8746ac168e319c931ac41cacbd5bcbd",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "hale6666",
+      "proof_url": "https://twitter.com/hale6666/status/761312202389270528",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN hale6666.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hale6666.id\"\n"
 }

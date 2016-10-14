@@ -1,6 +1,54 @@
 {
-  "owner_address": "1Muzjdxpfqt6SDtjEvMW4JazJrEQfpkb9M",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "13DQtUZQ4KYbhz5snXxH4EibitYpb4d9WH",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Moira_UCL",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/moira_ucl/status/760368242011566080",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https:",
+        "proofType": "http",
+        "proofUrl": "https://gist.githubusercontent.com/birdycode/d04f58977b3a7aefc5bbf3b91b159a41/raw/320cbd74350b8128bf47cd60c54361f1c6521d03/gistfile1.txt",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/moiracwright",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/moiracwright",
+        "name": "avatar"
+      }
+    ],
+    "name": "Moira Wright"
+  },
+  "verifications": [
+    {
+      "identifier": "Moira_UCL",
+      "proof_url": "https://twitter.com/moira_ucl/status/760368242011566080",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "https:",
+      "proof_url": "https://gist.githubusercontent.com/birdycode/d04f58977b3a7aefc5bbf3b91b159a41/raw/320cbd74350b8128bf47cd60c54361f1c6521d03/gistfile1.txt",
+      "service": "github",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN moiracwright.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/moiracwright.id\"\n"
 }

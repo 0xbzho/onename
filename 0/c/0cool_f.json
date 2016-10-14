@@ -1,0 +1,67 @@
+{
+  "owner_address": "1Lmg9gi2Kw7yiE8CR6ZtpsPAHuZBWWpDh8",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "0cool_f",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/0cool_f/status/770573593809981441",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "0cool-f",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/0cool-f/e238312c6bd6b532ee0f26634d89229d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "0cool.f",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/0cool.f/posts/1510928312266851",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Roma"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/0cool_f",
+        "name": "avatar"
+      }
+    ],
+    "name": "Fabio Di Giorgio"
+  },
+  "verifications": [
+    {
+      "identifier": "0cool_f",
+      "proof_url": "https://twitter.com/0cool_f/status/770573593809981441",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "0cool-f",
+      "proof_url": "https://gist.github.com/0cool-f/e238312c6bd6b532ee0f26634d89229d",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "0cool.f",
+      "proof_url": "https://www.facebook.com/0cool.f/posts/1510928312266851",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN 0cool_f.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/0cool_f.id\"\n"
+}

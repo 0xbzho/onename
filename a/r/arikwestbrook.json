@@ -1,0 +1,59 @@
+{
+  "owner_address": "1PfDpLAcRMjQnarvfqydagdHiNiiDbh3r9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "arikwestbrook",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/arikwestbrook/4d6bee4086fa123d0afcf6ff730bee96",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "arik.westbrook",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/arik.westbrook/posts/120939888351577",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "arikwestbrook",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/arikwestbrook/status/763575816085123072",
+        "service": "twitter"
+      }
+    ],
+    "description": "Computer person. Hardware, software, salvage, programming, etc.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Arik Westbrook"
+  },
+  "verifications": [
+    {
+      "identifier": "arikwestbrook",
+      "proof_url": "https://gist.github.com/arikwestbrook/4d6bee4086fa123d0afcf6ff730bee96",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "arik.westbrook",
+      "proof_url": "https://www.facebook.com/arik.westbrook/posts/120939888351577",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "arikwestbrook",
+      "proof_url": "https://twitter.com/arikwestbrook/status/763575816085123072",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN arikwestbrook.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/arikwestbrook.id\"\n"
+}

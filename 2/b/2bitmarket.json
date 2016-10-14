@@ -7,6 +7,13 @@
         "@type": "Account",
         "identifier": "886a6f269ec3e82d958f5aeb4ff120d291d9c1c5",
         "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "@2bitmarket",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/2bitmarket/status/771647425807167488",
+        "service": "twitter"
       }
     ],
     "address": {
@@ -28,6 +35,13 @@
     ],
     "name": "2BitMarket"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "@2bitmarket",
+      "proof_url": "https://twitter.com/2bitmarket/status/771647425807167488",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN 2bitmarket.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/2bitmarket.id\"\n"
 }

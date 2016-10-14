@@ -1,35 +1,80 @@
 {
   "owner_address": "1FwaT75e7xswCQuLKSSfKFjtmUZomnWx6s",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/smishtbx"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/smishtbx"
-    },
-    "facebook": {
-      "username": "edmunchy"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/sm-tradeboox/910e4d58560ba55e96a0"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "SamirMi09817537",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SamirMi09817537/status/703853692907196416",
+        "service": "twitter"
       },
-      "username": "sm-tradeboox"
+      {
+        "@type": "Account",
+        "identifier": "sm-tradeboox",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/sm-tradeboox/6681cb795666ffe85472d6ea889ca024",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "edmunchy",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/edmunchy/posts/10208405486748672",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/smishtbx",
+        "identifier": "76698D050245B2CEF6D651F4900665002076A6AE",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "18MtADQpAauPCBkbQ2FfKhXavCTrG4MJQr",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New Delhi, India"
     },
-    "location": {
-      "formatted": "New Delhi, India"
-    },
-    "name": {
-      "formatted": "Samir Mishra"
-    },
-    "v": "0.2"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/smishtbx",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/smishtbx",
+        "name": "cover"
+      }
+    ],
+    "name": "Samir Mishra"
   },
   "verifications": [
     {
+      "identifier": "SamirMi09817537",
+      "proof_url": "https://twitter.com/SamirMi09817537/status/703853692907196416",
+      "service": "twitter",
+      "valid": true
+    },
+    {
       "identifier": "sm-tradeboox",
-      "proof_url": "https://gist.github.com/sm-tradeboox/910e4d58560ba55e96a0",
+      "proof_url": "https://gist.github.com/sm-tradeboox/6681cb795666ffe85472d6ea889ca024",
       "service": "github",
       "valid": false
+    },
+    {
+      "identifier": "edmunchy",
+      "proof_url": "https://www.facebook.com/edmunchy/posts/10208405486748672",
+      "service": "facebook",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN smishtbx.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/smishtbx.id\"\n"
 }

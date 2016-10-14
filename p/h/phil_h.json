@@ -5,36 +5,37 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "PhilH",
-        "proofType": "http",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
         "identifier": "145ZRY6kBzVXURjPDaidxra8KZBsSat23c",
         "role": "payment",
         "service": "bitcoin"
       },
       {
         "@type": "Account",
+        "identifier": "phil_h",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/phil_h/status/597403478638665729",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
         "identifier": "philippe.honigman",
         "proofType": "http",
-        "proofUrl": "https://www.facebook.com/philippe.honigman/posts/10153660197738483",
+        "proofUrl": "https://www.facebook.com/philippe.honigman/posts/10153827267958483",
         "service": "facebook"
       },
       {
         "@type": "Account",
-        "identifier": "phil_h",
+        "identifier": "PhilH",
         "proofType": "http",
-        "proofUrl": "https://pbs.twimg.com/media/Cl9UAmoWEAALaug.jpg",
-        "service": "twitter"
+        "proofUrl": "https://gist.github.com/PhilH/132555d4c2d0bbf84164d0b40f19516f",
+        "service": "github"
       }
     ],
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Paris, France"
     },
-    "description": "Entrepreneur | UX design, digital art, social media, tech business | ftopia, Backfeed, Le Pixel Blanc",
+    "description": "Entrepreneur | UX design, digital art, social media, tech business | ftopia, U, Le Pixel Blanc",
     "image": [
       {
         "@type": "ImageObject",
@@ -57,15 +58,21 @@
   },
   "verifications": [
     {
-      "identifier": "philippe.honigman",
-      "proof_url": "https://www.facebook.com/philippe.honigman/posts/10153660197738483",
-      "service": "facebook",
-      "valid": false
+      "identifier": "phil_h",
+      "proof_url": "https://twitter.com/phil_h/status/597403478638665729",
+      "service": "twitter",
+      "valid": true
     },
     {
-      "identifier": "phil_h",
-      "proof_url": "https://pbs.twimg.com/media/Cl9UAmoWEAALaug.jpg",
-      "service": "twitter",
+      "identifier": "philippe.honigman",
+      "proof_url": "https://www.facebook.com/philippe.honigman/posts/10153827267958483",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "PhilH",
+      "proof_url": "https://gist.github.com/PhilH/132555d4c2d0bbf84164d0b40f19516f",
+      "service": "github",
       "valid": false
     }
   ],

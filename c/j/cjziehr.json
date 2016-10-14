@@ -1,0 +1,57 @@
+{
+  "owner_address": "18869V9BYi2ZqorhbbUFSvzuxmoeQPSfCb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cjziehr",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cjziehr/status/770979379660763137",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cjziehr",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/cjziehr/posts/10206928892767559",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cjziehr",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/cjziehr/c87eeece73e2966e7623014bbe3821c2",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "cjziehr",
+      "proof_url": "https://twitter.com/cjziehr/status/770979379660763137",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "cjziehr",
+      "proof_url": "https://www.facebook.com/cjziehr/posts/10206928892767559",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "cjziehr",
+      "proof_url": "https://gist.github.com/cjziehr/c87eeece73e2966e7623014bbe3821c2",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN cjziehr.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cjziehr.id\"\n"
+}

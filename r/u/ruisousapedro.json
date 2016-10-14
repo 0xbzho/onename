@@ -1,0 +1,54 @@
+{
+  "owner_address": "1KiKh5BNgN13yYfmLm4MZd1FEvaqzHXX2E",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ruisousapedro",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ruisousapedro/status/776830540469116928",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ruisousapedro",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ruisousapedro/posts/10154418534129564",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Portugal"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ruisousapedro",
+        "name": "avatar"
+      }
+    ],
+    "name": "Rui Miguel Amaral de Sousa Pedro"
+  },
+  "verifications": [
+    {
+      "identifier": "ruisousapedro",
+      "proof_url": "https://twitter.com/ruisousapedro/status/776830540469116928",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ruisousapedro",
+      "proof_url": "https://www.facebook.com/ruisousapedro/posts/10154418534129564",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ruisousapedro.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ruisousapedro.id\"\n"
+}

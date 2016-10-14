@@ -1,0 +1,67 @@
+{
+  "owner_address": "1Fs6acMnbBPbGy9XCCwx4EuGwkDNjXZMZR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ottonascarella",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ottonascarella/6b8dff10a2dd13b4b39edc86a30da3db",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ottonascarella",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ottonascarella/posts/10155449307187619",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ottonascarella",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ottonascarella/status/775544593131663360",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Rio de Janeiro"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ottonascarella",
+        "name": "avatar"
+      }
+    ],
+    "name": "Otto Nascarella"
+  },
+  "verifications": [
+    {
+      "identifier": "ottonascarella",
+      "proof_url": "https://gist.github.com/ottonascarella/6b8dff10a2dd13b4b39edc86a30da3db",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "ottonascarella",
+      "proof_url": "https://www.facebook.com/ottonascarella/posts/10155449307187619",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "ottonascarella",
+      "proof_url": "https://twitter.com/ottonascarella/status/775544593131663360",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ottonascarella.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ottonascarella.id\"\n"
+}

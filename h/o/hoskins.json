@@ -1,0 +1,62 @@
+{
+  "owner_address": "1HWu85PRqTksEBKUNkbgcuabfcmKJfL4f2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bh4017",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bh4017/c9e2a63e9cb6dde6ab9ca9b78fbe8f86",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1HW7mgpf89eiLieypddic1WGHKiqJuR2H4",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bh4017",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bh4017/status/779978195525328896",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "c353a9e45f5d614bc03f255ac16bd18034d5a60f",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/JackFromStatFram/posts/285845211808577",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hoskins",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bh4017",
+      "proof_url": "https://gist.github.com/bh4017/c9e2a63e9cb6dde6ab9ca9b78fbe8f86",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "bh4017",
+      "proof_url": "https://twitter.com/bh4017/status/779978195525328896",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN hoskins.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hoskins.id\"\n"
+}

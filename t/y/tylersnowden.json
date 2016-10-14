@@ -1,64 +1,80 @@
 {
   "owner_address": "14xFuaiC3twf2BKxSTmkJcKncxSdGQ8nMU",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/tylersnowden"
-    },
-    "bio": "Web Developer and Linux fan.",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/Ov8.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/tyler.snowden.73/posts/924724200888489"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tyler.snowden.73",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "tyler.snowden.73"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/tylersnowden/3792ab9dddc10c127d2c"
+      {
+        "@type": "Account",
+        "identifier": "13AqK2mCGS8dDpQKD98bc2i6uzGXj8QV9M",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "tylersnowden"
-    },
-    "location": {
-      "formatted": "Providence, RI"
-    },
-    "name": {
-      "formatted": "Tyler Snowden"
-    },
-    "pgp": {
-      "fingerprint": "17E4D2B08582D3435EE9144ED2BB36D30E62C2E2",
-      "url": "https://pgp.mit.edu/pks/lookup?op=get&search=0xD2BB36D30E62C2E2"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/TylerDSnowden/status/535799829683650561"
+      {
+        "@type": "Account",
+        "contentUrl": "https://pgp.mit.edu/pks/lookup?op=get&search=0xD2BB36D30E62C2E2",
+        "identifier": "17E4D2B08582D3435EE9144ED2BB36D30E62C2E2",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "TylerDSnowden"
+      {
+        "@type": "Account",
+        "identifier": "tylersnowden",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tylersnowden/3792ab9dddc10c127d2c",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "TylerDSnowden",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TylerDSnowden/status/784453642476584961",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mesa, AZ"
     },
-    "v": "0.2",
-    "website": "http://tylersnowden.com"
+    "description": "Web Developer and Linux fan.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tylersnowden",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Tyler Snowden",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://tylersnowden.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "tylersnowden",
       "proof_url": "https://gist.github.com/tylersnowden/3792ab9dddc10c127d2c",
       "service": "github",
-      "valid": true
+      "valid": false
     },
     {
       "identifier": "TylerDSnowden",
-      "proof_url": "https://twitter.com/TylerDSnowden/status/535799829683650561",
+      "proof_url": "https://twitter.com/TylerDSnowden/status/784453642476584961",
       "service": "twitter",
       "valid": true
-    },
-    {
-      "identifier": "tyler.snowden.73",
-      "proof_url": "https://facebook.com/tyler.snowden.73/posts/924724200888489",
-      "service": "facebook",
-      "valid": false
     }
   ],
-  "zone_file": {}
+  "zone_file": "$ORIGIN tylersnowden.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tylersnowden.id\"\n"
 }

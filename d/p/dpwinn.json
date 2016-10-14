@@ -1,0 +1,48 @@
+{
+  "owner_address": "15jVNYuFbyFUdskSKod2P9GGboPsp9w2Vn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1DNAFe1QL5oxDL7WLtX8nqSyWNpZtbKW85",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "danielpwinn",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/intent/tweet?text=Verifying%20that%20%22dpwinn%2Eid%22%20is%20my%20Blockstack%20ID.%20https://onename.com/dpwinn",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Apple Valley California"
+    },
+    "description": "elite problem solver/Freelance consultant",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/dpwinn",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dpwinn",
+        "name": "avatar"
+      }
+    ],
+    "name": "Daniel Patrick Winn"
+  },
+  "verifications": [
+    {
+      "identifier": "danielpwinn",
+      "proof_url": "https://twitter.com/intent/tweet?text=Verifying%20that%20%22dpwinn%2Eid%22%20is%20my%20Blockstack%20ID.%20https://onename.com/dpwinn",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN dpwinn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dpwinn.id\"\n"
+}

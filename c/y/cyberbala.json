@@ -1,0 +1,55 @@
+{
+  "owner_address": "1KULSFue19KrcHz5ui3km3K6A8oQGDjRDf",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "balajisury",
+        "proofType": "http",
+        "proofUrl": "https://mobile.twitter.com/balajisury/status/774203075284180992",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "balaji.sury",
+        "proofType": "http",
+        "proofUrl": "https://m.facebook.com/story.php?story_fbid=10155191193174128&id=690604127",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bangalore"
+    },
+    "description": "Seeker",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cyberbala",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/cyberbala",
+        "name": "cover"
+      }
+    ],
+    "name": "Balaji Suryanarayana"
+  },
+  "verifications": [
+    {
+      "identifier": "balajisury",
+      "proof_url": "https://mobile.twitter.com/balajisury/status/774203075284180992",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "balaji.sury",
+      "proof_url": "https://m.facebook.com/story.php?story_fbid=10155191193174128&id=690604127",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN cyberbala.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cyberbala.id\"\n"
+}

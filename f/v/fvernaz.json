@@ -1,0 +1,44 @@
+{
+  "owner_address": "12pHHXXHkEeuLo8cVVbNK2xAGg2RsR5bSz",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "FabienVernaz",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/FabienVernaz/status/786488514879688704",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Fab.07",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/Fab.07/posts/10154651841969173",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "FabienVernaz",
+      "proof_url": "https://twitter.com/FabienVernaz/status/786488514879688704",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Fab.07",
+      "proof_url": "https://www.facebook.com/Fab.07/posts/10154651841969173",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN fvernaz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fvernaz.id\"\n"
+}

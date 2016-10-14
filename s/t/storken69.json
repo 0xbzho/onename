@@ -1,0 +1,67 @@
+{
+  "owner_address": "14RusFsWFLDnM2rQo6ZWsw2yZAzkZW7nNY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "torkildi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/torkildi/status/783917283206950912",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "torkildi",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/torkildi/posts/10153823315806922",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "torkildi",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/torkildi/9b28479495374d2fb32a7cf56e005c93",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Trondheim, Norway"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/storken69",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/storken69",
+        "name": "avatar"
+      }
+    ],
+    "name": "Torkild Indstøy"
+  },
+  "verifications": [
+    {
+      "identifier": "torkildi",
+      "proof_url": "https://twitter.com/torkildi/status/783917283206950912",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "torkildi",
+      "proof_url": "https://www.facebook.com/torkildi/posts/10153823315806922",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "torkildi",
+      "proof_url": "https://gist.github.com/torkildi/9b28479495374d2fb32a7cf56e005c93",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN storken69.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/storken69.id\"\n"
+}

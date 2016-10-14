@@ -1,0 +1,68 @@
+{
+  "owner_address": "1E6kKNWRWu7HqaMX6xj4TbocnfH6vmkomR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "hilligsoe",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/hilligsoe/status/766920529953587200",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/hilli/key.asc",
+        "identifier": "DAEA745888898238D280E03E0F129545CE1CF90A",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hilligsoe",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/hilligsoe/posts/10154023584068740",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hilli",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/hilli/0aba3cbb26f2ad5f0d709559ab138513",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hilligsoe",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "hilligsoe",
+      "proof_url": "https://twitter.com/hilligsoe/status/766920529953587200",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "hilligsoe",
+      "proof_url": "https://www.facebook.com/hilligsoe/posts/10154023584068740",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "hilli",
+      "proof_url": "https://gist.github.com/hilli/0aba3cbb26f2ad5f0d709559ab138513",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN hilligsoe.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hilligsoe.id\"\n"
+}

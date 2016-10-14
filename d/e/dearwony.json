@@ -1,0 +1,36 @@
+{
+  "owner_address": "176Co9XM1jhsXK2XVttaceL68mtmTVEdd5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dearwony",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dearwony/status/776335290432524288",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Tokyo"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Lee Seungwon"
+  },
+  "verifications": [
+    {
+      "identifier": "dearwony",
+      "proof_url": "https://twitter.com/dearwony/status/776335290432524288",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dearwony.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dearwony.id\"\n"
+}

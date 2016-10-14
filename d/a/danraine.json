@@ -1,0 +1,69 @@
+{
+  "owner_address": "1B85KLUif5UwHrnthe7s8oehzEks8QGWDN",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "DanRaine",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/DanRaine/status/766360316125020160",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "RaineDan",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/RaineDan/posts/10153744416970079",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "DanRaine",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/DanRaine/5550dbdcd825dc589a3bc7d2ed268ce2#file-onename-txt",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/danraine",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/danraine",
+        "name": "cover"
+      }
+    ],
+    "name": "Dan Raine",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://danraine.com/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "DanRaine",
+      "proof_url": "https://twitter.com/DanRaine/status/766360316125020160",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "RaineDan",
+      "proof_url": "https://www.facebook.com/RaineDan/posts/10153744416970079",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "DanRaine",
+      "proof_url": "https://gist.github.com/DanRaine/5550dbdcd825dc589a3bc7d2ed268ce2#file-onename-txt",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN danraine.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/danraine.id\"\n"
+}

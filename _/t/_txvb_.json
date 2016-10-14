@@ -1,13 +1,37 @@
 {
   "owner_address": "1CEALvuk9R6Jdy7qoiiBaWEdKDHZibTYoQ",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/yvD.jpeg"
-    },
-    "name": {
-      "formatted": "TXVB"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "txvb",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TXVB/status/765191455950315520",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/_txvb_",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "TXVB"
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "txvb",
+      "proof_url": "https://twitter.com/TXVB/status/765191455950315520",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN _txvb_.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/_txvb_.id\"\n"
 }

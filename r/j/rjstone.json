@@ -1,0 +1,67 @@
+{
+  "owner_address": "1PEJh7vkibXsRaBH6qLHkNUHiB7v8xw6NY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "radixcc",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/radixcc/status/781047760686551040",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rjstone",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rjstone/69c6a70b9f266817392ac7716d55401c",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1MZ4kUW4K8ZRGbdrw4orHrcWehzbm4chT9",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Athens, GA, USA"
+    },
+    "description": "I am a software engineer currently living in Athens, Georgia.  I have experience with Software, Security, and Network Engineering.  I was using the Internet and writing network application code since the time before web browsers existed!",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rjstone",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rjstone",
+        "name": "cover"
+      }
+    ],
+    "name": "Robert Stone",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://radix.cc"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "radixcc",
+      "proof_url": "https://twitter.com/radixcc/status/781047760686551040",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "rjstone",
+      "proof_url": "https://gist.github.com/rjstone/69c6a70b9f266817392ac7716d55401c",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN rjstone.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rjstone.id\"\n"
+}

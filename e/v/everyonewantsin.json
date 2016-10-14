@@ -1,0 +1,31 @@
+{
+  "owner_address": "17ujgCnqLmwvLUcKCMD4bfDqqM4t3LtNbr",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Everyonewantsin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/intent/tweet?text=Verifying%20that%20%22everyonewantsin%2Eid%22%20is%20my%20Blockstack%20ID.%20https://onename.com/everyonewantsin",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Everyonewantsin",
+      "proof_url": "https://twitter.com/intent/tweet?text=Verifying%20that%20%22everyonewantsin%2Eid%22%20is%20my%20Blockstack%20ID.%20https://onename.com/everyonewantsin",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN everyonewantsin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/everyonewantsin.id\"\n"
+}

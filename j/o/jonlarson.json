@@ -17,13 +17,6 @@
       },
       {
         "@type": "Account",
-        "contentUrl": "https://s3.amazonaws.com/pk9/jonlarson",
-        "identifier": "047D2E177CC2CAC8B6EF4D13861D93F8D1BECC66",
-        "role": "key",
-        "service": "pgp"
-      },
-      {
-        "@type": "Account",
         "identifier": "1JHRw73zy1Pg8aKwtoZX5ZWQVE4B451mdc",
         "role": "payment",
         "service": "bitcoin"
@@ -41,6 +34,13 @@
         "proofType": "http",
         "proofUrl": "https://www.facebook.com/roy.obrecht/posts/10154355065388466",
         "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/jonlarson",
+        "identifier": "7D4D724226AA28747076388F0EE1EF362348F41D",
+        "role": "key",
+        "service": "pgp"
       }
     ],
     "address": {
@@ -66,7 +66,7 @@
       "identifier": "jonlarson",
       "proof_url": "https://gist.github.com/jonlarson/60c47b1b08e433d4a13a",
       "service": "github",
-      "valid": true
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN jonlarson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jonlarson.id\"\n"

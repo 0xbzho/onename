@@ -1,0 +1,44 @@
+{
+  "owner_address": "16F2mA7qNsnm8Yed9id2Bgt95sqpn7gnRm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "endtimesurvive",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/endtimesurvive/status/782219165872553984",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Endtime-Survive-282736248756405/",
+        "proofType": "http",
+        "proofUrl": "https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D180477105727237%26id%3D100012948461410",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "endtimesurvive",
+      "proof_url": "https://twitter.com/endtimesurvive/status/782219165872553984",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Endtime-Survive-282736248756405/",
+      "proof_url": "https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D180477105727237%26id%3D100012948461410",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN katjos.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/katjos.id\"\n"
+}

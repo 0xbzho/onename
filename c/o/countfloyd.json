@@ -1,0 +1,56 @@
+{
+  "owner_address": "1KbR4fgP91RyNcDTXhmn5Kd1M7ceDBnA8a",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "curtisstanford",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/curtisstanford/status/775457552704221185",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "countfloyd",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/countfloyd/98dad8d824bebca37f26f3c5c9b5c53d#file-onetime",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/countfloyd",
+        "identifier": null,
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/countfloyd",
+        "name": "avatar"
+      }
+    ],
+    "name": "Curtis Stanford"
+  },
+  "verifications": [
+    {
+      "identifier": "curtisstanford",
+      "proof_url": "https://twitter.com/curtisstanford/status/775457552704221185",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "countfloyd",
+      "proof_url": "https://gist.github.com/countfloyd/98dad8d824bebca37f26f3c5c9b5c53d#file-onetime",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN countfloyd.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/countfloyd.id\"\n"
+}

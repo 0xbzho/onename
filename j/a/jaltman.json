@@ -1,0 +1,67 @@
+{
+  "owner_address": "1JCi6Wdv8ayVsNiiuGV1ez29DY4VE6nGfQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jiri-altman",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jiri-altman/570581cb16a271e7969663b5d0363745",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "altman.jiri",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/altman.jiri/posts/10207867620300676",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jialtman",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jialtman/status/764308041869262848",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brno, Czech Republic"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jaltman",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jiří Altman"
+  },
+  "verifications": [
+    {
+      "identifier": "jiri-altman",
+      "proof_url": "https://gist.github.com/jiri-altman/570581cb16a271e7969663b5d0363745",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "altman.jiri",
+      "proof_url": "https://www.facebook.com/altman.jiri/posts/10207867620300676",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "jialtman",
+      "proof_url": "https://twitter.com/jialtman/status/764308041869262848",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jaltman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jaltman.id\"\n"
+}

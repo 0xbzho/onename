@@ -1,0 +1,36 @@
+{
+  "owner_address": "1A5GsQDRCjDX8QornQXbwFGZSK7uDmaicD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "atindersaini",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/atindersaini/status/778097267777634306",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/atinder",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/atinder",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "atindersaini",
+      "proof_url": "https://twitter.com/atindersaini/status/778097267777634306",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN atinder.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/atinder.id\"\n"
+}

@@ -1,0 +1,32 @@
+{
+  "owner_address": "19cJHi5ZmfE1qXmdXmSXjqQTnvf3tVLx5T",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "MrBlanding",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/mrblanding",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Andrew Sharp"
+  },
+  "verifications": [
+    {
+      "identifier": "MrBlanding",
+      "proof_url": "https://onename.com/mrblanding",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mrblanding.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mrblanding.id\"\n"
+}

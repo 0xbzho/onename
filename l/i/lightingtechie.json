@@ -1,49 +1,67 @@
 {
   "owner_address": "1FNMLWpt17VDwaLPz3DZoNLMcubeXM1aKV",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/lightingtechie"
-    },
-    "bio": "Stage Lighting Technician and Computer Programmer / Networking Engineer -- System Administrator for BoltWolf Networks",
-    "bitcoin": {
-      "address": "1P4JtzGfiuUHyoHbkoB7pE3QYpfEsrZRU3"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/lightingtechie"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/LightingTechie/a35136cbd6733fc70fcb"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1P4JtzGfiuUHyoHbkoB7pE3QYpfEsrZRU3",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "LightingTechie"
-    },
-    "location": {
-      "formatted": "Birmingham, UK"
-    },
-    "name": {
-      "formatted": "Josh Edwards"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/BoltWolf_Josh/status/679137095185768448"
+      {
+        "@type": "Account",
+        "identifier": "BoltWolf_Josh",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BoltWolf_Josh/status/679137095185768448",
+        "service": "twitter"
       },
-      "username": "BoltWolf_Josh"
+      {
+        "@type": "Account",
+        "identifier": "LightingTechie",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/LightingTechie/a35136cbd6733fc70fcb",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Birmingham, UK"
     },
-    "v": "0.2",
-    "website": "https://boltwolf.net"
+    "description": "Stage Lighting Technician, Computer Programmer / Networking Engineer and beer lover! - Co-owner and System Administrator for BoltWolf Networks",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/lightingtechie",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/lightingtechie",
+        "name": "cover"
+      }
+    ],
+    "name": "Josh Edwards",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://boltwolf.net"
+      }
+    ]
   },
   "verifications": [
-    {
-      "identifier": "LightingTechie",
-      "proof_url": "https://gist.github.com/LightingTechie/a35136cbd6733fc70fcb",
-      "service": "github",
-      "valid": true
-    },
     {
       "identifier": "BoltWolf_Josh",
       "proof_url": "https://twitter.com/BoltWolf_Josh/status/679137095185768448",
       "service": "twitter",
       "valid": true
+    },
+    {
+      "identifier": "LightingTechie",
+      "proof_url": "https://gist.github.com/LightingTechie/a35136cbd6733fc70fcb",
+      "service": "github",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN lightingtechie.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lightingtechie.id\"\n"
 }

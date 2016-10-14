@@ -1,0 +1,44 @@
+{
+  "owner_address": "16t1q8GtBpEARU1NEVnSrKNh2WBsmR5aNJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "SilvershotXtrem42",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/SilvershotXtrem42/8be5f36fb606add2abc117d5dee330bf",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "silvershotXtrem",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/silvershotXtrem/posts/310730872605029",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "SilvershotXtrem42",
+      "proof_url": "https://gist.github.com/SilvershotXtrem42/8be5f36fb606add2abc117d5dee330bf",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "silvershotXtrem",
+      "proof_url": "https://www.facebook.com/silvershotXtrem/posts/310730872605029",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN silvershot.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/silvershot.id\"\n"
+}

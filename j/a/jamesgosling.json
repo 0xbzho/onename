@@ -1,0 +1,31 @@
+{
+  "owner_address": "12EBsjfXq41X1CrLFW7eAajD8mS44JLffE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "JamesGosling",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/JamesGosling/f4a8384d37686f32d32a108d22237140",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "JamesGosling",
+      "proof_url": "https://gist.github.com/JamesGosling/f4a8384d37686f32d32a108d22237140",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jamesgosling.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jamesgosling.id\"\n"
+}

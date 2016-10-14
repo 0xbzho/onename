@@ -1,0 +1,49 @@
+{
+  "owner_address": "1PrNCN2w4R8pacC53Ch5QBU6QMPQeUchn6",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "elmartin1989",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/elmartin1989/status/784537674954772480",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "elmartin1989",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/elmartin1989/49f74377f4197d4078beaf4280dc745e",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ericmartin",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "elmartin1989",
+      "proof_url": "https://twitter.com/elmartin1989/status/784537674954772480",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "elmartin1989",
+      "proof_url": "https://gist.github.com/elmartin1989/49f74377f4197d4078beaf4280dc745e",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ericmartin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ericmartin.id\"\n"
+}

@@ -45,20 +45,20 @@
     "image": [
       {
         "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
-        "name": "cover"
+        "contentUrl": "https://s3.amazonaws.com/kd4/stanlog",
+        "name": "avatar"
       },
       {
         "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/stanlog",
-        "name": "avatar"
+        "contentUrl": "https://s3.amazonaws.com/dx3/stanlog",
+        "name": "cover"
       }
     ],
     "name": "stanlog",
     "website": [
       {
         "@type": "WebSite",
-        "url": "http://grohub.org"
+        "url": "http://www.grohub.org"
       }
     ]
   },
@@ -73,7 +73,7 @@
       "identifier": "stanlog",
       "proof_url": "https://gist.github.com/stanlog/135206f818375bedcadfb2d8ba595c89",
       "service": "github",
-      "valid": true
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN stanlog.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stanlog.id\"\n"

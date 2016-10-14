@@ -1,0 +1,36 @@
+{
+  "owner_address": "1Bj3Ge9nxLyPabid88DhsBafDjqj6Q4F6D",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ramkumarhq",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RamkumarHQ/status/765579224065437696",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ramkumar",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ramkumar",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ramkumarhq",
+      "proof_url": "https://twitter.com/RamkumarHQ/status/765579224065437696",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ramkumar.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ramkumar.id\"\n"
+}

@@ -1,0 +1,45 @@
+{
+  "owner_address": "1CHg5qnCraWJjRYvx9HF7Kuav9dVq59utR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "humberto.l.ribeiro",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/humberto.l.ribeiro/posts/10209941363911995",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hluizribeiro",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/hluizribeiro/status/768646559802224640",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Humberto Luiz Ribeiro"
+  },
+  "verifications": [
+    {
+      "identifier": "humberto.l.ribeiro",
+      "proof_url": "https://www.facebook.com/humberto.l.ribeiro/posts/10209941363911995",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "hluizribeiro",
+      "proof_url": "https://twitter.com/hluizribeiro/status/768646559802224640",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN hribeiro.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hribeiro.id\"\n"
+}

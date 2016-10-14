@@ -1,0 +1,44 @@
+{
+  "owner_address": "1HvHJG7CqzVPMhbxH959sJJF9APJPjhLM5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "giridhar.nayak",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/giridhar.nayak/posts/10154287940841049",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ngnayak",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ngnayak/status/774422021396504576",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "giridhar.nayak",
+      "proof_url": "https://www.facebook.com/giridhar.nayak/posts/10154287940841049",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "ngnayak",
+      "proof_url": "https://twitter.com/ngnayak/status/774422021396504576",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ngnayak.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ngnayak.id\"\n"
+}

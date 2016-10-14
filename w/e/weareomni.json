@@ -1,0 +1,61 @@
+{
+  "owner_address": "1GKhzc4EHDmsbmk6pCZEvtMb3mEXx469yU",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "WeAreOmni",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/WeAreOmni/posts/1163446200381727",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Omni",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/omni/status/770723005211217920",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London"
+    },
+    "description": "Making your company better!",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/weareomni",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/weareomni",
+        "name": "cover"
+      }
+    ],
+    "name": "Omni",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://om.ni"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "WeAreOmni",
+      "proof_url": "https://www.facebook.com/WeAreOmni/posts/1163446200381727",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "Omni",
+      "proof_url": "https://twitter.com/omni/status/770723005211217920",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN weareomni.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/weareomni.id\"\n"
+}

@@ -1,0 +1,85 @@
+{
+  "owner_address": "1Jps12Zy4bWhcC5KA65P2bL8cSUbsgcU1A",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "neunon",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/neunon/status/770636891221663744",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tycho.brahe",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/tycho.brahe/posts/10100959620345323",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tycho",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tycho/a19127e90ca2e7b2a5e6be5f248b0c5c",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1E95p7t9KPhSATaE7GrjAWzNk5yfV6yvLL",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/abacusavenger",
+        "identifier": "F8D5F8198DEB070315651A907EACB44BA7B30DB9",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bellevue, WA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/abacusavenger",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/abacusavenger",
+        "name": "cover"
+      }
+    ],
+    "name": "Steven Noonan",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.uplinklabs.net"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "neunon",
+      "proof_url": "https://twitter.com/neunon/status/770636891221663744",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "tycho.brahe",
+      "proof_url": "https://www.facebook.com/tycho.brahe/posts/10100959620345323",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "tycho",
+      "proof_url": "https://gist.github.com/tycho/a19127e90ca2e7b2a5e6be5f248b0c5c",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN abacusavenger.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/abacusavenger.id\"\n"
+}

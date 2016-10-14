@@ -1,46 +1,49 @@
 {
   "owner_address": "18kDieu8zy1hYTPUhwSQ1BqrsTnbLi9r5Z",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/leopsps"
-    },
-    "bio": "Elite nerf shooter, survived 3 zombie apocalypses so far...",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/leopsps"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/email.leops/posts/10208279580176861"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "email.leops",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "email.leops"
+      {
+        "@type": "Account",
+        "identifier": "leops",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/leops/status/761090799765364736",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Rio de Janeiro, BR"
     },
-    "location": {
-      "formatted": "Rio de Janeiro, BR"
-    },
-    "name": {
-      "formatted": "Léo PS"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/leops/status/685029024779866112"
+    "description": "Elite nerf shooter, survived 3 zombie apocalypses so far...",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/leopsps",
+        "name": "avatar"
       },
-      "username": "leops"
-    },
-    "v": "0.2",
-    "website": "http://www.vistoapp.com.br"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/leopsps",
+        "name": "cover"
+      }
+    ],
+    "name": "Léo PS",
+    "website": []
   },
   "verifications": [
     {
       "identifier": "leops",
-      "proof_url": "https://twitter.com/leops/status/685029024779866112",
+      "proof_url": "https://twitter.com/leops/status/761090799765364736",
       "service": "twitter",
       "valid": false
-    },
-    {
-      "identifier": "email.leops",
-      "proof_url": "https://facebook.com/email.leops/posts/10208279580176861",
-      "service": "facebook",
-      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN leopsps.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/leopsps.id\"\n"
 }

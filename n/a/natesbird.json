@@ -1,61 +1,66 @@
 {
   "owner_address": "1GgfpCdv9qDeNzwFRvu1uCj78DyLgbJzc2",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/natesbird"
-    },
-    "bio": "ruby web developer @cardiomems. husband, father, and mormon.",
-    "bitcoin": {
-      "address": "1FK1pjNuzhaAddvqgo1avogAVy3e8e21Cu"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/natesbird"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/nate.s.bird/posts/10101694524980329"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "natesbird",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "nate.s.bird"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/natebird/9590d6b6869b51706adf"
+      {
+        "@type": "Account",
+        "identifier": "natebird",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "natebird"
-    },
-    "location": {
-      "formatted": "Georgia"
-    },
-    "name": {
-      "formatted": "Nate"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/natesbird/status/532714171524067330"
+      {
+        "@type": "Account",
+        "identifier": "1FK1pjNuzhaAddvqgo1avogAVy3e8e21Cu",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "natesbird"
+      {
+        "@type": "Account",
+        "identifier": "nate.s.bird",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/nate.s.bird/posts/10101694524980329",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Georgia"
     },
-    "v": "0.2",
-    "website": "http://natebird.me"
+    "description": "ruby web developer @cardiomems. husband, father, and mormon.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/natesbird",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/natesbird",
+        "name": "cover"
+      }
+    ],
+    "name": "Nate",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://natebird.me"
+      }
+    ]
   },
   "verifications": [
-    {
-      "identifier": "natebird",
-      "proof_url": "https://gist.github.com/natebird/9590d6b6869b51706adf",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "natesbird",
-      "proof_url": "https://twitter.com/natesbird/status/532714171524067330",
-      "service": "twitter",
-      "valid": true
-    },
     {
       "identifier": "nate.s.bird",
       "proof_url": "https://facebook.com/nate.s.bird/posts/10101694524980329",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN natesbird.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/natesbird.id\"\n"
 }

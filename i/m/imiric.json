@@ -1,0 +1,48 @@
+{
+  "owner_address": "139gyUEFNciLnZAhggZNXYetJzHpABvDXG",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "imiric",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/imiric/14264fb9de8708eafa737e1b85550896",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/ivan/key.asc",
+        "identifier": "FFEFEF11DA93FE8D7237DD651E387B83D0301509",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Online"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ivan Mirić",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://imiric.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "imiric",
+      "proof_url": "https://gist.github.com/imiric/14264fb9de8708eafa737e1b85550896",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN imiric.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/imiric.id\"\n"
+}

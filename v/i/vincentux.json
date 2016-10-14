@@ -1,45 +1,40 @@
 {
   "owner_address": "1BJN8TMQyBnPY77uqkKufhYZZfCWdCqowZ",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/vincentux"
-    },
-    "bio": "Web addict, veille numérique ! #manjaro #Linux #libre #yunohost #ucoin #velo",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/vincentux"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/vincent.fraslin/posts/10208302465456338"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "vincenttux",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "vincent.fraslin"
+      {
+        "@type": "Account",
+        "identifier": "vincent.fraslin",
+        "proofType": "http",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "vincentux"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/vincenttux/status/694087062316781568"
+    "description": "Web addict, veille numérique ! #Linux #libre #yunohost #duniter #velo",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/vincentux",
+        "name": "avatar"
       },
-      "username": "vincenttux"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/vincentux",
+        "name": "cover"
+      }
+    ],
+    "name": "vincentux"
   },
-  "verifications": [
-    {
-      "identifier": "vincenttux",
-      "proof_url": "https://twitter.com/vincenttux/status/694087062316781568",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "vincent.fraslin",
-      "proof_url": "https://facebook.com/vincent.fraslin/posts/10208302465456338",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN vincentux.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vincentux.id\"\n"
 }

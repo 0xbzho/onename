@@ -1,0 +1,55 @@
+{
+  "owner_address": "18cGLsa33iiZXH2kZm95TjsaJr2nU8BUn6",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dimhatzo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dimhatzo/status/765491215341092864",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dimhatzo",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dimhatzo/5b67d414739e7f1bab58e5623d904db4",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dimhatzo",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/dimhatzo",
+        "name": "cover"
+      }
+    ],
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.dimhatzo.com/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dimhatzo",
+      "proof_url": "https://twitter.com/dimhatzo/status/765491215341092864",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "dimhatzo",
+      "proof_url": "https://gist.github.com/dimhatzo/5b67d414739e7f1bab58e5623d904db4",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN dimhatzo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dimhatzo.id\"\n"
+}

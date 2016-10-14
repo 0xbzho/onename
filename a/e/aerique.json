@@ -1,0 +1,44 @@
+{
+  "owner_address": "1BPC7CPkhW9x3ByuVquUCHe8Qkt43tV1Nx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "aerique",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/aerique/0178b25811e310e3b6df5e9172a9af62",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "aerique",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/aerique/status/781200339139751936",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "aerique",
+      "proof_url": "https://gist.github.com/aerique/0178b25811e310e3b6df5e9172a9af62",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "aerique",
+      "proof_url": "https://twitter.com/aerique/status/781200339139751936",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN aerique.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/aerique.id\"\n"
+}

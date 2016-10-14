@@ -1,0 +1,44 @@
+{
+  "owner_address": "1LJ6JujeffeBnkr4YAtDQNW3fjyFmUjUBR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nessen",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/nessen/status/775244841773072385",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nessen.ramsamy.3",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/nessen.ramsamy.3/posts/10157364658190398",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "nessen",
+      "proof_url": "https://twitter.com/nessen/status/775244841773072385",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "nessen.ramsamy.3",
+      "proof_url": "https://www.facebook.com/nessen.ramsamy.3/posts/10157364658190398",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN nessen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nessen.id\"\n"
+}

@@ -1,0 +1,55 @@
+{
+  "owner_address": "1AYyUeDwjRZ1wQS93QZWsscC2kNJKivxzP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "merschmax",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/merschmax/posts/1214390305287849",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "MerschMax_",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MerschMax_/status/783259084292231168",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London"
+    },
+    "description": "Investment Analyst @ OpenOcean || Imperial College Alumni",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/maxmersch",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/maxmersch",
+        "name": "cover"
+      }
+    ],
+    "name": "Max Mersch"
+  },
+  "verifications": [
+    {
+      "identifier": "merschmax",
+      "proof_url": "https://www.facebook.com/merschmax/posts/1214390305287849",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "MerschMax_",
+      "proof_url": "https://twitter.com/MerschMax_/status/783259084292231168",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN maxmersch.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/maxmersch.id\"\n"
+}

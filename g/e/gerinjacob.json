@@ -1,0 +1,62 @@
+{
+  "owner_address": "1HDndsAv8KGeBnHMJT7Yvg72gsU4Y39Mm9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gj_kallarackal",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gj_kallarackal/status/778187819814645761",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gerinjacob",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/gerinjacob/posts/10153741885122455",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gerinjacob",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/gerinjacob/ade1fb9122db68bcf4fd02d82511f753",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gerinjacob",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "gj_kallarackal",
+      "proof_url": "https://twitter.com/gj_kallarackal/status/778187819814645761",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "gerinjacob",
+      "proof_url": "https://www.facebook.com/gerinjacob/posts/10153741885122455",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "gerinjacob",
+      "proof_url": "https://gist.github.com/gerinjacob/ade1fb9122db68bcf4fd02d82511f753",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN gerinjacob.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gerinjacob.id\"\n"
+}

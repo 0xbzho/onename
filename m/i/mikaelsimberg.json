@@ -1,0 +1,38 @@
+{
+  "owner_address": "1HV12aSDDycBPtBFEehGtCUGwtSZE4RdpY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/mikaelsimberg/key.asc",
+        "identifier": "C1EC31637EC81F2E42B6766A17FD5019B364B16E",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "msimberg",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/msimberg/12f2cf9cf413410c4391ae3caac663e9",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Mikael Simberg"
+  },
+  "verifications": [
+    {
+      "identifier": "msimberg",
+      "proof_url": "https://gist.github.com/msimberg/12f2cf9cf413410c4391ae3caac663e9",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mikaelsimberg.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mikaelsimberg.id\"\n"
+}

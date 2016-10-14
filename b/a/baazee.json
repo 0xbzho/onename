@@ -1,0 +1,42 @@
+{
+  "owner_address": "13XWuSabgUzVFTTVyimkkPLmGaULq6dWQY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "https://twitter.com/baazeeDe",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/baazeeDe/status/773642791633248260",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1BAazEE4hLK3uPCawz7B6rr1jMpS9Pw3yc",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/baazee",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/baazee",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "https://twitter.com/baazeeDe",
+      "proof_url": "https://twitter.com/baazeeDe/status/773642791633248260",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN baazee.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/baazee.id\"\n"
+}

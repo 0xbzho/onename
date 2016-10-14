@@ -1,0 +1,47 @@
+{
+  "owner_address": "17dSxsLTi9LvPkcAVmjGCBcBoBRi8PWwVe",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "expressvpn",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "expressvpn",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TimotheeGoguely/status/779238837545345024",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Worldwide"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "ExpressVPN",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.expressvpn.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "expressvpn",
+      "proof_url": "https://twitter.com/TimotheeGoguely/status/779238837545345024",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN expressvpn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/expressvpn.id\"\n"
+}

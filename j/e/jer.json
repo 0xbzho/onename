@@ -1,62 +1,76 @@
 {
   "owner_address": "1A6wnRvMQ25jofpEJ7s4E1kezkJsF3nRio",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/jer"
-    },
-    "bio": "Husband, father, programmer, hockey person.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/jer"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/jeremy.tregunna/posts/669681256507099"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/jer",
+        "identifier": "5C6AA4DF33A23BBE82E250A81278B36BA6F5D5E4",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "jeremy.tregunna"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/jeremytregunna/50277251c672e9d5a2ac"
+      {
+        "@type": "Account",
+        "identifier": "jtregunna",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jtregunna/status/767871789783511041",
+        "service": "twitter"
       },
-      "username": "jeremytregunna"
-    },
-    "location": {
-      "formatted": "1 AU from Sol"
-    },
-    "name": {
-      "formatted": "Jeremy Tregunna"
-    },
-    "pgp": {
-      "fingerprint": "D6F1035C880E74CF819CD8B31A042D7269D00255",
-      "url": "https://s3.amazonaws.com/pk9/jer"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/jtregunna/status/657228717291360257"
+      {
+        "@type": "Account",
+        "identifier": "jeremytregunna",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jeremytregunna/700c4d962d924c5cc78a4cbd7a27c397",
+        "service": "github"
       },
-      "username": "jtregunna"
+      {
+        "@type": "Account",
+        "identifier": "jeremy.tregunna",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jeremy.tregunna/posts/803994163075807",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "1 AU from Sol"
     },
-    "v": "0.2",
-    "website": "http://jeremy.tregunna.ca"
+    "description": "Husband, father, programmer, hockey person.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jer",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jer",
+        "name": "cover"
+      }
+    ],
+    "name": "Jeremy Tregunna",
+    "website": []
   },
   "verifications": [
     {
-      "identifier": "jeremytregunna",
-      "proof_url": "https://gist.github.com/jeremytregunna/50277251c672e9d5a2ac",
-      "service": "github",
-      "valid": true
-    },
-    {
       "identifier": "jtregunna",
-      "proof_url": "https://twitter.com/jtregunna/status/657228717291360257",
+      "proof_url": "https://twitter.com/jtregunna/status/767871789783511041",
       "service": "twitter",
       "valid": true
     },
     {
+      "identifier": "jeremytregunna",
+      "proof_url": "https://gist.github.com/jeremytregunna/700c4d962d924c5cc78a4cbd7a27c397",
+      "service": "github",
+      "valid": false
+    },
+    {
       "identifier": "jeremy.tregunna",
-      "proof_url": "https://facebook.com/jeremy.tregunna/posts/669681256507099",
+      "proof_url": "https://www.facebook.com/jeremy.tregunna/posts/803994163075807",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN jer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jer.id\"\n"
 }

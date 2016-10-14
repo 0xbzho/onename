@@ -1,0 +1,56 @@
+{
+  "owner_address": "1KGRQUXSyDM8fEuFCiNBRzacewFmFUCKGq",
+  "profile": {
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "http://www.facebook.com/RonandSunny",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/redlew79",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "redlew2011",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/redlew2011/status/781963228972617728",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "United States",
+      "addressLocality": "Bismarck, ND ",
+      "postalCode": "58501",
+      "streetAddress": "504 N 17th St "
+    },
+    "birthDate": "10/23/1979",
+    "description": "I'm a welder that also loves computers, wierd, right?",
+    "familyName": "Hoskins",
+    "givenName": "Ron",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://photos.google.com/photo/AF1QipPC1_MyBRWT3ILscAa3brIvTnpfTYxo82PeKJlb",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "http://www.facebook.com/RonandSunny",
+      "proof_url": "https://onename.com/redlew79",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "redlew2011",
+      "proof_url": "https://twitter.com/redlew2011/status/781963228972617728",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN redlew79.id\n\t$TTL 3600\n\t_http._tcp\tIN\tURI\t10\t1\t\"https://blockstack.s3-us-west-1.amazonaws.com/staging/redlew79.id.json\"\n\n\t"
+}

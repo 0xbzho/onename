@@ -1,0 +1,79 @@
+{
+  "owner_address": "1G9qnY8CDQPipBj4YTzrrtRnjPzaEdw4We",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "SpiryMedia",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/SpiryMedia/1591f98c0a57eee08d7d8a5f6813675d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "SpiryBTC",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SpiryBTC/status/770093347071483909",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "spiryx",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/spiryx/posts/1098396360244750",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1SpiryFrtwcGJr3gTd7UL5wuDvAu3TEYf",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Romania"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/spirybtc",
+        "name": "avatar"
+      }
+    ],
+    "name": "Paun Gabriel Razvan",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://spiry.io"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "SpiryMedia",
+      "proof_url": "https://gist.github.com/SpiryMedia/1591f98c0a57eee08d7d8a5f6813675d",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "SpiryBTC",
+      "proof_url": "https://twitter.com/SpiryBTC/status/770093347071483909",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "spiryx",
+      "proof_url": "https://www.facebook.com/spiryx/posts/1098396360244750",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN spirybtc.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/spirybtc.id\"\n"
+}

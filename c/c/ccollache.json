@@ -1,6 +1,62 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1XK614vGLrUZYRahviZ8XCupu3LF7uPjb",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ccollache",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ccollache/status/761135872561610752",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "clement.collache",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/Clement.Collache/posts/10208180461163966",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https:",
+        "proofType": "http",
+        "proofUrl": "https://gist.githubusercontent.com/ccollache/e34335418e5c200f5c3a3e71803c5b64/raw/279c599de34994e637b16dea2f4b378e5e716256/onename",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ccollache",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ccollache",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ccollache",
+      "proof_url": "https://twitter.com/ccollache/status/761135872561610752",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "clement.collache",
+      "proof_url": "https://www.facebook.com/Clement.Collache/posts/10208180461163966",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "https:",
+      "proof_url": "https://gist.githubusercontent.com/ccollache/e34335418e5c200f5c3a3e71803c5b64/raw/279c599de34994e637b16dea2f4b378e5e716256/onename",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ccollache.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ccollache.id\"\n"
 }

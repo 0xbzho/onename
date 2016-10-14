@@ -1,46 +1,61 @@
 {
   "owner_address": "17S6HNM69fWR61j1u5NRAKsKDHMZGnUxNA",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/ecrosstexas"
-    },
-    "bio": "A Disciple-Making Disciple, sharing the Gospel of Jesus Christ. Husband. Father of 3. Blogger. Books. Reviews. Texan. Sports. @Teazzers tea. Soli Deo gloria",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/ecrosstexas"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/ecrosstexas/bc15a85e185181f3b7891271fae0911f"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ecrosstexas",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ecrosstexas/9677080cfd9ab47f5f3548a43a4b6e9b",
+        "service": "github"
       },
-      "username": "ecrosstexas"
+      {
+        "@type": "Account",
+        "identifier": "ecrosstexas",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ecrosstexas/status/761629567480045568",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Plano, Texas, north of Dallas"
     },
-    "location": {
-      "formatted": "Plano, Texas, north of Dallas"
-    },
-    "name": {
-      "formatted": "Eric Wallace"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/ecrosstexas/status/714876302147338241"
+    "description": "A Disciple-Making Disciple, sharing the Gospel of Jesus Christ. Husband. Father of 3. Blogger. Books. Reviews. Texan. Sports. @Teazzers tea. Soli Deo gloria",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ecrosstexas",
+        "name": "avatar"
       },
-      "username": "ecrosstexas"
-    },
-    "v": "0.2",
-    "website": "http://ecrosstexas.com/"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ecrosstexas",
+        "name": "cover"
+      }
+    ],
+    "name": "Eric Wallace",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://ecrosstexas.com/"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "ecrosstexas",
-      "proof_url": "https://gist.github.com/ecrosstexas/bc15a85e185181f3b7891271fae0911f",
+      "proof_url": "https://gist.github.com/ecrosstexas/9677080cfd9ab47f5f3548a43a4b6e9b",
       "service": "github",
       "valid": false
     },
     {
       "identifier": "ecrosstexas",
-      "proof_url": "https://twitter.com/ecrosstexas/status/714876302147338241",
+      "proof_url": "https://twitter.com/ecrosstexas/status/761629567480045568",
       "service": "twitter",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN ecrosstexas.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ecrosstexas.id\"\n"
 }

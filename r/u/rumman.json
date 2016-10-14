@@ -1,0 +1,49 @@
+{
+  "owner_address": "1PsMvg9WdbU2BVQJYAAH7KvY8ocWxW2qqT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "RummanIqbal",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RummanIqbal/status/778970185180905473",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rumman.iqbal",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/rumman.iqbal/posts/10153617284376887?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rumman",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rumman",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "RummanIqbal",
+      "proof_url": "https://twitter.com/RummanIqbal/status/778970185180905473",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "rumman.iqbal",
+      "proof_url": "https://www.facebook.com/rumman.iqbal/posts/10153617284376887?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rumman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rumman.id\"\n"
+}

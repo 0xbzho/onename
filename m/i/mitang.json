@@ -1,0 +1,44 @@
+{
+  "owner_address": "18cJ2DNQPuCJksATxva68AyATTLpT3mt7s",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mitang",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mitang/status/777078423076429824",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mitang09",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mitang09/27870f28558e77b9469c0c9058626568",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mitang",
+      "proof_url": "https://twitter.com/mitang/status/777078423076429824",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mitang09",
+      "proof_url": "https://gist.github.com/mitang09/27870f28558e77b9469c0c9058626568",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mitang.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mitang.id\"\n"
+}

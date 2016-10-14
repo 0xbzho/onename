@@ -1,0 +1,62 @@
+{
+  "owner_address": "12HRUedQ8pRUQHokkHcjMxa7p1dMnede5A",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "riberi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/riberi/status/779397836127494148",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ricardo.riberi",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ricardo.riberi/posts/10205446562722984",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ricardoriberi",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ricardoriberi/dcaa4a1e2662cdaef67cc2de64f5cbbb",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brazil"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ricardo Riberi"
+  },
+  "verifications": [
+    {
+      "identifier": "riberi",
+      "proof_url": "https://twitter.com/riberi/status/779397836127494148",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ricardo.riberi",
+      "proof_url": "https://www.facebook.com/ricardo.riberi/posts/10205446562722984",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "ricardoriberi",
+      "proof_url": "https://gist.github.com/ricardoriberi/dcaa4a1e2662cdaef67cc2de64f5cbbb",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN riberi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/riberi.id\"\n"
+}

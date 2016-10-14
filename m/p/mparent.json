@@ -1,0 +1,31 @@
+{
+  "owner_address": "1KFLxKQ6PFYSxq96eJPasYnFQoe6VV56XJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mario.parent.543",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/mparent?post_id=1283593408326640_1283594101659904#/facebook",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mario.parent.543",
+      "proof_url": "https://onename.com/mparent?post_id=1283593408326640_1283594101659904#/facebook",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mparent.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mparent.id\"\n"
+}

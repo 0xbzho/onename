@@ -1,0 +1,45 @@
+{
+  "owner_address": "1QKUR8bxUbd7vPGYjxWqLrHznFBvVN2Am",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "crockwave",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "@ROCKProperties",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Round Rock, TX"
+    },
+    "description": "Philosopher",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rocksoft",
+        "name": "avatar"
+      }
+    ],
+    "name": "Wilbur Brock",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://rockitsystems.com"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN rocksoft.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rocksoft.id\"\n"
+}

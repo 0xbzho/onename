@@ -1,0 +1,57 @@
+{
+  "owner_address": "14GPR7e2AVXbmqdLyYowYNj1XjxKXwYHAc",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rtlechow",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/rtlechow?post_id=10153825879279599_10153825879474599#/facebook",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rtlechow",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rtlechow/status/772252483343224833",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rtlechow",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rtlechow/a988999843363607ba2a6fa324db67d5",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "rtlechow",
+      "proof_url": "https://onename.com/rtlechow?post_id=10153825879279599_10153825879474599#/facebook",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "rtlechow",
+      "proof_url": "https://twitter.com/rtlechow/status/772252483343224833",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "rtlechow",
+      "proof_url": "https://gist.github.com/rtlechow/a988999843363607ba2a6fa324db67d5",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN rtlechow.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rtlechow.id\"\n"
+}

@@ -1,0 +1,86 @@
+{
+  "owner_address": "1Kzb4X8pD37bMqqHC6xdtYGNQLdZ9QHF2R",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1H3ktPNRFfTesESHwvKXcvRZRUcyoAb4Xv",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "weenfan",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/weenfan/posts/10154535248069890",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/weenfan",
+        "identifier": "0xab821febe8474b1d",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "photodiode",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/photodiode/status/781136997431803905",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "weenfan",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/weenfan/70e895905d158ee1ba7fa3a7a570169a",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Diego, California"
+    },
+    "description": "http://identi.fi/#/identities/account/weenfan",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/weenfan",
+        "name": "avatar"
+      }
+    ],
+    "name": "Joshua Jeremy VanNoord",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://keybase.io/weenfan"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "photodiode",
+      "proof_url": "https://twitter.com/photodiode/status/781132388558483459",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "weenfan",
+      "proof_url": "https://gist.github.com/weenfan/11b2a8b5715f9ceae0275567e07ac852#file-onename-txt",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "weenfan",
+      "proof_url": "https://www.facebook.com/weenfan/posts/10154535248069890",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN weenfan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/weenfan.id\"\n"
+}

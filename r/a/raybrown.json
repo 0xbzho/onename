@@ -1,0 +1,85 @@
+{
+  "owner_address": "191EGRsgmHZWYAvg5XeTXtnWn4wpoiY4ii",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "raybrownlive",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/raybrownlive/29f6d960e0593818b534d6dacbc415b4#file-nonane",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "raybrownlive",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RayBrownLIVE/status/777276037226827776",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "raybrownlive",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/raybrownlive/posts/1147827165275485",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "6dcde718e894a30abc6cdeb17b8d414970c32697",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "129MN5pF9MxxfH2KQfRXM61gnunKFxS77E",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Los Angeles, California"
+    },
+    "description": "media producer, musician, entrepreneur, blockchain & bitcoin advocate (Twitter: @nioctiB)",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/raybrown",
+        "name": "avatar"
+      }
+    ],
+    "name": "Ray Brown",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://raybrownlive.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "raybrownlive",
+      "proof_url": "https://gist.github.com/raybrownlive/29f6d960e0593818b534d6dacbc415b4#file-nonane",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "raybrownlive",
+      "proof_url": "https://twitter.com/RayBrownLIVE/status/777276037226827776",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "raybrownlive",
+      "proof_url": "https://www.facebook.com/raybrownlive/posts/1147827165275485",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN raybrown.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/raybrown.id\"\n"
+}

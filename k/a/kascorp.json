@@ -1,0 +1,80 @@
+{
+  "owner_address": "1LhXM5ZTKN3pDiy1VKyAtUNtGdFzFVCvXL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kascor",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kascor/status/766727672626049024",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kascorru",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/kascorru/posts/1415229171821425?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kas-cor",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/kas-cor/1cb5242aa8e87d14ddf7b41d8fdfee95",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "635ed5cbc6409342c674a186a4e7fe1a21fc83cc",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/kascorru/posts/1415229171821425?pnref=story",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Russia"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kascorp",
+        "name": "avatar"
+      }
+    ],
+    "name": "Alexander",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://kas-cor.ru"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "kascor",
+      "proof_url": "https://twitter.com/kascor/status/766727672626049024",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "kascorru",
+      "proof_url": "https://www.facebook.com/kascorru/posts/1415229171821425?pnref=story",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "kas-cor",
+      "proof_url": "https://gist.github.com/kas-cor/1cb5242aa8e87d14ddf7b41d8fdfee95",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN kascorp.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kascorp.id\"\n"
+}

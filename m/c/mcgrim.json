@@ -1,0 +1,42 @@
+{
+  "owner_address": "1NH4Pha89YrQC3pUgFjmNaj8LvVmN15uks",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/mcgrim",
+        "identifier": "1FC376D11B3423C839B526D0CDB5507125DCED6C",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "@rgrimmelikhuyse",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RGrimmelikhuyse/status/775691475787116544",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Enschede, The Netherlands"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Robin Grimmelikhuyse"
+  },
+  "verifications": [
+    {
+      "identifier": "@rgrimmelikhuyse",
+      "proof_url": "https://twitter.com/RGrimmelikhuyse/status/775691475787116544",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mcgrim.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mcgrim.id\"\n"
+}

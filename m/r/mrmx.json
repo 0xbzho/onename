@@ -5,21 +5,23 @@
     "account": [
       {
         "@type": "Account",
+        "identifier": "1KGbuQV1stczYd8AXjF3E5gqt97Qh2nCYB",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
         "identifier": "mrmx",
         "proofType": "http",
+        "proofUrl": "https://twitter.com/mrmx/status/781457727595872256",
         "service": "twitter"
       },
       {
         "@type": "Account",
         "identifier": "manuel.polo",
         "proofType": "http",
+        "proofUrl": "https://www.facebook.com/manuel.polo/posts/10154533856573536",
         "service": "facebook"
-      },
-      {
-        "@type": "Account",
-        "identifier": "1KGbuQV1stczYd8AXjF3E5gqt97Qh2nCYB",
-        "role": "payment",
-        "service": "bitcoin"
       },
       {
         "@type": "Account",
@@ -55,6 +57,18 @@
     ]
   },
   "verifications": [
+    {
+      "identifier": "mrmx",
+      "proof_url": "https://twitter.com/mrmx/status/781457727595872256",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "manuel.polo",
+      "proof_url": "https://www.facebook.com/manuel.polo/posts/10154533856573536",
+      "service": "facebook",
+      "valid": false
+    },
     {
       "identifier": "mrmx",
       "proof_url": "https://gist.github.com/mrmx/429a96da12024feaef6f",

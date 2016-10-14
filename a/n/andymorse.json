@@ -1,0 +1,54 @@
+{
+  "owner_address": "1FacRuuPsshdqshzVPBiTeb8tLfC2J5dQr",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "c_a_morse",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/c_a_morse/status/768873246674395136",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "AndyCascada",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/AndyCascada/7db30c42565220cdf3b3d1cd7ba773bd#file-blockchain-setup",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seattle, WA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/gQZ.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/andymorse",
+        "name": "avatar"
+      }
+    ],
+    "name": "Andy Morse"
+  },
+  "verifications": [
+    {
+      "identifier": "c_a_morse",
+      "proof_url": "https://twitter.com/c_a_morse/status/768873246674395136",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "AndyCascada",
+      "proof_url": "https://gist.github.com/AndyCascada/7db30c42565220cdf3b3d1cd7ba773bd#file-blockchain-setup",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN andymorse.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/andymorse.id\"\n"
+}

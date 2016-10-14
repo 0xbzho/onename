@@ -1,6 +1,67 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1E6MthkJEEhYfMhL5KEUX1ZtxqLk8MVxDG",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "miketrap",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/miketrap/status/760851496409845760",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "miketrap",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/miketrap/posts/10153768747286409",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1JU7kBw6gu8iCdVJpqkXH7Gb4LCv36Q2gm",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boston, MA"
+    },
+    "description": "Venture storyteller.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/miketrap",
+        "name": "avatar"
+      }
+    ],
+    "name": "Michael Troiano",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://about.me/miketrap"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "miketrap",
+      "proof_url": "https://twitter.com/miketrap/status/760851496409845760",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "miketrap",
+      "proof_url": "https://www.facebook.com/miketrap/posts/10153768747286409",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN miketrap.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/miketrap.id\"\n"
 }

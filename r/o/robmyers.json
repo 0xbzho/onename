@@ -1,56 +1,74 @@
 {
   "owner_address": "13xC18QtarcGmmrruMxKoVeACuia6RnkaH",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/robmyers"
-    },
-    "bio": "Artist, hacker, writer.",
-    "bitcoin": {
-      "address": "1JdMeteXJ8P1V3g7GAuQiTALT39z9nMSXD"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/robmyers"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/r0bmyers/posts/10153346463314655"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/robmyers",
+        "identifier": "BAC0AECE40FC64EF6A4962B67915730AA4ED5999",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "r0bmyers"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/robmyers/4d88ebe065863d13a9a5"
+      {
+        "@type": "Account",
+        "identifier": "199yNrovW3eYPmGfh7fXSuLiJuGhZstXuA",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "robmyers"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/robmyers"
-    },
-    "location": {
-      "formatted": "Vancouver, BC"
-    },
-    "name": {
-      "formatted": "Rob Myers"
-    },
-    "pgp": {
-      "fingerprint": "BAC0AECE40FC64EF6A4962B67915730AA4ED5999",
-      "url": "https://s3.amazonaws.com/pk9/robmyers"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/robmyers/status/608431104845074433"
+      {
+        "@type": "Account",
+        "identifier": "robmyers",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/robmyers/status/786407524417216513",
+        "service": "twitter"
       },
-      "username": "robmyers"
+      {
+        "@type": "Account",
+        "identifier": "r0bmyers",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/r0bmyers/posts/10154578387804655",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "robmyers",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/robmyers/f3e2a7b2a448954f5cfc834690b00324",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Vancouver, BC"
     },
-    "v": "0.2",
-    "website": "https://robmyers.org/"
+    "description": "Artist, hacker, writer.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/robmyers",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/robmyers",
+        "name": "cover"
+      }
+    ],
+    "name": "Rob Myers",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://robmyers.org/"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "robmyers",
       "proof_url": "https://gist.github.com/robmyers/4d88ebe065863d13a9a5",
       "service": "github",
-      "valid": true
+      "valid": false
     },
     {
       "identifier": "robmyers",
@@ -64,5 +82,6 @@
       "service": "facebook",
       "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN robmyers.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/robmyers.id\"\n"
 }

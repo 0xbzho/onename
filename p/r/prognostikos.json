@@ -1,6 +1,57 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1AvxDyCA6EX1BxQYgp732wxgtgTb7GRNap",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://pgp.mit.edu/pks/lookup?op=get&search=0x1E3668A2A42B3FC3",
+        "identifier": "B3098CF843B4FC0A36B787751E3668A2A42B3FC3",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "prognostikos",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/prognostikos/be56b55f4421f56563918227817dcdf9",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "prognostikos",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/prognostikos/status/740771410394681344",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/prognostikos",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Matt Rohrer"
+  },
+  "verifications": [
+    {
+      "identifier": "prognostikos",
+      "proof_url": "https://gist.github.com/prognostikos/be56b55f4421f56563918227817dcdf9",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "prognostikos",
+      "proof_url": "https://twitter.com/prognostikos/status/740771410394681344",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN prognostikos.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/prognostikos.id\"\n"
 }

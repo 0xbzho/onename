@@ -1,0 +1,58 @@
+{
+  "owner_address": "1M5baEGTGe1hj7BGwgjYVzRvHZyhdpK96D",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "KennethVdBerghe",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/KennethVdBerghe/status/768975838519840768",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kenneth.vandenberghe.1",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/kenneth.vandenberghe.1/posts/10154489970841289",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kennethvandenberghe",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/kennethvandenberghe/8d5b2c12f766e440d1855be3262f74ba",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Kenneth Van den Berghe"
+  },
+  "verifications": [
+    {
+      "identifier": "KennethVdBerghe",
+      "proof_url": "https://twitter.com/KennethVdBerghe/status/768975838519840768",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "kenneth.vandenberghe.1",
+      "proof_url": "https://www.facebook.com/kenneth.vandenberghe.1/posts/10154489970841289",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "kennethvandenberghe",
+      "proof_url": "https://gist.github.com/kennethvandenberghe/8d5b2c12f766e440d1855be3262f74ba",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN kennethvdberghe.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kennethvdberghe.id\"\n"
+}

@@ -1,41 +1,67 @@
 {
   "owner_address": "13PqQX17VZqvzTMc889w9PxcWp13HFrRJC",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/sherylcarr"
-    },
-    "bio": "Inspired by Wanderlust, Yoga & Bitcoin",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/sherylcarr"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/sherylcarr"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Sheryl Carr"
-    },
-    "pgp": {
-      "url": "https://s3.amazonaws.com/pk9/sherylcarr"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/scarrbondale/status/543559073057087488"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/sherylcarr",
+        "identifier": null,
+        "service": "pgp"
       },
-      "username": "scarrbondale"
+      {
+        "@type": "Account",
+        "identifier": "scarrbondale",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/scarrbondale/status/782339668138262528",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "scarrbondale",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/scarrbondale/dc4abeb82c2ad5fd65d4070c5ae683b8",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "v": "0.2",
-    "website": "http://QuidSystems.com"
+    "description": "Inspired by Wanderlust, Yoga & Bitcoin",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sherylcarr",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/sherylcarr",
+        "name": "cover"
+      }
+    ],
+    "name": "Sheryl Carr",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://QuidSystems.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "scarrbondale",
-      "proof_url": "https://twitter.com/scarrbondale/status/543559073057087488",
+      "proof_url": "https://twitter.com/scarrbondale/status/782339668138262528",
       "service": "twitter",
       "valid": true
+    },
+    {
+      "identifier": "scarrbondale",
+      "proof_url": "https://gist.github.com/scarrbondale/dc4abeb82c2ad5fd65d4070c5ae683b8",
+      "service": "github",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN sherylcarr.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sherylcarr.id\"\n"
 }

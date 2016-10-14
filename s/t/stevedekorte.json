@@ -1,58 +1,52 @@
 {
   "owner_address": "1NgnZ79zP2MTtENHmB2XDEDy3Pgk6a8mSA",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/stevedekorte"
-    },
-    "bio": "lead at voluntary.net",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/stevedekorte"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/stevedekorte/posts/10156812055005511"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "stevedekorte",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "stevedekorte"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/stevedekorte/60a9363f2a7be9a95a156bdcd44c9096"
+      {
+        "@type": "Account",
+        "identifier": "stevedekorte",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "stevedekorte"
+      {
+        "@type": "Account",
+        "identifier": "stevedekorte",
+        "proofType": "http",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco"
     },
-    "location": {
-      "formatted": "San Francisco"
-    },
-    "name": {
-      "formatted": "Steve Dekorte"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/stevedekorte/status/723323565160828929"
+    "description": "lead at voluntary.net",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/stevedekorte",
+        "name": "avatar"
       },
-      "username": "stevedekorte"
-    },
-    "v": "0.2",
-    "website": "http://dekorte.com"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/stevedekorte",
+        "name": "cover"
+      }
+    ],
+    "name": "Steve Dekorte",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://dekorte.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "stevedekorte",
-      "proof_url": "https://gist.github.com/stevedekorte/60a9363f2a7be9a95a156bdcd44c9096",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "stevedekorte",
-      "proof_url": "https://twitter.com/stevedekorte/status/723323565160828929",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "stevedekorte",
-      "proof_url": "https://facebook.com/stevedekorte/posts/10156812055005511",
-      "service": "facebook",
-      "valid": false
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN stevedekorte.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stevedekorte.id\"\n"
 }

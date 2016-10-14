@@ -1,0 +1,51 @@
+{
+  "owner_address": "14B49q2ETUJhPfYTHSNrkBjxbA3YzndQp5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "marcusosterberg",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/marcusosterberg/status/763870022200623104",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "marcusosterberg",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/marcusosterberg/6604a89d87e992648968de3318eb48ba#file-dfsf",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Marcus Österberg",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://webbstrategiforalla.se"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "marcusosterberg",
+      "proof_url": "https://twitter.com/marcusosterberg/status/763870022200623104",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "marcusosterberg",
+      "proof_url": "https://gist.github.com/marcusosterberg/6604a89d87e992648968de3318eb48ba#file-dfsf",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN marcusosterberg.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/marcusosterberg.id\"\n"
+}

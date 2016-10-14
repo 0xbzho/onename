@@ -1,0 +1,62 @@
+{
+  "owner_address": "12K7oDGCbU18X9bKdVdEVebR3mf5shg3xL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "a_l_e_c_o",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/a_l_e_c_o/status/769810849284239362",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "aleco.vortex",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/aleco.vortex/posts/271941203198975",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "aleco-vortex",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/aleco-vortex/2e6c6e9c594e299c04a6ce16b8db0b0b",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/a_l_e_c_o",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "a_l_e_c_o",
+      "proof_url": "https://twitter.com/a_l_e_c_o/status/769810849284239362",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "aleco.vortex",
+      "proof_url": "https://www.facebook.com/aleco.vortex/posts/271941203198975",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "aleco-vortex",
+      "proof_url": "https://gist.github.com/aleco-vortex/2e6c6e9c594e299c04a6ce16b8db0b0b",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN a_l_e_c_o.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/a_l_e_c_o.id\"\n"
+}

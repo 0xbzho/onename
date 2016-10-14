@@ -1,0 +1,68 @@
+{
+  "owner_address": "18AAJPhQhWq65GNQFZpQvkkKUU6smqNcAu",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "quantsegu",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/quantsegu/status/766952971808542721",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "quantsegu",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/quantsegu/bd75a4cdb5bc9dd4ef78ac985b415167#file-gistfile1-txt",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "shreshti",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/shreshti/posts/10154878339754879",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Maastricht, Netherlands"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Lakshmi Narayana Segu",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://shresht1.wixsite.com/techifybiz"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "quantsegu",
+      "proof_url": "https://twitter.com/quantsegu/status/766952971808542721",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "quantsegu",
+      "proof_url": "https://gist.github.com/quantsegu/bd75a4cdb5bc9dd4ef78ac985b415167#file-gistfile1-txt",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "shreshti",
+      "proof_url": "https://www.facebook.com/shreshti/posts/10154878339754879",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN quantsegu.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/quantsegu.id\"\n"
+}

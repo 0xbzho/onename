@@ -1,39 +1,49 @@
 {
   "owner_address": "1GkNDhXHh1xp2nvvVWBreAzZZDBddTLLjH",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "278f2e1a83bbe051a556be683b3c9139d28818e0",
-        "service": "openbazaar"
+        "identifier": "unsystemize",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/unsystemize/status/764976970836783104",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "veleiro",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/veleiro/c505ffd5754a947520698380b26d4128",
+        "service": "github"
       }
     ],
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/IHL.jpg"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Annapolis, MD"
     },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/veleiro/ee5245a3f45201edbf655d601334d977"
-      },
-      "username": "veleiro"
-    },
-    "location": {
-      "formatted": "Annapolis, MD"
-    },
-    "name": {
-      "formatted": "Taylor Gunnoe"
-    },
-    "twitter": {
-      "username": "gnuslashanarchy"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Taylor Gunnoe"
   },
   "verifications": [
     {
-      "identifier": "veleiro",
-      "proof_url": "https://gist.github.com/veleiro/ee5245a3f45201edbf655d601334d977",
-      "service": "github",
+      "identifier": "unsystemize",
+      "proof_url": "https://twitter.com/unsystemize/status/764976970836783104",
+      "service": "twitter",
       "valid": true
+    },
+    {
+      "identifier": "veleiro",
+      "proof_url": "https://gist.github.com/veleiro/c505ffd5754a947520698380b26d4128",
+      "service": "github",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN digitaldoom.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/digitaldoom.id\"\n"
 }

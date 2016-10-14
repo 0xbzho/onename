@@ -1,0 +1,60 @@
+{
+  "owner_address": "1Dx79zdyYh2GwyiTkirvqXDrCgmpscwpyZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1ettHtqNk7aGpy6H5jrFVXjG5QQ3djxnN",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "BillyC333",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/BillyC333/status/775730063031541761",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "genghis-tron",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/genghis-tron/b4c95b79d7c53cff963023ddf4d105ef",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "NJ"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/williamconnors",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/williamconnors",
+        "name": "cover"
+      }
+    ],
+    "name": "William Connors"
+  },
+  "verifications": [
+    {
+      "identifier": "BillyC333",
+      "proof_url": "https://twitter.com/BillyC333/status/775730063031541761",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "genghis-tron",
+      "proof_url": "https://gist.github.com/genghis-tron/b4c95b79d7c53cff963023ddf4d105ef",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN williamconnors.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/williamconnors.id\"\n"
+}

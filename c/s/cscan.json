@@ -1,39 +1,85 @@
 {
   "owner_address": "1GxAFm8DBBELtySyh4CdrXXUAVuwAyf5mJ",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/cscan"
-    },
-    "bitcoin": {
-      "address": "1KnrshKmtK3KTMCWLpGot6iv9a6Xo7bQuA"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/2wu.jpeg"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Christopher Scanlan"
-    },
-    "pgp": {
-      "url": "https://keybase.io/cscan/key.asc"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/darvvin/status/568090174065905664"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1KnrshKmtK3KTMCWLpGot6iv9a6Xo7bQuA",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "darvvin"
+      {
+        "@type": "Account",
+        "identifier": "darvvin",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/darvvin/00ab5a9d8c9b300ed6f1ccc97e8c9836",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "darvvin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/darvvin/status/767699926285508608",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cscan",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/cscan/posts/10155307140238975",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/cscan/key.asc",
+        "identifier": "B62212F53F5FC27BFB3BE4AFEC807EDF717B438D",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "v": "0.2",
-    "website": "http://www.scanland.net"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cscan",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Christopher Scanlan",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.scanland.net"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "darvvin",
-      "proof_url": "https://twitter.com/darvvin/status/568090174065905664",
+      "proof_url": "https://gist.github.com/darvvin/00ab5a9d8c9b300ed6f1ccc97e8c9836",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "darvvin",
+      "proof_url": "https://twitter.com/darvvin/status/767699926285508608",
       "service": "twitter",
       "valid": true
+    },
+    {
+      "identifier": "cscan",
+      "proof_url": "https://www.facebook.com/cscan/posts/10155307140238975",
+      "service": "facebook",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN cscan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cscan.id\"\n"
 }

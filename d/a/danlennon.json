@@ -1,16 +1,21 @@
 {
   "owner_address": "145LaZWumon8qD9YNqxJjVzh4yB3kMTu9M",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/HHE.jpg"
+    "@type": "Person",
+    "account": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris"
     },
-    "location": {
-      "formatted": "Paris"
-    },
-    "name": {
-      "formatted": "Daniel Lennon"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/danlennon",
+        "name": "cover"
+      }
+    ],
+    "name": "Daniel Lennon"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN danlennon.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/danlennon.id\"\n"
 }

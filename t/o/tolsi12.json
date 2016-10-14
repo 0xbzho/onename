@@ -1,0 +1,74 @@
+{
+  "owner_address": "1HFcsxKaAnnkje3RGxpVozisLtgn5JhYQE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Tolsi",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Tolsi/45b957f5a021e4af9838882eb1a02a20",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tolsi12",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tolsi12/status/774181691749376001",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tolsi.ru",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/tolsi.ru/posts/1211034958944349",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Moscow"
+    },
+    "description": "Scala developer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tolsi12",
+        "name": "avatar"
+      }
+    ],
+    "name": "Sergey Tolmachev",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://tolsi.ru"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Tolsi",
+      "proof_url": "https://gist.github.com/Tolsi/45b957f5a021e4af9838882eb1a02a20",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "tolsi12",
+      "proof_url": "https://twitter.com/tolsi12/status/774181691749376001",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "tolsi.ru",
+      "proof_url": "https://www.facebook.com/tolsi.ru/posts/1211034958944349",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tolsi12.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tolsi12.id\"\n"
+}

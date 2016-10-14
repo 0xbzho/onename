@@ -1,0 +1,49 @@
+{
+  "owner_address": "1opF82hSshUeu1D8V8tEXDDNvjMp4v2an",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "lcosent",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/lcosent/status/766915731913007104",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lucacosentino",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/lucacosentino/posts/10210399583202928",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Luca Cosentino"
+  },
+  "verifications": [
+    {
+      "identifier": "lcosent",
+      "proof_url": "https://twitter.com/lcosent/status/766915731913007104",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "lucacosentino",
+      "proof_url": "https://www.facebook.com/lucacosentino/posts/10210399583202928",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN lucacosentino.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lucacosentino.id\"\n"
+}

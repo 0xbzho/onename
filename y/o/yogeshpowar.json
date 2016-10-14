@@ -1,0 +1,55 @@
+{
+  "owner_address": "1C5d9ctxEPW4DiKg8hG1Dn2hNqoNavqxMH",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "yogeshpowar",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/yogeshpowar/status/769584305177853952",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "yogeshpowar",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/yogeshpowar/c17bde93e2e4b26580d78e3253800c00",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "India"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Yogesh Ashok Powar",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://yogeshpowar14982.blogspot.in/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "yogeshpowar",
+      "proof_url": "https://twitter.com/yogeshpowar/status/769584305177853952",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "yogeshpowar",
+      "proof_url": "https://gist.github.com/yogeshpowar/c17bde93e2e4b26580d78e3253800c00",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN yogeshpowar.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/yogeshpowar.id\"\n"
+}

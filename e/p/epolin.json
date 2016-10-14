@@ -1,6 +1,67 @@
 {
-  "owner_address": "127MTi7PdgnrQnNhd7FMjb6EU3yK2GUDSg",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1JdKAa7ntjvztnZhPtBt3jeYoLu4KtFkgA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "emppolin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/emppolin/status/759766326537773056",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "emppolin",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/emppolin/249e32d10a45c4e05ac405681bbd18d9",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "eric@polin.com",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/eric.polin.35/posts/130382657401506",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Fribourg en Nuithonie"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/epolin",
+        "name": "avatar"
+      }
+    ],
+    "name": "Eric Polin"
+  },
+  "verifications": [
+    {
+      "identifier": "emppolin",
+      "proof_url": "https://twitter.com/emppolin/status/759766326537773056",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "emppolin",
+      "proof_url": "https://gist.github.com/emppolin/249e32d10a45c4e05ac405681bbd18d9",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "eric@polin.com",
+      "proof_url": "https://www.facebook.com/eric.polin.35/posts/130382657401506",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN epolin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/epolin.id\"\n"
 }

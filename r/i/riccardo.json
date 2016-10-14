@@ -1,46 +1,54 @@
 {
   "owner_address": "1KfDsnZNzqeWDiBaPHbtcNoeQ5Tz7AjWKR",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/riccardo"
-    },
-    "bio": "Programmer, musician, reader, learner, horse hoof trimmer wannabe.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/riccardo"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/riccardomarotti/c5f32b0a944a6f198491"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "riccardomarotti",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/riccardomarotti/2702a2c587bcbcc6122e22b9a794f3dc",
+        "service": "github"
       },
-      "username": "riccardomarotti"
+      {
+        "@type": "Account",
+        "identifier": "riccardomarotti",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/riccardomarotti/status/658663760991768576",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Arceto"
     },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/riccardo"
-    },
-    "location": {
-      "formatted": "Arceto"
-    },
-    "name": {
-      "formatted": "Riccardo Marotti"
-    },
-    "pgp": {
-      "url": "https://s3.amazonaws.com/pk9/riccardo"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/riccardomarotti/status/658663760991768576"
+    "description": "Programmer, musician, reader, learner, horse hoof trimmer wannabe.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/riccardo",
+        "name": "cover"
       },
-      "username": "riccardomarotti"
-    },
-    "v": "0.2",
-    "website": "http://riccardomarotti.com"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/riccardo",
+        "name": "avatar"
+      }
+    ],
+    "name": "Riccardo Marotti",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://riccardomarotti.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "riccardomarotti",
-      "proof_url": "https://gist.github.com/riccardomarotti/c5f32b0a944a6f198491",
+      "proof_url": "https://gist.github.com/riccardomarotti/2702a2c587bcbcc6122e22b9a794f3dc",
       "service": "github",
-      "valid": true
+      "valid": false
     },
     {
       "identifier": "riccardomarotti",
@@ -49,5 +57,5 @@
       "valid": true
     }
   ],
-  "zone_file": {}
+  "zone_file": "$ORIGIN riccardo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/riccardo.id\"\n"
 }

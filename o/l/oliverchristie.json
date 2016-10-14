@@ -1,0 +1,67 @@
+{
+  "owner_address": "1FwxRc27Rzm8yoWDpXXDqYa7aUV13PibYC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "oliverchristie",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/OliverChristie/status/774762090309484545",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "oliverchristie",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/oliverchristie/6ff1d40876897f24152855c0a2df428b",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "otnchristie0",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/oliverchristie0/posts/10207161684348938?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/oliverchristie",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/oliverchristie",
+        "name": "cover"
+      }
+    ],
+    "name": "Oliver Christie"
+  },
+  "verifications": [
+    {
+      "identifier": "oliverchristie",
+      "proof_url": "https://twitter.com/OliverChristie/status/774762090309484545",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "oliverchristie",
+      "proof_url": "https://gist.github.com/oliverchristie/6ff1d40876897f24152855c0a2df428b",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "otnchristie0",
+      "proof_url": "https://www.facebook.com/oliverchristie0/posts/10207161684348938?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN oliverchristie.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/oliverchristie.id\"\n"
+}

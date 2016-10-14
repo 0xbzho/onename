@@ -1,0 +1,28 @@
+{
+  "owner_address": "1NqZd7tqQWFxJw6Y6yURz3vuKxWyaqVHpZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "John Banchy",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jbanchy",
+        "name": "avatar"
+      }
+    ],
+    "name": "John Banchy"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN jbanchy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jbanchy.id\"\n"
+}

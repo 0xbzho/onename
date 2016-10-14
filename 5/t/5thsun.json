@@ -1,0 +1,41 @@
+{
+  "owner_address": "1JfrNHsjvUGVCh3CvgqfXqdghrzrg8od72",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "5thsun",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/5thsun/status/776427516768714753",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Toronto, Canada"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/5thsun",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/5thsun",
+        "name": "cover"
+      }
+    ],
+    "name": "Luis V. Aguila"
+  },
+  "verifications": [
+    {
+      "identifier": "5thsun",
+      "proof_url": "https://twitter.com/5thsun/status/776427516768714753",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN 5thsun.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/5thsun.id\"\n"
+}

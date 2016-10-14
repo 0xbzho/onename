@@ -1,64 +1,80 @@
 {
   "owner_address": "1ENmGUDyT4wuM8QTWAv5dvzYc1m1i8WeDS",
   "profile": {
-    "avatar": {
-      "url": "https://scontent-b-sjc.xx.fbcdn.net/hphotos-frc3/t31.0-8/1397423_10153307294600109_2026704056_o.jpg"
-    },
-    "bio": "Founder @ phone.id + pilot for fun",
-    "bitcoin": {
-      "address": "18MHbyBe691o35W6ARr9tSFZXMfxkSeRjf"
-    },
-    "cover": {
-      "url": "https://scontent-b-sjc.xx.fbcdn.net/hphotos-ash4/t31.0-8/1275906_10153287719135109_2064539057_o.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/federico.pomi/posts/10154771242720109"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "18MHbyBe691o35W6ARr9tSFZXMfxkSeRjf",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "federico.pomi"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/fedepo/df2cd2eff2fef028cc39"
+      {
+        "@type": "Account",
+        "identifier": "fedepo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/fedepo/status/762800976512200704",
+        "service": "twitter"
       },
-      "username": "fedepo"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/fede"
-    },
-    "location": {
-      "formatted": "San Francisco & Milan, Italy"
-    },
-    "name": {
-      "formatted": "Federico Pomi"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/fedepo/status/533392211090477056"
+      {
+        "@type": "Account",
+        "identifier": "fedepo",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/fedepo/06da9ecd9fdc50917d2e",
+        "service": "github"
       },
-      "username": "fedepo"
+      {
+        "@type": "Account",
+        "identifier": "federico.pomi",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/federico.pomi/posts/10157185311185109",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco & Milan, Italy"
     },
-    "v": "0.2",
-    "website": "http://www.pomi.net"
+    "description": "Founder @ phone.id + pilot for fun",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://scontent-b-sjc.xx.fbcdn.net/hphotos-ash4/t31.0-8/1275906_10153287719135109_2064539057_o.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/fede",
+        "name": "avatar"
+      }
+    ],
+    "name": "Federico Pomi",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.pomi.net"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "fedepo",
-      "proof_url": "https://gist.github.com/fedepo/df2cd2eff2fef028cc39",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "fedepo",
-      "proof_url": "https://twitter.com/fedepo/status/533392211090477056",
+      "proof_url": "https://twitter.com/fedepo/status/762800976512200704",
       "service": "twitter",
       "valid": true
     },
     {
+      "identifier": "fedepo",
+      "proof_url": "https://gist.github.com/fedepo/06da9ecd9fdc50917d2e",
+      "service": "github",
+      "valid": false
+    },
+    {
       "identifier": "federico.pomi",
-      "proof_url": "https://facebook.com/federico.pomi/posts/10154771242720109",
+      "proof_url": "https://www.facebook.com/federico.pomi/posts/10157185311185109",
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN fede.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fede.id\"\n"
 }

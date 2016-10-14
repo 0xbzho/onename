@@ -1,30 +1,39 @@
 {
   "owner_address": "1HCAJxpwxofmqKWGGAEsUD6PNG5FVdXwKU",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/sergiorc"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sergioreyescervera",
+        "proofType": "http",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Barcelona"
     },
-    "bio": "E-Transformation | Innovation Advisor | Apps & Mobility  Digital Communication | BlockChain | Smart Cities",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/sergiorc"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/sergioreyescervera/posts/1189962364362625"
+    "description": "Digital Transformation | Digital & Online Strategist | Innovation Advisor | Becoming companies to Digital",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/sergiorc",
+        "name": "cover"
       },
-      "username": "sergioreyescervera"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/sergiorc"
-    },
-    "location": {
-      "formatted": "Barcelona"
-    },
-    "name": {
-      "formatted": "Sergio Reyes Cervera"
-    },
-    "v": "0.2",
-    "website": "http://www.sergioreyescervera.com"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sergiorc",
+        "name": "avatar"
+      }
+    ],
+    "name": "Sergio Reyes Cervera",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.sergioreyescervera.com"
+      }
+    ]
   },
   "verifications": [
     {
@@ -34,5 +43,5 @@
       "valid": false
     }
   ],
-  "zone_file": {}
+  "zone_file": "$ORIGIN sergiorc.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sergiorc.id\"\n"
 }

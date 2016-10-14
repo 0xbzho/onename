@@ -1,0 +1,62 @@
+{
+  "owner_address": "1EtskSWF3zDYe9bVHPkefbThW2EXLig4uh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sebastianbrosche",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sebastianbrosc1/status/783203735019352064",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sebastianbrosche",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/sebastianbrosche/1286421581106a78ee6855005db02c43",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sebastian.brosche",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/sebastianbrosche?post_id=10154430893440953_10154430894580953#/facebook",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sebastianbrosche",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "sebastianbrosche",
+      "proof_url": "https://twitter.com/sebastianbrosc1/status/783203735019352064",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "sebastianbrosche",
+      "proof_url": "https://gist.github.com/sebastianbrosche/1286421581106a78ee6855005db02c43",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "sebastian.brosche",
+      "proof_url": "https://onename.com/sebastianbrosche?post_id=10154430893440953_10154430894580953#/facebook",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN sebastianbrosche.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sebastianbrosche.id\"\n"
+}

@@ -1,51 +1,74 @@
 {
   "owner_address": "1KALAowZDCgzVRjTGqm3MhwCWgk8evtxTF",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/ste"
-    },
-    "bio": "Entrepreneur and investor",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/ste"
-    },
-    "facebook": {
-      "username": "stefano"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/stefanobernardi/999249e86b29e27337ee"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "stefano",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/stefano/posts/10157366091405650?pnref=story",
+        "service": "facebook"
       },
-      "username": "stefanobernardi"
-    },
-    "location": {
-      "formatted": "San Francisco, CA"
-    },
-    "name": {
-      "formatted": "Stefano Bernardi"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/stefanobernardi/status/677262557489467392"
+      {
+        "@type": "Account",
+        "identifier": "stefanobernardi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/stefanobernardi/status/766603281472843780",
+        "service": "twitter"
       },
-      "username": "stefanobernardi"
+      {
+        "@type": "Account",
+        "identifier": "stefanobernardi",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/stefanobernardi/88258bb59c0b1beb752fc71b51365b3e",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco, CA"
     },
-    "v": "0.2",
-    "website": "http://bernardi.me"
+    "description": "Entrepreneur and investor",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ste",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ste",
+        "name": "cover"
+      }
+    ],
+    "name": "Stefano Bernardi",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://bernardi.me"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "stefanobernardi",
-      "proof_url": "https://gist.github.com/stefanobernardi/999249e86b29e27337ee",
-      "service": "github",
+      "identifier": "stefano",
+      "proof_url": "https://www.facebook.com/stefano/posts/10157366091405650?pnref=story",
+      "service": "facebook",
       "valid": true
     },
     {
       "identifier": "stefanobernardi",
-      "proof_url": "https://twitter.com/stefanobernardi/status/677262557489467392",
+      "proof_url": "https://twitter.com/stefanobernardi/status/766603281472843780",
       "service": "twitter",
       "valid": true
+    },
+    {
+      "identifier": "stefanobernardi",
+      "proof_url": "https://gist.github.com/stefanobernardi/88258bb59c0b1beb752fc71b51365b3e",
+      "service": "github",
+      "valid": false
     }
   ],
-  "zone_file": {}
+  "zone_file": "$ORIGIN ste.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ste.id\"\n"
 }

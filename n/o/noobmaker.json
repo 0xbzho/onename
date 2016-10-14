@@ -1,0 +1,62 @@
+{
+  "owner_address": "1Pu1pz7HWkNVVK5WGjYarbjcnRWVWZDaos",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "OBNoobMaker",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/OBNoobMaker/status/773432250973220864",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "OBNoobMaker",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/OBNoobMaker/ba52f6f637486ef4d166dfbee1328e60",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "OBNoobMaker",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/OBNoobMaker/posts/124849307969987",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "d8c1e890354f94c167d1bbe65219157c42bd0bc7",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "OBNoobMaker",
+      "proof_url": "https://twitter.com/OBNoobMaker/status/773432250973220864",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "OBNoobMaker",
+      "proof_url": "https://gist.github.com/OBNoobMaker/ba52f6f637486ef4d166dfbee1328e60",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "OBNoobMaker",
+      "proof_url": "https://www.facebook.com/OBNoobMaker/posts/124849307969987",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN noobmaker.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/noobmaker.id\"\n"
+}

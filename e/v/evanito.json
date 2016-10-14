@@ -1,0 +1,61 @@
+{
+  "owner_address": "1JLskSa1ERFmHnjco4u7PqUccS5ATjYoYK",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Evanito",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Evanito/41a3355981df5b34a971b4ac95632556",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "38c23601743f462db65eaabb0c6468af3cb39814",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "17pHGzEiiLsDUGZuEEq5eqW5J4Z",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "evanito_",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/evanito_/status/776322732602503168",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/evanito",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/evanito",
+        "name": "cover"
+      }
+    ],
+    "name": "Evan"
+  },
+  "verifications": [
+    {
+      "identifier": "Evanito",
+      "proof_url": "https://gist.github.com/Evanito/41a3355981df5b34a971b4ac95632556",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "evanito_",
+      "proof_url": "https://twitter.com/evanito_/status/776322732602503168",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN evanito.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/evanito.id\"\n"
+}

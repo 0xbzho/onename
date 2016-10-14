@@ -1,0 +1,54 @@
+{
+  "owner_address": "1DXwputRAGpaUgFRFdaZb6GjDSH2BevoMN",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jibbolo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jibbolo/status/766660199692247040",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jibbolo",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jibbolo/a18e029a7d95a34808fb5f4cc9e302b4",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Italy"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/giacomomarinangeli",
+        "name": "avatar"
+      }
+    ],
+    "name": "Giacomo Marinangeli"
+  },
+  "verifications": [
+    {
+      "identifier": "jibbolo",
+      "proof_url": "https://twitter.com/jibbolo/status/766660199692247040",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jibbolo",
+      "proof_url": "https://gist.github.com/jibbolo/a18e029a7d95a34808fb5f4cc9e302b4",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN giacomomarinangeli.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/giacomomarinangeli.id\"\n"
+}

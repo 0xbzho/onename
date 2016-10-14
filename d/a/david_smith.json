@@ -1,0 +1,67 @@
+{
+  "owner_address": "15Qo4SyGonczgQ6Mr4tVWpLuYaBqnguga2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "diskinetic",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/diskinetic/status/781880823049957377",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "diskinetic",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/diskinetic/posts/10155353004719251?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Verifying that \"david_smith.id\" is my Blockstack ID. https:",
+        "proofType": "http",
+        "proofUrl": "Verifying that \"david_smith.id\" is my Blockstack ID. https://onename.com/david_smith",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "America"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/david_smith",
+        "name": "avatar"
+      }
+    ],
+    "name": "David Smith"
+  },
+  "verifications": [
+    {
+      "identifier": "diskinetic",
+      "proof_url": "https://twitter.com/diskinetic/status/781880823049957377",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "diskinetic",
+      "proof_url": "https://gist.github.com/diskinetic/b709fbe8fd1641175f35c0d26811aa36",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "diskinetic",
+      "proof_url": "https://www.facebook.com/diskinetic/posts/10155353004719251?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN david_smith.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/david_smith.id\"\n"
+}

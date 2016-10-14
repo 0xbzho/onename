@@ -1,0 +1,48 @@
+{
+  "owner_address": "1EHJmi3WTJURr4jENreyrDTk8HXcParknx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "xarene",
+        "proofType": "http",
+        "proofUrl": "http://twitter.com/xarene",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Deserts of salt, sand, ash, ice."
+    },
+    "description": "Patiently impatient.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/xarene",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/xarene",
+        "name": "cover"
+      }
+    ],
+    "name": "Xárene Eskandar",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://xarene.la"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "xarene",
+      "proof_url": "http://twitter.com/xarene",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN xarene.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/xarene.id\"\n"
+}

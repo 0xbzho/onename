@@ -1,0 +1,49 @@
+{
+  "owner_address": "16qgErjtiRxr87qtyycP4N5s77wqgozXGX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "CallmeDhir",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/CallmeDhir/status/778170414950391808",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dhiren.dukhu",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dhiren.dukhu/posts/10157365669265214?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mumbai"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Dhiren Dukhu"
+  },
+  "verifications": [
+    {
+      "identifier": "CallmeDhir",
+      "proof_url": "https://twitter.com/CallmeDhir/status/778170414950391808",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "dhiren.dukhu",
+      "proof_url": "https://www.facebook.com/dhiren.dukhu/posts/10157365669265214?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN sixthdimension.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sixthdimension.id\"\n"
+}

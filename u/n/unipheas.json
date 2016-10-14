@@ -1,0 +1,79 @@
+{
+  "owner_address": "1AJtQPEW2YXrkqpwyZqUqCrGzG4sVFHgVF",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "unipheus",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/unipheus/status/781889408286855169",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "unipheas",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/unipheas/posts/316048775420197",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "unipheas",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/unipheas/4933169490d41d961a84c94dd271e38d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "744d8fa1395bcd0663121482eb6e9f16eeccc0aa",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chengdu, Sichuan, China"
+    },
+    "description": "Co-found & Lead Dev at PolyphasicDevs.com",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/unipheas",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/unipheas",
+        "name": "cover"
+      }
+    ],
+    "name": "Brian Phillips",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.brianphillips.tech"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "unipheus",
+      "proof_url": "https://twitter.com/unipheus/status/781889408286855169",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "unipheas",
+      "proof_url": "https://www.facebook.com/unipheas/posts/316048775420197",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "unipheas",
+      "proof_url": "https://gist.github.com/unipheas/4933169490d41d961a84c94dd271e38d",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN unipheas.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/unipheas.id\"\n"
+}

@@ -1,6 +1,58 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1K5p8hRvisBEoU2NrUcfNVNBFMVhfBz3nU",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tcreasy10",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/tcreasy10/posts/932665020157089?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tacreasy",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tacreasy/status/738349519004442624",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Toronto, Ontario, Canada"
+    },
+    "description": "",
+    "graph": {
+      "url": "https://s3.amazonaws.com/grph/tcreasy"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tcreasy",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/tcreasy",
+        "name": "cover"
+      }
+    ],
+    "name": "Tim Creasy"
+  },
+  "verifications": [
+    {
+      "identifier": "tcreasy10",
+      "proof_url": "https://www.facebook.com/tcreasy10/posts/932665020157089?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "tacreasy",
+      "proof_url": "https://twitter.com/tacreasy/status/738349519004442624",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tcreasy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tcreasy.id\"\n"
 }

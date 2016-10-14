@@ -1,6 +1,58 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1Nrh2Ecn5syjQdfmgd9X7ShJBX8BQ9NBnr",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "glandegger",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/glandegger/posts/1033915206691667",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Glandegger",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/glandegger/status/744609723287240704",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "glandny",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/glandny/c84dd1c9c9fa5b4f6e7197e0649ed065#file-onename",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Gregory Landegger"
+  },
+  "verifications": [
+    {
+      "identifier": "glandegger",
+      "proof_url": "https://www.facebook.com/glandegger/posts/1033915206691667",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "Glandegger",
+      "proof_url": "https://twitter.com/glandegger/status/744609723287240704",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "glandny",
+      "proof_url": "https://gist.github.com/glandny/c84dd1c9c9fa5b4f6e7197e0649ed065#file-onename",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN glandegger.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/glandegger.id\"\n"
 }

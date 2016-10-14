@@ -1,0 +1,44 @@
+{
+  "owner_address": "1CrfJQ7WWibbA4TgUggHTWdFr8AdkM2kEc",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "wunluv",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/wunluv/status/777090076320886785",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "wunluv",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/wunluv/b91745395c56aeb89f04f9128396f016",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "wunluv",
+      "proof_url": "https://twitter.com/wunluv/status/777090076320886785",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "wunluv",
+      "proof_url": "https://gist.github.com/wunluv/b91745395c56aeb89f04f9128396f016",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN wunluv.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wunluv.id\"\n"
+}

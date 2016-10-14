@@ -1,0 +1,64 @@
+{
+  "owner_address": "1HpuacHQ8mXPCv9zmfrLwyMzDyBjGfRo5j",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "AubreyF",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/AubreyF/70e64c31695c504233dc2990dccd4cf4",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/aubreyfalconer",
+        "identifier": "C51A902CA7A3181092F919E52629EE17481D0240",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1JuGvvT5UkgG7JuigyA8G8DqnijvX1MF1i",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "6c68e5cff9b5392d3ddf0e820e2aa1f036cfe7f1",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sandpoint, Idaho"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/aubreyfalconer",
+        "name": "avatar"
+      }
+    ],
+    "name": "Aubrey Falconer",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://AubreyFalconer.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "AubreyF",
+      "proof_url": "https://gist.github.com/AubreyF/70e64c31695c504233dc2990dccd4cf4",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN aubreyfalconer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/aubreyfalconer.id\"\n"
+}

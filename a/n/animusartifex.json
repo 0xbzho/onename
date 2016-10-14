@@ -1,0 +1,73 @@
+{
+  "owner_address": "1DsVPyNu9ZeD4XTA2HhDsodrmTJU4A9pU2",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "animusartifex",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/animusartifex/posts/10209091721404333",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "animusartifex",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/animusartifex/status/768811156035088387",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "animusartifex",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/animusartifex/7359794609d0d6d2fca29dda1e5f660a",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bda3975e718e88f4387cd586cb956faad442b8d1",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "U.S.A."
+    },
+    "description": "@animusartifex",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/animusartifex",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/animusartifex",
+        "name": "cover"
+      }
+    ],
+    "name": "J.R. Koch"
+  },
+  "verifications": [
+    {
+      "identifier": "animusartifex",
+      "proof_url": "https://www.facebook.com/animusartifex/posts/10209091721404333",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "animusartifex",
+      "proof_url": "https://twitter.com/animusartifex/status/768811156035088387",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "animusartifex",
+      "proof_url": "https://gist.github.com/animusartifex/7359794609d0d6d2fca29dda1e5f660a",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN animusartifex.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/animusartifex.id\"\n"
+}

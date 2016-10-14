@@ -1,0 +1,67 @@
+{
+  "owner_address": "1G9aUJW958EGfYWZGZGQL6ZX9S6LtYcHwm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "greenshireinc",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/greenshireinc/status/767832608705224704",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "576cd6f968817b1a338804e957bf308330747432",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/AdversaryPub/status/767840683612712960",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/jer/key.asc",
+        "identifier": null,
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jeremytregunna/832dbc8c786fa91b9a4cb06856a23446",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "1 AU from Sol"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/greenshire",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/greenshire",
+        "name": "avatar"
+      }
+    ],
+    "name": "Greenshire, Inc."
+  },
+  "verifications": [
+    {
+      "identifier": "greenshireinc",
+      "proof_url": "https://twitter.com/greenshireinc/status/767832608705224704",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "",
+      "proof_url": "https://gist.github.com/jeremytregunna/832dbc8c786fa91b9a4cb06856a23446",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN greenshire.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/greenshire.id\"\n"
+}

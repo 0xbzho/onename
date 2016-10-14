@@ -1,0 +1,70 @@
+{
+  "owner_address": "1PwRNN3HjxTnNAnLdbT6yJBqfmyhSygcTt",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sepehrlajevardi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SepehrLajevardi/status/769883036888498176",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sepehr",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/sepehr/e87f2303cc6d3a228f075260975459d9",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sepehrlajevardi",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/sepehrlajevardi/posts/10155187139993047",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1SPHRrc9oCUJa3geB1ejbVNHMMimZiQJE",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "description": "Software Architect & Developer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sepehrlajevardi",
+        "name": "avatar"
+      }
+    ],
+    "name": "Sepehr Lajevardi"
+  },
+  "verifications": [
+    {
+      "identifier": "sepehrlajevardi",
+      "proof_url": "https://twitter.com/SepehrLajevardi/status/769883036888498176",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "sepehr",
+      "proof_url": "https://gist.github.com/sepehr/e87f2303cc6d3a228f075260975459d9",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "sepehrlajevardi",
+      "proof_url": "https://www.facebook.com/sepehrlajevardi/posts/10155187139993047",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN sepehrlajevardi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sepehrlajevardi.id\"\n"
+}

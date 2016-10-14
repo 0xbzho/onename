@@ -1,0 +1,38 @@
+{
+  "owner_address": "1NKRmQuU3iywWDY6GMK6DNfHubVTv3kaMd",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "@CMSHobbies",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/CMSHobbies/status/777503797631258624",
+        "service": "twitter"
+      }
+    ],
+    "description": "Selling Magic the Gathering cards, and hobby items",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cmsgamesandhobbies",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/cmsgamesandhobbies",
+        "name": "cover"
+      }
+    ],
+    "name": "CMS Games and Hobbies"
+  },
+  "verifications": [
+    {
+      "identifier": "@CMSHobbies",
+      "proof_url": "https://twitter.com/CMSHobbies/status/777503797631258624",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN cmsgamesandhobbies.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cmsgamesandhobbies.id\"\n"
+}

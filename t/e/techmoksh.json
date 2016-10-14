@@ -1,0 +1,31 @@
+{
+  "owner_address": "1P98CM9BTEm6SKUc5E9wtDBob79Xcji6ru",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "techmoksh",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/techmoksh/status/769305507316142080",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "techmoksh",
+      "proof_url": "https://twitter.com/techmoksh/status/769305507316142080",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN techmoksh.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/techmoksh.id\"\n"
+}

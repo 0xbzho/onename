@@ -1,0 +1,49 @@
+{
+  "owner_address": "1JoC9Dipjv2zJWfDD1UGSXfX7xJxaCekFP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "JCDNZ",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JCDNZ/status/778352475279466496",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "JCDNZ",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/JCDNZ/posts/10157434417475324?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jcdnz1",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "JCDNZ",
+      "proof_url": "https://twitter.com/JCDNZ/status/778352475279466496",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "JCDNZ",
+      "proof_url": "https://www.facebook.com/JCDNZ/posts/10157434417475324?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jcdnz1.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jcdnz1.id\"\n"
+}

@@ -1,0 +1,40 @@
+{
+  "owner_address": "1LyAyXxKdXwKD8AW8W5vvrqxAC55rHoXtQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "6e9b7266532ac7b841368a1a8cbc44844e169be8",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/asiacollective",
+        "identifier": "9F055A312AC245A209993AA38532E171700664B8",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "19LbEUPNXGVnKAyu76mKviHefUt32MgtpQ",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "OpenBazaar"
+    },
+    "description": "Asia Collective provides fans of Asian media and entertainment a way to purchase products from Asia using Bitcoin.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Asia Collective"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN asiacollective.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/asiacollective.id\"\n"
+}

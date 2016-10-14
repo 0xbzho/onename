@@ -1,0 +1,57 @@
+{
+  "owner_address": "18ids2YAYWNHrGwCy9Rh7GNVLRiT7Fpyg4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "KaioTeoi",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/kovacsaron/9e573f675437799c16e683a243062982",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "teoi_kaio",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/teoi_kaio/status/784437218328899584",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "teokai",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/teokai/3235282e36d65a432bcacd6d194fe7e6",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "KaioTeoi",
+      "proof_url": "https://gist.github.com/kovacsaron/9e573f675437799c16e683a243062982",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "teoi_kaio",
+      "proof_url": "https://twitter.com/teoi_kaio/status/784437218328899584",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "teokai",
+      "proof_url": "https://gist.github.com/teokai/3235282e36d65a432bcacd6d194fe7e6",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN teoi_kaio.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/teoi_kaio.id\"\n"
+}

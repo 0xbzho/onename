@@ -1,0 +1,49 @@
+{
+  "owner_address": "15imR99RwjDvU4KLtkWNn2VwZEL5pgSsJg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "s1lverFoX",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/s1lverFoX/status/771817133172940800",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "s1lvrFoX",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/s1lvrFoX/a063e7ce33ec59e0a78667512d4e81db",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/s1lverfox",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "s1lverFoX",
+      "proof_url": "https://twitter.com/s1lverFoX/status/771817133172940800",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "s1lvrFoX",
+      "proof_url": "https://gist.github.com/s1lvrFoX/a063e7ce33ec59e0a78667512d4e81db",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN s1lverfox.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/s1lverfox.id\"\n"
+}

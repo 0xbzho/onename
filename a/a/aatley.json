@@ -1,10 +1,44 @@
 {
   "owner_address": "16F5kzZtgCvNYch5iQifN463ir12JtzC1B",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/F9g.jpg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Adrian-A",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Adrian-A/e04930875ad500c852fd327ec97aba0e#file-blockstackidverification",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "adrianatley",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/adrianatley/status/774909200300445696",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "Adrian-A",
+      "proof_url": "https://gist.github.com/Adrian-A/e04930875ad500c852fd327ec97aba0e#file-blockstackidverification",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "adrianatley",
+      "proof_url": "https://twitter.com/adrianatley/status/774909200300445696",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN aatley.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/aatley.id\"\n"
 }

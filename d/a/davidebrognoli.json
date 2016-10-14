@@ -1,42 +1,60 @@
 {
   "owner_address": "12HAKmXbCbUyUUoyKuUN197LTt5AuQvkf3",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/davidebrognoli"
-    },
-    "bio": "Co-founder & ITC Specialist presso @CompartoWeb",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/davidebrognoli"
-    },
-    "facebook": {
-      "username": "davide.brognoli"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/davidebrognoli/8ed00e1848d5a329a2bc"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "davide.brognoli",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/davide.brognoli/posts/10154416620327808?pnref=story",
+        "service": "facebook"
       },
-      "username": "davidebrognoli"
-    },
-    "location": {
-      "formatted": "Brescia"
-    },
-    "name": {
-      "formatted": "Davide Brognoli"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/davidebrognoli/status/703949114820726785"
+      {
+        "@type": "Account",
+        "identifier": "davidebrognoli",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/davidebrognoli/status/703949114820726785",
+        "service": "twitter"
       },
-      "username": "davidebrognoli"
+      {
+        "@type": "Account",
+        "identifier": "davidebrognoli",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/davidebrognoli/8ed00e1848d5a329a2bc",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brescia"
     },
-    "v": "0.2",
-    "website": "http://www.dadoelara.net"
+    "description": "Co-founder & ITC Specialist presso @CompartoWeb",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/davidebrognoli",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/davidebrognoli",
+        "name": "cover"
+      }
+    ],
+    "name": "Davide Brognoli",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.dadoelara.net"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "davidebrognoli",
-      "proof_url": "https://gist.github.com/davidebrognoli/8ed00e1848d5a329a2bc",
-      "service": "github",
+      "identifier": "davide.brognoli",
+      "proof_url": "https://www.facebook.com/davide.brognoli/posts/10154416620327808?pnref=story",
+      "service": "facebook",
       "valid": true
     },
     {
@@ -44,6 +62,13 @@
       "proof_url": "https://twitter.com/davidebrognoli/status/703949114820726785",
       "service": "twitter",
       "valid": true
+    },
+    {
+      "identifier": "davidebrognoli",
+      "proof_url": "https://gist.github.com/davidebrognoli/8ed00e1848d5a329a2bc",
+      "service": "github",
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN davidebrognoli.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/davidebrognoli.id\"\n"
 }

@@ -1,0 +1,61 @@
+{
+  "owner_address": "1KXxAykzPq2twLz7AJzJUZ2R7ozsBRmP3a",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "fpitm",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/FPITM/status/785481381929447424",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "fpawczynski",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/fpawczynski/posts/10154525030018604",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Warsaw, Poland"
+    },
+    "description": "https://www.linkedin.com/in/fpawczynski",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/felipeo",
+        "name": "avatar"
+      }
+    ],
+    "name": "Filip Pawczyński",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.fpitm.pl"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "fpitm",
+      "proof_url": "https://twitter.com/FPITM/status/785481381929447424",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "fpawczynski",
+      "proof_url": "https://www.facebook.com/fpawczynski/posts/10154525030018604",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN felipeo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/felipeo.id\"\n"
+}

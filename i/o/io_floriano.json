@@ -1,0 +1,50 @@
+{
+  "owner_address": "1Np38Mw5PQ9YmNHow1cFtoMBBnmbsCYiuv",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "io_floriano",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/io_floriano/status/766614205424435200",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "floriano.bonfigli",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/floriano.bonfigli/posts/10153847054572634",
+        "service": "facebook"
+      }
+    ],
+    "description": "Entrepreneur & Educator",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/io_floriano",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "io_floriano",
+      "proof_url": "https://twitter.com/io_floriano/status/766614205424435200",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "floriano.bonfigli",
+      "proof_url": "https://www.facebook.com/floriano.bonfigli/posts/10153847054572634",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN io_floriano.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/io_floriano.id\"\n"
+}

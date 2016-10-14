@@ -1,0 +1,41 @@
+{
+  "owner_address": "185xo5zYqMyeANzUCCETht3GbiFSUjJsP1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "https://www.facebook.com/manish.gosalia",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/manish.gosalia/posts/10154139466246107?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "India"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/manishg",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/manishg",
+        "name": "cover"
+      }
+    ],
+    "name": "Manish Gosalia"
+  },
+  "verifications": [
+    {
+      "identifier": "https://www.facebook.com/manish.gosalia",
+      "proof_url": "https://www.facebook.com/manish.gosalia/posts/10154139466246107?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN manishg.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/manishg.id\"\n"
+}

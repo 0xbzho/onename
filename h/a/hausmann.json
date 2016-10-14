@@ -1,0 +1,61 @@
+{
+  "owner_address": "1M2fzo9SML74cRCEZYpSHkKfmxox6bpjeq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "roger_hausmann",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/roger_hausmann/status/769548091997327360",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "roger.hausmann",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/roger.hausmann/posts/10210031218314452",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Winterthur"
+    },
+    "description": "Texter, Dozent und Referent",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hausmann",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/hausmann",
+        "name": "cover"
+      }
+    ],
+    "name": "Roger Hausmann",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.schreibwerkstatt.ch/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "roger_hausmann",
+      "proof_url": "https://twitter.com/roger_hausmann/status/769548091997327360",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "roger.hausmann",
+      "proof_url": "https://www.facebook.com/roger.hausmann/posts/10210031218314452",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN hausmann.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hausmann.id\"\n"
+}

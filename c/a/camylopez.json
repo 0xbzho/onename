@@ -1,6 +1,74 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1pBaqPLjQoY9WixFJRSvuxBgEerz3a1gt",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "2ango",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/2ango/status/762977393053081600?lang=en",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "camylopez",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/camylopez/07fc7c88bc9d3eceba99f0d0bfd91b7a",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "littlecamylopez",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/littlecamylopez/posts/10156772638210717?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1SWdpujWXf3TmF7dyjTAWTTSyV68Lx3ks",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "australia"
+    },
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/camylopez",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "cameron mckerrell"
+  },
+  "verifications": [
+    {
+      "identifier": "2ango",
+      "proof_url": "https://twitter.com/2ango/status/762977393053081600?lang=en",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "camylopez",
+      "proof_url": "https://gist.github.com/camylopez/07fc7c88bc9d3eceba99f0d0bfd91b7a",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "littlecamylopez",
+      "proof_url": "https://www.facebook.com/littlecamylopez/posts/10156772638210717?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN camylopez.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/camylopez.id\"\n"
 }

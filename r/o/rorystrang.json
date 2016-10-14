@@ -1,0 +1,37 @@
+{
+  "owner_address": "1CqksVzZ94euwCw3P5HdakuUdvsQZQ2xc5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "burlywood",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/burlywood/status/773842140967337984",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/rorystrang",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rorystrang",
+        "name": "cover"
+      }
+    ],
+    "name": "Rory Strang"
+  },
+  "verifications": [
+    {
+      "identifier": "burlywood",
+      "proof_url": "https://twitter.com/burlywood/status/773842140967337984",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN rorystrang.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rorystrang.id\"\n"
+}

@@ -1,0 +1,49 @@
+{
+  "owner_address": "1HwzD49R73FX2CC5ERTRPDjhG8XdcNMsek",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "monkmr",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/monkmr/posts/10153601496266486?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "DJMAROLINE",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/DJMAROLINE/status/771538933700112384",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/djmaroline",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/djmaroline",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "monkmr",
+      "proof_url": "https://www.facebook.com/monkmr/posts/10153601496266486?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "DJMAROLINE",
+      "proof_url": "https://twitter.com/DJMAROLINE/status/771538933700112384",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN djmaroline.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/djmaroline.id\"\n"
+}

@@ -1,53 +1,59 @@
 {
   "owner_address": "1CguABfRA1cPTRDeCFT27jNSGAwA6cW46b",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/ryanpark"
-    },
-    "bio": "Principal Infrastructure Engineer at @Runscope.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/yvD.jpeg"
-    },
-    "facebook": {
-      "username": "ryan.park"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/RyanGWU82/d9661c52216c0c878f6d"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "StanfordRyan",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "RyanGWU82"
-    },
-    "location": {
-      "formatted": "San Francisco, California, USA"
-    },
-    "name": {
-      "formatted": "Ryan Park"
-    },
-    "pgp": {
-      "fingerprint": "68EBD1F955DE9292E02D145FAB74AD04384070A1",
-      "url": "https://keybase.io/ryanpark/key.asc"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/StanfordRyan/status/599031437841465344"
+      {
+        "@type": "Account",
+        "identifier": "ryan.park",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "StanfordRyan"
+      {
+        "@type": "Account",
+        "identifier": "RyanGWU82",
+        "proofType": "http",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/ryanpark/key.asc",
+        "identifier": "68EBD1F955DE9292E02D145FAB74AD04384070A1",
+        "role": "key",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco, California, USA"
     },
-    "v": "0.2",
-    "website": "http://www.ryanpark.org"
+    "description": "Senior Engineering Manager, Storage Operations at Slack.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ryanpark",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ryan Park",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.ryanpark.org"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "RyanGWU82",
-      "proof_url": "https://gist.github.com/RyanGWU82/d9661c52216c0c878f6d",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "StanfordRyan",
-      "proof_url": "https://twitter.com/StanfordRyan/status/599031437841465344",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN ryanpark.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ryanpark.id\"\n"
 }

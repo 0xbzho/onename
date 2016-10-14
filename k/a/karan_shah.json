@@ -1,0 +1,74 @@
+{
+  "owner_address": "17wo4VsAeuprxaCCpBjQZNFgEuG5X5Jupn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "karanshah89",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/karanshah89/posts/10209278319927999",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "karan_shah89",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/karan_shah89/status/771326554806689793",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "karanshah89",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/karanshah89/32187ce33a2435878d6774767b3dc0ce",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ahmedabad"
+    },
+    "description": "Entrepreneur, Traveller, Photographer, Passionate about new Startups and Tech, Always looking to connect with new people.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/karan_shah",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/karan_shah",
+        "name": "cover"
+      }
+    ],
+    "name": "Karan Shah",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.solutelabs.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "karanshah89",
+      "proof_url": "https://www.facebook.com/karanshah89/posts/10209278319927999",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "karan_shah89",
+      "proof_url": "https://twitter.com/karan_shah89/status/771326554806689793",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "karanshah89",
+      "proof_url": "https://gist.github.com/karanshah89/32187ce33a2435878d6774767b3dc0ce",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN karan_shah.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/karan_shah.id\"\n"
+}

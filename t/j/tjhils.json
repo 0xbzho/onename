@@ -1,61 +1,73 @@
 {
   "owner_address": "1HQSu4X6UETAkgyp7Ufd4xmyLUpyWFQG7f",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/tjhils"
-    },
-    "bio": "Customer Champion at Zapier  - generally okay human being.",
-    "bitcoin": {
-      "address": "14S9Ed7yNX1VcstAfshuyQsVcG3AJ4j3Xk"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/tjhils"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/thomas.hils/posts/10204603055171481"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tjhils",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "thomas.hils"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/tjhils/35688d30b105c2b2c3fe"
+      {
+        "@type": "Account",
+        "identifier": "14S9Ed7yNX1VcstAfshuyQsVcG3AJ4j3Xk",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "tjhils"
-    },
-    "location": {
-      "formatted": "New Haven, Connecticut"
-    },
-    "name": {
-      "formatted": "Thomas J. Hils"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/tjhils/status/597867250071281664"
+      {
+        "@type": "Account",
+        "identifier": "thomas.hils",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/thomas.hils/posts/10204603055171481",
+        "service": "facebook"
       },
-      "username": "tjhils"
+      {
+        "@type": "Account",
+        "identifier": "tjhils",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tjhils/status/763869667484139520",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New Haven, Connecticut"
     },
-    "v": "0.2",
-    "website": "http://thomas.hils.us"
+    "description": "Customer Champion at Zapier  - generally okay human being.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/tjhils",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tjhils",
+        "name": "avatar"
+      }
+    ],
+    "name": "Thomas J. Hils",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://thomas.hils.us"
+      }
+    ]
   },
   "verifications": [
-    {
-      "identifier": "tjhils",
-      "proof_url": "https://gist.github.com/tjhils/35688d30b105c2b2c3fe",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "tjhils",
-      "proof_url": "https://twitter.com/tjhils/status/597867250071281664",
-      "service": "twitter",
-      "valid": true
-    },
     {
       "identifier": "thomas.hils",
       "proof_url": "https://facebook.com/thomas.hils/posts/10204603055171481",
       "service": "facebook",
       "valid": false
+    },
+    {
+      "identifier": "tjhils",
+      "proof_url": "https://twitter.com/tjhils/status/763869667484139520",
+      "service": "twitter",
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN tjhils.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tjhils.id\"\n"
 }

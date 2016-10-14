@@ -1,0 +1,68 @@
+{
+  "owner_address": "1C89YX9XWhmGibfPLoW7zyBFgm5UE9k9es",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "allcoinshome",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/allcoinshome/status/774862733888151552",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1CnYZbgZhsWbnvRrAKRTQVPaoC1GYVdiB4",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "pahio13",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/pahio13/posts/1813530485600352",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Cryptocarrtel",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Cryptocarrtel/9874e0fb25ed3e24edfddbc0687f4017/",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cryptologia",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/cryptologia",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "allcoinshome",
+      "proof_url": "https://twitter.com/allcoinshome/status/774862733888151552",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "pahio13",
+      "proof_url": "https://www.facebook.com/pahio13/posts/1813530485600352",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "Cryptocarrtel",
+      "proof_url": "https://gist.github.com/Cryptocarrtel/9874e0fb25ed3e24edfddbc0687f4017/",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN cryptologia.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cryptologia.id\"\n"
+}

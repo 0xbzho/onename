@@ -1,0 +1,49 @@
+{
+  "owner_address": "1Q5zYBmzkxD9332BtHLf7T5zdUQx5y3ujX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cmarshal9",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cmarshal9/status/784160938328895488",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "battalion999",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/battalion999/90ae673cb9ff94195cc8d54b07de171c",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/battalion999",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "cmarshal9",
+      "proof_url": "https://twitter.com/cmarshal9/status/784160938328895488",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "battalion999",
+      "proof_url": "https://gist.github.com/battalion999/90ae673cb9ff94195cc8d54b07de171c",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN battalion999.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/battalion999.id\"\n"
+}

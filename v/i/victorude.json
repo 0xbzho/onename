@@ -27,9 +27,12 @@
     ],
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": ""
+      "addressLocality": "Austin, TX"
     },
-    "description": "",
+    "description": "Just here for the thrill of it",
+    "graph": {
+      "url": "https://s3.amazonaws.com/grph/victorude"
+    },
     "image": [
       {
         "@type": "ImageObject",
@@ -42,14 +45,20 @@
         "name": "cover"
       }
     ],
-    "name": "Victor Ude"
+    "name": "Victor Ude",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://victorude.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "udev",
       "proof_url": "https://gist.github.com/udev/7a8217adf7ba8b6909ad875ad2191505",
       "service": "github",
-      "valid": true
+      "valid": false
     },
     {
       "identifier": "NostrumRemedium",

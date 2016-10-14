@@ -1,0 +1,68 @@
+{
+  "owner_address": "14Zxf84ikZKz8uTbudcbAC84fNfgkHwpHq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "georgzoche",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/georgzoche/status/765160752361734144",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "zoche",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/zoche/d326c6ba990400ba3e9e58761888440b",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "georg.zoche",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/georg.zoche/posts/10154259986841638",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/georgzoche",
+        "identifier": "49B19638AC7EF02C568EEC1412ADB521046492BD",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/georgzoche",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "georgzoche",
+      "proof_url": "https://twitter.com/georgzoche/status/765160752361734144",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "zoche",
+      "proof_url": "https://gist.github.com/zoche/d326c6ba990400ba3e9e58761888440b",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "georg.zoche",
+      "proof_url": "https://www.facebook.com/georg.zoche/posts/10154259986841638",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN georgzoche.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/georgzoche.id\"\n"
+}

@@ -1,10 +1,17 @@
 {
   "owner_address": "1BCEPRVgtAFpwHSG38XjMCsR3bpTbLBKGW",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/IHL.jpg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Rob"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN robocontracts.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/robocontracts.id\"\n"
 }

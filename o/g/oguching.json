@@ -1,46 +1,59 @@
 {
   "owner_address": "12himtpqCQRCnTeVjzH9ZXUf9pu1Ywjp4Z",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/oguching"
-    },
-    "bio": "#Christian. #Geek. #JavaScript. #ggmu",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/n6r.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/guchiguchi/posts/10153365361242913"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "oguching",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "guchiguchi"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/oguching/a35e34dba4aa6bea8ded"
+      {
+        "@type": "Account",
+        "identifier": "guchiguchi",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "oguching"
+      {
+        "@type": "Account",
+        "identifier": "oguching",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/oguching/a35e34dba4aa6bea8ded",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Port Harcourt, Nigeria"
     },
-    "location": {
-      "formatted": "Port Harcourt, Nigeria"
-    },
-    "name": {
-      "formatted": "Oguchi"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/oguching/status/685879514526801924"
+    "description": "#Christian. #Geek. #JavaScript. #ggmu",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/oguching",
+        "name": "avatar"
       },
-      "username": "oguching"
-    },
-    "v": "0.2",
-    "website": "http://oguching.com"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Oguchi",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://oguching.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "oguching",
       "proof_url": "https://gist.github.com/oguching/a35e34dba4aa6bea8ded",
       "service": "github",
-      "valid": true
+      "valid": false
     },
     {
       "identifier": "oguching",
@@ -54,5 +67,6 @@
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN oguching.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/oguching.id\"\n"
 }

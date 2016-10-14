@@ -1,0 +1,36 @@
+{
+  "owner_address": "1J2nnxmxUX4QfXkCZKnKkDN5adyXqVoJAm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "DeeHorngren",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/DeeHorngren/status/766133113198108672?lang=en",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/deehorngren",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/deehorngren",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "DeeHorngren",
+      "proof_url": "https://twitter.com/DeeHorngren/status/766133113198108672?lang=en",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN deehorngren.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/deehorngren.id\"\n"
+}

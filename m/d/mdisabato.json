@@ -1,0 +1,50 @@
+{
+  "owner_address": "19PssXL3gh8y3sabTmU4dfp8bD1Fr2uroN",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mdisabato",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mdisabato/f2d1544a8a9bb6417eea4154904e111d",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mdisabato",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mdisabato/status/781991062801874944",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mdisabato",
+        "name": "avatar"
+      }
+    ],
+    "name": "Michael Disabato"
+  },
+  "verifications": [
+    {
+      "identifier": "mdisabato",
+      "proof_url": "https://gist.github.com/mdisabato/f2d1544a8a9bb6417eea4154904e111d",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "mdisabato",
+      "proof_url": "https://twitter.com/mdisabato/status/781991062801874944",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mdisabato.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mdisabato.id\"\n"
+}

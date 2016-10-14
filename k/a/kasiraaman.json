@@ -1,0 +1,31 @@
+{
+  "owner_address": "14GTDQxTwKqKs4zarhxLBvD8ypSmXZf8hN",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kasiraaman",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/intent/tweet?text=Verifying%20that%20%22kasiraaman%2Eid%22%20is%20my%20Blockstack%20ID.%20https://onename.com/kasiraaman",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "kasiraaman",
+      "proof_url": "https://twitter.com/intent/tweet?text=Verifying%20that%20%22kasiraaman%2Eid%22%20is%20my%20Blockstack%20ID.%20https://onename.com/kasiraaman",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN kasiraaman.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kasiraaman.id\"\n"
+}

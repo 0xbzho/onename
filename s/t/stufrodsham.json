@@ -1,0 +1,79 @@
+{
+  "owner_address": "1GH6i4HgWxukoC6y212TiX2rkgFoULvH7g",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "stufrodsham",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Stufrodsham/status/764400795517321216",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1GNDRbYnziuker214rSL8Mz1u2iztXQHnU",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Digioffice",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Digioffice/1d0b7c4759dba62caa94e17e125bcf1b",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "stu.frodsham",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/stu.frodsham/posts/10155406669903849",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Franschhoek Western Cape South Africa"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/stufrodsham",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/stufrodsham",
+        "name": "cover"
+      }
+    ],
+    "name": "Stuart Frodsham",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://za.linkedin.com/in/stuartfrodsham"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "stufrodsham",
+      "proof_url": "https://twitter.com/Stufrodsham/status/764400795517321216",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Digioffice",
+      "proof_url": "https://gist.github.com/Digioffice/1d0b7c4759dba62caa94e17e125bcf1b",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "stu.frodsham",
+      "proof_url": "https://www.facebook.com/stu.frodsham/posts/10155406669903849",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN stufrodsham.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stufrodsham.id\"\n"
+}

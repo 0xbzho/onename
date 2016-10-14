@@ -1,6 +1,50 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1J8YsstSEZR6wfyKKLqr7m3jZunpLzgCWT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sunsetsurfer",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/sunsetsurfer/status/761546003493289984",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kevinczok",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/kevin.czok/posts/504327523866",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kevczok",
+        "name": "avatar"
+      }
+    ],
+    "name": "Kevin Czok"
+  },
+  "verifications": [
+    {
+      "identifier": "sunsetsurfer",
+      "proof_url": "https://twitter.com/sunsetsurfer/status/761546003493289984",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "kevinczok",
+      "proof_url": "https://www.facebook.com/kevin.czok/posts/504327523866",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN kevczok.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kevczok.id\"\n"
 }

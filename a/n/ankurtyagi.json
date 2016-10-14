@@ -1,0 +1,80 @@
+{
+  "owner_address": "19gU8FxoFZWaX2xgUscWyE6KrJnVaiKkwo",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "7h3rAm",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/7h3rAm/ae11b24fd7d74ebd65dcdc16533c57dd",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "7h3rAm",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/7h3rAm/status/763958448476139520",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ankurstyagi",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ankurstyagi/posts/10208215992652241",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "NCcx84AXS5t2piDr8T96aDxfG4KxBUM3jY",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Pune"
+    },
+    "description": "Infosec Zealot",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ankurtyagi",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ankurtyagi",
+        "name": "avatar"
+      }
+    ],
+    "name": "Ankur Tyagi",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://7h3ram.github.io/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "7h3rAm",
+      "proof_url": "https://gist.github.com/7h3rAm/ae11b24fd7d74ebd65dcdc16533c57dd",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "7h3rAm",
+      "proof_url": "https://twitter.com/7h3rAm/status/763958448476139520",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ankurstyagi",
+      "proof_url": "https://www.facebook.com/ankurstyagi/posts/10208215992652241",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ankurtyagi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ankurtyagi.id\"\n"
+}

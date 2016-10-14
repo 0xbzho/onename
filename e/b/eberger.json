@@ -1,0 +1,73 @@
+{
+  "owner_address": "1FMNbZ7Tzq6fxFGpGYpiGddXJCo4446HHX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "edward.berger1",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/edward.berger1/posts/10209771086090815?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "eberger01",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/EBerger01/status/775860704167489536",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Eberger01",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Eberger01/7ba444a1a75407d2eac2b9125ed464a7",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Belgium, Antwerp"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/eberger",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/eberger",
+        "name": "cover"
+      }
+    ],
+    "name": "Edward Berger",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.madisonunderwood.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "edward.berger1",
+      "proof_url": "https://www.facebook.com/edward.berger1/posts/10209771086090815?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "eberger01",
+      "proof_url": "https://twitter.com/EBerger01/status/775860704167489536",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Eberger01",
+      "proof_url": "https://gist.github.com/Eberger01/7ba444a1a75407d2eac2b9125ed464a7",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN eberger.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/eberger.id\"\n"
+}

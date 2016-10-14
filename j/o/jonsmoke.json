@@ -1,0 +1,36 @@
+{
+  "owner_address": "1Nttvjf4RoZQBYppM7r1agJEbDWqSVp1e",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "loversInJapan",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/loversInJapan/316e8369af60a78b006790987e386265",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jonsmoke",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "loversInJapan",
+      "proof_url": "https://gist.github.com/loversInJapan/316e8369af60a78b006790987e386265",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jonsmoke.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jonsmoke.id\"\n"
+}

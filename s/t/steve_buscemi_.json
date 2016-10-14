@@ -15,6 +15,17 @@
         "proofType": "http",
         "proofUrl": "https://gist.github.com/Dako300/74f752c6966f2f60177a0cf858c2ccc9",
         "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/steve_buscemi_",
+        "identifier": null,
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "openbazaar",
+        "service": "openbazaar"
       }
     ],
     "image": [
@@ -30,7 +41,7 @@
       "identifier": "Dako300",
       "proof_url": "https://gist.github.com/Dako300/74f752c6966f2f60177a0cf858c2ccc9",
       "service": "github",
-      "valid": true
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN steve_buscemi_.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/steve_buscemi_.id\"\n"

@@ -1,0 +1,61 @@
+{
+  "owner_address": "1BK5KEhmSEZi2VJ2y81kxHqZG992WPYjem",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "www.linkedin.com/in/frederick-pilot-5414a117",
+        "proofType": "http",
+        "proofUrl": "Verifying that \"redlew79.id\" is my Blockstack ID. https://onename.com/redlew79",
+        "service": "linkedin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "LastRushHour",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/LastRushHour/status/782711875502956544",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "USA"
+    },
+    "description": "Author, speaker, prolific blogger on health care, telecom infrastructure, decentralization of knowledge work via ICT",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/fpilot",
+        "name": "avatar"
+      }
+    ],
+    "name": "Frederick Pilot",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://lastrushhour.com/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "www.linkedin.com/in/frederick-pilot-5414a117",
+      "proof_url": "Verifying that \"redlew79.id\" is my Blockstack ID. https://onename.com/redlew79",
+      "service": "linkedin",
+      "valid": false
+    },
+    {
+      "identifier": "LastRushHour",
+      "proof_url": "https://twitter.com/LastRushHour/status/782711875502956544",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN fpilot.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fpilot.id\"\n"
+}

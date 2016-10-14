@@ -1,23 +1,41 @@
 {
   "owner_address": "12am5Rkj5g27BiXvyEoGJ24yaGqkpQva3C",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/wkj.jpeg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/pawal/517ec8dbccf1aabc7898"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "pawal",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "pawal"
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/pawalblipp",
+        "identifier": "30900C4F6941FB6AADFE0A78DBFFE2D7B76249F2",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Stockholm, Sweden"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Patrik Wallström"
   },
   "verifications": [
     {
       "identifier": "pawal",
       "proof_url": "https://gist.github.com/pawal/517ec8dbccf1aabc7898",
       "service": "github",
-      "valid": true
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN pawalblipp.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pawalblipp.id\"\n"
 }

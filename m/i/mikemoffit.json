@@ -1,0 +1,73 @@
+{
+  "owner_address": "1BFHinnt95g3dwGXQnsP2nU6kPHYU2f27F",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mikemoffit",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MikeMoffit/status/781680959188004864",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mikemoffit",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mikemoffit/1cb40a29b28dd44a687415a4805ade24",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mikemoffit",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/mikemoffit/posts/10210715427511418?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Vermont"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mikemoffit",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mikemoffit",
+        "name": "cover"
+      }
+    ],
+    "name": "Mike Moffit",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.mikemoffit.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "mikemoffit",
+      "proof_url": "https://twitter.com/MikeMoffit/status/781680959188004864",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mikemoffit",
+      "proof_url": "https://gist.github.com/mikemoffit/1cb40a29b28dd44a687415a4805ade24",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "mikemoffit",
+      "proof_url": "https://www.facebook.com/mikemoffit/posts/10210715427511418?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mikemoffit.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mikemoffit.id\"\n"
+}

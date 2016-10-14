@@ -1,0 +1,61 @@
+{
+  "owner_address": "1K2VBZ85MLQ671KkZmMpJ4L2JUVNQq5GNP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "chriskloss",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/chriskloss/status/783567557005631488",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "chriskloss.kg",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/chriskloss.kg/posts/1207858019280388",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Germany"
+    },
+    "description": "Just a regular everyday normal guy",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/chriskloss",
+        "name": "avatar"
+      }
+    ],
+    "name": "Chris Kloss",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://chriskloss.de"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "chriskloss",
+      "proof_url": "https://twitter.com/chriskloss/status/783567557005631488",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "chriskloss.kg",
+      "proof_url": "https://www.facebook.com/chriskloss.kg/posts/1207858019280388",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN chriskloss.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/chriskloss.id\"\n"
+}

@@ -1,0 +1,44 @@
+{
+  "owner_address": "1FZpRjpA6J7ivDmKHF9gvXM3TrTcoQw94p",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "roger.halbheer",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/roger.halbheer/posts/10154515466488926",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rhalbheer",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rhalbheer/status/781462967061733376",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "roger.halbheer",
+      "proof_url": "https://www.facebook.com/roger.halbheer/posts/10154515466488926",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "rhalbheer",
+      "proof_url": "https://twitter.com/rhalbheer/status/781462967061733376",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN marvintherobot42.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/marvintherobot42.id\"\n"
+}

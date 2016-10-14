@@ -1,0 +1,49 @@
+{
+  "owner_address": "1syiAykqXPMQRDsrxB7DTcMnhZvur484w",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ProSuja",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ProSuja/status/764548295532290048",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/permalink.php?story_fbid=346594595728363&id=100011334750921",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sujapro",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ProSuja",
+      "proof_url": "https://twitter.com/ProSuja/status/764548295532290048",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "",
+      "proof_url": "https://www.facebook.com/permalink.php?story_fbid=346594595728363&id=100011334750921",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN sujapro.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sujapro.id\"\n"
+}

@@ -1,0 +1,36 @@
+{
+  "owner_address": "16CHYhRjGEYbCy1RHSvMSAkDCBHPhPQfbf",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "steelysan",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/steelysan/status/767596390083985408",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/steelysan",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "steelysan",
+      "proof_url": "https://twitter.com/steelysan/status/767596390083985408",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN steelysan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/steelysan.id\"\n"
+}

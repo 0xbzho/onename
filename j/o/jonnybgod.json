@@ -1,0 +1,69 @@
+{
+  "owner_address": "1KvJGrE4TvdDHWS2H86hg1mvfDmYgaqvee",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "JonnyBGod",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/JonnyBGod/af5d60b7bb32e584ae5b4414ae2d8f62",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jmnribeiro",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jmnribeiro/posts/10154508669567203",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "JonnyBGodPT",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JonnyBGodPT/status/769961752016588800",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "e08c85de3649b3ed2adb5d0d20284b30c91f31d9",
+        "proofType": "http",
+        "proofUrl": "https://t.co/gKnMYynlMx",
+        "service": "open bazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jonnybgod",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "JonnyBGod",
+      "proof_url": "https://gist.github.com/JonnyBGod/af5d60b7bb32e584ae5b4414ae2d8f62",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "jmnribeiro",
+      "proof_url": "https://www.facebook.com/jmnribeiro/posts/10154508669567203",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "JonnyBGodPT",
+      "proof_url": "https://twitter.com/JonnyBGodPT/status/769961752016588800",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jonnybgod.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jonnybgod.id\"\n"
+}

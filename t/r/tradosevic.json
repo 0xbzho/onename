@@ -1,31 +1,70 @@
 {
   "owner_address": "1PLsQHRh1UAjTFQFdXcEDjpzqrPtQniuEV",
   "profile": {
+    "@type": "Person",
     "account": [
       {
         "@type": "Account",
-        "identifier": "",
-        "service": ""
+        "identifier": "13gdWskYuLMAsyFQZoqEkbDGcwusPcu3Sr",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://sks-keyservers.net/pks/lookup?op=get&search=0xCF0A2D676E8D4066",
+        "identifier": "F86E9E06B974C9967724D694CF0A2D676E8D4066",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tradosevic",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/tradosevic/57e4610f88a42b6a1819a603f9d63ab0",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tradosevic",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/TRadosevic/status/773537382238937088",
+        "service": "twitter"
       }
     ],
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/tradosevic"
-    },
-    "bio": "https://www.linkedin.com/in/tradosevic",
-    "bitcoin": {
-      "address": "13gdWskYuLMAsyFQZoqEkbDGcwusPcu3Sr"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/tradosevic"
-    },
-    "name": {
-      "formatted": "Tomislav Radosevic"
-    },
-    "pgp": {
-      "fingerprint": "F86E9E06B974C9967724D694CF0A2D676E8D4066",
-      "url": "https://sks-keyservers.net/pks/lookup?op=get&search=0xCF0A2D676E8D4066"
-    },
-    "v": "0.2"
+    "description": "https://www.linkedin.com/in/tradosevic",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/tradosevic",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/tradosevic",
+        "name": "cover"
+      }
+    ],
+    "name": "Tomislav Radosevic",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.linkedin.com/in/tradosevic"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "tradosevic",
+      "proof_url": "https://gist.github.com/tradosevic/57e4610f88a42b6a1819a603f9d63ab0",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "tradosevic",
+      "proof_url": "https://twitter.com/TRadosevic/status/773537382238937088",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tradosevic.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tradosevic.id\"\n"
 }

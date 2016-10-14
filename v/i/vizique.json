@@ -5,24 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "Vizique",
-        "proofType": "http",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "identifier": "Vizique",
-        "proofType": "http",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
-        "identifier": "Vizique",
-        "proofType": "http",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
         "identifier": "1JnHf3ZvJwDkkkZ29g1pMxT3i3WVSzL8s4",
         "role": "payment",
         "service": "bitcoin"
@@ -32,7 +14,28 @@
         "identifier": "9cf12cc9bcacd24393249188afcbd0160dba2fdb",
         "proofType": "http",
         "proofUrl": "xD8Ts27eK9c51ouzC5zHib1WS2iO6vCA",
-        "service": "open bazaar"
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Vizique",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Vizique/status/781544342964109343",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Vizique",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/vizique/posts/10157628591630455",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Vizique",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Vizique/cd2d4fb2a679cccbd99c589d63c7c749",
+        "service": "github"
       }
     ],
     "address": {
@@ -56,10 +59,29 @@
     "website": [
       {
         "@type": "WebSite",
-        "url": "http://heliopay.com"
+        "url": "http://www.vizique.com"
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "Vizique",
+      "proof_url": "https://twitter.com/Vizique/status/781544342964109343",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Vizique",
+      "proof_url": "https://www.facebook.com/vizique/posts/10157628591630455",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "Vizique",
+      "proof_url": "https://gist.github.com/Vizique/cd2d4fb2a679cccbd99c589d63c7c749",
+      "service": "github",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN vizique.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vizique.id\"\n"
 }

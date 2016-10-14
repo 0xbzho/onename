@@ -1,0 +1,44 @@
+{
+  "owner_address": "193CQTY7HxVTA98nSpAHL1x6BXuJYk6E8y",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "peeyooshchandra",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/peeyooshchandra/status/763584881821573120",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "peeyoosh.chandra",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/peeyoosh.chandra/posts/10154444176424100?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "peeyooshchandra",
+      "proof_url": "https://twitter.com/peeyooshchandra/status/763584881821573120",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "peeyoosh.chandra",
+      "proof_url": "https://www.facebook.com/peeyoosh.chandra/posts/10154444176424100?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN pchandra.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pchandra.id\"\n"
+}

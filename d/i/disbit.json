@@ -1,0 +1,30 @@
+{
+  "owner_address": "1PCWs55Kns89WBwmegf4L3pdZocFeeLStP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "c961203a040899f8e6ef64ab8254c055e4dfa6ec",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/zeronotion/status/779501530546311168",
+        "service": "disbit"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1BHjzzdNDNxMvjWgops47pG2thxaMoBi1M",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN disbit.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/disbit.id\"\n"
+}

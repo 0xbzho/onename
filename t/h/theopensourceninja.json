@@ -5,13 +5,6 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "TheOpenSourceNinja",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/TheOpenSourceNinja/69a0c14e028a04fda4280de7d82601c1",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
         "identifier": "TheOpenSourceN",
         "proofType": "http",
         "proofUrl": "https://twitter.com/TheOpenSourceN/status/742533847703654402",
@@ -29,6 +22,13 @@
         "contentUrl": "https://pk9.s3.amazonaws.com/theopensourceninja",
         "identifier": "CFB795062E951956D9062607096BA5BD0FB27114",
         "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "TheOpenSourceNinja",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/TheOpenSourceNinja/69a0c14e028a04fda4280de7d82601c1",
+        "service": "github"
       }
     ],
     "image": [
@@ -53,16 +53,16 @@
   },
   "verifications": [
     {
-      "identifier": "TheOpenSourceNinja",
-      "proof_url": "https://gist.github.com/TheOpenSourceNinja/69a0c14e028a04fda4280de7d82601c1",
-      "service": "github",
-      "valid": true
-    },
-    {
       "identifier": "TheOpenSourceN",
       "proof_url": "https://twitter.com/TheOpenSourceN/status/742533847703654402",
       "service": "twitter",
       "valid": true
+    },
+    {
+      "identifier": "TheOpenSourceNinja",
+      "proof_url": "https://gist.github.com/TheOpenSourceNinja/69a0c14e028a04fda4280de7d82601c1",
+      "service": "github",
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN theopensourceninja.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/theopensourceninja.id\"\n"

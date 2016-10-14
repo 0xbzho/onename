@@ -1,6 +1,75 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "16tWg1Wyqpx4hUPgnSoXbEHnq3jaMF91Yj",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1MbBnMoyicRNhehRyFDaYYxTmnmmiw4GKT",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/robiii/key.asc",
+        "identifier": "8FCA6E288E13F77A628DBADAB3F716D66A0AA857",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "RobThree",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/RobThree/9a684634c917d6411a1c",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "robiii",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/robiii/status/685601030852243457",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "RobThree",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/RobThree/posts/10208378131272477",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/robiii",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/robiii",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "RobThree",
+      "proof_url": "https://gist.github.com/RobThree/9a684634c917d6411a1c",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "robiii",
+      "proof_url": "https://twitter.com/robiii/status/685601030852243457",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "RobThree",
+      "proof_url": "https://www.facebook.com/RobThree/posts/10208378131272477",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN robiii.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/robiii.id\"\n"
 }

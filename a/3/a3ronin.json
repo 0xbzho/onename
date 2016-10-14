@@ -1,0 +1,41 @@
+{
+  "owner_address": "1GGvE9Hyd2xL71PyuwfVxE32cWdsSmUMYn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "e41ed5d4b63cec2dfd203a73801df2fb8467afbe",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "david.neilson",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/david.neilson/posts/10209939407543587",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/a3ronin",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/a3ronin",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "david.neilson",
+      "proof_url": "https://www.facebook.com/david.neilson/posts/10209939407543587",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN a3ronin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/a3ronin.id\"\n"
+}

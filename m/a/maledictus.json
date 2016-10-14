@@ -1,0 +1,60 @@
+{
+  "owner_address": "17optjYFshFmkvfX1J6oJoh5mtsi1umqUn",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "441dcb3ca53a5c21e1d35bc260c86bec4dbbb6e6",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "laxcus777",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Laxcus777/status/768110564539305985",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "melhioner",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/melhioner/dd526ffbe5e93b846384916e9359215b",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1FwXhuB453GPCgpCpiMSVQc3AEw2GkPevn",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/maledictus",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "laxcus777",
+      "proof_url": "https://twitter.com/Laxcus777/status/768110564539305985",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "melhioner",
+      "proof_url": "https://gist.github.com/melhioner/dd526ffbe5e93b846384916e9359215b",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN maledictus.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/maledictus.id\"\n"
+}

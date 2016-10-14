@@ -1,0 +1,68 @@
+{
+  "owner_address": "1DAkc5MAoKe4hq6x983h7xBiXwSJPKZba6",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tinkererbugbee",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/tinkererbugbee/posts/542684149255010?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Scarecrowsowl",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Scarecrowsowl/status/778332292976476160",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1G41hELsNuGE3wR1uBahWczxL546mVhxnh",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "scarecrowsowl",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/scarecrowsowl/3ed7e884d8967e4a1903e388faa540dc",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/brycebugbee",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/brycebugbee",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tinkererbugbee",
+      "proof_url": "https://www.facebook.com/tinkererbugbee/posts/542684149255010?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "Scarecrowsowl",
+      "proof_url": "https://twitter.com/Scarecrowsowl/status/778332292976476160",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "scarecrowsowl",
+      "proof_url": "https://gist.github.com/scarecrowsowl/86456d9761a4a1a7eb5223171130d680",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN brycebugbee.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/brycebugbee.id\"\n"
+}

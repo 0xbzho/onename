@@ -1,0 +1,41 @@
+{
+  "owner_address": "17YxoRPJb5NKBrbJEqFN9AHKasd3zKCtv4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "beekvanj",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/beekj/status/776780833139154944",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nijmegen"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/vanbeek70",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/vanbeek70",
+        "name": "cover"
+      }
+    ],
+    "name": "John van Beek"
+  },
+  "verifications": [
+    {
+      "identifier": "beekvanj",
+      "proof_url": "https://twitter.com/beekj/status/776780833139154944",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN vanbeek70.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vanbeek70.id\"\n"
+}

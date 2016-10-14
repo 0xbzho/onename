@@ -1,0 +1,41 @@
+{
+  "owner_address": "13NKBMUn5uBrT6dSZUwrSPWhRohdNFcS9k",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Rvcme990@yahoo.com",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hattrickx",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/albertoppunto/status/769531385354805248",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Deerfield Illinois"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/rvcme990",
+        "name": "cover"
+      }
+    ],
+    "name": "Marc Pagano"
+  },
+  "verifications": [
+    {
+      "identifier": "hattrickx",
+      "proof_url": "https://twitter.com/albertoppunto/status/769531385354805248",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN rvcme990.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rvcme990.id\"\n"
+}

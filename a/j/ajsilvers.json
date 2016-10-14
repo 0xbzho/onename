@@ -1,0 +1,57 @@
+{
+  "owner_address": "1KqGHJqk2Lu8cGq77vEUwhb56xonkaDQa7",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ajsilvers",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ajsilvers/status/766377671244845058",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ajsilvers",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ajsilvers/c3e335421f6b69714aa78f0358d3d238",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "theajsilvers",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/theajsilvers/posts/1135546713172341?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ajsilvers",
+      "proof_url": "https://twitter.com/ajsilvers/status/766377671244845058",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ajsilvers",
+      "proof_url": "https://gist.github.com/ajsilvers/c3e335421f6b69714aa78f0358d3d238",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "theajsilvers",
+      "proof_url": "https://www.facebook.com/theajsilvers/posts/1135546713172341?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ajsilvers.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ajsilvers.id\"\n"
+}

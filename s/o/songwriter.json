@@ -1,21 +1,33 @@
 {
   "owner_address": "15QrBiS3WXCpouP1mMrMq9xv3VCFX4HbJs",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/songwriter"
+    "@type": "Person",
+    "account": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Newcastle upon Tyne (UK)"
     },
-    "bio": "Malcolm has  written over a hundred songs in many different styles. Malcolm produced and directed the musical Dot Com City of Dreams in Ontario in Canada, and in Basingstoke UK. He also has other projects including \"Casablanca Airport\", a jazz musical thriller and the feature film \"Prisoner for a Brother\", a wartime love story/drama with a powerful message about the futility of war.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/songwriter"
-    },
-    "location": {
-      "formatted": "Newcastle upon Tyne (UK)"
-    },
-    "name": {
-      "formatted": "Malcolm A F Simpson"
-    },
-    "v": "0.2",
-    "website": "http://cityofdreamsmusical.com"
+    "description": "Malcolm has  written over a hundred songs in many different styles. Malcolm produced and directed the musical Dot Com City of Dreams in Ontario in Canada, and in Basingstoke UK. He also has other projects including \"Casablanca Airport\", a jazz musical thriller and the feature film \"Prisoner for a Brother\", a wartime love story/drama with a powerful message about the futility of war. Latest project is Mr Popagami presents starting with the christmas song Bells Ring Out on Christmas Morning.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/songwriter",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/songwriter",
+        "name": "cover"
+      }
+    ],
+    "name": "Malcolm A F Simpson",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://cityofdreamsmusical.com"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN songwriter.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/songwriter.id\"\n"
 }

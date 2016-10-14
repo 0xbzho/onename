@@ -1,0 +1,44 @@
+{
+  "owner_address": "1MVYtDco1Ku7thwnCdYeeDimbkBwDGKZXa",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jtemp",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JTemp/status/775455759307911168",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "proofUrl": "Verifying that \"john9274.id\" is my Blockstack ID. https://onename.com/john9274",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jtemp",
+      "proof_url": "https://twitter.com/JTemp/status/775455759307911168",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "",
+      "proof_url": "Verifying that \"john9274.id\" is my Blockstack ID. https://onename.com/john9274",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN john9274.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/john9274.id\"\n"
+}

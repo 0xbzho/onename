@@ -1,0 +1,42 @@
+{
+  "owner_address": "1JyF71qaK4Xi5eUEqpGA8UsoRbGzA86CiX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "briannphan",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/brianNphan/status/785711762783948800",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Toronto"
+    },
+    "description": "Building @udotcash (www.u.cash) || @securacoin (www.securacoin.com) || @bitcoinxyz (www.bitcoin.xyz)",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/brianphan",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/brianphan",
+        "name": "cover"
+      }
+    ],
+    "name": "Brian Phan"
+  },
+  "verifications": [
+    {
+      "identifier": "briannphan",
+      "proof_url": "https://twitter.com/brianNphan/status/785711762783948800",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN brianphan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/brianphan.id\"\n"
+}

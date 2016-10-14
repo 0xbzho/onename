@@ -1,0 +1,62 @@
+{
+  "owner_address": "1Dy7dPhJE9jkyLBDdsPp6WYSa47Uk4SjAT",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "austinpdm",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/AustinPdM/status/765242492300111873",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "aaron.reeder",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/aaron.reeder/posts/10210598105693919",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/0894d6fcf1b380ca63d76ec7b86211b0",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Austin, TX"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Aaron Reeder"
+  },
+  "verifications": [
+    {
+      "identifier": "austinpdm",
+      "proof_url": "https://twitter.com/AustinPdM/status/765242492300111873",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "aaron.reeder",
+      "proof_url": "https://www.facebook.com/aaron.reeder/posts/10210598105693919",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/0894d6fcf1b380ca63d76ec7b86211b0",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN aaronreeder.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/aaronreeder.id\"\n"
+}

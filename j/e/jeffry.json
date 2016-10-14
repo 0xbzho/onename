@@ -1,45 +1,56 @@
 {
   "owner_address": "1MUPYpzWQcDszKb28kUXCfq6SwscGfTNHp",
   "profile": {
-    "bitcoin": {
-      "address": "1Ehp5LL9L2aVhGNzkZfm5ekjbLzS9QNCxj"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/ikZ.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/jeffry.erickson/posts/10202333740413910"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "JeffryErickson",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "jeffry.erickson"
-    },
-    "name": {
-      "formatted": "Jeffry Erickson"
-    },
-    "pgp": {
-      "url": "http://pgp.mit.edu/pks/lookup?op=get&search=0x87946CDFAE24AACE"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/JeffryErickson/status/507577935713144832"
+      {
+        "@type": "Account",
+        "identifier": "jeffry.erickson",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "JeffryErickson"
-    },
-    "v": "0.2",
-    "website": "http://smithhayek.com"
+      {
+        "@type": "Account",
+        "identifier": "1Ehp5LL9L2aVhGNzkZfm5ekjbLzS9QNCxj",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "JeffryErickson",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/JeffryErickson/858912fb355412f3ec556d2829d73d81",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jeffry Erickson",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://smithhayek.com"
+      }
+    ]
   },
   "verifications": [
     {
       "identifier": "JeffryErickson",
-      "proof_url": "https://twitter.com/JeffryErickson/status/507577935713144832",
-      "service": "twitter",
-      "valid": true
-    },
-    {
-      "identifier": "jeffry.erickson",
-      "proof_url": "https://facebook.com/jeffry.erickson/posts/10202333740413910",
-      "service": "facebook",
+      "proof_url": "https://gist.github.com/JeffryErickson/858912fb355412f3ec556d2829d73d81",
+      "service": "github",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN jeffry.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jeffry.id\"\n"
 }

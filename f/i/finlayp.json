@@ -1,0 +1,36 @@
+{
+  "owner_address": "1P5WAGT92QsPRVZQR88Fx4NAW1rdhLdb5F",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "FinlayP",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/intent/tweet/complete?text=Verifying%20that%20%22finlayp.id%22%20is%20my%20Blockstack%20ID.%20https%3A%2F%2Fonename.com%2Ffinlayp&latest_status_id=774913717255438337",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/finlayp",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "FinlayP",
+      "proof_url": "https://twitter.com/intent/tweet/complete?text=Verifying%20that%20%22finlayp.id%22%20is%20my%20Blockstack%20ID.%20https%3A%2F%2Fonename.com%2Ffinlayp&latest_status_id=774913717255438337",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN finlayp.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/finlayp.id\"\n"
+}

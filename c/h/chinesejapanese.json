@@ -1,0 +1,57 @@
+{
+  "owner_address": "1La53DyEngcxqick2ofCHEc35MzTvbUKW4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ChineseJapanese",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ChineseJapanese/status/772895959906869248",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ChineseJapanese",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ChineseJapanese/b74c749a2b8f4ab825e9f489b59299bd",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ChineseJapanese",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ChineseJapanese/posts/144962059286182?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ChineseJapanese",
+      "proof_url": "https://twitter.com/ChineseJapanese/status/772895959906869248",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ChineseJapanese",
+      "proof_url": "https://gist.github.com/ChineseJapanese/b74c749a2b8f4ab825e9f489b59299bd",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "ChineseJapanese",
+      "proof_url": "https://www.facebook.com/ChineseJapanese/posts/144962059286182?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN chinesejapanese.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/chinesejapanese.id\"\n"
+}

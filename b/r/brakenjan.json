@@ -1,0 +1,60 @@
+{
+  "owner_address": "15kX7KuT8KUjZZxhLoydADGv8ezmt9HT3g",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "lootsdza",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/lootsdza/status/783723834788765696",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "daniel.leroux.loots",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/daniel.leroux.loots?hc_ref=NEWSFEED&fref=nf",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Johannesburg"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/brakenjan",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/brakenjan",
+        "name": "avatar"
+      }
+    ],
+    "name": "Daniel Le Roux Loots",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://za.linkedin.com/in/daniel-loots-0698853b"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "lootsdza",
+      "proof_url": "https://twitter.com/lootsdza/status/783723834788765696",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "daniel.leroux.loots",
+      "proof_url": "https://www.facebook.com/daniel.leroux.loots?hc_ref=NEWSFEED&fref=nf",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN brakenjan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/brakenjan.id\"\n"
+}

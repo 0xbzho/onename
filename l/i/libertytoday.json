@@ -1,0 +1,42 @@
+{
+  "owner_address": "1PPYKQkNk5gZCH46QFFyJyDo75qsrANmTy",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mbhd-d14ef058-1bbcf354-a83d22d5-5d9d9eb8-68b4a3b9",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "libertytodayuk",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/libertytodayuk/status/767104883497504768",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "0c65c1861528f54144bd4350e1e307a4d270f9d6",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "libertytodayuk",
+      "proof_url": "https://twitter.com/libertytodayuk/status/767104883497504768",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN libertytoday.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/libertytoday.id\"\n"
+}

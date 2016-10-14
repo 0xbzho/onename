@@ -1,0 +1,44 @@
+{
+  "owner_address": "1FoAzizFn6zMVgypj8QHTY6zheDqgSmSUx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cjd1",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cjd1/status/772211502887661570",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cdecelles",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/cdecelles/bbdafa2a1705da3d66f930834772c29d",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "cjd1",
+      "proof_url": "https://twitter.com/cjd1/status/772211502887661570",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "cdecelles",
+      "proof_url": "https://gist.github.com/cdecelles/bbdafa2a1705da3d66f930834772c29d",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN decelles.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/decelles.id\"\n"
+}

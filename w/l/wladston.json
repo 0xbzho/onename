@@ -1,6 +1,76 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1J5DQXmtattcUcnGpvn9Lzvh28WXdJrtcq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "wladston",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/wladston/status/761465457694113792",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "wladston",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/wladston/a5ac098091439fc03796cb0ddc363162",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "wladston",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/wladston/posts/10154165589227702?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1WLADnbvSuZy99Yzj7XJze5ka9QzJb82G",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "description": "Coder",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/wladston",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/wladston",
+        "name": "cover"
+      }
+    ],
+    "name": "Wladston Ferreira Filho",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://code.energy"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "wladston",
+      "proof_url": "https://twitter.com/wladston/status/761465457694113792",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "wladston",
+      "proof_url": "https://gist.github.com/wladston/a5ac098091439fc03796cb0ddc363162",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "wladston",
+      "proof_url": "https://www.facebook.com/wladston/posts/10154165589227702?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN wladston.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wladston.id\"\n"
 }

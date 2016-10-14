@@ -1,0 +1,37 @@
+{
+  "owner_address": "1MCUKQebTrYCsdGyGHkSW8dNbUHz2dXXnw",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "MattMarasco",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MattMarasco/status/770806051692175361",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mattmarasco",
+        "name": "avatar"
+      }
+    ],
+    "name": "Matt Marasco"
+  },
+  "verifications": [
+    {
+      "identifier": "MattMarasco",
+      "proof_url": "https://twitter.com/MattMarasco/status/770806051692175361",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN mattmarasco.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mattmarasco.id\"\n"
+}

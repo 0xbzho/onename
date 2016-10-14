@@ -1,0 +1,31 @@
+{
+  "owner_address": "1GUKRvTSrts44RHS2JaTU2ZWe85S61wSqx",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cpyang",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cpyang/status/770450317037019136",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "cpyang",
+      "proof_url": "https://twitter.com/cpyang/status/770450317037019136",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN cpyang.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cpyang.id\"\n"
+}

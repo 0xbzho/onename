@@ -1,0 +1,57 @@
+{
+  "owner_address": "1GNDfcTswnAEDKEV2gW84gxGNCZdWoEBRz",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ceobillionaire",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ceobillionaire/status/780961915820441600",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ceobillionaire",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ceobillionaire/97c9a1e247e30b3be74a5420e5b6ac03",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ceobillionairetv",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ceobillionairetv/posts/1170352296355011",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ceobillionaire",
+      "proof_url": "https://twitter.com/ceobillionaire/status/780961915820441600",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "ceobillionaire",
+      "proof_url": "https://gist.github.com/ceobillionaire/97c9a1e247e30b3be74a5420e5b6ac03",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "ceobillionairetv",
+      "proof_url": "https://www.facebook.com/ceobillionairetv/posts/1170352296355011",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ceobillionaire.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ceobillionaire.id\"\n"
+}

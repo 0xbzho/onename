@@ -1,65 +1,80 @@
 {
   "owner_address": "1BhQ32SvHEa3LC5ZYijAfgFepUrCHWrmY4",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/goatmine"
-    },
-    "bio": "Upgrade the law: If we each choose not to go to war there will be no war.",
-    "bitcoin": {
-      "address": "12788LWJreXSjRn6KbuXnTVDDUf9TzRxeP"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/Ov8.jpg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/john.swabey/posts/1133982143295794"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "12788LWJreXSjRn6KbuXnTVDDUf9TzRxeP",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "john.swabey"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/goatmine/0d465f55871ad91c775d"
+      {
+        "@type": "Account",
+        "identifier": "swabeyjw106",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/swabeyjw106/status/768126141441998856",
+        "service": "twitter"
       },
-      "username": "goatmine"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/goatmine"
-    },
-    "location": {
-      "formatted": "Mont Tremblant"
-    },
-    "name": {
-      "formatted": "John Swabey"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/swabeyjw106/status/598580844823977985"
+      {
+        "@type": "Account",
+        "identifier": "goatmine",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/goatmine/0d465f55871ad91c775d",
+        "service": "github"
       },
-      "username": "swabeyjw106"
+      {
+        "@type": "Account",
+        "identifier": "john.swabey",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/john.swabey/posts/1359292840764722",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mont Tremblant"
     },
-    "v": "0.2",
-    "website": "http://wealtheffects.com/"
+    "description": "If we each choose not to go to war there will be no war. Waiting for law 2.0",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/goatmine",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "John Swabey",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://wealtheffects.com/"
+      }
+    ]
   },
   "verifications": [
     {
-      "identifier": "goatmine",
-      "proof_url": "https://gist.github.com/goatmine/0d465f55871ad91c775d",
-      "service": "github",
-      "valid": true
-    },
-    {
       "identifier": "swabeyjw106",
-      "proof_url": "https://twitter.com/swabeyjw106/status/598580844823977985",
+      "proof_url": "https://twitter.com/swabeyjw106/status/768126141441998856",
       "service": "twitter",
       "valid": true
     },
     {
-      "identifier": "john.swabey",
-      "proof_url": "https://facebook.com/john.swabey/posts/1133982143295794",
-      "service": "facebook",
+      "identifier": "goatmine",
+      "proof_url": "https://gist.github.com/goatmine/0d465f55871ad91c775d",
+      "service": "github",
       "valid": false
+    },
+    {
+      "identifier": "john.swabey",
+      "proof_url": "https://www.facebook.com/john.swabey/posts/1359292840764722",
+      "service": "facebook",
+      "valid": true
     }
   ],
-  "zone_file": {}
+  "zone_file": "$ORIGIN goatmine.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/goatmine.id\"\n"
 }

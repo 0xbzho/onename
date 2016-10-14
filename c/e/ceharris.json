@@ -1,0 +1,61 @@
+{
+  "owner_address": "18iCTRQsQb7wQENzEVZf2P3j2JLo5fbSat",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ceharris",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ceharris/25dddcb7049ec8ebf5be31d2c27a9f10",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "carl_not_karl",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/carl_not_karl/status/768014412527448064",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "http://keyserver.cns.vt.edu/pks/lookup?op=get&search=0xDF48BD893F1F38CE",
+        "identifier": "5CD3C1D5CD3DAC5C104075CCDF48BD893F1F38CE",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Blacksburg, VA, USA"
+    },
+    "description": "All madness. No method.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ceharris",
+        "name": "avatar"
+      }
+    ],
+    "name": "Carl Harris"
+  },
+  "verifications": [
+    {
+      "identifier": "ceharris",
+      "proof_url": "https://gist.github.com/ceharris/25dddcb7049ec8ebf5be31d2c27a9f10",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "carl_not_karl",
+      "proof_url": "https://twitter.com/carl_not_karl/status/768014412527448064",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN ceharris.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ceharris.id\"\n"
+}

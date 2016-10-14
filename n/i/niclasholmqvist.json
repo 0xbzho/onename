@@ -1,0 +1,69 @@
+{
+  "owner_address": "1NKPPNDK8nRYHQtKxZHakE125dCoptDyxP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "niclasholmqvist",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/niclasholmqvist/status/764016335063953408",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "niclasholmqvist",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/niclasholmqvist/posts/10155269730172715?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "niclasholmqvist",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/niclasholmqvist/271b3300833bd1126127df469ce8702a",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/niclasholmqvist",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/niclasholmqvist",
+        "name": "cover"
+      }
+    ],
+    "name": "Niclas Holmqvist",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://niclasholmqvist.se"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "niclasholmqvist",
+      "proof_url": "https://twitter.com/niclasholmqvist/status/764016335063953408",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "niclasholmqvist",
+      "proof_url": "https://www.facebook.com/niclasholmqvist/posts/10155269730172715?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "niclasholmqvist",
+      "proof_url": "https://gist.github.com/niclasholmqvist/271b3300833bd1126127df469ce8702a",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN niclasholmqvist.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/niclasholmqvist.id\"\n"
+}

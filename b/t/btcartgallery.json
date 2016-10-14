@@ -5,9 +5,10 @@
     "account": [
       {
         "@type": "Account",
-        "identifier": "1CeHHHqSj66fn83aKrgbSVveDwN4DAnWa6",
-        "role": "payment",
-        "service": "bitcoin"
+        "identifier": "dython6",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dython6/58a8568aec05860d108105fe3c4f0367#file-gistfile1-txt",
+        "service": "github"
       },
       {
         "@type": "Account",
@@ -18,17 +19,16 @@
       },
       {
         "@type": "Account",
-        "identifier": "dython6",
-        "proofType": "http",
-        "proofUrl": "https://gist.github.com/dython6/58a8568aec05860d108105fe3c4f0367#file-gistfile1-txt",
-        "service": "github"
+        "identifier": "1Daxcm6zjm6KNkqqHghC1SohuiQibZjoT6",
+        "role": "payment",
+        "service": "bitcoin"
       }
     ],
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Blockchain"
     },
-    "description": "Curator of the Bitcoin Art Aggregator https://t.co/w7Xb1hIcnQ",
+    "description": "Bitcoin Art Aggregator",
     "image": [
       {
         "@type": "ImageObject",
@@ -45,22 +45,22 @@
     "website": [
       {
         "@type": "WebSite",
-        "url": "http://btcartgallery.com/"
+        "url": "http://btcartgallery.com"
       }
     ]
   },
   "verifications": [
     {
+      "identifier": "dython6",
+      "proof_url": "https://gist.github.com/dython6/58a8568aec05860d108105fe3c4f0367#file-gistfile1-txt",
+      "service": "github",
+      "valid": false
+    },
+    {
       "identifier": "btcArtGallery",
       "proof_url": "https://twitter.com/btcArtGallery/status/748489481058025472",
       "service": "twitter",
       "valid": false
-    },
-    {
-      "identifier": "dython6",
-      "proof_url": "https://gist.github.com/dython6/58a8568aec05860d108105fe3c4f0367#file-gistfile1-txt",
-      "service": "github",
-      "valid": true
     }
   ],
   "zone_file": "$ORIGIN btcartgallery.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/btcartgallery.id\"\n"

@@ -1,0 +1,73 @@
+{
+  "owner_address": "18GDjjScweY796aNuMzAepeTPp78ZnX3Fq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "julienroussel",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/julienroussel/status/770965776438288384",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rousseljulien",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/rousseljulien/posts/10154573387020362",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "julienroussel",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/julienroussel/dd5130208a6cd620426e0d272cd598af",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris, France"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/julienroussel",
+        "name": "avatar"
+      }
+    ],
+    "name": "Julien Roussel",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://julienroussel.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "julienroussel",
+      "proof_url": "https://twitter.com/julienroussel/status/770965776438288384",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "rousseljulien",
+      "proof_url": "https://www.facebook.com/rousseljulien/posts/10154573387020362",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "julienroussel",
+      "proof_url": "https://gist.github.com/julienroussel/dd5130208a6cd620426e0d272cd598af",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN julienroussel.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/julienroussel.id\"\n"
+}

@@ -1,0 +1,44 @@
+{
+  "owner_address": "1PmgdAFtFfWp3hrgtQjobBaAAhDYDbakbt",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "crazytinkas",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/crazytinkas/status/765470594657767424",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "tinkas",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/tinkas/posts/10154333987431132",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "crazytinkas",
+      "proof_url": "https://twitter.com/crazytinkas/status/765470594657767424",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "tinkas",
+      "proof_url": "https://www.facebook.com/tinkas/posts/10154333987431132",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN tinkas.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tinkas.id\"\n"
+}

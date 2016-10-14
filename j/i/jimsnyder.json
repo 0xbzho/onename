@@ -1,35 +1,47 @@
 {
   "owner_address": "1NbbutHz2McKYhNozKWAqbhPPAPsS2n6Rb",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/jimsnyder"
-    },
-    "bitcoin": {
-      "address": "1NUPma4Zq9k8y6XUcJbnwK97YFPKmvs1MG"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/yvD.jpeg"
-    },
-    "location": {
-      "formatted": "Detroit, MI. USA"
-    },
-    "name": {
-      "formatted": "Jim Snyder"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/JimXSnyder/status/551122746990555139"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1NUPma4Zq9k8y6XUcJbnwK97YFPKmvs1MG",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "JimXSnyder"
+      {
+        "@type": "Account",
+        "identifier": "JimXSnyder",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JimXSnyder/status/776060899320696832",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Detroit, MI. USA"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jimsnyder",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jim Snyder"
   },
   "verifications": [
     {
       "identifier": "JimXSnyder",
-      "proof_url": "https://twitter.com/JimXSnyder/status/551122746990555139",
+      "proof_url": "https://twitter.com/JimXSnyder/status/776060899320696832",
       "service": "twitter",
-      "valid": false
+      "valid": true
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN jimsnyder.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jimsnyder.id\"\n"
 }

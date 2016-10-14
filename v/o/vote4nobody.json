@@ -1,0 +1,49 @@
+{
+  "owner_address": "18ta3gi1svVKdEnxDfTVyS5B8xZNhAbC8n",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "3Jkk6rPfPkSTeLc3ghyqZ2AhFg3Uqp6t7W",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "5fd9f4873aa0f9e9c9a98a38ff1e63e44ae97917",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/PadreMulcahy/status/764596631987552257",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "@POTUSelect",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/POTUSelect/status/764964499052896256",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/vote4nobody",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/vote4nobody",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "@POTUSelect",
+      "proof_url": "https://twitter.com/POTUSelect/status/764964499052896256",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN vote4nobody.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vote4nobody.id\"\n"
+}

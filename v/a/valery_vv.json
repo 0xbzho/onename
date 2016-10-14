@@ -1,38 +1,47 @@
 {
   "owner_address": "1Kv68gNdQxMBbpWvPLvptfUXxV6yMSEGBz",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/valery_vv"
-    },
-    "bio": "",
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/n6r.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/vvorotyntsev/posts/933649940060445"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "vvv",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "vvorotyntsev"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/vvv/37eda416e3859a64ae64"
+      {
+        "@type": "Account",
+        "identifier": "vorotylo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/vorotylo/status/664442647503904768",
+        "service": "twitter"
       },
-      "username": "vvv"
+      {
+        "@type": "Account",
+        "identifier": "vvorotyntsev",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/vvorotyntsev/posts/1151747888250648",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kiev, Ukraine"
     },
-    "location": {
-      "formatted": "Kiev, Ukraine"
-    },
-    "name": {
-      "formatted": "Valery Vorotyntsev"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/vorotylo/status/664442647503904768"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/valery_vv",
+        "name": "avatar"
       },
-      "username": "vorotylo"
-    },
-    "v": "0.2"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Valery Vorotyntsev"
   },
   "verifications": [
     {
@@ -53,5 +62,6 @@
       "service": "facebook",
       "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN valery_vv.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/valery_vv.id\"\n"
 }

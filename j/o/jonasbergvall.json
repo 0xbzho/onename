@@ -1,0 +1,73 @@
+{
+  "owner_address": "1CX2HspE6LPtFzQyjeKqz4ddVg4obeZKPd",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jonasbergvall",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jonasbergvall/status/772860648262889472",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jonasbergvall",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jonasbergvall/41659188c9e5ca89156cf1d8874d1a84",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jonas.bergvall",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jonas.bergvall/posts/10154524442946289",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "13U93KeLhB1fQi4XcvNtF1AfZHTwuqTSFE",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sweden"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jonasbergvall",
+        "name": "avatar"
+      }
+    ],
+    "name": "Jonas Bergvall"
+  },
+  "verifications": [
+    {
+      "identifier": "jonasbergvall",
+      "proof_url": "https://twitter.com/jonasbergvall/status/772860648262889472",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jonasbergvall",
+      "proof_url": "https://gist.github.com/jonasbergvall/41659188c9e5ca89156cf1d8874d1a84",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "jonas.bergvall",
+      "proof_url": "https://www.facebook.com/jonas.bergvall/posts/10154524442946289",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jonasbergvall.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jonasbergvall.id\"\n"
+}

@@ -1,0 +1,31 @@
+{
+  "owner_address": "1DymuAuiNQH9fGexwi2YQSd1YrcaXGHA53",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "modelmotion",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/modelmotion/status/782831592985296896",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "modelmotion",
+      "proof_url": "https://twitter.com/modelmotion/status/782831592985296896",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN modelmotion.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/modelmotion.id\"\n"
+}

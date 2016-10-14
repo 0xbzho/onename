@@ -1,0 +1,36 @@
+{
+  "owner_address": "1Efq9HWXDAYdnsF4hzQHkUzvjPHUTrhN6g",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nichnachnoch",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/nichnachnoch/status/782933800590405632",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Christina Frankopan"
+  },
+  "verifications": [
+    {
+      "identifier": "nichnachnoch",
+      "proof_url": "https://twitter.com/nichnachnoch/status/782933800590405632",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN nichnachnoch.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nichnachnoch.id\"\n"
+}

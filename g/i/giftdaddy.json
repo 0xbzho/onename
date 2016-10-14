@@ -1,0 +1,38 @@
+{
+  "owner_address": "1EL3NThnR9C8dC4FfEd8Gucasg5JXK4GtV",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "giftdaddy",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/nikato.muirhead/posts/10205695373704113",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "0d4569043f0adc170b971d1b008f9d19f12520e1",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rajsarkarin/status/775182391228833792",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "giftdaddy",
+      "proof_url": "https://www.facebook.com/nikato.muirhead/posts/10205695373704113",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN giftdaddy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/giftdaddy.id\"\n"
+}

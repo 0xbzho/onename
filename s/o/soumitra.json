@@ -1,6 +1,32 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1DFFhYXbpqbNjHQnuuWZ5sgwZsWYYomm6n",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "performingflea",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/performingflea/status/762280033566064640",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Soumitra Bhat"
+  },
+  "verifications": [
+    {
+      "identifier": "performingflea",
+      "proof_url": "https://twitter.com/performingflea/status/762280033566064640",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN soumitra.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/soumitra.id\"\n"
 }

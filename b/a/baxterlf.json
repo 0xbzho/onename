@@ -1,0 +1,54 @@
+{
+  "owner_address": "1NRvLxpmud1enWxU7YtDLDrzLSDYkBJjkZ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "baxtelf",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/baxtelf/status/781871900284837889",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "baxterlf",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/baxterlf/posts/10208258470673604",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "FL"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/baxterlf",
+        "name": "avatar"
+      }
+    ],
+    "name": "Linda Baxter"
+  },
+  "verifications": [
+    {
+      "identifier": "baxtelf",
+      "proof_url": "https://twitter.com/baxtelf/status/781871900284837889",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "baxterlf",
+      "proof_url": "https://www.facebook.com/baxterlf/posts/10208258470673604",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN baxterlf.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/baxterlf.id\"\n"
+}

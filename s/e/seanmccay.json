@@ -1,0 +1,60 @@
+{
+  "owner_address": "1CWRg6PBkBWbbpPyt81rLq596SnfSezTc8",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "seanmccay",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/seanmccay/7d7881c10284a60c0a886a6939defbfb",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "sean.mccaynstuff",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/sean.mccaynstuff/posts/944886915638213",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Texas, USA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/seanmccay",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/seanmccay",
+        "name": "cover"
+      }
+    ],
+    "name": "Sean McCay",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://seanmccay.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "seanmccay",
+      "proof_url": "https://gist.github.com/seanmccay/7d7881c10284a60c0a886a6939defbfb",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "sean.mccaynstuff",
+      "proof_url": "https://www.facebook.com/sean.mccaynstuff/posts/944886915638213",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN seanmccay.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/seanmccay.id\"\n"
+}

@@ -1,0 +1,44 @@
+{
+  "owner_address": "163uw2yFjtdwK2D7xSzKCBTKXERRgR83wY",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ddalledo",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ddalledo/status/768196503080935425",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ddalledo",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ddalledo/9325829da14538c84844800e00952385",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ddalledo",
+      "proof_url": "https://twitter.com/ddalledo/status/768196503080935425",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "ddalledo",
+      "proof_url": "https://gist.github.com/ddalledo/9325829da14538c84844800e00952385",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ddalledo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ddalledo.id\"\n"
+}

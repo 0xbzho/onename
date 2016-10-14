@@ -1,6 +1,60 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1CxWBWrP1BUjyETEtAekUxo8duCMV9dT7D",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "JonnoKatz",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/JonnoKatz/status/762610583384588288",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "18qThtKYaJS8Lp6gBtuCn8v2AwE6C311Uw",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jonno.katz",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jonno.katz/posts/10157369750535691",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Melbourne"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jonno_katz",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jonno_katz",
+        "name": "cover"
+      }
+    ],
+    "name": "Jonno Katz"
+  },
+  "verifications": [
+    {
+      "identifier": "JonnoKatz",
+      "proof_url": "https://twitter.com/JonnoKatz/status/762610583384588288",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jonno.katz",
+      "proof_url": "https://www.facebook.com/jonno.katz/posts/10157369750535691",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jonno_katz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jonno_katz.id\"\n"
 }

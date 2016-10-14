@@ -1,0 +1,44 @@
+{
+  "owner_address": "18DzFm1g1JQf3K8mPj6nTwgCqEHXvnQdg6",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "caioiglesias",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/caioiglesias/996ede03b9a088c53217a52f1eecb80b",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "caioiglesias",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/caioiglesias/status/781012347368464384",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "caioiglesias",
+      "proof_url": "https://gist.github.com/caioiglesias/996ede03b9a088c53217a52f1eecb80b",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "caioiglesias",
+      "proof_url": "https://twitter.com/caioiglesias/status/781012347368464384",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN caioiglesias.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/caioiglesias.id\"\n"
+}

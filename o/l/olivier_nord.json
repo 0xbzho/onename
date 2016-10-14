@@ -1,0 +1,36 @@
+{
+  "owner_address": "12yNiJvK37iRRcywkLtXfXwTPQCNsvvJF9",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "olivier.merlo.1",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/ajax/sharer?appid=586254444758776&s=100&u=https%3A%2F%2Fonename.com%2Folivier_nord",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/olivier_nord",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "olivier.merlo.1",
+      "proof_url": "https://www.facebook.com/ajax/sharer?appid=586254444758776&s=100&u=https%3A%2F%2Fonename.com%2Folivier_nord",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN olivier_nord.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/olivier_nord.id\"\n"
+}

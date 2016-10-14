@@ -1,0 +1,38 @@
+{
+  "owner_address": "1KA3n1s3PXBqx4dBibcyVmxX1awT9pqHhR",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "charwliu",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/charwliu/status/774852924732166144",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1WLiuCEN6P8NnzkLEEbcsvohQmM2XuTfR",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "LIU Wei"
+  },
+  "verifications": [
+    {
+      "identifier": "charwliu",
+      "proof_url": "https://twitter.com/charwliu/status/774852924732166144",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN liuwei.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/liuwei.id\"\n"
+}

@@ -1,0 +1,61 @@
+{
+  "owner_address": "15ni3hqfBGa8aie96rFUS8quqoD18SNYJD",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "boyehartmann",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/boyehartmann/status/777897376795144193",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "<script src=\"boyehartmann",
+        "proofType": "http",
+        "proofUrl": "<script src=\"https://gist.github.com/boyehartmann/e31e342ed858df8631a2b5700abac184.js\"></script>",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Singapore"
+    },
+    "description": "www.linkedin.com/in/boyehartmann",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/boyehartmann",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/boyehartmann",
+        "name": "cover"
+      }
+    ],
+    "name": "Boye Hartmann",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.boyehartmann.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "boyehartmann",
+      "proof_url": "https://twitter.com/boyehartmann/status/777897376795144193",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "<script src=\"boyehartmann",
+      "proof_url": "<script src=\"https://gist.github.com/boyehartmann/e31e342ed858df8631a2b5700abac184.js\"></script>",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN boyehartmann.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/boyehartmann.id\"\n"
+}

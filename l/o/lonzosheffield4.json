@@ -1,0 +1,67 @@
+{
+  "owner_address": "16faTSAmA4fntUWCGjvZBcHAmhn76Zuxtf",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "lonzos",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/lonzos/status/778631238726848513",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "lonzo.sheffield",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/lonzo.sheffield/posts/10101922649611956",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/lonzosheffield4",
+        "identifier": null,
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boca Raton, Florida"
+    },
+    "description": "This is me, the real me not a me that  I don't want to be but me. I am a wise lifelong learner looking to add disruptive positive value to the world. :)",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/lonzosheffield4",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/lonzosheffield4",
+        "name": "cover"
+      }
+    ],
+    "name": "Lonzo Sheffield IV",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://lonzosheffield.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "lonzos",
+      "proof_url": "https://twitter.com/lonzos/status/778631238726848513",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "lonzo.sheffield",
+      "proof_url": "https://www.facebook.com/lonzo.sheffield/posts/10101922649611956",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN lonzosheffield4.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lonzosheffield4.id\"\n"
+}

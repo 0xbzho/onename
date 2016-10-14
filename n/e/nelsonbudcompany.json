@@ -1,0 +1,54 @@
+{
+  "owner_address": "1222myBdnQdYYqugfccqJXcWdFPixDzuvF",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nelsonbud",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/neslonbud/status/769219229757284352",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "2e3b17c356eba8cd9daf5e0a9de2e6c04967614b",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "nelsonbudcompany",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/nelsonbudcompany/934489f7f4cea7c7794a4412d3110476",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/nelsonbudcompany",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/nelsonbudcompany",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "nelsonbud",
+      "proof_url": "https://twitter.com/neslonbud/status/769219229757284352",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "nelsonbudcompany",
+      "proof_url": "https://gist.github.com/nelsonbudcompany/934489f7f4cea7c7794a4412d3110476",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN nelsonbudcompany.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/nelsonbudcompany.id\"\n"
+}

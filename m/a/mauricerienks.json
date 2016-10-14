@@ -1,0 +1,50 @@
+{
+  "owner_address": "1EYiqkKgBPf9TVDMQyr4vsZmVDvbwsMxUA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "MauriceRienks",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/MauriceRienks/60c02868291ad0a559056714fc08d5f1",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "maurice.rienks",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/maurice.rienks/posts/756920581077582?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mauricerienks",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mauricerienks",
+        "name": "cover"
+      }
+    ],
+    "name": "Maurice Rienks"
+  },
+  "verifications": [
+    {
+      "identifier": "MauriceRienks",
+      "proof_url": "https://gist.github.com/MauriceRienks/60c02868291ad0a559056714fc08d5f1",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "maurice.rienks",
+      "proof_url": "https://www.facebook.com/maurice.rienks/posts/756920581077582?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mauricerienks.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mauricerienks.id\"\n"
+}

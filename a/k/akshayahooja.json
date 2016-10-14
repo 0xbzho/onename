@@ -1,0 +1,54 @@
+{
+  "owner_address": "15HwrYDabgbVWeLt8wLffoV9xx1Jcjoh6h",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ahooja",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ahooja/status/763459926282817536",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "akshay",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/akshay/e8daeeda99865e3d58ad2cbf11540b51",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seattle, WA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/akshayahooja",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/akshayahooja",
+        "name": "cover"
+      }
+    ],
+    "name": "Akshay Ahooja"
+  },
+  "verifications": [
+    {
+      "identifier": "ahooja",
+      "proof_url": "https://twitter.com/ahooja/status/763459926282817536",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "akshay",
+      "proof_url": "https://gist.github.com/akshay/e8daeeda99865e3d58ad2cbf11540b51",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN akshayahooja.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/akshayahooja.id\"\n"
+}

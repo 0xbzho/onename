@@ -1,0 +1,48 @@
+{
+  "owner_address": "1BHNCZGP1668Sc9i1YASNf3FZmdjrtyzhG",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ed_roche",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ed_roche/status/778674385569902593",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "53c349c47bb004df637f91f7b01af3a7886c72a2",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/andrew23baldwin/status/778955481175957504",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ireland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/eroche",
+        "name": "avatar"
+      }
+    ],
+    "name": "Edward Roche"
+  },
+  "verifications": [
+    {
+      "identifier": "ed_roche",
+      "proof_url": "https://twitter.com/ed_roche/status/778674385569902593",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN eroche.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/eroche.id\"\n"
+}

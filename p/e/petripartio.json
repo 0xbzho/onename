@@ -1,0 +1,79 @@
+{
+  "owner_address": "1DNeuk16q9uuZ16mx4s1YkdMGBvKvbc8sQ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "peritpatrio",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/peritpatrio/status/781523266196344832",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "peritpatrio",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/peritpatrio/2141f1e021803db425318f862fbe31da",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1GrT7ecRXwBgp4hfAwsuNKZ5VuwJdYTWxL",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "petri.partio",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/petri.partio/posts/10154546241842389",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Tampere, Finland"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/petripartio",
+        "name": "avatar"
+      }
+    ],
+    "name": "Petri Partio",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://peritpatrio.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "peritpatrio",
+      "proof_url": "https://twitter.com/peritpatrio/status/781523266196344832",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "peritpatrio",
+      "proof_url": "https://gist.github.com/peritpatrio/2141f1e021803db425318f862fbe31da",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "petri.partio",
+      "proof_url": "https://www.facebook.com/petri.partio/posts/10154546241842389",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN petripartio.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/petripartio.id\"\n"
+}
