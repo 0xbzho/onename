@@ -1,6 +1,31 @@
 {
-  "owner_address": "1EWVq9ccsZ5nNAcBJmQp2mopKXSpkhP3cq",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1GpdQNuPP3bLib5PZu6jcSm6QNKwvbK1G6",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "muz",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/muz/8be38c0b6ce606fde2092113f61f9df8",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "muz",
+      "proof_url": "https://gist.github.com/muz/8be38c0b6ce606fde2092113f61f9df8",
+      "service": "github",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN muzzzz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/muzzzz.id\"\n"
 }

@@ -10,15 +10,29 @@
       },
       {
         "@type": "Account",
+        "identifier": "zeronotion",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/zeronotion/status/779501530546311168",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
         "contentUrl": "https://pk9.s3.amazonaws.com/zeronotion",
-        "identifier": "38B5B8B9AE1D5BC7ED1675821C968DC9F447CB31",
+        "identifier": "C02EF10FC67F7B5C3713E59E1702FF17A634459A",
         "service": "pgp"
       },
       {
         "@type": "Account",
-        "identifier": "16WsBmHwpmeM4bQxabY99MpdboZAZv74ad",
+        "identifier": "1Jz8NJqfwAHnPMw97wjmRduoShGT2F4StA",
         "role": "payment",
         "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "zeronotion",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/zeronotion/6707d7d74f65db28f23dd7e8df486288",
+        "service": "github"
       }
     ],
     "image": [
@@ -32,8 +46,22 @@
         "contentUrl": "https://s3.amazonaws.com/dx3/zeronotion",
         "name": "cover"
       }
-    ]
+    ],
+    "name": "Zero Notion"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "zeronotion",
+      "proof_url": "https://twitter.com/zeronotion/status/779501530546311168",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "zeronotion",
+      "proof_url": "https://gist.github.com/zeronotion/6707d7d74f65db28f23dd7e8df486288",
+      "service": "github",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN zeronotion.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/zeronotion.id\"\n"
 }

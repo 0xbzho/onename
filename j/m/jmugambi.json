@@ -1,0 +1,61 @@
+{
+  "owner_address": "1JDE6CtGAWnFPyVLAtYzQyAfxiqwMrvYdk",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jmugambi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jmugambi/status/782302160105115648",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1M54R71zWQinZQc8Y3DjXiMuSf5aXvYADg",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "josiah.mugambi",
+        "proofType": "http",
+        "proofUrl": "https://m.facebook.com/story.php?story_fbid=10157659974440454&id=799820453",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nairobi, Kenya"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Josiah Mugambi",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.mugambi.me.ke"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jmugambi",
+      "proof_url": "https://twitter.com/jmugambi/status/782302160105115648",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "josiah.mugambi",
+      "proof_url": "https://m.facebook.com/story.php?story_fbid=10157659974440454&id=799820453",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jmugambi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jmugambi.id\"\n"
+}

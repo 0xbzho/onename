@@ -66,12 +66,6 @@
   "verifications": [
     {
       "identifier": "naxxfish",
-      "proof_url": "https://gist.github.com/naxxfish/ea408dbfc99d9d3ceca5793ed544ae23",
-      "service": "github",
-      "valid": false
-    },
-    {
-      "identifier": "naxxfish",
       "proof_url": "https://twitter.com/naxxfish/status/770926753753817088",
       "service": "twitter",
       "valid": true
@@ -81,6 +75,12 @@
       "proof_url": "https://www.facebook.com/naxxfish/posts/10154444515448134",
       "service": "facebook",
       "valid": true
+    },
+    {
+      "identifier": "naxxfish",
+      "proof_url": "https://gist.github.com/naxxfish/ea408dbfc99d9d3ceca5793ed544ae23",
+      "service": "github",
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN naxxfish.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/naxxfish.id\"\n"

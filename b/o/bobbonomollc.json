@@ -1,36 +1,53 @@
 {
   "owner_address": "1C4rvANQ6nax4c1CinXkH5deUr1wyAdq8T",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/bobbonomollc"
-    },
-    "bio": "Technology Consulting: Blockchain, Cryptocurrencies and Asset Management.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/bobbonomollc"
-    },
-    "facebook": {
-      "username": "bobby.bonomo"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/bonomora/2dde9bc6fb9d6ee85f8b"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bonomora",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bonomora/2dde9bc6fb9d6ee85f8b",
+        "service": "github"
       },
-      "username": "bonomora"
-    },
-    "location": {
-      "formatted": "Garden City,  New York"
-    },
-    "name": {
-      "formatted": "Bob Bonomo"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/BobBonomoLLC/status/613827464272457728"
+      {
+        "@type": "Account",
+        "identifier": "",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "BobBonomoLLC"
+      {
+        "@type": "Account",
+        "identifier": "BobBonomoLLC",
+        "proofType": "http",
+        "proofUrl": "Verifying that \"bobbonomollc.id\" is my Blockstack ID.",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Garden City,  New York"
     },
-    "v": "0.2",
-    "website": "http://www.Bob-Bonomo.com"
+    "description": "Technology Consulting: Blockchain, Cryptocurrencies and Asset Management.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/bobbonomollc",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bobbonomollc",
+        "name": "avatar"
+      }
+    ],
+    "name": "Bob Bonomo",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.Bob-Bonomo.com"
+      }
+    ]
   },
   "verifications": [
     {
@@ -41,9 +58,10 @@
     },
     {
       "identifier": "BobBonomoLLC",
-      "proof_url": "https://twitter.com/BobBonomoLLC/status/613827464272457728",
+      "proof_url": "Verifying that \"bobbonomollc.id\" is my Blockstack ID.",
       "service": "twitter",
-      "valid": true
+      "valid": false
     }
-  ]
+  ],
+  "zone_file": "$ORIGIN bobbonomollc.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bobbonomollc.id\"\n"
 }

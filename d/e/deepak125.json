@@ -1,0 +1,57 @@
+{
+  "owner_address": "15MPF8wQ8mvTkAB3qSQad3Yz3GmxaJd5ap",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "deepak_dk",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/deepak_dk/status/779188669164904448",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "deepak125",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/deepak125/posts/1372100592807981",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "deepak125",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/deepak125/2a70ff38ed075f0590c8814f4491a466",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "deepak_dk",
+      "proof_url": "https://twitter.com/deepak_dk/status/779188669164904448",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "deepak125",
+      "proof_url": "https://www.facebook.com/deepak125/posts/1372100592807981",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "deepak125",
+      "proof_url": "https://gist.github.com/deepak125/2a70ff38ed075f0590c8814f4491a466",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN deepak125.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/deepak125.id\"\n"
+}

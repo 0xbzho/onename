@@ -1,0 +1,60 @@
+{
+  "owner_address": "1ELzCnu1nJzVsFoH6WBMzTGmoKbX3aMcWu",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "olivierfontana",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/OlivierFontana/posts/10154505646184314",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "olivierfontana",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/OlivierFontana/status/773033125513277440",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seattle, WA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/olivierf",
+        "name": "avatar"
+      }
+    ],
+    "name": "Olivier Fontana",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://about.me/olivierfontana"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "olivierfontana",
+      "proof_url": "https://www.facebook.com/OlivierFontana/posts/10154505646184314",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "olivierfontana",
+      "proof_url": "https://twitter.com/OlivierFontana/status/773033125513277440",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN olivierf.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/olivierf.id\"\n"
+}

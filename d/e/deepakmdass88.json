@@ -1,51 +1,53 @@
 {
   "owner_address": "1DNxv7osVppDH5BLfFk3FzGZJTfpi5eqKN",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/deepakmdass88"
-    },
-    "bio": "@Clementine, Random Sys Admin, Docker/Mesos Lover, #monitoringlover, https://t.co/RlSwPksk14",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/deepakmdass88"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/sentinelleader/38d50c23e9bc67b2dc33"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "deepakmdass88",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "sentinelleader"
-    },
-    "location": {
-      "formatted": "San Francisco"
-    },
-    "name": {
-      "formatted": "Deepak Mohandas"
-    },
-    "pgp": {
-      "fingerprint": "833DE36D021F47A54288E1CCC77CEE249379FD6B",
-      "url": "https://keybase.io/deepakmdass88/key.asc"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/deepakmdass88/status/597844943739060224"
+      {
+        "@type": "Account",
+        "identifier": "sentinelleader",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "deepakmdass88"
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/deepakmdass88/key.asc",
+        "identifier": "833DE36D021F47A54288E1CCC77CEE249379FD6B",
+        "role": "key",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco"
     },
-    "v": "0.2",
-    "website": "http://beingasysadmin.wordpress.com"
+    "description": "@Dropbox, Random Sys Admin, Docker/Mesos Lover, #monitoringlover, https://t.co/RlSwPksk14",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/deepakmdass88",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/deepakmdass88",
+        "name": "cover"
+      }
+    ],
+    "name": "Deepak Mohandas",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://beingasysadmin.wordpress.com"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "sentinelleader",
-      "proof_url": "https://gist.github.com/sentinelleader/38d50c23e9bc67b2dc33",
-      "service": "github",
-      "valid": true
-    },
-    {
-      "identifier": "deepakmdass88",
-      "proof_url": "https://twitter.com/deepakmdass88/status/597844943739060224",
-      "service": "twitter",
-      "valid": true
-    }
-  ],
-  "zone_file": {}
+  "verifications": [],
+  "zone_file": "$ORIGIN deepakmdass88.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/deepakmdass88.id\"\n"
 }

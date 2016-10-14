@@ -1,0 +1,79 @@
+{
+  "owner_address": "1uKjP9yuXtjo1bDsMGpZLCtoJg9fQR7nC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "steffenster",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Steffenster/status/783752953907773441",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "steffen.peschel",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/steffen.peschel/posts/10202068843279821",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "steffenster",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/steffenster/0c4b7f243469ea9abbd8f78ced0b64a4",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1HKZkEPHF2uMabH6P4myTjDEW7Zwombpnr",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Leipzig"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/steffenpeschel",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/steffenpeschel",
+        "name": "cover"
+      }
+    ],
+    "name": "Steffen Peschel",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://steffenpeschel.de"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "steffenster",
+      "proof_url": "https://twitter.com/Steffenster/status/783752953907773441",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "steffen.peschel",
+      "proof_url": "https://www.facebook.com/steffen.peschel/posts/10202068843279821",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "steffenster",
+      "proof_url": "https://gist.github.com/steffenster/0c4b7f243469ea9abbd8f78ced0b64a4",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN steffenpeschel.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/steffenpeschel.id\"\n"
+}

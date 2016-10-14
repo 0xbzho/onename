@@ -1,0 +1,54 @@
+{
+  "owner_address": "1FwzQLY96K1WnjqpRmjxXZyXcwZiHhsKBX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Phillipi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Phillipi/status/786653385785237504",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "phillipi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Phillipi/status/786653385785237504",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Portland Oregon"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/phillipi",
+        "name": "avatar"
+      }
+    ],
+    "name": "Tyler Phillipi"
+  },
+  "verifications": [
+    {
+      "identifier": "Phillipi",
+      "proof_url": "https://twitter.com/Phillipi/status/786653385785237504",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "phillipi",
+      "proof_url": "https://twitter.com/Phillipi/status/786653385785237504",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN phillipi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/phillipi.id\"\n"
+}

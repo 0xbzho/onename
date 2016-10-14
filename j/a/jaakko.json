@@ -1,0 +1,56 @@
+{
+  "owner_address": "1K5jBbtdHZYAUhrMKUJ25k9xhwHspRaoHw",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jaakkodsg",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jaakkodsg/status/784150298575171584",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jaakko.tammela",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jaakko.tammela/posts/1401761256502449?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jaakkot",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jaakkot/17fdd6b5c0c40d1d56d4af739f6c0c4b",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "São Paulo"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jaakko Tammela"
+  },
+  "verifications": [
+    {
+      "identifier": "jaakkodsg",
+      "proof_url": "https://twitter.com/jaakkodsg/status/784150298575171584",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jaakko.tammela",
+      "proof_url": "https://www.facebook.com/jaakko.tammela/posts/1401761256502449?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN jaakko.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jaakko.id\"\n"
+}

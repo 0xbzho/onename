@@ -9,12 +9,31 @@
         "proofType": "http",
         "proofUrl": "www.facebook.com/marcelo.jarretta",
         "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "simphiwes",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/intent/tweet?text=Verifying%20that%20%22simphiwes%2Eid%22%20is%20my%20Blockstack%20ID.%20https://onename.com/simphiwes",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https:",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com",
+        "service": "github"
       }
     ],
     "image": [
       {
         "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/97p/lUU.jpeg",
+        "contentUrl": "https://s3.amazonaws.com/kd4/simphiwes",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/simphiwes",
         "name": "cover"
       }
     ]

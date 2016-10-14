@@ -64,22 +64,22 @@
   },
   "verifications": [
     {
+      "identifier": "weenfan",
+      "proof_url": "https://www.facebook.com/weenfan/posts/10154535248069890",
+      "service": "facebook",
+      "valid": true
+    },
+    {
       "identifier": "photodiode",
-      "proof_url": "https://twitter.com/photodiode/status/781132388558483459",
+      "proof_url": "https://twitter.com/photodiode/status/781136997431803905",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "weenfan",
-      "proof_url": "https://gist.github.com/weenfan/11b2a8b5715f9ceae0275567e07ac852#file-onename-txt",
+      "proof_url": "https://gist.github.com/weenfan/70e895905d158ee1ba7fa3a7a570169a",
       "service": "github",
       "valid": false
-    },
-    {
-      "identifier": "weenfan",
-      "proof_url": "https://www.facebook.com/weenfan/posts/10154535248069890",
-      "service": "facebook",
-      "valid": true
     }
   ],
   "zone_file": "$ORIGIN weenfan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/weenfan.id\"\n"

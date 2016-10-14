@@ -1,0 +1,44 @@
+{
+  "owner_address": "1JTDiRBEHMnWkmsNsa67oYDa7h2k2k4Nok",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "masvil69",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/masvil69/status/779078337025208320",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "masvil",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/masvil/79fe0e4727ad3e15eaa18b77ed1355e2#file-onename",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "masvil69",
+      "proof_url": "https://twitter.com/masvil69/status/779078337025208320",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "masvil",
+      "proof_url": "https://gist.github.com/masvil/79fe0e4727ad3e15eaa18b77ed1355e2#file-onename",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN massimovilla.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/massimovilla.id\"\n"
+}

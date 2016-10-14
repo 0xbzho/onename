@@ -1,0 +1,45 @@
+{
+  "owner_address": "1DQQ7X7bFwt3YRRbLtd3NpJ6mWQ1LYmie8",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "praserazzi",
+        "proofType": "http",
+        "proofUrl": "https://mobile.twitter.com/praserazzi/status/779210330807250944",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "pras",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/prasanna.sankaranarayanan/posts/10154468677608211",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Prasanna Sankaranarayanan"
+  },
+  "verifications": [
+    {
+      "identifier": "praserazzi",
+      "proof_url": "https://mobile.twitter.com/praserazzi/status/779210330807250944",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "pras",
+      "proof_url": "https://www.facebook.com/prasanna.sankaranarayanan/posts/10154468677608211",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN prasannas.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/prasannas.id\"\n"
+}

@@ -1,23 +1,29 @@
 {
   "owner_address": "12Tx8hQaStW6FDiVzxsZ1X6zDDyrNskKRy",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/F9g.jpg"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/StJohnKarp/status/686602496605736960"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "StJohnKarp",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "StJohnKarp"
-    },
-    "v": "0.2"
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/stjohn/key.asc",
+        "identifier": null,
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": [
-    {
-      "identifier": "StJohnKarp",
-      "proof_url": "https://twitter.com/StJohnKarp/status/686602496605736960",
-      "service": "twitter",
-      "valid": true
-    }
-  ]
+  "verifications": [],
+  "zone_file": "$ORIGIN stjohn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/stjohn.id\"\n"
 }

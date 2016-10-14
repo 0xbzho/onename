@@ -48,6 +48,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "esco303",
+      "proof_url": "https://twitter.com/Esco303/status/786075136906694656",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "esco303",
+      "proof_url": "https://gist.github.com/esco303/f8af7b0f6fc0d2d7651584e3b1dab3ea",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "esco303",
+      "proof_url": "https://www.facebook.com/ESCO303/posts/10154671992322835",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN esco303.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/esco303.id\"\n"
 }

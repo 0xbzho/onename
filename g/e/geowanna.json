@@ -1,0 +1,51 @@
+{
+  "owner_address": "1C2KXX2edKTQwnrgvyLTx5r3Ph6fNY62Dm",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "geowannaapp",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/geowannaapp/status/772902630586716161",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "GeoWanna",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/GeoWanna/6eb3ed9b24ba7739aacfb715721a0a06",
+        "service": "github"
+      }
+    ],
+    "description": "A local discovery 'wiki' network, built by and for communities.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/geowanna",
+        "name": "avatar"
+      }
+    ],
+    "name": "The Geowanna App"
+  },
+  "verifications": [
+    {
+      "identifier": "geowannaapp",
+      "proof_url": "https://twitter.com/geowannaapp/status/772902630586716161",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "GeoWanna",
+      "proof_url": "https://gist.github.com/GeoWanna/6eb3ed9b24ba7739aacfb715721a0a06",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN geowanna.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/geowanna.id\"\n"
+}

@@ -1,16 +1,26 @@
 {
   "owner_address": "17ZGgC5cVgMeC61Hpy6nutBZGzGNyxZgur",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/4AL.jpeg"
+    "@type": "Person",
+    "account": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London"
     },
-    "location": {
-      "formatted": "London"
-    },
-    "name": {
-      "formatted": "Brigitte Hart"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/brigittehart",
+        "name": "avatar"
+      }
+    ],
+    "name": "Brigitte"
   },
-  "verifications": []
+  "verifications": [],
+  "zone_file": "$ORIGIN brigittehart.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/brigittehart.id\"\n"
 }

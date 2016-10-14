@@ -1,0 +1,54 @@
+{
+  "owner_address": "1DXgnScVHnxFPqgRdFX9xMDMtGjE2cRpG3",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "pwr_studio",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/pwr_studio/status/786567115650183169",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "pwrstudio",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/pwrstudio/d27be6950830abdde62d4c8eadb5057f",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Berlin"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/pwrstudio",
+        "name": "avatar"
+      }
+    ],
+    "name": "PWR"
+  },
+  "verifications": [
+    {
+      "identifier": "pwr_studio",
+      "proof_url": "https://twitter.com/pwr_studio/status/786567115650183169",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "pwrstudio",
+      "proof_url": "https://gist.github.com/pwrstudio/d27be6950830abdde62d4c8eadb5057f",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN pwrstudio.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pwrstudio.id\"\n"
+}

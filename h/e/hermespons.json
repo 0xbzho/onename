@@ -1,0 +1,49 @@
+{
+  "owner_address": "1HZdtRv5wiQaCMve5bCnJVFmvAtdHGboyw",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "hermespons",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/hermespons/status/775551447664566272",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "hermespons",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/hermespons/posts/645362878964597?pnref=story",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/hermespons",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/hermespons",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "hermespons",
+      "proof_url": "https://twitter.com/hermespons/status/775551447664566272",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "hermespons",
+      "proof_url": "https://www.facebook.com/hermespons/posts/645362878964597?pnref=story",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN hermespons.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hermespons.id\"\n"
+}

@@ -1,0 +1,73 @@
+{
+  "owner_address": "16fvD87z8jtEjjKJqB18vBHLUo87KRVd9k",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tulipan81",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/tulipan81/status/786192285578833921",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "valerio-vaccaro",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/valerio-vaccaro/cb8e05915b3604bc25d15bad7c8288b0",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "valerio.vaccaro",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/valerio_vaccaro&redirect_uri=https://onename.com/valerio_vaccaro%23facebook",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Milan"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/valerio_vaccaro",
+        "name": "avatar"
+      }
+    ],
+    "name": "Valerio Vaccaro",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.valeriovaccaro.it/"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "tulipan81",
+      "proof_url": "https://twitter.com/tulipan81/status/786192285578833921",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "valerio-vaccaro",
+      "proof_url": "https://gist.github.com/valerio-vaccaro/cb8e05915b3604bc25d15bad7c8288b0",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "valerio.vaccaro",
+      "proof_url": "https://www.facebook.com/dialog/feed?app_id=548488045273230&link=https://onename.com/valerio_vaccaro&redirect_uri=https://onename.com/valerio_vaccaro%23facebook",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN valerio_vaccaro.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/valerio_vaccaro.id\"\n"
+}

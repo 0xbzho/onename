@@ -1,0 +1,44 @@
+{
+  "owner_address": "14kdSXNd9bxML7fRxro9XNfDu2zBEG7UPt",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "katin",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/katin/df6887fbd46748f0d5e8ebea0b459dbc",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "katin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/katin/status/763018035527430144",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "katin",
+      "proof_url": "https://gist.github.com/katin/df6887fbd46748f0d5e8ebea0b459dbc",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "katin",
+      "proof_url": "https://twitter.com/katin/status/763018035527430144",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kbimes.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kbimes.id\"\n"
+}

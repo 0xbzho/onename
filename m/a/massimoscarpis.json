@@ -1,0 +1,47 @@
+{
+  "owner_address": "1fhYcZ3r8wQkrP2Gmi9fxkSDapEXEyxwU",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "MassimoScarpis",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/MassimoScarpis/status/766893457486983168",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Treviso, Italy"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/massimoscarpis",
+        "name": "avatar"
+      }
+    ],
+    "name": "Massimo Scarpis",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://massimoscarpis.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "MassimoScarpis",
+      "proof_url": "https://twitter.com/MassimoScarpis/status/766893457486983168",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN massimoscarpis.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/massimoscarpis.id\"\n"
+}

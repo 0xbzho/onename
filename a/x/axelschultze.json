@@ -1,0 +1,62 @@
+{
+  "owner_address": "1Khf4UQSpGWqgUqWHGShKgB96CLMn3EJvA",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "axels",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/AxelS/status/776487261227610112",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "anonymous",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/anonymous/b4b303fabaed4218f5fbd7f832307ee0",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "axelschultze",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/axelschultze/posts/10153703001917511",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/axelschultze",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "axels",
+      "proof_url": "https://twitter.com/AxelS/status/776487261227610112",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "anonymous",
+      "proof_url": "https://gist.github.com/anonymous/b4b303fabaed4218f5fbd7f832307ee0",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "axelschultze",
+      "proof_url": "https://www.facebook.com/axelschultze/posts/10153703001917511",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN axelschultze.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/axelschultze.id\"\n"
+}

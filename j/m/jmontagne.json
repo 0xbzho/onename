@@ -9,6 +9,19 @@
         "proofType": "http",
         "proofUrl": "https://twitter.com/jmontagne/status/749659546155675649",
         "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "12QNUnWYF81kCmLpPMxERjYJnsAKNqaszB",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jmontagn3",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jmontagn3/17c9366884c463fc80e3a48b47fb2288",
+        "service": "github"
       }
     ],
     "image": [
@@ -31,6 +44,12 @@
       "proof_url": "https://twitter.com/jmontagne/status/749659546155675649",
       "service": "twitter",
       "valid": true
+    },
+    {
+      "identifier": "jmontagn3",
+      "proof_url": "https://gist.github.com/jmontagn3/17c9366884c463fc80e3a48b47fb2288",
+      "service": "github",
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN jmontagne.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jmontagne.id\"\n"

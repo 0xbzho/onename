@@ -1,0 +1,36 @@
+{
+  "owner_address": "1JDjzFg6ajFEH9T3THxQckzELUZ8D3RUb1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "aussiearnie",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "aussiearnie",
+        "proofType": "http",
+        "proofUrl": "Verifying that \"aussiearnie.id\" is my Blockstack ID. https://onename.com/aussiearnie",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "aussiearnie",
+      "proof_url": "Verifying that \"aussiearnie.id\" is my Blockstack ID. https://onename.com/aussiearnie",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN aussiearnie.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/aussiearnie.id\"\n"
+}

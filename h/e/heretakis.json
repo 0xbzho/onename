@@ -1,0 +1,62 @@
+{
+  "owner_address": "1H8GDvMWAxisXtehKgwuvMbkxDEWA1FGyh",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "heretakis",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/heretakis/7bbbdf087f253fcec7a53c6bcffef995",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "heretakis",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/heretakis/status/767990280352047104",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "heretakisandassociates",
+        "proofType": "http",
+        "proofUrl": "www.facebook.com/heretakisandassociates/posts/1177719598936608",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/heretakis",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "heretakis",
+      "proof_url": "https://gist.github.com/heretakis/7bbbdf087f253fcec7a53c6bcffef995",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "heretakis",
+      "proof_url": "https://twitter.com/heretakis/status/767990280352047104",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "heretakisandassociates",
+      "proof_url": "www.facebook.com/heretakisandassociates/posts/1177719598936608",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN heretakis.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/heretakis.id\"\n"
+}

@@ -1,0 +1,63 @@
+{
+  "owner_address": "1KB5NZ6Mo63B64XhuQZ7gcgRqhMcjQGUuM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "j3st3rDev",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/j3st3rDev/433bcea2139f701ab2a8910a523bf6a3",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mastroj3st3r",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/mastroj3st3r/status/774020600125882368",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "and.tomassi",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/and.tomassi/posts/10208589560070678",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/j3st3r",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/j3st3r",
+        "name": "cover"
+      }
+    ],
+    "name": "Andrea Tomassi"
+  },
+  "verifications": [
+    {
+      "identifier": "j3st3rDev",
+      "proof_url": "https://gist.github.com/j3st3rDev/433bcea2139f701ab2a8910a523bf6a3",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "mastroj3st3r",
+      "proof_url": "https://twitter.com/mastroj3st3r/status/774020600125882368",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "and.tomassi",
+      "proof_url": "https://www.facebook.com/and.tomassi/posts/10208589560070678",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN j3st3r.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/j3st3r.id\"\n"
+}

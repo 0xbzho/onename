@@ -1,24 +1,54 @@
 {
   "owner_address": "1AuRrjsnCr8HYHaRHKMBLabMCZ3xG452AE",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/mikeluby"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mikeluby",
+        "proofType": "http",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mikeluby",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mikeluby/b09eeec0f72635a056fbb47885978484",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York, NY"
     },
-    "bio": "Lead Architect @VirginMegaUSA. @BuddyMedia, acquired by @Salesforce. Co-Founder @JoltSoft @SomethingBloo. Master diagram craftsman #Developer #Entrepreneur #NYC",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/mikeluby"
-    },
-    "location": {
-      "formatted": "New York, NY"
-    },
-    "name": {
-      "formatted": "Mike Luby"
-    },
-    "twitter": {
-      "username": "mikeluby"
-    },
-    "v": "0.2",
-    "website": "http://linkedin.com/in/mikeluby"
+    "description": "Director of Engineering @Nike • @VirginMegaUSA acquired by @Nike • @BuddyMedia acquired by @Salesforce • Co-Founder @JoltSoft",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/mikeluby",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/mikeluby",
+        "name": "cover"
+      }
+    ],
+    "name": "Mike Luby",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://linkedin.com/in/mikeluby"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "mikeluby",
+      "proof_url": "https://gist.github.com/mikeluby/b09eeec0f72635a056fbb47885978484",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mikeluby.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mikeluby.id\"\n"
 }

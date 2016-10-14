@@ -1,0 +1,57 @@
+{
+  "owner_address": "185NQXuLtqkAXTaWCFp8Ec5bRTvxEMCKL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jdeena1964",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jdeena1964",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jdeena",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jdeena/posts/10211032583312936?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jdeena64",
+        "proofType": "http",
+        "proofUrl": "https://t.co/R8UzwQo6hA",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/HHE.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jdeena1964",
+      "proof_url": "https://gist.github.com/jdeena1964",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "jdeena",
+      "proof_url": "https://www.facebook.com/jdeena/posts/10211032583312936?pnref=story",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "jdeena64",
+      "proof_url": "https://t.co/R8UzwQo6hA",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jdeena.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jdeena.id\"\n"
+}

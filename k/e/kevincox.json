@@ -1,10 +1,50 @@
 {
   "owner_address": "189LXUgh7HHkFt1QF7gHHZCssZUKWhit7D",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/OSA.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kevincox",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/kevincox/57bc8bd53ea76cfc9969a62b8770e4ce",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "kevincox_ca",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kevincox_ca/status/772018413485035520",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/kevincox",
+        "identifier": "E3943366624E7449B9B485AEC0758A3B34D52E74",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ]
   },
-  "verifications": []
+  "verifications": [
+    {
+      "identifier": "kevincox",
+      "proof_url": "https://gist.github.com/kevincox/57bc8bd53ea76cfc9969a62b8770e4ce",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "kevincox_ca",
+      "proof_url": "https://twitter.com/kevincox_ca/status/772018413485035520",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kevincox.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kevincox.id\"\n"
 }

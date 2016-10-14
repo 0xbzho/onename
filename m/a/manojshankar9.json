@@ -1,11 +1,24 @@
 {
   "owner_address": "1Ar8VPdba8yZ6NvC9wvRyxZycAuVT89wNh",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/IKM.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "manoj.shankar9",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/manoj.shankar9/posts/1287287404615309",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ]
   },
   "verifications": [],
-  "zone_file": "{\"cover\": {\"url\": \"https://s3.amazonaws.com/97p/IKM.jpeg\"}, \"v\": \"0.2\"}"
+  "zone_file": "$ORIGIN manojshankar9.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/manojshankar9.id\"\n"
 }

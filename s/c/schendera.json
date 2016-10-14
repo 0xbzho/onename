@@ -1,0 +1,79 @@
+{
+  "owner_address": "1KtM9a4DenVD3GUCRQPXRsBMRudcoqvjVg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "HSchendera",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/HSchendera/status/772394834191609856",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "schendera",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/schendera/a26d374c757902c2a958a08a2b67cce3",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "schendera",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/schendera/posts/10207243041861509?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "c4d38acb05f4ac799bbac07168e9c684c9ddc842",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "61169 Friedberg, Hesse, Germany"
+    },
+    "description": "I own the internet marketing agency Schendera Internet Services near Frankfurt. We generate content, traffic, leads, and sales, helping businesses worldwide to become successful online.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/schendera",
+        "name": "avatar"
+      }
+    ],
+    "name": "Harald Schendera",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.schendera.com/company.html"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "HSchendera",
+      "proof_url": "https://twitter.com/HSchendera/status/772394834191609856",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "schendera",
+      "proof_url": "https://gist.github.com/schendera/a26d374c757902c2a958a08a2b67cce3",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "schendera",
+      "proof_url": "https://www.facebook.com/schendera/posts/10207243041861509?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN schendera.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/schendera.id\"\n"
+}
