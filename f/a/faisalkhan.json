@@ -1,36 +1,53 @@
 {
   "owner_address": "1CRwNV2AwsDepyUoa47dCw5yP9bFRbtHyT",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/faisalkhan"
-    },
-    "bio": "Payments Consultant for Banks & Startups. Digital Money Evangelist. Entrepreneur. Foodie. Love Jazz/Movies. History/Trivia Buff. Books are love. Internet Addict",
-    "bitcoin": {
-      "address": "1r83ePyMtzvGzjazxGv5x7av9nkRRK4fM"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/faisalkhan"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/babushka99/posts/10152385287367798"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1r83ePyMtzvGzjazxGv5x7av9nkRRK4fM",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "babushka99"
-    },
-    "location": {
-      "formatted": "Karachi, Pakistan"
-    },
-    "name": {
-      "formatted": "Faisal Khan"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/babushka99/status/502359874030682112"
+      {
+        "@type": "Account",
+        "identifier": "babushka99",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/babushka99/status/787262444624379904",
+        "service": "twitter"
       },
-      "username": "babushka99"
+      {
+        "@type": "Account",
+        "identifier": "babushka99",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/babushka99/posts/10154261577692798",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Karachi, Pakistan"
     },
-    "v": "0.2",
-    "website": "http://about.me/faisal.khan"
+    "description": "Payments Consultant for Banks & Startups. Digital Money Evangelist. Entrepreneur. Foodie. Love Jazz/Movies. History/Trivia Buff. Books are love. Internet Addict",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/faisalkhan",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/faisalkhan",
+        "name": "cover"
+      }
+    ],
+    "name": "Faisal Khan",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://about.me/faisal.khan"
+      }
+    ]
   },
   "verifications": [
     {
@@ -46,5 +63,5 @@
       "valid": false
     }
   ],
-  "zone_file": "{\"avatar\": {\"url\": \"https://s3.amazonaws.com/kd4/faisalkhan\"}, \"bio\": \"Payments Consultant for Banks & Startups. Digital Money Evangelist. Entrepreneur. Foodie. Love Jazz/Movies. History/Trivia Buff. Books are love. Internet Addict\", \"bitcoin\": {\"address\": \"1r83ePyMtzvGzjazxGv5x7av9nkRRK4fM\"}, \"cover\": {\"url\": \"https://s3.amazonaws.com/dx3/faisalkhan\"}, \"facebook\": {\"proof\": {\"url\": \"https://facebook.com/babushka99/posts/10152385287367798\"}, \"username\": \"babushka99\"}, \"location\": {\"formatted\": \"Karachi, Pakistan\"}, \"name\": {\"formatted\": \"Faisal Khan\"}, \"twitter\": {\"proof\": {\"url\": \"https://twitter.com/babushka99/status/502359874030682112\"}, \"username\": \"babushka99\"}, \"v\": \"0.2\", \"website\": \"http://about.me/faisal.khan\"}"
+  "zone_file": "$ORIGIN faisalkhan.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/faisalkhan.id\"\n"
 }
