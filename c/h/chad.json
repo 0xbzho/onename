@@ -58,16 +58,16 @@
       "valid": true
     },
     {
-      "identifier": "chadhurin",
-      "proof_url": "https://gist.github.com/chadhurin/1e20e1e209c0e553ddedc1a3d504ee07",
-      "service": "github",
-      "valid": false
-    },
-    {
       "identifier": "ChadHurin",
       "proof_url": "https://www.facebook.com/ChadHurin/posts/10154610953071282",
       "service": "facebook",
       "valid": true
+    },
+    {
+      "identifier": "chadhurin",
+      "proof_url": "https://gist.github.com/chadhurin/1e20e1e209c0e553ddedc1a3d504ee07",
+      "service": "github",
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN chad.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/chad.id\"\n"
