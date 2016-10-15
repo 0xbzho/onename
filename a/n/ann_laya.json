@@ -1,6 +1,36 @@
 {
-  "owner_address": "1Ld29ps3xgnYmeVt9kiM6J7j7WRD4kruhQ",
-  "profile": {},
+  "owner_address": "17iFnnk4QPTqLN9MwwQS3Ycz6v1c7mKByN",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "atravessare",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/atravessare/status/786960738753581056",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "andrenapoles",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/andrenapoles/719c9a05e634c6fdd7fdf32f3c61dc00",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ann_laya",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/ann_laya",
+        "name": "cover"
+      }
+    ]
+  },
   "verifications": [],
   "zone_file": "$ORIGIN ann_laya.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ann_laya.id\"\n"
 }
