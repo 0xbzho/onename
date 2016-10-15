@@ -1,11 +1,29 @@
 {
   "owner_address": "15vUnicaNwoq3MKXh9fwJHTSRCeuzY8u5V",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/wdX.jpeg"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "lukedk",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/lukedk/status/786964775418880000",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chicago, IL USA"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Luke Kelleher"
   },
   "verifications": [],
-  "zone_file": "{\"cover\": {\"url\": \"https://s3.amazonaws.com/97p/wdX.jpeg\"}, \"v\": \"0.2\"}"
+  "zone_file": "$ORIGIN lukedk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lukedk.id\"\n"
 }

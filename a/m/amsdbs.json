@@ -1,0 +1,44 @@
+{
+  "owner_address": "186GCvhQ3kB2xsqkym5a8YjFTxyrV4cPKo",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/deadbits/key.asc",
+        "identifier": "01EDC31F32E45485EF769E25A88F2B93A1351871",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "deadbits",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/deadbits/c915648cf78557b6c79d14f0243d3f59",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/Ov8.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Adam Swanda",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.deadbits.org"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "deadbits",
+      "proof_url": "https://gist.github.com/deadbits/c915648cf78557b6c79d14f0243d3f59",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN amsdbs.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/amsdbs.id\"\n"
+}
