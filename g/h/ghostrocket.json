@@ -1,0 +1,36 @@
+{
+  "owner_address": "1H8nXq4kK3NhNqzpkpNBMWYGWu1TBCsU52",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ghostrocket",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ghostrocket/9fc0c7cca20de0f9d5cdb27bff69d386",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ghostrocket",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ghostrocket",
+      "proof_url": "https://gist.github.com/ghostrocket/9fc0c7cca20de0f9d5cdb27bff69d386",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ghostrocket.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ghostrocket.id\"\n"
+}

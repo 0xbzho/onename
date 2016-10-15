@@ -1,0 +1,31 @@
+{
+  "owner_address": "115Yak7vFYuVPEi4mySVVpQ6JhcWTY7U6q",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "johnkeehler",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/johnkeehler/status/786932286117642240",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "johnkeehler",
+      "proof_url": "https://twitter.com/johnkeehler/status/786932286117642240",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN johnkeehler.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/johnkeehler.id\"\n"
+}

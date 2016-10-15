@@ -50,6 +50,12 @@
       "proof_url": "https://www.facebook.com/jaakko.tammela/posts/1401761256502449?pnref=story",
       "service": "facebook",
       "valid": true
+    },
+    {
+      "identifier": "jaakkot",
+      "proof_url": "https://gist.github.com/jaakkot/17fdd6b5c0c40d1d56d4af739f6c0c4b",
+      "service": "github",
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN jaakko.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jaakko.id\"\n"
