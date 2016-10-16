@@ -1,33 +1,45 @@
 {
   "owner_address": "1BRNrgfPMnTDv45h4Kze7vBpiJspJKvPfb",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/guerin"
-    },
-    "bio": "Berlin-based producer, curator, collector, founder of Alien Hand Productions & Wallet LLC",
-    "bitcoin": {
-      "address": "1DtjWBB3pr5jebqhrB67j4tGVuhkNzbLvN"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/guerin"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/guerin"
-    },
-    "location": {
-      "formatted": "Berlin"
-    },
-    "name": {
-      "formatted": "Max Guerin"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/Guerin/status/486885095400148992"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Guerin",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "Guerin"
+      {
+        "@type": "Account",
+        "identifier": "19aPycbVu2GxsH3eAxzCg5LbpExbHEPfB8",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Athens"
     },
-    "v": "0.2",
-    "website": "http://MaxGuer.in"
+    "description": "Berlin-based producer, curator, collector, founder of Alien Hand Productions & Wallet LLC",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/guerin",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/guerin",
+        "name": "avatar"
+      }
+    ],
+    "name": "Guerin",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://Guerin.co"
+      }
+    ]
   },
   "verifications": [
     {
@@ -37,5 +49,5 @@
       "valid": false
     }
   ],
-  "zone_file": "{\"avatar\": {\"url\": \"https://s3.amazonaws.com/kd4/guerin\"}, \"bio\": \"Berlin-based producer, curator, collector, founder of Alien Hand Productions & Wallet LLC\", \"bitcoin\": {\"address\": \"1DtjWBB3pr5jebqhrB67j4tGVuhkNzbLvN\"}, \"cover\": {\"url\": \"https://s3.amazonaws.com/dx3/guerin\"}, \"graph\": {\"url\": \"https://s3.amazonaws.com/grph/guerin\"}, \"location\": {\"formatted\": \"Berlin\"}, \"name\": {\"formatted\": \"Max Guerin\"}, \"twitter\": {\"proof\": {\"url\": \"https://twitter.com/Guerin/status/486885095400148992\"}, \"username\": \"Guerin\"}, \"v\": \"0.2\", \"website\": \"http://MaxGuer.in\"}"
+  "zone_file": "$ORIGIN guerin.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/guerin.id\"\n"
 }

@@ -1,11 +1,22 @@
 {
   "owner_address": "1E2R6zAHfGQYaP1EXyXCKoiLnYBBZreGbE",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/rv1.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "b0f28fa20dfe31016a635f77c552881aadad333b",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ]
   },
   "verifications": [],
-  "zone_file": "{\"cover\": {\"url\": \"https://s3.amazonaws.com/97p/rv1.jpeg\"}, \"v\": \"0.2\"}"
+  "zone_file": "$ORIGIN vkingtrade.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vkingtrade.id\"\n"
 }

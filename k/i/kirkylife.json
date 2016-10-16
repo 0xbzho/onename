@@ -1,35 +1,54 @@
 {
   "owner_address": "15RZLiworeV2R4US77SLG5hN4XGpxM5X3w",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/kirkylife"
-    },
-    "bio": "Lover of most things motor sport and Swansea FC.",
-    "bitcoin": {
-      "address": "12LrERRG1NVX447gqs4Sgeest7rYUYKCzb"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/kirkylife"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/KirkTheWikiGuy/47dfded5b226c8b71bc6"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "12LrERRG1NVX447gqs4Sgeest7rYUYKCzb",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "KirkTheWikiGuy"
-    },
-    "location": {
-      "formatted": "Beckenham, England"
-    },
-    "name": {
-      "formatted": "James Kirk"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/KirkyLife/status/498573237572227073"
+      {
+        "@type": "Account",
+        "identifier": "james.kirk.790",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/james.kirk.790/posts/1450436734971043?pnref=story",
+        "service": "facebook"
       },
-      "username": "KirkyLife"
+      {
+        "@type": "Account",
+        "identifier": "KirkyLife",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/KirkyLife/status/787646130536472581",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "KirkTheWikiGuy",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/KirkTheWikiGuy/8a1a4acf6746604774144bcc5b23690f",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Beckenham, England"
     },
-    "v": "0.2"
+    "description": "Lover of most things motor sport and Swansea FC.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kirkylife",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/kirkylife",
+        "name": "cover"
+      }
+    ],
+    "name": "James Kirk"
   },
   "verifications": [
     {
@@ -45,5 +64,5 @@
       "valid": true
     }
   ],
-  "zone_file": "{\"avatar\": {\"url\": \"https://s3.amazonaws.com/kd4/kirkylife\"}, \"bio\": \"Lover of most things motor sport and Swansea FC.\", \"bitcoin\": {\"address\": \"12LrERRG1NVX447gqs4Sgeest7rYUYKCzb\"}, \"cover\": {\"url\": \"https://s3.amazonaws.com/dx3/kirkylife\"}, \"github\": {\"proof\": {\"url\": \"https://gist.github.com/KirkTheWikiGuy/47dfded5b226c8b71bc6\"}, \"username\": \"KirkTheWikiGuy\"}, \"location\": {\"formatted\": \"Beckenham, England\"}, \"name\": {\"formatted\": \"James Kirk\"}, \"twitter\": {\"proof\": {\"url\": \"https://twitter.com/KirkyLife/status/498573237572227073\"}, \"username\": \"KirkyLife\"}, \"v\": \"0.2\"}"
+  "zone_file": "$ORIGIN kirkylife.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kirkylife.id\"\n"
 }
