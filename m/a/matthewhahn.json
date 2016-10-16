@@ -1,6 +1,22 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "18LSDGg8HRNp4xhj3yVr7uTBJuoEqaqXHC",
+  "profile": {
+    "@type": "Person",
+    "account": [],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/matthewhahn",
+        "name": "avatar"
+      }
+    ],
+    "name": "Matthew Hahn"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN matthewhahn.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/matthewhahn.id\"\n"
 }

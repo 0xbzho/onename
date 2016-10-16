@@ -1,6 +1,49 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1PxBS3xDkPLwoZ4BWGSrRKXCWS2NJWpvgV",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bdougherty",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bdougherty/39c3afc670cf523f6f29462dccf7b0a1",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/bdougherty/key.asc",
+        "identifier": "31FC1669C539390165F7D15F01C8A4AB704F8E1C",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/bdougherty",
+        "name": "avatar"
+      }
+    ],
+    "name": "Brad Dougherty",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://brad.is"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "bdougherty",
+      "proof_url": "https://gist.github.com/bdougherty/39c3afc670cf523f6f29462dccf7b0a1",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN bdougherty.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bdougherty.id\"\n"
 }
