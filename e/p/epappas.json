@@ -1,39 +1,60 @@
 {
   "owner_address": "1KKfte3LpBxCDXncFZPddoy9DpgBJBwVgv",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/epappas"
-    },
-    "bio": "Software Engineer",
-    "bitcoin": {
-      "address": "14ojSTH4rkHpzgCjNUSkYrgLrdrao6Bxns"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/yId.jpg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/epappas/5325cac6e8bd6b50868e"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "14ojSTH4rkHpzgCjNUSkYrgLrdrao6Bxns",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "epappas"
-    },
-    "location": {
-      "formatted": "London"
-    },
-    "name": {
-      "formatted": "Evangelos Pappas"
-    },
-    "pgp": {
-      "fingerprint": "4096R/753BA2E6",
-      "url": "https://pgp.mit.edu/pks/lookup?op=vindex&search=0x4EC050A9753BA2E6"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/hevalon/status/723042400592007168"
+      {
+        "@type": "Account",
+        "contentUrl": "https://pgp.mit.edu/pks/lookup?op=vindex&search=0x4EC050A9753BA2E6",
+        "identifier": "4096R/753BA2E6",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "hevalon"
+      {
+        "@type": "Account",
+        "identifier": "hevalon",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Hevalon/status/723042400592007168",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "epappas",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/epappas/5325cac6e8bd6b50868e",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London, UK"
     },
-    "v": "0.2"
+    "description": "Software Engineer",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/epappas",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Evangelos Pappas",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://evalonlabs.com"
+      }
+    ]
   },
   "verifications": [
     {
@@ -49,5 +70,5 @@
       "valid": true
     }
   ],
-  "zone_file": "{\"avatar\": {\"url\": \"https://s3.amazonaws.com/kd4/epappas\"}, \"bio\": \"Software Engineer\", \"bitcoin\": {\"address\": \"14ojSTH4rkHpzgCjNUSkYrgLrdrao6Bxns\"}, \"cover\": {\"url\": \"https://s3.amazonaws.com/97p/yId.jpg\"}, \"github\": {\"proof\": {\"url\": \"https://gist.github.com/epappas/5325cac6e8bd6b50868e\"}, \"username\": \"epappas\"}, \"location\": {\"formatted\": \"London\"}, \"name\": {\"formatted\": \"Evangelos Pappas\"}, \"pgp\": {\"fingerprint\": \"4096R/753BA2E6\", \"url\": \"https://pgp.mit.edu/pks/lookup?op=vindex&search=0x4EC050A9753BA2E6\"}, \"twitter\": {\"proof\": {\"url\": \"https://twitter.com/hevalon/status/723042400592007168\"}, \"username\": \"hevalon\"}, \"v\": \"0.2\"}"
+  "zone_file": "$ORIGIN epappas.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/epappas.id\"\n"
 }
