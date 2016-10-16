@@ -1,0 +1,49 @@
+{
+  "owner_address": "1K8cThLKyxbf3gFZnurZg6eWt1bXS8e4iJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ross_radev",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Ross_Radev/status/787323063910227972",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gist:bac613688903ca45d64226527edab98c",
+        "proofType": "http",
+        "proofUrl": "gist:bac613688903ca45d64226527edab98c",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ross_radev",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "ross_radev",
+      "proof_url": "https://twitter.com/Ross_Radev/status/787323063910227972",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "gist:bac613688903ca45d64226527edab98c",
+      "proof_url": "gist:bac613688903ca45d64226527edab98c",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN ross_radev.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ross_radev.id\"\n"
+}
