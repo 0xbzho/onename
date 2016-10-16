@@ -1,6 +1,49 @@
 {
-  "owner_address": "1GRywBq16ck7GwLijAmuuXkRYe33iLqTV2",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "1MJnWM9nDqytEvdgVGeBGMkRE2fUA6goHP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Sam.roy.338",
+        "proofType": "http",
+        "proofUrl": "https://m.facebook.com/story.php?story_fbid=10208805675472909&id=1043986402",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "grokandroll",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/k",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kamakiriad",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/kamakiriad",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Sam.roy.338",
+      "proof_url": "https://m.facebook.com/story.php?story_fbid=10208805675472909&id=1043986402",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "grokandroll",
+      "proof_url": "https://onename.com/k",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN kamakiriad.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kamakiriad.id\"\n"
 }

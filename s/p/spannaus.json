@@ -1,6 +1,54 @@
 {
-  "owner_address": "1occgbip7tFDXX9MvzQhcnTUUjcVX2dYK",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "15g8AGyohoe42Uvu93E7JJwTeAKKPymnjy",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "spannaus",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/story.php?story_fbid=10211078392934523&id=1196930737",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dirk_s",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dirk_s/status/783765105284612096",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Dresden, Germany"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/spannaus",
+        "name": "avatar"
+      }
+    ],
+    "name": "Dirk Spannaus"
+  },
+  "verifications": [
+    {
+      "identifier": "spannaus",
+      "proof_url": "https://facebook.com/story.php?story_fbid=10211078392934523&id=1196930737",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "dirk_s",
+      "proof_url": "https://twitter.com/dirk_s/status/783765105284612096",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN spannaus.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/spannaus.id\"\n"
 }

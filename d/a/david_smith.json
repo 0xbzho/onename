@@ -52,15 +52,15 @@
     },
     {
       "identifier": "diskinetic",
-      "proof_url": "https://gist.github.com/diskinetic/b709fbe8fd1641175f35c0d26811aa36",
-      "service": "github",
-      "valid": false
-    },
-    {
-      "identifier": "diskinetic",
       "proof_url": "https://www.facebook.com/diskinetic/posts/10155353004719251?pnref=story",
       "service": "facebook",
       "valid": true
+    },
+    {
+      "identifier": "https:",
+      "proof_url": "https://gist.githubusercontent.com/diskinetic/709d0a8bc384b4750956fcc28de22baa/raw/61bd7fb9fc648a76caacf19af699749c32c0f040/onename",
+      "service": "github",
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN david_smith.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/david_smith.id\"\n"
