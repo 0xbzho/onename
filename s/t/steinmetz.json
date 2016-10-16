@@ -1,32 +1,57 @@
 {
   "owner_address": "1945AWF8wwXbVqETDEEaMo72rxBVBtPSCp",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/steinmetz"
-    },
-    "bitcoin": {
-      "address": "146UaWGFUbm52nrvpw1ENKom6dL1MH5vjS"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/steinmetz"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/sandymartin.steinmetz/posts/807535695956390"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "sandymartin.steinmetz",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "sandymartin.steinmetz"
+      {
+        "@type": "Account",
+        "identifier": "146UaWGFUbm52nrvpw1ENKom6dL1MH5vjS",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/steinmetz",
+        "identifier": "C0CAF713EC2E65033871EF1A578F45BD4F78A2B1",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "@OldmateMuffin",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/OldmateMuffin/status/787418582149890048",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ff5db9452cc4e00b10a135b4fe4de98a84905bc9",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Dortmund, Germany"
     },
-    "location": {
-      "formatted": "Dortmund, Germany"
-    },
-    "name": {
-      "formatted": "Sandy Martin Steinmetz"
-    },
-    "pgp": {
-      "fingerprint": "C0CAF713EC2E65033871EF1A578F45BD4F78A2B1",
-      "url": "https://s3.amazonaws.com/pk9/steinmetz"
-    },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/steinmetz",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/steinmetz",
+        "name": "cover"
+      }
+    ],
+    "name": "Sandy Martin Steinmetz"
   },
   "verifications": [
     {
@@ -36,5 +61,5 @@
       "valid": true
     }
   ],
-  "zone_file": "{\"avatar\": {\"url\": \"https://s3.amazonaws.com/kd4/steinmetz\"}, \"bitcoin\": {\"address\": \"146UaWGFUbm52nrvpw1ENKom6dL1MH5vjS\"}, \"cover\": {\"url\": \"https://s3.amazonaws.com/dx3/steinmetz\"}, \"facebook\": {\"proof\": {\"url\": \"https://facebook.com/sandymartin.steinmetz/posts/807535695956390\"}, \"username\": \"sandymartin.steinmetz\"}, \"location\": {\"formatted\": \"Dortmund, Germany\"}, \"name\": {\"formatted\": \"Sandy Martin Steinmetz\"}, \"pgp\": {\"fingerprint\": \"C0CAF713EC2E65033871EF1A578F45BD4F78A2B1\", \"url\": \"https://s3.amazonaws.com/pk9/steinmetz\"}, \"v\": \"0.2\"}"
+  "zone_file": "$ORIGIN steinmetz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/steinmetz.id\"\n"
 }

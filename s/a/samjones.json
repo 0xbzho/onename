@@ -1,36 +1,51 @@
 {
   "owner_address": "1GSnDDYoxep8DBe2dfbJQc8byCASxqsBwC",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/samjones"
-    },
-    "bio": "Developer, will work for beer and chocolate",
-    "bitcoin": {
-      "address": "1PnHHtZSkB9rttqpLT6j5HREKdsj1cbA8U"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/KJy.jpeg"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/sugarjig/28d017d817c2ade027e7"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "devsamjones",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "sugarjig"
-    },
-    "location": {
-      "formatted": "Fredericksburg, VA"
-    },
-    "name": {
-      "formatted": "Sam Jones"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/devsamjones/status/522870063074779136"
+      {
+        "@type": "Account",
+        "identifier": "sugarjig",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "devsamjones"
+      {
+        "@type": "Account",
+        "identifier": "1PnHHtZSkB9rttqpLT6j5HREKdsj1cbA8U",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Fredericksburg, VA"
     },
-    "v": "0.2",
-    "website": "http://www.samjones.us"
+    "description": "Developer, will work for beer and chocolate",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/samjones",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Sam Jones",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.samjones.io"
+      }
+    ]
   },
   "verifications": [
     {
@@ -46,5 +61,5 @@
       "valid": true
     }
   ],
-  "zone_file": "{\"avatar\": {\"url\": \"https://s3.amazonaws.com/kd4/samjones\"}, \"bio\": \"Developer, will work for beer and chocolate\", \"bitcoin\": {\"address\": \"1PnHHtZSkB9rttqpLT6j5HREKdsj1cbA8U\"}, \"cover\": {\"url\": \"https://s3.amazonaws.com/97p/KJy.jpeg\"}, \"github\": {\"proof\": {\"url\": \"https://gist.github.com/sugarjig/28d017d817c2ade027e7\"}, \"username\": \"sugarjig\"}, \"location\": {\"formatted\": \"Fredericksburg, VA\"}, \"name\": {\"formatted\": \"Sam Jones\"}, \"twitter\": {\"proof\": {\"url\": \"https://twitter.com/devsamjones/status/522870063074779136\"}, \"username\": \"devsamjones\"}, \"v\": \"0.2\", \"website\": \"http://www.samjones.us\"}"
+  "zone_file": "$ORIGIN samjones.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/samjones.id\"\n"
 }

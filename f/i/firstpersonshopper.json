@@ -1,11 +1,24 @@
 {
   "owner_address": "1CiJBinxcaqw5bUmvsmukECMQwW3VAmaBD",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/wkj.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "firstpersonshop",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/FirstPersonShop/status/787368023879393282",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      }
+    ]
   },
   "verifications": [],
-  "zone_file": "{\"cover\": {\"url\": \"https://s3.amazonaws.com/97p/wkj.jpeg\"}, \"v\": \"0.2\"}"
+  "zone_file": "$ORIGIN firstpersonshopper.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/firstpersonshopper.id\"\n"
 }

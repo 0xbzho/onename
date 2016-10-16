@@ -1,6 +1,49 @@
 {
-  "owner_address": "1L9qgkHGqR6eY4kBVBvJHiL8d3iuY3Py9P",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "19CJS4SXw6UoYUeqsabPke9mwYhzVX8sFg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "espengg",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/espengg/status/783930797510234112",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "espengg",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/espengg/posts/10154401804225801",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/espengg",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "espengg",
+      "proof_url": "https://twitter.com/espengg/status/783930797510234112",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "espengg",
+      "proof_url": "https://www.facebook.com/espengg/posts/10154401804225801",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN espengg.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/espengg.id\"\n"
 }

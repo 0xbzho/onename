@@ -32,6 +32,19 @@
     ],
     "name": "Morten Meltinis"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "meltinis",
+      "proof_url": "https://www.facebook.com/meltinis?hc_ref=NEWSFEED&fref=nf",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "mmeltinis",
+      "proof_url": "https://twitter.com/mmeltinis/status/784838884282789889",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN meltinis.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/meltinis.id\"\n"
 }
