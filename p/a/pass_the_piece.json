@@ -1,0 +1,61 @@
+{
+  "owner_address": "1BF8XuP9K3v2gcpj9mdbiGxQTHTCxJTiLc",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "passthepieceapp",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/passthepieceapp/",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "pass_the_piece",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Pass_The_Piece/status/787470666287108096",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Denver, CO"
+    },
+    "description": "✌️ Open Source, 🌍 3D Printing, ♥️ Bitcoin",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/pass_the_piece",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/pass_the_piece",
+        "name": "cover"
+      }
+    ],
+    "name": "Pass The Piece, LLC",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://www.passthepiece.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "passthepieceapp",
+      "proof_url": "https://www.facebook.com/passthepieceapp/",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "pass_the_piece",
+      "proof_url": "https://twitter.com/Pass_The_Piece/status/787470666287108096",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN pass_the_piece.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pass_the_piece.id\"\n"
+}

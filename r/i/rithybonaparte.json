@@ -1,0 +1,57 @@
+{
+  "owner_address": "1sUmsP3ZfkyrZvLjANr6uTg6tccyXVNqw",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "rithyaai",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/RithyAAI/status/787921487558643712",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https://www.facebook.com/rithyaai",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/rithyaai/posts/955252971269477",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rithygithub",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rithygithub/2735656adcaf9a48bd8a8cdba5b90edb",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "rithyaai",
+      "proof_url": "https://twitter.com/RithyAAI/status/787921487558643712",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "https://www.facebook.com/rithyaai",
+      "proof_url": "https://www.facebook.com/rithyaai/posts/955252971269477",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "rithygithub",
+      "proof_url": "https://gist.github.com/rithygithub/2735656adcaf9a48bd8a8cdba5b90edb",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN rithybonaparte.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/rithybonaparte.id\"\n"
+}
