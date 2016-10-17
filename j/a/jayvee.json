@@ -1,0 +1,55 @@
+{
+  "owner_address": "1FtWYs2KeBZZ4SdjM2j7RKEGhKHBQnbto5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jayvee",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/jayvee/posts/10157523404720104",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "SirJayvs",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SirJayvs/status/787829676521631745",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "3BRmHshRVxSXdbjjHL3Lz2GEFp1eeSsUGS",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/jayvee",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/jayvee",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jayvee",
+      "proof_url": "https://www.facebook.com/jayvee/posts/10157523404720104",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "SirJayvs",
+      "proof_url": "https://twitter.com/SirJayvs/status/787829676521631745",
+      "service": "twitter",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN jayvee.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/jayvee.id\"\n"
+}

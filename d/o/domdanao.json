@@ -1,0 +1,46 @@
+{
+  "owner_address": "1FMfFjVa4Auyxng1jd6JrpZcdhXsKPS9Ba",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "domdanao",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/domdanao/status/787843031667847168",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ddanao",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Philippines"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/domdanao",
+        "name": "avatar"
+      }
+    ],
+    "name": "Dominick Danao"
+  },
+  "verifications": [
+    {
+      "identifier": "domdanao",
+      "proof_url": "https://twitter.com/domdanao/status/787843031667847168",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN domdanao.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/domdanao.id\"\n"
+}

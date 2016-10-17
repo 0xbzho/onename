@@ -1,0 +1,67 @@
+{
+  "owner_address": "1G5hBZ6bJWJntW4mFiHc36vZJdvwxNvkj6",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "DiegoLeonU",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/DiegoLeonU/status/787787959349239809",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "DiegoLeonUllauri",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/diegotco",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "diegotco",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/diegotco/89784cd8c1d36bcc4ce5d2e73bc96132",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cuenca, Ecuador"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wdX.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/diegotco",
+        "name": "avatar"
+      }
+    ],
+    "name": "Diego Leon Ullauri"
+  },
+  "verifications": [
+    {
+      "identifier": "DiegoLeonU",
+      "proof_url": "https://twitter.com/DiegoLeonU/status/787787959349239809",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "DiegoLeonUllauri",
+      "proof_url": "https://onename.com/diegotco",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "diegotco",
+      "proof_url": "https://gist.github.com/diegotco/89784cd8c1d36bcc4ce5d2e73bc96132",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN diegotco.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/diegotco.id\"\n"
+}
