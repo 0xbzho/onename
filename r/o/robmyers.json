@@ -66,21 +66,21 @@
   "verifications": [
     {
       "identifier": "robmyers",
-      "proof_url": "https://gist.github.com/robmyers/4d88ebe065863d13a9a5",
-      "service": "github",
-      "valid": false
-    },
-    {
-      "identifier": "robmyers",
-      "proof_url": "https://twitter.com/robmyers/status/608431104845074433",
+      "proof_url": "https://twitter.com/robmyers/status/786407524417216513",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "r0bmyers",
-      "proof_url": "https://facebook.com/r0bmyers/posts/10153346463314655",
+      "proof_url": "https://www.facebook.com/r0bmyers/posts/10154578387804655",
       "service": "facebook",
       "valid": true
+    },
+    {
+      "identifier": "robmyers",
+      "proof_url": "https://gist.github.com/robmyers/f3e2a7b2a448954f5cfc834690b00324",
+      "service": "github",
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN robmyers.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/robmyers.id\"\n"

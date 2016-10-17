@@ -1,6 +1,36 @@
 {
-  "owner_address": "1occgbip7tFDXX9MvzQhcnTUUjcVX2dYK",
-  "profile": {},
+  "owner_address": "191owRXuyCyE3EmpRxVPm3D2TS9cQCX4nB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "iveeliang",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/iveeliang/posts/10209378813321427?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "ivyliang",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/ivyliang/status/787957847275495424",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Taiwan"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Ivy Liang"
+  },
   "verifications": [],
   "zone_file": "$ORIGIN ivyliang.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ivyliang.id\"\n"
 }
