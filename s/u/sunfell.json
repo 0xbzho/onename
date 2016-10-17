@@ -1,33 +1,46 @@
 {
   "owner_address": "1KApWLyKBDpzqo3rL1zvDu4o4fippobMmf",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/sunfell"
-    },
-    "bio": "Philosopher-Geek. TechMage. Computer Whisperer. Synchrondipity Nexus. Memetic Hazard. Subwoofer Tester. Crypto-Vulcan. Desert Storm Veteran. SeaMonkey.",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/sunfell"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/sunfell/posts/10204433955088423"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Sunfell",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "sunfell"
+      {
+        "@type": "Account",
+        "identifier": "sunfell",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/sunfell/posts/10204433955088423",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "MuMu Land"
     },
-    "location": {
-      "formatted": "MuMu Land"
-    },
-    "name": {
-      "formatted": "Sunfell"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/sunfell/status/715002095850508288"
+    "description": "Philosopher-Geek. TechMage. Computer Whisperer. Synchrondipity Nexus. Memetic Hazard. Subwoofer Tester. Crypto-Vulcan. Desert Storm Veteran. SeaMonkey.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sunfell",
+        "name": "avatar"
       },
-      "username": "Sunfell"
-    },
-    "v": "0.2",
-    "website": "http://sunfell.wordpress.com/"
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/sunfell",
+        "name": "cover"
+      }
+    ],
+    "name": "Sunfell",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://sunfell.wordpress.com/"
+      }
+    ]
   },
   "verifications": [
     {
@@ -43,5 +56,5 @@
       "valid": false
     }
   ],
-  "zone_file": "{\"avatar\": {\"url\": \"https://s3.amazonaws.com/kd4/sunfell\"}, \"bio\": \"Philosopher-Geek. TechMage. Computer Whisperer. Synchrondipity Nexus. Memetic Hazard. Subwoofer Tester. Crypto-Vulcan. Desert Storm Veteran. SeaMonkey.\", \"cover\": {\"url\": \"https://s3.amazonaws.com/dx3/sunfell\"}, \"facebook\": {\"proof\": {\"url\": \"https://facebook.com/sunfell/posts/10204433955088423\"}, \"username\": \"sunfell\"}, \"location\": {\"formatted\": \"MuMu Land\"}, \"name\": {\"formatted\": \"Sunfell\"}, \"twitter\": {\"proof\": {\"url\": \"https://twitter.com/sunfell/status/715002095850508288\"}, \"username\": \"Sunfell\"}, \"v\": \"0.2\", \"website\": \"http://sunfell.wordpress.com/\"}"
+  "zone_file": "$ORIGIN sunfell.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sunfell.id\"\n"
 }

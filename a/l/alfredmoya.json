@@ -1,6 +1,49 @@
 {
-  "owner_address": "1BY9WquhEXTit7o2rr3nPDSqkv2g7sz6Xj",
-  "profile": {},
-  "verifications": [],
+  "owner_address": "167qSxVY7rwhFgPPivmM28cRxDgMWXMKcP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "affordableweb",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/affordableweb/status/785107090398380032",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "alfredmoya",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/alfredmoya/posts/10155258079049018",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/alfredmoya",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "affordableweb",
+      "proof_url": "https://twitter.com/affordableweb/status/785107090398380032",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "alfredmoya",
+      "proof_url": "https://www.facebook.com/alfredmoya/posts/10155258079049018",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN alfredmoya.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alfredmoya.id\"\n"
 }
