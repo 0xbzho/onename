@@ -1,11 +1,21 @@
 {
   "owner_address": "189DHuZjsNFiSDNd5gSTYqf3Akbw9YHoka",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/yvD.jpeg"
+    "@type": "Person",
+    "account": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Siberia"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yvD.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "SemyonBauer"
   },
   "verifications": [],
-  "zone_file": "{\"cover\": {\"url\": \"https://s3.amazonaws.com/97p/yvD.jpeg\"}, \"v\": \"0.2\"}"
+  "zone_file": "$ORIGIN bauerleather.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bauerleather.id\"\n"
 }

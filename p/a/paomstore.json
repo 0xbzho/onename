@@ -1,0 +1,85 @@
+{
+  "owner_address": "1xtDuckDPxHpw1GFLoxpbzuG5ckviggQM",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "msrobot0",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/msrobot0/status/787706153727889408",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "byco",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/byco/01b93a4af63ad5a41c0177ed9e6561e1",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "msrobot0",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/msrobot0/posts/10154031889212759?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "19VrUvtKgSAfNM1fzqxy4c5ZfA2syQwcEY",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "2f4596e2ac87b26e571b359caee497bbf4babbad",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "The internets"
+    },
+    "description": "Make Stuff Sell Stuff Be Happy",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/paomstore",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/paomstore",
+        "name": "cover"
+      }
+    ],
+    "name": "Print All Over Me",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://paom.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "msrobot0",
+      "proof_url": "https://twitter.com/msrobot0/status/787706153727889408",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "byco",
+      "proof_url": "https://gist.github.com/byco/01b93a4af63ad5a41c0177ed9e6561e1",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "msrobot0",
+      "proof_url": "https://www.facebook.com/msrobot0/posts/10154031889212759?pnref=story",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN paomstore.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/paomstore.id\"\n"
+}

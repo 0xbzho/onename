@@ -1,34 +1,45 @@
 {
   "owner_address": "14LCLNrsPyQaaCsFwRprcjWEWtN9uUqEWp",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/fuller"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/fuller"
-    },
-    "facebook": {
-      "username": "afull3r"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/ajfuller/aac7b517fb95df53790581dff9ed522a"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Fuller_AJ",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "ajfuller"
-    },
-    "location": {
-      "formatted": "Minneapolis, MN"
-    },
-    "name": {
-      "formatted": "Andrew Fuller"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/Fuller_AJ/status/714952415636799491"
+      {
+        "@type": "Account",
+        "identifier": "afull3r",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "Fuller_AJ"
+      {
+        "@type": "Account",
+        "identifier": "ajfuller",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/ajfuller/24f533f7149a3af5df146e0e1bad19ab",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Minneapolis, MN"
     },
-    "v": "0.2"
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/fuller",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/fuller",
+        "name": "cover"
+      }
+    ],
+    "name": "Andrew Fuller"
   },
   "verifications": [
     {
@@ -44,5 +55,5 @@
       "valid": true
     }
   ],
-  "zone_file": "{\"avatar\": {\"url\": \"https://s3.amazonaws.com/kd4/fuller\"}, \"cover\": {\"url\": \"https://s3.amazonaws.com/dx3/fuller\"}, \"facebook\": {\"username\": \"afull3r\"}, \"github\": {\"proof\": {\"url\": \"https://gist.github.com/ajfuller/aac7b517fb95df53790581dff9ed522a\"}, \"username\": \"ajfuller\"}, \"location\": {\"formatted\": \"Minneapolis, MN\"}, \"name\": {\"formatted\": \"Andrew Fuller\"}, \"twitter\": {\"proof\": {\"url\": \"https://twitter.com/Fuller_AJ/status/714952415636799491\"}, \"username\": \"Fuller_AJ\"}, \"v\": \"0.2\"}"
+  "zone_file": "$ORIGIN fuller.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fuller.id\"\n"
 }
