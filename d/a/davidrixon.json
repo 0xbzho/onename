@@ -1,24 +1,48 @@
 {
   "owner_address": "1M3WvjuSQ6GghrEtUCfv2gNxzwSJrXyTKK",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/davidrixon"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/OSA.jpeg"
-    },
-    "facebook": {
-      "username": "davidrixon1"
-    },
-    "name": {
-      "formatted": "David Rixon"
-    },
-    "twitter": {
-      "username": "davidrixon"
-    },
-    "v": "0.2",
-    "website": "http://davidrixon.com"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "davidrixon1",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "14imnGekVvphevwU9CHGwmFD7LQgPaNqpm",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "davidrixon",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/davidrixon/status/788077814931197952",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/davidrixon",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/OSA.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "David Rixon",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://davidrixon.com"
+      }
+    ]
   },
   "verifications": [],
-  "zone_file": "{\"avatar\": {\"url\": \"https://s3.amazonaws.com/kd4/davidrixon\"}, \"cover\": {\"url\": \"https://s3.amazonaws.com/97p/OSA.jpeg\"}, \"facebook\": {\"username\": \"davidrixon1\"}, \"name\": {\"formatted\": \"David Rixon\"}, \"twitter\": {\"username\": \"davidrixon\"}, \"v\": \"0.2\", \"website\": \"http://davidrixon.com\"}"
+  "zone_file": "$ORIGIN davidrixon.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/davidrixon.id\"\n"
 }
