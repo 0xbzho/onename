@@ -1,36 +1,41 @@
 {
   "owner_address": "1JMtL5YdtkLda2rPqpQg4LEqqcRgy2TWhV",
   "profile": {
-    "bio": "If a tech makes life better, you can bet we're making it!",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/KJy.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/jacob.gadikian/posts/10101130989030911"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jacobgadikian",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "jacob.gadikian"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/faddat/8bc5a7db9d4b8f3c5d38"
+      {
+        "@type": "Account",
+        "identifier": "faddat",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "faddat"
+      {
+        "@type": "Account",
+        "identifier": "jacob.gadikian",
+        "proofType": "http",
+        "proofUrl": "https://facebook.com/jacob.gadikian/posts/10101130989030911",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Earth"
     },
-    "location": {
-      "formatted": "Earth"
-    },
-    "name": {
-      "formatted": "Jacob Gadikian"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/jacobgadikian/status/570627738089828352"
-      },
-      "username": "jacobgadikian"
-    },
-    "v": "0.2"
+    "description": "If a tech makes life better, you can bet we're making it!",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Jacob Gadikian"
   },
   "verifications": [
     {
@@ -52,5 +57,5 @@
       "valid": false
     }
   ],
-  "zone_file": "{\"bio\": \"If a tech makes life better, you can bet we're making it!\", \"bitcoin\": {}, \"cover\": {\"url\": \"https://s3.amazonaws.com/97p/KJy.jpeg\"}, \"facebook\": {\"proof\": {\"url\": \"https://facebook.com/jacob.gadikian/posts/10101130989030911\"}, \"username\": \"jacob.gadikian\"}, \"github\": {\"proof\": {\"url\": \"https://gist.github.com/faddat/8bc5a7db9d4b8f3c5d38\"}, \"username\": \"faddat\"}, \"location\": {\"formatted\": \"Earth\"}, \"name\": {\"formatted\": \"Jacob Gadikian\"}, \"twitter\": {\"proof\": {\"url\": \"https://twitter.com/jacobgadikian/status/570627738089828352\"}, \"username\": \"jacobgadikian\"}, \"v\": \"0.2\"}"
+  "zone_file": "$ORIGIN faddat.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/faddat.id\"\n"
 }

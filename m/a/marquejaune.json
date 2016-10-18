@@ -5,8 +5,15 @@
     "account": [
       {
         "@type": "Account",
+        "identifier": "13P1CdTPygCcXBRxKDXhNHUaE3soutyXpN",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
         "identifier": "marque_jaune",
         "proofType": "http",
+        "proofUrl": "https://twitter.com/marque_jaune/status/788211252258627584",
         "service": "twitter"
       },
       {
@@ -15,12 +22,6 @@
         "proofType": "http",
         "proofUrl": "https://gist.github.com/MarqueJaune/7226d92181f3afe7c1ec",
         "service": "github"
-      },
-      {
-        "@type": "Account",
-        "identifier": "13P1CdTPygCcXBRxKDXhNHUaE3soutyXpN",
-        "role": "payment",
-        "service": "bitcoin"
       }
     ],
     "address": {
