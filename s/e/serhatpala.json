@@ -1,0 +1,44 @@
+{
+  "owner_address": "1MDmZxmG4BUaXaxz4D9ZhbqsNqYRHBcFR7",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "serhatpala",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/serhatpala/status/788084424030040064",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "/serhat.pala.35",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/serhat.pala.35",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rv1.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "serhatpala",
+      "proof_url": "https://twitter.com/serhatpala/status/788084424030040064",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "/serhat.pala.35",
+      "proof_url": "https://www.facebook.com/serhat.pala.35",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN serhatpala.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/serhatpala.id\"\n"
+}

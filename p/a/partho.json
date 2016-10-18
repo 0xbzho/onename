@@ -1,0 +1,67 @@
+{
+  "owner_address": "1A7DqjBnvq6ozhm4pq5QiihqzBiZ11F22m",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "partho_75",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/partho_75/status/788023256347533314",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "m.parth.shah",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/m.parth.shah/posts/10154216952968073?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "zealisticsolutions15",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/zealisticsolutions15/978035b6f1bf5aceee9a8a6c4804d3a1",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Vadodara"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/partho",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/partho",
+        "name": "cover"
+      }
+    ],
+    "name": "Parth Shah"
+  },
+  "verifications": [
+    {
+      "identifier": "partho_75",
+      "proof_url": "https://twitter.com/partho_75/status/788023256347533314",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "m.parth.shah",
+      "proof_url": "https://www.facebook.com/m.parth.shah/posts/10154216952968073?pnref=story",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "zealisticsolutions15",
+      "proof_url": "https://gist.github.com/zealisticsolutions15/978035b6f1bf5aceee9a8a6c4804d3a1",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN partho.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/partho.id\"\n"
+}

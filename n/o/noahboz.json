@@ -1,0 +1,36 @@
+{
+  "owner_address": "1JK2SUg7MjqcnTQs5XwgGGuWmgLVH6R5tU",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Noahboz",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/NoahBoz/status/788031206650580993",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/noahboz",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Noahboz",
+      "proof_url": "https://twitter.com/NoahBoz/status/788031206650580993",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN noahboz.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/noahboz.id\"\n"
+}
