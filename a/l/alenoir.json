@@ -1,36 +1,51 @@
 {
   "owner_address": "1Ede8gmaXKPjGbVfLABbQFu6oczgBR33uz",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/alenoir"
-    },
-    "bio": "CEO & Co-founder of @TricyApp. Download our app here : https://t.co/558CBihlmi",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/alenoir"
-    },
-    "facebook": {
-      "username": "antoinelnr"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/alenoir/32f78ada3f6f97550c06"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "antoinelenoir",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "alenoir"
-    },
-    "location": {
-      "formatted": "Bordeaux"
-    },
-    "name": {
-      "formatted": "Antoine Lenoir"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/antoinelenoir/status/694252941990043649"
+      {
+        "@type": "Account",
+        "identifier": "antoinelnr",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "antoinelenoir"
+      {
+        "@type": "Account",
+        "identifier": "alenoir",
+        "proofType": "http",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bordeaux"
     },
-    "v": "0.2",
-    "website": "http://tricy.io"
+    "description": "CEO & Co-founder of @TricyApp. Download our app here : https://t.co/558CBihlmi",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/alenoir",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/alenoir",
+        "name": "cover"
+      }
+    ],
+    "name": "Antoine Lenoir",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://antoinelenoir.com"
+      }
+    ]
   },
   "verifications": [
     {
@@ -46,5 +61,5 @@
       "valid": false
     }
   ],
-  "zone_file": "{\"avatar\": {\"url\": \"https://s3.amazonaws.com/kd4/alenoir\"}, \"bio\": \"CEO & Co-founder of @TricyApp. Download our app here : https://t.co/558CBihlmi\", \"cover\": {\"url\": \"https://s3.amazonaws.com/dx3/alenoir\"}, \"facebook\": {\"username\": \"antoinelnr\"}, \"github\": {\"proof\": {\"url\": \"https://gist.github.com/alenoir/32f78ada3f6f97550c06\"}, \"username\": \"alenoir\"}, \"location\": {\"formatted\": \"Bordeaux\"}, \"name\": {\"formatted\": \"Antoine Lenoir\"}, \"twitter\": {\"proof\": {\"url\": \"https://twitter.com/antoinelenoir/status/694252941990043649\"}, \"username\": \"antoinelenoir\"}, \"v\": \"0.2\", \"website\": \"http://tricy.io\"}"
+  "zone_file": "$ORIGIN alenoir.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alenoir.id\"\n"
 }
