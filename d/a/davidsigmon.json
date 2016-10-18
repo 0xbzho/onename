@@ -1,0 +1,44 @@
+{
+  "owner_address": "1Jrs3arpBFaHbp7CPZgxBXDfV5udh5C235",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "davidsigmon",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/davidsigmon",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "david.m.sigmon",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/david.m.sigmon",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/QAd.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "davidsigmon",
+      "proof_url": "https://twitter.com/davidsigmon",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "david.m.sigmon",
+      "proof_url": "https://www.facebook.com/david.m.sigmon",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN davidsigmon.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/davidsigmon.id\"\n"
+}
