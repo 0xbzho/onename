@@ -1,0 +1,62 @@
+{
+  "owner_address": "1P9SZP2Xtk9cNsVSrq8rHs3zPQPf4F8E48",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "valdetero",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/valdetero/status/788448128768806914",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "valdetero",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/valdetero/posts/10100332301692221",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "valdetero",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/valdetero/4629a093e8ea322e187717edbcf9f9db",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/valdetero",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "valdetero",
+      "proof_url": "https://twitter.com/valdetero/status/788448128768806914",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "valdetero",
+      "proof_url": "https://www.facebook.com/valdetero/posts/10100332301692221",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "valdetero",
+      "proof_url": "https://gist.github.com/valdetero/4629a093e8ea322e187717edbcf9f9db",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN valdetero.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/valdetero.id\"\n"
+}

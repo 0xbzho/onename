@@ -1,0 +1,86 @@
+{
+  "owner_address": "1P1ZD8mWU6yypagUvDzkDUGY1gcJjakAim",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "doctorbug",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/doctorbug/status/788481082639482884",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "vincent.barat.5",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/vincent.barat.5/posts/1145910408826796",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "vincentbarat",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/vincentbarat/37a01d2404903258ac908240421cdb69",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1JT3qFn11RP6rWJbbFsJaMWAE9dQPkEkFY",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/vbarat",
+        "identifier": "7D55FCE99034FCC7926DD4E66B4423924AF097BB",
+        "service": "pgp"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "France"
+    },
+    "description": "Woleet CTO",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/vbarat",
+        "name": "avatar"
+      }
+    ],
+    "name": "Vincent BARAT",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://woleet.io"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "doctorbug",
+      "proof_url": "https://twitter.com/doctorbug/status/788481082639482884",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "vincent.barat.5",
+      "proof_url": "https://www.facebook.com/vincent.barat.5/posts/1145910408826796",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "vincentbarat",
+      "proof_url": "https://gist.github.com/vincentbarat/37a01d2404903258ac908240421cdb69",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN vbarat.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vbarat.id\"\n"
+}

@@ -1,0 +1,62 @@
+{
+  "owner_address": "1HeASazqXx41if6VkXDm6TguQHiq9Yr9aC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "victor.bitelmanverzellesi",
+        "proofType": "http",
+        "proofUrl": "https://onename.com/vverzellesi?post_id=1239899232698654_1239905629364681#/facebook",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "vverzellesi",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/vverzellesi/8dc8b367d1534e191b614533acb5b470",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "v_verzellesi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/v_verzellesi/status/788505689664528384",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/vverzellesi",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/vverzellesi",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "victor.bitelmanverzellesi",
+      "proof_url": "https://onename.com/vverzellesi?post_id=1239899232698654_1239905629364681#/facebook",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "vverzellesi",
+      "proof_url": "https://gist.github.com/vverzellesi/8dc8b367d1534e191b614533acb5b470",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "v_verzellesi",
+      "proof_url": "https://twitter.com/v_verzellesi/status/788505689664528384",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN vverzellesi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/vverzellesi.id\"\n"
+}
