@@ -1,0 +1,32 @@
+{
+  "owner_address": "1P49dLLHC18kqK3qpphevnz9ZoT2hLwRea",
+  "profile": {
+    "@type": "Person",
+    "account": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "The Cloud"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/deploy",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/deploy",
+        "name": "cover"
+      }
+    ],
+    "name": "OB1 Deploy",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "https://deploy.ob1.io"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN deploy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/deploy.id\"\n"
+}
