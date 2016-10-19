@@ -1,48 +1,60 @@
 {
   "owner_address": "15HrqGbYjiGYbFuE29QyZ9CU8hhR9NMpF1",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/sackler"
-    },
-    "bio": "There's No Place Like 127.0.0.1",
-    "bitcoin": {
-      "address": "1Fv1qvMwX6W7AeyN7wBJvbceMjT5cPA7CR"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/sackler"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/sack.holla.back.k/posts/10101250691446539"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "1zyKDXxE68sgYNMp6m7QxXd6NePCdw6U9",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "sack.holla.back.k"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/rsackler/c8105db6651f05864194"
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/sackler",
+        "identifier": "74C6CA8E8BFBBF4AAD8C807BD6E83FB368DCED42",
+        "role": "key",
+        "service": "pgp"
       },
-      "username": "rsackler"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/sackler"
-    },
-    "location": {
-      "formatted": "MS, USA"
-    },
-    "name": {
-      "formatted": "Marcus Ryan Sackler"
-    },
-    "pgp": {
-      "fingerprint": "74C6CA8E8BFBBF4AAD8C807BD6E83FB368DCED42",
-      "url": "https://s3.amazonaws.com/pk9/sackler"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/rsackler/status/634287210020270080"
+      {
+        "@type": "Account",
+        "identifier": "rsackler",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/rsackler/status/788441072259203073",
+        "service": "twitter"
       },
-      "username": "rsackler"
+      {
+        "@type": "Account",
+        "identifier": "sack.holla.back.k",
+        "proofType": "http",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "rsackler",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/rsackler/085e87aceaeab06680d76b2017c370de",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "MS, USA"
     },
-    "v": "0.2"
+    "description": "There's No Place Like 127.0.0.1",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sackler",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/sackler",
+        "name": "cover"
+      }
+    ],
+    "name": "Marcus Ryan Sackler"
   },
   "verifications": [
     {
@@ -64,5 +76,5 @@
       "valid": false
     }
   ],
-  "zone_file": "{\"avatar\": {\"url\": \"https://s3.amazonaws.com/kd4/sackler\"}, \"bio\": \"There's No Place Like 127.0.0.1\", \"bitcoin\": {\"address\": \"1Fv1qvMwX6W7AeyN7wBJvbceMjT5cPA7CR\"}, \"cover\": {\"url\": \"https://s3.amazonaws.com/dx3/sackler\"}, \"facebook\": {\"proof\": {\"url\": \"https://facebook.com/sack.holla.back.k/posts/10101250691446539\"}, \"username\": \"sack.holla.back.k\"}, \"github\": {\"proof\": {\"url\": \"https://gist.github.com/rsackler/c8105db6651f05864194\"}, \"username\": \"rsackler\"}, \"graph\": {\"url\": \"https://s3.amazonaws.com/grph/sackler\"}, \"location\": {\"formatted\": \"MS, USA\"}, \"name\": {\"formatted\": \"Marcus Ryan Sackler\"}, \"pgp\": {\"fingerprint\": \"74C6CA8E8BFBBF4AAD8C807BD6E83FB368DCED42\", \"url\": \"https://s3.amazonaws.com/pk9/sackler\"}, \"twitter\": {\"proof\": {\"url\": \"https://twitter.com/rsackler/status/634287210020270080\"}, \"username\": \"rsackler\"}, \"v\": \"0.2\"}"
+  "zone_file": "$ORIGIN sackler.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sackler.id\"\n"
 }

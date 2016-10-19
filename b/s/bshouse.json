@@ -1,0 +1,62 @@
+{
+  "owner_address": "15u3ENPLWHcq6bjD9p1GQ7NB4zVbGosKsj",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "bshouse",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/bshouse/status/788388480283836416",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bshouse",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/bshouse/posts/10104406616053003",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "bshouse",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/bshouse/0b22e42dd4cc4b16eff1605bba7f6af0",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Colorado"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Brett Shouse"
+  },
+  "verifications": [
+    {
+      "identifier": "bshouse",
+      "proof_url": "https://twitter.com/bshouse/status/788388480283836416",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bshouse",
+      "proof_url": "https://www.facebook.com/bshouse/posts/10104406616053003",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "bshouse",
+      "proof_url": "https://gist.github.com/bshouse/0b22e42dd4cc4b16eff1605bba7f6af0",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN bshouse.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bshouse.id\"\n"
+}

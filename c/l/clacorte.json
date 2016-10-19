@@ -1,0 +1,60 @@
+{
+  "owner_address": "1Mu8siK7VN4td8WWaPuEia8z2LFH5X9cdX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "clacorte",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/clacorte/status/788368427983499264",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cvclacorte",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/cvclacorte/posts/10207045694050057",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brasília"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/clacorte",
+        "name": "avatar"
+      }
+    ],
+    "name": "Christiano Lacorte",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.lacorte.adv.br"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "clacorte",
+      "proof_url": "https://twitter.com/clacorte/status/788368427983499264",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "cvclacorte",
+      "proof_url": "https://www.facebook.com/cvclacorte/posts/10207045694050057",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN clacorte.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/clacorte.id\"\n"
+}

@@ -1,0 +1,50 @@
+{
+  "owner_address": "1GTgSbNvHKdkcdzKksSsS5pKy5WxZ7SYeC",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "raisty_",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/raisty_/status/788337818917449728",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "raisty",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/raisty/3fbab5f19034be31f80ec73fbe45af97",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/raisty",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/raisty",
+        "name": "avatar"
+      }
+    ],
+    "name": "Maxim"
+  },
+  "verifications": [
+    {
+      "identifier": "raisty_",
+      "proof_url": "https://twitter.com/raisty_/status/788337818917449728",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "raisty",
+      "proof_url": "https://gist.github.com/raisty/3fbab5f19034be31f80ec73fbe45af97",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN raisty.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/raisty.id\"\n"
+}

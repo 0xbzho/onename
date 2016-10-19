@@ -1,0 +1,56 @@
+{
+  "owner_address": "18zJZYqcVp1yEkcZ59YFXwMML6j7WdAj8d",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "dylanthesoldier",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/DylanTheSoldier/status/788421570926678017",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dylan.moore.98499",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/dylan.moore.98499/posts/1036730789773084",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Indiana"
+    },
+    "description": "Java Developer, Networker, and IT Helpdesk",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Dylan Moore",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.dylanthesoldier.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "dylanthesoldier",
+      "proof_url": "https://twitter.com/DylanTheSoldier/status/788421570926678017",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "dylan.moore.98499",
+      "proof_url": "https://www.facebook.com/dylan.moore.98499/posts/1036730789773084",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN dylanthesoldier.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dylanthesoldier.id\"\n"
+}
