@@ -1,6 +1,73 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1KnVfCizfsjkmn59mQNhAPg2hJ38gh79YW",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "piRstone",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/piRstone/009560e252e6fddd9ceb",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "pierrelavalley",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/pierrelavalley/status/694240547318415360",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "pierrelavalley",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/pierre.lavalley/posts/10208509909534107",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/pirstone",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Pierre Lavalley",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://pierrelavalley.fr"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "piRstone",
+      "proof_url": "https://gist.github.com/piRstone/009560e252e6fddd9ceb",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "pierrelavalley",
+      "proof_url": "https://twitter.com/pierrelavalley/status/694240547318415360",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "pierrelavalley",
+      "proof_url": "https://www.facebook.com/pierre.lavalley/posts/10208509909534107",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN pirstone.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/pirstone.id\"\n"
 }

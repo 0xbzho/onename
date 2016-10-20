@@ -60,6 +60,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "akshithg",
+      "proof_url": "https://gist.github.com/akshithg/d00023031b7fa8bcef5035f4f32f36b2",
+      "service": "github",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN akshithg.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/akshithg.id\"\n"
 }
