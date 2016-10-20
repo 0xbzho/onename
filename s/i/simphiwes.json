@@ -44,6 +44,18 @@
       "proof_url": "www.facebook.com/marcelo.jarretta",
       "service": "facebook",
       "valid": false
+    },
+    {
+      "identifier": "simphiwes",
+      "proof_url": "https://twitter.com/intent/tweet?text=Verifying%20that%20%22simphiwes%2Eid%22%20is%20my%20Blockstack%20ID.%20https://onename.com/simphiwes",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "https:",
+      "proof_url": "https://gist.github.com",
+      "service": "github",
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN simphiwes.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/simphiwes.id\"\n"

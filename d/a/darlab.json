@@ -33,6 +33,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "Darlakbrown",
+      "proof_url": "https://twitter.com/darlakbrown/status/786262402270572544",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "gitgeek",
+      "proof_url": "https://gist.github.com/gitgeek/f2b64ca4e4dade7a83b27160a1070b5a",
+      "service": "github",
+      "valid": false
+    },
+    {
+      "identifier": "Darlab",
+      "proof_url": "https://www.facebook.com/darlab/posts/10153731852131537",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN darlab.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/darlab.id\"\n"
 }
