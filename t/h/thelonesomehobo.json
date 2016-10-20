@@ -1,35 +1,45 @@
 {
   "owner_address": "1QLaUAQXqfuifnqdFTEATNKoTaCJwfax2q",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/thelonesomehobo"
-    },
-    "bio": "I am the lonesome hobo without family or friends...",
-    "bitcoin": {
-      "address": "1AyC3M9sop1KzovMdYmtUryxwBeLjdJpVA"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/4AL.jpeg"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/thelonesomehobo/posts/10153674761113346"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "thelonesomehobo",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "thelonesomehobo"
-    },
-    "location": {
-      "formatted": "London"
-    },
-    "name": {
-      "formatted": "Paul Flynn"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/thelonesomehobo/status/672166491417141249"
+      {
+        "@type": "Account",
+        "identifier": "thelonesomehobo",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "thelonesomehobo"
+      {
+        "@type": "Account",
+        "identifier": "17EpjntxBQvEPECk7EDUZRhWnepYWg8UqR",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London"
     },
-    "v": "0.2"
+    "description": "I am the lonesome hobo without family or friends...",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/thelonesomehobo",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/4AL.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "Paul Flynn"
   },
   "verifications": [
     {
@@ -45,5 +55,5 @@
       "valid": false
     }
   ],
-  "zone_file": "{\"avatar\": {\"url\": \"https://s3.amazonaws.com/kd4/thelonesomehobo\"}, \"bio\": \"I am the lonesome hobo without family or friends...\", \"bitcoin\": {\"address\": \"1AyC3M9sop1KzovMdYmtUryxwBeLjdJpVA\"}, \"cover\": {\"url\": \"https://s3.amazonaws.com/97p/4AL.jpeg\"}, \"facebook\": {\"proof\": {\"url\": \"https://facebook.com/thelonesomehobo/posts/10153674761113346\"}, \"username\": \"thelonesomehobo\"}, \"location\": {\"formatted\": \"London\"}, \"name\": {\"formatted\": \"Paul Flynn\"}, \"twitter\": {\"proof\": {\"url\": \"https://twitter.com/thelonesomehobo/status/672166491417141249\"}, \"username\": \"thelonesomehobo\"}, \"v\": \"0.2\"}"
+  "zone_file": "$ORIGIN thelonesomehobo.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/thelonesomehobo.id\"\n"
 }

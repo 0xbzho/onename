@@ -1,11 +1,22 @@
 {
   "owner_address": "1GaVFg3cjmUDNvP894XrkufiMosLtC9g1J",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/KJy.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "7908f4e127256f327d228d9d8f5e25dc8a0deaeb",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      }
+    ]
   },
   "verifications": [],
-  "zone_file": "{\"cover\": {\"url\": \"https://s3.amazonaws.com/97p/KJy.jpeg\"}, \"v\": \"0.2\"}"
+  "zone_file": "$ORIGIN silvercoiner.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/silvercoiner.id\"\n"
 }
