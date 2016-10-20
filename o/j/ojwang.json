@@ -1,11 +1,29 @@
 {
   "owner_address": "1JYT6jWPDxLjcz5feeSE5jd9LMnU8n6fJE",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/ic1.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "ojwangstephen",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SlackHQ/status/788764059248291840",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ic1.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/ojwang",
+        "name": "avatar"
+      }
+    ]
   },
   "verifications": [],
-  "zone_file": "{\"cover\": {\"url\": \"https://s3.amazonaws.com/97p/ic1.jpeg\"}, \"v\": \"0.2\"}"
+  "zone_file": "$ORIGIN ojwang.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ojwang.id\"\n"
 }

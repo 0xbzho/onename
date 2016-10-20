@@ -1,6 +1,62 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "115pjaKzVVb7qBzpvuAsw1HKSk3tiRGNYE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "David.Will.Sousa",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/David.Will.Sousa?fref=nf&viewas=100000686899395",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Dvdputz",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dvdputz/status/788864018488360967",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "davidwillsousa",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/davidwillsousa/e01a0232c243410f8b67a95469a8cd7a#file-onename-verification",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/2wu.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/davidws",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "David.Will.Sousa",
+      "proof_url": "https://www.facebook.com/David.Will.Sousa?fref=nf&viewas=100000686899395",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "Dvdputz",
+      "proof_url": "https://twitter.com/dvdputz/status/788864018488360967",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "davidwillsousa",
+      "proof_url": "https://gist.github.com/davidwillsousa/e01a0232c243410f8b67a95469a8cd7a#file-onename-verification",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN davidws.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/davidws.id\"\n"
 }

@@ -59,21 +59,21 @@
   "verifications": [
     {
       "identifier": "beejhuff",
-      "proof_url": "https://gist.github.com/beejhuff/e2b85f9b65bdd2f95be0",
-      "service": "github",
-      "valid": false
-    },
-    {
-      "identifier": "beejhuff",
-      "proof_url": "https://twitter.com/beejhuff/status/686586637527154688",
+      "proof_url": "https://twitter.com/beejhuff/status/786461070512623618",
       "service": "twitter",
       "valid": true
     },
     {
       "identifier": "beejhuff",
-      "proof_url": "https://facebook.com/beejhuff/posts/10153392078597183",
+      "proof_url": "https://www.facebook.com/beejhuff/posts/10154042758977183",
       "service": "facebook",
-      "valid": true
+      "valid": false
+    },
+    {
+      "identifier": "beejhuff",
+      "proof_url": "https://gist.github.com/beejhuff/44e783f67c006e1d4d329ab24b8b80ef",
+      "service": "github",
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN beejhuff.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/beejhuff.id\"\n"

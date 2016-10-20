@@ -42,6 +42,19 @@
     ],
     "name": "Paul-Emmanuel Tasiaux"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "ptasiaux",
+      "proof_url": "https://twitter.com/ptasiaux/status/786219496931373056",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "tasiaux.paul",
+      "proof_url": "https://www.facebook.com/tasiaux.paul/posts/10154622302395439",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN tasiaux_paul.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tasiaux_paul.id\"\n"
 }
