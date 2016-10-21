@@ -58,16 +58,16 @@
   },
   "verifications": [
     {
+      "identifier": "hevalon",
+      "proof_url": "https://twitter.com/Hevalon/status/723042400592007168",
+      "service": "twitter",
+      "valid": true
+    },
+    {
       "identifier": "epappas",
       "proof_url": "https://gist.github.com/epappas/5325cac6e8bd6b50868e",
       "service": "github",
       "valid": false
-    },
-    {
-      "identifier": "hevalon",
-      "proof_url": "https://twitter.com/hevalon/status/723042400592007168",
-      "service": "twitter",
-      "valid": true
     }
   ],
   "zone_file": "$ORIGIN epappas.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/epappas.id\"\n"

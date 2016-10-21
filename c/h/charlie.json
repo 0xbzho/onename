@@ -1,33 +1,46 @@
 {
   "owner_address": "12mRWgTzq3SmmAE62haPUAPaC1MhMdiowq",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/charlie"
-    },
-    "bio": "I work with gadgets & sell virtual real estate on the side.",
-    "bitcoin": {
-      "address": "18fEtfwLny2GR3M4ZeCjWEycZdnPvDTE5t"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/charlie"
-    },
-    "graph": {
-      "url": "https://s3.amazonaws.com/grph/14hxfMRViZY4DMH8sepKQvPBiTAXGPzeeS"
-    },
-    "location": {
-      "formatted": "london, england"
-    },
-    "name": {
-      "formatted": "charlie t."
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/dinosaur/status/618839144974954496"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "18fEtfwLny2GR3M4ZeCjWEycZdnPvDTE5t",
+        "role": "payment",
+        "service": "bitcoin"
       },
-      "username": "dinosaur"
+      {
+        "@type": "Account",
+        "identifier": "dinosaur",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/dinosaur/status/789161809001402368",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "london, england"
     },
-    "v": "0.2",
-    "website": "http://instagram.com/dude"
+    "description": "I work with gadgets & sell virtual real estate on the side. kik/snapchat/skype: charlie",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/charlie",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/charlie",
+        "name": "cover"
+      }
+    ],
+    "name": "charlie t.",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://instagram.com/dude"
+      }
+    ]
   },
   "verifications": [
     {
@@ -37,5 +50,5 @@
       "valid": true
     }
   ],
-  "zone_file": "{\"avatar\": {\"url\": \"https://s3.amazonaws.com/kd4/charlie\"}, \"bio\": \"I work with gadgets & sell virtual real estate on the side.\", \"bitcoin\": {\"address\": \"18fEtfwLny2GR3M4ZeCjWEycZdnPvDTE5t\"}, \"cover\": {\"url\": \"https://s3.amazonaws.com/dx3/charlie\"}, \"graph\": {\"url\": \"https://s3.amazonaws.com/grph/14hxfMRViZY4DMH8sepKQvPBiTAXGPzeeS\"}, \"location\": {\"formatted\": \"london, england\"}, \"name\": {\"formatted\": \"charlie t.\"}, \"twitter\": {\"proof\": {\"url\": \"https://twitter.com/dinosaur/status/618839144974954496\"}, \"username\": \"dinosaur\"}, \"v\": \"0.2\", \"website\": \"http://instagram.com/dude\"}"
+  "zone_file": "$ORIGIN charlie.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/charlie.id\"\n"
 }

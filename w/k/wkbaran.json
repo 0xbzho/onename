@@ -44,6 +44,25 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "Bill_Baran",
+      "proof_url": "https://twitter.com/Bill_Baran/status/786730740839018500",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Sirkut",
+      "proof_url": "https://www.facebook.com/Sirkut/posts/10210862902190972",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "wkbaran",
+      "proof_url": "https://gist.github.com/wkbaran/8c86ff8a0cc881685942067a1cd3796c",
+      "service": "github",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN wkbaran.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/wkbaran.id\"\n"
 }
