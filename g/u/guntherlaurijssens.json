@@ -26,6 +26,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "laurigun",
+      "proof_url": "https://twitter.com/laurigun/status/786855279661047808",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "laurigu",
+      "proof_url": "https://gist.github.com/laurigu/3b15724f2e976ce70f88891b8841b76e",
+      "service": "github",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN guntherlaurijssens.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/guntherlaurijssens.id\"\n"
 }

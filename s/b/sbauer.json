@@ -43,6 +43,19 @@
     ],
     "name": "Semyon Bauer"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "BauerSemyon",
+      "proof_url": "https://twitter.com/BauerSemyon/status/787910476529278976",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "bauer.semyon",
+      "proof_url": "https://www.facebook.com/bauer.semyon/posts/1580978778875417",
+      "service": "facebook",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN sbauer.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sbauer.id\"\n"
 }

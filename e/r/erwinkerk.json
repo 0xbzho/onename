@@ -1,61 +1,6 @@
 {
   "owner_address": "1HMThUsbtJ3bd5n2ab2CbSDCSgwizTby7w",
-  "profile": {
-    "@type": "Person",
-    "account": [
-      {
-        "@type": "Account",
-        "identifier": "erwinkerk",
-        "proofType": "http",
-        "service": "github"
-      },
-      {
-        "@type": "Account",
-        "identifier": "erwinkerk",
-        "proofType": "http",
-        "proofUrl": "https://www.facebook.com/erwinkerk/posts/1171342426230521?pnref=story",
-        "service": "facebook"
-      },
-      {
-        "@type": "Account",
-        "identifier": "erwinkerk",
-        "proofType": "http",
-        "proofUrl": "https://twitter.com/erwinkerk/status/735057554347327488",
-        "service": "twitter"
-      },
-      {
-        "@type": "Account",
-        "contentUrl": "https://s3.amazonaws.com/pk9/erwinkerk",
-        "identifier": "D81EADF43C1CAC7C75CCA42E2FD3B32F14F4961B",
-        "role": "key",
-        "service": "pgp"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Ede, Nederland"
-    },
-    "description": "Technical Consultant @ SiteSpect, Trainer @ Scouting, Husband, Geek",
-    "image": [
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/kd4/erwinkerk",
-        "name": "avatar"
-      },
-      {
-        "@type": "ImageObject",
-        "contentUrl": "https://s3.amazonaws.com/dx3/erwinkerk",
-        "name": "cover"
-      }
-    ],
-    "name": "Erwin Kerk",
-    "website": [
-      {
-        "@type": "WebSite",
-        "url": "http://about.me/erwinkerk"
-      }
-    ]
-  },
+  "profile": "$ORIGIN erwinkerk.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/erwinkerk.id\"\n",
   "verifications": [
     {
       "identifier": "erwinkerk",
