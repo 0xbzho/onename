@@ -42,15 +42,15 @@
   "verifications": [
     {
       "identifier": "ormaaj",
-      "proof_url": "https://gist.github.com/ormaaj/e2fc6b6404add0e1b1b56ff3542ccdfe",
-      "service": "github",
-      "valid": false
-    },
-    {
-      "identifier": "ormaaj",
       "proof_url": "https://twitter.com/ormaaj/status/751052674930401280",
       "service": "twitter",
       "valid": true
+    },
+    {
+      "identifier": "ormaaj",
+      "proof_url": "https://gist.github.com/ormaaj/007b19ea952ea08fca7e7e58907963d4",
+      "service": "github",
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN ormaaj.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ormaaj.id\"\n"

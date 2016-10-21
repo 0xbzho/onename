@@ -52,16 +52,22 @@
   },
   "verifications": [
     {
-      "identifier": "KirkTheWikiGuy",
-      "proof_url": "https://gist.github.com/KirkTheWikiGuy/47dfded5b226c8b71bc6",
-      "service": "github",
-      "valid": false
+      "identifier": "james.kirk.790",
+      "proof_url": "https://www.facebook.com/james.kirk.790/posts/1450436734971043?pnref=story",
+      "service": "facebook",
+      "valid": true
     },
     {
       "identifier": "KirkyLife",
-      "proof_url": "https://twitter.com/KirkyLife/status/498573237572227073",
+      "proof_url": "https://twitter.com/KirkyLife/status/787646130536472581",
       "service": "twitter",
       "valid": true
+    },
+    {
+      "identifier": "KirkTheWikiGuy",
+      "proof_url": "https://gist.github.com/KirkTheWikiGuy/8a1a4acf6746604774144bcc5b23690f",
+      "service": "github",
+      "valid": false
     }
   ],
   "zone_file": "$ORIGIN kirkylife.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kirkylife.id\"\n"

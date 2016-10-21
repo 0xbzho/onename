@@ -47,9 +47,15 @@
   "verifications": [
     {
       "identifier": "hypnotortoise",
-      "proof_url": "https://gist.github.com/hypnotortoise/e3b0a7f1763e09492dd4",
+      "proof_url": "https://gist.github.com/hypnotortoise/ed74ae912ad6d309ef8bc7fadcf8c972",
       "service": "github",
       "valid": false
+    },
+    {
+      "identifier": "hypnotortoise",
+      "proof_url": "https://twitter.com/hypnotortoise/status/788525301374476288",
+      "service": "twitter",
+      "valid": true
     }
   ],
   "zone_file": "$ORIGIN hypnotortoise.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/hypnotortoise.id\"\n"

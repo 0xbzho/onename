@@ -1,6 +1,27 @@
 {
-  "owner_address": "1EFmYsaSaQ23E8NnL8ozGZVk3GrWsnS53",
-  "profile": {},
+  "owner_address": "14sZLcKhirnnYtdBoFotETjQDFLwEFVDLg",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "5ac0e8fd842c2448e4b9a96cda1557d311565a5c",
+        "service": "openbazaar"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sydney"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Blue House"
+  },
   "verifications": [],
   "zone_file": "$ORIGIN bluehouse.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/bluehouse.id\"\n"
 }

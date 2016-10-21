@@ -19,6 +19,13 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "firstpersonshop",
+      "proof_url": "https://twitter.com/FirstPersonShop/status/787368023879393282",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
   "zone_file": "$ORIGIN firstpersonshopper.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/firstpersonshopper.id\"\n"
 }

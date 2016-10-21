@@ -1,26 +1,43 @@
 {
   "owner_address": "15uTgKrUxvX8HXZok7nvFWK6tZimd8AxBT",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/lustgarten"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "slustgarten",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/slustgarten/status/789143926624124929",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "bio": "MailyScrum, RingTu, Mosca, Aprovecha. Tech, latam, philosophy, econ, math and bitcoin.",
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/lustgarten"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Saul Lustgarten"
-    },
-    "twitter": {
-      "username": "slustgarten"
-    },
-    "v": "0.2",
-    "website": "http://about.me/slustgarten"
+    "description": "MailyScrum, RingTu, Mosca, Aprovecha. Tech, latam, philosophy, econ, math and bitcoin.",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/lustgarten",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/lustgarten",
+        "name": "cover"
+      }
+    ],
+    "name": "Saul Lustgarten",
+    "website": []
   },
-  "verifications": [],
-  "zone_file": "{\"avatar\": {\"url\": \"https://s3.amazonaws.com/kd4/lustgarten\"}, \"bio\": \"MailyScrum, RingTu, Mosca, Aprovecha. Tech, latam, philosophy, econ, math and bitcoin.\", \"bitcoin\": {}, \"cover\": {\"url\": \"https://s3.amazonaws.com/dx3/lustgarten\"}, \"location\": {\"formatted\": \"\"}, \"name\": {\"formatted\": \"Saul Lustgarten\"}, \"twitter\": {\"username\": \"slustgarten\"}, \"v\": \"0.2\", \"website\": \"http://about.me/slustgarten\"}"
+  "verifications": [
+    {
+      "identifier": "slustgarten",
+      "proof_url": "https://twitter.com/slustgarten/status/789143926624124929",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN lustgarten.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/lustgarten.id\"\n"
 }
