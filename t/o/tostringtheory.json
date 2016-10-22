@@ -1,6 +1,36 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1GoJmjhQknwXyjF5yDFdFJbiZdGCi5Agsd",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "tostringtheory",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/tostringtheory/posts/1419641984716069",
+        "service": "facebook"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Baton Rouge, LA"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      }
+    ],
+    "name": "James Sampson"
+  },
+  "verifications": [
+    {
+      "identifier": "tostringtheory",
+      "proof_url": "https://www.facebook.com/tostringtheory/posts/1419641984716069",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN tostringtheory.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/tostringtheory.id\"\n"
 }

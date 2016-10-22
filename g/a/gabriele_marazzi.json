@@ -1,6 +1,47 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1LqrxMikUnBnN5NJEBt2XtPC6npAcq4Yk1",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "gabrielem",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gabrielem/status/788732067706245120",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Italy"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/gabriele_marazzi",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/gabriele_marazzi",
+        "name": "cover"
+      }
+    ],
+    "name": "Gabriele Marazzi",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.spidchain.com"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "gabrielem",
+      "proof_url": "https://twitter.com/gabrielem/status/788732067706245120",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN gabriele_marazzi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gabriele_marazzi.id\"\n"
 }

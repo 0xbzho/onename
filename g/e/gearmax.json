@@ -1,11 +1,22 @@
 {
   "owner_address": "1McPxwNonSFbeBbPwoMPgj4NHu33ZDNUdQ",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/yId.jpg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "19eb9f0310d019d0f0f39d44f2df57d9f5387ec8",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ]
   },
   "verifications": [],
-  "zone_file": "{\"cover\": {\"url\": \"https://s3.amazonaws.com/97p/yId.jpg\"}, \"v\": \"0.2\"}"
+  "zone_file": "$ORIGIN gearmax.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/gearmax.id\"\n"
 }

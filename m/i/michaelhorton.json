@@ -1,42 +1,57 @@
 {
   "owner_address": "126s9fFtHZLR8oiUHrumVLX1kdrcnJGStw",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/michaelhorton"
-    },
-    "bio": "Just living the dream!",
-    "bitcoin": {
-      "address": "1FAWZDEPo8vZxqRqeQXvSpBFGgocXkdbbv"
-    },
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/michaelhorton"
-    },
-    "facebook": {
-      "proof": {
-        "url": "https://facebook.com/michael.c.horton/posts/10153656890062780"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "mikehorton",
+        "proofType": "http",
+        "service": "twitter"
       },
-      "username": "michael.c.horton"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/michaelhorton76/86d095e6e181233ecb81"
+      {
+        "@type": "Account",
+        "identifier": "michael.c.horton",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "michaelhorton76"
-    },
-    "location": {
-      "formatted": "Phoenix, AZ"
-    },
-    "name": {
-      "formatted": "Michael Horton"
-    },
-    "twitter": {
-      "proof": {
-        "url": "https://twitter.com/mikehorton/status/494149998586503170"
+      {
+        "@type": "Account",
+        "identifier": "michaelhorton76",
+        "proofType": "http",
+        "service": "github"
       },
-      "username": "mikehorton"
+      {
+        "@type": "Account",
+        "identifier": "",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Phoenix, AZ"
     },
-    "v": "0.2",
-    "website": "http://www.sunstateit.com"
+    "description": "Just living the dream!",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/michaelhorton",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/michaelhorton",
+        "name": "cover"
+      }
+    ],
+    "name": "Michael Horton",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://www.sunstateit.com"
+      }
+    ]
   },
   "verifications": [
     {
@@ -58,5 +73,5 @@
       "valid": false
     }
   ],
-  "zone_file": "{\"avatar\": {\"url\": \"https://s3.amazonaws.com/kd4/michaelhorton\"}, \"bio\": \"Just living the dream!\", \"bitcoin\": {\"address\": \"1FAWZDEPo8vZxqRqeQXvSpBFGgocXkdbbv\"}, \"cover\": {\"url\": \"https://s3.amazonaws.com/dx3/michaelhorton\"}, \"facebook\": {\"proof\": {\"url\": \"https://facebook.com/michael.c.horton/posts/10153656890062780\"}, \"username\": \"michael.c.horton\"}, \"github\": {\"proof\": {\"url\": \"https://gist.github.com/michaelhorton76/86d095e6e181233ecb81\"}, \"username\": \"michaelhorton76\"}, \"location\": {\"formatted\": \"Phoenix, AZ\"}, \"name\": {\"formatted\": \"Michael Horton\"}, \"twitter\": {\"proof\": {\"url\": \"https://twitter.com/mikehorton/status/494149998586503170\"}, \"username\": \"mikehorton\"}, \"v\": \"0.2\", \"website\": \"http://www.sunstateit.com\"}"
+  "zone_file": "$ORIGIN michaelhorton.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/michaelhorton.id\"\n"
 }

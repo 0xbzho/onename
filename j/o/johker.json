@@ -1,6 +1,67 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "19anyqQ4N3R5V8f1UnNhj39j7xJQvjewSd",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "johker",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Johker/status/788858938561355776",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "johannes.kern.129",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/johannes.kern.129/posts/1107261296026226",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "johker",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/johker/dd6a45f33aed20b51d8cc053188e07ec",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Freiburg"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/johker",
+        "name": "avatar"
+      }
+    ],
+    "name": "Johannes Kern"
+  },
+  "verifications": [
+    {
+      "identifier": "johker",
+      "proof_url": "https://twitter.com/Johker/status/788858938561355776",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "johannes.kern.129",
+      "proof_url": "https://www.facebook.com/johannes.kern.129/posts/1107261296026226",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "johker",
+      "proof_url": "https://gist.github.com/johker/dd6a45f33aed20b51d8cc053188e07ec",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN johker.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/johker.id\"\n"
 }
