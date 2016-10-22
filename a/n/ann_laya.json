@@ -31,6 +31,19 @@
       }
     ]
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "atravessare",
+      "proof_url": "https://twitter.com/atravessare/status/786960738753581056",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "andrenapoles",
+      "proof_url": "https://gist.github.com/andrenapoles/719c9a05e634c6fdd7fdf32f3c61dc00",
+      "service": "github",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN ann_laya.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/ann_laya.id\"\n"
 }
