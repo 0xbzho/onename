@@ -1,0 +1,44 @@
+{
+  "owner_address": "1NpyPUgoT2bBpP19F2vsmpnts95MJVvpR4",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "NoBorders_RX",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/NoBorders_RX/status/789709722886823936",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "NoBordersRX",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/NoBordersRX/7698457613bfe60dd6fd8479d2b91ece",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IKM.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "NoBorders_RX",
+      "proof_url": "https://twitter.com/NoBorders_RX/status/789709722886823936",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "NoBordersRX",
+      "proof_url": "https://gist.github.com/NoBordersRX/7698457613bfe60dd6fd8479d2b91ece",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN noborders.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/noborders.id\"\n"
+}

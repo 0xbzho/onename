@@ -1,0 +1,36 @@
+{
+  "owner_address": "1AwzFyuRPdXBYVULNE3oUxWWpfa7BYeaBX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Nobodies",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/nobodies/status/789312459517534208",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/kelli_nobody",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/kelli_nobody",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Nobodies",
+      "proof_url": "https://twitter.com/nobodies/status/789312459517534208",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kelli_nobody.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kelli_nobody.id\"\n"
+}
