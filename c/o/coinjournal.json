@@ -1,0 +1,41 @@
+{
+  "owner_address": "1BscqkHisLsfX4dxR1KTk5DbTqn49Dx8UB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "Coinjournal",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/CoinJournal/status/789490576651608064",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1b70aa5b59be9272816b378f4d765355e26764b3",
+        "service": "openbazaar"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/coinjournal",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "Coinjournal",
+      "proof_url": "https://twitter.com/CoinJournal/status/789490576651608064",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN coinjournal.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/coinjournal.id\"\n"
+}

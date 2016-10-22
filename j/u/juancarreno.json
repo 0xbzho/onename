@@ -1,0 +1,61 @@
+{
+  "owner_address": "1cWHebHXjTPqLjvrm8asC35dcGFa6TjEL",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "juancarreno",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/juancarreno/status/789536545900490752",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1H87aLJxYCLxq77Qsf2YbGEk1vsvBJ5oUv",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "juancarreno",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjuancarreno%2Fposts%2F10154554638457319&width=500",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "contentUrl": "https://pk9.s3.amazonaws.com/juancarreno",
+        "identifier": "A026C0800A9243471FCF4693912817C94AB4BBCE",
+        "service": "pgp"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/483.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/juancarreno",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "juancarreno",
+      "proof_url": "https://twitter.com/juancarreno/status/789536545900490752",
+      "service": "twitter",
+      "valid": false
+    },
+    {
+      "identifier": "juancarreno",
+      "proof_url": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjuancarreno%2Fposts%2F10154554638457319&width=500",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN juancarreno.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/juancarreno.id\"\n"
+}

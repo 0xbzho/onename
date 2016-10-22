@@ -1,0 +1,48 @@
+{
+  "owner_address": "1QG2emAoLhBKTD1nRoqQD1zvchxdREwtcU",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "meiphe",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/meiphe/status/789408206179008512",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "andre.drougge",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/andre.drougge/posts/10154047885000975?pnref=story",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "miphe",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/miphe/be813dd810994c98ab2499518d5d8424",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sibiu"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/IHL.jpg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/drougge",
+        "name": "avatar"
+      }
+    ],
+    "name": "André Drougge"
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN drougge.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/drougge.id\"\n"
+}
