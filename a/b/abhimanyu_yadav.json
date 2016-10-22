@@ -1,6 +1,41 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1LNzPcvWxDQkMgMseXmfPWVYyvtJ8nLUGB",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "abhimanyu_y",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/abhimanyu_yadav/status/788864382381858816",
+        "service": "twitter"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/vsS.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/abhimanyu_yadav",
+        "name": "avatar"
+      }
+    ],
+    "name": "Abhimanyu Yadav"
+  },
+  "verifications": [
+    {
+      "identifier": "abhimanyu_y",
+      "proof_url": "https://twitter.com/abhimanyu_yadav/status/788864382381858816",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN abhimanyu_yadav.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/abhimanyu_yadav.id\"\n"
 }

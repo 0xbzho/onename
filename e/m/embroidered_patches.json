@@ -1,11 +1,21 @@
 {
   "owner_address": "14fXf4TZQwiVfdNb4TxxD4JaJpstkQQv4z",
   "profile": {
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/KJy.jpeg"
-    },
-    "v": "0.2"
+    "@type": "Person",
+    "account": [],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/KJy.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/embroidered_patches",
+        "name": "avatar"
+      }
+    ]
   },
   "verifications": [],
-  "zone_file": "{\"cover\": {\"url\": \"https://s3.amazonaws.com/97p/KJy.jpeg\"}, \"v\": \"0.2\"}"
+  "zone_file": "$ORIGIN embroidered_patches.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/embroidered_patches.id\"\n"
 }

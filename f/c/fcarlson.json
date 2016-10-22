@@ -1,6 +1,49 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1EG4jw1gUDbs2DqDjm6Gkd9qesQgkuyuBd",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "insitu64",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/InSitu64/status/789198978411671552",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "mediahesabu",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/mediahesabu/69dc7ae74586267c6144653b1073a672#file-gistfile1-txt",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/wkj.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/fcarlson",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "insitu64",
+      "proof_url": "https://twitter.com/InSitu64/status/789198978411671552",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "mediahesabu",
+      "proof_url": "https://gist.github.com/mediahesabu/69dc7ae74586267c6144653b1073a672#file-gistfile1-txt",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN fcarlson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/fcarlson.id\"\n"
 }

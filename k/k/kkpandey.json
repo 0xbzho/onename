@@ -1,6 +1,31 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1BLMTkLGM7VYQcgYf7pNeq97xVSA6sUSzX",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "kkpandey",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/kkpandey/status/789161441060204545",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "kkpandey",
+      "proof_url": "https://twitter.com/kkpandey/status/789161441060204545",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN kkpandey.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/kkpandey.id\"\n"
 }

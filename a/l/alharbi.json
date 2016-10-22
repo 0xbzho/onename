@@ -1,6 +1,57 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "159q9kiLDekYM8244vXX8nYMmFXpSpsDST",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "harbi",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/harbi/status/788756093782593537",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "harbixyz@gmail.com",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/saved/?cref=53",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "harbiad",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/harbiad/88ca114a6ee8302ab7b7296e8aa2abac",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/yId.jpg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "harbi",
+      "proof_url": "https://twitter.com/harbi/status/788756093782593537",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "harbixyz@gmail.com",
+      "proof_url": "https://www.facebook.com/saved/?cref=53",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "harbiad",
+      "proof_url": "https://gist.github.com/harbiad/88ca114a6ee8302ab7b7296e8aa2abac",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN alharbi.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/alharbi.id\"\n"
 }

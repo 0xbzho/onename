@@ -1,6 +1,31 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "13LckRt6CjFM7pUzXXzdemtCwJ4aUaynpq",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "joeshaib@yahoo.com",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jaimep007/7a3753a3db3572b34df86efcf6e776fb.js",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/L2N.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "joeshaib@yahoo.com",
+      "proof_url": "https://gist.github.com/jaimep007/7a3753a3db3572b34df86efcf6e776fb.js",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN joeshaib.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/joeshaib.id\"\n"
 }

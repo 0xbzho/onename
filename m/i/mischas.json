@@ -1,6 +1,56 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1E3k6qKXURdEaSme7WDvEMCQ6NwDyFiCrJ",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "greenstreet",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/Greenstreet/status/789029169384550400",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "Greenstreet-og",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/Greenstreet-og/c38ed37d9e0e3c3d540d83d2ae8e1b42#file-gistfile1-txt",
+        "service": "github"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Germany"
+    },
+    "description": "Internet addict, master zen baker, gamer, family guy. Like to try new stuff!",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/F9g.jpg",
+        "name": "cover"
+      }
+    ],
+    "name": "Mischa Strecker",
+    "website": [
+      {
+        "@type": "WebSite",
+        "url": "http://mischa-strecker.de"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "greenstreet",
+      "proof_url": "https://twitter.com/Greenstreet/status/789029169384550400",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "Greenstreet-og",
+      "proof_url": "https://gist.github.com/Greenstreet-og/c38ed37d9e0e3c3d540d83d2ae8e1b42#file-gistfile1-txt",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN mischas.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/mischas.id\"\n"
 }

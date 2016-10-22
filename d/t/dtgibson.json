@@ -1,27 +1,54 @@
 {
   "owner_address": "1QJacB5wozrr3jjRbWx15WoGRDcdJiaCGj",
   "profile": {
-    "avatar": {
-      "url": "https://s3.amazonaws.com/kd4/dtgibson"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "contentUrl": "https://keybase.io/dtgibson/key.asc",
+        "identifier": "DB8F0786B9F050570D5622EAB68FDDB34D9481CA",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "dtgibson",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/dtgibson/424f705f93159ffe640199be4b3e2cce",
+        "service": "github"
+      },
+      {
+        "@type": "Account",
+        "identifier": "gibsondt",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/gibsondt/status/789676081334722561",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "1FLzmwCfTCLttABW5oEcUr1MATWnxisu5Y",
+        "role": "payment",
+        "service": "bitcoin"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": ""
     },
-    "bio": "",
-    "cover": {
-      "url": "https://s3.amazonaws.com/dx3/dtgibson"
-    },
-    "location": {
-      "formatted": ""
-    },
-    "name": {
-      "formatted": "Dave Gibson"
-    },
-    "pgp": {
-      "url": "https://www.phantomplant.com/wp-content/uploads/2015/06/4D9481CA.txt"
-    },
-    "twitter": {
-      "username": "gibsondt"
-    },
-    "v": "0.2"
+    "description": "",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/dtgibson",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/dtgibson",
+        "name": "cover"
+      }
+    ],
+    "name": "Dave Gibson"
   },
   "verifications": [],
-  "zone_file": "{\"avatar\": {\"url\": \"https://s3.amazonaws.com/kd4/dtgibson\"}, \"bio\": \"\", \"cover\": {\"url\": \"https://s3.amazonaws.com/dx3/dtgibson\"}, \"location\": {\"formatted\": \"\"}, \"name\": {\"formatted\": \"Dave Gibson\"}, \"pgp\": {\"url\": \"https://www.phantomplant.com/wp-content/uploads/2015/06/4D9481CA.txt\"}, \"twitter\": {\"username\": \"gibsondt\"}, \"v\": \"0.2\"}"
+  "zone_file": "$ORIGIN dtgibson.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/dtgibson.id\"\n"
 }

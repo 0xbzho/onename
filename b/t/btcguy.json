@@ -1,6 +1,62 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "16yDhZibcWWyRm8V7sYARYTo3ZfTaGiBu5",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jpcomputertech",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/jpcomputertech/status/789065440978960384",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jaimejimmypagan",
+        "proofType": "http",
+        "proofUrl": "fb.me/9ZH4Ahnav",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "jaimep007",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/jaimep007/7a3753a3db3572b34df86efcf6e776fb.js",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/btcguy",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/btcguy",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "jpcomputertech",
+      "proof_url": "https://twitter.com/jpcomputertech/status/789065440978960384",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "jaimejimmypagan",
+      "proof_url": "fb.me/9ZH4Ahnav",
+      "service": "facebook",
+      "valid": false
+    },
+    {
+      "identifier": "jaimep007",
+      "proof_url": "https://gist.github.com/jaimep007/7a3753a3db3572b34df86efcf6e776fb.js",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN btcguy.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/btcguy.id\"\n"
 }

@@ -1,6 +1,21 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1Hi3ryA5Zqv8pYtTTJ9btFKJdSEPX4neDg",
+  "profile": {
+    "@type": "Person",
+    "account": [],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/brandmeco",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/brandmeco",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN brandmeco.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/brandmeco.id\"\n"
 }

@@ -1,6 +1,62 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1FxraF11vCPpTBz3BKcYw86k2zVdj6qeZE",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "cagrimmett",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/cagrimmett/status/789145106725101568",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cagrimmett",
+        "proofType": "http",
+        "proofUrl": "https://www.facebook.com/cagrimmett/posts/10207570513886863",
+        "service": "facebook"
+      },
+      {
+        "@type": "Account",
+        "identifier": "cagrimmett",
+        "proofType": "http",
+        "proofUrl": "https://gist.github.com/cagrimmett/ebfa8596534af6ee449b5288246afde7",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/cagrimmett",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/cagrimmett",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "cagrimmett",
+      "proof_url": "https://twitter.com/cagrimmett/status/789145106725101568",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "cagrimmett",
+      "proof_url": "https://www.facebook.com/cagrimmett/posts/10207570513886863",
+      "service": "facebook",
+      "valid": true
+    },
+    {
+      "identifier": "cagrimmett",
+      "proof_url": "https://gist.github.com/cagrimmett/ebfa8596534af6ee449b5288246afde7",
+      "service": "github",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN cagrimmett.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/cagrimmett.id\"\n"
 }

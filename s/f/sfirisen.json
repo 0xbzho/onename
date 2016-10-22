@@ -1,6 +1,21 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1PfqBowJeGtq6AzsU3gMeef7suV4j684Yt",
+  "profile": {
+    "@type": "Person",
+    "account": [],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/sfirisen",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/sfirisen",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [],
+  "zone_file": "$ORIGIN sfirisen.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/sfirisen.id\"\n"
 }
