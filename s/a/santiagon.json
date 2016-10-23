@@ -1,6 +1,31 @@
 {
-  "error": {
-    "message": "This username is not registered.",
-    "type": "username_not_registered"
-  }
+  "owner_address": "1LmUoNtFGX5EnFQWCWxF2KKwcCMHVuNNi6",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "nvsantiago@gmail.com",
+        "proofType": "http",
+        "proofUrl": "Verifying that \"santiagon.id\" is my Blockstack ID. https://onename.com/santiagon",
+        "service": "facebook"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/ikZ.jpeg",
+        "name": "cover"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "nvsantiago@gmail.com",
+      "proof_url": "Verifying that \"santiagon.id\" is my Blockstack ID. https://onename.com/santiagon",
+      "service": "facebook",
+      "valid": false
+    }
+  ],
+  "zone_file": "$ORIGIN santiagon.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/santiagon.id\"\n"
 }

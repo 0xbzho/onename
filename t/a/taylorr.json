@@ -42,6 +42,19 @@
     ],
     "name": "Taylor Randall"
   },
-  "verifications": [],
+  "verifications": [
+    {
+      "identifier": "TaylorKRandall",
+      "proof_url": "https://twitter.com/TaylorKRandall/status/787373499568357376",
+      "service": "twitter",
+      "valid": true
+    },
+    {
+      "identifier": "TaylorKRandall",
+      "proof_url": "https://gist.github.com/TaylorKRandall/41dc3c9eac758abf070c0997814616d9",
+      "service": "github",
+      "valid": false
+    }
+  ],
   "zone_file": "$ORIGIN taylorr.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/taylorr.id\"\n"
 }
