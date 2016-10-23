@@ -1,27 +1,62 @@
 {
   "owner_address": "1NJhknzYtUiMMCQQuAS42J4drrCamW2yvx",
   "profile": {
-    "bitcoin": {},
-    "cover": {
-      "url": "https://s3.amazonaws.com/97p/4AL.jpeg"
-    },
-    "facebook": {
-      "username": "jamesevans"
-    },
-    "github": {
-      "proof": {
-        "url": "https://gist.github.com/keystrike/ced61f9310a7c25edf40f794589fbf07"
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "jamesevans",
+        "proofType": "http",
+        "service": "facebook"
       },
-      "username": "keystrike"
-    },
-    "pgp": {
-      "fingerprint": "282E81F4CB3F454E8C40F95ECCCD74D054734EC6",
-      "url": "https://s3.amazonaws.com/pk9/keystroke"
-    },
-    "twitter": {
-      "username": "keystroke"
-    },
-    "v": "0.2"
+      {
+        "@type": "Account",
+        "contentUrl": "https://s3.amazonaws.com/pk9/keystroke",
+        "identifier": "282E81F4CB3F454E8C40F95ECCCD74D054734EC6",
+        "role": "key",
+        "service": "pgp"
+      },
+      {
+        "@type": "Account",
+        "identifier": "keystroke",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/keystroke/status/789990044136275968",
+        "service": "twitter"
+      },
+      {
+        "@type": "Account",
+        "identifier": "17FvSwdh4VxQqjN4bXp7PyXSKpte3hHpaW",
+        "role": "payment",
+        "service": "bitcoin"
+      },
+      {
+        "@type": "Account",
+        "identifier": "931d4dc22124ef28a612d7016b61953f8e5a9c05",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/SunOf27/status/789952405798617088",
+        "service": "openbazaar"
+      },
+      {
+        "@type": "Account",
+        "identifier": "https:",
+        "proofType": "http",
+        "proofUrl": "https://gist.githubusercontent.com/keystrike/6ec2988e9c98fe929b2a2cc81a7daf10/raw/5cb4578f5eaacc60f24f58e42d64d96c74c477e5/onename",
+        "service": "github"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/keystroke",
+        "name": "avatar"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/dx3/keystroke",
+        "name": "cover"
+      }
+    ],
+    "name": "James Evans"
   },
   "verifications": [
     {
@@ -31,5 +66,5 @@
       "valid": false
     }
   ],
-  "zone_file": "{\"bitcoin\": {}, \"cover\": {\"url\": \"https://s3.amazonaws.com/97p/4AL.jpeg\"}, \"facebook\": {\"username\": \"jamesevans\"}, \"github\": {\"proof\": {\"url\": \"https://gist.github.com/keystrike/ced61f9310a7c25edf40f794589fbf07\"}, \"username\": \"keystrike\"}, \"pgp\": {\"fingerprint\": \"282E81F4CB3F454E8C40F95ECCCD74D054734EC6\", \"url\": \"https://s3.amazonaws.com/pk9/keystroke\"}, \"twitter\": {\"username\": \"keystroke\"}, \"v\": \"0.2\"}"
+  "zone_file": "$ORIGIN keystroke.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/keystroke.id\"\n"
 }

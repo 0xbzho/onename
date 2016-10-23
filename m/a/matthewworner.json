@@ -1,0 +1,36 @@
+{
+  "owner_address": "1AmgFzG6z5PdZ6V6g9fUCwq9MG62SimuUP",
+  "profile": {
+    "@type": "Person",
+    "account": [
+      {
+        "@type": "Account",
+        "identifier": "matthewworner",
+        "proofType": "http",
+        "proofUrl": "https://twitter.com/matthewworner/status/789917530622193664",
+        "service": "twitter"
+      }
+    ],
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/97p/n6r.jpeg",
+        "name": "cover"
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://s3.amazonaws.com/kd4/matthewworner",
+        "name": "avatar"
+      }
+    ]
+  },
+  "verifications": [
+    {
+      "identifier": "matthewworner",
+      "proof_url": "https://twitter.com/matthewworner/status/789917530622193664",
+      "service": "twitter",
+      "valid": true
+    }
+  ],
+  "zone_file": "$ORIGIN matthewworner.id\n$TTL 3600\n_http._tcp URI 10 1 \"https://blockstack.s3.amazonaws.com/matthewworner.id\"\n"
+}
